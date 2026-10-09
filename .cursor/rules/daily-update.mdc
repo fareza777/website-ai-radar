@@ -95,17 +95,19 @@ npm test && npm run lint && npm run typecheck && npm run summaries:check && npm 
 ```
 All must pass. Fix the cause; never delete or weaken tests.
 
-## 8. Commit & push
+## 8. Commit & push DIRECTLY to main (no branch, no PR)
+This is an unattended daily job: publish straight to `main` — Vercel deploys from `main` automatically.
 ```bash
+git checkout main
 git add summaries src/config data
 git commit -m "chore(daily): summaries, tips, data $(date -u +%Y-%m-%d)"
-git push
+git pull --rebase origin main   # on conflicts in data/: git checkout --theirs data && git add data && git rebase --continue
+npm run summaries:check -- --prune
+git push origin HEAD:main
 ```
-If the push is rejected (the GitHub Actions bot commits `data/` every 3h):
-```bash
-git pull --rebase            # on conflicts in data/: git checkout --theirs data && git add data && git rebase --continue
-npm run summaries:check -- --prune && git add summaries && git commit -m "chore(daily): reconcile" ; git push
-```
+- Do NOT create a branch or open a pull request.
+- Only if pushing to main is impossible in your environment: push a branch named `cursor/daily-<date>` and open a
+  non-draft PR — the "Auto-merge daily Cursor run" workflow validates and merges it automatically.
 
 ## 9. Report (final message)
 - Items collected, sources failing + action taken.

@@ -1,0 +1,73 @@
+name: Auto-merge daily Cursor run
+
+# Safety net: if the daily Cursor agent opens a PR instead of pushing to main, validate it and
+# merge it automatically — but only when it touches the editorial/config paths it is allowed to.
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: collect-data
+  cancel-in-progress: false
+
+jobs:
+  automerge:
+    if: startsWith(github.head_ref, 'cursor/') && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PR: ${{ github.event.pull_request.number }}
+      HEAD_REF: ${{ github.head_ref }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Only allowed paths changed
+        run: |
+          gh pr diff "$PR" --name-only > changed.txt
+          cat changed.txt
+          if grep -vE '^(data/|summaries/(updates|discover|briefing)\.json$|src/config/(tips\.json|labs\.ts|deals\.ts)$)' changed.txt; then
+            echo "PR touches files outside the daily-run scope — leaving it for manual review."
+            gh pr comment "$PR" --body "⚠️ Not auto-merged: this PR changes files outside the daily-run scope (data/, summaries/, src/config/tips.json|labs.ts|deals.ts)."
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Validate (tests, summaries, build)
+        run: |
+          npm test
+          npm run summaries:check
+          npm run build
+
+      - name: Merge into main
+        run: |
+          git config user.name "ai-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          gh pr ready "$PR" || true
+          if ! gh pr merge "$PR" --squash --delete-branch; then
+            # The collector bot also commits data/ every 3h: keep main's data, keep the PR's summaries/config.
+            git fetch origin main
+            git merge origin/main -X theirs -m "chore: sync with main" || true
+            git checkout origin/main -- data/
+            git add -A && git commit -m "chore: take data/ from main" || true
+            git push origin "HEAD:$HEAD_REF"
+            sleep 5
+            gh pr merge "$PR" --squash --delete-branch
+          fi
+
+      - name: Refresh Discover so new tips go live
+        run: gh workflow run collect.yml --ref main -f only=discover

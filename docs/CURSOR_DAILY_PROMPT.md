@@ -8,7 +8,8 @@ Tempel teks di bawah ini apa adanya sebagai prompt tugas terjadwal di Cursor:
 ```text
 Run the AI Radar daily run: follow .cursor/rules/daily-update.mdc exactly, all steps in order
 (collect, fix sources, find up to 5 AI startups buzzing on X as tips, write summaries until
-summaries:check passes, check deals, validate, commit & push), then give a short report.
+summaries:check passes, check deals, validate), then commit and push DIRECTLY to main
+(git push origin HEAD:main) — no branch, no pull request. End with a short report.
 Never edit data/ by hand, never invent facts, never scrape X.
 ```
 
@@ -22,7 +23,9 @@ Never edit data/ by hand, never invent facts, never scrape X.
 | 5 | **Tulis ringkasan** untuk semua update baru, item Discover, dan Daily Briefing | Ringkasan & "Why it matters" spesifik, briefing editorial |
 | 6 | Cek ulang deals yang belum terverifikasi | Deals tetap akurat |
 | 7 | (Senin) cari feed resmi baru untuk lab berstatus Partial | Coverage naik |
-| 8–10 | Validasi, commit, push, laporan | Vercel deploy otomatis |
+| 8–10 | Validasi, commit, **push langsung ke main**, laporan | Vercel deploy otomatis |
+
+> Jika lingkungan Cursor memaksa membuat PR, workflow **Auto-merge daily Cursor run** otomatis memvalidasi & merge PR dari branch `cursor/*` ke `main` (hanya jika file yang diubah ada di `data/`, `summaries/`, atau `src/config/{tips.json,labs.ts,deals.ts}`), lalu menjalankan collector Discover.
 
 ## Pengaman otomatis
 
