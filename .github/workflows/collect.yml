@@ -29,7 +29,8 @@ concurrency:
 jobs:
   collect:
     # Issue events only matter for tips.
-    if: github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'radar-tip')
+    # (labeled only counts when the owner approves a community tip, avoiding a duplicate run on create.)
+    if: github.event_name != 'issues' || (contains(github.event.issue.labels.*.name, 'radar-tip') && (github.event.action != 'labeled' || github.event.label.name == 'approved'))
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
