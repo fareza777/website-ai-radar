@@ -2,7 +2,7 @@ import { DISCOVER } from "../../src/config/discover";
 import type { DiscoverItem, DiscoverKind, Signal, SourceStatus } from "../../src/lib/types";
 import { errorMessage, fetchJson, sleep } from "./http";
 import { dataPath, readJson, writeJson } from "./store";
-import { daysAgo, normalizeUrl, safeRegex, shortHash, truncate } from "./text";
+import { daysAgo, normalizeUrl, safeHttpUrl, safeRegex, shortHash, truncate } from "./text";
 
 interface GhRepo {
   full_name: string;
@@ -69,6 +69,7 @@ function fromRepo(r: GhRepo, signal: Signal): Candidate {
 async function githubSearch(now: Date, log: (m: string) => void): Promise<Candidate[]> {
   const since = daysAgo(now, DISCOVER.github.createdWithinDays).toISOString().slice(0, 10);
   const out: Candidate[] = [];
+  let failures = 0;
   for (const q of DISCOVER.github.queries) {
     const query = `${q} created:>${since} stars:>${DISCOVER.github.minStars} fork:false archived:false`;
     const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=20`;
@@ -78,11 +79,14 @@ async function githubSearch(now: Date, log: (m: string) => void): Promise<Candid
         out.push(fromRepo(r, { source: "github", label: `${r.stargazers_count.toLocaleString("en-US")} stars`, url: r.html_url, value: r.stargazers_count, at: now.toISOString() }));
       }
     } catch (err) {
+      failures++;
       log(`  ! github search "${q}": ${errorMessage(err)}`);
     }
     // Search API: 10 req/min unauthenticated, 30 req/min with a token.
     await sleep(hasToken() ? 2200 : 6500);
   }
+  // Report the source as failed (keeping previous items) when most queries failed, e.g. rate limited.
+  if (failures > DISCOVER.github.queries.length / 2) throw new Error(`${failures}/${DISCOVER.github.queries.length} GitHub search queries failed`);
   return out;
 }
 
@@ -91,7 +95,7 @@ async function hnSearch(path: string): Promise<HnHit[]> {
   return res.hits ?? [];
 }
 
-const GH_REPO_URL = /^https:\/\/github\.com\/([\w.-]+)\/([\w.-]+)\/?$/i;
+const GH_REPO_URL = /^https:\/\/github\.com\/(?!\.+\/)([\w.-]+)\/(?!\.+\/?$)([\w.-]+)\/?$/i;
 
 function cleanShowHnTitle(title: string): { name: string; description: string } {
   const t = title.replace(/^(show|launch) hn:\s*/i, "").trim();
@@ -111,7 +115,8 @@ async function hackerNews(now: Date): Promise<{ candidates: Candidate[]; repoRef
   const seen = new Set<string>();
 
   for (const hit of [...shows, ...stories]) {
-    if (!hit.url || seen.has(hit.objectID) || !keyword.test(hit.title)) continue;
+    const hitUrl = safeHttpUrl(hit.url);
+    if (!hitUrl || seen.has(hit.objectID) || !keyword.test(hit.title)) continue;
     seen.add(hit.objectID);
     const signal: Signal = {
       source: "hackernews",
@@ -120,7 +125,7 @@ async function hackerNews(now: Date): Promise<{ candidates: Candidate[]; repoRef
       value: hit.points,
       at: hit.created_at,
     };
-    const gh = GH_REPO_URL.exec(hit.url.replace(/\.git$/, ""));
+    const gh = GH_REPO_URL.exec(hitUrl.replace(/\.git$/, ""));
     if (gh) {
       const full = `${gh[1]}/${gh[2]}`;
       const prev = repoRefs.get(full.toLowerCase());
@@ -131,9 +136,9 @@ async function hackerNews(now: Date): Promise<{ candidates: Candidate[]; repoRef
     if (!isLaunch) continue; // plain news stories are news, not products
     const { name, description } = cleanShowHnTitle(hit.title);
     candidates.push({
-      key: `url:${normalizeUrl(hit.url)}`,
+      key: `url:${normalizeUrl(hitUrl)}`,
       name: truncate(name, 60),
-      url: hit.url,
+      url: hitUrl,
       kind: "show-hn",
       description: truncate(description, 300),
       // A Show HN post is the public launch moment of the product.
@@ -147,14 +152,18 @@ async function hackerNews(now: Date): Promise<{ candidates: Candidate[]; repoRef
 async function repoDetails(fullNames: string[], log: (m: string) => void): Promise<GhRepo[]> {
   const out: GhRepo[] = [];
   const cap = hasToken() ? 60 : 15; // stay well inside unauthenticated core limits
-  for (const name of fullNames.slice(0, cap)) {
+  const names = fullNames.slice(0, cap);
+  let failures = 0;
+  for (const name of names) {
     try {
       const r = await fetchJson<GhRepo>(`https://api.github.com/repos/${name}`);
       if (!r.fork && !r.archived) out.push(r);
     } catch (err) {
+      failures++;
       log(`  ! repo ${name}: ${errorMessage(err)}`);
     }
   }
+  if (names.length && failures > names.length / 2) throw new Error(`${failures}/${names.length} repo lookups failed`);
   return out;
 }
 
@@ -180,16 +189,21 @@ async function productHunt(now: Date): Promise<Candidate[] | null> {
   if (!res.ok) throw new Error(`Product Hunt HTTP ${res.status}`);
   const body = (await res.json()) as { data?: { posts?: { edges: PhPost[] } }; errors?: { message: string }[] };
   if (body.errors?.length) throw new Error(body.errors[0].message);
-  return (body.data?.posts?.edges ?? []).map(({ node }) => ({
+  return (body.data?.posts?.edges ?? []).flatMap(({ node }) => {
+    const url = safeHttpUrl(node.website) ?? safeHttpUrl(node.url);
+    const phUrl = safeHttpUrl(node.url);
+    if (!url || !phUrl) return [];
+    return [{
     key: `ph:${node.id}`,
     name: node.name,
-    url: node.website || node.url,
+    url,
     kind: "product" as const,
     description: truncate(`${node.tagline}${node.description ? ` — ${node.description}` : ""}`, 300),
     createdAt: node.createdAt,
     topics: node.topics.edges.map((e) => e.node.name.toLowerCase()),
-    signals: [{ source: "producthunt" as const, label: `${node.votesCount} upvote Product Hunt`, url: node.url, value: node.votesCount, at: node.createdAt }],
-  }));
+    signals: [{ source: "producthunt" as const, label: `${node.votesCount} upvote Product Hunt`, url: phUrl, value: node.votesCount, at: node.createdAt }],
+    }];
+  });
 }
 
 // ---------- templates (Indonesian) ----------
@@ -320,8 +334,9 @@ export async function collectDiscover(now: Date, log: (m: string) => void): Prom
     }
     const trimmed = history.slice(-30);
     const weekAgo = daysAgo(now, 7).toISOString();
-    const baseline = [...trimmed].reverse().find((h) => h.at <= weekAgo) ?? trimmed[0];
-    const delta = c.stars != null && baseline && baseline.at < nowIso.slice(0, 10) ? c.stars - baseline.stars : undefined;
+    // Only a snapshot at least 7 days old gives a real weekly delta; otherwise leave it unknown.
+    const baseline = [...trimmed].reverse().find((h) => h.at <= weekAgo);
+    const delta = c.stars != null && baseline ? c.stars - baseline.stars : undefined;
     const createdAt = c.createdAt ?? prev?.createdAt ?? null;
     const ageDays = createdAt ? (now.getTime() - Date.parse(createdAt)) / 86_400_000 : null;
     const novelty = ageDays != null && ageDays <= DISCOVER.newWithinDays ? "new" : "trending";

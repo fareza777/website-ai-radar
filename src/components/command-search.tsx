@@ -11,6 +11,7 @@ import { formatDate } from "@/lib/format";
 import { markRead } from "@/lib/storage";
 import type { SearchDoc } from "@/lib/search-types";
 import { LabLogo } from "./lab-logo";
+import { isHttpUrl, isInternalPath } from "@/lib/url";
 
 const OPEN_EVENT = "ai-radar:open-search";
 
@@ -21,10 +22,13 @@ export function openSearch() {
 let indexPromise: Promise<SearchDoc[]> | null = null;
 function loadIndex(): Promise<SearchDoc[]> {
   indexPromise ??= fetch("/search-index.json")
-    .then((r) => (r.ok ? (r.json() as Promise<SearchDoc[]>) : []))
-    .catch(() => {
-      indexPromise = null;
-      return [];
+    .then((r) => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json() as Promise<SearchDoc[]>;
+    })
+    .catch((err: unknown) => {
+      indexPromise = null; // allow a retry on next open
+      throw err;
     });
   return indexPromise;
 }
@@ -56,6 +60,7 @@ export function CommandSearch() {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [docs, setDocs] = useState<SearchDoc[] | null>(null);
+  const [indexError, setIndexError] = useState(false);
   const q = useDebounced(query, 120);
 
   useEffect(() => {
@@ -78,17 +83,18 @@ export function CommandSearch() {
   }, []);
 
   useEffect(() => {
-    if (open && !docs) loadIndex().then(setDocs);
+    if (open && !docs) loadIndex().then(setDocs, () => setIndexError(true));
   }, [open, docs]);
 
   const results = useMemo(() => (docs ? search(docs, q) : []), [docs, q]);
 
   const go = (d: SearchDoc) => {
     setOpen(false);
-    if (d.href.startsWith("/")) {
+    if (isInternalPath(d.href)) {
       router.push(d.href);
       return;
     }
+    if (!isHttpUrl(d.href)) return;
     if (d.type === "update") markRead(d.id);
     window.open(d.href, "_blank", "noopener,noreferrer");
   };
@@ -101,9 +107,17 @@ export function CommandSearch() {
         <Command shouldFilter={false} className="[&_[cmdk-group-heading]]:px-3 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground">
           <CommandInput value={query} onValueChange={setQuery} placeholder="Cari model, lab, tool, promo…  (mis. “claude opus”, “free”, “mcp”)" className="h-12" />
           <CommandList className="max-h-[min(65vh,520px)]">
-            {!docs && (
+            {!docs && !indexError && (
               <div className="flex items-center justify-center gap-2 py-10 text-sm text-muted-foreground">
                 <Loader2 className="size-4 animate-spin" /> Memuat indeks…
+              </div>
+            )}
+            {!docs && indexError && (
+              <div className="py-10 text-center text-sm text-muted-foreground">
+                Indeks pencarian gagal dimuat.{" "}
+                <button type="button" className="font-medium text-foreground underline" onClick={() => { setIndexError(false); loadIndex().then(setDocs, () => setIndexError(true)); }}>
+                  Coba lagi
+                </button>
               </div>
             )}
             {docs && q && <CommandEmpty>Tidak ada hasil untuk “{q}”.</CommandEmpty>}
@@ -129,7 +143,7 @@ export function CommandSearch() {
                             {d.date ? ` · ${formatDate(d.date)}` : ""}
                           </span>
                         </span>
-                        {!d.href.startsWith("/") && <ArrowUpRight className="size-4 text-muted-foreground" />}
+                        {!isInternalPath(d.href) && <ArrowUpRight className="size-4 text-muted-foreground" />}
                       </CommandItem>
                     );
                   })}

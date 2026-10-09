@@ -2,7 +2,7 @@ import { CURATED_DEALS, DEAL_SIGNALS } from "../../src/config/deals";
 import type { Deal, SourceStatus, UpdateItem } from "../../src/lib/types";
 import { errorMessage, fetchJson, fetchText, pool } from "./http";
 import { dataPath, readJson, writeJson } from "./store";
-import { daysAgo, normalizeUrl, safeRegex, shortHash, stripHtml, truncate } from "./text";
+import { daysAgo, normalizeUrl, parseDate, safeHttpUrl, safeRegex, shortHash, stripHtml, truncate } from "./text";
 
 interface OpenRouterModel {
   id: string;
@@ -61,31 +61,35 @@ async function curated(now: Date, prev: Map<string, Deal>, log: (m: string) => v
 async function openRouterFree(now: Date, prev: Map<string, Deal>): Promise<Deal[]> {
   const nowIso = now.toISOString();
   const res = await fetchJson<{ data: OpenRouterModel[] }>("https://openrouter.ai/api/v1/models");
-  const live = res.data.filter((m) => Number(m.pricing?.prompt) === 0 && Number(m.pricing?.completion) === 0 && !m.id.startsWith("openrouter/"));
+  // Strict: price must be an explicit "0" string — missing/null/blank pricing is NOT free (Number(null) === 0).
+  const isZero = (v: unknown) => typeof v === "string" && v.trim() !== "" && Number(v) === 0;
+  const live = res.data.filter((m) => isZero(m.pricing?.prompt) && isZero(m.pricing?.completion) && !m.id.startsWith("openrouter/"));
   const liveIds = new Set<string>();
-  const deals: Deal[] = live.map((m) => {
+  const deals: Deal[] = live.flatMap((m) => {
+    const created = parseDate(m.created);
+    if (!created) return []; // malformed entry: skip the model, not the whole source
     const id = `openrouter-free-${shortHash(m.id, 10)}`;
     liveIds.add(id);
     const vendor = m.id.split("/")[0];
-    const endsAt = m.expiration_date ? new Date(m.expiration_date).toISOString() : null;
-    return {
+    const endsAt = m.expiration_date ? parseDate(m.expiration_date)?.toISOString() ?? null : null;
+    return [{
       id,
       title: `${m.name.replace(/\s*\(free\)\s*$/i, "")} — gratis via OpenRouter`,
       provider: "OpenRouter",
-      kind: "free-model",
+      kind: "free-model" as const,
       description: truncate(stripHtml(m.description ?? ""), 220),
       terms: `Harga input & output $0 per token di OpenRouter${m.context_length ? ` · konteks ${m.context_length.toLocaleString("en-US")} token` : ""}. Model gratis memiliki batas rate harian.`,
       url: `https://openrouter.ai/${m.id}`,
       sourceName: "OpenRouter Models API",
-      status: isExpired(endsAt, now) ? "expired" : "active",
-      startsAt: new Date(m.created * 1000).toISOString(),
+      status: isExpired(endsAt, now) ? ("expired" as const) : ("active" as const),
+      startsAt: created.toISOString(),
       endsAt,
       firstSeenAt: prev.get(id)?.firstSeenAt ?? nowIso,
       lastVerifiedAt: nowIso,
       evidence: `pricing.prompt = ${m.pricing.prompt}, pricing.completion = ${m.pricing.completion} (model id: ${m.id})`,
       ...(OR_VENDOR[vendor] ? { lab: OR_VENDOR[vendor] } : {}),
       meta: { modelId: m.id, ...(m.context_length ? { context: m.context_length } : {}) },
-    };
+    } satisfies Deal];
   });
   // Previously free models that disappeared are kept as expired for 14 days (transparency).
   const cutoff = daysAgo(now, 14).toISOString();
@@ -142,16 +146,17 @@ async function hnDeals(now: Date, prev: Map<string, Deal>): Promise<Deal[]> {
       `https://hn.algolia.com/api/v1/search?query=${encodeURIComponent(q)}&tags=story&numericFilters=created_at_i>${since},points>${DEAL_SIGNALS.hackernews.minPoints}&hitsPerPage=20`,
     );
     for (const h of res.hits) {
-      if (!h.url || !re.test(h.title)) continue;
+      const url = safeHttpUrl(h.url);
+      if (!url || !re.test(h.title)) continue;
       const id = `hn-${h.objectID}`;
       out.set(id, {
         id,
         title: h.title,
-        provider: new URL(h.url).hostname.replace(/^www\./, ""),
+        provider: new URL(url).hostname.replace(/^www\./, ""),
         kind: "promo",
         description: "Sinyal komunitas dari Hacker News — belum diverifikasi oleh AI Radar.",
         terms: "Belum diverifikasi. Pastikan syarat, harga, dan masa berlaku langsung di situs penyedia.",
-        url: normalizeUrl(h.url),
+        url: normalizeUrl(url),
         sourceName: `Hacker News · ${h.points} poin`,
         status: "unverified",
         startsAt: h.created_at,

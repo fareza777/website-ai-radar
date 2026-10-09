@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { DiscoverView } from "@/components/discover-view";
 import { TimeAgo } from "@/components/time-ago";
-import { getDiscover, getStatus } from "@/lib/data";
+import { getDiscover, getStatus, toDiscoverCard } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Discover — Opportunity Radar",
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function DiscoverPage() {
-  const items = getDiscover();
+  const items = getDiscover().map(toDiscoverCard);
   const status = getStatus();
   const sources = (status?.sources ?? []).filter((s) => s.lab === "discover");
 

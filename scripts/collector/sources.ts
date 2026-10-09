@@ -2,7 +2,7 @@ import type { SourceConfig } from "../../src/lib/types";
 import { isPrerelease, semverKind } from "./classify";
 import { parseFeed } from "./feed";
 import { fetchJson, fetchText } from "./http";
-import { decodeEntities, parseDate, safeRegex, stripHtml, truncate } from "./text";
+import { decodeEntities, parseDate, safeHttpUrl, safeRegex, stripHtml, truncate } from "./text";
 
 /** Source-agnostic item before classification/merging. */
 export interface RawItem {
@@ -25,8 +25,8 @@ export interface FetchContext {
 }
 
 const EXCERPT_MAX = 420;
-// Bad source data guard: allow small clock skew but never accept far-future dates.
-const MAX_FUTURE_MS = 2 * 86_400_000;
+// Bad source data guard: allow small clock skew/timezone slop but never accept future-dated posts.
+const MAX_FUTURE_MS = 6 * 3_600_000;
 
 function accept(source: SourceConfig, ctx: FetchContext, item: RawItem): boolean {
   const t = item.publishedAt.getTime();
@@ -54,9 +54,11 @@ async function fromRss(source: SourceConfig, ctx: FetchContext): Promise<SourceR
   for (const e of entries) {
     const publishedAt = e.publishedAt ?? e.updatedAt;
     if (!publishedAt) continue; // no reliable date → skip instead of guessing
+    const url = safeHttpUrl(decodeEntities(e.url), source.target);
+    if (!url) continue; // non-http(s) or unparsable link → drop
     items.push({
       title: e.title,
-      url: decodeEntities(e.url.trim()),
+      url,
       publishedAt,
       excerpt: truncate(stripHtml(e.html), EXCERPT_MAX),
     });
@@ -112,17 +114,28 @@ async function fromGithubReleases(source: SourceConfig, ctx: FetchContext): Prom
   const label = source.label ?? prettyRepo(source.target);
   const items: RawItem[] = [];
   for (const e of entries) {
+    const url = safeHttpUrl(decodeEntities(e.url), "https://github.com/");
+    if (!url || (!e.publishedAt && !e.updatedAt)) continue;
     const version = e.title.trim();
-    if (!e.publishedAt && !e.updatedAt) continue;
-    if (isPrerelease(version) || isPrerelease(e.url)) continue;
-    const kind = semverKind(version) ?? semverKind(e.url);
-    const ver = /v?\d+\.\d+(\.\d+)?/.exec(version)?.[0] ?? version;
+    const rawTag = url.split("/releases/tag/")[1] ?? "";
+    let tag = rawTag;
+    try {
+      tag = decodeURIComponent(rawTag);
+    } catch {
+      // keep the raw tag when it is not valid percent-encoding
+    }
+    if (isPrerelease(version) || isPrerelease(tag)) continue;
+    if (!/\d+\.\d+/.test(tag) && !/\d+\.\d+/.test(version)) continue; // internal/tooling tags without a version
+    const kind = semverKind(tag || version) ?? semverKind(version);
+    const ver = /v?\d+\.\d+(\.\d+)?/.exec(tag)?.[0] ?? /v?\d+\.\d+(\.\d+)?/.exec(version)?.[0] ?? version;
+    // Monorepos tag packages like "desktop-v0.25.0" / "harness-cli-v0.2.0": keep the package name.
+    const pkg = tag.replace(/[-_@/]*v?\d+\.\d+.*$/, "").replace(/^v$/, "");
     items.push({
-      title: `${label} ${ver.startsWith("v") ? ver : `v${ver}`}`,
-      url: decodeEntities(e.url),
+      title: `${label}${pkg ? ` ${pkg}` : ""} ${ver.startsWith("v") ? ver : `v${ver}`}`,
+      url,
       publishedAt: (e.updatedAt ?? e.publishedAt)!,
       excerpt: truncate(stripHtml(e.html), EXCERPT_MAX),
-      meta: { version: ver, semver: kind ?? "unknown", repo: source.target },
+      meta: { version: ver, semver: kind ?? "unknown", repo: source.target, ...(pkg ? { package: pkg } : {}) },
     });
   }
   return finish(source, ctx, items);

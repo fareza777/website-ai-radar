@@ -4,6 +4,7 @@ import { formatDayHeader } from "@/lib/format";
 import type { Briefing, UpdateItem } from "@/lib/types";
 import { LabLogo } from "./lab-logo";
 import { TimeAgo } from "./time-ago";
+import { extHref } from "@/lib/url";
 
 interface BriefingCardProps {
   briefing: Briefing | undefined;
@@ -47,7 +48,7 @@ export function BriefingCard({ briefing, itemsById }: BriefingCardProps) {
             return (
               <li key={i}>
                 {item ? (
-                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-3 rounded-xl border border-transparent bg-subtle/60 p-3 transition hover:border-border hover:bg-subtle">
+                  <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-3 rounded-xl border border-transparent bg-subtle/60 p-3 transition hover:border-border hover:bg-subtle">
                     {content}
                   </a>
                 ) : (

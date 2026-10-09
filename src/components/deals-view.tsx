@@ -13,6 +13,7 @@ import { BookmarkButton } from "./bookmark-button";
 import { Chip, ChipRow, EmptyState, SearchInput } from "./filters";
 import { LabLogo } from "./lab-logo";
 import { TimeAgo } from "./time-ago";
+import { extHref } from "@/lib/url";
 
 const KIND_LABEL: Record<DealKind, string> = {
   "free-model": "Model gratis",
@@ -87,7 +88,7 @@ function DealCard({ deal, status }: { deal: Deal; status: DealStatus }) {
 
       <footer className="mt-auto flex items-center justify-between pt-3 text-[11.5px] text-muted-foreground">
         <span className="truncate">{deal.sourceName}</span>
-        <a href={deal.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-0.5 font-medium text-foreground hover:underline">
+        <a href={extHref(deal.url)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-0.5 font-medium text-foreground hover:underline">
           Sumber resmi <ArrowUpRight className="size-3.5" />
         </a>
       </footer>

@@ -8,6 +8,7 @@ import { formatDate } from "@/lib/format";
 import { removeBookmark, useRadarState, type SavedKind } from "@/lib/storage";
 import { Chip, ChipRow, EmptyState } from "./filters";
 import { LabLogo } from "./lab-logo";
+import { extHref } from "@/lib/url";
 
 const KIND_LABEL: Record<SavedKind, string> = { update: "Update lab", discover: "Discover", deal: "Deals" };
 
@@ -49,7 +50,7 @@ export function SavedView() {
                   {KIND_LABEL[e.kind]}
                   {lab ? ` · ${lab.name}` : ""} · {formatDate(e.date)}
                 </p>
-                <a href={e.url} target="_blank" rel="noopener noreferrer" className="group mt-0.5 inline-flex items-start gap-1 font-medium leading-snug hover:underline">
+                <a href={extHref(e.url)} target="_blank" rel="noopener noreferrer" className="group mt-0.5 inline-flex items-start gap-1 font-medium leading-snug hover:underline">
                   {e.title}
                   <ArrowUpRight className="mt-0.5 size-3.5 shrink-0 text-muted-foreground" />
                 </a>

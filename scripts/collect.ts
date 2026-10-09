@@ -33,6 +33,11 @@ async function main() {
   const only = arg("only");
   const labFilter = arg("lab");
   const backfillDays = Number(arg("backfill-days") ?? process.env.BACKFILL_DAYS ?? 90);
+  if (!Number.isInteger(backfillDays) || backfillDays < 1 || backfillDays > 3650) {
+    throw new Error(`Invalid --backfill-days: ${arg("backfill-days") ?? process.env.BACKFILL_DAYS}`);
+  }
+  if (only && !["labs", "discover", "deals"].includes(only)) throw new Error(`Invalid --only: ${only} (labs | discover | deals)`);
+  if (labFilter && !LABS.some((l) => l.slug === labFilter)) throw new Error(`Unknown --lab: ${labFilter}`);
   const llm = llmConfig();
   const prev = readJson<RunStatus | null>(dataPath("status.json"), null);
   const prevStatus = new Map((prev?.sources ?? []).map((s) => [s.id, s]));

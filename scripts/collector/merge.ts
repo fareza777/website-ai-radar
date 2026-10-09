@@ -135,6 +135,9 @@ export function dedupe(items: readonly UpdateItem[]): UpdateItem[] {
     const dupIndex = kept.findIndex(
       (k) =>
         k.id !== item.id &&
+        // Only collapse reports from DIFFERENT sources; two entries of one feed are distinct releases.
+        k.sourceId !== item.sourceId &&
+        !(k.sourceType === "github-releases" && item.sourceType === "github-releases") &&
         Math.abs(Date.parse(k.publishedAt) - t) <= DEDUPE_WINDOW_MS &&
         jaccard(tok(k), tok(item)) >= DEDUPE_SIMILARITY,
     );
@@ -146,7 +149,7 @@ export function dedupe(items: readonly UpdateItem[]): UpdateItem[] {
     const seen = [...(winner.seenIn ?? [])];
     if (!seen.some((s) => s.url === item.url)) seen.push({ sourceId: item.sourceId, sourceName: item.sourceName, url: item.url });
     for (const s of item.seenIn ?? []) if (!seen.some((x) => x.url === s.url)) seen.push(s);
-    kept[dupIndex] = { ...winner, seenIn: seen, verified: winner.verified || item.verified };
+    kept[dupIndex] = { ...winner, seenIn: seen };
   }
   return kept.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }

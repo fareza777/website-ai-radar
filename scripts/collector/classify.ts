@@ -6,7 +6,7 @@ import type { Category, SourceType } from "../../src/lib/types";
  * explicit model word.
  */
 const VERSIONED_MODEL =
-  /((gpt|\bo)-?\d|gpt-oss|claude( \w+)? \d|(opus|sonnet|haiku|mythos) \d|gemini( \w+)? \d|gemma ?\d|veo ?\d|imagen ?\d|grok[- ]?\d|deepseek[- ]?(v|r)\d|qwen ?\d|qwq|kimi[- ]?k?\d|glm[- ]?\d|llama ?\d|(mistral|magistral|devstral|codestral|ministral|pixtral|voxtral)( \w+)? ?\d|minimax[- ]?(m|h)?\d|command[- ]?(a|r)\b|aya \w+|phi-?\d|nova (pro|lite|micro|premier|\d)|ernie[- ]?\d|hunyuan|doubao|seed-?\d|nemotron[- ]?\d|jamba ?\d|granite[- ]?\d|sora ?\d|whisper|(?<!\$)\b\d+(\.\d+)?b\b)/i;
+  /((gpt|\bo)-?\d|gpt-oss|claude( \w+)? \d|(opus|sonnet|haiku|mythos) \d|gemini( \w+)? \d|gemma ?\d|veo ?\d|imagen ?\d|grok[- ]?\d|deepseek[- ]?(v|r)\d|qwen ?\d|qwq|kimi[- ]?k?\d|glm[- ]?\d|llama ?\d|(mistral|magistral|devstral|codestral|ministral|pixtral|voxtral)( \w+)? ?\d|minimax[- ]?(m|h)?\d|command[- ]?(a|r)\b|aya \w+|phi-?\d|nova (pro|lite|micro|premier|\d)|ernie[- ]?\d|hunyuan|doubao|seed-?\d|nemotron[- ]?\d|jamba ?\d|granite[- ]?\d|sora ?\d|whisper|(?<![$\d.,])\b\d+(\.\d+)?b\b)/i;
 const MODEL_WORDS = /(\bmodels?\b|open[- ]weights?|checkpoint|reasoning model|frontier model|\bllm\b)/i;
 
 interface Rule {

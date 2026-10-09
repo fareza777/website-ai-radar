@@ -4,7 +4,8 @@ import type { SourceConfig, UpdateItem } from "../src/lib/types";
 import { classify, importance, isPrerelease, semverKind } from "../scripts/collector/classify";
 import { parseFeed } from "../scripts/collector/feed";
 import { buildItem, dedupe, mergeItems } from "../scripts/collector/merge";
-import { isOfficialUrl, jaccard, normalizeUrl, parseDate, stripHtml, titleTokens, truncate } from "../scripts/collector/text";
+import { isGrounded } from "../scripts/collector/llm";
+import { isOfficialUrl, jaccard, normalizeUrl, parseDate, safeHttpUrl, stripHtml, titleTokens, truncate } from "../scripts/collector/text";
 
 const openai = LABS.find((l) => l.slug === "openai")!;
 const rssSource: SourceConfig = { id: "openai-news", type: "rss", name: "OpenAI News", target: "x", trust: "official" };
@@ -191,5 +192,43 @@ describe("regression: false positives seen in real data", () => {
 
   it("decodes double-encoded entities", () => {
     expect(stripHtml("Bedrock.&amp;nbsp;Ultrafast")).toBe("Bedrock. Ultrafast");
+  });
+});
+
+describe("regression: code review findings", () => {
+  it("never dedupes two entries of the same source", () => {
+    const hfSrc: SourceConfig = { id: "hf", type: "huggingface", name: "HF", target: "x", trust: "official" };
+    const a = buildItem(openai, hfSrc, raw("UI-Mate-27B", "https://huggingface.co/x/UI-Mate-27B"), NOW);
+    const b = buildItem(openai, hfSrc, raw("UI-Mate-democua-27B", "https://huggingface.co/x/UI-Mate-democua-27B"), NOW);
+    expect(dedupe([a, b])).toHaveLength(2);
+  });
+
+  it("does not inherit the verified badge from an absorbed duplicate", () => {
+    const mirrorSrc: SourceConfig = { ...rssSource, id: "m", trust: "mirror" };
+    const official = buildItem(openai, mirrorSrc, raw("Introducing GPT-6 Luna", "https://example.com/a"), NOW);
+    const copy = buildItem(openai, { ...rssSource, id: "x" }, raw("Introducing GPT-6 Luna", "https://openai.com/a"), NOW);
+    const [kept] = dedupe([official, copy]);
+    expect(kept.verified).toBe(isOfficialUrl(kept.url, openai.domains));
+  });
+
+  it("accepts only http(s) URLs", () => {
+    expect(safeHttpUrl("javascript:alert(1)")).toBeNull();
+    expect(safeHttpUrl("data:text/html,x")).toBeNull();
+    expect(safeHttpUrl("tag:openai.com,2026:1")).toBeNull();
+    expect(safeHttpUrl("/news/x", "https://openai.com/news/rss.xml")).toBe("https://openai.com/news/x");
+  });
+
+  it("keeps comparison text like 'latency < 5ms'", () => {
+    expect(stripHtml("latency < 5ms and throughput > 2x")).toBe("latency < 5ms and throughput > 2x");
+  });
+
+  it("does not read funding amounts as model sizes", () => {
+    expect(classify("Company raises $2.5B in funding", "", "rss")).not.toBe("model");
+    expect(classify("Qwen3.8 27B open weights", "", "rss")).toBe("model");
+  });
+
+  it("rejects LLM output with numbers absent from the source", () => {
+    expect(isGrounded("Harga turun 50% menjadi $0.10", "Prices drop for the API")).toBe(false);
+    expect(isGrounded("Claude Opus 5.5 kini tersedia", "Introducing Claude Opus 5.5")).toBe(true);
   });
 });

@@ -83,6 +83,21 @@ function clean(s: unknown, max: number): string | null {
   return t.length >= 10 ? t.slice(0, max) : null;
 }
 
+const NUMBER_TOKEN = /[$€£]?\d[\d.,]*\s?(%|[kmb]\b)?/gi;
+
+/**
+ * Grounding guard: every number/price/percentage in the LLM output must appear in the source text.
+ * Rejects hallucinated figures (and figures injected via prompt-injection in feed excerpts).
+ */
+export function isGrounded(output: string, source: string): boolean {
+  const src = source.toLowerCase().replace(/\s+/g, "");
+  for (const m of output.toLowerCase().matchAll(NUMBER_TOKEN)) {
+    const digits = m[0].replace(/[^\d.,]/g, "").replace(/[.,]+$/, "");
+    if (digits && !src.includes(digits)) return false;
+  }
+  return true;
+}
+
 /** Summarizes items in batches; failures are logged and skipped (templates remain). */
 export async function enrichUpdates(cfg: LlmConfig, items: EnrichInput[], log: (m: string) => void): Promise<Map<string, Enriched>> {
   const out = new Map<string, Enriched>();
@@ -103,7 +118,12 @@ ${JSON.stringify(batch)}`;
         const id = typeof r.id === "string" ? r.id : null;
         const summary = clean(r.summary, 320);
         const benefit = clean(r.benefit, 240);
-        if (!id || !summary || !benefit || !batch.some((b) => b.id === id)) continue;
+        const src = batch.find((b) => b.id === id);
+        if (!id || !summary || !benefit || !src) continue;
+        if (!isGrounded(`${summary} ${benefit}`, `${src.title} ${src.excerpt}`)) {
+          log(`  ! LLM output for ${id} cites numbers not in source — keeping template`);
+          continue;
+        }
         const category = CATEGORIES.includes(r.category as Category) ? (r.category as Category) : undefined;
         out.set(id, { summary, benefit, category });
       }
@@ -152,7 +172,10 @@ ${JSON.stringify(batch)}`;
         const summary = clean(r.summary, 240);
         const unique = clean(r.unique, 200);
         const benefit = clean(r.benefit, 200);
-        if (id && summary && unique && benefit && batch.some((b) => b.id === id)) out.set(id, { summary, unique, benefit });
+        const src = batch.find((b) => b.id === id);
+        if (id && summary && unique && benefit && src && isGrounded(`${summary} ${unique} ${benefit}`, `${src.name} ${src.description} ${src.topics.join(" ")}`)) {
+          out.set(id, { summary, unique, benefit });
+        }
       }
     } catch (err) {
       log(`  ! LLM discover batch failed: ${errorMessage(err)}`);
@@ -175,10 +198,12 @@ ${JSON.stringify(items)}`;
   const res = (await chatJson(cfg, SYSTEM_RULES, user)) as { headline?: unknown; bullets?: { text?: unknown; itemId?: unknown }[] };
   const headline = clean(res.headline, 220);
   if (!headline || !Array.isArray(res.bullets)) return null;
+  const source = JSON.stringify(items);
+  if (!isGrounded(headline, source)) return null;
   const ids = new Set(items.map((i) => i.id));
   const bullets = res.bullets
     .map((b) => ({ text: clean(b.text, 240), itemId: typeof b.itemId === "string" && ids.has(b.itemId) ? b.itemId : undefined }))
-    .filter((b): b is { text: string; itemId: string | undefined } => !!b.text)
+    .filter((b): b is { text: string; itemId: string | undefined } => !!b.text && isGrounded(b.text, source))
     .slice(0, 6);
   return bullets.length ? { headline, bullets } : null;
 }

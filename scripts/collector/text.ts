@@ -21,9 +21,9 @@ export function stripHtml(input: string): string {
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
     .replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, " ")
     .replace(/<br\s*\/?>|<\/(p|div|li|h\d)>/gi, " ")
-    .replace(/<[^>]+>/g, " ");
+    .replace(/<\/?[a-z!][^>]*>/gi, " ");
   // Decode after stripping, then strip again in case the source double-encoded markup/entities.
-  const once = decodeEntities(withoutTags).replace(/<[^>]+>/g, " ");
+  const once = decodeEntities(withoutTags).replace(/<\/?[a-z!][^>]*>/gi, " ");
   const twice = /&(#x?[0-9a-f]+|[a-z]+);/i.test(once) ? decodeEntities(once) : once;
   return twice.replace(/\s+/g, " ").trim();
 }
@@ -33,6 +33,20 @@ export function truncate(input: string, max: number): string {
   const cut = input.slice(0, max);
   const lastSpace = cut.lastIndexOf(" ");
   return `${(lastSpace > max * 0.5 ? cut.slice(0, lastSpace) : cut).replace(/[\s,.;:–—-]+$/, "")}…`;
+}
+
+/**
+ * Resolves `raw` (optionally against `base`) and returns it only if it is an absolute http(s) URL.
+ * Anything else (javascript:, data:, tag:, garbage) returns null so the item is dropped.
+ */
+export function safeHttpUrl(raw: string | null | undefined, base?: string): string | null {
+  if (!raw) return null;
+  try {
+    const url = new URL(raw.trim(), base);
+    return url.protocol === "http:" || url.protocol === "https:" ? url.toString() : null;
+  } catch {
+    return null;
+  }
 }
 
 const TRACKING_PARAMS = /^(utm_|ref$|ref_src$|source$|fbclid$|gclid$|mc_cid$|mc_eid$)/i;

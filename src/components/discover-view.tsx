@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import { BookmarkButton } from "./bookmark-button";
 import { Chip, ChipRow, EmptyState, Pagination, SearchInput, Segmented } from "./filters";
 import { GithubIcon } from "./lab-logo";
+import { extHref } from "@/lib/url";
 
 type Sort = "score" | "newest" | "stars";
 const PER_PAGE = 18;
@@ -47,7 +48,7 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
             {item.summarySource === "llm" && <span className="rounded bg-muted px-1.5 font-mono text-[10px] text-muted-foreground">AI</span>}
           </div>
           <h3 className="mt-2 text-base font-semibold tracking-tight">
-            <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+            <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" className="hover:underline">
               {item.name}
             </a>
           </h3>
@@ -91,11 +92,11 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
             </a>
           )}
           {hn && (
-            <a href={hn.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-orange-600 hover:underline dark:text-orange-400">
+            <a href={extHref(hn.url)} target="_blank" rel="noopener noreferrer" className="font-semibold text-orange-600 hover:underline dark:text-orange-400">
               HN
             </a>
           )}
-          <a href={item.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-0.5 font-medium text-foreground hover:underline">
+          <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-0.5 font-medium text-foreground hover:underline">
             Tautan resmi <ArrowUpRight className="size-3.5" />
           </a>
         </span>

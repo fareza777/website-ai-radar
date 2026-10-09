@@ -13,12 +13,16 @@ const cache = new Map<string, unknown>();
 
 function load<T>(rel: string, fallback: T): T {
   if (cache.has(rel)) return cache.get(rel) as T;
-  let value: T;
+  let raw: string | null = null;
   try {
-    value = JSON.parse(readFileSync(join(DATA_DIR, rel), "utf8")) as T;
-  } catch {
-    value = fallback;
+    raw = readFileSync(join(DATA_DIR, rel), "utf8");
+  } catch (err) {
+    // Only a missing file falls back; any other I/O problem must fail the build.
+    if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
   }
+  // Corrupt JSON throws on purpose: a failed build keeps the previous good deployment live
+  // instead of silently publishing empty pages.
+  const value = raw === null ? fallback : (JSON.parse(raw) as T);
   cache.set(rel, value);
   return value;
 }
@@ -38,6 +42,13 @@ export function getStatus(): RunStatus | null {
 
 export function getDiscover(): DiscoverItem[] {
   return load<DiscoverItem[]>("discover.json", []);
+}
+
+/** Client payload for Discover cards: drops star history (only used by the collector). */
+export function toDiscoverCard(d: DiscoverItem): DiscoverItem {
+  const { starHistory: _history, ...rest } = d;
+  void _history;
+  return { ...rest, description: d.description === d.summary ? "" : d.description };
 }
 
 export function getDeals(): Deal[] {

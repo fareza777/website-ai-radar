@@ -12,6 +12,7 @@ import { CategoryBadge, VerifyBadge } from "./badges";
 import { BookmarkButton } from "./bookmark-button";
 import { LabLogo } from "./lab-logo";
 import { TimeAgo } from "./time-ago";
+import { extHref } from "@/lib/url";
 
 interface UpdateCardProps {
   item: FeedItem;
@@ -55,7 +56,7 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
       </header>
 
       <h3 className={cn("mt-2 text-[15px] font-semibold leading-snug tracking-tight sm:text-base", unread ? "text-foreground" : "text-foreground/80")}>
-        <a href={item.url} target="_blank" rel="noopener noreferrer" onClick={() => markRead(item.id)} className="decoration-brand/50 underline-offset-4 hover:underline">
+        <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" onClick={() => markRead(item.id)} className="decoration-brand/50 underline-offset-4 hover:underline">
           {item.title}
           <ArrowUpRight className="ml-1 inline size-3.5 -translate-y-px text-muted-foreground opacity-0 transition group-hover:opacity-100" />
         </a>
