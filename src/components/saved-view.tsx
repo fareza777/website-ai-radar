@@ -46,7 +46,7 @@ export function SavedView() {
             <li key={e.id} className="card-surface flex items-start gap-3 p-4">
               {lab ? <LabLogo logo={lab.logo} name={lab.name} size="sm" /> : <span className="flex size-7 items-center justify-center rounded-lg border text-muted-foreground"><Bookmark className="size-3.5" /></span>}
               <div className="min-w-0 flex-1">
-                <p className="text-[11.5px] text-muted-foreground">
+                <p className="text-[13px] text-muted-foreground">
                   {KIND_LABEL[e.kind]}
                   {lab ? ` · ${lab.name}` : ""} · {formatDate(e.date)}
                 </p>
@@ -54,7 +54,7 @@ export function SavedView() {
                   {e.title}
                   <ArrowUpRight className="mt-0.5 size-3.5 shrink-0 text-muted-foreground" />
                 </a>
-                {e.subtitle && <p className="mt-0.5 line-clamp-2 text-[13px] text-muted-foreground">{e.subtitle}</p>}
+                {e.subtitle && <p className="mt-0.5 line-clamp-2 text-[14px] text-muted-foreground">{e.subtitle}</p>}
               </div>
               <button type="button" onClick={() => removeBookmark(e.id)} aria-label="Remove" className="rounded-lg p-2 text-muted-foreground transition hover:bg-accent hover:text-rose-500">
                 <Trash2 className="size-4" />

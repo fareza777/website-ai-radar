@@ -4,7 +4,10 @@ import type { SourceConfig, UpdateItem } from "../src/lib/types";
 import { classify, importance, isPrerelease, semverKind } from "../scripts/collector/classify";
 import { parseFeed } from "../scripts/collector/feed";
 import { buildItem, dedupe, mergeItems } from "../scripts/collector/merge";
+import { isProductUrl, productKey } from "../scripts/collector/buzz";
 import { isGrounded } from "../scripts/collector/llm";
+import { perMillion } from "../scripts/collector/models";
+import { headlineAmount, headlineCompany, startupKind } from "../scripts/collector/startups";
 import { isOfficialUrl, jaccard, normalizeUrl, parseDate, safeHttpUrl, stripHtml, titleTokens, truncate } from "../scripts/collector/text";
 
 const openai = LABS.find((l) => l.slug === "openai")!;
@@ -241,5 +244,48 @@ describe("regression: volatile metrics", () => {
     const [merged] = mergeItems([v1], [v2], NOW);
     expect(merged.updatedAt).toBe(v1.updatedAt);
     expect(merged.meta?.likes).toBe(99);
+  });
+});
+
+describe("buzz radar", () => {
+  it("accepts product homepages and repos, rejects social/news/lab links", () => {
+    expect(isProductUrl("https://antseed.com")).toBe(true);
+    expect(isProductUrl("https://github.com/antseed/antseed")).toBe(true);
+    expect(isProductUrl("https://github.com/antseed")).toBe(false);
+    expect(isProductUrl("https://x.com/user/status/1")).toBe(false);
+    expect(isProductUrl("https://techcrunch.com/2026/10/07/x")).toBe(false);
+    expect(isProductUrl("https://openai.com/index/gpt-6")).toBe(false);
+    expect(isProductUrl("https://blog.cloudflare.com/clef")).toBe(false);
+    expect(isProductUrl("javascript:alert(1)")).toBe(false);
+  });
+
+  it("builds stable product keys", () => {
+    expect(productKey("https://www.agenthog.io/?utm_source=bensbites")).toBe(productKey("https://agenthog.io"));
+  });
+});
+
+describe("startup radar", () => {
+  it("classifies headlines and keeps amounts verbatim", () => {
+    expect(startupKind("Mecka AI raises $60 million to teach humanoid robots")).toBe("funding");
+    expect(startupKind("Goodfire launches cheap monitors")).toBe("launch");
+    expect(startupKind("Delray Beach travel company acquires AI startup")).toBe("acquisition");
+    expect(headlineAmount("Antseed Raises $2.4M to Launch Peer-to-Peer Marketplace")).toBe("$2.4M");
+    expect(headlineAmount("Startup raises funds")).toBeNull();
+  });
+
+  it("extracts company names only when the headline pattern is present", () => {
+    expect(headlineCompany("AI trading startup Catalyst raises $30 million seed")).toBe("Catalyst");
+    expect(headlineCompany("Antseed Raises $2.4M to Launch Peer-to-Peer Marketplace")).toBe("Antseed");
+    expect(headlineCompany("Popular AI leaderboard Arena nearly doubles valuation")).toBeNull();
+  });
+});
+
+describe("model price tracker", () => {
+  it("only accepts explicit numeric prices", () => {
+    expect(perMillion("0.000003")).toBe(3);
+    expect(perMillion("0")).toBe(0);
+    expect(perMillion(null)).toBeNull();
+    expect(perMillion("")).toBeNull();
+    expect(perMillion("-1")).toBeNull();
   });
 });

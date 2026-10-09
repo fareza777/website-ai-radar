@@ -1,0 +1,27 @@
+name: Radar tip
+description: Spotted a great AI startup/tool (e.g. on X)? Send it to AI Radar.
+title: "Tip: "
+labels: ["radar-tip"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The collector reads the X post via X's official embed (oEmbed), follows its links, verifies the product page,
+        and adds it to **Discover**. Tips from the repo owner are published automatically; others after review.
+  - type: input
+    id: x_post
+    attributes:
+      label: X post URL
+      description: e.g. https://x.com/someone/status/1234567890
+      placeholder: https://x.com/…/status/…
+  - type: input
+    id: product
+    attributes:
+      label: Product URL
+      description: The product's own website or GitHub repo (recommended if the post has no link)
+      placeholder: https://…
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it's worth watching
+      description: Optional note (shown as a hint only if the product page has no description)

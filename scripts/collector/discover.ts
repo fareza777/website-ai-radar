@@ -1,5 +1,7 @@
 import { DISCOVER } from "../../src/config/discover";
 import type { DiscoverItem, DiscoverKind, Signal, SourceStatus } from "../../src/lib/types";
+import { collectBuzz, type GhIssue, type TipRef } from "./buzz";
+import type { Candidate } from "./candidate";
 import { errorMessage, fetchJson, sleep } from "./http";
 import { dataPath, readJson, writeJson } from "./store";
 import { daysAgo, normalizeUrl, safeHttpUrl, safeRegex, shortHash, truncate } from "./text";
@@ -28,20 +30,6 @@ interface HnHit {
   created_at: string;
 }
 
-interface Candidate {
-  key: string;
-  name: string;
-  url: string;
-  repo?: string;
-  kind: DiscoverKind;
-  description: string;
-  createdAt: string | null;
-  stars?: number;
-  language?: string | null;
-  license?: string | null;
-  topics?: string[];
-  signals: Signal[];
-}
 
 const hasToken = () => Boolean(process.env.GITHUB_TOKEN || process.env.GH_TOKEN);
 
@@ -230,11 +218,18 @@ function templatePricing(c: { kind: DiscoverKind; license?: string | null }): st
   return "Unverified — check the official pricing page";
 }
 
-function why(item: Pick<DiscoverItem, "novelty" | "createdAt" | "stars" | "starsDelta7d" | "signals">, now: Date): string {
+function why(item: Pick<DiscoverItem, "novelty" | "createdAt" | "dateKind" | "stars" | "starsDelta7d" | "signals" | "quote">, now: Date): string {
   const parts: string[] = [];
   const ageDays = item.createdAt ? Math.floor((now.getTime() - Date.parse(item.createdAt)) / 86_400_000) : null;
-  if (item.novelty === "new" && ageDays != null) parts.push(ageDays <= 1 ? "Just launched" : `${ageDays} days old`);
-  if (item.novelty === "trending" && item.createdAt) parts.push(`Older project (since ${item.createdAt.slice(0, 4)}) gaining momentum`);
+  if (item.signals.some((s) => s.source === "tip")) parts.push("Editor's pick");
+  if (item.dateKind === "spotted" && ageDays != null) parts.push(ageDays <= 1 ? "First spotted today" : `First spotted ${ageDays} days ago`);
+  else if (item.novelty === "new" && ageDays != null) parts.push(ageDays <= 1 ? "Just launched" : `${ageDays} days old`);
+  if (item.novelty === "trending" && item.createdAt && item.dateKind !== "spotted") parts.push(`Older project (since ${item.createdAt.slice(0, 4)}) gaining momentum`);
+  if (item.quote) parts.push(`Buzzing on X (@${item.quote.handle})`);
+  const newsletters = [...new Set(item.signals.filter((s) => s.source === "newsletter").map((s) => s.label.replace(/^Featured in /, "")))];
+  if (newsletters.length) parts.push(`Featured in ${newsletters.join(", ")}`);
+  const hf = item.signals.find((s) => s.source === "huggingface");
+  if (hf) parts.push(hf.label);
   if (item.stars) parts.push(`${fmtStars(item.stars)} ⭐ on GitHub`);
   if (item.starsDelta7d && item.starsDelta7d > 0) parts.push(`+${fmtStars(item.starsDelta7d)} ⭐ this week`);
   const hn = item.signals.filter((s) => s.source === "hackernews").sort((a, b) => b.value - a.value)[0];
@@ -250,7 +245,11 @@ function score(item: DiscoverItem): number {
   const hn = Math.max(0, ...item.signals.filter((s) => s.source === "hackernews").map((s) => s.value)) / 12;
   const ph = Math.max(0, ...item.signals.filter((s) => s.source === "producthunt").map((s) => s.value)) / 15;
   const fresh = item.novelty === "new" ? 10 : 0;
-  return Math.round(Math.min(100, stars + delta + hn + ph + fresh));
+  // Social proof from curated channels (each distinct mention counts, capped).
+  const buzz = Math.min(30, item.signals.filter((s) => s.source === "x" || s.source === "newsletter").length * 12);
+  const hf = Math.min(20, Math.max(0, ...item.signals.filter((s) => s.source === "huggingface").map((s) => s.value)) / 8);
+  const tip = item.signals.some((s) => s.source === "tip") ? 35 : 0;
+  return Math.round(Math.min(100, stars + delta + hn + ph + fresh + buzz + hf + tip));
 }
 
 function mergeSignals(a: Signal[], b: Signal[]): Signal[] {
@@ -263,7 +262,17 @@ function mergeSignals(a: Signal[], b: Signal[]): Signal[] {
   return [...map.values()].sort((x, y) => y.at.localeCompare(x.at)).slice(0, 6);
 }
 
-export async function collectDiscover(now: Date, log: (m: string) => void): Promise<{ items: DiscoverItem[]; statuses: SourceStatus[] }> {
+export interface TipOutcome {
+  tip: TipRef;
+  ok: boolean;
+  name?: string;
+  reason?: string;
+}
+
+export async function collectDiscover(
+  now: Date,
+  log: (m: string) => void,
+): Promise<{ items: DiscoverItem[]; statuses: SourceStatus[]; tipOutcomes: TipOutcome[]; issues: GhIssue[] }> {
   const nowIso = now.toISOString();
   const file = dataPath("discover.json");
   const existing = readJson<DiscoverItem[]>(file, []);
@@ -302,13 +311,28 @@ export async function collectDiscover(now: Date, log: (m: string) => void): Prom
     return res.candidates.length + res.repoRefs.size;
   });
 
-  await track("github-repos", "GitHub repo metadata (HN + watchlist)", "api.github.com/repos", async () => {
-    const names = [...new Set([...DISCOVER.watchlist.map((w) => w.toLowerCase()), ...repoRefs.keys()])];
+  // Buzz Radar: tips, newsletters that curate AI Twitter, X posts via oEmbed, HF Spaces, optional X API.
+  const existingById = new Map(existing.map((i) => [i.id, i]));
+  const buzz = await collectBuzz(now, (key) => existingById.get(shortHash(key)), log);
+  statuses.push(...buzz.statuses);
+  candidates.push(...buzz.candidates);
+  const buzzRepos = new Map<string, { signals: Signal[]; quote?: Candidate["quote"] }>();
+  for (const r of buzz.repoSightings) {
+    const k = r.fullName.toLowerCase();
+    const prev = buzzRepos.get(k);
+    buzzRepos.set(k, { signals: [...(prev?.signals ?? []), r.signal], quote: prev?.quote ?? r.quote });
+  }
+
+  await track("github-repos", "GitHub repo metadata (HN + buzz + watchlist)", "api.github.com/repos", async () => {
+    const names = [...new Set([...[...buzzRepos.keys()], ...DISCOVER.watchlist.map((w) => w.toLowerCase()), ...repoRefs.keys()])];
     const repos = await repoDetails(names, log);
     for (const r of repos) {
-      const hnSignal = repoRefs.get(r.full_name.toLowerCase());
-      const signal: Signal = hnSignal ?? { source: "watchlist", label: "Watchlist", url: r.html_url, value: r.stargazers_count, at: nowIso };
-      candidates.push(fromRepo(r, signal));
+      const k = r.full_name.toLowerCase();
+      const hnSignal = repoRefs.get(k);
+      const extra = buzzRepos.get(k);
+      const base: Signal[] = hnSignal ? [hnSignal] : extra ? [] : [{ source: "watchlist", label: "Watchlist", url: r.html_url, value: r.stargazers_count, at: nowIso }];
+      const c = fromRepo(r, base[0] ?? extra!.signals[0]);
+      candidates.push({ ...c, signals: [...base, ...(extra?.signals ?? [])], ...(extra?.quote ? { quote: extra.quote } : {}) });
     }
     return repos.length;
   });
@@ -337,7 +361,11 @@ export async function collectDiscover(now: Date, log: (m: string) => void): Prom
     // Only a snapshot at least 7 days old gives a real weekly delta; otherwise leave it unknown.
     const baseline = [...trimmed].reverse().find((h) => h.at <= weekAgo);
     const delta = c.stars != null && baseline ? c.stars - baseline.stars : undefined;
-    const createdAt = c.createdAt ?? prev?.createdAt ?? null;
+    // "spotted" dates are first public sightings: keep the earliest one ever seen.
+    const createdAt =
+      c.dateKind === "spotted"
+        ? [c.createdAt, prev?.createdAt].filter((x): x is string => !!x).sort()[0] ?? null
+        : c.createdAt ?? prev?.createdAt ?? null;
     const ageDays = createdAt ? (now.getTime() - Date.parse(createdAt)) / 86_400_000 : null;
     const novelty = ageDays != null && ageDays <= DISCOVER.newWithinDays ? "new" : "trending";
     const text = `${c.name} ${c.description} ${(c.topics ?? []).join(" ")}`;
@@ -356,6 +384,8 @@ export async function collectDiscover(now: Date, log: (m: string) => void): Prom
       pricing: templatePricing(c),
       novelty,
       createdAt,
+      ...(c.dateKind ? { dateKind: c.dateKind } : prev?.dateKind ? { dateKind: prev.dateKind } : {}),
+      ...(c.quote ?? prev?.quote ? { quote: c.quote ?? prev?.quote } : {}),
       firstSeenAt: prev?.firstSeenAt ?? nowIso,
       lastSeenAt: nowIso,
       ...(c.stars != null ? { stars: c.stars, starHistory: trimmed } : {}),
@@ -369,23 +399,54 @@ export async function collectDiscover(now: Date, log: (m: string) => void): Prom
     };
     // An older project only counts as trending with real momentum (HN/PH signal or star growth).
     if (novelty === "trending") {
-      const momentum = (delta ?? 0) >= DISCOVER.github.trendingMinDelta7d || signals.some((s) => s.source === "hackernews" || s.source === "producthunt" || s.source === "watchlist");
+      const MOMENTUM_SOURCES = new Set(["hackernews", "producthunt", "watchlist", "x", "newsletter", "tip", "huggingface"]);
+      const momentum = (delta ?? 0) >= DISCOVER.github.trendingMinDelta7d || signals.some((s) => MOMENTUM_SOURCES.has(s.source));
       if (!momentum) continue;
     }
     byKey.set(id, draft);
   }
 
   const keepAfter = daysAgo(now, DISCOVER.keepDays).toISOString();
-  const items = [...byKey.values()]
+  const ranked = [...byKey.values()]
     .filter((i) => i.lastSeenAt >= keepAfter)
     .map((i) => {
       const withWhy = { ...i, why: why(i, now) };
       return { ...withWhy, score: score(withWhy) };
     })
-    .sort((a, b) => b.score - a.score)
+    .sort((a, b) => b.score - a.score);
+  // Quotas keep the mix diverse: GitHub search is plentiful and would otherwise crowd out the
+  // rarer buzz signals (tips, X, newsletters, HF Spaces, Show HN).
+  const QUOTA: Partial<Record<DiscoverKind, number>> = { github: DISCOVER.maxItems - 50, "hf-space": 12 };
+  const used = new Map<DiscoverKind, number>();
+  const items = ranked
+    .filter((i) => {
+      const n = used.get(i.kind) ?? 0;
+      if (n >= (QUOTA[i.kind] ?? Number.POSITIVE_INFINITY)) return false;
+      used.set(i.kind, n + 1);
+      return true;
+    })
     .slice(0, DISCOVER.maxItems);
 
-  return { items, statuses };
+  // Tip outcomes drive the GitHub issue write-back ("✅ added" / "needs info").
+  const tipOutcomes: TipOutcome[] = [];
+  const seenTips = new Set<string>();
+  const tipKey = (t: TipRef) => String(t.issue ?? t.x ?? t.url);
+  for (const r of buzz.tipResults) {
+    const tipUrl = r.tip.issueUrl ?? r.tip.x ?? r.tip.url;
+    const hit = items.find((i) => i.signals.some((s) => s.source === "tip" && s.url === tipUrl));
+    if (seenTips.has(tipKey(r.tip))) continue;
+    seenTips.add(tipKey(r.tip));
+    tipOutcomes.push(hit ? { tip: r.tip, ok: true, name: hit.name } : { tip: r.tip, ok: false, reason: r.reason });
+  }
+  for (const t of buzz.tips) {
+    if (seenTips.has(tipKey(t))) continue;
+    const tipUrl = t.issueUrl ?? t.x ?? t.url;
+    const hit = items.find((i) => i.signals.some((s) => s.source === "tip" && s.url === tipUrl));
+    seenTips.add(tipKey(t));
+    tipOutcomes.push(hit ? { tip: t, ok: true, name: hit.name } : { tip: t, ok: false, reason: "Could not find a product page to publish for this tip" });
+  }
+
+  return { items, statuses, tipOutcomes, issues: buzz.issues };
 }
 
 export function saveDiscover(items: DiscoverItem[]): boolean {

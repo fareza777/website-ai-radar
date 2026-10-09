@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 export function CategoryBadge({ category, className }: { category: Category; className?: string }) {
   const meta = CATEGORY_META[category];
   return (
-    <span className={cn("inline-flex h-5 items-center gap-1 rounded-md border px-1.5 text-[11px] font-medium", meta.className, className)}>
+    <span className={cn("inline-flex h-5 items-center gap-1 rounded-md border px-1.5 text-[12.5px] font-medium", meta.className, className)}>
       <span className={cn("size-1.5 rounded-full", meta.dot)} />
       {meta.label}
     </span>
@@ -41,7 +41,7 @@ export function VerifyBadge({ verified, trust }: { verified: boolean; trust: Tru
 
 export function Kbd({ children, className }: { children: React.ReactNode; className?: string }) {
   return (
-    <kbd className={cn("pointer-events-none inline-flex h-5 select-none items-center gap-0.5 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground", className)}>
+    <kbd className={cn("pointer-events-none inline-flex h-5 select-none items-center gap-0.5 rounded border bg-muted px-1.5 font-mono text-[11.5px] font-medium text-muted-foreground", className)}>
       {children}
     </kbd>
   );

@@ -103,10 +103,10 @@ export interface RunStatus {
 }
 
 export type Novelty = "new" | "trending";
-export type DiscoverKind = "github" | "product" | "show-hn" | "api";
+export type DiscoverKind = "github" | "product" | "show-hn" | "api" | "x" | "newsletter" | "tip" | "hf-space";
 
 export interface Signal {
-  source: "github" | "hackernews" | "producthunt" | "watchlist";
+  source: "github" | "hackernews" | "producthunt" | "watchlist" | "x" | "newsletter" | "tip" | "huggingface";
   label: string;
   url: string;
   value: number;
@@ -132,6 +132,8 @@ export interface DiscoverItem {
   novelty: Novelty;
   /** When the project itself was created/launched (repo created_at, PH launch date) — null if unknown. */
   createdAt: string | null;
+  /** "spotted" = createdAt is the first public sighting (websites have no reliable creation date). */
+  dateKind?: "created" | "spotted";
   firstSeenAt: string;
   lastSeenAt: string;
   stars?: number;
@@ -143,6 +145,67 @@ export interface DiscoverItem {
   signals: Signal[];
   score: number;
   summarySource: "template" | "llm";
+  /** Post on X that surfaced this item (read via the official oEmbed endpoint). */
+  quote?: XQuote;
+}
+
+export interface XQuote {
+  text: string;
+  author: string;
+  handle: string;
+  url: string;
+  date: string | null;
+}
+
+export type StartupEventKind = "funding" | "launch" | "acquisition" | "other";
+
+export interface StartupNews {
+  id: string;
+  title: string;
+  company: string | null;
+  kind: StartupEventKind;
+  /** Amount exactly as written in the headline, e.g. "$2.4M" — never computed. */
+  amount: string | null;
+  url: string;
+  source: string;
+  publishedAt: string;
+  firstSeenAt: string;
+}
+
+export interface ModelPrice {
+  at: string;
+  prompt: number;
+  completion: number;
+}
+
+export interface ModelEntry {
+  id: string;
+  name: string;
+  vendor: string;
+  lab?: string;
+  contextLength: number | null;
+  /** USD per 1M tokens. */
+  prompt: number;
+  completion: number;
+  free: boolean;
+  modalities: string[];
+  createdAt: string | null;
+  firstSeenAt: string;
+  lastSeenAt: string;
+  history: ModelPrice[];
+}
+
+export interface PriceMove {
+  id: string;
+  modelId: string;
+  name: string;
+  lab?: string;
+  at: string;
+  field: "prompt" | "completion";
+  from: number;
+  to: number;
+  /** Percent change, rounded to 1 decimal. */
+  change: number;
 }
 
 export type DealStatus = "active" | "announced" | "unverified" | "expired";

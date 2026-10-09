@@ -13,7 +13,11 @@ import { LABS } from "../src/config/labs";
 import type { RunStatus, SourceStatus, UpdateItem } from "../src/lib/types";
 import { buildBriefing, saveBriefing } from "./collector/briefing";
 import { collectDeals, saveDeals } from "./collector/deals";
+import { writeBackTips } from "./collector/buzz";
 import { collectDiscover, saveDiscover } from "./collector/discover";
+import { collectModels, saveModels } from "./collector/models";
+import { collectStartups, saveStartups } from "./collector/startups";
+import { siteUrl } from "../src/lib/site";
 import { errorMessage } from "./collector/http";
 import { collectLabs, loadLabItems, saveLabItems } from "./collector/labs";
 import { enrichDiscover, enrichUpdates, llmConfig } from "./collector/llm";
@@ -36,7 +40,7 @@ async function main() {
   if (!Number.isInteger(backfillDays) || backfillDays < 1 || backfillDays > 3650) {
     throw new Error(`Invalid --backfill-days: ${arg("backfill-days") ?? process.env.BACKFILL_DAYS}`);
   }
-  if (only && !["labs", "discover", "deals"].includes(only)) throw new Error(`Invalid --only: ${only} (labs | discover | deals)`);
+  if (only && !["labs", "discover", "deals", "models"].includes(only)) throw new Error(`Invalid --only: ${only} (labs | discover | deals | models)`);
   if (labFilter && !LABS.some((l) => l.slug === labFilter)) throw new Error(`Unknown --lab: ${labFilter}`);
   const llm = llmConfig();
   const prev = readJson<RunStatus | null>(dataPath("status.json"), null);
@@ -105,9 +109,24 @@ async function main() {
       }
       for (const s of res.statuses) statuses.set(s.id, s);
       log(`[discover] items=${items.length} changed=${saveDiscover(items)}`);
+      await writeBackTips(res.tipOutcomes, res.issues, siteUrl(), log);
     } catch (err) {
       log(`[discover] FAILED (previous data kept): ${errorMessage(err)}`);
     }
+    try {
+      const res = await collectStartups(now, log);
+      for (const s of res.statuses) statuses.set(s.id, s);
+      log(`[startups] items=${res.items.length} changed=${saveStartups(res.items)}`);
+    } catch (err) {
+      log(`[startups] FAILED (previous data kept): ${errorMessage(err)}`);
+    }
+  }
+
+  // ---------- models & price tracker ----------
+  if (!only || only === "models" || only === "deals") {
+    const res = await collectModels(now, log);
+    statuses.set(res.status.id, res.status);
+    log(`[models] models=${res.models.length} moves=${res.moves.length} changed=${saveModels(res.models, res.moves)}`);
   }
 
   // ---------- deals ----------
@@ -127,7 +146,7 @@ async function main() {
     log(`[briefing] ${briefing.date} (${briefing.source}) changed=${saveBriefing(briefing)}`);
   }
 
-  const knownIds = new Set([...LABS.flatMap((l) => l.sources.map((s) => s.id)), ...[...statuses.values()].filter((s) => s.lab === "discover" || s.lab === "deals").map((s) => s.id)]);
+  const knownIds = new Set([...LABS.flatMap((l) => l.sources.map((s) => s.id)), ...[...statuses.values()].filter((s) => s.lab === "discover" || s.lab === "deals" || s.lab === "models").map((s) => s.id)]);
   const status: RunStatus = {
     generatedAt: now.toISOString(),
     durationMs: Date.now() - started,

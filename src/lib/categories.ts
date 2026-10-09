@@ -22,6 +22,10 @@ export const DISCOVER_KIND_LABEL: Record<DiscoverKind, string> = {
   product: "Product Hunt",
   "show-hn": "Show HN",
   api: "API",
+  x: "Buzz on X",
+  newsletter: "Newsletter",
+  tip: "Editor's pick",
+  "hf-space": "HF Space",
 };
 
 /** Items at or above this score count as "Important". */

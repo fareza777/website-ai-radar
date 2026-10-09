@@ -21,8 +21,8 @@ export function SiteHeader() {
         <Link href="/" className="group flex items-center gap-2.5" aria-label="AI Radar — home">
           <RadarMark />
           <span className="flex flex-col leading-none">
-            <span className="text-[15px] font-semibold tracking-tight">AI Radar</span>
-            <span className="hidden text-[10.5px] text-muted-foreground sm:block">Your AI Intelligence Hub</span>
+            <span className="text-[16px] font-semibold tracking-tight">AI Radar</span>
+            <span className="hidden text-[12px] text-muted-foreground sm:block">Your AI Intelligence Hub</span>
           </span>
         </Link>
 
@@ -42,7 +42,7 @@ export function SiteHeader() {
                 <Icon className="size-4" />
                 {label}
                 {href === "/saved" && saved > 0 && (
-                  <span className="ml-0.5 rounded-full bg-brand/15 px-1.5 text-[10px] font-semibold text-brand tabular-nums">{saved}</span>
+                  <span className="ml-0.5 rounded-full bg-brand/15 px-1.5 text-[11.5px] font-semibold text-brand tabular-nums">{saved}</span>
                 )}
               </Link>
             );
@@ -71,7 +71,7 @@ export function MobileNav() {
   const pathname = usePathname();
   return (
     <nav className="glass pb-safe fixed inset-x-0 bottom-0 z-40 border-t md:hidden" aria-label="Bottom navigation">
-      <ul className="mx-auto grid max-w-md grid-cols-5">
+      <ul className="mx-auto grid max-w-lg grid-cols-6">
         {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
           const active = isActive(pathname, href);
           return (
@@ -79,7 +79,7 @@ export function MobileNav() {
               <Link
                 href={href}
                 aria-current={active ? "page" : undefined}
-                className={cn("flex h-14 flex-col items-center justify-center gap-0.5 text-[10.5px] font-medium text-muted-foreground", active && "text-foreground")}
+                className={cn("flex h-14 flex-col items-center justify-center gap-0.5 text-[12px] font-medium text-muted-foreground", active && "text-foreground")}
               >
                 <span className={cn("flex h-7 w-11 items-center justify-center rounded-full transition", active && "bg-brand/15 text-brand")}>
                   <Icon className="size-[18px]" />

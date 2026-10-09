@@ -76,22 +76,22 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
           </div>
           <dl className="grid grid-cols-3 gap-4 text-center sm:text-right">
             <div>
-              <dt className="text-[11px] text-muted-foreground">7 days</dt>
+              <dt className="text-[12.5px] text-muted-foreground">7 days</dt>
               <dd className="text-xl font-semibold tabular-nums">{stat?.last7 ?? 0}</dd>
             </div>
             <div>
-              <dt className="text-[11px] text-muted-foreground">30 days</dt>
+              <dt className="text-[12.5px] text-muted-foreground">30 days</dt>
               <dd className="text-xl font-semibold tabular-nums">{stat?.last30 ?? 0}</dd>
             </div>
             <div>
-              <dt className="text-[11px] text-muted-foreground">Archive</dt>
+              <dt className="text-[12.5px] text-muted-foreground">Archive</dt>
               <dd className="text-xl font-semibold tabular-nums">{items.length}</dd>
             </div>
           </dl>
         </div>
 
         <details className="group relative mt-5 rounded-xl border bg-subtle/50 px-4 py-3 text-sm">
-          <summary className="flex cursor-pointer list-none items-center gap-2 text-[13px]">
+          <summary className="flex cursor-pointer list-none items-center gap-2 text-[14px]">
             <span className="font-medium">Coverage & source status</span>
             <span className="text-muted-foreground">
               · {okCount}/{lab.sources.length} sources OK
@@ -108,8 +108,8 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
                 <li key={s.id} className="flex flex-wrap items-center gap-x-3 gap-y-1 py-2 text-xs">
                   {st?.ok ? <CheckCircle2 className="size-4 text-emerald-500" /> : <XCircle className="size-4 text-rose-500" />}
                   <span className="font-medium">{s.name}</span>
-                  <span className="rounded bg-muted px-1.5 py-px text-[10.5px] text-muted-foreground">{TYPE_LABEL[s.type]}</span>
-                  {s.trust === "mirror" && <span className="rounded bg-sky-500/10 px-1.5 py-px text-[10.5px] text-sky-600 dark:text-sky-300">community mirror</span>}
+                  <span className="rounded bg-muted px-1.5 py-px text-[12px] text-muted-foreground">{TYPE_LABEL[s.type]}</span>
+                  {s.trust === "mirror" && <span className="rounded bg-sky-500/10 px-1.5 py-px text-[12px] text-sky-600 dark:text-sky-300">community mirror</span>}
                   <span className="ml-auto text-muted-foreground">
                     {st?.lastSuccessAt ? <>succeeded <TimeAgo iso={st.lastSuccessAt} /></> : "never succeeded"}
                     {st && !st.ok && st.lastError && <span className="ml-2 text-rose-500">({st.lastError.slice(0, 80)})</span>}

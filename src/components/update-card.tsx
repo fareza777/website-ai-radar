@@ -41,11 +41,11 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
         )}
         <CategoryBadge category={item.category} />
         {important && (
-          <span className="inline-flex h-5 items-center gap-0.5 rounded-md bg-orange-500/10 px-1.5 text-[11px] font-medium text-orange-600 dark:text-orange-300" title={`Relevance score ${item.importance}/100`}>
+          <span className="inline-flex h-5 items-center gap-0.5 rounded-md bg-orange-500/10 px-1.5 text-[12.5px] font-medium text-orange-600 dark:text-orange-300" title={`Relevance score ${item.importance}/100`}>
             <Flame className="size-3" /> Important
           </span>
         )}
-        {isNew && <span className="rounded-md bg-brand/15 px-1.5 text-[11px] font-semibold text-brand">New</span>}
+        {isNew && <span className="rounded-md bg-brand/15 px-1.5 text-[12.5px] font-semibold text-brand">New</span>}
         <span className="ml-auto flex items-center gap-1 whitespace-nowrap">
           <TimeAgo iso={item.publishedAt} />
         </span>
@@ -55,7 +55,7 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
         />
       </header>
 
-      <h3 className={cn("mt-2 text-[15px] font-semibold leading-snug tracking-tight sm:text-base", unread ? "text-foreground" : "text-foreground/80")}>
+      <h3 className={cn("mt-2 text-[16px] font-semibold leading-snug tracking-tight sm:text-base", unread ? "text-foreground" : "text-foreground/80")}>
         <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" onClick={() => markRead(item.id)} className="decoration-brand/50 underline-offset-4 hover:underline">
           {item.title}
           <ArrowUpRight className="ml-1 inline size-3.5 -translate-y-px text-muted-foreground opacity-0 transition group-hover:opacity-100" />
@@ -65,7 +65,7 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
       <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{item.summary}</p>
 
       {!compact && (
-        <p className="mt-2.5 flex gap-2 rounded-lg bg-subtle/70 px-3 py-2 text-[13px] leading-relaxed text-foreground/80">
+        <p className="mt-2.5 flex gap-2 rounded-lg bg-subtle/70 px-3 py-2 text-[14px] leading-relaxed text-foreground/80">
           <Lightbulb className="mt-0.5 size-3.5 shrink-0 text-amber-500" />
           <span>
             <span className="font-medium text-foreground">Why it matters: </span>
@@ -74,7 +74,7 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
         </p>
       )}
 
-      <footer className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11.5px] text-muted-foreground">
+      <footer className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-[13px] text-muted-foreground">
         <span className="truncate">{item.sourceName}</span>
         <VerifyBadge verified={item.verified} trust={item.trust} />
         {edited && (
@@ -88,7 +88,7 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
           </span>
         ) : null}
         {item.tags.slice(0, 3).map((t) => (
-          <span key={t} className="rounded bg-muted px-1.5 py-px font-mono text-[10.5px]">
+          <span key={t} className="rounded bg-muted px-1.5 py-px font-mono text-[12px]">
             #{t}
           </span>
         ))}

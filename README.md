@@ -11,10 +11,14 @@ An **automated** tracker for the global AI landscape: updates from 20 LLM labs, 
 | **Today** `/` | AI Daily Briefing, stats, and a chronological Global Feed across 20 labs with Today / 7 Days / 30 Days / Important Only / Unread filters, categories, lab filter, Newest/Most Important sorting |
 | **AI Labs** `/labs` | 20 lab cards with logos, 30-day activity sparklines, "N new" badges since your last visit, coverage status |
 | **Lab detail** `/labs/[slug]` | Full timeline (newest first): date/time, title, summary, category, practical benefit, source link, verification status, last-updated date; category filter, search, time range, pagination; per-source health |
-| **Discover** `/discover` | Opportunity radar: new GitHub repos, Show HN, Product Hunt (optional), watchlist — what it does, what's unique, benefit, pricing, why it's on the radar; separates **brand new** from **older but trending** |
+| **Discover** `/discover` | Opportunity radar: **X buzz** (tips + posts linked by AI newsletters, read via X's official oEmbed), newsletters, new GitHub repos, Show HN, HF trending Spaces, Product Hunt (optional) — what it does, what's unique, benefit, pricing, why it's on the radar; separates **brand new** from **older but trending**; plus a **Startup Radar** of funding/launch headlines |
+| **Models** `/models` | 380+ models with live OpenRouter list prices, context length, free models, and a **price-move tracker** (every input/output price change, before → after) |
+| **Submit** `/submit` | Send a tip (X post and/or product URL) → prefilled GitHub issue → published to Discover in minutes, bot replies on the issue |
 | **Deals** `/deals` | Free tiers & official programs (re-verified every run with an evidence quote), free models live from OpenRouter (with end dates), lab promo announcements, community signals (flagged unverified) |
 | **Saved** `/saved` | Bookmarks (localStorage, no account) |
 | **Status** `/status` | Coverage per lab, health of every source, LLM status |
+
+Today also features a **Live Radar** (animated sweep; each blip is a real update from the last 72h, by lab) and a **bento** of the top story, X buzz, new models, and price moves.
 
 Plus: global search **⌘K / Ctrl+K / `/`**, dark/light mode, read/unread & last-visited tracking (localStorage), SEO (metadata, sitemap, robots, OG image, JSON-LD).
 
@@ -65,18 +69,30 @@ See [`.env.example`](.env.example).
 | `LLM_MODEL` | No | Default `deepseek/deepseek-v4-flash` |
 | `LLM_MAX_ITEMS` | No | Max items summarized per run (default 40) — cost control |
 | `PRODUCT_HUNT_TOKEN` | No | Enables Product Hunt in Discover |
+| `X_BEARER_TOKEN` | No | Paid X API v2 recent search for launch posts (Discover works without it via tips + newsletters + oEmbed) |
 | `NEXT_PUBLIC_SITE_URL` | No | Absolute URL for SEO (Vercel uses the production domain automatically) |
 
 **API-frugal:** the LLM only runs for new items (≤14 days) without an LLM summary, in batches of 8, and results are stored permanently in JSON — no item is ever summarized twice. Every number in LLM output must appear in the source text, otherwise the template is kept. Without an LLM, summaries use the source's own lead sentence plus deterministic templates.
 
 ## Automation
 
-- [`.github/workflows/collect.yml`](.github/workflows/collect.yml) — cron `17 */3 * * *` (every 3 hours) plus a manual button (**Actions → Collect AI updates → Run workflow**). Runs tests, the collector, JSON validation, then commits `data/` (with rebase/retry). Each commit triggers a Vercel deploy.
+- [`.github/workflows/collect.yml`](.github/workflows/collect.yml) — cron `17 */3 * * *` (every 3 hours), on new/edited tip issues (Discover only, so tips go live in minutes), plus a manual button (**Actions → Collect AI updates → Run workflow**). Runs tests, the collector, JSON validation, then commits `data/` (with rebase/retry). Each commit triggers a Vercel deploy.
 - [`.github/workflows/ci.yml`](.github/workflows/ci.yml) — lint, typecheck, test, and build for PRs and code pushes.
 
 Secrets/variables (Settings → Secrets and variables → Actions):
-- Secrets: `LLM_API_KEY`, `PRODUCT_HUNT_TOKEN` (both optional)
+- Secrets: `LLM_API_KEY`, `PRODUCT_HUNT_TOKEN`, `X_BEARER_TOKEN` (all optional)
 - Variables: `LLM_BASE_URL`, `LLM_MODEL`, `LLM_MAX_ITEMS` (optional)
+
+## Getting X buzz into AI Radar (no scraping)
+
+X is never scraped. Posts reach AI Radar through legal paths only:
+
+1. **Tips** — open `/submit`, paste the X post (and/or product URL) → a prefilled GitHub issue (label `radar-tip`). The issue triggers the collector, which reads the post via X's official **oEmbed** endpoint, resolves its links, loads the product page (name/description come from that page), and publishes it to Discover. The bot replies `✅ Added` and closes the issue, or asks for info. Owner tips publish automatically; others need the `approved` label.
+   - From Cursor/terminal: `npm run tip -- --x https://x.com/user/status/123 --url https://product.com --note "why"` (stored in `src/config/tips.json`).
+2. **Newsletters that curate AI Twitter** (Ben's Bites) — their product links and linked X posts are followed automatically.
+3. **Optional X API** — set `X_BEARER_TOKEN` for recent-search of launch posts.
+
+Configuration: [`src/config/buzz.ts`](src/config/buzz.ts).
 
 ## Source configuration
 

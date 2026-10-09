@@ -10,7 +10,7 @@ const META: Record<Coverage, { label: string; className: string; title: string }
 export function CoveragePill({ coverage, className }: { coverage: Coverage; className?: string }) {
   const m = META[coverage];
   return (
-    <span title={m.title} className={cn("inline-flex h-5 items-center rounded-md px-1.5 text-[10.5px] font-medium", m.className, className)}>
+    <span title={m.title} className={cn("inline-flex h-5 items-center rounded-md px-1.5 text-[12px] font-medium", m.className, className)}>
       {m.label}
     </span>
   );

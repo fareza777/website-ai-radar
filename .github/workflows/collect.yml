@@ -4,10 +4,13 @@ on:
   schedule:
     # Every 3 hours (minute 17 avoids the top-of-hour GitHub Actions congestion).
     - cron: "17 */3 * * *"
+  # A new/edited/approved tip issue triggers a quick Discover-only run, so tips go live in minutes.
+  issues:
+    types: [opened, edited, labeled, reopened]
   workflow_dispatch:
     inputs:
       only:
-        description: "Run a single stage: labs | discover | deals (empty = all)"
+        description: "Run a single stage: labs | discover | deals | models (empty = all)"
         required: false
         default: ""
       backfill_days:
@@ -17,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: collect-data
@@ -24,6 +28,8 @@ concurrency:
 
 jobs:
   collect:
+    # Issue events only matter for tips.
+    if: github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'radar-tip')
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -48,6 +54,10 @@ jobs:
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_MAX_ITEMS: ${{ vars.LLM_MAX_ITEMS }}
           PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          TIPS_WRITEBACK: "1"
+          NEXT_PUBLIC_SITE_URL: ${{ vars.SITE_URL || 'https://ai-radar-lilac.vercel.app' }}
+          EVENT_NAME: ${{ github.event_name }}
           # Inputs go through env (never interpolated into the script) and are validated.
           INPUT_ONLY: ${{ github.event.inputs.only }}
           INPUT_BACKFILL: ${{ github.event.inputs.backfill_days }}
@@ -57,9 +67,10 @@ jobs:
           ARGS="--backfill-days=$BACKFILL"
           case "$INPUT_ONLY" in
             "") ;;
-            labs|discover|deals) ARGS="$ARGS --only=$INPUT_ONLY" ;;
+            labs|discover|deals|models) ARGS="$ARGS --only=$INPUT_ONLY" ;;
             *) echo "Invalid 'only' input"; exit 1 ;;
           esac
+          if [ "$EVENT_NAME" = "issues" ]; then ARGS="$ARGS --only=discover"; fi
           npm run collect -- $ARGS
 
       - name: Validate data JSON

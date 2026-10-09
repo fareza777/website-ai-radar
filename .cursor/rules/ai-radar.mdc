@@ -9,7 +9,7 @@ alwaysApply: true
 - `data/**/*.json` adalah output collector. JANGAN pernah diedit manual, dan jangan pernah menambahkan berita, tanggal, harga, model, atau promo yang dikarang.
 - Satu-satunya cara mengubah data: `npm run collect` (opsi: `--only=labs|discover|deals`, `--lab=<slug>`, `--backfill-days=N`).
 - Sumber baru harus resmi (domain/org GitHub/HF milik lab). Mirror komunitas hanya via helper `mirror()` (trust "mirror") bila lab tidak punya RSS.
-- Jangan scraping X/Twitter atau situs yang butuh login.
+- Jangan scraping X/Twitter atau situs yang butuh login. Post X hanya masuk lewat tips (`npm run tip` → `src/config/tips.json`, atau issue `radar-tip`), newsletter, oEmbed resmi, atau X API (token).
 - Deal hanya boleh "active" lewat verifikasi otomatis (`mustContain` ditemukan di halaman resmi). Jangan memaksa status.
 
 ## Arsitektur

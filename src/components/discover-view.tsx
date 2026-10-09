@@ -5,7 +5,7 @@ import { ArrowUpRight, Search, Sparkles, Star, TrendingUp } from "lucide-react";
 import { useDebounced } from "@/hooks/use-debounced";
 import { DISCOVER_KIND_LABEL } from "@/lib/categories";
 import { compactNumber, formatDate } from "@/lib/format";
-import type { DiscoverItem, DiscoverKind, Novelty } from "@/lib/types";
+import type { DiscoverItem, DiscoverKind, Novelty, XQuote } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { BookmarkButton } from "./bookmark-button";
 import { Chip, ChipRow, EmptyState, Pagination, SearchInput, Segmented } from "./filters";
@@ -19,9 +19,30 @@ function Fact({ label, children }: { label: string; children: React.ReactNode })
   if (!children) return null;
   return (
     <div className="rounded-lg bg-subtle/70 px-3 py-2">
-      <dt className="text-[10.5px] font-semibold uppercase tracking-wider text-muted-foreground">{label}</dt>
-      <dd className="mt-0.5 text-[13px] leading-snug text-foreground/85">{children}</dd>
+      <dt className="text-[12px] font-semibold uppercase tracking-wider text-muted-foreground">{label}</dt>
+      <dd className="mt-0.5 text-[14px] leading-snug text-foreground/85">{children}</dd>
     </div>
+  );
+}
+
+/** Quote of the X post that surfaced the item (text obtained via X's official oEmbed endpoint). */
+function XQuoteBlock({ quote }: { quote: XQuote }) {
+  return (
+    <a
+      href={extHref(quote.url)}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-3 block rounded-xl border bg-subtle/60 p-3 transition hover:border-foreground/20"
+      title="Open the post on X"
+    >
+      <span className="flex items-center gap-2 text-[13px] text-muted-foreground">
+        <span className="inline-flex size-5 items-center justify-center rounded-full bg-foreground text-[11.5px] font-bold text-background">𝕏</span>
+        <span className="font-medium text-foreground">{quote.author}</span>
+        <span>@{quote.handle}</span>
+        {quote.date && <span className="ml-auto">{formatDate(quote.date)}</span>}
+      </span>
+      <span className="mt-1.5 line-clamp-4 block whitespace-pre-line text-[14px] leading-relaxed text-foreground/85">{quote.text}</span>
+    </a>
   );
 }
 
@@ -36,23 +57,23 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
           <div className="flex flex-wrap items-center gap-1.5">
             <span
               className={cn(
-                "inline-flex h-5 items-center gap-1 rounded-md px-1.5 text-[11px] font-semibold",
+                "inline-flex h-5 items-center gap-1 rounded-md px-1.5 text-[12.5px] font-semibold",
                 isNew ? "bg-emerald-500/12 text-emerald-700 dark:text-emerald-300" : "bg-orange-500/12 text-orange-700 dark:text-orange-300",
               )}
-              title={isNew ? "A genuinely new project/product launch" : "An older project that is trending again"}
+              title={item.dateKind === "spotted" ? "First seen by AI Radar in public signals (X, newsletters, tips) — exact launch date unknown" : isNew ? "A genuinely new project/product launch" : "An older project that is trending again"}
             >
               {isNew ? <Sparkles className="size-3" /> : <TrendingUp className="size-3" />}
-              {isNew ? "Brand new" : "Older · trending"}
+              {item.dateKind === "spotted" ? (isNew ? "Newly spotted" : "Trending") : isNew ? "Brand new" : "Older · trending"}
             </span>
-            <span className="inline-flex h-5 items-center rounded-md border px-1.5 text-[11px] text-muted-foreground">{DISCOVER_KIND_LABEL[item.kind]}</span>
-            {item.summarySource === "llm" && <span className="rounded bg-muted px-1.5 font-mono text-[10px] text-muted-foreground">AI</span>}
+            <span className="inline-flex h-5 items-center rounded-md border px-1.5 text-[12.5px] text-muted-foreground">{DISCOVER_KIND_LABEL[item.kind]}</span>
+            {item.summarySource === "llm" && <span className="rounded bg-muted px-1.5 font-mono text-[11.5px] text-muted-foreground">AI</span>}
           </div>
           <h3 className="mt-2 text-base font-semibold tracking-tight">
             <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" className="hover:underline">
               {item.name}
             </a>
           </h3>
-          {item.repo && <p className="truncate font-mono text-[11.5px] text-muted-foreground">{item.repo}</p>}
+          {item.repo && <p className="truncate font-mono text-[13px] text-muted-foreground">{item.repo}</p>}
         </div>
         <div className="flex flex-col items-end gap-1">
           <span className="rounded-lg bg-brand/10 px-2 py-1 text-xs font-semibold tabular-nums text-brand" title="Signal score (stars, momentum, HN, Product Hunt)">
@@ -62,7 +83,9 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
         </div>
       </header>
 
-      {item.description && item.description !== item.summary && <p className="mt-2 line-clamp-2 text-[13px] text-muted-foreground">{item.description}</p>}
+      {item.description && item.description !== item.summary && <p className="mt-2 line-clamp-2 text-[14px] text-muted-foreground">{item.description}</p>}
+
+      {item.quote && <XQuoteBlock quote={item.quote} />}
 
       <dl className="mt-3 grid gap-2">
         <Fact label="What it does">{item.summary}</Fact>
@@ -71,12 +94,12 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
         <Fact label="Pricing">{item.pricing}</Fact>
       </dl>
 
-      <p className="mt-3 text-[12.5px] font-medium text-brand">
+      <p className="mt-3 text-[13.5px] font-medium text-brand">
         <span className="text-muted-foreground">Why it&rsquo;s on the radar: </span>
         {item.why}
       </p>
 
-      <footer className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1.5 pt-3 text-[11.5px] text-muted-foreground">
+      <footer className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1.5 pt-3 text-[13px] text-muted-foreground">
         {item.stars != null && (
           <span className="inline-flex items-center gap-1">
             <Star className="size-3" /> {compactNumber(item.stars)}
@@ -84,7 +107,7 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
         )}
         {item.language && <span>{item.language}</span>}
         {item.license && <span className="font-mono">{item.license}</span>}
-        {item.createdAt && <span>created {formatDate(item.createdAt)}</span>}
+        {item.createdAt && <span>{item.dateKind === "spotted" ? "first spotted" : "created"} {formatDate(item.createdAt)}</span>}
         <span className="ml-auto flex items-center gap-2">
           {repoUrl && repoUrl !== item.url && (
             <a href={repoUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:text-foreground" aria-label="GitHub repo">

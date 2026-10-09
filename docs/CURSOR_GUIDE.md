@@ -101,6 +101,19 @@ git checkout --theirs data && git add data && git rebase --continue
 npm run collect && git add data && git commit -m "chore(data): daily update" && git push
 ```
 
+## Menambah startup yang Anda lihat di X (tip)
+
+Contoh: Anda melihat post tentang AntSeed di X.
+
+- **Dari HP/browser:** buka `/submit` di AI Radar → tempel link post X (+ URL produk) → *Send tip via GitHub* → *Create*. Issue memicu collector; dalam beberapa menit item muncul di Discover dan bot membalas "✅ Added".
+- **Dari Cursor:** minta agent menjalankan
+  ```bash
+  npm run tip -- --x https://x.com/user/status/123 --url https://produk.com --note "kenapa menarik"
+  npm run collect -- --only=discover
+  ```
+  lalu commit `src/config/tips.json` + `data/`.
+- Nama & deskripsi selalu diambil dari halaman produk itu sendiri; jika halaman tidak bisa dimuat, tip tidak dipublikasikan (bot memberi label `needs-info`).
+
 ## Checklist akurasi (wajib)
 
 - [ ] Tidak ada edit manual pada `data/*.json`.

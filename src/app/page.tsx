@@ -1,13 +1,19 @@
 import Link from "next/link";
-import { ArrowRight, Boxes, Compass, Gift, Radio, Rocket, Zap } from "lucide-react";
+import { ArrowRight, Boxes, Gift, Radio, Rocket, Zap } from "lucide-react";
+import { Bento } from "@/components/bento";
 import { BriefingCard } from "@/components/briefing-card";
 import { FeedView } from "@/components/feed-view";
 import { LabLogo } from "@/components/lab-logo";
+import { LiveRadar, type RadarBlip, type RadarSector } from "@/components/live-radar";
 import { LAB_BY_SLUG, LABS } from "@/config/labs";
-import { getAllItems, getBriefings, getDeals, getDiscover, getLabStats, getStatus, toFeedItem } from "@/lib/data";
+import { getAllItems, getBriefings, getDeals, getDiscover, getLabStats, getModels, getPriceMoves, getStatus, toFeedItem } from "@/lib/data";
 import { compactNumber } from "@/lib/format";
+import type { UpdateItem } from "@/lib/types";
+import { extHref } from "@/lib/url";
 
 const FEED_DAYS = 30;
+const RADAR_HOURS = 72;
+const RADAR_MAX = 32;
 
 function StatTile({ icon: Icon, label, value, hint }: { icon: typeof Zap; label: string; value: string | number; hint: string }) {
   return (
@@ -16,7 +22,7 @@ function StatTile({ icon: Icon, label, value, hint }: { icon: typeof Zap; label:
         <Icon className="size-3.5" /> {label}
       </div>
       <div className="mt-1.5 text-2xl font-semibold tabular-nums tracking-tight">{value}</div>
-      <div className="text-[11.5px] text-muted-foreground">{hint}</div>
+      <div className="text-[13px] text-muted-foreground">{hint}</div>
     </div>
   );
 }
@@ -37,6 +43,34 @@ function SideCard({ title, href, icon: Icon, children }: { title: string; href: 
   );
 }
 
+/** Deterministic 0..1 from an id (stable blip jitter across builds). */
+function unit(id: string): number {
+  let h = 0;
+  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
+  return (h % 1000) / 1000;
+}
+
+/** Radar geometry is computed on the server from the collector time, so markup is stable. */
+function radarData(all: UpdateItem[], ref: number): { blips: RadarBlip[]; sectors: RadarSector[] } {
+  const step = 360 / LABS.length;
+  const sectors = LABS.map((l, i) => ({ lab: l.slug, angle: i * step + step / 2 }));
+  const sectorOf = new Map(sectors.map((s) => [s.lab, s.angle]));
+  const windowMs = RADAR_HOURS * 3_600_000;
+  const blips = all
+    .filter((i) => ref - Date.parse(i.publishedAt) < windowMs && ref >= Date.parse(i.publishedAt))
+    .sort((a, b) => b.importance - a.importance)
+    .slice(0, RADAR_MAX)
+    .map((i) => {
+      const age = (ref - Date.parse(i.publishedAt)) / windowMs;
+      return {
+        id: i.id, lab: i.lab, title: i.title, url: i.url, category: i.category, importance: i.importance, publishedAt: i.publishedAt,
+        angle: (sectorOf.get(i.lab) ?? 0) + (unit(i.id) - 0.5) * step * 0.7,
+        radius: 0.14 + 0.8 * age,
+      };
+    });
+  return { blips, sectors };
+}
+
 export default function TodayPage() {
   const status = getStatus();
   const all = getAllItems();
@@ -46,13 +80,32 @@ export default function TodayPage() {
   const itemsById = new Map(all.map((i) => [i.id, i]));
   const stats = getLabStats().sort((a, b) => b.last7 - a.last7).slice(0, 8);
   const maxLast7 = Math.max(1, ...stats.map((s) => s.last7));
-  const discover = getDiscover().filter((d) => d.novelty === "new").slice(0, 4);
   const deals = getDeals().filter((d) => d.status === "active").slice(0, 4);
-  const sources = status?.sources.length ?? 0;
+  const sources = status?.sources.filter((s) => !s.skipped).length ?? 0;
+  const { blips, sectors } = radarData(all, ref);
+
+  const topStory = [...all]
+    .filter((i) => ref - Date.parse(i.publishedAt) < 72 * 3_600_000 && i.sourceType === "rss")
+    .sort((a, b) => b.importance - a.importance || b.publishedAt.localeCompare(a.publishedAt))[0];
+  const discover = getDiscover();
+  const buzz = [
+    ...discover.filter((d) => d.kind === "tip"),
+    ...discover.filter((d) => d.kind === "x"),
+    ...discover.filter((d) => d.kind === "newsletter"),
+  ].slice(0, 4);
+  const models = getModels();
+  const newModels = models.filter((m) => m.createdAt && ref - Date.parse(m.createdAt) < 7 * 86_400_000).slice(0, 5);
 
   return (
     <div className="space-y-6">
-      <BriefingCard briefing={briefing} itemsById={itemsById} />
+      <div className="grid gap-4 lg:grid-cols-12">
+        <div className="lg:col-span-7 xl:col-span-8">
+          <BriefingCard briefing={briefing} itemsById={itemsById} columns={1} />
+        </div>
+        <div className="lg:col-span-5 xl:col-span-4">
+          <LiveRadar blips={blips} sectors={sectors} windowHours={RADAR_HOURS} />
+        </div>
+      </div>
 
       {briefing && (
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
@@ -62,6 +115,8 @@ export default function TodayPage() {
           <StatTile icon={Radio} label="Sources tracked" value={sources} hint={`${LABS.length} labs · auto every 3h`} />
         </div>
       )}
+
+      <Bento topStory={topStory} buzz={buzz} newModels={newModels} moves={getPriceMoves()} freeModels={models.filter((m) => m.free).length} />
 
       <div className="grid gap-6 lg:grid-cols-12">
         <div className="min-w-0 lg:col-span-8">
@@ -78,7 +133,7 @@ export default function TodayPage() {
                     <li key={s.slug}>
                       <Link href={`/labs/${s.slug}`} className="group flex items-center gap-2.5">
                         <LabLogo logo={lab.logo} name={lab.name} size="xs" />
-                        <span className="w-28 truncate text-[13px] font-medium group-hover:text-foreground">{lab.name}</span>
+                        <span className="w-28 truncate text-[14px] font-medium group-hover:text-foreground">{lab.name}</span>
                         <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-muted">
                           <span className="block h-full rounded-full" style={{ width: `${(s.last7 / maxLast7) * 100}%`, background: `linear-gradient(90deg, var(--brand), ${lab.color})` }} />
                         </span>
@@ -90,32 +145,16 @@ export default function TodayPage() {
               </ul>
             </SideCard>
 
-            {discover.length > 0 && (
-              <SideCard title="New on Discover" href="/discover" icon={Compass}>
-                <ul className="space-y-3">
-                  {discover.map((d) => (
-                    <li key={d.id}>
-                      <a href={d.url} target="_blank" rel="noopener noreferrer" className="group block">
-                        <span className="text-[13px] font-medium group-hover:underline">{d.name}</span>
-                        <span className="line-clamp-2 text-xs text-muted-foreground">{d.summary}</span>
-                        <span className="mt-0.5 block text-[11px] text-brand">{d.why}</span>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </SideCard>
-            )}
-
             {deals.length > 0 && (
               <SideCard title="Verified active deals" href="/deals" icon={Gift}>
                 <ul className="space-y-2.5">
                   {deals.map((d) => (
                     <li key={d.id}>
-                      <a href={d.url} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-2">
+                      <a href={extHref(d.url)} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-2">
                         <span className="mt-1.5 size-1.5 shrink-0 rounded-full bg-emerald-500" />
                         <span>
-                          <span className="block text-[13px] font-medium group-hover:underline">{d.title}</span>
-                          <span className="text-[11.5px] text-muted-foreground">{d.provider}</span>
+                          <span className="block text-[14px] font-medium group-hover:underline">{d.title}</span>
+                          <span className="text-[13px] text-muted-foreground">{d.provider}</span>
                         </span>
                       </a>
                     </li>

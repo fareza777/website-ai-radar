@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { LABS } from "@/config/labs";
-import type { Briefing, Deal, DiscoverItem, RunStatus, UpdateItem } from "./types";
+import type { Briefing, Deal, DiscoverItem, ModelEntry, PriceMove, RunStatus, StartupNews, UpdateItem } from "./types";
 
 /**
  * Server-only data access. Data lives in /data as JSON committed by the collector,
@@ -49,6 +49,27 @@ export function toDiscoverCard(d: DiscoverItem): DiscoverItem {
   const { starHistory: _history, ...rest } = d;
   void _history;
   return { ...rest, description: d.description === d.summary ? "" : d.description };
+}
+
+export function getStartups(): StartupNews[] {
+  return load<StartupNews[]>("startups.json", []);
+}
+
+export function getModels(): ModelEntry[] {
+  return load<ModelEntry[]>("models.json", []);
+}
+
+export function getPriceMoves(): PriceMove[] {
+  return load<PriceMove[]>("price-moves.json", []);
+}
+
+/** Client payload for the Models table (history trimmed to the last 6 points). */
+export type ModelRow = Omit<ModelEntry, "history" | "lastSeenAt"> & { history: ModelEntry["history"] };
+
+export function toModelRow(m: ModelEntry): ModelRow {
+  const { lastSeenAt: _seen, ...rest } = m;
+  void _seen;
+  return { ...rest, history: m.history.slice(-6) };
 }
 
 export function getDeals(): Deal[] {

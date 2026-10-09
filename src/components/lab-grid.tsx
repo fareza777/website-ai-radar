@@ -87,7 +87,7 @@ export function LabGrid({ stats, dates }: LabGridProps) {
                     <p className="truncate text-xs text-muted-foreground">{lab.tagline}</p>
                   </div>
                   {badge && (
-                    <span title={badge.title} className={cn("shrink-0 rounded-full px-2 py-0.5 text-[11px] font-semibold tabular-nums", "bg-brand text-primary-foreground shadow-[0_0_14px_-3px_var(--brand)]")}>
+                    <span title={badge.title} className={cn("shrink-0 rounded-full px-2 py-0.5 text-[12.5px] font-semibold tabular-nums", "bg-brand text-primary-foreground shadow-[0_0_14px_-3px_var(--brand)]")}>
                       {badge.label}
                     </span>
                   )}
@@ -97,13 +97,13 @@ export function LabGrid({ stats, dates }: LabGridProps) {
                   <Sparkline data={s?.spark ?? []} color={lab.color} />
                 </div>
 
-                <div className="mt-3 flex items-center justify-between gap-2 text-[11.5px] text-muted-foreground">
+                <div className="mt-3 flex items-center justify-between gap-2 text-[13px] text-muted-foreground">
                   <span>
                     <span className="font-semibold text-foreground tabular-nums">{s?.last30 ?? 0}</span> updates · 30d
                   </span>
                   <CoveragePill coverage={lab.coverage} />
                 </div>
-                <div className="mt-1 text-[11.5px] text-muted-foreground">
+                <div className="mt-1 text-[13px] text-muted-foreground">
                   {s?.latestAt ? (
                     <>Latest: <TimeAgo iso={s.latestAt} relativeDays={30} /></>
                   ) : (

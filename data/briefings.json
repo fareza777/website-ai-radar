@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-09",
-    "generatedAt": "2026-10-09T08:28:35.761Z",
+    "generatedAt": "2026-10-09T09:49:52.701Z",
     "stats": {
-      "updates24h": 17,
+      "updates24h": 18,
       "labsActive24h": 6,
-      "updates7d": 101,
+      "updates7d": 102,
       "newModels7d": 25
     },
     "source": "template",
-    "headline": "17 updates from 6 AI labs in the last 24 hours · 25 model releases this week.",
+    "headline": "18 updates from 6 AI labs in the last 24 hours · 25 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
@@ -22,6 +22,11 @@
         "lab": "amazon"
       },
       {
+        "text": "OpenAI: Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+        "itemId": "edd58468d564448f",
+        "lab": "openai"
+      },
+      {
         "text": "OpenAI: LegalOn halves Codex costs while maintaining development speed",
         "itemId": "f6d3626eb7c890d9",
         "lab": "openai"
@@ -30,11 +35,6 @@
         "text": "NVIDIA: Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
         "itemId": "42268168adb0195b",
         "lab": "nvidia"
-      },
-      {
-        "text": "OpenAI: Pollo AI turns creative ideas into campaigns with OpenAI",
-        "itemId": "ca1ec6c6a1a1314d",
-        "lab": "openai"
       }
     ]
   }

@@ -82,7 +82,7 @@ export function FeedView({ items, dataTime }: { items: FeedItem[]; dataTime: str
           <button
             type="button"
             onClick={markAllRead}
-            className="inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 text-[12.5px] font-medium text-muted-foreground transition hover:text-foreground"
+            className="inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 text-[13.5px] font-medium text-muted-foreground transition hover:text-foreground"
             title="Mark all as read"
           >
             <CheckCheck className="size-4" /> <span className="hidden sm:inline">Mark all read</span>

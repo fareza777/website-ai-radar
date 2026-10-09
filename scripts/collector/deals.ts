@@ -15,7 +15,7 @@ interface OpenRouterModel {
 }
 
 /** Maps OpenRouter vendor prefixes to lab slugs. */
-const OR_VENDOR: Record<string, string> = {
+export const OR_VENDOR: Record<string, string> = {
   openai: "openai", anthropic: "anthropic", google: "google-deepmind", "x-ai": "xai", deepseek: "deepseek",
   qwen: "qwen", moonshotai: "moonshot", "z-ai": "zai", "meta-llama": "meta", mistralai: "mistral",
   minimax: "minimax", cohere: "cohere", microsoft: "microsoft", amazon: "amazon", baidu: "baidu",

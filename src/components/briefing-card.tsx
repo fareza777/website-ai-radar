@@ -9,12 +9,14 @@ import { extHref } from "@/lib/url";
 interface BriefingCardProps {
   briefing: Briefing | undefined;
   itemsById: Map<string, UpdateItem>;
+  /** Bullet grid columns on larger screens (1 when shown beside the radar). */
+  columns?: 1 | 2;
 }
 
-export function BriefingCard({ briefing, itemsById }: BriefingCardProps) {
+export function BriefingCard({ briefing, itemsById, columns = 2 }: BriefingCardProps) {
   if (!briefing) return null;
   return (
-    <section aria-labelledby="briefing-title" className="card-surface relative overflow-hidden p-5 sm:p-7">
+    <section aria-labelledby="briefing-title" className="card-surface relative h-full overflow-hidden p-5 sm:p-7">
       <div aria-hidden="true" className="pointer-events-none absolute -right-24 -top-24 size-72 rounded-full bg-brand/15 blur-3xl" />
       <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 left-1/3 size-72 rounded-full bg-brand-2/10 blur-3xl" />
       <div className="relative">
@@ -27,14 +29,14 @@ export function BriefingCard({ briefing, itemsById }: BriefingCardProps) {
           <span>
             updated <TimeAgo iso={briefing.generatedAt} />
           </span>
-          <span className="rounded bg-muted px-1.5 py-px font-mono text-[10px]" title={briefing.source === "llm" ? "Summarized by an LLM from source data" : "Assembled automatically from source data (no LLM)"}>
+          <span className="rounded bg-muted px-1.5 py-px font-mono text-[11.5px]" title={briefing.source === "llm" ? "Summarized by an LLM from source data" : "Assembled automatically from source data (no LLM)"}>
             {briefing.source === "llm" ? "AI summary" : "auto"}
           </span>
         </p>
         <h1 id="briefing-title" className="mt-4 max-w-3xl text-balance text-2xl font-semibold leading-tight tracking-tight sm:text-[32px]">
           <span className="text-gradient">{briefing.headline}</span>
         </h1>
-        <ul className="mt-5 grid gap-2 sm:grid-cols-2">
+        <ul className={columns === 2 ? "mt-5 grid gap-2 sm:grid-cols-2" : "mt-5 grid gap-2"}>
           {briefing.bullets.map((b, i) => {
             const item = b.itemId ? itemsById.get(b.itemId) : undefined;
             const lab = b.lab ? LAB_BY_SLUG[b.lab] : undefined;

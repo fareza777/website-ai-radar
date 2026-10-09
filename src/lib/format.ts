@@ -39,6 +39,14 @@ export function relativeTime(iso: string, now: number): string {
   return rtf.format(Math.round(diff / (86_400 * 365)), "year");
 }
 
+/** USD per 1M tokens, compact. */
+export function usd(n: number): string {
+  if (n === 0) return "Free";
+  if (n < 0.01) return `$${n.toFixed(4)}`;
+  if (n < 1) return `$${n.toFixed(3)}`;
+  return `$${n.toFixed(2)}`;
+}
+
 export function compactNumber(n: number): string {
   return new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 }).format(n);
 }

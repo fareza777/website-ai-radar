@@ -46,32 +46,32 @@ function DealCard({ deal, status }: { deal: Deal; status: DealStatus }) {
         {lab && <LabLogo logo={lab.logo} name={lab.name} size="sm" />}
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-1.5">
-            <span className={cn("inline-flex h-5 items-center gap-1 rounded-md border px-1.5 text-[11px] font-semibold", meta.className)} title={meta.hint}>
+            <span className={cn("inline-flex h-5 items-center gap-1 rounded-md border px-1.5 text-[12.5px] font-semibold", meta.className)} title={meta.hint}>
               {status === "active" && <ShieldCheck className="size-3" />}
               {meta.label}
             </span>
-            <span className="inline-flex h-5 items-center rounded-md border px-1.5 text-[11px] text-muted-foreground">{KIND_LABEL[deal.kind]}</span>
+            <span className="inline-flex h-5 items-center rounded-md border px-1.5 text-[12.5px] text-muted-foreground">{KIND_LABEL[deal.kind]}</span>
           </div>
-          <h3 className="mt-1.5 text-[15px] font-semibold leading-snug tracking-tight">{deal.title}</h3>
+          <h3 className="mt-1.5 text-[16px] font-semibold leading-snug tracking-tight">{deal.title}</h3>
           <p className="text-xs text-muted-foreground">{deal.provider}</p>
         </div>
         <BookmarkButton entry={{ id: deal.id, kind: "deal", title: deal.title, url: deal.url, lab: deal.lab, subtitle: deal.provider, date: deal.startsAt ?? deal.firstSeenAt }} />
       </header>
 
-      {deal.description && <p className="mt-2 line-clamp-3 text-[13px] text-muted-foreground">{deal.description}</p>}
-      <p className="mt-2 text-[13px] text-foreground/85">
+      {deal.description && <p className="mt-2 line-clamp-3 text-[14px] text-muted-foreground">{deal.description}</p>}
+      <p className="mt-2 text-[14px] text-foreground/85">
         <span className="font-medium text-foreground">Terms: </span>
         {deal.terms}
       </p>
 
       {deal.evidence && (
-        <blockquote className="mt-2.5 flex gap-2 rounded-lg border-l-2 border-emerald-500/60 bg-subtle/70 px-3 py-2 text-[12px] italic text-muted-foreground">
+        <blockquote className="mt-2.5 flex gap-2 rounded-lg border-l-2 border-emerald-500/60 bg-subtle/70 px-3 py-2 text-[13px] italic text-muted-foreground">
           <Quote className="mt-0.5 size-3 shrink-0" />
           <span className="line-clamp-3">{deal.evidence}</span>
         </blockquote>
       )}
 
-      <dl className="mt-3 grid grid-cols-3 gap-2 text-[11px]">
+      <dl className="mt-3 grid grid-cols-3 gap-2 text-[12.5px]">
         <div>
           <dt className="text-muted-foreground">Starts</dt>
           <dd className="font-medium">{deal.startsAt ? formatDate(deal.startsAt) : "—"}</dd>
@@ -86,7 +86,7 @@ function DealCard({ deal, status }: { deal: Deal; status: DealStatus }) {
         </div>
       </dl>
 
-      <footer className="mt-auto flex items-center justify-between pt-3 text-[11.5px] text-muted-foreground">
+      <footer className="mt-auto flex items-center justify-between pt-3 text-[13px] text-muted-foreground">
         <span className="truncate">{deal.sourceName}</span>
         <a href={extHref(deal.url)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-0.5 font-medium text-foreground hover:underline">
           Official source <ArrowUpRight className="size-3.5" />
