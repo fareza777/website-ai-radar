@@ -1,24 +1,121 @@
 ---
-description: Rutinitas update harian AI Radar (jalankan saat diminta "update harian" / jadwal harian)
+description: AI Radar daily editorial + maintenance run (use when asked for the "daily run" / scheduled daily task)
 alwaysApply: false
 ---
 
-# Rutinitas update harian
+# AI Radar — daily run (once per day)
 
-Ikuti urutan ini persis. Detail & tabel troubleshooting: `docs/CURSOR_GUIDE.md`.
+You are the editor and maintainer of AI Radar. Work through ALL steps in order. Output language for anything
+published on the site: **English**. Hard rules are at the bottom — they override everything else.
 
-1. `git pull --rebase` lalu `npm ci`.
-2. `npm run collect` — catat baris `Done … ok=… failed=… skipped=…`.
-3. Untuk setiap entri `data/status.json` dengan `"ok": false` dan tanpa `"skipped": true`:
-   - `curl -sIL <target>` untuk melihat status.
-   - 404/410/HTML → cari URL feed RESMI pengganti, update `src/config/labs.ts`, uji dengan `npm run collect -- --only=labs --lab=<slug>`.
-   - 403/429/timeout → jangan ubah apa pun.
-4. Deal kurasi berstatus `"unverified"` di `data/deals.json` → buka halaman resmi; sesuaikan `mustContain` dengan teks yang benar-benar ada, atau hapus entri jika program berakhir. Uji: `npm run collect -- --only=deals`.
-5. Validasi: `npm test && npm run lint && npm run typecheck && npm run build` (semua harus lulus).
-6. Commit & push:
-   - hanya data → `chore(data): daily update YYYY-MM-DD`
-   - perubahan config → `fix(sources): <ringkas>`
-   - push ditolak → `git pull --rebase`; konflik `data/` → `git checkout --theirs data`, lanjutkan rebase, jalankan ulang `npm run collect`, commit, push.
-7. Laporkan: total item, sumber gagal + tindakan, deal yang berubah status, hasil build.
+## 0. Sync
+```bash
+git pull --rebase
+npm ci
+```
 
-DILARANG: edit manual `data/*.json`, mengarang konten, menghapus test agar lulus, menonaktifkan verifikasi deal.
+## 1. Collect fresh data
+```bash
+npm run collect
+```
+Note the final line `Done … ok=… failed=… skipped=…`.
+
+## 2. Fix broken sources
+For each entry in `data/status.json` with `"ok": false` and without `"skipped": true`:
+- `curl -sIL <target>` to inspect.
+- 404/410/HTML instead of a feed → find the lab's new OFFICIAL feed URL and update `src/config/labs.ts`; verify with
+  `npm run collect -- --only=labs --lab=<slug>`.
+- 403/429/timeouts → change nothing (transient).
+
+## 3. X buzz research (find up to 5 new AI startups/tools)
+Goal: surface AI products that people are talking about on X in the last ~48h, like a new startup launch.
+- Use web search (never log in to or scrape X). Useful queries: `"just launched" AI agent`, `"introducing" AI startup site:x.com`,
+  `AI tool launch this week`, `Show HN AI`, `YC launch AI`, plus names you see repeatedly.
+- For each candidate you MUST open and confirm: (a) the product's own website or GitHub repo loads, and (b) ideally the X post URL
+  (`https://x.com/<user>/status/<id>`).
+- Skip: products of the 20 tracked labs (already covered), pure news articles, crypto token promotions, NSFW, anything already in
+  `data/discover.json` (search by domain).
+- Add each one:
+  ```bash
+  npm run tip -- --x <x post url> --url <product url> --note "<one factual line>" --by cursor
+  ```
+- Then publish them: `npm run collect -- --only=discover`, and confirm each appears in `data/discover.json`
+  (if a tip did not appear, its page could not be loaded — leave it, do not force it).
+
+## 4. Write summaries (the main editorial job)
+```bash
+npm run summaries:pending
+```
+Read `summaries/pending.json` and write entries into these files (merge with existing keys, never delete valid ones):
+
+**`summaries/updates.json`** — for every item in `pending.updates` (up to all of them):
+```json
+"<id>": { "hash": "<hash from pending>", "summary": "...", "benefit": "...", "category": "model" }
+```
+- `summary`: 1–2 sentences (20–320 chars). What was announced, in plain English.
+- `benefit` ("Why it matters" on the site): 1 sentence (15–240 chars). The concrete, practical benefit for a user or developer.
+  Be specific to this item (who should care and what they can now do) — not generic filler.
+- `category` (optional, only to correct a wrong one): model | feature | api | pricing | promo | research | developer.
+
+**`summaries/discover.json`** — for every item in `pending.discover`:
+```json
+"<id>": { "summary": "What it does", "unique": "What sets it apart", "benefit": "Who benefits and how" }
+```
+
+**`summaries/briefing.json`** — if `pending.briefing` is not null:
+```json
+"<date>": { "headline": "One-sentence summary of the day", "bullets": [ { "text": "...", "itemId": "<itemId from candidates>" } ] }
+```
+3–6 bullets, most important first, each referencing a real `itemId` from `pending.briefing.candidates`.
+
+Writing rules (enforced by the validator):
+- Use ONLY facts in the item's `title` / `excerpt` / `description` / `xPost` from pending.json. Do not use outside knowledge.
+- Every number, price, percentage, or version you write must appear in that source text. No URLs in text.
+- No hype words ("revolutionary", "game-changing"). Keep product/model names exactly as written.
+
+Validate and fix until it reports 0 errors:
+```bash
+npm run summaries:check -- --prune
+```
+
+## 5. Deals check
+- In `data/deals.json`, curated deals (ids without `openrouter-`, `lab-`, `hn-` prefixes) with `"status": "unverified"`: open the
+  official page; if the offer still exists, update its `mustContain` in `src/config/deals.ts` to text that is really on the page;
+  if it ended, remove the entry.
+- Optional: add up to 2 NEW free tiers / credit programs you verified on an official page (with `url` + `mustContain`), then
+  `npm run collect -- --only=deals` and keep them only if they come back `"active"` with sensible `evidence`.
+
+## 6. Coverage (Mondays only)
+For labs with `coverage: "partial"` in `src/config/labs.ts`, check whether an official RSS/changelog now exists; if so add it with
+`rss(...)`, update `coverage`/`coverageNote`, and test with `--only=labs --lab=<slug>`.
+
+## 7. Validate
+```bash
+npm test && npm run lint && npm run typecheck && npm run summaries:check && npm run build
+```
+All must pass. Fix the cause; never delete or weaken tests.
+
+## 8. Commit & push
+```bash
+git add summaries src/config data
+git commit -m "chore(daily): summaries, tips, data $(date -u +%Y-%m-%d)"
+git push
+```
+If the push is rejected (the GitHub Actions bot commits `data/` every 3h):
+```bash
+git pull --rebase            # on conflicts in data/: git checkout --theirs data && git add data && git rebase --continue
+npm run summaries:check -- --prune && git add summaries && git commit -m "chore(daily): reconcile" ; git push
+```
+
+## 9. Report (final message)
+- Items collected, sources failing + action taken.
+- Tips added (name + URL) and whether each went live.
+- Summaries written (updates / discover / briefing) and `summaries:check` result.
+- Deal changes. Build result.
+
+## HARD RULES
+- Never hand-edit `data/**/*.json`. Data changes only via `npm run collect`.
+- Never invent news, products, dates, prices, numbers, or quotes. If unsure, leave it out.
+- Never scrape or log in to X; X posts enter only via `npm run tip` (read later through X's official oEmbed).
+- Only write to: `summaries/*.json`, `src/config/tips.json` (via `npm run tip`), `src/config/labs.ts`, `src/config/deals.ts`.
+- Do not change application code, workflows, or tests during the daily run — report suggestions instead.

@@ -1,5 +1,7 @@
 # Panduan Update Harian dengan Cursor
 
+> **Prompt siap tempel untuk jadwal harian Cursor ada di [`docs/CURSOR_DAILY_PROMPT.md`](CURSOR_DAILY_PROMPT.md).** Prosedur lengkap yang diikuti agent: [`.cursor/rules/daily-update.mdc`](../.cursor/rules/daily-update.mdc).
+
 Dokumen ini untuk menjalankan update harian AI Radar memakai **Cursor** (Agent / Background Agent / automasi terjadwal). Aturan proyek untuk agent Cursor ada di `.cursor/rules/` dan otomatis dibaca Cursor.
 
 ## Pembagian tugas

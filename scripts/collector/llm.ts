@@ -1,4 +1,5 @@
 import { CATEGORIES, type Category } from "../../src/lib/types";
+import { isGrounded } from "../../src/lib/grounding";
 import { errorMessage } from "./http";
 
 /**
@@ -84,20 +85,7 @@ function clean(s: unknown, max: number): string | null {
   return t.length >= 10 ? t.slice(0, max) : null;
 }
 
-const NUMBER_TOKEN = /[$€£]?\d[\d.,]*\s?(%|[kmb]\b)?/gi;
-
-/**
- * Grounding guard: every number/price/percentage in the LLM output must appear in the source text.
- * Rejects hallucinated figures (and figures injected via prompt-injection in feed excerpts).
- */
-export function isGrounded(output: string, source: string): boolean {
-  const src = source.toLowerCase().replace(/\s+/g, "");
-  for (const m of output.toLowerCase().matchAll(NUMBER_TOKEN)) {
-    const digits = m[0].replace(/[^\d.,]/g, "").replace(/[.,]+$/, "");
-    if (digits && !src.includes(digits)) return false;
-  }
-  return true;
-}
+export { isGrounded } from "../../src/lib/grounding";
 
 /** Summarizes items in batches; failures are logged and skipped (templates remain). */
 export async function enrichUpdates(cfg: LlmConfig, items: EnrichInput[], log: (m: string) => void): Promise<Map<string, Enriched>> {

@@ -12,7 +12,9 @@
     "test": "vitest run",
     "collect": "tsx scripts/collect.ts",
     "build:logos": "node scripts/build-logos.mjs",
-    "tip": "tsx scripts/tip.ts"
+    "tip": "tsx scripts/tip.ts",
+    "summaries:pending": "tsx scripts/summaries.ts pending",
+    "summaries:check": "tsx scripts/summaries.ts check"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

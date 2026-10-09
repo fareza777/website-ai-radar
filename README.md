@@ -56,6 +56,8 @@ npm run dev            # http://localhost:3000
 | `npm run lint` · `npm run typecheck` | Code quality |
 | `npm run build` | Production build (also generates `public/search-index.json`) |
 | `npm run build:logos` | Regenerate inline logos from `public/logos/*.svg` |
+| `npm run tip -- --x <post> --url <site>` | Add a tip (X post / product) to `src/config/tips.json` |
+| `npm run summaries:pending` / `summaries:check` | Editorial summaries queue / validator (daily Cursor run) |
 
 ## Environment variables
 
@@ -93,6 +95,14 @@ X is never scraped. Posts reach AI Radar through legal paths only:
 3. **Optional X API** — set `X_BEARER_TOKEN` for recent-search of launch posts.
 
 Configuration: [`src/config/buzz.ts`](src/config/buzz.ts).
+
+## Daily editorial run (Cursor)
+
+Once a day a scheduled Cursor agent acts as editor: it runs the collector, fixes broken sources, researches AI startups buzzing
+on X (added as "Agent pick" tips), and writes English summaries / "Why it matters" lines / the daily briefing into
+`summaries/*.json`. The site overlays those summaries at build time **only if they validate** (`npm run summaries:check`:
+known id, unchanged source, length limits, no URLs, every number present in the source). Copy-paste prompt:
+[`docs/CURSOR_DAILY_PROMPT.md`](docs/CURSOR_DAILY_PROMPT.md).
 
 ## Source configuration
 

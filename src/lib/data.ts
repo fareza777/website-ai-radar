@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { LABS } from "@/config/labs";
+import { overlayBriefings, overlayDiscover, overlayUpdates, type SummaryFiles } from "./summaries";
 import type { Briefing, Deal, DiscoverItem, ModelEntry, PriceMove, RunStatus, StartupNews, UpdateItem } from "./types";
 
 /**
@@ -9,13 +10,15 @@ import type { Briefing, Deal, DiscoverItem, ModelEntry, PriceMove, RunStatus, St
  */
 
 const DATA_DIR = join(process.cwd(), "data");
+const SUMMARIES_DIR = join(process.cwd(), "summaries");
 const cache = new Map<string, unknown>();
 
-function load<T>(rel: string, fallback: T): T {
-  if (cache.has(rel)) return cache.get(rel) as T;
+function load<T>(rel: string, fallback: T, dir = DATA_DIR): T {
+  const key = `${dir}|${rel}`;
+  if (cache.has(key)) return cache.get(key) as T;
   let raw: string | null = null;
   try {
-    raw = readFileSync(join(DATA_DIR, rel), "utf8");
+    raw = readFileSync(join(dir, rel), "utf8");
   } catch (err) {
     // Only a missing file falls back; any other I/O problem must fail the build.
     if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
@@ -23,12 +26,30 @@ function load<T>(rel: string, fallback: T): T {
   // Corrupt JSON throws on purpose: a failed build keeps the previous good deployment live
   // instead of silently publishing empty pages.
   const value = raw === null ? fallback : (JSON.parse(raw) as T);
-  cache.set(rel, value);
+  cache.set(key, value);
   return value;
 }
 
-export function getLabItems(slug: string): UpdateItem[] {
+/** Editorial summaries written by the daily Cursor run (validated before use, see lib/summaries.ts). */
+export function getSummaryFiles(): SummaryFiles {
+  return {
+    updates: load<SummaryFiles["updates"]>("updates.json", {}, SUMMARIES_DIR),
+    discover: load<SummaryFiles["discover"]>("discover.json", {}, SUMMARIES_DIR),
+    briefing: load<SummaryFiles["briefing"]>("briefing.json", {}, SUMMARIES_DIR),
+  };
+}
+
+/** Raw collector output (no editorial overlay) — used by the summaries CLI. */
+export function getRawLabItems(slug: string): UpdateItem[] {
   return load<UpdateItem[]>(`updates/${slug}.json`, []);
+}
+
+export function getLabItems(slug: string): UpdateItem[] {
+  const key = `overlay|${slug}`;
+  if (cache.has(key)) return cache.get(key) as UpdateItem[];
+  const items = overlayUpdates(getRawLabItems(slug), getSummaryFiles().updates);
+  cache.set(key, items);
+  return items;
 }
 
 export function getAllItems(): UpdateItem[] {
@@ -40,8 +61,12 @@ export function getStatus(): RunStatus | null {
   return load<RunStatus | null>("status.json", null);
 }
 
-export function getDiscover(): DiscoverItem[] {
+export function getRawDiscover(): DiscoverItem[] {
   return load<DiscoverItem[]>("discover.json", []);
+}
+
+export function getDiscover(): DiscoverItem[] {
+  return overlayDiscover(getRawDiscover(), getSummaryFiles().discover);
 }
 
 /** Client payload for Discover cards: drops star history (only used by the collector). */
@@ -76,8 +101,13 @@ export function getDeals(): Deal[] {
   return load<Deal[]>("deals.json", []);
 }
 
-export function getBriefings(): Briefing[] {
+export function getRawBriefings(): Briefing[] {
   return load<Briefing[]>("briefings.json", []);
+}
+
+export function getBriefings(): Briefing[] {
+  const byId = new Map(getAllItems().map((i) => [i.id, i]));
+  return overlayBriefings(getRawBriefings(), getSummaryFiles().briefing, byId);
 }
 
 /** Reference "now" for server-side windows = the collector's last run (never the wall clock). */

@@ -211,6 +211,8 @@ export interface TipRef {
   x?: string;
   url?: string;
   note?: string;
+  /** "cursor" when added by the daily research agent (shown as "Agent pick"); absent = editor. */
+  by?: string;
   addedAt: string;
 }
 
@@ -356,7 +358,7 @@ export async function collectBuzz(now: Date, known: KnownLookup, log: (m: string
     return res.tips.length;
   });
   for (const tip of tipsList) {
-    const signal: Signal = { source: "tip", label: "Editor's pick", url: tip.issueUrl ?? tip.x ?? tip.url ?? "", value: 1, at: tip.addedAt };
+    const signal: Signal = { source: "tip", label: tip.by ? "Agent pick (daily research)" : "Editor's pick", url: tip.issueUrl ?? tip.x ?? tip.url ?? "", value: 1, at: tip.addedAt };
     if (tip.x) xQueue.push({ url: tip.x, signal, tip });
     if (tip.url && isProductUrl(tip.url)) sightings.push({ url: tip.url, signal, hint: tip.note, launch: false, at: tip.addedAt });
     else if (tip.url) tipResults.push({ tip, ok: false, reason: "URL is a social/news/lab link — please submit the product's own website or GitHub repo" });

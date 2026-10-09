@@ -221,7 +221,8 @@ function templatePricing(c: { kind: DiscoverKind; license?: string | null }): st
 function why(item: Pick<DiscoverItem, "novelty" | "createdAt" | "dateKind" | "stars" | "starsDelta7d" | "signals" | "quote">, now: Date): string {
   const parts: string[] = [];
   const ageDays = item.createdAt ? Math.floor((now.getTime() - Date.parse(item.createdAt)) / 86_400_000) : null;
-  if (item.signals.some((s) => s.source === "tip")) parts.push("Editor's pick");
+  const tip = item.signals.find((s) => s.source === "tip");
+  if (tip) parts.push(tip.label.startsWith("Agent") ? "Agent pick" : "Editor's pick");
   if (item.dateKind === "spotted" && ageDays != null) parts.push(ageDays <= 1 ? "First spotted today" : `First spotted ${ageDays} days ago`);
   else if (item.novelty === "new" && ageDays != null) parts.push(ageDays <= 1 ? "Just launched" : `${ageDays} days old`);
   if (item.novelty === "trending" && item.createdAt && item.dateKind !== "spotted") parts.push(`Older project (since ${item.createdAt.slice(0, 4)}) gaining momentum`);

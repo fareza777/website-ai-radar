@@ -12,6 +12,8 @@ alwaysApply: true
 - Jangan scraping X/Twitter atau situs yang butuh login. Post X hanya masuk lewat tips (`npm run tip` → `src/config/tips.json`, atau issue `radar-tip`), newsletter, oEmbed resmi, atau X API (token).
 - Deal hanya boleh "active" lewat verifikasi otomatis (`mustContain` ditemukan di halaman resmi). Jangan memaksa status.
 
+- Editorial layer: summaries/*.json (ditulis agent harian, divalidasi `npm run summaries:check`, ditimpakan saat build). Bukan data mentah — boleh ditulis agent sesuai `.cursor/rules/daily-update.mdc`.
+
 ## Arsitektur
 - Next.js 16 App Router dengan `cacheComponents: true` — baca `node_modules/next/dist/docs/` sebelum memakai API Next.js.
   - Jangan panggil `new Date()`/`Date.now()` di Server Component (error saat prerender). Waktu relatif dihitung di client (`useNow`, `<TimeAgo>`).

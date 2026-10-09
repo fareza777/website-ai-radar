@@ -6,6 +6,7 @@ import { parseFeed } from "../scripts/collector/feed";
 import { buildItem, dedupe, mergeItems } from "../scripts/collector/merge";
 import { isProductUrl, productKey } from "../scripts/collector/buzz";
 import { isGrounded } from "../scripts/collector/llm";
+import { overlayUpdates, updateSummaryProblem } from "../src/lib/summaries";
 import { perMillion } from "../scripts/collector/models";
 import { headlineAmount, headlineCompany, startupKind } from "../scripts/collector/startups";
 import { isOfficialUrl, jaccard, normalizeUrl, parseDate, safeHttpUrl, stripHtml, titleTokens, truncate } from "../scripts/collector/text";
@@ -287,5 +288,27 @@ describe("model price tracker", () => {
     expect(perMillion(null)).toBeNull();
     expect(perMillion("")).toBeNull();
     expect(perMillion("-1")).toBeNull();
+  });
+});
+
+describe("editorial summaries (daily Cursor run)", () => {
+  const item = buildItem(openai, rssSource, raw("Introducing GPT-6.1 Sol", "https://openai.com/sol", undefined, "Near-Astra intelligence at one-fifth of Astra's API token prices."), NOW);
+  const good = { hash: item.contentHash, summary: "GPT-6.1 Sol brings near-Astra intelligence at a fifth of the price.", benefit: "Cheaper API calls for coding and agent workloads." };
+
+  it("accepts a grounded, fresh summary and overlays it", () => {
+    expect(updateSummaryProblem(good, item)).toBeNull();
+    const [out] = overlayUpdates([item], { [item.id]: good });
+    expect(out.summary).toBe(good.summary);
+    expect(out.summarySource).toBe("llm");
+  });
+
+  it("rejects invented numbers, stale hashes, URLs, bad categories, and unknown ids", () => {
+    expect(updateSummaryProblem({ ...good, summary: "GPT-6.1 Sol costs $0.40 per million tokens, a 80% cut." }, item)).toMatch(/numbers/);
+    expect(updateSummaryProblem({ ...good, hash: "old" }, item)).toMatch(/stale/);
+    expect(updateSummaryProblem({ ...good, benefit: "See https://example.com for more details." }, item)).toMatch(/URL/);
+    expect(updateSummaryProblem({ ...good, category: "gossip" as never }, item)).toMatch(/category/);
+    expect(updateSummaryProblem(good, undefined)).toMatch(/unknown/);
+    const [kept] = overlayUpdates([item], { [item.id]: { ...good, hash: "old" } });
+    expect(kept.summarySource).toBe("template");
   });
 });
