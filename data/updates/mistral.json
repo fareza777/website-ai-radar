@@ -1,5 +1,34 @@
 [
   {
+    "id": "d27c05577548741f",
+    "lab": "mistral",
+    "title": "Mistral Vibe v2.26.1",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v2.26.1",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-09T15:11:25.000Z",
+    "firstSeenAt": "2026-10-09T16:18:37.683Z",
+    "updatedAt": "2026-10-09T15:11:25.000Z",
+    "excerpt": "Added The app-server reports which process holds a stored session, and pushes a change when that process lets go of it, so a client can show a session open elsewhere as read-only Rust CLI: Configure proxy and SSL certificate settings with /proxy-setup . Rust CLI: The narrator reads each turn's summary aloud and shows a speaking status row that Esc or Ctrl+C stops. Rust CLI: /plugins browses the session's plugins…",
+    "summary": "Mistral AI shipped Mistral Vibe v2.26.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "f5c22eda94fa",
+    "meta": {
+      "version": "v2.26.1",
+      "semver": "patch",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "820bd24a41c4e68d",
     "lab": "mistral",
     "title": "Introducing Mistral Large 4",
