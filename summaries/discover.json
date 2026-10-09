@@ -1,1 +1,127 @@
-{}
+{
+  "68f518ddfa4b617f": {
+    "summary": "Strata runs Qwen3.8-Flash-Next on consumer hardware with a one-click install for Windows and Linux, a local OpenAI and Anthropic API, and optional image input.",
+    "unique": "One-click local inference of Qwen3.8-Flash-Next, with a localhost API and optional images.",
+    "benefit": "People without datacenter GPUs can run that Qwen model locally and call it through a familiar API."
+  },
+  "7d5820b245cede35": {
+    "summary": "openTPU is an open-source AI accelerator from AI, with RTL, an ISA, a simulator, a compiler, and a profiler in one repo.",
+    "unique": "It runs Qwen3, LFM2.5, and Qwen3.5 on a Kintex-7 PCIe card.",
+    "benefit": "Hardware researchers can study or extend a full accelerator stack that already runs those models."
+  },
+  "6d6576e058c67e77": {
+    "summary": "docker-agent is an AI agent builder and runtime from Docker Engineering.",
+    "unique": "The agent builder and runtime come from the Docker engineering team.",
+    "benefit": "Teams already on Docker can build and run agents in a runtime from Docker Engineering."
+  },
+  "4503351927f0badb": {
+    "summary": "OpenShell is a runtime for autonomous AI agents that is meant to stay safe and private.",
+    "unique": "It focuses on a safe, private place for agents to run on their own.",
+    "benefit": "Developers who want autonomous agents can run them in a runtime built for safety and privacy."
+  },
+  "02e3bf1928869cd7": {
+    "summary": "Jeeves applies reasoning to improve Jev-like decision models.",
+    "unique": "It targets decision models in the Jev style rather than general chat.",
+    "benefit": "People building Jev-like decision models can use Jeeves to improve their reasoning."
+  },
+  "94596d73fc4d7609": {
+    "summary": "magnitude is an open-source inference engine for agents that compiles and tunes kernels on your own hardware.",
+    "unique": "It claims open models run up to 2x faster than llama.cpp on Apple Silicon, NVIDIA, AMD, or CPU.",
+    "benefit": "Agent developers can get hardware-tuned inference without hand-writing kernels for each machine."
+  },
+  "fac582e8d95d6d8d": {
+    "summary": "muse-gadget-sdk is an open-source SDK for building Muse gadgets.",
+    "unique": "It is specifically an SDK for Muse gadgets, and it is open source.",
+    "benefit": "Developers can build their own Muse gadgets with the open SDK."
+  },
+  "00cc8b3f210885ee": {
+    "summary": "jev-chat-jarvis reads a chat, judges intent and risk, and drafts a reply you fill in with one tap. You still press send. It runs on Android, Windows, macOS, and iOS.",
+    "unique": "Jev drafts the reply, but sending stays a human action across phone and desktop.",
+    "benefit": "People who want a second look at a chat can get a drafted reply without auto-sending it."
+  },
+  "addbab3545fa2844": {
+    "summary": "ZCode is Z.ai's coding agent harness, described as powerful, intelligent, and extensible.",
+    "unique": "It is Z.ai's own harness for coding agents, built to be extended.",
+    "benefit": "Developers using Z.ai can run coding agents through an extensible harness."
+  },
+  "dd9680e2ccb138fc": {
+    "summary": "SCM does deep AI search over every photo and every frame of video in any folder on macOS.",
+    "unique": "Search covers both still photos and individual video frames in local Mac folders.",
+    "benefit": "Mac users can find a moment in a local video or photo library by searching with AI."
+  },
+  "70cce2d5dd72d1ca": {
+    "summary": "magpie puts every agent's model in one menu-bar place, including Codex on DeepSeek and Claude Code on Kimi.",
+    "unique": "You can point Codex at DeepSeek and Claude Code at Kimi from the menu bar.",
+    "benefit": "Developers can swap which model an existing coding agent uses without leaving the menu bar."
+  },
+  "2669f6afff388461": {
+    "summary": "AIHOT is a website framework that finds hot topics and writes its own daily digest. Swap in your sources and selection rules to make an industry news site.",
+    "unique": "The same framework hunts trends and writes the daily report once you set the sources.",
+    "benefit": "Editors can stand up an industry hotspot site by changing sources and what counts as worth covering."
+  },
+  "791d0f1196ed364f": {
+    "summary": "universal-modder gives Claude Code skills, tools, and the fal MCP to mod almost any PC game you own, including recon, art, 3D, audio, in-game tests, and showcase videos.",
+    "unique": "It points Claude at a game you own and covers recon through generated assets and in-game testing.",
+    "benefit": "Modders can ask Claude Code to reverse, generate assets, and test changes inside a PC game."
+  },
+  "b65ef539ee0e8b9a": {
+    "summary": "This dsh plugin serves frontier models, including DeepSeek V4.1 Flash and Kimi K3, with no login, sign-up, or API key. It is completely free with no usage cap.",
+    "unique": "Install the plugin in dsh and the models are available with no account and no usage cap.",
+    "benefit": "dsh users can call DeepSeek V4.1 Flash and Kimi K3 without an API key or a usage limit."
+  },
+  "474bc088f594b095": {
+    "summary": "coucou sits in the Mac notch and on iPhone to watch coding agents such as Claude Code, Codex, Cursor, Gemini CLI, and Antigravity, and lets you approve from the notch or Lock Screen.",
+    "unique": "Approvals show up in the notch and on the Lock Screen instead of inside each agent app.",
+    "benefit": "People running several coding agents can approve a step from the notch or lock screen."
+  },
+  "c9c14e440e7bf01e": {
+    "summary": "ldraw-nova is agent tooling for generative LEGO model building, built with Astra and Opus 5.5 and powered by Jev.",
+    "unique": "It applies Astra, Opus 5.5, and Jev to generating LEGO models.",
+    "benefit": "Builders can use agents to generate LEGO models instead of placing every brick by hand."
+  },
+  "af09a051eb96e591": {
+    "summary": "ts-rust is an experimental Rust port of the TypeScript 7 compiler, tsc.",
+    "unique": "It reimplements the TypeScript 7 compiler in Rust as an experiment.",
+    "benefit": "Compiler developers can study or try a Rust port of the TypeScript 7 tsc."
+  },
+  "fd00d19829252515": {
+    "summary": "shaders provides WebGPU components for React, Vue, Svelte, Solid, JS, and Framer.",
+    "unique": "The same WebGPU components target several UI frameworks plus Framer.",
+    "benefit": "Front-end developers can drop WebGPU shader components into the framework they already use."
+  },
+  "9c51865a4ed52697": {
+    "summary": "omnirush-gui is a desktop coding agent with free access to frontier models.",
+    "unique": "A desktop coding agent that includes free access to frontier models.",
+    "benefit": "Developers can use a desktop coding agent without paying for frontier-model access."
+  },
+  "01ebcf280c43e41b": {
+    "summary": "answer-me-with-html is an agent skill that answers hard questions with a one-page HTML document you can read.",
+    "unique": "The answer is a single readable HTML page rather than a long chat transcript.",
+    "benefit": "People asking complex questions can get one HTML page they can open and read."
+  },
+  "7d3465fad608c3c9": {
+    "summary": "invisible_playwright_mcp is a Playwright MCP server that browses on anti-detect stealth Firefox so agents are less likely to be stopped by anti-bots and captchas.",
+    "unique": "It pairs Playwright MCP with stealth Firefox for undetected browsing, scraping, and computer use.",
+    "benefit": "Agent builders can browse sites that block ordinary automation through this stealth Playwright server."
+  },
+  "926fd02075a833c5": {
+    "summary": "jevgrep is a CLI for coding agents that uses Jev to find files and source context by asking what the code does.",
+    "unique": "Search is by behavior, using Jev, instead of by exact text match.",
+    "benefit": "Coding agents can pull the relevant files by describing the behavior they need."
+  },
+  "9152bddf84242872": {
+    "summary": "logo-design-skill is a logo-design skill for Claude, Gemini CLI, Codex, and other agents, covering principles, SVG craft, testing tools, and a 1,400+ logo reference library.",
+    "unique": "It bundles process, SVG craft, tests, and a 1,400+ logo reference library for agents.",
+    "benefit": "Designers using coding agents can generate and test SVG logos against a large reference library."
+  },
+  "d0439ac1933b8b01": {
+    "summary": "awesome-jev is a curated list of public projects, integrations, and discussions built on Jev, TypeSafe AI's System One model for typed decisions.",
+    "unique": "The list is specifically about Jev and typed decisions, not general LLM tools.",
+    "benefit": "Developers adopting Jev can find public integrations and discussions in one list."
+  },
+  "c37b68d1d42fcd28": {
+    "summary": "yomiyasu is an agent skill that rewrites AI-generated Japanese into natural Japanese.",
+    "unique": "It is aimed at Japanese prose polish for Claude Code, Codex, Cursor, Gemini, and similar agents.",
+    "benefit": "Writers using agents can turn stiff generated Japanese into more natural Japanese."
+  }
+}

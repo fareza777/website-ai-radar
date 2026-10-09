@@ -1,5 +1,61 @@
 [
   {
+    "id": "910e5765896e2d3f",
+    "lab": "ibm",
+    "title": "Docling v2.137.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.137.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-09T14:12:20.000Z",
+    "firstSeenAt": "2026-10-09T14:29:17.311Z",
+    "updatedAt": "2026-10-09T14:12:20.000Z",
+    "excerpt": "Feature Adding enrichments after the VLM pipeline ( #4469 ) ( 45b187e ) Fix ocr: Read PP-OCRv6 languages through rapidocr's list_supported_langs ( 0e1567b )",
+    "summary": "IBM shipped Docling v2.137.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "2e41681aace8",
+    "meta": {
+      "version": "v2.137.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
+    "id": "8d833f8f9c7dfff4",
+    "lab": "ibm",
+    "title": "Docling v2.136.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.136.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-09T12:08:31.000Z",
+    "firstSeenAt": "2026-10-09T14:29:17.311Z",
+    "updatedAt": "2026-10-09T12:08:31.000Z",
+    "excerpt": "Feature heading_hierarchy: Recognize Division/Subdivision heading markers in hierarchy inference ( #4473 ) ( 8a6155b ) mlx: Add repetition penalty options ( #4616 ) ( dd7c035 ) Fix ocr: Do not OCR programmatic text because a vector shape crosses it ( #4209 ) ( c6ef3c4 ) latex: Resolve \\input and \\includegraphics for str sources ( #4697 ) ( b2a59b9 ) latex: Keep CMYK JPEG figures ( #4696 ) ( 9943158 ) pptx: Move…",
+    "summary": "IBM shipped Docling v2.136.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 40,
+    "contentHash": "a10b886b3f0b",
+    "meta": {
+      "version": "v2.136.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "b88a1ea38db44340",
     "lab": "ibm",
     "title": "Docling v2.135.0",

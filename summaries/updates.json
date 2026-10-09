@@ -14,5 +14,317 @@
     "summary": "OpenAI published a practical guide for startups on choosing GPT-6 models, tuning reasoning effort, improving prompts and skills, and coordinating tools for production.",
     "benefit": "A ready checklist for taking a GPT-6 prototype to production, especially for picking reasoning effort and tool setups.",
     "category": "developer"
+  },
+  "bf0fe8cc388a3447": {
+    "hash": "4fb3c8531a74",
+    "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol for Basis, and a stronger read of user intent gives the team more confidence in real use.",
+    "benefit": "Tax teams using Basis can finish a large workbook faster and trust Astra more when the user's intent is clear."
+  },
+  "1d78f09c640d45a5": {
+    "hash": "851acebfe91c",
+    "summary": "Anthropic introduced Claude Haiku 5.5 and calls it the cheapest, fastest, and most capable small model it has released.",
+    "benefit": "Teams that need a small Claude model can switch to Haiku 5.5 for cheaper, faster work."
+  },
+  "aecfd421f6483557": {
+    "hash": "a9c100ce3c90",
+    "summary": "Claude Sonnet 5.5 is the second model in the Claude 5.5 family, a clear upgrade over Claude Sonnet 5 that runs 30%+ faster and costs up to 30% less for most work.",
+    "benefit": "Developers on Sonnet 5 can move most work to Sonnet 5.5 for higher speed and a lower cost."
+  },
+  "9bd0e8e8cb2cba9a": {
+    "hash": "527310878156",
+    "summary": "Anthropic published a guide on when to choose Sonnet over Opus, what it costs, and how to tune it.",
+    "benefit": "Builders can use the guide to pick Sonnet or Opus and tune Sonnet for their workload."
+  },
+  "311e095023e6d9fd": {
+    "hash": "198a1bf458ae",
+    "summary": "Google DeepMind announced Gemini 4 Argon as its next era of frontier intelligence.",
+    "benefit": "Anyone following Gemini can read the Gemini 4 Argon announcement for the new frontier model."
+  },
+  "820bd24a41c4e68d": {
+    "hash": "93091e36b1f3",
+    "summary": "Mistral AI published an announcement introducing Mistral Large 4.",
+    "benefit": "Developers watching Mistral can open the Mistral Large 4 post to see the new model."
+  },
+  "62e841c1b7ae1384": {
+    "hash": "3e7a3c0eda1d",
+    "summary": "Cohere introduced Embed 5, a new family of frontier embedding models.",
+    "benefit": "Search and retrieval builders can evaluate Cohere's new Embed 5 embedding models."
+  },
+  "a09da81804ce5b81": {
+    "hash": "66ac2d8a1ea3",
+    "summary": "Ultrafast mode for OpenAI GPT-6.1 Sol is now on Amazon Bedrock, offering faster inference for latency-sensitive work such as real-time coding assistants.",
+    "benefit": "Bedrock users can run GPT-6.1 Sol Ultrafast when a coding assistant or other interactive app needs lower latency."
+  },
+  "524a477f27093a95": {
+    "hash": "e43a9b2ab95e",
+    "summary": "Claude Haiku 5.5 is available on Amazon Bedrock and Claude Platform on AWS. Anthropic calls it the fastest and most efficient Claude 5.5 model, built for subagents and high-volume work, at around 75 percent less than Claude Haiku 4.5 for most tasks.",
+    "benefit": "AWS teams can run high-volume subagent work on Haiku 5.5 while paying about 75 percent less than Haiku 4.5 for most tasks."
+  },
+  "6596bcd1df8c0f2c": {
+    "hash": "976cbabc1517",
+    "summary": "AWS introduced GLM 5.3 from Z.ai on Amazon Bedrock so coding and agentic workloads can use an open-weight model without running their own inference stack.",
+    "benefit": "Teams that want open-weight coding agents can call GLM 5.3 on Bedrock instead of operating their own inference."
+  },
+  "dc3b6b7d7abe0c54": {
+    "hash": "33d7930a7b32",
+    "summary": "GLM 5.3 from Z.ai is generally available on Amazon Bedrock. The flagship open-weight model uses a mixture-of-experts design with 753B total parameters and roughly 40B active per token.",
+    "benefit": "Bedrock customers can use GLM 5.3 for agentic coding and long-horizon software work under AWS security and compliance."
+  },
+  "7127c3782d9f46f6": {
+    "hash": "02cc1466b90c",
+    "summary": "Amazon Nova 2.5 Sonic is generally available, a speech-to-speech model for real-time voice agents with better reasoning, instruction following, tool calling, and lower latency.",
+    "benefit": "Voice-agent builders can use Nova 2.5 Sonic for faster, more natural multi-step conversations that keep context."
+  },
+  "45daaea1864ab3c3": {
+    "hash": "500a045d249a",
+    "summary": "UltraFast mode for GPT-6 Astra is on Amazon Bedrock. OpenAI says this premium speed tier delivers up to 6x faster API inference, with up to 300 tokens per second.",
+    "benefit": "Bedrock developers who need speed can run GPT-6 Astra UltraFast at up to 6x faster inference."
+  },
+  "afe3814461c75b49": {
+    "hash": "8d27ed3c436c",
+    "summary": "GPT-6.1 Sol is generally available on Amazon Bedrock. OpenAI says this upgrade to GPT-6 Sol is strong on agentic coding, computer use, and professional work, approaching GPT-6 Astra at roughly one-fifth of the cost.",
+    "benefit": "Developers can run capable coding and computer-use agents on Bedrock at about one-fifth the cost of Astra."
+  },
+  "0efbb34e38477cab": {
+    "hash": "e4ce7cafc55c",
+    "summary": "SpaceXAI Grok 4.7 is on Amazon Bedrock with US Geo and Global cross-Region inference, adding better mixed-document handling, repo-scale coding, and browser-use agents.",
+    "benefit": "Bedrock users can call Grok 4.7 for coding, form fills, and portal navigation without leaving AWS."
+  },
+  "9128069ece23e43b": {
+    "hash": "32adc06296e2",
+    "summary": "GPT-6 Astra Ultrafast now runs on NVIDIA Blackwell GPUs in the OpenAI API and for eligible ChatGPT Work and Codex users, with up to 8x faster token generation than Astra Standard.",
+    "benefit": "Developers on Ultrafast can get up to 8x faster token generation, which can shorten coding-agent waits."
+  },
+  "7941af6584c4cea5": {
+    "hash": "ba989c597179",
+    "summary": "Qwen-Image-2.1-Turbo is a text-to-image model released under an other license.",
+    "benefit": "Image developers can try Qwen-Image-2.1-Turbo for text-to-image generation."
+  },
+  "884977ecb8004cb3": {
+    "hash": "ad10091c8f94",
+    "summary": "OpenAI introduced dots, proactive assistants that keep working across complex projects and everyday tasks while you stay in control.",
+    "benefit": "You can let dots move project work forward and still decide what happens next."
+  },
+  "77b3f0b977bcd0cf": {
+    "hash": "208a6e8ff6df",
+    "summary": "Anthropic published an announcement introducing the Anthropic Cyber Mission.",
+    "benefit": "Security readers can open the Anthropic Cyber Mission post to see what was announced."
+  },
+  "e3596e3e9f007809": {
+    "hash": "44a11402797c",
+    "summary": "Claude for Government is now generally available, and Claude Code CLI plus Claude for Microsoft 365 are in early access.",
+    "benefit": "Government teams can use Claude for Government now, and try the CLI and Microsoft 365 apps in early access."
+  },
+  "ea4f899dc8dfd436": {
+    "hash": "fe4fe9e199e7",
+    "summary": "Google DeepMind introduced Playground, an experimental gaming platform for creating, playing, and sharing custom games.",
+    "benefit": "Players can make a custom game in Playground and share it for others to play."
+  },
+  "396b95f3429cd00b": {
+    "hash": "7e4cce34fca3",
+    "summary": "Google DeepMind introduced SynthID Bio, a proof of concept for watermarking AI-generated proteins while keeping biological function.",
+    "benefit": "Researchers can explore a watermark for AI-generated proteins that is meant to leave biological function intact."
+  },
+  "47b9255d8fa0f8e8": {
+    "hash": "1790c387d1f0",
+    "summary": "OpenAI published new results on open mathematics problems from an internal frontier model, plus Lean proof formalizations and research details on GitHub.",
+    "benefit": "Mathematicians can read the results and inspect the Lean formalizations and research notes on GitHub."
+  },
+  "a97398f76ee518bf": {
+    "hash": "8c235a0a0e5d",
+    "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+    "benefit": "Capital-markets teams can see how Codex and GPT-5.6 shortened trade validation from 30 minutes to under 4."
+  },
+  "6a91381a429232e7": {
+    "hash": "d8437cb8065f",
+    "summary": "OpenAI says it disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+    "benefit": "Model providers can follow how OpenAI responded to a distillation campaign aimed at protected reasoning."
+  },
+  "d2d497e5eee41848": {
+    "hash": "5cd7129d64f6",
+    "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction says it builds, operates, and sells fleet management faster, boosting sales 60% and saving 75+ hours.",
+    "benefit": "Operators can see a case where Codex and GPT-6 Astra raised sales 60% and saved 75+ hours."
+  },
+  "a68390b79f0dfa36": {
+    "hash": "978a8252df83",
+    "summary": "Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.",
+    "benefit": "Security teams can study how Mythos-class models found exploit chains that scanners had missed."
+  },
+  "0a7d6e8e8b6e8899": {
+    "hash": "ee7ee8b84bfd",
+    "summary": "Google DeepMind introduced EmbeddingGemma 2, an open multimodal embedding model optimized for privacy-first use cases.",
+    "benefit": "Developers who need on-device or private embeddings can try the open EmbeddingGemma 2 model."
+  },
+  "b0b4bd6ece8f11d3": {
+    "hash": "3f7811be5be5",
+    "summary": "meta-encoder is a feature-extraction model released under the Apache-2.0 license.",
+    "benefit": "Developers can use meta-encoder for feature extraction under an Apache-2.0 license."
+  },
+  "fd69a1966c14f338": {
+    "hash": "52e01d25b555",
+    "summary": "Amazon Bedrock Managed Agents, built with OpenAI, is in preview. It runs agents on OpenAI models inside AWS, with your existing identities, permissions, and governance, and manages state, tools, and execution.",
+    "benefit": "AWS teams can preview agents that stay inside AWS while using OpenAI models and their current access controls."
+  },
+  "964086eae3922d9e": {
+    "hash": "569df33611c3",
+    "summary": "PixelUMM is an image-to-text model released under an other license.",
+    "benefit": "Developers can try PixelUMM when they need an image-to-text model."
+  },
+  "f8d43a544c92978a": {
+    "hash": "5d394fc008a5",
+    "summary": "Cohere discusses multilingual reasoning: when a model explains a wrong answer in a language you do not speak, data mixing is how they unlock in-language reasoning.",
+    "benefit": "Teams building multilingual models can read how data mixing keeps reasoning in the user's language."
+  },
+  "b62a6103b354b89d": {
+    "hash": "44d854bbdb85",
+    "summary": "AWS Cost Explorer, Budgets, and Cost Management Dashboards can now break Amazon Bedrock cost down by model, model provider, inference type, and feature.",
+    "benefit": "Finance and platform teams can group, filter, and budget Bedrock spend by model and feature.",
+    "category": "pricing"
+  },
+  "ca46a2fab5ba8485": {
+    "hash": "d8b87e93333f",
+    "summary": "AWS argues that hours-saved times labor cost, a model built for rule-based RPA, misses most of the value of agentic automation, and introduces a framework for AI CoE leaders.",
+    "benefit": "AI CoE leaders can use the framework when a simple hours-saved case understates what agents do.",
+    "category": "research"
+  },
+  "1a12289f028759f9": {
+    "hash": "76a0049764fa",
+    "summary": "AWS describes using Claude Code with Amazon Bedrock for regulated workloads, noting that Claude Opus 5.5 and Claude Sonnet 5.5 are available in AWS and that teams must check their own compliance needs.",
+    "benefit": "Regulated teams can review one Bedrock-plus-Claude Code approach and compare it with their own compliance rules.",
+    "category": "developer"
+  },
+  "a9584bf451e12c29": {
+    "hash": "fad1dd02e260",
+    "summary": "Amazon Bedrock now offers in-region Claude Opus 5.5 and Claude Sonnet 5 in the UK (London) Region so inference can stay in the United Kingdom.",
+    "benefit": "UK financial, healthcare, and public-sector teams can run those Claude models with in-country inference.",
+    "category": "feature"
+  },
+  "5884719551c47189": {
+    "hash": "5aa478570e5e",
+    "summary": "Amazon RDS for MySQL 26.7 is in the RDS Database Preview Environment. It is the first Innovation release on the YY.M calendar and adds features such as Change Stream Applier.",
+    "benefit": "MySQL users can evaluate the MySQL 26.7 preview on RDS before it leaves preview.",
+    "category": "developer"
+  },
+  "7550b65a09968978": {
+    "hash": "3ebfbb340bd9",
+    "summary": "Amazon Bedrock added Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, and Claude Sonnet 5 in Singapore.",
+    "benefit": "Teams in those countries can keep inference in-region while using the newly listed Claude models.",
+    "category": "feature"
+  },
+  "238aeed3d7f2b1a2": {
+    "hash": "17ed023e66bd",
+    "summary": "Youtu-Parsing-Omni is an image-text-to-text model released under an other license.",
+    "benefit": "Developers can try Youtu-Parsing-Omni for image and text input that returns text."
+  },
+  "8898b4cd60b8da95": {
+    "hash": "7346196c3bb6",
+    "summary": "NVIDIA describes scaling decision optimization to 100 million variables and beyond with mPDLP in cuOpt for larger supply-chain and energy-grid models.",
+    "benefit": "Operations teams can use mPDLP in cuOpt when a planning model grows past 100 million variables.",
+    "category": "research"
+  },
+  "223f8779bd09497e": {
+    "hash": "150e0c8a94e9",
+    "summary": "NVIDIA Megatron Core's bitwise determinism makes large-scale pretraining easier to debug, validate, and resume, including runs with trillions of parameters across thousands of GPUs.",
+    "benefit": "Training teams can resume and compare pretraining runs more reliably when bitwise determinism is on.",
+    "category": "developer"
+  },
+  "578d6254cc1271b8": {
+    "hash": "f35062762083",
+    "summary": "NVIDIA Green Contexts let a single process share a GPU across independent work, such as a latency-sensitive operator next to a background kernel or preprocessing next to inference.",
+    "benefit": "GPU developers can isolate latency-sensitive work from background kernels in the same process.",
+    "category": "developer"
+  },
+  "be7f8737364ef747": {
+    "hash": "37cddf0e0558",
+    "summary": "NVIDIA says telecom operators are building AI on open models for trust, control, and customization, and its telecom report finds 89% of respondents reporting open source models and software.",
+    "benefit": "Telcos can read why peers are choosing open models for networks and customer care, with 89% of respondents citing open source.",
+    "category": "research"
+  },
+  "98aa449f70f17854": {
+    "hash": "8a42cb216d05",
+    "summary": "NVIDIA's Do Inference Now (DIN) Deploy is an open-source set of C++ samples for adding local models with a portable format, a runtime, and TensorRT RTX acceleration.",
+    "benefit": "C++ developers can start from the DIN samples to ship local inference that runs across target machines.",
+    "category": "developer"
+  },
+  "fec08784a322012f": {
+    "hash": "fe4271c0f718",
+    "summary": "NVIDIA TensorRT Model Connect is an open-source collection of C++ model reference implementations shaped by parallel work, model-family isolation, reversible changes, and GPU-backed validation for coding agents.",
+    "benefit": "Agent and runtime authors can reuse the C++ model references instead of starting each model integration from scratch.",
+    "category": "developer"
+  },
+  "4837eaed6c10f5e4": {
+    "hash": "48b7b19078e5",
+    "summary": "ALoDLM-8B is a text-generation model released under the CC-BY-NC-4.0 license.",
+    "benefit": "Researchers can try the 8B text-generation model under a non-commercial CC-BY-NC-4.0 license."
+  },
+  "82761d61f529d276": {
+    "hash": "2462e1ba8e00",
+    "summary": "ALoDLM-1.7B is a text-generation model released under the CC-BY-NC-4.0 license.",
+    "benefit": "Researchers can try the smaller 1.7B text-generation model under a non-commercial license."
+  },
+  "edd58468d564448f": {
+    "hash": "f9a99d17cf11",
+    "summary": "Sophos uses OpenAI Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while keeping human oversight.",
+    "benefit": "Security teams can see a case where Daybreak cut investigation time by 96% and automated 52% of MDR cases."
+  },
+  "f6d3626eb7c890d9": {
+    "hash": "1750cd700304",
+    "summary": "LegalOn cut estimated daily Codex costs by 65% while keeping development speed, by matching Astra, Sol, and Luna to tasks and managing budgets.",
+    "benefit": "Teams on several GPT models can copy LegalOn's task matching to cut daily Codex cost by 65%."
+  },
+  "077dea1e8a7adb2e": {
+    "hash": "ec90a6b87118",
+    "summary": "OpenAI says it disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+    "benefit": "Trust and safety teams can read how those false-front journalist and think-tank operations were disrupted."
+  },
+  "ad4e14640e358f44": {
+    "hash": "c000ec066122",
+    "summary": "College Planner is coming to ChatGPT for Teens to help with college applications, along with new flashcards, quizzes, and a teen AI council.",
+    "benefit": "Students on ChatGPT for Teens will be able to plan applications and practice with flashcards and quizzes."
+  },
+  "04e9dc3828b5420c": {
+    "hash": "6e6994feedd2",
+    "summary": "Radisson Hotel Group, with Accenture, built a ChatGPT plugin on OpenAI technology so travelers can find, compare, and book hotels while planning trips.",
+    "benefit": "Travelers in ChatGPT can search, compare, and book Radisson hotels without leaving the planning chat."
+  },
+  "60ef2af305e795fe": {
+    "hash": "3adef4bd97da",
+    "summary": "Atlassian and OpenAI are expanding their partnership so frontier models can use enterprise knowledge and help teams plan, build, and deliver work.",
+    "benefit": "Atlassian customers can connect company knowledge to OpenAI models when planning and shipping work."
+  },
+  "7e67b43cf9d0e609": {
+    "hash": "e65c1d3e1941",
+    "summary": "OpenAI's essay argues that advanced AI may matter most for the routine work behind breakthrough ideas, and that execution could shape the next economy.",
+    "benefit": "Readers can use the essay to think about how AI changes the routine work that turns ideas into progress."
+  },
+  "a80484c2d5849bdb": {
+    "hash": "84fc706d427d",
+    "summary": "Albertsons Companies is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+    "benefit": "Retail teams can see how a grocer uses ChatGPT Enterprise and the API for internal work and shopping."
+  },
+  "3bba527585738108": {
+    "hash": "f7fa2c2db0fa",
+    "summary": "The Den uses ChatGPT Work to free up 10-15 hours a week, preparing grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+    "benefit": "A small venue can copy this pattern to spend 10-15 fewer hours a week on grants and license paperwork."
+  },
+  "b5e5e43443d214df": {
+    "hash": "1c69d4a37c2b",
+    "summary": "OpenAI is partnering with America's SBDC to expand hands-on AI training and local support for small businesses, and published a report on how small teams use AI.",
+    "benefit": "Small businesses can get local SBDC training and read the report on how similar teams are using AI."
+  },
+  "cfe8e900401f31bb": {
+    "hash": "debf51a338e4",
+    "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support for Australia's cyber defences.",
+    "benefit": "Australian agencies can read the apology and the safeguards OpenAI says it will add."
+  },
+  "216d56bba26ca458": {
+    "hash": "98e85fc7e2f6",
+    "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+    "benefit": "Newsrooms in the Lenfest program can apply the extra $5 million in funding plus software credits and engineering help."
+  },
+  "d40aae393b587da5": {
+    "hash": "243de34360dc",
+    "summary": "Anthropic published a 2026 Usage Policy update.",
+    "benefit": "Claude users should read the 2026 usage policy to see what changed."
   }
 }

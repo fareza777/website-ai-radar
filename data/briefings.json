@@ -1,20 +1,30 @@
 [
   {
     "date": "2026-10-09",
-    "generatedAt": "2026-10-09T09:49:52.701Z",
+    "generatedAt": "2026-10-09T14:29:17.311Z",
     "stats": {
-      "updates24h": 18,
-      "labsActive24h": 6,
-      "updates7d": 102,
-      "newModels7d": 25
+      "updates24h": 16,
+      "labsActive24h": 8,
+      "updates7d": 106,
+      "newModels7d": 27
     },
     "source": "template",
-    "headline": "18 updates from 6 AI labs in the last 24 hours · 25 model releases this week.",
+    "headline": "16 updates from 8 AI labs in the last 24 hours · 27 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
         "itemId": "a09da81804ce5b81",
         "lab": "amazon"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen-Image-2.1-Turbo",
+        "itemId": "7941af6584c4cea5",
+        "lab": "qwen"
+      },
+      {
+        "text": "Tencent: Youtu-Parsing-Omni",
+        "itemId": "238aeed3d7f2b1a2",
+        "lab": "tencent"
       },
       {
         "text": "Amazon: AWS Cost Explorer, Budgets, and Dashboards now support Amazon Bedrock product attributes",
@@ -24,11 +34,6 @@
       {
         "text": "OpenAI: Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
         "itemId": "edd58468d564448f",
-        "lab": "openai"
-      },
-      {
-        "text": "OpenAI: LegalOn halves Codex costs while maintaining development speed",
-        "itemId": "f6d3626eb7c890d9",
         "lab": "openai"
       },
       {
