@@ -30,7 +30,7 @@ export default function OpengraphImage() {
         </div>
         <div style={{ marginTop: 40, fontSize: 68, fontWeight: 700, lineHeight: 1.05, letterSpacing: -2 }}>Your AI Intelligence Hub</div>
         <div style={{ marginTop: 24, fontSize: 30, color: "rgba(255,255,255,0.72)", maxWidth: 960 }}>
-          Update otomatis dari 20 lab AI — model, fitur, API, harga, promo & free credits — dalam satu tempat.
+          Automatic updates from 20 AI labs — models, features, APIs, pricing, promos & free credits — in one place.
         </div>
       </div>
     ),

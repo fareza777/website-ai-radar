@@ -63,7 +63,8 @@ export function mergeItems(existing: readonly UpdateItem[], incoming: readonly U
       byId.set(next.id, next);
       continue;
     }
-    const changed = prev.contentHash !== next.contentHash;
+    // A Hugging Face model id is immutable, so it never counts as an edited post.
+    const changed = prev.contentHash !== next.contentHash && next.sourceType !== "huggingface";
     const keepLlm = !changed && prev.summarySource === "llm";
     byId.set(next.id, {
       ...next,
@@ -87,6 +88,9 @@ export function mergeItems(existing: readonly UpdateItem[], incoming: readonly U
  */
 export function reclassify(lab: LabConfig, item: UpdateItem): UpdateItem {
   const verified = isOfficialUrl(item.url, lab.domains);
+  if (item.sourceType === "huggingface" && item.updatedAt !== item.publishedAt) {
+    item = { ...item, updatedAt: item.publishedAt };
+  }
   if (item.summarySource === "llm") {
     return { ...item, verified, importance: importance({ ...item, verified }) };
   }

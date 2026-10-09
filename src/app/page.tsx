@@ -29,7 +29,7 @@ function SideCard({ title, href, icon: Icon, children }: { title: string; href: 
           <Icon className="size-4 text-brand" /> {title}
         </h2>
         <Link href={href} className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground">
-          Lihat semua <ArrowRight className="size-3" />
+          View all <ArrowRight className="size-3" />
         </Link>
       </div>
       {children}
@@ -56,10 +56,10 @@ export default function TodayPage() {
 
       {briefing && (
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
-          <StatTile icon={Zap} label="Update 24 jam" value={briefing.stats.updates24h} hint={`dari ${briefing.stats.labsActive24h} lab aktif`} />
-          <StatTile icon={Rocket} label="Rilis model 7 hari" value={briefing.stats.newModels7d} hint="model & checkpoint baru" />
-          <StatTile icon={Boxes} label="Update 7 hari" value={briefing.stats.updates7d} hint={`${compactNumber(all.length)} total dalam arsip`} />
-          <StatTile icon={Radio} label="Sumber dipantau" value={sources} hint={`${LABS.length} lab · otomatis tiap 3 jam`} />
+          <StatTile icon={Zap} label="Updates · 24h" value={briefing.stats.updates24h} hint={`from ${briefing.stats.labsActive24h} active labs`} />
+          <StatTile icon={Rocket} label="Model releases · 7d" value={briefing.stats.newModels7d} hint="new models & checkpoints" />
+          <StatTile icon={Boxes} label="Updates · 7d" value={briefing.stats.updates7d} hint={`${compactNumber(all.length)} in the archive`} />
+          <StatTile icon={Radio} label="Sources tracked" value={sources} hint={`${LABS.length} labs · auto every 3h`} />
         </div>
       )}
 
@@ -70,7 +70,7 @@ export default function TodayPage() {
 
         <aside className="space-y-4 lg:col-span-4">
           <div className="space-y-4 lg:sticky lg:top-20">
-            <SideCard title="Lab paling aktif · 7 hari" href="/labs" icon={Radio}>
+            <SideCard title="Most active labs · 7d" href="/labs" icon={Radio}>
               <ul className="space-y-2.5">
                 {stats.map((s) => {
                   const lab = LAB_BY_SLUG[s.slug];
@@ -91,7 +91,7 @@ export default function TodayPage() {
             </SideCard>
 
             {discover.length > 0 && (
-              <SideCard title="Baru di Discover" href="/discover" icon={Compass}>
+              <SideCard title="New on Discover" href="/discover" icon={Compass}>
                 <ul className="space-y-3">
                   {discover.map((d) => (
                     <li key={d.id}>
@@ -107,7 +107,7 @@ export default function TodayPage() {
             )}
 
             {deals.length > 0 && (
-              <SideCard title="Deals aktif terverifikasi" href="/deals" icon={Gift}>
+              <SideCard title="Verified active deals" href="/deals" icon={Gift}>
                 <ul className="space-y-2.5">
                   {deals.map((d) => (
                     <li key={d.id}>

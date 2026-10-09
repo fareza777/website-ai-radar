@@ -17,24 +17,24 @@ export function CategoryBadge({ category, className }: { category: Category; cla
 export function VerifyBadge({ verified, trust }: { verified: boolean; trust: Trust }) {
   if (verified && trust === "official") {
     return (
-      <span className="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400" title="Link menuju domain/organisasi resmi lab dan berasal dari feed resmi">
+      <span className="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400" title="Links to the lab's official domain/org and comes from an official feed">
         <BadgeCheck className="size-3.5" />
-        Resmi
+        Official
       </span>
     );
   }
   if (verified) {
     return (
-      <span className="inline-flex items-center gap-1 text-sky-600 dark:text-sky-400" title="Link menuju domain resmi lab; dipantau lewat mirror komunitas karena lab tidak menyediakan RSS">
+      <span className="inline-flex items-center gap-1 text-sky-600 dark:text-sky-400" title="Links to the lab's official domain; tracked via a community mirror because the lab has no RSS">
         <Copy className="size-3.5" />
-        Resmi · via mirror
+        Official · via mirror
       </span>
     );
   }
   return (
-    <span className="inline-flex items-center gap-1 text-amber-600 dark:text-amber-400" title="Link tidak menuju domain resmi lab">
+    <span className="inline-flex items-center gap-1 text-amber-600 dark:text-amber-400" title="Link does not point to the lab's official domain">
       <ShieldAlert className="size-3.5" />
-      Belum terverifikasi
+      Unverified
     </span>
   );
 }

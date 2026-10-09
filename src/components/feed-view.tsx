@@ -70,22 +70,22 @@ export function FeedView({ items, dataTime }: { items: FeedItem[]; dataTime: str
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <h2 id="feed-title" className="text-lg font-semibold tracking-tight">Global Feed</h2>
-          <p className="text-sm text-muted-foreground">Semua update 20 lab dalam satu timeline kronologis.</p>
+          <p className="text-sm text-muted-foreground">Every update from 20 labs in one chronological timeline.</p>
         </div>
         <div className="flex items-center gap-2">
           <Segmented<Sort>
-            ariaLabel="Urutkan"
+            ariaLabel="Sort"
             value={sort}
             onChange={(v) => { setSort(v); reset(); }}
-            options={[{ value: "newest", label: "Terbaru" }, { value: "important", label: "Terpenting" }]}
+            options={[{ value: "newest", label: "Newest" }, { value: "important", label: "Most Important" }]}
           />
           <button
             type="button"
             onClick={markAllRead}
             className="inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 text-[12.5px] font-medium text-muted-foreground transition hover:text-foreground"
-            title="Tandai semua sebagai dibaca"
+            title="Mark all as read"
           >
-            <CheckCheck className="size-4" /> <span className="hidden sm:inline">Tandai dibaca</span>
+            <CheckCheck className="size-4" /> <span className="hidden sm:inline">Mark all read</span>
           </button>
         </div>
       </div>
@@ -93,14 +93,14 @@ export function FeedView({ items, dataTime }: { items: FeedItem[]; dataTime: str
       <div className="card-surface space-y-3 p-3 sm:p-4">
         <ChipRow>
           <Chip active={range === "today"} onClick={() => { setRange("today"); reset(); }}>Today</Chip>
-          <Chip active={range === "7d"} onClick={() => { setRange("7d"); reset(); }}>7 Hari</Chip>
-          <Chip active={range === "30d"} onClick={() => { setRange("30d"); reset(); }}>30 Hari</Chip>
+          <Chip active={range === "7d"} onClick={() => { setRange("7d"); reset(); }}>7 Days</Chip>
+          <Chip active={range === "30d"} onClick={() => { setRange("30d"); reset(); }}>30 Days</Chip>
           <span className="mx-1 w-px shrink-0 self-stretch bg-border" />
           <Chip active={importantOnly} onClick={() => { setImportantOnly((v) => !v); reset(); }}>Important Only</Chip>
           <Chip active={unreadOnly} onClick={() => { setUnreadOnly((v) => !v); reset(); }} count={now ? unreadCount : undefined}>Unread</Chip>
         </ChipRow>
         <ChipRow>
-          <Chip active={category === "all"} onClick={() => { setCategory("all"); reset(); }} count={inRange.length}>Semua</Chip>
+          <Chip active={category === "all"} onClick={() => { setCategory("all"); reset(); }} count={inRange.length}>All</Chip>
           {CATEGORIES.map((c) => (
             <Chip key={c} active={category === c} onClick={() => { setCategory(c); reset(); }} count={catCounts[c]}>
               {CATEGORY_META[c].label}
@@ -108,14 +108,14 @@ export function FeedView({ items, dataTime }: { items: FeedItem[]; dataTime: str
           ))}
         </ChipRow>
         <div className="flex flex-col gap-2 sm:flex-row">
-          <SearchInput value={query} onChange={(v) => { setQuery(v); reset(); }} placeholder="Filter feed…" className="flex-1" />
+          <SearchInput value={query} onChange={(v) => { setQuery(v); reset(); }} placeholder="Filter the feed…" className="flex-1" />
           <select
             value={lab}
             onChange={(e) => { setLab(e.target.value); reset(); }}
-            aria-label="Filter lab"
+            aria-label="Filter by lab"
             className="h-9 rounded-lg border bg-surface/60 px-3 text-sm outline-none focus:border-ring sm:w-52"
           >
-            <option value="all">Semua lab</option>
+            <option value="all">All labs</option>
             {LABS.map((l) => (
               <option key={l.slug} value={l.slug}>{l.name}</option>
             ))}
@@ -124,12 +124,12 @@ export function FeedView({ items, dataTime }: { items: FeedItem[]; dataTime: str
       </div>
 
       <p className="text-xs text-muted-foreground" aria-live="polite">
-        {filtered.length} update{filtered.length > visible.length ? ` · menampilkan ${visible.length}` : ""}
+        {filtered.length} {filtered.length === 1 ? "update" : "updates"}{filtered.length > visible.length ? ` · showing ${visible.length}` : ""}
       </p>
 
       {visible.length === 0 ? (
-        <EmptyState icon={<Inbox className="size-6" />} title="Tidak ada update untuk filter ini">
-          Coba perluas rentang waktu atau hapus filter. Collector berjalan otomatis setiap 3 jam.
+        <EmptyState icon={<Inbox className="size-6" />} title="No updates match these filters">
+          Try a wider time range or clear filters. The collector runs automatically every 3 hours.
         </EmptyState>
       ) : (
         <ol className="space-y-3">
@@ -160,7 +160,7 @@ export function FeedView({ items, dataTime }: { items: FeedItem[]; dataTime: str
             onClick={() => setLimit((l) => l + PAGE)}
             className="inline-flex h-10 items-center rounded-xl border bg-surface/60 px-5 text-sm font-medium transition hover:bg-accent"
           >
-            Tampilkan {Math.min(PAGE, filtered.length - visible.length)} lagi
+            Show {Math.min(PAGE, filtered.length - visible.length)} more
           </button>
         </div>
       )}

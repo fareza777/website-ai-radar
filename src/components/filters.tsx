@@ -76,7 +76,7 @@ export function SearchInput({ value, onChange, placeholder, className }: { value
         className="h-full w-full rounded-lg border bg-surface/60 pl-9 pr-8 text-sm outline-none transition placeholder:text-muted-foreground/70 focus:border-ring focus:ring-2 focus:ring-ring/30 [&::-webkit-search-cancel-button]:hidden"
       />
       {value && (
-        <button type="button" onClick={() => onChange("")} aria-label="Hapus pencarian" className="absolute right-2 rounded p-0.5 text-muted-foreground hover:text-foreground">
+        <button type="button" onClick={() => onChange("")} aria-label="Clear search" className="absolute right-2 rounded p-0.5 text-muted-foreground hover:text-foreground">
           <X className="size-3.5" />
         </button>
       )}
@@ -100,7 +100,7 @@ export function Pagination({ page, pages, onChange }: PaginationProps) {
   const btn = "inline-flex size-9 items-center justify-center rounded-lg border text-sm font-medium transition disabled:opacity-40";
   return (
     <nav className="mt-6 flex items-center justify-center gap-1.5" aria-label="Pagination">
-      <button type="button" className={cn(btn, "bg-surface/60 hover:bg-accent")} disabled={page === 1} onClick={() => onChange(page - 1)} aria-label="Halaman sebelumnya">
+      <button type="button" className={cn(btn, "bg-surface/60 hover:bg-accent")} disabled={page === 1} onClick={() => onChange(page - 1)} aria-label="Previous page">
         <ChevronLeft className="size-4" />
       </button>
       {nums.map((n, i) =>
@@ -118,7 +118,7 @@ export function Pagination({ page, pages, onChange }: PaginationProps) {
           </button>
         ),
       )}
-      <button type="button" className={cn(btn, "bg-surface/60 hover:bg-accent")} disabled={page === pages} onClick={() => onChange(page + 1)} aria-label="Halaman berikutnya">
+      <button type="button" className={cn(btn, "bg-surface/60 hover:bg-accent")} disabled={page === pages} onClick={() => onChange(page + 1)} aria-label="Next page">
         <ChevronRight className="size-4" />
       </button>
     </nav>

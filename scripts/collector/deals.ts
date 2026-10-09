@@ -39,8 +39,8 @@ async function curated(now: Date, prev: Map<string, Deal>, log: (m: string) => v
     const old = prev.get(c.id);
     const base = {
       id: c.id, title: c.title, provider: c.provider, kind: c.kind, description: c.description,
-      terms: "Syarat lengkap & batas penggunaan mengikuti halaman resmi (lihat kutipan bukti).",
-      url: c.url, sourceName: "Halaman resmi", startsAt: null, endsAt: c.endsAt ?? null,
+      terms: "Full terms and usage limits are set by the official page (see the evidence quote).",
+      url: c.url, sourceName: "Official page", startsAt: null, endsAt: c.endsAt ?? null,
       firstSeenAt: old?.firstSeenAt ?? nowIso, ...(c.lab ? { lab: c.lab } : {}),
     };
     try {
@@ -74,11 +74,11 @@ async function openRouterFree(now: Date, prev: Map<string, Deal>): Promise<Deal[
     const endsAt = m.expiration_date ? parseDate(m.expiration_date)?.toISOString() ?? null : null;
     return [{
       id,
-      title: `${m.name.replace(/\s*\(free\)\s*$/i, "")} — gratis via OpenRouter`,
+      title: `${m.name.replace(/\s*\(free\)\s*$/i, "")} — free on OpenRouter`,
       provider: "OpenRouter",
       kind: "free-model" as const,
       description: truncate(stripHtml(m.description ?? ""), 220),
-      terms: `Harga input & output $0 per token di OpenRouter${m.context_length ? ` · konteks ${m.context_length.toLocaleString("en-US")} token` : ""}. Model gratis memiliki batas rate harian.`,
+      terms: `$0 input & output price per token on OpenRouter${m.context_length ? ` · ${m.context_length.toLocaleString("en-US")}-token context` : ""}. Free models have daily rate limits.`,
       url: `https://openrouter.ai/${m.id}`,
       sourceName: "OpenRouter Models API",
       status: isExpired(endsAt, now) ? ("expired" as const) : ("active" as const),
@@ -97,7 +97,7 @@ async function openRouterFree(now: Date, prev: Map<string, Deal>): Promise<Deal[
     if (!old.id.startsWith("openrouter-free-") || liveIds.has(old.id)) continue;
     const endedAt = old.status === "expired" ? old.endsAt ?? old.lastVerifiedAt : old.lastVerifiedAt;
     if (endedAt && endedAt < cutoff) continue;
-    deals.push({ ...old, status: "expired", endsAt: old.endsAt ?? old.lastVerifiedAt, terms: `${old.terms} Tidak lagi gratis/tersedia per pengecekan terakhir.` });
+    deals.push({ ...old, status: "expired", endsAt: old.endsAt ?? old.lastVerifiedAt, terms: `${old.terms} No longer free/available as of the last check.` });
   }
   return deals;
 }
@@ -115,7 +115,7 @@ function fromLabAnnouncements(items: UpdateItem[], now: Date, prev: Map<string, 
         provider: i.sourceName,
         kind: i.category === "pricing" ? ("discount" as const) : ("promo" as const),
         description: i.summary,
-        terms: "Diumumkan di kanal resmi lab. Tanggal berakhir tidak tercantum di feed — cek pengumuman untuk syarat.",
+        terms: "Announced on the lab's official channel. The feed lists no end date — check the announcement for terms.",
         url: i.url,
         sourceName: i.sourceName,
         status: "announced" as const,
@@ -154,10 +154,10 @@ async function hnDeals(now: Date, prev: Map<string, Deal>): Promise<Deal[]> {
         title: h.title,
         provider: new URL(url).hostname.replace(/^www\./, ""),
         kind: "promo",
-        description: "Sinyal komunitas dari Hacker News — belum diverifikasi oleh AI Radar.",
-        terms: "Belum diverifikasi. Pastikan syarat, harga, dan masa berlaku langsung di situs penyedia.",
+        description: "Community signal from Hacker News — not verified by AI Radar.",
+        terms: "Unverified. Confirm terms, pricing, and validity directly on the provider's site.",
         url: normalizeUrl(url),
-        sourceName: `Hacker News · ${h.points} poin`,
+        sourceName: `Hacker News · ${h.points} points`,
         status: "unverified",
         startsAt: h.created_at,
         endsAt: null,
@@ -194,10 +194,10 @@ export async function collectDeals(now: Date, allItems: UpdateItem[], log: (m: s
     }
   };
 
-  await track("deals-curated", "Program resmi (verifikasi halaman)", "src/config/deals.ts", () => curated(now, prev, log), "__none__");
+  await track("deals-curated", "Official programs (page verification)", "src/config/deals.ts", () => curated(now, prev, log), "__none__");
   await track("deals-openrouter", "OpenRouter free models", "openrouter.ai/api/v1/models", () => openRouterFree(now, prev), "openrouter-free-");
-  await track("deals-labs", "Pengumuman promo/harga dari lab", "data/updates", async () => fromLabAnnouncements(allItems, now, prev), "lab-");
-  await track("deals-hn", "Hacker News (sinyal komunitas)", "hn.algolia.com", () => hnDeals(now, prev), "hn-");
+  await track("deals-labs", "Lab promo/pricing announcements", "data/updates", async () => fromLabAnnouncements(allItems, now, prev), "lab-");
+  await track("deals-hn", "Hacker News (community signals)", "hn.algolia.com", () => hnDeals(now, prev), "hn-");
 
   const rank: Record<Deal["status"], number> = { active: 0, announced: 1, unverified: 2, expired: 3 };
   deals.sort((a, b) => rank[a.status] - rank[b.status] || (b.startsAt ?? "").localeCompare(a.startsAt ?? ""));

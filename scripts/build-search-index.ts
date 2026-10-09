@@ -28,7 +28,7 @@ for (const i of getAllItems()) {
 
 for (const d of getDiscover()) {
   docs.push({
-    type: "discover", id: d.id, title: d.name, sub: `${d.novelty === "new" ? "Baru" : "Trending"} · ${d.description}`.slice(0, 140),
+    type: "discover", id: d.id, title: d.name, sub: `${d.novelty === "new" ? "New" : "Trending"} · ${d.description}`.slice(0, 140),
     text: `${d.description} ${(d.topics ?? []).join(" ")} ${d.repo ?? ""}`.toLowerCase().slice(0, 400),
     href: d.url, date: d.createdAt ?? d.firstSeenAt, weight: Math.round(d.score / 5),
   });
@@ -37,7 +37,7 @@ for (const d of getDiscover()) {
 for (const d of getDeals()) {
   docs.push({
     type: "deal", id: d.id, title: d.title, sub: `${d.provider} · ${d.status}`,
-    text: `${d.description} ${d.kind} ${d.provider} gratis free promo`.toLowerCase().slice(0, 300),
+    text: `${d.description} ${d.kind} ${d.provider} free promo credits`.toLowerCase().slice(0, 300),
     href: d.url, lab: d.lab, date: d.startsAt ?? undefined, weight: d.status === "active" ? 12 : 4,
   });
 }

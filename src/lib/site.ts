@@ -2,7 +2,7 @@ export const SITE = {
   name: "AI Radar",
   tagline: "Your AI Intelligence Hub",
   description:
-    "Pantau update 20 lab AI global — model baru, fitur, API, harga, promo, free credits, coding agents, dan tools AI baru — otomatis dari sumber resmi, dalam satu tempat.",
+    "Track 20 global AI labs in one place — new models, features, APIs, pricing, promos, free credits, coding agents, and new AI tools — collected automatically from official sources.",
   repo: "https://github.com/fareza777/website-ai-radar",
 };
 

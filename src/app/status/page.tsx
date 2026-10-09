@@ -10,7 +10,7 @@ import type { SourceStatus } from "@/lib/types";
 
 export const metadata: Metadata = {
   title: "Status & Coverage",
-  description: "Transparansi sumber data AI Radar: status setiap sumber, coverage per lab, dan jadwal collector otomatis.",
+  description: "AI Radar data transparency: the status of every source, coverage per lab, and the automatic collector schedule.",
   alternates: { canonical: "/status" },
 };
 
@@ -19,9 +19,9 @@ function Row({ s }: { s: SourceStatus }) {
     <li className="flex flex-wrap items-center gap-x-3 gap-y-0.5 py-2 text-xs">
       {s.ok ? <CheckCircle2 className="size-4 text-emerald-500" /> : s.skipped ? <MinusCircle className="size-4 text-muted-foreground" /> : <XCircle className="size-4 text-rose-500" />}
       <span className="font-medium">{s.name}</span>
-      <span className="text-muted-foreground">{s.accepted} item</span>
+      <span className="text-muted-foreground">{s.accepted} items</span>
       <span className="ml-auto text-muted-foreground">
-        {s.lastSuccessAt ? <>sukses <TimeAgo iso={s.lastSuccessAt} /></> : "belum pernah sukses"}
+        {s.lastSuccessAt ? <>succeeded <TimeAgo iso={s.lastSuccessAt} /></> : "never succeeded"}
         {!s.ok && s.lastError && <span className={s.skipped ? "ml-2" : "ml-2 text-rose-500"}>{s.lastError.slice(0, 90)}</span>}
       </span>
     </li>
@@ -40,17 +40,17 @@ export default function StatusPage() {
     <div className="space-y-6">
       <header>
         <p className="text-xs font-medium uppercase tracking-widest text-brand">Status & Coverage</p>
-        <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">Transparansi sumber data</h1>
+        <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">Data source transparency</h1>
         {status && (
           <p className="mt-1.5 text-sm text-muted-foreground">
-            Run terakhir <TimeAgo iso={status.generatedAt} /> ({(status.durationMs / 1000).toFixed(0)} dtk) · {ok}/{active.length} sumber OK · collector
-            berjalan otomatis setiap 3 jam via GitHub Actions. Jika sumber gagal, data valid terakhir tetap ditampilkan.
+            Last run <TimeAgo iso={status.generatedAt} /> ({(status.durationMs / 1000).toFixed(0)}s) · {ok}/{active.length} sources OK · the collector
+            runs automatically every 3 hours via GitHub Actions. If a source fails, its last valid data stays visible.
           </p>
         )}
         {status && (
           <p className="mt-2 inline-flex items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 py-1 text-xs text-muted-foreground">
             <Cpu className="size-3.5" />
-            Ringkasan LLM: {status.llm.enabled ? `aktif (${status.llm.model}) · ${status.llm.summarized} item diringkas pada run terakhir` : "nonaktif — ringkasan memakai template deterministik"}
+            LLM summaries: {status.llm.enabled ? `on (${status.llm.model}) · ${status.llm.summarized} items summarized in the last run` : "off — summaries use source lead sentences and deterministic templates"}
           </p>
         )}
       </header>
@@ -65,14 +65,14 @@ export default function StatusPage() {
                 <Link href={`/labs/${lab.slug}`} className="font-semibold hover:underline">{lab.name}</Link>
                 <CoveragePill coverage={lab.coverage} />
                 <span className="ml-auto text-xs text-muted-foreground">
-                  {st?.total ?? 0} item{st?.latestAt ? <> · terbaru <TimeAgo iso={st.latestAt} relativeDays={30} /></> : null}
+                  {st?.total ?? 0} items{st?.latestAt ? <> · latest <TimeAgo iso={st.latestAt} relativeDays={30} /></> : null}
                 </span>
               </div>
               <p className="mt-1.5 text-xs text-muted-foreground">{lab.coverageNote}</p>
               <ul className="mt-2 divide-y">
                 {lab.sources.map((src) => {
                   const s = by.get(src.id);
-                  return s ? <Row key={src.id} s={s} /> : <li key={src.id} className="py-2 text-xs text-muted-foreground">{src.name} — belum dijalankan</li>;
+                  return s ? <Row key={src.id} s={s} /> : <li key={src.id} className="py-2 text-xs text-muted-foreground">{src.name} — not run yet</li>;
                 })}
               </ul>
             </section>

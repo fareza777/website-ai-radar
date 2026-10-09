@@ -24,6 +24,6 @@ alwaysApply: true
 ## Konvensi
 - TypeScript strict, tanpa `any`. Update immutable (spread), fungsi kecil.
 - UI: Tailwind v4 + shadcn/ui + lucide-react (tanpa ikon brand; logo brand dari `src/components/logos/data.ts`).
-- Teks UI berbahasa Indonesia; nama produk/model tetap asli.
+- All UI text and generated summaries are in English (default language); keep product/model names as written.
 - Sebelum commit: `npm test && npm run lint && npm run typecheck && npm run build`.
 - Commit: conventional commits (`feat:`, `fix(sources):`, `chore(data):`).

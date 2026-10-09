@@ -120,7 +120,7 @@ async function hackerNews(now: Date): Promise<{ candidates: Candidate[]; repoRef
     seen.add(hit.objectID);
     const signal: Signal = {
       source: "hackernews",
-      label: `${hit.points} poin HN · ${hit.num_comments} komentar`,
+      label: `${hit.points} HN points · ${hit.num_comments} comments`,
       url: `https://news.ycombinator.com/item?id=${hit.objectID}`,
       value: hit.points,
       at: hit.created_at,
@@ -201,12 +201,12 @@ async function productHunt(now: Date): Promise<Candidate[] | null> {
     description: truncate(`${node.tagline}${node.description ? ` — ${node.description}` : ""}`, 300),
     createdAt: node.createdAt,
     topics: node.topics.edges.map((e) => e.node.name.toLowerCase()),
-    signals: [{ source: "producthunt" as const, label: `${node.votesCount} upvote Product Hunt`, url: phUrl, value: node.votesCount, at: node.createdAt }],
+    signals: [{ source: "producthunt" as const, label: `${node.votesCount} Product Hunt upvotes`, url: phUrl, value: node.votesCount, at: node.createdAt }],
     }];
   });
 }
 
-// ---------- templates (Indonesian) ----------
+// ---------- templates ----------
 
 function fmtStars(n: number): string {
   return n >= 1000 ? `${(n / 1000).toFixed(n >= 10_000 ? 0 : 1)}k` : String(n);
@@ -214,33 +214,33 @@ function fmtStars(n: number): string {
 
 function templateBenefit(text: string): string {
   const t = text.toLowerCase();
-  if (/\bmcp\b|model context protocol/.test(t)) return "Menambah tools/konteks baru untuk asisten AI (Claude, Cursor, dll.) lewat MCP.";
-  if (/coding|code review|\bide\b|terminal|cli\b|developer/.test(t)) return "Berpotensi mempercepat workflow coding dan otomasi developer.";
-  if (/agent/.test(t)) return "Membantu membangun atau menjalankan AI agent untuk mengotomasi tugas.";
-  if (/\brag\b|retriev|search|embedding|knowledge/.test(t)) return "Membantu membangun pencarian/RAG di atas data Anda sendiri.";
-  if (/inference|serving|gpu|router|api/.test(t)) return "Opsi infrastruktur inference/API alternatif yang bisa menekan biaya.";
-  if (/voice|speech|audio|video|image/.test(t)) return "Kapabilitas multimodal (suara/gambar/video) yang bisa diintegrasikan ke produk.";
-  return "Alat AI baru yang bisa dievaluasi untuk kebutuhan Anda.";
+  if (/\bmcp\b|model context protocol/.test(t)) return "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.";
+  if (/coding|code review|\bide\b|terminal|cli\b|developer/.test(t)) return "Could speed up coding workflows and developer automation.";
+  if (/agent/.test(t)) return "Helps you build or run AI agents that automate tasks.";
+  if (/\brag\b|retriev|search|embedding|knowledge/.test(t)) return "Helps you build search/RAG on top of your own data.";
+  if (/inference|serving|gpu|router|api/.test(t)) return "Alternative inference/API infrastructure that may cut costs.";
+  if (/voice|speech|audio|video|image/.test(t)) return "Multimodal (voice/image/video) capabilities you can integrate into products.";
+  return "A new AI tool worth evaluating for your needs.";
 }
 
 function templatePricing(c: { kind: DiscoverKind; license?: string | null }): string {
   if (c.kind === "github") {
-    return c.license ? `Open-source (${c.license}) — gratis untuk self-host` : "Kode publik, lisensi belum jelas — cek repo sebelum dipakai";
+    return c.license ? `Open source (${c.license}) — free to self-host` : "Public code, unclear license — check the repo before use";
   }
-  return "Belum diverifikasi — cek halaman harga resmi";
+  return "Unverified — check the official pricing page";
 }
 
 function why(item: Pick<DiscoverItem, "novelty" | "createdAt" | "stars" | "starsDelta7d" | "signals">, now: Date): string {
   const parts: string[] = [];
   const ageDays = item.createdAt ? Math.floor((now.getTime() - Date.parse(item.createdAt)) / 86_400_000) : null;
-  if (item.novelty === "new" && ageDays != null) parts.push(ageDays <= 1 ? "Baru diluncurkan" : `Baru ${ageDays} hari`);
-  if (item.novelty === "trending" && item.createdAt) parts.push(`Proyek lama (sejak ${item.createdAt.slice(0, 4)}) yang sedang naik`);
-  if (item.stars) parts.push(`${fmtStars(item.stars)} ⭐ di GitHub`);
-  if (item.starsDelta7d && item.starsDelta7d > 0) parts.push(`+${fmtStars(item.starsDelta7d)} ⭐ sejak pekan lalu`);
+  if (item.novelty === "new" && ageDays != null) parts.push(ageDays <= 1 ? "Just launched" : `${ageDays} days old`);
+  if (item.novelty === "trending" && item.createdAt) parts.push(`Older project (since ${item.createdAt.slice(0, 4)}) gaining momentum`);
+  if (item.stars) parts.push(`${fmtStars(item.stars)} ⭐ on GitHub`);
+  if (item.starsDelta7d && item.starsDelta7d > 0) parts.push(`+${fmtStars(item.starsDelta7d)} ⭐ this week`);
   const hn = item.signals.filter((s) => s.source === "hackernews").sort((a, b) => b.value - a.value)[0];
-  if (hn) parts.push(`${hn.value} poin di Hacker News`);
+  if (hn) parts.push(`${hn.value} points on Hacker News`);
   const ph = item.signals.find((s) => s.source === "producthunt");
-  if (ph) parts.push(`${ph.value} upvote Product Hunt`);
+  if (ph) parts.push(`${ph.value} upvotes on Product Hunt`);
   return `${parts.join(" · ")}.`;
 }
 
@@ -277,7 +277,7 @@ export async function collectDiscover(now: Date, log: (m: string) => void): Prom
     try {
       const n = await fn();
       if (n === null) {
-        statuses.push({ ...base, ok: false, skipped: true, lastSuccessAt: prev?.lastSuccessAt ?? null, lastError: "Tidak dikonfigurasi (opsional — set PRODUCT_HUNT_TOKEN)", fetched: 0, accepted: 0 });
+        statuses.push({ ...base, ok: false, skipped: true, lastSuccessAt: prev?.lastSuccessAt ?? null, lastError: "Not configured (optional — set PRODUCT_HUNT_TOKEN)", fetched: 0, accepted: 0 });
         return;
       }
       statuses.push({ ...base, ok: true, lastSuccessAt: nowIso, lastError: null, fetched: n, accepted: n });
@@ -288,7 +288,7 @@ export async function collectDiscover(now: Date, log: (m: string) => void): Prom
     }
   };
 
-  await track("github-search", "GitHub Search (repo baru)", "api.github.com/search", async () => {
+  await track("github-search", "GitHub Search (new repos)", "api.github.com/search", async () => {
     const c = await githubSearch(now, log);
     candidates.push(...c);
     return c.length;
@@ -350,7 +350,7 @@ export async function collectDiscover(now: Date, log: (m: string) => void): Prom
       kind: c.kind,
       description: c.description || prev?.description || "",
       summary: prev?.summarySource === "llm" ? prev.summary : c.description || c.name,
-      unique: prev?.summarySource === "llm" ? prev.unique : c.topics?.length ? `Topik: ${c.topics.slice(0, 5).join(", ")}` : c.language ? `Ditulis dengan ${c.language}` : "",
+      unique: prev?.summarySource === "llm" ? prev.unique : c.topics?.length ? `Topics: ${c.topics.slice(0, 5).join(", ")}` : c.language ? `Written in ${c.language}` : "",
       benefit: prev?.summarySource === "llm" ? prev.benefit : templateBenefit(text),
       why: "",
       pricing: templatePricing(c),

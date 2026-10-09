@@ -56,14 +56,14 @@ export function LabGrid({ stats, dates }: LabGridProps) {
     const visited = state.labVisits[slug];
     const since = visited ?? new Date(now - 7 * 86_400_000).toISOString();
     const n = (dates[slug] ?? []).filter((d) => d > since).length;
-    return n ? { n, label: `${n} baru`, title: visited ? "Update baru sejak kunjungan terakhir Anda ke lab ini" : "Update dalam 7 hari terakhir (Anda belum pernah membuka lab ini)" } : null;
+    return n ? { n, label: `${n} new`, title: visited ? "New updates since your last visit to this lab" : "Updates in the last 7 days (you have not opened this lab yet)" } : null;
   };
 
   return (
     <div className="space-y-4">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-        <SearchInput value={query} onChange={setQuery} placeholder="Cari lab…" className="sm:w-72" />
-        <Segmented<Sort> ariaLabel="Urutkan lab" value={sort} onChange={setSort} options={[{ value: "activity", label: "Paling aktif" }, { value: "az", label: "A–Z" }]} />
+        <SearchInput value={query} onChange={setQuery} placeholder="Search labs…" className="sm:w-72" />
+        <Segmented<Sort> ariaLabel="Sort labs" value={sort} onChange={setSort} options={[{ value: "activity", label: "Most active" }, { value: "az", label: "A–Z" }]} />
       </div>
 
       <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -99,18 +99,18 @@ export function LabGrid({ stats, dates }: LabGridProps) {
 
                 <div className="mt-3 flex items-center justify-between gap-2 text-[11.5px] text-muted-foreground">
                   <span>
-                    <span className="font-semibold text-foreground tabular-nums">{s?.last30 ?? 0}</span> update · 30 hari
+                    <span className="font-semibold text-foreground tabular-nums">{s?.last30 ?? 0}</span> updates · 30d
                   </span>
                   <CoveragePill coverage={lab.coverage} />
                 </div>
                 <div className="mt-1 text-[11.5px] text-muted-foreground">
                   {s?.latestAt ? (
-                    <>Terakhir: <TimeAgo iso={s.latestAt} relativeDays={30} /></>
+                    <>Latest: <TimeAgo iso={s.latestAt} relativeDays={30} /></>
                   ) : (
-                    "Belum ada update terdeteksi"
+                    "No updates detected yet"
                   )}
                   {" · "}
-                  {lab.sources.length} sumber
+                  {lab.sources.length} sources
                 </div>
               </Link>
             </li>

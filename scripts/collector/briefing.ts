@@ -53,8 +53,8 @@ export async function buildBriefing(
     source: "template",
     headline:
       last24.length >= 3
-        ? `${stats.updates24h} update dari ${stats.labsActive24h} lab AI dalam 24 jam terakhir${stats.newModels7d ? ` · ${stats.newModels7d} rilis model dalam 7 hari` : ""}.`
-        : `Hari yang relatif tenang — ini sorotan 72 jam terakhir dari ${new Set(window.map((i) => i.lab)).size} lab.`,
+        ? `${stats.updates24h} updates from ${stats.labsActive24h} AI labs in the last 24 hours${stats.newModels7d ? ` · ${stats.newModels7d} model releases this week` : ""}.`
+        : `A quiet day — here are the highlights from the last 72 hours across ${new Set(window.map((i) => i.lab)).size} labs.`,
     bullets: top.slice(0, 6).map((i) => ({ text: `${labName(i.lab)}: ${i.title}`, itemId: i.id, lab: i.lab })),
   };
 

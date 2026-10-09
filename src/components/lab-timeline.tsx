@@ -69,10 +69,10 @@ export function LabTimeline({ slug, items, dataTime }: { slug: string; items: Fe
   };
 
   return (
-    <section aria-label="Timeline update" className="space-y-4">
+    <section aria-label="Update timeline" className="space-y-4">
       <div className="card-surface space-y-3 p-3 sm:p-4">
         <ChipRow>
-          <Chip active={category === "all"} onClick={() => change(setCategory)("all")} count={inRange.length}>Semua</Chip>
+          <Chip active={category === "all"} onClick={() => change(setCategory)("all")} count={inRange.length}>All</Chip>
           {CATEGORIES.map((c) => (
             <Chip key={c} active={category === c} onClick={() => change(setCategory)(c)} count={counts[c]} className={counts[c] === 0 ? "opacity-50" : undefined}>
               {CATEGORY_META[c].label}
@@ -80,27 +80,27 @@ export function LabTimeline({ slug, items, dataTime }: { slug: string; items: Fe
           ))}
         </ChipRow>
         <div className="flex flex-col gap-2 lg:flex-row lg:items-center">
-          <SearchInput value={query} onChange={change(setQuery)} placeholder="Cari di timeline lab ini…" className="flex-1" />
+          <SearchInput value={query} onChange={change(setQuery)} placeholder="Search this lab's timeline…" className="flex-1" />
           <div className="flex flex-wrap items-center gap-2">
             <Segmented<Range>
-              ariaLabel="Rentang waktu"
+              ariaLabel="Time range"
               value={range}
               onChange={change(setRange)}
-              options={[{ value: "7", label: "7h" }, { value: "30", label: "30h" }, { value: "90", label: "90h" }, { value: "all", label: "Semua" }]}
+              options={[{ value: "7", label: "7d" }, { value: "30", label: "30d" }, { value: "90", label: "90d" }, { value: "all", label: "All" }]}
             />
-            <Segmented<Sort> ariaLabel="Urutkan" value={sort} onChange={change(setSort)} options={[{ value: "newest", label: "Terbaru" }, { value: "important", label: "Terpenting" }]} />
-            <Chip active={importantOnly} onClick={() => change(setImportantOnly)(!importantOnly)}>Penting</Chip>
+            <Segmented<Sort> ariaLabel="Sort" value={sort} onChange={change(setSort)} options={[{ value: "newest", label: "Newest" }, { value: "important", label: "Most Important" }]} />
+            <Chip active={importantOnly} onClick={() => change(setImportantOnly)(!importantOnly)}>Important</Chip>
           </div>
         </div>
       </div>
 
       <p className="text-xs text-muted-foreground" aria-live="polite">
-        {filtered.length} update · halaman {current} dari {pages}
+        {filtered.length} {filtered.length === 1 ? "update" : "updates"} · page {current} of {pages}
       </p>
 
       {visible.length === 0 ? (
-        <EmptyState icon={<Inbox className="size-6" />} title="Belum ada update untuk filter ini">
-          Lab ini mungkin belum merilis apa pun di rentang waktu tersebut. Lihat status sumber di atas untuk detail coverage.
+        <EmptyState icon={<Inbox className="size-6" />} title="No updates match these filters">
+          This lab may not have shipped anything in that range. See source status above for coverage details.
         </EmptyState>
       ) : (
         <ol className="relative space-y-3 pl-6 before:absolute before:bottom-2 before:left-[6px] before:top-2 before:w-px before:bg-border sm:pl-8 sm:before:left-[10px]">

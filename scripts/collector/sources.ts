@@ -94,9 +94,9 @@ async function fromHuggingFace(source: SourceConfig, ctx: FetchContext): Promise
       title: name,
       url: `https://huggingface.co/${m.id}`,
       publishedAt: created,
-      excerpt: [m.pipeline_tag, license && `license: ${license}`, `${m.likes ?? 0} likes`, `${m.downloads ?? 0} downloads`]
-        .filter(Boolean)
-        .join(" · "),
+      // Static facts only: likes/downloads change every run and live in `meta` so they never
+      // alter the content hash (which drives the "updated" flag).
+      excerpt: [m.pipeline_tag, license && `license: ${license}`].filter(Boolean).join(" · "),
       meta,
     });
   }

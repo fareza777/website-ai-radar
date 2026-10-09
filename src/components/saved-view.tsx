@@ -10,7 +10,7 @@ import { Chip, ChipRow, EmptyState } from "./filters";
 import { LabLogo } from "./lab-logo";
 import { extHref } from "@/lib/url";
 
-const KIND_LABEL: Record<SavedKind, string> = { update: "Update lab", discover: "Discover", deal: "Deals" };
+const KIND_LABEL: Record<SavedKind, string> = { update: "Lab updates", discover: "Discover", deal: "Deals" };
 
 export function SavedView() {
   const state = useRadarState();
@@ -20,10 +20,10 @@ export function SavedView() {
 
   if (all.length === 0) {
     return (
-      <EmptyState icon={<Bookmark className="size-6" />} title="Belum ada yang disimpan">
-        Tekan ikon bookmark pada update, tool di Discover, atau deal untuk menyimpannya di sini. Disimpan di browser ini (localStorage), tanpa akun.
+      <EmptyState icon={<Bookmark className="size-6" />} title="Nothing saved yet">
+        Tap the bookmark icon on any update, Discover tool, or deal to keep it here. Stored in this browser (localStorage) — no account needed.
         <div className="mt-4">
-          <Link href="/" className="inline-flex h-9 items-center rounded-lg bg-foreground px-4 text-sm font-medium text-background">Jelajahi feed</Link>
+          <Link href="/" className="inline-flex h-9 items-center rounded-lg bg-foreground px-4 text-sm font-medium text-background">Explore the feed</Link>
         </div>
       </EmptyState>
     );
@@ -32,7 +32,7 @@ export function SavedView() {
   return (
     <div className="space-y-4">
       <ChipRow>
-        <Chip active={kind === "all"} onClick={() => setKind("all")} count={all.length}>Semua</Chip>
+        <Chip active={kind === "all"} onClick={() => setKind("all")} count={all.length}>All</Chip>
         {(Object.keys(KIND_LABEL) as SavedKind[]).map((k) => (
           <Chip key={k} active={kind === k} onClick={() => setKind(k)} count={all.filter((e) => e.kind === k).length}>
             {KIND_LABEL[k]}
@@ -56,7 +56,7 @@ export function SavedView() {
                 </a>
                 {e.subtitle && <p className="mt-0.5 line-clamp-2 text-[13px] text-muted-foreground">{e.subtitle}</p>}
               </div>
-              <button type="button" onClick={() => removeBookmark(e.id)} aria-label="Hapus" className="rounded-lg p-2 text-muted-foreground transition hover:bg-accent hover:text-rose-500">
+              <button type="button" onClick={() => removeBookmark(e.id)} aria-label="Remove" className="rounded-lg p-2 text-muted-foreground transition hover:bg-accent hover:text-rose-500">
                 <Trash2 className="size-4" />
               </button>
             </li>

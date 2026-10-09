@@ -16,19 +16,19 @@ import { TimeAgo } from "./time-ago";
 import { extHref } from "@/lib/url";
 
 const KIND_LABEL: Record<DealKind, string> = {
-  "free-model": "Model gratis",
+  "free-model": "Free model",
   "free-tier": "Free tier",
   credits: "Free credits",
-  discount: "Diskon/harga",
+  discount: "Discount/pricing",
   trial: "Trial",
   promo: "Promo",
 };
 
 const GROUPS: { key: string; title: string; note: string; match: (d: Deal) => boolean }[] = [
-  { key: "programs", title: "Free tier & program resmi", note: "Diverifikasi ulang setiap run: halaman resmi diambil dan teks bukti harus ditemukan.", match: (d) => !d.id.startsWith("openrouter-") && !d.id.startsWith("lab-") && !d.id.startsWith("hn-") },
-  { key: "models", title: "Model gratis (live dari OpenRouter API)", note: "Harga input & output $0 menurut API publik OpenRouter saat pengecekan terakhir.", match: (d) => d.id.startsWith("openrouter-") },
-  { key: "labs", title: "Pengumuman promo & harga dari lab", note: "Terdeteksi dari feed resmi lab. Masa berlaku belum tentu tercantum.", match: (d) => d.id.startsWith("lab-") },
-  { key: "community", title: "Sinyal komunitas", note: "Dari Hacker News — belum diverifikasi, cek sendiri di sumbernya.", match: (d) => d.id.startsWith("hn-") },
+  { key: "programs", title: "Free tiers & official programs", note: "Re-verified every run: the official page is fetched and the evidence text must be found.", match: (d) => !d.id.startsWith("openrouter-") && !d.id.startsWith("lab-") && !d.id.startsWith("hn-") },
+  { key: "models", title: "Free models (live from the OpenRouter API)", note: "$0 input & output price per OpenRouter's public API at the last check.", match: (d) => d.id.startsWith("openrouter-") },
+  { key: "labs", title: "Promo & pricing announcements from labs", note: "Detected in official lab feeds. Validity periods may not be stated.", match: (d) => d.id.startsWith("lab-") },
+  { key: "community", title: "Community signals", note: "From Hacker News — unverified, check the source yourself.", match: (d) => d.id.startsWith("hn-") },
 ];
 
 /** Recomputes expiry in the browser so a stale build never shows an ended promo as active. */
@@ -60,7 +60,7 @@ function DealCard({ deal, status }: { deal: Deal; status: DealStatus }) {
 
       {deal.description && <p className="mt-2 line-clamp-3 text-[13px] text-muted-foreground">{deal.description}</p>}
       <p className="mt-2 text-[13px] text-foreground/85">
-        <span className="font-medium text-foreground">Syarat: </span>
+        <span className="font-medium text-foreground">Terms: </span>
         {deal.terms}
       </p>
 
@@ -73,23 +73,23 @@ function DealCard({ deal, status }: { deal: Deal; status: DealStatus }) {
 
       <dl className="mt-3 grid grid-cols-3 gap-2 text-[11px]">
         <div>
-          <dt className="text-muted-foreground">Mulai</dt>
+          <dt className="text-muted-foreground">Starts</dt>
           <dd className="font-medium">{deal.startsAt ? formatDate(deal.startsAt) : "—"}</dd>
         </div>
         <div>
-          <dt className="text-muted-foreground">Berakhir</dt>
-          <dd className={cn("font-medium", deal.endsAt && "text-amber-600 dark:text-amber-400")}>{deal.endsAt ? formatDate(deal.endsAt) : "Tidak dicantumkan"}</dd>
+          <dt className="text-muted-foreground">Ends</dt>
+          <dd className={cn("font-medium", deal.endsAt && "text-amber-600 dark:text-amber-400")}>{deal.endsAt ? formatDate(deal.endsAt) : "Not stated"}</dd>
         </div>
         <div>
-          <dt className="text-muted-foreground">Diverifikasi</dt>
-          <dd className="font-medium">{deal.lastVerifiedAt ? <TimeAgo iso={deal.lastVerifiedAt} /> : "Belum"}</dd>
+          <dt className="text-muted-foreground">Verified</dt>
+          <dd className="font-medium">{deal.lastVerifiedAt ? <TimeAgo iso={deal.lastVerifiedAt} /> : "Not yet"}</dd>
         </div>
       </dl>
 
       <footer className="mt-auto flex items-center justify-between pt-3 text-[11.5px] text-muted-foreground">
         <span className="truncate">{deal.sourceName}</span>
         <a href={extHref(deal.url)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-0.5 font-medium text-foreground hover:underline">
-          Sumber resmi <ArrowUpRight className="size-3.5" />
+          Official source <ArrowUpRight className="size-3.5" />
         </a>
       </footer>
     </article>
@@ -117,7 +117,7 @@ export function DealsView({ deals }: { deals: Deal[] }) {
     <div className="space-y-6">
       <div className="card-surface space-y-3 p-3 sm:p-4">
         <ChipRow>
-          <Chip active={status === "all"} onClick={() => setStatus("all")} count={withStatus.length - countBy("expired")}>Semua yang berlaku</Chip>
+          <Chip active={status === "all"} onClick={() => setStatus("all")} count={withStatus.length - countBy("expired")}>All current</Chip>
           {(["active", "announced", "unverified", "expired"] as DealStatus[]).map((s) => (
             <Chip key={s} active={status === s} onClick={() => setStatus(s)} count={countBy(s)}>
               {DEAL_STATUS_META[s].label}
@@ -125,9 +125,9 @@ export function DealsView({ deals }: { deals: Deal[] }) {
           ))}
         </ChipRow>
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-          <SearchInput value={query} onChange={setQuery} placeholder="Cari promo, model gratis, provider…" className="flex-1" />
+          <SearchInput value={query} onChange={setQuery} placeholder="Search promos, free models, providers…" className="flex-1" />
           <ChipRow className="sm:flex-nowrap">
-            <Chip active={kind === "all"} onClick={() => setKind("all")}>Semua jenis</Chip>
+            <Chip active={kind === "all"} onClick={() => setKind("all")}>All types</Chip>
             {kinds.map((k) => (
               <Chip key={k} active={kind === k} onClick={() => setKind(k)}>{KIND_LABEL[k]}</Chip>
             ))}
@@ -135,7 +135,7 @@ export function DealsView({ deals }: { deals: Deal[] }) {
         </div>
       </div>
 
-      {filtered.length === 0 && <EmptyState icon={<CalendarClock className="size-6" />} title="Tidak ada deal untuk filter ini" />}
+      {filtered.length === 0 && <EmptyState icon={<CalendarClock className="size-6" />} title="No deals match these filters" />}
 
       {GROUPS.map((g) => {
         const list = filtered.filter((x) => g.match(x.deal));

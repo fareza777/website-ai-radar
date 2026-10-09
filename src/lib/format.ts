@@ -1,10 +1,10 @@
 const SERVER_TZ = "Asia/Jakarta";
 
-const dateFmt = new Intl.DateTimeFormat("id-ID", { day: "numeric", month: "short", year: "numeric", timeZone: SERVER_TZ });
-const dateTimeFmt = new Intl.DateTimeFormat("id-ID", {
+const dateFmt = new Intl.DateTimeFormat("en-US", { day: "numeric", month: "short", year: "numeric", timeZone: SERVER_TZ });
+const dateTimeFmt = new Intl.DateTimeFormat("en-US", {
   day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone: SERVER_TZ, timeZoneName: "short",
 });
-const dayHeaderFmt = new Intl.DateTimeFormat("id-ID", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: SERVER_TZ });
+const dayHeaderFmt = new Intl.DateTimeFormat("en-US", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: SERVER_TZ });
 const dayKeyFmt = new Intl.DateTimeFormat("en-CA", { year: "numeric", month: "2-digit", day: "2-digit", timeZone: SERVER_TZ });
 
 /** Deterministic (timezone-pinned) formatting — safe for server render and hydration. */
@@ -25,13 +25,13 @@ export function dayKey(iso: string): string {
   return dayKeyFmt.format(new Date(iso));
 }
 
-const rtf = new Intl.RelativeTimeFormat("id-ID", { numeric: "auto" });
+const rtf = new Intl.RelativeTimeFormat("en-US", { numeric: "auto" });
 
 /** Relative time. `now` must come from the client (never call during server prerender). */
 export function relativeTime(iso: string, now: number): string {
   const diff = (Date.parse(iso) - now) / 1000;
   const abs = Math.abs(diff);
-  if (abs < 60) return "baru saja";
+  if (abs < 60) return "just now";
   if (abs < 3600) return rtf.format(Math.round(diff / 60), "minute");
   if (abs < 86_400) return rtf.format(Math.round(diff / 3600), "hour");
   if (abs < 86_400 * 30) return rtf.format(Math.round(diff / 86_400), "day");

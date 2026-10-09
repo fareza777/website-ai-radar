@@ -18,7 +18,7 @@ export function SiteHeader() {
   return (
     <header className="glass sticky top-0 z-40 border-b">
       <div className="mx-auto flex h-14 max-w-7xl items-center gap-3 px-4 sm:px-6">
-        <Link href="/" className="group flex items-center gap-2.5" aria-label="AI Radar — beranda">
+        <Link href="/" className="group flex items-center gap-2.5" aria-label="AI Radar — home">
           <RadarMark />
           <span className="flex flex-col leading-none">
             <span className="text-[15px] font-semibold tracking-tight">AI Radar</span>
@@ -26,7 +26,7 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="ml-4 hidden items-center gap-0.5 md:flex" aria-label="Navigasi utama">
+        <nav className="ml-4 hidden items-center gap-0.5 md:flex" aria-label="Main navigation">
           {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
             const active = isActive(pathname, href);
             return (
@@ -54,10 +54,10 @@ export function SiteHeader() {
             type="button"
             onClick={openSearch}
             className="inline-flex h-9 items-center gap-2 rounded-lg border bg-surface/60 px-2.5 text-sm text-muted-foreground transition hover:border-foreground/20 hover:text-foreground sm:w-60"
-            aria-label="Cari (Ctrl+K)"
+            aria-label="Search (Ctrl+K)"
           >
             <Search className="size-4" />
-            <span className="hidden sm:inline">Cari update, lab, tools…</span>
+            <span className="hidden truncate sm:inline">Search everything…</span>
             <Kbd className="ml-auto hidden sm:inline-flex">⌘K</Kbd>
           </button>
           <ThemeToggle />
@@ -70,7 +70,7 @@ export function SiteHeader() {
 export function MobileNav() {
   const pathname = usePathname();
   return (
-    <nav className="glass pb-safe fixed inset-x-0 bottom-0 z-40 border-t md:hidden" aria-label="Navigasi bawah">
+    <nav className="glass pb-safe fixed inset-x-0 bottom-0 z-40 border-t md:hidden" aria-label="Bottom navigation">
       <ul className="mx-auto grid max-w-md grid-cols-5">
         {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
           const active = isActive(pathname, href);

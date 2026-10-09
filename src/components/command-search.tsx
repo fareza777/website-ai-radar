@@ -50,7 +50,7 @@ function search(docs: SearchDoc[], query: string): SearchDoc[] {
 
 const GROUPS: { type: SearchDoc["type"]; label: string; icon: typeof Newspaper }[] = [
   { type: "lab", label: "AI Labs", icon: LayoutGrid },
-  { type: "update", label: "Update", icon: Newspaper },
+  { type: "update", label: "Updates", icon: Newspaper },
   { type: "discover", label: "Discover", icon: Compass },
   { type: "deal", label: "Deals", icon: Gift },
 ];
@@ -102,28 +102,28 @@ export function CommandSearch() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="top-[12%] translate-y-0 overflow-hidden p-0 sm:max-w-2xl" showCloseButton={false}>
-        <DialogTitle className="sr-only">Pencarian global</DialogTitle>
-        <DialogDescription className="sr-only">Cari update lab, tools di Discover, dan deals.</DialogDescription>
+        <DialogTitle className="sr-only">Global search</DialogTitle>
+        <DialogDescription className="sr-only">Search lab updates, Discover tools, and deals.</DialogDescription>
         <Command shouldFilter={false} className="[&_[cmdk-group-heading]]:px-3 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground">
-          <CommandInput value={query} onValueChange={setQuery} placeholder="Cari model, lab, tool, promo…  (mis. “claude opus”, “free”, “mcp”)" className="h-12" />
+          <CommandInput value={query} onValueChange={setQuery} placeholder="Search models, labs, tools, deals…  (e.g. “claude opus”, “free”, “mcp”)" className="h-12" />
           <CommandList className="max-h-[min(65vh,520px)]">
             {!docs && !indexError && (
               <div className="flex items-center justify-center gap-2 py-10 text-sm text-muted-foreground">
-                <Loader2 className="size-4 animate-spin" /> Memuat indeks…
+                <Loader2 className="size-4 animate-spin" /> Loading index…
               </div>
             )}
             {!docs && indexError && (
               <div className="py-10 text-center text-sm text-muted-foreground">
-                Indeks pencarian gagal dimuat.{" "}
+                Search index failed to load.{" "}
                 <button type="button" className="font-medium text-foreground underline" onClick={() => { setIndexError(false); loadIndex().then(setDocs, () => setIndexError(true)); }}>
-                  Coba lagi
+                  Try again
                 </button>
               </div>
             )}
-            {docs && q && <CommandEmpty>Tidak ada hasil untuk “{q}”.</CommandEmpty>}
+            {docs && q && <CommandEmpty>No results for “{q}”.</CommandEmpty>}
             {docs && !q && (
               <div className="px-4 py-8 text-center text-sm text-muted-foreground">
-                Ketik untuk mencari di {docs.length.toLocaleString("id-ID")} entri · tekan <span className="font-mono">/</span> atau <span className="font-mono">⌘K</span> kapan saja
+                Type to search {docs.length.toLocaleString("en-US")} entries · press <span className="font-mono">/</span> or <span className="font-mono">⌘K</span> anytime
               </div>
             )}
             {GROUPS.map(({ type, label, icon: Icon }) => {

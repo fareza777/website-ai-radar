@@ -41,11 +41,11 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
         )}
         <CategoryBadge category={item.category} />
         {important && (
-          <span className="inline-flex h-5 items-center gap-0.5 rounded-md bg-orange-500/10 px-1.5 text-[11px] font-medium text-orange-600 dark:text-orange-300" title={`Skor relevansi ${item.importance}/100`}>
-            <Flame className="size-3" /> Penting
+          <span className="inline-flex h-5 items-center gap-0.5 rounded-md bg-orange-500/10 px-1.5 text-[11px] font-medium text-orange-600 dark:text-orange-300" title={`Relevance score ${item.importance}/100`}>
+            <Flame className="size-3" /> Important
           </span>
         )}
-        {isNew && <span className="rounded-md bg-brand/15 px-1.5 text-[11px] font-semibold text-brand">Baru</span>}
+        {isNew && <span className="rounded-md bg-brand/15 px-1.5 text-[11px] font-semibold text-brand">New</span>}
         <span className="ml-auto flex items-center gap-1 whitespace-nowrap">
           <TimeAgo iso={item.publishedAt} />
         </span>
@@ -68,7 +68,7 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
         <p className="mt-2.5 flex gap-2 rounded-lg bg-subtle/70 px-3 py-2 text-[13px] leading-relaxed text-foreground/80">
           <Lightbulb className="mt-0.5 size-3.5 shrink-0 text-amber-500" />
           <span>
-            <span className="font-medium text-foreground">Manfaat: </span>
+            <span className="font-medium text-foreground">Why it matters: </span>
             {item.benefit}
           </span>
         </p>
@@ -78,13 +78,13 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
         <span className="truncate">{item.sourceName}</span>
         <VerifyBadge verified={item.verified} trust={item.trust} />
         {edited && (
-          <span className="inline-flex items-center gap-1" title="Konten di sumber berubah setelah pertama kali terdeteksi">
-            <RefreshCw className="size-3" /> diperbarui {formatDate(item.updatedAt)}
+          <span className="inline-flex items-center gap-1" title="The source content changed after it was first detected">
+            <RefreshCw className="size-3" /> updated {formatDate(item.updatedAt)}
           </span>
         )}
         {item.seenIn ? (
-          <span className="inline-flex items-center gap-1" title="Cerita yang sama terdeteksi di sumber lain (sudah digabung)">
-            <Layers className="size-3" /> +{item.seenIn} sumber
+          <span className="inline-flex items-center gap-1" title="The same story was detected in other sources (merged)">
+            <Layers className="size-3" /> +{item.seenIn} {item.seenIn === 1 ? "source" : "sources"}
           </span>
         ) : null}
         {item.tags.slice(0, 3).map((t) => (

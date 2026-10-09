@@ -25,9 +25,9 @@ export function BriefingCard({ briefing, itemsById }: BriefingCardProps) {
           <span>{formatDayHeader(briefing.generatedAt)}</span>
           <span aria-hidden="true">·</span>
           <span>
-            diperbarui <TimeAgo iso={briefing.generatedAt} />
+            updated <TimeAgo iso={briefing.generatedAt} />
           </span>
-          <span className="rounded bg-muted px-1.5 py-px font-mono text-[10px]" title={briefing.source === "llm" ? "Diringkas LLM dari data sumber" : "Disusun otomatis dari data sumber (tanpa LLM)"}>
+          <span className="rounded bg-muted px-1.5 py-px font-mono text-[10px]" title={briefing.source === "llm" ? "Summarized by an LLM from source data" : "Assembled automatically from source data (no LLM)"}>
             {briefing.source === "llm" ? "AI summary" : "auto"}
           </span>
         </p>

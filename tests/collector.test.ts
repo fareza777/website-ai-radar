@@ -106,7 +106,7 @@ function raw(title: string, url: string, date = "2026-10-08T10:00:00Z", excerpt 
 }
 
 describe("merge & dedupe", () => {
-  it("builds verified items with Indonesian template summaries", () => {
+  it("builds verified items with template summaries", () => {
     const item = buildItem(openai, rssSource, raw("Introducing GPT-6", "https://openai.com/index/gpt-6/?utm_source=rss"), NOW);
     expect(item.url).toBe("https://openai.com/index/gpt-6");
     expect(item.verified).toBe(true);
@@ -228,7 +228,18 @@ describe("regression: code review findings", () => {
   });
 
   it("rejects LLM output with numbers absent from the source", () => {
-    expect(isGrounded("Harga turun 50% menjadi $0.10", "Prices drop for the API")).toBe(false);
-    expect(isGrounded("Claude Opus 5.5 kini tersedia", "Introducing Claude Opus 5.5")).toBe(true);
+    expect(isGrounded("Prices drop 50% to $0.10", "Prices drop for the API")).toBe(false);
+    expect(isGrounded("Claude Opus 5.5 is now available", "Introducing Claude Opus 5.5")).toBe(true);
+  });
+});
+
+describe("regression: volatile metrics", () => {
+  it("does not flag Hugging Face models as updated when only likes change", () => {
+    const hfSrc: SourceConfig = { id: "hf", type: "huggingface", name: "HF", target: "x", trust: "official" };
+    const v1 = buildItem(openai, hfSrc, { ...raw("Model-X", "https://huggingface.co/x/Model-X"), meta: { likes: 10 } }, "2026-10-01T00:00:00.000Z");
+    const v2 = buildItem(openai, hfSrc, { ...raw("Model-X", "https://huggingface.co/x/Model-X", undefined, "different"), meta: { likes: 99 } }, NOW);
+    const [merged] = mergeItems([v1], [v2], NOW);
+    expect(merged.updatedAt).toBe(v1.updatedAt);
+    expect(merged.meta?.likes).toBe(99);
   });
 });

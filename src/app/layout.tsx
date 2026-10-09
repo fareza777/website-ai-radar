@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   title: { default: `${SITE.name} — ${SITE.tagline}`, template: `%s · ${SITE.name}` },
   description: SITE.description,
   applicationName: SITE.name,
-  keywords: ["AI", "LLM", "OpenAI", "Anthropic", "Claude", "Gemini", "DeepSeek", "Qwen", "berita AI", "AI news Indonesia", "free credits", "AI tools"],
-  openGraph: { type: "website", siteName: SITE.name, title: `${SITE.name} — ${SITE.tagline}`, description: SITE.description, locale: "id_ID" },
+  keywords: ["AI", "LLM", "OpenAI", "Anthropic", "Claude", "Gemini", "DeepSeek", "Qwen", "AI news", "AI labs tracker", "free credits", "AI tools"],
+  openGraph: { type: "website", siteName: SITE.name, title: `${SITE.name} — ${SITE.tagline}`, description: SITE.description, locale: "en_US" },
   twitter: { card: "summary_large_image", title: `${SITE.name} — ${SITE.tagline}`, description: SITE.description },
   alternates: { canonical: "/" },
 };
@@ -42,8 +42,8 @@ function SiteFooter() {
         <div className="space-y-1">
           <p className="font-medium text-foreground">{SITE.name} · {SITE.tagline}</p>
           <p className="max-w-xl text-xs leading-relaxed">
-            Data dikumpulkan otomatis dari blog, RSS, changelog, GitHub, dan Hugging Face resmi. Tidak ada berita, harga, atau promo yang dikarang —
-            selalu cek sumber asli sebelum mengambil keputusan.
+            Collected automatically from official blogs, RSS feeds, changelogs, GitHub, and Hugging Face. No news, prices, or promos are made up —
+            always check the original source before making decisions.
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-4 text-xs">
@@ -54,7 +54,7 @@ function SiteFooter() {
                 <span className="relative inline-flex size-2 rounded-full bg-emerald-500" />
               </span>
               <Activity className="size-3.5" />
-              {ok}/{active.length} sumber OK · update <TimeAgo iso={status.generatedAt} />
+              {ok}/{active.length} sources OK · updated <TimeAgo iso={status.generatedAt} />
             </Link>
           )}
           <a href={SITE.repo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-foreground">
@@ -68,7 +68,7 @@ function SiteFooter() {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="id" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="flex min-h-full flex-col">
         <ThemeProvider>
           <div aria-hidden="true" className="bg-aurora pointer-events-none fixed inset-x-0 top-0 -z-10 h-[38rem]" />

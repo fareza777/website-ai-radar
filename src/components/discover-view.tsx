@@ -39,10 +39,10 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
                 "inline-flex h-5 items-center gap-1 rounded-md px-1.5 text-[11px] font-semibold",
                 isNew ? "bg-emerald-500/12 text-emerald-700 dark:text-emerald-300" : "bg-orange-500/12 text-orange-700 dark:text-orange-300",
               )}
-              title={isNew ? "Proyek/produk yang benar-benar baru diluncurkan" : "Proyek lama yang sedang naik daun lagi"}
+              title={isNew ? "A genuinely new project/product launch" : "An older project that is trending again"}
             >
               {isNew ? <Sparkles className="size-3" /> : <TrendingUp className="size-3" />}
-              {isNew ? "Benar-benar baru" : "Lama · lagi trending"}
+              {isNew ? "Brand new" : "Older · trending"}
             </span>
             <span className="inline-flex h-5 items-center rounded-md border px-1.5 text-[11px] text-muted-foreground">{DISCOVER_KIND_LABEL[item.kind]}</span>
             {item.summarySource === "llm" && <span className="rounded bg-muted px-1.5 font-mono text-[10px] text-muted-foreground">AI</span>}
@@ -55,7 +55,7 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
           {item.repo && <p className="truncate font-mono text-[11.5px] text-muted-foreground">{item.repo}</p>}
         </div>
         <div className="flex flex-col items-end gap-1">
-          <span className="rounded-lg bg-brand/10 px-2 py-1 text-xs font-semibold tabular-nums text-brand" title="Skor sinyal (stars, momentum, HN, Product Hunt)">
+          <span className="rounded-lg bg-brand/10 px-2 py-1 text-xs font-semibold tabular-nums text-brand" title="Signal score (stars, momentum, HN, Product Hunt)">
             {item.score}
           </span>
           <BookmarkButton entry={{ id: item.id, kind: "discover", title: item.name, url: item.url, subtitle: item.summary, date: item.createdAt ?? item.firstSeenAt }} />
@@ -65,14 +65,14 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
       {item.description && item.description !== item.summary && <p className="mt-2 line-clamp-2 text-[13px] text-muted-foreground">{item.description}</p>}
 
       <dl className="mt-3 grid gap-2">
-        <Fact label="Fungsi">{item.summary}</Fact>
-        <Fact label="Keunikan">{item.unique}</Fact>
-        <Fact label="Manfaat">{item.benefit}</Fact>
-        <Fact label="Harga">{item.pricing}</Fact>
+        <Fact label="What it does">{item.summary}</Fact>
+        <Fact label="What's unique">{item.unique}</Fact>
+        <Fact label="Why it helps">{item.benefit}</Fact>
+        <Fact label="Pricing">{item.pricing}</Fact>
       </dl>
 
       <p className="mt-3 text-[12.5px] font-medium text-brand">
-        <span className="text-muted-foreground">Kenapa layak dilirik: </span>
+        <span className="text-muted-foreground">Why it&rsquo;s on the radar: </span>
         {item.why}
       </p>
 
@@ -84,10 +84,10 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
         )}
         {item.language && <span>{item.language}</span>}
         {item.license && <span className="font-mono">{item.license}</span>}
-        {item.createdAt && <span>dibuat {formatDate(item.createdAt)}</span>}
+        {item.createdAt && <span>created {formatDate(item.createdAt)}</span>}
         <span className="ml-auto flex items-center gap-2">
           {repoUrl && repoUrl !== item.url && (
-            <a href={repoUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:text-foreground" aria-label="Repo GitHub">
+            <a href={repoUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:text-foreground" aria-label="GitHub repo">
               <GithubIcon className="size-3.5" />
             </a>
           )}
@@ -97,7 +97,7 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
             </a>
           )}
           <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-0.5 font-medium text-foreground hover:underline">
-            Tautan resmi <ArrowUpRight className="size-3.5" />
+            Official link <ArrowUpRight className="size-3.5" />
           </a>
         </span>
       </footer>
@@ -135,11 +135,11 @@ export function DiscoverView({ items }: { items: DiscoverItem[] }) {
     <div className="space-y-4">
       <div className="card-surface space-y-3 p-3 sm:p-4">
         <ChipRow>
-          <Chip active={novelty === "all"} onClick={() => { setNovelty("all"); setPage(1); }} count={items.length}>Semua</Chip>
-          <Chip active={novelty === "new"} onClick={() => { setNovelty("new"); setPage(1); }} count={count("new")}>✨ Benar-benar baru</Chip>
-          <Chip active={novelty === "trending"} onClick={() => { setNovelty("trending"); setPage(1); }} count={count("trending")}>📈 Lama tapi trending</Chip>
+          <Chip active={novelty === "all"} onClick={() => { setNovelty("all"); setPage(1); }} count={items.length}>All</Chip>
+          <Chip active={novelty === "new"} onClick={() => { setNovelty("new"); setPage(1); }} count={count("new")}>✨ Brand new</Chip>
+          <Chip active={novelty === "trending"} onClick={() => { setNovelty("trending"); setPage(1); }} count={count("trending")}>📈 Older but trending</Chip>
           <span className="mx-1 w-px shrink-0 self-stretch bg-border" />
-          <Chip active={kind === "all"} onClick={() => { setKind("all"); setPage(1); }}>Semua sumber</Chip>
+          <Chip active={kind === "all"} onClick={() => { setKind("all"); setPage(1); }}>All sources</Chip>
           {kinds.map((k) => (
             <Chip key={k} active={kind === k} onClick={() => { setKind(k); setPage(1); }} count={items.filter((i) => i.kind === k).length}>
               {DISCOVER_KIND_LABEL[k]}
@@ -147,18 +147,18 @@ export function DiscoverView({ items }: { items: DiscoverItem[] }) {
           ))}
         </ChipRow>
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-          <SearchInput value={query} onChange={(v) => { setQuery(v); setPage(1); }} placeholder="Cari tool, agent, MCP, coding…" className="flex-1" />
+          <SearchInput value={query} onChange={(v) => { setQuery(v); setPage(1); }} placeholder="Search tools, agents, MCP, coding…" className="flex-1" />
           <Segmented<Sort>
-            ariaLabel="Urutkan"
+            ariaLabel="Sort"
             value={sort}
             onChange={(v) => { setSort(v); setPage(1); }}
-            options={[{ value: "score", label: "Skor" }, { value: "newest", label: "Terbaru" }, { value: "stars", label: "Stars" }]}
+            options={[{ value: "score", label: "Score" }, { value: "newest", label: "Newest" }, { value: "stars", label: "Stars" }]}
           />
         </div>
       </div>
 
       {visible.length === 0 ? (
-        <EmptyState icon={<Search className="size-6" />} title="Tidak ada hasil">Coba kata kunci lain atau hapus filter.</EmptyState>
+        <EmptyState icon={<Search className="size-6" />} title="No results">Try another keyword or clear filters.</EmptyState>
       ) : (
         <ul className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {visible.map((i) => (

@@ -120,13 +120,13 @@ export interface DiscoverItem {
   repo?: string;
   kind: DiscoverKind;
   description: string;
-  /** Fungsi (what it does). */
+  /** What it does. */
   summary: string;
-  /** Keunikan. */
+  /** What makes it unique. */
   unique: string;
-  /** Manfaat praktis. */
+  /** Practical benefit. */
   benefit: string;
-  /** Alasan layak diperhatikan (signal-based). */
+  /** Why it is worth watching (signal-based). */
   why: string;
   pricing: string;
   novelty: Novelty;

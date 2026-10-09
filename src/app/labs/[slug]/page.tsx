@@ -20,13 +20,13 @@ export async function generateMetadata({ params }: PageProps<"/labs/[slug]">): P
   const lab = getLab(slug);
   if (!lab) return {};
   return {
-    title: `${lab.name} — timeline update`,
-    description: `Semua update ${lab.name} (${lab.tagline}): model, fitur, API, harga, promo, riset, dan rilis developer — dirangkum dalam Bahasa Indonesia dengan link sumber resmi.`,
+    title: `${lab.name} — update timeline`,
+    description: `Every ${lab.name} update (${lab.tagline}): models, features, APIs, pricing, promos, research, and developer releases — summarized with links to official sources.`,
     alternates: { canonical: `/labs/${lab.slug}` },
   };
 }
 
-const TYPE_LABEL = { rss: "RSS", huggingface: "Hugging Face", "github-releases": "GitHub Releases", "github-new-repos": "GitHub repo baru" } as const;
+const TYPE_LABEL = { rss: "RSS", huggingface: "Hugging Face", "github-releases": "GitHub Releases", "github-new-repos": "GitHub new repos" } as const;
 
 export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
   const { slug } = await params;
@@ -57,7 +57,7 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
     <div className="space-y-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <Link href="/labs" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground">
-        <ArrowLeft className="size-4" /> Semua lab
+        <ArrowLeft className="size-4" /> All labs
       </Link>
 
       <header className="lab-glow card-surface relative overflow-hidden p-5 sm:p-7" style={{ ["--lab" as string]: lab.color }}>
@@ -76,15 +76,15 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
           </div>
           <dl className="grid grid-cols-3 gap-4 text-center sm:text-right">
             <div>
-              <dt className="text-[11px] text-muted-foreground">7 hari</dt>
+              <dt className="text-[11px] text-muted-foreground">7 days</dt>
               <dd className="text-xl font-semibold tabular-nums">{stat?.last7 ?? 0}</dd>
             </div>
             <div>
-              <dt className="text-[11px] text-muted-foreground">30 hari</dt>
+              <dt className="text-[11px] text-muted-foreground">30 days</dt>
               <dd className="text-xl font-semibold tabular-nums">{stat?.last30 ?? 0}</dd>
             </div>
             <div>
-              <dt className="text-[11px] text-muted-foreground">Arsip</dt>
+              <dt className="text-[11px] text-muted-foreground">Archive</dt>
               <dd className="text-xl font-semibold tabular-nums">{items.length}</dd>
             </div>
           </dl>
@@ -92,13 +92,13 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
 
         <details className="group relative mt-5 rounded-xl border bg-subtle/50 px-4 py-3 text-sm">
           <summary className="flex cursor-pointer list-none items-center gap-2 text-[13px]">
-            <span className="font-medium">Coverage & status sumber</span>
+            <span className="font-medium">Coverage & source status</span>
             <span className="text-muted-foreground">
-              · {okCount}/{lab.sources.length} sumber OK
-              {lastSuccess && <> · dicek <TimeAgo iso={lastSuccess} /></>}
+              · {okCount}/{lab.sources.length} sources OK
+              {lastSuccess && <> · checked <TimeAgo iso={lastSuccess} /></>}
             </span>
-            <span className="ml-auto text-xs text-muted-foreground group-open:hidden">Lihat</span>
-            <span className="ml-auto hidden text-xs text-muted-foreground group-open:inline">Tutup</span>
+            <span className="ml-auto text-xs text-muted-foreground group-open:hidden">Show</span>
+            <span className="ml-auto hidden text-xs text-muted-foreground group-open:inline">Hide</span>
           </summary>
           <p className="mt-2 text-xs text-muted-foreground">{lab.coverageNote}</p>
           <ul className="mt-3 divide-y">
@@ -109,9 +109,9 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
                   {st?.ok ? <CheckCircle2 className="size-4 text-emerald-500" /> : <XCircle className="size-4 text-rose-500" />}
                   <span className="font-medium">{s.name}</span>
                   <span className="rounded bg-muted px-1.5 py-px text-[10.5px] text-muted-foreground">{TYPE_LABEL[s.type]}</span>
-                  {s.trust === "mirror" && <span className="rounded bg-sky-500/10 px-1.5 py-px text-[10.5px] text-sky-600 dark:text-sky-300">mirror komunitas</span>}
+                  {s.trust === "mirror" && <span className="rounded bg-sky-500/10 px-1.5 py-px text-[10.5px] text-sky-600 dark:text-sky-300">community mirror</span>}
                   <span className="ml-auto text-muted-foreground">
-                    {st?.lastSuccessAt ? <>sukses <TimeAgo iso={st.lastSuccessAt} /></> : "belum pernah sukses"}
+                    {st?.lastSuccessAt ? <>succeeded <TimeAgo iso={st.lastSuccessAt} /></> : "never succeeded"}
                     {st && !st.ok && st.lastError && <span className="ml-2 text-rose-500">({st.lastError.slice(0, 80)})</span>}
                   </span>
                 </li>

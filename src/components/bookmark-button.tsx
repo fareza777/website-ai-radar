@@ -21,8 +21,8 @@ export function BookmarkButton({ entry, className }: BookmarkButtonProps) {
         toggleBookmark(entry);
       }}
       aria-pressed={saved}
-      aria-label={saved ? "Hapus dari Saved" : "Simpan"}
-      title={saved ? "Hapus dari Saved" : "Simpan"}
+      aria-label={saved ? "Remove from Saved" : "Save"}
+      title={saved ? "Remove from Saved" : "Save"}
       className={cn(
         "inline-flex size-8 items-center justify-center rounded-lg text-muted-foreground transition hover:bg-accent hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring",
         saved && "text-brand hover:text-brand",
