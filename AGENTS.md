@@ -7,3 +7,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## AI Radar
+
+Project rules for agents (Cursor, Claude Code, Codex): see `.cursor/rules/ai-radar.mdc`.
+Daily maintenance routine: `docs/CURSOR_GUIDE.md`. Source configuration: `docs/SOURCES.md`.
+Never hand-edit `data/**/*.json` or fabricate news, dates, prices, or promos — data only comes from `npm run collect`.

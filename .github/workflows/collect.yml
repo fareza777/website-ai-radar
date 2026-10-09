@@ -1,0 +1,81 @@
+name: Collect AI updates
+
+on:
+  schedule:
+    # Every 3 hours (minute 17 avoids the top-of-hour GitHub Actions congestion).
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Run a single stage: labs | discover | deals (empty = all)"
+        required: false
+        default: ""
+      backfill_days:
+        description: "Window (days) for accepting items"
+        required: false
+        default: "90"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-data
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Unit tests (pipeline logic)
+        run: npm test
+
+      - name: Run collector
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_MAX_ITEMS: ${{ vars.LLM_MAX_ITEMS }}
+          PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
+          # Inputs go through env (never interpolated into the script) and are validated.
+          INPUT_ONLY: ${{ github.event.inputs.only }}
+          INPUT_BACKFILL: ${{ github.event.inputs.backfill_days }}
+        run: |
+          BACKFILL="${INPUT_BACKFILL:-90}"
+          case "$BACKFILL" in ''|*[!0-9]*) echo "Invalid backfill_days"; exit 1;; esac
+          ARGS="--backfill-days=$BACKFILL"
+          case "$INPUT_ONLY" in
+            "") ;;
+            labs|discover|deals) ARGS="$ARGS --only=$INPUT_ONLY" ;;
+            *) echo "Invalid 'only' input"; exit 1 ;;
+          esac
+          npm run collect -- $ARGS
+
+      - name: Validate data JSON
+        run: node -e 'const fs=require("fs");const p=require("path");const walk=d=>fs.readdirSync(d).flatMap(f=>{const x=p.join(d,f);return fs.statSync(x).isDirectory()?walk(x):[x]});for(const f of walk("data"))if(f.endsWith(".json"))JSON.parse(fs.readFileSync(f,"utf8"));console.log("data OK")'
+
+      - name: Commit & push data
+        run: |
+          git config user.name "ai-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "chore(data): collect $(date -u +'%Y-%m-%dT%H:%MZ')"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "Push failed after retries" && exit 1

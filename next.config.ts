@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
+  // Pages read /data/*.json at prerender time; make sure the files are traced into server output.
+  outputFileTracingIncludes: { "/**": ["./data/**/*.json"] },
   turbopack: {
     rules: {
       "*.css": {

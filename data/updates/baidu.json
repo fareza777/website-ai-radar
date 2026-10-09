@@ -1,0 +1,299 @@
+[
+  {
+    "id": "1cf885d36957a581",
+    "lab": "baidu",
+    "title": "Unlimited-OCR",
+    "url": "https://huggingface.co/baidu/Unlimited-OCR",
+    "sourceId": "baidu-hf",
+    "sourceName": "Hugging Face · baidu",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-06-19T09:40:33.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-06-19T09:40:33.000Z",
+    "excerpt": "image-text-to-text · license: mit · 4344 likes · 1313161 downloads",
+    "summary": "Baidu memublikasikan model Unlimited-OCR di Hugging Face untuk tugas multimodal (gambar + teks). Lisensi: mit.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 75,
+    "contentHash": "e00a7aa02a04",
+    "meta": {
+      "likes": 4344,
+      "downloads": 1313161,
+      "repo": "baidu/Unlimited-OCR",
+      "pipeline": "image-text-to-text",
+      "license": "mit"
+    }
+  },
+  {
+    "id": "eee25aa244077bca",
+    "lab": "baidu",
+    "title": "PaddleOCR v3.7.0",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR/releases/tag/v3.7.0",
+    "sourceId": "paddleocr",
+    "sourceName": "GitHub · PaddlePaddle/PaddleOCR",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-06-11T12:09:14.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-06-11T12:09:14.000Z",
+    "excerpt": "2026.6.11 v3.7.0 released Release PP-OCRv6 Accuracy boost : Medium tier achieves +4.6% detection and +5.1% recognition over PP-OCRv5_server, surpassing mainstream VLMs (Qwen3-VL-235B, GPT-5.5) with only 34.5M parameters. 50 languages unified : Single model covers Chinese, English, Japanese, and 46 Latin-script languages — no model switching needed. Specialized scenarios : Major improvements in digital displays…",
+    "summary": "Baidu merilis PaddleOCR v3.7.0 (rilis minor) di GitHub.",
+    "benefit": "Versi baru dengan fitur/perubahan signifikan — baca release notes untuk breaking changes sebelum upgrade.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 40,
+    "contentHash": "4564c17c6071",
+    "meta": {
+      "version": "v3.7.0",
+      "semver": "minor",
+      "repo": "PaddlePaddle/PaddleOCR"
+    }
+  },
+  {
+    "id": "72eec2663cfa5360",
+    "lab": "baidu",
+    "title": "PaddleOCR v0.2.0",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR/releases/tag/api_sdk%2Fgo%2Fv0.2.0",
+    "sourceId": "paddleocr",
+    "sourceName": "GitHub · PaddlePaddle/PaddleOCR",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-06-11T11:27:04.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-06-11T11:27:04.000Z",
+    "excerpt": "Fix bugs Fix for python3.8 Fix mcp server Optimize Fix bugs Refactor Fix MCP Bump MCP to 0.8.1 Fix bugs Bump version to 0.8.2 Fix bugs and update docs Update docs and fix bugs Fix bugs update pp-ocrv6 update pp-ocrv6 Conflicts: docs/version3.x/module_usage/text_detection.md docs/version3.x/module_usage/text_recognition.md docs/version3.x/pipeline_usage/OCR.md paddleocr/_api_client/models.py…",
+    "summary": "Baidu merilis PaddleOCR v0.2.0 (rilis minor) di GitHub.",
+    "benefit": "Versi baru dengan fitur/perubahan signifikan — baca release notes untuk breaking changes sebelum upgrade.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "mcp"
+    ],
+    "importance": 40,
+    "contentHash": "a8a3e5e6258c",
+    "meta": {
+      "version": "v0.2.0",
+      "semver": "minor",
+      "repo": "PaddlePaddle/PaddleOCR"
+    }
+  },
+  {
+    "id": "ac9f78a15e98a9f7",
+    "lab": "baidu",
+    "title": "NAVA",
+    "url": "https://huggingface.co/baidu/NAVA",
+    "sourceId": "baidu-hf",
+    "sourceName": "Hugging Face · baidu",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-05-29T02:17:22.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-05-29T02:17:22.000Z",
+    "excerpt": "text-to-video · license: apache-2.0 · 126 likes · 133 downloads",
+    "summary": "Baidu memublikasikan model NAVA di Hugging Face untuk tugas text-to-video. Lisensi: apache-2.0.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 67,
+    "contentHash": "1c719799caa2",
+    "meta": {
+      "likes": 126,
+      "downloads": 133,
+      "repo": "baidu/NAVA",
+      "pipeline": "text-to-video",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "0229e39521681ad1",
+    "lab": "baidu",
+    "title": "PaddleOCR v3.6.0",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR/releases/tag/v3.6.0",
+    "sourceId": "paddleocr",
+    "sourceName": "GitHub · PaddlePaddle/PaddleOCR",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-05-28T11:42:29.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-05-28T11:42:29.000Z",
+    "excerpt": "2026.5.28 v3.6.0 released Release the PaddleOCR-VL-1.6 document parsing solution. PaddleOCR-VL-1.6 is an upgraded compact document parsing model built upon PaddleOCR-VL-1.5. Through a newly introduced region-aware data optimization framework and a progressive post-training recipe , the model further enhances parsing robustness and overall recognition accuracy. PaddleOCR-VL-1.6 achieves a new state-of-the-art score…",
+    "summary": "Baidu merilis PaddleOCR v3.6.0 (rilis minor) di GitHub.",
+    "benefit": "Versi baru dengan fitur/perubahan signifikan — baca release notes untuk breaking changes sebelum upgrade.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 40,
+    "contentHash": "d4fde9c7bb6e",
+    "meta": {
+      "version": "v3.6.0",
+      "semver": "minor",
+      "repo": "PaddlePaddle/PaddleOCR"
+    }
+  },
+  {
+    "id": "978b6135d2cc6fb4",
+    "lab": "baidu",
+    "title": "PaddleOCR v0.1.0",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR/releases/tag/api_sdk%2Fgo%2Fv0.1.0",
+    "sourceId": "paddleocr",
+    "sourceName": "GitHub · PaddlePaddle/PaddleOCR",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-05-28T10:27:26.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-05-28T10:27:26.000Z",
+    "excerpt": "Revert \"docs(serving): sync return_img_urls -> Serving.return_urls re…",
+    "summary": "Baidu merilis PaddleOCR v0.1.0 (rilis minor) di GitHub.",
+    "benefit": "Versi baru dengan fitur/perubahan signifikan — baca release notes untuk breaking changes sebelum upgrade.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "91af1a6a730d",
+    "meta": {
+      "version": "v0.1.0",
+      "semver": "minor",
+      "repo": "PaddlePaddle/PaddleOCR"
+    }
+  },
+  {
+    "id": "da11c7fa4f2261df",
+    "lab": "baidu",
+    "title": "ERNIE-Image-Aes",
+    "url": "https://huggingface.co/baidu/ERNIE-Image-Aes",
+    "sourceId": "baidu-hf",
+    "sourceName": "Hugging Face · baidu",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-05-18T09:12:17.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-05-18T09:12:17.000Z",
+    "excerpt": "license: apache-2.0 · 18 likes · 303 downloads",
+    "summary": "Baidu memublikasikan model ERNIE-Image-Aes di Hugging Face. Lisensi: apache-2.0.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 60,
+    "contentHash": "80d62a3808fd",
+    "meta": {
+      "likes": 18,
+      "downloads": 303,
+      "repo": "baidu/ERNIE-Image-Aes",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "165aa56df6e2388d",
+    "lab": "baidu",
+    "title": "PaddleOCR v3.5.0",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR/releases/tag/v3.5.0",
+    "sourceId": "paddleocr",
+    "sourceName": "GitHub · PaddlePaddle/PaddleOCR",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-04-21T08:40:59.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-04-21T08:40:59.000Z",
+    "excerpt": "2026.4.21 v3.5.0 released Deeply integrated with the Hugging Face ecosystem, with 20 major models supporting Transformers as the inference backend. Supports flexible switching of inference engines, including PaddlePaddle static graph, PaddlePaddle dynamic graph, or Transformers. Supports conversion of common document formats (Word, Excel, Powerpoint) to Markdown. The PaddleOCR-VL series, PP-StructureV3, and…",
+    "summary": "Baidu merilis PaddleOCR v3.5.0 (rilis minor) di GitHub.",
+    "benefit": "Versi baru dengan fitur/perubahan signifikan — baca release notes untuk breaking changes sebelum upgrade.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 40,
+    "contentHash": "551f44523e11",
+    "meta": {
+      "version": "v3.5.0",
+      "semver": "minor",
+      "repo": "PaddlePaddle/PaddleOCR"
+    }
+  },
+  {
+    "id": "771e98fa3cc1ad32",
+    "lab": "baidu",
+    "title": "ERNIE-Image",
+    "url": "https://huggingface.co/baidu/ERNIE-Image",
+    "sourceId": "baidu-hf",
+    "sourceName": "Hugging Face · baidu",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-04-07T07:26:56.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-04-07T07:26:56.000Z",
+    "excerpt": "text-to-image · license: apache-2.0 · 677 likes · 1264 downloads",
+    "summary": "Baidu memublikasikan model ERNIE-Image di Hugging Face untuk tugas text-to-image. Lisensi: apache-2.0.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 73,
+    "contentHash": "5816ff094b85",
+    "meta": {
+      "likes": 677,
+      "downloads": 1264,
+      "repo": "baidu/ERNIE-Image",
+      "pipeline": "text-to-image",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "8f23984afd7cf358",
+    "lab": "baidu",
+    "title": "ERNIE-Image-Turbo",
+    "url": "https://huggingface.co/baidu/ERNIE-Image-Turbo",
+    "sourceId": "baidu-hf",
+    "sourceName": "Hugging Face · baidu",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-04-02T10:57:06.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-04-02T10:57:06.000Z",
+    "excerpt": "text-to-image · license: apache-2.0 · 407 likes · 3579 downloads",
+    "summary": "Baidu memublikasikan model ERNIE-Image-Turbo di Hugging Face untuk tugas text-to-image. Lisensi: apache-2.0.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 71,
+    "contentHash": "6c73cf85d839",
+    "meta": {
+      "likes": 407,
+      "downloads": 3579,
+      "repo": "baidu/ERNIE-Image-Turbo",
+      "pipeline": "text-to-image",
+      "license": "apache-2.0"
+    }
+  }
+]

@@ -1,0 +1,466 @@
+[
+  {
+    "id": "7e881dee53df80aa",
+    "lab": "qwen",
+    "title": "Qwen Code v0.1.18",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.18",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-05T10:23:32.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-10-05T10:23:32.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.25.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.24.7 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.24.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen merilis Qwen Code v0.1.18 (rilis patch) di GitHub.",
+    "benefit": "Pembaruan kecil (perbaikan bug/peningkatan) — aman untuk di-update; cek changelog bila ada perubahan perilaku.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "5a8cbc9cb373",
+    "meta": {
+      "version": "v0.1.18",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "002126d611614907",
+    "lab": "qwen",
+    "title": "Qwen Code v0.25.0",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.0",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-05T10:01:23.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-10-05T10:01:23.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(agents): add local workspace-agent collaboration ( #11206 ) by @yiliang114 Introduces generic Broker provider controls with a versioned worker contract for manifest, turn preparation, tool approval, preflight, and file history. ( #12868 ) by @wenshao feat(managed-agent): enable G0 public…",
+    "summary": "Alibaba Qwen merilis Qwen Code v0.25.0 (rilis minor) di GitHub.",
+    "benefit": "Versi baru dengan fitur/perubahan signifikan — baca release notes untuk breaking changes sebelum upgrade.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "1ed379c45734",
+    "meta": {
+      "version": "v0.25.0",
+      "semver": "minor",
+      "repo": "QwenLM/qwen-code"
+    },
+    "seenIn": [
+      {
+        "sourceId": "qwen-code",
+        "sourceName": "GitHub · QwenLM/qwen-code",
+        "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.0"
+      }
+    ]
+  },
+  {
+    "id": "c2f0e24cf729874b",
+    "lab": "qwen",
+    "title": "D2K-Bench",
+    "url": "https://github.com/QwenLM/D2K-Bench",
+    "sourceId": "qwen-gh",
+    "sourceName": "GitHub · QwenLM (repo baru)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-29T05:27:57.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-09-29T05:27:57.000Z",
+    "excerpt": "",
+    "summary": "Alibaba Qwen membuat repositori publik baru: D2K-Bench.",
+    "benefit": "Proyek open-source baru dari lab ini — bisa langsung dipelajari atau dipakai.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 32,
+    "contentHash": "ddab83cb79a3",
+    "meta": {
+      "stars": 1,
+      "repo": "QwenLM/D2K-Bench",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "1e91a14383e8d97d",
+    "lab": "qwen",
+    "title": "Qwen-Image-2.1-PE-I2I",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-I2I",
+    "sourceId": "qwen-hf",
+    "sourceName": "Hugging Face · Qwen",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-20T08:46:47.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-09-20T08:46:47.000Z",
+    "excerpt": "license: other · 58 likes · 12771 downloads",
+    "summary": "Alibaba Qwen memublikasikan model Qwen-Image-2.1-PE-I2I di Hugging Face. Lisensi: other.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 69,
+    "contentHash": "b03255bba99c",
+    "meta": {
+      "likes": 58,
+      "downloads": 12771,
+      "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
+      "license": "other"
+    }
+  },
+  {
+    "id": "c2fddc3352cf1225",
+    "lab": "qwen",
+    "title": "Qwen-Image-2.1-PE-T2I",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I",
+    "sourceId": "qwen-hf",
+    "sourceName": "Hugging Face · Qwen",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-20T08:45:29.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-09-20T08:45:29.000Z",
+    "excerpt": "text-to-image · license: other · 57 likes · 8622 downloads",
+    "summary": "Alibaba Qwen memublikasikan model Qwen-Image-2.1-PE-T2I di Hugging Face untuk tugas text-to-image. Lisensi: other.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 69,
+    "contentHash": "1b1221f136bb",
+    "meta": {
+      "likes": 57,
+      "downloads": 8622,
+      "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
+      "pipeline": "text-to-image",
+      "license": "other"
+    }
+  },
+  {
+    "id": "6ed1a87714498eca",
+    "lab": "qwen",
+    "title": "RecreationWorld",
+    "url": "https://github.com/QwenLM/RecreationWorld",
+    "sourceId": "qwen-gh",
+    "sourceName": "GitHub · QwenLM (repo baru)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-18T04:23:07.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-09-18T04:23:07.000Z",
+    "excerpt": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+    "summary": "Alibaba Qwen membuat repositori publik baru: RecreationWorld.",
+    "benefit": "Proyek open-source baru dari lab ini — bisa langsung dipelajari atau dipakai.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 42,
+    "contentHash": "70bc4df8c404",
+    "meta": {
+      "stars": 91,
+      "repo": "QwenLM/RecreationWorld",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "80a05e02a489c448",
+    "lab": "qwen",
+    "title": "Omnilingua-Bench",
+    "url": "https://github.com/QwenLM/Omnilingua-Bench",
+    "sourceId": "qwen-gh",
+    "sourceName": "GitHub · QwenLM (repo baru)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-16T10:31:13.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-09-16T10:31:13.000Z",
+    "excerpt": "",
+    "summary": "Alibaba Qwen membuat repositori publik baru: Omnilingua-Bench.",
+    "benefit": "Proyek open-source baru dari lab ini — bisa langsung dipelajari atau dipakai.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 36,
+    "contentHash": "2f3cd119e85f",
+    "meta": {
+      "stars": 8,
+      "repo": "QwenLM/Omnilingua-Bench",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "0d35f176f626ce08",
+    "lab": "qwen",
+    "title": "Qwen-Image-2.1",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "sourceId": "qwen-hf",
+    "sourceName": "Hugging Face · Qwen",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-14T03:47:26.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-09-14T03:47:26.000Z",
+    "excerpt": "text-to-image · license: other · 3130 likes · 116957 downloads",
+    "summary": "Alibaba Qwen memublikasikan model Qwen-Image-2.1 di Hugging Face untuk tugas text-to-image. Lisensi: other.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 80,
+    "contentHash": "18036281c854",
+    "meta": {
+      "likes": 3130,
+      "downloads": 116957,
+      "repo": "Qwen/Qwen-Image-2.1",
+      "pipeline": "text-to-image",
+      "license": "other"
+    },
+    "seenIn": [
+      {
+        "sourceId": "qwen-gh",
+        "sourceName": "GitHub · QwenLM (repo baru)",
+        "url": "https://github.com/QwenLM/Qwen-Image-2.1"
+      }
+    ]
+  },
+  {
+    "id": "ccf99529299cde1c",
+    "lab": "qwen",
+    "title": "Qwen-Live-Harness",
+    "url": "https://github.com/QwenLM/Qwen-Live-Harness",
+    "sourceId": "qwen-gh",
+    "sourceName": "GitHub · QwenLM (repo baru)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-10T07:32:35.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-09-10T07:32:35.000Z",
+    "excerpt": "An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+    "summary": "Alibaba Qwen membuat repositori publik baru: Qwen-Live-Harness.",
+    "benefit": "Proyek open-source baru dari lab ini — bisa langsung dipelajari atau dipakai.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "open-source",
+      "agents"
+    ],
+    "importance": 44,
+    "contentHash": "4548238eeeb7",
+    "meta": {
+      "stars": 184,
+      "repo": "QwenLM/Qwen-Live-Harness",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "08b1c57f8a2af1d9",
+    "lab": "qwen",
+    "title": "qwen-mm-plugins-hub",
+    "url": "https://github.com/QwenLM/qwen-mm-plugins-hub",
+    "sourceId": "qwen-gh",
+    "sourceName": "GitHub · QwenLM (repo baru)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-09T07:40:40.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-09-09T07:40:40.000Z",
+    "excerpt": "A documentation for Qwen-MM-Plugins",
+    "summary": "Alibaba Qwen membuat repositori publik baru: qwen-mm-plugins-hub.",
+    "benefit": "Proyek open-source baru dari lab ini — bisa langsung dipelajari atau dipakai.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 35,
+    "contentHash": "972e28a20680",
+    "meta": {
+      "stars": 6,
+      "repo": "QwenLM/qwen-mm-plugins-hub",
+      "language": "HTML"
+    }
+  },
+  {
+    "id": "930f20a643724713",
+    "lab": "qwen",
+    "title": "E-CommerceBench",
+    "url": "https://github.com/QwenLM/E-CommerceBench",
+    "sourceId": "qwen-gh",
+    "sourceName": "GitHub · QwenLM (repo baru)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-08-26T06:10:37.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-08-26T06:10:37.000Z",
+    "excerpt": "Long-horizon benchmark where 18 LLM agents got ¥100,000 each and ran simulated online stores for 365 days on real market data: negotiating with suppliers, pricing, managing inventory, keeping cash flow alive.",
+    "summary": "Alibaba Qwen membuat repositori publik baru: E-CommerceBench.",
+    "benefit": "Proyek open-source baru dari lab ini — bisa langsung dipelajari atau dipakai.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 42,
+    "contentHash": "978160f51b54",
+    "meta": {
+      "stars": 108,
+      "repo": "QwenLM/E-CommerceBench",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "afd9e78f244e6561",
+    "lab": "qwen",
+    "title": "Qwen-Drive-1.0",
+    "url": "https://github.com/QwenLM/Qwen-Drive-1.0",
+    "sourceId": "qwen-gh",
+    "sourceName": "GitHub · QwenLM (repo baru)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-08-25T03:19:48.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-08-25T03:19:48.000Z",
+    "excerpt": "An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+    "summary": "Alibaba Qwen membuat repositori publik baru: Qwen-Drive-1.0.",
+    "benefit": "Proyek open-source baru dari lab ini — bisa langsung dipelajari atau dipakai.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 46,
+    "contentHash": "2164c5ded5f8",
+    "meta": {
+      "stars": 499,
+      "repo": "QwenLM/Qwen-Drive-1.0",
+      "language": "Python"
+    },
+    "seenIn": [
+      {
+        "sourceId": "qwen-hf",
+        "sourceName": "Hugging Face · Qwen",
+        "url": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B"
+      }
+    ]
+  },
+  {
+    "id": "5bbf41891b9eaae1",
+    "lab": "qwen",
+    "title": "Qwen3.8-Flash-Next",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+    "sourceId": "qwen-hf",
+    "sourceName": "Hugging Face · Qwen",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-08-24T08:24:59.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-08-24T08:24:59.000Z",
+    "excerpt": "image-text-to-text · license: other · 6048 likes · 1640938 downloads",
+    "summary": "Alibaba Qwen memublikasikan model Qwen3.8-Flash-Next di Hugging Face untuk tugas multimodal (gambar + teks). Lisensi: other.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 95,
+    "contentHash": "fc966ae98179",
+    "meta": {
+      "likes": 6048,
+      "downloads": 1640938,
+      "repo": "Qwen/Qwen3.8-Flash-Next",
+      "pipeline": "image-text-to-text",
+      "license": "other"
+    }
+  },
+  {
+    "id": "f9e1ef66ab3da5c6",
+    "lab": "qwen",
+    "title": "Qwen3.8-2.4T-A95B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+    "sourceId": "qwen-hf",
+    "sourceName": "Hugging Face · Qwen",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-08-08T01:50:52.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-08-08T01:50:52.000Z",
+    "excerpt": "text-generation · license: other · 1297 likes · 33216 downloads",
+    "summary": "Alibaba Qwen memublikasikan model Qwen3.8-2.4T-A95B di Hugging Face untuk tugas generasi teks/LLM. Lisensi: other.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "95B"
+    ],
+    "importance": 95,
+    "contentHash": "79963e651871",
+    "meta": {
+      "likes": 1297,
+      "downloads": 33216,
+      "repo": "Qwen/Qwen3.8-2.4T-A95B",
+      "pipeline": "text-generation",
+      "license": "other"
+    }
+  },
+  {
+    "id": "6c64301c09e02d7e",
+    "lab": "qwen",
+    "title": "Qwen3.8-27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "sourceId": "qwen-hf",
+    "sourceName": "Hugging Face · Qwen",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-08-05T08:22:59.000Z",
+    "firstSeenAt": "2026-10-09T07:49:40.218Z",
+    "updatedAt": "2026-08-05T08:22:59.000Z",
+    "excerpt": "image-text-to-text · license: apache-2.0 · 17303 likes · 6841660 downloads",
+    "summary": "Alibaba Qwen memublikasikan model Qwen3.8-27B di Hugging Face untuk tugas multimodal (gambar + teks). Lisensi: apache-2.0.",
+    "benefit": "Bobot model bisa diunduh dan diuji langsung (self-host/fine-tune); baca model card & lisensi sebelum dipakai produksi.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "27B",
+      "multimodal"
+    ],
+    "importance": 95,
+    "contentHash": "4addd8b6f664",
+    "meta": {
+      "likes": 17303,
+      "downloads": 6841660,
+      "repo": "Qwen/Qwen3.8-27B",
+      "pipeline": "image-text-to-text",
+      "license": "apache-2.0"
+    }
+  }
+]

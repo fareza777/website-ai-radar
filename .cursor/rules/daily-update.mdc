@@ -1,0 +1,24 @@
+---
+description: Rutinitas update harian AI Radar (jalankan saat diminta "update harian" / jadwal harian)
+alwaysApply: false
+---
+
+# Rutinitas update harian
+
+Ikuti urutan ini persis. Detail & tabel troubleshooting: `docs/CURSOR_GUIDE.md`.
+
+1. `git pull --rebase` lalu `npm ci`.
+2. `npm run collect` — catat baris `Done … ok=… failed=… skipped=…`.
+3. Untuk setiap entri `data/status.json` dengan `"ok": false` dan tanpa `"skipped": true`:
+   - `curl -sIL <target>` untuk melihat status.
+   - 404/410/HTML → cari URL feed RESMI pengganti, update `src/config/labs.ts`, uji dengan `npm run collect -- --only=labs --lab=<slug>`.
+   - 403/429/timeout → jangan ubah apa pun.
+4. Deal kurasi berstatus `"unverified"` di `data/deals.json` → buka halaman resmi; sesuaikan `mustContain` dengan teks yang benar-benar ada, atau hapus entri jika program berakhir. Uji: `npm run collect -- --only=deals`.
+5. Validasi: `npm test && npm run lint && npm run typecheck && npm run build` (semua harus lulus).
+6. Commit & push:
+   - hanya data → `chore(data): daily update YYYY-MM-DD`
+   - perubahan config → `fix(sources): <ringkas>`
+   - push ditolak → `git pull --rebase`; konflik `data/` → `git checkout --theirs data`, lanjutkan rebase, jalankan ulang `npm run collect`, commit, push.
+7. Laporkan: total item, sumber gagal + tindakan, deal yang berubah status, hasil build.
+
+DILARANG: edit manual `data/*.json`, mengarang konten, menghapus test agar lulus, menonaktifkan verifikasi deal.

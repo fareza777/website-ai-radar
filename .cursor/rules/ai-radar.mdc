@@ -1,0 +1,29 @@
+---
+description: AI Radar project rules — data integrity, architecture, conventions
+alwaysApply: true
+---
+
+# AI Radar — aturan proyek
+
+## Integritas data (WAJIB)
+- `data/**/*.json` adalah output collector. JANGAN pernah diedit manual, dan jangan pernah menambahkan berita, tanggal, harga, model, atau promo yang dikarang.
+- Satu-satunya cara mengubah data: `npm run collect` (opsi: `--only=labs|discover|deals`, `--lab=<slug>`, `--backfill-days=N`).
+- Sumber baru harus resmi (domain/org GitHub/HF milik lab). Mirror komunitas hanya via helper `mirror()` (trust "mirror") bila lab tidak punya RSS.
+- Jangan scraping X/Twitter atau situs yang butuh login.
+- Deal hanya boleh "active" lewat verifikasi otomatis (`mustContain` ditemukan di halaman resmi). Jangan memaksa status.
+
+## Arsitektur
+- Next.js 16 App Router dengan `cacheComponents: true` — baca `node_modules/next/dist/docs/` sebelum memakai API Next.js.
+  - Jangan panggil `new Date()`/`Date.now()` di Server Component (error saat prerender). Waktu relatif dihitung di client (`useNow`, `<TimeAgo>`).
+  - Route segment config seperti `dynamicParams`/`dynamic` tidak kompatibel; gunakan `generateStaticParams`.
+- Halaman membaca data via `src/lib/data.ts` (server only, sinkron). Komponen client hanya menerima data lewat props.
+- Registry sumber: `src/config/labs.ts`, `src/config/discover.ts`, `src/config/deals.ts`. Kontrak tipe: `src/lib/types.ts`.
+- Collector: `scripts/collect.ts` + `scripts/collector/*`. Logika murni (classify, merge, text, feed) wajib punya unit test di `tests/`.
+- State personal (bookmark, unread, last visit) hanya di localStorage via `src/lib/storage.ts`.
+
+## Konvensi
+- TypeScript strict, tanpa `any`. Update immutable (spread), fungsi kecil.
+- UI: Tailwind v4 + shadcn/ui + lucide-react (tanpa ikon brand; logo brand dari `src/components/logos/data.ts`).
+- Teks UI berbahasa Indonesia; nama produk/model tetap asli.
+- Sebelum commit: `npm test && npm run lint && npm run typecheck && npm run build`.
+- Commit: conventional commits (`feat:`, `fix(sources):`, `chore(data):`).
