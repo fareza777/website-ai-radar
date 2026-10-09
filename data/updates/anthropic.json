@@ -1,5 +1,35 @@
 [
   {
+    "id": "03bdc9822921c76d",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.296",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-09T19:28:59.000Z",
+    "firstSeenAt": "2026-10-09T22:44:03.896Z",
+    "updatedAt": "2026-10-09T19:28:59.000Z",
+    "excerpt": "What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's gateway mode Added autoCompactWindow to subagent frontmatter and --agents definitions, so a subagent can auto-compact earlier than the main conversation's window Added CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL to run every…",
+    "summary": "Anthropic shipped Claude Code v2.1.296 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "7bd35f1030e4",
+    "meta": {
+      "version": "v2.1.296",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "99aff9c7a1941ae4",
     "lab": "anthropic",
     "title": "Claude Code v2.1.295",
@@ -400,7 +430,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-09T16:18:37.683Z",
+    "updatedAt": "2026-10-09T22:44:03.896Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",

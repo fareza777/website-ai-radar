@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-10-10",
+    "generatedAt": "2026-10-09T22:44:03.896Z",
+    "stats": {
+      "updates24h": 16,
+      "labsActive24h": 8,
+      "updates7d": 112,
+      "newModels7d": 31
+    },
+    "source": "template",
+    "headline": "16 updates from 8 AI labs in the last 24 hours · 31 model releases this week.",
+    "bullets": [
+      {
+        "text": "OpenAI: Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "itemId": "90995f7dbc9c2674",
+        "lab": "openai"
+      },
+      {
+        "text": "Amazon: Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
+        "itemId": "9ecc31063427a804",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: TwelveLabs Pegasus 1.5 model now available on Amazon Bedrock",
+        "itemId": "0deeee753f10c47e",
+        "lab": "amazon"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen-Image-2.1-Turbo",
+        "itemId": "7941af6584c4cea5",
+        "lab": "qwen"
+      },
+      {
+        "text": "Tencent: Youtu-Parsing-Omni",
+        "itemId": "238aeed3d7f2b1a2",
+        "lab": "tencent"
+      },
+      {
+        "text": "OpenAI: Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+        "itemId": "edd58468d564448f",
+        "lab": "openai"
+      }
+    ]
+  },
+  {
     "date": "2026-10-09",
     "generatedAt": "2026-10-09T16:18:37.683Z",
     "stats": {

@@ -1,5 +1,35 @@
 [
   {
+    "id": "8378ae34fd1663ab",
+    "lab": "openai",
+    "title": "Codex CLI rust v0.162.1",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1",
+    "sourceId": "openai-codex",
+    "sourceName": "GitHub · openai/codex",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-09T19:47:24.000Z",
+    "firstSeenAt": "2026-10-09T22:44:03.896Z",
+    "updatedAt": "2026-10-09T19:47:24.000Z",
+    "excerpt": "Bug Fixes Fixed a TUI crash when asynchronous questions contain multiple lines, preserving line breaks and complete hyperlink destinations. ( #51866 ) Fixed startup failures caused by differences between a running background server's feature settings and CLI defaults. Compatibility checks now apply only to explicit command-line feature overrides. ( #52648 ) Full Changelog: rust-v0.162.0...rust-v0.162.1",
+    "summary": "OpenAI shipped Codex CLI rust v0.162.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "d81fccc11c43",
+    "meta": {
+      "version": "v0.162.1",
+      "semver": "patch",
+      "repo": "openai/codex",
+      "package": "rust"
+    }
+  },
+  {
     "id": "edd58468d564448f",
     "lab": "openai",
     "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
@@ -20,6 +50,31 @@
     "tags": [],
     "importance": 55,
     "contentHash": "f9a99d17cf11"
+  },
+  {
+    "id": "90995f7dbc9c2674",
+    "lab": "openai",
+    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+    "url": "https://openai.com/index/asana-browser-agent",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-09T07:00:00.000Z",
+    "firstSeenAt": "2026-10-09T22:44:03.896Z",
+    "updatedAt": "2026-10-09T07:00:00.000Z",
+    "excerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+    "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 80,
+    "contentHash": "91b7b6ac9f7c"
   },
   {
     "id": "e776eb9630fd4722",
@@ -773,6 +828,28 @@
     ],
     "importance": 65,
     "contentHash": "5cd7129d64f6"
+  },
+  {
+    "id": "e340960976580f86",
+    "lab": "openai",
+    "title": "Lowe’s answers millions of home improvement questions with OpenAI",
+    "url": "https://openai.com/index/lowes",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-25T07:00:00.000Z",
+    "firstSeenAt": "2026-10-09T22:44:03.896Z",
+    "updatedAt": "2026-09-25T07:00:00.000Z",
+    "excerpt": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
+    "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 65,
+    "contentHash": "94bd876ea92d"
   },
   {
     "id": "69f2b5ec7d181072",

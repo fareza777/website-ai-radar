@@ -29,6 +29,66 @@
     }
   },
   {
+    "id": "e7f9dadf18c2c753",
+    "lab": "mistral",
+    "title": "LIDstral-Arabic",
+    "url": "https://huggingface.co/mistralai/LIDstral-Arabic",
+    "sourceId": "mistral-hf",
+    "sourceName": "Hugging Face · mistralai",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-08T11:37:05.000Z",
+    "firstSeenAt": "2026-10-09T22:44:03.896Z",
+    "updatedAt": "2026-10-08T11:37:05.000Z",
+    "excerpt": "text-classification · license: apache-2.0",
+    "summary": "Mistral AI published the LIDstral-Arabic model on Hugging Face for text classification. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 61,
+    "contentHash": "c984e1dce577",
+    "meta": {
+      "likes": 5,
+      "downloads": 0,
+      "repo": "mistralai/LIDstral-Arabic",
+      "pipeline": "text-classification",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "1602188c6852f588",
+    "lab": "mistral",
+    "title": "Voxtral-Mini-4B-Realtime-Arabic",
+    "url": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-Arabic",
+    "sourceId": "mistral-hf",
+    "sourceName": "Hugging Face · mistralai",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-08T11:36:06.000Z",
+    "firstSeenAt": "2026-10-09T22:44:03.896Z",
+    "updatedAt": "2026-10-08T11:36:06.000Z",
+    "excerpt": "automatic-speech-recognition",
+    "summary": "Mistral AI published the Voxtral-Mini-4B-Realtime-Arabic model on Hugging Face for speech recognition (ASR).",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "4B",
+      "audio"
+    ],
+    "importance": 61,
+    "contentHash": "11354caaa84e",
+    "meta": {
+      "likes": 5,
+      "downloads": 0,
+      "repo": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
+      "pipeline": "automatic-speech-recognition"
+    }
+  },
+  {
     "id": "820bd24a41c4e68d",
     "lab": "mistral",
     "title": "Introducing Mistral Large 4",
