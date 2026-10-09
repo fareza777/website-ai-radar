@@ -1,5 +1,36 @@
 [
   {
+    "id": "238aeed3d7f2b1a2",
+    "lab": "tencent",
+    "title": "Youtu-Parsing-Omni",
+    "url": "https://huggingface.co/tencent/Youtu-Parsing-Omni",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-09T06:42:18.000Z",
+    "firstSeenAt": "2026-10-09T14:29:17.311Z",
+    "updatedAt": "2026-10-09T06:42:18.000Z",
+    "excerpt": "image-text-to-text · license: other",
+    "summary": "Tencent published the Youtu-Parsing-Omni model on Hugging Face for multimodal (image + text). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 60,
+    "contentHash": "17ed023e66bd",
+    "meta": {
+      "likes": 18,
+      "downloads": 50,
+      "repo": "tencent/Youtu-Parsing-Omni",
+      "pipeline": "image-text-to-text",
+      "license": "other"
+    }
+  },
+  {
     "id": "04f1f9743ee0f0a0",
     "lab": "tencent",
     "title": "ExplorationBench",
@@ -21,7 +52,7 @@
     "importance": 30,
     "contentHash": "a1cdd8ddf0c5",
     "meta": {
-      "stars": 5,
+      "stars": 6,
       "repo": "Tencent-Hunyuan/ExplorationBench",
       "language": "Python"
     }
@@ -51,7 +82,7 @@
     "importance": 37,
     "contentHash": "160ea336e84d",
     "meta": {
-      "stars": 102,
+      "stars": 112,
       "repo": "Tencent-Hunyuan/Prism",
       "language": "Python"
     }
@@ -648,7 +679,7 @@
     "importance": 66,
     "contentHash": "bb94234d39f8",
     "meta": {
-      "likes": 93,
+      "likes": 94,
       "downloads": 762,
       "repo": "tencent/UI-Mate-27B",
       "pipeline": "image-text-to-text",

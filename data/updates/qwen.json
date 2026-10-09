@@ -1,5 +1,36 @@
 [
   {
+    "id": "7941af6584c4cea5",
+    "lab": "qwen",
+    "title": "Qwen-Image-2.1-Turbo",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+    "sourceId": "qwen-hf",
+    "sourceName": "Hugging Face · Qwen",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-09T04:50:01.000Z",
+    "firstSeenAt": "2026-10-09T14:29:17.311Z",
+    "updatedAt": "2026-10-09T04:50:01.000Z",
+    "excerpt": "text-to-image · license: other",
+    "summary": "Alibaba Qwen published the Qwen-Image-2.1-Turbo model on Hugging Face for text to image. License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 71,
+    "contentHash": "ba989c597179",
+    "meta": {
+      "likes": 95,
+      "downloads": 0,
+      "repo": "Qwen/Qwen-Image-2.1-Turbo",
+      "pipeline": "text-to-image",
+      "license": "other"
+    }
+  },
+  {
     "id": "d886259dd75b001b",
     "lab": "qwen",
     "title": "Qwen Code desktop v0.25.0",
@@ -257,7 +288,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3133,
+      "likes": 3143,
       "downloads": 122311,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -381,7 +412,7 @@
     "importance": 46,
     "contentHash": "2164c5ded5f8",
     "meta": {
-      "stars": 500,
+      "stars": 501,
       "repo": "QwenLM/Qwen-Drive-1.0",
       "language": "Python"
     },
@@ -417,7 +448,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6048,
+      "likes": 6053,
       "downloads": 1751752,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
@@ -480,7 +511,7 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 17309,
+      "likes": 17322,
       "downloads": 6783589,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",
