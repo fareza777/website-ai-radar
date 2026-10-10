@@ -1,5 +1,156 @@
 [
   {
+    "id": "7267ec54a1fe4cbf",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "completion",
+    "from": 4,
+    "to": 0.65736,
+    "change": -83.6
+  },
+  {
+    "id": "25947992fb2ccf41",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "prompt",
+    "from": 0.834,
+    "to": 0.7506,
+    "change": -10
+  },
+  {
+    "id": "96477a0b3afc78e7",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "completion",
+    "from": 2.501,
+    "to": 2.2509,
+    "change": -10
+  },
+  {
+    "id": "6690c9f29cc33ad7",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "prompt",
+    "from": 0.0116,
+    "to": 0.018,
+    "change": 55.2
+  },
+  {
+    "id": "b232b31fb3a7f7ff",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "prompt",
+    "from": 0.0116,
+    "to": 0.018,
+    "change": 55.2
+  },
+  {
+    "id": "d0c161d3f6fd72b3",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "prompt",
+    "from": 0.64,
+    "to": 0.95,
+    "change": 48.4
+  },
+  {
+    "id": "e301bd434620c70e",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "completion",
+    "from": 13.5,
+    "to": 15,
+    "change": 11.1
+  },
+  {
+    "id": "2ac0183541026c5a",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "prompt",
+    "from": 0.132,
+    "to": 0.0825,
+    "change": -37.5
+  },
+  {
+    "id": "6153de457fb601fd",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "completion",
+    "from": 0.528,
+    "to": 0.33,
+    "change": -37.5
+  },
+  {
+    "id": "9b7fe07c07a8a5f6",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "prompt",
+    "from": 0.31,
+    "to": 0.3,
+    "change": -3.2
+  },
+  {
+    "id": "cb5db742a0e3fc27",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "prompt",
+    "from": 0.9483,
+    "to": 0.2088,
+    "change": -78
+  },
+  {
+    "id": "3d25dad979aad760",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "completion",
+    "from": 1.8966,
+    "to": 0.4176,
+    "change": -78
+  },
+  {
+    "id": "d28baac335e84d09",
+    "modelId": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "lab": "deepseek",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "prompt",
+    "from": 0.0216,
+    "to": 0.03,
+    "change": 38.9
+  },
+  {
+    "id": "637096419d767158",
+    "modelId": "moonshotai/kimi-k2.6",
+    "name": "MoonshotAI: Kimi K2.6",
+    "lab": "moonshot",
+    "at": "2026-10-10T19:19:56.969Z",
+    "field": "prompt",
+    "from": 0.465,
+    "to": 0.4344,
+    "change": -6.6
+  },
+  {
     "id": "998d4f0d37a1836b",
     "modelId": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
