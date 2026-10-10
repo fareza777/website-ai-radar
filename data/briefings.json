@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-10",
-    "generatedAt": "2026-10-10T00:02:12.072Z",
+    "generatedAt": "2026-10-10T06:00:38.833Z",
     "stats": {
-      "updates24h": 15,
-      "labsActive24h": 7,
-      "updates7d": 112,
+      "updates24h": 14,
+      "labsActive24h": 6,
+      "updates7d": 113,
       "newModels7d": 31
     },
     "source": "template",
-    "headline": "15 updates from 7 AI labs in the last 24 hours · 31 model releases this week.",
+    "headline": "14 updates from 6 AI labs in the last 24 hours · 31 model releases this week.",
     "bullets": [
       {
         "text": "OpenAI: Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
@@ -22,23 +22,18 @@
         "lab": "amazon"
       },
       {
-        "text": "Amazon: TwelveLabs Pegasus 1.5 model now available on Amazon Bedrock",
-        "itemId": "0deeee753f10c47e",
-        "lab": "amazon"
-      },
-      {
-        "text": "Alibaba Qwen: Qwen-Image-2.1-Turbo",
-        "itemId": "7941af6584c4cea5",
-        "lab": "qwen"
-      },
-      {
         "text": "Tencent: Youtu-Parsing-Omni",
         "itemId": "238aeed3d7f2b1a2",
         "lab": "tencent"
       },
       {
-        "text": "OpenAI: Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-        "itemId": "edd58468d564448f",
+        "text": "Amazon: Amazon Bedrock now supports reasoning summaries for OpenAI models",
+        "itemId": "c780c1f332034095",
+        "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: How Codex ran OpenAI DevDay 2025",
+        "itemId": "cde39a728f5f3f14",
         "lab": "openai"
       }
     ]

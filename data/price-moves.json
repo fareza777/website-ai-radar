@@ -1,5 +1,184 @@
 [
   {
+    "id": "c81e79963ea1089c",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "prompt",
+    "from": 0.016,
+    "to": 0.0038,
+    "change": -76.2
+  },
+  {
+    "id": "8a3e98ef14e35f32",
+    "modelId": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "prompt",
+    "from": 0.032,
+    "to": 0.04,
+    "change": 25
+  },
+  {
+    "id": "e1f1cc7d1d6cc2df",
+    "modelId": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "completion",
+    "from": 0.72,
+    "to": 0.5,
+    "change": -30.6
+  },
+  {
+    "id": "dbb15fd62aa060ef",
+    "modelId": "~z-ai/glm-latest",
+    "name": "Z.ai: GLM Latest",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "completion",
+    "from": 6,
+    "to": 4.8,
+    "change": -20
+  },
+  {
+    "id": "f3ffa1d5ea92f266",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "completion",
+    "from": 6,
+    "to": 4.8,
+    "change": -20
+  },
+  {
+    "id": "fc147b322122ad7e",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "prompt",
+    "from": 0.01096,
+    "to": 0.0054,
+    "change": -50.7
+  },
+  {
+    "id": "b5bc2c86e1cee65b",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "completion",
+    "from": 1.536,
+    "to": 1.28,
+    "change": -16.7
+  },
+  {
+    "id": "716673ea28dff0c8",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "prompt",
+    "from": 0.0137,
+    "to": 0.0054,
+    "change": -60.6
+  },
+  {
+    "id": "26580bae2e04906c",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "prompt",
+    "from": 0.8,
+    "to": 0.64,
+    "change": -20
+  },
+  {
+    "id": "cfcd46c3c74e5626",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "prompt",
+    "from": 0.6,
+    "to": 0.446,
+    "change": -25.7
+  },
+  {
+    "id": "b757142f8b7a87ae",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "completion",
+    "from": 15,
+    "to": 14.9,
+    "change": -0.7
+  },
+  {
+    "id": "1fb1fd0db95438d3",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "prompt",
+    "from": 0.2088,
+    "to": 0.9483,
+    "change": 354.2
+  },
+  {
+    "id": "e75ab76e756f83d5",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "completion",
+    "from": 0.4176,
+    "to": 1.8966,
+    "change": 354.2
+  },
+  {
+    "id": "9cd26a9b8a46e822",
+    "modelId": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "lab": "deepseek",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "prompt",
+    "from": 0.0131,
+    "to": 0.0095,
+    "change": -27.5
+  },
+  {
+    "id": "f8ac048f78bbf5ab",
+    "modelId": "moonshotai/kimi-k2.5",
+    "name": "MoonshotAI: Kimi K2.5",
+    "lab": "moonshot",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "prompt",
+    "from": 0.45,
+    "to": 0.5,
+    "change": 11.1
+  },
+  {
+    "id": "80f9c4292a2b372e",
+    "modelId": "moonshotai/kimi-k2.5",
+    "name": "MoonshotAI: Kimi K2.5",
+    "lab": "moonshot",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "completion",
+    "from": 2.25,
+    "to": 2.5,
+    "change": 11.1
+  },
+  {
+    "id": "879a9b44c06b0902",
+    "modelId": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "lab": "deepseek",
+    "at": "2026-10-10T06:00:38.833Z",
+    "field": "completion",
+    "from": 0.42,
+    "to": 0.8,
+    "change": 90.5
+  },
+  {
     "id": "dece0673d5068c1f",
     "modelId": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
