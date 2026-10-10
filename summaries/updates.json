@@ -326,5 +326,305 @@
     "hash": "243de34360dc",
     "summary": "Anthropic published a 2026 Usage Policy update.",
     "benefit": "Claude users should read the 2026 usage policy to see what changed."
+  },
+  "90995f7dbc9c2674": {
+    "hash": "91b7b6ac9f7c",
+    "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests with GPT-6.1 Sol, so it can offer customers more capable models.",
+    "benefit": "Teams running browser agents can switch those tests to GPT-6.1 Sol when they need much lower cost and faster runs."
+  },
+  "9ecc31063427a804": {
+    "hash": "879cb829c7a3",
+    "summary": "Claude Sonnet 5.5 and Claude Opus 5.5 are now in the Kiro IDE and CLI for AWS GovCloud (US). Opus 5.5 thinks adaptively and, in Kiro's internal tests, uses about 40% fewer tool calls and about half the tokens of Opus 5.",
+    "benefit": "GovCloud developers can use Opus 5.5 in Kiro for long-running agentic coding with fewer tool calls and tokens than Opus 5."
+  },
+  "0deeee753f10c47e": {
+    "hash": "8528cd509475",
+    "summary": "Amazon Bedrock now offers TwelveLabs Pegasus 1.5, a video-to-text model that reads a whole video and writes structured, time-coded metadata for what happens and when.",
+    "benefit": "You can query a large video library by moment without already knowing where to look."
+  },
+  "1602188c6852f588": {
+    "hash": "11354caaa84e",
+    "summary": "Mistral published Voxtral-Mini-4B-Realtime-Arabic, a model tagged for automatic speech recognition.",
+    "benefit": "Speech apps that need Arabic can try this realtime Voxtral Mini model."
+  },
+  "e7f9dadf18c2c753": {
+    "hash": "c984e1dce577",
+    "summary": "Mistral published LIDstral-Arabic, a text-classification model under the Apache-2.0 license.",
+    "benefit": "Developers can use an Apache-2.0 model to classify Arabic text."
+  },
+  "c780c1f332034095": {
+    "hash": "c77c94887574",
+    "summary": "Amazon Bedrock now accepts the reasoning.summary parameter for OpenAI models through the Responses API, so you can ask for a readable summary of the model's reasoning next to its answer.",
+    "benefit": "Developers debugging coding, analysis, or multi-step tasks can see how the model approached the problem."
+  },
+  "07862ce6a3faf1ca": {
+    "hash": "db8500d75a92",
+    "summary": "AWS recapped September 2026 updates across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands, focused on model, runtime, and tooling choice for builders.",
+    "benefit": "Builders can scan one recap to see which Bedrock, AgentCore, and Strands pieces landed in September 2026."
+  },
+  "ec1d99948e1e99f2": {
+    "hash": "ae3a1777a6c9",
+    "summary": "Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and available on every Claude plan, including Free.",
+    "benefit": "You can turn data into live dashboards and ideas into animated explainers, and use Docs, Slides, and Design on the Free plan."
+  },
+  "50827233e7bfbd6f": {
+    "hash": "be8d4fed3fb8",
+    "summary": "Anthropic published a reference walkthrough for a scheduled Claude Managed Agents automation, including the config files and six rules for avoiding common failure modes.",
+    "benefit": "Teams scheduling Managed Agents can copy the config and follow the six rules instead of learning those failures in production."
+  },
+  "583b8d97bd5de89f": {
+    "hash": "16b8b909271f",
+    "summary": "Anthropic published principles for designing evals and hillclimbing against them without fooling yourself, plus how the claude-api skill's build-eval and hillclimb commands apply them.",
+    "benefit": "API developers can design evals and run hillclimb from the claude-api skill instead of tuning by feel."
+  },
+  "eb1569caa0b7d2c3": {
+    "hash": "44bc84120fd4",
+    "summary": "Anthropic is launching an expanded Cyber Verification Program that makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+    "benefit": "Security professionals who qualify can use stronger cyber capabilities with less classifier blocking."
+  },
+  "b5006264e8e0669d": {
+    "hash": "6cd1600e88f9",
+    "summary": "Anthropic is expanding the Claude Startups program to help founders build.",
+    "benefit": "Founders in the program get more support from Claude as they build."
+  },
+  "25cef879a7c3b214": {
+    "hash": "83f52f47f459",
+    "summary": "Teams on Google Workspace can bring Claude into Google Docs, Sheets, and Slides, or work on those files from Claude, via a new add-on and connectors that are in beta.",
+    "benefit": "You can edit Docs, Sheets, and Slides with Claude without leaving the file or the Claude chat."
+  },
+  "f32cafb91c89591b": {
+    "hash": "c8e3bc327b9a",
+    "summary": "Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and evaluates it with every new Claude model.",
+    "benefit": "Teams building agent builders can study how Cresta put Conductor on the Claude Agent SDK and retests it on each model."
+  },
+  "bc371631f4a4bebb": {
+    "hash": "b47ed97f8bac",
+    "summary": "Anthropic is investing $100 million to train 10,000 engineers and tackle the enterprise AI talent gap.",
+    "benefit": "Companies short on AI engineers can look to a program aimed at training 10,000 people."
+  },
+  "8a78d74aef0967c5": {
+    "hash": "3a0f4748274b",
+    "summary": "Barclays is scaling Claude to upgrade operations and improve the client experience.",
+    "benefit": "Banks watching enterprise rollouts can see how Barclays is applying Claude to operations and clients."
+  },
+  "4a8c364d1c7cc512": {
+    "hash": "a14d1432db8a",
+    "summary": "Anthropic published a getting-started guide for Claude Code mods.",
+    "benefit": "Developers new to mods can follow the guide to start customizing Claude Code."
+  },
+  "01c30b1ed9eb4968": {
+    "hash": "7945064dd6d3",
+    "summary": "You can change how Claude Code behaves and looks with a few lines of TypeScript.",
+    "benefit": "Developers can tailor Claude Code's behavior and appearance without a large customization project."
+  },
+  "36867dadceb6712d": {
+    "hash": "8d20bdcde49f",
+    "summary": "Anthropic's sales development leader describes a Claude-powered buying agent that now answers most inbound customers, and how that changed the sales team's work.",
+    "benefit": "Sales teams can see how a Managed Agent handles most inbound buying questions."
+  },
+  "fca264f933b06a14": {
+    "hash": "cce9fd47730d",
+    "summary": "Asana's chief product officer describes running AI agents as teammates with scoped roles, shared memory, and work that everyone can see.",
+    "benefit": "Product teams can copy the pattern of scoped agent roles and shared, visible work."
+  },
+  "cfc084bf4dbd8f60": {
+    "hash": "5d5ddd7ab6ea",
+    "summary": "Anthropic and NVIDIA describe giving companies more control over their AI agents.",
+    "benefit": "Companies that need tighter control of agents can look at this Anthropic and NVIDIA work."
+  },
+  "d26cbd17958291f7": {
+    "hash": "84bf131b834f",
+    "summary": "Google collected its latest AI updates from September 2026 in one post.",
+    "benefit": "Readers can catch September 2026 Google AI announcements in a single roundup."
+  },
+  "ebb851930de734e4": {
+    "hash": "dd7fb1e46903",
+    "summary": "Google DeepMind points to the winning trailer from the Future Vision XPRIZE, The Gifted.",
+    "benefit": "You can watch the winning Future Vision XPRIZE trailer, The Gifted."
+  },
+  "e09691c053d0a93a": {
+    "hash": "a3e1f3508e5e",
+    "summary": "xAI introduced Team Bots, shared AI teammates that learn as they work.",
+    "benefit": "Teams can share bots that keep learning from the work they do together."
+  },
+  "83e10245b58b8ede": {
+    "hash": "6758ca21dc22",
+    "summary": "Microsoft introduced Quine, a research effort for a multimodal world model of biology and a harness linking models, scientific tools, literature, and researchers. With the Broad Institute, the system prioritized compounds predicted to drive therapeutic tumor-state shifts.",
+    "benefit": "Biology researchers can use Quine to connect models and literature and rank compounds for tumor-state shifts."
+  },
+  "66c0d7cb7fab310c": {
+    "hash": "ee37a599a15d",
+    "summary": "IBM published a piece on ensemble forecasting with IBM Granite time series.",
+    "benefit": "People forecasting with Granite time-series models can follow this ensemble approach."
+  },
+  "ca1ec6c6a1a1314d": {
+    "hash": "a66354f3a899",
+    "summary": "Pollo AI uses GPT-5.6, GPT-6 Astra, and GPT-Image-2.5 to turn creative ideas into detailed images and cinematic video ads.",
+    "benefit": "Creators can go from a campaign idea to images and video ads inside Pollo AI."
+  },
+  "19db7cc5ca5cc5ea": {
+    "hash": "dd1435c7eef2",
+    "summary": "OpenAI's DevDay 2026 recap covers more than 20 announcements, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+    "benefit": "Builders can use the recap to find the DevDay 2026 releases that affect ChatGPT, Codex, and the API."
+  },
+  "a844f06ee64192fd": {
+    "hash": "19834ba31f37",
+    "summary": "Block's head of AI capabilities describes how the team evaluates new models and how Claude Fable 5 orchestrates company-wide code migrations across thousands of pull requests, with safeguards for frontier models.",
+    "benefit": "Engineering orgs migrating code at company scale can see how Block uses Claude Fable 5 and why safeguards are part of the rollout."
+  },
+  "5a8e468f9bc69912": {
+    "hash": "da2b5cb230c7",
+    "summary": "Cohere is expanding its Canadian footprint with a new office in Ottawa.",
+    "benefit": "Customers and candidates in Canada can reach Cohere from the new Ottawa office."
+  },
+  "78c7c5e639727508": {
+    "hash": "3d10428e5aa8",
+    "summary": "North 2 is Cohere's biggest upgrade yet, combining enterprise-grade security, intelligence, cost governance, and full-stack control in one agentic AI platform that runs wherever your data lives.",
+    "benefit": "Enterprises can run an agentic platform with security and cost controls without moving their data."
+  },
+  "e1d68e054489a950": {
+    "hash": "64a90884ecac",
+    "summary": "Cohere and PwC are partnering to accelerate secure enterprise AI adoption.",
+    "benefit": "Companies working with PwC can adopt Cohere under a partnership aimed at secure enterprise use."
+  },
+  "209199ee5a15af6b": {
+    "hash": "3dc04eacd184",
+    "summary": "Cohere introduced RCP-nDCG@10 as a more complete way to measure retrieval relevance.",
+    "benefit": "Search teams can score retrieval with RCP-nDCG@10 when a single relevance number is not enough."
+  },
+  "92e6e9c91e85a385": {
+    "hash": "94187d1834bc",
+    "summary": "A Microsoft machine-learning pipeline uses forecast-time solar-wind data to estimate risk for 66,935 substations in the continental United States, combining AE and Dst forecasts with local latitude, geology, and ground conductivity. The pipeline detected nearly 80%.",
+    "benefit": "Grid operators can get location-specific space-weather risk for those substations before a storm hits."
+  },
+  "2397c8680bc45de4": {
+    "hash": "68ce57e79a48",
+    "summary": "FabCon and SQLCon 2026 in Barcelona covered the data foundation for Microsoft Copilot and agents, including agentic Power BI apps, Fabric Apps, and creating and managing agents in Fabric.",
+    "benefit": "Data teams can see how Fabric and Power BI are being positioned as the base for Copilot and agents."
+  },
+  "8a48c1e7bdbe0002": {
+    "hash": "69682223e0dd",
+    "summary": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints, so domain administrators can define each project's foundation with their own AWS CloudFormation templates.",
+    "benefit": "Admins can enforce naming standards and custom permission boundaries on every SageMaker project."
+  },
+  "8869352ca179a81d": {
+    "hash": "5e50fff47870",
+    "summary": "An AWS post rethinks access control for retrieval-augmented generation with Amazon Quick and Amazon Bedrock so answers respect permissions in sources such as SharePoint, Google Drive, and Confluence.",
+    "benefit": "Teams indexing company files can keep generated answers inside the permissions those sources already enforce."
+  },
+  "61fcf1bc1cfe9a15": {
+    "hash": "cf509fb4a219",
+    "summary": "Qlik built Qlik Answers on Amazon Bedrock so employees can ask a question of company documents, dashboards, and institutional memory and get an answer they can trust.",
+    "benefit": "Analysts can ask in a sentence instead of searching documents and dashboards for hours."
+  },
+  "c5244bbd57c644de": {
+    "hash": "da2134d3d691",
+    "summary": "AWS Config now supports 77 additional resource types, including Amazon EC2, Amazon S3 Files, and Amazon Q Business, so recorded accounts cover a wider set of resources.",
+    "benefit": "If you record all resource types, Config can discover, audit, and remediate these newly supported resources too."
+  },
+  "f29c5a304f698583": {
+    "hash": "69fadf78889b",
+    "summary": "AWS shows how to build a context-aware assistant on AgentCore and OpenClaw so the assistant keeps continuity across conversations instead of starting from zero each time.",
+    "benefit": "Users can return to an assistant that still knows earlier details, such as a garden's conditions from weeks before."
+  },
+  "1ccfdcacfd19a879": {
+    "hash": "0955d7e373d0",
+    "summary": "You can create and manage Amazon SageMaker Spaces on HyperPod EKS clusters from the SageMaker Studio UI, including JupyterLab and Code Editor, without the command line.",
+    "benefit": "Data scientists can open a notebook on a HyperPod cluster from the browser and start work sooner."
+  },
+  "15fae5de395990ae": {
+    "hash": "c2c0b2328bec",
+    "summary": "AWS walks through a voice travel concierge built with Amazon Bedrock AgentCore, a Managed Knowledge Base, and Nova Sonic, so travelers can change a seat or check a delay by speaking.",
+    "benefit": "Airline apps can add spoken requests for bookings and delays without making people tap through screens."
+  },
+  "e3250d8fd186e057": {
+    "hash": "34693784e01e",
+    "summary": "AWS describes agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases for questions that bundle several intents, instead of one similarity-search vector.",
+    "benefit": "Support assistants can compare products across dimensions without collapsing every intent into a single query."
+  },
+  "0a2f413c83384465": {
+    "hash": "ba738ca50ab7",
+    "summary": "Amazon Bedrock AgentCore Gateway now accepts TLS certificates signed by private certificate authorities on MCP, OpenAPI, and HTTP proxy targets.",
+    "benefit": "You can connect the gateway to private VPC endpoints that use your own certificate authority, without an intermediate hop."
+  },
+  "42268168adb0195b": {
+    "hash": "820e3a258ba8",
+    "summary": "NVIDIA's KGMON team placed second in the KDD Cup 2026 Data Agents competition with a smaller, clearer harness that is easier to verify, built to answer natural-language questions.",
+    "benefit": "Teams building data agents can study a competition system that won by shrinking the harness rather than adding to it."
+  },
+  "6f02344687c47731": {
+    "hash": "8fb65c168806",
+    "summary": "NVIDIA and Microsoft said they are co-engineering hardware and software so AI agents can run on Windows PCs, including RTX Spark, as described by Jensen Huang and Satya Nadella.",
+    "benefit": "People on Windows PCs can expect NVIDIA and Microsoft agent software tied to RTX Spark hardware."
+  },
+  "326e46109846299b": {
+    "hash": "3efb94499d4a",
+    "summary": "NVIDIA explains AI factory returns through earning capacity, useful life, and fungibility. Factories are built by the megawatt or gigawatt, and each megawatt factory costs roughly $60 million.",
+    "benefit": "Operators weighing that capital can judge return from what the factory can earn, how long hardware earns, and how fungible it is."
+  },
+  "9b6dc3500532f716": {
+    "hash": "5d2a9ca01ffc",
+    "summary": "NVIDIA NeMo Relay traces agent harness behavior so a finished task still shows inefficient paths, such as a failed search that triggers another search or a repeated file read.",
+    "benefit": "Developers can see extra steps that a correct final answer would otherwise hide."
+  },
+  "73838b04f234523c": {
+    "hash": "fcd52d2a494a",
+    "summary": "IBM Quantum's Q3 2026 roundup collects the latest updates, releases, and resources from IBM Quantum and the Qiskit community.",
+    "benefit": "Qiskit users can scan one Q3 2026 post for what shipped and which resources to read."
+  },
+  "8d87b77e7f97f110": {
+    "hash": "ec855e2b8001",
+    "summary": "Qiskit's C API connects the SDK's Rust core to Fortran, C++, and Julia so you can build and run circuits natively without Python.",
+    "benefit": "HPC and scientific computing teams can call Qiskit from Fortran, C++, or Julia."
+  },
+  "f7989c76dcf507ca": {
+    "hash": "670c3bccfbd4",
+    "summary": "IBM's October 2026 Ponder This challenge is The Ultimate Ultimate Tic-Tac-Toe Game.",
+    "benefit": "Puzzle solvers can try the October 2026 challenge built around ultimate tic-tac-toe."
+  },
+  "c9f4d502182b63ee": {
+    "hash": "7f2f88a9eb4f",
+    "summary": "IBM explains that silicon wafers are round because of metallurgy, and that a circle is also the best shape for uniformity in chip production.",
+    "benefit": "Readers can see why wafer shape is both a metallurgy result and a uniformity choice."
+  },
+  "153950f522d9e5a7": {
+    "hash": "d367bf8845c2",
+    "summary": "DeepSeek released DeepGEMM-Ascend, a matrix-multiplication kernel library for Huawei Ascend NPUs.",
+    "benefit": "Developers on Ascend NPUs can use a kernel library aimed at clean, efficient GEMM."
+  },
+  "e776eb9630fd4722": {
+    "hash": "c1e4ca23b877",
+    "summary": "Codex CLI rust v0.162.0 adds tools to create and list managed Git worktrees from trusted local projects when that feature is enabled, and lets you pin tasks in the agent Command Center.",
+    "benefit": "You can keep worktrees and pinned tasks inside the CLI instead of managing them outside the session."
+  },
+  "342677ae7eadb2eb": {
+    "hash": "5c74c85df477",
+    "summary": "Jump Trading uses OpenAI to expand quantitative research, combining longer-running AI workflows, multiple data sources, and human review.",
+    "benefit": "Quant teams can see a pattern for longer workflows that still keep a person in the loop."
+  },
+  "9964af802e9c5fde": {
+    "hash": "c363ffb7a203",
+    "summary": "OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+    "benefit": "Teams doing contract work can follow how computer-use agents are being tested on those workflows."
+  },
+  "78ad53815846c15c": {
+    "hash": "0520c1d2eef1",
+    "summary": "OpenAI describes its approach to text watermarking under EU rules, including where watermarks apply, how detection works, and why access starts with researchers.",
+    "benefit": "Researchers who need to check watermarked text can see where OpenAI is starting access."
+  },
+  "f02178d6f4fc8f04": {
+    "hash": "4549b92034f3",
+    "summary": "OpenAI Agents SDK v0.23.0 adds configurable MCP listing page limits, opt-in Docker removal protection, memory consolidation turns, and an opt-in encrypted history scan budget.",
+    "benefit": "SDK users can cap MCP listings, protect Docker removal, and limit encrypted history scans."
+  },
+  "cf468ec39dd67f09": {
+    "hash": "2a7eceda2a67",
+    "summary": "OpenAI published early guidelines for safety cases in frontier AI training, covering technical safeguards, operational practices, and investigating misalignment incidents.",
+    "benefit": "Labs writing a training safety case can start from these guidelines on safeguards and incident review."
+  },
+  "914f14710638400c": {
+    "hash": "7750ac074c7a",
+    "summary": "OpenAI is collecting stories from builders, tinkerers, researchers, and creators using Codex for the next chapter of the Codex Originals program.",
+    "benefit": "If you are building with Codex, you can submit your project story for Codex Originals."
   }
 }

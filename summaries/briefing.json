@@ -27,5 +27,34 @@
         "itemId": "ea4f899dc8dfd436"
       }
     ]
+  },
+  "2026-10-10": {
+    "headline": "Asana's browser-agent tests got 76x cheaper with GPT-6.1 Sol, Claude 5.5 models reached Kiro in AWS GovCloud, and Bedrock added Pegasus 1.5.",
+    "bullets": [
+      {
+        "text": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests with GPT-6.1 Sol.",
+        "itemId": "90995f7dbc9c2674"
+      },
+      {
+        "text": "Claude Sonnet 5.5 and Claude Opus 5.5 are now in the Kiro IDE and CLI for AWS GovCloud (US), with Opus 5.5 using about 40% fewer tool calls than Opus 5 in internal tests.",
+        "itemId": "9ecc31063427a804"
+      },
+      {
+        "text": "Amazon Bedrock now supports TwelveLabs Pegasus 1.5, which reads a video and labels what happens and when.",
+        "itemId": "0deeee753f10c47e"
+      },
+      {
+        "text": "Ultrafast mode for GPT-6.1 Sol is available on Amazon Bedrock for workloads where faster inference matters most.",
+        "itemId": "a09da81804ce5b81"
+      },
+      {
+        "text": "Claude Haiku 5.5 is on Amazon Bedrock and Claude Platform on AWS for subagents and high-volume work.",
+        "itemId": "524a477f27093a95"
+      },
+      {
+        "text": "Playground is a new experimental gaming platform from Google DeepMind for creating, playing, and sharing custom games.",
+        "itemId": "ea4f899dc8dfd436"
+      }
+    ]
   }
 }

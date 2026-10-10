@@ -1,5 +1,185 @@
 [
   {
+    "id": "dece0673d5068c1f",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "prompt",
+    "from": 0.14256,
+    "to": 0.3,
+    "change": 110.4
+  },
+  {
+    "id": "e7a4f175f0694ab1",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "completion",
+    "from": 0.42768,
+    "to": 5,
+    "change": 1069.1
+  },
+  {
+    "id": "895dc077b4c09bfa",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "prompt",
+    "from": 0.7506,
+    "to": 0.834,
+    "change": 11.1
+  },
+  {
+    "id": "efe65fe669136031",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "completion",
+    "from": 2.2509,
+    "to": 2.501,
+    "change": 11.1
+  },
+  {
+    "id": "9aed4f0d0f224476",
+    "modelId": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "completion",
+    "from": 0.083071,
+    "to": 0.72,
+    "change": 766.7
+  },
+  {
+    "id": "4ba32ce059865010",
+    "modelId": "nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning",
+    "lab": "nvidia",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "prompt",
+    "from": 0.07,
+    "to": 0.0469,
+    "change": -33
+  },
+  {
+    "id": "b7f2aff37d9ebc7a",
+    "modelId": "nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning",
+    "lab": "nvidia",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "completion",
+    "from": 0.2,
+    "to": 0.134,
+    "change": -33
+  },
+  {
+    "id": "d8d2204ead6f1b7e",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "prompt",
+    "from": 0.00448,
+    "to": 0.01096,
+    "change": 144.6
+  },
+  {
+    "id": "13801b2c0df4b774",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "completion",
+    "from": 0.009528,
+    "to": 1.536,
+    "change": 16020.9
+  },
+  {
+    "id": "585a76e8c0191f81",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "prompt",
+    "from": 0.018,
+    "to": 0.0137,
+    "change": -23.9
+  },
+  {
+    "id": "f3fa24a2bc59ca6b",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "prompt",
+    "from": 0.0825,
+    "to": 0.132,
+    "change": 60
+  },
+  {
+    "id": "6cc5d4c158b63947",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "completion",
+    "from": 0.33,
+    "to": 0.528,
+    "change": 60
+  },
+  {
+    "id": "ff5a7e203cf49ca9",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "prompt",
+    "from": 0.8,
+    "to": 0.6,
+    "change": -25
+  },
+  {
+    "id": "263f4f4f7ed8230e",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "completion",
+    "from": 13.5,
+    "to": 15,
+    "change": 11.1
+  },
+  {
+    "id": "375aac6a2de561b7",
+    "modelId": "moonshotai/kimi-k2.6",
+    "name": "MoonshotAI: Kimi K2.6",
+    "lab": "moonshot",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "prompt",
+    "from": 0.4344,
+    "to": 0.465,
+    "change": 7
+  },
+  {
+    "id": "ff1dcb5937d9441d",
+    "modelId": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "lab": "qwen",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "prompt",
+    "from": 0.12,
+    "to": 0.1,
+    "change": -16.7
+  },
+  {
+    "id": "a7341cede6de0564",
+    "modelId": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "lab": "qwen",
+    "at": "2026-10-10T00:02:12.072Z",
+    "field": "completion",
+    "from": 0.24,
+    "to": 0.22,
+    "change": -8.3
+  },
+  {
     "id": "e05ebd41108ce21f",
     "modelId": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",

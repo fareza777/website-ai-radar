@@ -123,5 +123,130 @@
     "summary": "yomiyasu is an agent skill that rewrites AI-generated Japanese into natural Japanese.",
     "unique": "It is aimed at Japanese prose polish for Claude Code, Codex, Cursor, Gemini, and similar agents.",
     "benefit": "Writers using agents can turn stiff generated Japanese into more natural Japanese."
+  },
+  "3130059a986153ae": {
+    "summary": "big-arrow-on-the-screen lets AI agents paint big arrows, boxes, and text on a Mac screen from one CLI. The overlay is click-through and goes away by itself.",
+    "unique": "It is a Claude Code and Codex skill, MIT licensed, that draws on the screen without blocking clicks.",
+    "benefit": "People steering agents on a Mac can point at the UI without the overlay getting in the way."
+  },
+  "6439c41fbb1f21fe": {
+    "summary": "reelmimic takes a video you like and makes a new video in the same style. An AI crew in Claude Code or Codex plans, builds, and reviews it with you.",
+    "unique": "The crew covers 2D animation and style transfer, and you stay in the review loop.",
+    "benefit": "Creators who want a look matched to a reference video can plan and review it with Claude Code or Codex."
+  },
+  "38bdc84fd7878e9f": {
+    "summary": "video-demo is a skill that records video demos of a web app with zoom-ins and voiceover.",
+    "unique": "It adds zoom and voiceover to the recording instead of a plain screen capture.",
+    "benefit": "Developers can turn a web app walkthrough into a narrated demo with zooms."
+  },
+  "35be46e698a587a6": {
+    "summary": "geo-sleuth is an agent skill that estimates where a photo was taken using OpenStreetMap geometry, elevation skylines, satellite imagery, and street view, and it shows its work.",
+    "unique": "It works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and GitHub Copilot.",
+    "benefit": "Anyone geolocating a photo can see the evidence the agent used, not only a guess."
+  },
+  "0fb55ef66f9ce5d2": {
+    "summary": "lemo-opuscar is a Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made in code by Claude Opus 5.5, including OPUSCAR 98.",
+    "unique": "Films are built in code rather than with a video model, with a director and technical guide.",
+    "benefit": "People making short films in Claude Code can start from those 43 coded style demos."
+  },
+  "74a90c5a46b6cecf": {
+    "summary": "ClearAI is an ontology-first DSH agent preset. Evidence-checked research grows into a domain ontology you can browse.",
+    "unique": "It is a native DSH plugin built around an epistemic loop for scientific discovery.",
+    "benefit": "Researchers using DSH can turn checked evidence into a browsable ontology instead of a loose note."
+  },
+  "1e32cba93e1dadbe": {
+    "summary": "inkloom uses specialised models for logo design: a brand-analysis model turns a business into constraints, typography and symbol models build the mark, and a composition engine makes lockups and clear-space rules.",
+    "unique": "The pipeline splits brand analysis, type, symbol, and composition instead of one general image prompt.",
+    "benefit": "Early-access users can get logo lockups with clear-space rules, not only a single generated mark."
+  },
+  "77938a1c5b17b033": {
+    "summary": "replica-skill is eleven free Claude skills that clone an app: reverse-engineer it, rebuild it, test it for bugs, then fix what users hate. It is free and MIT licensed.",
+    "unique": "The set covers reverse engineering, rebuilding, bug testing, and fixes, as Claude Code skills.",
+    "benefit": "Indie hackers can point Claude at an app and walk through clone, test, and fix steps."
+  },
+  "b1e41c350cf25adf": {
+    "summary": "nanoMuse is an open-source personal agent for phone and computer. It keeps working while the app is closed, remembers you, and asks before anything you cannot undo.",
+    "unique": "One named agent runs on Android, iPhone and iPad, Windows, macOS, Linux, and in the browser.",
+    "benefit": "People who want one agent across their devices can keep it running and still approve irreversible actions."
+  },
+  "9b5741cc5b868ba2": {
+    "summary": "aurelio-finance is an open-source personal finance app with an AI financial advisor that tracks net worth, investments, ETFs, cash, and debts on your own computer.",
+    "unique": "The books and the advisor stay on your machine, covering dividends and financial planning.",
+    "benefit": "People tracking investments locally can ask the advisor without sending the books to a hosted app."
+  },
+  "2fa2385c3505d9d8": {
+    "summary": "llm-master is a full-stack LLM learning path and Chinese tutorial covering prompt engineering, RAG, AI agents, MCP, fine-tuning, deployment, transformers, and AI programming.",
+    "unique": "It runs from introductory material through production practice and big-company interview topics.",
+    "benefit": "Learners who want one Chinese path can follow it from prompts and RAG through deployment."
+  },
+  "554d6c430c3db6a8": {
+    "summary": "AnyJev turns any LLM into a Jev-style decision model with typed decisions and real probabilities, and it does not require training.",
+    "unique": "It targets calibration and decision models, including vLLM, rather than open-ended chat.",
+    "benefit": "Developers can get typed decisions and probabilities from an existing LLM without a training run."
+  },
+  "966cf788578296ef": {
+    "summary": "Index-Translate is a multilingual translation model family.",
+    "unique": "It is a family of models for machine translation rather than a single bilingual pair.",
+    "benefit": "Developers who need translation models can start from this multilingual family."
+  },
+  "a003d22870c20a96": {
+    "summary": "golive-skill takes an agent-built product live: hosting, database, domain, email, and payments on your own accounts. It is an open-source agent skill plus a zero-dependency Node CLI.",
+    "unique": "The flow is detect, plan, approve, apply, verify, with no GoLive account, backend, or telemetry.",
+    "benefit": "Developers can ship hosting and payments on accounts they already own, and approve each step."
+  },
+  "dae5d2fbddceaca2": {
+    "summary": "typesafe-computer-use does computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, then click. It runs on macOS.",
+    "unique": "Each step is OCR plus a TypeSafe classification instead of a large vision-agent loop.",
+    "benefit": "Mac users can try cheap computer-use clicks when a full vision model is more than they need."
+  },
+  "2c648aa0ea2364e9": {
+    "summary": "oil-ui pushes AI UI design by exploring distinct directions, comparing them side by side, and refining against real screenshots.",
+    "unique": "It is an agent skill for Claude Code and Codex aimed at UI and UX design.",
+    "benefit": "Designers can compare several AI directions against actual screenshots before committing."
+  },
+  "0d5cfc87e4dcad62": {
+    "summary": "ai-agent-handbook is a practical guide to building enterprise AI agents across their full lifecycle.",
+    "unique": "It covers the lifecycle of an enterprise agent, not a single library or demo.",
+    "benefit": "Teams standing up enterprise agents can use it as a guide from start to finish."
+  },
+  "569e9268232dd0bc": {
+    "summary": "WeChatBridge is a native macOS tool that forwards WeChat chat history to an AI agent and to Obsidian in one step.",
+    "unique": "It is a Swift share extension for chat history, aimed at Obsidian and AI agents.",
+    "benefit": "Mac users can send a WeChat thread to an agent or an Obsidian note without copying it by hand."
+  },
+  "739df77aef3ec866": {
+    "summary": "dscode is a DeepSeek coding-agent harness with a persistent shell, Ultra subagents, auto approval, Chrome MCP, and session telemetry.",
+    "unique": "It is a CLI coding agent built as a DeepSeek harness, including code review.",
+    "benefit": "Developers on DeepSeek can keep a shell, subagents, and browser tools in one harness."
+  },
+  "acbfc8b6782f5594": {
+    "summary": "herdr-gpui is a native Herdr client for macOS, Linux, and Windows, built with Rust and GPUI. It shows terminal sessions, workspaces, Git worktrees, and agent activity from your local Herdr daemon.",
+    "unique": "The desktop app talks to a local daemon instead of a hosted view of those sessions.",
+    "benefit": "Herdr users can watch agents, terminals, and worktrees in a native app on their machine."
+  },
+  "f7f7084046b4a510": {
+    "summary": "Intent-Router is an intent compiler for AI agents. It turns vague requests into typed IntentSpec contracts, and it can probe, ask, or halt before routing.",
+    "unique": "It is the input layer for routers and typed-decision models such as Jev and Laya.",
+    "benefit": "Agent builders can stop a vague request from being routed until it is a typed contract."
+  },
+  "09b7d9e6fc379941": {
+    "summary": "ThinkWatch-Lite is a local gateway for Claude Code, Codex, and other AI clients on macOS, Windows, and Linux. It switches upstreams without touching clients, keeps API keys off relays, blocks malicious tool calls, and traces every request.",
+    "unique": "Keys stay off relays, and cost tracking sits on the gateway rather than in each client.",
+    "benefit": "Developers can change upstream models and trace requests without putting API keys on a relay."
+  },
+  "870696629d61a9c0": {
+    "summary": "AgentVerse-OS is a personal cloud OS for a developer and their AI agents on one server. One command installs it on Ubuntu, then a browser desktop holds isolated workspaces with VS Code, Claude Code, and Codex, plus a store of 944 self-hosted apps.",
+    "unique": "Access is only via Tailscale, with backups and updates included.",
+    "benefit": "Developers can give agents a private Ubuntu desktop and a catalog of self-hosted apps without opening it to the public internet."
+  },
+  "11d4aeca05fb4a33": {
+    "summary": "TypeLLM is a project for LLMs with type-safe generation.",
+    "unique": "It connects LLMs, types, and Jev-style constraints on what the model is allowed to emit.",
+    "benefit": "Developers who need structured output can look at generation that is checked by types."
+  },
+  "bae66b4f1f180cf9": {
+    "summary": "easyread turns English papers into comfortable Chinese: local PDF translation, side-by-side original text, questions to an AI while you read, and reference management.",
+    "unique": "Translation stays on a local PDF, with Claude Code and Codex among the tools, in an Electron app.",
+    "benefit": "Readers of English papers can keep the original beside a Chinese version and ask questions as they go."
   }
 }
