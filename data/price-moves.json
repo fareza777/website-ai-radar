@@ -1,5 +1,121 @@
 [
   {
+    "id": "998d4f0d37a1836b",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.22,
+    "change": -26.7
+  },
+  {
+    "id": "d192bfa567247a47",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "completion",
+    "from": 5,
+    "to": 4,
+    "change": -20
+  },
+  {
+    "id": "be040341034a38f2",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "prompt",
+    "from": 0.0038,
+    "to": 0.0001,
+    "change": -97.4
+  },
+  {
+    "id": "20751a014eb694da",
+    "modelId": "nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning",
+    "lab": "nvidia",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "prompt",
+    "from": 0.0469,
+    "to": 0.07,
+    "change": 49.3
+  },
+  {
+    "id": "7ffd425bb436a087",
+    "modelId": "nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning",
+    "lab": "nvidia",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "completion",
+    "from": 0.134,
+    "to": 0.2,
+    "change": 49.3
+  },
+  {
+    "id": "7fdfef1aa60d3409",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "prompt",
+    "from": 0.0054,
+    "to": 0.0116,
+    "change": 114.8
+  },
+  {
+    "id": "7b3b3011ae04dee1",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "prompt",
+    "from": 0.0054,
+    "to": 0.0116,
+    "change": 114.8
+  },
+  {
+    "id": "68c0e113910a466f",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "prompt",
+    "from": 0.446,
+    "to": 0.31,
+    "change": -30.5
+  },
+  {
+    "id": "aab321a5b3e75486",
+    "modelId": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "lab": "deepseek",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "prompt",
+    "from": 0.0095,
+    "to": 0.0216,
+    "change": 127.4
+  },
+  {
+    "id": "a7ea63aa2ac6292d",
+    "modelId": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "lab": "qwen",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "prompt",
+    "from": 0.1,
+    "to": 0.12,
+    "change": 20
+  },
+  {
+    "id": "b383676e487473b4",
+    "modelId": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "lab": "qwen",
+    "at": "2026-10-10T12:41:29.737Z",
+    "field": "completion",
+    "from": 0.22,
+    "to": 0.24,
+    "change": 9.1
+  },
+  {
     "id": "c81e79963ea1089c",
     "modelId": "~deepseek/deepseek-flash-latest",
     "name": "DeepSeek: DeepSeek Flash Latest",
