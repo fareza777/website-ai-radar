@@ -1,5 +1,111 @@
 [
   {
+    "id": "9203d494d632ca35",
+    "modelId": "~z-ai/glm-latest",
+    "name": "Z.ai: GLM Latest",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "prompt",
+    "from": 0.039,
+    "to": 0.07,
+    "change": 79.5
+  },
+  {
+    "id": "72c9d8b9caa93d1f",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "prompt",
+    "from": 0.039,
+    "to": 0.07,
+    "change": 79.5
+  },
+  {
+    "id": "d049cae6ce475cf1",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "prompt",
+    "from": 0.0095,
+    "to": 0.0168,
+    "change": 76.8
+  },
+  {
+    "id": "baf52db56c976cda",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "completion",
+    "from": 1.28,
+    "to": 0.64,
+    "change": -50
+  },
+  {
+    "id": "3c7f8a6c243313b4",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "prompt",
+    "from": 0.0095,
+    "to": 0.0168,
+    "change": 76.8
+  },
+  {
+    "id": "0514d2394c2d753b",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "completion",
+    "from": 1.28,
+    "to": 0.64,
+    "change": -50
+  },
+  {
+    "id": "1e0ccca3c045b590",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "completion",
+    "from": 15,
+    "to": 10,
+    "change": -33.3
+  },
+  {
+    "id": "86a3fd7c6b81a10d",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "prompt",
+    "from": 0.28,
+    "to": 0.6,
+    "change": 114.3
+  },
+  {
+    "id": "502ee008fb4f4d14",
+    "modelId": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "lab": "qwen",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "prompt",
+    "from": 0.1,
+    "to": 0.12,
+    "change": 20
+  },
+  {
+    "id": "d8b185a0a99d026b",
+    "modelId": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "lab": "qwen",
+    "at": "2026-10-11T06:01:01.409Z",
+    "field": "completion",
+    "from": 0.22,
+    "to": 0.24,
+    "change": 9.1
+  },
+  {
     "id": "bc51a0684c8a2a7c",
     "modelId": "~z-ai/glm-flash-latest",
     "name": "Z.ai: GLM Flash Latest",
