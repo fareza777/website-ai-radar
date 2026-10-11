@@ -626,5 +626,305 @@
     "hash": "7750ac074c7a",
     "summary": "OpenAI is collecting stories from builders, tinkerers, researchers, and creators using Codex for the next chapter of the Codex Originals program.",
     "benefit": "If you are building with Codex, you can submit your project story for Codex Originals."
+  },
+  "cde39a728f5f3f14": {
+    "hash": "24e459074ca8",
+    "summary": "OpenAI explains how Codex helped build experiences, demos, and products for OpenAI DevDay 2025.",
+    "benefit": "Teams can see a concrete case of using Codex to ship event demos and products."
+  },
+  "360a27564bca9bba": {
+    "hash": "0733cf2f04a0",
+    "summary": "Anthropic published a note on building on its commitment to American scientific discovery.",
+    "benefit": "Readers can follow how Anthropic frames that scientific-discovery commitment."
+  },
+  "8d24aadb9d808241": {
+    "hash": "104bf55d476f",
+    "summary": "Google GenAI SDK (Python) v2.29.0 can set an environment network allowlist to disabled, and it logs a direct AFC warning only when functions are present.",
+    "benefit": "Python callers can disable the network allowlist and avoid that warning when no functions are configured."
+  },
+  "b9e32bd55d5aea1c": {
+    "hash": "ce4544af5dd2",
+    "summary": "Gemini CLI v0.63.0 shows retry progress during connection recovery, separates a missing MCP enablement config from malformed JSON, and restores paused stdin after capability detection.",
+    "benefit": "CLI users can watch recovery and avoid treating a missing MCP setting as broken JSON."
+  },
+  "03e1d22c31887c8c": {
+    "hash": "131b304e02b1",
+    "summary": "Google GenAI SDK (Python) v2.28.0 adds lyria-3.5, gemini-omni-1.1-flash, and gemini-omni-flash-preview to the Interactions model enum, and supports continuation_token in Interactions.",
+    "benefit": "Developers can call those models through Interactions and continue a run with continuation_token."
+  },
+  "75ea0d7e9f8cafa0": {
+    "hash": "690da6987b98",
+    "summary": "Google GenAI SDK (Python) v2.27.0 adds continuation_token support to GenerateContent.",
+    "benefit": "Apps can resume a GenerateContent call with a continuation token instead of starting over."
+  },
+  "d886259dd75b001b": {
+    "hash": "1577f5ea0661",
+    "summary": "Qwen Code desktop v0.25.0 keeps session-creation failure diagnostics, adds a Java managed-runtime attestation client, and lets the web shell filter the trajectory table by time and set the Qwen Live endpoint and model from settings.",
+    "benefit": "Desktop users can debug failed sessions and point Qwen Live at the endpoint and model in settings."
+  },
+  "002126d611614907": {
+    "hash": "1ed379c45734",
+    "summary": "Qwen Code v0.25.0 adds local workspace-agent collaboration, Broker provider controls with a versioned worker contract, and enables G0 for public managed agents. It lists no known breaking changes.",
+    "benefit": "Teams can collaborate with local workspace agents and turn on managed-agent G0 without a listed breaking change."
+  },
+  "ef851f465b0556ed": {
+    "hash": "91fd15907a59",
+    "summary": "Mistral Vibe v2.26.0 discovers built-in plugins shipped by an embedding app, warns when the selected model cannot view images, and lists background processes with live status and a Stop action.",
+    "benefit": "Embedders can ship their own plugins, and users can stop a background process from the session panel."
+  },
+  "bdc06a0f6d6a6bb2": {
+    "hash": "bc86b8d5161e",
+    "summary": "Mistral is opening a Munich hub for Physics AI and Industrial AI research, partnering with German industry.",
+    "benefit": "German industry partners get a local Mistral hub for physics and industrial AI research."
+  },
+  "dbce61753f07bec1": {
+    "hash": "7d795702dee7",
+    "summary": "NVIDIA outlines five steps to make CAD assets SimReady for robotics, including materials, collision geometry, joints, and other physics properties in OpenUSD before testing behavior in Omniverse.",
+    "benefit": "Robotics developers can prepare simulation-ready assets instead of only converting CAD geometry."
+  },
+  "109850d7cea319eb": {
+    "hash": "d60cf6092ab0",
+    "summary": "DeepEP-Ascend is a high-performance communication library for machine learning training and inference on Huawei Ascend NPUs.",
+    "benefit": "Teams training or serving models on Ascend NPUs get a communication library built for that hardware."
+  },
+  "5f68da792cafd7ff": {
+    "hash": "d6b7c6d02642",
+    "summary": "dsh-libreoffice-kit is an internal component used by DeepSeek Harness.",
+    "benefit": "Harness developers can identify the LibreOffice kit piece DeepSeek uses internally."
+  },
+  "112b5f00879d4fef": {
+    "hash": "52c6ccdda235",
+    "summary": "Oracle uses ChatGPT Work and Codex to turn specialist knowledge into fast, repeatable workflows across recruiting, engineering, and operations.",
+    "benefit": "Operations and engineering teams can see a pattern for turning specialist know-how into ChatGPT and Codex workflows."
+  },
+  "9317787c3aecac78": {
+    "hash": "45fa737fe45c",
+    "summary": "Microsoft Agent Framework Python v1.21.0 adds tool-result standing guidance, rewritten variable-expansion arguments, full-buffer Purview checks for streamed responses, a maximum reasoning-effort option, and an alpha Oracle vector-store connector.",
+    "benefit": "Python agents can cap reasoning effort and evaluate Purview policy on a full streamed buffer."
+  },
+  "9c132d0cf71d7a86": {
+    "hash": "fd05b0a00d08",
+    "summary": "Microsoft Agent Framework .NET v1.24.0 keeps explicit null session state across roundtrips, honors disabled recent-search memory, preserves lazy request messages, and stabilizes the Anthropic agent package.",
+    "benefit": ".NET agents can store an explicit null session and skip recent-search memory when it is turned off."
+  },
+  "3822fac18ccb34ac": {
+    "hash": "58d44acb63af",
+    "summary": "A Microsoft Research conversation with Jennifer Neville looks at what AI gets wrong and what those failures teach about real-world use.",
+    "benefit": "Readers can hear how a research manager uses failure cases to judge AI outside the lab."
+  },
+  "11030fa329341091": {
+    "hash": "344f495c191c",
+    "summary": "Microsoft Agent Framework Python v1.20.0 hosts native workflows over Foundry Responses and Invocations, and adds DuckDB, SQL Server, and TypeSafe AI vector-store connectors plus response-stream gates.",
+    "benefit": "Python agents can store vectors in DuckDB or SQL Server and call TypeSafe AI from the same framework."
+  },
+  "999d40f24efb689d": {
+    "hash": "033ed02ec6c5",
+    "summary": "Microsoft Agent Framework .NET v1.23.0 pins origins on the Foundry toolbox MCP client, fixes workflow HTTP variables and topology checks, stores external input messages, and changes how tool updates apply between runs.",
+    "benefit": ".NET workflow authors get origin pinning and clearer behavior when tools change between runs."
+  },
+  "c9cbcbb8e682caa5": {
+    "hash": "19fbf0afde4c",
+    "summary": "Microsoft Research Asia – Singapore marks one year since opening on July 24, 2025 as Microsoft’s first research lab in Southeast Asia, focused on research, partnership, and talent.",
+    "benefit": "Partners in Singapore can see how the lab works with universities, institutes, and government agencies."
+  },
+  "b60aeba526e84ba8": {
+    "hash": "2dea4bcfe678",
+    "summary": "Strands Agents SDK harness-cli v0.2.0 adds a tool client accessor and a vended subagent tool, and restores legacy task execution on the TypeScript MCP path. Notes were auto-drafted from commits since v0.1.4.",
+    "benefit": "CLI users can call a vended subagent tool and still run the older TypeScript task path."
+  },
+  "05afb923befb046e": {
+    "hash": "dd5d1f8e97f5",
+    "summary": "Strands Agents SDK harness-python v0.2.0 adds a tool client accessor and a vended subagent tool, with notes auto-drafted from commits since v0.1.2.",
+    "benefit": "Python harness users can expose the tool client and call a vended subagent from this release."
+  },
+  "c5ac29a7695a7e34": {
+    "hash": "03f8bc21c56f",
+    "summary": "Strands Agents SDK harness-typescript v0.2.0 adds a tool client accessor and a vended subagent tool, with notes auto-drafted from commits since v0.1.1.",
+    "benefit": "TypeScript harness users can access the tool client and a vended subagent in v0.2.0."
+  },
+  "ba58d97bce044e46": {
+    "hash": "8f97b3084f95",
+    "summary": "AWS describes how customers can align responsible AI governance with ISO/IEC 42005:2025, citing global AI-related investment of $581.69 billion in 2025.",
+    "benefit": "Governance teams get a framing for aligning workforce AI use with ISO/IEC 42005:2025."
+  },
+  "7c9de7177367918e": {
+    "hash": "02b338f1a4f6",
+    "summary": "TensorRT-LLM v1.3.0 supports Qwen3.5 checkpoints with global FP8 scales, Gemma4 vision rotary embeddings without a GEMM, CuTeDSL MoE for Kimi K3 NVFP4, Nemotron-H vision-language LoRA, and MiniMax-M3 piecewise CUDA graphs.",
+    "benefit": "Inference teams can load those checkpoints and LoRA paths in TensorRT-LLM v1.3.0."
+  },
+  "d525ecb6226127aa": {
+    "hash": "fca7ae814f00",
+    "summary": "NVIDIA presents the Open Agent Safety Platform as a reference for continuous in-silicon monitoring of agents.",
+    "benefit": "Teams running agents can use a reference design for monitoring them continuously in silicon."
+  },
+  "438ad61fef853504": {
+    "hash": "f9f70c711826",
+    "summary": "NVIDIA OpenShell adds runtime controls for agents that write code, use tools, and keep working as new information arrives, including work that runs for days.",
+    "benefit": "Operators can constrain long-running agents that investigate failures or take business actions."
+  },
+  "910e5765896e2d3f": {
+    "hash": "2e41681aace8",
+    "summary": "Docling v2.137.0 can add enrichments after the VLM pipeline and reads PP-OCRv6 languages through rapidocr’s supported-language list.",
+    "benefit": "Document pipelines can enrich VLM output and pick up more OCR languages."
+  },
+  "8d833f8f9c7dfff4": {
+    "hash": "a10b886b3f0b",
+    "summary": "Docling v2.136.0 recognizes Division and Subdivision headings, adds MLX repetition-penalty options, skips OCR when a vector shape crosses programmatic text, and resolves LaTeX input and images for string sources.",
+    "benefit": "Conversions keep heading structure and LaTeX figures, including CMYK JPEGs."
+  },
+  "b88a1ea38db44340": {
+    "hash": "284e14c1dfce",
+    "summary": "Docling v2.135.0 renders Apple Numbers chart images, reads iWork '09 chart kinds, and keeps inline formatting inside Markdown table cells.",
+    "benefit": "Spreadsheet and Markdown conversions keep chart images and inline formatting in tables."
+  },
+  "0a1a7120b511f6df": {
+    "hash": "c8cfa2d3d714",
+    "summary": "Docling v2.134.0 adds Apple Numbers support, exposes logprobs on the VLM streaming path, and keeps text from dangling fragment hyperlinks in DOCX.",
+    "benefit": "You can convert .numbers files and read token logprobs while a VLM stream is running."
+  },
+  "e5233fa8a8dad057": {
+    "hash": "09860e99ae4d",
+    "summary": "IBM describes directed execution so you can see, customize, and extend how circuits use error mitigation and correction on IBM quantum hardware, with the same performance and more control.",
+    "benefit": "Quantum users can choose which error mitigation and correction methods a circuit applies."
+  },
+  "cd88734484cc8115": {
+    "hash": "d622ed0e2e30",
+    "summary": "Docling v2.133.0 lets you set RapidOCR model size, reads an OpenDocument chart title, and keeps extracted text when a code-formula batch fails.",
+    "benefit": "OCR jobs can pick a RapidOCR model size and still keep text if one batch fails."
+  },
+  "36e33c4856cfe671": {
+    "hash": "202549708ed2",
+    "summary": "dsh-node-addon-require-builtin is an internal component used by DeepSeek Harness.",
+    "benefit": "Harness developers can identify this Node addon as an internal DeepSeek Harness piece."
+  },
+  "3cbec84de8bf6155": {
+    "hash": "a5e68fdbdc12",
+    "summary": "OpenAI is introducing a new visual ad format in ChatGPT and expanding measurement tools, attribution partnerships, and brand suitability for advertisers.",
+    "benefit": "Advertisers can buy a visual format in ChatGPT and measure it with the new attribution tools."
+  },
+  "efe52b80d0452b72": {
+    "hash": "abe9cfb6b90b",
+    "summary": "Anthropic’s field guide covers what changes when Claude Code runs on its own machine, which workflows benefit, and how to connect GitHub on the first try.",
+    "benefit": "Developers can decide when a cloud session is worth it and connect GitHub on the first attempt."
+  },
+  "c2f0e24cf729874b": {
+    "hash": "ddab83cb79a3",
+    "summary": "Alibaba Qwen lists D2K-Bench among its developer releases.",
+    "benefit": "Developers tracking Qwen can find the D2K-Bench release in the lab feed."
+  },
+  "2444fb3da1788569": {
+    "hash": "0438862f32c0",
+    "summary": "Cohere explains shared versus dedicated inference for Embed and Rerank.",
+    "benefit": "Teams can choose shared or dedicated inference for embedding and reranking workloads."
+  },
+  "7818bdc9321f6143": {
+    "hash": "313d6e6b7d5b",
+    "summary": "Microsoft Research Asia introduces Agent Lightning v1.0, a roughly 3,500-line agentic RL framework that trains agents with the same harness used in deployment, including native Kubernetes support.",
+    "benefit": "Teams can train against the real harness instead of reimplementing the agent inside the trainer."
+  },
+  "b36fabe41f884a2e": {
+    "hash": "63393a28431e",
+    "summary": "Microsoft describes AI across the infrastructure lifecycle, from supply chain to fleet operations, where silicon choices affect how hardware is sourced, deployed, and run.",
+    "benefit": "Infrastructure teams can see how lessons from a running fleet feed the next build."
+  },
+  "dd106deebac2ad6f": {
+    "hash": "8bec2060f643",
+    "summary": "Postman runs Agent Mode for 40 million developers on Amazon Bedrock, covering API testing, documentation, discovery, and implementation.",
+    "benefit": "Product teams can study how a large developer tool hosts an agent on Bedrock."
+  },
+  "ea6ac6a92eab73ac": {
+    "hash": "31cdb45ab614",
+    "summary": "Amazon Bedrock AgentCore payments lets agents pay for small, frequent purchases such as a model call or API response, as used by BlockRun and Incarna, without a person approving each one.",
+    "benefit": "An agent can pay for the next inference or API call from inside its own loop."
+  },
+  "f5b98f32f035f8a5": {
+    "hash": "1976692f723a",
+    "summary": "Amazon SageMaker AI adds the aws-ai-ml skill through the Agent Toolkit for AWS so coding agents such as Kiro, Claude Code, and Codex can benchmark optimized generative AI inference.",
+    "benefit": "A coding agent you already use can run SageMaker inference benchmarks after you install the skill."
+  },
+  "fe4c51ce6b35832f": {
+    "hash": "c707e8438abd",
+    "summary": "Amazon Q Developer in the AWS console now reasons across hundreds of AWS APIs and renders health dashboards, status indicators, and time-series charts besides resource tables and cost charts.",
+    "benefit": "Console users can ask account-wide questions and see health and time-series views, not only tables."
+  },
+  "04f1f9743ee0f0a0": {
+    "hash": "a1cdd8ddf0c5",
+    "summary": "Tencent lists ExplorationBench among its developer releases.",
+    "benefit": "Researchers following Tencent can find the ExplorationBench release in the lab feed."
+  },
+  "9ff68670067e5a35": {
+    "hash": "72183d36956d",
+    "summary": "NVIDIA describes teaching robots to assemble GB300 tester trays, and what that showed about robot learning for the Grace Blackwell GB300 superchip.",
+    "benefit": "Robotics engineers can read a production assembly case built around GB300 tester trays."
+  },
+  "be44224a1a4ac828": {
+    "hash": "fdf36cdb05cc",
+    "summary": "NVIDIA explains how to validate AI factory changes with digital twins and AI agents across GPUs, CPUs, switches, DPUs, SuperNICs, schedulers, and security controls.",
+    "benefit": "Operators can test factory changes in a digital twin before they touch a live cluster."
+  },
+  "a2beb8a05eac6abd": {
+    "hash": "1a78b7093597",
+    "summary": "NVIDIA highlights Inception startups using AI from scan to treatment plan where many women over 40 skip annual breast-cancer screening and follow-up tests can take weeks.",
+    "benefit": "Health teams can see how imaging AI is being applied from screening through treatment planning."
+  },
+  "d4e3054526b7ef03": {
+    "hash": "9259b4485843",
+    "summary": "NVIDIA DGX Spark with 64GB of unified memory is coming this month from Acer, ASUS, Dell, Gigabyte, HP, and MSI for local AI work.",
+    "benefit": "Developers get a 64GB local machine option for larger open models and agents."
+  },
+  "bf2720f536ae2069": {
+    "hash": "7c7d55132086",
+    "summary": "NVIDIA DOCA Agent Skills give coding agents domain knowledge for building on NVIDIA BlueField, instead of guessing at specialized infrastructure software.",
+    "benefit": "Agents writing BlueField software can follow DOCA-specific skills rather than generic steps."
+  },
+  "cb2fa7d7f035b988": {
+    "hash": "cbb1f60cc99a",
+    "summary": "NVIDIA describes fine-tuning Nemotron so speech recognition handles Saudi Arabic dialects, with a path toward other languages underrepresented in pretraining.",
+    "benefit": "Speech apps can target Saudi Arabic dialects rather than only styles that dominate pretraining data."
+  },
+  "1d04843f00c0f8ae": {
+    "hash": "a928c2be3a30",
+    "summary": "NVIDIA shows how to deploy an HSTU generative recommender with Dynamo-Triton, treating recommendation as sequence modeling instead of separate retrieval, ranking, and prediction.",
+    "benefit": "Recommendation teams can serve a generative recommender as one sequence model on Dynamo-Triton."
+  },
+  "e20d6d18306f7883": {
+    "hash": "c445c5e1925f",
+    "summary": "At CoreWeave Fully Connected in San Francisco, CoreWeave announced the next generation of NVIDIA infrastructure for a cloud built on NVIDIA compute, networking, and software.",
+    "benefit": "Teams on CoreWeave can look at the newly announced NVIDIA infrastructure for production agentic AI."
+  },
+  "edc34cf3a6308708": {
+    "hash": "b7a531fef9ab",
+    "summary": "NVIDIA VSS Blueprint 3.3 targets the cost of building and running visual AI agents that combine video ingestion, stream processing, and event detection.",
+    "benefit": "Teams can turn vision-language models into a maintainable video-agent system."
+  },
+  "14f8438d2f05bf47": {
+    "hash": "8eb2a97ac236",
+    "summary": "MiniMax lists a project named homebrew-tap in its developer feed.",
+    "benefit": "Developers tracking MiniMax can find the homebrew-tap release with the lab’s other projects."
+  },
+  "8378ae34fd1663ab": {
+    "hash": "d81fccc11c43",
+    "summary": "Codex CLI rust v0.162.1 fixes a TUI crash on multi-line asynchronous questions and limits startup compatibility checks to explicit command-line feature overrides.",
+    "benefit": "The CLI keeps line breaks in those questions and can start when a background server’s defaults differ."
+  },
+  "8aaf8e2268df8a52": {
+    "hash": "f81f7c1825c0",
+    "summary": "OpenAI Agents SDK v0.23.1 is a compatible patch that restores release tests and refreshes the required readiness check.",
+    "benefit": "SDK users can take the patch without a breaking version change."
+  },
+  "03bdc9822921c76d": {
+    "hash": "7bd35f1030e4",
+    "summary": "Claude Code v2.1.296 adds a code policy key for the apps gateway, autoCompactWindow for subagents, and CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL so workflow subagents can use their own model.",
+    "benefit": "Desktop Code and subagents can compact earlier, and workflow subagents can run on a chosen model."
+  },
+  "99aff9c7a1941ae4": {
+    "hash": "0c2943bdb361",
+    "summary": "Claude Code v2.1.295 can block an action when a command or HTTP hook fails to start, times out, or exits unexpectedly, and terminals that speak OSC 7501 can show whether it is working, waiting, or done.",
+    "benefit": "A failing hook can stop the action, and a supporting terminal can show Claude Code’s status."
+  },
+  "c14e468472da929c": {
+    "hash": "fddaaee8a47c",
+    "summary": "Claude Agent SDK (Python) v0.2.165 bundles Claude CLI 2.1.294 and alerts Slack when a release is blocked or fails.",
+    "benefit": "Python agents pick up that bundled CLI when you install this SDK version."
   }
 }
