@@ -237,6 +237,38 @@
     "contentHash": "6758ca21dc22"
   },
   {
+    "id": "44083f27d7e26659",
+    "lab": "microsoft",
+    "title": "AesCode-32B",
+    "url": "https://huggingface.co/microsoft/AesCode-32B",
+    "sourceId": "microsoft-hf",
+    "sourceName": "Hugging Face · microsoft",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-29T13:05:36.000Z",
+    "firstSeenAt": "2026-10-11T19:36:03.298Z",
+    "updatedAt": "2026-09-29T13:05:36.000Z",
+    "excerpt": "image-text-to-text · license: apache-2.0",
+    "summary": "Microsoft published the AesCode-32B model on Hugging Face for multimodal (image + text). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "32B",
+      "multimodal"
+    ],
+    "importance": 61,
+    "contentHash": "508a2d739bfa",
+    "meta": {
+      "likes": 23,
+      "downloads": 8,
+      "repo": "microsoft/AesCode-32B",
+      "pipeline": "image-text-to-text",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "38e147fe1847ece9",
     "lab": "microsoft",
     "title": "AesCode-8B",
@@ -258,10 +290,10 @@
       "8B",
       "multimodal"
     ],
-    "importance": 60,
+    "importance": 62,
     "contentHash": "4f0bc4169b75",
     "meta": {
-      "likes": 17,
+      "likes": 31,
       "downloads": 6,
       "repo": "microsoft/AesCode-8B",
       "pipeline": "image-text-to-text",
@@ -504,7 +536,7 @@
     "importance": 67,
     "contentHash": "dedfbfa6454f",
     "meta": {
-      "likes": 149,
+      "likes": 150,
       "downloads": 1348,
       "repo": "microsoft/FrogNano-4B-2609",
       "license": "mit"
@@ -698,7 +730,7 @@
     "importance": 71,
     "contentHash": "a23d886d9109",
     "meta": {
-      "likes": 421,
+      "likes": 422,
       "downloads": 10329,
       "repo": "microsoft/Mage-VL",
       "pipeline": "image-text-to-text",
@@ -793,7 +825,7 @@
     "importance": 64,
     "contentHash": "d6ccfd1a059f",
     "meta": {
-      "likes": 52,
+      "likes": 53,
       "downloads": 1531,
       "repo": "microsoft/Fara1.5-4B",
       "pipeline": "image-text-to-text",
