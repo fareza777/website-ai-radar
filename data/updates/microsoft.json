@@ -237,6 +237,38 @@
     "contentHash": "6758ca21dc22"
   },
   {
+    "id": "38e147fe1847ece9",
+    "lab": "microsoft",
+    "title": "AesCode-8B",
+    "url": "https://huggingface.co/microsoft/AesCode-8B",
+    "sourceId": "microsoft-hf",
+    "sourceName": "Hugging Face · microsoft",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-29T13:04:44.000Z",
+    "firstSeenAt": "2026-10-11T13:02:10.630Z",
+    "updatedAt": "2026-09-29T13:04:44.000Z",
+    "excerpt": "image-text-to-text · license: apache-2.0",
+    "summary": "Microsoft published the AesCode-8B model on Hugging Face for multimodal (image + text). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "8B",
+      "multimodal"
+    ],
+    "importance": 60,
+    "contentHash": "4f0bc4169b75",
+    "meta": {
+      "likes": 17,
+      "downloads": 6,
+      "repo": "microsoft/AesCode-8B",
+      "pipeline": "image-text-to-text",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "2397c8680bc45de4",
     "lab": "microsoft",
     "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
@@ -472,8 +504,8 @@
     "importance": 67,
     "contentHash": "dedfbfa6454f",
     "meta": {
-      "likes": 144,
-      "downloads": 1237,
+      "likes": 149,
+      "downloads": 1348,
       "repo": "microsoft/FrogNano-4B-2609",
       "license": "mit"
     }
@@ -504,7 +536,7 @@
     "contentHash": "a578814b8678",
     "meta": {
       "likes": 59,
-      "downloads": 6772,
+      "downloads": 6106,
       "repo": "microsoft/VibeVoice-ASR-Streaming-1.5B",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"
@@ -536,7 +568,7 @@
     "contentHash": "806cdab3e7ad",
     "meta": {
       "likes": 252,
-      "downloads": 5334,
+      "downloads": 5137,
       "repo": "microsoft/VibeVoice-ASR-Streaming-7B",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"
@@ -636,7 +668,7 @@
     "contentHash": "a4e4cd3da320",
     "meta": {
       "likes": 37,
-      "downloads": 261,
+      "downloads": 258,
       "repo": "microsoft/Mage-ViT",
       "pipeline": "image-feature-extraction",
       "license": "mit"
@@ -667,7 +699,7 @@
     "contentHash": "a23d886d9109",
     "meta": {
       "likes": 421,
-      "downloads": 10318,
+      "downloads": 10329,
       "repo": "microsoft/Mage-VL",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -698,7 +730,7 @@
     "contentHash": "3c7a6571567c",
     "meta": {
       "likes": 204,
-      "downloads": 69454,
+      "downloads": 68985,
       "repo": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"
@@ -730,7 +762,7 @@
     "contentHash": "330dbdbd0237",
     "meta": {
       "likes": 293,
-      "downloads": 1967,
+      "downloads": 1994,
       "repo": "microsoft/Fara1.5-27B",
       "pipeline": "image-text-to-text",
       "license": "mit"
@@ -762,7 +794,7 @@
     "contentHash": "d6ccfd1a059f",
     "meta": {
       "likes": 52,
-      "downloads": 1524,
+      "downloads": 1531,
       "repo": "microsoft/Fara1.5-4B",
       "pipeline": "image-text-to-text",
       "license": "mit"
@@ -794,7 +826,7 @@
     "contentHash": "447d2b5a0298",
     "meta": {
       "likes": 27,
-      "downloads": 1169,
+      "downloads": 1092,
       "repo": "microsoft/bitnet-embedding-0.6b",
       "license": "mit"
     }
@@ -825,7 +857,7 @@
     "contentHash": "6ac5a3c26b58",
     "meta": {
       "likes": 19,
-      "downloads": 867,
+      "downloads": 810,
       "repo": "microsoft/bitnet-embedding-270m",
       "license": "mit"
     }

@@ -1,5 +1,78 @@
 [
   {
+    "id": "760d1fe4634f83d2",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-11T13:02:10.630Z",
+    "field": "prompt",
+    "from": 0.0001,
+    "to": 0.0348,
+    "change": 34700
+  },
+  {
+    "id": "1979b3ec8a668675",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-11T13:02:10.630Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.1392,
+    "change": -76.8
+  },
+  {
+    "id": "0c44c2217f2981f6",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-11T13:02:10.630Z",
+    "field": "prompt",
+    "from": 0.0168,
+    "to": 0.018,
+    "change": 7.1
+  },
+  {
+    "id": "57531c208316f6d6",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-11T13:02:10.630Z",
+    "field": "prompt",
+    "from": 0.0168,
+    "to": 0.018,
+    "change": 7.1
+  },
+  {
+    "id": "18da2f86715846ec",
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
+    "name": "NVIDIA: Nemotron 3 Ultra",
+    "lab": "nvidia",
+    "at": "2026-10-11T13:02:10.630Z",
+    "field": "prompt",
+    "from": 0.5,
+    "to": 0.6,
+    "change": 20
+  },
+  {
+    "id": "b13fd68bedc0c1c9",
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
+    "name": "NVIDIA: Nemotron 3 Ultra",
+    "lab": "nvidia",
+    "at": "2026-10-11T13:02:10.630Z",
+    "field": "completion",
+    "from": 2.2,
+    "to": 2.4,
+    "change": 9.1
+  },
+  {
+    "id": "d6cd80535f2dbec2",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-11T13:02:10.630Z",
+    "field": "prompt",
+    "from": 0.6,
+    "to": 0.75,
+    "change": 25
+  },
+  {
     "id": "9203d494d632ca35",
     "modelId": "~z-ai/glm-latest",
     "name": "Z.ai: GLM Latest",

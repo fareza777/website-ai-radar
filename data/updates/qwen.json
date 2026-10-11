@@ -1,5 +1,94 @@
 [
   {
+    "id": "1abb9f509bc605fc",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.19",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.19",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-11T11:42:33.000Z",
+    "firstSeenAt": "2026-10-11T13:02:10.630Z",
+    "updatedAt": "2026-10-11T11:42:33.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.25.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.24.7 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.19 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "39b0d6563a3e",
+    "meta": {
+      "version": "v0.1.19",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
+    "id": "5ecc6bc031dd7d6c",
+    "lab": "qwen",
+    "title": "Qwen Code v0.25.1",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-11T11:39:21.000Z",
+    "firstSeenAt": "2026-10-11T13:02:10.630Z",
+    "updatedAt": "2026-10-11T11:39:21.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Restores the selected text-only connection and validated session or workspace route after Android Activity recreation, while preserving explicit retry screens after failures. ( #12247 ) by @jabrailkhalil Improves mobile profile screen accessibility with clearer connection actions, editor labels…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.25.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "f25600a52320",
+    "meta": {
+      "version": "v0.25.1",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "9a6cbe528dff003b",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.25.1",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.1",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-11T11:31:22.000Z",
+    "firstSeenAt": "2026-10-11T13:02:10.630Z",
+    "updatedAt": "2026-10-11T11:31:22.000Z",
+    "excerpt": "What's Changed fix(serve): preserve session creation failure diagnostics by @callmeYe in #12331 feat(sdk-java): Add managed runtime attestation client by @doudouOUC in #12522 feat(web-shell): select a time range on the trajectory overview to narrow the table by @qqqys in #12543 feat(serve,web-shell): set the Qwen Live endpoint and model from settings by @qqqys in #12529 feat(channels): separate private and group…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.25.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "8d156072cb31",
+    "meta": {
+      "version": "v0.25.1",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
     "id": "7941af6584c4cea5",
     "lab": "qwen",
     "title": "Qwen-Image-2.1-Turbo",
@@ -20,11 +109,11 @@
     "tags": [
       "multimodal"
     ],
-    "importance": 76,
+    "importance": 77,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 471,
-      "downloads": 2138,
+      "likes": 496,
+      "downloads": 4702,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
       "license": "other"
@@ -172,7 +261,7 @@
     "contentHash": "d108635bb7df",
     "meta": {
       "likes": 61,
-      "downloads": 13253,
+      "downloads": 13460,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
     }
@@ -202,7 +291,7 @@
     "contentHash": "2deb903ef0b2",
     "meta": {
       "likes": 58,
-      "downloads": 9126,
+      "downloads": 9368,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
       "license": "other"
@@ -288,8 +377,8 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3202,
-      "downloads": 128839,
+      "likes": 3215,
+      "downloads": 136103,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
       "license": "other"
@@ -448,8 +537,8 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6092,
-      "downloads": 1798393,
+      "likes": 6099,
+      "downloads": 1870465,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -479,8 +568,8 @@
     "importance": 95,
     "contentHash": "df6b90143e8c",
     "meta": {
-      "likes": 1302,
-      "downloads": 32082,
+      "likes": 1303,
+      "downloads": 32520,
       "repo": "Qwen/Qwen3.8-2.4T-A95B",
       "pipeline": "text-generation",
       "license": "other"
@@ -511,8 +600,8 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 17446,
-      "downloads": 6768654,
+      "likes": 17474,
+      "downloads": 6843108,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
