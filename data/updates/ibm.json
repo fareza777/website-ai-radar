@@ -1,5 +1,32 @@
 [
   {
+    "id": "a4e3621bd2f9b0a6",
+    "lab": "ibm",
+    "title": "Docling v2.138.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.138.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-12T06:14:54.000Z",
+    "firstSeenAt": "2026-10-12T11:01:43.699Z",
+    "updatedAt": "2026-10-12T06:14:54.000Z",
+    "excerpt": "Feature iwork: Read pictures placed on a Numbers sheet ( #4700 ) ( 88fbc05 ) Fix docx: Emit textboxes in table cells once inside their cell ( #4757 ) ( 6bc5770 ) jats: Parse ordered lists and list item labels ( #4770 ) ( ad2e0e1 ) mlx: Pass the sampling temperature as temperature to mlx-vlm ( #4769 ) ( fb0818e ) odf: Move hidden ODP slides to the invisible content layer ( #4767 ) ( 807f6df ) pptx: Move hidden shapes…",
+    "summary": "IBM shipped Docling v2.138.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "fff1aab42e89",
+    "meta": {
+      "version": "v2.138.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "910e5765896e2d3f",
     "lab": "ibm",
     "title": "Docling v2.137.0",
@@ -296,11 +323,11 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 55,
+    "importance": 56,
     "contentHash": "30e0f1167733",
     "meta": {
-      "likes": 3,
-      "downloads": 90,
+      "likes": 4,
+      "downloads": 101,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
@@ -705,7 +732,7 @@
     "contentHash": "ff3e756cb61a",
     "meta": {
       "likes": 132,
-      "downloads": 36630,
+      "downloads": 37304,
       "repo": "ibm-granite/granite-4.2-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -735,8 +762,8 @@
     "importance": 66,
     "contentHash": "c8e55083221f",
     "meta": {
-      "likes": 97,
-      "downloads": 127199,
+      "likes": 98,
+      "downloads": 123337,
       "repo": "ibm-granite/granite-4.2-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -767,7 +794,7 @@
     "contentHash": "d9e26c7be4a7",
     "meta": {
       "likes": 111,
-      "downloads": 46878,
+      "downloads": 46285,
       "repo": "ibm-granite/granite-4.2-3b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -796,7 +823,7 @@
     "contentHash": "720803661a02",
     "meta": {
       "likes": 16,
-      "downloads": 336852,
+      "downloads": 335697,
       "repo": "ibm-granite/granite-timeseries-patchtst-fm-r2",
       "pipeline": "time-series-forecasting",
       "license": "openmdw-1.0"
@@ -828,7 +855,7 @@
     "contentHash": "d9d402627057",
     "meta": {
       "likes": 77,
-      "downloads": 60184,
+      "downloads": 59821,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"

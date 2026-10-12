@@ -1,16 +1,26 @@
 [
   {
     "date": "2026-10-12",
-    "generatedAt": "2026-10-12T00:37:16.803Z",
+    "generatedAt": "2026-10-12T11:01:43.699Z",
     "stats": {
-      "updates24h": 3,
-      "labsActive24h": 1,
-      "updates7d": 112,
-      "newModels7d": 31
+      "updates24h": 5,
+      "labsActive24h": 3,
+      "updates7d": 109,
+      "newModels7d": 30
     },
     "source": "template",
-    "headline": "3 updates from 1 AI labs in the last 24 hours · 31 model releases this week.",
+    "headline": "5 updates from 3 AI labs in the last 24 hours · 30 model releases this week.",
     "bullets": [
+      {
+        "text": "IBM: Docling v2.138.0",
+        "itemId": "a4e3621bd2f9b0a6",
+        "lab": "ibm"
+      },
+      {
+        "text": "Tencent: OmniCapBench",
+        "itemId": "87b3bcc2c1234bf9",
+        "lab": "tencent"
+      },
       {
         "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.19",
         "itemId": "1abb9f509bc605fc",
