@@ -1,5 +1,54 @@
 [
   {
+    "id": "55338a2f5e2cb58f",
+    "lab": "nvidia",
+    "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
+    "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-12T16:00:54.000Z",
+    "firstSeenAt": "2026-10-12T21:18:41.028Z",
+    "updatedAt": "2026-10-12T16:00:54.000Z",
+    "excerpt": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are... Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are all built this way, with Mamba-2, Gated DeltaNet (GDN), or Kimi Delta Attention (KDA) as the SSM…",
+    "summary": "Hybrid models interleave state-space model (SSM) layers with a few attention layers.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "coding",
+      "reasoning"
+    ],
+    "importance": 60,
+    "contentHash": "17a95c3ab331"
+  },
+  {
+    "id": "64b8fb1d42bf98f3",
+    "lab": "nvidia",
+    "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+    "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-12T15:00:25.000Z",
+    "firstSeenAt": "2026-10-12T21:18:41.028Z",
+    "updatedAt": "2026-10-12T15:00:25.000Z",
+    "excerpt": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at creating a common foundation for…",
+    "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "audio"
+    ],
+    "importance": 50,
+    "contentHash": "6b9c836e4d09"
+  },
+  {
     "id": "1112027d5901b6f1",
     "lab": "nvidia",
     "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
@@ -325,7 +374,7 @@
     "importance": 65,
     "contentHash": "569df33611c3",
     "meta": {
-      "likes": 83,
+      "likes": 84,
       "downloads": 0,
       "repo": "nvidia/PixelUMM",
       "pipeline": "image-to-text",
@@ -1160,7 +1209,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 760,
+      "likes": 762,
       "downloads": 77153,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
@@ -1189,7 +1238,7 @@
     "importance": 67,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 127,
+      "likes": 128,
       "downloads": 1814,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
@@ -1220,7 +1269,7 @@
     "importance": 72,
     "contentHash": "a8d41ae3fa69",
     "meta": {
-      "likes": 533,
+      "likes": 535,
       "downloads": 4328,
       "repo": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
       "license": "openmdw-1.1"

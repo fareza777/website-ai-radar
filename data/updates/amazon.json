@@ -1,5 +1,58 @@
 [
   {
+    "id": "0c12915bdf3c5e6f",
+    "lab": "amazon",
+    "title": "Strands Agents SDK python v1.60.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.60.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-12T19:37:14.000Z",
+    "firstSeenAt": "2026-10-12T21:18:41.028Z",
+    "updatedAt": "2026-10-12T19:37:14.000Z",
+    "excerpt": "python/v1.60.0 Auto-drafted from commits in python/v1.59.0..python/v1.60.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(telemetry): propagate OTel baggage context in Python ( #4840 ) ( 900ad33 ) feat(mcp/ts): add SEP-2663 task execution on mcp/ext-tasks ( #4977 ) ( 2c3cfe7 )…",
+    "summary": "Amazon shipped Strands Agents SDK python v1.60.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 40,
+    "contentHash": "6dd7195c4538",
+    "meta": {
+      "version": "v1.60.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "python"
+    }
+  },
+  {
+    "id": "024d9eece6c046fd",
+    "lab": "amazon",
+    "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+    "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-12T17:52:22.000Z",
+    "firstSeenAt": "2026-10-12T21:18:41.028Z",
+    "updatedAt": "2026-10-12T17:52:22.000Z",
+    "excerpt": "Single-Region inference can throttle when demand exceeds local capacity. Teams in Thailand, Malaysia, Singapore, Indonesia, and Taiwan need access to the newest OpenAI models beyond that capacity. Amazon Bedrock offers OpenAI GPT-6 Sol and GPT-6 Luna through global cross-Region inference from all five AWS Regions, and GPT-6 Astra from Asia Pacific (Singapore). This post shows you how to configure the call, set…",
+    "summary": "Single-Region inference can throttle when demand exceeds local capacity.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "fb6c572797ad"
+  },
+  {
     "id": "c780c1f332034095",
     "lab": "amazon",
     "title": "Amazon Bedrock now supports reasoning summaries for OpenAI models",
@@ -747,7 +800,7 @@
     "importance": 62,
     "contentHash": "48b7b19078e5",
     "meta": {
-      "likes": 32,
+      "likes": 33,
       "downloads": 790,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",

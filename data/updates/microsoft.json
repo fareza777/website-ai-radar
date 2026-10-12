@@ -1,5 +1,27 @@
 [
   {
+    "id": "8a70427187b8981c",
+    "lab": "microsoft",
+    "title": "Simulating student learning for better AI tutoring",
+    "url": "https://microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring",
+    "sourceId": "msr-blog",
+    "sourceName": "Microsoft Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-12T16:00:00.000Z",
+    "firstSeenAt": "2026-10-12T21:18:41.028Z",
+    "updatedAt": "2026-10-12T16:00:00.000Z",
+    "excerpt": "At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI tutoring tools need feedback from students to improve, but collecting that feedback through human studies is slow, costly, and difficult to scale StudentSim trains personalized AI student simulators…",
+    "summary": "At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers…",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "6fc3076749a6"
+  },
+  {
     "id": "9317787c3aecac78",
     "lab": "microsoft",
     "title": "Microsoft Agent Framework python v1.21.0",
@@ -258,10 +280,10 @@
       "32B",
       "multimodal"
     ],
-    "importance": 62,
+    "importance": 63,
     "contentHash": "508a2d739bfa",
     "meta": {
-      "likes": 31,
+      "likes": 37,
       "downloads": 150,
       "repo": "microsoft/AesCode-32B",
       "pipeline": "image-text-to-text",
@@ -290,10 +312,10 @@
       "8B",
       "multimodal"
     ],
-    "importance": 63,
+    "importance": 64,
     "contentHash": "4f0bc4169b75",
     "meta": {
-      "likes": 44,
+      "likes": 48,
       "downloads": 140,
       "repo": "microsoft/AesCode-8B",
       "pipeline": "image-text-to-text",
@@ -536,7 +558,7 @@
     "importance": 68,
     "contentHash": "dedfbfa6454f",
     "meta": {
-      "likes": 153,
+      "likes": 155,
       "downloads": 1421,
       "repo": "microsoft/FrogNano-4B-2609",
       "license": "mit"
@@ -567,7 +589,7 @@
     "importance": 64,
     "contentHash": "a578814b8678",
     "meta": {
-      "likes": 59,
+      "likes": 60,
       "downloads": 5919,
       "repo": "microsoft/VibeVoice-ASR-Streaming-1.5B",
       "pipeline": "automatic-speech-recognition",
@@ -599,7 +621,7 @@
     "importance": 69,
     "contentHash": "806cdab3e7ad",
     "meta": {
-      "likes": 253,
+      "likes": 257,
       "downloads": 5085,
       "repo": "microsoft/VibeVoice-ASR-Streaming-7B",
       "pipeline": "automatic-speech-recognition",
@@ -730,7 +752,7 @@
     "importance": 71,
     "contentHash": "a23d886d9109",
     "meta": {
-      "likes": 424,
+      "likes": 427,
       "downloads": 9590,
       "repo": "microsoft/Mage-VL",
       "pipeline": "image-text-to-text",
@@ -758,10 +780,10 @@
     "tags": [
       "audio"
     ],
-    "importance": 68,
+    "importance": 69,
     "contentHash": "3c7a6571567c",
     "meta": {
-      "likes": 204,
+      "likes": 205,
       "downloads": 67528,
       "repo": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",
@@ -793,7 +815,7 @@
     "importance": 70,
     "contentHash": "330dbdbd0237",
     "meta": {
-      "likes": 293,
+      "likes": 294,
       "downloads": 2003,
       "repo": "microsoft/Fara1.5-27B",
       "pipeline": "image-text-to-text",

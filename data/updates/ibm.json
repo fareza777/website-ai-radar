@@ -27,6 +27,30 @@
     }
   },
   {
+    "id": "327b871c6992c1e2",
+    "lab": "ibm",
+    "title": "How distributed inference keeps large AI models moving",
+    "url": "https://research.ibm.com/blog/distributed-inference",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "firstSeenAt": "2026-10-12T21:18:41.028Z",
+    "updatedAt": "2026-10-12T04:00:00.000Z",
+    "excerpt": "Distributed inference serving is an air traffic control tower for AI traffic, and agentic workflows make it more necessary than ever.",
+    "summary": "Distributed inference serving is an air traffic control tower for AI traffic, and agentic workflows make it more necessary than ever.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 60,
+    "contentHash": "26af4bf4941a"
+  },
+  {
     "id": "910e5765896e2d3f",
     "lab": "ibm",
     "title": "Docling v2.137.0",
@@ -854,7 +878,7 @@
     "importance": 65,
     "contentHash": "d9d402627057",
     "meta": {
-      "likes": 77,
+      "likes": 78,
       "downloads": 59821,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",
