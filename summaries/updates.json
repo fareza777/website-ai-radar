@@ -926,5 +926,95 @@
     "hash": "fddaaee8a47c",
     "summary": "Claude Agent SDK (Python) v0.2.165 bundles Claude CLI 2.1.294 and alerts Slack when a release is blocked or fails.",
     "benefit": "Python agents pick up that bundled CLI when you install this SDK version."
+  },
+  "38e147fe1847ece9": {
+    "hash": "4f0bc4169b75",
+    "summary": "Microsoft published AesCode-8B on Hugging Face, an image-text-to-text model released under the Apache-2.0 license.",
+    "benefit": "Developers can use an Apache-2.0 image-text-to-text model from Microsoft when a task mixes images and text."
+  },
+  "44083f27d7e26659": {
+    "hash": "508a2d739bfa",
+    "summary": "Microsoft published AesCode-32B on Hugging Face, an image-text-to-text model released under the Apache-2.0 license.",
+    "benefit": "Teams that need a larger image-text-to-text model can use AesCode-32B under Apache-2.0."
+  },
+  "c7ca45f1624daaaa": {
+    "hash": "49f49e221453",
+    "summary": "Claude Code v2.1.294 fixes prompt and agent hooks written as instructions so they no longer allow what they should block, and judges Stop and SubagentStop instruction hooks so Claude is less likely to stop early.",
+    "benefit": "Instruction-style hooks are more likely to block the commands they name, and Stop hooks are less likely to end a turn too soon."
+  },
+  "4250e365b896ce62": {
+    "hash": "7dfb88384f7e",
+    "summary": "Claude Code v2.1.293 adds Claude Haiku 5.5 as the default Haiku model on the Anthropic API, with 1M context, and adds agentType to the subagent status line plus isDeferred on tool register.",
+    "benefit": "API users get Haiku 5.5 as the default Haiku model, and scripts can tell custom subagent types apart."
+  },
+  "53c2a83b7ad4d0c5": {
+    "hash": "87cebe528116",
+    "summary": "Claude Agent SDK (Python) v0.2.164 bundles Claude CLI 2.1.292 and hardens GitHub Actions workflows that call Claude with an egress-firewall runner, a network allow list, and auto permission mode.",
+    "benefit": "Python SDK installs pick up CLI 2.1.292, and CI jobs that call Claude get a tighter network and permission setup."
+  },
+  "f465f4e3854020b7": {
+    "hash": "584f95345e46",
+    "summary": "Claude Code v2.1.292 adds --marketplace to plugin install, an effort parameter on the Agent tool, and an environment variable for a longer overload retry base delay.",
+    "benefit": "You can add a marketplace and install a plugin in one command, and ask a sub-agent to run at a chosen effort level."
+  },
+  "31ce016c939917d7": {
+    "hash": "0ed029a38257",
+    "summary": "Claude Code v2.1.291 fixes cloud sessions dropping answers to permission prompts, a regression from 2.1.290, and lost last messages when quitting, a regression from 2.1.288.",
+    "benefit": "Permission answers in cloud sessions and the last messages of a session are less likely to disappear when you quit."
+  },
+  "6cc3830d5f2c83d2": {
+    "hash": "74eb5eadd884",
+    "summary": "Claude Code v2.1.290 adds serverToolUses to a mod's turn.step hook, agentId on plugin tool.check events, and ceiling for the approval an organization requires.",
+    "benefit": "Plugin hooks can separate a subagent's permission check from the main session and see tool calls the API ran itself."
+  },
+  "205f8e0f837ca4c9": {
+    "hash": "c1b6c00b9e13",
+    "summary": "Claude Agent SDK (Python) v0.2.163 updates the bundled Claude CLI to version 2.1.286 and pins the model used for issue triage.",
+    "benefit": "This Python SDK release ships CLI 2.1.286, and issue triage no longer follows the CLI's new default model."
+  },
+  "c76fd0861cf4fc6a": {
+    "hash": "7b909bb30e96",
+    "summary": "Claude Agent SDK (Python) v0.2.162 updates the bundled Claude CLI to version 2.1.285.",
+    "benefit": "Installing this Python SDK release brings Claude CLI 2.1.285 along with it."
+  },
+  "1abb9f509bc605fc": {
+    "hash": "39b0d6563a3e",
+    "summary": "Qwen Code sdk-typescript v0.1.19 bundles CLI version 0.25.1, built from the same branch as the SDK.",
+    "benefit": "TypeScript callers of this SDK release run against the bundled Qwen Code CLI 0.25.1."
+  },
+  "5ecc6bc031dd7d6c": {
+    "hash": "f25600a52320",
+    "summary": "Qwen Code v0.25.1 restores the selected text-only connection and validated session or workspace route after Android Activity recreation, and improves mobile profile screen accessibility.",
+    "benefit": "Android users keep their text-only connection and session route across activity recreation, with clearer profile actions."
+  },
+  "9a6cbe528dff003b": {
+    "hash": "8d156072cb31",
+    "summary": "Qwen Code desktop v0.25.1 keeps session-creation failure diagnostics, adds a managed runtime attestation client for the Java SDK, and lets the web shell select a time range on the trajectory overview.",
+    "benefit": "Desktop users can narrow the trajectory table by time and set the Qwen Live endpoint and model from settings."
+  },
+  "7e881dee53df80aa": {
+    "hash": "62570e86b626",
+    "summary": "Qwen Code sdk-typescript v0.1.18 bundles CLI version 0.25.0, built from the same branch as the SDK.",
+    "benefit": "TypeScript callers of this SDK release run against the bundled Qwen Code CLI 0.25.0."
+  },
+  "d27c05577548741f": {
+    "hash": "f5c22eda94fa",
+    "summary": "Mistral Vibe v2.26.1 reports which process holds a stored session, adds Rust CLI /proxy-setup for proxy and SSL certificate settings, and has the narrator read each turn's summary aloud.",
+    "benefit": "A client can show a session open elsewhere as read-only, and Rust CLI users can set proxy and SSL from /proxy-setup."
+  },
+  "59d291480a7bd344": {
+    "hash": "4cf19a91c39c",
+    "summary": "UI-TARS Desktop v0.3.1 closes security issues in the Agent TARS CLI server and listens on 127.0.0.1 by default instead of all network interfaces.",
+    "benefit": "If you open the CLI at localhost, nothing changes; other setups no longer listen on every interface by default."
+  },
+  "b88e0f4b41500fd5": {
+    "hash": "7a6dc120d96f",
+    "summary": "Cornerstone OnDemand built Orion AI, a multi-agent system on Amazon Bedrock and Strands Agents, and cut database diagnosis by 78%.",
+    "benefit": "Database teams can see a Bedrock and Strands Agents setup that moved diagnosis from reactive work into orchestrated workflows."
+  },
+  "1112027d5901b6f1": {
+    "hash": "c24d62c4c271",
+    "summary": "NVIDIA describes developers combining frontier AI models with Omniverse libraries so agents help assemble assets, connect physics and rendering, and check that a simulation behaves as intended.",
+    "benefit": "Simulation developers can direct agents in natural language to explore scenarios, investigate failures, and improve designs."
   }
 }

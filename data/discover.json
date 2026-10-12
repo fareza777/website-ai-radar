@@ -46,6 +46,49 @@
     "summarySource": "template"
   },
   {
+    "id": "e60082cc57f31b00",
+    "name": "anatomy",
+    "url": "https://skills.wheresryan.sh/anatomy",
+    "repo": "wheresryan22/anatomy",
+    "kind": "github",
+    "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+    "summary": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+    "unique": "Topics: agent-skill, open-source, svg, vizualization",
+    "benefit": "Helps you build or run AI agents that automate tasks.",
+    "why": "Agent pick · 3 days old · 3.3k ⭐ on GitHub.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-08T10:12:49Z",
+    "firstSeenAt": "2026-10-12T00:11:54.202Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 3256,
+    "starHistory": [
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 3256
+      }
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "topics": [
+      "agent-skill",
+      "open-source",
+      "svg",
+      "vizualization"
+    ],
+    "signals": [
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://x.com/wheresryan22/status/2108948624004526516",
+        "value": 1,
+        "at": "2026-10-12T00:11:44.170Z"
+      }
+    ],
+    "score": 87,
+    "summarySource": "template"
+  },
+  {
     "id": "7d5820b245cede35",
     "name": "openTPU",
     "url": "https://github.com/FeSens/openTPU",
@@ -150,13 +193,13 @@
     "summary": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
     "unique": "Topics: accessibility, ai-agents, claude-code, cli, codex",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "3 days old · 621 ⭐ on GitHub · 247 points on Hacker News.",
+    "why": "3 days old · 625 ⭐ on GitHub · 247 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-08T08:39:15Z",
     "firstSeenAt": "2026-10-09T16:18:37.683Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 621,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 625,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -169,6 +212,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 621
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 625
       }
     ],
     "language": "Swift",
@@ -185,10 +232,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "621 stars",
+        "label": "625 stars",
         "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-        "value": 621,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 625,
+        "at": "2026-10-12T00:11:54.202Z"
       },
       {
         "source": "hackernews",
@@ -216,8 +263,8 @@
     "novelty": "trending",
     "createdAt": "2026-02-24T22:52:22Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 15815,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 15844,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -230,6 +277,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 15815
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 15844
       }
     ],
     "language": "Rust",
@@ -342,8 +393,8 @@
     "novelty": "new",
     "createdAt": "2026-10-02T18:21:23Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1978,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1985,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -356,6 +407,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1978
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1985
       }
     ],
     "language": "C",
@@ -383,13 +438,13 @@
     "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
     "unique": "Topics: ai-agent, cloudflare, cloudflare-workers, durable-objects, personal-assistant",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Just launched · 728 ⭐ on GitHub · 188 points on Hacker News.",
+    "why": "Just launched · 749 ⭐ on GitHub · 188 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-10T09:46:56Z",
     "firstSeenAt": "2026-10-10T19:19:56.969Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 728,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 749,
     "starHistory": [
       {
         "at": "2026-10-10T19:19:56.969Z",
@@ -398,6 +453,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 728
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 749
       }
     ],
     "language": "TypeScript",
@@ -415,10 +474,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "728 stars",
+        "label": "749 stars",
         "url": "https://github.com/rociiu/talorys",
-        "value": 728,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 749,
+        "at": "2026-10-12T00:11:54.202Z"
       },
       {
         "source": "hackernews",
@@ -441,13 +500,13 @@
     "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
     "unique": "Topics: claude-code, codex, deepseek, gemini-cli, llm",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "18 days old · 9.1k ⭐ on GitHub.",
+    "why": "18 days old · 9.2k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-23T16:22:35Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 9130,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 9176,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -460,6 +519,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 9130
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 9176
       }
     ],
     "language": "Go",
@@ -475,10 +538,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "9,130 stars",
+        "label": "9,176 stars",
         "url": "https://github.com/yetone/magpie",
-        "value": 9130,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 9176,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 58,
@@ -499,8 +562,8 @@
     "novelty": "new",
     "createdAt": "2026-09-21T11:12:53Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 7606,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 7607,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -513,6 +576,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 7606
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 7607
       }
     ],
     "language": "Kotlin",
@@ -530,10 +597,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "7,606 stars",
+        "label": "7,607 stars",
         "url": "https://github.com/jev-chat/jev-chat-jarvis",
-        "value": 7606,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 7607,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 57,
@@ -554,8 +621,8 @@
     "novelty": "new",
     "createdAt": "2026-09-20T12:01:16Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 7679,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 7681,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -568,6 +635,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 7679
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 7681
       }
     ],
     "language": "TypeScript",
@@ -576,10 +647,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "7,679 stars",
+        "label": "7,681 stars",
         "url": "https://github.com/zai-org/ZCode",
-        "value": 7679,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 7681,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 57,
@@ -595,13 +666,13 @@
     "summary": "Deep AI search for every photo and every frame of video in any folder on macOS",
     "unique": "Topics: transformers-js, video-agents, video-processing, vlms, yt-dlp",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "8 days old · 466 ⭐ on GitHub · 180 points on Hacker News.",
+    "why": "8 days old · 469 ⭐ on GitHub · 180 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-03T16:11:55Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 466,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 469,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -614,6 +685,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 466
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 469
       }
     ],
     "language": "JavaScript",
@@ -647,13 +722,13 @@
     "summary": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
     "unique": "Topics: ai-agents, deepseek, deepseek-harness, developer-tools, dsh",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "17 days old · 8.8k ⭐ on GitHub.",
+    "why": "17 days old · 8.9k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-24T16:17:19Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 8798,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 8878,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -666,6 +741,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 8798
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 8878
       }
     ],
     "language": "JavaScript",
@@ -683,10 +762,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "8,798 stars",
+        "label": "8,878 stars",
         "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-        "value": 8798,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 8878,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 57,
@@ -702,13 +781,13 @@
     "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
     "unique": "Topics: ai, chinese, content-curation, daily-digest, docker-compose",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "12 days old · 7.2k ⭐ on GitHub.",
+    "why": "13 days old · 7.2k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-28T23:40:05Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 7167,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 7176,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -721,6 +800,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 7167
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 7176
       }
     ],
     "language": "TypeScript",
@@ -738,10 +821,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "7,167 stars",
+        "label": "7,176 stars",
         "url": "https://github.com/KKKKhazix/AIHOT",
-        "value": 7167,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 7176,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 56,
@@ -757,13 +840,13 @@
     "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
     "unique": "Topics: age-of-empires, claude-code, claude-code-plugin, fal, game-assets",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "11 days old · 6.6k ⭐ on GitHub.",
+    "why": "11 days old · 6.7k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-30T05:00:35Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 6609,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 6669,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -776,6 +859,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 6609
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 6669
       }
     ],
     "language": "Python",
@@ -793,10 +880,57 @@
     "signals": [
       {
         "source": "github",
-        "label": "6,609 stars",
+        "label": "6,668 stars",
         "url": "https://github.com/rehan-remade/universal-modder",
-        "value": 6609,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 6668,
+        "at": "2026-10-12T00:11:54.202Z"
+      }
+    ],
+    "score": 56,
+    "summarySource": "template"
+  },
+  {
+    "id": "861dedbb82b1e270",
+    "name": "MCPSafari",
+    "url": "https://github.com/Epistates/MCPSafari",
+    "repo": "Epistates/MCPSafari",
+    "kind": "github",
+    "description": "MCPSafari: Native Safari MCP Server for AI Agents",
+    "summary": "MCPSafari: Native Safari MCP Server for AI Agents",
+    "unique": "Topics: accessibility, agentic-ai, ai-agent-tools, ai-agents, ai-tools",
+    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
+    "why": "Agent pick · Older project (since 2026) gaining momentum · 59 ⭐ on GitHub.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "trending",
+    "createdAt": "2026-03-23T21:20:50Z",
+    "firstSeenAt": "2026-10-12T00:11:54.202Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 59,
+    "starHistory": [
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 59
+      }
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "topics": [
+      "accessibility",
+      "agentic-ai",
+      "ai-agent-tools",
+      "ai-agents",
+      "ai-tools",
+      "automation",
+      "browser-automation",
+      "claude"
+    ],
+    "signals": [
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://x.com/DanKornas/status/2109418505733042477",
+        "value": 1,
+        "at": "2026-10-12T00:11:44.438Z"
       }
     ],
     "score": 56,
@@ -863,13 +997,13 @@
     "summary": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
     "unique": "Topics: ai-agents, anthropic, antigravity, claude, claude-code",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "13 days old · 4.8k ⭐ on GitHub.",
+    "why": "14 days old · 4.8k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-27T21:54:12Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 4795,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 4833,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -882,6 +1016,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 4795
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 4833
       }
     ],
     "language": "Swift",
@@ -899,10 +1037,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "4,795 stars",
+        "label": "4,833 stars",
         "url": "https://github.com/Louis-CFM/coucou",
-        "value": 4795,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 4833,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 54,
@@ -918,13 +1056,13 @@
     "summary": "Agent tooling for generative LEGO models building, built with Astra and Opus 5.5, powered by Jev",
     "unique": "Written in Python",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "18 days old · 342 ⭐ on GitHub · 167 points on Hacker News.",
+    "why": "18 days old · 343 ⭐ on GitHub · 167 points on Hacker News.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-23T18:08:25Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 342,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 343,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -937,6 +1075,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 342
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 343
       }
     ],
     "language": "Python",
@@ -969,8 +1111,8 @@
     "novelty": "new",
     "createdAt": "2026-09-29T16:36:26Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 4401,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 4426,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -983,6 +1125,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 4401
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 4426
       }
     ],
     "language": "TypeScript",
@@ -1000,10 +1146,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "4,401 stars",
+        "label": "4,426 stars",
         "url": "https://github.com/shader-effects-inc/shaders",
-        "value": 4401,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 4426,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 54,
@@ -1024,8 +1170,8 @@
     "novelty": "new",
     "createdAt": "2026-09-21T05:26:26Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 3203,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 3209,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1038,6 +1184,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 3203
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 3209
       }
     ],
     "language": "TypeScript",
@@ -1046,10 +1196,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "3,203 stars",
+        "label": "3,209 stars",
         "url": "https://github.com/omnirush-ai/omnirush-gui",
-        "value": 3203,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 3209,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 52,
@@ -1070,8 +1220,8 @@
     "novelty": "new",
     "createdAt": "2026-10-02T09:57:40Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 2891,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 2900,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1084,6 +1234,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 2891
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 2900
       }
     ],
     "language": "JavaScript",
@@ -1101,10 +1255,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,891 stars",
+        "label": "2,900 stars",
         "url": "https://github.com/QingYunA/answer-me-with-html",
-        "value": 2891,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 2900,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 52,
@@ -1120,13 +1274,13 @@
     "summary": "Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.",
     "unique": "Topics: ai-tools, antidetect-browser, autonomous-agents, browser-agent, browser-automation",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "11 days old · 2.7k ⭐ on GitHub.",
+    "why": "12 days old · 2.7k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-29T23:06:00Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 2745,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 2747,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1139,6 +1293,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 2745
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 2747
       }
     ],
     "language": "Python",
@@ -1156,10 +1314,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,745 stars",
+        "label": "2,747 stars",
         "url": "https://github.com/feder-cr/invisible_playwright_mcp",
-        "value": 2745,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 2747,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 51,
@@ -1180,8 +1338,8 @@
     "novelty": "new",
     "createdAt": "2026-09-26T04:06:56Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 2576,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 2588,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1194,6 +1352,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 2576
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 2588
       }
     ],
     "language": "TypeScript",
@@ -1211,10 +1373,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,576 stars",
+        "label": "2,588 stars",
         "url": "https://github.com/dzhng/jevgrep",
-        "value": 2576,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 2588,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 51,
@@ -1230,13 +1392,13 @@
     "summary": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
     "unique": "Topics: agent-skills, branding, claude, claude-skills, codex",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "15 days old · 2.7k ⭐ on GitHub.",
+    "why": "15 days old · 2.8k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-26T08:23:34Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 2746,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 2764,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1249,6 +1411,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 2746
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 2764
       }
     ],
     "language": "HTML",
@@ -1266,10 +1432,76 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,746 stars",
+        "label": "2,764 stars",
         "url": "https://github.com/kaankiziltug/logo-design-skill",
-        "value": 2746,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 2764,
+        "at": "2026-10-12T00:11:54.202Z"
+      }
+    ],
+    "score": 51,
+    "summarySource": "template"
+  },
+  {
+    "id": "b1e41c350cf25adf",
+    "name": "nanoMuse",
+    "url": "https://nanomuse.cn/",
+    "repo": "nano-muse/nanoMuse",
+    "kind": "github",
+    "description": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser…",
+    "summary": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser…",
+    "unique": "Topics: agent-skills, ai-agent, android, computer-use, cross-device",
+    "benefit": "Helps you build or run AI agents that automate tasks.",
+    "why": "18 days old · 867 ⭐ on GitHub · 63 points on Hacker News.",
+    "pricing": "Open source (GPL-3.0) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-09-23T06:13:06Z",
+    "firstSeenAt": "2026-10-09T09:38:27.208Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 867,
+    "starHistory": [
+      {
+        "at": "2026-10-09T22:44:03.896Z",
+        "stars": 517
+      },
+      {
+        "at": "2026-10-10T19:19:56.969Z",
+        "stars": 754
+      },
+      {
+        "at": "2026-10-11T19:36:03.298Z",
+        "stars": 856
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 867
+      }
+    ],
+    "language": "Swift",
+    "license": "GPL-3.0",
+    "topics": [
+      "agent-skills",
+      "ai-agent",
+      "android",
+      "computer-use",
+      "cross-device",
+      "desktop-app",
+      "gui-agent",
+      "ios"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "866 stars",
+        "url": "https://github.com/nano-muse/nanoMuse",
+        "value": 866,
+        "at": "2026-10-12T00:11:54.202Z"
+      },
+      {
+        "source": "hackernews",
+        "label": "63 HN points · 22 comments",
+        "url": "https://news.ycombinator.com/item?id=49987765",
+        "value": 63,
+        "at": "2026-10-07T03:30:44Z"
       }
     ],
     "score": 51,
@@ -1290,8 +1522,8 @@
     "novelty": "new",
     "createdAt": "2026-09-17T14:23:21Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 2274,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 2276,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1304,6 +1536,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 2274
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 2276
       }
     ],
     "language": "Python",
@@ -1317,10 +1553,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,274 stars",
+        "label": "2,276 stars",
         "url": "https://github.com/yibie/awesome-jev",
-        "value": 2274,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 2276,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 50,
@@ -1341,8 +1577,8 @@
     "novelty": "new",
     "createdAt": "2026-09-26T05:35:17Z",
     "firstSeenAt": "2026-10-10T06:00:38.833Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 2135,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 2141,
     "starHistory": [
       {
         "at": "2026-10-10T19:19:56.969Z",
@@ -1351,6 +1587,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 2135
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 2141
       }
     ],
     "language": "Python",
@@ -1367,10 +1607,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,135 stars",
+        "label": "2,141 stars",
         "url": "https://github.com/feitangyuan/onetake",
-        "value": 2135,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 2141,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 50,
@@ -1391,8 +1631,8 @@
     "novelty": "new",
     "createdAt": "2026-09-28T19:14:59Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 2201,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 2248,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1405,6 +1645,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 2201
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 2248
       }
     ],
     "language": "JavaScript",
@@ -1422,72 +1666,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,201 stars",
+        "label": "2,248 stars",
         "url": "https://github.com/edenfunf/reelmimic",
-        "value": 2201,
-        "at": "2026-10-11T19:36:03.298Z"
-      }
-    ],
-    "score": 50,
-    "summarySource": "template"
-  },
-  {
-    "id": "b1e41c350cf25adf",
-    "name": "nanoMuse",
-    "url": "https://nanomuse.cn/",
-    "repo": "nano-muse/nanoMuse",
-    "kind": "github",
-    "description": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser…",
-    "summary": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser…",
-    "unique": "Topics: agent-skills, ai-agent, android, computer-use, cross-device",
-    "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "18 days old · 856 ⭐ on GitHub · 63 points on Hacker News.",
-    "pricing": "Open source (GPL-3.0) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-09-23T06:13:06Z",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 856,
-    "starHistory": [
-      {
-        "at": "2026-10-09T22:44:03.896Z",
-        "stars": 517
-      },
-      {
-        "at": "2026-10-10T19:19:56.969Z",
-        "stars": 754
-      },
-      {
-        "at": "2026-10-11T19:36:03.298Z",
-        "stars": 856
-      }
-    ],
-    "language": "Swift",
-    "license": "GPL-3.0",
-    "topics": [
-      "agent-skills",
-      "ai-agent",
-      "android",
-      "computer-use",
-      "cross-device",
-      "desktop-app",
-      "gui-agent",
-      "ios"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "856 stars",
-        "url": "https://github.com/nano-muse/nanoMuse",
-        "value": 856,
-        "at": "2026-10-11T19:36:03.298Z"
-      },
-      {
-        "source": "hackernews",
-        "label": "63 HN points · 22 comments",
-        "url": "https://news.ycombinator.com/item?id=49987765",
-        "value": 63,
-        "at": "2026-10-07T03:30:44Z"
+        "value": 2248,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 50,
@@ -1503,13 +1685,13 @@
     "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
     "unique": "Topics: ai, dividends, etf, finance, financial-planning",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "4 days old · 2.2k ⭐ on GitHub.",
+    "why": "5 days old · 2.2k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-06T20:14:19Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 2153,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 2229,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1522,6 +1704,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 2153
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 2229
       }
     ],
     "language": "Python",
@@ -1539,10 +1725,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,153 stars",
+        "label": "2,229 stars",
         "url": "https://github.com/LosaLosSantos/aurelio-finance",
-        "value": 2153,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 2229,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 50,
@@ -1563,8 +1749,8 @@
     "novelty": "new",
     "createdAt": "2026-09-30T11:49:32Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1854,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1859,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1577,6 +1763,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1854
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1859
       }
     ],
     "language": "Python",
@@ -1594,10 +1784,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,854 stars",
+        "label": "1,859 stars",
         "url": "https://github.com/nanaism/yomiyasu",
-        "value": 1854,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1859,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 49,
@@ -1613,7 +1803,7 @@
     "summary": "Skill to record video demos of your web app with zoom-ins and voiceover",
     "unique": "Written in TypeScript",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "23 days old · Featured in Ben's Bites · 189 ⭐ on GitHub.",
+    "why": "24 days old · Featured in Ben's Bites · 189 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-17T21:40:30Z",
@@ -1656,8 +1846,8 @@
     "novelty": "new",
     "createdAt": "2026-09-26T10:10:41Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1890,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1904,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1670,6 +1860,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1890
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1904
       }
     ],
     "language": "JavaScript",
@@ -1687,10 +1881,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,890 stars",
+        "label": "1,904 stars",
         "url": "https://github.com/lemomo-ai/lemo-opuscar",
-        "value": 1890,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1904,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 49,
@@ -1711,8 +1905,8 @@
     "novelty": "new",
     "createdAt": "2026-09-18T08:51:34Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1889,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1914,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1725,6 +1919,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1889
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1914
       }
     ],
     "language": "Python",
@@ -1742,10 +1940,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,889 stars",
+        "label": "1,914 stars",
         "url": "https://github.com/Oldcircle/geo-sleuth",
-        "value": 1889,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1914,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 49,
@@ -1766,8 +1964,8 @@
     "novelty": "new",
     "createdAt": "2026-10-03T12:07:49Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1852,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1906,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1780,6 +1978,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1852
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1906
       }
     ],
     "language": "Python",
@@ -1797,10 +1999,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,852 stars",
+        "label": "1,906 stars",
         "url": "https://github.com/Jakeschincariol/replica-skill",
-        "value": 1852,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1906,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 49,
@@ -1821,7 +2023,7 @@
     "novelty": "new",
     "createdAt": "2026-09-20T07:54:30Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 1494,
     "starHistory": [
       {
@@ -1834,6 +2036,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 1494
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 1494
       }
     ],
@@ -1853,7 +2059,7 @@
         "label": "1,494 stars",
         "url": "https://github.com/Inkloom-art/inkloom",
         "value": 1494,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 48,
@@ -1916,8 +2122,8 @@
     "novelty": "new",
     "createdAt": "2026-09-21T02:54:51Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1373,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1374,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1930,6 +2136,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1373
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1374
       }
     ],
     "language": "Swift",
@@ -1946,10 +2156,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,373 stars",
+        "label": "1,374 stars",
         "url": "https://github.com/freestylefly/WeChatBridge",
-        "value": 1373,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1374,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 48,
@@ -1970,8 +2180,8 @@
     "novelty": "new",
     "createdAt": "2026-09-15T13:03:42Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1357,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1361,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1984,6 +2194,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1357
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1361
       }
     ],
     "language": "Python",
@@ -1995,10 +2209,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,357 stars",
+        "label": "1,361 stars",
         "url": "https://github.com/bilibili/Index-Translate",
-        "value": 1357,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1361,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 48,
@@ -2127,8 +2341,8 @@
     "novelty": "new",
     "createdAt": "2026-09-21T05:55:40Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1180,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1189,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2141,6 +2355,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1180
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1189
       }
     ],
     "language": "Python",
@@ -2158,10 +2376,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,180 stars",
+        "label": "1,189 stars",
         "url": "https://github.com/nokia-applied-research/AnyJev",
-        "value": 1180,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1189,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 47,
@@ -2182,7 +2400,7 @@
     "novelty": "new",
     "createdAt": "2026-09-23T13:37:26Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 1269,
     "starHistory": [
       {
@@ -2195,6 +2413,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 1269
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 1269
       }
     ],
@@ -2216,7 +2438,7 @@
         "label": "1,269 stars",
         "url": "https://github.com/mikehasa/golive-skill",
         "value": 1269,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 47,
@@ -2237,8 +2459,8 @@
     "novelty": "new",
     "createdAt": "2026-09-16T17:48:45Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1222,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1223,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2251,6 +2473,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1222
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1223
       }
     ],
     "language": "Python",
@@ -2266,10 +2492,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,222 stars",
+        "label": "1,223 stars",
         "url": "https://github.com/awlevin/typesafe-computer-use",
-        "value": 1222,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1223,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 47,
@@ -2290,8 +2516,8 @@
     "novelty": "new",
     "createdAt": "2026-09-30T03:55:35Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1264,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1267,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2304,6 +2530,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1264
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1267
       }
     ],
     "language": "Python",
@@ -2321,10 +2551,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,264 stars",
+        "label": "1,267 stars",
         "url": "https://github.com/oil-oil/oil-ui",
-        "value": 1264,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1267,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 47,
@@ -2345,8 +2575,8 @@
     "novelty": "new",
     "createdAt": "2026-10-03T14:49:48Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1192,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1238,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2359,6 +2589,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1192
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1238
       }
     ],
     "language": "Go",
@@ -2376,10 +2610,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,192 stars",
+        "label": "1,238 stars",
         "url": "https://github.com/jiwoochris/artex-ko",
-        "value": 1192,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1238,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 47,
@@ -2400,8 +2634,8 @@
     "novelty": "new",
     "createdAt": "2026-09-20T05:22:39Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 1107,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 1115,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2414,6 +2648,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 1107
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 1115
       }
     ],
     "language": "Rust",
@@ -2431,10 +2669,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,107 stars",
+        "label": "1,115 stars",
         "url": "https://github.com/penso/herdr-gpui",
-        "value": 1107,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 1115,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 47,
@@ -2552,7 +2790,7 @@
     "novelty": "new",
     "createdAt": "2026-09-17T12:41:27Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 943,
     "starHistory": [
       {
@@ -2565,6 +2803,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 943
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 943
       }
     ],
@@ -2582,7 +2824,7 @@
         "label": "943 stars",
         "url": "https://github.com/TypeLLM/TypeLLM",
         "value": 943,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 46,
@@ -2653,13 +2895,13 @@
     "summary": "Intent compiler for AI agents — converges vague requests into typed IntentSpec contracts (probe, ask, or halt before routing), the input layer for routers and typed-decision models like Jev & Laya",
     "unique": "Topics: agent-skills, agentic, ai-agents, clarification, claude-code",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "19 days old · 844 ⭐ on GitHub.",
+    "why": "19 days old · 796 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-22T06:00:27Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 844,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 796,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2672,6 +2914,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 844
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 796
       }
     ],
     "language": "Python",
@@ -2689,10 +2935,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "844 stars",
+        "label": "798 stars",
         "url": "https://github.com/angel291592/Intent-Router",
-        "value": 844,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 798,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -2763,13 +3009,13 @@
     "summary": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
     "unique": "Topics: academic, arxiv, chinese, claude-code, codex",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "11 days old · 896 ⭐ on GitHub.",
+    "why": "11 days old · 895 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-30T12:52:24Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 896,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 895,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2782,6 +3028,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 896
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 895
       }
     ],
     "language": "Python",
@@ -2799,10 +3049,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "896 stars",
+        "label": "895 stars",
         "url": "https://github.com/Edwardxlai/easyread",
-        "value": 896,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 895,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -2823,7 +3073,7 @@
     "novelty": "new",
     "createdAt": "2026-09-21T14:37:14Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 790,
     "starHistory": [
       {
@@ -2836,6 +3086,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 790
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 790
       }
     ],
@@ -2857,7 +3111,7 @@
         "label": "790 stars",
         "url": "https://github.com/jev-chat/jev-chat-windows",
         "value": 790,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -2873,13 +3127,13 @@
     "summary": "Codex computer use, decoupled from the app, for usage inside any harness.",
     "unique": "Topics: accessibility, agent-skills, browser-automation, claude-code, codex-cli",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "19 days old · 896 ⭐ on GitHub.",
+    "why": "19 days old · 897 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-22T15:08:18Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 896,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 897,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2892,6 +3146,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 896
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 897
       }
     ],
     "language": "JavaScript",
@@ -2909,10 +3167,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "896 stars",
+        "label": "897 stars",
         "url": "https://github.com/amontlabs/lcu",
-        "value": 896,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 897,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -2933,7 +3191,7 @@
     "novelty": "new",
     "createdAt": "2026-09-22T11:20:47Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 884,
     "starHistory": [
       {
@@ -2946,6 +3204,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 884
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 884
       }
     ],
@@ -2967,7 +3229,7 @@
         "label": "884 stars",
         "url": "https://github.com/alexgreensh/anidoodle",
         "value": 884,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -2983,13 +3245,13 @@
     "summary": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
     "unique": "Written in Python",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "20 days old · 878 ⭐ on GitHub.",
+    "why": "21 days old · 879 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-21T00:00:02Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 878,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 879,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3002,6 +3264,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 878
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 879
       }
     ],
     "language": "Python",
@@ -3010,10 +3276,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "878 stars",
+        "label": "879 stars",
         "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
-        "value": 878,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 879,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -3034,7 +3300,7 @@
     "createdAt": "2026-10-09T09:31:18.502Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3072,7 +3338,7 @@
     "createdAt": "2026-10-09T14:35:33.981Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3103,7 +3369,7 @@
     "createdAt": "2026-10-09T14:35:33.716Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3134,7 +3400,7 @@
     "createdAt": "2026-10-09T14:35:33.470Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3165,7 +3431,7 @@
     "createdAt": "2026-10-09T14:35:33.219Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3196,7 +3462,7 @@
     "createdAt": "2026-10-09T14:35:32.976Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3222,13 +3488,13 @@
     "summary": "归藏 product video skill：复用真实产品组件和设计语言，用代码制作软件更新宣传片。包含分镜文案、原创配乐、动作音效与视频渲染，支持 Claude Code 和 Codex。",
     "unique": "Topics: agent-skills, claude-code, codepilot, codex, hyperframes",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "23 days old · 768 ⭐ on GitHub.",
+    "why": "23 days old · 770 ⭐ on GitHub.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-18T04:22:37Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T13:02:10.630Z",
-    "stars": 768,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 770,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3241,6 +3507,10 @@
       {
         "at": "2026-10-11T13:02:10.630Z",
         "stars": 768
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 770
       }
     ],
     "language": "Python",
@@ -3258,10 +3528,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "768 stars",
+        "label": "770 stars",
         "url": "https://github.com/op7418/guizang-product-video-skill",
-        "value": 768,
-        "at": "2026-10-11T13:02:10.630Z"
+        "value": 770,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -3276,13 +3546,13 @@
     "summary": "Track visitors, events, funnels, and goals without cookies. Ask Databunny, the built-in AI analyst, about your numbers and see the query. Free up to 10,000 events.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted today.",
+    "why": "Agent pick · First spotted 2 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:19.894Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3307,13 +3577,13 @@
     "summary": "A new universe of machines. Explore the Matter Compiler and a radically faster way to create.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted today.",
+    "why": "Agent pick · First spotted 2 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:19.596Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3338,13 +3608,13 @@
     "summary": "Create images, videos, and voice content with Higgsfield AI from text prompts or references. Edit and upscale media, automate creative workflows with its AI agent, and generate content on web and mobile.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted today.",
+    "why": "Agent pick · First spotted 2 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:19.322Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3369,13 +3639,13 @@
     "summary": "Connected Context. Living Memory. Self-Improving Intelligence. Built on the Reinvented AI-Native Messenger for Human+AI Teams.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted today.",
+    "why": "Agent pick · First spotted 2 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:19.049Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3400,13 +3670,13 @@
     "summary": "A cloud computer with AI built in. Hand it a job, and get the finished work back.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted today.",
+    "why": "Agent pick · First spotted 2 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:18.795Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3437,7 +3707,7 @@
     "novelty": "new",
     "createdAt": "2026-09-17T05:42:31Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 752,
     "starHistory": [
       {
@@ -3450,6 +3720,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 752
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 752
       }
     ],
@@ -3469,7 +3743,7 @@
         "label": "752 stars",
         "url": "https://github.com/ethanplusai/codex-on-crack",
         "value": 752,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -3485,13 +3759,13 @@
     "summary": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
     "unique": "Topics: agent, agentic-ai, claude-code, codex, data-analysis",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "26 days old · 771 ⭐ on GitHub.",
+    "why": "26 days old · 772 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-15T01:57:40Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 771,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 772,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3504,6 +3778,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 771
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 772
       }
     ],
     "language": "Python",
@@ -3521,10 +3799,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "771 stars",
+        "label": "772 stars",
         "url": "https://github.com/ruc-datalab/EvoOntology",
-        "value": 771,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 772,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -3540,13 +3818,13 @@
     "summary": "Browser and phone client for herdr: chat and live terminal for every agent pane, remote PCs over SSH, web push alerts",
     "unique": "Topics: bun, claude-code, codex, coding-agents, herdr",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "24 days old · 811 ⭐ on GitHub.",
+    "why": "24 days old · 821 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-17T18:52:07Z",
     "firstSeenAt": "2026-10-09T14:29:17.311Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 811,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 821,
     "starHistory": [
       {
         "at": "2026-10-09T14:35:39.162Z",
@@ -3559,6 +3837,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 811
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 821
       }
     ],
     "language": "TypeScript",
@@ -3576,10 +3858,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "811 stars",
+        "label": "821 stars",
         "url": "https://github.com/devswha/herdr-web-ui",
-        "value": 811,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 821,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 45,
@@ -3600,7 +3882,7 @@
     "createdAt": "2026-10-11T00:13:00.501Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3631,7 +3913,7 @@
     "createdAt": "2026-10-11T00:13:00.256Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3662,7 +3944,7 @@
     "createdAt": "2026-10-11T00:13:00.008Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3693,7 +3975,7 @@
     "createdAt": "2026-10-11T00:12:59.766Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3704,6 +3986,99 @@
         "url": "https://x.com/datologyai/status/2108576703014736073",
         "value": 1,
         "at": "2026-10-11T00:12:59.766Z"
+      }
+    ],
+    "score": 45,
+    "summarySource": "template"
+  },
+  {
+    "id": "611fa554fa71908e",
+    "name": "Underdog",
+    "url": "https://underdog.ai/",
+    "kind": "tip",
+    "description": "A loyal AI for your mail, calendar, and everyday work. Runs locally on your computer.",
+    "summary": "A loyal AI for your mail, calendar, and everyday work. Runs locally on your computer.",
+    "unique": "",
+    "benefit": "A new AI tool worth evaluating for your needs.",
+    "why": "Agent pick · First spotted today.",
+    "pricing": "Unverified — check the official pricing page",
+    "novelty": "new",
+    "createdAt": "2026-10-12T00:11:43.908Z",
+    "dateKind": "spotted",
+    "firstSeenAt": "2026-10-12T00:11:54.202Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "language": null,
+    "license": null,
+    "topics": [],
+    "signals": [
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://x.com/UnderdogAI/status/2109435411793944869",
+        "value": 1,
+        "at": "2026-10-12T00:11:43.908Z"
+      }
+    ],
+    "score": 45,
+    "summarySource": "template"
+  },
+  {
+    "id": "3b72fe2607b1d922",
+    "name": "Hermes Agent",
+    "url": "https://hermes-agent.nousresearch.com/",
+    "kind": "tip",
+    "description": "Hermes Agent — a standalone terminal app and a native application for macOS, Windows, and Linux. Install it and start a conversation with the agent that grows with you.",
+    "summary": "Hermes Agent — a standalone terminal app and a native application for macOS, Windows, and Linux. Install it and start a conversation with the agent that grows with you.",
+    "unique": "",
+    "benefit": "Could speed up coding workflows and developer automation.",
+    "why": "Agent pick · First spotted today.",
+    "pricing": "Unverified — check the official pricing page",
+    "novelty": "new",
+    "createdAt": "2026-10-12T00:11:43.648Z",
+    "dateKind": "spotted",
+    "firstSeenAt": "2026-10-12T00:11:54.202Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "language": null,
+    "license": null,
+    "topics": [],
+    "signals": [
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://x.com/NousResearch/status/2109012611555840069",
+        "value": 1,
+        "at": "2026-10-12T00:11:43.648Z"
+      }
+    ],
+    "score": 45,
+    "summarySource": "template"
+  },
+  {
+    "id": "8fd9122373931141",
+    "name": "Agent Use Cases: what people are actually doing with AI…",
+    "url": "https://agentusecases.ai/",
+    "kind": "tip",
+    "description": "A curated, continuously scanned directory of real things people are doing with AI agents. Browse for ideas on what to build or delegate.",
+    "summary": "A curated, continuously scanned directory of real things people are doing with AI agents. Browse for ideas on what to build or delegate.",
+    "unique": "",
+    "benefit": "Helps you build or run AI agents that automate tasks.",
+    "why": "Agent pick · First spotted today.",
+    "pricing": "Unverified — check the official pricing page",
+    "novelty": "new",
+    "createdAt": "2026-10-12T00:11:43.399Z",
+    "dateKind": "spotted",
+    "firstSeenAt": "2026-10-12T00:11:54.202Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "language": null,
+    "license": null,
+    "topics": [],
+    "signals": [
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://x.com/AlexFinn/status/2109037099253170600",
+        "value": 1,
+        "at": "2026-10-12T00:11:43.399Z"
       }
     ],
     "score": 45,
@@ -3775,7 +4150,7 @@
     "novelty": "new",
     "createdAt": "2026-09-25T04:50:06Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 656,
     "starHistory": [
       {
@@ -3788,6 +4163,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 656
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 656
       }
     ],
@@ -3809,7 +4188,7 @@
         "label": "656 stars",
         "url": "https://github.com/amitshekhariitbhu/ai-system-design",
         "value": 656,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 44,
@@ -3825,13 +4204,13 @@
     "summary": "A curated list of decision models (System One / typed decision models): hosted APIs, open-weight models, runtimes, SDKs, applications, benchmarks, and papers.",
     "unique": "Topics: ai-agents, awesome, awesome-list, decision-models, jev",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "24 days old · 636 ⭐ on GitHub.",
+    "why": "24 days old · 637 ⭐ on GitHub.",
     "pricing": "Open source (CC0-1.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-17T12:30:31Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 636,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 637,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3844,6 +4223,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 636
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 637
       }
     ],
     "language": "Python",
@@ -3861,10 +4244,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "636 stars",
+        "label": "637 stars",
         "url": "https://github.com/AnotiaWang/awesome-decision-models",
-        "value": 636,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 637,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 44,
@@ -3885,7 +4268,7 @@
     "novelty": "new",
     "createdAt": "2026-09-18T06:41:50Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 682,
     "starHistory": [
       {
@@ -3898,6 +4281,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 682
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 682
       }
     ],
@@ -3919,7 +4306,7 @@
         "label": "682 stars",
         "url": "https://github.com/logicrw/awesome-jev-projects",
         "value": 682,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 44,
@@ -4028,13 +4415,13 @@
     "summary": "Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI + Composio.",
     "unique": "Written in TypeScript",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "12 days old · 627 ⭐ on GitHub.",
+    "why": "12 days old · 628 ⭐ on GitHub.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-29T16:34:16Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 627,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 628,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4047,6 +4434,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 627
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 628
       }
     ],
     "language": "TypeScript",
@@ -4055,63 +4446,13 @@
     "signals": [
       {
         "source": "github",
-        "label": "627 stars",
+        "label": "628 stars",
         "url": "https://github.com/composio-community/open-dot",
-        "value": 627,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 628,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 44,
-    "summarySource": "template"
-  },
-  {
-    "id": "c9a6b6fcc33b2b9e",
-    "name": "JevRev",
-    "url": "https://github.com/Alex314618-create/JevRev",
-    "repo": "Alex314618-create/JevRev",
-    "kind": "github",
-    "description": "An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside. ",
-    "summary": "An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside. ",
-    "unique": "Topics: jev, llm, workflow",
-    "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "20 days old · 545 ⭐ on GitHub.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-09-21T01:53:13Z",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 545,
-    "starHistory": [
-      {
-        "at": "2026-10-09T22:44:03.896Z",
-        "stars": 706
-      },
-      {
-        "at": "2026-10-10T19:19:56.969Z",
-        "stars": 707
-      },
-      {
-        "at": "2026-10-11T19:36:03.298Z",
-        "stars": 545
-      }
-    ],
-    "language": "TypeScript",
-    "license": "MIT",
-    "topics": [
-      "jev",
-      "llm",
-      "workflow"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "545 stars",
-        "url": "https://github.com/Alex314618-create/JevRev",
-        "value": 545,
-        "at": "2026-10-11T19:36:03.298Z"
-      }
-    ],
-    "score": 43,
     "summarySource": "template"
   },
   {
@@ -4124,13 +4465,13 @@
     "summary": "AI coding with Aegis governance built into execution: baseline-aware changes, evidence-backed delivery. Free desktop client, your choice of model. 将哲科思维融入 AI 开发执行，让变更有依据、交付有证据。用创意编织现实。",
     "unique": "Topics: aegis, agentic-coding, ai-agent, ai-coding, coding-agent",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "11 days old · 596 ⭐ on GitHub.",
+    "why": "11 days old · 583 ⭐ on GitHub.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-30T12:40:15Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 596,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 583,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4143,6 +4484,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 596
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 583
       }
     ],
     "language": "JavaScript",
@@ -4160,10 +4505,64 @@
     "signals": [
       {
         "source": "github",
-        "label": "596 stars",
+        "label": "583 stars",
         "url": "https://github.com/GanyuanRan/Autoloom",
-        "value": 596,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 583,
+        "at": "2026-10-12T00:11:54.202Z"
+      }
+    ],
+    "score": 43,
+    "summarySource": "template"
+  },
+  {
+    "id": "c9a6b6fcc33b2b9e",
+    "name": "JevRev",
+    "url": "https://github.com/Alex314618-create/JevRev",
+    "repo": "Alex314618-create/JevRev",
+    "kind": "github",
+    "description": "An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside. ",
+    "summary": "An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside. ",
+    "unique": "Topics: jev, llm, workflow",
+    "benefit": "A new AI tool worth evaluating for your needs.",
+    "why": "20 days old · 545 ⭐ on GitHub.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-09-21T01:53:13Z",
+    "firstSeenAt": "2026-10-09T09:38:27.208Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 545,
+    "starHistory": [
+      {
+        "at": "2026-10-09T22:44:03.896Z",
+        "stars": 706
+      },
+      {
+        "at": "2026-10-10T19:19:56.969Z",
+        "stars": 707
+      },
+      {
+        "at": "2026-10-11T19:36:03.298Z",
+        "stars": 545
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 545
+      }
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "jev",
+      "llm",
+      "workflow"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "545 stars",
+        "url": "https://github.com/Alex314618-create/JevRev",
+        "value": 545,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4184,7 +4583,7 @@
     "novelty": "new",
     "createdAt": "2026-09-22T02:22:54Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 598,
     "starHistory": [
       {
@@ -4197,6 +4596,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 598
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 598
       }
     ],
@@ -4218,7 +4621,7 @@
         "label": "598 stars",
         "url": "https://github.com/kydlikebtc/awesome-jev",
         "value": 598,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4239,7 +4642,7 @@
     "novelty": "new",
     "createdAt": "2026-09-17T06:56:37Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 580,
     "starHistory": [
       {
@@ -4252,6 +4655,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 580
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 580
       }
     ],
@@ -4273,7 +4680,7 @@
         "label": "580 stars",
         "url": "https://github.com/AbdelStark/awesome-typesafe-jev",
         "value": 580,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4289,13 +4696,13 @@
     "summary": "A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions.",
     "unique": "Topics: ai-agents, awesome, awesome-list, confidence-aware-ai, decision-intelligence",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "23 days old · 536 ⭐ on GitHub.",
+    "why": "23 days old · 539 ⭐ on GitHub.",
     "pricing": "Open source (CC0-1.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-18T10:12:18Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T06:01:01.409Z",
-    "stars": 536,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 539,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4308,6 +4715,10 @@
       {
         "at": "2026-10-11T06:01:01.409Z",
         "stars": 536
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 539
       }
     ],
     "language": null,
@@ -4325,10 +4736,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "536 stars",
+        "label": "539 stars",
         "url": "https://github.com/cobanov/awesome-jev",
-        "value": 536,
-        "at": "2026-10-11T06:01:01.409Z"
+        "value": 539,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4391,13 +4802,13 @@
     "summary": "Explainer videos and product demos made by your AI agent. Free and open source: a local voice (Kokoro), word timing (Whisper) and a canvas renderer turn a script into a narrated MP4.",
     "unique": "Topics: ai-agents, animation, canvas, claude-code, codex",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "16 days old · 529 ⭐ on GitHub.",
+    "why": "16 days old · 532 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-25T15:09:54Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 529,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 532,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4410,6 +4821,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 529
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 532
       }
     ],
     "language": "JavaScript",
@@ -4427,10 +4842,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "529 stars",
+        "label": "532 stars",
         "url": "https://github.com/vincentsch/explainroo",
-        "value": 529,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 532,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4451,7 +4866,7 @@
     "novelty": "new",
     "createdAt": "2026-09-18T10:41:48Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 578,
     "starHistory": [
       {
@@ -4464,6 +4879,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 578
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 578
       }
     ],
@@ -4485,7 +4904,7 @@
         "label": "578 stars",
         "url": "https://github.com/coldteadotai/abide",
         "value": 578,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4506,7 +4925,7 @@
     "novelty": "new",
     "createdAt": "2026-09-17T15:52:38Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 577,
     "starHistory": [
       {
@@ -4519,6 +4938,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 577
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 577
       }
     ],
@@ -4538,7 +4961,7 @@
         "label": "577 stars",
         "url": "https://github.com/MichaelKinsy/PiG",
         "value": 577,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4554,13 +4977,13 @@
     "summary": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
     "unique": "Topics: 2d-animation, avatar, claude-code, codex, mesh-deformation",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "7 days old · 610 ⭐ on GitHub.",
+    "why": "7 days old · 613 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-04T03:33:57Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 610,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 613,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4573,6 +4996,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 610
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 613
       }
     ],
     "language": "TypeScript",
@@ -4589,10 +5016,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "610 stars",
+        "label": "613 stars",
         "url": "https://github.com/shinshin86/mesh-avatar-studio",
-        "value": 610,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 613,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4613,7 +5040,7 @@
     "novelty": "new",
     "createdAt": "2026-09-23T08:04:42Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 526,
     "starHistory": [
       {
@@ -4626,6 +5053,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 526
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 526
       }
     ],
@@ -4644,7 +5075,7 @@
         "label": "526 stars",
         "url": "https://github.com/amitshekhariitbhu/ai-engineering-course",
         "value": 526,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4665,7 +5096,7 @@
     "novelty": "new",
     "createdAt": "2026-09-18T06:45:54Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 572,
     "starHistory": [
       {
@@ -4679,6 +5110,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 572
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 572
       }
     ],
     "language": "Python",
@@ -4690,7 +5125,7 @@
         "label": "572 stars",
         "url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
         "value": 572,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4706,13 +5141,13 @@
     "summary": "A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.",
     "unique": "Topics: ai, machine-learning, natural-language-understanding, python, strands-agents",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "12 days old · 577 ⭐ on GitHub.",
+    "why": "12 days old · 579 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-29T16:36:38Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 577,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 579,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4725,6 +5160,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 577
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 579
       }
     ],
     "language": "Python",
@@ -4742,10 +5181,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "577 stars",
+        "label": "579 stars",
         "url": "https://github.com/strands-labs/strands-decider",
-        "value": 577,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 579,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4766,7 +5205,7 @@
     "novelty": "new",
     "createdAt": "2026-09-21T08:59:46Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 537,
     "starHistory": [
       {
@@ -4780,6 +5219,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 537
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 537
       }
     ],
     "language": "Python",
@@ -4791,7 +5234,7 @@
         "label": "537 stars",
         "url": "https://github.com/TianyuCodings/JevHarness",
         "value": 537,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4858,13 +5301,13 @@
     "summary": "Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, each security-graded. English / 中文.",
     "unique": "Topics: agent-skills, awesome-list, claude-code, claude-skills, codex",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "14 days old · 546 ⭐ on GitHub.",
+    "why": "14 days old · 549 ⭐ on GitHub.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-27T04:06:05Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 546,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 549,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4877,6 +5320,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 546
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 549
       }
     ],
     "language": null,
@@ -4894,10 +5341,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "546 stars",
+        "label": "549 stars",
         "url": "https://github.com/zhuyansen/awesome-claude-video-skills",
-        "value": 546,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 549,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4913,13 +5360,13 @@
     "summary": "Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, lint) on the lines you changed, then a separate reviewer process that checks every scanner finding and is given every changed line. No other API key.",
     "unique": "Topics: agent-skills, ai-agents, ai-code-review, claude-code, claude-code-plugin",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "9 days old · 599 ⭐ on GitHub.",
+    "why": "9 days old · 602 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-02T06:19:06Z",
     "firstSeenAt": "2026-10-10T00:02:12.072Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 599,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 602,
     "starHistory": [
       {
         "at": "2026-10-10T19:19:56.969Z",
@@ -4928,6 +5375,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 599
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 602
       }
     ],
     "language": "TypeScript",
@@ -4945,10 +5396,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "599 stars",
+        "label": "602 stars",
         "url": "https://github.com/openqodex/openqodex",
-        "value": 599,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 602,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -4964,13 +5415,13 @@
     "summary": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
     "unique": "Topics: ai-agents, claude, claude-code, harness, motion-design",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "6 days old · 570 ⭐ on GitHub.",
+    "why": "6 days old · 571 ⭐ on GitHub.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-05T15:15:13Z",
     "firstSeenAt": "2026-10-10T19:19:56.969Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 570,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 571,
     "starHistory": [
       {
         "at": "2026-10-10T19:19:56.969Z",
@@ -4979,6 +5430,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 570
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 571
       }
     ],
     "language": "JavaScript",
@@ -4996,10 +5451,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "570 stars",
+        "label": "571 stars",
         "url": "https://github.com/GTKottman/mortiflix-oss",
-        "value": 570,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 571,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -5011,42 +5466,46 @@
     "url": "https://sno.ai",
     "repo": "sno-ai/sno-station",
     "kind": "github",
-    "description": "Sno Station — your Claude Code and Codex working as one squad on your own machine. Shared encrypted memory, agent-to-agent messaging (Reach), squad skills for handoff and cross-vendor review, and a nightly loop that rewrites the agents' own skills with your approval. Open source, no daemon, no…",
-    "summary": "Sno Station — your Claude Code and Codex working as one squad on your own machine. Shared encrypted memory, agent-to-agent messaging (Reach), squad skills for handoff and cross-vendor review, and a nightly loop that rewrites the agents' own skills with your approval. Open source, no daemon, no…",
-    "unique": "Topics: agent-communication, agent-memory, agentic-ai, ai-agents, claude-code",
+    "description": "Turn the agents you already use into a squad. Codex, Claude Code, Cursor, Hermes Agent and OpenClaw share one encrypted memory, pass work to each other, review each other's work, and get better every night. Open source. Runs on your computer.",
+    "summary": "Turn the agents you already use into a squad. Codex, Claude Code, Cursor, Hermes Agent and OpenClaw share one encrypted memory, pass work to each other, review each other's work, and get better every night. Open source. Runs on your computer.",
+    "unique": "Topics: agent-memory, agent-skills, ai-agents, claude-code, code-review",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "22 days old · 607 ⭐ on GitHub.",
+    "why": "22 days old · 616 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-19T06:55:24Z",
     "firstSeenAt": "2026-10-11T13:02:10.630Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 607,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 616,
     "starHistory": [
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 607
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 616
       }
     ],
     "language": "TypeScript",
     "license": "Apache-2.0",
     "topics": [
-      "agent-communication",
       "agent-memory",
-      "agentic-ai",
+      "agent-skills",
       "ai-agents",
       "claude-code",
+      "code-review",
       "codex",
       "coding-agents",
-      "developer-tools"
+      "cursor"
     ],
     "signals": [
       {
         "source": "github",
-        "label": "607 stars",
+        "label": "616 stars",
         "url": "https://github.com/sno-ai/sno-station",
-        "value": 607,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 616,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 43,
@@ -5094,6 +5553,53 @@
     "summarySource": "template"
   },
   {
+    "id": "22baff0fefab0b61",
+    "name": "solidcraft",
+    "url": "https://bherbruck.github.io/solidcraft/",
+    "repo": "bherbruck/solidcraft",
+    "kind": "github",
+    "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+    "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+    "unique": "Topics: 3d-modeling, brep, cad, egui, mcp",
+    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
+    "why": "4 days old · 568 ⭐ on GitHub.",
+    "pricing": "Open source (Apache-2.0) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-07T18:57:48Z",
+    "firstSeenAt": "2026-10-12T00:04:09.274Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 568,
+    "starHistory": [
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 568
+      }
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "topics": [
+      "3d-modeling",
+      "brep",
+      "cad",
+      "egui",
+      "mcp",
+      "parametric-cad",
+      "rust",
+      "step"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "568 stars",
+        "url": "https://github.com/bherbruck/solidcraft",
+        "value": 568,
+        "at": "2026-10-12T00:11:54.202Z"
+      }
+    ],
+    "score": 43,
+    "summarySource": "template"
+  },
+  {
     "id": "5b736d3248424eb0",
     "name": "mu",
     "url": "https://usemu.dev",
@@ -5103,13 +5609,13 @@
     "summary": "mu (μ): a coding agent that thinks before it acts. A small, fast judge makes the routine calls, the big model does the work. Built on pi and AionUi.",
     "unique": "Topics: agent-harness, ai-agent, ai-coding, aionui, cli",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "19 days old · 490 ⭐ on GitHub.",
+    "why": "19 days old · 492 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-22T11:56:05Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 490,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 492,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -5122,6 +5628,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 490
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 492
       }
     ],
     "language": "TypeScript",
@@ -5139,10 +5649,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "490 stars",
+        "label": "492 stars",
         "url": "https://github.com/qybaihe/mu",
-        "value": 490,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 492,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 42,
@@ -5158,7 +5668,7 @@
     "summary": "PSSA: a non-transformer language model written from scratch in Rust. Recurrent state-space layer, episodic memory, self-modifying weights, CUDA training, and a full terminal dashboard.",
     "unique": "Topics: cuda, language-model, machine-learning, rust, state-space-model",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "52 days old · 105 ⭐ on GitHub · 90 points on Hacker News.",
+    "why": "53 days old · 105 ⭐ on GitHub · 90 points on Hacker News.",
     "pricing": "Open source (GPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-08-19T20:06:22Z",
@@ -5203,13 +5713,13 @@
     "summary": "Guides for building game mods with AI coding agents: passthrough mods, Rust rewrites, mod loaders, prompting, and troubleshooting.",
     "unique": "",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "8 days old · 486 ⭐ on GitHub.",
+    "why": "8 days old · 491 ⭐ on GitHub.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-10-03T11:48:59Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 486,
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "stars": 491,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -5222,6 +5732,10 @@
       {
         "at": "2026-10-11T19:36:03.298Z",
         "stars": 486
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
+        "stars": 491
       }
     ],
     "language": null,
@@ -5230,10 +5744,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "486 stars",
+        "label": "491 stars",
         "url": "https://github.com/trevaintdead/ai-game-modding-guides",
-        "value": 486,
-        "at": "2026-10-11T19:36:03.298Z"
+        "value": 491,
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 42,
@@ -5284,52 +5798,6 @@
       }
     ],
     "score": 42,
-    "summarySource": "template"
-  },
-  {
-    "id": "c8431eb613209c5b",
-    "name": "EvoVLM",
-    "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
-    "repo": "zzzz7788990213-ops/EvoVLM",
-    "kind": "github",
-    "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
-    "summary": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
-    "unique": "Written in Python",
-    "benefit": "Helps you build search/RAG on top of your own data.",
-    "why": "9 days old · 365 ⭐ on GitHub.",
-    "pricing": "Public code, unclear license — check the repo before use",
-    "novelty": "new",
-    "createdAt": "2026-10-02T01:03:55Z",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 365,
-    "starHistory": [
-      {
-        "at": "2026-10-09T22:44:03.896Z",
-        "stars": 508
-      },
-      {
-        "at": "2026-10-10T19:19:56.969Z",
-        "stars": 508
-      },
-      {
-        "at": "2026-10-11T19:36:03.298Z",
-        "stars": 365
-      }
-    ],
-    "language": "Python",
-    "license": null,
-    "topics": [],
-    "signals": [
-      {
-        "source": "github",
-        "label": "365 stars",
-        "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
-        "value": 365,
-        "at": "2026-10-11T19:36:03.298Z"
-      }
-    ],
-    "score": 41,
     "summarySource": "template"
   },
   {
@@ -5398,7 +5866,7 @@
     "novelty": "new",
     "createdAt": "2026-09-19T18:01:10Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 420,
     "starHistory": [
       {
@@ -5411,6 +5879,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 420
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 420
       }
     ],
@@ -5432,7 +5904,7 @@
         "label": "420 stars",
         "url": "https://github.com/walidboulanouar/awesome-jev-use-cases",
         "value": 420,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 41,
@@ -5500,7 +5972,7 @@
     "novelty": "new",
     "createdAt": "2026-09-21T16:24:42Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "stars": 379,
     "starHistory": [
       {
@@ -5513,6 +5985,10 @@
       },
       {
         "at": "2026-10-11T19:36:03.298Z",
+        "stars": 379
+      },
+      {
+        "at": "2026-10-12T00:11:54.202Z",
         "stars": 379
       }
     ],
@@ -5531,102 +6007,7 @@
         "label": "379 stars",
         "url": "https://github.com/malevrigns/agent-jev",
         "value": 379,
-        "at": "2026-10-11T19:36:03.298Z"
-      }
-    ],
-    "score": 41,
-    "summarySource": "template"
-  },
-  {
-    "id": "8cba011304a58afb",
-    "name": "knowclip",
-    "url": "https://github.com/KnowClip-ai/knowclip",
-    "repo": "KnowClip-ai/knowclip",
-    "kind": "github",
-    "description": "把直播、课程、演讲、口播等长视频自动切成精彩片段｜本地语音识别，音频不出本机；LLM 挑高光，批量导出",
-    "summary": "把直播、课程、演讲、口播等长视频自动切成精彩片段｜本地语音识别，音频不出本机；LLM 挑高光，批量导出",
-    "unique": "Written in TypeScript",
-    "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "28 days old · 384 ⭐ on GitHub.",
-    "pricing": "Open source (AGPL-3.0) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-09-13T02:32:12Z",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 384,
-    "starHistory": [
-      {
-        "at": "2026-10-09T22:44:03.896Z",
-        "stars": 360
-      },
-      {
-        "at": "2026-10-10T19:19:56.969Z",
-        "stars": 369
-      },
-      {
-        "at": "2026-10-11T19:36:03.298Z",
-        "stars": 384
-      }
-    ],
-    "language": "TypeScript",
-    "license": "AGPL-3.0",
-    "topics": [],
-    "signals": [
-      {
-        "source": "github",
-        "label": "384 stars",
-        "url": "https://github.com/KnowClip-ai/knowclip",
-        "value": 384,
-        "at": "2026-10-11T19:36:03.298Z"
-      }
-    ],
-    "score": 41,
-    "summarySource": "template"
-  },
-  {
-    "id": "2f5ec68c20b11609",
-    "name": "system-one-connector",
-    "url": "https://github.com/itsmostafa/system-one-connector",
-    "repo": "itsmostafa/system-one-connector",
-    "kind": "github",
-    "description": "System One MCP connector to evaluate anything fast and cheap. Give your AI agent direct access to models like: Jev, D1, CLM and Laya",
-    "summary": "System One MCP connector to evaluate anything fast and cheap. Give your AI agent direct access to models like: Jev, D1, CLM and Laya",
-    "unique": "Topics: mcp, mcp-tools",
-    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "24 days old · 349 ⭐ on GitHub.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-09-17T05:23:34Z",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "stars": 349,
-    "starHistory": [
-      {
-        "at": "2026-10-09T22:44:03.896Z",
-        "stars": 348
-      },
-      {
-        "at": "2026-10-10T19:19:56.969Z",
-        "stars": 349
-      },
-      {
-        "at": "2026-10-11T19:36:03.298Z",
-        "stars": 349
-      }
-    ],
-    "language": "Go",
-    "license": "MIT",
-    "topics": [
-      "mcp",
-      "mcp-tools"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "349 stars",
-        "url": "https://github.com/itsmostafa/system-one-connector",
-        "value": 349,
-        "at": "2026-10-11T19:36:03.298Z"
+        "at": "2026-10-12T00:11:54.202Z"
       }
     ],
     "score": 41,
@@ -5636,7 +6017,7 @@
     "id": "b8f7576006e38611",
     "name": "Cognition",
     "url": "https://cognition.com/agent-memory-repo",
-    "kind": "x",
+    "kind": "newsletter",
     "description": "Agent Memory Repo is an open spec for agent memory as a git repo: a MEMORY.md entry point, one-line entries with sources, and cross-links between files.",
     "summary": "Agent Memory Repo is an open spec for agent memory as a git repo: a MEMORY.md entry point, one-line entries with sources, and cross-links between files.",
     "unique": "",
@@ -5654,7 +6035,7 @@
       "date": "2026-10-05T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5699,7 +6080,7 @@
       "date": "2026-10-06T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5776,13 +6157,13 @@
     "summary": "Benchmarks and news on various repros of TypeSafe's Jev",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "23 days old · 586 likes · trending on HF Spaces.",
+    "why": "24 days old · 586 likes · trending on HF Spaces.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-09-17T20:05:16.000Z",
     "dateKind": "created",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5791,8 +6172,8 @@
         "source": "huggingface",
         "label": "586 likes · trending on HF Spaces",
         "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
-        "value": 147,
-        "at": "2026-10-11T19:37:02.174Z"
+        "value": 144,
+        "at": "2026-10-12T00:13:58.751Z"
       }
     ],
     "score": 28,
@@ -5813,7 +6194,7 @@
     "createdAt": "2026-08-31T10:04:36.000Z",
     "dateKind": "created",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5822,11 +6203,11 @@
         "source": "huggingface",
         "label": "229 likes · trending on HF Spaces",
         "url": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl",
-        "value": 124,
-        "at": "2026-10-11T19:37:02.174Z"
+        "value": 123,
+        "at": "2026-10-12T00:13:58.751Z"
       }
     ],
-    "score": 26,
+    "score": 25,
     "summarySource": "template"
   },
   {
@@ -5838,26 +6219,26 @@
     "summary": "Hugging Face model download stats, history & trends",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "8 days old · 184 likes · trending on HF Spaces.",
+    "why": "8 days old · 185 likes · trending on HF Spaces.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-03T13:53:19.000Z",
     "dateKind": "created",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
     "signals": [
       {
         "source": "huggingface",
-        "label": "184 likes · trending on HF Spaces",
+        "label": "185 likes · trending on HF Spaces",
         "url": "https://huggingface.co/spaces/tardellirs/model-pulse",
-        "value": 109,
-        "at": "2026-10-11T19:37:02.174Z"
+        "value": 106,
+        "at": "2026-10-12T00:13:58.751Z"
       }
     ],
-    "score": 24,
+    "score": 23,
     "summarySource": "template"
   },
   {
@@ -5875,7 +6256,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5906,7 +6287,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5937,7 +6318,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5968,7 +6349,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5999,7 +6380,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6030,7 +6411,7 @@
     "createdAt": "2026-10-06T13:01:18.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6061,7 +6442,7 @@
     "createdAt": "2026-10-06T13:01:18.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6092,7 +6473,7 @@
     "createdAt": "2026-10-06T13:01:18.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6123,7 +6504,7 @@
     "createdAt": "2026-09-29T13:01:15.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6154,7 +6535,7 @@
     "createdAt": "2026-09-29T13:01:15.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6185,7 +6566,7 @@
     "createdAt": "2026-09-29T13:01:15.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6278,7 +6659,7 @@
     "createdAt": "2026-09-29T13:01:15.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:54:21.859Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6309,7 +6690,7 @@
     "createdAt": "2026-10-06T13:01:18.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T06:00:38.833Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6339,7 +6720,7 @@
     "novelty": "new",
     "createdAt": "2026-10-02T19:10:38Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6456,23 +6837,23 @@
     "summary": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
     "unique": "",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "19 days old · 255 likes · trending on HF Spaces.",
+    "why": "19 days old · 259 likes · trending on HF Spaces.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-09-22T04:17:35.000Z",
     "dateKind": "created",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
     "signals": [
       {
         "source": "huggingface",
-        "label": "255 likes · trending on HF Spaces",
+        "label": "259 likes · trending on HF Spaces",
         "url": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo",
-        "value": 77,
-        "at": "2026-10-11T19:37:02.174Z"
+        "value": 79,
+        "at": "2026-10-12T00:13:58.751Z"
       }
     ],
     "score": 20,
@@ -6492,7 +6873,7 @@
     "novelty": "new",
     "createdAt": "2026-10-03T08:40:17Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6517,23 +6898,53 @@
     "summary": "Krea 2 Turbo text2image and image editing",
     "unique": "",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "6 days old · 63 likes · trending on HF Spaces.",
+    "why": "6 days old · 65 likes · trending on HF Spaces.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-05T07:05:39.000Z",
     "dateKind": "created",
     "firstSeenAt": "2026-10-11T19:36:03.298Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
     "signals": [
       {
         "source": "huggingface",
-        "label": "63 likes · trending on HF Spaces",
+        "label": "65 likes · trending on HF Spaces",
         "url": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2",
-        "value": 55,
-        "at": "2026-10-11T19:37:02.174Z"
+        "value": 56,
+        "at": "2026-10-12T00:13:58.751Z"
+      }
+    ],
+    "score": 17,
+    "summarySource": "template"
+  },
+  {
+    "id": "0b72d579eab193a5",
+    "name": "Jevman",
+    "url": "https://opper.ai/jevman-benchmark/",
+    "kind": "show-hn",
+    "description": "AI decision models play Pac-Man",
+    "summary": "AI decision models play Pac-Man",
+    "unique": "",
+    "benefit": "A new AI tool worth evaluating for your needs.",
+    "why": "3 days old · 79 points on Hacker News.",
+    "pricing": "Unverified — check the official pricing page",
+    "novelty": "new",
+    "createdAt": "2026-10-08T16:34:13Z",
+    "firstSeenAt": "2026-10-12T00:04:09.274Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
+    "language": null,
+    "license": null,
+    "topics": [],
+    "signals": [
+      {
+        "source": "hackernews",
+        "label": "79 HN points · 23 comments",
+        "url": "https://news.ycombinator.com/item?id=50007993",
+        "value": 79,
+        "at": "2026-10-08T16:34:13Z"
       }
     ],
     "score": 17,
@@ -6548,23 +6959,23 @@
     "summary": "text to video, image to video, video extend",
     "unique": "",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "33 days old · 221 likes · trending on HF Spaces.",
+    "why": "33 days old · 223 likes · trending on HF Spaces.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-09-08T03:23:08.000Z",
     "dateKind": "created",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
     "signals": [
       {
         "source": "huggingface",
-        "label": "221 likes · trending on HF Spaces",
+        "label": "223 likes · trending on HF Spaces",
         "url": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality",
-        "value": 46,
-        "at": "2026-10-11T19:37:02.174Z"
+        "value": 44,
+        "at": "2026-10-12T00:13:58.751Z"
       }
     ],
     "score": 16,
@@ -6584,7 +6995,7 @@
     "novelty": "new",
     "createdAt": "2026-10-07T16:59:11Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
+    "lastSeenAt": "2026-10-12T00:11:54.202Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -6628,130 +7039,6 @@
       }
     ],
     "score": 16,
-    "summarySource": "template"
-  },
-  {
-    "id": "1b5643f25ed5d644",
-    "name": "Wan2.2 14B Preview",
-    "url": "https://huggingface.co/spaces/kulkas2pintu/wan777",
-    "kind": "hf-space",
-    "description": "generate a video from an image with a text prompt",
-    "summary": "generate a video from an image with a text prompt",
-    "unique": "",
-    "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "Older project (since 2026) gaining momentum · 445 likes · trending on HF Spaces.",
-    "pricing": "Unverified — check the official pricing page",
-    "novelty": "trending",
-    "createdAt": "2026-07-15T11:49:16.000Z",
-    "dateKind": "created",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "language": null,
-    "license": null,
-    "topics": [],
-    "signals": [
-      {
-        "source": "huggingface",
-        "label": "445 likes · trending on HF Spaces",
-        "url": "https://huggingface.co/spaces/kulkas2pintu/wan777",
-        "value": 130,
-        "at": "2026-10-11T19:37:02.174Z"
-      }
-    ],
-    "score": 16,
-    "summarySource": "template"
-  },
-  {
-    "id": "2c0e9c8809d4c7dc",
-    "name": "MiniMax-H3 Character Swap LoRA",
-    "url": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora",
-    "kind": "hf-space",
-    "description": "Swap one character in a clip for a reference character",
-    "summary": "Swap one character in a clip for a reference character",
-    "unique": "",
-    "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "16 days old · 99 likes · trending on HF Spaces.",
-    "pricing": "Unverified — check the official pricing page",
-    "novelty": "new",
-    "createdAt": "2026-09-25T10:26:32.000Z",
-    "dateKind": "created",
-    "firstSeenAt": "2026-10-11T00:20:54.019Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "language": null,
-    "license": null,
-    "topics": [],
-    "signals": [
-      {
-        "source": "huggingface",
-        "label": "99 likes · trending on HF Spaces",
-        "url": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora",
-        "value": 42,
-        "at": "2026-10-11T19:37:02.174Z"
-      }
-    ],
-    "score": 15,
-    "summarySource": "template"
-  },
-  {
-    "id": "4ad3fe280af0ca23",
-    "name": "Qwen-Image-2.1",
-    "url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
-    "kind": "hf-space",
-    "description": "",
-    "summary": "Qwen-Image-2.1",
-    "unique": "",
-    "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "21 days old · 412 likes · trending on HF Spaces.",
-    "pricing": "Unverified — check the official pricing page",
-    "novelty": "new",
-    "createdAt": "2026-09-20T10:15:59.000Z",
-    "dateKind": "created",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-11T19:36:03.298Z",
-    "language": null,
-    "license": null,
-    "topics": [],
-    "signals": [
-      {
-        "source": "huggingface",
-        "label": "412 likes · trending on HF Spaces",
-        "url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
-        "value": 37,
-        "at": "2026-10-11T19:37:02.174Z"
-      }
-    ],
-    "score": 15,
-    "summarySource": "template"
-  },
-  {
-    "id": "daec72b77dd1c6e8",
-    "name": "ChessFly",
-    "url": "https://huggingface.co/spaces/mlabonne/chessfly",
-    "kind": "hf-space",
-    "description": "Just a fruit fly's brain, playing chess",
-    "summary": "Just a fruit fly's brain, playing chess",
-    "unique": "",
-    "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "24 days old · 146 likes · trending on HF Spaces.",
-    "pricing": "Unverified — check the official pricing page",
-    "novelty": "new",
-    "createdAt": "2026-09-17T04:45:19.000Z",
-    "dateKind": "created",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-10T12:41:29.737Z",
-    "language": null,
-    "license": null,
-    "topics": [],
-    "signals": [
-      {
-        "source": "huggingface",
-        "label": "146 likes · trending on HF Spaces",
-        "url": "https://huggingface.co/spaces/mlabonne/chessfly",
-        "value": 37,
-        "at": "2026-10-10T12:42:28.050Z"
-      }
-    ],
-    "score": 15,
     "summarySource": "template"
   }
 ]

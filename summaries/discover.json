@@ -373,5 +373,130 @@
     "summary": "Ambiguous gives each agent its own identity in the same apps and data as the rest of the team.",
     "unique": "You can email an agent, message it, assign a task, or mention it in a comment. Teams of up to five can use all 18 apps for free.",
     "benefit": "Small teams can give agents the same tools as people, free for up to five teammates."
+  },
+  "e60082cc57f31b00": {
+    "summary": "Anatomy is an agent skill that creates interactive isometric illustrations of machines and complex systems, as polished SVGs with optional WebGL shaders and 3D effects.",
+    "unique": "It is an open-source agent skill aimed at isometric SVG illustrations rather than a general image generator.",
+    "benefit": "People explaining a machine can ask an agent for a detailed isometric figure they can inspect."
+  },
+  "861dedbb82b1e270": {
+    "summary": "MCPSafari is a native Safari MCP server so AI agents can work in the browser on a Mac.",
+    "unique": "It targets Safari specifically, including accessibility and browser automation for agents.",
+    "benefit": "Agent builders on macOS can drive Safari through MCP instead of a separate browser."
+  },
+  "5fecc1e82f22ab7d": {
+    "summary": "HeyGen turns text, an image, or audio into a complete video with narration, captions, visuals, and animations.",
+    "unique": "One input of text, image, or audio is enough for it to assemble the full video.",
+    "benefit": "Creators can go from an idea to a narrated, captioned video without filming it themselves."
+  },
+  "987cef64af4d2978": {
+    "summary": "Datology automatically curates model training data so teams can train faster, improve performance, and reduce costs.",
+    "unique": "It focuses on enterprise-grade curation of the data used to train models.",
+    "benefit": "Teams training their own models can spend less on data prep while aiming for better results."
+  },
+  "611fa554fa71908e": {
+    "summary": "Underdog is a local AI for mail, calendar, and everyday work that runs on your computer.",
+    "unique": "It stays on the computer you already use instead of sending that everyday work elsewhere.",
+    "benefit": "People who want help with mail and calendar can run the assistant locally."
+  },
+  "3b72fe2607b1d922": {
+    "summary": "Hermes Agent is a standalone terminal app and a native application for macOS, Windows, and Linux.",
+    "unique": "You install it and keep talking with an agent that is meant to grow with you.",
+    "benefit": "Developers can run a persistent agent in the terminal or in a native desktop app."
+  },
+  "8fd9122373931141": {
+    "summary": "Agent Use Cases is a curated directory of real things people are doing with AI agents, scanned on an ongoing basis.",
+    "unique": "It collects working examples of what to build or delegate, not another agent runtime.",
+    "benefit": "Someone who already has an agent can browse concrete tasks to hand it."
+  },
+  "bb77bee59da6ad5d": {
+    "summary": "awesome-jev-tools is a curated list of tools built for Jev, TypeSafe AI's System One model for typed decisions.",
+    "unique": "The list is specific to Jev tools rather than general LLM libraries.",
+    "benefit": "Developers using Jev can find tools made for typed decisions in one list."
+  },
+  "1af61c53a9a1026e": {
+    "summary": "AI System Design is a course on designing systems built on LLMs, RAG, and AI agents, taught step by step.",
+    "unique": "The program walks through system design for those three pieces rather than a single model API.",
+    "benefit": "Engineers learning to design LLM, RAG, and agent systems get a step-by-step path."
+  },
+  "30a61943a75d7b7a": {
+    "summary": "awesome-decision-models lists decision models, including hosted APIs, open-weight models, runtimes, SDKs, applications, benchmarks, and papers.",
+    "unique": "It covers System One and typed decision models across the stack, not only one vendor.",
+    "benefit": "Builders comparing decision models can scan APIs, weights, runtimes, and papers in one list."
+  },
+  "3aedabad940870b8": {
+    "summary": "awesome-jev-projects is a source-backed radar of the open-source Jev ecosystem, with plain-language project pages and automatic GitHub sync.",
+    "unique": "It pairs ecosystem tracking with language meant for discovery, and it syncs from GitHub.",
+    "benefit": "People exploring Jev projects can read short descriptions that stay tied to the source repos."
+  },
+  "d2bc93caa6b4d6ba": {
+    "summary": "3dviz-pro-max is an agent skill that turns an idea into a Three.js or Blender scene, with recipes, knowledge records, proved kits, and runnable studies.",
+    "unique": "It ships as a Claude Code and Codex plugin for creative 3D visualization.",
+    "benefit": "Developers using Claude Code or Codex can ask an agent to build an explorable 3D scene."
+  },
+  "5ad34a0c5f9503ba": {
+    "summary": "Janus is an API router for AI models, written in Go, and it includes a Vulkan model runner.",
+    "unique": "Routing and a Vulkan runner live in the same Go project.",
+    "benefit": "Developers who want a Go router can also run models through its Vulkan runner."
+  },
+  "7d39728bd8d56f58": {
+    "summary": "open-dot is a set of open-source personal AI agents that work on their own computers, with a Mac app using OpenAI and Composio.",
+    "unique": "The agents are personal and run on their own computers, packaged as a Mac app.",
+    "benefit": "Mac users can try open-source personal agents that act on their own machine."
+  },
+  "43ce2405c958ffa7": {
+    "summary": "Autoloom is a free desktop client for AI coding that applies Aegis governance during execution, with baseline-aware changes and evidence-backed delivery.",
+    "unique": "You pick the model, and governance is built into the run rather than added afterward.",
+    "benefit": "Developers who want a coding agent can keep their model choice and get a record of what changed."
+  },
+  "c9a6b6fcc33b2b9e": {
+    "summary": "JevRev is a workflow that combines an LLM with Jev, described as adding a spine to a vertebrate brain.",
+    "unique": "It pairs a language model with Jev instead of using the language model alone.",
+    "benefit": "People already using Jev can try a workflow that puts it next to an LLM."
+  },
+  "759a5e8a78b59960": {
+    "summary": "This awesome-jev list indexes public resources for Jev, TypeSafe AI's System One decision model, by decision pattern, with source citations and dated link checks.",
+    "unique": "Entries are checked for links and call-site text on a schedule, and the site is available in English and Chinese.",
+    "benefit": "Developers can look up Jev resources by decision pattern and see when the links were checked."
+  },
+  "fc90db3c5a354c18": {
+    "summary": "awesome-typesafe-jev is a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.",
+    "unique": "It collects demos and outside evaluations alongside the SDKs, not only official links.",
+    "benefit": "Developers evaluating TypeSafe's System One model can start from SDKs, demos, and independent write-ups."
+  },
+  "2d7da9943122530a": {
+    "summary": "awesome-jev from cobanov is a curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions.",
+    "unique": "Every listed project is tied back to a source and built around typed decisions.",
+    "benefit": "Builders looking for real Jev projects can browse a list that cites its sources."
+  },
+  "7c8ac8bb9f83abb6": {
+    "summary": "agents-universe is a shared-agent workspace where project members work together, and the agent writes experience from materials and work back into the project context.",
+    "unique": "It is presented as a digital stand-in that does work, not a question-answering bot.",
+    "benefit": "A project team can share one agent and the context it builds from their materials and work."
+  },
+  "229eca4a8463a2cd": {
+    "summary": "explainroo makes explainer videos and product demos with an AI agent, using a local Kokoro voice, Whisper word timing, and a canvas renderer to turn a script into a narrated MP4.",
+    "unique": "Voice, timing, and rendering stay local, and the project is free and open source.",
+    "benefit": "An agent can turn a script into a narrated video without a paid voice or timing service."
+  },
+  "08ea1ef3c56c7b20": {
+    "summary": "abide makes a coding agent follow all of a project's rules, with hooks, plugins, and skills for Claude Code and Codex.",
+    "unique": "It is a rule-enforcement layer for those coding agents rather than another model.",
+    "benefit": "Teams with written project rules can have Claude Code or Codex apply them during a run."
+  },
+  "0e165b94682464fc": {
+    "summary": "PiG is a Go port of upstream Pi, the TypeScript codebase behind the Pi coding agent, kept as a parity-bound translation.",
+    "unique": "Upstream Pi behavior is the contract, and Go is only the implementation language.",
+    "benefit": "Teams that want the Pi coding agent in Go can follow a port that aims to match upstream behavior."
+  },
+  "2c26ee007454d2a2": {
+    "summary": "mesh-avatar-studio turns one illustration into an animated 2D mesh avatar using a coding agent and a local editor.",
+    "unique": "The animation comes from mesh deformation of a single illustration, including a WebGL path.",
+    "benefit": "Creators can make a 2D avatar from one drawing with a coding agent and a local editor."
+  },
+  "40771ea402156f90": {
+    "summary": "This free AI engineering course runs from machine learning, neural networks, and transformers through LLMs, fine-tuning, RAG, agents, inference, evaluation, safety, and system design.",
+    "unique": "It is a complete course path rather than a single library or model.",
+    "benefit": "Learners can follow one free sequence from core machine learning through agent systems and safety."
   }
 }

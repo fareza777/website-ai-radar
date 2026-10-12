@@ -85,5 +85,34 @@
         "itemId": "f6d3626eb7c890d9"
       }
     ]
+  },
+  "2026-10-12": {
+    "headline": "Asana's browser-agent tests got 76x cheaper with GPT-6.1 Sol, Claude 5.5 reached Kiro in AWS GovCloud, and Bedrock added Pegasus 1.5.",
+    "bullets": [
+      {
+        "text": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests with GPT-6.1 Sol.",
+        "itemId": "90995f7dbc9c2674"
+      },
+      {
+        "text": "Claude Sonnet 5.5 and Claude Opus 5.5 are in the Kiro IDE and CLI for AWS GovCloud (US). Opus 5.5 uses roughly 40% fewer tool calls and about half the tokens of Opus 5 in Kiro's internal tests.",
+        "itemId": "9ecc31063427a804"
+      },
+      {
+        "text": "Amazon Bedrock now supports TwelveLabs Pegasus 1.5, which reads a video and labels what happens and when.",
+        "itemId": "0deeee753f10c47e"
+      },
+      {
+        "text": "Amazon Bedrock now supports reasoning summaries for OpenAI models, so a response can include a readable summary of the model's reasoning.",
+        "itemId": "c780c1f332034095"
+      },
+      {
+        "text": "Sophos uses OpenAI Daybreak to cut threat investigation time by 96% and automate 52% of MDR cases.",
+        "itemId": "edd58468d564448f"
+      },
+      {
+        "text": "Claude Code v2.1.296 adds a code key for managed policies in Claude Desktop's Code tab and autoCompactWindow for subagents.",
+        "itemId": "03bdc9822921c76d"
+      }
+    ]
   }
 }
