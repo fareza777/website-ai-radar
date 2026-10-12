@@ -1,5 +1,47 @@
 [
   {
+    "id": "965c59907068dae3",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-12T00:37:16.803Z",
+    "field": "prompt",
+    "from": 0.00976,
+    "to": 0.0069,
+    "change": -29.3
+  },
+  {
+    "id": "a768633509d90a1c",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-12T00:37:16.803Z",
+    "field": "completion",
+    "from": 1.08,
+    "to": 0.64,
+    "change": -40.7
+  },
+  {
+    "id": "9b730f57b37c0036",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-12T00:37:16.803Z",
+    "field": "prompt",
+    "from": 0.0122,
+    "to": 0.0069,
+    "change": -43.4
+  },
+  {
+    "id": "ceeff843af173fb4",
+    "modelId": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "lab": "deepseek",
+    "at": "2026-10-12T00:37:16.803Z",
+    "field": "prompt",
+    "from": 0.0173,
+    "to": 0.0131,
+    "change": -24.3
+  },
+  {
     "id": "ff2fb5e9a56b95d5",
     "modelId": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
