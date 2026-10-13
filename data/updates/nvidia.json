@@ -1,5 +1,29 @@
 [
   {
+    "id": "8f872270b5d9a3f4",
+    "lab": "nvidia",
+    "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T05:00:31.000Z",
+    "firstSeenAt": "2026-10-13T06:52:26.045Z",
+    "updatedAt": "2026-10-13T05:00:31.000Z",
+    "excerpt": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments on French soil. What…",
+    "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "b86c87fe99f9"
+  },
+  {
     "id": "55338a2f5e2cb58f",
     "lab": "nvidia",
     "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
@@ -1178,7 +1202,7 @@
     "importance": 64,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 50,
+      "likes": 51,
       "downloads": 4167,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
@@ -1209,7 +1233,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 763,
+      "likes": 766,
       "downloads": 77153,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
@@ -1238,7 +1262,7 @@
     "importance": 67,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 128,
+      "likes": 129,
       "downloads": 1814,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
@@ -1269,7 +1293,7 @@
     "importance": 72,
     "contentHash": "a8d41ae3fa69",
     "meta": {
-      "likes": 535,
+      "likes": 536,
       "downloads": 4328,
       "repo": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
       "license": "openmdw-1.1"
