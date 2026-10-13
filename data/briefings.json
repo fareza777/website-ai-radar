@@ -1,45 +1,45 @@
 [
   {
     "date": "2026-10-13",
-    "generatedAt": "2026-10-13T06:52:26.045Z",
+    "generatedAt": "2026-10-13T16:59:55.572Z",
     "stats": {
-      "updates24h": 12,
+      "updates24h": 17,
       "labsActive24h": 6,
-      "updates7d": 103,
-      "newModels7d": 29
+      "updates7d": 102,
+      "newModels7d": 32
     },
     "source": "template",
-    "headline": "12 updates from 6 AI labs in the last 24 hours · 29 model releases this week.",
+    "headline": "17 updates from 6 AI labs in the last 24 hours · 32 model releases this week.",
     "bullets": [
       {
-        "text": "Amazon: Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
-        "itemId": "aff79a50d0a8b471",
+        "text": "Google DeepMind: Gemini 4 Argon for Robotics",
+        "itemId": "8b0463614a7b86fd",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Google DeepMind: Gemini 4 Argon: Built to solve your hardest problems",
+        "itemId": "66cb1e68848fee2d",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Amazon: Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+        "itemId": "c4d6082c07a1abcc",
         "lab": "amazon"
       },
       {
-        "text": "Amazon: Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
-        "itemId": "024d9eece6c046fd",
-        "lab": "amazon"
-      },
-      {
-        "text": "NVIDIA: ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
-        "itemId": "55338a2f5e2cb58f",
-        "lab": "nvidia"
-      },
-      {
-        "text": "Microsoft: Deep dive into Azure Maia 300 architecture",
-        "itemId": "280ae80917c40ca6",
-        "lab": "microsoft"
-      },
-      {
-        "text": "Meta AI: OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
-        "itemId": "0d15a85deea1f45c",
+        "text": "Meta AI: Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+        "itemId": "ead1f2c858219e65",
         "lab": "meta"
       },
       {
-        "text": "NVIDIA: OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-        "itemId": "64b8fb1d42bf98f3",
-        "lab": "nvidia"
+        "text": "Amazon: Natural language security queries at Orca Security using Amazon Bedrock",
+        "itemId": "958759977490d99c",
+        "lab": "amazon"
+      },
+      {
+        "text": "IBM: Scaling AI-driven chip design with open agent factories",
+        "itemId": "67f85c60691d51d6",
+        "lab": "ibm"
       }
     ]
   },

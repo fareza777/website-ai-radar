@@ -1,5 +1,102 @@
 [
   {
+    "id": "958759977490d99c",
+    "lab": "amazon",
+    "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T16:03:31.000Z",
+    "firstSeenAt": "2026-10-13T16:59:55.572Z",
+    "updatedAt": "2026-10-13T16:03:31.000Z",
+    "excerpt": "Security analysts need fast answers about their cloud infrastructure without deep familiarity with domain-specific query languages. Orca Security ’s tool covers over 900 cloud models (the resource types Sonar tracks, such as an Amazon Elastic Compute Cloud (Amazon EC2) instance or an Amazon Simple Storage Service (Amazon S3) bucket). Querying that data required precise model names, nested relationship navigation…",
+    "summary": "Security analysts need fast answers about their cloud infrastructure without deep familiarity with domain-specific query languages.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "safety"
+    ],
+    "importance": 60,
+    "contentHash": "bc1953c55d63"
+  },
+  {
+    "id": "576253ed894737fc",
+    "lab": "amazon",
+    "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T15:54:49.000Z",
+    "firstSeenAt": "2026-10-13T16:59:55.572Z",
+    "updatedAt": "2026-10-13T15:54:49.000Z",
+    "excerpt": "This post is co-written with Kenneth Salmon, Edward Boswell, Jack Armstrong, Robert Bahn, and Nick Ciubotariu from ShipStation Global. Answering the same IT questions and clearing routine tickets drains time that IT teams could spend elsewhere. To reclaim it, the ShipStation Global Engineering team built Deckhand , an AI-powered IT help desk agent for Slack, on Amazon Bedrock AgentCore . ShipStation Global is the…",
+    "summary": "This post is co-written with Kenneth Salmon, Edward Boswell, Jack Armstrong, Robert Bahn, and Nick Ciubotariu from ShipStation Global.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 50,
+    "contentHash": "708ae5385982"
+  },
+  {
+    "id": "c4d6082c07a1abcc",
+    "lab": "amazon",
+    "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T15:52:20.000Z",
+    "firstSeenAt": "2026-10-13T16:59:55.572Z",
+    "updatedAt": "2026-10-13T15:52:20.000Z",
+    "excerpt": "SpaceXAI’s Grok 4.7 is now available on Amazon Bedrock, which offers a choice of foundation models (FMs) from multiple providers. According to SpaceXAI, Grok 4.7 is trained to work longer on more difficult tasks and knows when to check its own work. That matters most for agents, which carry a task through many steps and must verify what they find along the way. An agent that works this way has to do more than look…",
+    "summary": "SpaceXAI’s Grok 4.7 is now available on Amazon Bedrock, which offers a choice of foundation models (FMs) from multiple providers.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 75,
+    "contentHash": "f6cda52addd4"
+  },
+  {
+    "id": "30ffa54d6618fa33",
+    "lab": "amazon",
+    "title": "Bring deep SageMaker AI expertise to your coding agent with the AWS AI/ML skill in the Agent Toolkit for AWS",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T14:00:00.000Z",
+    "firstSeenAt": "2026-10-13T16:59:55.572Z",
+    "updatedAt": "2026-10-13T14:00:00.000Z",
+    "excerpt": "Your coding agent can select, train, optimize and deploy models on Amazon SageMaker AI while working across the rest of your AWS environment in a single natural-language workflow. The AWS AI/ML skill is now a core skill in the Agent Toolkit for AWS , so it works alongside the toolkit's other AWS skills like EC2, Bedrock, and more. We released the new AWS AI/ML skill on the Agent Toolkit for AWS. The toolkit is now…",
+    "summary": "Your coding agent can select, train, optimize and deploy models on Amazon SageMaker AI while working across the rest of your AWS environment in a single natural-language workflow.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 60,
+    "contentHash": "4ca8d3e0cbd2"
+  },
+  {
     "id": "0c12915bdf3c5e6f",
     "lab": "amazon",
     "title": "Strands Agents SDK python v1.60.0",
@@ -794,8 +891,8 @@
     "importance": 58,
     "contentHash": "2462e1ba8e00",
     "meta": {
-      "likes": 8,
-      "downloads": 170,
+      "likes": 9,
+      "downloads": 233,
       "repo": "amazon/ALoDLM-1.7B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -822,11 +919,11 @@
     "tags": [
       "8B"
     ],
-    "importance": 62,
+    "importance": 63,
     "contentHash": "48b7b19078e5",
     "meta": {
-      "likes": 35,
-      "downloads": 790,
+      "likes": 36,
+      "downloads": 926,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"

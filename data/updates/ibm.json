@@ -1,5 +1,51 @@
 [
   {
+    "id": "4cac281cbf0a4557",
+    "lab": "ibm",
+    "title": "Preparing chip designers for the nanostack era",
+    "url": "https://research.ibm.com/blog/preparing-chip-designers-for-the-nanostack-era",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T16:00:00.000Z",
+    "firstSeenAt": "2026-10-13T16:59:55.572Z",
+    "updatedAt": "2026-10-13T16:00:00.000Z",
+    "excerpt": "IBM is releasing a process design kit for our groundbreaking 0.7-nanometer transistor architecture.",
+    "summary": "IBM is releasing a process design kit for our groundbreaking 0.7-nanometer transistor architecture.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "e9001bf8377f"
+  },
+  {
+    "id": "67f85c60691d51d6",
+    "lab": "ibm",
+    "title": "Scaling AI-driven chip design with open agent factories",
+    "url": "https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "firstSeenAt": "2026-10-13T16:59:55.572Z",
+    "updatedAt": "2026-10-13T12:00:00.000Z",
+    "excerpt": "Open models and llm-d enabled IBM Research to explore quantum error correction hardware at 11.5× lower inference cost than an all-proprietary configuration.",
+    "summary": "Open models and llm-d enabled IBM Research to explore quantum error correction hardware at 11.5× lower inference cost than an all-proprietary configuration.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 60,
+    "contentHash": "e03099ed3eca"
+  },
+  {
     "id": "a4e3621bd2f9b0a6",
     "lab": "ibm",
     "title": "Docling v2.138.0",
@@ -351,7 +397,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 4,
-      "downloads": 101,
+      "downloads": 116,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
@@ -657,7 +703,7 @@
     "contentHash": "45adf5a46f06",
     "meta": {
       "likes": 34,
-      "downloads": 1053,
+      "downloads": 1042,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
       "license": "cc-by-nc-sa-4.0"
@@ -756,7 +802,7 @@
     "contentHash": "ff3e756cb61a",
     "meta": {
       "likes": 132,
-      "downloads": 37304,
+      "downloads": 38481,
       "repo": "ibm-granite/granite-4.2-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -786,8 +832,8 @@
     "importance": 66,
     "contentHash": "c8e55083221f",
     "meta": {
-      "likes": 98,
-      "downloads": 123337,
+      "likes": 99,
+      "downloads": 119133,
       "repo": "ibm-granite/granite-4.2-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -818,7 +864,7 @@
     "contentHash": "d9e26c7be4a7",
     "meta": {
       "likes": 111,
-      "downloads": 46285,
+      "downloads": 46198,
       "repo": "ibm-granite/granite-4.2-3b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -847,7 +893,7 @@
     "contentHash": "720803661a02",
     "meta": {
       "likes": 16,
-      "downloads": 335697,
+      "downloads": 336623,
       "repo": "ibm-granite/granite-timeseries-patchtst-fm-r2",
       "pipeline": "time-series-forecasting",
       "license": "openmdw-1.0"
@@ -879,7 +925,7 @@
     "contentHash": "d9d402627057",
     "meta": {
       "likes": 78,
-      "downloads": 59821,
+      "downloads": 59238,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
