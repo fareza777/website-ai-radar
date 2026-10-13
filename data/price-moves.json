@@ -1,5 +1,202 @@
 [
   {
+    "id": "ca38ff41720f06f1",
+    "modelId": "inclusionai/ling-3.1-flash",
+    "name": "inclusionAI: Ling 3.1 Flash",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0,
+    "to": 0.075,
+    "change": 100
+  },
+  {
+    "id": "4c8c08b846a24aea",
+    "modelId": "inclusionai/ling-3.1-flash",
+    "name": "inclusionAI: Ling 3.1 Flash",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "completion",
+    "from": 0,
+    "to": 0.225,
+    "change": 100
+  },
+  {
+    "id": "6639f16c0fce5e1f",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0.24948,
+    "to": 0.1627,
+    "change": -34.8
+  },
+  {
+    "id": "77fbbb3b6812f873",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "completion",
+    "from": 0.74844,
+    "to": 8,
+    "change": 968.9
+  },
+  {
+    "id": "4de62af2ed09cb94",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "completion",
+    "from": 0.63,
+    "to": 0.765,
+    "change": 21.4
+  },
+  {
+    "id": "e4c1d6cda0a9b1f6",
+    "modelId": "inclusionai/ling-3.0-flash-vl",
+    "name": "inclusionAI: Ling 3.0 Flash VL",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0.021,
+    "to": 0.06,
+    "change": 185.7
+  },
+  {
+    "id": "81bd92c6930f20e7",
+    "modelId": "inclusionai/ling-3.0-flash-vl",
+    "name": "inclusionAI: Ling 3.0 Flash VL",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "completion",
+    "from": 0.0616,
+    "to": 0.18,
+    "change": 192.2
+  },
+  {
+    "id": "5a378c69279f6273",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "completion",
+    "from": 0.63,
+    "to": 0.765,
+    "change": 21.4
+  },
+  {
+    "id": "55f105f356d1dc96",
+    "modelId": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0.0261,
+    "to": 0.0297,
+    "change": 13.8
+  },
+  {
+    "id": "33007e2844b19c1b",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0.0261,
+    "to": 0.0297,
+    "change": 13.8
+  },
+  {
+    "id": "a78166f9baa8305b",
+    "modelId": "~z-ai/glm-latest",
+    "name": "Z.ai: GLM Latest",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0.055,
+    "to": 0.063,
+    "change": 14.5
+  },
+  {
+    "id": "bff87f0b708b6960",
+    "modelId": "~z-ai/glm-latest",
+    "name": "Z.ai: GLM Latest",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "completion",
+    "from": 5,
+    "to": 4.4,
+    "change": -12
+  },
+  {
+    "id": "bcd7fae4de8a82ed",
+    "modelId": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "lab": "zai",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0.06,
+    "to": 0.08,
+    "change": 33.3
+  },
+  {
+    "id": "2f1d50c3ff3f01ce",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0.73,
+    "to": 0.72,
+    "change": -1.4
+  },
+  {
+    "id": "43dcfea089b6cb69",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "completion",
+    "from": 10,
+    "to": 24,
+    "change": 140
+  },
+  {
+    "id": "31f1b2d1c7ef9ec9",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0.436044,
+    "to": 0.386976,
+    "change": -11.3
+  },
+  {
+    "id": "771fc1621fa030a2",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "completion",
+    "from": 0.872088,
+    "to": 0.773952,
+    "change": -11.3
+  },
+  {
+    "id": "4d211adc8e24bbbf",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "prompt",
+    "from": 0.09,
+    "to": 0.0765,
+    "change": -15
+  },
+  {
+    "id": "50641d0baed39e6a",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-13T22:53:06.584Z",
+    "field": "completion",
+    "from": 0.3,
+    "to": 0.255,
+    "change": -15
+  },
+  {
     "id": "31512b3783485e5c",
     "modelId": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",

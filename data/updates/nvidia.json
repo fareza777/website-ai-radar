@@ -1,8 +1,32 @@
 [
   {
+    "id": "68e3de130cf5b6d1",
+    "lab": "nvidia",
+    "title": "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents",
+    "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T21:33:21.000Z",
+    "firstSeenAt": "2026-10-13T22:53:06.584Z",
+    "updatedAt": "2026-10-13T21:33:21.000Z",
+    "excerpt": "Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex... Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex queries across increasingly large datasets. Meeting that demand requires greater data throughput without a…",
+    "summary": "Enterprise applications have become increasingly demanding.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 15,
+    "contentHash": "f0188232e949"
+  },
+  {
     "id": "8f872270b5d9a3f4",
     "lab": "nvidia",
-    "title": "NVIDIA Announces New Investments in France’s Startup Ecosystem",
+    "title": "NVIDIA Announces New Investments in France’s Startups",
     "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing",
     "sourceId": "nvidia-blog",
     "sourceName": "NVIDIA Blog",
@@ -11,7 +35,7 @@
     "verified": true,
     "publishedAt": "2026-10-13T05:00:31.000Z",
     "firstSeenAt": "2026-10-13T06:52:26.045Z",
-    "updatedAt": "2026-10-13T16:59:55.572Z",
+    "updatedAt": "2026-10-13T22:53:06.584Z",
     "excerpt": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments on French soil. What…",
     "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application.",
     "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
@@ -21,7 +45,7 @@
       "agents"
     ],
     "importance": 40,
-    "contentHash": "3e7225980fbd"
+    "contentHash": "bbcee6ebc347"
   },
   {
     "id": "55338a2f5e2cb58f",
@@ -71,6 +95,33 @@
     ],
     "importance": 50,
     "contentHash": "6b9c836e4d09"
+  },
+  {
+    "id": "884bd12f42c33ae7",
+    "lab": "nvidia",
+    "title": "TensorRT-LLM v1.4.0",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.4.0rc0",
+    "sourceId": "tensorrt-llm",
+    "sourceName": "GitHub · NVIDIA/TensorRT-LLM",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-08T22:16:15.000Z",
+    "firstSeenAt": "2026-10-13T22:53:06.584Z",
+    "updatedAt": "2026-10-08T22:16:15.000Z",
+    "excerpt": "[https://nvbugs/6345827][test] Unwaive DeepSeekV3Lite disagg MTP test…",
+    "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "aaa5a6a1a71b",
+    "meta": {
+      "version": "v1.4.0",
+      "semver": "minor",
+      "repo": "NVIDIA/TensorRT-LLM"
+    }
   },
   {
     "id": "1112027d5901b6f1",

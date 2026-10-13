@@ -1,5 +1,56 @@
 [
   {
+    "id": "36d7843570633727",
+    "lab": "google-deepmind",
+    "title": "Gemini CLI v0.64.0",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0",
+    "sourceId": "gemini-cli",
+    "sourceName": "GitHub · google-gemini/gemini-cli",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T20:44:46.000Z",
+    "firstSeenAt": "2026-10-13T22:53:06.584Z",
+    "updatedAt": "2026-10-13T20:44:46.000Z",
+    "excerpt": "What's Changed refactor(a2a-server): implement V1 to V2 settings migration logic by @jvargassanchez-dot in #29450 fix(acp): bridge PromptResponse.usage and emit usage_update notifications ( #29389 ) by @elberthc-byte in #29549 Changelog for v0.63.0-preview.0 by @gemini-cli-robot in #29565 fix(cli): propagate resolved folder trust state in headless mode ( #29031 ) by @amelidev in #29528 chore(release): bump version…",
+    "summary": "Google DeepMind shipped Gemini CLI v0.64.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "3e2a2a9abbc6",
+    "meta": {
+      "version": "v0.64.0",
+      "semver": "minor",
+      "repo": "google-gemini/gemini-cli"
+    }
+  },
+  {
+    "id": "25432b6b093a311b",
+    "lab": "google-deepmind",
+    "title": "Developing Gemini 4 Argon responsibly and safely",
+    "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+    "sourceId": "deepmind-blog",
+    "sourceName": "Google DeepMind Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T19:43:07.000Z",
+    "firstSeenAt": "2026-10-13T22:53:06.584Z",
+    "updatedAt": "2026-10-13T19:43:07.000Z",
+    "excerpt": "",
+    "summary": "Official model update from Google DeepMind (Google DeepMind Blog).",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 80,
+    "contentHash": "55b3b21a8836"
+  },
+  {
     "id": "8b0463614a7b86fd",
     "lab": "google-deepmind",
     "title": "Gemini 4 Argon for Robotics",
@@ -750,7 +801,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 2063,
+      "likes": 2097,
       "downloads": 124930,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",
@@ -1348,7 +1399,7 @@
     "importance": 65,
     "contentHash": "3cfb5c2feb64",
     "meta": {
-      "likes": 15,
+      "likes": 16,
       "downloads": 668,
       "repo": "google/tabfm-1.1.0-pytorch",
       "pipeline": "tabular-classification",
