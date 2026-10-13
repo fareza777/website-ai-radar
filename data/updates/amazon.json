@@ -53,6 +53,31 @@
     "contentHash": "fb6c572797ad"
   },
   {
+    "id": "aff79a50d0a8b471",
+    "lab": "amazon",
+    "title": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-12T16:00:00.000Z",
+    "firstSeenAt": "2026-10-13T00:02:24.611Z",
+    "updatedAt": "2026-10-12T16:00:00.000Z",
+    "excerpt": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore Amazon Bedrock AgentCore memory now prices short-term memory (STM) based on the data your agents ingest, retrieve, and store, replacing the previous flat rate per event. AgentCore memory gives agents in-session context through short-term memory and persistent knowledge across sessions through long-term memory. With…",
+    "summary": "Amazon Bedrock AgentCore memory now prices short-term memory (STM) based on the data your agents ingest, retrieve, and store, replacing the previous flat rate per event.",
+    "benefit": "May change your costs — re-estimate your API or subscription spend.",
+    "summarySource": "template",
+    "category": "pricing",
+    "tags": [
+      "agents",
+      "rag"
+    ],
+    "importance": 70,
+    "contentHash": "be421e497bec"
+  },
+  {
     "id": "c780c1f332034095",
     "lab": "amazon",
     "title": "Amazon Bedrock now supports reasoning summaries for OpenAI models",
@@ -800,7 +825,7 @@
     "importance": 62,
     "contentHash": "48b7b19078e5",
     "meta": {
-      "likes": 33,
+      "likes": 34,
       "downloads": 790,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",

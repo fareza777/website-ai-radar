@@ -498,5 +498,130 @@
     "summary": "This free AI engineering course runs from machine learning, neural networks, and transformers through LLMs, fine-tuning, RAG, agents, inference, evaluation, safety, and system design.",
     "unique": "It is a complete course path rather than a single library or model.",
     "benefit": "Learners can follow one free sequence from core machine learning through agent systems and safety."
+  },
+  "4bb3f4842d73670a": {
+    "summary": "rea reverse engineers anything with agents, from app behavior down to native binaries.",
+    "unique": "Agents can go from how an app behaves all the way down to native binaries.",
+    "benefit": "Developers can ask an agent to explain an app's behavior and its native binaries."
+  },
+  "fb7ab59fa69f0381": {
+    "summary": "Insomnia is a macOS menu bar app that keeps a MacBook awake with the lid closed for timed agent sessions.",
+    "unique": "It is built to hold the lid closed safely, and only for a timed session.",
+    "benefit": "People running agents on a MacBook can close the lid for a set time without the machine sleeping."
+  },
+  "22baff0fefab0b61": {
+    "summary": "SolidCraft is an open-source parametric 3D CAD application built in pure Rust, for desktop, web, and automation through MCP.",
+    "unique": "Parametric CAD in pure Rust, with MCP automation as well as desktop and web.",
+    "benefit": "Designers and agents can build parametric 3D models in one Rust app, including through MCP."
+  },
+  "e6251d499b27562d": {
+    "summary": "Agent37 gives every customer an agent in its own isolated sandbox, at up to 95% lower cost than most sandbox providers.",
+    "unique": "Each customer gets an isolated sandbox, priced up to 95% below most sandbox providers.",
+    "benefit": "Teams shipping agents can host one isolated sandbox per customer without typical sandbox prices."
+  },
+  "e1b0220265d32580": {
+    "summary": "LaunchRepo uses your AI agent to prepare directory submissions with platform instructions, a reusable product brief, and a local tracker. You pay once for your own products.",
+    "unique": "It runs on your machine: the agent creates directory accounts in your Chrome with your email, and every status stays in a local file.",
+    "benefit": "Founders can have their own agent submit products to directories and keep the tracker locally."
+  },
+  "b3449ae46e95172d": {
+    "summary": "Ambi is ambient intelligence that understands context in real time, remembers what matters, and helps move work forward across your devices.",
+    "unique": "It stays with context in real time and carries work across devices, rather than waiting for a fresh prompt each time.",
+    "benefit": "People who switch devices can keep context and follow-through in one ambient system."
+  },
+  "e8726b993c2e2f5a": {
+    "summary": "Subquadratic is a frontier AI research and infrastructure company building a new class of LLMs.",
+    "unique": "It focuses on a new class of LLMs, plus the infrastructure to run them.",
+    "benefit": "Teams watching new model architectures can follow a lab building both the models and the infrastructure."
+  },
+  "b85ce8a761e51747": {
+    "summary": "Agentrail reconstructs real agent journeys across your website, docs, APIs, SDKs, and MCPs, including task completion rate and where agents break.",
+    "unique": "It stitches agent activity across docs, APIs, SDKs, and MCPs into the task the agent was trying to finish.",
+    "benefit": "Product teams can see where agents fail on their docs and APIs and what to fix first."
+  },
+  "fd0702d2b5d0afbe": {
+    "summary": "The Ambi waitlist is where you apply for access. A free 7-day trial is offered when access is ready.",
+    "unique": "The waitlist post offers a free 7-day trial and describes Ambi keeping a thread while you step away.",
+    "benefit": "People who want to try Ambi can join the waitlist and apply for a free 7-day trial."
+  },
+  "e459639063764d4f": {
+    "summary": "sno-station turns agents you already use into a squad. Codex, Claude Code, Cursor, Hermes Agent, and OpenClaw share one encrypted memory, pass work, review each other, and dream every night.",
+    "unique": "Open source, runs on your computer, and gives those agents one encrypted memory plus nightly self-improvement.",
+    "benefit": "People running several coding agents can share memory and reviews locally instead of keeping each agent separate."
+  },
+  "cb279fb80f5dd0da": {
+    "summary": "openqodex is open source code review that runs in your coding agent before you push, with scanners plus a separate AI reviewer on your own login and no key.",
+    "unique": "Review happens in the agent before push, using your login and no extra key.",
+    "benefit": "Developers can catch issues in the agent they already use, before the code is pushed."
+  },
+  "48c815d8fc9e25e7": {
+    "summary": "OrcaBonsai-27B-Uncensored is runtime behavioral ablation for compressed LLMs. The first target is Ternary Bonsai 2 27B, with no weight modification or re-quantization.",
+    "unique": "It changes behavior at runtime for a compressed 27B model without editing or re-quantizing weights.",
+    "benefit": "People running Ternary Bonsai 2 27B can adjust behavior without rebuilding the weights."
+  },
+  "a3f4cc3755ac9570": {
+    "summary": "strands-decider is a small, fast decision model for agentic workflows. It picks between options or rates on a scale faster than an LLM, with a calibrated confidence on every decision.",
+    "unique": "A system-one model that returns a choice or a score plus calibrated confidence, faster than an LLM.",
+    "benefit": "Agent builders can route or score routine decisions quickly and see how confident each call is."
+  },
+  "036152ef8d636b82": {
+    "summary": "JevHarness produces LLM-authored, task-specific Jev harnesses, with optional full-trajectory reward reflection and GEPA evolution.",
+    "unique": "Harnesses are written by an LLM for one task, and can evolve with GEPA and trajectory rewards.",
+    "benefit": "Teams using Jev can generate a task-specific harness and optionally evolve it from full trajectories."
+  },
+  "c096ce42456c0a41": {
+    "summary": "agent-smith offers adaptive model routing, a glassy Codex usage monitor, and reproducible benchmarks with receipts.",
+    "unique": "It pairs routing across models with a Codex usage monitor and benchmarks you can reproduce.",
+    "benefit": "Developers watching Codex spend can route models and check usage with benchmarks that keep receipts."
+  },
+  "7c9d184f8c058bd9": {
+    "summary": "awesome-claude-video-skills lists open-source skills and toolkits that let Claude Code, Codex, and other coding agents make video. It covers 180 repos by type, each security-graded.",
+    "unique": "A catalog of 180 video-making repos for coding agents, sorted by type and security grade.",
+    "benefit": "People who want agents to make video can pick a security-graded repo instead of searching from scratch."
+  },
+  "c5e3b71711b5a7e6": {
+    "summary": "mortiflix-oss is a motion design studio on your own machine: Claude makes the video step by step, and you approve every stage. Bring your own Claude Code or API key.",
+    "unique": "Each stage waits for your approval, and it runs locally with your own Claude Code or API key.",
+    "benefit": "Motion designers can let Claude draft a video locally and still approve every stage."
+  },
+  "c64663afb8f52236": {
+    "summary": "Atria-Dawn-Preview is an LLM agent project.",
+    "unique": "It is tagged as an LLM and an LLM agent, and it has 589 stars.",
+    "benefit": "People looking for LLM agent code can start from a project that already has 589 stars."
+  },
+  "246031679f85ee5d": {
+    "summary": "folkbench is an open-source benchmark, ranking, and switcher for AI API relays used with Claude Code and Codex, measuring uptime, latency, and price.",
+    "unique": "It ranks relay stations by measured availability, latency, and price, and can switch between them.",
+    "benefit": "Claude Code and Codex users can compare AI API relays on uptime, latency, and price before switching."
+  },
+  "5b736d3248424eb0": {
+    "summary": "mu is a coding agent that thinks before it acts. A small, fast judge makes the routine calls, and the big model does the work. It is built on pi and AionUi.",
+    "unique": "A fast judge handles routine calls so the larger model is reserved for the actual work.",
+    "benefit": "Developers can keep a coding agent on pi and AionUi while spending the big model only on harder steps."
+  },
+  "00cf1a051a52ead0": {
+    "summary": "PSSA is a non-transformer language model written from scratch in Rust, with a recurrent state-space layer, episodic memory, self-modifying weights, CUDA training, and a terminal dashboard.",
+    "unique": "A from-scratch Rust model that is not a transformer, with self-modifying weights and CUDA training.",
+    "benefit": "Researchers can study or train a Rust state-space language model that includes episodic memory."
+  },
+  "7e7f1061b532e5f0": {
+    "summary": "ai-game-modding-guides collects guides for building game mods with AI coding agents, covering passthrough mods, Rust rewrites, mod loaders, prompting, and troubleshooting.",
+    "unique": "The guides focus on agent-built game mods, including Rust rewrites and mod loaders.",
+    "benefit": "Modders can follow agent-oriented steps for passthrough mods, Rust rewrites, and loader setup."
+  },
+  "2b61eb1abccd218a": {
+    "summary": "solvecraft is an open-source, clean-room reimplementation of Autodesk Fusion 360 in pure Rust, with parametric 3D CAD for desktop, browser, and AI agents via MCP.",
+    "unique": "A clean-room Fusion 360-style CAD app in pure Rust that agents can drive through MCP.",
+    "benefit": "Designers and agents can do parametric CAD in the browser or on the desktop without the original product."
+  },
+  "8a441a7266e1bc3f": {
+    "summary": "awesome-jev-use-cases lists TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, plus limits, cost, and API examples. It is CC0.",
+    "unique": "A CC0 catalog of 74 liked demos and 150+ repos, with cost and API examples.",
+    "benefit": "Developers evaluating Jev can browse ranked demos, repos, limits, and API examples in one list."
+  },
+  "b8f7576006e38611": {
+    "summary": "Cognition's Agent Memory Repo is an open spec for agent memory as a git repo: a MEMORY.md entry point, one-line entries with sources, and cross-links between files.",
+    "unique": "Memory is a git repo with MEMORY.md, sourced one-line entries, and links between files. Dreaming lets Devin self-improve that memory across sessions.",
+    "benefit": "Agent builders can store memory in git and let a nightly pass drop stale records and find latent links."
   }
 }

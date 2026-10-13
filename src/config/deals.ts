@@ -77,12 +77,12 @@ export const CURATED_DEALS: CuratedDeal[] = [
   },
   {
     id: "cursor-hobby-free",
-    title: "Cursor Hobby (free)",
+    title: "Cursor Free",
     provider: "Cursor",
     kind: "free-tier",
-    description: "Free Hobby plan — no credit card, limited agent requests.",
+    description: "Free plan with limited agent requests and limited Chat requests.",
     url: "https://cursor.com/pricing",
-    mustContain: "Hobby[\\s\\S]{0,60}Free",
+    mustContain: "Limited agent requests",
   },
 ];
 

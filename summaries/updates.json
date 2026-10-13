@@ -1016,5 +1016,60 @@
     "hash": "c24d62c4c271",
     "summary": "NVIDIA describes developers combining frontier AI models with Omniverse libraries so agents help assemble assets, connect physics and rendering, and check that a simulation behaves as intended.",
     "benefit": "Simulation developers can direct agents in natural language to explore scenarios, investigate failures, and improve designs."
+  },
+  "aff79a50d0a8b471": {
+    "hash": "be421e497bec",
+    "summary": "Amazon Bedrock AgentCore memory now prices short-term memory by the data agents ingest, retrieve, and store, replacing the previous flat rate per event.",
+    "benefit": "You pay for the short-term memory your agents actually use, instead of a flat rate on every event."
+  },
+  "024d9eece6c046fd": {
+    "hash": "fb6c572797ad",
+    "summary": "Amazon Bedrock offers OpenAI GPT-6 Sol and GPT-6 Luna through global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan, plus GPT-6 Astra from Asia Pacific (Singapore).",
+    "benefit": "Teams in those five AWS Regions can call newer OpenAI models when local single-Region capacity would throttle them."
+  },
+  "55338a2f5e2cb58f": {
+    "hash": "17a95c3ab331",
+    "summary": "ReplaySSM rethinks state storage so hybrid models that mix state-space layers with a few attention layers can decode faster. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are built this way.",
+    "benefit": "Serving stacks for those hybrid models can decode faster by changing how SSM state is stored."
+  },
+  "327b871c6992c1e2": {
+    "hash": "26af4bf4941a",
+    "summary": "IBM explains distributed inference serving as the system that keeps large AI models moving, and says agentic workflows make it more necessary than ever.",
+    "benefit": "Operators of large models can see why spreading inference across machines matters more for agent traffic."
+  },
+  "0d15a85deea1f45c": {
+    "hash": "45d83b79f455",
+    "summary": "At the 2026 Open Compute Project Global Summit, Meta shared IcePack, its first liquid-cooled network rack, the 102.4T IceCube switch, Flattened Planar Fabric, and the open-source MetaRoCE transport.",
+    "benefit": "Network builders can adopt Meta's open rack, switch, fabric, and transport designs when connecting GPUs."
+  },
+  "64b8fb1d42bf98f3": {
+    "hash": "6b9c836e4d09",
+    "summary": "At the OCP Global Summit, NVIDIA announced partnerships and contributions that open the Vera Rubin architecture as a common foundation for scaling AI factories.",
+    "benefit": "Infrastructure teams can build on a shared Vera Rubin foundation as AI factories grow from megawatts to gigawatts."
+  },
+  "8a70427187b8981c": {
+    "hash": "6fc3076749a6",
+    "summary": "StudentSim is a Microsoft research system that trains personalized AI student simulators so tutoring tools can be evaluated before tests with real learners. It is not a classroom product and is not meant to replace teachers.",
+    "benefit": "Tutor builders can try changes on simulated students before running slow, costly studies with real learners."
+  },
+  "0c12915bdf3c5e6f": {
+    "hash": "6dd7195c4538",
+    "summary": "Strands Agents SDK python v1.60.0 propagates OpenTelemetry baggage context in Python and adds SEP-2663 task execution on mcp/ext-tasks.",
+    "benefit": "Python agents can carry OpenTelemetry baggage in traces, and MCP clients can run SEP-2663 tasks."
+  },
+  "a4e3621bd2f9b0a6": {
+    "hash": "fff1aab42e89",
+    "summary": "Docling v2.138.0 reads pictures placed on a Numbers sheet, emits DOCX textboxes once inside their table cell, and parses ordered lists and list item labels in JATS.",
+    "benefit": "Document pipelines keep Numbers images, in-cell Word textboxes, and labeled JATS lists when converting files."
+  },
+  "bb6ab80f53b08b7b": {
+    "hash": "dc5301363dfa",
+    "summary": "Meta built a system that improves ads recommendations by using idle inference capacity, with two elasticity levers so that work can expand without compromising baseline performance.",
+    "benefit": "Ads ranking can use spare inference capacity while the baseline recommendation service stays intact."
+  },
+  "87b3bcc2c1234bf9": {
+    "hash": "b6ed80950333",
+    "summary": "OmniCapBench is a NeurIPS 2026 evaluation framework for fine-grained audio-visual captioning.",
+    "benefit": "Researchers can score captioning models on fine-grained audio and visual detail with a structured benchmark."
   }
 }
