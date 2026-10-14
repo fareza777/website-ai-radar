@@ -1,5 +1,63 @@
 [
   {
+    "id": "ec430d1232a90ea6",
+    "lab": "anthropic",
+    "title": "Claude Agent SDK (Python) v0.2.166",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.166",
+    "sourceId": "anthropic-agent-sdk",
+    "sourceName": "GitHub · anthropics/claude-agent-sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T03:45:21.000Z",
+    "firstSeenAt": "2026-10-14T05:01:44.685Z",
+    "updatedAt": "2026-10-14T03:45:21.000Z",
+    "excerpt": "New Features Hook-specific output types : Added typed output classes and missing input fields for hooks, giving hook implementations precise type information instead of untyped dicts ( #1331 ) SystemInitData TypedDict : The init system message payload is now fully typed via SystemInitData , along with nested types SystemInitMcpServer , SystemInitPlugin , SystemInitPluginError , and FastModeState /…",
+    "summary": "Anthropic shipped Claude Agent SDK (Python) v0.2.166 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 25,
+    "contentHash": "06d50357ce3a",
+    "meta": {
+      "version": "v0.2.166",
+      "semver": "patch",
+      "repo": "anthropics/claude-agent-sdk-python"
+    }
+  },
+  {
+    "id": "5231ee939b107f0c",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.299",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T02:49:42.000Z",
+    "firstSeenAt": "2026-10-14T05:01:44.685Z",
+    "updatedAt": "2026-10-14T02:49:42.000Z",
+    "excerpt": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all Added CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS to…",
+    "summary": "Anthropic shipped Claude Code v2.1.299 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "0e6b286dff70",
+    "meta": {
+      "version": "v2.1.299",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "d6e89e4381e4169d",
     "lab": "anthropic",
     "title": "Redesigning source control at Anthropic",
@@ -477,7 +535,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-14T00:02:00.586Z",
+    "updatedAt": "2026-10-14T05:01:44.685Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",

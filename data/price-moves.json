@@ -1,5 +1,177 @@
 [
   {
+    "id": "aa789472703ad51b",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "prompt",
+    "from": 0.0405,
+    "to": 0.0351,
+    "change": -13.3
+  },
+  {
+    "id": "620ca3e96344d947",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "completion",
+    "from": 0.765,
+    "to": 0.891,
+    "change": 16.5
+  },
+  {
+    "id": "45b5c366c5a10b0c",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.0351,
+    "change": -76.6
+  },
+  {
+    "id": "23358c56d84bb0ba",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.891,
+    "change": 48.5
+  },
+  {
+    "id": "d0b601f961e983d6",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "prompt",
+    "from": 0.7506,
+    "to": 0.834,
+    "change": 11.1
+  },
+  {
+    "id": "656bc1507d7f1c23",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "completion",
+    "from": 2.2509,
+    "to": 2.501,
+    "change": 11.1
+  },
+  {
+    "id": "8a580314ba77c1b8",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "prompt",
+    "from": 0.036,
+    "to": 0.15,
+    "change": 316.7
+  },
+  {
+    "id": "23c1bd4c523c436c",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "completion",
+    "from": 0.9,
+    "to": 0.5,
+    "change": -44.4
+  },
+  {
+    "id": "88009088bac74137",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "prompt",
+    "from": 0.73,
+    "to": 0.7,
+    "change": -4.1
+  },
+  {
+    "id": "10724b5216ed4a31",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "completion",
+    "from": 10,
+    "to": 15,
+    "change": 50
+  },
+  {
+    "id": "e04dd9df71732982",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "prompt",
+    "from": 0.0825,
+    "to": 0.132,
+    "change": 60
+  },
+  {
+    "id": "ca057d620a068f5f",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "completion",
+    "from": 0.33,
+    "to": 0.528,
+    "change": 60
+  },
+  {
+    "id": "6f42cee3f2bea91e",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "prompt",
+    "from": 0.72,
+    "to": 0.7,
+    "change": -2.8
+  },
+  {
+    "id": "1f7a3b0b11884c82",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "completion",
+    "from": 24,
+    "to": 15,
+    "change": -37.5
+  },
+  {
+    "id": "7d8e77cd99940c3f",
+    "modelId": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "lab": "openai",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.037,
+    "change": -75.3
+  },
+  {
+    "id": "2e8cd8ef748f55c8",
+    "modelId": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "lab": "openai",
+    "at": "2026-10-14T05:01:44.685Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.17,
+    "change": -71.7
+  },
+  {
     "id": "0ec8669f2f21107b",
     "modelId": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
