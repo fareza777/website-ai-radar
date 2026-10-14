@@ -1,5 +1,34 @@
 [
   {
+    "id": "9b166e0d9578994c",
+    "lab": "ibm",
+    "title": "Docling v2.139.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.139.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T12:18:27.000Z",
+    "firstSeenAt": "2026-10-14T17:19:08.627Z",
+    "updatedAt": "2026-10-14T12:18:27.000Z",
+    "excerpt": "Feature Expose max_concurrent_results on ThreadedDoclingParseBackendOptions ( #4804 ) ( ce5621b ) Expose per-page confidence breakdown in ConfidenceScores ( #4233 ) ( 5bdabb9 ) progress: Add conversion progress bars and an event callback ( #4560 ) ( fdb6321 ) iwork: Read pictures in Numbers table cells ( #4736 ) ( dd477a9 ) Allow docling-tools to download whisper artifacts and for docling to run ASR from an…",
+    "summary": "IBM shipped Docling v2.139.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "audio"
+    ],
+    "importance": 40,
+    "contentHash": "29dd08719110",
+    "meta": {
+      "version": "v2.139.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "4cac281cbf0a4557",
     "lab": "ibm",
     "title": "Preparing chip designers for the nanostack era",

@@ -1,5 +1,30 @@
 [
   {
+    "id": "68fa5d474465cb0d",
+    "lab": "cohere",
+    "title": "Lessons from scaling teams of coding agents: reach the frontier at 30% of the cost",
+    "url": "https://cohere.com/blog/lessons-from-scaling-teams-of-frontier-coding-agents",
+    "sourceId": "cohere-blog",
+    "sourceName": "Cohere Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "firstSeenAt": "2026-10-14T17:19:08.627Z",
+    "updatedAt": "2026-10-14T00:00:00.000Z",
+    "excerpt": "Teams of coding agents are already building large-scale software, but how should they be organized to work most effectively and efficiently?",
+    "summary": "Teams of coding agents are already building large-scale software, but how should they be organized to work most effectively and efficiently?",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 50,
+    "contentHash": "3b1714be2970"
+  },
+  {
     "id": "2444fb3da1788569",
     "lab": "cohere",
     "title": "Shared or dedicated inference for Embed & Rerank",
@@ -81,18 +106,15 @@
     "verified": true,
     "publishedAt": "2026-10-05T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-05T00:00:00.000Z",
-    "excerpt": "North 2 is Cohere’s biggest upgrade yet — unifying enterprise‑grade security, intelligence, cost governance, and full‑stack control into a single agentic AI platform that runs wherever your data lives.",
-    "summary": "North 2 is Cohere’s biggest upgrade yet — unifying enterprise‑grade security, intelligence, cost governance, and full‑stack control into a single agentic AI platform that runs wherever your data lives.",
+    "updatedAt": "2026-10-14T17:19:08.627Z",
+    "excerpt": "North 2: Enterprise AI without compromises",
+    "summary": "Official feature update from Cohere (Cohere Blog).",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
-    "tags": [
-      "agents",
-      "safety"
-    ],
+    "tags": [],
     "importance": 50,
-    "contentHash": "3d10428e5aa8"
+    "contentHash": "abf1dffddc70"
   },
   {
     "id": "e1d68e054489a950",
@@ -672,7 +694,7 @@
     "importance": 68,
     "contentHash": "78363ebea532",
     "meta": {
-      "likes": 153,
+      "likes": 154,
       "downloads": 90705,
       "repo": "CohereLabs/North-Micro-Vision-Instruct",
       "pipeline": "image-text-to-text",

@@ -1,5 +1,29 @@
 [
   {
+    "id": "9dd119a51b881273",
+    "lab": "nvidia",
+    "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
+    "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T16:10:45.000Z",
+    "firstSeenAt": "2026-10-14T17:19:08.627Z",
+    "updatedAt": "2026-10-14T16:10:45.000Z",
+    "excerpt": "AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes... AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes reliability a major barrier to production adoption. In multistage engineering workflows, an undetected error early…",
+    "summary": "AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes...",
+    "benefit": "API/SDK change — check whether your integration needs an update or can use the new capability.",
+    "summarySource": "template",
+    "category": "api",
+    "tags": [
+      "agents"
+    ],
+    "importance": 50,
+    "contentHash": "cd9d893de029"
+  },
+  {
     "id": "0480c20408dda17d",
     "lab": "nvidia",
     "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
@@ -157,15 +181,15 @@
     "verified": true,
     "publishedAt": "2026-10-08T22:16:15.000Z",
     "firstSeenAt": "2026-10-13T22:53:06.584Z",
-    "updatedAt": "2026-10-08T22:16:15.000Z",
-    "excerpt": "[https://nvbugs/6345827][test] Unwaive DeepSeekV3Lite disagg MTP test…",
+    "updatedAt": "2026-10-14T17:19:08.627Z",
+    "excerpt": "Highlights Known Issues Multi-GPU (TP2) streaming or RPC executor workloads may hang during worker initialization when MPI worker pools are reused across LLM instances (observed on H100). DeepSeek MLA models on SM120/SM121 GPUs (for example RTX PRO 6000 Blackwell) may crash with an illegal memory access when CUDA graphs are captured with BF16 BMM. GPT-OSS models on SM120 GPUs may fail with attention data parallelism…",
     "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
     "tags": [],
     "importance": 40,
-    "contentHash": "aaa5a6a1a71b",
+    "contentHash": "2ae7369a75b6",
     "meta": {
       "version": "v1.4.0",
       "semver": "minor",
@@ -1299,10 +1323,10 @@
     "tags": [
       "multimodal"
     ],
-    "importance": 64,
+    "importance": 65,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 62,
+      "likes": 66,
       "downloads": 5086,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
@@ -1362,7 +1386,7 @@
     "importance": 67,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 131,
+      "likes": 133,
       "downloads": 3122,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"

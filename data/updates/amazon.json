@@ -1,5 +1,77 @@
 [
   {
+    "id": "b7cd31d958bda34d",
+    "lab": "amazon",
+    "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T16:24:07.000Z",
+    "firstSeenAt": "2026-10-14T17:19:08.627Z",
+    "updatedAt": "2026-10-14T16:24:07.000Z",
+    "excerpt": "IDC research shows that document-related challenges cost organizations $19,732 for each information worker annually and reduce productivity by 21.3 percent. Organizations receiving invoices from hundreds of suppliers often face layouts that vary by issuer and change without notice. Template-based systems require constant maintenance at this scale. Staff can spend up to 30 percent of their time on document-related…",
+    "summary": "IDC research shows that document-related challenges cost organizations $19,732 for each information worker annually and reduce productivity by 21.3 percent.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "audio"
+    ],
+    "importance": 50,
+    "contentHash": "d40548d57f21"
+  },
+  {
+    "id": "bf440f7f3fb44381",
+    "lab": "amazon",
+    "title": "Generate presentations with Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T13:58:43.000Z",
+    "firstSeenAt": "2026-10-14T17:19:08.627Z",
+    "updatedAt": "2026-10-14T13:58:43.000Z",
+    "excerpt": "A financial services team spends significant time each week manually creating client PowerPoint presentations from quarterly reports, compliance documents, and market analyses. Each presentation requires reading hundreds of pages, extracting key data points, structuring slides, and generating supporting visuals. This post walks you through building an AI agent system using Amazon Bedrock AgentCore that automates…",
+    "summary": "A financial services team spends significant time each week manually creating client PowerPoint presentations from quarterly reports, compliance documents, and market analyses.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 30,
+    "contentHash": "2319c28d3a01"
+  },
+  {
+    "id": "af833b42b8bd8e02",
+    "lab": "amazon",
+    "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T13:53:33.000Z",
+    "firstSeenAt": "2026-10-14T17:19:08.627Z",
+    "updatedAt": "2026-10-14T13:53:33.000Z",
+    "excerpt": "Critical cloud exposures pile up faster than security teams can close them. Cloud-native application protection platforms (CNAPP), cloud providers, and posture scanners generate more findings than any team can triage, and risk accumulates in the gap between detected and fixed. Most findings sit untouched, not because they’re hard to fix. Someone must investigate context, identify the owner, confirm the fix won’t…",
+    "summary": "Critical cloud exposures pile up faster than security teams can close them.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "safety"
+    ],
+    "importance": 50,
+    "contentHash": "186516c7c5a4"
+  },
+  {
     "id": "cdd5fd8d13268c37",
     "lab": "amazon",
     "title": "Building agents that transact with Anchor Browser and AgentCore payments",
@@ -81,9 +153,9 @@
     "verified": true,
     "publishedAt": "2026-10-13T15:54:49.000Z",
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "updatedAt": "2026-10-13T15:54:49.000Z",
-    "excerpt": "This post is co-written with Kenneth Salmon, Edward Boswell, Jack Armstrong, Robert Bahn, and Nick Ciubotariu from ShipStation Global. Answering the same IT questions and clearing routine tickets drains time that IT teams could spend elsewhere. To reclaim it, the ShipStation Global Engineering team built Deckhand , an AI-powered IT help desk agent for Slack, on Amazon Bedrock AgentCore . ShipStation Global is the…",
-    "summary": "This post is co-written with Kenneth Salmon, Edward Boswell, Jack Armstrong, Robert Bahn, and Nick Ciubotariu from ShipStation Global.",
+    "updatedAt": "2026-10-14T17:19:08.627Z",
+    "excerpt": "This post is co-written with Kenneth Salmon, Edward Boswell, Jack Armstrong, Robert Banh, and Nick Ciubotariu from ShipStation Global. Answering the same IT questions and clearing routine tickets drains time that IT teams could spend elsewhere. To reclaim it, the ShipStation Global Engineering team built Deckhand , an AI-powered IT help desk agent for Slack, on Amazon Bedrock AgentCore . ShipStation Global is the…",
+    "summary": "This post is co-written with Kenneth Salmon, Edward Boswell, Jack Armstrong, Robert Banh, and Nick Ciubotariu from ShipStation Global.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
@@ -91,7 +163,7 @@
       "agents"
     ],
     "importance": 50,
-    "contentHash": "708ae5385982"
+    "contentHash": "77c2ed3cf5cf"
   },
   {
     "id": "c4d6082c07a1abcc",
