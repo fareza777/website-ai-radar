@@ -2,7 +2,7 @@
   {
     "id": "5cb1618c1db568b5",
     "lab": "google-deepmind",
-    "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+    "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
     "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
     "sourceId": "deepmind-blog",
     "sourceName": "Google DeepMind Blog",
@@ -11,7 +11,7 @@
     "verified": true,
     "publishedAt": "2026-10-14T02:00:14.000Z",
     "firstSeenAt": "2026-10-14T05:01:44.685Z",
-    "updatedAt": "2026-10-14T02:00:14.000Z",
+    "updatedAt": "2026-10-14T12:03:25.951Z",
     "excerpt": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
     "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -19,7 +19,7 @@
     "category": "model",
     "tags": [],
     "importance": 65,
-    "contentHash": "594af3a2e87b"
+    "contentHash": "bf75772fff72"
   },
   {
     "id": "36d7843570633727",
@@ -823,8 +823,8 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 2121,
-      "downloads": 124930,
+      "likes": 2174,
+      "downloads": 135175,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",
       "license": "apache-2.0"
@@ -1236,7 +1236,7 @@
     "contentHash": "d8c99b7d47a0",
     "meta": {
       "likes": 953,
-      "downloads": 1037101,
+      "downloads": 1029371,
       "repo": "google/timesfm-3.0-pytorch",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -1422,7 +1422,7 @@
     "contentHash": "3cfb5c2feb64",
     "meta": {
       "likes": 16,
-      "downloads": 668,
+      "downloads": 677,
       "repo": "google/tabfm-1.1.0-pytorch",
       "pipeline": "tabular-classification",
       "license": "other"

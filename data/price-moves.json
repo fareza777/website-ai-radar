@@ -1,5 +1,111 @@
 [
   {
+    "id": "1d6d19bb57b889ba",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "prompt",
+    "from": 0.0351,
+    "to": 0.02016,
+    "change": -42.6
+  },
+  {
+    "id": "9ccc000ea4336188",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "prompt",
+    "from": 0.0351,
+    "to": 0.02016,
+    "change": -42.6
+  },
+  {
+    "id": "97502fdd4d8aa23d",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.036,
+    "change": -76
+  },
+  {
+    "id": "32b47e1ecf5c747c",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.9,
+    "change": 80
+  },
+  {
+    "id": "994d73cf85b1cea9",
+    "modelId": "~z-ai/glm-latest",
+    "name": "Z.ai: GLM Latest",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "prompt",
+    "from": 0.063,
+    "to": 0.0576,
+    "change": -8.6
+  },
+  {
+    "id": "d97d032ed615ccdc",
+    "modelId": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "lab": "zai",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "prompt",
+    "from": 0.06,
+    "to": 0.05,
+    "change": -16.7
+  },
+  {
+    "id": "52d668f5069874c0",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "prompt",
+    "from": 0.7,
+    "to": 0.536,
+    "change": -23.4
+  },
+  {
+    "id": "fa0954ea0093f8d1",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "completion",
+    "from": 15,
+    "to": 14,
+    "change": -6.7
+  },
+  {
+    "id": "9f7e6be3ef42da4c",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "prompt",
+    "from": 0.0765,
+    "to": 0.09,
+    "change": 17.6
+  },
+  {
+    "id": "25c4995849921404",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-14T12:03:25.951Z",
+    "field": "completion",
+    "from": 0.255,
+    "to": 0.3,
+    "change": 17.6
+  },
+  {
     "id": "aa789472703ad51b",
     "modelId": "~deepseek/deepseek-flash-latest",
     "name": "DeepSeek: DeepSeek Flash Latest",
