@@ -1,5 +1,65 @@
 [
   {
+    "id": "729896a0eb93ab3a",
+    "lab": "anthropic",
+    "title": "Claude Agent SDK (Python) v0.2.167",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.167",
+    "sourceId": "anthropic-agent-sdk",
+    "sourceName": "GitHub · anthropics/claude-agent-sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T19:25:41.000Z",
+    "firstSeenAt": "2026-10-14T21:47:04.696Z",
+    "updatedAt": "2026-10-14T19:25:41.000Z",
+    "excerpt": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.300 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.167/ pip install claude-agent-sdk==0.2.167",
+    "summary": "Anthropic shipped Claude Agent SDK (Python) v0.2.167 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "34ae81348cab",
+    "meta": {
+      "version": "v0.2.167",
+      "semver": "patch",
+      "repo": "anthropics/claude-agent-sdk-python"
+    }
+  },
+  {
+    "id": "29f9840eaa57bc2e",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.300",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T18:24:25.000Z",
+    "firstSeenAt": "2026-10-14T21:47:04.696Z",
+    "updatedAt": "2026-10-14T18:24:25.000Z",
+    "excerpt": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back Added a dir…",
+    "summary": "Anthropic shipped Claude Code v2.1.300 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "58b9fa51ea6c",
+    "meta": {
+      "version": "v2.1.300",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "ec430d1232a90ea6",
     "lab": "anthropic",
     "title": "Claude Agent SDK (Python) v0.2.166",
@@ -78,6 +138,52 @@
     "tags": [],
     "importance": 55,
     "contentHash": "a01be479290a"
+  },
+  {
+    "id": "18177a36d83526b9",
+    "lab": "anthropic",
+    "title": "Preparing for the 2026 US midterms",
+    "url": "https://anthropic.com/news/2026-us-midterms",
+    "sourceId": "anthropic-news",
+    "sourceName": "Anthropic News",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "firstSeenAt": "2026-10-14T21:47:04.696Z",
+    "updatedAt": "2026-10-14T00:00:00.000Z",
+    "excerpt": "Preparing for the 2026 US midterms",
+    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 55,
+    "contentHash": "4bb286816eae"
+  },
+  {
+    "id": "0fff098609ae8946",
+    "lab": "anthropic",
+    "title": "Agent observability on the Claude Platform",
+    "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+    "sourceId": "anthropic-claude-blog",
+    "sourceName": "Claude Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "firstSeenAt": "2026-10-14T21:47:04.696Z",
+    "updatedAt": "2026-10-14T00:00:00.000Z",
+    "excerpt": "Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.",
+    "summary": "Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.",
+    "benefit": "API/SDK change — check whether your integration needs an update or can use the new capability.",
+    "summarySource": "template",
+    "category": "api",
+    "tags": [
+      "agents"
+    ],
+    "importance": 55,
+    "contentHash": "194f67ca1da5"
   },
   {
     "id": "d6e89e4381e4169d",
@@ -557,7 +663,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-14T17:19:08.627Z",
+    "updatedAt": "2026-10-14T21:47:04.696Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
