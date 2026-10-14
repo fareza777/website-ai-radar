@@ -224,11 +224,6 @@
     "unique": "The desktop app talks to a local daemon instead of a hosted view of those sessions.",
     "benefit": "Herdr users can watch agents, terminals, and worktrees in a native app on their machine."
   },
-  "f7f7084046b4a510": {
-    "summary": "Intent-Router is an intent compiler for AI agents. It turns vague requests into typed IntentSpec contracts, and it can probe, ask, or halt before routing.",
-    "unique": "It is the input layer for routers and typed-decision models such as Jev and Laya.",
-    "benefit": "Agent builders can stop a vague request from being routed until it is a typed contract."
-  },
   "09b7d9e6fc379941": {
     "summary": "ThinkWatch-Lite is a local gateway for Claude Code, Codex, and other AI clients on macOS, Windows, and Linux. It switches upstreams without touching clients, keeps API keys off relays, blocks malicious tool calls, and traces every request.",
     "unique": "Keys stay off relays, and cost tracking sits on the gateway rather than in each client.",
@@ -444,16 +439,6 @@
     "unique": "The agents are personal and run on their own computers, packaged as a Mac app.",
     "benefit": "Mac users can try open-source personal agents that act on their own machine."
   },
-  "43ce2405c958ffa7": {
-    "summary": "Autoloom is a free desktop client for AI coding that applies Aegis governance during execution, with baseline-aware changes and evidence-backed delivery.",
-    "unique": "You pick the model, and governance is built into the run rather than added afterward.",
-    "benefit": "Developers who want a coding agent can keep their model choice and get a record of what changed."
-  },
-  "c9a6b6fcc33b2b9e": {
-    "summary": "JevRev is a workflow that combines an LLM with Jev, described as adding a spine to a vertebrate brain.",
-    "unique": "It pairs a language model with Jev instead of using the language model alone.",
-    "benefit": "People already using Jev can try a workflow that puts it next to an LLM."
-  },
   "759a5e8a78b59960": {
     "summary": "This awesome-jev list indexes public resources for Jev, TypeSafe AI's System One decision model, by decision pattern, with source citations and dated link checks.",
     "unique": "Entries are checked for links and call-site text on a schedule, and the site is available in English and Chinese.",
@@ -594,34 +579,134 @@
     "unique": "It ranks relay stations by measured availability, latency, and price, and can switch between them.",
     "benefit": "Claude Code and Codex users can compare AI API relays on uptime, latency, and price before switching."
   },
-  "5b736d3248424eb0": {
-    "summary": "mu is a coding agent that thinks before it acts. A small, fast judge makes the routine calls, and the big model does the work. It is built on pi and AionUi.",
-    "unique": "A fast judge handles routine calls so the larger model is reserved for the actual work.",
-    "benefit": "Developers can keep a coding agent on pi and AionUi while spending the big model only on harder steps."
-  },
-  "00cf1a051a52ead0": {
-    "summary": "PSSA is a non-transformer language model written from scratch in Rust, with a recurrent state-space layer, episodic memory, self-modifying weights, CUDA training, and a terminal dashboard.",
-    "unique": "A from-scratch Rust model that is not a transformer, with self-modifying weights and CUDA training.",
-    "benefit": "Researchers can study or train a Rust state-space language model that includes episodic memory."
-  },
-  "7e7f1061b532e5f0": {
-    "summary": "ai-game-modding-guides collects guides for building game mods with AI coding agents, covering passthrough mods, Rust rewrites, mod loaders, prompting, and troubleshooting.",
-    "unique": "The guides focus on agent-built game mods, including Rust rewrites and mod loaders.",
-    "benefit": "Modders can follow agent-oriented steps for passthrough mods, Rust rewrites, and loader setup."
-  },
-  "2b61eb1abccd218a": {
-    "summary": "solvecraft is an open-source, clean-room reimplementation of Autodesk Fusion 360 in pure Rust, with parametric 3D CAD for desktop, browser, and AI agents via MCP.",
-    "unique": "A clean-room Fusion 360-style CAD app in pure Rust that agents can drive through MCP.",
-    "benefit": "Designers and agents can do parametric CAD in the browser or on the desktop without the original product."
-  },
-  "8a441a7266e1bc3f": {
-    "summary": "awesome-jev-use-cases lists TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, plus limits, cost, and API examples. It is CC0.",
-    "unique": "A CC0 catalog of 74 liked demos and 150+ repos, with cost and API examples.",
-    "benefit": "Developers evaluating Jev can browse ranked demos, repos, limits, and API examples in one list."
-  },
   "b8f7576006e38611": {
     "summary": "Cognition's Agent Memory Repo is an open spec for agent memory as a git repo: a MEMORY.md entry point, one-line entries with sources, and cross-links between files.",
     "unique": "Memory is a git repo with MEMORY.md, sourced one-line entries, and links between files. Dreaming lets Devin self-improve that memory across sessions.",
     "benefit": "Agent builders can store memory in git and let a nightly pass drop stale records and find latent links."
+  },
+  "54d164a6a58484ab": {
+    "summary": "mailcheap is for self-hosted newsletters on Amazon SES.",
+    "unique": "The listed send cost is about $0.10 per 1,000 emails.",
+    "benefit": "Teams that want their own newsletter host can send through Amazon SES at that rate."
+  },
+  "ba4721d38cba8ba1": {
+    "summary": "janas runs LLMs bigger than your RAM in pure C, on CPU or GPU.",
+    "unique": "It reports 37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, faster than llama.cpp on all 13 models compared in Q4_K_M.",
+    "benefit": "Someone with a 32 GB laptop can run that 48 GB model locally instead of fitting the whole model in RAM."
+  },
+  "640c16f12f7ac592": {
+    "summary": "esp32-iphone-agent lets an AI model use a real iPhone through a $7 ESP32.",
+    "unique": "AirPlay acts as eyes and USB HID as hands, with any OpenAI-compatible vision model, and no Mac, developer account, or jailbreak.",
+    "benefit": "Developers can give a vision model a real iPhone without a Mac or a jailbreak."
+  },
+  "1db105c3beee8265": {
+    "summary": "artex-global is the Korean edition of ARTEX, an AI autonomous penetration-testing framework.",
+    "unique": "It tracks upstream Autumn-27/ARTEX and is licensed AGPL-3.0.",
+    "benefit": "Korean-speaking security teams can use this ARTEX edition for autonomous penetration testing."
+  },
+  "7304ee0734920da2": {
+    "summary": "Parsimony is an open-source benchmark of how much code AI models add.",
+    "unique": "The score is about added code, and the benchmark is open source.",
+    "benefit": "People comparing coding models can see which ones add more code."
+  },
+  "9233eb2e28069236": {
+    "summary": "yovoice is an open-source local AI audio and music studio for macOS and Windows.",
+    "unique": "TTS, voice cloning, songs with lyrics, and multi-track scores run 100% offline with zero API fees.",
+    "benefit": "People making audio can generate voices and songs on their own machine without API fees."
+  },
+  "ecd9624a5a29da8e": {
+    "summary": "atticus-mac is a fast, free voice assistant for your Mac that runs on a Claude Pro or Max plan.",
+    "unique": "No API key is required. It remembers you, learns shortcuts, and starts when you hold ⌃⌥Space.",
+    "benefit": "Mac users on Claude Pro or Max can talk to a menu-bar assistant without an API key."
+  },
+  "d6ec094804050e7e": {
+    "summary": "new-term-radar is a daily radar for names of new AI models, products, and repos.",
+    "unique": "It catches terms on X, Hugging Face, GitHub, and sitemaps before keyword tools list them.",
+    "benefit": "People tracking new AI names can see them before keyword tools pick them up."
+  },
+  "746cd734236ae129": {
+    "summary": "Muster shows which Claude, Codex, or Cursor session needs you and lets you answer it from anywhere.",
+    "unique": "You jump to the session with ⌥Tab. The app is free and open source.",
+    "benefit": "People running several coding-agent sessions can see which one needs them and switch with ⌥Tab."
+  },
+  "5590112a2e035ff0": {
+    "summary": "problems captures tool failures from an MCP server or CLI and publishes them to an agent status page.",
+    "unique": "It also returns known fixes to the agents that hit those failures.",
+    "benefit": "Builders can surface tool failures to agents and send known fixes back to them."
+  },
+  "fb510d272ac63458": {
+    "summary": "supercomputer gives coding agents GPU sessions they start, use, and stop from the terminal.",
+    "unique": "Files persist between runs, and GPUs are billed by the second only while they run.",
+    "benefit": "A coding agent can use a GPU for a run and keep its files after the session stops."
+  },
+  "7e57ed84bd8c9927": {
+    "summary": "Sugabots is an open-source harness where people and agents work together.",
+    "unique": "People and agents share that one open-source harness.",
+    "benefit": "Teams can put people and agents in the same open-source workspace."
+  },
+  "0e9a7ca09dcda87d": {
+    "summary": "Project Maya runs GLM-5.3-Flash, a 321B mixture-of-experts model, privately on your own GPUs.",
+    "unique": "It scales from one card to 16, on NVIDIA or AMD and Linux or Windows, with an OpenAI- and Anthropic-compatible API.",
+    "benefit": "People with their own GPUs can serve GLM-5.3-Flash privately through those APIs."
+  },
+  "8e93adbc676abe8c": {
+    "summary": "This people-search tool finds contacts and verified work emails for agents.",
+    "unique": "Calls start from $0.0089, and a cited run returned 27 people and 20 verified emails for $0.58.",
+    "benefit": "Agents doing lead enrichment can look up contacts and verified work emails per call."
+  },
+  "0aa11e881fb130a9": {
+    "summary": "The Choke-point Report lists companies supplying scarce inputs behind AI, electrification, defence, and healthcare.",
+    "unique": "It covers 49 listed companies, with research, price charts, and risks as at 29 September 2026.",
+    "benefit": "Readers can review those suppliers' research, price charts, and stated risks in one report."
+  },
+  "4519b181cc56c83d": {
+    "summary": "Just Ship It covers how to find startup ideas, launch fast, and get profitable.",
+    "unique": "The author left Beehiiv for a vibe-coded newsletter platform with campaigns, web archives, an API, list cleanup, and deliverability reports.",
+    "benefit": "Founders can follow notes on ideas, fast launches, and getting profitable."
+  },
+  "7111a7b7f33eeb11": {
+    "summary": "Jev Decision Index gathers benchmarks and news on various reproductions of TypeSafe's Jev.",
+    "unique": "The space tracks multiple public repros of Jev rather than one build.",
+    "benefit": "People following TypeSafe's Jev can compare those reproductions in one place."
+  },
+  "14c9627bda602aee": {
+    "summary": "Every Agent is a newsletter about going AI-native automatically.",
+    "unique": "The offer is to go AI-native automatically.",
+    "benefit": "Readers who want an AI-native workflow can follow this newsletter."
+  },
+  "33021b9c4cffd9bf": {
+    "summary": "Executor keeps your connectors, skills, automations, and personal software in one place.",
+    "unique": "Connectors, skills, automations, and personal software share that single place.",
+    "benefit": "People running agents can keep connectors, skills, and automations together."
+  },
+  "033af813a56c42fc": {
+    "summary": "AgentHog autocaptures what users do and gives Claude a fast, small harness to query it.",
+    "unique": "Insights can turn into email, landing-page, and product changes without a warehouse.",
+    "benefit": "Product teams can turn captured user behavior into page and product changes through Claude."
+  },
+  "94c3a6f416cc250b": {
+    "summary": "Figma release notes track software updates for Figma products.",
+    "unique": "The notes cover all Figma related products.",
+    "benefit": "Designers and developers can follow Figma product updates from the release notes."
+  },
+  "19b9afdc50068806": {
+    "summary": "Rhem is an AI companion robot for the home, with wellness tracking, reminders, voice interaction, and everyday care.",
+    "unique": "The home robot is also described for fall detection and health checks.",
+    "benefit": "Families can use a home robot for reminders, voice interaction, and everyday care."
+  },
+  "bc96f6f2afa30730": {
+    "summary": "Muse gadgets are open source devices you build yourself and connect to Muse.",
+    "unique": "You program an off-the-shelf ESP32 or set up a Raspberry Pi, then attach displays, buttons, sensors, and actuators.",
+    "benefit": "Makers can connect Muse to hardware already on the workbench."
+  },
+  "5f81b09bffddf79d": {
+    "summary": "Graphical creates visual themes, customizes components, and builds interfaces with your coding agent.",
+    "unique": "Themes, components, and interfaces are made with the coding agent.",
+    "benefit": "Developers can have a coding agent help build themes and interface components."
+  },
+  "9c66046e4bfbbddf": {
+    "summary": "boat provides persistent Linux VMs for AI agents, with SSH, Docker, and fast fork.",
+    "unique": "VMs are billed per second and free when stopped, with a 7-day free trial, then from $20/mo.",
+    "benefit": "Agent builders can keep a Linux VM with SSH and Docker and pay for time it is running after the trial."
   }
 }
