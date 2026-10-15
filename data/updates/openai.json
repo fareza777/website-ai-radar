@@ -1,5 +1,35 @@
 [
   {
+    "id": "f6af3e2f5c3e5095",
+    "lab": "openai",
+    "title": "OpenAI Agents SDK v0.24.0",
+    "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0",
+    "sourceId": "openai-agents",
+    "sourceName": "GitHub · openai/openai-agents-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T02:37:43.000Z",
+    "firstSeenAt": "2026-10-15T04:50:11.717Z",
+    "updatedAt": "2026-10-15T02:37:43.000Z",
+    "excerpt": "0.24.0 (2026-10-15) Features expose MCP annotations on converted tools ( #5356 ) ( 75813f8 ) support run-wide tool exception formatting ( #5326 ) ( 8fd9a7c ) Bug Fixes batch OpenAI conversation session writes within the API limit ( #5334 ) ( 26345c1 ) defer automatic compaction for pending approvals ( #5363 ) ( 5eb47a5 ) deps-dev: bump fastapi from 0.139.2 to 0.141.1 ( #5312 ) ( cdf23bd ) deps-dev: bump grpcio from…",
+    "summary": "OpenAI shipped OpenAI Agents SDK v0.24.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 45,
+    "contentHash": "f4fb2ded4f5c",
+    "meta": {
+      "version": "v0.24.0",
+      "semver": "minor",
+      "repo": "openai/openai-agents-python"
+    }
+  },
+  {
     "id": "a0e0fec2c2b5f568",
     "lab": "openai",
     "title": "Amp puts AI agents to work beyond code with OpenAI models",
@@ -119,6 +149,30 @@
     ],
     "importance": 55,
     "contentHash": "6632ab8b98d7"
+  },
+  {
+    "id": "e0c0a0e8000237a7",
+    "lab": "openai",
+    "title": "Maintaining software with the GPT-6 family",
+    "url": "https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family",
+    "sourceId": "openai-dev",
+    "sourceName": "OpenAI Developer Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "firstSeenAt": "2026-10-15T04:50:11.717Z",
+    "updatedAt": "2026-10-14T00:00:00.000Z",
+    "excerpt": "How OpenAI’s Core Experimentation team uses Codex to remove unused code, clean up stale experiments, and improve CI.",
+    "summary": "How OpenAI’s Core Experimentation team uses Codex to remove unused code, clean up stale experiments, and improve CI.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "coding"
+    ],
+    "importance": 80,
+    "contentHash": "17bbd14c59c2"
   },
   {
     "id": "ffc748cb8d88a919",

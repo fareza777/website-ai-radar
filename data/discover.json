@@ -67,13 +67,13 @@
     "summary": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
     "unique": "Topics: agent-skill, open-source, svg, vizualization",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · 6 days old · 10k ⭐ on GitHub.",
+    "why": "Agent pick · 6 days old · 11k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-08T10:12:49Z",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 10004,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 10889,
     "starHistory": [
       {
         "at": "2026-10-12T21:18:41.028Z",
@@ -88,8 +88,8 @@
         "stars": 9899
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 10004
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 10889
       }
     ],
     "language": "JavaScript",
@@ -113,6 +113,51 @@
     "summarySource": "template"
   },
   {
+    "id": "5247a702d6a16253",
+    "name": "graphicle",
+    "url": "https://github.com/Graphicle-AI/graphicle",
+    "repo": "Graphicle-AI/graphicle",
+    "kind": "github",
+    "description": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
+    "summary": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
+    "unique": "Written in Rust",
+    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
+    "why": "Agent pick · Just launched · 136 ⭐ on GitHub · 40 points on Hacker News.",
+    "pricing": "Open source (Apache-2.0) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-14T12:25:36Z",
+    "firstSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 136,
+    "starHistory": [
+      {
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 136
+      }
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "topics": [],
+    "signals": [
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://github.com/graphicle-ai/graphicle",
+        "value": 1,
+        "at": "2026-10-15T00:09:25.879Z"
+      },
+      {
+        "source": "hackernews",
+        "label": "40 HN points · 11 comments",
+        "url": "https://news.ycombinator.com/item?id=50088713",
+        "value": 40,
+        "at": "2026-10-14T15:00:41Z"
+      }
+    ],
+    "score": 74,
+    "summarySource": "template"
+  },
+  {
     "id": "7d5820b245cede35",
     "name": "openTPU",
     "url": "https://github.com/FeSens/openTPU",
@@ -122,13 +167,13 @@
     "summary": "An open-source AI accelerator, developed by AI: RTL, ISA, simulator, compiler and profiler in one repo. Runs Qwen3, LFM2.5 and Qwen3.5 on a Kintex-7 PCIe card.",
     "unique": "Written in Verilog",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "20 days old · 713 ⭐ on GitHub · 343 points on Hacker News.",
+    "why": "20 days old · 718 ⭐ on GitHub · 343 points on Hacker News.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-24T12:26:10Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-14T21:47:04.696Z",
-    "stars": 713,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 718,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -153,6 +198,10 @@
       {
         "at": "2026-10-14T21:47:04.696Z",
         "stars": 713
+      },
+      {
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 718
       }
     ],
     "language": "Verilog",
@@ -171,51 +220,6 @@
     "summarySource": "template"
   },
   {
-    "id": "5247a702d6a16253",
-    "name": "graphicle",
-    "url": "https://github.com/Graphicle-AI/graphicle",
-    "repo": "Graphicle-AI/graphicle",
-    "kind": "github",
-    "description": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
-    "summary": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
-    "unique": "Written in Rust",
-    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · Just launched · 121 ⭐ on GitHub · 40 points on Hacker News.",
-    "pricing": "Open source (Apache-2.0) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-10-14T12:25:36Z",
-    "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 121,
-    "starHistory": [
-      {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 121
-      }
-    ],
-    "language": "Rust",
-    "license": "Apache-2.0",
-    "topics": [],
-    "signals": [
-      {
-        "source": "tip",
-        "label": "Agent pick (daily research)",
-        "url": "https://github.com/graphicle-ai/graphicle",
-        "value": 1,
-        "at": "2026-10-15T00:09:25.879Z"
-      },
-      {
-        "source": "hackernews",
-        "label": "40 HN points · 11 comments",
-        "url": "https://news.ycombinator.com/item?id=50088713",
-        "value": 40,
-        "at": "2026-10-14T15:00:41Z"
-      }
-    ],
-    "score": 73,
-    "summarySource": "template"
-  },
-  {
     "id": "4bb3f4842d73670a",
     "name": "rea",
     "url": "https://rea.tools",
@@ -225,13 +229,13 @@
     "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "unique": "Topics: agent-skills, ai-agents, binary-analysis, claude-code, cli",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "Older project (since 2026) gaining momentum · 239k ⭐ on GitHub · 63 points on Hacker News.",
+    "why": "Older project (since 2026) gaining momentum · 248k ⭐ on GitHub · 63 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "trending",
     "createdAt": "2026-04-14T00:51:32Z",
     "firstSeenAt": "2026-10-12T21:18:41.028Z",
-    "lastSeenAt": "2026-10-14T21:47:04.696Z",
-    "stars": 239351,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 248389,
     "starHistory": [
       {
         "at": "2026-10-12T21:18:41.028Z",
@@ -244,6 +248,10 @@
       {
         "at": "2026-10-14T21:47:04.696Z",
         "stars": 239351
+      },
+      {
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 248389
       }
     ],
     "language": "TypeScript",
@@ -285,8 +293,8 @@
     "novelty": "trending",
     "createdAt": "2025-09-01T12:14:45Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-14T21:47:04.696Z",
-    "stars": 4491,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 4498,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -311,6 +319,10 @@
       {
         "at": "2026-10-14T21:47:04.696Z",
         "stars": 4491
+      },
+      {
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 4498
       }
     ],
     "language": "Go",
@@ -341,13 +353,13 @@
     "summary": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
     "unique": "Topics: accessibility, ai-agents, claude-code, cli, codex",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "6 days old · 744 ⭐ on GitHub · 247 points on Hacker News.",
+    "why": "6 days old · 745 ⭐ on GitHub · 247 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-08T08:39:15Z",
     "firstSeenAt": "2026-10-09T16:18:37.683Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 744,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 745,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -374,8 +386,8 @@
         "stars": 743
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 744
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 745
       }
     ],
     "language": "Swift",
@@ -392,10 +404,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "744 stars",
+        "label": "745 stars",
         "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-        "value": 744,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 745,
+        "at": "2026-10-15T04:50:11.717Z"
       },
       {
         "source": "hackernews",
@@ -557,8 +569,8 @@
     "novelty": "new",
     "createdAt": "2026-10-02T18:21:23Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 2168,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 2175,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -585,8 +597,8 @@
         "stars": 2165
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 2168
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 2175
       }
     ],
     "language": "C",
@@ -607,20 +619,20 @@
   {
     "id": "6db85b4ddf9c89fc",
     "name": "talorys",
-    "url": "https://github.com/rociiu/talorys",
+    "url": "https://rociiu.github.io/talorys/",
     "repo": "rociiu/talorys",
     "kind": "github",
     "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
     "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
     "unique": "Topics: ai-agent, cloudflare, cloudflare-workers, durable-objects, personal-assistant",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "4 days old · 999 ⭐ on GitHub · 188 points on Hacker News.",
+    "why": "4 days old · 1.0k ⭐ on GitHub · 188 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-10T09:46:56Z",
     "firstSeenAt": "2026-10-10T19:19:56.969Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 999,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1004,
     "starHistory": [
       {
         "at": "2026-10-10T19:19:56.969Z",
@@ -643,8 +655,8 @@
         "stars": 995
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 999
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1004
       }
     ],
     "language": "TypeScript",
@@ -662,10 +674,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "999 stars",
+        "label": "1,004 stars",
         "url": "https://github.com/rociiu/talorys",
-        "value": 999,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1004,
+        "at": "2026-10-15T04:50:11.717Z"
       },
       {
         "source": "hackernews",
@@ -688,13 +700,13 @@
     "summary": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
     "unique": "Topics: ai-agents, deepseek, deepseek-harness, developer-tools, dsh",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "20 days old · 16k ⭐ on GitHub.",
+    "why": "20 days old · 17k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-24T16:17:19Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 16142,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 16601,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -721,8 +733,8 @@
         "stars": 16096
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 16142
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 16601
       }
     ],
     "language": "JavaScript",
@@ -740,13 +752,13 @@
     "signals": [
       {
         "source": "github",
-        "label": "16,141 stars",
+        "label": "16,601 stars",
         "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-        "value": 16141,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 16601,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
-    "score": 60,
+    "score": 61,
     "summarySource": "template"
   },
   {
@@ -764,8 +776,8 @@
     "novelty": "new",
     "createdAt": "2026-09-23T16:22:35Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 12702,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 12948,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -792,8 +804,8 @@
         "stars": 12688
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 12702
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 12948
       }
     ],
     "language": "Go",
@@ -809,10 +821,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "12,702 stars",
+        "label": "12,948 stars",
         "url": "https://github.com/yetone/magpie",
-        "value": 12702,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 12948,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 59,
@@ -828,13 +840,13 @@
     "summary": "The affordable newsletter for the agentic era. Open source: self-host it, or use mailcheap.ai.",
     "unique": "Topics: ai-agents, email, mcp, newsletter, nextjs",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "4 days old · Featured in Ben's Bites · 930 ⭐ on GitHub.",
+    "why": "4 days old · Featured in Ben's Bites · 933 ⭐ on GitHub.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-10T12:55:36Z",
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 930,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 933,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -845,8 +857,8 @@
         "stars": 929
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 930
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 933
       }
     ],
     "language": "JavaScript",
@@ -862,10 +874,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "930 stars",
+        "label": "933 stars",
         "url": "https://github.com/marclou/mailcheap",
-        "value": 930,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 933,
+        "at": "2026-10-15T04:50:11.717Z"
       },
       {
         "source": "newsletter",
@@ -888,13 +900,13 @@
     "summary": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
     "unique": "Topics: accessibility-service, ai-assistant, android, chat-assistant, chat-copilot",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "23 days old · 7.7k ⭐ on GitHub.",
+    "why": "23 days old · 7.8k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-21T11:12:53Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 7749,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 7751,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -921,8 +933,8 @@
         "stars": 7749
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 7749
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 7751
       }
     ],
     "language": "Kotlin",
@@ -940,10 +952,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "7,749 stars",
+        "label": "7,751 stars",
         "url": "https://github.com/jev-chat/jev-chat-jarvis",
-        "value": 7749,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 7751,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 57,
@@ -964,8 +976,8 @@
     "novelty": "new",
     "createdAt": "2026-09-20T12:01:16Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 7826,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 7831,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -992,8 +1004,8 @@
         "stars": 7824
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 7826
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 7831
       }
     ],
     "language": "TypeScript",
@@ -1002,10 +1014,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "7,826 stars",
+        "label": "7,831 stars",
         "url": "https://github.com/zai-org/ZCode",
-        "value": 7826,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 7831,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 57,
@@ -1086,13 +1098,13 @@
     "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
     "unique": "Topics: ai, chinese, content-curation, daily-digest, docker-compose",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "16 days old · 7.6k ⭐ on GitHub.",
+    "why": "16 days old · 7.7k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-28T23:40:05Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 7646,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 7697,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1119,8 +1131,8 @@
         "stars": 7642
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 7646
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 7697
       }
     ],
     "language": "TypeScript",
@@ -1138,10 +1150,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "7,646 stars",
+        "label": "7,697 stars",
         "url": "https://github.com/KKKKhazix/AIHOT",
-        "value": 7646,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 7697,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 57,
@@ -1157,13 +1169,13 @@
     "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
     "unique": "Topics: age-of-empires, claude-code, claude-code-plugin, fal, game-assets",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "14 days old · 7.6k ⭐ on GitHub.",
+    "why": "14 days old · 7.7k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-30T05:00:35Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 7643,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 7691,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1190,8 +1202,8 @@
         "stars": 7626
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 7643
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 7691
       }
     ],
     "language": "Python",
@@ -1209,10 +1221,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "7,643 stars",
+        "label": "7,691 stars",
         "url": "https://github.com/rehan-remade/universal-modder",
-        "value": 7643,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 7691,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 57,
@@ -1233,7 +1245,7 @@
     "novelty": "trending",
     "createdAt": "2026-03-23T21:20:50Z",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 59,
     "starHistory": [
       {
@@ -1249,7 +1261,7 @@
         "stars": 59
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 59
       }
     ],
@@ -1292,8 +1304,8 @@
     "novelty": "new",
     "createdAt": "2026-10-07T05:17:07Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-14T21:47:04.696Z",
-    "stars": 1212,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1217,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1318,6 +1330,10 @@
       {
         "at": "2026-10-14T21:47:04.696Z",
         "stars": 1212
+      },
+      {
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1217
       }
     ],
     "language": "Rust",
@@ -1355,8 +1371,8 @@
     "novelty": "new",
     "createdAt": "2026-09-27T21:54:12Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 5218,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 5228,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1383,8 +1399,8 @@
         "stars": 5202
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 5218
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 5228
       }
     ],
     "language": "Swift",
@@ -1402,10 +1418,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "5,218 stars",
+        "label": "5,228 stars",
         "url": "https://github.com/Louis-CFM/coucou",
-        "value": 5218,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 5228,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 55,
@@ -1471,13 +1487,13 @@
     "summary": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
     "unique": "Topics: cli, javascript, mcp, react, shaders",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "15 days old · 4.8k ⭐ on GitHub.",
+    "why": "15 days old · 4.9k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-29T16:36:26Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 4844,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 4863,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1504,8 +1520,8 @@
         "stars": 4844
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 4844
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 4863
       }
     ],
     "language": "TypeScript",
@@ -1523,10 +1539,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "4,844 stars",
+        "label": "4,863 stars",
         "url": "https://github.com/shader-effects-inc/shaders",
-        "value": 4844,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 4863,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 54,
@@ -1542,13 +1558,13 @@
     "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
     "unique": "Topics: 3d-modeling, brep, cad, egui, mcp",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "7 days old · 2.4k ⭐ on GitHub · 33 points on Hacker News.",
+    "why": "7 days old · 2.5k ⭐ on GitHub · 33 points on Hacker News.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-07T18:57:48Z",
     "firstSeenAt": "2026-10-12T00:04:09.274Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 2359,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 2459,
     "starHistory": [
       {
         "at": "2026-10-12T21:18:41.028Z",
@@ -1563,8 +1579,8 @@
         "stars": 2320
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 2359
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 2459
       }
     ],
     "language": "Rust",
@@ -1582,10 +1598,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,359 stars",
+        "label": "2,458 stars",
         "url": "https://github.com/bherbruck/solidcraft",
-        "value": 2359,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 2458,
+        "at": "2026-10-15T04:50:11.717Z"
       },
       {
         "source": "hackernews",
@@ -1613,8 +1629,8 @@
     "novelty": "new",
     "createdAt": "2026-09-21T05:26:26Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 3387,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 3395,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1641,8 +1657,8 @@
         "stars": 3387
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 3387
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 3395
       }
     ],
     "language": "TypeScript",
@@ -1651,10 +1667,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "3,387 stars",
+        "label": "3,395 stars",
         "url": "https://github.com/omnirush-ai/omnirush-gui",
-        "value": 3387,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 3395,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 52,
@@ -1675,8 +1691,8 @@
     "novelty": "new",
     "createdAt": "2026-10-02T09:57:40Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 3373,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 3388,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1703,8 +1719,8 @@
         "stars": 3365
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 3373
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 3388
       }
     ],
     "language": "JavaScript",
@@ -1722,10 +1738,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "3,373 stars",
+        "label": "3,388 stars",
         "url": "https://github.com/QingYunA/answer-me-with-html",
-        "value": 3373,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 3388,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 52,
@@ -1741,13 +1757,13 @@
     "summary": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
     "unique": "Topics: agent-skills, branding, claude, claude-skills, codex",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "18 days old · 3.3k ⭐ on GitHub.",
+    "why": "18 days old · 3.4k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-26T08:23:34Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 3348,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 3368,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1774,8 +1790,8 @@
         "stars": 3333
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 3348
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 3368
       }
     ],
     "language": "HTML",
@@ -1793,10 +1809,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "3,348 stars",
+        "label": "3,368 stars",
         "url": "https://github.com/kaankiziltug/logo-design-skill",
-        "value": 3348,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 3368,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 52,
@@ -1817,7 +1833,7 @@
     "novelty": "new",
     "createdAt": "2026-10-06T20:14:19Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 3370,
     "starHistory": [
       {
@@ -1845,7 +1861,7 @@
         "stars": 3368
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 3370
       }
     ],
@@ -1867,7 +1883,7 @@
         "label": "3,370 stars",
         "url": "https://github.com/LosaLosSantos/aurelio-finance",
         "value": 3370,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 52,
@@ -1888,8 +1904,8 @@
     "novelty": "new",
     "createdAt": "2026-09-23T06:13:06Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1194,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1217,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1916,8 +1932,8 @@
         "stars": 1186
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1194
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1217
       }
     ],
     "language": "Swift",
@@ -1935,10 +1951,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,193 stars",
+        "label": "1,217 stars",
         "url": "https://github.com/nano-muse/nanoMuse",
-        "value": 1193,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1217,
+        "at": "2026-10-15T04:50:11.717Z"
       },
       {
         "source": "hackernews",
@@ -1966,8 +1982,8 @@
     "novelty": "new",
     "createdAt": "2026-09-28T19:14:59Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 3169,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 3245,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1994,8 +2010,8 @@
         "stars": 3142
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 3169
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 3245
       }
     ],
     "language": "JavaScript",
@@ -2013,10 +2029,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "3,168 stars",
+        "label": "3,245 stars",
         "url": "https://github.com/edenfunf/reelmimic",
-        "value": 3168,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 3245,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 52,
@@ -2037,7 +2053,7 @@
     "novelty": "new",
     "createdAt": "2026-09-29T23:06:00Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 2750,
     "starHistory": [
       {
@@ -2065,7 +2081,7 @@
         "stars": 2749
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 2750
       }
     ],
@@ -2087,7 +2103,7 @@
         "label": "2,750 stars",
         "url": "https://github.com/feder-cr/invisible_playwright_mcp",
         "value": 2750,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 51,
@@ -2103,12 +2119,12 @@
     "summary": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
     "unique": "Topics: ai-sdk, claude-code, cli, code-search, codex",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "18 days old · 2.7k ⭐ on GitHub.",
+    "why": "19 days old · 2.7k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-26T04:06:56Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 2678,
     "starHistory": [
       {
@@ -2136,7 +2152,7 @@
         "stars": 2678
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 2678
       }
     ],
@@ -2158,7 +2174,7 @@
         "label": "2,678 stars",
         "url": "https://github.com/dzhng/jevgrep",
         "value": 2678,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 51,
@@ -2179,8 +2195,8 @@
     "novelty": "new",
     "createdAt": "2026-09-18T08:51:34Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 2762,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 2832,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2207,8 +2223,8 @@
         "stars": 2753
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 2762
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 2832
       }
     ],
     "language": "Python",
@@ -2226,10 +2242,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,762 stars",
+        "label": "2,832 stars",
         "url": "https://github.com/Oldcircle/geo-sleuth",
-        "value": 2762,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 2832,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 51,
@@ -2250,8 +2266,8 @@
     "novelty": "new",
     "createdAt": "2026-10-03T12:07:49Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 2608,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 2634,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2278,8 +2294,8 @@
         "stars": 2588
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 2608
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 2634
       }
     ],
     "language": "Python",
@@ -2297,10 +2313,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,608 stars",
+        "label": "2,634 stars",
         "url": "https://github.com/Jakeschincariol/replica-skill",
-        "value": 2608,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 2634,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 51,
@@ -2321,8 +2337,8 @@
     "novelty": "new",
     "createdAt": "2026-09-26T05:35:17Z",
     "firstSeenAt": "2026-10-10T06:00:38.833Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 2386,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 2401,
     "starHistory": [
       {
         "at": "2026-10-10T19:19:56.969Z",
@@ -2345,8 +2361,8 @@
         "stars": 2381
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 2386
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 2401
       }
     ],
     "language": "Python",
@@ -2363,80 +2379,13 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,386 stars",
+        "label": "2,401 stars",
         "url": "https://github.com/feitangyuan/onetake",
-        "value": 2386,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 2401,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 51,
-    "summarySource": "template"
-  },
-  {
-    "id": "d0439ac1933b8b01",
-    "name": "awesome-jev",
-    "url": "https://github.com/yibie/awesome-jev",
-    "repo": "yibie/awesome-jev",
-    "kind": "github",
-    "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-    "summary": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-    "unique": "Topics: awesome, awesome-list, jev, llm",
-    "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "27 days old · 2.3k ⭐ on GitHub.",
-    "pricing": "Public code, unclear license — check the repo before use",
-    "novelty": "new",
-    "createdAt": "2026-09-17T14:23:21Z",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 2337,
-    "starHistory": [
-      {
-        "at": "2026-10-09T22:44:03.896Z",
-        "stars": 2247
-      },
-      {
-        "at": "2026-10-10T19:19:56.969Z",
-        "stars": 2261
-      },
-      {
-        "at": "2026-10-11T19:36:03.298Z",
-        "stars": 2274
-      },
-      {
-        "at": "2026-10-12T21:18:41.028Z",
-        "stars": 2300
-      },
-      {
-        "at": "2026-10-13T22:53:06.584Z",
-        "stars": 2317
-      },
-      {
-        "at": "2026-10-14T21:47:04.696Z",
-        "stars": 2335
-      },
-      {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 2337
-      }
-    ],
-    "language": "Python",
-    "license": null,
-    "topics": [
-      "awesome",
-      "awesome-list",
-      "jev",
-      "llm"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "2,337 stars",
-        "url": "https://github.com/yibie/awesome-jev",
-        "value": 2337,
-        "at": "2026-10-15T00:09:32.370Z"
-      }
-    ],
-    "score": 50,
     "summarySource": "template"
   },
   {
@@ -2449,13 +2398,13 @@
     "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
     "unique": "Topics: agent-skills, ai-agents, ai-short-film, ai-video, animation",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "18 days old · 2.3k ⭐ on GitHub.",
+    "why": "18 days old · 2.4k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-26T10:10:41Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 2342,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 2380,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2482,8 +2431,8 @@
         "stars": 2334
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 2342
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 2380
       }
     ],
     "language": "JavaScript",
@@ -2501,10 +2450,77 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,342 stars",
+        "label": "2,380 stars",
         "url": "https://github.com/lemomo-ai/lemo-opuscar",
-        "value": 2342,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 2380,
+        "at": "2026-10-15T04:50:11.717Z"
+      }
+    ],
+    "score": 51,
+    "summarySource": "template"
+  },
+  {
+    "id": "d0439ac1933b8b01",
+    "name": "awesome-jev",
+    "url": "https://github.com/yibie/awesome-jev",
+    "repo": "yibie/awesome-jev",
+    "kind": "github",
+    "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+    "summary": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+    "unique": "Topics: awesome, awesome-list, jev, llm",
+    "benefit": "A new AI tool worth evaluating for your needs.",
+    "why": "27 days old · 2.3k ⭐ on GitHub.",
+    "pricing": "Public code, unclear license — check the repo before use",
+    "novelty": "new",
+    "createdAt": "2026-09-17T14:23:21Z",
+    "firstSeenAt": "2026-10-09T09:38:27.208Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 2344,
+    "starHistory": [
+      {
+        "at": "2026-10-09T22:44:03.896Z",
+        "stars": 2247
+      },
+      {
+        "at": "2026-10-10T19:19:56.969Z",
+        "stars": 2261
+      },
+      {
+        "at": "2026-10-11T19:36:03.298Z",
+        "stars": 2274
+      },
+      {
+        "at": "2026-10-12T21:18:41.028Z",
+        "stars": 2300
+      },
+      {
+        "at": "2026-10-13T22:53:06.584Z",
+        "stars": 2317
+      },
+      {
+        "at": "2026-10-14T21:47:04.696Z",
+        "stars": 2335
+      },
+      {
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 2344
+      }
+    ],
+    "language": "Python",
+    "license": null,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "jev",
+      "llm"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "2,344 stars",
+        "url": "https://github.com/yibie/awesome-jev",
+        "value": 2344,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 50,
@@ -2525,8 +2541,8 @@
     "novelty": "new",
     "createdAt": "2026-09-30T11:49:32Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1970,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1976,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2553,8 +2569,8 @@
         "stars": 1969
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1970
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1976
       }
     ],
     "language": "Python",
@@ -2572,10 +2588,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,970 stars",
+        "label": "1,976 stars",
         "url": "https://github.com/nanaism/yomiyasu",
-        "value": 1970,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1976,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 50,
@@ -2591,13 +2607,13 @@
     "summary": "37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, 24 without drafts vs 2.8 for llama.cpp; reading 62 vs 16 tok/s. Faster than llama.cpp on all 13 models compared in Q4_K_M. LLMs bigger than your RAM, pure C, CPU or GPU.",
     "unique": "Topics: avx2, c, cpu-inference, gguf, inference-engine",
     "benefit": "Alternative inference/API infrastructure that may cut costs.",
-    "why": "24 days old · 395 ⭐ on GitHub · 103 points on Hacker News.",
+    "why": "24 days old · 400 ⭐ on GitHub · 103 points on Hacker News.",
     "pricing": "Open source (GPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-20T09:55:09Z",
     "firstSeenAt": "2026-10-13T06:52:26.045Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 395,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 400,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -2608,8 +2624,8 @@
         "stars": 391
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 395
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 400
       }
     ],
     "language": "C",
@@ -2627,10 +2643,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "395 stars",
+        "label": "400 stars",
         "url": "https://github.com/prabanta-dev/janas",
-        "value": 395,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 400,
+        "at": "2026-10-15T04:50:11.717Z"
       },
       {
         "source": "hackernews",
@@ -2653,13 +2669,13 @@
     "summary": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
     "unique": "Topics: ai-agent, airplay, automation, computer-use, esp32",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "3 days old · 2.1k ⭐ on GitHub.",
+    "why": "3 days old · 2.2k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-11T19:10:25Z",
     "firstSeenAt": "2026-10-13T06:52:26.045Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 2074,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 2152,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -2670,11 +2686,11 @@
         "stars": 2062
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 2074
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 2152
       }
     ],
-    "language": "Python",
+    "language": "C",
     "license": "MIT",
     "topics": [
       "ai-agent",
@@ -2689,10 +2705,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,074 stars",
+        "label": "2,152 stars",
         "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-        "value": 2074,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 2152,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 50,
@@ -2746,13 +2762,13 @@
     "summary": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
     "unique": "Topics: brand-identity, cloudflare-workers, design-systems, generative-ai, logo-design",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "24 days old · 1.7k ⭐ on GitHub.",
+    "why": "24 days old · 1.8k ⭐ on GitHub.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-20T07:54:30Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1729,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1750,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2779,8 +2795,8 @@
         "stars": 1729
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1729
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1750
       }
     ],
     "language": "TypeScript",
@@ -2796,10 +2812,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,729 stars",
+        "label": "1,750 stars",
         "url": "https://github.com/Inkloom-art/inkloom",
-        "value": 1729,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1750,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 49,
@@ -2857,13 +2873,13 @@
     "summary": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
     "unique": "Topics: ai-agent, chat-history, macos, obsidian, share-extension",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "23 days old · 1.4k ⭐ on GitHub.",
+    "why": "24 days old · 1.5k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-21T02:54:51Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1446,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1461,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2890,8 +2906,8 @@
         "stars": 1444
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1446
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1461
       }
     ],
     "language": "Swift",
@@ -2908,10 +2924,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,446 stars",
+        "label": "1,461 stars",
         "url": "https://github.com/freestylefly/WeChatBridge",
-        "value": 1446,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1461,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 48,
@@ -3051,13 +3067,13 @@
     "summary": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
     "unique": "Topics: agent-skills, ai-design, claude-code, claude-skills, codex",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "14 days old · 1.5k ⭐ on GitHub.",
+    "why": "15 days old · 1.5k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-30T03:55:35Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1474,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1484,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3084,8 +3100,8 @@
         "stars": 1471
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1474
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1484
       }
     ],
     "language": "Python",
@@ -3103,10 +3119,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,474 stars",
+        "label": "1,484 stars",
         "url": "https://github.com/oil-oil/oil-ui",
-        "value": 1474,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1484,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 48,
@@ -3127,8 +3143,8 @@
     "novelty": "new",
     "createdAt": "2026-10-03T14:49:48Z",
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1489,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1500,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -3139,8 +3155,8 @@
         "stars": 1485
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1489
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1500
       }
     ],
     "language": "Go",
@@ -3158,10 +3174,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,489 stars",
+        "label": "1,500 stars",
         "url": "https://github.com/jiwoochris/artex-global",
-        "value": 1489,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1500,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 48,
@@ -3182,7 +3198,7 @@
     "createdAt": "2026-10-13T19:50:31Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -3266,13 +3282,13 @@
     "summary": "Native client for Herdr on macOS, Linux, and Windows, built with Rust and GPUI. View terminal sessions, workspaces, Git worktrees, and agent activity through your local Herdr daemon.",
     "unique": "Topics: ai-agents, desktop-app, developer-tools, git-worktrees, gpui",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "24 days old · 1.3k ⭐ on GitHub.",
+    "why": "24 days old · 1.4k ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-20T05:22:39Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1347,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1354,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3299,8 +3315,8 @@
         "stars": 1346
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1347
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1354
       }
     ],
     "language": "Rust",
@@ -3318,10 +3334,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,347 stars",
+        "label": "1,354 stars",
         "url": "https://github.com/penso/herdr-gpui",
-        "value": 1347,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1354,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 48,
@@ -3450,8 +3466,8 @@
     "novelty": "new",
     "createdAt": "2026-09-21T05:55:40Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1269,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1270,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3478,8 +3494,8 @@
         "stars": 1268
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1269
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1270
       }
     ],
     "language": "Python",
@@ -3497,10 +3513,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,269 stars",
+        "label": "1,270 stars",
         "url": "https://github.com/nokia-applied-research/AnyJev",
-        "value": 1269,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1270,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 47,
@@ -3521,8 +3537,8 @@
     "novelty": "new",
     "createdAt": "2026-09-23T13:37:26Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1281,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1282,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3549,8 +3565,8 @@
         "stars": 1280
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1281
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1282
       }
     ],
     "language": "TypeScript",
@@ -3568,10 +3584,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,281 stars",
+        "label": "1,282 stars",
         "url": "https://github.com/mikehasa/golive-skill",
-        "value": 1281,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1282,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 47,
@@ -3592,7 +3608,7 @@
     "novelty": "new",
     "createdAt": "2026-09-16T17:48:45Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 1233,
     "starHistory": [
       {
@@ -3620,7 +3636,7 @@
         "stars": 1233
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 1233
       }
     ],
@@ -3640,7 +3656,7 @@
         "label": "1,233 stars",
         "url": "https://github.com/awlevin/typesafe-computer-use",
         "value": 1233,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 47,
@@ -3692,6 +3708,127 @@
         "url": "https://github.com/krishhgg/Insomnia",
         "value": 1301,
         "at": "2026-10-13T22:53:06.584Z"
+      }
+    ],
+    "score": 47,
+    "summarySource": "template"
+  },
+  {
+    "id": "ba716514710fd840",
+    "name": "lcu",
+    "url": "https://lcu.amontlabs.com",
+    "repo": "amontlabs/lcu",
+    "kind": "github",
+    "description": "Codex computer use, decoupled from the app, for usage inside any harness.",
+    "summary": "Codex computer use, decoupled from the app, for usage inside any harness.",
+    "unique": "Topics: accessibility, agent-skills, browser-automation, claude-code, codex-cli",
+    "benefit": "Could speed up coding workflows and developer automation.",
+    "why": "22 days old · 1.1k ⭐ on GitHub.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-09-22T15:08:18Z",
+    "firstSeenAt": "2026-10-09T09:38:27.208Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1100,
+    "starHistory": [
+      {
+        "at": "2026-10-09T22:44:03.896Z",
+        "stars": 865
+      },
+      {
+        "at": "2026-10-10T19:19:56.969Z",
+        "stars": 885
+      },
+      {
+        "at": "2026-10-11T19:36:03.298Z",
+        "stars": 896
+      },
+      {
+        "at": "2026-10-12T21:18:41.028Z",
+        "stars": 1020
+      },
+      {
+        "at": "2026-10-13T22:53:06.584Z",
+        "stars": 1072
+      },
+      {
+        "at": "2026-10-14T21:47:04.696Z",
+        "stars": 1096
+      },
+      {
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1100
+      }
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "topics": [
+      "accessibility",
+      "agent-skills",
+      "browser-automation",
+      "claude-code",
+      "codex-cli",
+      "computer-use",
+      "desktop-automation",
+      "linux"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "1,100 stars",
+        "url": "https://github.com/amontlabs/lcu",
+        "value": 1100,
+        "at": "2026-10-15T04:50:11.717Z"
+      }
+    ],
+    "score": 47,
+    "summarySource": "template"
+  },
+  {
+    "id": "236536d228cfe0f1",
+    "name": "tokentab",
+    "url": "https://github.com/yakuikai/tokentab",
+    "repo": "yakuikai/tokentab",
+    "kind": "github",
+    "description": "Local-first CLI and web dashboard that reads Claude Code, Codex and Gemini CLI session logs and shows token usage and cost by model, project, day and activity. No account, no API key, nothing leaves your machine",
+    "summary": "Local-first CLI and web dashboard that reads Claude Code, Codex and Gemini CLI session logs and shows token usage and cost by model, project, day and activity. No account, no API key, nothing leaves your machine",
+    "unique": "Topics: ai, ai-token, ai-token-optimizer, claude-code, codex",
+    "benefit": "Could speed up coding workflows and developer automation.",
+    "why": "23 days old · 1.2k ⭐ on GitHub.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-09-21T18:07:22Z",
+    "firstSeenAt": "2026-10-14T17:19:08.627Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1178,
+    "starHistory": [
+      {
+        "at": "2026-10-14T21:47:04.696Z",
+        "stars": 929
+      },
+      {
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1178
+      }
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "ai-token",
+      "ai-token-optimizer",
+      "claude-code",
+      "codex",
+      "python",
+      "token-usage"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "1,178 stars",
+        "url": "https://github.com/yakuikai/tokentab",
+        "value": 1178,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 47,
@@ -3809,7 +3946,7 @@
     "novelty": "new",
     "createdAt": "2026-09-17T12:41:27Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 947,
     "starHistory": [
       {
@@ -3837,7 +3974,7 @@
         "stars": 947
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 947
       }
     ],
@@ -3855,7 +3992,7 @@
         "label": "947 stars",
         "url": "https://github.com/TypeLLM/TypeLLM",
         "value": 947,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 46,
@@ -3917,77 +4054,6 @@
     "summarySource": "template"
   },
   {
-    "id": "ba716514710fd840",
-    "name": "lcu",
-    "url": "https://lcu.amontlabs.com",
-    "repo": "amontlabs/lcu",
-    "kind": "github",
-    "description": "Codex computer use, decoupled from the app, for usage inside any harness.",
-    "summary": "Codex computer use, decoupled from the app, for usage inside any harness.",
-    "unique": "Topics: accessibility, agent-skills, browser-automation, claude-code, codex-cli",
-    "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "22 days old · 1.1k ⭐ on GitHub.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-09-22T15:08:18Z",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1097,
-    "starHistory": [
-      {
-        "at": "2026-10-09T22:44:03.896Z",
-        "stars": 865
-      },
-      {
-        "at": "2026-10-10T19:19:56.969Z",
-        "stars": 885
-      },
-      {
-        "at": "2026-10-11T19:36:03.298Z",
-        "stars": 896
-      },
-      {
-        "at": "2026-10-12T21:18:41.028Z",
-        "stars": 1020
-      },
-      {
-        "at": "2026-10-13T22:53:06.584Z",
-        "stars": 1072
-      },
-      {
-        "at": "2026-10-14T21:47:04.696Z",
-        "stars": 1096
-      },
-      {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1097
-      }
-    ],
-    "language": "JavaScript",
-    "license": "MIT",
-    "topics": [
-      "accessibility",
-      "agent-skills",
-      "browser-automation",
-      "claude-code",
-      "codex-cli",
-      "computer-use",
-      "desktop-automation",
-      "linux"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "1,097 stars",
-        "url": "https://github.com/amontlabs/lcu",
-        "value": 1097,
-        "at": "2026-10-15T00:09:32.370Z"
-      }
-    ],
-    "score": 46,
-    "summarySource": "template"
-  },
-  {
     "id": "bae66b4f1f180cf9",
     "name": "easyread",
     "url": "https://edwardxlai.github.io/easyread/",
@@ -3997,13 +4063,13 @@
     "summary": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
     "unique": "Topics: academic, arxiv, chinese, claude-code, codex",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "14 days old · 939 ⭐ on GitHub.",
+    "why": "14 days old · 944 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-30T12:52:24Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 939,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 944,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4030,8 +4096,8 @@
         "stars": 939
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 939
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 944
       }
     ],
     "language": "Python",
@@ -4049,10 +4115,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "939 stars",
+        "label": "944 stars",
         "url": "https://github.com/Edwardxlai/easyread",
-        "value": 939,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 944,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 46,
@@ -4068,13 +4134,13 @@
     "summary": "Fast, free voice assistant for your Mac. No API key: runs on your Claude Pro or Max plan. Remembers you and learns your shortcuts. Hold ⌃⌥Space and talk.",
     "unique": "Topics: claude, claude-code, macos, menubar-app, open-source",
     "benefit": "Alternative inference/API infrastructure that may cut costs.",
-    "why": "4 days old · 157 ⭐ on GitHub · 113 points on Hacker News.",
+    "why": "5 days old · 159 ⭐ on GitHub · 113 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-10T01:07:04Z",
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 157,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 159,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -4085,8 +4151,8 @@
         "stars": 157
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 157
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 159
       }
     ],
     "language": "Python",
@@ -4123,13 +4189,13 @@
     "summary": "Browser and phone client for herdr: chat and live terminal for every agent pane, remote PCs over SSH, web push alerts",
     "unique": "Topics: bun, claude-code, codex, coding-agents, herdr",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "27 days old · 969 ⭐ on GitHub.",
+    "why": "27 days old · 976 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-17T18:52:07Z",
     "firstSeenAt": "2026-10-09T14:29:17.311Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 969,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 976,
     "starHistory": [
       {
         "at": "2026-10-09T14:35:39.162Z",
@@ -4156,8 +4222,8 @@
         "stars": 963
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 969
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 976
       }
     ],
     "language": "TypeScript",
@@ -4175,10 +4241,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "969 stars",
+        "label": "976 stars",
         "url": "https://github.com/devswha/herdr-web-ui",
-        "value": 969,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 976,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 46,
@@ -4194,13 +4260,13 @@
     "summary": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
     "unique": "Topics: agent-skills, animation, canvas, claude-code, claude-plugin",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "22 days old · 914 ⭐ on GitHub.",
+    "why": "22 days old · 920 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-22T11:20:47Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 914,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 920,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4227,8 +4293,8 @@
         "stars": 913
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 914
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 920
       }
     ],
     "language": "TypeScript",
@@ -4246,10 +4312,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "914 stars",
+        "label": "920 stars",
         "url": "https://github.com/alexgreensh/anidoodle",
-        "value": 914,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 920,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 46,
@@ -4270,8 +4336,8 @@
     "novelty": "new",
     "createdAt": "2026-10-02T09:50:45Z",
     "firstSeenAt": "2026-10-12T21:18:41.028Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1063,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 1074,
     "starHistory": [
       {
         "at": "2026-10-12T21:18:41.028Z",
@@ -4286,8 +4352,8 @@
         "stars": 1061
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1063
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 1074
       }
     ],
     "language": "Rust",
@@ -4305,10 +4371,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,063 stars",
+        "label": "1,074 stars",
         "url": "https://github.com/Folkbench/folkbench",
-        "value": 1063,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 1074,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 46,
@@ -4324,13 +4390,13 @@
     "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
     "unique": "Topics: agent-skills, ai, aisa, claude-code, claude-skills",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "2 days old · 953 ⭐ on GitHub.",
+    "why": "2 days old · 974 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-12T07:11:01Z",
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 953,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 974,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -4341,8 +4407,8 @@
         "stars": 947
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 953
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 974
       }
     ],
     "language": "Python",
@@ -4360,60 +4426,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "953 stars",
+        "label": "974 stars",
         "url": "https://github.com/zhuyansen/new-term-radar",
-        "value": 953,
-        "at": "2026-10-15T00:09:32.370Z"
-      }
-    ],
-    "score": 46,
-    "summarySource": "template"
-  },
-  {
-    "id": "236536d228cfe0f1",
-    "name": "tokentab",
-    "url": "https://github.com/yakuikai/tokentab",
-    "repo": "yakuikai/tokentab",
-    "kind": "github",
-    "description": "Local-first CLI and web dashboard that reads Claude Code, Codex and Gemini CLI session logs and shows token usage and cost by model, project, day and activity. No account, no API key, nothing leaves your machine",
-    "summary": "Local-first CLI and web dashboard that reads Claude Code, Codex and Gemini CLI session logs and shows token usage and cost by model, project, day and activity. No account, no API key, nothing leaves your machine",
-    "unique": "Topics: ai, ai-token, ai-token-optimizer, claude-code, codex",
-    "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "23 days old · 1.0k ⭐ on GitHub.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-09-21T18:07:22Z",
-    "firstSeenAt": "2026-10-14T17:19:08.627Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 1018,
-    "starHistory": [
-      {
-        "at": "2026-10-14T21:47:04.696Z",
-        "stars": 929
-      },
-      {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 1018
-      }
-    ],
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-      "ai",
-      "ai-token",
-      "ai-token-optimizer",
-      "claude-code",
-      "codex",
-      "python",
-      "token-usage"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "1,018 stars",
-        "url": "https://github.com/yakuikai/tokentab",
-        "value": 1018,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 974,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 46,
@@ -4484,13 +4500,13 @@
     "summary": "JevChat-Windows：聊天窗口旁挂的回复辅助。窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
     "unique": "Topics: chat-assistant, jev, llm, local-first, ocr",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "23 days old · 806 ⭐ on GitHub.",
+    "why": "23 days old · 807 ⭐ on GitHub.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-21T14:37:14Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 806,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 807,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4517,8 +4533,8 @@
         "stars": 805
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 806
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 807
       }
     ],
     "language": "Python",
@@ -4536,10 +4552,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "806 stars",
+        "label": "807 stars",
         "url": "https://github.com/jev-chat/jev-chat-windows",
-        "value": 806,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 807,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 45,
@@ -4560,7 +4576,7 @@
     "novelty": "new",
     "createdAt": "2026-09-21T00:00:02Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 894,
     "starHistory": [
       {
@@ -4588,7 +4604,7 @@
         "stars": 894
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 894
       }
     ],
@@ -4601,7 +4617,7 @@
         "label": "894 stars",
         "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
         "value": 894,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 45,
@@ -4622,7 +4638,7 @@
     "createdAt": "2026-10-09T09:31:18.502Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -4660,7 +4676,7 @@
     "createdAt": "2026-10-09T14:35:33.981Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -4691,7 +4707,7 @@
     "createdAt": "2026-10-09T14:35:33.716Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -4722,7 +4738,7 @@
     "createdAt": "2026-10-09T14:35:33.470Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -4753,7 +4769,7 @@
     "createdAt": "2026-10-09T14:35:33.219Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -4784,7 +4800,7 @@
     "createdAt": "2026-10-09T14:35:32.976Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -4810,13 +4826,13 @@
     "summary": "归藏 product video skill：复用真实产品组件和设计语言，用代码制作软件更新宣传片。包含分镜文案、原创配乐、动作音效与视频渲染，支持 Claude Code 和 Codex。",
     "unique": "Topics: agent-skills, claude-code, codepilot, codex, hyperframes",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "26 days old · 795 ⭐ on GitHub.",
+    "why": "27 days old · 800 ⭐ on GitHub.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-18T04:22:37Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 795,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 800,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4843,8 +4859,8 @@
         "stars": 792
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 795
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 800
       }
     ],
     "language": "Python",
@@ -4862,10 +4878,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "795 stars",
+        "label": "800 stars",
         "url": "https://github.com/op7418/guizang-product-video-skill",
-        "value": 795,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 800,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 45,
@@ -4886,7 +4902,7 @@
     "createdAt": "2026-10-10T00:08:19.894Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -4917,7 +4933,7 @@
     "createdAt": "2026-10-10T00:08:19.596Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -4948,7 +4964,7 @@
     "createdAt": "2026-10-10T00:08:19.322Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -4979,7 +4995,7 @@
     "createdAt": "2026-10-10T00:08:19.049Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5010,7 +5026,7 @@
     "createdAt": "2026-10-10T00:08:18.795Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5041,7 +5057,7 @@
     "novelty": "new",
     "createdAt": "2026-09-17T05:42:31Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 757,
     "starHistory": [
       {
@@ -5069,7 +5085,7 @@
         "stars": 755
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 757
       }
     ],
@@ -5089,7 +5105,7 @@
         "label": "757 stars",
         "url": "https://github.com/ethanplusai/codex-on-crack",
         "value": 757,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 45,
@@ -5105,7 +5121,7 @@
     "summary": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
     "unique": "Topics: agent, agentic-ai, claude-code, codex, data-analysis",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "29 days old · 826 ⭐ on GitHub.",
+    "why": "30 days old · 826 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-15T01:57:40Z",
@@ -5171,13 +5187,13 @@
     "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 3 days ago.",
+    "why": "Agent pick · First spotted 4 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T00:13:00.501Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5202,13 +5218,13 @@
     "summary": "Each agent has its own identity and works in the same apps and on the same data as the rest of your team. You can send it an email, message it in chat, assign it a task, or @mention it in a comment. Teams of up to five can use all 18 apps for free.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 3 days ago.",
+    "why": "Agent pick · First spotted 4 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T00:13:00.256Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5233,13 +5249,13 @@
     "summary": "Generate AI videos from your ideas using HeyGen. Input text, image, or audio to create complete videos with narration, captions, visuals, and animations.",
     "unique": "",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "Agent pick · First spotted 3 days ago.",
+    "why": "Agent pick · First spotted 4 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T00:13:00.008Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5264,13 +5280,13 @@
     "summary": "Datology automatically curates model training data. Train faster, achieve better performance, and reduce costs with enterprise-grade data curation.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 3 days ago.",
+    "why": "Agent pick · First spotted 4 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T00:12:59.766Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5295,13 +5311,13 @@
     "summary": "A loyal AI for your mail, calendar, and everyday work. Runs locally on your computer.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 2 days ago.",
+    "why": "Agent pick · First spotted 3 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-12T00:11:43.908Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5326,13 +5342,13 @@
     "summary": "Hermes Agent — a standalone terminal app and a native application for macOS, Windows, and Linux. Install it and start a conversation with the agent that grows with you.",
     "unique": "",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "Agent pick · First spotted 2 days ago.",
+    "why": "Agent pick · First spotted 3 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-12T00:11:43.648Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5357,13 +5373,13 @@
     "summary": "A curated, continuously scanned directory of real things people are doing with AI agents. Browse for ideas on what to build or delegate.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 2 days ago.",
+    "why": "Agent pick · First spotted 3 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-12T00:11:43.399Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5388,13 +5404,13 @@
     "summary": "Give every customer an agent in its own isolated sandbox, at up to 95% lower cost than most sandbox providers.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted today.",
+    "why": "Agent pick · First spotted 2 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T00:09:43.211Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5432,7 +5448,7 @@
       "date": "2026-10-12T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5457,13 +5473,13 @@
     "summary": "Meet Ambi, ambient intelligence that understands context in real time, remembers what matters, and helps move work forward across your devices.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted today.",
+    "why": "Agent pick · First spotted 2 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T00:09:42.711Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5488,13 +5504,13 @@
     "summary": "Subquadratic is a frontier AI research and infrastructure company building a new class of LLMs.",
     "unique": "",
     "benefit": "Helps you build search/RAG on top of your own data.",
-    "why": "Agent pick · First spotted today.",
+    "why": "Agent pick · First spotted 2 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T00:09:42.456Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5519,13 +5535,13 @@
     "summary": "Agentrail (agentrail.co) reconstructs real agent journeys across your website, docs, APIs, SDKs and MCPs. See your agent task completion rate and where agents break.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted today.",
+    "why": "Agent pick · First spotted 2 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T00:09:42.215Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5563,7 +5579,7 @@
       "date": "2026-10-12T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5594,7 +5610,7 @@
     "createdAt": "2026-10-14T00:10:07.943Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5625,7 +5641,7 @@
     "createdAt": "2026-10-14T00:10:07.591Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5656,7 +5672,7 @@
     "createdAt": "2026-10-14T00:10:07.237Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5687,7 +5703,7 @@
     "createdAt": "2026-10-14T00:10:06.541Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5713,21 +5729,21 @@
     "summary": "Project Maya - run GLM-5.3-Flash (321B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.",
     "unique": "Topics: cuda, glm, glm-5, llm, llm-inference",
     "benefit": "Alternative inference/API infrastructure that may cut costs.",
-    "why": "8 days old · 848 ⭐ on GitHub.",
+    "why": "8 days old · 859 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-06T22:55:13Z",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 848,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 859,
     "starHistory": [
       {
         "at": "2026-10-14T21:47:04.696Z",
         "stars": 841
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 848
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 859
       }
     ],
     "language": "C++",
@@ -5745,10 +5761,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "848 stars",
+        "label": "859 stars",
         "url": "https://github.com/mw00/project-maya",
-        "value": 848,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 859,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 45,
@@ -5764,21 +5780,21 @@
     "summary": "Implementing LLM architectures from scratch in PyTorch",
     "unique": "Topics: gemma3, llama4, llm, moe, qwen3",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "28 days old · 776 ⭐ on GitHub.",
+    "why": "29 days old · 779 ⭐ on GitHub.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-16T00:57:43Z",
     "firstSeenAt": "2026-10-14T12:03:25.951Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 776,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 779,
     "starHistory": [
       {
         "at": "2026-10-14T21:47:04.696Z",
         "stars": 773
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 776
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 779
       }
     ],
     "language": "Python",
@@ -5793,10 +5809,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "776 stars",
+        "label": "779 stars",
         "url": "https://github.com/YeonwooSung/llm-architecture-from-scratch",
-        "value": 776,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 779,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 45,
@@ -5817,7 +5833,7 @@
     "createdAt": "2026-10-15T00:09:27.012Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5848,7 +5864,7 @@
     "createdAt": "2026-10-15T00:09:26.659Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5879,7 +5895,7 @@
     "createdAt": "2026-10-15T00:09:26.243Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5917,7 +5933,7 @@
       "date": "2026-09-25T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -5994,12 +6010,12 @@
     "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
     "unique": "Topics: ai, ai-agents, ai-engineering, ai-system, ai-system-design",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "19 days old · 670 ⭐ on GitHub.",
+    "why": "20 days old · 670 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-25T04:50:06Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 670,
     "starHistory": [
       {
@@ -6027,7 +6043,7 @@
         "stars": 670
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 670
       }
     ],
@@ -6049,7 +6065,7 @@
         "label": "670 stars",
         "url": "https://github.com/amitshekhariitbhu/ai-system-design",
         "value": 670,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6065,13 +6081,13 @@
     "summary": "A curated list of decision models (System One / typed decision models): hosted APIs, open-weight models, runtimes, SDKs, applications, benchmarks, and papers.",
     "unique": "Topics: ai-agents, awesome, awesome-list, decision-models, jev",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "27 days old · 645 ⭐ on GitHub.",
+    "why": "27 days old · 646 ⭐ on GitHub.",
     "pricing": "Open source (CC0-1.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-17T12:30:31Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 645,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 646,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -6098,8 +6114,8 @@
         "stars": 645
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 645
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 646
       }
     ],
     "language": "Python",
@@ -6117,10 +6133,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "645 stars",
+        "label": "646 stars",
         "url": "https://github.com/AnotiaWang/awesome-decision-models",
-        "value": 645,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 646,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6141,7 +6157,7 @@
     "novelty": "new",
     "createdAt": "2026-09-18T06:41:50Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 681,
     "starHistory": [
       {
@@ -6169,7 +6185,7 @@
         "stars": 681
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 681
       }
     ],
@@ -6191,7 +6207,7 @@
         "label": "681 stars",
         "url": "https://github.com/logicrw/awesome-jev-projects",
         "value": 681,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6207,7 +6223,7 @@
     "summary": "Agent skill for creative 3D visualization: turn an idea into a Three.js/Blender scene worth exploring. Claude Code + Codex plugin, 223 recipes, 440 knowledge records, 22 proved kits, 37 runnable studies.",
     "unique": "Topics: 3d, agent-skill, blender, claude-code, codex",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "34 days old · 698 ⭐ on GitHub.",
+    "why": "35 days old · 698 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-10T01:42:59Z",
@@ -6305,7 +6321,7 @@
     "novelty": "new",
     "createdAt": "2026-09-29T16:34:16Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 645,
     "starHistory": [
       {
@@ -6333,7 +6349,7 @@
         "stars": 645
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 645
       }
     ],
@@ -6346,7 +6362,7 @@
         "label": "645 stars",
         "url": "https://github.com/composio-community/open-dot",
         "value": 645,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6362,13 +6378,13 @@
     "summary": "Turn the agents you already use into a squad. Codex, Claude Code, Cursor, Hermes Agent and OpenClaw use one encrypted memory, pass work to each other, review each other's work, and dream every night to wake up a little better. Open source. Runs on your computer.",
     "unique": "Topics: agent-memory, agent-skills, ai-agents, claude-code, code-review",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "25 days old · 730 ⭐ on GitHub.",
+    "why": "25 days old · 735 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-19T06:55:24Z",
     "firstSeenAt": "2026-10-11T13:02:10.630Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 730,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 735,
     "starHistory": [
       {
         "at": "2026-10-11T19:36:03.298Z",
@@ -6387,8 +6403,8 @@
         "stars": 727
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 730
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 735
       }
     ],
     "language": "TypeScript",
@@ -6406,10 +6422,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "730 stars",
+        "label": "735 stars",
         "url": "https://github.com/sno-ai/sno-station",
-        "value": 730,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 735,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6425,13 +6441,13 @@
     "summary": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
     "unique": "Topics: 2d-animation, avatar, claude-code, codex, mesh-deformation",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "10 days old · 690 ⭐ on GitHub.",
+    "why": "11 days old · 693 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-04T03:33:57Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 690,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 693,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -6458,8 +6474,8 @@
         "stars": 689
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 690
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 693
       }
     ],
     "language": "TypeScript",
@@ -6476,10 +6492,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "690 stars",
+        "label": "693 stars",
         "url": "https://github.com/shinshin86/mesh-avatar-studio",
-        "value": 690,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 693,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6495,13 +6511,13 @@
     "summary": "Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, on your own login, no key.",
     "unique": "Topics: agent-skills, ai-agents, ai-code-review, claude-code, claude-code-plugin",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "12 days old · 699 ⭐ on GitHub.",
+    "why": "12 days old · 701 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-02T06:19:06Z",
     "firstSeenAt": "2026-10-10T00:02:12.072Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 699,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 701,
     "starHistory": [
       {
         "at": "2026-10-10T19:19:56.969Z",
@@ -6524,8 +6540,8 @@
         "stars": 696
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 699
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 701
       }
     ],
     "language": "TypeScript",
@@ -6543,10 +6559,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "699 stars",
+        "label": "701 stars",
         "url": "https://github.com/openqodex/openqodex",
-        "value": 699,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 701,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6562,13 +6578,13 @@
     "summary": "A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.",
     "unique": "Topics: ai, machine-learning, natural-language-understanding, python, strands-agents",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "15 days old · 633 ⭐ on GitHub.",
+    "why": "15 days old · 635 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-29T16:36:38Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 633,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 635,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -6595,8 +6611,8 @@
         "stars": 633
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 633
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 635
       }
     ],
     "language": "Python",
@@ -6614,10 +6630,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "633 stars",
+        "label": "635 stars",
         "url": "https://github.com/strands-labs/strands-decider",
-        "value": 633,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 635,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6633,13 +6649,13 @@
     "summary": "Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, each security-graded. English / 中文.",
     "unique": "Topics: agent-skills, awesome-list, claude-code, claude-skills, codex",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "17 days old · 631 ⭐ on GitHub.",
+    "why": "18 days old · 635 ⭐ on GitHub.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-27T04:06:05Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 631,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 635,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -6666,8 +6682,8 @@
         "stars": 627
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 631
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 635
       }
     ],
     "language": null,
@@ -6685,10 +6701,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "631 stars",
+        "label": "635 stars",
         "url": "https://github.com/zhuyansen/awesome-claude-video-skills",
-        "value": 631,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 635,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6704,13 +6720,13 @@
     "summary": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
     "unique": "Topics: ai-agents, claude, claude-code, harness, motion-design",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "9 days old · 629 ⭐ on GitHub.",
+    "why": "9 days old · 630 ⭐ on GitHub.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-05T15:15:13Z",
     "firstSeenAt": "2026-10-10T19:19:56.969Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 629,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 630,
     "starHistory": [
       {
         "at": "2026-10-10T19:19:56.969Z",
@@ -6733,8 +6749,8 @@
         "stars": 627
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 629
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 630
       }
     ],
     "language": "JavaScript",
@@ -6752,10 +6768,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "629 stars",
+        "label": "630 stars",
         "url": "https://github.com/GTKottman/mortiflix-oss",
-        "value": 629,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 630,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6771,21 +6787,21 @@
     "summary": "CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository, plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task is done — all with a transparent, extensible tool loop.",
     "unique": "Topics: agent, ai-agent, cli, coding-agent, context-engineering",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "12 days old · 652 ⭐ on GitHub.",
+    "why": "12 days old · 671 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-02T05:15:41Z",
     "firstSeenAt": "2026-10-14T17:19:08.627Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 652,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 671,
     "starHistory": [
       {
         "at": "2026-10-14T21:47:04.696Z",
         "stars": 652
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 652
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 671
       }
     ],
     "language": "Python",
@@ -6803,10 +6819,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "652 stars",
+        "label": "671 stars",
         "url": "https://github.com/Harvil1/codeAgent",
-        "value": 652,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 671,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6822,21 +6838,21 @@
     "summary": "A TypeScript-shaped language built for coding agents. It compiles to small, fast native binaries.",
     "unique": "Written in JavaScript",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "15 days old · 638 ⭐ on GitHub.",
+    "why": "15 days old · 645 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-29T16:39:23Z",
     "firstSeenAt": "2026-10-14T17:19:08.627Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 638,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 645,
     "starHistory": [
       {
         "at": "2026-10-14T21:47:04.696Z",
         "stars": 630
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 638
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 645
       }
     ],
     "language": "JavaScript",
@@ -6845,10 +6861,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "638 stars",
+        "label": "645 stars",
         "url": "https://github.com/richiemcilroy/Tov",
-        "value": 638,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 645,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6864,17 +6880,17 @@
     "summary": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
     "unique": "Topics: ai-agent, browser-agent, browser-automation, cdp, llm",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Just launched · 646 ⭐ on GitHub.",
+    "why": "Just launched · 696 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-13T09:18:55Z",
     "firstSeenAt": "2026-10-15T00:05:12.215Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 646,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 696,
     "starHistory": [
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 646
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 696
       }
     ],
     "language": "TypeScript",
@@ -6891,10 +6907,57 @@
     "signals": [
       {
         "source": "github",
-        "label": "646 stars",
+        "label": "696 stars",
         "url": "https://github.com/outcrawlai/scout",
-        "value": 646,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 696,
+        "at": "2026-10-15T04:50:11.717Z"
+      }
+    ],
+    "score": 44,
+    "summarySource": "template"
+  },
+  {
+    "id": "0d1137bc27098f73",
+    "name": "solid-glass",
+    "url": "https://deeplethe.github.io/solid-glass",
+    "repo": "deeplethe/solid-glass",
+    "kind": "github",
+    "description": "A design system for AI applications. Material, physical, tactile, technical.",
+    "summary": "A design system for AI applications. Material, physical, tactile, technical.",
+    "unique": "Topics: agent-ui, ai, ai-agents, chat-ui, design-system",
+    "benefit": "Helps you build or run AI agents that automate tasks.",
+    "why": "2 days old · 734 ⭐ on GitHub.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-12T09:19:02Z",
+    "firstSeenAt": "2026-10-15T04:50:11.717Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 734,
+    "starHistory": [
+      {
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 734
+      }
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "agent-ui",
+      "ai",
+      "ai-agents",
+      "chat-ui",
+      "design-system",
+      "llm",
+      "react",
+      "shadcn"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "734 stars",
+        "url": "https://github.com/deeplethe/solid-glass",
+        "value": 734,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 44,
@@ -6910,12 +6973,12 @@
     "summary": "1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility.",
     "unique": "Topics: agent-tools, ai-agents, awesome, awesome-list, calibration",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "22 days old · 601 ⭐ on GitHub.",
+    "why": "23 days old · 601 ⭐ on GitHub.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-22T02:22:54Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "stars": 601,
     "starHistory": [
       {
@@ -6943,7 +7006,7 @@
         "stars": 601
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
+        "at": "2026-10-15T04:50:11.717Z",
         "stars": 601
       }
     ],
@@ -6965,7 +7028,7 @@
         "label": "601 stars",
         "url": "https://github.com/kydlikebtc/awesome-jev",
         "value": 601,
-        "at": "2026-10-15T00:09:32.370Z"
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 43,
@@ -7166,13 +7229,13 @@
     "summary": "Explainer videos and product demos made by your AI agent. Free and open source: a local voice (Kokoro), word timing (Whisper) and a canvas renderer turn a script into a narrated MP4.",
     "unique": "Topics: ai-agents, animation, canvas, claude-code, codex",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "19 days old · 556 ⭐ on GitHub.",
+    "why": "19 days old · 558 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-25T15:09:54Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 556,
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
+    "stars": 558,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -7199,8 +7262,8 @@
         "stars": 555
       },
       {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 556
+        "at": "2026-10-15T04:50:11.717Z",
+        "stars": 558
       }
     ],
     "language": "JavaScript",
@@ -7218,81 +7281,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "556 stars",
+        "label": "558 stars",
         "url": "https://github.com/vincentsch/explainroo",
-        "value": 556,
-        "at": "2026-10-15T00:09:32.370Z"
-      }
-    ],
-    "score": 43,
-    "summarySource": "template"
-  },
-  {
-    "id": "08ea1ef3c56c7b20",
-    "name": "abide",
-    "url": "https://github.com/coldteadotai/abide",
-    "repo": "coldteadotai/abide",
-    "kind": "github",
-    "description": "Make your coding agent abide by all your project rules ",
-    "summary": "Make your coding agent abide by all your project rules ",
-    "unique": "Topics: claude-code, claude-code-hooks, claude-code-plugin, claude-code-plugins, claude-code-skill",
-    "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "26 days old · 579 ⭐ on GitHub.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-09-18T10:41:48Z",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
-    "stars": 579,
-    "starHistory": [
-      {
-        "at": "2026-10-09T22:44:03.896Z",
-        "stars": 569
-      },
-      {
-        "at": "2026-10-10T19:19:56.969Z",
-        "stars": 572
-      },
-      {
-        "at": "2026-10-11T19:36:03.298Z",
-        "stars": 578
-      },
-      {
-        "at": "2026-10-12T21:18:41.028Z",
-        "stars": 578
-      },
-      {
-        "at": "2026-10-13T22:53:06.584Z",
-        "stars": 578
-      },
-      {
-        "at": "2026-10-14T21:47:04.696Z",
-        "stars": 579
-      },
-      {
-        "at": "2026-10-15T00:09:32.370Z",
-        "stars": 579
-      }
-    ],
-    "language": "TypeScript",
-    "license": "MIT",
-    "topics": [
-      "claude-code",
-      "claude-code-hooks",
-      "claude-code-plugin",
-      "claude-code-plugins",
-      "claude-code-skill",
-      "claude-code-skills",
-      "codex-plugin",
-      "codex-skill"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "579 stars",
-        "url": "https://github.com/coldteadotai/abide",
-        "value": 579,
-        "at": "2026-10-15T00:09:32.370Z"
+        "value": 558,
+        "at": "2026-10-15T04:50:11.717Z"
       }
     ],
     "score": 43,
@@ -7320,7 +7312,7 @@
       "date": "2026-10-05T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7455,7 +7447,7 @@
       "date": "2026-10-09T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7487,23 +7479,23 @@
     "summary": "Benchmarks and news on various repros of TypeSafe's Jev",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "27 days old · 655 likes · trending on HF Spaces.",
+    "why": "27 days old · 661 likes · trending on HF Spaces.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-09-17T20:05:16.000Z",
     "dateKind": "created",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
     "signals": [
       {
         "source": "huggingface",
-        "label": "655 likes · trending on HF Spaces",
+        "label": "661 likes · trending on HF Spaces",
         "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
-        "value": 136,
-        "at": "2026-10-15T00:11:54.506Z"
+        "value": 135,
+        "at": "2026-10-15T04:52:10.802Z"
       }
     ],
     "score": 27,
@@ -7524,7 +7516,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7555,7 +7547,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7586,7 +7578,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7617,7 +7609,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7648,7 +7640,7 @@
     "createdAt": "2026-10-08T13:00:52.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7679,7 +7671,7 @@
     "createdAt": "2026-10-06T13:01:18.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7710,7 +7702,7 @@
     "createdAt": "2026-10-06T13:01:18.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7741,7 +7733,7 @@
     "createdAt": "2026-10-06T13:01:18.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-15T00:09:32.370Z",
+    "lastSeenAt": "2026-10-15T04:50:11.717Z",
     "language": null,
     "license": null,
     "topics": [],

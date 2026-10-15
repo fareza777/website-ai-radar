@@ -1,25 +1,20 @@
 [
   {
     "date": "2026-10-15",
-    "generatedAt": "2026-10-15T00:05:12.215Z",
+    "generatedAt": "2026-10-15T04:50:11.717Z",
     "stats": {
-      "updates24h": 23,
+      "updates24h": 21,
       "labsActive24h": 8,
-      "updates7d": 103,
-      "newModels7d": 30
+      "updates7d": 105,
+      "newModels7d": 31
     },
     "source": "template",
-    "headline": "23 updates from 8 AI labs in the last 24 hours · 30 model releases this week.",
+    "headline": "21 updates from 8 AI labs in the last 24 hours · 31 model releases this week.",
     "bullets": [
       {
         "text": "OpenAI: Amp puts AI agents to work beyond code with OpenAI models",
         "itemId": "a0e0fec2c2b5f568",
         "lab": "openai"
-      },
-      {
-        "text": "Google DeepMind: Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-        "itemId": "5cb1618c1db568b5",
-        "lab": "google-deepmind"
       },
       {
         "text": "Amazon: Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
@@ -39,6 +34,11 @@
       {
         "text": "NVIDIA: Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
         "itemId": "9dd119a51b881273",
+        "lab": "nvidia"
+      },
+      {
+        "text": "NVIDIA: NVIDIA Announces New Investments in the UK Startup Ecosystem",
+        "itemId": "0480c20408dda17d",
         "lab": "nvidia"
       }
     ]
