@@ -1,5 +1,30 @@
 [
   {
+    "id": "d259b094fe0e0621",
+    "lab": "nvidia",
+    "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
+    "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T18:00:01.000Z",
+    "firstSeenAt": "2026-10-15T21:30:26.752Z",
+    "updatedAt": "2026-10-15T18:00:01.000Z",
+    "excerpt": "Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on... Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on NVIDIA GB300 NVL72 Blackwell Ultra specifically for agentic coding workflows, it delivers higher first…",
+    "summary": "Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 60,
+    "contentHash": "bc49571e4a7b"
+  },
+  {
     "id": "2cd92b812c13525a",
     "lab": "nvidia",
     "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
@@ -407,10 +432,10 @@
       "74B-A9B",
       "multimodal"
     ],
-    "importance": 63,
+    "importance": 64,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 36,
+      "likes": 61,
       "downloads": 58,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1429,7 +1454,7 @@
     "importance": 65,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 75,
+      "likes": 77,
       "downloads": 5450,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
@@ -1460,7 +1485,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 774,
+      "likes": 777,
       "downloads": 87010,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
@@ -1489,7 +1514,7 @@
     "importance": 67,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 135,
+      "likes": 136,
       "downloads": 3816,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"

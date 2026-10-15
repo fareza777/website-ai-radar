@@ -1,5 +1,67 @@
 [
   {
+    "id": "adb326cc5b7a7e48",
+    "lab": "ibm",
+    "title": "granite-switch-4.1-8b",
+    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+    "sourceId": "ibm-granite-hf",
+    "sourceName": "Hugging Face · ibm-granite",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T21:38:09.000Z",
+    "firstSeenAt": "2026-10-15T21:30:26.752Z",
+    "updatedAt": "2026-10-14T21:38:09.000Z",
+    "excerpt": "text-generation · license: apache-2.0",
+    "summary": "IBM published the granite-switch-4.1-8b model on Hugging Face for text generation (LLM). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "8B"
+    ],
+    "importance": 55,
+    "contentHash": "b3f73903e073",
+    "meta": {
+      "likes": 3,
+      "downloads": 28,
+      "repo": "ibm-granite/granite-switch-4.1-8b",
+      "pipeline": "text-generation",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "c2473d4ae09be869",
+    "lab": "ibm",
+    "title": "granite-switch-4.1-30b",
+    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b",
+    "sourceId": "ibm-granite-hf",
+    "sourceName": "Hugging Face · ibm-granite",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T21:23:12.000Z",
+    "firstSeenAt": "2026-10-15T21:30:26.752Z",
+    "updatedAt": "2026-10-14T21:23:12.000Z",
+    "excerpt": "text-generation · license: apache-2.0",
+    "summary": "IBM published the granite-switch-4.1-30b model on Hugging Face for text generation (LLM). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "30B"
+    ],
+    "importance": 56,
+    "contentHash": "6f6f69225449",
+    "meta": {
+      "likes": 4,
+      "downloads": 0,
+      "repo": "ibm-granite/granite-switch-4.1-30b",
+      "pipeline": "text-generation",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "9b166e0d9578994c",
     "lab": "ibm",
     "title": "Docling v2.139.0",
@@ -953,7 +1015,7 @@
     "importance": 65,
     "contentHash": "d9d402627057",
     "meta": {
-      "likes": 78,
+      "likes": 79,
       "downloads": 59074,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",

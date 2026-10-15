@@ -1,5 +1,176 @@
 [
   {
+    "id": "5a8e348a11e1e3d0",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "prompt",
+    "from": 0.0216,
+    "to": 0.15,
+    "change": 594.4
+  },
+  {
+    "id": "34557a97a6ea8ca0",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "completion",
+    "from": 0.72,
+    "to": 0.6,
+    "change": -16.7
+  },
+  {
+    "id": "ff80b22304c02745",
+    "modelId": "google/gemini-3.8-flash",
+    "name": "Google: Gemini 3.8 Flash",
+    "lab": "google-deepmind",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "prompt",
+    "from": 0.75,
+    "to": 0.825,
+    "change": 10
+  },
+  {
+    "id": "614ab9d7705d54ee",
+    "modelId": "google/gemini-3.8-flash",
+    "name": "Google: Gemini 3.8 Flash",
+    "lab": "google-deepmind",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "completion",
+    "from": 3.75,
+    "to": 4.125,
+    "change": 10
+  },
+  {
+    "id": "ad193ebd5da4b49d",
+    "modelId": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "prompt",
+    "from": 0.036,
+    "to": 0.0223,
+    "change": -38.1
+  },
+  {
+    "id": "4296f748c66b73f4",
+    "modelId": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "completion",
+    "from": 0.9,
+    "to": 0.7124,
+    "change": -20.8
+  },
+  {
+    "id": "7607d24ee79f56e2",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "prompt",
+    "from": 0.0144,
+    "to": 0.00765,
+    "change": -46.9
+  },
+  {
+    "id": "54a99e85232565dd",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "prompt",
+    "from": 0.016,
+    "to": 0.0085,
+    "change": -46.9
+  },
+  {
+    "id": "f892c2c1dad2cdb5",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "prompt",
+    "from": 0.45,
+    "to": 0.29,
+    "change": -35.6
+  },
+  {
+    "id": "a269ea4aefea0fbc",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "completion",
+    "from": 16.5,
+    "to": 12,
+    "change": -27.3
+  },
+  {
+    "id": "a52087599953ab1b",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "prompt",
+    "from": 0.44,
+    "to": 0.29,
+    "change": -34.1
+  },
+  {
+    "id": "020e26287829195e",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "completion",
+    "from": 14,
+    "to": 12,
+    "change": -14.3
+  },
+  {
+    "id": "f592f71192b46259",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "prompt",
+    "from": 0.41238,
+    "to": 0.365052,
+    "change": -11.5
+  },
+  {
+    "id": "6bc8ace9cea06107",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "completion",
+    "from": 0.82476,
+    "to": 0.730104,
+    "change": -11.5
+  },
+  {
+    "id": "b3714ce274739f31",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "prompt",
+    "from": 0.09,
+    "to": 0.0765,
+    "change": -15
+  },
+  {
+    "id": "de179cdae91b6521",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-15T21:30:26.752Z",
+    "field": "completion",
+    "from": 0.3,
+    "to": 0.255,
+    "change": -15
+  },
+  {
     "id": "cd0075a6fc57189e",
     "modelId": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",

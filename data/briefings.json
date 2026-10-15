@@ -1,45 +1,45 @@
 [
   {
     "date": "2026-10-16",
-    "generatedAt": "2026-10-15T17:08:32.062Z",
+    "generatedAt": "2026-10-15T21:30:26.752Z",
     "stats": {
-      "updates24h": 24,
-      "labsActive24h": 9,
-      "updates7d": 113,
-      "newModels7d": 34
+      "updates24h": 29,
+      "labsActive24h": 11,
+      "updates7d": 117,
+      "newModels7d": 36
     },
     "source": "template",
-    "headline": "24 updates from 9 AI labs in the last 24 hours · 34 model releases this week.",
+    "headline": "29 updates from 11 AI labs in the last 24 hours · 36 model releases this week.",
     "bullets": [
+      {
+        "text": "Amazon: Muse Spark Open model now available on Amazon SageMaker JumpStart",
+        "itemId": "cd984aadc77d696e",
+        "lab": "amazon"
+      },
       {
         "text": "Mistral AI: Introducing Timestral",
         "itemId": "3a11e60ee8cf431d",
         "lab": "mistral"
       },
       {
-        "text": "Mistral AI: Timestral-123M",
-        "itemId": "5f8c840a2b8238f4",
-        "lab": "mistral"
+        "text": "Anthropic: Code Review is now generally available",
+        "itemId": "b09ae946e685c3f0",
+        "lab": "anthropic"
+      },
+      {
+        "text": "Amazon: Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options",
+        "itemId": "bd88b85afd7a694b",
+        "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
+        "itemId": "d259b094fe0e0621",
+        "lab": "nvidia"
       },
       {
         "text": "NVIDIA: Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
         "itemId": "2cd92b812c13525a",
         "lab": "nvidia"
-      },
-      {
-        "text": "NVIDIA: NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-        "itemId": "b382a6d08a5fad47",
-        "lab": "nvidia"
-      },
-      {
-        "text": "Google DeepMind: Accelerating the search for antimicrobial peptides with Google Antigravity",
-        "itemId": "1d4cff712a9a1281",
-        "lab": "google-deepmind"
-      },
-      {
-        "text": "Microsoft: Proof-based general-purpose computing with Magnetar",
-        "itemId": "4046eeecbe56b543",
-        "lab": "microsoft"
       }
     ]
   },
