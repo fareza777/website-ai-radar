@@ -1,5 +1,27 @@
 [
   {
+    "id": "4046eeecbe56b543",
+    "lab": "microsoft",
+    "title": "Proof-based general-purpose computing with Magnetar",
+    "url": "https://microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar",
+    "sourceId": "msr-blog",
+    "sourceName": "Microsoft Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T16:00:00.000Z",
+    "firstSeenAt": "2026-10-15T17:08:32.062Z",
+    "updatedAt": "2026-10-15T16:00:00.000Z",
+    "excerpt": "At a glance A new form of computing . Zero-knowledge proofs let you run a workload and receive, alongside the result, a short proof that the program ran correctly. Anyone can check the proof in milliseconds, without rerunning the program, without trusting whoever ran it, and without needing data on which the program was run. Three grand challenges have stood in the way of broad adoption : making proofs fast enough…",
+    "summary": "At a glance A new form of computing .",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "d561a198cb5f"
+  },
+  {
     "id": "fe14b59114454d2d",
     "lab": "microsoft",
     "title": "Microsoft Agent Framework python v1.22.0",
@@ -398,7 +420,7 @@
     "importance": 64,
     "contentHash": "4f0bc4169b75",
     "meta": {
-      "likes": 61,
+      "likes": 62,
       "downloads": 476,
       "repo": "microsoft/AesCode-8B",
       "pipeline": "image-text-to-text",
@@ -804,7 +826,7 @@
     "importance": 63,
     "contentHash": "a4e4cd3da320",
     "meta": {
-      "likes": 39,
+      "likes": 40,
       "downloads": 256,
       "repo": "microsoft/Mage-ViT",
       "pipeline": "image-feature-extraction",

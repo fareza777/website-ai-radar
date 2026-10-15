@@ -1,5 +1,56 @@
 [
   {
+    "id": "2cd92b812c13525a",
+    "lab": "nvidia",
+    "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+    "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T15:00:24.000Z",
+    "firstSeenAt": "2026-10-15T17:08:32.062Z",
+    "updatedAt": "2026-10-15T15:00:24.000Z",
+    "excerpt": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized for intelligence per GB for fast conversational…",
+    "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "multimodal"
+    ],
+    "importance": 60,
+    "contentHash": "efb0c3e53e4e"
+  },
+  {
+    "id": "b382a6d08a5fad47",
+    "lab": "nvidia",
+    "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+    "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T15:00:00.000Z",
+    "firstSeenAt": "2026-10-15T17:08:32.062Z",
+    "updatedAt": "2026-10-15T15:00:00.000Z",
+    "excerpt": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,... Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources, following company policy, and calling several tools. NVIDIA Nemotron 3.5 Super VL is an open…",
+    "summary": "Always-on agents are taking on longer, more complex enterprise workflows.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "multimodal",
+      "reasoning"
+    ],
+    "importance": 60,
+    "contentHash": "6ca45440f150"
+  },
+  {
     "id": "6626e386d54752bd",
     "lab": "nvidia",
     "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
@@ -335,6 +386,38 @@
     "contentHash": "72183d36956d"
   },
   {
+    "id": "af2de150ea4eafa2",
+    "lab": "nvidia",
+    "title": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-07T17:50:42.000Z",
+    "firstSeenAt": "2026-10-15T17:08:32.062Z",
+    "updatedAt": "2026-10-07T17:50:42.000Z",
+    "excerpt": "image-text-to-text · license: other",
+    "summary": "NVIDIA published the NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB model on Hugging Face for multimodal (image + text). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "74B-A9B",
+      "multimodal"
+    ],
+    "importance": 63,
+    "contentHash": "08356dcbd0c7",
+    "meta": {
+      "likes": 36,
+      "downloads": 58,
+      "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+      "pipeline": "image-text-to-text",
+      "license": "other"
+    }
+  },
+  {
     "id": "be44224a1a4ac828",
     "lab": "nvidia",
     "title": "Validate AI Factory Changes with Digital Twins and AI Agents",
@@ -542,7 +625,7 @@
     "importance": 66,
     "contentHash": "b721cbc7be2c",
     "meta": {
-      "likes": 86,
+      "likes": 88,
       "downloads": 0,
       "repo": "nvidia/PixelUMM",
       "pipeline": "any-to-any",
@@ -1346,7 +1429,7 @@
     "importance": 65,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 74,
+      "likes": 75,
       "downloads": 5450,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
@@ -1377,7 +1460,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 773,
+      "likes": 774,
       "downloads": 87010,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
@@ -1437,7 +1520,7 @@
     "importance": 72,
     "contentHash": "a8d41ae3fa69",
     "meta": {
-      "likes": 540,
+      "likes": 541,
       "downloads": 4701,
       "repo": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
       "license": "openmdw-1.1"
