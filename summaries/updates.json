@@ -378,9 +378,9 @@
     "benefit": "API developers can design evals and run hillclimb from the claude-api skill instead of tuning by feel."
   },
   "eb1569caa0b7d2c3": {
-    "hash": "44bc84120fd4",
-    "summary": "Anthropic is launching an expanded Cyber Verification Program that makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-    "benefit": "Security professionals who qualify can use stronger cyber capabilities with less classifier blocking."
+    "hash": "98d22e0e5a10",
+    "summary": "The Cyber Verification Program is expanding.",
+    "benefit": "Teams in the Cyber Verification Program can follow this expansion of the program."
   },
   "b5006264e8e0669d": {
     "hash": "6cd1600e88f9",
@@ -478,9 +478,9 @@
     "benefit": "Customers and candidates in Canada can reach Cohere from the new Ottawa office."
   },
   "78c7c5e639727508": {
-    "hash": "3d10428e5aa8",
-    "summary": "North 2 is Cohere's biggest upgrade yet, combining enterprise-grade security, intelligence, cost governance, and full-stack control in one agentic AI platform that runs wherever your data lives.",
-    "benefit": "Enterprises can run an agentic platform with security and cost controls without moving their data."
+    "hash": "abf1dffddc70",
+    "summary": "North 2 is introduced as enterprise AI without compromises.",
+    "benefit": "Enterprise teams evaluating North 2 can read the release framed as AI without compromises."
   },
   "e1d68e054489a950": {
     "hash": "64a90884ecac",
@@ -1143,9 +1143,9 @@
     "category": "pricing"
   },
   "576253ed894737fc": {
-    "hash": "708ae5385982",
-    "summary": "ShipStation Global built Deckhand, an AI IT help desk agent for Slack, on Amazon Bedrock AgentCore to answer repeated IT questions and clear routine tickets.",
-    "benefit": "IT teams can see a Slack agent pattern for routine tickets so people spend less time on the same questions."
+    "hash": "77c2ed3cf5cf",
+    "summary": "ShipStation Global built Deckhand, an AI-powered IT help desk agent for Slack, on Amazon Bedrock AgentCore to answer repeated IT questions and clear routine tickets.",
+    "benefit": "IT teams can hand repeated Slack questions and routine tickets to Deckhand and spend that time elsewhere."
   },
   "4cac281cbf0a4557": {
     "hash": "e9001bf8377f",
@@ -1170,10 +1170,9 @@
     "benefit": "Founders and labs in France can see NVIDIA's new investment behind that agentic computing work."
   },
   "884bd12f42c33ae7": {
-    "hash": "aaa5a6a1a71b",
-    "summary": "NVIDIA published TensorRT-LLM v1.4.0.",
-    "benefit": "Teams building on TensorRT-LLM can pick up the v1.4.0 release.",
-    "category": "developer"
+    "hash": "2ae7369a75b6",
+    "summary": "TensorRT-LLM v1.4.0 notes known issues: TP2 streaming or RPC executor workloads may hang when MPI worker pools are reused (observed on H100), DeepSeek MLA models on SM120/SM121 may crash with BF16 BMM CUDA graphs, and GPT-OSS on SM120 may fail with attention data parallelism.",
+    "benefit": "People upgrading to TensorRT-LLM v1.4.0 can check those H100, SM120, and SM121 failure cases before they hit them."
   },
   "b603e27850b0fbed": {
     "hash": "a157adfbdc9b",
@@ -1197,5 +1196,159 @@
     "hash": "f0188232e949",
     "summary": "NVIDIA explains how to rewrite Apache Spark UDFs for GPU acceleration with AI agents as agentic workloads need more throughput on large datasets.",
     "benefit": "Data teams can follow the guide to move Spark UDFs onto GPUs with help from AI agents."
+  },
+  "a0e0fec2c2b5f568": {
+    "hash": "7a69303234d7",
+    "summary": "Amp is putting AI agents to work beyond code with OpenAI models, including GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+    "benefit": "Teams using Amp can point those OpenAI models at agent work that goes beyond writing code.",
+    "category": "model"
+  },
+  "5cb1618c1db568b5": {
+    "hash": "bf75772fff72",
+    "summary": "Google DeepMind and GovTech Singapore are collaborating on a fine-tuned model that uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+    "benefit": "Private chats can be checked for conversational scams on device, with no cloud data egress.",
+    "category": "model"
+  },
+  "97390ce21691f6b9": {
+    "hash": "a9e98f95bcc3",
+    "summary": "Amazon SageMaker Studio now lets new customers sign up with Google, GitHub, or Apple credentials and land in a fully configured Studio environment, with no traditional AWS account setup, credit card, or console navigation.",
+    "benefit": "New AI and ML builders can open a configured SageMaker Studio from a social login without a credit card or console setup.",
+    "category": "feature"
+  },
+  "24cc989c02dbc2a2": {
+    "hash": "8bfae082925e",
+    "summary": "With OpenAI Daybreak, SentinelOne cuts malware analysis from weeks to hours and creates capacity to investigate more threats.",
+    "benefit": "Security teams can finish malware analysis in hours and use the freed capacity to investigate more threats."
+  },
+  "2f3282e483141f68": {
+    "hash": "6632ab8b98d7",
+    "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses, and where deeper use could unlock more value.",
+    "benefit": "EU enterprises and small businesses can see where agentic AI adoption is growing and where deeper use could add value."
+  },
+  "f2bde108f64c5a7a": {
+    "hash": "a01be479290a",
+    "summary": "Anthropic has opened a Singapore office and signed an MOU with the Government of Singapore.",
+    "benefit": "People working with Anthropic in Singapore now have a local office and a signed government MOU."
+  },
+  "18177a36d83526b9": {
+    "hash": "4bb286816eae",
+    "summary": "A new update covers preparing for the 2026 US midterms.",
+    "benefit": "Readers following election-related work can see this note on preparing for the 2026 US midterms."
+  },
+  "0fff098609ae8946": {
+    "hash": "194f67ca1da5",
+    "summary": "The Claude Platform is announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs.",
+    "benefit": "Developers can collect OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs.",
+    "category": "api"
+  },
+  "68fa5d474465cb0d": {
+    "hash": "3b1714be2970",
+    "summary": "Lessons from scaling teams of coding agents describe how those teams can reach the frontier at 30% of the cost, and how they should be organized to work effectively.",
+    "benefit": "Teams running coding agents can use the lessons to organize that work and aim for frontier results at 30% of the cost."
+  },
+  "b7cd31d958bda34d": {
+    "hash": "d40548d57f21",
+    "summary": "A guide shows how to build self-improving document processing with Amazon Bedrock AgentCore. It cites document-related costs of $19,732 per information worker a year, a 21.3 percent productivity cut, and staff spending up to 30 percent of their time on documents.",
+    "benefit": "Teams receiving invoices from hundreds of suppliers can build AgentCore document processing instead of maintaining templates for every changing layout."
+  },
+  "af833b42b8bd8e02": {
+    "hash": "186516c7c5a4",
+    "summary": "Tamnoon built AI-powered cloud security remediation with Amazon Bedrock so findings from CNAPP tools, cloud providers, and posture scanners can move from detected to fixed.",
+    "benefit": "Security teams can use the Bedrock approach to investigate context, find the owner, and remediate cloud findings that otherwise sit untouched."
+  },
+  "9dd119a51b881273": {
+    "hash": "cd9d893de029",
+    "summary": "NVIDIA NeMo Gym is used to improve agent reliability and tool-calling efficiency for chip design, where plausible but incorrect artifacts can block production use.",
+    "benefit": "Chip-design teams can use NeMo Gym to catch incorrect agent artifacts before they propagate through multistage workflows.",
+    "category": "api"
+  },
+  "0480c20408dda17d": {
+    "hash": "afbc2dabaf03",
+    "summary": "NVIDIA announced new investments in the UK startup ecosystem, including a five-year, $250 million compute commitment for the UK's agentic safety and security research.",
+    "benefit": "UK startups and researchers can look to that compute commitment for agentic safety and security work."
+  },
+  "e181547094b0a112": {
+    "hash": "676fd17c8b2c",
+    "summary": "Third Moment Research runs 10,000 agents for 36+ hours with GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, building agents that focus for days and improve with use.",
+    "benefit": "Labs running long cybersecurity agent jobs can see how this setup keeps 10,000 agents working for 36+ hours.",
+    "category": "research"
+  },
+  "1ae547d1777c7634": {
+    "hash": "f55bf204ce8b",
+    "summary": "Google GenAI SDK (Python) v2.31.0 adds gemini-4-argon to the Model enum and fixes continuation state, union-type function declarations, and grounding metadata merging.",
+    "benefit": "Python developers on this SDK can select gemini-4-argon and get the continuation and parser fixes in v2.31.0."
+  },
+  "496d74f3d437e219": {
+    "hash": "8ad9d8df1831",
+    "summary": "Microsoft Agent Framework dotnet v1.25.0 adds approval reuse considerations, ends chat completions SSE streams with data [DONE], includes citations and error details in purview checks, and fixes reasoning remnants and handoff bounce-back.",
+    "benefit": ".NET developers on the Agent Framework can pick up the v1.25.0 stream, purview, and handoff fixes."
+  },
+  "f7c0ca8865efbbb6": {
+    "hash": "a14285e221c0",
+    "summary": "Strands Agents SDK python v1.61.0 packages Strands skills for Claude, Codex, and Cursor, and adds a DecisionModel primitive and LLMDecisionModel.",
+    "benefit": "Python Strands users can install skills for Claude, Codex, and Cursor and use the new DecisionModel types in v1.61.0."
+  },
+  "c59d8f3ea776f885": {
+    "hash": "f8c75c9ac86e",
+    "summary": "Strands Agents SDK harness-typescript v0.3.0 packages Strands skills for Claude, Codex, and Cursor, and adds a DecisionModel primitive and LLMDecisionModel.",
+    "benefit": "TypeScript harness users can take the Claude, Codex, and Cursor skills plus DecisionModel in v0.3.0."
+  },
+  "9b166e0d9578994c": {
+    "hash": "29dd08719110",
+    "summary": "Docling v2.139.0 exposes max_concurrent_results, per-page confidence breakdowns, conversion progress bars, and picture reading in Numbers table cells, and can download whisper artifacts to run ASR.",
+    "benefit": "Docling users on v2.139.0 can track conversion progress, read Numbers pictures, and run ASR after downloading whisper artifacts."
+  },
+  "7d10f0ddfecf202c": {
+    "hash": "0501458555b2",
+    "summary": "Block is building AI-powered security with OpenAI so its security team can investigate threats faster and propose patches in minutes.",
+    "benefit": "Security teams can see how Block uses OpenAI to investigate threats faster and propose patches in minutes.",
+    "category": "feature"
+  },
+  "70c411fb5eee6fe1": {
+    "hash": "561f1736274c",
+    "summary": "A developer release titled BlenderWorld was published.",
+    "benefit": "Developers following this source can open the BlenderWorld release."
+  },
+  "bf440f7f3fb44381": {
+    "hash": "2319c28d3a01",
+    "summary": "A walkthrough shows how to build an Amazon Bedrock AgentCore system that turns quarterly reports, compliance documents, and market analyses into client PowerPoint presentations.",
+    "benefit": "Financial services teams can automate slide creation from those reports instead of reading hundreds of pages by hand."
+  },
+  "b66237a3192719f7": {
+    "hash": "065f823bf33f",
+    "summary": "Cities and partners across EMEA are using NVIDIA accelerated computing to build physical AI agents and digital twins that help decide road repairs and energy use, and can anticipate maintenance needs.",
+    "benefit": "City teams can use these NVIDIA agents and digital twins to anticipate maintenance and guide day-to-day urban decisions.",
+    "category": "feature"
+  },
+  "9a5e15ca7e21c8e4": {
+    "hash": "90757266bd68",
+    "summary": "HYDRA, a NeurIPS 2026 paper, presents representation harmonized tokenization for multimodal generation and understanding.",
+    "benefit": "Researchers working on multimodal models can read the HYDRA tokenization approach for generation and understanding.",
+    "category": "research"
+  },
+  "729896a0eb93ab3a": {
+    "hash": "34ae81348cab",
+    "summary": "Claude Agent SDK (Python) v0.2.167 updates the bundled Claude CLI to version 2.1.300.",
+    "benefit": "Python SDK users who install claude-agent-sdk 0.2.167 get the bundled Claude CLI at version 2.1.300."
+  },
+  "29f9840eaa57bc2e": {
+    "hash": "58b9fa51ea6c",
+    "summary": "Claude Code v2.1.300 adds virtualText prompt decorations that never enter the draft, splits OpenTelemetry cache writes into cache_creation_5m_tokens and cache_creation_1h_tokens, and adds $.ui.view for showing an agent's transcript.",
+    "benefit": "Claude Code users on v2.1.300 can decorate the prompt without submitting that text and can split cache-write telemetry by lifetime."
+  },
+  "ec430d1232a90ea6": {
+    "hash": "06d50357ce3a",
+    "summary": "Claude Agent SDK (Python) v0.2.166 adds typed hook output classes and input fields, plus a SystemInitData TypedDict for the init system message payload.",
+    "benefit": "Hook authors on the Python SDK can use typed outputs and SystemInitData instead of untyped dicts in v0.2.166."
+  },
+  "5231ee939b107f0c": {
+    "hash": "0e6b286dff70",
+    "summary": "Claude Code v2.1.299 adds CLAUDE_CODE_DISABLE_FILE_MENTIONS so @ mentions pass paths rather than file contents, and idle compaction for a 200K+ token conversation left idle for about 54 minutes.",
+    "benefit": "Terminal users can stop file mentions from injecting contents, and idle chats compact before the one-hour prompt cache expires."
+  },
+  "001587c57c716c03": {
+    "hash": "4d90413759ea",
+    "summary": "Strands Agents SDK harness-cli v0.2.1 packages Strands skills for Claude, Codex, and Cursor, and adds a DecisionModel primitive and LLMDecisionModel.",
+    "benefit": "CLI users on harness-cli v0.2.1 can install those skills and use the new DecisionModel types."
   }
 }

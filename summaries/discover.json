@@ -469,20 +469,10 @@
     "unique": "It is a rule-enforcement layer for those coding agents rather than another model.",
     "benefit": "Teams with written project rules can have Claude Code or Codex apply them during a run."
   },
-  "0e165b94682464fc": {
-    "summary": "PiG is a Go port of upstream Pi, the TypeScript codebase behind the Pi coding agent, kept as a parity-bound translation.",
-    "unique": "Upstream Pi behavior is the contract, and Go is only the implementation language.",
-    "benefit": "Teams that want the Pi coding agent in Go can follow a port that aims to match upstream behavior."
-  },
   "2c26ee007454d2a2": {
     "summary": "mesh-avatar-studio turns one illustration into an animated 2D mesh avatar using a coding agent and a local editor.",
     "unique": "The animation comes from mesh deformation of a single illustration, including a WebGL path.",
     "benefit": "Creators can make a 2D avatar from one drawing with a coding agent and a local editor."
-  },
-  "40771ea402156f90": {
-    "summary": "This free AI engineering course runs from machine learning, neural networks, and transformers through LLMs, fine-tuning, RAG, agents, inference, evaluation, safety, and system design.",
-    "unique": "It is a complete course path rather than a single library or model.",
-    "benefit": "Learners can follow one free sequence from core machine learning through agent systems and safety."
   },
   "4bb3f4842d73670a": {
     "summary": "rea reverse engineers anything with agents, from app behavior down to native binaries.",
@@ -539,25 +529,10 @@
     "unique": "Review happens in the agent before push, using your login and no extra key.",
     "benefit": "Developers can catch issues in the agent they already use, before the code is pushed."
   },
-  "48c815d8fc9e25e7": {
-    "summary": "OrcaBonsai-27B-Uncensored is runtime behavioral ablation for compressed LLMs. The first target is Ternary Bonsai 2 27B, with no weight modification or re-quantization.",
-    "unique": "It changes behavior at runtime for a compressed 27B model without editing or re-quantizing weights.",
-    "benefit": "People running Ternary Bonsai 2 27B can adjust behavior without rebuilding the weights."
-  },
   "a3f4cc3755ac9570": {
     "summary": "strands-decider is a small, fast decision model for agentic workflows. It picks between options or rates on a scale faster than an LLM, with a calibrated confidence on every decision.",
     "unique": "A system-one model that returns a choice or a score plus calibrated confidence, faster than an LLM.",
     "benefit": "Agent builders can route or score routine decisions quickly and see how confident each call is."
-  },
-  "036152ef8d636b82": {
-    "summary": "JevHarness produces LLM-authored, task-specific Jev harnesses, with optional full-trajectory reward reflection and GEPA evolution.",
-    "unique": "Harnesses are written by an LLM for one task, and can evolve with GEPA and trajectory rewards.",
-    "benefit": "Teams using Jev can generate a task-specific harness and optionally evolve it from full trajectories."
-  },
-  "c096ce42456c0a41": {
-    "summary": "agent-smith offers adaptive model routing, a glassy Codex usage monitor, and reproducible benchmarks with receipts.",
-    "unique": "It pairs routing across models with a Codex usage monitor and benchmarks you can reproduce.",
-    "benefit": "Developers watching Codex spend can route models and check usage with benchmarks that keep receipts."
   },
   "7c9d184f8c058bd9": {
     "summary": "awesome-claude-video-skills lists open-source skills and toolkits that let Claude Code, Codex, and other coding agents make video. It covers 180 repos by type, each security-graded.",
@@ -568,11 +543,6 @@
     "summary": "mortiflix-oss is a motion design studio on your own machine: Claude makes the video step by step, and you approve every stage. Bring your own Claude Code or API key.",
     "unique": "Each stage waits for your approval, and it runs locally with your own Claude Code or API key.",
     "benefit": "Motion designers can let Claude draft a video locally and still approve every stage."
-  },
-  "c64663afb8f52236": {
-    "summary": "Atria-Dawn-Preview is an LLM agent project.",
-    "unique": "It is tagged as an LLM and an LLM agent, and it has 589 stars.",
-    "benefit": "People looking for LLM agent code can start from a project that already has 589 stars."
   },
   "246031679f85ee5d": {
     "summary": "folkbench is an open-source benchmark, ranking, and switcher for AI API relays used with Claude Code and Codex, measuring uptime, latency, and price.",
@@ -585,9 +555,9 @@
     "benefit": "Agent builders can store memory in git and let a nightly pass drop stale records and find latent links."
   },
   "54d164a6a58484ab": {
-    "summary": "mailcheap is for self-hosted newsletters on Amazon SES.",
-    "unique": "The listed send cost is about $0.10 per 1,000 emails.",
-    "benefit": "Teams that want their own newsletter host can send through Amazon SES at that rate."
+    "summary": "An open-source newsletter for the agentic era that you can self-host or use as a hosted service.",
+    "unique": "It is described as the affordable newsletter for the agentic era, and the project is open source.",
+    "benefit": "Publishers who want an agent-era newsletter can self-host it or use the hosted option."
   },
   "ba4721d38cba8ba1": {
     "summary": "janas runs LLMs bigger than your RAM in pure C, on CPU or GPU.",
@@ -708,5 +678,75 @@
     "summary": "boat provides persistent Linux VMs for AI agents, with SSH, Docker, and fast fork.",
     "unique": "VMs are billed per second and free when stopped, with a 7-day free trial, then from $20/mo.",
     "benefit": "Agent builders can keep a Linux VM with SSH and Docker and pay for time it is running after the trial."
+  },
+  "5247a702d6a16253": {
+    "summary": "A single Rust program that builds a code graph and project memory for coding agents.",
+    "unique": "It works with Claude Code, Codex, Cursor, and any MCP client.",
+    "benefit": "Coding agents can use one local graph and memory store for cited context from a repository."
+  },
+  "236536d228cfe0f1": {
+    "summary": "A local-first CLI and web dashboard that reads Claude Code, Codex, and Gemini CLI session logs.",
+    "unique": "It shows token usage and cost by model, project, day, and activity, with no account and no API key.",
+    "benefit": "Developers can see session token cost on their own machine, with nothing leaving it."
+  },
+  "f0b5cab248708618": {
+    "summary": "A project that implements LLM architectures from scratch in PyTorch.",
+    "unique": "The architectures are implemented from scratch in PyTorch.",
+    "benefit": "Learners can study LLM architectures by reading implementations written from scratch in PyTorch."
+  },
+  "b91613c5759964cd": {
+    "summary": "Runs AI-generated logic in a sandbox, expressed as JSON with functions.",
+    "unique": "The logic is JSON with functions, and it runs inside a sandbox.",
+    "benefit": "Developers can execute AI-generated logic in a sandbox instead of treating it as unconstrained code."
+  },
+  "d35012b310412ab1": {
+    "summary": "A free AI image detector that checks a photo for AI generation, AI edits, and face swaps.",
+    "unique": "It says AI or No AI detected, which detector fired, and why.",
+    "benefit": "Anyone can check a photo and see which detector fired and why it called the image AI or not."
+  },
+  "ccf481b2266907e0": {
+    "summary": "Connects to Gmail, Yahoo, or another mail server it can reach, reads the inbox with AI, and surfaces the reply, the bill, or the flight.",
+    "unique": "Listed price is $15 a month plus tax, with a 14-day refund on the first payment.",
+    "benefit": "People can have AI point at the mail that needs them, including replies, bills, and flights."
+  },
+  "f64ce3e7789f97d5": {
+    "summary": "Brings Claude Code and Codex to Slack, Linear, and GitHub, running them on the team's own machines.",
+    "unique": "Every run is in the open so anyone can steer it, and sign-up is free.",
+    "benefit": "A team can start Claude Code or Codex from Slack, Linear, or GitHub and steer the run together."
+  },
+  "dcd189d507b81bf3": {
+    "summary": "An open-source coding agent that lives in the terminal, plans multi-step changes, edits files, and runs commands and tests.",
+    "unique": "It iterates until the task is done with a transparent, extensible tool loop.",
+    "benefit": "Developers can run a terminal coding agent that shows its tool loop while it works through a repository."
+  },
+  "2b39a7604fb88d70": {
+    "summary": "A TypeScript-shaped language built for coding agents.",
+    "unique": "It compiles to small, fast native binaries.",
+    "benefit": "Coding agents can write in a TypeScript-shaped language that compiles to native binaries."
+  },
+  "74a389cc0b38331c": {
+    "summary": "Scout is an open-source browser agent by Outcrawl.",
+    "unique": "It is mirrored automatically from Outcrawl's own repository.",
+    "benefit": "Developers can use Outcrawl's open-source browser agent from the mirrored repository."
+  },
+  "ee16670c255824ed": {
+    "summary": "Seasonal AI agent tutorials from Google Cloud for building production-ready agents.",
+    "unique": "The tutorials use Gemini, ADK, and Vertex AI.",
+    "benefit": "Developers can follow the seasonal tutorials to build agents with Gemini, ADK, and Vertex AI."
+  },
+  "c739a6a362dc96b4": {
+    "summary": "Personal agents on Cue that handle tasks, each with its own email, phone number, wallet, and computer.",
+    "unique": "Each agent has its own email, phone number, wallet, and computer to get real work done.",
+    "benefit": "People can hand real work to personal agents that have their own contact points and computer."
+  },
+  "9f845188c1f1a8fd": {
+    "summary": "UFO is described as a business agent operating system.",
+    "unique": "It is framed as an operating system for business agents.",
+    "benefit": "Businesses looking for an agent operating system can review UFO."
+  },
+  "52150045c3fe59ae": {
+    "summary": "Factory Droids automate coding, testing, and deployment with AI coding agents.",
+    "unique": "The same agents are aimed at both startups and enterprises.",
+    "benefit": "Startups and enterprises can use Factory Droids to automate coding, testing, and deployment."
   }
 }

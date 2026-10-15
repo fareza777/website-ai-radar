@@ -1,5 +1,32 @@
 [
   {
+    "id": "1ae547d1777c7634",
+    "lab": "google-deepmind",
+    "title": "Google GenAI SDK (Python) v2.31.0",
+    "url": "https://github.com/googleapis/python-genai/releases/tag/v2.31.0",
+    "sourceId": "google-genai-sdk",
+    "sourceName": "GitHub · googleapis/python-genai",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T23:27:27.000Z",
+    "firstSeenAt": "2026-10-15T00:05:12.215Z",
+    "updatedAt": "2026-10-14T23:27:27.000Z",
+    "excerpt": "2.31.0 (2026-10-14) Features interactions: Add gemini-4-argon to Model enum ( 8554b07 ) Bug Fixes Clear continuation state and preserve prompt feedback when continuation hop returns no candidates ( a0d809c ) Fix the function declaration parser for union types. Fixes #3060 ( be32e9e ) Fix the grounding metadata merging for automatic continuation in generate content and generate content stream ( f1499bb ) Make…",
+    "summary": "Google DeepMind shipped Google GenAI SDK (Python) v2.31.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 45,
+    "contentHash": "f55bf204ce8b",
+    "meta": {
+      "version": "v2.31.0",
+      "semver": "minor",
+      "repo": "googleapis/python-genai"
+    }
+  },
+  {
     "id": "5cb1618c1db568b5",
     "lab": "google-deepmind",
     "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
@@ -823,7 +850,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 2249,
+      "likes": 2260,
       "downloads": 135175,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",
