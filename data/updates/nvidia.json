@@ -1,5 +1,27 @@
 [
   {
+    "id": "6626e386d54752bd",
+    "lab": "nvidia",
+    "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+    "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T10:00:12.000Z",
+    "firstSeenAt": "2026-10-15T11:39:50.386Z",
+    "updatedAt": "2026-10-15T10:00:12.000Z",
+    "excerpt": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science…",
+    "summary": "Much of today’s scientific progress begins with computation.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "43479cdacc11"
+  },
+  {
     "id": "9dd119a51b881273",
     "lab": "nvidia",
     "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
@@ -511,21 +533,19 @@
     "publishedAt": "2026-10-01T21:40:34.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
     "updatedAt": "2026-10-01T21:40:34.000Z",
-    "excerpt": "image-to-text · license: other",
-    "summary": "NVIDIA published the PixelUMM model on Hugging Face for image to text. License: other.",
+    "excerpt": "any-to-any · license: other",
+    "summary": "NVIDIA published the PixelUMM model on Hugging Face for omni / any-to-any. License: other.",
     "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
     "summarySource": "template",
     "category": "model",
-    "tags": [
-      "multimodal"
-    ],
+    "tags": [],
     "importance": 66,
-    "contentHash": "569df33611c3",
+    "contentHash": "b721cbc7be2c",
     "meta": {
       "likes": 86,
       "downloads": 0,
       "repo": "nvidia/PixelUMM",
-      "pipeline": "image-to-text",
+      "pipeline": "any-to-any",
       "license": "other"
     }
   },
@@ -1326,8 +1346,8 @@
     "importance": 65,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 70,
-      "downloads": 5086,
+      "likes": 74,
+      "downloads": 5450,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -1357,8 +1377,8 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 771,
-      "downloads": 83992,
+      "likes": 773,
+      "downloads": 87010,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
       "license": "openmdw-1.1"
@@ -1387,7 +1407,7 @@
     "contentHash": "514b0926029b",
     "meta": {
       "likes": 135,
-      "downloads": 3122,
+      "downloads": 3816,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
     }
@@ -1417,8 +1437,8 @@
     "importance": 72,
     "contentHash": "a8d41ae3fa69",
     "meta": {
-      "likes": 538,
-      "downloads": 4536,
+      "likes": 540,
+      "downloads": 4701,
       "repo": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
       "license": "openmdw-1.1"
     }

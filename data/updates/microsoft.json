@@ -1,5 +1,35 @@
 [
   {
+    "id": "fe14b59114454d2d",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework python v1.22.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.22.0",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T09:54:16.000Z",
+    "firstSeenAt": "2026-10-15T11:39:50.386Z",
+    "updatedAt": "2026-10-15T09:54:16.000Z",
+    "excerpt": "[1.22.0] - 2026-10-15 Important Python 3.15 support: The core framework and root agent-framework package now support Python 3.15, but not every package, optional extra, or feature supports it yet because of upstream dependency constraints. Before upgrading, check the README for each package and extra you use. The Python README summarizes the currently known limitations. Warning Persisted-state compatibility: This…",
+    "summary": "Microsoft shipped Microsoft Agent Framework python v1.22.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "6a41532e9693",
+    "meta": {
+      "version": "1.22.0",
+      "semver": "minor",
+      "repo": "microsoft/agent-framework",
+      "package": "python"
+    }
+  },
+  {
     "id": "496d74f3d437e219",
     "lab": "microsoft",
     "title": "Microsoft Agent Framework dotnet v1.25.0",
@@ -333,11 +363,11 @@
       "32B",
       "multimodal"
     ],
-    "importance": 63,
+    "importance": 64,
     "contentHash": "508a2d739bfa",
     "meta": {
-      "likes": 47,
-      "downloads": 368,
+      "likes": 49,
+      "downloads": 503,
       "repo": "microsoft/AesCode-32B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -368,8 +398,8 @@
     "importance": 64,
     "contentHash": "4f0bc4169b75",
     "meta": {
-      "likes": 59,
-      "downloads": 356,
+      "likes": 61,
+      "downloads": 476,
       "repo": "microsoft/AesCode-8B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -612,7 +642,7 @@
     "contentHash": "dedfbfa6454f",
     "meta": {
       "likes": 158,
-      "downloads": 1601,
+      "downloads": 1684,
       "repo": "microsoft/FrogNano-4B-2609",
       "license": "mit"
     }
@@ -643,7 +673,7 @@
     "contentHash": "a578814b8678",
     "meta": {
       "likes": 61,
-      "downloads": 4448,
+      "downloads": 3999,
       "repo": "microsoft/VibeVoice-ASR-Streaming-1.5B",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"
@@ -675,7 +705,7 @@
     "contentHash": "806cdab3e7ad",
     "meta": {
       "likes": 258,
-      "downloads": 4861,
+      "downloads": 2345,
       "repo": "microsoft/VibeVoice-ASR-Streaming-7B",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"
@@ -775,7 +805,7 @@
     "contentHash": "a4e4cd3da320",
     "meta": {
       "likes": 39,
-      "downloads": 260,
+      "downloads": 256,
       "repo": "microsoft/Mage-ViT",
       "pipeline": "image-feature-extraction",
       "license": "mit"
@@ -806,7 +836,7 @@
     "contentHash": "a23d886d9109",
     "meta": {
       "likes": 430,
-      "downloads": 9685,
+      "downloads": 9359,
       "repo": "microsoft/Mage-VL",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -837,7 +867,7 @@
     "contentHash": "3c7a6571567c",
     "meta": {
       "likes": 206,
-      "downloads": 65178,
+      "downloads": 64202,
       "repo": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"
@@ -869,7 +899,7 @@
     "contentHash": "330dbdbd0237",
     "meta": {
       "likes": 295,
-      "downloads": 1956,
+      "downloads": 1986,
       "repo": "microsoft/Fara1.5-27B",
       "pipeline": "image-text-to-text",
       "license": "mit"
@@ -901,7 +931,7 @@
     "contentHash": "d6ccfd1a059f",
     "meta": {
       "likes": 55,
-      "downloads": 1564,
+      "downloads": 1514,
       "repo": "microsoft/Fara1.5-4B",
       "pipeline": "image-text-to-text",
       "license": "mit"

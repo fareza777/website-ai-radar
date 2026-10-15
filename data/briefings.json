@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-15",
-    "generatedAt": "2026-10-15T04:50:11.717Z",
+    "generatedAt": "2026-10-15T11:39:50.386Z",
     "stats": {
-      "updates24h": 21,
-      "labsActive24h": 8,
-      "updates7d": 105,
-      "newModels7d": 31
+      "updates24h": 20,
+      "labsActive24h": 9,
+      "updates7d": 104,
+      "newModels7d": 29
     },
     "source": "template",
-    "headline": "21 updates from 8 AI labs in the last 24 hours · 31 model releases this week.",
+    "headline": "20 updates from 9 AI labs in the last 24 hours · 29 model releases this week.",
     "bullets": [
       {
         "text": "OpenAI: Amp puts AI agents to work beyond code with OpenAI models",
@@ -27,6 +27,11 @@
         "lab": "openai"
       },
       {
+        "text": "Cohere: Cohere and AISLE sign letter of intent to advance cyber-resilient sovereign AI",
+        "itemId": "7d369f9d483c77b3",
+        "lab": "cohere"
+      },
+      {
         "text": "Amazon: Build self-improving document processing using Amazon Bedrock AgentCore",
         "itemId": "b7cd31d958bda34d",
         "lab": "amazon"
@@ -34,11 +39,6 @@
       {
         "text": "NVIDIA: Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
         "itemId": "9dd119a51b881273",
-        "lab": "nvidia"
-      },
-      {
-        "text": "NVIDIA: NVIDIA Announces New Investments in the UK Startup Ecosystem",
-        "itemId": "0480c20408dda17d",
         "lab": "nvidia"
       }
     ]

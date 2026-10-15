@@ -1,5 +1,29 @@
 [
   {
+    "id": "7d369f9d483c77b3",
+    "lab": "cohere",
+    "title": "Cohere and AISLE sign letter of intent to advance cyber-resilient sovereign AI",
+    "url": "https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai",
+    "sourceId": "cohere-blog",
+    "sourceName": "Cohere Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "firstSeenAt": "2026-10-15T11:39:50.386Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "excerpt": "By combining sovereign AI and cybersecurity expertise, Cohere is expanding its platform to help enterprises and governments secure AI systems in an increasingly complex threat landscape.",
+    "summary": "By combining sovereign AI and cybersecurity expertise, Cohere is expanding its platform to help enterprises and governments secure AI systems in an increasingly complex threat landscape.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "safety"
+    ],
+    "importance": 50,
+    "contentHash": "0e98607e4fbf"
+  },
+  {
     "id": "68fa5d474465cb0d",
     "lab": "cohere",
     "title": "Lessons from scaling teams of coding agents: reach the frontier at 30% of the cost",
@@ -82,17 +106,17 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-06T00:00:00.000Z",
-    "excerpt": "When a reasoning model gets an answer wrong, you’d read its reasoning to find out why. But what if that reasoning is in a language you don't speak?",
-    "summary": "When a reasoning model gets an answer wrong, you’d read its reasoning to find out why.",
-    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "updatedAt": "2026-10-15T11:39:50.386Z",
+    "excerpt": "Multilingual Bridges: How Data Mixing Unlocks In-Language Reasoning",
+    "summary": "Official feature update from Cohere (Cohere Blog).",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
-    "category": "model",
+    "category": "feature",
     "tags": [
       "reasoning"
     ],
-    "importance": 60,
-    "contentHash": "5d394fc008a5"
+    "importance": 50,
+    "contentHash": "b586ac815599"
   },
   {
     "id": "78c7c5e639727508",
@@ -449,7 +473,7 @@
     "contentHash": "6d717b0074a7",
     "meta": {
       "likes": 15,
-      "downloads": 1193,
+      "downloads": 1014,
       "repo": "CohereLabs/tiny-aya-l2-thinker",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -664,7 +688,7 @@
     "contentHash": "64d1068470db",
     "meta": {
       "likes": 60,
-      "downloads": 158,
+      "downloads": 146,
       "repo": "CohereLabs/North-Small-Translate-1.0",
       "pipeline": "translation",
       "license": "cc-by-nc-4.0"
@@ -695,7 +719,7 @@
     "contentHash": "78363ebea532",
     "meta": {
       "likes": 154,
-      "downloads": 90705,
+      "downloads": 77328,
       "repo": "CohereLabs/North-Micro-Vision-Instruct",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
