@@ -75,7 +75,7 @@ Hapus dari `sources`. Item lama dari `id` sumber itu otomatis dibersihkan pada r
 - `PRESS_QUERIES`: Google News query per lab (press stream); `PRESS`: window, retention, noise filter.
 - `PAPER_ORGS`: Hugging Face organization → lab for the papers stream.
 - `PULSE`: Hacker News queries and thresholds.
-- `LAB_SOCIAL`: official X/Threads handles per lab (posts from them are attributed to the lab and marked official).
+- `LAB_SOCIAL`: official X/Threads handles per lab (X posts from them are attributed to the lab and marked official — the author comes from the API/oEmbed response, never from the URL text; link-only Threads tips are never marked official).
 - `src/config/buzz.ts`: newsletters that curate AI Twitter, excluded domains, optional X API discovery query.
 
 ## 4. Deals — `src/config/deals.ts`

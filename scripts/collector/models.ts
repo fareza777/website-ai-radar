@@ -17,6 +17,10 @@ const MOVES_KEEP_DAYS = 90;
 const HISTORY_MAX = 40;
 /** Ignore float noise; a real price change is at least this relative difference. */
 const MIN_CHANGE = 0.005;
+/** A response with fewer priced models than this share of the previous list is treated as a failed fetch. */
+const MIN_RESPONSE_RATIO = 0.5;
+/** Models absent from a response stay listed (with their tracking state) for this many days. */
+const CARRY_DAYS = 2;
 
 /** USD per token string → USD per 1M tokens. null when the API gives no explicit numeric price. */
 export function perMillion(v: unknown): number | null {
@@ -118,6 +122,15 @@ export async function collectModels(now: Date, log: (m: string) => void): Promis
         ...(tracked.pending ? { pending: tracked.pending } : {}),
       });
     }
+
+    // An empty or truncated response must not wipe the price history of every model.
+    if (prevModels.length >= 20 && models.length < prevModels.length * MIN_RESPONSE_RATIO) {
+      throw new Error(`implausible response: ${models.length} priced models vs ${prevModels.length} before — keeping previous data`);
+    }
+    // A model missing for a run or two keeps its debounce state instead of restarting as "new" (which would hide a real price change).
+    const seen = new Set(models.map((m) => m.id));
+    const carryFrom = now.getTime() - CARRY_DAYS * 86_400_000;
+    for (const m of prevModels) if (!seen.has(m.id) && Date.parse(m.lastSeenAt) >= carryFrom) models.push(m);
 
     const cutoff = now.getTime() - MOVES_KEEP_DAYS * 86_400_000;
     const allMoves = [...moves, ...prevMoves].filter((x) => Date.parse(x.at) >= cutoff).sort((a, b) => b.at.localeCompare(a.at));

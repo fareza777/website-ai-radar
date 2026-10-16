@@ -49,7 +49,7 @@ Goal: make sure important posts from the labs' own accounts reach the **Social w
   ```bash
   npm run tip -- --x <post url> --note "<one factual line>" --by cursor
   ```
-  Posts from a tracked handle are attributed to the lab automatically and go to the Social wire (not Discover). Threads post URLs are accepted too (stored link-only).
+  X posts from a tracked handle are attributed to the lab automatically (the author is read from X's oEmbed, not from the URL) and go to the Social wire (not Discover). Threads post URLs are accepted too but stored link-only: nothing is fetched, so they carry no lab and are never marked official.
 - Verify the handle list: if an official account has changed its handle or a lab has a new official account, update `LAB_SOCIAL` in `src/config/signals.ts`.
 - Then run `npm run collect -- --only=discover` and confirm the posts appear in `data/social.json`.
 - If `data/status.json` shows `signals-x-api` / `signals-threads-api` as skipped, mention in the report that API tokens are not configured (coverage = newsletters + tips only).

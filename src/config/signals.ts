@@ -46,7 +46,7 @@ export const PRESS = {
   clusterDays: 3,
   /** Skip headline noise that is not news about the lab's AI work. */
   exclude:
-    "(stock|shares|price target|buy or sell|should you buy|dividend|earnings call|etf\\b|portfolio|analyst rating|class action|lawsuit settlement|horoscope|crossword|sponsored)",
+    "(\\bstocks?\\b|\\bshares? of\\b|\\bshares?\\s+(?:price|market|(?:fall|fell|drop|ris|rose|jump|surg|slid|soar|tumbl|climb|gain|sink|sank)\\w*)|price target|buy or sell|should you buy|dividend|earnings call|\\betfs?\\b|\\bportfolio\\b|analyst rating|class action|lawsuit settlement|horoscope|crossword|sponsored)",
 } as const;
 
 /** Hugging Face organization slug → tracked lab slug. */
@@ -137,7 +137,7 @@ export const PULSE = {
  * Threads handles are optional (few labs post there); fill them in when you know them.
  */
 export const LAB_SOCIAL: Record<string, { x: string[]; threads: string[] }> = {
-  openai: { x: ["OpenAI", "OpenAIDevs", "ChatGPT", "ChatGPTapp"], threads: [] },
+  openai: { x: ["OpenAI", "OpenAIDevs", "OpenAINewsroom", "ChatGPT", "ChatGPTapp"], threads: [] },
   anthropic: { x: ["AnthropicAI", "claudeai", "ClaudeDevs"], threads: [] },
   "google-deepmind": { x: ["GoogleDeepMind", "GoogleAI", "GoogleAIStudio", "GeminiApp"], threads: [] },
   xai: { x: ["xai", "grok"], threads: [] },
@@ -159,13 +159,14 @@ export const LAB_SOCIAL: Record<string, { x: string[]; threads: string[] }> = {
   ibm: { x: ["IBMResearch"], threads: [] },
 };
 
-const HANDLE_TO_LAB: Record<string, string> = Object.fromEntries(
-  Object.entries(LAB_SOCIAL).flatMap(([lab, h]) => [...h.x, ...h.threads].map((handle) => [handle.toLowerCase(), lab])),
+// A Map, not a plain object: handles like "constructor" must not resolve to Object.prototype members.
+const HANDLE_TO_LAB = new Map<string, string>(
+  Object.entries(LAB_SOCIAL).flatMap(([lab, h]) => [...h.x, ...h.threads].map((handle): [string, string] => [handle.toLowerCase(), lab])),
 );
 
 /** Tracked lab owning an official handle (case-insensitive), if any. */
 export function labFromHandle(handle: string): string | undefined {
-  return HANDLE_TO_LAB[handle.replace(/^@/, "").toLowerCase()];
+  return HANDLE_TO_LAB.get(handle.replace(/^@/, "").toLowerCase());
 }
 
 export const SOCIAL = {

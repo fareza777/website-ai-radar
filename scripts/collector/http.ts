@@ -9,9 +9,23 @@ export interface FetchOptions {
   browserUa?: boolean;
 }
 
+const SECRET_ENV = ["THREADS_ACCESS_TOKEN", "X_BEARER_TOKEN", "GITHUB_TOKEN", "GH_TOKEN", "LLM_API_KEY", "OPENAI_API_KEY"];
+const SECRET_PARAM = /([?&;](?:access_token|token|key|api_key|apikey|bearer_token|client_secret)=)[^&\s"']+/gi;
+
+/** Masks credentials in a message: secret-looking query params and the literal values of known secret env vars. */
+export function redact(text: string): string {
+  let out = text.replace(SECRET_PARAM, "$1***");
+  for (const name of SECRET_ENV) {
+    const value = process.env[name];
+    if (!value || value.length < 8) continue;
+    for (const form of new Set([value, encodeURIComponent(value)])) out = out.split(form).join("***");
+  }
+  return out;
+}
+
 export class HttpError extends Error {
   constructor(public status: number, url: string) {
-    super(`HTTP ${status} for ${url}`);
+    super(`HTTP ${status} for ${redact(url)}`);
   }
 }
 
@@ -69,8 +83,8 @@ export async function pool<T, R>(items: readonly T[], limit: number, fn: (item: 
 }
 
 export function errorMessage(err: unknown): string {
-  if (err instanceof Error) return err.message.slice(0, 300);
-  return String(err).slice(0, 300);
+  const raw = err instanceof Error ? err.message : String(err);
+  return redact(raw).slice(0, 300);
 }
 
 export { sleep };

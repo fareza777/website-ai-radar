@@ -7,7 +7,7 @@ import type { Signal, SourceStatus, XQuote } from "../../src/lib/types";
 import type { Candidate } from "./candidate";
 import { parseFeed } from "./feed";
 import { errorMessage, fetchJson, pool } from "./http";
-import { daysAgo, decodeEntities, normalizeUrl, parseDate, safeHttpUrl, safeRegex, stripHtml, truncate } from "./text";
+import { daysAgo, decodeEntities, normalizeUrl, parseDate, parseDayUtc, safeHttpUrl, safeRegex, stripHtml, truncate } from "./text";
 
 // ---------------------------------------------------------------- helpers
 
@@ -16,7 +16,9 @@ const LAB_HANDLES = new Set<string>(BUZZ.labHandles.map((h) => h.toLowerCase()))
 /** Official lab accounts (config/signals LAB_SOCIAL) — their posts feed the Social stream, not Discover. */
 const isLabHandle = (h: string) => LAB_HANDLES.has(h.toLowerCase()) || labFromHandle(h) !== undefined;
 const X_STATUS = /^https:\/\/(?:www\.|mobile\.)?(?:x|twitter)\.com\/([A-Za-z0-9_]{1,15})\/status\/(\d+)/;
-const GH_REPO = /^https:\/\/github\.com\/(?!\.+\/)([\w.-]+)\/(?!\.+\/?$)([\w.-]+)\/?$/i;
+/** An X or Threads post URL anywhere in free text (issue bodies), unlike the anchored matchers. */
+const SOCIAL_POST_ANYWHERE = /https:\/\/(?:(?:www\.|mobile\.)?(?:x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/status\/\d+|(?:www\.)?threads\.(?:net|com)\/@[A-Za-z0-9._]+\/post\/[A-Za-z0-9_-]+)/;
+const GH_REPO =/^https:\/\/github\.com\/(?!\.+\/)([\w.-]+)\/(?!\.+\/?$)([\w.-]+)\/?$/i;
 const AI_RELEVANT = /(\bai\b|\bagents?\b|agentic|\bllms?\b|\bmodels?\b|gpt|claude|codex|gemini|cursor|automat|inference|machine learning|copilot|chatbot|\brag\b|\bmcp\b|open[- ]source|embedding|voice|prompt|vibe[- ]cod)/i;
 const LAUNCH_WORDS = /\b(introducing|launch(ed|ing)?|just shipped|shipping|now live|is live|announcing|open[- ]sourc(e|ed|ing)|beta|we built|i built|releas(e|ed|ing))\b/i;
 
@@ -89,15 +91,20 @@ export async function readXPost(postUrl: string): Promise<XPost | null> {
     signal: AbortSignal.timeout(15_000),
   });
   if (!res.ok) return null;
-  const body = (await res.json()) as { html?: string; author_name?: string };
+  const body = (await res.json()) as { html?: string; author_name?: string; author_url?: string };
   const html = body.html ?? "";
+  // The username segment of a status URL is not authoritative (X resolves the id alone), so the real author
+  // comes from oEmbed. Without it the post is unreadable — an unverifiable handle must never earn "official".
+  const handle = /^https:\/\/(?:www\.)?(?:x|twitter)\.com\/([A-Za-z0-9_]{1,15})\/?$/.exec(body.author_url ?? "")?.[1];
+  if (!handle) return null;
+  const url = `https://x.com/${handle}/status/${m[2]}`;
   const p = /<p[^>]*>([\s\S]*?)<\/p>/.exec(html)?.[1] ?? "";
   const text = stripHtml(p.replace(/<br\s*\/?>/gi, " \n "))
     .replace(/\s*pic\.twitter\.com\/\w+/g, "")
     .replace(/\s*https?:\/\/t\.co\/\w+/g, "") // short links are resolved separately into `links`
     .trim();
   const dateText = [...html.matchAll(/<a[^>]*>([^<]+)<\/a>\s*<\/blockquote>/g)].at(-1)?.[1];
-  const date = parseDate(dateText);
+  const date = parseDayUtc(dateText);
   const tco = [...p.matchAll(/href="(https:\/\/t\.co\/[A-Za-z0-9]+)"/g)].map((x) => x[1]);
   const links: string[] = [];
   for (const short of tco) {
@@ -105,7 +112,7 @@ export async function readXPost(postUrl: string): Promise<XPost | null> {
     if (final && !X_STATUS.test(final) && !/(?:x|twitter)\.com\/.*\/(photo|video)\//.test(final)) links.push(final);
   }
   return {
-    quote: { text: truncate(text, 400), author: body.author_name ?? m[1], handle: m[1], url: canonical, date: date ? date.toISOString() : null },
+    quote: { text: truncate(text, 400), author: body.author_name ?? handle, handle, url, date: date ? date.toISOString() : null },
     links,
   };
 }
@@ -232,6 +239,11 @@ function firstUrl(text: string | null): string | null {
   return m ? safeHttpUrl(m[0]) : null;
 }
 
+/** The X or Threads post URL of a tip issue: the issue-form field (either label version), else any post URL in the text. */
+export function tipPostUrl(body: string): string | null {
+  return firstUrl(issueField(body, "X(?: or Threads)? post")) ?? firstUrl(body.match(SOCIAL_POST_ANYWHERE)?.[0] ?? null);
+}
+
 /** Tips = approved GitHub issues labeled `radar-tip` + entries in src/config/tips.json. */
 export async function loadTips(now: Date): Promise<{ tips: TipRef[]; issues: GhIssue[] }> {
   const tips: TipRef[] = [];
@@ -247,7 +259,7 @@ export async function loadTips(now: Date): Promise<{ tips: TipRef[]; issues: GhI
     const trusted = (BUZZ.tips.trustedAssociations as readonly string[]).includes(i.author_association) || labels.has(BUZZ.tips.approvedLabel);
     if (!trusted || labels.has("rejected")) continue;
     const body = i.body ?? "";
-    const x = firstUrl(issueField(body, "X post")) ?? firstUrl(body.match(X_STATUS)?.[0] ?? null);
+    const x = tipPostUrl(body);
     const url = firstUrl(issueField(body, "Product"));
     if (!x && !url) continue;
     tips.push({ issue: i.number, issueUrl: i.html_url, x: x ?? undefined, url: url ?? undefined, note: issueField(body, "Why") ?? undefined, addedAt: i.created_at });

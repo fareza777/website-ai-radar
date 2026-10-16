@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T13:46:55.918Z",
+  "generatedAt": "2026-10-16T14:18:12.254Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -9,37 +9,36 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 34,
+      "press": 24,
       "outlets": [
         "The Decoder",
+        "Search Engine Journal",
+        "Search Engine Roundtable",
+        "Engadget",
+        "SiliconANGLE",
         "The Verge",
         "The American Bazaar",
         "WinBuzzer",
-        "Search Engine Roundtable",
-        "Engadget",
         "9to5Google",
         "Business Insider",
         "The Next Web",
         "Ars Technica",
         "CNET",
-        "blog.google",
+        "The GitHub Blog",
+        "Techzine Global",
         "Reuters",
         "CNBC",
-        "Search Engine Journal",
-        "The GitHub Blog",
         "Mashable",
-        "SiliconANGLE",
         "MarkTechPost",
         "TechEBlog -",
-        "Techzine Global",
         "Technology Org",
         "The Neuron",
+        "about.gitlab.com",
         "InfoWorld",
         "Lifehacker",
         "Yahoo Finance UK",
         "Yahoo Finance Singapore",
         "Forbes",
-        "about.gitlab.com",
         "Channel Insider",
         "TechRepublic",
         "https://tech-insider.org/",
@@ -63,10 +62,8 @@
         "openai"
       ],
       "official": 2,
-      "press": 1,
-      "outlets": [
-        "OpenAI"
-      ],
+      "press": 0,
+      "outlets": [],
       "firstAt": "2026-10-08T19:41:00.000Z",
       "lastAt": "2026-10-09T17:53:14.000Z",
       "url": "https://openai.com/index/asana-browser-agent",
@@ -74,7 +71,7 @@
         "kind": "official",
         "id": "90995f7dbc9c2674"
       },
-      "importance": 92
+      "importance": 90
     },
     {
       "id": "1d78f09c640d45a5",
@@ -85,10 +82,8 @@
         "amazon"
       ],
       "official": 2,
-      "press": 1,
-      "outlets": [
-        "Amazon Web Services (AWS)"
-      ],
+      "press": 0,
+      "outlets": [],
       "firstAt": "2026-10-07T00:00:00.000Z",
       "lastAt": "2026-10-07T18:52:10.000Z",
       "url": "https://anthropic.com/claude-haiku-5-5",
@@ -96,7 +91,43 @@
         "kind": "official",
         "id": "1d78f09c640d45a5"
       },
-      "importance": 92
+      "importance": 90
+    },
+    {
+      "id": "b382a6d08a5fad47",
+      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+      "entity": "Nemotron 3.5 Super",
+      "labs": [
+        "nvidia"
+      ],
+      "official": 1,
+      "press": 6,
+      "outlets": [
+        "Wccftech",
+        "The Decoder",
+        "https://tech-insider.org/",
+        "Yahoo Finance",
+        "MarkTechPost",
+        "SQ Magazine",
+        "ZDNET",
+        "Prime Intellect",
+        "巴士的報",
+        "Techzine Global",
+        "Startup Fortune",
+        "Unite.AI",
+        "Technology Org",
+        "Nscale",
+        "StreetInsider",
+        "LMSYS Org"
+      ],
+      "firstAt": "2026-10-15T15:00:00.000Z",
+      "lastAt": "2026-10-15T23:15:05.000Z",
+      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning",
+      "lead": {
+        "kind": "official",
+        "id": "b382a6d08a5fad47"
+      },
+      "importance": 85
     },
     {
       "id": "c4d6082c07a1abcc",
@@ -107,10 +138,8 @@
         "xai"
       ],
       "official": 1,
-      "press": 2,
-      "outlets": [
-        "Amazon Web Services (AWS)"
-      ],
+      "press": 0,
+      "outlets": [],
       "firstAt": "2026-10-13T15:52:20.000Z",
       "lastAt": "2026-10-13T15:52:20.000Z",
       "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock",
@@ -118,66 +147,7 @@
         "kind": "official",
         "id": "c4d6082c07a1abcc"
       },
-      "importance": 87
-    },
-    {
-      "id": "b382a6d08a5fad47",
-      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-      "entity": "Nemotron 3.5 Super",
-      "labs": [
-        "nvidia"
-      ],
-      "official": 1,
-      "press": 9,
-      "outlets": [
-        "Wccftech",
-        "The Decoder",
-        "https://tech-insider.org/",
-        "Yahoo Finance",
-        "MarkTechPost",
-        "SQ Magazine",
-        "ZDNET",
-        "NVIDIA Developer",
-        "Prime Intellect",
-        "Technology Org",
-        "Unite.AI",
-        "Startup Fortune",
-        "Nscale",
-        "Techzine Global",
-        "StreetInsider",
-        "LMSYS Org",
-        "巴士的報"
-      ],
-      "firstAt": "2026-10-15T15:00:00.000Z",
-      "lastAt": "2026-10-16T13:00:47.000Z",
-      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning",
-      "lead": {
-        "kind": "official",
-        "id": "b382a6d08a5fad47"
-      },
       "importance": 85
-    },
-    {
-      "id": "2cd92b812c13525a",
-      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-      "entity": null,
-      "labs": [
-        "nvidia"
-      ],
-      "official": 1,
-      "press": 1,
-      "outlets": [
-        "NVIDIA Blog",
-        "HPCwire"
-      ],
-      "firstAt": "2026-10-15T15:00:24.000Z",
-      "lastAt": "2026-10-15T15:03:57.000Z",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
-      "lead": {
-        "kind": "official",
-        "id": "2cd92b812c13525a"
-      },
-      "importance": 72
     },
     {
       "id": "024d9eece6c046fd",
@@ -188,10 +158,8 @@
         "openai"
       ],
       "official": 1,
-      "press": 2,
-      "outlets": [
-        "Amazon Web Services (AWS)"
-      ],
+      "press": 0,
+      "outlets": [],
       "firstAt": "2026-10-12T17:52:22.000Z",
       "lastAt": "2026-10-12T17:52:22.000Z",
       "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan",
@@ -199,39 +167,7 @@
         "kind": "official",
         "id": "024d9eece6c046fd"
       },
-      "importance": 72
-    },
-    {
-      "id": "6af2b5924daefd",
-      "title": "Cohere moves to buy AI cybersecurity startup Aisle",
-      "entity": null,
-      "labs": [
-        "cohere"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Reuters",
-        "PYMNTS.com",
-        "TradingView",
-        "Toronto Star",
-        "Mezha.net",
-        "Verdict",
-        "NewsBytes",
-        "Konsulteer",
-        "The Economic Times",
-        "The Spec",
-        "CNA",
-        "The Globe and Mail"
-      ],
-      "firstAt": "2026-10-15T09:02:02.000Z",
-      "lastAt": "2026-10-15T09:02:02.000Z",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQelhUY0ZoS256dThELV8tWW44ZjN1UEFkcW9takNnX2dHb2lBazFaZGFVTGxQc2tBUXVaVW0tWjN1RXBwTjQ5dDRoT2RPU3lUZXFKNGpnajRZamhyZFFVeXh5N3hKNEVMNmZUeTBkUEVXbEhxWkVRQnJaVDNhVXp3UlhidkU4OUh1bU9mT2x5aC13RzBGMjgzY2pnTTY?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "6af2b5924daefd"
-      },
-      "importance": 63
+      "importance": 70
     },
     {
       "id": "7d369f9d483c77b3",
@@ -254,152 +190,6 @@
         "id": "7d369f9d483c77b3"
       },
       "importance": 62
-    },
-    {
-      "id": "be79bb06ce432c",
-      "title": "Alibaba starts selling its Qwen N1 AI glasses in China from $450",
-      "entity": null,
-      "labs": [
-        "qwen"
-      ],
-      "official": 0,
-      "press": 3,
-      "outlets": [
-        "Analytics India Magazine",
-        "YourStory.com",
-        "Briefs Finance",
-        "eWeek",
-        "Trend Hunter",
-        "The Next Web"
-      ],
-      "firstAt": "2026-10-13T10:32:09.000Z",
-      "lastAt": "2026-10-13T10:32:09.000Z",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xb1dFT2tBY2NYOFRueHlabW5ZU2t6RTRBQjlEUW9aVFZYMGtaUkRjWndvT2g5Rms0dnFjVnNQd0xxcUgzSXZKZnc1MS1NR2k4ZjlvbzE2UHZ3S2NtQ2pfT0l2bjV6dUQxOGdoSlJERGRfUQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "be79bb06ce432c"
-      },
-      "importance": 58
-    },
-    {
-      "id": "798042a32b212c",
-      "title": "IBM and MeitY Startup Hub Sign MoU to Accelerate Deep-Tech Innovation and Startup Growth in India",
-      "entity": null,
-      "labs": [
-        "ibm"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "DQ",
-        "GK Today",
-        "IANS LIVE",
-        "IBM",
-        "BW Disrupt",
-        "Analytics India Magazine"
-      ],
-      "firstAt": "2026-10-13T09:33:57.000Z",
-      "lastAt": "2026-10-13T09:33:57.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6R3VQZE1DUlJoZ09zWVdmY1lZckp5NktfR3dtM1dQdnhMSWRGUlpiMXBnd29NRS1pbGV3UE9zbW1vLXM0TERselNSS19xeUZBZjBsOWIwOUlUbF80MzlTR0xxMTFtMWRKZ2c?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "798042a32b212c"
-      },
-      "importance": 58
-    },
-    {
-      "id": "9883d39058ad4d",
-      "title": "DeepSeek Backs Ex-Tencent AI Scientist’s $400 Million Robot Lab",
-      "entity": null,
-      "labs": [
-        "deepseek",
-        "tencent"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Bloomberg.com",
-        "Yahoo Finance",
-        "Startup Fortune",
-        "Dealroom"
-      ],
-      "firstAt": "2026-10-12T11:42:26.000Z",
-      "lastAt": "2026-10-12T11:42:26.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjE5N1J0MDF2LWVTMDR2UUJGdXVrU0lNdVRBSzRuNU5UbXJNdTh0UmVCQXZtV1JYQi01TnFNS0pLNzVxU1BIQ25OOWtUdjZvR0JuQVU3a1lfTGdMLW1rTGg0bWc4YWRnZGUyenBlSXhZTmM0UmJzUGZNcC1lWTNBZGJmZ3NtNHBEQkNsUVVNYS1ZaGszaGtmUmZqa3VYVHVyWDBVMFJLcnBxX1AwTnBwa3FnUQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "9883d39058ad4d"
-      },
-      "importance": 57
-    },
-    {
-      "id": "72ba7c14baeae5",
-      "title": "Moonshot AI executives in talks to settle shareholder dispute ahead of Hong Kong IPO",
-      "entity": null,
-      "labs": [
-        "moonshot"
-      ],
-      "official": 0,
-      "press": 3,
-      "outlets": [
-        "Tekedia",
-        "Quartz",
-        "Startup Fortune",
-        "Crypto Briefing",
-        "NeoTeo"
-      ],
-      "firstAt": "2026-10-11T23:42:05.000Z",
-      "lastAt": "2026-10-11T23:42:05.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQWjVuRzk3U21Ja0JBeEtQaUVFZ1BDaGlnU0h6MHRneTBtTWo3OXFyTXRRdE0td3dhOHQ3NnNPY29FWjZNZWoyb2VfSEZkY2pFYjFDS2tXX3FPQ3F5UjRlbnROS3hFMkx0Q2xteTlfaVpMaGsyTWUyMzNRNjl3dw?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "72ba7c14baeae5"
-      },
-      "importance": 57
-    },
-    {
-      "id": "58ffc88a148ec7",
-      "title": "ByteDance vs Alibaba vs Tencent: Which Leads in AI-Powered Overseas Marketing Strength?",
-      "entity": null,
-      "labs": [
-        "qwen",
-        "bytedance"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "36Kr"
-      ],
-      "firstAt": "2026-10-16T04:32:00.000Z",
-      "lastAt": "2026-10-16T04:32:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zVG9BNWpXa2RLbmhjcXNqcHVwbzJTTTBHay1XNW9Ua21mcDlfckV6RXl6T0ZJM3RkeV84RG1Na3NBaXN1TWdSNTAyQzNuUHkyNXZ3?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "58ffc88a148ec7"
-      },
-      "importance": 52
-    },
-    {
-      "id": "1cbe41912768de",
-      "title": "Chinese AI is back: DeepSeek, Moonshot AI and Manus all raise huge rounds",
-      "entity": null,
-      "labs": [
-        "deepseek",
-        "moonshot"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Asia Tech Review"
-      ],
-      "firstAt": "2026-10-12T04:01:56.000Z",
-      "lastAt": "2026-10-12T04:01:56.000Z",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3bndkaC1maFdyaVZkclJzcmRSM2NzOXhWSVlnNUFhd1VSdm9DSl93OFprWWY5anFxU3ltdTAyNGM3b1k1bUN1eDdOMDE2QVEtNjZncFF4NXJpVEp3Y250UHpmYXYyaGhGM2o2ZVBYQWhXTGlvUDU1QQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "1cbe41912768de"
-      },
-      "importance": 52
     }
   ],
   "trending": {
@@ -425,8 +215,7 @@
         "count": 3,
         "prev": 0,
         "labs": [
-          "amazon",
-          "xai"
+          "amazon"
         ]
       },
       {
@@ -434,9 +223,7 @@
         "count": 3,
         "prev": 4,
         "labs": [
-          "openai",
-          "google-deepmind",
-          "zai"
+          "openai"
         ]
       }
     ],
@@ -446,16 +233,16 @@
         "count": 44,
         "prev": 31,
         "labs": [
-          "anthropic",
           "openai",
+          "anthropic",
+          "qwen",
           "meta",
           "cohere",
-          "qwen",
+          "microsoft",
           "amazon",
           "bytedance",
-          "microsoft",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -463,17 +250,17 @@
         "count": 31,
         "prev": 30,
         "labs": [
+          "openai",
           "anthropic",
           "google-deepmind",
-          "openai",
+          "qwen",
           "mistral",
           "cohere",
-          "qwen",
+          "microsoft",
           "amazon",
           "bytedance",
-          "microsoft",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -481,11 +268,11 @@
         "count": 7,
         "prev": 6,
         "labs": [
-          "anthropic",
           "openai",
+          "anthropic",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "nvidia"
         ]
       },
@@ -494,9 +281,9 @@
         "count": 6,
         "prev": 6,
         "labs": [
+          "openai",
           "anthropic",
           "google-deepmind",
-          "openai",
           "amazon",
           "bytedance",
           "nvidia"
@@ -507,13 +294,13 @@
         "count": 6,
         "prev": 4,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "mistral",
-          "tencent",
           "amazon",
-          "ibm",
-          "nvidia"
+          "tencent",
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -521,14 +308,25 @@
         "count": 4,
         "prev": 12,
         "labs": [
-          "google-deepmind",
           "openai",
-          "mistral",
+          "google-deepmind",
           "qwen",
-          "tencent",
+          "mistral",
           "amazon",
-          "ibm",
-          "nvidia"
+          "tencent",
+          "nvidia",
+          "ibm"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 3,
+        "prev": 4,
+        "labs": [
+          "openai",
+          "google-deepmind",
+          "qwen",
+          "amazon"
         ]
       },
       {
@@ -541,72 +339,8 @@
           "amazon",
           "nvidia"
         ]
-      },
-      {
-        "name": "mcp",
-        "count": 3,
-        "prev": 4,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "qwen",
-          "amazon"
-        ]
       }
     ]
   },
-  "unconfirmed": [
-    {
-      "id": "c18012af8dd341",
-      "lab": "bytedance",
-      "title": "China's ByteDance sets up AI safety team, launches global hiring drive",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUUh6d0NyZGxfYjd4bDhwRWdkT0wxOG4xUUlrQkZFZ0JMTlNJMzVUVWRHNDhyYWR2Vzh0RGRsUk9YdDhHeE92NlBPTWlnU1htMHotSVhfRGoydXVjM21UcEV6Z3dsSGtSSGhOcExMaFBud3ZVcGJDU1NNUXFUcFBCdDNwZUFfWVY4QnJjNEhaWHQ2Z01PUUt4enJJVWRxWjA5aTNVUncwSW1XcFB5c2VzYXBmR3RNZVZxNHpzd1c1bHhUSzZIa1E?oc=5",
-      "outlets": [
-        "Reuters",
-        "Tech in Asia",
-        "The Economic Times",
-        "The News International",
-        "ETHRWorld.com",
-        "Crypto Briefing"
-      ],
-      "reports": 6,
-      "at": "2026-10-15T10:52:58.000Z"
-    },
-    {
-      "id": "d20a5deabd2ee6",
-      "lab": "nvidia",
-      "title": "Germany to unveil Nvidia AI agreement next week, government sources say",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOTTBxQWFBaEFMS1NEUnk2MEQxT0ZSeWxydTlEbmZ6MXJLYm5OdEkxQ3NldlF5TExMVjZwTFR3bzFiWUNlNTZyNmJBODJwS0h5QmNCcWU4dVkzLV9yUHAySE0zVVhrcDhkNlhYZmdldnhadnQ5bmtfc052QmFSRXZITy1DWUk4VzhDUHJrb2pEZzNxZFh1Z20tYTIyQTFCYU1PbUZpMjVqRWpndGV6cmdWdHJBQ2lXQWM2WjlDNE5IZWpua18yZ250emRCSWdfZ0x1TnJJcEdJdWR2QTBnT0xNblJoRjNIR3ZDVEVZWThvUUV0bjVfVlRsZzI4LWZNZw?oc=5",
-      "outlets": [
-        "Reuters",
-        "Central Oregon Daily"
-      ],
-      "reports": 2,
-      "at": "2026-10-16T11:02:26.000Z"
-    },
-    {
-      "id": "b0a74223400606",
-      "lab": "mistral",
-      "title": "CERN and Mistral partner to build Flare, a new AI model for physics",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5",
-      "outlets": [
-        "Reuters",
-        "The Hindu"
-      ],
-      "reports": 2,
-      "at": "2026-10-15T13:02:13.000Z"
-    },
-    {
-      "id": "5268236bfbfa72",
-      "lab": "ibm",
-      "title": "IBM Partners With MeitY To Help Indian Startups Scale AI, Quantum Technologies",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTnNUVzZ2dlBXYXVqVTRfd0RvVDk0TXV6WGtMWC1Hb1hyaWFkaGhFQ1RydXJ3UXB6ZzBRWWo3R2ZKSEE1c3BWcmlQX1cyTGFlcWtlVlMyNkJkUVpWV0libWNscnc4Z0QyS3lXQXVxWGlRQlI2cUVEWGdiaE5jQ1RaR3hFejBtLURNQ2x5elE5SFprZmMxQk5ZMko4ckJlYktDWTQ0?oc=5",
-      "outlets": [
-        "indica News",
-        "Konsulteer"
-      ],
-      "reports": 2,
-      "at": "2026-10-13T13:58:30.000Z"
-    }
-  ]
+  "unconfirmed": []
 }

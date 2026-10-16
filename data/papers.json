@@ -6,7 +6,7 @@
     "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understanding. OmniCompass…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 249,
+    "upvotes": 260,
     "org": "vclab-hkpu",
     "githubRepo": "https://github.com/PolyU-VCLab/OmniCompass",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -18,7 +18,7 @@
     "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 193,
+    "upvotes": 216,
     "org": null,
     "githubRepo": "https://github.com/hhhbxloveai/WaypointOPD",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -30,7 +30,7 @@
     "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses successive…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 191,
+    "upvotes": 196,
     "org": "mac-automl",
     "githubRepo": "https://github.com/MAC-AutoML/RoTA-Bench",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -48,6 +48,30 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
+    "id": "2610.22350",
+    "title": "FDE-Gym: The Last Mile of AI Delivery",
+    "url": "https://huggingface.co/papers/2610.22350",
+    "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors…",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "submittedAt": "2026-10-16T00:00:00.000Z",
+    "upvotes": 147,
+    "org": "deeplethe",
+    "githubRepo": "https://github.com/deeplethe/fde-gym",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "2610.22276",
+    "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+    "url": "https://huggingface.co/papers/2610.22276",
+    "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "submittedAt": "2026-10-16T00:00:00.000Z",
+    "upvotes": 132,
+    "org": "mindlab-research",
+    "githubRepo": "https://github.com/Fr0zenCrane/MJev-Spatial",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
     "id": "2610.14993",
     "title": "Learning Where to Split: Dynamic Band Splitting for Audio Source Separation",
     "url": "https://huggingface.co/papers/2610.14993",
@@ -60,27 +84,16 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
-    "id": "2610.22350",
-    "title": "FDE-Gym: The Last Mile of AI Delivery",
-    "url": "https://huggingface.co/papers/2610.22350",
-    "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors…",
+    "id": "2610.22200",
+    "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+    "url": "https://huggingface.co/papers/2610.22200",
+    "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 129,
-    "org": "deeplethe",
-    "githubRepo": "https://github.com/deeplethe/fde-gym",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.22276",
-    "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
-    "url": "https://huggingface.co/papers/2610.22276",
-    "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 124,
-    "org": "mindlab-research",
-    "githubRepo": "https://github.com/Fr0zenCrane/MJev-Spatial",
+    "upvotes": 119,
+    "org": "tongyi-mai",
+    "lab": "qwen",
+    "githubRepo": "https://github.com/Tongyi-MAI/OpenGCUA",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -93,19 +106,6 @@
     "upvotes": 114,
     "org": "zju3dv",
     "githubRepo": "https://github.com/zju3dv/InfiniSplat",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.22200",
-    "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
-    "url": "https://huggingface.co/papers/2610.22200",
-    "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's…",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 108,
-    "org": "tongyi-mai",
-    "lab": "qwen",
-    "githubRepo": "https://github.com/Tongyi-MAI/OpenGCUA",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -371,7 +371,7 @@
     "summary": "Recursive self-improvement (RSI) in scientific research aims to improve agents' research capabilities through their own experimental experience. Scientific agent swarms can combine evidence and implementations from different research directions to guide their agents' subsequent experiments. However, poor experimental results can leave unclear whether to revise a hypothesis or its implementation, while overall…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 63,
+    "upvotes": 64,
     "org": null,
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
@@ -470,7 +470,7 @@
     "summary": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 288,
+    "upvotes": 289,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/LiQiiiii/Jeva",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -482,7 +482,7 @@
     "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework for incentivizing…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 194,
+    "upvotes": 195,
     "org": "ruc-nlpir",
     "githubRepo": "https://github.com/RUC-NLPIR/Agent-Reflex",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -637,7 +637,7 @@
     "summary": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear. We introduce the Last Secure Code Benchmark, a comprehensive evaluation of secure code generation by coding agents. Built from 150 real vulnerabilities, its 450 tasks span seven widely used languages (Java, C, C++, JavaScript, Python, PHP, and Go), 24 CWEs including 21 of the 2025 CWE Top 25 and 8 of the Top 10…",
     "publishedAt": "2026-10-10T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 66,
+    "upvotes": 67,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/alibaba/last-secure-code-benchmark",
@@ -709,7 +709,7 @@
     "summary": "Recent work on language-model adaptation has shown that single models can obtain informative training signals by evaluating their behavior in demonstrationor feedback-augmented contexts, with the help of a teacher network, which is driven by the student's learned parameters. Inspired by this internal-reference principle, we investigate how diffusion models can identify self-referenced training signals without…",
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 52,
     "org": "iitk",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },

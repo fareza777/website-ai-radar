@@ -1,7 +1,8 @@
-import { LAB_ALIASES, PAPER_ORGS, PAPERS, PRESS, PRESS_QUERIES, PULSE } from "../../src/config/signals";
+import { PAPER_ORGS, PAPERS, PRESS, PRESS_QUERIES, PULSE } from "../../src/config/signals";
 import type { PaperItem, PressItem, PulseItem, SourceStatus } from "../../src/lib/types";
 import { parseFeed } from "./feed";
 import { errorMessage, fetchJson, fetchText, pool } from "./http";
+import { labFromText } from "./lab-text";
 import { mergePress, splitHeadline } from "./stories";
 import { dataPath, readJson, writeJson } from "./store";
 import { daysAgo, normalizeUrl, parseDate, safeHttpUrl, safeRegex, shortHash, truncate } from "./text";
@@ -16,17 +17,7 @@ function statusOf(id: string, name: string, target: string, now: Date, prev: Sou
   };
 }
 
-/** Whole-word match of any alias in text (aliases are lower-case; "z.ai" etc. allowed). */
-export function labFromText(text: string): string | undefined {
-  const t = text.toLowerCase();
-  for (const [lab, aliases] of Object.entries(LAB_ALIASES)) {
-    for (const a of aliases) {
-      const esc = a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      if (new RegExp(`(?<![a-z0-9])${esc}`, "i").test(t)) return lab;
-    }
-  }
-  return undefined;
-}
+export { labFromText };
 
 function termWords(terms: string): string[] {
   return [...new Set(terms.replace(/["()]/g, " ").split(/\s+/).map((w) => w.toLowerCase()).filter((w) => w.length >= 3 && !["and", "ai"].includes(w) && w !== "or"))];
@@ -42,7 +33,8 @@ const idOfUrl = (url: string) => shortHash(normalizeUrl(url), 14);
 export async function collectPress(now: Date, log: Log, prevStatus: Map<string, SourceStatus>): Promise<{ items: PressItem[]; status: SourceStatus }> {
   const file = dataPath("press.json");
   const nowIso = now.toISOString();
-  let archive = readJson<PressItem[]>(file, []).map((p) => ({ ...p, members: p.members ?? [p.id] }));
+  // Older archives keyed rows by the bare URL hash, which collides when one article matches two labs' queries.
+  let archive = readJson<PressItem[]>(file, []).map((p) => ({ ...p, members: p.members ?? [p.id], id: p.id.includes(":") ? p.id : `${p.lab}:${p.id}` }));
   const exclude = safeRegex(PRESS.exclude)!;
   let fetched = 0;
   let accepted = 0;
@@ -61,7 +53,8 @@ export async function collectPress(now: Date, log: Log, prevStatus: Map<string, 
   });
 
   for (const r of results) {
-    const aliasHit = (title: string) => r.words.some((w) => title.toLowerCase().includes(w)) || labFromText(title) === r.lab;
+    const wordRes = r.words.map((w) => new RegExp(`(?<![a-z0-9])${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![a-z0-9])`, "i"));
+    const aliasHit = (title: string) => wordRes.some((re) => re.test(title)) || labFromText(title) === r.lab;
     for (const e of r.entries.slice(0, PRESS.maxPerQuery)) {
       fetched++;
       const at = e.publishedAt;
@@ -79,13 +72,14 @@ export async function collectPress(now: Date, log: Log, prevStatus: Map<string, 
     .filter((p) => p.publishedAt >= cutoff)
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
     .slice(0, PRESS.maxArchive);
-  const ok = failed <= PRESS_QUERIES.length / 2;
+  // A consent/blocked page parses as "200 OK, zero entries" — that must not count as a successful run.
+  const ok = failed <= PRESS_QUERIES.length / 2 && fetched > 0;
   log(`[press] ${ok ? "✓" : "✗"} queries=${PRESS_QUERIES.length} failed=${failed} fetched=${fetched} accepted=${accepted} archive=${items.length}`);
   // Failed run keeps the previous archive untouched.
   const kept = ok ? items : readJson<PressItem[]>(file, []);
   return {
     items: kept,
-    status: statusOf("signals-press", "Press & media (Google News)", "news.google.com/rss/search", now, prevStatus.get("signals-press"), { ok, fetched, accepted, error: ok ? undefined : `${failed}/${PRESS_QUERIES.length} queries failed` }),
+    status: statusOf("signals-press", "Press & media (Google News)", "news.google.com/rss/search", now, prevStatus.get("signals-press"), { ok, fetched, accepted, error: ok ? undefined : fetched === 0 && failed === 0 ? "no entries returned" : `${failed}/${PRESS_QUERIES.length} queries failed` }),
   };
 }
 
@@ -116,7 +110,7 @@ export async function collectPapers(now: Date, log: Log, prevStatus: Map<string,
         const url = id ? `https://huggingface.co/papers/${id}` : null;
         if (!id || !url) continue;
         const orgSlug = r.organization?.name?.toLowerCase() ?? null;
-        const lab = orgSlug ? PAPER_ORGS[orgSlug] : undefined;
+        const lab = orgSlug && Object.hasOwn(PAPER_ORGS, orgSlug) ? PAPER_ORGS[orgSlug] : undefined;
         const upvotes = r.paper.upvotes ?? 0;
         if (!lab && upvotes < PAPERS.minUpvotesUnattributed) continue;
         const published = parseDate(r.paper.publishedAt ?? r.publishedAt)?.toISOString();

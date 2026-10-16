@@ -3,7 +3,7 @@ import type { SocialPost, SourceStatus } from "../../src/lib/types";
 import { THREADS_POST, type BuzzPost, type TipRef } from "./buzz";
 import { errorMessage, fetchJson } from "./http";
 import { dataPath, readJson, writeJson } from "./store";
-import { daysAgo, parseDate, safeHttpUrl, truncate } from "./text";
+import { daysAgo, decodeEntities, parseDate, safeHttpUrl, truncate } from "./text";
 
 type Log = (m: string) => void;
 
@@ -28,9 +28,10 @@ export function postsFromBuzz(buzz: readonly BuzzPost[], nowIso: string): Social
         text: b.quote.text,
         url: b.quote.url,
         at: b.quote.date ?? nowIso,
-        exactTime: !!b.quote.date,
+        // oEmbed only exposes the calendar day, so the time of day is never exact.
+        exactTime: false,
         links: b.links.filter((l) => !isSocialUrl(l)).slice(0, 4),
-        via: b.via === "tip" ? ("tip" as const) : ("newsletter" as const),
+        via: b.via,
         official: !!lab,
         firstSeenAt: nowIso,
       },
@@ -44,21 +45,20 @@ export function threadsFromTips(tips: readonly TipRef[], nowIso: string): Social
     const url = safeHttpUrl(t.x ?? "");
     const m = url ? THREADS_POST.exec(url) : null;
     if (!url || !m) return [];
-    const lab = labFromHandle(m[1]);
+    // Link-only: nothing was fetched, so the handle in the URL is unverified and must never mark a post as official.
     return [
       {
         id: `threads:${m[2]}`,
         platform: "threads" as const,
         handle: m[1],
         author: `@${m[1]}`,
-        ...(lab ? { lab } : {}),
         text: "",
         url: url.split("?")[0],
         at: t.addedAt || nowIso,
         exactTime: false,
         links: [],
         via: "tip" as const,
-        official: !!lab,
+        official: false,
         firstSeenAt: nowIso,
       },
     ];
@@ -89,8 +89,11 @@ export function mapXApi(body: XApiBody, nowIso: string): SocialPost[] {
     for (const u of t.entities?.urls ?? []) {
       const expanded = u.expanded_url ? safeHttpUrl(u.expanded_url) : null;
       if (expanded && !isSocialUrl(expanded)) links.push(expanded);
-      text = text.replace(u.url, expanded && !isSocialUrl(expanded) ? expanded : "").trim();
+      const replacement = expanded && !isSocialUrl(expanded) ? expanded : "";
+      // A function replacer: "$&" or "$`" inside a URL must not be interpreted as a replacement pattern.
+      text = text.replace(u.url, () => replacement).trim();
     }
+    text = decodeEntities(text);
     const lab = labFromHandle(user.username);
     const at = parseDate(t.created_at);
     return [
@@ -162,9 +165,21 @@ export function mapThreads(rows: readonly ThreadsRow[], nowIso: string, minLikes
   });
 }
 
+/**
+ * Corrects records written before two rules existed: oEmbed (newsletter/tip) dates are day-only so never exact, and a Threads
+ * link-only tip says nothing verified about its author, so it carries no lab and is never official.
+ */
+function normalizePrev(p: SocialPost): SocialPost {
+  const base: SocialPost = p.via === "newsletter" || p.via === "tip" ? { ...p, exactTime: false } : p;
+  if (!(p.platform === "threads" && p.via === "tip")) return base;
+  const copy: SocialPost = { ...base, official: false };
+  delete copy.lab;
+  return copy;
+}
+
 /** Merge by id: richer data wins (text, metrics, exact time); first-seen time is preserved. */
 export function mergeSocial(prev: readonly SocialPost[], incoming: readonly SocialPost[], now: Date, keepDays: number, max: number): SocialPost[] {
-  const byId = new Map(prev.map((p) => [p.id, p]));
+  const byId = new Map(prev.map((p) => [p.id, normalizePrev(p)]));
   for (const n of incoming) {
     const old = byId.get(n.id);
     if (!old) {
@@ -175,7 +190,8 @@ export function mergeSocial(prev: readonly SocialPost[], incoming: readonly Soci
       ...old,
       ...n,
       text: n.text || old.text,
-      at: n.exactTime || !old.exactTime ? n.at : old.at,
+      // A day-only sighting never moves a known time: re-reading the same post must not make it look newer each run.
+      at: n.exactTime ? n.at : old.at,
       exactTime: n.exactTime || old.exactTime,
       likes: n.likes ?? old.likes,
       reposts: n.reposts ?? old.reposts,
@@ -209,9 +225,17 @@ export function xQueryChunks(handles: readonly string[], limit = 440): string[] 
 
 // ───────────────────────── network collectors ─────────────────────────
 
-async function fetchXApi(token: string, now: Date, log: Log): Promise<SocialPost[]> {
+/** Window start for the X API: the full lookback on a first run, otherwise just past the last success (quota is billed per post read). */
+export function xApiStart(now: Date, lastSuccessAt: string | null | undefined): string {
+  // The recent-search API accepts at most 7 days back, with a minute of slack for clock skew.
+  const floor = Math.max(now.getTime() - SOCIAL.xApiDays * 86_400_000, now.getTime() - 7 * 86_400_000 + 60_000);
+  const last = lastSuccessAt ? Date.parse(lastSuccessAt) : NaN;
+  const overlap = 30 * 60_000; // re-read a little to tolerate posts indexed late
+  return new Date(Number.isFinite(last) ? Math.max(floor, last - overlap) : floor).toISOString();
+}
+
+async function fetchXApi(token: string, now: Date, start: string, log: Log): Promise<SocialPost[]> {
   const handles = Object.values(LAB_SOCIAL).flatMap((h) => h.x);
-  const start = new Date(Math.max(now.getTime() - SOCIAL.xApiDays * 86_400_000, now.getTime() - 7 * 86_400_000 + 60_000)).toISOString();
   const out: SocialPost[] = [];
   let failures = 0;
   const chunks = xQueryChunks(handles);
@@ -256,7 +280,7 @@ async function fetchThreads(token: string, now: Date, log: Log): Promise<SocialP
       out.push(...mapThreads(res.data ?? [], now.toISOString(), SOCIAL.threadsMinLikes));
     } catch (err) {
       failures++;
-      log(`  ! threads ${path.split("?")[0]}: ${errorMessage(err).replace(token, "***")}`);
+      log(`  ! threads ${path.split("?")[0]}: ${errorMessage(err)}`);
     }
   }
   if (calls.length && failures === calls.length) throw new Error(`all ${calls.length} Threads API calls failed`);
@@ -288,12 +312,17 @@ export async function collectSocial(
   incoming.push(...viaLinks);
   statuses.push(status("signals-social-links", "X/Threads posts via newsletters & tips (oEmbed)", "publish.twitter.com/oembed", now, prevStatus.get("signals-social-links"), { ok: true, fetched: viaLinks.length, accepted: viaLinks.length }));
 
+  // Issue-triggered runs exist to publish a tip fast; they must not spend X/Threads API quota (anyone can open a tip issue).
+  const allowApis = process.env.EVENT_NAME !== "issues";
+
   const xToken = process.env.X_BEARER_TOKEN?.trim();
-  if (!xToken) {
+  if (!allowApis) {
+    log("[social] API ingestion skipped on issue-triggered run");
+  } else if (!xToken) {
     statuses.push(status("signals-x-api", "X API v2 — official lab accounts", "api.x.com", now, prevStatus.get("signals-x-api"), { ok: false, skipped: true, fetched: 0, accepted: 0, error: "Not configured — set X_BEARER_TOKEN to ingest official lab posts" }));
   } else {
     try {
-      const posts = await fetchXApi(xToken, now, log);
+      const posts = await fetchXApi(xToken, now, xApiStart(now, prevStatus.get("signals-x-api")?.lastSuccessAt), log);
       incoming.push(...posts);
       statuses.push(status("signals-x-api", "X API v2 — official lab accounts", "api.x.com", now, prevStatus.get("signals-x-api"), { ok: true, fetched: posts.length, accepted: posts.length }));
       log(`[social] ✓ x-api ${posts.length}`);
@@ -304,7 +333,9 @@ export async function collectSocial(
   }
 
   const thToken = process.env.THREADS_ACCESS_TOKEN?.trim();
-  if (!thToken) {
+  if (!allowApis) {
+    // Statuses of the API channels stay as the last scheduled run left them.
+  } else if (!thToken) {
     statuses.push(status("signals-threads-api", "Threads API — keyword & profile posts", "graph.threads.net", now, prevStatus.get("signals-threads-api"), { ok: false, skipped: true, fetched: 0, accepted: 0, error: "Not configured — set THREADS_ACCESS_TOKEN to ingest Threads posts" }));
   } else {
     try {
@@ -313,8 +344,8 @@ export async function collectSocial(
       statuses.push(status("signals-threads-api", "Threads API — keyword & profile posts", "graph.threads.net", now, prevStatus.get("signals-threads-api"), { ok: true, fetched: posts.length, accepted: posts.length }));
       log(`[social] ✓ threads-api ${posts.length}`);
     } catch (err) {
-      statuses.push(status("signals-threads-api", "Threads API — keyword & profile posts", "graph.threads.net", now, prevStatus.get("signals-threads-api"), { ok: false, fetched: 0, accepted: 0, error: errorMessage(err).replace(thToken, "***") }));
-      log(`[social] ✗ threads-api ${errorMessage(err).replace(thToken, "***")}`);
+      statuses.push(status("signals-threads-api", "Threads API — keyword & profile posts", "graph.threads.net", now, prevStatus.get("signals-threads-api"), { ok: false, fetched: 0, accepted: 0, error: errorMessage(err) }));
+      log(`[social] ✗ threads-api ${errorMessage(err)}`);
     }
   }
 

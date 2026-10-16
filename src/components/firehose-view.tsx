@@ -6,7 +6,7 @@ import { Download, Inbox, Loader2, ShieldCheck } from "lucide-react";
 import { LABS, LAB_BY_SLUG } from "@/config/labs";
 import { useDebounced } from "@/hooks/use-debounced";
 import { CATEGORY_META } from "@/lib/categories";
-import { formatDate } from "@/lib/format";
+import { dayKey, formatDate } from "@/lib/format";
 import { useRadarState } from "@/lib/storage";
 import { CATEGORIES, type FirehoseRow, type SignalStream } from "@/lib/types";
 import { extHref } from "@/lib/url";
@@ -58,10 +58,15 @@ function metric(r: FirehoseRow): string {
   }
 }
 
+/** Spreadsheet-safe CSV cell: titles and tweets are attacker-controlled, so a leading = + - @ must not become a formula. */
 function csvCell(v: string | number | undefined): string {
-  const s = String(v ?? "");
-  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  const raw = String(v ?? "");
+  const s = /^[=+\-@\t\r]/.test(raw) ? `'${raw}` : raw;
+  return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
+
+/** Search form: case-insensitive, with hyphens/underscores as spaces ("GPT-6" finds "GPT 6" and the reverse). */
+const searchForm = (s: string) => s.toLowerCase().replace(/[-_]+/g, " ");
 
 function download(name: string, mime: string, body: string) {
   const url = URL.createObjectURL(new Blob([body], { type: mime }));
@@ -109,7 +114,7 @@ export function FirehoseView() {
         (!followingOnly || (r.l !== "" && state.follows.includes(r.l))) &&
         (category === "all" || r.c === category) &&
         (!verifiedOnly || r.v === 1) &&
-        (!q || `${r.t} ${r.w} ${LAB_BY_SLUG[r.l]?.name ?? ""}`.toLowerCase().includes(q)),
+        (!q || searchForm(`${r.t} ${r.w} ${LAB_BY_SLUG[r.l]?.name ?? ""}`).includes(searchForm(q))),
     );
     return sort === "signal" ? [...list].sort((a, b) => b.m - a.m || b.a.localeCompare(a.a)) : list;
   }, [inRange, streams, lab, followingOnly, state.follows, category, verifiedOnly, q, sort]);
@@ -201,7 +206,7 @@ export function FirehoseView() {
             {visible.map((r, i) => {
               const lab = r.l ? LAB_BY_SLUG[r.l] : undefined;
               const stream = STREAM_BY[r.s];
-              const newDay = sort === "newest" && (i === 0 || visible[i - 1].a.slice(0, 10) !== r.a.slice(0, 10));
+              const newDay = sort === "newest" && (i === 0 || dayKey(visible[i - 1].a) !== dayKey(r.a));
               return (
                 <li key={r.i}>
                   {newDay && <div className="bg-subtle/70 px-4 py-1.5 text-[12.5px] font-semibold uppercase tracking-wider text-muted-foreground">{formatDate(r.a)}</div>}

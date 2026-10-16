@@ -83,6 +83,13 @@ export function parseDate(input: unknown): Date | null {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
+/** Parses a day-only label such as "October 14, 2026" as that day at 00:00 UTC (never in the runner's timezone). */
+export function parseDayUtc(input: string | null | undefined): Date | null {
+  const text = input?.trim();
+  if (!text || !/^[A-Za-z]+\.? \d{1,2}, \d{4}$/.test(text)) return null;
+  return parseDate(`${text} UTC`);
+}
+
 const STOPWORDS = new Set([
   "a", "an", "the", "and", "or", "of", "to", "in", "on", "for", "with", "by", "is", "are", "at", "from",
   "new", "now", "our", "we", "your", "you", "how", "its", "it", "as", "this", "that", "introducing", "announcing",
@@ -95,7 +102,8 @@ export function titleTokens(title: string): Set<string> {
       .replace(/[^a-z0-9.\s-]/g, " ")
       .split(/[\s-]+/)
       .map((t) => t.replace(/^\.+|\.+$/g, ""))
-      .filter((t) => t.length > 1 && !STOPWORDS.has(t)),
+      // Single digits stay: "Claude Opus 5" and "Claude Opus 6" are different models.
+      .filter((t) => (t.length > 1 || /^\d$/.test(t)) && !STOPWORDS.has(t)),
   );
 }
 

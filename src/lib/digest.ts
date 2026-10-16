@@ -56,7 +56,7 @@ export function buildDigest(i: DigestInput): Digest {
         .map((s) => ({
           title: s.entity ? `${s.entity} — ${s.title}` : s.title,
           url: s.url,
-          meta: [s.labs.map(lab).join(", "), s.official ? `${s.official} official` : "", s.outlets.length ? `${s.outlets.length} outlets` : ""].filter(Boolean).join(" · "),
+          meta: [s.labs.map(lab).join(", "), s.official ? `${s.official} official` : "media reports only", s.outlets.length ? `${s.outlets.length} outlets` : ""].filter(Boolean).join(" · "),
         })),
     },
     {

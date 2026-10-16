@@ -19,7 +19,8 @@ describe("X posts read via oEmbed (newsletters & tips)", () => {
 
   it("turns posts into social items and attributes official accounts to the lab", () => {
     const [p] = postsFromBuzz([{ quote, links: ["https://www.anthropic.com/claude-haiku-5-5", "https://x.com/claudeai/status/1"], via: "newsletter" }], NOW_ISO);
-    expect(p).toMatchObject({ id: "x:2107522596845822135", platform: "x", lab: "anthropic", official: true, exactTime: true, via: "newsletter" });
+    // oEmbed exposes only the calendar day, so the time is never claimed as exact.
+    expect(p).toMatchObject({ id: "x:2107522596845822135", platform: "x", lab: "anthropic", official: true, exactTime: false, via: "newsletter" });
     expect(p.links).toEqual(["https://www.anthropic.com/claude-haiku-5-5"]);
   });
 
@@ -39,7 +40,9 @@ describe("X posts read via oEmbed (newsletters & tips)", () => {
 describe("Threads", () => {
   it("keeps tipped Threads URLs as link-only items", () => {
     const [p] = threadsFromTips([{ x: "https://www.threads.net/@metaai/post/C9abc_DEF?xmt=1", addedAt: "2026-10-15T08:00:00.000Z" }], NOW_ISO);
-    expect(p).toMatchObject({ id: "threads:C9abc_DEF", platform: "threads", handle: "metaai", lab: "meta", text: "", exactTime: false });
+    // Nothing was fetched, so the handle in the URL is unverified: no lab, never official.
+    expect(p).toMatchObject({ id: "threads:C9abc_DEF", platform: "threads", handle: "metaai", text: "", exactTime: false, official: false });
+    expect(p.lab).toBeUndefined();
     expect(p.url).toBe("https://www.threads.net/@metaai/post/C9abc_DEF");
     expect(threadsFromTips([{ x: "https://x.com/a/status/1", addedAt: NOW_ISO }], NOW_ISO)).toEqual([]);
   });

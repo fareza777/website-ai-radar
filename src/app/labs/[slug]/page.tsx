@@ -125,7 +125,7 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
       </header>
 
       <LabStreams
-        press={getLabPress(slug)}
+        press={getLabPress(slug).map((p) => ({ ...p, members: [] }))}
         social={getLabSocial(slug)}
         papers={getLabPapers(slug)}
         official={<LabTimeline slug={lab.slug} items={items.map(toFeedItem)} dataTime={status?.generatedAt ?? new Date(0).toISOString()} />}

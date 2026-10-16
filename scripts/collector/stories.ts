@@ -1,6 +1,8 @@
+import { LABS } from "../../src/config/labs";
 import { LAB_ALIASES } from "../../src/config/signals";
 import type { PressItem, StoriesFile, StoryCluster, TrendingEntry, Unconfirmed, UpdateItem } from "../../src/lib/types";
-import { jaccard, titleTokens } from "./text";
+import { labFromText } from "./lab-text";
+import { jaccard, normalizeUrl, titleTokens } from "./text";
 
 // ───────────────────────── entity extraction ─────────────────────────
 
@@ -32,7 +34,7 @@ export interface Entity {
 const LABELS: Record<string, string> = { gpt: "GPT", glm: "GLM", deepseek: "DeepSeek", minimax: "MiniMax", ernie: "ERNIE", qwq: "QwQ", vl: "VL", xai: "xAI" };
 const cap = (s: string) => {
   if (LABELS[s]) return LABELS[s];
-  if (/^d+[bm]$/.test(s)) return s.toUpperCase();
+  if (/^\d+[bm]$/.test(s)) return s.toUpperCase();
   return s.charAt(0).toUpperCase() + s.slice(1);
 };
 
@@ -85,6 +87,42 @@ export function splitHeadline(raw: string, source?: string): { title: string; ou
 
 const DAY = 86_400_000;
 
+/** Canonical outlet key: lower-case, no scheme/www/trailing punctuation ("https://tech-insider.org/" ≡ "tech-insider.org"). */
+export function outletKey(outlet: string): string {
+  return outlet.toLowerCase().replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/[\s/.\-–—|:,]+$/, "").trim();
+}
+
+const LAB_SELF = new Map(
+  LABS.map((l) => [l.slug, { name: l.name.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), hosts: l.domains.filter((d) => !d.includes("/")) }]),
+);
+
+/** True when the outlet is the lab's own publication (blog.google, "NVIDIA Developer") — not independent coverage. */
+function isSelfOutlet(outlet: string, lab: string): boolean {
+  const self = LAB_SELF.get(lab);
+  if (!self) return false;
+  const key = outletKey(outlet);
+  if (self.hosts.some((h) => key === h || key.endsWith(`.${h}`))) return true;
+  return new RegExp(`(?<![a-z0-9])${self.name}(?![a-z0-9])`).test(key);
+}
+
+/** Distinct outlets (by canonical key, first spelling kept) that are not published by any of the given labs. */
+export function independentOutlets(outlets: readonly string[], labs: readonly string[]): string[] {
+  const seen = new Map<string, string>();
+  for (const o of outlets) {
+    const key = outletKey(o);
+    if (key && !seen.has(key) && !labs.some((lab) => isSelfOutlet(o, lab))) seen.set(key, o);
+  }
+  return [...seen.values()];
+}
+
+/** Two headlines naming model entities must name linked ones — "Opus 5" and "Opus 6" are never the same story. */
+function entitiesCompatible(a: string, b: string): boolean {
+  const ea = extractEntities(a);
+  const eb = extractEntities(b);
+  if (!ea.length || !eb.length) return true;
+  return ea.some((x) => eb.some((y) => entitiesLink(x.key, y.key)));
+}
+
 /** Distinctive tokens: title tokens minus lab-name words and generic news words. */
 const GENERIC = new Set(["ai", "new", "says", "report", "reports", "reportedly", "launch", "launches", "launched", "announces", "announced", "unveils", "release", "releases", "released", "model", "models", "update", "news", "today", "now", "its", "after", "about", "more", "this", "that", "will", "year"]);
 export function distinctiveTokens(title: string, lab?: string): Set<string> {
@@ -112,12 +150,15 @@ export function mergePress(archive: readonly PressItem[], raw: PressRaw, idOf: (
     (p) =>
       p.lab === raw.lab &&
       (p.members.includes(member) ||
-        (Math.abs(Date.parse(p.publishedAt) - raw.at.getTime()) <= days * DAY && jaccard(titleTokens(p.title), tokens) >= similarity)),
+        (Math.abs(Date.parse(p.publishedAt) - raw.at.getTime()) <= days * DAY &&
+          jaccard(titleTokens(p.title), tokens) >= similarity &&
+          entitiesCompatible(p.title, raw.title))),
   );
   if (idx === -1) {
     return [
       ...archive,
-      { id: member, lab: raw.lab, title: raw.title, url: raw.url, outlet: raw.outlet, publishedAt: at, firstSeenAt: nowIso, reports: 1, outlets: [raw.outlet], members: [member] },
+      // The id is lab-scoped: one article returned for two labs' queries is two archive rows that must not share a key.
+      { id: `${raw.lab}:${member}`, lab: raw.lab, title: raw.title, url: raw.url, outlet: raw.outlet, publishedAt: at, firstSeenAt: nowIso, reports: 1, outlets: [raw.outlet], members: [member] },
     ];
   }
   const p = archive[idx];
@@ -139,7 +180,8 @@ export function mergePress(archive: readonly PressItem[], raw: PressRaw, idOf: (
 interface Node {
   kind: "official" | "press";
   id: string;
-  lab: string;
+  /** Labs this article was found for (one article can match several labs' queries). */
+  labs: string[];
   title: string;
   url: string;
   at: number;
@@ -164,14 +206,21 @@ function toNodes(official: readonly UpdateItem[], press: readonly PressItem[], n
     if (at < since) continue;
     // GitHub releases and HF model rows are not "stories" on their own.
     if (i.sourceType !== "rss") continue;
-    nodes.push({ kind: "official", id: i.id, lab: i.lab, title: i.title, url: i.url, at, importance: i.importance, outlets: [], entities: entitiesOf(i.title), tokens: distinctiveTokens(i.title) });
+    nodes.push({ kind: "official", id: i.id, labs: [i.lab], title: i.title, url: i.url, at, importance: i.importance, outlets: [], entities: entitiesOf(i.title), tokens: distinctiveTokens(i.title) });
   }
   for (const p of press) {
     const at = Date.parse(p.publishedAt);
     if (at < since) continue;
-    nodes.push({ kind: "press", id: p.id, lab: p.lab, title: p.title, url: p.url, at, importance: 35 + Math.min(30, p.reports * 5), outlets: p.outlets, entities: entitiesOf(p.title), tokens: distinctiveTokens(p.title) });
+    nodes.push({ kind: "press", id: p.id, labs: [p.lab], title: p.title, url: p.url, at, importance: 35 + Math.min(30, p.reports * 5), outlets: p.outlets, entities: entitiesOf(p.title), tokens: distinctiveTokens(p.title) });
   }
-  return nodes;
+  // The same article stored under several labs is ONE node: it must never count as multi-source coverage by itself.
+  const byUrl = new Map<string, Node>();
+  for (const n of nodes) {
+    const key = `${n.kind}:${normalizeUrl(n.url)}`;
+    const prev = byUrl.get(key);
+    byUrl.set(key, prev ? { ...prev, labs: [...new Set([...prev.labs, ...n.labs])], outlets: [...new Set([...prev.outlets, ...n.outlets])] } : n);
+  }
+  return [...byUrl.values()];
 }
 
 /**
@@ -208,17 +257,15 @@ function groupNodes(nodes: Node[]): Node[][] {
     if (cur.length) groups.push(cur);
   }
 
-  const rest = nodes.filter((n) => n.entities.length === 0 && n.tokens.size >= MIN_TOKENS);
-  const parent = rest.map((_, i) => i);
-  const find = (i: number): number => (parent[i] === i ? i : (parent[i] = find(parent[i])));
-  for (let i = 0; i < rest.length; i++) {
-    for (let j = i + 1; j < rest.length; j++) {
-      if (Math.abs(rest[i].at - rest[j].at) <= GAP_DAYS * DAY && jaccard(rest[i].tokens, rest[j].tokens) >= TOKEN_LINK) parent[find(i)] = find(j);
-    }
+  // Entity-less nodes join a cluster only when similar to its FIRST member — never through a chain of members (A≈B, B≈C ⇏ A≈C).
+  const rest = nodes.filter((n) => n.entities.length === 0 && n.tokens.size >= MIN_TOKENS).sort((a, b) => a.at - b.at);
+  const loose: Node[][] = [];
+  for (const n of rest) {
+    const home = loose.find((c) => n.at - c[c.length - 1].at <= GAP_DAYS * DAY && jaccard(c[0].tokens, n.tokens) >= TOKEN_LINK);
+    if (home) home.push(n);
+    else loose.push([n]);
   }
-  const loose = new Map<number, Node[]>();
-  rest.forEach((n, i) => loose.set(find(i), [...(loose.get(find(i)) ?? []), n]));
-  groups.push(...loose.values());
+  groups.push(...loose);
   return groups;
 }
 
@@ -226,11 +273,12 @@ export function clusterStories(official: readonly UpdateItem[], press: readonly 
   const nodes = toNodes(official, press, now, 10);
   const stories: StoryCluster[] = [];
   for (const members of groupNodes(nodes)) {
-    const labs = [...new Set(members.map((m) => m.lab))];
-    const outlets = [...new Set(members.flatMap((m) => m.outlets))];
+    const labs = [...new Set(members.flatMap((m) => m.labs))];
+    const outlets = independentOutlets(members.flatMap((m) => m.outlets), labs);
     const officials = members.filter((m) => m.kind === "official");
     const sources = labs.length + outlets.length;
     // A story needs real breadth: several labs, or an official post plus independent coverage.
+    // Nodes are already one-per-article, so two members are always two distinct articles.
     const qualifies = labs.length >= 2 || (officials.length >= 1 && outlets.length >= 2) || outlets.length >= 4;
     if (!qualifies || members.length < 2) continue;
 
@@ -245,7 +293,8 @@ export function clusterStories(official: readonly UpdateItem[], press: readonly 
       entity: top?.label ?? null,
       labs,
       official: officials.length,
-      press: members.length - officials.length,
+      // Only press members with at least one independent outlet count — a lab's own blog is not media coverage.
+      press: members.filter((m) => m.kind === "press" && independentOutlets(m.outlets, labs).length > 0).length,
       outlets,
       firstAt: new Date(Math.min(...times)).toISOString(),
       lastAt: new Date(Math.max(...times)).toISOString(),
@@ -261,18 +310,19 @@ export function clusterStories(official: readonly UpdateItem[], press: readonly 
 
 export function trendingEntities(official: readonly UpdateItem[], press: readonly PressItem[], now: number, limit = 14): TrendingEntry[] {
   const cur = new Map<string, TrendingEntry>();
-  const bump = (e: Entity, lab: string, at: number) => {
+  // A lab is attributed only from its own posts: a press item is filed under the lab whose QUERY found it, which says nothing
+  // about who owns the product ("GPT 6" mentioned in a DeepSeek article is not a DeepSeek model).
+  const bump = (e: Entity, lab: string | undefined, at: number) => {
     const age = now - at;
     if (age < 0 || age > 14 * DAY) return;
     const row = cur.get(e.key) ?? { name: e.label, count: 0, prev: 0, labs: [] };
     if (age <= 7 * DAY) row.count++;
     else row.prev++;
-    if (!row.labs.includes(lab)) row.labs.push(lab);
+    if (lab && !row.labs.includes(lab)) row.labs.push(lab);
     cur.set(e.key, row);
   };
   for (const i of official) for (const e of extractEntities(i.title)) bump(e, i.lab, Date.parse(i.publishedAt));
-  for (const p of press) for (const e of extractEntities(p.title)) bump(e, p.lab, Date.parse(p.publishedAt));
-  // Fold variants into their base entity ("gpt 6.1 sol" counts toward "gpt 6.1") only for display ordering.
+  for (const p of press) for (const e of extractEntities(p.title)) bump(e, undefined, Date.parse(p.publishedAt));
   return [...cur.values()]
     .filter((r) => r.count >= 3)
     .sort((a, b) => b.count - a.count || b.count - b.prev - (a.count - a.prev))
@@ -298,7 +348,12 @@ export function trendingTopics(official: readonly UpdateItem[], now: number, lim
 
 // ───────────────────────── unconfirmed reports ─────────────────────────
 
-const RELEASE_RE = /\b(launch(es|ed)?|releases?|released|unveils?|unveiled|introduces?|announces?|announced|debuts?|rolls? out|rolling out|open[- ]sources?|acquires?|acquisition|raises?|partners?|partnership|ships?|expands?|cuts? prices?|price cut|now available|goes live)\b/i;
+/** Past/present release verbs only — partnerships, funding, hiring and "ships" (a verb used for any rollout) are not releases. */
+const RELEASE_RE = /\b(launch(es|ed)?|releases?|released|unveils?|unveiled|introduces?|announces?|announced|debuts?|rolls? out|rolling out|open[- ]sources?|cuts? prices?|price cut|now available|goes live)\b/i;
+/** Plans and rumours: "to launch", "will unveil", "next week" describe something that has not happened. */
+const FUTURE_RE = /(\b(to|will|plans? to|set to|about to|expected to|poised to|could|may|might|would)\s+(?:\w+\s+)?(launch|release|unveil|introduce|debut|announce|roll out|open[- ]source)|\b(next week|next month|coming soon|upcoming|rumou?r(s|ed)?|reportedly planning)\b)/i;
+/** Corporate news that happens to contain a release verb. */
+const NOT_RELEASE_RE = /\b(hiring|hires?|recruit\w*|jobs?|layoffs?|funding|invest(s|ment|ors?)?|raises?|partner(s|ship|ships)?|lawsuit|sues?|settle\w*|appoints?|ipo|valuation|acquires?|acquisition)\b/i;
 const EXPLAINER_RE = /(^(what|why|how|should|is|are|can|does)\b|\?\s*$|explained|guide|review|vs\.?\b|opinion|analysis|podcast|interview|here'?s why|what to know)/i;
 
 /** Media reports of a release/announcement that no official feed has confirmed (yet). */
@@ -312,7 +367,11 @@ export function findUnconfirmed(official: readonly UpdateItem[], press: readonly
   for (const p of press) {
     const at = Date.parse(p.publishedAt);
     if (now - at > 3 * DAY || at > now + 6 * 3_600_000) continue;
-    if (p.outlets.length < 2 || !RELEASE_RE.test(p.title) || EXPLAINER_RE.test(p.title)) continue;
+    if (independentOutlets(p.outlets, [p.lab]).length < 2) continue;
+    if (!RELEASE_RE.test(p.title) || NOT_RELEASE_RE.test(p.title) || FUTURE_RE.test(p.title) || EXPLAINER_RE.test(p.title)) continue;
+    // The article was filed under this lab because its query matched — require the headline's subject to BE this lab.
+    const subject = labFromText(p.title);
+    if (subject && subject !== p.lab) continue;
     const entities = extractEntities(p.title);
     const tokens = distinctiveTokens(p.title, p.lab);
     const confirmed = (byLab.get(p.lab) ?? []).some((o) => {
@@ -322,7 +381,8 @@ export function findUnconfirmed(official: readonly UpdateItem[], press: readonly
       return inter >= 2 || (tokens.size > 0 && inter / tokens.size >= 0.4);
     });
     if (confirmed) continue;
-    out.push({ id: p.id, lab: p.lab, title: p.title, url: p.url, outlets: p.outlets, reports: p.reports, at: p.publishedAt });
+    const outlets = independentOutlets(p.outlets, [p.lab]);
+    out.push({ id: p.id, lab: p.lab, title: p.title, url: p.url, outlets, reports: outlets.length, at: p.publishedAt });
   }
   return out.sort((a, b) => b.reports - a.reports || b.at.localeCompare(a.at)).slice(0, limit);
 }

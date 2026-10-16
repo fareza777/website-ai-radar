@@ -98,7 +98,8 @@ export function StoriesPanel({ stories }: { stories: StoryCluster[] }) {
               <span className="mt-2 line-clamp-2 text-[15px] font-semibold leading-snug group-hover:underline">{s.title}</span>
               <span className="mt-auto flex flex-wrap gap-x-3 gap-y-0.5 pt-2.5 text-[12.5px] text-muted-foreground">
                 {s.official > 0 && <span><b className="text-foreground">{s.official}</b> official</span>}
-                {s.press > 0 && <span><b className="text-foreground">{s.outlets.length || s.press}</b> {s.outlets.length === 1 ? "outlet" : "outlets"}</span>}
+                {s.official === 0 && <span className="rounded bg-amber-500/12 px-1 font-semibold text-amber-700 dark:text-amber-300" title="No official post confirms this yet">media only</span>}
+                {s.press > 0 && <span><b className="text-foreground">{s.outlets.length}</b> {s.outlets.length === 1 ? "outlet" : "outlets"}</span>}
                 {s.labs.length > 1 && <span><b className="text-foreground">{s.labs.length}</b> labs</span>}
               </span>
             </a>
