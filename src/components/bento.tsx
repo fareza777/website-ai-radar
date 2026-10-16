@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, Cpu, Flame, Lightbulb, Megaphone, TrendingDown } from "lucide-react";
+import { ArrowUpRight, Cpu, Flame, Lightbulb, Megaphone, TrendingDown } from "lucide-react";
 import { LAB_BY_SLUG } from "@/config/labs";
 import { DISCOVER_KIND_LABEL } from "@/lib/categories";
 import { usd } from "@/lib/format";
@@ -20,13 +20,13 @@ interface BentoProps {
 
 function Tile({ title, icon: Icon, href, children, className }: { title: string; icon: typeof Flame; href: string; children: React.ReactNode; className?: string }) {
   return (
-    <section className={`card-surface flex flex-col p-4 ${className ?? ""}`}>
+    <section className={`card-surface dashboard-panel flex min-w-0 flex-col ${className ?? ""}`}>
       <div className="mb-3 flex items-center justify-between">
-        <h2 className="flex items-center gap-2 text-sm font-semibold">
-          <Icon className="size-4 text-brand" /> {title}
+        <h2 className="flex items-center gap-2 text-[13px] font-semibold">
+          <Icon className="size-3.5 text-brand" /> {title}
         </h2>
-        <Link href={href} className="inline-flex items-center gap-1 text-[13px] text-muted-foreground hover:text-foreground">
-          View all <ArrowRight className="size-3" />
+        <Link href={href} aria-label={`View all: ${title}`} className="inline-flex shrink-0 items-center gap-1 text-[11px] text-muted-foreground hover:text-brand">
+          <ArrowUpRight className="size-3.5" />
         </Link>
       </div>
       {children}
@@ -38,63 +38,62 @@ function Tile({ title, icon: Icon, href, children, className }: { title: string;
 export function Bento({ topStory, buzz, newModels, moves, freeModels }: BentoProps) {
   const lab = topStory ? LAB_BY_SLUG[topStory.lab] : undefined;
   return (
-    <div className="grid gap-3 md:grid-cols-2 3xl:grid-cols-12">
+    <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-12">
       {topStory && lab && (
         <a
           href={extHref(topStory.url)}
           target="_blank"
           rel="noopener noreferrer"
-          className="lab-glow card-surface group relative flex flex-col overflow-hidden p-5 md:col-span-2 3xl:col-span-5"
-          style={{ ["--lab" as string]: lab.color }}
+          className="card-surface group relative flex flex-col overflow-hidden p-5 md:col-span-2 xl:col-span-5"
         >
-          <div aria-hidden="true" className="pointer-events-none absolute -right-16 -top-16 size-56 rounded-full opacity-25 blur-3xl" style={{ background: lab.color }} />
-          <div className="relative flex items-center gap-2 text-[13px] text-muted-foreground">
-            <span className="inline-flex items-center gap-1 rounded-md bg-orange-500/10 px-2 py-0.5 font-semibold text-orange-600 dark:text-orange-300">
-              <Flame className="size-3.5" /> Top story
+          <div className="relative flex items-center gap-2 text-[11px] text-muted-foreground">
+            <span className="inline-flex items-center gap-1.5 font-medium text-brand">
+              <Flame className="size-3.5" /> In the spotlight
             </span>
             <CategoryBadge category={topStory.category} />
             <TimeAgo iso={topStory.publishedAt} className="ml-auto" />
           </div>
-          <div className="relative mt-4 flex items-center gap-3">
-            <LabLogo logo={lab.logo} name={lab.name} size="lg" />
-            <span className="font-medium">{lab.name}</span>
+          <div className="relative mt-4 flex items-center gap-2">
+            <LabLogo logo={lab.logo} name={lab.name} size="sm" />
+            <span className="text-xs font-medium">{lab.name}</span>
           </div>
-          <h2 className="relative mt-3 text-balance text-xl font-semibold leading-snug tracking-tight group-hover:underline sm:text-2xl">{topStory.title}</h2>
-          <p className="relative mt-2 line-clamp-4 text-[15px] leading-relaxed text-muted-foreground">{topStory.summary}</p>
-          <p className="relative mt-auto flex gap-2 pt-4 text-[14px] text-foreground/85">
-            <Lightbulb className="mt-0.5 size-4 shrink-0 text-amber-500" />
+          <h2 className="relative mt-3 text-balance text-[22px] font-semibold leading-snug tracking-[-0.035em] group-hover:text-brand">{topStory.title}</h2>
+          <p className="relative mt-2 line-clamp-3 text-[13px] leading-relaxed text-muted-foreground">{topStory.summary}</p>
+          <p className="relative mt-auto flex gap-2 border-t pt-3 text-[12px] leading-relaxed text-foreground/80">
+            <Lightbulb className="mt-0.5 size-3.5 shrink-0 text-brand" />
             {topStory.benefit}
           </p>
           <ArrowUpRight className="absolute right-4 top-4 size-5 text-muted-foreground opacity-0 transition group-hover:opacity-100" />
         </a>
       )}
 
-      <Tile title="Buzzing now" icon={Megaphone} href="/discover" className="md:col-span-2 3xl:col-span-4">
-        <ul className="space-y-3">
+      <Tile title="On the discovery radar" icon={Megaphone} href="/discover" className="xl:col-span-4">
+        <ul className="divide-y">
           {buzz.map((d) => (
             <li key={d.id}>
-              <a href={extHref(d.url)} target="_blank" rel="noopener noreferrer" className="group block">
+              <a href={extHref(d.url)} target="_blank" rel="noopener noreferrer" className="group block py-3 first:pt-1">
                 <span className="flex items-center gap-2">
-                  <span className="font-medium group-hover:underline">{d.name}</span>
-                  <span className="rounded border px-1.5 text-[12px] text-muted-foreground">{DISCOVER_KIND_LABEL[d.kind]}</span>
+                  <span className="text-[13px] font-medium group-hover:text-brand">{d.name}</span>
+                  <span className="ml-auto rounded border px-1.5 py-0.5 text-[9px] text-muted-foreground">{DISCOVER_KIND_LABEL[d.kind]}</span>
                 </span>
-                <span className="line-clamp-1 text-[13.5px] text-muted-foreground">{d.quote ? `“${d.quote.text}” — @${d.quote.handle}` : d.summary}</span>
+                <span className="mt-1 line-clamp-2 text-[12px] leading-relaxed text-muted-foreground">{d.quote ? `“${d.quote.text}” — @${d.quote.handle}` : d.summary}</span>
               </a>
             </li>
           ))}
         </ul>
       </Tile>
 
-      <div className="grid gap-3 md:col-span-2 md:grid-cols-2 3xl:col-span-3 3xl:grid-cols-1">
+      <div className="grid min-w-0 gap-4 xl:col-span-3">
         <Tile title="New models · 7d" icon={Cpu} href="/models">
+          <p className="mb-3 text-[10px] text-muted-foreground">Input price per 1M tokens</p>
           <ul className="space-y-2.5">
             {newModels.map((m) => {
               const l = m.lab ? LAB_BY_SLUG[m.lab] : undefined;
               return (
-                <li key={m.id} className="flex items-center gap-2 text-[14px]">
+                <li key={m.id} className="flex items-center gap-2 text-[11px]">
                   {l ? <LabLogo logo={l.logo} name={l.name} size="xs" /> : <span className="size-5" />}
                   <a href={`https://openrouter.ai/${m.id}`} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1 truncate font-medium hover:underline">{m.name}</a>
-                  <span className="font-mono text-[12px] text-muted-foreground">{m.free ? "Free" : usd(m.prompt)}</span>
+                  <span className={`shrink-0 font-mono text-[10px] ${m.free ? "text-brand" : "text-muted-foreground"}`}>{m.free ? "Free" : usd(m.prompt)}</span>
                 </li>
               );
             })}
@@ -104,7 +103,7 @@ export function Bento({ topStory, buzz, newModels, moves, freeModels }: BentoPro
 
         <Tile title="Price moves" icon={TrendingDown} href="/models">
           {moves.length ? <PriceMoves moves={moves} limit={3} /> : (
-            <p className="text-[14px] text-muted-foreground">
+            <p className="text-[12px] leading-relaxed text-muted-foreground">
               No price changes yet — tracking started recently. <span className="font-medium text-foreground">{freeModels} models</span> are free right now.
             </p>
           )}

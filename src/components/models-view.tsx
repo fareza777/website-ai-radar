@@ -24,7 +24,7 @@ function Trend({ row }: { row: ModelRow }) {
   const down = delta < 0;
   const Icon = down ? ArrowDownRight : ArrowUpRight;
   return (
-    <span title={`Price ${down ? "dropped" : "rose"} on ${formatDate(last.at)}`} className={cn("inline-flex items-center", down ? "text-emerald-600 dark:text-emerald-400" : "text-rose-600 dark:text-rose-400")}>
+    <span title={`Price ${down ? "dropped" : "rose"} on ${formatDate(last.at)}`} className={cn("inline-flex items-center", down ? "text-brand" : "text-rose-600 dark:text-rose-400")}>
       <Icon className="size-3.5" />
     </span>
   );
@@ -61,7 +61,7 @@ export function PriceMoves({ moves, limit = 8 }: { moves: PriceMove[]; limit?: n
                 {m.field} · {usd(m.from)} → {usd(m.to)} / 1M · <TimeAgo iso={m.at} />
               </span>
             </span>
-            <span className={cn("rounded-md px-1.5 py-0.5 font-mono text-[13px] font-semibold", down ? "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300" : "bg-rose-500/10 text-rose-700 dark:text-rose-300")}>
+            <span className={cn("rounded-md px-1.5 py-0.5 font-mono text-[13px] font-semibold", down ? "bg-brand/10 text-brand" : "bg-rose-500/10 text-rose-700 dark:text-rose-300")}>
               {m.change > 0 ? "+" : ""}
               {m.change}%
             </span>

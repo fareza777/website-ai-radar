@@ -1,9 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Radio } from "lucide-react";
 import { LAB_BY_SLUG } from "@/config/labs";
-import { CATEGORY_META } from "@/lib/categories";
 import type { Category } from "@/lib/types";
 import { extHref } from "@/lib/url";
 import { cn } from "@/lib/utils";
@@ -34,7 +33,8 @@ const SWEEP_SECONDS = 6;
 
 function polar(angle: number, radius: number): { left: string; top: string } {
   const rad = (angle * Math.PI) / 180;
-  return { left: `${50 + radius * 50 * Math.sin(rad)}%`, top: `${50 - radius * 50 * Math.cos(rad)}%` };
+  // Pin precision so server serialization and client calculations produce identical CSS.
+  return { left: `${(50 + radius * 50 * Math.sin(rad)).toFixed(4)}%`, top: `${(50 - radius * 50 * Math.cos(rad)).toFixed(4)}%` };
 }
 
 /** Animated radar: each blip is a real update; distance from center = age, sector = lab. */
@@ -44,21 +44,15 @@ export function LiveRadar({ blips, sectors, windowHours }: { blips: RadarBlip[];
   const activeLab = active ? LAB_BY_SLUG[active.lab] : undefined;
 
   return (
-    <section aria-label="Live radar of the latest AI lab updates" className="card-surface relative flex h-full flex-col overflow-hidden p-4 sm:p-5">
-      <div className="flex items-center justify-between">
+    <section aria-label="Live radar of the latest AI lab updates" className="card-surface radar-panel relative flex h-full min-w-0 flex-col overflow-hidden">
+      <div className="flex items-center justify-between gap-2">
         <h2 className="flex items-center gap-2 text-sm font-semibold">
-          <span className="relative flex size-2">
-            <span className="absolute inline-flex size-full animate-ping-slow rounded-full bg-brand/60" />
-            <span className="relative inline-flex size-2 rounded-full bg-brand" />
-          </span>
-          Live Radar
+          <Radio className="size-4 text-brand" /> Signal radar
         </h2>
-        <span className="text-[12.5px] text-muted-foreground">
-          {blips.length} signals · last {windowHours}h
-        </span>
+        <span className="inline-flex items-center gap-1.5 rounded border border-brand/20 bg-brand/8 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider text-brand"><span className="size-1 rounded-full bg-brand" />{windowHours}h window</span>
       </div>
-
-      <div className="relative mx-auto mt-3 aspect-square w-full max-w-[340px]">
+      <p className="mt-1.5 text-[11px] text-muted-foreground">{blips.length} real updates. Select a signal to explore.</p>
+      <div className="radar-canvas">
         {/* rings + crosshair */}
         <svg viewBox="0 0 100 100" className="absolute inset-0 size-full text-foreground" aria-hidden="true">
           <defs>
@@ -111,39 +105,41 @@ export function LiveRadar({ blips, sectors, windowHours }: { blips: RadarBlip[];
               onFocus={() => setActiveId(b.id)}
               onClick={() => setActiveId(b.id)}
               aria-label={`${LAB_BY_SLUG[b.lab]?.name ?? b.lab}: ${b.title}`}
-              className="absolute -translate-x-1/2 -translate-y-1/2 rounded-full p-1.5 focus-visible:outline-none"
+              className="absolute -translate-x-1/2 -translate-y-1/2 rounded-full p-1.5 focus-visible:outline-2 focus-visible:outline-brand"
+              aria-pressed={isActive}
               style={polar(b.angle, b.radius)}
             >
               <span
-                className={cn("block rounded-full motion-safe:animate-[blip_var(--sweep)_linear_infinite]", CATEGORY_META[b.category].dot, isActive && "ring-2 ring-foreground ring-offset-2 ring-offset-background")}
-                style={{ width: size, height: size, ["--sweep" as string]: `${SWEEP_SECONDS}s`, animationDelay: `${delay}s`, boxShadow: "0 0 10px 1px currentColor" }}
+                className={cn("block rounded-full bg-brand text-brand motion-safe:animate-[blip_var(--sweep)_linear_infinite]", isActive && "ring-2 ring-foreground ring-offset-2 ring-offset-background")}
+                style={{ width: size, height: size, ["--sweep" as string]: `${SWEEP_SECONDS}s`, animationDelay: `${delay.toFixed(4)}s`, boxShadow: "0 0 9px 1px currentColor" }}
               />
             </button>
           );
         })}
         <span aria-hidden="true" className="absolute left-1/2 top-1/2 size-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-foreground shadow-[0_0_12px_var(--brand)]" />
       </div>
-
+      <div className="mb-2 flex items-center justify-between font-mono text-[9px] uppercase tracking-wider text-muted-foreground"><span>Center = newest</span><span>Edge = {windowHours}h ago</span></div>
       {active && (
         <a
           href={extHref(active.url)}
           target="_blank"
           rel="noopener noreferrer"
-          className="group mt-3 flex items-start gap-3 rounded-xl border bg-subtle/60 p-3 transition hover:border-foreground/20"
+          className="radar-selection group"
           aria-live="polite"
         >
           {activeLab && <LabLogo logo={activeLab.logo} name={activeLab.name} size="sm" />}
           <span className="min-w-0 flex-1">
-            <span className="flex flex-wrap items-center gap-2 text-[12.5px] text-muted-foreground">
+            <span className="flex flex-wrap items-center gap-1.5 text-[10px] text-muted-foreground">
               <span className="font-medium text-foreground">{activeLab?.name}</span>
               <CategoryBadge category={active.category} />
               <TimeAgo iso={active.publishedAt} />
             </span>
-            <span className="mt-1 line-clamp-2 block text-[14.5px] font-medium leading-snug group-hover:underline">{active.title}</span>
+            <span className="mt-1 line-clamp-2 block text-[12px] font-medium leading-snug group-hover:underline">{active.title}</span>
           </span>
           <ArrowUpRight className="mt-1 size-4 shrink-0 text-muted-foreground" />
         </a>
       )}
+      {!active && <p className="radar-selection text-xs text-muted-foreground">No updates in this window. Explore the global feed for earlier releases.</p>}
     </section>
   );
 }

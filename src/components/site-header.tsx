@@ -19,12 +19,12 @@ export function SiteHeader() {
 
   return (
     <header className="glass sticky top-0 z-40 border-b">
-      <div className="mx-auto flex h-14 max-w-[1760px] items-center gap-3 px-4 sm:px-6 2xl:px-10">
+      <div className="site-container flex h-16 items-center gap-3">
         <Link href="/" className="group flex items-center gap-2.5" aria-label="AI Radar — home">
           <RadarMark />
           <span className="flex flex-col leading-none">
-            <span className="text-[16px] font-semibold tracking-tight">AI Radar</span>
-            <span className="hidden text-[12px] text-muted-foreground sm:block">Your AI Intelligence Hub</span>
+            <span className="text-[18px] font-semibold tracking-[-0.04em]">AI Radar<span className="text-brand">.</span></span>
+            <span className="mt-1 hidden font-mono text-[9px] tracking-[0.12em] text-muted-foreground sm:block">AI INTELLIGENCE HUB</span>
           </span>
         </Link>
 
@@ -38,11 +38,11 @@ export function SiteHeader() {
                 title={label}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "relative inline-flex h-9 items-center gap-1.5 rounded-lg px-2.5 text-sm font-medium text-muted-foreground transition hover:text-foreground xl:px-3",
-                  active && "bg-accent text-foreground",
+                  "relative inline-flex h-9 items-center gap-1.5 rounded-md px-2.5 text-[13px] font-medium text-muted-foreground transition hover:bg-subtle hover:text-foreground xl:px-3",
+                  active && "bg-accent text-brand shadow-[inset_0_-2px_var(--brand)]",
                 )}
               >
-                <Icon className="size-4" />
+                <Icon className="size-3.5" />
                 <span className={cn(!active && "hidden xl:inline")}>{label}</span>
                 {href === "/saved" && saved > 0 && (
                   <span className="ml-0.5 rounded-full bg-brand/15 px-1.5 text-[11.5px] font-semibold text-brand tabular-nums">{saved}</span>
@@ -56,11 +56,11 @@ export function SiteHeader() {
           <button
             type="button"
             onClick={openSearch}
-            className="inline-flex h-9 items-center gap-2 rounded-lg border bg-surface/60 px-2.5 text-sm text-muted-foreground transition hover:border-foreground/20 hover:text-foreground sm:w-60 lg:w-9 lg:justify-center lg:px-0 xl:w-64 xl:justify-start xl:px-2.5"
+            className="inline-flex h-9 items-center gap-2 rounded-md border bg-surface/60 px-2.5 text-xs text-muted-foreground transition hover:border-foreground/20 hover:text-foreground sm:w-52 lg:w-9 lg:justify-center lg:px-0 xl:w-48 xl:justify-start xl:px-2.5"
             aria-label="Search (Ctrl+K)"
           >
             <Search className="size-4" />
-            <span className="hidden truncate sm:inline lg:hidden xl:inline">Search everything…</span>
+            <span className="hidden truncate sm:inline lg:hidden xl:inline">Search intelligence…</span>
             <Kbd className="ml-auto hidden sm:inline-flex lg:hidden xl:inline-flex">⌘K</Kbd>
           </button>
           <ThemeToggle />

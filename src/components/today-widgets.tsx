@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, FileText, Flame, MessageSquare, Newspaper, Radar, TriangleAlert, TrendingUp } from "lucide-react";
+import { ArrowUpRight, FileText, Flame, MessageSquare, Newspaper, Radar, TriangleAlert, TrendingUp } from "lucide-react";
 import { LAB_BY_SLUG } from "@/config/labs";
-import { CATEGORY_META } from "@/lib/categories";
 import type { LabStat } from "@/lib/data";
 import type { PaperItem, PulseItem, SocialPost, StoryCluster, TrendingEntry, Unconfirmed, UpdateItem } from "@/lib/types";
 import { extHref } from "@/lib/url";
@@ -14,17 +13,17 @@ export function Panel({
   title, icon: Icon, href, hint, className, children,
 }: { title: string; icon: typeof Flame; href?: string; hint?: string; className?: string; children: React.ReactNode }) {
   return (
-    <section className={cn("card-surface flex min-w-0 flex-col p-4", className)}>
-      <div className="mb-3 flex items-center justify-between gap-2">
-        <h2 className="flex items-center gap-2 text-[15px] font-semibold tracking-tight">
-          <Icon className="size-4 text-brand" /> {title}
+    <section className={cn("card-surface dashboard-panel flex min-w-0 flex-col", className)}>
+      <div className="panel-heading">
+        <h2 className="flex items-center gap-2 text-[13px] font-semibold tracking-tight">
+          <Icon className="size-3.5 shrink-0 text-brand" /> {title}
         </h2>
         {href ? (
-          <Link href={href} className="inline-flex items-center gap-1 text-[13px] text-muted-foreground hover:text-foreground">
-            View all <ArrowRight className="size-3" />
+          <Link href={href} aria-label={`View all: ${title}`} className="inline-flex shrink-0 items-center gap-1 text-[11px] text-muted-foreground transition hover:text-brand">
+            View all <ArrowUpRight className="size-3" />
           </Link>
         ) : hint ? (
-          <span className="text-[12.5px] text-muted-foreground">{hint}</span>
+          <span className="text-[10px] text-muted-foreground">{hint}</span>
         ) : null}
       </div>
       {children}
@@ -53,25 +52,25 @@ export function Ticker({ items }: { items: UpdateItem[] }) {
     items.map((i) => {
       const lab = LAB_BY_SLUG[i.lab];
       return (
-        <a key={`${suffix}-${i.id}`} href={extHref(i.url)} target="_blank" rel="noopener noreferrer" className="group inline-flex shrink-0 items-center gap-2 px-4 text-[14px] text-muted-foreground hover:text-foreground" tabIndex={suffix === "b" ? -1 : 0} aria-hidden={suffix === "b" ? true : undefined}>
+        <a key={`${suffix}-${i.id}`} href={extHref(i.url)} target="_blank" rel="noopener noreferrer" className="group inline-flex shrink-0 items-center gap-2 px-4 text-[12px] text-muted-foreground hover:text-foreground" tabIndex={suffix === "b" ? -1 : 0} aria-hidden={suffix === "b" ? true : undefined}>
           {lab && <LabLogo logo={lab.logo} name={lab.name} size="xs" />}
           <span className="font-medium text-foreground/90">{lab?.name}</span>
-          <span className={cn("size-1.5 rounded-full", CATEGORY_META[i.category].dot)} />
+          <span className="size-1 shrink-0 rounded-full bg-brand/60" />
           <span className="max-w-[46ch] truncate group-hover:underline">{i.title}</span>
         </a>
       );
     });
   return (
     <div className="card-surface flex items-center overflow-hidden" role="region" aria-label="Latest official updates">
-      <span className="z-10 inline-flex shrink-0 items-center gap-2 border-r bg-brand/10 px-3 py-2.5 text-[12.5px] font-bold uppercase tracking-wider text-brand">
+      <span className="z-10 inline-flex shrink-0 items-center gap-2 self-stretch border-r bg-brand/8 px-3 py-2.5 font-mono text-[10px] font-medium uppercase tracking-wider text-brand">
         <span className="relative flex size-2">
           <span className="absolute inline-flex size-full animate-ping-slow rounded-full bg-brand/70" />
           <span className="relative inline-flex size-2 rounded-full bg-brand" />
         </span>
-        Live
+        Latest
       </span>
       <div className="group relative min-w-0 flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_24px,black_calc(100%-40px),transparent)]">
-        <div className="flex w-max animate-[marquee_160s_linear_infinite] py-2.5 group-hover:[animation-play-state:paused]">
+        <div className="flex w-max animate-[marquee_160s_linear_infinite] py-2.5 group-hover:[animation-play-state:paused] group-focus-within:[animation-play-state:paused]">
           {row("a")}
           {row("b")}
         </div>
@@ -85,18 +84,19 @@ export function Ticker({ items }: { items: UpdateItem[] }) {
 export function StoriesPanel({ stories }: { stories: StoryCluster[] }) {
   if (!stories.length) return null;
   return (
-    <Panel title="Top stories across sources" icon={Newspaper} href="/digest" hint="grouped from official posts + media">
-      <ul className="grid gap-3 md:grid-cols-2">
-        {stories.slice(0, 6).map((s) => (
+    <Panel title="Stories shaping the week" icon={Newspaper} href="/digest">
+      <ul className="grid flex-1 gap-2.5 sm:grid-cols-2">
+        {stories.slice(0, 4).map((s, index) => (
           <li key={s.id}>
-            <a href={extHref(s.url)} target="_blank" rel="noopener noreferrer" className="group flex h-full flex-col rounded-xl border bg-subtle/50 p-3.5 transition hover:border-foreground/20 hover:bg-subtle">
-              <span className="flex flex-wrap items-center gap-2 text-[12.5px] text-muted-foreground">
-                {s.entity && <span className="rounded-md bg-brand/12 px-1.5 py-0.5 font-semibold text-brand">{s.entity}</span>}
+            <a href={extHref(s.url)} target="_blank" rel="noopener noreferrer" className="group flex h-full flex-col rounded-lg border bg-subtle/25 p-3.5 transition hover:border-brand/40 hover:bg-subtle">
+              <span className="flex flex-wrap items-center gap-2 text-[10px] text-muted-foreground">
+                <span className="font-mono text-muted-foreground/60">0{index + 1}</span>
+                {s.entity && <span className="font-medium text-brand">{s.entity}</span>}
                 <LabStack labs={s.labs} />
                 <TimeAgo iso={s.lastAt} className="ml-auto" />
               </span>
-              <span className="mt-2 line-clamp-2 text-[15px] font-semibold leading-snug group-hover:underline">{s.title}</span>
-              <span className="mt-auto flex flex-wrap gap-x-3 gap-y-0.5 pt-2.5 text-[12.5px] text-muted-foreground">
+              <span className="my-2.5 line-clamp-2 text-[15px] font-medium leading-snug tracking-tight group-hover:text-brand">{s.title}</span>
+              <span className="mt-auto flex flex-wrap gap-x-3 gap-y-0.5 border-t border-border/60 pt-2 text-[10px] text-muted-foreground">
                 {s.official > 0 && <span><b className="text-foreground">{s.official}</b> official</span>}
                 {s.official === 0 && <span className="rounded bg-amber-500/12 px-1 font-semibold text-amber-700 dark:text-amber-300" title="No official post confirms this yet">media only</span>}
                 {s.press > 0 && <span><b className="text-foreground">{s.outlets.length}</b> {s.outlets.length === 1 ? "outlet" : "outlets"}</span>}
@@ -113,22 +113,22 @@ export function StoriesPanel({ stories }: { stories: StoryCluster[] }) {
 // ───────────────────────── trending ─────────────────────────
 
 function Delta({ now, prev }: { now: number; prev: number }) {
-  if (prev === 0) return <span className="rounded bg-emerald-500/12 px-1 text-[11.5px] font-semibold text-emerald-700 dark:text-emerald-300">new</span>;
+  if (prev === 0) return <span className="rounded bg-brand/10 px-1.5 py-0.5 font-mono text-[9px] font-medium text-brand">NEW</span>;
   const pct = Math.round(((now - prev) / prev) * 100);
-  return <span className={cn("text-[12px] font-medium tabular-nums", pct >= 0 ? "text-emerald-600 dark:text-emerald-400" : "text-rose-500")}>{pct >= 0 ? "▲" : "▼"} {Math.abs(pct)}%</span>;
+  return <span className={cn("font-mono text-[10px] font-medium tabular-nums", pct >= 0 ? "text-brand" : "text-rose-700 dark:text-rose-400")}>{pct >= 0 ? "+" : "−"}{Math.abs(pct)}%</span>;
 }
 
 export function TrendingPanel({ entities }: { entities: TrendingEntry[] }) {
   if (!entities.length) return null;
   return (
     <Panel title="Trending names" icon={TrendingUp} hint="mentions · 7d">
-      <ul className="space-y-2">
-        {entities.slice(0, 8).map((e) => (
+      <ul className="space-y-2.5">
+        {entities.slice(0, 4).map((e) => (
           <li key={e.name}>
             <Link href={`/firehose?q=${encodeURIComponent(e.name)}`} className="group flex items-center gap-2.5">
               <LabStack labs={e.labs} max={3} />
-              <span className="min-w-0 flex-1 truncate text-[14px] font-medium group-hover:underline">{e.name}</span>
-              <span className="text-[13px] tabular-nums text-muted-foreground">{e.count}</span>
+              <span className="min-w-0 flex-1 truncate text-[12px] font-medium group-hover:text-brand">{e.name}</span>
+              <span className="font-mono text-[11px] tabular-nums text-muted-foreground">{e.count}</span>
               <Delta now={e.count} prev={e.prev} />
             </Link>
           </li>
@@ -142,15 +142,15 @@ export function TopicsPanel({ topics }: { topics: TrendingEntry[] }) {
   if (!topics.length) return null;
   const max = Math.max(1, ...topics.map((t) => t.count));
   return (
-    <Panel title="Hot topics" icon={Flame} hint="official posts · 7d">
+    <Panel title="Trending topics" icon={Flame} href="/firehose">
       <ul className="space-y-2">
-        {topics.slice(0, 7).map((t) => (
-          <li key={t.name} className="flex items-center gap-2.5 text-[14px]">
-            <span className="w-24 truncate font-medium">#{t.name}</span>
-            <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-muted">
-              <span className="block h-full rounded-full bg-gradient-to-r from-brand to-brand-2" style={{ width: `${(t.count / max) * 100}%` }} />
+        {topics.slice(0, 4).map((t) => (
+          <li key={t.name} className="flex items-center gap-2 text-[12px]">
+            <span className="w-20 truncate font-medium">{t.name}</span>
+            <span className="h-1 flex-1 overflow-hidden rounded-full bg-muted">
+              <span className="block h-full rounded-full bg-brand/80" style={{ width: `${(t.count / max) * 100}%` }} />
             </span>
-            <span className="w-6 text-right text-[13px] tabular-nums text-muted-foreground">{t.count}</span>
+            <span className="w-5 text-right font-mono text-[10px] tabular-nums text-muted-foreground">{t.count}</span>
             <Delta now={t.count} prev={t.prev} />
           </li>
         ))}
@@ -160,7 +160,7 @@ export function TopicsPanel({ topics }: { topics: TrendingEntry[] }) {
 }
 
 export function LabActivityPanel({ stats }: { stats: LabStat[] }) {
-  const rows = [...stats].sort((a, b) => b.last7 - a.last7).slice(0, 8);
+  const rows = [...stats].sort((a, b) => b.last7 - a.last7).slice(0, 6);
   const max = Math.max(1, ...rows.map((s) => s.last7));
   return (
     <Panel title="Most active labs" icon={Radar} href="/labs" hint="7d">
@@ -171,12 +171,12 @@ export function LabActivityPanel({ stats }: { stats: LabStat[] }) {
             <li key={s.slug}>
               <Link href={`/labs/${s.slug}`} className="group flex items-center gap-2.5">
                 <LabLogo logo={lab.logo} name={lab.name} size="xs" />
-                <span className="w-28 truncate text-[14px] font-medium group-hover:text-foreground">{lab.name}</span>
+                <span className="w-24 truncate text-[12px] font-medium group-hover:text-brand">{lab.name}</span>
                 <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-muted">
-                  <span className="block h-full rounded-full" style={{ width: `${(s.last7 / max) * 100}%`, background: `linear-gradient(90deg, var(--brand), ${lab.color})` }} />
+                  <span className="block h-full rounded-full bg-brand/80" style={{ width: `${(s.last7 / max) * 100}%` }} />
                 </span>
                 <span className="w-6 text-right text-[13px] tabular-nums text-muted-foreground">{s.last7}</span>
-                {s.press7 > 0 && <span title="Media reports in 7 days" className="w-8 text-right text-[12px] tabular-nums text-muted-foreground/80">📰{s.press7}</span>}
+                {s.press7 > 0 && <span title="Media reports in 7 days" className="inline-flex w-8 items-center justify-end gap-1 text-[10px] tabular-nums text-muted-foreground/80"><Newspaper className="size-2.5" />{s.press7}</span>}
               </Link>
             </li>
           );
@@ -294,14 +294,14 @@ export function SocialPanel({ posts, official }: { posts: SocialPost[]; official
                 <a href={extHref(p.url)} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-2.5">
                   <span className="mt-0.5 inline-flex size-6 shrink-0 items-center justify-center rounded-md bg-foreground text-[12px] font-bold text-background">{PLATFORM_GLYPH[p.platform]}</span>
                   <span className="min-w-0 flex-1">
-                    <span className="flex items-center gap-1.5 text-[12.5px] text-muted-foreground">
+                    <span className="flex flex-wrap items-center gap-1.5 text-[10px] text-muted-foreground">
                       {lab && <LabLogo logo={lab.logo} name={lab.name} size="xs" className="size-4 [&>span]:size-3" />}
                       <span className="truncate font-medium text-foreground">{p.author}</span>
                       <span className="truncate">@{p.handle}</span>
-                      {p.official && <span className="rounded bg-emerald-500/12 px-1 font-semibold text-emerald-700 dark:text-emerald-300">official</span>}
+                      {p.official && <span className="rounded bg-brand/10 px-1 font-semibold text-brand">official</span>}
                       <TimeAgo iso={p.at} className="ml-auto shrink-0" />
                     </span>
-                    <span className="mt-0.5 line-clamp-3 block text-[14px] leading-snug group-hover:underline">
+                    <span className="mt-1 line-clamp-3 block text-[12px] leading-relaxed group-hover:underline">
                       {p.text || `Post on ${p.platform === "x" ? "X" : "Threads"} — open to read`}
                     </span>
                     {p.likes ? <span className="text-[12.5px] text-muted-foreground">♥ {p.likes.toLocaleString("en-US")}</span> : null}

@@ -1,6 +1,6 @@
-import { ArrowUpRight, Sparkles } from "lucide-react";
+import Link from "next/link";
+import { ArrowUpRight, AudioLines } from "lucide-react";
 import { LAB_BY_SLUG } from "@/config/labs";
-import { formatDayHeader } from "@/lib/format";
 import type { Briefing, UpdateItem } from "@/lib/types";
 import { LabLogo } from "./lab-logo";
 import { TimeAgo } from "./time-ago";
@@ -16,50 +16,48 @@ interface BriefingCardProps {
 export function BriefingCard({ briefing, itemsById, columns = 2 }: BriefingCardProps) {
   if (!briefing) return null;
   return (
-    <section aria-labelledby="briefing-title" className="card-surface relative h-full overflow-hidden p-5 sm:p-7">
-      <div aria-hidden="true" className="pointer-events-none absolute -right-24 -top-24 size-72 rounded-full bg-brand/15 blur-3xl" />
-      <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 left-1/3 size-72 rounded-full bg-brand-2/10 blur-3xl" />
-      <div className="relative">
-        <p className="flex flex-wrap items-center gap-2 text-xs font-medium text-muted-foreground">
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-brand/30 bg-brand/10 px-2.5 py-1 text-brand">
-            <Sparkles className="size-3.5" /> AI Daily Briefing
+    <section aria-labelledby="briefing-title" className="card-surface daily-briefing">
+      <div className="flex h-full flex-col">
+        <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-muted-foreground">
+          <span className="inline-flex items-center gap-2 font-medium text-brand">
+            <AudioLines className="size-4" /> The daily briefing
           </span>
-          <span>{formatDayHeader(briefing.generatedAt)}</span>
-          <span aria-hidden="true">·</span>
-          <span>
-            updated <TimeAgo iso={briefing.generatedAt} />
+          <span className="inline-flex items-center gap-2">
+            <TimeAgo iso={briefing.generatedAt} />
+            <span className="rounded border px-1.5 py-0.5 font-mono text-[10px]" title={briefing.source === "llm" ? "Summarized by an LLM from source data" : "Assembled automatically from source data (no LLM)"}>
+              {briefing.source === "llm" ? "AI summary" : "Auto summary"}
+            </span>
           </span>
-          <span className="rounded bg-muted px-1.5 py-px font-mono text-[11.5px]" title={briefing.source === "llm" ? "Summarized by an LLM from source data" : "Assembled automatically from source data (no LLM)"}>
-            {briefing.source === "llm" ? "AI summary" : "auto"}
-          </span>
-        </p>
-        <h1 id="briefing-title" className="mt-4 max-w-3xl text-balance text-2xl font-semibold leading-tight tracking-tight sm:text-[32px]">
-          <span className="text-gradient">{briefing.headline}</span>
-        </h1>
-        <ul className={columns === 2 ? "mt-5 grid gap-2 sm:grid-cols-2" : "mt-5 grid gap-2"}>
+        </div>
+        <h2 id="briefing-title" className="briefing-headline">{briefing.headline}</h2>
+        <ul className={columns === 2 ? "briefing-points sm:grid-cols-2" : "briefing-points"}>
           {briefing.bullets.map((b, i) => {
             const item = b.itemId ? itemsById.get(b.itemId) : undefined;
             const lab = b.lab ? LAB_BY_SLUG[b.lab] : undefined;
             const content = (
               <>
                 {lab ? <LabLogo logo={lab.logo} name={lab.name} size="sm" /> : <span className="size-7" />}
-                <span className="min-w-0 flex-1 text-sm leading-snug text-foreground/90">{b.text}</span>
+                <span className="min-w-0 flex-1 text-[13px] leading-relaxed text-foreground/85">{b.text}</span>
                 {item && <ArrowUpRight className="mt-0.5 size-4 shrink-0 text-muted-foreground transition group-hover:text-foreground" />}
               </>
             );
             return (
               <li key={i}>
                 {item ? (
-                  <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-3 rounded-xl border border-transparent bg-subtle/60 p-3 transition hover:border-border hover:bg-subtle">
+                  <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" className="briefing-point group">
                     {content}
                   </a>
                 ) : (
-                  <div className="flex items-start gap-3 rounded-xl bg-subtle/60 p-3">{content}</div>
+                  <div className="briefing-point">{content}</div>
                 )}
               </li>
             );
           })}
         </ul>
+        <div className="mt-auto flex flex-wrap items-center justify-between gap-2 border-t pt-3 text-[11px] text-muted-foreground">
+          <span>From the sources. Straight to the point.</span>
+          <Link href="/digest" className="inline-flex items-center gap-1 font-medium text-foreground/80 transition hover:text-brand">Read the weekly digest <ArrowUpRight className="size-3" /></Link>
+        </div>
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 /** Animated brand mark: concentric rings with a rotating sweep. */
 export function RadarMark({ className }: { className?: string }) {
   return (
-    <span className={cn("relative inline-flex size-8 items-center justify-center overflow-hidden rounded-[10px] bg-gradient-to-br from-brand to-brand-2 shadow-[0_0_24px_-6px_var(--brand)]", className)}>
+    <span className={cn("relative inline-flex size-9 shrink-0 items-center justify-center overflow-hidden rounded-[10px] border border-brand/30 bg-[#396bd8] shadow-[inset_0_1px_0_#ffffff30]", className)}>
       <svg viewBox="0 0 32 32" className="absolute inset-0 size-full text-white/80" aria-hidden="true">
         <circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" strokeOpacity=".35" strokeWidth="1" />
         <circle cx="16" cy="16" r="6.5" fill="none" stroke="currentColor" strokeOpacity=".5" strokeWidth="1" />

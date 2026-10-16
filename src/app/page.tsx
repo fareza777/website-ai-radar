@@ -1,9 +1,11 @@
-import { Boxes, Gift, Radio, Rocket, Zap } from "lucide-react";
+import Link from "next/link";
+import { ArrowDown, ArrowUpRight, Boxes, Gift, Radio, Rocket, Zap } from "lucide-react";
 import { Bento } from "@/components/bento";
 import { BriefingCard } from "@/components/briefing-card";
 import { FeedView } from "@/components/feed-view";
 import { JsonLd } from "@/components/json-ld";
 import { LiveRadar, type RadarBlip, type RadarSector } from "@/components/live-radar";
+import { TimeAgo } from "@/components/time-ago";
 import {
   LabActivityPanel, PapersPanel, Panel, PulsePanel, SocialPanel, StoriesPanel, Ticker, TopicsPanel, TrendingPanel, UnconfirmedPanel,
 } from "@/components/today-widgets";
@@ -11,7 +13,7 @@ import { LABS } from "@/config/labs";
 import {
   dataTime, getAllItems, getBriefings, getDeals, getDiscover, getLabStats, getModels, getPapers, getPriceMoves, getPulse, getSocial, getStatus, getStories, toFeedItem,
 } from "@/lib/data";
-import { compactNumber } from "@/lib/format";
+import { compactNumber, formatDate } from "@/lib/format";
 import { websiteJsonLd } from "@/lib/seo";
 import { siteUrl } from "@/lib/site";
 import type { UpdateItem } from "@/lib/types";
@@ -24,12 +26,15 @@ const DAY = 86_400_000;
 
 function StatTile({ icon: Icon, label, value, hint }: { icon: typeof Zap; label: string; value: string | number; hint: string }) {
   return (
-    <div className="card-surface p-4">
-      <div className="flex items-center gap-2 text-[13px] text-muted-foreground">
-        <Icon className="size-3.5" /> {label}
+    <div className="overview-stat">
+      <div className="flex items-center justify-between gap-2">
+        <span className="text-xs font-medium text-muted-foreground">{label}</span>
+        <Icon className="size-4 text-brand/80" />
       </div>
-      <div className="mt-1.5 text-2xl font-semibold tabular-nums tracking-tight">{value}</div>
-      <div className="text-[13px] text-muted-foreground">{hint}</div>
+      <div className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+        <span className="text-[32px] font-semibold leading-none tracking-[-0.05em] tabular-nums">{value}</span>
+        <span className="text-xs leading-relaxed text-muted-foreground">{hint}</span>
+      </div>
     </div>
   );
 }
@@ -91,55 +96,50 @@ export default function TodayPage() {
   const social = getSocial().filter((p) => ref - Date.parse(p.at) < 7 * DAY);
 
   return (
-    <div className="space-y-6">
+    <div className="today-page">
       <JsonLd data={websiteJsonLd(siteUrl())} />
+      <div className="overview-heading">
+        <div>
+          <p className="eyebrow">Your daily intelligence</p>
+          <h1 className="mt-2 text-[28px] font-semibold leading-tight tracking-[-0.045em] sm:text-[36px]">The AI landscape, in focus<span className="text-brand">.</span></h1>
+          <p className="mt-2 text-sm text-muted-foreground">Releases, research, and the shifts that matter. One clear view.</p>
+        </div>
+        <div className="overview-heading-actions">
+          {status && <span className="flex items-center gap-2 text-xs text-muted-foreground"><span className="size-1.5 rounded-full bg-brand" />{formatDate(status.generatedAt)}<span className="text-border">/</span>Updated <TimeAgo iso={status.generatedAt} /></span>}
+          <div className="flex items-center gap-2">
+            <Link href="/digest" className="quiet-button">Weekly digest <ArrowUpRight className="size-3.5" /></Link>
+            <a href="#global-feed" className="primary-button">Explore the feed <ArrowDown className="size-3.5" /></a>
+          </div>
+        </div>
+      </div>
       <Ticker items={ticker} />
-
-      {/*
-        SECTION 1 — OVERVIEW (what matters right now). One DOM, three layouts:
-          < xl            single column; widgets ordered with order-N (briefing → radar → stats → …)
-          xl  (≥1280px)   main + right column; stats/trending/topics become a strip on top
-          ≥1700px (3xl)   three balanced columns
-        Wrappers use display:contents below xl so every widget joins the same flex column.
-      */}
-      <div className="flex flex-col gap-5 xl:grid xl:grid-cols-[minmax(0,1fr)_380px] xl:items-start xl:gap-6 3xl:grid-cols-[320px_minmax(0,1fr)_400px]">
-        <div className="contents xl:col-span-full xl:grid xl:grid-cols-4 xl:items-start xl:gap-4 3xl:col-span-1 3xl:flex 3xl:flex-col 3xl:gap-5">
-          {briefing && (
-            <div className="order-3 grid grid-cols-2 gap-3 sm:grid-cols-4 xl:order-none xl:grid-cols-2">
-              <StatTile icon={Zap} label="Updates · 24h" value={briefing.stats.updates24h} hint={`from ${briefing.stats.labsActive24h} active labs`} />
-              <StatTile icon={Rocket} label="Models · 7d" value={briefing.stats.newModels7d} hint="models & checkpoints" />
-              <StatTile icon={Boxes} label="Updates · 7d" value={briefing.stats.updates7d} hint={`${compactNumber(all.length)} in the archive`} />
-              <StatTile icon={Radio} label="Sources" value={sources} hint={`${LABS.length} labs · auto 3h`} />
-            </div>
-          )}
-          <div className="order-5 min-w-0 xl:order-none"><TrendingPanel entities={stories.trending.entities} /></div>
-          <div className="order-6 min-w-0 xl:order-none"><TopicsPanel topics={stories.trending.topics} /></div>
-          <div className="order-7 min-w-0 xl:order-none 3xl:hidden"><LabActivityPanel stats={stats} /></div>
+      {briefing && (
+        <div className="overview-stats" aria-label="AI activity at a glance">
+          <StatTile icon={Zap} label="Updates in 24 hours" value={briefing.stats.updates24h} hint={`${briefing.stats.labsActive24h} active labs`} />
+          <StatTile icon={Rocket} label="New models this week" value={briefing.stats.newModels7d} hint="models & checkpoints" />
+          <StatTile icon={Boxes} label="Updates this week" value={briefing.stats.updates7d} hint={`${compactNumber(all.length)} archived`} />
+          <StatTile icon={Radio} label="Sources monitored" value={sources} hint={`${LABS.length} labs · every 3h`} />
         </div>
-
-        <div className="contents xl:flex xl:min-w-0 xl:flex-col xl:gap-5">
-          <div className="order-1 xl:order-none"><BriefingCard briefing={briefing} itemsById={itemsById} columns={2} /></div>
-          <div className="order-4 xl:order-none"><StoriesPanel stories={stories.stories} /></div>
-        </div>
-
-        <div className="contents xl:flex xl:min-w-0 xl:flex-col xl:gap-5">
-          <div className="order-2 xl:order-none"><LiveRadar blips={blips} sectors={sectors} windowHours={RADAR_HOURS} /></div>
-          <div className="order-8 xl:order-none"><UnconfirmedPanel items={stories.unconfirmed} /></div>
+      )}
+      <div className="overview-grid">
+        <BriefingCard briefing={briefing} itemsById={itemsById} columns={2} />
+        <LiveRadar blips={blips} sectors={sectors} windowHours={RADAR_HOURS} />
+        <StoriesPanel stories={stories.stories} />
+        <div className="overview-signals">
+          <TrendingPanel entities={stories.trending.entities} />
+          <TopicsPanel topics={stories.trending.topics} />
         </div>
       </div>
 
       <Bento topStory={topStory} buzz={buzz} newModels={newModels} moves={getPriceMoves()} freeModels={models.filter((m) => m.free).length} />
 
-      {/*
-        SECTION 2 — WORKSPACE (everything, chronological). Filters (left) and signals (right) are sticky,
-        so they stay on screen while the feed scrolls.
-      */}
       <FeedView
         items={feed}
         dataTime={status?.generatedAt ?? new Date(0).toISOString()}
         rail={
           <>
-            <div className="hidden 3xl:block"><LabActivityPanel stats={stats} /></div>
+            <LabActivityPanel stats={stats} />
+            <UnconfirmedPanel items={stories.unconfirmed} />
             <SocialPanel posts={social} official={social.filter((p) => p.official).length} />
             <PulsePanel items={pulse} />
             <PapersPanel papers={papers} />
@@ -149,7 +149,7 @@ export default function TodayPage() {
                   {deals.map((d) => (
                     <li key={d.id}>
                       <a href={extHref(d.url)} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-2">
-                        <span className="mt-2 size-1.5 shrink-0 rounded-full bg-emerald-500" />
+                        <span className="mt-2 size-1.5 shrink-0 rounded-full bg-brand" />
                         <span>
                           <span className="block text-[14px] font-medium group-hover:underline">{d.title}</span>
                           <span className="text-[13px] text-muted-foreground">{d.provider}</span>

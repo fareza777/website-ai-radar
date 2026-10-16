@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 export function CategoryBadge({ category, className }: { category: Category; className?: string }) {
   const meta = CATEGORY_META[category];
   return (
-    <span className={cn("inline-flex h-5 items-center gap-1 rounded-md border px-1.5 text-[12.5px] font-medium", meta.className, className)}>
+    <span className={cn("inline-flex h-5 items-center gap-1 rounded border px-1.5 text-[10px] font-medium", meta.className, className)}>
       <span className={cn("size-1.5 rounded-full", meta.dot)} />
       {meta.label}
     </span>
@@ -17,7 +17,7 @@ export function CategoryBadge({ category, className }: { category: Category; cla
 export function VerifyBadge({ verified, trust }: { verified: boolean; trust: Trust }) {
   if (verified && trust === "official") {
     return (
-      <span className="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400" title="Links to the lab's official domain/org and comes from an official feed">
+      <span className="inline-flex items-center gap-1 text-brand" title="Links to the lab's official domain/org and comes from an official feed">
         <BadgeCheck className="size-3.5" />
         Official
       </span>

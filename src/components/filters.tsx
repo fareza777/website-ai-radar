@@ -18,15 +18,15 @@ export function Chip({ active, onClick, children, count, className }: ChipProps)
       onClick={onClick}
       aria-pressed={active}
       className={cn(
-        "inline-flex h-8 shrink-0 items-center gap-1.5 rounded-full border px-3 text-[14px] font-medium transition",
+        "inline-flex h-8 shrink-0 items-center gap-1.5 rounded-md border px-2.5 text-[12px] font-medium transition",
         active
-          ? "border-transparent bg-foreground text-background shadow-sm"
+          ? "border-brand/25 bg-brand/12 text-brand"
           : "bg-surface/60 text-muted-foreground hover:border-foreground/20 hover:text-foreground",
         className,
       )}
     >
       {children}
-      {count != null && <span className={cn("tabular-nums text-[12.5px]", active ? "text-background/70" : "text-muted-foreground/80")}>{count}</span>}
+      {count != null && <span className={cn("font-mono tabular-nums text-[10px]", active ? "text-brand/80" : "text-muted-foreground/80")}>{count}</span>}
     </button>
   );
 }
@@ -73,6 +73,7 @@ export function SearchInput({ value, onChange, placeholder, className }: { value
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
+        aria-label={placeholder}
         className="h-full w-full rounded-lg border bg-surface/60 pl-9 pr-8 text-sm outline-none transition placeholder:text-muted-foreground/70 focus:border-ring focus:ring-2 focus:ring-ring/30 [&::-webkit-search-cancel-button]:hidden"
       />
       {value && (

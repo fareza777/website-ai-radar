@@ -44,8 +44,7 @@ interface FeedWorkspaceProps {
 }
 
 /**
- * Today's workspace: sticky filters (left) · feed (center) · sticky widgets (right).
- * The side panels stay in view while the feed scrolls, so wide screens never show empty gutters.
+ * Feed workspace with persistent filters and source context at desktop sizes.
  */
 export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
   const now = useNow();
@@ -111,21 +110,22 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
   const labList = LABS.map((l) => ({ lab: l, n: labCounts.get(l.slug) ?? 0 })).sort((a, b) => b.n - a.n || a.lab.name.localeCompare(b.lab.name));
 
   return (
-    <section aria-labelledby="feed-title" className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_380px] xl:items-start xl:gap-6 3xl:grid-cols-[300px_minmax(0,1fr)_400px]">
-      {/* LEFT: filters (a full-width strip below 3xl, a sticky column at 3xl) */}
-      <aside className="thin-scroll space-y-3 xl:col-span-full 3xl:sticky 3xl:top-[4.5rem] 3xl:col-span-1 3xl:max-h-[calc(100vh-5.5rem)] 3xl:overflow-y-auto 3xl:pr-1" aria-label="Feed filters">
+    <section id="global-feed" aria-labelledby="feed-title" className="feed-workspace">
+      <aside className="feed-filters thin-scroll space-y-3" aria-label="Feed filters">
         <div className="card-surface space-y-3 p-3 sm:p-4">
+          <p className="feed-filter-label">Time range</p>
           <ChipRow>
             <Chip active={range === "today"} onClick={() => { setRange("today"); reset(); }}>Today</Chip>
             <Chip active={range === "7d"} onClick={() => { setRange("7d"); reset(); }}>7 Days</Chip>
             <Chip active={range === "30d"} onClick={() => { setRange("30d"); reset(); }}>30 Days</Chip>
           </ChipRow>
-          <ChipRow>
+          <ChipRow className="flex-wrap">
             <Chip active={importantOnly} onClick={() => { setImportantOnly((v) => !v); reset(); }}>Important Only</Chip>
             <Chip active={unreadOnly} onClick={() => { setUnreadOnly((v) => !v); reset(); }} count={now ? unreadCount : undefined}>Unread</Chip>
             <Chip active={followingOnly} onClick={() => { setFollowingOnly((v) => !v); reset(); }} count={state.follows.length || undefined}>★ Following</Chip>
           </ChipRow>
-          <ChipRow>
+          <p className="feed-filter-label border-t pt-3">Categories</p>
+          <ChipRow className="feed-categories">
             <Chip active={category === "all"} onClick={() => { setCategory("all"); reset(); }} count={inRange.length}>All</Chip>
             {CATEGORIES.map((c) => (
               <Chip key={c} active={category === c} onClick={() => { setCategory(c); reset(); }} count={catCounts[c]}>
@@ -133,13 +133,13 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
               </Chip>
             ))}
           </ChipRow>
-          <div className="flex flex-col gap-2 sm:flex-row 3xl:flex-col">
+          <div className="flex flex-col gap-2 sm:flex-row xl:flex-col">
             <SearchInput value={query} onChange={(v) => { setQuery(v); reset(); }} placeholder="Filter the feed…" className="flex-1" />
             <select
               value={lab}
               onChange={(e) => { setLab(e.target.value); reset(); }}
               aria-label="Filter by lab"
-              className="h-9 rounded-lg border bg-surface/60 px-3 text-sm outline-none focus:border-ring sm:w-52 3xl:hidden"
+              className="h-9 rounded-lg border bg-surface/60 px-3 text-sm outline-none focus:border-ring sm:w-52 xl:hidden"
             >
               <option value="all">All labs</option>
               {LABS.map((l) => (
@@ -149,8 +149,8 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
           </div>
         </div>
 
-        {/* Lab list — the left rail at ≥1700px */}
-        <div className="card-surface hidden p-2 3xl:block">
+        <div className="card-surface feed-labs p-2">
+          <p className="feed-filter-label px-2.5 pt-2">Filter by lab</p>
           <button
             type="button"
             onClick={() => { setLab("all"); reset(); }}
@@ -179,13 +179,14 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
       </aside>
 
       {/* CENTER: the feed */}
-      <div className="min-w-0 space-y-4">
+      <div className="min-w-0 space-y-3">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <h2 id="feed-title" className="text-lg font-semibold tracking-tight">Global Feed</h2>
-            <p className="text-sm text-muted-foreground">
+            <p className="eyebrow mb-1">Every signal, one place</p>
+            <h2 id="feed-title" className="text-xl font-semibold tracking-tight">Global feed</h2>
+            <p className="mt-1 text-xs text-muted-foreground" aria-live="polite">
               {filtered.length} {filtered.length === 1 ? "update" : "updates"}
-              {filtered.length > visible.length ? ` · showing ${visible.length}` : ""} · every official post from 20 labs
+              {filtered.length > visible.length ? ` · showing ${visible.length}` : ""} · {LABS.length} labs
               {range === "30d" && older === null && !olderError && " · loading earlier days…"}
               {olderError && " · could not load earlier days"}
             </p>
@@ -195,7 +196,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
               ariaLabel="Sort"
               value={sort}
               onChange={(v) => { setSort(v); reset(); }}
-              options={[{ value: "newest", label: "Newest" }, { value: "important", label: "Most Important" }]}
+              options={[{ value: "newest", label: "Newest" }, { value: "important", label: "Priority" }]}
             />
             <div role="radiogroup" aria-label="Density" className="inline-flex h-8 items-center rounded-lg border bg-surface/60 p-0.5">
               {([["cards", LayoutList, "Cards"], ["compact", Rows3, "Compact"]] as const).map(([value, Icon, label]) => (
@@ -210,7 +211,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
                   className={cn("inline-flex h-full items-center gap-1 rounded-md px-2 text-[13px] font-medium text-muted-foreground transition", state.density === value && "bg-accent text-foreground shadow-xs")}
                 >
                   <Icon className="size-4" />
-                  <span className="hidden 2xl:inline">{label}</span>
+                  <span className="hidden 3xl:inline">{label}</span>
                 </button>
               ))}
             </div>
@@ -220,7 +221,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
               className="inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 text-[13.5px] font-medium text-muted-foreground transition hover:text-foreground"
               title="Mark all as read"
             >
-              <CheckCheck className="size-4" /> <span className="hidden sm:inline">Mark all read</span>
+              <CheckCheck className="size-4" /> <span className="hidden 3xl:inline">Mark all read</span>
             </button>
           </div>
         </div>
@@ -230,7 +231,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
             Try a wider time range or clear filters. The collector runs automatically every 3 hours.
           </EmptyState>
         ) : (
-          <ol className={state.density === "compact" ? "space-y-1.5" : "space-y-3"}>
+          <ol className={state.density === "compact" ? "space-y-1.5" : "space-y-2.5"}>
             {visible.map((item, i) => {
               const showDay = sort === "newest" && (i === 0 || dayKey(visible[i - 1].publishedAt) !== dayKey(item.publishedAt));
               const unread = now !== null && !isRead(idx, item.id, item.publishedAt);
@@ -238,7 +239,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
               return (
                 <li key={item.id}>
                   {showDay && (
-                    <h3 className="sticky top-14 z-10 -mx-1 mb-2 mt-4 bg-background/85 px-1 py-1.5 text-xs font-semibold uppercase tracking-wider text-muted-foreground backdrop-blur first:mt-0">
+                    <h3 className="sticky top-16 z-10 -mx-1 mb-2 mt-4 border-b bg-background/95 px-1 py-2 font-mono text-[10px] font-medium uppercase tracking-wider text-muted-foreground backdrop-blur first:mt-0">
                       {formatDayHeader(item.publishedAt)}
                     </h3>
                   )}
@@ -264,7 +265,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
 
       {/* RIGHT: widgets that stay in view while the feed scrolls */}
       {rail && (
-        <aside className="thin-scroll space-y-4 xl:sticky xl:top-[4.5rem] xl:max-h-[calc(100vh-5.5rem)] xl:overflow-y-auto xl:pr-1" aria-label="Signals">
+        <aside className="feed-rail thin-scroll" aria-label="Signals">
           {rail}
         </aside>
       )}
