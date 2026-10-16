@@ -86,7 +86,7 @@ export function FirehoseView({ initialRows, generatedAt, total }: { initialRows:
   const params = useMemo(() => new URLSearchParams(search), [search]);
   const state = useRadarState();
   // The newest rows arrive in the server-rendered HTML (readable by crawlers and instant for visitors); the full table follows.
-  const [data, setData] = useState<Payload | null>({ generatedAt, rows: initialRows, partial: true });
+  const [data, setData] = useState<Payload>({ generatedAt, rows: initialRows, partial: true });
   const [error, setError] = useState(false);
   // Controls start from the URL until the visitor changes them (null = untouched).
   const [typedQuery, setQuery] = useState<string | null>(null);
@@ -108,10 +108,9 @@ export function FirehoseView({ initialRows, generatedAt, total }: { initialRows:
     loadPayload().then(setData, () => setError(true));
   }, []);
 
-  const ref = data?.generatedAt ? Date.parse(data.generatedAt) : 0;
+  const ref = data.generatedAt ? Date.parse(data.generatedAt) : 0;
 
   const inRange = useMemo(() => {
-    if (!data) return [];
     return range === "all" ? data.rows : data.rows.filter((r) => ref - Date.parse(r.a) < Number(range) * DAY);
   }, [data, range, ref]);
 
@@ -152,7 +151,6 @@ export function FirehoseView({ initialRows, generatedAt, total }: { initialRows:
   const exportJson = () => download("ai-radar-firehose.json", "application/json", JSON.stringify(filtered, null, 2));
 
   // `data` always holds at least the server-rendered rows, so a failed full load degrades to "newest only" instead of an error page.
-  if (!data) return null;
   const partial = !!data.partial;
 
   return (
@@ -200,8 +198,8 @@ export function FirehoseView({ initialRows, generatedAt, total }: { initialRows:
           {partial && error && <span className="ml-2 text-amber-600 dark:text-amber-400">showing the newest {data.rows.length} — reload to load all</span>}
         </span>
         <span className="flex items-center gap-2">
-          <button type="button" onClick={exportCsv} disabled={partial} className="disabled:cursor-not-allowed disabled:opacity-50 inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 font-medium transition hover:text-foreground"><Download className="size-3.5" /> CSV</button>
-          <button type="button" onClick={exportJson} disabled={partial} className="disabled:cursor-not-allowed disabled:opacity-50 inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 font-medium transition hover:text-foreground"><Download className="size-3.5" /> JSON</button>
+          <button type="button" onClick={exportCsv} disabled={partial} title={partial ? "Available once the full table has loaded" : undefined} className="disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:text-muted-foreground inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 font-medium transition hover:text-foreground"><Download className="size-3.5" /> CSV</button>
+          <button type="button" onClick={exportJson} disabled={partial} title={partial ? "Available once the full table has loaded" : undefined} className="disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:text-muted-foreground inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 font-medium transition hover:text-foreground"><Download className="size-3.5" /> JSON</button>
         </span>
       </div>
 
@@ -237,7 +235,7 @@ export function FirehoseView({ initialRows, generatedAt, total }: { initialRows:
                         <span className="text-muted-foreground">—</span>
                       )}
                     </span>
-                    <a href={extHref(r.u)} target="_blank" rel="noopener noreferrer" className="order-1 col-span-2 min-w-0 text-[15px] leading-snug hover:underline md:order-none md:col-span-1 md:truncate" title={r.t}>
+                    <a href={extHref(r.u)} target="_blank" rel={r.s === "press" || r.s === "social" || r.s === "community" ? "nofollow noopener noreferrer" : "noopener noreferrer"} className="order-1 col-span-2 min-w-0 text-[15px] leading-snug hover:underline md:order-none md:col-span-1 md:truncate" title={r.t}>
                       {r.c && <span className={cn("mr-2 inline-block size-2 rounded-full align-middle", CATEGORY_META[r.c as keyof typeof CATEGORY_META]?.dot)} title={r.c} />}
                       {r.t}
                     </a>

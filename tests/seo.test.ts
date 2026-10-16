@@ -19,6 +19,30 @@ describe("siteUrl follows the real domain", () => {
     expect(siteUrl()).toBe("https://staging.example.com");
   });
 
+  it("lets production override the domain with a custom-domain NEXT_PUBLIC_SITE_URL, but never with a stale *.vercel.app one", () => {
+    vi.stubEnv("VERCEL_ENV", "production");
+    vi.stubEnv("VERCEL_PROJECT_PRODUCTION_URL", "www.airadarhub.top");
+    vi.stubEnv("NEXT_PUBLIC_SITE_URL", "https://airadarhub.top/");
+    expect(siteUrl()).toBe("https://airadarhub.top");
+    vi.stubEnv("NEXT_PUBLIC_SITE_URL", "https://ai-radar-lilac.vercel.app");
+    expect(siteUrl()).toBe("https://www.airadarhub.top");
+  });
+
+  it("uses the explicit URL on a production build that cannot see the system variables", () => {
+    vi.stubEnv("VERCEL_ENV", "production");
+    vi.stubEnv("VERCEL_PROJECT_PRODUCTION_URL", "");
+    vi.stubEnv("NEXT_PUBLIC_SITE_URL", "https://airadarhub.top");
+    expect(siteUrl()).toBe("https://airadarhub.top");
+  });
+
+  it("fails the Vercel build instead of publishing localhost canonicals", () => {
+    vi.stubEnv("VERCEL", "1");
+    vi.stubEnv("VERCEL_ENV", "production");
+    vi.stubEnv("VERCEL_PROJECT_PRODUCTION_URL", "");
+    vi.stubEnv("NEXT_PUBLIC_SITE_URL", "");
+    expect(() => siteUrl()).toThrow(/VERCEL_PROJECT_PRODUCTION_URL/);
+  });
+
   it("falls back to the production URL, then localhost", () => {
     vi.stubEnv("VERCEL_ENV", "");
     vi.stubEnv("NEXT_PUBLIC_SITE_URL", "");

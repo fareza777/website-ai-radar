@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description: SITE.description,
   applicationName: SITE.name,
   keywords: ["AI", "LLM", "OpenAI", "Anthropic", "Claude", "Gemini", "DeepSeek", "Qwen", "AI news", "AI labs tracker", "free credits", "AI tools"],
-  openGraph: { type: "website", siteName: SITE.name, title: `${SITE.name} — ${SITE.tagline}`, description: SITE.description, locale: "en_US" },
+  openGraph: { type: "website", url: "/", siteName: SITE.name, title: `${SITE.name} — ${SITE.tagline}`, description: SITE.description, locale: "en_US" },
   twitter: { card: "summary_large_image", title: `${SITE.name} — ${SITE.tagline}`, description: SITE.description },
   alternates: { canonical: "/", types: { "application/atom+xml": "/feed.xml", "application/feed+json": "/feed.json" } },
 };
@@ -54,7 +54,7 @@ function SiteFooter() {
       {/* Sitewide internal links: every section and lab is two clicks from anywhere (crawlable, and handy for visitors). */}
       <nav aria-label="Footer" className="mx-auto grid max-w-[1760px] gap-8 px-4 pt-8 text-sm sm:px-6 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] 2xl:px-10">
         <div>
-          <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground">Explore</p>
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground">Explore</h2>
           <ul className="grid grid-cols-2 gap-x-6 gap-y-1.5 text-muted-foreground">
             {FOOTER_LINKS.map((l) => (
               <li key={l.href}><Link href={l.href} className="hover:text-foreground hover:underline">{l.label}</Link></li>
@@ -64,10 +64,10 @@ function SiteFooter() {
           </ul>
         </div>
         <div>
-          <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground">AI labs</p>
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground">AI labs</h2>
           <ul className="grid grid-cols-2 gap-x-6 gap-y-1.5 text-muted-foreground sm:grid-cols-3 lg:grid-cols-4">
             {LABS.map((l) => (
-              <li key={l.slug}><Link href={`/labs/${l.slug}`} className="hover:text-foreground hover:underline">{l.name}</Link></li>
+              <li key={l.slug}><Link href={`/labs/${l.slug}`} prefetch={false} className="hover:text-foreground hover:underline">{l.name}</Link></li>
             ))}
           </ul>
         </div>

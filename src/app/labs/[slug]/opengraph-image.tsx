@@ -15,9 +15,14 @@ export function generateStaticParams() {
 export default async function LabOpengraphImage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const lab = getLab(slug);
-  const name = lab?.name ?? SITE.name;
-  const color = lab?.color ?? "#8b5cf6";
-  const latest = lab ? getLabItems(lab.slug)[0]?.title : undefined;
+  // Unknown slugs must not render (and cache) an image per arbitrary URL.
+  if (!lab) return new Response("Not found", { status: 404 });
+  const name = lab.name;
+  const color = lab.color;
+  // Satori fetches glyphs outside Latin-1 (emoji, CJK) from external CDNs at build time; scraped headlines are reduced to
+  // characters the bundled font covers so a build can never depend on a third-party CDN being reachable.
+  const safe = (getLabItems(lab.slug)[0]?.title ?? "").replace(/[^ -~ -ÿ–—‘’“”…]/g, "").replace(/\s+/g, " ").trim();
+  const latest = safe.length >= 8 ? safe : undefined;
   const host = new URL(siteUrl()).host;
   return new ImageResponse(
     (
@@ -44,7 +49,7 @@ export default async function LabOpengraphImage({ params }: { params: Promise<{ 
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: 96, fontWeight: 800, letterSpacing: -3, lineHeight: 1.02 }}>{name}</div>
-          <div style={{ marginTop: 14, fontSize: 36, color: "rgba(255,255,255,0.75)" }}>{lab?.tagline ?? SITE.tagline}</div>
+          <div style={{ marginTop: 14, fontSize: 36, color: "rgba(255,255,255,0.75)" }}>{lab.tagline}</div>
           {latest && <div style={{ marginTop: 34, fontSize: 28, color: "rgba(255,255,255,0.6)", maxWidth: 1000 }}>{`Latest: ${latest.length > 110 ? `${latest.slice(0, 107)}…` : latest}`}</div>}
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 26, color: "rgba(255,255,255,0.55)" }}>

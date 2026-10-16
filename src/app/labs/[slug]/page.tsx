@@ -13,7 +13,8 @@ import { getLab, LABS } from "@/config/labs";
 import { getLabItems, getLabPapers, getLabPress, getLabSocial, getLabStats, getStatus, toFeedItem } from "@/lib/data";
 import { hostname } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
-import { siteUrl } from "@/lib/site";
+import { SITE, siteUrl } from "@/lib/site";
+import { isHttpUrl } from "@/lib/url";
 
 export function generateStaticParams() {
   return LABS.map((l) => ({ slug: l.slug }));
@@ -62,13 +63,13 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
         url: pageUrl,
         description: lab.tagline,
         inLanguage: "en",
-        isPartOf: { "@id": `${base}/#website` },
+        isPartOf: { "@type": "WebSite", "@id": `${base}/#website`, url: base, name: SITE.name },
         about: { "@type": "Organization", name: lab.name, url: lab.website },
         ...(status?.generatedAt ? { dateModified: status.generatedAt } : {}),
         mainEntity: {
           "@type": "ItemList",
           itemListOrder: "https://schema.org/ItemListOrderDescending",
-          itemListElement: items.slice(0, 10).map((i, n) => ({ "@type": "ListItem", position: n + 1, name: i.title, url: i.url })),
+          itemListElement: items.filter((i) => isHttpUrl(i.url)).slice(0, 10).map((i, n) => ({ "@type": "ListItem", position: n + 1, name: i.title, url: i.url })),
         },
         breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
       },
