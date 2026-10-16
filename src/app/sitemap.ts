@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/deals`, lastModified, changeFrequency: "daily", priority: 0.8 },
     { url: `${base}/firehose`, lastModified, changeFrequency: "hourly", priority: 0.6 },
     { url: `${base}/digest`, lastModified, changeFrequency: "daily", priority: 0.6 },
+    { url: `${base}/models`, lastModified, changeFrequency: "daily", priority: 0.7 },
+    { url: `${base}/submit`, changeFrequency: "monthly", priority: 0.3 },
     { url: `${base}/status`, lastModified, changeFrequency: "daily", priority: 0.3 },
     ...LABS.map((l) => {
       const latest = getLabItems(l.slug)[0]?.publishedAt;

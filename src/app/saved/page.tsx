@@ -4,7 +4,8 @@ import { SavedView } from "@/components/saved-view";
 export const metadata: Metadata = {
   title: "Saved",
   description: "AI updates, tools, and deals you saved.",
-  robots: { index: false },
+  alternates: { canonical: "/saved" },
+  robots: { index: false, follow: false },
 };
 
 export default function SavedPage() {

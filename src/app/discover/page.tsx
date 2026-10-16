@@ -1,17 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Send } from "lucide-react";
+import { JsonLd } from "@/components/json-ld";
 import { DiscoverView } from "@/components/discover-view";
 import { StartupRadar } from "@/components/startup-radar";
 import { TimeAgo } from "@/components/time-ago";
 import { getDiscover, getStartups, getStatus, toDiscoverCard } from "@/lib/data";
+import { breadcrumbDocument, pageMetadata } from "@/lib/seo";
+import { siteUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Discover — Opportunity Radar",
   description:
     "New AI startups, products, coding tools, agents, and GitHub projects — surfaced from X buzz (via newsletters and tips), GitHub, Hacker News, Hugging Face, and startup news.",
-  alternates: { canonical: "/discover" },
-};
+  path: "/discover",
+});
 
 export default function DiscoverPage() {
   const items = getDiscover().map(toDiscoverCard);
@@ -22,6 +25,7 @@ export default function DiscoverPage() {
 
   return (
     <div className="space-y-6">
+      <JsonLd data={breadcrumbDocument(siteUrl(), [{ name: "Discover", path: "/discover" }])} />
       <header className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div>
           <p className="text-xs font-medium uppercase tracking-widest text-brand">Discover · Opportunity Radar</p>

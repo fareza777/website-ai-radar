@@ -1,17 +1,20 @@
 import type { Metadata } from "next";
 import { Gift, Sparkles, TrendingDown } from "lucide-react";
+import { JsonLd } from "@/components/json-ld";
 import { LabLogo } from "@/components/lab-logo";
 import { ModelsView, PriceMoves } from "@/components/models-view";
 import { TimeAgo } from "@/components/time-ago";
 import { LAB_BY_SLUG } from "@/config/labs";
 import { dataTime, getModels, getPriceMoves, getStatus, toModelRow } from "@/lib/data";
 import { usd } from "@/lib/format";
+import { breadcrumbDocument, pageMetadata } from "@/lib/seo";
+import { siteUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Models & Price Tracker",
   description: "Every major LLM with live per-token pricing, context length, free models, and a tracker of price drops and increases.",
-  alternates: { canonical: "/models" },
-};
+  path: "/models",
+});
 
 export default function ModelsPage() {
   const models = getModels();
@@ -27,6 +30,7 @@ export default function ModelsPage() {
 
   return (
     <div className="space-y-6">
+      <JsonLd data={breadcrumbDocument(siteUrl(), [{ name: "Models & Prices", path: "/models" }])} />
       <header>
         <p className="text-xs font-medium uppercase tracking-widest text-brand">Models & Price Tracker</p>
         <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">{models.length} models, live pricing, every price move</h1>

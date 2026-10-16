@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { ShieldCheck } from "lucide-react";
 import { SubmitTip } from "@/components/submit-tip";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Send a tip",
   description: "Spotted a great AI startup or tool on X? Send it to AI Radar — it is verified and added to Discover automatically.",
-  alternates: { canonical: "/submit" },
-};
+  path: "/submit",
+});
 
 const STEPS = [
   { n: "1", title: "Paste the post", body: "Copy the link of an X or Threads post (Share → Copy link) and paste it here, plus the product URL if you have it." },

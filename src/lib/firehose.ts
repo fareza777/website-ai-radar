@@ -1,0 +1,25 @@
+import { getAllItems, getPapers, getPress, getPulse, getSocial } from "./data";
+import type { FirehoseRow } from "./types";
+
+/** Every signal as a compact row, newest first. Shared by the prebuild JSON file and the server-rendered first paint. */
+export function buildFirehoseRows(): FirehoseRow[] {
+  const rows: FirehoseRow[] = [];
+
+  for (const i of getAllItems()) {
+    rows.push({ i: `o-${i.id}`, s: "official", l: i.lab, t: i.title, u: i.url, a: i.publishedAt, c: i.category, w: i.sourceName, m: i.importance, ...(i.verified ? { v: 1 as const } : {}) });
+  }
+  for (const p of getPress()) {
+    rows.push({ i: `p-${p.id}`, s: "press", l: p.lab, t: p.title, u: p.url, a: p.publishedAt, w: p.outlets.length > 1 ? `${p.outlet} +${p.outlets.length - 1}` : p.outlet, m: p.reports, x: p.reports });
+  }
+  for (const p of getPapers()) {
+    rows.push({ i: `r-${p.id}`, s: "paper", l: p.lab ?? "", t: p.title, u: p.url, a: p.submittedAt, w: p.org ?? "Hugging Face Papers", m: p.upvotes });
+  }
+  for (const c of getPulse()) {
+    rows.push({ i: `c-${c.id}`, s: "community", l: c.lab ?? "", t: c.title, u: c.url, a: c.at, w: "Hacker News", m: c.points, x: c.comments });
+  }
+  for (const p of getSocial()) {
+    rows.push({ i: `x-${p.id}`, s: "social", l: p.lab ?? "", t: p.text || `${p.platform === "x" ? "Post on X" : "Post on Threads"} by @${p.handle}`, u: p.url, a: p.at, w: `@${p.handle}`, m: p.likes ?? 0, ...(p.official ? { v: 1 as const } : {}) });
+  }
+
+  return rows.sort((a, b) => b.a.localeCompare(a.a));
+}

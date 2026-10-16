@@ -58,7 +58,7 @@ jobs:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           TIPS_WRITEBACK: "1"
-          NEXT_PUBLIC_SITE_URL: ${{ vars.SITE_URL || 'https://ai-radar-lilac.vercel.app' }}
+          NEXT_PUBLIC_SITE_URL: ${{ vars.SITE_URL || 'https://airadarhub.top' }}
           EVENT_NAME: ${{ github.event_name }}
           # Inputs go through env (never interpolated into the script) and are validated.
           INPUT_ONLY: ${{ github.event.inputs.only }}

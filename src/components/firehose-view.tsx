@@ -1,7 +1,6 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { Download, Inbox, Loader2, ShieldCheck } from "lucide-react";
 import { LABS, LAB_BY_SLUG } from "@/config/labs";
 import { useDebounced } from "@/hooks/use-debounced";
@@ -18,6 +17,8 @@ import { TimeAgo } from "./time-ago";
 interface Payload {
   generatedAt: string | null;
   rows: FirehoseRow[];
+  /** True while only the server-rendered newest rows are loaded. */
+  partial?: boolean;
 }
 
 const STREAMS: { key: SignalStream; label: string; hint: string; className: string }[] = [
@@ -32,6 +33,8 @@ const STREAM_BY = Object.fromEntries(STREAMS.map((s) => [s.key, s])) as Record<S
 type Range = "1" | "3" | "7" | "30" | "all";
 type Sort = "newest" | "signal";
 const PER_PAGE = 100;
+const ALL_STREAMS: SignalStream[] = ["official", "press", "social", "paper", "community"];
+const subscribeNever = () => () => {};
 const DAY = 86_400_000;
 
 let payloadPromise: Promise<Payload> | null = null;
@@ -77,15 +80,22 @@ function download(name: string, mime: string, body: string) {
   URL.revokeObjectURL(url);
 }
 
-export function FirehoseView() {
-  const params = useSearchParams();
+export function FirehoseView({ initialRows, generatedAt, total }: { initialRows: FirehoseRow[]; generatedAt: string | null; total: number }) {
+  // Read the URL without useSearchParams: that hook forces a client-only render and would keep the rows out of the HTML.
+  const search = useSyncExternalStore(subscribeNever, () => window.location.search, () => "");
+  const params = useMemo(() => new URLSearchParams(search), [search]);
   const state = useRadarState();
-  const [data, setData] = useState<Payload | null>(null);
+  // The newest rows arrive in the server-rendered HTML (readable by crawlers and instant for visitors); the full table follows.
+  const [data, setData] = useState<Payload | null>({ generatedAt, rows: initialRows, partial: true });
   const [error, setError] = useState(false);
-  const [query, setQuery] = useState(params.get("q") ?? "");
-  const initialStreams = (params.get("s") ?? "").split(",").filter((s): s is SignalStream => s in STREAM_BY);
-  const [streams, setStreams] = useState<SignalStream[]>(initialStreams.length ? initialStreams : ["official", "press", "social", "paper", "community"]);
-  const [lab, setLab] = useState(params.get("lab") ?? "all");
+  // Controls start from the URL until the visitor changes them (null = untouched).
+  const [typedQuery, setQuery] = useState<string | null>(null);
+  const query = typedQuery ?? params.get("q") ?? "";
+  const urlStreams = (params.get("s") ?? "").split(",").filter((s): s is SignalStream => s in STREAM_BY);
+  const [pickedStreams, setStreams] = useState<SignalStream[] | null>(null);
+  const streams = pickedStreams ?? (urlStreams.length ? urlStreams : ALL_STREAMS);
+  const [pickedLab, setLab] = useState<string | null>(null);
+  const lab = pickedLab ?? params.get("lab") ?? "all";
   const [category, setCategory] = useState<string>("all");
   const [range, setRange] = useState<Range>("7");
   const [sort, setSort] = useState<Sort>("newest");
@@ -141,14 +151,9 @@ export function FirehoseView() {
   };
   const exportJson = () => download("ai-radar-firehose.json", "application/json", JSON.stringify(filtered, null, 2));
 
-  if (error) return <EmptyState icon={<Inbox className="size-6" />} title="Could not load the firehose">Reload the page to try again.</EmptyState>;
-  if (!data) {
-    return (
-      <div className="card-surface flex items-center justify-center gap-2 py-24 text-sm text-muted-foreground">
-        <Loader2 className="size-4 animate-spin" /> Loading every signal…
-      </div>
-    );
-  }
+  // `data` always holds at least the server-rendered rows, so a failed full load degrades to "newest only" instead of an error page.
+  if (!data) return null;
+  const partial = !!data.partial;
 
   return (
     <section className="space-y-4" aria-label="All signals">
@@ -189,16 +194,22 @@ export function FirehoseView() {
 
       <div className="flex flex-wrap items-center justify-between gap-2 text-[13.5px] text-muted-foreground" aria-live="polite">
         <span>
-          <b className="text-foreground tabular-nums">{filtered.length.toLocaleString("en-US")}</b> of {data.rows.length.toLocaleString("en-US")} signals
+          <b className="text-foreground tabular-nums">{filtered.length.toLocaleString("en-US")}</b> of {(partial ? total : data.rows.length).toLocaleString("en-US")} signals
           {pages > 1 && <> · page {current}/{pages}</>}
+          {partial && !error && <span className="ml-2 inline-flex items-center gap-1"><Loader2 className="size-3 animate-spin" /> loading the full table…</span>}
+          {partial && error && <span className="ml-2 text-amber-600 dark:text-amber-400">showing the newest {data.rows.length} — reload to load all</span>}
         </span>
         <span className="flex items-center gap-2">
-          <button type="button" onClick={exportCsv} className="inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 font-medium transition hover:text-foreground"><Download className="size-3.5" /> CSV</button>
-          <button type="button" onClick={exportJson} className="inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 font-medium transition hover:text-foreground"><Download className="size-3.5" /> JSON</button>
+          <button type="button" onClick={exportCsv} disabled={partial} className="disabled:cursor-not-allowed disabled:opacity-50 inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 font-medium transition hover:text-foreground"><Download className="size-3.5" /> CSV</button>
+          <button type="button" onClick={exportJson} disabled={partial} className="disabled:cursor-not-allowed disabled:opacity-50 inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 font-medium transition hover:text-foreground"><Download className="size-3.5" /> JSON</button>
         </span>
       </div>
 
-      {visible.length === 0 ? (
+      {visible.length === 0 && partial && !error ? (
+        <div className="card-surface flex items-center justify-center gap-2 py-24 text-sm text-muted-foreground">
+          <Loader2 className="size-4 animate-spin" /> Searching every signal…
+        </div>
+      ) : visible.length === 0 ? (
         <EmptyState icon={<Inbox className="size-6" />} title="No signals match these filters">Widen the time range or enable more streams.</EmptyState>
       ) : (
         <div className="card-surface overflow-hidden">

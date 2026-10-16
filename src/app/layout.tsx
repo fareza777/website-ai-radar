@@ -7,6 +7,7 @@ import { CommandSearch } from "@/components/command-search";
 import { MobileNav, SiteHeader } from "@/components/site-header";
 import { ThemeProvider } from "@/components/theme";
 import { TimeAgo } from "@/components/time-ago";
+import { LABS } from "@/config/labs";
 import { getStatus } from "@/lib/data";
 import { SITE, siteUrl } from "@/lib/site";
 import "./globals.css";
@@ -32,12 +33,45 @@ export const viewport: Viewport = {
   ],
 };
 
+const FOOTER_LINKS = [
+  { href: "/", label: "Today" },
+  { href: "/labs", label: "AI Labs" },
+  { href: "/discover", label: "Discover" },
+  { href: "/deals", label: "Deals & credits" },
+  { href: "/models", label: "Models & prices" },
+  { href: "/digest", label: "Weekly digest" },
+  { href: "/firehose", label: "Firehose" },
+  { href: "/status", label: "Status" },
+  { href: "/submit", label: "Send a tip" },
+];
+
 function SiteFooter() {
   const status = getStatus();
   const active = status ? status.sources.filter((s) => !s.skipped) : [];
   const ok = active.filter((s) => s.ok).length;
   return (
     <footer className="mt-16 border-t pb-24 lg:pb-8">
+      {/* Sitewide internal links: every section and lab is two clicks from anywhere (crawlable, and handy for visitors). */}
+      <nav aria-label="Footer" className="mx-auto grid max-w-[1760px] gap-8 px-4 pt-8 text-sm sm:px-6 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] 2xl:px-10">
+        <div>
+          <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground">Explore</p>
+          <ul className="grid grid-cols-2 gap-x-6 gap-y-1.5 text-muted-foreground">
+            {FOOTER_LINKS.map((l) => (
+              <li key={l.href}><Link href={l.href} className="hover:text-foreground hover:underline">{l.label}</Link></li>
+            ))}
+            <li><a href="/feed.xml" className="hover:text-foreground hover:underline">Atom feed</a></li>
+            <li><a href="/feed.json" className="hover:text-foreground hover:underline">JSON feed</a></li>
+          </ul>
+        </div>
+        <div>
+          <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground">AI labs</p>
+          <ul className="grid grid-cols-2 gap-x-6 gap-y-1.5 text-muted-foreground sm:grid-cols-3 lg:grid-cols-4">
+            {LABS.map((l) => (
+              <li key={l.slug}><Link href={`/labs/${l.slug}`} className="hover:text-foreground hover:underline">{l.name}</Link></li>
+            ))}
+          </ul>
+        </div>
+      </nav>
       <div className="mx-auto flex max-w-[1760px] flex-col gap-4 px-4 py-8 text-sm text-muted-foreground sm:px-6 2xl:px-10 md:flex-row md:items-center md:justify-between">
         <div className="space-y-1">
           <p className="font-medium text-foreground">{SITE.name} · {SITE.tagline}</p>

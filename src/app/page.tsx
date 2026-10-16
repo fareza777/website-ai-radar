@@ -2,6 +2,7 @@ import { Boxes, Gift, Radio, Rocket, Zap } from "lucide-react";
 import { Bento } from "@/components/bento";
 import { BriefingCard } from "@/components/briefing-card";
 import { FeedView } from "@/components/feed-view";
+import { JsonLd } from "@/components/json-ld";
 import { LiveRadar, type RadarBlip, type RadarSector } from "@/components/live-radar";
 import {
   LabActivityPanel, PapersPanel, Panel, PulsePanel, SocialPanel, StoriesPanel, Ticker, TopicsPanel, TrendingPanel, UnconfirmedPanel,
@@ -11,6 +12,8 @@ import {
   dataTime, getAllItems, getBriefings, getDeals, getDiscover, getLabStats, getModels, getPapers, getPriceMoves, getPulse, getSocial, getStatus, getStories, toFeedItem,
 } from "@/lib/data";
 import { compactNumber } from "@/lib/format";
+import { websiteJsonLd } from "@/lib/seo";
+import { siteUrl } from "@/lib/site";
 import type { UpdateItem } from "@/lib/types";
 import { extHref } from "@/lib/url";
 
@@ -89,6 +92,7 @@ export default function TodayPage() {
 
   return (
     <div className="space-y-6">
+      <JsonLd data={websiteJsonLd(siteUrl())} />
       <Ticker items={ticker} />
 
       {/*

@@ -1,17 +1,20 @@
 import type { Metadata } from "next";
 import { ArrowUpRight } from "lucide-react";
+import { JsonLd } from "@/components/json-ld";
 import { CopyButton } from "@/components/copy-button";
 import { LAB_BY_SLUG } from "@/config/labs";
 import { dataTime, getAllItems, getDeals, getDiscover, getPapers, getPriceMoves, getPulse, getSocial, getStartups, getStories } from "@/lib/data";
 import { buildDigest, digestMarkdown } from "@/lib/digest";
 import { formatDate } from "@/lib/format";
 import { extHref } from "@/lib/url";
+import { breadcrumbDocument, pageMetadata } from "@/lib/seo";
+import { siteUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Weekly Digest",
   description: "The week in AI on one page — top stories, model releases, pricing moves, new tools, research, and community signals. Copy it as Markdown for your newsletter.",
-  alternates: { canonical: "/digest" },
-};
+  path: "/digest",
+});
 
 export default function DigestPage() {
   const digest = buildDigest({
@@ -31,6 +34,7 @@ export default function DigestPage() {
 
   return (
     <div className="space-y-6">
+      <JsonLd data={breadcrumbDocument(siteUrl(), [{ name: "Weekly Digest", path: "/digest" }])} />
       <header className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <p className="text-xs font-medium uppercase tracking-widest text-brand">Weekly digest</p>

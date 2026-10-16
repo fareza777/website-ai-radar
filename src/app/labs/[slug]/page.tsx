@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, CheckCircle2, ExternalLink, XCircle } from "lucide-react";
 import { CoveragePill } from "@/components/coverage-pill";
+import { JsonLd } from "@/components/json-ld";
 import { LabLogo } from "@/components/lab-logo";
 import { FollowButton } from "@/components/follow-button";
 import { LabStreams } from "@/components/lab-streams";
@@ -11,6 +12,7 @@ import { TimeAgo } from "@/components/time-ago";
 import { getLab, LABS } from "@/config/labs";
 import { getLabItems, getLabPapers, getLabPress, getLabSocial, getLabStats, getStatus, toFeedItem } from "@/lib/data";
 import { hostname } from "@/lib/format";
+import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
 import { siteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -21,11 +23,13 @@ export async function generateMetadata({ params }: PageProps<"/labs/[slug]">): P
   const { slug } = await params;
   const lab = getLab(slug);
   if (!lab) return {};
-  return {
+  return pageMetadata({
     title: `${lab.name} — update timeline`,
     description: `Every ${lab.name} update (${lab.tagline}): models, features, APIs, pricing, promos, research, and developer releases — summarized with links to official sources.`,
-    alternates: { canonical: `/labs/${lab.slug}` },
-  };
+    path: `/labs/${lab.slug}`,
+    feed: `/labs/${lab.slug}/feed.xml`,
+    image: null, // this route has its own colocated opengraph-image
+  });
 }
 
 const TYPE_LABEL = { rss: "RSS", huggingface: "Hugging Face", "github-releases": "GitHub Releases", "github-new-repos": "GitHub new repos" } as const;
@@ -46,18 +50,35 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
     .sort()
     .at(-1);
 
+  const base = siteUrl();
+  const pageUrl = `${base}/labs/${lab.slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: `${lab.name} — AI Radar`,
-    url: `${siteUrl()}/labs/${lab.slug}`,
-    about: { "@type": "Organization", name: lab.name, url: lab.website },
-    hasPart: items.slice(0, 10).map((i) => ({ "@type": "NewsArticle", headline: i.title, datePublished: i.publishedAt, url: i.url })),
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${pageUrl}#page`,
+        name: `${lab.name} — update timeline · AI Radar`,
+        url: pageUrl,
+        description: lab.tagline,
+        inLanguage: "en",
+        isPartOf: { "@id": `${base}/#website` },
+        about: { "@type": "Organization", name: lab.name, url: lab.website },
+        ...(status?.generatedAt ? { dateModified: status.generatedAt } : {}),
+        mainEntity: {
+          "@type": "ItemList",
+          itemListOrder: "https://schema.org/ItemListOrderDescending",
+          itemListElement: items.slice(0, 10).map((i, n) => ({ "@type": "ListItem", position: n + 1, name: i.title, url: i.url })),
+        },
+        breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
+      },
+      { "@id": `${pageUrl}#breadcrumb`, ...breadcrumbJsonLd(base, [{ name: "AI Labs", path: "/labs" }, { name: lab.name, path: `/labs/${lab.slug}` }]) },
+    ],
   };
 
   return (
     <div className="space-y-6">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+      <JsonLd data={jsonLd} />
       <Link href="/labs" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground">
         <ArrowLeft className="size-4" /> All labs
       </Link>

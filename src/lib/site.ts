@@ -6,11 +6,16 @@ export const SITE = {
   repo: "https://github.com/fareza777/website-ai-radar",
 };
 
-/** Absolute site URL for metadata (Vercel sets VERCEL_PROJECT_PRODUCTION_URL automatically). */
+/**
+ * Absolute site URL for canonicals, sitemap and structured data.
+ * On a Vercel production build the production domain attached to the project wins (Vercel exposes the shortest custom
+ * domain, falling back to *.vercel.app), so the canonical always follows the real domain — no hard-coded host to go stale.
+ */
 export function siteUrl(): string {
+  const production = process.env.VERCEL_PROJECT_PRODUCTION_URL;
+  if (process.env.VERCEL_ENV === "production" && production) return `https://${production}`;
   const explicit = process.env.NEXT_PUBLIC_SITE_URL;
   if (explicit) return explicit.replace(/\/$/, "");
-  const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL;
-  if (vercel) return `https://${vercel}`;
+  if (production) return `https://${production}`;
   return "http://localhost:3000";
 }

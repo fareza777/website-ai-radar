@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CheckCircle2, Cpu, MinusCircle, XCircle } from "lucide-react";
+import { JsonLd } from "@/components/json-ld";
 import { CoveragePill } from "@/components/coverage-pill";
 import { LabLogo } from "@/components/lab-logo";
 import { TimeAgo } from "@/components/time-ago";
 import { LABS } from "@/config/labs";
 import { getLabStats, getStatus } from "@/lib/data";
 import type { SourceStatus } from "@/lib/types";
+import { breadcrumbDocument, pageMetadata } from "@/lib/seo";
+import { siteUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Status & Coverage",
   description: "AI Radar data transparency: the status of every source, coverage per lab, and the automatic collector schedule.",
-  alternates: { canonical: "/status" },
-};
+  path: "/status",
+});
 
 function Row({ s }: { s: SourceStatus }) {
   return (
@@ -38,6 +41,7 @@ export default function StatusPage() {
 
   return (
     <div className="space-y-6">
+      <JsonLd data={breadcrumbDocument(siteUrl(), [{ name: "Status & Coverage", path: "/status" }])} />
       <header>
         <p className="text-xs font-medium uppercase tracking-widest text-brand">Status & Coverage</p>
         <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">Data source transparency</h1>

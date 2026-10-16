@@ -1,18 +1,22 @@
 import type { Metadata } from "next";
 import { ShieldAlert } from "lucide-react";
+import { JsonLd } from "@/components/json-ld";
 import { DealsView } from "@/components/deals-view";
 import { getDeals } from "@/lib/data";
+import { breadcrumbDocument, pageMetadata } from "@/lib/seo";
+import { siteUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Deals & Free Credits",
   description: "AI free tiers, free credits, free models, trials, and API discounts — with verification status, evidence quotes from official sources, and validity dates.",
-  alternates: { canonical: "/deals" },
-};
+  path: "/deals",
+});
 
 export default function DealsPage() {
   const deals = getDeals();
   return (
     <div className="space-y-6">
+      <JsonLd data={breadcrumbDocument(siteUrl(), [{ name: "Deals & Free Credits", path: "/deals" }])} />
       <header>
         <p className="text-xs font-medium uppercase tracking-widest text-brand">Deals & Free Credits</p>
         <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">Promos, free tiers & free models — verified</h1>

@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
+import { JsonLd } from "@/components/json-ld";
 import { ActivityHeatmap } from "@/components/activity-heatmap";
 import { LabGrid } from "@/components/lab-grid";
 import { LABS } from "@/config/labs";
 import { getLabItems, getLabStats } from "@/lib/data";
+import { breadcrumbDocument, pageMetadata } from "@/lib/seo";
+import { siteUrl } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "AI Labs Hub",
   description: "20 global AI labs — OpenAI, Anthropic, Google DeepMind, xAI, DeepSeek, Qwen, Kimi, GLM, Meta, Mistral, and more — with automatic update timelines.",
-  alternates: { canonical: "/labs" },
-};
+  path: "/labs",
+});
 
 export default function LabsPage() {
   const stats = getLabStats();
@@ -18,6 +21,7 @@ export default function LabsPage() {
 
   return (
     <div className="space-y-6">
+      <JsonLd data={breadcrumbDocument(siteUrl(), [{ name: "AI Labs", path: "/labs" }])} />
       <header>
         <p className="text-xs font-medium uppercase tracking-widest text-brand">AI Labs Hub</p>
         <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">20 AI labs, one radar</h1>
