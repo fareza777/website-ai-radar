@@ -1,24 +1,24 @@
 [
   {
     "date": "2026-10-16",
-    "generatedAt": "2026-10-16T13:46:55.918Z",
+    "generatedAt": "2026-10-16T16:45:25.416Z",
     "stats": {
-      "updates24h": 19,
-      "labsActive24h": 9,
+      "updates24h": 15,
+      "labsActive24h": 6,
       "updates7d": 114,
-      "newModels7d": 34
+      "newModels7d": 35
     },
     "source": "template",
-    "headline": "19 updates from 9 AI labs in the last 24 hours · 34 model releases this week.",
+    "headline": "15 updates from 6 AI labs in the last 24 hours · 35 model releases this week.",
     "bullets": [
       {
-        "text": "Amazon: Muse Spark Open model now available on Amazon SageMaker JumpStart",
-        "itemId": "cd984aadc77d696e",
+        "text": "Amazon: Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+        "itemId": "7bd3e3f63e0f7daa",
         "lab": "amazon"
       },
       {
-        "text": "Amazon: Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options",
-        "itemId": "bd88b85afd7a694b",
+        "text": "Amazon: Muse Spark Open model now available on Amazon SageMaker JumpStart",
+        "itemId": "cd984aadc77d696e",
         "lab": "amazon"
       },
       {
@@ -27,19 +27,19 @@
         "lab": "nvidia"
       },
       {
-        "text": "NVIDIA: Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-        "itemId": "2cd92b812c13525a",
-        "lab": "nvidia"
+        "text": "Anthropic: How the Claude Code team does code review",
+        "itemId": "7fd7e06ab2f4b840",
+        "lab": "anthropic"
+      },
+      {
+        "text": "Anthropic: How an Anthropic Japan BDR runs his day with a fleet of Claude agents",
+        "itemId": "ce8bd23968211e78",
+        "lab": "anthropic"
       },
       {
         "text": "Meta AI: How Meta Built Forum With AI-Native Engineering",
         "itemId": "6a8d51049e32b398",
         "lab": "meta"
-      },
-      {
-        "text": "Google DeepMind: Accelerating the search for antimicrobial peptides with Google Antigravity",
-        "itemId": "1d4cff712a9a1281",
-        "lab": "google-deepmind"
       }
     ]
   },

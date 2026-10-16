@@ -1,5 +1,54 @@
 [
   {
+    "id": "7fd7e06ab2f4b840",
+    "lab": "anthropic",
+    "title": "How the Claude Code team does code review",
+    "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+    "sourceId": "anthropic-claude-blog",
+    "sourceName": "Claude Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "firstSeenAt": "2026-10-16T16:45:25.416Z",
+    "updatedAt": "2026-10-16T00:00:00.000Z",
+    "excerpt": "How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.",
+    "summary": "How do you review code at the volume agents produce it?",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 55,
+    "contentHash": "8b2d1c817de9"
+  },
+  {
+    "id": "ce8bd23968211e78",
+    "lab": "anthropic",
+    "title": "How an Anthropic Japan BDR runs his day with a fleet of Claude agents",
+    "url": "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day",
+    "sourceId": "anthropic-claude-blog",
+    "sourceName": "Claude Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "firstSeenAt": "2026-10-16T16:45:25.416Z",
+    "updatedAt": "2026-10-16T00:00:00.000Z",
+    "excerpt": "How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.",
+    "summary": "How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 55,
+    "contentHash": "1f30310a237b"
+  },
+  {
     "id": "8d50ea71de23c3d8",
     "lab": "anthropic",
     "title": "Claude Agent SDK (Python) v0.2.168",
@@ -761,22 +810,24 @@
     "lab": "anthropic",
     "title": "Expanding the Cyber Verification Program",
     "url": "https://anthropic.com/news/cyber-verification-program",
-    "sourceId": "anthropic-news",
-    "sourceName": "Anthropic News",
+    "sourceId": "anthropic-claude-blog",
+    "sourceName": "Claude Blog",
     "sourceType": "rss",
     "trust": "mirror",
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-16T13:46:55.918Z",
-    "excerpt": "Expanding the Cyber Verification Program",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-16T16:45:25.416Z",
+    "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+    "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
-    "tags": [],
+    "tags": [
+      "safety"
+    ],
     "importance": 55,
-    "contentHash": "98d22e0e5a10"
+    "contentHash": "44bc84120fd4"
   },
   {
     "id": "efe52b80d0452b72",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T14:18:12.254Z",
+  "generatedAt": "2026-10-16T16:45:25.416Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 24,
+      "press": 25,
       "outlets": [
         "The Decoder",
         "Search Engine Journal",
@@ -38,6 +38,7 @@
         "Lifehacker",
         "Yahoo Finance UK",
         "Yahoo Finance Singapore",
+        "Yahoo Finance",
         "Forbes",
         "Channel Insider",
         "TechRepublic",
@@ -45,7 +46,7 @@
         "PYMNTS.com"
       ],
       "firstAt": "2026-10-10T10:04:14.000Z",
-      "lastAt": "2026-10-15T23:15:56.000Z",
+      "lastAt": "2026-10-16T15:08:10.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
       "lead": {
         "kind": "official",
@@ -101,7 +102,7 @@
         "nvidia"
       ],
       "official": 1,
-      "press": 6,
+      "press": 7,
       "outlets": [
         "Wccftech",
         "The Decoder",
@@ -118,10 +119,11 @@
         "Technology Org",
         "Nscale",
         "StreetInsider",
-        "LMSYS Org"
+        "LMSYS Org",
+        "Business Wire"
       ],
       "firstAt": "2026-10-15T15:00:00.000Z",
-      "lastAt": "2026-10-15T23:15:05.000Z",
+      "lastAt": "2026-10-16T13:00:00.000Z",
       "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning",
       "lead": {
         "kind": "official",
@@ -196,7 +198,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 37,
+        "count": 38,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -204,7 +206,7 @@
       },
       {
         "name": "Nemotron 3.5 Super",
-        "count": 11,
+        "count": 12,
         "prev": 0,
         "labs": [
           "nvidia"
@@ -221,7 +223,7 @@
       {
         "name": "GPT 6",
         "count": 3,
-        "prev": 4,
+        "prev": 3,
         "labs": [
           "openai"
         ]
@@ -230,60 +232,59 @@
     "topics": [
       {
         "name": "agents",
-        "count": 44,
-        "prev": 31,
+        "count": 46,
+        "prev": 30,
         "labs": [
-          "openai",
           "anthropic",
-          "qwen",
+          "openai",
           "meta",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "bytedance",
-          "nvidia",
-          "ibm"
+          "qwen",
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 31,
-        "prev": 30,
+        "count": 32,
+        "prev": 31,
         "labs": [
-          "openai",
-          "anthropic",
           "google-deepmind",
-          "qwen",
+          "anthropic",
+          "openai",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "bytedance",
-          "nvidia",
-          "ibm"
+          "qwen",
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "reasoning",
         "count": 7,
-        "prev": 6,
+        "prev": 5,
         "labs": [
-          "openai",
           "anthropic",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
       {
         "name": "safety",
         "count": 6,
-        "prev": 6,
+        "prev": 7,
         "labs": [
-          "openai",
-          "anthropic",
           "google-deepmind",
+          "anthropic",
+          "openai",
           "amazon",
           "bytedance",
           "nvidia"
@@ -294,28 +295,39 @@
         "count": 6,
         "prev": 4,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
           "amazon",
           "tencent",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 4,
+        "count": 5,
         "prev": 12,
         "labs": [
-          "openai",
           "google-deepmind",
-          "qwen",
+          "openai",
           "mistral",
           "amazon",
           "tencent",
-          "nvidia",
-          "ibm"
+          "qwen",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "open-source",
+        "count": 4,
+        "prev": 4,
+        "labs": [
+          "anthropic",
+          "meta",
+          "amazon",
+          "nvidia"
         ]
       },
       {
@@ -323,21 +335,10 @@
         "count": 3,
         "prev": 4,
         "labs": [
-          "openai",
           "google-deepmind",
-          "qwen",
-          "amazon"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 3,
-        "prev": 4,
-        "labs": [
-          "anthropic",
-          "meta",
+          "openai",
           "amazon",
-          "nvidia"
+          "qwen"
         ]
       }
     ]
