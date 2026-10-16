@@ -83,6 +83,28 @@
     }
   },
   {
+    "id": "7c4619645630c469",
+    "lab": "microsoft",
+    "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
+    "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms",
+    "sourceId": "azure-blog",
+    "sourceName": "Azure Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T19:00:00.000Z",
+    "firstSeenAt": "2026-10-16T11:33:48.792Z",
+    "updatedAt": "2026-10-14T19:00:00.000Z",
+    "excerpt": "We’re proud to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms . We believe this recognition comes at an important moment for enterprise infrastructure. The question is no longer simply which hypervisor to run. It is how to create a consistent operating model across cloud, datacenter, edge, and sovereign environments. Microsoft addresses that…",
+    "summary": "We’re proud to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms .",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "16b9c3c5edce"
+  },
+  {
     "id": "8a70427187b8981c",
     "lab": "microsoft",
     "title": "Simulating student learning for better AI tutoring",
@@ -389,7 +411,7 @@
     "contentHash": "508a2d739bfa",
     "meta": {
       "likes": 52,
-      "downloads": 503,
+      "downloads": 611,
       "repo": "microsoft/AesCode-32B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -421,7 +443,7 @@
     "contentHash": "4f0bc4169b75",
     "meta": {
       "likes": 64,
-      "downloads": 476,
+      "downloads": 587,
       "repo": "microsoft/AesCode-8B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -664,7 +686,7 @@
     "contentHash": "dedfbfa6454f",
     "meta": {
       "likes": 159,
-      "downloads": 1684,
+      "downloads": 1813,
       "repo": "microsoft/FrogNano-4B-2609",
       "license": "mit"
     }
@@ -695,7 +717,7 @@
     "contentHash": "a578814b8678",
     "meta": {
       "likes": 61,
-      "downloads": 3999,
+      "downloads": 3813,
       "repo": "microsoft/VibeVoice-ASR-Streaming-1.5B",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"
@@ -727,7 +749,7 @@
     "contentHash": "806cdab3e7ad",
     "meta": {
       "likes": 258,
-      "downloads": 2345,
+      "downloads": 2185,
       "repo": "microsoft/VibeVoice-ASR-Streaming-7B",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"
@@ -827,7 +849,7 @@
     "contentHash": "a4e4cd3da320",
     "meta": {
       "likes": 40,
-      "downloads": 256,
+      "downloads": 258,
       "repo": "microsoft/Mage-ViT",
       "pipeline": "image-feature-extraction",
       "license": "mit"
@@ -858,7 +880,7 @@
     "contentHash": "a23d886d9109",
     "meta": {
       "likes": 430,
-      "downloads": 9359,
+      "downloads": 9358,
       "repo": "microsoft/Mage-VL",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -889,7 +911,7 @@
     "contentHash": "3c7a6571567c",
     "meta": {
       "likes": 207,
-      "downloads": 64202,
+      "downloads": 62857,
       "repo": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"

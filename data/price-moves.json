@@ -1,5 +1,187 @@
 [
   {
+    "id": "86196b0c9199c519",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "prompt",
+    "from": 0.018,
+    "to": 0.036,
+    "change": 100
+  },
+  {
+    "id": "1f72c183793c26ee",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "prompt",
+    "from": 0.018,
+    "to": 0.036,
+    "change": 100
+  },
+  {
+    "id": "3dc1c52ecfcc99bc",
+    "modelId": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "prompt",
+    "from": 0.0156,
+    "to": 0.01206,
+    "change": -22.7
+  },
+  {
+    "id": "599da753cdbfa5d2",
+    "modelId": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "completion",
+    "from": 0.7928,
+    "to": 0.9,
+    "change": 13.5
+  },
+  {
+    "id": "15835373bfec26c5",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "prompt",
+    "from": 0.0156,
+    "to": 0.01206,
+    "change": -22.7
+  },
+  {
+    "id": "b36458aa223c6294",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "completion",
+    "from": 0.7928,
+    "to": 0.9,
+    "change": 13.5
+  },
+  {
+    "id": "797caec187a016b9",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "prompt",
+    "from": 0.0072,
+    "to": 0.00612,
+    "change": -15
+  },
+  {
+    "id": "1c49efd4ae454940",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "completion",
+    "from": 0.576,
+    "to": 1.152,
+    "change": 100
+  },
+  {
+    "id": "19aed4ba91c285f0",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "prompt",
+    "from": 0.008,
+    "to": 0.0068,
+    "change": -15
+  },
+  {
+    "id": "80dcbafbb44d4701",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "completion",
+    "from": 0.64,
+    "to": 1.28,
+    "change": 100
+  },
+  {
+    "id": "5e1e59c4f1c0df64",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "completion",
+    "from": 11.588,
+    "to": 11.936,
+    "change": 3
+  },
+  {
+    "id": "f91297e0f49b6d08",
+    "modelId": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "lab": "zai",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "prompt",
+    "from": 0.62,
+    "to": 0.037,
+    "change": -94
+  },
+  {
+    "id": "e5c2dd8f102d36d6",
+    "modelId": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "lab": "zai",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "completion",
+    "from": 2.42,
+    "to": 9,
+    "change": 271.9
+  },
+  {
+    "id": "772b6f6e45f2fbb0",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "prompt",
+    "from": 0.0765,
+    "to": 0.09,
+    "change": 17.6
+  },
+  {
+    "id": "f6c86fe6be77fca4",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "completion",
+    "from": 0.255,
+    "to": 0.3,
+    "change": 17.6
+  },
+  {
+    "id": "466deb166f1de2f3",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "prompt",
+    "from": 0.59,
+    "to": 0.1,
+    "change": -83.1
+  },
+  {
+    "id": "a01667e32c62de3a",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-10-16T11:33:48.792Z",
+    "field": "completion",
+    "from": 0.79,
+    "to": 0.32,
+    "change": -59.5
+  },
+  {
     "id": "4be6283e2af8b503",
     "modelId": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",

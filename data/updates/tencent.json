@@ -1,5 +1,63 @@
 [
   {
+    "id": "e127630b938b3649",
+    "lab": "tencent",
+    "title": "Hy-Memory",
+    "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+    "sourceId": "hunyuan-gh",
+    "sourceName": "GitHub · Tencent-Hunyuan (new repos)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T13:06:56.000Z",
+    "firstSeenAt": "2026-10-16T11:33:48.792Z",
+    "updatedAt": "2026-10-15T13:06:56.000Z",
+    "excerpt": "",
+    "summary": "Tencent created a new public repository: Hy-Memory.",
+    "benefit": "A new open-source project from this lab that you can study or use right away.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 37,
+    "contentHash": "f84bba9f37d6",
+    "meta": {
+      "stars": 108,
+      "repo": "Tencent-Hunyuan/Hy-Memory",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "3da203190003ff2e",
+    "lab": "tencent",
+    "title": "Hy-Memory-30B-A3B",
+    "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T09:52:00.000Z",
+    "firstSeenAt": "2026-10-16T11:33:48.792Z",
+    "updatedAt": "2026-10-15T09:52:00.000Z",
+    "excerpt": "text-generation · license: apache-2.0",
+    "summary": "Tencent published the Hy-Memory-30B-A3B model on Hugging Face for text generation (LLM). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "30B-A3B"
+    ],
+    "importance": 63,
+    "contentHash": "d780f7f18b0b",
+    "meta": {
+      "likes": 40,
+      "downloads": 0,
+      "repo": "tencent/Hy-Memory-30B-A3B",
+      "pipeline": "text-generation",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "87b3bcc2c1234bf9",
     "lab": "tencent",
     "title": "OmniCapBench",
@@ -23,7 +81,7 @@
     "importance": 30,
     "contentHash": "b6ed80950333",
     "meta": {
-      "stars": 5,
+      "stars": 6,
       "repo": "Tencent-Hunyuan/OmniCapBench",
       "language": "Python"
     }
@@ -81,8 +139,8 @@
     "importance": 66,
     "contentHash": "17ed023e66bd",
     "meta": {
-      "likes": 101,
-      "downloads": 1329,
+      "likes": 103,
+      "downloads": 1552,
       "repo": "tencent/Youtu-Parsing-Omni",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -140,7 +198,7 @@
     "importance": 41,
     "contentHash": "160ea336e84d",
     "meta": {
-      "stars": 438,
+      "stars": 455,
       "repo": "Tencent-Hunyuan/Prism",
       "language": "Python"
     }
@@ -170,7 +228,7 @@
     "contentHash": "c86c9e33d02c",
     "meta": {
       "likes": 52,
-      "downloads": 4492,
+      "downloads": 4857,
       "repo": "tencent/WeVisDoc-4B",
       "license": "apache-2.0"
     }
@@ -200,7 +258,7 @@
     "contentHash": "2dd0738488f5",
     "meta": {
       "likes": 29,
-      "downloads": 25394,
+      "downloads": 25723,
       "repo": "tencent/WeVisDoc-2B",
       "license": "apache-2.0"
     }
@@ -315,7 +373,7 @@
     "contentHash": "e57ae848d21c",
     "meta": {
       "likes": 34,
-      "downloads": 627,
+      "downloads": 610,
       "repo": "tencent/EVIE-8B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -346,8 +404,8 @@
     "importance": 63,
     "contentHash": "83b19eefd490",
     "meta": {
-      "likes": 39,
-      "downloads": 1461,
+      "likes": 40,
+      "downloads": 1314,
       "repo": "tencent/EVIE-4.5B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -375,8 +433,8 @@
     "importance": 72,
     "contentHash": "b47e25917303",
     "meta": {
-      "likes": 507,
-      "downloads": 24052,
+      "likes": 508,
+      "downloads": 22997,
       "repo": "tencent/Hy4-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -414,7 +472,7 @@
     "contentHash": "811b13d55f01",
     "meta": {
       "likes": 23,
-      "downloads": 821,
+      "downloads": 824,
       "repo": "tencent/ContextPilot-14B",
       "pipeline": "text-generation",
       "license": "other"
@@ -445,7 +503,7 @@
     "contentHash": "bda3c45fcfa8",
     "meta": {
       "likes": 11,
-      "downloads": 729,
+      "downloads": 733,
       "repo": "tencent/ContextPilot-8B",
       "pipeline": "text-generation",
       "license": "other"
@@ -476,8 +534,8 @@
     "importance": 67,
     "contentHash": "b85706cfb27d",
     "meta": {
-      "likes": 139,
-      "downloads": 5606,
+      "likes": 140,
+      "downloads": 5122,
       "repo": "tencent/WeMM-Embedding-9B",
       "pipeline": "feature-extraction",
       "license": "other"
@@ -509,7 +567,7 @@
     "contentHash": "a5c8029cf366",
     "meta": {
       "likes": 37,
-      "downloads": 3732,
+      "downloads": 3581,
       "repo": "tencent/WeMM-Embedding-4B",
       "pipeline": "feature-extraction",
       "license": "other"
@@ -541,7 +599,7 @@
     "contentHash": "1de4f56d9cf1",
     "meta": {
       "likes": 120,
-      "downloads": 14540,
+      "downloads": 14268,
       "repo": "tencent/WeMM-Embedding-2B",
       "pipeline": "feature-extraction",
       "license": "other"
@@ -572,7 +630,7 @@
     "contentHash": "e9be2dea12c2",
     "meta": {
       "likes": 107,
-      "downloads": 1795,
+      "downloads": 1599,
       "repo": "tencent/AuK-Flash",
       "pipeline": "text-to-speech",
       "license": "mit"
@@ -602,8 +660,8 @@
     "importance": 71,
     "contentHash": "6272c1d7f11c",
     "meta": {
-      "likes": 388,
-      "downloads": 2968,
+      "likes": 389,
+      "downloads": 2695,
       "repo": "tencent/AuK",
       "pipeline": "text-to-speech",
       "license": "mit"
@@ -642,7 +700,7 @@
     "contentHash": "55095458a6ff",
     "meta": {
       "likes": 101,
-      "downloads": 915,
+      "downloads": 878,
       "repo": "tencent/EVIE-Preview-4.5B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -674,7 +732,7 @@
     "contentHash": "788de4e86b4e",
     "meta": {
       "likes": 18,
-      "downloads": 463,
+      "downloads": 455,
       "repo": "tencent/UI-Mate-democua-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -705,8 +763,8 @@
     "importance": 62,
     "contentHash": "91653dd6cf7f",
     "meta": {
-      "likes": 28,
-      "downloads": 850,
+      "likes": 29,
+      "downloads": 843,
       "repo": "tencent/UI-Mate-9B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -737,8 +795,8 @@
     "importance": 66,
     "contentHash": "bb94234d39f8",
     "meta": {
-      "likes": 96,
-      "downloads": 790,
+      "likes": 97,
+      "downloads": 779,
       "repo": "tencent/UI-Mate-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
