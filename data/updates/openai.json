@@ -1,5 +1,27 @@
 [
   {
+    "id": "a72d1e4da6b0e106",
+    "lab": "openai",
+    "title": "Bringing GPT-Rosalind to academic research labs",
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T19:00:00.000Z",
+    "firstSeenAt": "2026-10-16T00:04:24.037Z",
+    "updatedAt": "2026-10-15T19:00:00.000Z",
+    "excerpt": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+    "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [],
+    "importance": 45,
+    "contentHash": "00df3309a255"
+  },
+  {
     "id": "8c1dba505554af8e",
     "lab": "openai",
     "title": "Codex CLI rust v0.163.0",
@@ -11,8 +33,8 @@
     "verified": true,
     "publishedAt": "2026-10-15T18:57:08.000Z",
     "firstSeenAt": "2026-10-15T21:30:26.752Z",
-    "updatedAt": "2026-10-15T18:57:08.000Z",
-    "excerpt": "Release 0.163.0",
+    "updatedAt": "2026-10-16T00:04:24.037Z",
+    "excerpt": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart. ( #52990 , #53429 ) Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. ( #51812 , #51835 ) Configure a leader key in /keymap . The default is Ctrl+X , shortcut hints stay…",
     "summary": "OpenAI shipped Codex CLI rust v0.163.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
@@ -21,7 +43,7 @@
       "coding"
     ],
     "importance": 45,
-    "contentHash": "b2864604974a",
+    "contentHash": "2c25042ab83a",
     "meta": {
       "version": "v0.163.0",
       "semver": "minor",

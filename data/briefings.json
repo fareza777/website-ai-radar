@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-16",
-    "generatedAt": "2026-10-15T21:30:26.752Z",
+    "generatedAt": "2026-10-16T00:04:24.037Z",
     "stats": {
-      "updates24h": 29,
-      "labsActive24h": 11,
+      "updates24h": 23,
+      "labsActive24h": 9,
       "updates7d": 117,
       "newModels7d": 36
     },
     "source": "template",
-    "headline": "29 updates from 11 AI labs in the last 24 hours · 36 model releases this week.",
+    "headline": "23 updates from 9 AI labs in the last 24 hours · 36 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Muse Spark Open model now available on Amazon SageMaker JumpStart",
@@ -20,11 +20,6 @@
         "text": "Mistral AI: Introducing Timestral",
         "itemId": "3a11e60ee8cf431d",
         "lab": "mistral"
-      },
-      {
-        "text": "Anthropic: Code Review is now generally available",
-        "itemId": "b09ae946e685c3f0",
-        "lab": "anthropic"
       },
       {
         "text": "Amazon: Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options",
@@ -40,6 +35,11 @@
         "text": "NVIDIA: Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
         "itemId": "2cd92b812c13525a",
         "lab": "nvidia"
+      },
+      {
+        "text": "Meta AI: How Meta Built Forum With AI-Native Engineering",
+        "itemId": "6a8d51049e32b398",
+        "lab": "meta"
       }
     ]
   },

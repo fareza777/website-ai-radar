@@ -439,36 +439,6 @@
     "unique": "The agents are personal and run on their own computers, packaged as a Mac app.",
     "benefit": "Mac users can try open-source personal agents that act on their own machine."
   },
-  "759a5e8a78b59960": {
-    "summary": "This awesome-jev list indexes public resources for Jev, TypeSafe AI's System One decision model, by decision pattern, with source citations and dated link checks.",
-    "unique": "Entries are checked for links and call-site text on a schedule, and the site is available in English and Chinese.",
-    "benefit": "Developers can look up Jev resources by decision pattern and see when the links were checked."
-  },
-  "fc90db3c5a354c18": {
-    "summary": "awesome-typesafe-jev is a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.",
-    "unique": "It collects demos and outside evaluations alongside the SDKs, not only official links.",
-    "benefit": "Developers evaluating TypeSafe's System One model can start from SDKs, demos, and independent write-ups."
-  },
-  "2d7da9943122530a": {
-    "summary": "awesome-jev from cobanov is a curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions.",
-    "unique": "Every listed project is tied back to a source and built around typed decisions.",
-    "benefit": "Builders looking for real Jev projects can browse a list that cites its sources."
-  },
-  "7c8ac8bb9f83abb6": {
-    "summary": "agents-universe is a shared-agent workspace where project members work together, and the agent writes experience from materials and work back into the project context.",
-    "unique": "It is presented as a digital stand-in that does work, not a question-answering bot.",
-    "benefit": "A project team can share one agent and the context it builds from their materials and work."
-  },
-  "229eca4a8463a2cd": {
-    "summary": "explainroo makes explainer videos and product demos with an AI agent, using a local Kokoro voice, Whisper word timing, and a canvas renderer to turn a script into a narrated MP4.",
-    "unique": "Voice, timing, and rendering stay local, and the project is free and open source.",
-    "benefit": "An agent can turn a script into a narrated video without a paid voice or timing service."
-  },
-  "08ea1ef3c56c7b20": {
-    "summary": "abide makes a coding agent follow all of a project's rules, with hooks, plugins, and skills for Claude Code and Codex.",
-    "unique": "It is a rule-enforcement layer for those coding agents rather than another model.",
-    "benefit": "Teams with written project rules can have Claude Code or Codex apply them during a run."
-  },
   "2c26ee007454d2a2": {
     "summary": "mesh-avatar-studio turns one illustration into an animated 2D mesh avatar using a coding agent and a local editor.",
     "unique": "The animation comes from mesh deformation of a single illustration, including a WebGL path.",
@@ -729,24 +699,54 @@
     "unique": "It is mirrored automatically from Outcrawl's own repository.",
     "benefit": "Developers can use Outcrawl's open-source browser agent from the mirrored repository."
   },
-  "ee16670c255824ed": {
-    "summary": "Seasonal AI agent tutorials from Google Cloud for building production-ready agents.",
-    "unique": "The tutorials use Gemini, ADK, and Vertex AI.",
-    "benefit": "Developers can follow the seasonal tutorials to build agents with Gemini, ADK, and Vertex AI."
+  "68c43d696805912b": {
+    "summary": "DigUp searches a computer by what is inside photos, PDFs, documents, recordings, videos, and code, on device for Mac, Windows, and Linux.",
+    "unique": "It is built on Google DeepMind's EmbeddingGemma 2 and stays on the machine.",
+    "benefit": "People who want file search without uploading content can look across local files on Mac, Windows, or Linux."
   },
-  "c739a6a362dc96b4": {
-    "summary": "Personal agents on Cue that handle tasks, each with its own email, phone number, wallet, and computer.",
-    "unique": "Each agent has its own email, phone number, wallet, and computer to get real work done.",
-    "benefit": "People can hand real work to personal agents that have their own contact points and computer."
+  "0d1137bc27098f73": {
+    "summary": "solid-glass is a design system for AI applications, described as material, physical, tactile, and technical.",
+    "unique": "It targets agent and chat interfaces, with React and shadcn among its topics.",
+    "benefit": "Developers building AI app interfaces can start from a design system made for agent and chat UIs."
   },
-  "9f845188c1f1a8fd": {
-    "summary": "UFO is described as a business agent operating system.",
-    "unique": "It is framed as an operating system for business agents.",
-    "benefit": "Businesses looking for an agent operating system can review UFO."
+  "e920b6b8e9de3c20": {
+    "summary": "my-claude-code-mods is a collection of custom Claude Code mods the author uses.",
+    "unique": "The repo is tagged as Claude Code mods and plugins.",
+    "benefit": "Claude Code users can browse one person's custom mods and plugins."
   },
-  "52150045c3fe59ae": {
-    "summary": "Factory Droids automate coding, testing, and deployment with AI coding agents.",
-    "unique": "The same agents are aimed at both startups and enterprises.",
-    "benefit": "Startups and enterprises can use Factory Droids to automate coding, testing, and deployment."
+  "43ce2405c958ffa7": {
+    "summary": "Autoloom is AI coding with Aegis governance built into execution, including baseline-aware changes and evidence-backed delivery, plus a free desktop client.",
+    "unique": "You choose the model, and governance is part of execution rather than a separate check.",
+    "benefit": "Developers who want evidence for AI code changes can use the free desktop client with their own model."
+  },
+  "113c2c1fc3b83a25": {
+    "summary": "Cedric is an AI employee that connects to a team's tools, remembers company and workflow context, and does work for the whole team.",
+    "unique": "It keeps company and workflow context so the work is for the team, not a single chat.",
+    "benefit": "Teams can hand real work to an AI employee that already knows their tools and context."
+  },
+  "1891e485383b7666": {
+    "summary": "Eney by MacPaw is a proactive AI assistant for Mac and iPhone that finds files, drafts replies, and completes tasks across connected apps.",
+    "unique": "It works across Mac and iPhone apps instead of staying in one chat window.",
+    "benefit": "Mac and iPhone users can ask one assistant to find files, draft replies, and finish tasks in connected apps."
+  },
+  "d497eecc6ef68384": {
+    "summary": "Ladder is an AI assistant for home services sales reps.",
+    "unique": "It is aimed at home services sales reps rather than general office chat.",
+    "benefit": "Home services sales reps can use an assistant built for their selling work."
+  },
+  "dac76288e0cdc6c7": {
+    "summary": "GodHands learns undocumented know-how from the apps a team already uses, shares it with people and AI agents, and builds agents that act on it.",
+    "unique": "It can deploy on-prem and is described as SOC 2 and HIPAA compliant.",
+    "benefit": "Operations teams can turn unwritten app workflows into agents that stay on-prem."
+  },
+  "db5d652b945ce6d3": {
+    "summary": "cloudroom-core is an open-source, self-hostable Rust runtime that runs Claude Code, Codex, and Pi in the cloud.",
+    "unique": "You host the runtime yourself and it runs those coding agents in the cloud.",
+    "benefit": "Teams that want Claude Code, Codex, or Pi off their laptops can self-host this Rust runtime."
+  },
+  "9d78670791f614ae": {
+    "summary": "neckbeard is an agent plugin that scaffolds tested, cost-honest cloud infrastructure from a versioned module catalog.",
+    "unique": "Infrastructure comes from a versioned catalog and is meant to be tested and cost-honest.",
+    "benefit": "Agent users can scaffold cloud infrastructure from a catalog instead of writing each module from scratch."
   }
 }

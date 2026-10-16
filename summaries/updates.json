@@ -166,14 +166,15 @@
     "benefit": "AWS teams can preview agents that stay inside AWS while using OpenAI models and their current access controls."
   },
   "964086eae3922d9e": {
-    "hash": "569df33611c3",
-    "summary": "PixelUMM is an image-to-text model released under an other license.",
-    "benefit": "Developers can try PixelUMM when they need an image-to-text model."
+    "hash": "b721cbc7be2c",
+    "summary": "NVIDIA published PixelUMM on Hugging Face as an any-to-any model under a non-standard license.",
+    "benefit": "Researchers can try NVIDIA's any-to-any PixelUMM weights from Hugging Face."
   },
   "f8d43a544c92978a": {
-    "hash": "5d394fc008a5",
-    "summary": "Cohere discusses multilingual reasoning: when a model explains a wrong answer in a language you do not speak, data mixing is how they unlock in-language reasoning.",
-    "benefit": "Teams building multilingual models can read how data mixing keeps reasoning in the user's language."
+    "hash": "b586ac815599",
+    "summary": "Cohere's Multilingual Bridges post explains how data mixing unlocks in-language reasoning.",
+    "benefit": "People training multilingual models can look at data mixing as a way to get reasoning in a language.",
+    "category": "research"
   },
   "b62a6103b354b89d": {
     "hash": "44d854bbdb85",
@@ -378,9 +379,9 @@
     "benefit": "API developers can design evals and run hillclimb from the claude-api skill instead of tuning by feel."
   },
   "eb1569caa0b7d2c3": {
-    "hash": "98d22e0e5a10",
-    "summary": "The Cyber Verification Program is expanding.",
-    "benefit": "Teams in the Cyber Verification Program can follow this expansion of the program."
+    "hash": "44bc84120fd4",
+    "summary": "Anthropic is launching an expanded Cyber Verification Program that gives qualifying security professionals advanced cyber capabilities and reduced blocking classifiers.",
+    "benefit": "Qualifying security professionals can access stronger cyber capabilities with fewer blocking classifiers."
   },
   "b5006264e8e0669d": {
     "hash": "6cd1600e88f9",
@@ -1242,9 +1243,10 @@
     "category": "api"
   },
   "68fa5d474465cb0d": {
-    "hash": "3b1714be2970",
-    "summary": "Lessons from scaling teams of coding agents describe how those teams can reach the frontier at 30% of the cost, and how they should be organized to work effectively.",
-    "benefit": "Teams running coding agents can use the lessons to organize that work and aim for frontier results at 30% of the cost."
+    "hash": "aaa5a61946ee",
+    "summary": "Cohere shares lessons from scaling teams of coding agents, including reaching the frontier at 30% of the cost.",
+    "benefit": "Teams running many coding agents can apply those lessons to approach frontier results at 30% of the cost.",
+    "category": "developer"
   },
   "b7cd31d958bda34d": {
     "hash": "d40548d57f21",
@@ -1350,5 +1352,197 @@
     "hash": "4d90413759ea",
     "summary": "Strands Agents SDK harness-cli v0.2.1 packages Strands skills for Claude, Codex, and Cursor, and adds a DecisionModel primitive and LLMDecisionModel.",
     "benefit": "CLI users on harness-cli v0.2.1 can install those skills and use the new DecisionModel types."
+  },
+  "e0c0a0e8000237a7": {
+    "hash": "17bbd14c59c2",
+    "summary": "OpenAI’s Core Experimentation team describes using Codex with the GPT-6 family to remove unused code, clean up stale experiments, and improve CI.",
+    "benefit": "Teams maintaining large codebases can use Codex to clear unused code and stale experiments and tighten CI.",
+    "category": "developer"
+  },
+  "cd984aadc77d696e": {
+    "hash": "14611af4f6d6",
+    "summary": "Meta's Muse Spark Open is now on Amazon SageMaker JumpStart, an open-weight coding model for agentic coding, multi-step reasoning, and tool calling on AWS.",
+    "benefit": "AWS customers can run Muse Spark Open on SageMaker JumpStart for long-running coding agents."
+  },
+  "b09ae946e685c3f0": {
+    "hash": "1c74eac39501",
+    "summary": "Claude Code Review is now generally available, aimed at catching more bugs before they reach production.",
+    "benefit": "Teams using Claude can review code for bugs before those bugs ship to production."
+  },
+  "3a11e60ee8cf431d": {
+    "hash": "7ee81d29e7d7",
+    "summary": "Mistral introduced Timestral, a probabilistic forecasting model in four sizes from 5M to 209M parameters that runs on CPU and is zero-shot ready.",
+    "benefit": "Developers can forecast time series with a small CPU-friendly model without task-specific training.",
+    "category": "model"
+  },
+  "68b038d314b22462": {
+    "hash": "c08e0cb0414f",
+    "summary": "Mistral published Timestral-209M on Hugging Face for time-series forecasting under a non-standard license.",
+    "benefit": "Forecasters who need the largest Timestral size can download the 209M checkpoint."
+  },
+  "5f8c840a2b8238f4": {
+    "hash": "417d409580a4",
+    "summary": "Mistral published Timestral-123M on Hugging Face for time-series forecasting under a non-standard license.",
+    "benefit": "Teams that want a mid-size Timestral model can use the 123M checkpoint."
+  },
+  "de4d2b2e3fd66452": {
+    "hash": "fd4a807fe29b",
+    "summary": "Mistral published Timestral-5M on Hugging Face for time-series forecasting under a non-standard license.",
+    "benefit": "Developers who need a tiny forecasting model can start with the 5M checkpoint."
+  },
+  "af2de150ea4eafa2": {
+    "hash": "08356dcbd0c7",
+    "summary": "NVIDIA published NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB, an image-text-to-text model, on Hugging Face under a non-standard license.",
+    "benefit": "Local agent builders can try this Nemotron 3.5 Bolt checkpoint that fits a 24GB setup."
+  },
+  "dfee48ccf5e25adb": {
+    "hash": "bb226bca6d6b",
+    "summary": "Mistral published Timestral-28M on Hugging Face for time-series forecasting under a non-standard license.",
+    "benefit": "Developers can use the 28M Timestral checkpoint when they want a small forecasting model."
+  },
+  "bd88b85afd7a694b": {
+    "hash": "5bded9dd29f9",
+    "summary": "Amazon SageMaker Studio now lets new customers sign up with Google, GitHub, or Apple and land in a configured Studio environment without a traditional AWS account setup.",
+    "benefit": "New AI and ML builders can open SageMaker Studio with an existing Google, GitHub, or Apple login.",
+    "category": "feature"
+  },
+  "d259b094fe0e0621": {
+    "hash": "bc49571e4a7b",
+    "summary": "NVIDIA describes Meta's Muse Spark Open, a coding-focused 816B mixture-of-experts model with 42B active parameters and a 1M token context window, trained on NVIDIA GB300 NVL72.",
+    "benefit": "Teams running agentic coding on NVIDIA GB300 NVL72 can use Muse Spark Open's long context."
+  },
+  "2cd92b812c13525a": {
+    "hash": "efb0c3e53e4e",
+    "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120-billion-parameter model for specialized always-on agents, plus Bolt 74B-A9B 24GB and Bolt E4B 4GB edge models.",
+    "benefit": "Developers can pick a Nemotron 3.5 model for always-on agents or a smaller Bolt model for local workloads."
+  },
+  "b382a6d08a5fad47": {
+    "hash": "6ca45440f150",
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open model for always-on agents that read documents, check sources, follow policy, and call tools.",
+    "benefit": "Enterprise teams can run longer multimodal agent workflows on an open Nemotron 3.5 model."
+  },
+  "c2473d4ae09be869": {
+    "hash": "6f6f69225449",
+    "summary": "IBM published granite-switch-4.1-30b on Hugging Face for text generation under the Apache-2.0 license.",
+    "benefit": "Developers can use this 30B Granite Switch 4.1 checkpoint under Apache-2.0."
+  },
+  "adb326cc5b7a7e48": {
+    "hash": "b3f73903e073",
+    "summary": "IBM published granite-switch-4.1-8b on Hugging Face for text generation under the Apache-2.0 license.",
+    "benefit": "Teams that want a smaller Granite Switch model can use the 8B checkpoint under Apache-2.0."
+  },
+  "227d02ee5d0460b9": {
+    "hash": "9658cf051064",
+    "summary": "Anthropic published an update on independent evaluators.",
+    "benefit": "Readers tracking Anthropic's evaluation process can see the latest note on independent evaluators.",
+    "category": "research"
+  },
+  "1d4cff712a9a1281": {
+    "hash": "d10bdd91d961",
+    "summary": "Google DeepMind describes using Google Antigravity for Science to speed the search for novel antimicrobial peptides.",
+    "benefit": "Scientists hunting antimicrobial peptides can apply Antigravity for Science to that search.",
+    "category": "research"
+  },
+  "6a8d51049e32b398": {
+    "hash": "c1bef4f877b3",
+    "summary": "Meta engineers describe building the Forum app by bringing an AI agent into the development cycle, including codebase changes, frameworks, and internal tooling.",
+    "benefit": "Engineering teams can learn how Meta adapted its process to build Forum with agentic AI.",
+    "category": "developer"
+  },
+  "7d369f9d483c77b3": {
+    "hash": "756e0d856aab",
+    "summary": "Cohere plans to acquire AISLE to advance cyber-resilient sovereign AI.",
+    "benefit": "Organizations watching sovereign AI can follow Cohere's planned AISLE acquisition."
+  },
+  "c434b4915ef947fa": {
+    "hash": "7601d3c20a23",
+    "summary": "Cohere explains how enterprises can measure the return on AI investments.",
+    "benefit": "Enterprise teams can use the post as a guide to judging whether AI spending is paying off."
+  },
+  "d8edd4bb70763221": {
+    "hash": "3269b1269d7c",
+    "summary": "Cohere argues that AI for utilities needs both capability and control.",
+    "benefit": "Utility operators evaluating AI can weigh capability against the control they need to keep."
+  },
+  "4046eeecbe56b543": {
+    "hash": "d561a198cb5f",
+    "summary": "Microsoft Research introduces Magnetar, proof-based computing where a short zero-knowledge proof shows a program ran correctly and can be checked in milliseconds without rerunning it.",
+    "benefit": "Anyone who needs to trust a computed result can check a short proof in milliseconds instead of rerunning the program.",
+    "category": "research"
+  },
+  "fe037d7e5614022e": {
+    "hash": "76a1dcc437ce",
+    "summary": "Web Search on Amazon Bedrock AgentCore is now in US East (Ohio), US West (Oregon), Asia Pacific (Sydney), and AWS GovCloud (US-West), giving agents current web grounding.",
+    "benefit": "Agents in those Regions can ground research, summaries, and answers with managed web search."
+  },
+  "a72d1e4da6b0e106": {
+    "hash": "00df3309a255",
+    "summary": "OpenAI introduced the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools for life sciences research.",
+    "benefit": "Eligible academic labs can get sponsored access to GPT-Rosalind for life sciences work."
+  },
+  "8c1dba505554af8e": {
+    "hash": "2c25042ab83a",
+    "summary": "Codex CLI rust v0.163.0 adds /config to search preferences, lets you send a follow-up while Codex is responding, and adds a leader key in /keymap.",
+    "benefit": "Codex CLI users can change settings from /config and steer a response while it is still running."
+  },
+  "fa14b8f7db4605df": {
+    "hash": "f9d9eea0a054",
+    "summary": "OpenAI marks Teachers' Day with AI for Educators in Brazilian Portuguese and shows how Study Mode can support step-by-step learning.",
+    "benefit": "Teachers using Brazilian Portuguese can try Study Mode for active, step-by-step student learning."
+  },
+  "f6af3e2f5c3e5095": {
+    "hash": "f4fb2ded4f5c",
+    "summary": "OpenAI Agents SDK v0.24.0 exposes MCP annotations on converted tools and supports run-wide tool exception formatting.",
+    "benefit": "Python agent developers can read MCP annotations on tools and format tool exceptions across a run."
+  },
+  "fe14b59114454d2d": {
+    "hash": "6a41532e9693",
+    "summary": "Microsoft Agent Framework python v1.22.0 adds Python 3.15 support for the core framework, with some packages and extras still limited by upstream dependencies.",
+    "benefit": "Python developers on 3.15 can use the core agent-framework package after checking each extra they rely on."
+  },
+  "6626e386d54752bd": {
+    "hash": "43479cdacc11",
+    "summary": "NVIDIA is expanding advanced technology access for Europe's scientific community through open learning resources, collaborations, and compute.",
+    "benefit": "Smaller labs and early-career scientists in Europe can get more of a path to accelerated computing."
+  },
+  "dfc34f77da0f5666": {
+    "hash": "93ebbe2075d9",
+    "summary": "Cohere discusses agent sprawl and how enterprises can manage a growing number of agents.",
+    "benefit": "Enterprise teams adding many agents can use the post to plan how they keep that growth under control."
+  },
+  "8d50ea71de23c3d8": {
+    "hash": "e903d8efe547",
+    "summary": "Claude Agent SDK (Python) v0.2.168 updates the bundled Claude CLI to version 2.1.301.",
+    "benefit": "Python users of the Claude Agent SDK can install 0.2.168 to pick up Claude CLI 2.1.301."
+  },
+  "371a0b09d710d8e9": {
+    "hash": "eab19585ae87",
+    "summary": "Claude Code v2.1.301 adds a usage-limit wait cap for unattended retry, OpenTelemetry guidance in the claude-api skill, and a vim-mode percent motion to jump to a matching bracket.",
+    "benefit": "Claude Code users can stop unattended retries that would wait too long and jump between brackets in vim mode."
+  },
+  "88dca9de836d4f1f": {
+    "hash": "0dea62297f6c",
+    "summary": "Qwen Code desktop v0.25.2 includes managed-agent fixes, a lead mailbox over Session messages, and a test failure report explorer.",
+    "benefit": "Desktop users of Qwen Code can update to 0.25.2 for more robust managed agents and a failure report explorer."
+  },
+  "c3683fecef772db0": {
+    "hash": "aadcd4206556",
+    "summary": "Qwen Code v0.25.2 adds a lead mailbox over Session messages, a private extension that imports Vitest 3.2 JSON reports into MCP tools, and opt-in headless Mods.",
+    "benefit": "Qwen Code users can search Vitest 3.2 failures through MCP tools and run opt-in headless Mods."
+  },
+  "f73a784465a3604c": {
+    "hash": "412189085af6",
+    "summary": "Qwen Code sdk-typescript v0.1.20 bundles CLI version 0.25.2, built from the same branch as the SDK.",
+    "benefit": "TypeScript SDK users can install 0.1.20 to stay aligned with Qwen Code CLI 0.25.2."
+  },
+  "a55eba07e5537f74": {
+    "hash": "44905d6e13df",
+    "summary": "Strands Agents SDK python v1.61.1 drops reasoning blocks a target model rejects when history crosses model families, and surfaces a subagent's stop reason.",
+    "benefit": "Python Strands users can keep Bedrock history when switching model families without rejected reasoning blocks."
+  },
+  "89b8f2a76261d6fd": {
+    "hash": "e1f7b95f8756",
+    "summary": "Strands Agents SDK harness-python v0.3.1 includes the same Bedrock reasoning-block fix and surfaces a subagent's stop reason.",
+    "benefit": "Harness users on v0.3.1 get the cross-family Bedrock history fix and a clearer subagent stop reason."
   }
 }
