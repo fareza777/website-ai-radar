@@ -1,5 +1,34 @@
 [
   {
+    "id": "0c6e6f470183a107",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.302",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-16T20:53:06.000Z",
+    "firstSeenAt": "2026-10-16T21:19:28.792Z",
+    "updatedAt": "2026-10-16T20:53:06.000Z",
+    "excerpt": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off Added a notice to /design-sync and /design-login that standalone Claude Design (claude.ai/design)…",
+    "summary": "Anthropic shipped Claude Code v2.1.302 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "be5b93d0c295",
+    "meta": {
+      "version": "v2.1.302",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "7fd7e06ab2f4b840",
     "lab": "anthropic",
     "title": "How the Claude Code team does code review",
@@ -817,7 +846,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-16T16:45:25.416Z",
+    "updatedAt": "2026-10-16T21:19:28.792Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",

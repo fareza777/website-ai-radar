@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:45:25.416Z",
+  "generatedAt": "2026-10-16T21:19:28.792Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 25,
+      "press": 27,
       "outlets": [
         "The Decoder",
         "Search Engine Journal",
@@ -24,8 +24,8 @@
         "The Next Web",
         "Ars Technica",
         "CNET",
-        "The GitHub Blog",
         "Techzine Global",
+        "The GitHub Blog",
         "Reuters",
         "CNBC",
         "Mashable",
@@ -46,11 +46,49 @@
         "PYMNTS.com"
       ],
       "firstAt": "2026-10-10T10:04:14.000Z",
-      "lastAt": "2026-10-16T15:08:10.000Z",
+      "lastAt": "2026-10-16T19:11:49.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
       "lead": {
         "kind": "official",
         "id": "66cb1e68848fee2d"
+      },
+      "importance": 100
+    },
+    {
+      "id": "3b6b85c81106ab13",
+      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+      "entity": "Nemotron 3.5 Super",
+      "labs": [
+        "nvidia",
+        "amazon"
+      ],
+      "official": 2,
+      "press": 6,
+      "outlets": [
+        "Wccftech",
+        "The Decoder",
+        "https://tech-insider.org/",
+        "Yahoo Finance",
+        "MarkTechPost",
+        "SQ Magazine",
+        "ZDNET",
+        "Prime Intellect",
+        "Business Wire",
+        "Techzine Global",
+        "Startup Fortune",
+        "Unite.AI",
+        "巴士的報",
+        "Technology Org",
+        "Nscale",
+        "StreetInsider",
+        "LMSYS Org"
+      ],
+      "firstAt": "2026-10-15T15:00:00.000Z",
+      "lastAt": "2026-10-16T17:59:00.000Z",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
+      "lead": {
+        "kind": "official",
+        "id": "3b6b85c81106ab13"
       },
       "importance": 100
     },
@@ -93,43 +131,6 @@
         "id": "1d78f09c640d45a5"
       },
       "importance": 90
-    },
-    {
-      "id": "b382a6d08a5fad47",
-      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-      "entity": "Nemotron 3.5 Super",
-      "labs": [
-        "nvidia"
-      ],
-      "official": 1,
-      "press": 7,
-      "outlets": [
-        "Wccftech",
-        "The Decoder",
-        "https://tech-insider.org/",
-        "Yahoo Finance",
-        "MarkTechPost",
-        "SQ Magazine",
-        "ZDNET",
-        "Prime Intellect",
-        "巴士的報",
-        "Techzine Global",
-        "Startup Fortune",
-        "Unite.AI",
-        "Technology Org",
-        "Nscale",
-        "StreetInsider",
-        "LMSYS Org",
-        "Business Wire"
-      ],
-      "firstAt": "2026-10-15T15:00:00.000Z",
-      "lastAt": "2026-10-16T13:00:00.000Z",
-      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning",
-      "lead": {
-        "kind": "official",
-        "id": "b382a6d08a5fad47"
-      },
-      "importance": 85
     },
     {
       "id": "c4d6082c07a1abcc",
@@ -182,7 +183,8 @@
       "press": 1,
       "outlets": [
         "Evertiq",
-        "بوابة التكنولوجيا المالية"
+        "بوابة التكنولوجيا المالية",
+        "WebWire"
       ],
       "firstAt": "2026-10-15T00:00:00.000Z",
       "lastAt": "2026-10-15T12:32:59.000Z",
@@ -191,14 +193,14 @@
         "kind": "official",
         "id": "7d369f9d483c77b3"
       },
-      "importance": 62
+      "importance": 64
     }
   ],
   "trending": {
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 38,
+        "count": 40,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -206,9 +208,10 @@
       },
       {
         "name": "Nemotron 3.5 Super",
-        "count": 12,
+        "count": 13,
         "prev": 0,
         "labs": [
+          "amazon",
           "nvidia"
         ]
       },
@@ -232,17 +235,17 @@
     "topics": [
       {
         "name": "agents",
-        "count": 46,
-        "prev": 30,
+        "count": 48,
+        "prev": 32,
         "labs": [
           "anthropic",
           "openai",
           "meta",
           "cohere",
-          "amazon",
-          "microsoft",
-          "bytedance",
           "qwen",
+          "amazon",
+          "bytedance",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -250,17 +253,17 @@
       {
         "name": "coding",
         "count": 32,
-        "prev": 31,
+        "prev": 35,
         "labs": [
-          "google-deepmind",
           "anthropic",
+          "google-deepmind",
           "openai",
           "mistral",
           "cohere",
-          "amazon",
-          "microsoft",
-          "bytedance",
           "qwen",
+          "amazon",
+          "bytedance",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -268,7 +271,7 @@
       {
         "name": "reasoning",
         "count": 7,
-        "prev": 5,
+        "prev": 6,
         "labs": [
           "anthropic",
           "cohere",
@@ -282,11 +285,26 @@
         "count": 6,
         "prev": 7,
         "labs": [
-          "google-deepmind",
           "anthropic",
+          "google-deepmind",
           "openai",
           "amazon",
           "bytedance",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "multimodal",
+        "count": 6,
+        "prev": 12,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "tencent",
+          "qwen",
+          "amazon",
+          "ibm",
           "nvidia"
         ]
       },
@@ -298,30 +316,15 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "amazon",
           "tencent",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "multimodal",
-        "count": 5,
-        "prev": 12,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "mistral",
           "amazon",
-          "tencent",
-          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "open-source",
-        "count": 4,
+        "count": 5,
         "prev": 4,
         "labs": [
           "anthropic",
@@ -337,8 +340,8 @@
         "labs": [
           "google-deepmind",
           "openai",
-          "amazon",
-          "qwen"
+          "qwen",
+          "amazon"
         ]
       }
     ]

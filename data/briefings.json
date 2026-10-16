@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-10-17",
+    "generatedAt": "2026-10-16T21:19:28.792Z",
+    "stats": {
+      "updates24h": 10,
+      "labsActive24h": 5,
+      "updates7d": 116,
+      "newModels7d": 35
+    },
+    "source": "template",
+    "headline": "10 updates from 5 AI labs in the last 24 hours · 35 model releases this week.",
+    "bullets": [
+      {
+        "text": "Amazon: Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+        "itemId": "3b6b85c81106ab13",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
+        "itemId": "42200690b98b1f60",
+        "lab": "amazon"
+      },
+      {
+        "text": "Anthropic: How the Claude Code team does code review",
+        "itemId": "7fd7e06ab2f4b840",
+        "lab": "anthropic"
+      },
+      {
+        "text": "Anthropic: How an Anthropic Japan BDR runs his day with a fleet of Claude agents",
+        "itemId": "ce8bd23968211e78",
+        "lab": "anthropic"
+      },
+      {
+        "text": "OpenAI: Stack Overflow for Agents triples signups with ChatGPT plugin",
+        "itemId": "9db4940a53f86840",
+        "lab": "openai"
+      }
+    ]
+  },
+  {
     "date": "2026-10-16",
     "generatedAt": "2026-10-16T16:45:25.416Z",
     "stats": {

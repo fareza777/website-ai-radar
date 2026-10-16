@@ -1,5 +1,30 @@
 [
   {
+    "id": "b365342473574312",
+    "lab": "nvidia",
+    "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
+    "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-16T17:00:00.000Z",
+    "firstSeenAt": "2026-10-16T21:19:28.792Z",
+    "updatedAt": "2026-10-16T17:00:00.000Z",
+    "excerpt": "AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As... AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As a result, the current workflow is split across a laptop, a cloud model API, and a cloud VM…",
+    "summary": "AI agents are changing how software gets built.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 30,
+    "contentHash": "0085b7ff143d"
+  },
+  {
     "id": "d259b094fe0e0621",
     "lab": "nvidia",
     "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
@@ -435,7 +460,7 @@
     "importance": 66,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 103,
+      "likes": 105,
       "downloads": 1137,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1485,7 +1510,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 782,
+      "likes": 783,
       "downloads": 90352,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",

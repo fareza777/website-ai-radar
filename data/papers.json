@@ -6,7 +6,7 @@
     "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understanding. OmniCompass…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 442,
+    "upvotes": 565,
     "org": "vclab-hkpu",
     "githubRepo": "https://github.com/PolyU-VCLab/OmniCompass",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -18,7 +18,7 @@
     "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 377,
+    "upvotes": 450,
     "org": null,
     "githubRepo": "https://github.com/hhhbxloveai/WaypointOPD",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -30,7 +30,7 @@
     "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 244,
+    "upvotes": 265,
     "org": "tongyi-mai",
     "lab": "qwen",
     "githubRepo": "https://github.com/Tongyi-MAI/OpenGCUA",
@@ -43,7 +43,7 @@
     "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 207,
+    "upvotes": 227,
     "org": "deeplethe",
     "githubRepo": "https://github.com/deeplethe/fde-gym",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -67,7 +67,7 @@
     "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 184,
+    "upvotes": 186,
     "org": "zgcagi",
     "githubRepo": "https://github.com/zgcagi/Harness-RSI",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -79,7 +79,7 @@
     "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 137,
+    "upvotes": 139,
     "org": "mindlab-research",
     "githubRepo": "https://github.com/Fr0zenCrane/MJev-Spatial",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -115,7 +115,7 @@
     "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 97,
+    "upvotes": 98,
     "org": "universityofsoutherncalifornia",
     "githubRepo": "https://github.com/gaoypeng/3dcodeverse",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -127,7 +127,7 @@
     "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL training across mobile…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 91,
+    "upvotes": 92,
     "org": "tongyi-mai",
     "lab": "qwen",
     "githubRepo": "https://github.com/Tongyi-MAI/MAI-Gym",
@@ -152,7 +152,7 @@
     "summary": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a framework that…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 68,
+    "upvotes": 70,
     "org": "naver-ai",
     "githubRepo": "https://github.com/naver-ai/speculative-forcing",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -176,10 +176,21 @@
     "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we introduce…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 46,
+    "upvotes": 47,
     "org": "lark-lab",
     "githubRepo": "https://github.com/LARK-AI-Lab/Mosaic",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "2610.20603",
+    "title": "CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation",
+    "url": "https://huggingface.co/papers/2610.20603",
+    "summary": "We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop Agent (PERL-Agent) distills heterogeneous SKU metadata into concise selling-point text lists through an iterative…",
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "submittedAt": "2026-10-16T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "alibabagroup",
+    "firstSeenAt": "2026-10-16T21:19:28.792Z"
   },
   {
     "id": "2610.19849",
@@ -188,7 +199,7 @@
     "summary": "We propose DeltaStreamer, a novel agentic framework for streaming video understanding inspired by how humans observe, remember, and investigate. Streaming video understanding requires a system to retain evidence before knowing which details future queries will need. Existing approaches often obscure event transitions and omit relevant details when compressing video history, and cannot recover missing visual…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 31,
+    "upvotes": 32,
     "org": "bytedance",
     "lab": "bytedance",
     "githubRepo": "https://github.com/BBBBchan/DeltaStreamer",
@@ -201,22 +212,10 @@
     "summary": "Video generators serve as interactive worlds for exploration and simulation, yet realistic and visually appealing frames do not necessarily depict a consistent 3D world. Existing benchmarks assess selected geometric properties or use vision-language models to judge memory and consistency, leaving systematic 3D evaluation underexplored. We introduce Orbia, the first benchmark dedicated to a systematic and…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 28,
+    "upvotes": 30,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/worldbench/orbia",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.22192",
-    "title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
-    "url": "https://huggingface.co/papers/2610.22192",
-    "summary": "Converting verifier outcomes into useful policy updates and partial progress into complete task resolution is crucial for terminal agents. We present Terminal-RSI, which alternates Recursive Self-Rewrite (RSR) of verified trajectories with critic-inheriting Recursive Policy-Refine (RPR). We formulate Turn-Boundary Skip-Observation GAE (TB-GAE) to retain token-specific baselines while applying decay across…",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 21,
-    "org": "tencent",
-    "lab": "tencent",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -226,9 +225,21 @@
     "summary": "Complex and long-horizon agent tasks often rely on frontier models deployed in the cloud to achieve strong performance. However, using these models for every step of a long-horizon trajectory incurs substantial inference cost, even though not all steps may require the same level of model capability. In this paper, we find that allocating the LLM to only a small subset of key steps can achieve performance comparable…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 20,
+    "upvotes": 23,
     "org": "nvidia",
     "lab": "nvidia",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "2610.22192",
+    "title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+    "url": "https://huggingface.co/papers/2610.22192",
+    "summary": "Converting verifier outcomes into useful policy updates and partial progress into complete task resolution is crucial for terminal agents. We present Terminal-RSI, which alternates Recursive Self-Rewrite (RSR) of verified trajectories with critic-inheriting Recursive Policy-Refine (RPR). We formulate Turn-Boundary Skip-Observation GAE (TB-GAE) to retain token-specific baselines while applying decay across…",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "submittedAt": "2026-10-16T00:00:00.000Z",
+    "upvotes": 22,
+    "org": "tencent",
+    "lab": "tencent",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -244,6 +255,19 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
+    "id": "2610.17901",
+    "title": "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
+    "url": "https://huggingface.co/papers/2610.17901",
+    "summary": "Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the mask a dominant bottleneck. FlashMask's column-wise sparse mask compresses them from O(n^2) to O(n) via four query-axis boundary vectors, covering broad structured patterns. Implemented for Ampere GPUs, it…",
+    "publishedAt": "2026-10-13T00:00:00.000Z",
+    "submittedAt": "2026-10-16T00:00:00.000Z",
+    "upvotes": 4,
+    "org": "baidu",
+    "lab": "baidu",
+    "githubRepo": "https://github.com/PaddlePaddle/FlashMask",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
     "id": "2610.17959",
     "title": "Virtual Head Attention",
     "url": "https://huggingface.co/papers/2610.17959",
@@ -254,19 +278,6 @@
     "org": "baidu",
     "lab": "baidu",
     "githubRepo": "https://github.com/PaddlePaddle/VHA",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.17901",
-    "title": "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
-    "url": "https://huggingface.co/papers/2610.17901",
-    "summary": "Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the mask a dominant bottleneck. FlashMask's column-wise sparse mask compresses them from O(n^2) to O(n) via four query-axis boundary vectors, covering broad structured patterns. Implemented for Ampere GPUs, it…",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 3,
-    "org": "baidu",
-    "lab": "baidu",
-    "githubRepo": "https://github.com/PaddlePaddle/FlashMask",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -335,7 +346,7 @@
     "summary": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using error recognition to…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 76,
+    "upvotes": 77,
     "org": null,
     "githubRepo": "https://github.com/kzhao5/CriticOPD",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -347,7 +358,7 @@
     "summary": "A recommendation request on Reddit draws several replies, each naming different titles. When an LLM recommender is trained on such threads with reinforcement learning (RL), which replies should a generated list be rewarded against? The state-of-the-art recipe, Rank-GRPO, picks one reply per training example, so the advantage mostly records which reply was drawn (85% of its variance) rather than how good the list is…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 67,
+    "upvotes": 69,
     "org": "nanyangtechnologicaluniversity",
     "githubRepo": "https://github.com/LiXin97/ReMaRk",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -383,7 +394,7 @@
     "summary": "Recursive self-improvement (RSI) in scientific research aims to improve agents' research capabilities through their own experimental experience. Scientific agent swarms can combine evidence and implementations from different research directions to guide their agents' subsequent experiments. However, poor experimental results can leave unclear whether to revise a hypothesis or its implementation, while overall…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 64,
+    "upvotes": 65,
     "org": null,
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
@@ -470,7 +481,7 @@
     "summary": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, we introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. We adapt pretrained multimodal large language models (MLLMs) by replacing autoregressive answer decoding with a shared head that scores temporal…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 342,
+    "upvotes": 345,
     "org": "mcg-nju",
     "githubRepo": "https://github.com/MCG-NJU/VideoJev",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -482,7 +493,7 @@
     "summary": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 289,
+    "upvotes": 291,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/LiQiiiii/Jeva",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -494,7 +505,7 @@
     "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework for incentivizing…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 195,
+    "upvotes": 197,
     "org": "ruc-nlpir",
     "githubRepo": "https://github.com/RUC-NLPIR/Agent-Reflex",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -506,7 +517,7 @@
     "summary": "City-scale 3D grounding is commonly formulated as candidate ranking, which requires precomputed instance proposals and becomes inefficient in large outdoor scenes. We propose Urbex, an agentic vision-language framework that instead casts grounding as active spatial search. Urbex represents a city-scale 3D scene as an interactive multi-view environment, allowing a VLM agent to query landmarks, zoom into local…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 120,
+    "upvotes": 121,
     "org": "alibabagroup",
     "githubRepo": "https://github.com/AMAP-ML/Urbex",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -518,7 +529,7 @@
     "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 118,
+    "upvotes": 120,
     "org": "microsoft",
     "lab": "microsoft",
     "githubRepo": "https://github.com/microsoft/AesCode",
@@ -542,7 +553,7 @@
     "summary": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth…",
     "publishedAt": "2026-10-09T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 96,
+    "upvotes": 100,
     "org": "google",
     "lab": "google-deepmind",
     "githubRepo": "https://github.com/google-research/harness2",
@@ -555,7 +566,7 @@
     "summary": "A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model for robotics…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 92,
+    "upvotes": 95,
     "org": "sberroboticscenter",
     "githubRepo": "https://github.com/greenvla/GreenWAM",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -567,7 +578,7 @@
     "summary": "Proximal Policy Optimization (PPO) is widely used in reinforcement learning with verifiable rewards for language-model reasoning. While value evolution along trajectory characterizes relative token-level credit, yet standard critics often fail to track it under sparse terminal rewards. To model this evolution, we analyze the relation between successive prefix values and show that they admit a Bayesian decomposition…",
     "publishedAt": "2026-10-12T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 86,
+    "upvotes": 88,
     "org": null,
     "githubRepo": "https://github.com/LINs-lab/TPPO",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -579,7 +590,7 @@
     "summary": "Scaling interactive environments is important for training long-horizon agents through reinforcement learning. These environments often require further testing and refinement after initial generation, and correcting defects in a task may also require updating its work context and verifier. However, existing construction pipelines offer limited support for such iterative refinement while keeping these components…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 82,
+    "upvotes": 83,
     "org": "nex-agi",
     "githubRepo": "https://github.com/workrover/WorkRover",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -597,6 +608,17 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
+    "id": "2610.15166",
+    "title": "ExeWorldBench: Benchmarking Code-Based Executable 3D World Modeling",
+    "url": "https://huggingface.co/papers/2610.15166",
+    "summary": "Coding agents are increasingly evolving beyond reproducing what a world looks like toward constructing executable worlds that capture how a world works. This shift calls for executable world modeling, which integrates two core capabilities: world understanding, reasoning about the underlying structural, mechanical, and causal principles of a world, and executable realization, translating that understanding into a…",
+    "publishedAt": "2026-10-10T00:00:00.000Z",
+    "submittedAt": "2026-10-14T00:00:00.000Z",
+    "upvotes": 76,
+    "org": "ustc-community",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
     "id": "2610.13990",
     "title": "DoSA: Dots Sparse Attention",
     "url": "https://huggingface.co/papers/2610.13990",
@@ -609,24 +631,13 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
-    "id": "2610.15166",
-    "title": "ExeWorldBench: Benchmarking Code-Based Executable 3D World Modeling",
-    "url": "https://huggingface.co/papers/2610.15166",
-    "summary": "Coding agents are increasingly evolving beyond reproducing what a world looks like toward constructing executable worlds that capture how a world works. This shift calls for executable world modeling, which integrates two core capabilities: world understanding, reasoning about the underlying structural, mechanical, and causal principles of a world, and executable realization, translating that understanding into a…",
-    "publishedAt": "2026-10-10T00:00:00.000Z",
-    "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 71,
-    "org": "ustc-community",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
     "id": "2610.16811",
     "title": "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
     "url": "https://huggingface.co/papers/2610.16811",
     "summary": "Chest X-ray (CXR) interpretation often requires integrating visual findings with task-specific evidence rather than relying on direct visual recognition alone. While tool-augmented medical agents can supply such evidence via external modules, they often lack explicit mechanisms for learning when auxiliary evidence is needed and for preventing inapplicable quantitative evidence from entering diagnostic reasoning. To…",
     "publishedAt": "2026-10-12T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 69,
+    "upvotes": 71,
     "org": "carnegiemellonu",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
@@ -637,7 +648,7 @@
     "summary": "Joint-embedding predictive architectures (JEPAs) learn compact latent world models without pixel reconstruction. Existing JEPA pipelines typically train visual representations and action-conditioned dynamics before adding a control policy or solver. We introduce LeWAM, an end-to-end JEPA for control with: (1) a joint training objective over next latent state prediction and action flow matching, and (2) an isotropic…",
     "publishedAt": "2026-10-08T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 69,
+    "upvotes": 70,
     "org": "lewam",
     "githubRepo": "https://github.com/MinghaoFu/lewam",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -649,7 +660,7 @@
     "summary": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear. We introduce the Last Secure Code Benchmark, a comprehensive evaluation of secure code generation by coding agents. Built from 150 real vulnerabilities, its 450 tasks span seven widely used languages (Java, C, C++, JavaScript, Python, PHP, and Go), 24 CWEs including 21 of the 2025 CWE Top 25 and 8 of the Top 10…",
     "publishedAt": "2026-10-10T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 67,
+    "upvotes": 69,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/alibaba/last-secure-code-benchmark",
@@ -662,21 +673,10 @@
     "summary": "Rubric-based reinforcement learning (Rubric-RL) trains language models where no verifier exists. A judge checks each criterion of a rubric, and the verdicts are aggregated into a reward, most often by a weighted sum. We show that this additive aggregation is the weak point. Under a sum, criteria compensate for one another: a policy that misses the one decision that matters can buy the points back with advice nobody…",
     "publishedAt": "2026-09-30T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 63,
+    "upvotes": 65,
     "org": "bytedance",
     "lab": "bytedance",
     "githubRepo": "https://github.com/Estrellajer/ProRubric",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.15028",
-    "title": "UltraBERT: Beyond the Limit of BERT Pre-Training",
-    "url": "https://huggingface.co/papers/2610.15028",
-    "summary": "Recent bidirectional encoders have been modernized with innovations from causal large language models (LLMs). However, the pretraining recipe itself remains inherited from small-scale conventions, leaving encoders underoptimized, with no single model performing competitively across both classification and retrieval tasks. In this work, we investigate how far encoder performance can be pushed by revisiting core…",
-    "publishedAt": "2026-10-10T00:00:00.000Z",
-    "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 63,
-    "org": null,
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -686,9 +686,20 @@
     "summary": "Multi-player interactive world models aim to simulate shared environments from multiple players' perspectives, but achieving robust generation while scaling to more players remains challenging. Existing approaches that rely on fully-connected communication (e.g., Solaris) incur quadratic attention costs as the number of players grows, while centralized approaches (e.g., γ-World) suffer from interference between…",
     "publishedAt": "2026-10-12T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 61,
+    "upvotes": 65,
     "org": "tencentarc",
     "githubRepo": "https://github.com/TencentARC/Multics",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "2610.15028",
+    "title": "UltraBERT: Beyond the Limit of BERT Pre-Training",
+    "url": "https://huggingface.co/papers/2610.15028",
+    "summary": "Recent bidirectional encoders have been modernized with innovations from causal large language models (LLMs). However, the pretraining recipe itself remains inherited from small-scale conventions, leaving encoders underoptimized, with no single model performing competitively across both classification and retrieval tasks. In this work, we investigate how far encoder performance can be pushed by revisiting core…",
+    "publishedAt": "2026-10-10T00:00:00.000Z",
+    "submittedAt": "2026-10-14T00:00:00.000Z",
+    "upvotes": 64,
+    "org": null,
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -698,8 +709,19 @@
     "summary": "Determining whether an image is AI-generated does not establish whether the situation it depicts is factually supported. We formulate Image Factuality Assessment: given an image and a generic verification instruction, a system returns a supported or refuted verdict with an evidence-grounded explanation. Without a supplied textual claim, the system must progressively refine factual questions during investigation and…",
     "publishedAt": "2026-10-10T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 53,
     "org": null,
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "2610.01496",
+    "title": "SALD: Self-Referenced Advantage Learning for Diffusion Models",
+    "url": "https://huggingface.co/papers/2610.01496",
+    "summary": "Recent work on language-model adaptation has shown that single models can obtain informative training signals by evaluating their behavior in demonstrationor feedback-augmented contexts, with the help of a teacher network, which is driven by the student's learned parameters. Inspired by this internal-reference principle, we investigate how diffusion models can identify self-referenced training signals without…",
+    "publishedAt": "2026-10-07T00:00:00.000Z",
+    "submittedAt": "2026-10-14T00:00:00.000Z",
+    "upvotes": 53,
+    "org": "iitk",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -712,17 +734,6 @@
     "upvotes": 52,
     "org": "uoft-cs",
     "githubRepo": "https://github.com/KooroshRH/AReA",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.01496",
-    "title": "SALD: Self-Referenced Advantage Learning for Diffusion Models",
-    "url": "https://huggingface.co/papers/2610.01496",
-    "summary": "Recent work on language-model adaptation has shown that single models can obtain informative training signals by evaluating their behavior in demonstrationor feedback-augmented contexts, with the help of a teacher network, which is driven by the student's learned parameters. Inspired by this internal-reference principle, we investigate how diffusion models can identify self-referenced training signals without…",
-    "publishedAt": "2026-10-07T00:00:00.000Z",
-    "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 52,
-    "org": "iitk",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -744,7 +755,7 @@
     "summary": "Recent advances in vision-language models (VLMs) have substantially improved the capabilities of GUI agents, while memory augmentation has emerged as a promising approach for reusing knowledge from past interactions. However, existing memory augmented GUI agents typically adopt a fixed representation strategy, providing retrieved experience as a static modality. It remains unclear whether a single memory modality is…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 42,
     "org": "koreauniversity",
     "githubRepo": "https://github.com/dmis-lab/SwitchMem",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -756,7 +767,7 @@
     "summary": "Large language model agents are emerging as an important new class of users of desktop applications. However, existing desktop interfaces were designed for human end users or application developers, leaving agents to interpret visual controls or discover and compose low-level software operations. This mismatch can hinder even capable agents, yet it remains unclear what interface properties make desktop software…",
     "publishedAt": "2026-10-11T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 25,
+    "upvotes": 26,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/co-evolve-lab/ANIS",
@@ -769,7 +780,7 @@
     "summary": "Few-step distillation reduces the sampling cost of diffusion and flow models, but existing approaches often require auxiliary score models or specialized architectures. We show that simple on-policy velocity regression already provides a strong foundation for 4-NFE generation. To represent teacher velocity variation within each coarse transition, we introduce Pivot, a training-only residual proxy that separates…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 19,
+    "upvotes": 22,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -793,7 +804,7 @@
     "summary": "Deep research (DR) agents address open-ended information needs through multi-step reasoning, long-horizon web search, and evidence synthesis. However, existing benchmarks primarily focus on academic research or synthetic tasks, leaving DR agents' capabilities in real-world life and professional productivity settings insufficiently evaluated. To bridge this gap, we introduce LifeSearch, a challenging benchmark…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 17,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"

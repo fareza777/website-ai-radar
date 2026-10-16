@@ -15,8 +15,8 @@
     "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
     "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50091788",
-    "points": 945,
-    "comments": 618,
+    "points": 946,
+    "comments": 619,
     "at": "2026-10-14T17:45:23Z",
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
@@ -36,7 +36,7 @@
     "title": "OpenCode 2.0",
     "url": "https://anoma.ly/notes/opencode-2-0/",
     "hnUrl": "https://news.ycombinator.com/item?id=50094994",
-    "points": 874,
+    "points": 877,
     "comments": 382,
     "at": "2026-10-14T20:48:24Z",
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
@@ -57,19 +57,30 @@
     "title": "Anthropic's Scion is heavily inspired by Mononoke",
     "url": "https://sunshowers.io/posts/anthropic-mononoke/",
     "hnUrl": "https://news.ycombinator.com/item?id=50094694",
-    "points": 423,
+    "points": 424,
     "comments": 161,
     "at": "2026-10-14T20:30:54Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
+    "id": "50122800",
+    "title": "Claude reveals ECDSA curve origins",
+    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+    "hnUrl": "https://news.ycombinator.com/item?id=50122800",
+    "points": 397,
+    "comments": 165,
+    "at": "2026-10-16T18:55:59Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-16T21:19:28.792Z"
+  },
+  {
     "id": "50097369",
     "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
     "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
     "hnUrl": "https://news.ycombinator.com/item?id=50097369",
-    "points": 286,
-    "comments": 80,
+    "points": 287,
+    "comments": 81,
     "at": "2026-10-14T23:59:37Z",
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
@@ -79,7 +90,7 @@
     "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
     "hnUrl": "https://news.ycombinator.com/item?id=50106738",
     "points": 249,
-    "comments": 82,
+    "comments": 86,
     "at": "2026-10-15T17:05:19Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -117,6 +128,17 @@
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
   {
+    "id": "50118688",
+    "title": "Show HN: Gemini 4 Argon plays StarCraft",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50118688",
+    "points": 162,
+    "comments": 74,
+    "at": "2026-10-16T14:18:44Z",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-10-16T16:45:25.416Z"
+  },
+  {
     "id": "50085323",
     "title": "TV4 postpones show after AI agent erases edited material",
     "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
@@ -127,12 +149,33 @@
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
   {
+    "id": "50122112",
+    "title": "Anthropic assigned highest junk credit rating in June",
+    "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+    "hnUrl": "https://news.ycombinator.com/item?id=50122112",
+    "points": 137,
+    "comments": 42,
+    "at": "2026-10-16T18:11:42Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-16T21:19:28.792Z"
+  },
+  {
+    "id": "50085553",
+    "title": "AI-assisted PCB design for KiCad 10",
+    "url": "https://github.com/mixelpixx/Konnect",
+    "hnUrl": "https://news.ycombinator.com/item?id=50085553",
+    "points": 125,
+    "comments": 46,
+    "at": "2026-10-14T10:51:37Z",
+    "firstSeenAt": "2026-10-16T16:45:25.416Z"
+  },
+  {
     "id": "50090842",
     "title": "Linus Torvalds's first LLM-assisted patch series",
     "url": "https://lwn.net/Articles/1100449/",
     "hnUrl": "https://news.ycombinator.com/item?id=50090842",
     "points": 122,
-    "comments": 109,
+    "comments": 110,
     "at": "2026-10-14T16:55:07Z",
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
@@ -141,30 +184,42 @@
     "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
     "url": "https://pulseos.finance/",
     "hnUrl": "https://news.ycombinator.com/item?id=50080275",
-    "points": 119,
+    "points": 121,
     "comments": 71,
     "at": "2026-10-13T23:13:23Z",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "50122951",
+    "title": "How the Claude Code team does code review",
+    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50122951",
+    "points": 113,
+    "comments": 104,
+    "at": "2026-10-16T19:04:47Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-16T21:19:28.792Z"
   },
   {
     "id": "50088534",
     "title": "AI is mass decompiling games. That's both awesome and scary",
     "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
     "hnUrl": "https://news.ycombinator.com/item?id=50088534",
-    "points": 108,
-    "comments": 167,
+    "points": 109,
+    "comments": 168,
     "at": "2026-10-14T14:47:44Z",
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
   {
-    "id": "50085553",
-    "title": "AI-assisted PCB design for KiCad 10",
-    "url": "https://github.com/mixelpixx/Konnect",
-    "hnUrl": "https://news.ycombinator.com/item?id=50085553",
-    "points": 93,
-    "comments": 33,
-    "at": "2026-10-14T10:51:37Z",
-    "firstSeenAt": "2026-10-16T16:45:25.416Z"
+    "id": "50122431",
+    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+    "url": "https://github.com/cobanov/PS5LM",
+    "hnUrl": "https://news.ycombinator.com/item?id=50122431",
+    "points": 107,
+    "comments": 31,
+    "at": "2026-10-16T18:32:35Z",
+    "lab": "meta",
+    "firstSeenAt": "2026-10-16T21:19:28.792Z"
   },
   {
     "id": "50077703",
@@ -220,14 +275,14 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
-    "id": "50118688",
-    "title": "Show HN: Gemini 4 Argon plays StarCraft",
-    "url": "https://starskirmish.com/bench/v0-2/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50118688",
-    "points": 63,
-    "comments": 42,
-    "at": "2026-10-16T14:18:44Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-10-16T16:45:25.416Z"
+    "id": "50121562",
+    "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
+    "url": "https://news.ycombinator.com/item?id=50121562",
+    "hnUrl": "https://news.ycombinator.com/item?id=50121562",
+    "points": 73,
+    "comments": 26,
+    "at": "2026-10-16T17:31:42Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-16T21:19:28.792Z"
   }
 ]
