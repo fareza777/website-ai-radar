@@ -4,10 +4,12 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, CheckCircle2, ExternalLink, XCircle } from "lucide-react";
 import { CoveragePill } from "@/components/coverage-pill";
 import { LabLogo } from "@/components/lab-logo";
+import { FollowButton } from "@/components/follow-button";
+import { LabStreams } from "@/components/lab-streams";
 import { LabTimeline } from "@/components/lab-timeline";
 import { TimeAgo } from "@/components/time-ago";
 import { getLab, LABS } from "@/config/labs";
-import { getLabItems, getLabStats, getStatus, toFeedItem } from "@/lib/data";
+import { getLabItems, getLabPapers, getLabPress, getLabSocial, getLabStats, getStatus, toFeedItem } from "@/lib/data";
 import { hostname } from "@/lib/format";
 import { siteUrl } from "@/lib/site";
 
@@ -68,6 +70,7 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
             <div className="flex flex-wrap items-center gap-2">
               <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">{lab.name}</h1>
               <CoveragePill coverage={lab.coverage} />
+              <FollowButton slug={lab.slug} name={lab.name} variant="pill" />
             </div>
             <p className="mt-0.5 text-sm text-muted-foreground">{lab.tagline}</p>
             <a href={lab.website} target="_blank" rel="noopener noreferrer" className="mt-1.5 inline-flex items-center gap-1 text-sm text-brand hover:underline">
@@ -121,7 +124,12 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
         </details>
       </header>
 
-      <LabTimeline slug={lab.slug} items={items.map(toFeedItem)} dataTime={status?.generatedAt ?? new Date(0).toISOString()} />
+      <LabStreams
+        press={getLabPress(slug)}
+        social={getLabSocial(slug)}
+        papers={getLabPapers(slug)}
+        official={<LabTimeline slug={lab.slug} items={items.map(toFeedItem)} dataTime={status?.generatedAt ?? new Date(0).toISOString()} />}
+      />
     </div>
   );
 }

@@ -2,16 +2,19 @@ import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { BUZZ } from "../../src/config/buzz";
 import { LABS } from "../../src/config/labs";
+import { labFromHandle } from "../../src/config/signals";
 import type { Signal, SourceStatus, XQuote } from "../../src/lib/types";
 import type { Candidate } from "./candidate";
 import { parseFeed } from "./feed";
-import { errorMessage, fetchJson } from "./http";
+import { errorMessage, fetchJson, pool } from "./http";
 import { daysAgo, decodeEntities, normalizeUrl, parseDate, safeHttpUrl, safeRegex, stripHtml, truncate } from "./text";
 
 // ---------------------------------------------------------------- helpers
 
 const LAB_HOSTS = LABS.flatMap((l) => l.domains.filter((d) => !d.includes("/")));
 const LAB_HANDLES = new Set<string>(BUZZ.labHandles.map((h) => h.toLowerCase()));
+/** Official lab accounts (config/signals LAB_SOCIAL) — their posts feed the Social stream, not Discover. */
+const isLabHandle = (h: string) => LAB_HANDLES.has(h.toLowerCase()) || labFromHandle(h) !== undefined;
 const X_STATUS = /^https:\/\/(?:www\.|mobile\.)?(?:x|twitter)\.com\/([A-Za-z0-9_]{1,15})\/status\/(\d+)/;
 const GH_REPO = /^https:\/\/github\.com\/(?!\.+\/)([\w.-]+)\/(?!\.+\/?$)([\w.-]+)\/?$/i;
 const AI_RELEVANT = /(\bai\b|\bagents?\b|agentic|\bllms?\b|\bmodels?\b|gpt|claude|codex|gemini|cursor|automat|inference|machine learning|copilot|chatbot|\brag\b|\bmcp\b|open[- ]source|embedding|voice|prompt|vibe[- ]cod)/i;
@@ -179,7 +182,7 @@ async function fromNewsletters(now: Date): Promise<NewsletterResult> {
         if (!href) continue;
         const x = X_STATUS.exec(href);
         if (x) {
-          if (!LAB_HANDLES.has(x[1].toLowerCase())) xPosts.push({ url: href, signal });
+          xPosts.push({ url: href, signal });
           continue;
         }
         // Product mentions are short proper names ("Executor", "Rhem") linking to a homepage or repo.
@@ -310,7 +313,20 @@ async function fromHfSpaces(): Promise<Candidate[]> {
 
 // ---------------------------------------------------------------- orchestration
 
+export interface BuzzPost {
+  quote: XQuote;
+  links: string[];
+  via: "newsletter" | "tip" | "x-api";
+  tip?: TipRef;
+}
+
+export const THREADS_POST = /^https:\/\/(?:www\.)?threads\.(?:net|com)\/@([A-Za-z0-9._]+)\/post\/([A-Za-z0-9_-]+)/;
+
 export interface BuzzOutput {
+  /** Every X post read through oEmbed this run (feeds the Social stream). */
+  posts: BuzzPost[];
+  /** Tips pointing at Threads posts (link-only: Threads oEmbed needs an app token). */
+  threadsTips: TipRef[];
   candidates: Candidate[];
   /** Websites/repos needing full candidate construction by discover.ts (GitHub repos use its repo API). */
   repoSightings: { fullName: string; signal: Signal; quote?: XQuote }[];
@@ -324,12 +340,14 @@ export interface KnownLookup {
   (key: string): { name: string; description: string; url: string } | undefined;
 }
 
-export async function collectBuzz(now: Date, known: KnownLookup, log: (m: string) => void): Promise<BuzzOutput> {
+export async function collectBuzz(now: Date, known: KnownLookup, log: (m: string) => void, knownPosts: ReadonlySet<string> = new Set()): Promise<BuzzOutput> {
   const nowIso = now.toISOString();
   const statuses: SourceStatus[] = [];
   const sightings: Sighting[] = [];
   const xQueue: { url: string; signal: Signal; tip?: TipRef }[] = [];
   const tipResults: BuzzOutput["tipResults"] = [];
+  const posts: BuzzPost[] = [];
+  const threadsTips: TipRef[] = [];
   const candidates: Candidate[] = [];
 
   const track = async (id: string, name: string, target: string, fn: () => Promise<number | null>) => {
@@ -380,33 +398,43 @@ export async function collectBuzz(now: Date, known: KnownLookup, log: (m: string
     return posts.length;
   });
 
-  // Read X posts via oEmbed (tips first, then the rest), de-duplicated and capped.
-  const seenPosts = new Set<string>();
+  // Read X posts via oEmbed (tips first, then the rest). Posts ingested in an earlier run are skipped BEFORE the
+  // per-run cap is applied, so every run moves on to posts it has not seen instead of re-reading the newest ones.
   const queue = [...xQueue.filter((q) => q.tip), ...xQueue.filter((q) => !q.tip)];
-  let xRead = 0;
+  const picked: typeof queue = [];
+  const seenIds = new Set<string>();
+  for (const q of queue) {
+    if (THREADS_POST.test(q.url)) {
+      if (q.tip) threadsTips.push(q.tip);
+      continue;
+    }
+    const id = X_STATUS.exec(q.url)?.[2];
+    if (!id || seenIds.has(id)) continue;
+    seenIds.add(id);
+    if (!q.tip && knownPosts.has(id)) continue;
+    if (picked.length < BUZZ.maxXPosts) picked.push(q);
+  }
   await track("buzz-x-oembed", "X posts via official oEmbed", "publish.twitter.com", async () => {
-    for (const q of queue) {
-      const id = X_STATUS.exec(q.url)?.[2];
-      if (!id || seenPosts.has(id) || xRead >= BUZZ.maxXPosts) continue;
-      seenPosts.add(id);
-      xRead++;
-      const post = await readXPost(q.url).catch(() => null);
+    const read = await pool(picked, 4, async (q) => ({ q, post: await readXPost(q.url).catch(() => null) }));
+    for (const { q, post } of read) {
       if (!post) {
         if (q.tip) tipResults.push({ tip: q.tip, ok: false, reason: "X post could not be read (deleted, private, or age-restricted)" });
         continue;
       }
+      posts.push({ quote: post.quote, links: post.links, via: q.tip ? "tip" : q.signal.source === "newsletter" ? "newsletter" : "x-api", tip: q.tip });
+      // Official lab accounts feed the Social stream only (their products are already tracked as labs).
+      if (isLabHandle(post.quote.handle)) continue;
       const xSignal: Signal = q.signal.source === "tip" ? q.signal : { source: "x", label: `Buzzing on X · @${post.quote.handle}`, url: post.quote.url, value: q.signal.value, at: post.quote.date ?? q.signal.at };
       const extra: Signal[] = q.signal.source === "newsletter" ? [q.signal] : [];
       // Product links from posts must look like a homepage/repo (not an article or episode page).
       const products = post.links.filter((l) => isProductUrl(l) && (host(l) === "github.com" || pathDepth(l) <= 1));
-      if (!products.length && q.tip && !q.tip.url) tipResults.push({ tip: q.tip, ok: false, reason: "The X post has no product link — add the product URL to the tip" });
       for (const url of products.slice(0, 2)) {
         const launch = LAUNCH_WORDS.test(post.quote.text);
         sightings.push({ url, signal: xSignal, quote: post.quote, hint: post.quote.text, launch, at: post.quote.date ?? nowIso });
         for (const s of extra) sightings.push({ url, signal: s, launch, at: s.at });
       }
     }
-    return xRead;
+    return read.length;
   });
 
   // 4) HF trending Spaces.
@@ -473,7 +501,7 @@ export async function collectBuzz(now: Date, known: KnownLookup, log: (m: string
       if (matches) tipResults.push({ tip: t, ok: true, name: meta.name });
     }
   }
-  return { candidates, repoSightings, statuses, tipResults, tips: tipsList, issues };
+  return { posts, threadsTips, candidates, repoSightings, statuses, tipResults, tips: tipsList, issues };
 }
 
 // ---------------------------------------------------------------- GitHub issue write-back
@@ -483,6 +511,7 @@ export interface TipOutcomeLike {
   ok: boolean;
   name?: string;
   reason?: string;
+  where?: "discover" | "social";
 }
 
 /**
@@ -506,7 +535,8 @@ export async function writeBackTips(outcomes: TipOutcomeLike[], issues: GhIssue[
     const labels = new Set(issue.labels.map((l) => l.name));
     try {
       if (o.ok && !labels.has("added")) {
-        await api(`/issues/${issue.number}/comments`, "POST", { body: `✅ Added to AI Radar Discover as **${o.name}** → ${siteUrl}/discover\n\n_Automated reply from the collector._` });
+        const where = o.where === "social" ? { label: "the Social wire", path: "/firehose?s=social" } : { label: "Discover", path: "/discover" };
+        await api(`/issues/${issue.number}/comments`, "POST", { body: `✅ Added to AI Radar ${where.label} as **${o.name}** → ${siteUrl}${where.path}\n\n_Automated reply from the collector._` });
         await api(`/issues/${issue.number}/labels`, "POST", { labels: ["added"] });
         await api(`/issues/${issue.number}`, "PATCH", { state: "closed", state_reason: "completed" });
         log(`[tips] #${issue.number} added (${o.name})`);

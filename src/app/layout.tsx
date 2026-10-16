@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   keywords: ["AI", "LLM", "OpenAI", "Anthropic", "Claude", "Gemini", "DeepSeek", "Qwen", "AI news", "AI labs tracker", "free credits", "AI tools"],
   openGraph: { type: "website", siteName: SITE.name, title: `${SITE.name} — ${SITE.tagline}`, description: SITE.description, locale: "en_US" },
   twitter: { card: "summary_large_image", title: `${SITE.name} — ${SITE.tagline}`, description: SITE.description },
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", types: { "application/atom+xml": "/feed.xml", "application/feed+json": "/feed.json" } },
 };
 
 export const viewport: Viewport = {
@@ -37,8 +37,8 @@ function SiteFooter() {
   const active = status ? status.sources.filter((s) => !s.skipped) : [];
   const ok = active.filter((s) => s.ok).length;
   return (
-    <footer className="mt-16 border-t pb-24 md:pb-8">
-      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 text-sm text-muted-foreground sm:px-6 md:flex-row md:items-center md:justify-between">
+    <footer className="mt-16 border-t pb-24 lg:pb-8">
+      <div className="mx-auto flex max-w-[1760px] flex-col gap-4 px-4 py-8 text-sm text-muted-foreground sm:px-6 2xl:px-10 md:flex-row md:items-center md:justify-between">
         <div className="space-y-1">
           <p className="font-medium text-foreground">{SITE.name} · {SITE.tagline}</p>
           <p className="max-w-xl text-xs leading-relaxed">
@@ -74,7 +74,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div aria-hidden="true" className="bg-aurora pointer-events-none fixed inset-x-0 top-0 -z-10 h-[38rem]" />
           <div aria-hidden="true" className="bg-grid pointer-events-none fixed inset-x-0 top-0 -z-10 h-[30rem]" />
           <SiteHeader />
-          <main className="mx-auto w-full max-w-7xl flex-1 px-4 pt-6 sm:px-6 sm:pt-8">{children}</main>
+          <main className="mx-auto w-full max-w-[1760px] flex-1 px-4 pt-6 sm:px-6 sm:pt-8 2xl:px-10">{children}</main>
           <SiteFooter />
           <MobileNav />
           <CommandSearch />

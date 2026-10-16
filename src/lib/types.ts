@@ -193,6 +193,10 @@ export interface ModelEntry {
   firstSeenAt: string;
   lastSeenAt: string;
   history: ModelPrice[];
+  /** Last price confirmed over several consecutive snapshots (what `prompt`/`completion` show). */
+  stable?: { prompt: number; completion: number; since: string };
+  /** A different price seen in the latest snapshots, awaiting confirmation. */
+  pending?: { prompt: number; completion: number; runs: number };
 }
 
 export interface PriceMove {
@@ -238,4 +242,141 @@ export interface Briefing {
   headline: string;
   bullets: { text: string; itemId?: string; lab?: string }[];
   stats: { updates24h: number; labsActive24h: number; updates7d: number; newModels7d: number };
+}
+
+// ───────────────────────── Signal streams beyond official lab feeds ─────────────────────────
+
+/** A media report about a lab (Google News). Never treated as official or verified. */
+export interface PressItem {
+  id: string;
+  lab: string;
+  title: string;
+  url: string;
+  outlet: string;
+  publishedAt: string;
+  firstSeenAt: string;
+  /** Distinct outlets that reported the same story (this item is the earliest/representative). */
+  reports: number;
+  outlets: string[];
+  /** Hashes of the article URLs merged into this cluster (prevents double counting across runs). */
+  members: string[];
+}
+
+export interface PaperItem {
+  id: string;
+  title: string;
+  url: string;
+  summary: string;
+  publishedAt: string;
+  submittedAt: string;
+  upvotes: number;
+  /** Hugging Face organization slug when the paper is attributed to one. */
+  org: string | null;
+  /** Tracked lab the organization maps to. */
+  lab?: string;
+  githubRepo?: string;
+  firstSeenAt: string;
+}
+
+export interface PulseItem {
+  id: string;
+  title: string;
+  /** Linked article/product URL (falls back to the HN thread). */
+  url: string;
+  hnUrl: string;
+  points: number;
+  comments: number;
+  at: string;
+  lab?: string;
+  firstSeenAt: string;
+}
+
+export interface StoryCluster {
+  id: string;
+  title: string;
+  entity: string | null;
+  labs: string[];
+  official: number;
+  press: number;
+  outlets: string[];
+  firstAt: string;
+  lastAt: string;
+  /** Link to the most authoritative member (official item when present). */
+  url: string;
+  lead: { kind: "official" | "press"; id: string };
+  importance: number;
+}
+
+export interface TrendingEntry {
+  name: string;
+  count: number;
+  prev: number;
+  labs: string[];
+}
+
+export interface Unconfirmed {
+  id: string;
+  lab: string;
+  title: string;
+  url: string;
+  outlets: string[];
+  reports: number;
+  at: string;
+}
+
+export interface StoriesFile {
+  generatedAt: string;
+  stories: StoryCluster[];
+  trending: { entities: TrendingEntry[]; topics: TrendingEntry[] };
+  unconfirmed: Unconfirmed[];
+}
+
+export type SignalStream = "official" | "press" | "paper" | "community" | "social";
+
+/** A post on X or Threads. Only obtained through official access (oEmbed, X API, Threads API, user/agent tips). */
+export interface SocialPost {
+  /** `${platform}:${postId}` */
+  id: string;
+  platform: "x" | "threads";
+  handle: string;
+  author: string;
+  /** Tracked lab when the handle is one of its official accounts. */
+  lab?: string;
+  /** Post text; empty for link-only entries (e.g. a Threads URL submitted without API access). */
+  text: string;
+  url: string;
+  /** Post time when known, otherwise the time it was first seen. */
+  at: string;
+  exactTime: boolean;
+  likes?: number;
+  reposts?: number;
+  replies?: number;
+  links: string[];
+  via: "newsletter" | "tip" | "x-api" | "threads-api";
+  official: boolean;
+  firstSeenAt: string;
+}
+
+/** Compact row for the Firehose table (keys kept short — the payload is fetched client-side). */
+export interface FirehoseRow {
+  i: string;
+  /** stream */
+  s: SignalStream;
+  /** lab slug ("" when none) */
+  l: string;
+  /** title */
+  t: string;
+  u: string;
+  /** published ISO */
+  a: string;
+  /** category (official only) */
+  c?: string;
+  /** source / outlet / org label */
+  w: string;
+  /** importance / upvotes / points */
+  m: number;
+  /** verified official link */
+  v?: 1;
+  /** extra: reports count (press), comments (community) */
+  x?: number;
 }

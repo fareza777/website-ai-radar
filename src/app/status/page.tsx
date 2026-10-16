@@ -32,7 +32,7 @@ export default function StatusPage() {
   const status = getStatus();
   const stats = new Map(getLabStats().map((s) => [s.slug, s]));
   const by = new Map((status?.sources ?? []).map((s) => [s.id, s]));
-  const extra = (status?.sources ?? []).filter((s) => s.lab === "discover" || s.lab === "deals");
+  const extra = (status?.sources ?? []).filter((s) => s.lab === "discover" || s.lab === "deals" || s.lab === "models" || s.lab === "signals");
   const active = (status?.sources ?? []).filter((s) => !s.skipped);
   const ok = active.filter((s) => s.ok).length;
 
@@ -82,7 +82,11 @@ export default function StatusPage() {
 
       {extra.length > 0 && (
         <section className="card-surface p-4">
-          <h2 className="font-semibold">Discover & Deals</h2>
+          <h2 className="font-semibold">Signals, Discover & Deals</h2>
+          <p className="mt-1 text-xs text-muted-foreground">
+            X and Threads are read only through official access: oEmbed for posts found in newsletters and tips, plus the X API and Threads API when their
+            tokens are configured (greyed rows below). Nothing is scraped.
+          </p>
           <ul className="mt-2 divide-y">
             {extra.map((s) => <Row key={s.id} s={s} />)}
           </ul>

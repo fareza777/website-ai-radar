@@ -1,25 +1,20 @@
 [
   {
     "date": "2026-10-16",
-    "generatedAt": "2026-10-16T11:33:48.792Z",
+    "generatedAt": "2026-10-16T13:46:55.918Z",
     "stats": {
-      "updates24h": 22,
-      "labsActive24h": 11,
-      "updates7d": 116,
+      "updates24h": 19,
+      "labsActive24h": 9,
+      "updates7d": 114,
       "newModels7d": 34
     },
     "source": "template",
-    "headline": "22 updates from 11 AI labs in the last 24 hours · 34 model releases this week.",
+    "headline": "19 updates from 9 AI labs in the last 24 hours · 34 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Muse Spark Open model now available on Amazon SageMaker JumpStart",
         "itemId": "cd984aadc77d696e",
         "lab": "amazon"
-      },
-      {
-        "text": "Mistral AI: Introducing Timestral",
-        "itemId": "3a11e60ee8cf431d",
-        "lab": "mistral"
       },
       {
         "text": "Amazon: Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options",
@@ -40,6 +35,11 @@
         "text": "Meta AI: How Meta Built Forum With AI-Native Engineering",
         "itemId": "6a8d51049e32b398",
         "lab": "meta"
+      },
+      {
+        "text": "Google DeepMind: Accelerating the search for antimicrobial peptides with Google Antigravity",
+        "itemId": "1d4cff712a9a1281",
+        "lab": "google-deepmind"
       }
     ]
   },

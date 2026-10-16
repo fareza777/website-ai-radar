@@ -5,6 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --breakpoint-3xl: 106.25rem;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -159,6 +160,10 @@
   .lab-glow:focus-within::before {
     opacity: 1;
   }
+  .thin-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in oklch, var(--foreground) 22%, transparent) transparent;
+  }
   .no-scrollbar {
     scrollbar-width: none;
   }
@@ -173,6 +178,12 @@
 @keyframes sweep {
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
   }
 }
 

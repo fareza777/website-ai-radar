@@ -2,7 +2,7 @@
  * AI Radar collector — entrypoint.
  *
  *   npm run collect                       # full run (labs + discover + deals + briefing)
- *   npm run collect -- --only=labs        # labs | discover | deals
+ *   npm run collect -- --only=labs        # labs | signals | discover | deals | models
  *   npm run collect -- --lab=openai       # single lab (with --only=labs)
  *   npm run collect -- --backfill-days=90 # window for accepting items (default 90)
  *
@@ -13,10 +13,14 @@ import { LABS } from "../src/config/labs";
 import type { RunStatus, SourceStatus, UpdateItem } from "../src/lib/types";
 import { buildBriefing, saveBriefing } from "./collector/briefing";
 import { collectDeals, saveDeals } from "./collector/deals";
-import { writeBackTips } from "./collector/buzz";
+import { writeBackTips, type BuzzPost, type TipRef } from "./collector/buzz";
+import { collectSocial } from "./collector/social";
 import { collectDiscover, saveDiscover } from "./collector/discover";
 import { collectModels, saveModels } from "./collector/models";
 import { collectStartups, saveStartups } from "./collector/startups";
+import { collectPapers, collectPress, collectPulse, saveSignals } from "./collector/signals";
+import { buildStories } from "./collector/stories";
+import type { PaperItem, PressItem, PulseItem, SocialPost } from "../src/lib/types";
 import { siteUrl } from "../src/lib/site";
 import { errorMessage } from "./collector/http";
 import { collectLabs, loadLabItems, saveLabItems } from "./collector/labs";
@@ -40,7 +44,7 @@ async function main() {
   if (!Number.isInteger(backfillDays) || backfillDays < 1 || backfillDays > 3650) {
     throw new Error(`Invalid --backfill-days: ${arg("backfill-days") ?? process.env.BACKFILL_DAYS}`);
   }
-  if (only && !["labs", "discover", "deals", "models"].includes(only)) throw new Error(`Invalid --only: ${only} (labs | discover | deals | models)`);
+  if (only && !["labs", "signals", "discover", "deals", "models"].includes(only)) throw new Error(`Invalid --only: ${only} (labs | signals | discover | deals | models)`);
   if (labFilter && !LABS.some((l) => l.slug === labFilter)) throw new Error(`Unknown --lab: ${labFilter}`);
   const llm = llmConfig();
   const prev = readJson<RunStatus | null>(dataPath("status.json"), null);
@@ -87,10 +91,29 @@ async function main() {
 
   const allItems = [...labItems.values()].flat();
 
+  // ---------- signals: press, papers, community pulse, stories ----------
+  if (!only || only === "signals" || only === "labs") {
+    try {
+      const [press, papers, pulse] = await Promise.all([collectPress(now, log, prevStatus), collectPapers(now, log, prevStatus), collectPulse(now, log, prevStatus)]);
+      for (const r of [press, papers, pulse]) statuses.set(r.status.id, r.status);
+      log(`[signals] changed=${saveSignals(press.items as PressItem[], papers.items as PaperItem[], pulse.items as PulseItem[])}`);
+      const stories = buildStories(allItems, press.items, now);
+      writeJson(dataPath("stories.json"), stories);
+      log(`[stories] clusters=${stories.stories.length} unconfirmed=${stories.unconfirmed.length} trending=${stories.trending.entities.length}`);
+    } catch (err) {
+      log(`[signals] FAILED (previous data kept): ${errorMessage(err)}`);
+    }
+  }
+
   // ---------- discover ----------
+  let buzzPosts: BuzzPost[] = [];
+  let threadsTips: TipRef[] = [];
   if (!only || only === "discover") {
     try {
-      const res = await collectDiscover(now, log);
+      const knownPosts = new Set(readJson<SocialPost[]>(dataPath("social.json"), []).filter((p) => p.platform === "x").map((p) => p.id.slice(2)));
+      const res = await collectDiscover(now, log, knownPosts);
+      buzzPosts = res.buzzPosts;
+      threadsTips = res.threadsTips;
       let items = res.items;
       if (llm && llm.maxItems > 0) {
         const pending = items.filter((i) => i.summarySource === "template" && i.description).slice(0, 24);
@@ -122,6 +145,16 @@ async function main() {
     }
   }
 
+  // ---------- social: X + Threads (official access only) ----------
+  if (!only || only === "discover" || only === "signals") {
+    try {
+      const res = await collectSocial(now, log, prevStatus, buzzPosts, threadsTips);
+      for (const st of res.statuses) statuses.set(st.id, st);
+    } catch (err) {
+      log(`[social] FAILED (previous data kept): ${errorMessage(err)}`);
+    }
+  }
+
   // ---------- models & price tracker ----------
   if (!only || only === "models" || only === "deals") {
     const res = await collectModels(now, log);
@@ -146,7 +179,7 @@ async function main() {
     log(`[briefing] ${briefing.date} (${briefing.source}) changed=${saveBriefing(briefing)}`);
   }
 
-  const knownIds = new Set([...LABS.flatMap((l) => l.sources.map((s) => s.id)), ...[...statuses.values()].filter((s) => s.lab === "discover" || s.lab === "deals" || s.lab === "models").map((s) => s.id)]);
+  const knownIds = new Set([...LABS.flatMap((l) => l.sources.map((s) => s.id)), ...[...statuses.values()].filter((s) => s.lab === "discover" || s.lab === "deals" || s.lab === "models" || s.lab === "signals").map((s) => s.id)]);
   const status: RunStatus = {
     generatedAt: now.toISOString(),
     durationMs: Date.now() - started,

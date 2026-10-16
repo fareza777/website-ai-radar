@@ -7,8 +7,9 @@ Tempel teks di bawah ini apa adanya sebagai prompt tugas terjadwal di Cursor:
 
 ```text
 Run the AI Radar daily run: follow .cursor/rules/daily-update.mdc exactly, all steps in order
-(collect, fix sources, find up to 5 AI startups buzzing on X as tips, write summaries until
-summaries:check passes, check deals, validate), then commit and push DIRECTLY to main
+(collect, fix sources, find up to 5 AI startups buzzing on X as tips, sweep the labs' official
+X/Threads accounts for notable posts as tips, write summaries until summaries:check passes,
+check deals, validate), then commit and push DIRECTLY to main
 (git push origin HEAD:main) — no branch, no pull request. End with a short report.
 Never edit data/ by hand, never invent facts, never scrape X.
 ```
@@ -20,6 +21,7 @@ Never edit data/ by hand, never invent facts, never scrape X.
 | 1–2 | Sinkron + ambil data terbaru | Feed segar |
 | 3 | Perbaiki sumber yang error | Coverage tetap penuh |
 | 4 | **Riset X**: cari ≤5 startup/tool AI yang ramai, kirim sebagai tip | Muncul di Discover dengan label **Agent pick** + kutipan post X |
+| 4b | **Social sweep**: cari post penting akun resmi lab di X/Threads (48 jam terakhir), kirim sebagai tip | Muncul di **Social wire** dan tab Social tiap lab (otomatis dikaitkan ke lab dari handle-nya) |
 | 5 | **Tulis ringkasan** untuk semua update baru, item Discover, dan Daily Briefing | Ringkasan & "Why it matters" spesifik, briefing editorial |
 | 6 | Cek ulang deals yang belum terverifikasi | Deals tetap akurat |
 | 7 | (Senin) cari feed resmi baru untuk lab berstatus Partial | Coverage naik |

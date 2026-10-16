@@ -1,6 +1,6 @@
 import { DISCOVER } from "../../src/config/discover";
 import type { DiscoverItem, DiscoverKind, Signal, SourceStatus } from "../../src/lib/types";
-import { collectBuzz, type GhIssue, type TipRef } from "./buzz";
+import { collectBuzz, type BuzzPost, type GhIssue, type TipRef } from "./buzz";
 import type { Candidate } from "./candidate";
 import { errorMessage, fetchJson, sleep } from "./http";
 import { dataPath, readJson, writeJson } from "./store";
@@ -268,12 +268,15 @@ export interface TipOutcome {
   ok: boolean;
   name?: string;
   reason?: string;
+  /** Where a successful tip was published (default: Discover). */
+  where?: "discover" | "social";
 }
 
 export async function collectDiscover(
   now: Date,
   log: (m: string) => void,
-): Promise<{ items: DiscoverItem[]; statuses: SourceStatus[]; tipOutcomes: TipOutcome[]; issues: GhIssue[] }> {
+  knownPosts: ReadonlySet<string> = new Set(),
+): Promise<{ items: DiscoverItem[]; statuses: SourceStatus[]; tipOutcomes: TipOutcome[]; issues: GhIssue[]; buzzPosts: BuzzPost[]; threadsTips: TipRef[] }> {
   const nowIso = now.toISOString();
   const file = dataPath("discover.json");
   const existing = readJson<DiscoverItem[]>(file, []);
@@ -314,7 +317,7 @@ export async function collectDiscover(
 
   // Buzz Radar: tips, newsletters that curate AI Twitter, X posts via oEmbed, HF Spaces, optional X API.
   const existingById = new Map(existing.map((i) => [i.id, i]));
-  const buzz = await collectBuzz(now, (key) => existingById.get(shortHash(key)), log);
+  const buzz = await collectBuzz(now, (key) => existingById.get(shortHash(key)), log, knownPosts);
   statuses.push(...buzz.statuses);
   candidates.push(...buzz.candidates);
   const buzzRepos = new Map<string, { signals: Signal[]; quote?: Candidate["quote"] }>();
@@ -429,25 +432,29 @@ export async function collectDiscover(
     .slice(0, DISCOVER.maxItems);
 
   // Tip outcomes drive the GitHub issue write-back ("✅ added" / "needs info").
+  // A tip also counts as published when its X post or Threads link entered the Social stream.
   const tipOutcomes: TipOutcome[] = [];
   const seenTips = new Set<string>();
   const tipKey = (t: TipRef) => String(t.issue ?? t.x ?? t.url);
-  for (const r of buzz.tipResults) {
-    const tipUrl = r.tip.issueUrl ?? r.tip.x ?? r.tip.url;
-    const hit = items.find((i) => i.signals.some((s) => s.source === "tip" && s.url === tipUrl));
-    if (seenTips.has(tipKey(r.tip))) continue;
-    seenTips.add(tipKey(r.tip));
-    tipOutcomes.push(hit ? { tip: r.tip, ok: true, name: hit.name } : { tip: r.tip, ok: false, reason: r.reason });
-  }
-  for (const t of buzz.tips) {
-    if (seenTips.has(tipKey(t))) continue;
+  const socialHit = (t: TipRef): string | undefined => {
+    const post = buzz.posts.find((p) => p.tip && tipKey(p.tip) === tipKey(t));
+    if (post) return `@${post.quote.handle}'s post`;
+    return buzz.threadsTips.some((x) => tipKey(x) === tipKey(t)) ? "Threads post" : undefined;
+  };
+  const settle = (t: TipRef, reason?: string) => {
+    if (seenTips.has(tipKey(t))) return;
     const tipUrl = t.issueUrl ?? t.x ?? t.url;
     const hit = items.find((i) => i.signals.some((s) => s.source === "tip" && s.url === tipUrl));
+    const social = socialHit(t);
     seenTips.add(tipKey(t));
-    tipOutcomes.push(hit ? { tip: t, ok: true, name: hit.name } : { tip: t, ok: false, reason: "Could not find a product page to publish for this tip" });
-  }
+    if (hit) tipOutcomes.push({ tip: t, ok: true, name: hit.name, where: "discover" });
+    else if (social) tipOutcomes.push({ tip: t, ok: true, name: social, where: "social" });
+    else tipOutcomes.push({ tip: t, ok: false, reason: reason ?? "Could not find a product page to publish for this tip" });
+  };
+  for (const r of buzz.tipResults) settle(r.tip, r.reason);
+  for (const t of buzz.tips) settle(t);
 
-  return { items, statuses, tipOutcomes, issues: buzz.issues };
+  return { items, statuses, tipOutcomes, issues: buzz.issues, buzzPosts: buzz.posts, threadsTips: buzz.threadsTips };
 }
 
 export function saveDiscover(items: DiscoverItem[]): boolean {

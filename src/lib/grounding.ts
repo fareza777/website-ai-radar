@@ -13,3 +13,13 @@ export function isGrounded(output: string, source: string): boolean {
   }
   return true;
 }
+
+/** Small, stable, isomorphic content hash (FNV-1a, 32-bit hex) — used to detect that a source changed after summarizing. */
+export function contentHash(text: string): string {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < text.length; i++) {
+    h ^= text.charCodeAt(i);
+    h = Math.imul(h, 0x01000193) >>> 0;
+  }
+  return h.toString(16).padStart(8, "0");
+}

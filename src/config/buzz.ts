@@ -26,7 +26,7 @@ export const BUZZ = {
   ],
   newsletterLookbackDays: 14,
   /** Max X posts read via oEmbed per run (newsletters + X API). */
-  maxXPosts: 30,
+  maxXPosts: 60,
   /** Max product pages fetched for metadata per run (only for new candidates). */
   maxPageFetches: 40,
 

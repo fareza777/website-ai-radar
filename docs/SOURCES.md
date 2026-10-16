@@ -70,6 +70,14 @@ Hapus dari `sources`. Item lama dari `id` sumber itu otomatis dibersihkan pada r
 - **Baru vs trending**: dibuat/diluncurkan ≤ 60 hari = "Benar-benar baru"; lebih lama hanya masuk jika punya momentum (lonjakan stars ≥ 300/minggu dari histori stars, masuk HN/PH, atau watchlist).
 - **Harga**: hanya dari fakta (lisensi open-source). Produk non-OSS ditandai "Belum diverifikasi — cek halaman harga resmi".
 
+## 3b. Signals — `src/config/signals.ts`
+
+- `PRESS_QUERIES`: Google News query per lab (press stream); `PRESS`: window, retention, noise filter.
+- `PAPER_ORGS`: Hugging Face organization → lab for the papers stream.
+- `PULSE`: Hacker News queries and thresholds.
+- `LAB_SOCIAL`: official X/Threads handles per lab (posts from them are attributed to the lab and marked official).
+- `src/config/buzz.ts`: newsletters that curate AI Twitter, excluded domains, optional X API discovery query.
+
 ## 4. Deals — `src/config/deals.ts`
 
 - `CURATED_DEALS`: setiap entri wajib punya `url` resmi dan `mustContain` (regex). Collector mengambil halaman setiap run; status **aktif** hanya jika teks ditemukan, dan kutipannya disimpan sebagai bukti. Gunakan `?hl=en` untuk halaman yang dilokalisasi berdasarkan IP.

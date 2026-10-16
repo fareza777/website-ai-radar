@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { LABS } from "@/config/labs";
 import { overlayBriefings, overlayDiscover, overlayUpdates, type SummaryFiles } from "./summaries";
-import type { Briefing, Deal, DiscoverItem, ModelEntry, PriceMove, RunStatus, StartupNews, UpdateItem } from "./types";
+import type { Briefing, Deal, DiscoverItem, ModelEntry, PaperItem, PressItem, PriceMove, PulseItem, RunStatus, SocialPost, StartupNews, StoriesFile, UpdateItem } from "./types";
 
 /**
  * Server-only data access. Data lives in /data as JSON committed by the collector,
@@ -18,7 +18,8 @@ function load<T>(rel: string, fallback: T, dir = DATA_DIR): T {
   if (cache.has(key)) return cache.get(key) as T;
   let raw: string | null = null;
   try {
-    raw = readFileSync(join(dir, rel), "utf8");
+    // Files are included explicitly via outputFileTracingIncludes (next.config.ts), so skip whole-project tracing.
+    raw = readFileSync(/*turbopackIgnore: true*/ join(/*turbopackIgnore: true*/ dir, rel), "utf8");
   } catch (err) {
     // Only a missing file falls back; any other I/O problem must fail the build.
     if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
@@ -92,9 +93,45 @@ export function getPriceMoves(): PriceMove[] {
 export type ModelRow = Omit<ModelEntry, "history" | "lastSeenAt"> & { history: ModelEntry["history"] };
 
 export function toModelRow(m: ModelEntry): ModelRow {
-  const { lastSeenAt: _seen, ...rest } = m;
+  const { lastSeenAt: _seen, stable: _stable, pending: _pending, ...rest } = m;
   void _seen;
+  void _stable;
+  void _pending;
   return { ...rest, history: m.history.slice(-6) };
+}
+
+export function getPress(): PressItem[] {
+  return load<PressItem[]>("press.json", []);
+}
+
+export function getPapers(): PaperItem[] {
+  return load<PaperItem[]>("papers.json", []);
+}
+
+export function getPulse(): PulseItem[] {
+  return load<PulseItem[]>("pulse.json", []);
+}
+
+const EMPTY_STORIES: StoriesFile = { generatedAt: "", stories: [], trending: { entities: [], topics: [] }, unconfirmed: [] };
+
+export function getStories(): StoriesFile {
+  return load<StoriesFile>("stories.json", EMPTY_STORIES);
+}
+
+export function getSocial(): SocialPost[] {
+  return load<SocialPost[]>("social.json", []);
+}
+
+export function getLabSocial(slug: string): SocialPost[] {
+  return getSocial().filter((p) => p.lab === slug);
+}
+
+export function getLabPress(slug: string): PressItem[] {
+  return getPress().filter((p) => p.lab === slug);
+}
+
+export function getLabPapers(slug: string): PaperItem[] {
+  return getPapers().filter((p) => p.lab === slug);
 }
 
 export function getDeals(): Deal[] {
@@ -139,23 +176,32 @@ export interface LabStat {
   latestAt: string | null;
   /** Daily counts for the last 30 days (oldest → newest), for sparklines. */
   spark: number[];
+  /** Weekly counts for the last 12 weeks (oldest → newest), for the activity heatmap. */
+  weeks: number[];
+  /** Media reports in the last 7 days. */
+  press7: number;
 }
 
 export function getLabStats(): LabStat[] {
   const now = dataTime();
+  const press = getPress();
   return LABS.map((l) => {
     const items = getLabItems(l.slug);
     const spark = new Array<number>(30).fill(0);
+    const weeks = new Array<number>(12).fill(0);
     let last7 = 0;
     let last30 = 0;
     for (const i of items) {
       const age = (now - Date.parse(i.publishedAt)) / 86_400_000;
+      if (age < 0) continue;
       if (age < 7) last7++;
       if (age < 30) {
         last30++;
-        spark[29 - Math.max(0, Math.floor(age))]++;
+        spark[29 - Math.floor(age)]++;
       }
+      if (age < 84) weeks[11 - Math.floor(age / 7)]++;
     }
-    return { slug: l.slug, total: items.length, last7, last30, latestAt: items[0]?.publishedAt ?? null, spark };
+    const press7 = press.filter((p) => p.lab === l.slug && now - Date.parse(p.publishedAt) < 7 * 86_400_000).length;
+    return { slug: l.slug, total: items.length, last7, last30, latestAt: items[0]?.publishedAt ?? null, spark, weeks, press7 };
   });
 }

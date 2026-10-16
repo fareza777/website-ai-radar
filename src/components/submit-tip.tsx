@@ -5,12 +5,12 @@ import { ArrowUpRight, CheckCircle2 } from "lucide-react";
 import { SITE } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
-const X_POST = /^https:\/\/(www\.|mobile\.)?(x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/status\/\d+/;
+const X_POST = /^https:\/\/((www\.|mobile\.)?(x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/status\/\d+|(www\.)?threads\.(net|com)\/@[A-Za-z0-9._]+\/post\/[A-Za-z0-9_-]+)/;
 const HTTP = /^https?:\/\/[^\s]+\.[^\s]+$/;
 
 /** Builds a prefilled GitHub issue (issue-form field ids) — no backend, no secrets in the browser. */
 function issueUrl(x: string, product: string, why: string): string {
-  const label = product ? new URL(product).hostname.replace(/^www\./, "") : x.split("/")[3] ? `@${x.split("/")[3]}` : "tip";
+  const label = product ? new URL(product).hostname.replace(/^www\./, "") : (/\/@?([A-Za-z0-9_.]+)\/(?:status|post)\//.exec(x)?.[1] ?? "tip");
   const q = new URLSearchParams({ template: "radar-tip.yml", title: `Tip: ${label}` });
   if (x) q.set("x_post", x);
   if (product) q.set("product", product);
@@ -26,7 +26,7 @@ export function SubmitTip() {
 
   const xVal = x.trim();
   const productVal = product.trim();
-  const xError = xVal && !X_POST.test(xVal) ? "Use a post link like https://x.com/user/status/123…" : null;
+  const xError = xVal && !X_POST.test(xVal) ? "Use a post link like https://x.com/user/status/123 or https://www.threads.com/@user/post/CODE" : null;
   const productError = productVal && !HTTP.test(productVal) ? "Use a full URL starting with https://" : null;
   const ready = (xVal || productVal) && !xError && !productError;
 
@@ -43,7 +43,7 @@ export function SubmitTip() {
       }}
     >
       <label className="block">
-        <span className="mb-1.5 block text-sm font-medium">X post URL</span>
+        <span className="mb-1.5 block text-sm font-medium">X or Threads post URL</span>
         <input className={cn(field, xError && "border-rose-500")} inputMode="url" placeholder="https://x.com/someone/status/1234567890" value={x} onChange={(e) => setX(e.target.value)} />
         {xError && <span className="mt-1 block text-[13px] text-rose-500">{xError}</span>}
       </label>

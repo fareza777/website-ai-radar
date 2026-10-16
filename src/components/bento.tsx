@@ -38,13 +38,13 @@ function Tile({ title, icon: Icon, href, children, className }: { title: string;
 export function Bento({ topStory, buzz, newModels, moves, freeModels }: BentoProps) {
   const lab = topStory ? LAB_BY_SLUG[topStory.lab] : undefined;
   return (
-    <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+    <div className="grid gap-3 md:grid-cols-2 3xl:grid-cols-12">
       {topStory && lab && (
         <a
           href={extHref(topStory.url)}
           target="_blank"
           rel="noopener noreferrer"
-          className="lab-glow card-surface group relative flex flex-col overflow-hidden p-5 md:col-span-2 xl:row-span-2"
+          className="lab-glow card-surface group relative flex flex-col overflow-hidden p-5 md:col-span-2 3xl:col-span-5"
           style={{ ["--lab" as string]: lab.color }}
         >
           <div aria-hidden="true" className="pointer-events-none absolute -right-16 -top-16 size-56 rounded-full opacity-25 blur-3xl" style={{ background: lab.color }} />
@@ -69,7 +69,7 @@ export function Bento({ topStory, buzz, newModels, moves, freeModels }: BentoPro
         </a>
       )}
 
-      <Tile title="Buzzing now" icon={Megaphone} href="/discover" className="md:col-span-2">
+      <Tile title="Buzzing now" icon={Megaphone} href="/discover" className="md:col-span-2 3xl:col-span-4">
         <ul className="space-y-3">
           {buzz.map((d) => (
             <li key={d.id}>
@@ -85,29 +85,31 @@ export function Bento({ topStory, buzz, newModels, moves, freeModels }: BentoPro
         </ul>
       </Tile>
 
-      <Tile title="New models · 7d" icon={Cpu} href="/models">
-        <ul className="space-y-2.5">
-          {newModels.map((m) => {
-            const l = m.lab ? LAB_BY_SLUG[m.lab] : undefined;
-            return (
-              <li key={m.id} className="flex items-center gap-2 text-[14px]">
-                {l ? <LabLogo logo={l.logo} name={l.name} size="xs" /> : <span className="size-5" />}
-                <a href={`https://openrouter.ai/${m.id}`} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1 truncate font-medium hover:underline">{m.name}</a>
-                <span className="font-mono text-[12px] text-muted-foreground">{m.free ? "Free" : usd(m.prompt)}</span>
-              </li>
-            );
-          })}
-          {!newModels.length && <li className="text-[14px] text-muted-foreground">No new models this week.</li>}
-        </ul>
-      </Tile>
+      <div className="grid gap-3 md:col-span-2 md:grid-cols-2 3xl:col-span-3 3xl:grid-cols-1">
+        <Tile title="New models · 7d" icon={Cpu} href="/models">
+          <ul className="space-y-2.5">
+            {newModels.map((m) => {
+              const l = m.lab ? LAB_BY_SLUG[m.lab] : undefined;
+              return (
+                <li key={m.id} className="flex items-center gap-2 text-[14px]">
+                  {l ? <LabLogo logo={l.logo} name={l.name} size="xs" /> : <span className="size-5" />}
+                  <a href={`https://openrouter.ai/${m.id}`} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1 truncate font-medium hover:underline">{m.name}</a>
+                  <span className="font-mono text-[12px] text-muted-foreground">{m.free ? "Free" : usd(m.prompt)}</span>
+                </li>
+              );
+            })}
+            {!newModels.length && <li className="text-[14px] text-muted-foreground">No new models this week.</li>}
+          </ul>
+        </Tile>
 
-      <Tile title="Price moves" icon={TrendingDown} href="/models">
-        {moves.length ? <PriceMoves moves={moves} limit={3} /> : (
-          <p className="text-[14px] text-muted-foreground">
-            No price changes yet — tracking started recently. <span className="font-medium text-foreground">{freeModels} models</span> are free right now.
-          </p>
-        )}
-      </Tile>
+        <Tile title="Price moves" icon={TrendingDown} href="/models">
+          {moves.length ? <PriceMoves moves={moves} limit={3} /> : (
+            <p className="text-[14px] text-muted-foreground">
+              No price changes yet — tracking started recently. <span className="font-medium text-foreground">{freeModels} models</span> are free right now.
+            </p>
+          )}
+        </Tile>
+      </div>
     </div>
   );
 }

@@ -9,6 +9,7 @@ import type { LabStat } from "@/lib/data";
 import { useRadarState } from "@/lib/storage";
 import { cn } from "@/lib/utils";
 import { CoveragePill } from "./coverage-pill";
+import { FollowButton } from "./follow-button";
 import { SearchInput, Segmented } from "./filters";
 import { LabLogo } from "./lab-logo";
 import { TimeAgo } from "./time-ago";
@@ -71,7 +72,7 @@ export function LabGrid({ stats, dates }: LabGridProps) {
           const s = statBy.get(lab.slug);
           const badge = newCount(lab.slug);
           return (
-            <li key={lab.slug}>
+            <li key={lab.slug} className="relative">
               <Link
                 href={`/labs/${lab.slug}`}
                 className="lab-glow card-surface group flex h-full flex-col p-4 transition hover:-translate-y-0.5 hover:border-foreground/15 hover:shadow-lg hover:shadow-black/5 focus-visible:ring-2 focus-visible:ring-ring"
@@ -113,6 +114,7 @@ export function LabGrid({ stats, dates }: LabGridProps) {
                   {lab.sources.length} sources
                 </div>
               </Link>
+              <FollowButton slug={lab.slug} name={lab.name} className="absolute bottom-2.5 right-2.5" />
             </li>
           );
         })}

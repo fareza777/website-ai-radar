@@ -14,6 +14,7 @@ import { LAB_BY_SLUG, LABS } from "../src/config/labs";
 import { getRawBriefings, getRawDiscover, getRawLabItems } from "../src/lib/data";
 import {
   briefingSummaryProblem,
+  discoverHash,
   discoverSummaryProblem,
   updateSummaryProblem,
   type SummaryFiles,
@@ -55,7 +56,7 @@ function pending() {
   const discover = getRawDiscover()
     .filter((d) => !f.discover[d.id] || discoverSummaryProblem(f.discover[d.id], d))
     .slice(0, Number(arg("discover") ?? 25))
-    .map((d) => ({ id: d.id, name: d.name, kind: d.kind, url: d.url, description: d.description, topics: d.topics ?? [], stars: d.stars ?? null, xPost: d.quote?.text ?? null }));
+    .map((d) => ({ id: d.id, hash: discoverHash(d), name: d.name, kind: d.kind, url: d.url, description: d.description, topics: d.topics ?? [], stars: d.stars ?? null, xPost: d.quote?.text ?? null }));
 
   const latest = getRawBriefings()[0];
   let briefing = null;
@@ -107,6 +108,9 @@ function check() {
     else if (p === "unknown discover id") {
       warnings.push(`discover/${id}: ${p}`);
       if (prune) delete f.discover[id];
+    } else if (p.startsWith("stale") || !e.hash) {
+      // Legacy entries (no hash) cannot be told apart from source drift: the site ignores them; the queue re-offers them.
+      warnings.push(`discover/${id}: ${p}${e.hash ? "" : " (no hash — will be re-queued)"}`);
     } else errors.push(`discover/${id}: ${p}`);
   }
   for (const [date, e] of Object.entries(f.briefing)) {

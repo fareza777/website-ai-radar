@@ -18,11 +18,12 @@ const url = arg("url");
 const note = arg("note");
 const by = arg("by");
 if (!isHttp(x) && !isHttp(url)) {
-  console.error("Usage: npm run tip -- --x <x post url> --url <product url> [--note <text>]");
+  console.error("Usage: npm run tip -- --x <X or Threads post url> --url <product url> [--note <text>] [--by cursor]");
   process.exit(1);
 }
-if (x && !/^https:\/\/(www\.)?(x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/status\/\d+/.test(x)) {
-  console.error("--x must be an X post URL like https://x.com/user/status/123");
+const X_OR_THREADS = /^https:\/\/((www\.|mobile\.)?(x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/status\/\d+|(www\.)?threads\.(net|com)\/@[A-Za-z0-9._]+\/post\/[A-Za-z0-9_-]+)/;
+if (x && !X_OR_THREADS.test(x)) {
+  console.error("--x must be an X post URL (https://x.com/user/status/123) or a Threads post URL (https://www.threads.com/@user/post/CODE)");
   process.exit(1);
 }
 const tips = JSON.parse(readFileSync(file, "utf8")) as Record<string, string>[];

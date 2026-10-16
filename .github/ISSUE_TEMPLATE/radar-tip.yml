@@ -7,12 +7,12 @@ body:
     attributes:
       value: |
         The collector reads the X post via X's official embed (oEmbed), follows its links, verifies the product page,
-        and adds it to **Discover**. Tips from the repo owner are published automatically; others after review.
+        and adds it to **Discover** (posts from official lab accounts go to the **Social wire**; Threads links are stored as link-only). Tips from the repo owner are published automatically; others after review.
   - type: input
     id: x_post
     attributes:
-      label: X post URL
-      description: e.g. https://x.com/someone/status/1234567890
+      label: X or Threads post URL
+      description: e.g. https://x.com/someone/status/1234567890 or https://www.threads.com/@someone/post/ABC123
       placeholder: https://x.com/…/status/…
   - type: input
     id: product

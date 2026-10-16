@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "tsx scripts/build-search-index.ts",
+    "prebuild": "tsx scripts/build-search-index.ts && tsx scripts/build-firehose.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

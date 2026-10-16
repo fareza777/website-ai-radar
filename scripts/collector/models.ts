@@ -1,4 +1,4 @@
-import type { ModelEntry, PriceMove, SourceStatus } from "../../src/lib/types";
+import type { ModelEntry, ModelPrice, PriceMove, SourceStatus } from "../../src/lib/types";
 import { OR_VENDOR } from "./deals";
 import { errorMessage, fetchJson } from "./http";
 import { dataPath, readJson, writeJson } from "./store";
@@ -26,6 +26,36 @@ export function perMillion(v: unknown): number | null {
   return Math.round(n * 1e6 * 1e6) / 1e6;
 }
 
+/** Consecutive snapshots a new price must hold before it counts as a real change. */
+export const CONFIRM_RUNS = 3;
+const same = (a: number, b: number) => Math.abs(a - b) <= 1e-9 * Math.max(1, Math.abs(a), Math.abs(b));
+
+export interface PriceTrack {
+  stable: NonNullable<ModelEntry["stable"]>;
+  pending?: NonNullable<ModelEntry["pending"]>;
+  history: ModelPrice[];
+  /** Set only on the run where a new price has been confirmed. */
+  confirmed?: { from: { prompt: number; completion: number }; to: { prompt: number; completion: number } };
+}
+
+/**
+ * Debounced price tracking: OpenRouter list prices can flap between runs (provider routing, aliases).
+ * A change is only recorded once the same new price has been seen in CONFIRM_RUNS consecutive snapshots.
+ */
+export function trackPrice(prev: Pick<ModelEntry, "prompt" | "completion" | "history" | "firstSeenAt" | "stable" | "pending"> | undefined, cur: { prompt: number; completion: number }, nowIso: string): PriceTrack {
+  if (!prev) return { stable: { ...cur, since: nowIso }, history: [{ at: nowIso, ...cur }] };
+  const stable = prev.stable ?? { prompt: prev.prompt, completion: prev.completion, since: prev.firstSeenAt };
+  const history = prev.history.length ? prev.history : [{ at: stable.since, prompt: stable.prompt, completion: stable.completion }];
+  if (same(cur.prompt, stable.prompt) && same(cur.completion, stable.completion)) return { stable, history };
+  const pending = prev.pending && same(prev.pending.prompt, cur.prompt) && same(prev.pending.completion, cur.completion) ? { ...cur, runs: prev.pending.runs + 1 } : { ...cur, runs: 1 };
+  if (pending.runs < CONFIRM_RUNS) return { stable, pending, history };
+  return {
+    stable: { ...cur, since: nowIso },
+    history: [...history, { at: nowIso, ...cur }],
+    confirmed: { from: { prompt: stable.prompt, completion: stable.completion }, to: cur },
+  };
+}
+
 export async function collectModels(now: Date, log: (m: string) => void): Promise<{ models: ModelEntry[]; moves: PriceMove[]; status: SourceStatus }> {
   const nowIso = now.toISOString();
   const prevModels = readJson<ModelEntry[]>(dataPath("models.json"), []);
@@ -40,51 +70,52 @@ export async function collectModels(now: Date, log: (m: string) => void): Promis
     const models: ModelEntry[] = [];
 
     for (const m of res.data) {
-      if (m.id.startsWith("openrouter/") || m.id.endsWith(":batch")) continue;
+      // Router aliases ("~vendor/model-latest") re-point to different models/providers, so their listed price is not a price change.
+      if (m.id.startsWith("openrouter/") || m.id.startsWith("~") || m.id.endsWith(":batch")) continue;
       const prompt = perMillion(m.pricing?.prompt);
       const completion = perMillion(m.pricing?.completion);
       if (prompt === null || completion === null) continue; // no verifiable price → not listed
       const prev = prevById.get(m.id);
-      const history = [...(prev?.history ?? [])];
-      const last = history.at(-1);
-      if (!last || last.prompt !== prompt || last.completion !== completion) history.push({ at: nowIso, prompt, completion });
+      const tracked = trackPrice(prev, { prompt, completion }, nowIso);
+      const vendor = m.id.split("/")[0];
 
-      if (prev) {
-        for (const field of ["prompt", "completion"] as const) {
-          const from = prev[field];
-          const to = field === "prompt" ? prompt : completion;
-          if (from === to || (from === 0 && to === 0)) continue;
-          const change = from === 0 ? 100 : ((to - from) / from) * 100;
-          if (from !== 0 && Math.abs(change) < MIN_CHANGE * 100) continue;
-          moves.push({
-            id: shortHash(`${m.id}:${field}:${nowIso}`),
-            modelId: m.id,
-            name: m.name,
-            ...(OR_VENDOR[m.id.split("/")[0]] ? { lab: OR_VENDOR[m.id.split("/")[0]] } : {}),
-            at: nowIso,
-            field,
-            from,
-            to,
-            change: Math.round(change * 10) / 10,
-          });
-        }
+      for (const field of ["prompt", "completion"] as const) {
+        const c = tracked.confirmed;
+        if (!c) break;
+        const from = c.from[field];
+        const to = c.to[field];
+        if (from === to) continue;
+        const change = from === 0 ? 100 : ((to - from) / from) * 100;
+        if (from !== 0 && Math.abs(change) < MIN_CHANGE * 100) continue;
+        moves.push({
+          id: shortHash(`${m.id}:${field}:${nowIso}`),
+          modelId: m.id,
+          name: m.name,
+          ...(OR_VENDOR[vendor] ? { lab: OR_VENDOR[vendor] } : {}),
+          at: nowIso,
+          field,
+          from,
+          to,
+          change: Math.round(change * 10) / 10,
+        });
       }
 
-      const vendor = m.id.split("/")[0];
       models.push({
         id: m.id,
         name: m.name,
         vendor,
         ...(OR_VENDOR[vendor] ? { lab: OR_VENDOR[vendor] } : {}),
         contextLength: m.context_length ?? null,
-        prompt,
-        completion,
-        free: prompt === 0 && completion === 0,
+        prompt: tracked.stable.prompt,
+        completion: tracked.stable.completion,
+        free: tracked.stable.prompt === 0 && tracked.stable.completion === 0,
         modalities: [...new Set([...(m.architecture?.input_modalities ?? []), ...(m.architecture?.output_modalities ?? [])])],
         createdAt: m.created ? parseDate(m.created)?.toISOString() ?? null : null,
         firstSeenAt: prev?.firstSeenAt ?? nowIso,
         lastSeenAt: nowIso,
-        history: history.slice(-HISTORY_MAX),
+        history: tracked.history.slice(-HISTORY_MAX),
+        stable: tracked.stable,
+        ...(tracked.pending ? { pending: tracked.pending } : {}),
       });
     }
 

@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       only:
-        description: "Run a single stage: labs | discover | deals | models (empty = all)"
+        description: "Run a single stage: labs | signals | discover | deals | models (empty = all)"
         required: false
         default: ""
       backfill_days:
@@ -56,6 +56,7 @@ jobs:
           LLM_MAX_ITEMS: ${{ vars.LLM_MAX_ITEMS }}
           PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           TIPS_WRITEBACK: "1"
           NEXT_PUBLIC_SITE_URL: ${{ vars.SITE_URL || 'https://ai-radar-lilac.vercel.app' }}
           EVENT_NAME: ${{ github.event_name }}
@@ -68,7 +69,7 @@ jobs:
           ARGS="--backfill-days=$BACKFILL"
           case "$INPUT_ONLY" in
             "") ;;
-            labs|discover|deals|models) ARGS="$ARGS --only=$INPUT_ONLY" ;;
+            labs|signals|discover|deals|models) ARGS="$ARGS --only=$INPUT_ONLY" ;;
             *) echo "Invalid 'only' input"; exit 1 ;;
           esac
           if [ "$EVENT_NAME" = "issues" ]; then ARGS="$ARGS --only=discover"; fi

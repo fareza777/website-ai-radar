@@ -26,11 +26,15 @@ interface State {
   readAllBefore: string | null;
   labVisits: Record<string, string>;
   lastVisit: string | null;
+  /** Lab slugs the user follows ("My Radar"). */
+  follows: string[];
+  /** Feed density preference. */
+  density: "cards" | "compact";
 }
 
 const KEY = "ai-radar:v1";
 const MAX_READ = 4000;
-const EMPTY: State = { bookmarks: {}, read: [], readAllBefore: null, labVisits: {}, lastVisit: null };
+const EMPTY: State = { bookmarks: {}, read: [], readAllBefore: null, labVisits: {}, lastVisit: null, follows: [], density: "cards" };
 
 let state: State = EMPTY;
 let loaded = false;
@@ -49,6 +53,8 @@ function readStorage(): State {
       readAllBefore: typeof parsed.readAllBefore === "string" ? parsed.readAllBefore : null,
       labVisits: parsed.labVisits && typeof parsed.labVisits === "object" ? parsed.labVisits : {},
       lastVisit: typeof parsed.lastVisit === "string" ? parsed.lastVisit : null,
+      follows: Array.isArray(parsed.follows) ? parsed.follows.filter((x) => typeof x === "string") : [],
+      density: parsed.density === "compact" ? "compact" : "cards",
     };
   } catch {
     return EMPTY;
@@ -117,6 +123,17 @@ export function removeBookmark(id: string) {
   const { [id]: _removed, ...rest } = state.bookmarks;
   void _removed;
   commit({ ...state, bookmarks: rest });
+}
+
+export function toggleFollow(slug: string) {
+  ensureLoaded();
+  const follows = state.follows.includes(slug) ? state.follows.filter((s) => s !== slug) : [...state.follows, slug];
+  commit({ ...state, follows });
+}
+
+export function setDensity(density: State["density"]) {
+  ensureLoaded();
+  commit({ ...state, density });
 }
 
 export function markRead(id: string) {

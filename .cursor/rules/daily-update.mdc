@@ -42,6 +42,18 @@ Goal: surface AI products that people are talking about on X in the last ~48h, l
 - Then publish them: `npm run collect -- --only=discover`, and confirm each appears in `data/discover.json`
   (if a tip did not appear, its page could not be loaded — leave it, do not force it).
 
+## 3b. Social sweep (official lab accounts on X and Threads)
+Goal: make sure important posts from the labs' own accounts reach the **Social wire** (they are often announcements that never get a blog post).
+- Official handles are listed in `src/config/signals.ts` (`LAB_SOCIAL`). Use web search (never log in to or scrape X/Threads), e.g. `"<handle>" site:x.com` plus the lab name and "announcing", for posts from the last 48h.
+- For each notable post (launch, release, pricing, outage notice, research drop) that is NOT already in `data/social.json` (search by post id):
+  ```bash
+  npm run tip -- --x <post url> --note "<one factual line>" --by cursor
+  ```
+  Posts from a tracked handle are attributed to the lab automatically and go to the Social wire (not Discover). Threads post URLs are accepted too (stored link-only).
+- Verify the handle list: if an official account has changed its handle or a lab has a new official account, update `LAB_SOCIAL` in `src/config/signals.ts`.
+- Then run `npm run collect -- --only=discover` and confirm the posts appear in `data/social.json`.
+- If `data/status.json` shows `signals-x-api` / `signals-threads-api` as skipped, mention in the report that API tokens are not configured (coverage = newsletters + tips only).
+
 ## 4. Write summaries (the main editorial job)
 ```bash
 npm run summaries:pending
@@ -59,7 +71,7 @@ Read `summaries/pending.json` and write entries into these files (merge with exi
 
 **`summaries/discover.json`** — for every item in `pending.discover`:
 ```json
-"<id>": { "summary": "What it does", "unique": "What sets it apart", "benefit": "Who benefits and how" }
+"<id>": { "hash": "<hash from pending>", "summary": "What it does", "unique": "What sets it apart", "benefit": "Who benefits and how" }
 ```
 
 **`summaries/briefing.json`** — if `pending.briefing` is not null:
@@ -119,5 +131,5 @@ git push origin HEAD:main
 - Never hand-edit `data/**/*.json`. Data changes only via `npm run collect`.
 - Never invent news, products, dates, prices, numbers, or quotes. If unsure, leave it out.
 - Never scrape or log in to X; X posts enter only via `npm run tip` (read later through X's official oEmbed).
-- Only write to: `summaries/*.json`, `src/config/tips.json` (via `npm run tip`), `src/config/labs.ts`, `src/config/deals.ts`.
+- Only write to: `summaries/*.json`, `src/config/tips.json` (via `npm run tip`), `src/config/labs.ts`, `src/config/deals.ts`, `src/config/signals.ts` (only the `LAB_SOCIAL` handle lists).
 - Do not change application code, workflows, or tests during the daily run — report suggestions instead.

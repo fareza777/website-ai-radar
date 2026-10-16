@@ -7,6 +7,8 @@ export interface FeedEntry {
   publishedAt: Date | null;
   updatedAt: Date | null;
   html: string;
+  /** Publisher name when the feed provides it (RSS <source>, e.g. Google News). */
+  source?: string;
 }
 
 const parser = new XMLParser({
@@ -60,6 +62,7 @@ export function parseFeed(xml: string): FeedEntry[] {
         publishedAt: parseDate(text(it.pubDate) || text(it["dc:date"])),
         updatedAt: parseDate(text(it["atom:updated"])),
         html: text(it["content:encoded"]) || text(it.description),
+        source: stripHtml(text(it.source)) || undefined,
       };
     });
   }

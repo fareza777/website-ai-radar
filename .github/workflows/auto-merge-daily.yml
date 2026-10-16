@@ -34,7 +34,7 @@ jobs:
         run: |
           gh pr diff "$PR" --name-only > changed.txt
           cat changed.txt
-          if grep -vE '^(data/|summaries/(updates|discover|briefing)\.json$|src/config/(tips\.json|labs\.ts|deals\.ts)$)' changed.txt; then
+          if grep -vE '^(data/|summaries/(updates|discover|briefing)\.json$|src/config/(tips\.json|labs\.ts|deals\.ts|signals\.ts)$)' changed.txt; then
             echo "PR touches files outside the daily-run scope — leaving it for manual review."
             gh pr comment "$PR" --body "⚠️ Not auto-merged: this PR changes files outside the daily-run scope (data/, summaries/, src/config/tips.json|labs.ts|deals.ts)."
             exit 1

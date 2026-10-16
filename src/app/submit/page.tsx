@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 const STEPS = [
-  { n: "1", title: "Paste the X post", body: "Copy the post link from X (Share → Copy link) and paste it here, plus the product URL if you have it." },
+  { n: "1", title: "Paste the post", body: "Copy the link of an X or Threads post (Share → Copy link) and paste it here, plus the product URL if you have it." },
   { n: "2", title: "Create the GitHub issue", body: "A prefilled issue opens — press Create. It also works from the GitHub mobile app." },
   { n: "3", title: "Verified & published", body: "The collector reads the post via X's official embed, follows its links, checks the product page, and adds it to Discover." },
 ];
@@ -19,7 +19,7 @@ export default function SubmitPage() {
     <div className="mx-auto max-w-3xl space-y-6">
       <header>
         <p className="text-xs font-medium uppercase tracking-widest text-brand">Send a tip</p>
-        <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">Spotted something great on X?</h1>
+        <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">Spotted something great on X or Threads?</h1>
         <p className="mt-1.5 text-[15px] text-muted-foreground">
           AI Radar never scrapes X. Instead, you hand it the posts worth watching — like a new startup everyone is talking about — and the pipeline does
           the rest.

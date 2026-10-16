@@ -8,19 +8,21 @@ An **automated** tracker for the global AI landscape: updates from 20 LLM labs, 
 
 | Page | What's inside |
 | --- | --- |
-| **Today** `/` | AI Daily Briefing, stats, and a chronological Global Feed across 20 labs with Today / 7 Days / 30 Days / Important Only / Unread filters, categories, lab filter, Newest/Most Important sorting |
+| **Today** `/` | Command center. **Overview**: live ticker, AI Daily Briefing, Live Radar, cross-source *Top stories*, trending names/topics, "Reported, not yet official" safety net, bento (top story · buzz · new models · price moves). **Workspace**: sticky filters + lab list (left) · Global Feed (center, Cards/Compact) · sticky Social wire, Community pulse, Research radar, Deals (right) |
 | **AI Labs** `/labs` | 20 lab cards with logos, 30-day activity sparklines, "N new" badges since your last visit, coverage status |
 | **Lab detail** `/labs/[slug]` | Full timeline (newest first): date/time, title, summary, category, practical benefit, source link, verification status, last-updated date; category filter, search, time range, pagination; per-source health |
 | **Discover** `/discover` | Opportunity radar: **X buzz** (tips + posts linked by AI newsletters, read via X's official oEmbed), newsletters, new GitHub repos, Show HN, HF trending Spaces, Product Hunt (optional) — what it does, what's unique, benefit, pricing, why it's on the radar; separates **brand new** from **older but trending**; plus a **Startup Radar** of funding/launch headlines |
 | **Models** `/models` | 380+ models with live OpenRouter list prices, context length, free models, and a **price-move tracker** (every input/output price change, before → after) |
 | **Submit** `/submit` | Send a tip (X post and/or product URL) → prefilled GitHub issue → published to Discover in minutes, bot replies on the issue |
 | **Deals** `/deals` | Free tiers & official programs (re-verified every run with an evidence quote), free models live from OpenRouter (with end dates), lab promo announcements, community signals (flagged unverified) |
-| **Saved** `/saved` | Bookmarks (localStorage, no account) |
+| **Firehose** `/firehose` | Every signal in one dense table — official, press, **social (X & Threads)**, papers, community — with stream/lab/category/time filters, search, "strongest signal" sort, and CSV/JSON export |
+| **Digest** `/digest` | The week in AI assembled automatically (top stories, models, pricing moves, tools & startups, research, social) — copy as Markdown |
+| **Saved** `/saved` | Bookmarks (localStorage, no account); followed labs ("My Radar") are also stored locally |
 | **Status** `/status` | Coverage per lab, health of every source, LLM status |
 
 Today also features a **Live Radar** (animated sweep; each blip is a real update from the last 72h, by lab) and a **bento** of the top story, X buzz, new models, and price moves.
 
-Plus: global search **⌘K / Ctrl+K / `/`**, dark/light mode, read/unread & last-visited tracking (localStorage), SEO (metadata, sitemap, robots, OG image, JSON-LD).
+Plus: Atom/JSON feeds (`/feed.xml`, `/feed.json`, `/labs/<slug>/feed.xml`), release-rhythm heatmap on `/labs`, follow labs (★), global search **⌘K / Ctrl+K / `/`**, dark/light mode, read/unread & last-visited tracking (localStorage), SEO (metadata, sitemap, robots, OG image, JSON-LD).
 
 ## Architecture
 
@@ -103,6 +105,29 @@ on X (added as "Agent pick" tips), and writes English summaries / "Why it matter
 `summaries/*.json`. The site overlays those summaries at build time **only if they validate** (`npm run summaries:check`:
 known id, unchanged source, length limits, no URLs, every number present in the source). Copy-paste prompt:
 [`docs/CURSOR_DAILY_PROMPT.md`](docs/CURSOR_DAILY_PROMPT.md).
+
+## Signals beyond official feeds (nothing slips through)
+
+| Stream | Source | How it is labeled |
+| --- | --- | --- |
+| Official | Lab blogs/RSS, GitHub Releases, Hugging Face | verified when the link is on the lab's own domain/org |
+| Press | Google News per lab (20 queries), grouped by story | never verified; multi-outlet reports with no matching official post surface as **"Reported, not yet official"** |
+| Papers | Hugging Face Daily Papers, attributed to a lab by organization | — |
+| Community | Hacker News (AI stories ≥ 60 points) | — |
+| **Social** | **X and Threads — official access only** (below) | posts from a lab's own accounts are marked "official" |
+
+Cross-source **stories** (`data/stories.json`) group items about the same model/product (e.g. "Claude Haiku 5.5" across Anthropic, AWS, and media) by primary entity — never chained through comparison headlines. Price moves are debounced (a new price must hold for 3 consecutive snapshots) and router aliases are ignored.
+
+### X and Threads
+
+X and Threads are **never scraped**. Posts enter through:
+
+1. **oEmbed** (X's official embed endpoint) for posts linked from curated newsletters (Ben's Bites) and from tips — including posts by the labs' own accounts (`LAB_SOCIAL` in `src/config/signals.ts`).
+2. **Tips**: `/submit` (X or Threads URL → GitHub issue) or `npm run tip -- --x <url> --by cursor`. Threads posts are stored link-only (Threads oEmbed needs an app token).
+3. **X API v2** (`X_BEARER_TOKEN`, paid X developer access): recent posts from every official lab handle, with metrics.
+4. **Threads API** (`THREADS_ACCESS_TOKEN`): keyword search + profile posts for configured handles.
+
+Without the two tokens, X/Threads coverage is *what curators and tips surface* — not every post. Add the tokens (GitHub → Settings → Secrets → Actions) to ingest official accounts automatically; `/status` shows which channels are active.
 
 ## Source configuration
 

@@ -1,4 +1,4 @@
-import { isGrounded } from "./grounding";
+import { contentHash, isGrounded } from "./grounding";
 import { CATEGORIES, type Briefing, type Category, type DiscoverItem, type UpdateItem } from "./types";
 
 /**
@@ -15,6 +15,8 @@ export interface UpdateSummaryEntry {
 }
 
 export interface DiscoverSummaryEntry {
+  /** discoverHash() of the item when summarized — a changed source makes the summary stale. */
+  hash?: string;
   summary: string;
   unique: string;
   benefit: string;
@@ -49,8 +51,14 @@ export function updateSummaryProblem(e: UpdateSummaryEntry, item: UpdateItem | u
   return null;
 }
 
+/** Fingerprint of everything a Discover summary may rely on. */
+export function discoverHash(item: DiscoverItem): string {
+  return contentHash(`${item.name}|${item.description}|${(item.topics ?? []).join(",")}|${item.quote?.text ?? ""}`);
+}
+
 export function discoverSummaryProblem(e: DiscoverSummaryEntry, item: DiscoverItem | undefined): string | null {
   if (!item) return "unknown discover id";
+  if (e.hash && e.hash !== discoverHash(item)) return "stale (source changed since it was summarized)";
   if (!textOk(e.summary, LIMITS.summary)) return "summary length/URL rule";
   if (!textOk(e.unique, LIMITS.unique)) return "unique length/URL rule";
   if (!textOk(e.benefit, LIMITS.benefit)) return "benefit length/URL rule";

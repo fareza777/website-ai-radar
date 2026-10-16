@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ActivityHeatmap } from "@/components/activity-heatmap";
 import { LabGrid } from "@/components/lab-grid";
 import { LABS } from "@/config/labs";
 import { getLabItems, getLabStats } from "@/lib/data";
@@ -25,6 +26,7 @@ export default function LabsPage() {
         </p>
       </header>
       <LabGrid stats={stats} dates={dates} />
+      <ActivityHeatmap stats={stats} />
     </div>
   );
 }
