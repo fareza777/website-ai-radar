@@ -1,5 +1,196 @@
 [
   {
+    "id": "4be6283e2af8b503",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.225,
+    "to": 0.25,
+    "change": 11.1
+  },
+  {
+    "id": "f8c0e322d38183cd",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "completion",
+    "from": 8,
+    "to": 5,
+    "change": -37.5
+  },
+  {
+    "id": "9413d04cc85f50f0",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.01035,
+    "to": 0.018,
+    "change": 73.9
+  },
+  {
+    "id": "83367a2b963a47f8",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "completion",
+    "from": 0.72,
+    "to": 0.684,
+    "change": -5
+  },
+  {
+    "id": "ff5485c41fd0125c",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.01035,
+    "to": 0.018,
+    "change": 73.9
+  },
+  {
+    "id": "798eee863412c7e7",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "completion",
+    "from": 0.72,
+    "to": 0.684,
+    "change": -5
+  },
+  {
+    "id": "15064af88363620b",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.0156,
+    "change": -89.6
+  },
+  {
+    "id": "23ac76b0a0a7bc25",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.7928,
+    "change": 58.6
+  },
+  {
+    "id": "fde3fd209cef7293",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.4,
+    "to": 0.079,
+    "change": -80.2
+  },
+  {
+    "id": "04b4238447f0110e",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "completion",
+    "from": 8,
+    "to": 4.8,
+    "change": -40
+  },
+  {
+    "id": "5b739d8ef002299c",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.00522,
+    "to": 0.0072,
+    "change": 37.9
+  },
+  {
+    "id": "27373d86fd6f5176",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.0058,
+    "to": 0.008,
+    "change": 37.9
+  },
+  {
+    "id": "30db07cb9ef51465",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.405,
+    "to": 0.304,
+    "change": -24.9
+  },
+  {
+    "id": "9e71e72e52077486",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "completion",
+    "from": 15,
+    "to": 11.588,
+    "change": -22.7
+  },
+  {
+    "id": "d5f4ff3935e0ce41",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.35,
+    "to": 0.294,
+    "change": -16
+  },
+  {
+    "id": "4a27aa1bf709a483",
+    "modelId": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "completion",
+    "from": 14,
+    "to": 28,
+    "change": 100
+  },
+  {
+    "id": "c0087172a33a987e",
+    "modelId": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "lab": "openai",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "prompt",
+    "from": 0.037,
+    "to": 0.15,
+    "change": 305.4
+  },
+  {
+    "id": "c6e2ec74b1fb5d42",
+    "modelId": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "lab": "openai",
+    "at": "2026-10-16T04:40:36.524Z",
+    "field": "completion",
+    "from": 0.17,
+    "to": 0.6,
+    "change": 252.9
+  },
+  {
     "id": "61b237d3b316b895",
     "modelId": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
