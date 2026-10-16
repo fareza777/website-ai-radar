@@ -163,7 +163,7 @@ export function ModelsView({ rows }: { rows: ModelRow[] }) {
                       <span className="min-w-0">
                         <span className="flex items-center gap-1.5 font-medium hover:underline">
                           <span className="truncate">{r.name}</span>
-                          {r.free && <span className="rounded bg-emerald-500/10 px-1.5 text-[12px] font-semibold text-emerald-700 dark:text-emerald-300">FREE</span>}
+                          {r.free && <span className="rounded bg-brand/10 px-1.5 text-[12px] font-semibold text-brand">FREE</span>}
                           <Trend row={r} />
                         </span>
                         <span className="block truncate font-mono text-[12px] text-muted-foreground">{r.id}</span>

@@ -19,8 +19,8 @@ function Fact({ label, children }: { label: string; children: React.ReactNode })
   if (!children) return null;
   return (
     <div className="rounded-lg bg-subtle/70 px-3 py-2">
-      <dt className="text-[12px] font-semibold uppercase tracking-wider text-muted-foreground">{label}</dt>
-      <dd className="mt-0.5 text-[14px] leading-snug text-foreground/85">{children}</dd>
+      <dt className="text-[10px] font-medium text-muted-foreground">{label}</dt>
+      <dd className="mt-1 text-[13px] leading-relaxed text-foreground/85">{children}</dd>
     </div>
   );
 }
@@ -35,7 +35,7 @@ function XQuoteBlock({ quote }: { quote: XQuote }) {
       className="mt-3 block rounded-xl border bg-subtle/60 p-3 transition hover:border-foreground/20"
       title="Open the post on X"
     >
-      <span className="flex items-center gap-2 text-[13px] text-muted-foreground">
+      <span className="flex flex-wrap items-center gap-2 text-[13px] text-muted-foreground">
         <span className="inline-flex size-5 items-center justify-center rounded-full bg-foreground text-[11.5px] font-bold text-background">𝕏</span>
         <span className="font-medium text-foreground">{quote.author}</span>
         <span>@{quote.handle}</span>
@@ -51,14 +51,14 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
   const repoUrl = item.repo ? `https://github.com/${item.repo}` : null;
   const hn = item.signals.find((s) => s.source === "hackernews");
   return (
-    <article className="lab-glow card-surface flex h-full flex-col p-4 sm:p-5">
+    <article className="card-surface flex h-full min-w-0 flex-col p-4 [overflow-wrap:anywhere] sm:p-5">
       <header className="flex items-start gap-3">
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-1.5">
             <span
               className={cn(
                 "inline-flex h-5 items-center gap-1 rounded-md px-1.5 text-[12.5px] font-semibold",
-                isNew ? "bg-emerald-500/12 text-emerald-700 dark:text-emerald-300" : "bg-orange-500/12 text-orange-700 dark:text-orange-300",
+                isNew ? "bg-brand/10 text-brand" : "bg-orange-500/12 text-orange-700 dark:text-orange-300",
               )}
               title={item.dateKind === "spotted" ? "First seen by AI Radar in public signals (X, newsletters, tips) — exact launch date unknown" : isNew ? "A genuinely new project/product launch" : "An older project that is trending again"}
             >
@@ -87,7 +87,7 @@ function DiscoverCard({ item }: { item: DiscoverItem }) {
 
       {item.quote && <XQuoteBlock quote={item.quote} />}
 
-      <dl className="mt-3 grid gap-2">
+      <dl className="mt-3 grid grid-cols-1 gap-2">
         <Fact label="What it does">{item.summary}</Fact>
         <Fact label="What's unique">{item.unique}</Fact>
         <Fact label="Why it helps">{item.benefit}</Fact>
@@ -159,8 +159,8 @@ export function DiscoverView({ items }: { items: DiscoverItem[] }) {
       <div className="card-surface space-y-3 p-3 sm:p-4">
         <ChipRow>
           <Chip active={novelty === "all"} onClick={() => { setNovelty("all"); setPage(1); }} count={items.length}>All</Chip>
-          <Chip active={novelty === "new"} onClick={() => { setNovelty("new"); setPage(1); }} count={count("new")}>✨ Brand new</Chip>
-          <Chip active={novelty === "trending"} onClick={() => { setNovelty("trending"); setPage(1); }} count={count("trending")}>📈 Older but trending</Chip>
+          <Chip active={novelty === "new"} onClick={() => { setNovelty("new"); setPage(1); }} count={count("new")}><Sparkles className="size-3" /> Brand new</Chip>
+          <Chip active={novelty === "trending"} onClick={() => { setNovelty("trending"); setPage(1); }} count={count("trending")}><TrendingUp className="size-3" /> Trending again</Chip>
           <span className="mx-1 w-px shrink-0 self-stretch bg-border" />
           <Chip active={kind === "all"} onClick={() => { setKind("all"); setPage(1); }}>All sources</Chip>
           {kinds.map((k) => (
@@ -183,9 +183,9 @@ export function DiscoverView({ items }: { items: DiscoverItem[] }) {
       {visible.length === 0 ? (
         <EmptyState icon={<Search className="size-6" />} title="No results">Try another keyword or clear filters.</EmptyState>
       ) : (
-        <ul className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+        <ul className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
           {visible.map((i) => (
-            <li key={i.id}>
+            <li key={i.id} className="min-w-0">
               <DiscoverCard item={i} />
             </li>
           ))}

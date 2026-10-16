@@ -52,8 +52,8 @@ export default function DiscoverPage() {
       <details className="card-surface group px-4 py-3 text-sm">
         <summary className="flex cursor-pointer list-none items-center gap-2">
           <span className="relative flex size-2">
-            <span className="absolute inline-flex size-full animate-ping-slow rounded-full bg-emerald-500/60" />
-            <span className="relative inline-flex size-2 rounded-full bg-emerald-500" />
+            <span className="absolute inline-flex size-full animate-ping-slow rounded-full bg-brand/60" />
+            <span className="relative inline-flex size-2 rounded-full bg-brand" />
           </span>
           <span className="font-medium">{live} live signal sources</span>
           <span className="text-muted-foreground">· GitHub, Hacker News, X via oEmbed, newsletters, tips, HF Spaces, startup news</span>
@@ -63,7 +63,7 @@ export default function DiscoverPage() {
         <ul className="mt-3 flex flex-wrap gap-2 text-[13px] text-muted-foreground">
           {sources.map((s) => (
             <li key={s.id} className="inline-flex items-center gap-1.5 rounded-full border bg-surface/60 px-2.5 py-1">
-              <span className={s.ok ? "size-1.5 rounded-full bg-emerald-500" : "size-1.5 rounded-full bg-muted-foreground/50"} />
+              <span className={s.ok ? "size-1.5 rounded-full bg-brand" : "size-1.5 rounded-full bg-muted-foreground/50"} />
               {s.name}
               {s.ok && s.lastSuccessAt ? <> · <TimeAgo iso={s.lastSuccessAt} /></> : s.lastError ? <> · {s.lastError}</> : null}
             </li>

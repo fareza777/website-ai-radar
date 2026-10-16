@@ -44,7 +44,7 @@ interface SegmentedProps<T extends string> {
 
 export function Segmented<T extends string>({ value, onChange, options, ariaLabel }: SegmentedProps<T>) {
   return (
-    <div role="radiogroup" aria-label={ariaLabel} className="inline-flex h-8 items-center rounded-lg border bg-surface/60 p-0.5">
+    <div role="radiogroup" aria-label={ariaLabel} className="no-scrollbar inline-flex h-8 max-w-full items-center overflow-x-auto rounded-lg border bg-surface/60 p-0.5">
       {options.map((o) => (
         <button
           key={o.value}
@@ -53,7 +53,7 @@ export function Segmented<T extends string>({ value, onChange, options, ariaLabe
           aria-checked={value === o.value}
           onClick={() => onChange(o.value)}
           className={cn(
-            "h-full rounded-md px-2.5 text-[13.5px] font-medium text-muted-foreground transition",
+            "h-full shrink-0 whitespace-nowrap rounded-md px-2.5 text-[13.5px] font-medium text-muted-foreground transition",
             value === o.value && "bg-accent text-foreground shadow-xs",
           )}
         >

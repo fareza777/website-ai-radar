@@ -40,12 +40,12 @@ export default function ModelsPage() {
         </p>
       </header>
 
-      <div className="grid gap-3 lg:grid-cols-3">
-        <section className="card-surface p-4">
+      <div className="grid grid-cols-1 gap-3 lg:grid-cols-3">
+        <section className="card-surface min-w-0 p-4">
           <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold"><TrendingDown className="size-4 text-brand" /> Price moves · 90 days</h2>
           <PriceMoves moves={moves} limit={6} />
         </section>
-        <section className="card-surface p-4">
+        <section className="card-surface min-w-0 p-4">
           <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold"><Sparkles className="size-4 text-brand" /> New this week</h2>
           {newest.length ? (
             <ul className="space-y-2.5">
@@ -64,7 +64,7 @@ export default function ModelsPage() {
             <p className="text-[14px] text-muted-foreground">No new models in the last 7 days.</p>
           )}
         </section>
-        <section className="card-surface p-4">
+        <section className="card-surface min-w-0 p-4">
           <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold"><Gift className="size-4 text-brand" /> Cheapest long-context (lab models, ≥100K)</h2>
           <ul className="space-y-2.5">
             {cheapestFrontier.map((m) => {
