@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CheckCheck, Inbox, LayoutList, Rows3, Star } from "lucide-react";
 import { LABS } from "@/config/labs";
 import { useNow } from "@/hooks/use-now";
@@ -21,6 +21,20 @@ type Sort = "newest" | "important";
 
 const RANGE_DAYS: Record<Range, number> = { today: 1, "7d": 7, "30d": 30 };
 const PAGE = 25;
+
+let olderPromise: Promise<FeedItem[]> | null = null;
+function loadOlder(): Promise<FeedItem[]> {
+  olderPromise ??= fetch("/feed-older.json")
+    .then((r) => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json() as Promise<FeedItem[]>;
+    })
+    .catch((err: unknown) => {
+      olderPromise = null;
+      throw err;
+    });
+  return olderPromise;
+}
 
 interface FeedWorkspaceProps {
   items: FeedItem[];
@@ -45,13 +59,22 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
   const [sort, setSort] = useState<Sort>("newest");
   const [query, setQuery] = useState("");
   const [limit, setLimit] = useState(PAGE);
+  const [older, setOlder] = useState<FeedItem[] | null>(null);
+  const [olderError, setOlderError] = useState(false);
   const q = useDebounced(query.trim().toLowerCase());
+
+  // Days 8–30 are not in the page HTML; fetch them once when the user opens the 30-day range.
+  useEffect(() => {
+    if (range !== "30d" || older !== null) return;
+    loadOlder().then(setOlder, () => setOlderError(true));
+  }, [range, older]);
+  const all = useMemo(() => (older ? [...items, ...older] : items), [items, older]);
 
   const ref = now ?? Date.parse(dataTime);
   const idx = useMemo(() => readIndex(state), [state]);
   const prevVisit = now ? getPrevVisit() : null;
 
-  const inRange = useMemo(() => items.filter((i) => ref - Date.parse(i.publishedAt) < RANGE_DAYS[range] * 86_400_000), [items, ref, range]);
+  const inRange = useMemo(() => all.filter((i) => ref - Date.parse(i.publishedAt) < RANGE_DAYS[range] * 86_400_000), [all, ref, range]);
 
   const matches = (i: FeedItem, withLab: boolean) =>
     (category === "all" || i.category === category) &&
@@ -163,6 +186,8 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
             <p className="text-sm text-muted-foreground">
               {filtered.length} {filtered.length === 1 ? "update" : "updates"}
               {filtered.length > visible.length ? ` · showing ${visible.length}` : ""} · every official post from 20 labs
+              {range === "30d" && older === null && !olderError && " · loading earlier days…"}
+              {olderError && " · could not load earlier days"}
             </p>
           </div>
           <div className="flex items-center gap-2">

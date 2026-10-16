@@ -14,7 +14,7 @@ import { compactNumber } from "@/lib/format";
 import type { UpdateItem } from "@/lib/types";
 import { extHref } from "@/lib/url";
 
-const FEED_DAYS = 30;
+const FIRST_PAINT_DAYS = 7;
 const RADAR_HOURS = 72;
 const RADAR_MAX = 32;
 const DAY = 86_400_000;
@@ -63,7 +63,8 @@ export default function TodayPage() {
   const status = getStatus();
   const all = getAllItems();
   const ref = dataTime();
-  const feed = all.filter((i) => ref - Date.parse(i.publishedAt) < FEED_DAYS * DAY).map(toFeedItem);
+  // Only the last 7 days ship in the HTML; days 8–30 load on demand (public/feed-older.json).
+  const feed = all.filter((i) => ref - Date.parse(i.publishedAt) < FIRST_PAINT_DAYS * DAY).map(toFeedItem);
   const briefing = getBriefings()[0];
   const itemsById = new Map(all.map((i) => [i.id, i]));
   const stats = getLabStats();
