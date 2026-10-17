@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T20:42:32.148Z",
+  "generatedAt": "2026-10-17T23:11:30.117Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -227,19 +227,19 @@
     "topics": [
       {
         "name": "agents",
-        "count": 48,
+        "count": 49,
         "prev": 32,
         "labs": [
           "anthropic",
           "openai",
           "meta",
           "cohere",
-          "amazon",
           "qwen",
-          "microsoft",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "amazon",
+          "microsoft",
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -252,10 +252,10 @@
           "openai",
           "mistral",
           "cohere",
-          "amazon",
           "qwen",
-          "microsoft",
           "bytedance",
+          "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -276,27 +276,39 @@
         "count": 7,
         "prev": 12,
         "labs": [
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
           "mistral",
-          "amazon",
           "qwen",
           "tencent",
-          "ibm",
+          "amazon",
+          "nvidia",
+          "ibm"
+        ]
+      },
+      {
+        "name": "open-source",
+        "count": 6,
+        "prev": 4,
+        "labs": [
+          "anthropic",
+          "meta",
+          "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
       {
         "name": "safety",
         "count": 6,
-        "prev": 6,
+        "prev": 7,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "amazon",
           "bytedance",
+          "amazon",
           "nvidia"
         ]
       },
@@ -308,21 +320,10 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "amazon",
           "tencent",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 5,
-        "prev": 4,
-        "labs": [
-          "anthropic",
-          "meta",
           "amazon",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -332,8 +333,8 @@
         "labs": [
           "google-deepmind",
           "openai",
-          "amazon",
-          "qwen"
+          "qwen",
+          "amazon"
         ]
       }
     ]

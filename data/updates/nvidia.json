@@ -1,5 +1,27 @@
 [
   {
+    "id": "af59b3284175b1f2",
+    "lab": "nvidia",
+    "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-17T21:00:13.000Z",
+    "firstSeenAt": "2026-10-17T23:11:30.117Z",
+    "updatedAt": "2026-10-17T21:00:13.000Z",
+    "excerpt": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with additional systems on the way. NVIDIA celebrated the launch with events…",
+    "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "df497889d461"
+  },
+  {
     "id": "b365342473574312",
     "lab": "nvidia",
     "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
@@ -457,10 +479,10 @@
       "74B-A9B",
       "multimodal"
     ],
-    "importance": 66,
+    "importance": 67,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 114,
+      "likes": 116,
       "downloads": 4640,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",

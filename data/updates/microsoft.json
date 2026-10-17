@@ -1,5 +1,29 @@
 [
   {
+    "id": "1cf09e23a2a13be7",
+    "lab": "microsoft",
+    "title": "Managing open-weight model risk in enterprise deployments",
+    "url": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments",
+    "sourceId": "azure-blog",
+    "sourceName": "Azure Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-16T16:05:00.000Z",
+    "firstSeenAt": "2026-10-17T23:11:30.117Z",
+    "updatedAt": "2026-10-16T16:05:00.000Z",
+    "excerpt": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models. Open-weight models are an important part of that landscape. They give enterprises access to model weights and greater flexibility to inspect, evaluate, modify, and run models within their own environments. While that flexibility can be valuable, it also affects how enterprises evaluate…",
+    "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source"
+    ],
+    "importance": 60,
+    "contentHash": "780e5a30fcc5"
+  },
+  {
     "id": "4046eeecbe56b543",
     "lab": "microsoft",
     "title": "Proof-based general-purpose computing with Magnetar",
@@ -20,6 +44,30 @@
     "tags": [],
     "importance": 50,
     "contentHash": "d561a198cb5f"
+  },
+  {
+    "id": "4fe80e5d0fd4b175",
+    "lab": "microsoft",
+    "title": "Evolving the cloud-native foundation for the next generation of AI",
+    "url": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai",
+    "sourceId": "azure-blog",
+    "sourceName": "Azure Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T16:00:00.000Z",
+    "firstSeenAt": "2026-10-17T23:11:30.117Z",
+    "updatedAt": "2026-10-15T16:00:00.000Z",
+    "excerpt": "Building a cloud-native foundation for AI The relationship between model innovation and AI infrastructure has never been more clear; as AI becomes more capable, the platform underneath it matters even more. Agents are fundamentally changing how applications work, and with that, what organizations need from the cloud. Learn how to build a cloud-native AI foundation Cloud-native practices gave organizations the scale…",
+    "summary": "Building a cloud-native foundation for AI The relationship between model innovation and AI infrastructure has never been more clear; as AI becomes more capable, the platform underneath it matters even more.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 60,
+    "contentHash": "68ddc5b15f78"
   },
   {
     "id": "fe14b59114454d2d",
