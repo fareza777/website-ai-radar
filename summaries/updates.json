@@ -864,9 +864,9 @@
     "benefit": "Operators can test factory changes in a digital twin before they touch a live cluster."
   },
   "a2beb8a05eac6abd": {
-    "hash": "1a78b7093597",
-    "summary": "NVIDIA highlights Inception startups using AI from scan to treatment plan where many women over 40 skip annual breast-cancer screening and follow-up tests can take weeks.",
-    "benefit": "Health teams can see how imaging AI is being applied from screening through treatment planning."
+    "hash": "a1097c1da511",
+    "summary": "NVIDIA's blog says breast cancer is the most commonly diagnosed cancer among American women, that a majority of women over 40 skip annual screening, and that treatment tests can take weeks. It points to US startups building AI apps for clinicians.",
+    "benefit": "Clinicians and health-tech builders can see where those startups are trying to support screening and treatment planning."
   },
   "d4e3054526b7ef03": {
     "hash": "9259b4485843",
@@ -1544,5 +1544,91 @@
     "hash": "e1f7b95f8756",
     "summary": "Strands Agents SDK harness-python v0.3.1 includes the same Bedrock reasoning-block fix and surfaces a subagent's stop reason.",
     "benefit": "Harness users on v0.3.1 get the cross-family Bedrock history fix and a clearer subagent stop reason."
+  },
+  "3b6b85c81106ab13": {
+    "hash": "93234de6f3d5",
+    "summary": "NVIDIA's Nemotron 3.5 Super VL is now on Amazon SageMaker JumpStart. This vision-language model takes images, video, and text and generates text for multimodal work on AWS.",
+    "benefit": "AWS customers can deploy Nemotron 3.5 Super VL for document intelligence and GUI tasks from SageMaker JumpStart."
+  },
+  "42200690b98b1f60": {
+    "hash": "3bd9aa4a76f1",
+    "summary": "Reflection's Beam, its first open-weight model, is now in Amazon SageMaker JumpStart and on AWS Trainium. The announcement says it is strong on reasoning, coding, and agentic benchmarks.",
+    "benefit": "Customers can build coding agents and automated workflows on this open-weight model through SageMaker JumpStart and Trainium."
+  },
+  "7bd3e3f63e0f7daa": {
+    "hash": "665eb8cffbc1",
+    "summary": "Reflection AI introduced Beam, an open-weight model for agentic coding and long-horizon tasks such as maintaining code, using tools, and finishing multi-step workflows. The post shows how to deploy it on AWS.",
+    "benefit": "Developers and researchers can control Beam's runtime, deployment, and customization instead of calling a closed model."
+  },
+  "e33d1da6e264a687": {
+    "hash": "b80a8b33297c",
+    "summary": "Tencent published Qwen3-8B-DSpine-b16 on Hugging Face under the Apache-2.0 license.",
+    "benefit": "You can download this Qwen3-8B variant and use it under Apache-2.0."
+  },
+  "3da203190003ff2e": {
+    "hash": "d780f7f18b0b",
+    "summary": "Tencent published Hy-Memory-30B-A3B on Hugging Face as a text-generation model under the Apache-2.0 license.",
+    "benefit": "Developers can try this Apache-2.0 text-generation model from Tencent on Hugging Face."
+  },
+  "286e638fb750d892": {
+    "hash": "d9ee2480c225",
+    "summary": "OpenAI's developer blog explains how to design failover across OpenAI model providers, and why direct OpenAI access matters for previews and critical workloads.",
+    "benefit": "Teams on critical workloads can plan provider failover while keeping direct access to OpenAI previews."
+  },
+  "7c4619645630c469": {
+    "hash": "16b9c3c5edce",
+    "summary": "Microsoft says it was named a Leader in the 2026 Gartner Magic Quadrant for Server Virtualization Platforms, and frames the need for one operating model across cloud, datacenter, edge, and sovereign environments.",
+    "benefit": "Infrastructure teams can read Microsoft's case for a consistent operating model beyond choosing a hypervisor.",
+    "category": "developer"
+  },
+  "65442e708214c10b": {
+    "hash": "de3af489b725",
+    "summary": "Itaú is applying an AI First strategy with ia.i, a conversational interface, and the IARA governance platform for customers and employees in one of Brazil's most regulated sectors.",
+    "benefit": "Banks in regulated markets can see how Itaú pairs a customer chat interface with a governance platform for staff."
+  },
+  "9db4940a53f86840": {
+    "hash": "cd0f4591f331",
+    "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex. Its ChatGPT plugin helped triple signups and drive up to 10× growth in agent creation.",
+    "benefit": "Teams can see how a ChatGPT plugin, built with Codex, grew agent creation on Stack Overflow for Agents."
+  },
+  "dd00c04c9b95848e": {
+    "hash": "2cfee4a874ed",
+    "summary": "With OpenAI, Sullivan & Cromwell built Agreement Analyzer, an AI tool that identifies issues in a draft agreement.",
+    "benefit": "Legal teams can use a firm-built tool to flag issues in a draft agreement before review."
+  },
+  "7fd7e06ab2f4b840": {
+    "hash": "8b2d1c817de9",
+    "summary": "The Claude Code team describes reviewing agent-written code, from Claude checking its own work to risk-tiered human approval, and shares a checklist for adopting that process.",
+    "benefit": "Teams facing a high volume of agent diffs can copy a review flow that mixes model checks with human approval by risk."
+  },
+  "ce8bd23968211e78": {
+    "hash": "1f30310a237b",
+    "summary": "An Anthropic Japan business development representative uses Claude Managed Agents and Claude Tag to clear his inbound queue and draft bilingual customer emails.",
+    "benefit": "BDRs can hand inbound triage and bilingual customer email drafts to Claude Managed Agents and Claude Tag."
+  },
+  "e127630b938b3649": {
+    "hash": "f84bba9f37d6",
+    "summary": "Tencent-Hunyuan published a new public GitHub repository named Hy-Memory.",
+    "benefit": "Developers following Hunyuan can open the new Hy-Memory repository on GitHub."
+  },
+  "eb3a5ae3e708abf2": {
+    "hash": "6467a2d71733",
+    "summary": "Docling v2.140.0 prefetches native Distil-Whisper presets, parses bold, italic, and monospace in AsciiDoc paragraphs, and can transcribe through a remote OpenAI-compatible server.",
+    "benefit": "Docling users can transcribe via an OpenAI-compatible server and parse more AsciiDoc inline styles in this release."
+  },
+  "c22ce4d9c5995d4a": {
+    "hash": "cce2f498937e",
+    "summary": "AWS describes a production evaluation framework on Amazon Bedrock AgentCore for agents that can sound confident and still be wrong when an answer drives a business decision.",
+    "benefit": "Teams deploying agents on Bedrock AgentCore get a framework aimed at catching fluent but incorrect answers in production."
+  },
+  "b365342473574312": {
+    "hash": "0085b7ff143d",
+    "summary": "NVIDIA says coding-agent work is split across a laptop, a cloud model API, and a cloud VM, and shows how RTX Spark lets you code, test, and deploy on one machine.",
+    "benefit": "Developers directing coding agents can keep code, test, and deploy together on one RTX Spark machine."
+  },
+  "0c6e6f470183a107": {
+    "hash": "be5b93d0c295",
+    "summary": "Claude Code v2.1.302 adds CLAUDE_CODE_AUTO_MODE_MODEL for the client-side auto mode classifier, an Idle compaction row in /config, and a notice about standalone Claude Design.",
+    "benefit": "You can choose the client-side auto mode classifier model and turn idle compaction off from /config in this release."
   }
 }

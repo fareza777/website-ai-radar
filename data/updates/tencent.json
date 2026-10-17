@@ -1,5 +1,35 @@
 [
   {
+    "id": "e33d1da6e264a687",
+    "lab": "tencent",
+    "title": "Qwen3-8B-DSpine-b16",
+    "url": "https://huggingface.co/tencent/Qwen3-8B-DSpine-b16",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-16T14:52:38.000Z",
+    "firstSeenAt": "2026-10-17T00:03:17.091Z",
+    "updatedAt": "2026-10-16T14:52:38.000Z",
+    "excerpt": "license: apache-2.0",
+    "summary": "Tencent published the Qwen3-8B-DSpine-b16 model on Hugging Face. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "8B"
+    ],
+    "importance": 74,
+    "contentHash": "b80a8b33297c",
+    "meta": {
+      "likes": 11,
+      "downloads": 0,
+      "repo": "tencent/Qwen3-8B-DSpine-b16",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "e127630b938b3649",
     "lab": "tencent",
     "title": "Hy-Memory",
@@ -21,7 +51,7 @@
     "importance": 40,
     "contentHash": "f84bba9f37d6",
     "meta": {
-      "stars": 310,
+      "stars": 335,
       "repo": "Tencent-Hunyuan/Hy-Memory",
       "language": "Python"
     }
@@ -47,10 +77,10 @@
     "tags": [
       "30B-A3B"
     ],
-    "importance": 66,
+    "importance": 67,
     "contentHash": "d780f7f18b0b",
     "meta": {
-      "likes": 113,
+      "likes": 118,
       "downloads": 0,
       "repo": "tencent/Hy-Memory-30B-A3B",
       "pipeline": "text-generation",
@@ -139,7 +169,7 @@
     "importance": 66,
     "contentHash": "17ed023e66bd",
     "meta": {
-      "likes": 104,
+      "likes": 105,
       "downloads": 1552,
       "repo": "tencent/Youtu-Parsing-Omni",
       "pipeline": "image-text-to-text",
@@ -198,7 +228,7 @@
     "importance": 41,
     "contentHash": "160ea336e84d",
     "meta": {
-      "stars": 476,
+      "stars": 480,
       "repo": "Tencent-Hunyuan/Prism",
       "language": "Python"
     }

@@ -145,9 +145,10 @@
     "benefit": "Anyone geolocating a photo can see the evidence the agent used, not only a guess."
   },
   "0fb55ef66f9ce5d2": {
-    "summary": "lemo-opuscar is a Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made in code by Claude Opus 5.5, including OPUSCAR 98.",
-    "unique": "Films are built in code rather than with a video model, with a director and technical guide.",
-    "benefit": "People making short films in Claude Code can start from those 43 coded style demos."
+    "hash": "df7a4c60",
+    "summary": "A Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5.",
+    "unique": "The set includes OPUSCAR 98 and a new Evidence Films style, from Lemomo.",
+    "benefit": "People using Claude Code can make style-specific short films in code instead of calling a video model."
   },
   "74a90c5a46b6cecf": {
     "summary": "ClearAI is an ontology-first DSH agent preset. Evidence-checked research grows into a domain ontology you can browse.",
@@ -424,21 +425,6 @@
     "unique": "It pairs ecosystem tracking with language meant for discovery, and it syncs from GitHub.",
     "benefit": "People exploring Jev projects can read short descriptions that stay tied to the source repos."
   },
-  "d2bc93caa6b4d6ba": {
-    "summary": "3dviz-pro-max is an agent skill that turns an idea into a Three.js or Blender scene, with recipes, knowledge records, proved kits, and runnable studies.",
-    "unique": "It ships as a Claude Code and Codex plugin for creative 3D visualization.",
-    "benefit": "Developers using Claude Code or Codex can ask an agent to build an explorable 3D scene."
-  },
-  "5ad34a0c5f9503ba": {
-    "summary": "Janus is an API router for AI models, written in Go, and it includes a Vulkan model runner.",
-    "unique": "Routing and a Vulkan runner live in the same Go project.",
-    "benefit": "Developers who want a Go router can also run models through its Vulkan runner."
-  },
-  "7d39728bd8d56f58": {
-    "summary": "open-dot is a set of open-source personal AI agents that work on their own computers, with a Mac app using OpenAI and Composio.",
-    "unique": "The agents are personal and run on their own computers, packaged as a Mac app.",
-    "benefit": "Mac users can try open-source personal agents that act on their own machine."
-  },
   "2c26ee007454d2a2": {
     "summary": "mesh-avatar-studio turns one illustration into an animated 2D mesh avatar using a coding agent and a local editor.",
     "unique": "The animation comes from mesh deformation of a single illustration, including a WebGL path.",
@@ -493,26 +479,6 @@
     "summary": "sno-station turns agents you already use into a squad. Codex, Claude Code, Cursor, Hermes Agent, and OpenClaw share one encrypted memory, pass work, review each other, and dream every night.",
     "unique": "Open source, runs on your computer, and gives those agents one encrypted memory plus nightly self-improvement.",
     "benefit": "People running several coding agents can share memory and reviews locally instead of keeping each agent separate."
-  },
-  "cb279fb80f5dd0da": {
-    "summary": "openqodex is open source code review that runs in your coding agent before you push, with scanners plus a separate AI reviewer on your own login and no key.",
-    "unique": "Review happens in the agent before push, using your login and no extra key.",
-    "benefit": "Developers can catch issues in the agent they already use, before the code is pushed."
-  },
-  "a3f4cc3755ac9570": {
-    "summary": "strands-decider is a small, fast decision model for agentic workflows. It picks between options or rates on a scale faster than an LLM, with a calibrated confidence on every decision.",
-    "unique": "A system-one model that returns a choice or a score plus calibrated confidence, faster than an LLM.",
-    "benefit": "Agent builders can route or score routine decisions quickly and see how confident each call is."
-  },
-  "7c9d184f8c058bd9": {
-    "summary": "awesome-claude-video-skills lists open-source skills and toolkits that let Claude Code, Codex, and other coding agents make video. It covers 180 repos by type, each security-graded.",
-    "unique": "A catalog of 180 video-making repos for coding agents, sorted by type and security grade.",
-    "benefit": "People who want agents to make video can pick a security-graded repo instead of searching from scratch."
-  },
-  "c5e3b71711b5a7e6": {
-    "summary": "mortiflix-oss is a motion design studio on your own machine: Claude makes the video step by step, and you approve every stage. Bring your own Claude Code or API key.",
-    "unique": "Each stage waits for your approval, and it runs locally with your own Claude Code or API key.",
-    "benefit": "Motion designers can let Claude draft a video locally and still approve every stage."
   },
   "246031679f85ee5d": {
     "summary": "folkbench is an open-source benchmark, ranking, and switcher for AI API relays used with Claude Code and Codex, measuring uptime, latency, and price.",
@@ -614,41 +580,6 @@
     "unique": "The offer is to go AI-native automatically.",
     "benefit": "Readers who want an AI-native workflow can follow this newsletter."
   },
-  "33021b9c4cffd9bf": {
-    "summary": "Executor keeps your connectors, skills, automations, and personal software in one place.",
-    "unique": "Connectors, skills, automations, and personal software share that single place.",
-    "benefit": "People running agents can keep connectors, skills, and automations together."
-  },
-  "033af813a56c42fc": {
-    "summary": "AgentHog autocaptures what users do and gives Claude a fast, small harness to query it.",
-    "unique": "Insights can turn into email, landing-page, and product changes without a warehouse.",
-    "benefit": "Product teams can turn captured user behavior into page and product changes through Claude."
-  },
-  "94c3a6f416cc250b": {
-    "summary": "Figma release notes track software updates for Figma products.",
-    "unique": "The notes cover all Figma related products.",
-    "benefit": "Designers and developers can follow Figma product updates from the release notes."
-  },
-  "19b9afdc50068806": {
-    "summary": "Rhem is an AI companion robot for the home, with wellness tracking, reminders, voice interaction, and everyday care.",
-    "unique": "The home robot is also described for fall detection and health checks.",
-    "benefit": "Families can use a home robot for reminders, voice interaction, and everyday care."
-  },
-  "bc96f6f2afa30730": {
-    "summary": "Muse gadgets are open source devices you build yourself and connect to Muse.",
-    "unique": "You program an off-the-shelf ESP32 or set up a Raspberry Pi, then attach displays, buttons, sensors, and actuators.",
-    "benefit": "Makers can connect Muse to hardware already on the workbench."
-  },
-  "5f81b09bffddf79d": {
-    "summary": "Graphical creates visual themes, customizes components, and builds interfaces with your coding agent.",
-    "unique": "Themes, components, and interfaces are made with the coding agent.",
-    "benefit": "Developers can have a coding agent help build themes and interface components."
-  },
-  "9c66046e4bfbbddf": {
-    "summary": "boat provides persistent Linux VMs for AI agents, with SSH, Docker, and fast fork.",
-    "unique": "VMs are billed per second and free when stopped, with a 7-day free trial, then from $20/mo.",
-    "benefit": "Agent builders can keep a Linux VM with SSH and Docker and pay for time it is running after the trial."
-  },
   "5247a702d6a16253": {
     "summary": "A single Rust program that builds a code graph and project memory for coding agents.",
     "unique": "It works with Claude Code, Codex, Cursor, and any MCP client.",
@@ -688,11 +619,6 @@
     "summary": "An open-source coding agent that lives in the terminal, plans multi-step changes, edits files, and runs commands and tests.",
     "unique": "It iterates until the task is done with a transparent, extensible tool loop.",
     "benefit": "Developers can run a terminal coding agent that shows its tool loop while it works through a repository."
-  },
-  "2b39a7604fb88d70": {
-    "summary": "A TypeScript-shaped language built for coding agents.",
-    "unique": "It compiles to small, fast native binaries.",
-    "benefit": "Coding agents can write in a TypeScript-shaped language that compiles to native binaries."
   },
   "74a389cc0b38331c": {
     "summary": "Scout is an open-source browser agent by Outcrawl.",
@@ -748,5 +674,95 @@
     "summary": "neckbeard is an agent plugin that scaffolds tested, cost-honest cloud infrastructure from a versioned module catalog.",
     "unique": "Infrastructure comes from a versioned catalog and is meant to be tested and cost-honest.",
     "benefit": "Agent users can scaffold cloud infrastructure from a catalog instead of writing each module from scratch."
+  },
+  "8e1cba0dbde87475": {
+    "hash": "935bcfe8",
+    "summary": "SolidCraft is an open-source parametric 3D CAD application built in pure Rust, with desktop, web, and automation through MCP.",
+    "unique": "One Rust app covers desktop, web, and agent automation through MCP.",
+    "benefit": "CAD users and agents can drive parametric models through MCP from the same open-source app."
+  },
+  "5920535834eef505": {
+    "hash": "a6c5a667",
+    "summary": "PS5LM runs llama.cpp on a jailbroken PS5 so any GGUF model runs natively on the console, starting with Qwen 3.8.",
+    "unique": "It targets a jailbroken PlayStation 5 rather than a PC, and starts with Qwen 3.8.",
+    "benefit": "Homebrew users can try local GGUF models on a PS5, beginning with Qwen 3.8."
+  },
+  "d2cbbab652999df6": {
+    "hash": "76cfc49f",
+    "summary": "Konnect is a native KiCAD 10 plugin for AI-assisted PCB design. A single Rust binary exposes schematic, layout, routing, placement, design-review, and manufacturing tools.",
+    "unique": "Those 217 tools are available to Claude or another LLM of your choosing.",
+    "benefit": "PCB designers can ask Claude or another model to run KiCAD schematic, layout, and manufacturing checks."
+  },
+  "510d0b00db58d223": {
+    "hash": "12f627b5",
+    "summary": "open_scion is the open-source version of Scion, version control built for coding agents.",
+    "unique": "It is an open release of Scion, not a general-purpose Git client.",
+    "benefit": "Teams running coding agents can try Scion-style version control from this open-source project."
+  },
+  "db1862398a74b05f": {
+    "hash": "f693f9a0",
+    "summary": "git-ai is Git designed for AI agents.",
+    "unique": "The project is framed as Git for coding agents, and it is tagged with Scion and version control.",
+    "benefit": "Agent builders who want source control shaped for coding agents can start from this repository."
+  },
+  "f7f7084046b4a510": {
+    "hash": "169e43b4",
+    "summary": "Intent-Router is an intent compiler that turns vague requests into typed IntentSpec contracts, and can probe, ask, or halt before routing.",
+    "unique": "It is the input layer for routers and typed-decision models such as Jev and Laya.",
+    "benefit": "Agent routers can hold a vague request until it becomes a typed contract."
+  },
+  "dede43c9058e1211": {
+    "hash": "8ed6e9b3",
+    "summary": "Eleven free Claude skills that test a business before launch: a board, a marketing director, a CFO, and a consumer panel of 100 buyer agents.",
+    "unique": "The board is trained on Hormozi, Thiel, and Jobs, and the pack is free under MIT.",
+    "benefit": "Founders using Claude can stress-test an idea with those skills before they launch."
+  },
+  "9dea3e72c8e0c302": {
+    "hash": "86e7cada",
+    "summary": "Mission control for Herdr that runs dozens of coding agents from one board. Each works on its own branch, a second agent reviews it, and you see what needs you.",
+    "unique": "Review is a separate agent, and the board surfaces the work that needs a person.",
+    "benefit": "People running many coding agents can watch branches and reviews from one Herdr board."
+  },
+  "6ec647ee4b23d616": {
+    "hash": "a9e38b5e",
+    "summary": "Krea 3 is a new image editing model built for production. It keeps your product intact and is priced for volume.",
+    "unique": "The description stresses leaving the product intact while pricing edits for volume.",
+    "benefit": "Teams editing product images at volume can use a model aimed at keeping the product itself unchanged."
+  },
+  "c5e1b5656abc0110": {
+    "hash": "3f4d0b0d",
+    "summary": "Pomerado lets you or your agent create a hosted API or MCP in minutes by describing what you need. The platform handles design and deployment.",
+    "unique": "End-to-end design and deployment of the hosted API or MCP is done from that description.",
+    "benefit": "Agent builders can add a hosted API or MCP without standing up the integration themselves."
+  },
+  "82c3ea05f900d88e": {
+    "hash": "eb0eef31",
+    "summary": "Fireround lists startup funding rounds from pre-seed to growth, each checked against the pages that reported it. It is an open-source feed built on Firecrawl.",
+    "unique": "It includes a dashboard, Slack, feeds, an API, and an MCP server on those source-checked rounds.",
+    "benefit": "Researchers and agents can query funding rounds that were checked against the reporting pages."
+  },
+  "44ff0e1ebcb77ff8": {
+    "hash": "f5595f1d",
+    "summary": "Agent Vault has an agent fill checkout and sign-in forms with mock tokens. Real card numbers and passwords are substituted inside an enclave the agent cannot see.",
+    "unique": "Credentials stay in an enclave and are swapped in only as the form is completed.",
+    "benefit": "People who let agents pay or sign in can keep real card numbers and passwords out of the agent's view."
+  },
+  "1215ade8c36505a3": {
+    "hash": "634da8c7",
+    "summary": "Dynamic Creatures spun out of Boston Dynamics to create mobile, interactive character robots for theme parks, hotels, resorts, and attractions.",
+    "unique": "The robots are mobile characters meant to bring brands to life in hospitality venues, and the company is in Boston.",
+    "benefit": "Venue operators can look at character robots designed for guest-facing spaces."
+  },
+  "d96907ad257466da": {
+    "hash": "b70a4191",
+    "summary": "Proto checks records, prepares a report, or builds a workflow. It works with your files, ERP•AI, and the web, and every step is available to review.",
+    "unique": "Each step stays reviewable while the agent works across local files, ERP•AI, and the web.",
+    "benefit": "Business teams can ask an agent to update records or build a workflow and then inspect each step."
+  },
+  "d8112fe8c243c17e": {
+    "hash": "30300841",
+    "summary": "A Show HN item titled Gemini 4 Argon plays StarCraft, pointing at a StarSkirmish bench page.",
+    "unique": "The page is a bench where Gemini 4 Argon plays StarCraft, not a general game release.",
+    "benefit": "People comparing models can open the bench and see Gemini 4 Argon play StarCraft."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T21:19:28.792Z",
+  "generatedAt": "2026-10-17T00:03:17.091Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 27,
+      "press": 28,
       "outlets": [
         "The Decoder",
         "Search Engine Journal",
@@ -63,7 +63,7 @@
         "amazon"
       ],
       "official": 2,
-      "press": 6,
+      "press": 8,
       "outlets": [
         "Wccftech",
         "The Decoder",
@@ -77,8 +77,9 @@
         "Techzine Global",
         "Startup Fortune",
         "Unite.AI",
-        "巴士的報",
         "Technology Org",
+        "巴士的報",
+        "Newsquawk",
         "Nscale",
         "StreetInsider",
         "LMSYS Org"
@@ -109,26 +110,6 @@
       "lead": {
         "kind": "official",
         "id": "90995f7dbc9c2674"
-      },
-      "importance": 90
-    },
-    {
-      "id": "1d78f09c640d45a5",
-      "title": "Claude Haiku 5.5",
-      "entity": "Claude Haiku 5.5",
-      "labs": [
-        "anthropic",
-        "amazon"
-      ],
-      "official": 2,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-10-07T00:00:00.000Z",
-      "lastAt": "2026-10-07T18:52:10.000Z",
-      "url": "https://anthropic.com/claude-haiku-5-5",
-      "lead": {
-        "kind": "official",
-        "id": "1d78f09c640d45a5"
       },
       "importance": 90
     },
@@ -200,7 +181,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 40,
+        "count": 42,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -208,7 +189,7 @@
       },
       {
         "name": "Nemotron 3.5 Super",
-        "count": 13,
+        "count": 15,
         "prev": 0,
         "labs": [
           "amazon",
@@ -239,21 +220,21 @@
         "prev": 32,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "cohere",
           "qwen",
           "amazon",
-          "bytedance",
           "microsoft",
+          "bytedance",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 32,
-        "prev": 35,
+        "count": 31,
+        "prev": 36,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -262,8 +243,8 @@
           "cohere",
           "qwen",
           "amazon",
-          "bytedance",
           "microsoft",
+          "bytedance",
           "ibm",
           "nvidia"
         ]

@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-17",
-    "generatedAt": "2026-10-16T21:19:28.792Z",
+    "generatedAt": "2026-10-17T00:03:17.091Z",
     "stats": {
-      "updates24h": 10,
-      "labsActive24h": 5,
-      "updates7d": 116,
-      "newModels7d": 35
+      "updates24h": 9,
+      "labsActive24h": 6,
+      "updates7d": 117,
+      "newModels7d": 36
     },
     "source": "template",
-    "headline": "10 updates from 5 AI labs in the last 24 hours · 35 model releases this week.",
+    "headline": "9 updates from 6 AI labs in the last 24 hours · 36 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
@@ -22,18 +22,13 @@
         "lab": "amazon"
       },
       {
-        "text": "Anthropic: How the Claude Code team does code review",
-        "itemId": "7fd7e06ab2f4b840",
-        "lab": "anthropic"
+        "text": "Tencent: Qwen3-8B-DSpine-b16",
+        "itemId": "e33d1da6e264a687",
+        "lab": "tencent"
       },
       {
-        "text": "Anthropic: How an Anthropic Japan BDR runs his day with a fleet of Claude agents",
-        "itemId": "ce8bd23968211e78",
-        "lab": "anthropic"
-      },
-      {
-        "text": "OpenAI: Stack Overflow for Agents triples signups with ChatGPT plugin",
-        "itemId": "9db4940a53f86840",
+        "text": "OpenAI: How Itaú is building generative AI for its entire customer base",
+        "itemId": "65442e708214c10b",
         "lab": "openai"
       }
     ]
