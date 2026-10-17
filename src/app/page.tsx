@@ -103,7 +103,8 @@ export default function TodayPage() {
         Wrappers use display:contents below xl so every widget joins the same flex column.
       */}
       <div className="flex flex-col gap-5 xl:grid xl:grid-cols-[minmax(0,1fr)_380px] xl:items-start xl:gap-6 3xl:grid-cols-[320px_minmax(0,1fr)_400px]">
-        <div className="contents xl:col-span-full xl:grid xl:grid-cols-4 xl:items-start xl:gap-4 3xl:col-span-1 3xl:flex 3xl:flex-col 3xl:gap-5">
+        {/* At 3xl the short left column sticks beside the taller briefing instead of leaving a dead gap. */}
+        <div className="contents xl:col-span-full xl:grid xl:grid-cols-4 xl:items-start xl:gap-4 3xl:sticky 3xl:top-[4.5rem] 3xl:col-span-1 3xl:flex 3xl:flex-col 3xl:items-stretch 3xl:gap-5">
           {briefing && (
             <div className="order-3 grid grid-cols-2 gap-3 sm:grid-cols-4 xl:order-none xl:grid-cols-2">
               <StatTile icon={Zap} label="Updates · 24h" value={briefing.stats.updates24h} hint={`from ${briefing.stats.labsActive24h} active labs`} />
@@ -125,6 +126,7 @@ export default function TodayPage() {
         <div className="contents xl:flex xl:min-w-0 xl:flex-col xl:gap-5">
           <div className="order-2 xl:order-none"><LiveRadar blips={blips} sectors={sectors} windowHours={RADAR_HOURS} /></div>
           <div className="order-8 xl:order-none"><UnconfirmedPanel items={stories.unconfirmed} /></div>
+          <div className="hidden 3xl:block"><LabActivityPanel stats={stats} /></div>
         </div>
       </div>
 
@@ -139,7 +141,6 @@ export default function TodayPage() {
         dataTime={status?.generatedAt ?? new Date(0).toISOString()}
         rail={
           <>
-            <div className="hidden 3xl:block"><LabActivityPanel stats={stats} /></div>
             <SocialPanel posts={social} official={social.filter((p) => p.official).length} />
             <PulsePanel items={pulse} />
             <PapersPanel papers={papers} />

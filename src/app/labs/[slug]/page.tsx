@@ -6,6 +6,7 @@ import { CoveragePill } from "@/components/coverage-pill";
 import { JsonLd } from "@/components/json-ld";
 import { LabLogo } from "@/components/lab-logo";
 import { FollowButton } from "@/components/follow-button";
+import { LabSidebar } from "@/components/lab-sidebar";
 import { LabStreams } from "@/components/lab-streams";
 import { LabTimeline } from "@/components/lab-timeline";
 import { TimeAgo } from "@/components/time-ago";
@@ -42,7 +43,8 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
 
   const items = getLabItems(slug);
   const status = getStatus();
-  const stat = getLabStats().find((s) => s.slug === slug);
+  const stats = getLabStats();
+  const stat = stats.find((s) => s.slug === slug);
   const sourceStatus = new Map((status?.sources ?? []).map((s) => [s.id, s]));
   const okCount = lab.sources.filter((s) => sourceStatus.get(s.id)?.ok).length;
   const lastSuccess = lab.sources
@@ -146,12 +148,18 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
         </details>
       </header>
 
-      <LabStreams
-        press={getLabPress(slug).map((p) => ({ ...p, members: [] }))}
-        social={getLabSocial(slug)}
-        papers={getLabPapers(slug)}
-        official={<LabTimeline slug={lab.slug} items={items.map(toFeedItem)} dataTime={status?.generatedAt ?? new Date(0).toISOString()} />}
-      />
+      {/* Timeline + a sticky glance rail on wide screens, so cards keep a readable line length. */}
+      <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_360px] xl:items-start">
+        <div className="min-w-0">
+          <LabStreams
+            press={getLabPress(slug).map((p) => ({ ...p, members: [] }))}
+            social={getLabSocial(slug)}
+            papers={getLabPapers(slug)}
+            official={<LabTimeline slug={lab.slug} items={items.map(toFeedItem)} dataTime={status?.generatedAt ?? new Date(0).toISOString()} />}
+          />
+        </div>
+        <LabSidebar lab={lab} stat={stat} items={items} stats={stats} />
+      </div>
     </div>
   );
 }

@@ -46,9 +46,10 @@ export default function DigestPage() {
         <CopyButton text={markdown} />
       </header>
 
-      <div className="grid gap-4 xl:grid-cols-2 3xl:grid-cols-3">
+      {/* Masonry columns: sections differ a lot in length, so a row grid would leave tall empty cards. */}
+      <div className="gap-4 xl:columns-2 3xl:columns-3">
         {digest.sections.map((s) => (
-          <section key={s.id} aria-labelledby={`d-${s.id}`} className="card-surface p-5">
+          <section key={s.id} aria-labelledby={`d-${s.id}`} className="card-surface mb-4 break-inside-avoid p-5">
             <h2 id={`d-${s.id}`} className="text-base font-semibold tracking-tight">{s.title}</h2>
             {s.note && <p className="mt-0.5 text-[13.5px] text-muted-foreground">{s.note}</p>}
             <ul className="mt-3 divide-y">
