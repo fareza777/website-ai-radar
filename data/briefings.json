@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-17",
-    "generatedAt": "2026-10-17T10:53:32.165Z",
+    "generatedAt": "2026-10-17T15:42:26.434Z",
     "stats": {
-      "updates24h": 9,
-      "labsActive24h": 6,
+      "updates24h": 7,
+      "labsActive24h": 5,
       "updates7d": 119,
       "newModels7d": 37
     },
     "source": "template",
-    "headline": "9 updates from 6 AI labs in the last 24 hours · 37 model releases this week.",
+    "headline": "7 updates from 5 AI labs in the last 24 hours · 37 model releases this week.",
     "bullets": [
       {
         "text": "DeepSeek: DeepSeek-V4.1-Flash-1017",
@@ -25,11 +25,6 @@
         "text": "Amazon: Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
         "itemId": "42200690b98b1f60",
         "lab": "amazon"
-      },
-      {
-        "text": "Tencent: Qwen3-8B-DSpine-b16",
-        "itemId": "e33d1da6e264a687",
-        "lab": "tencent"
       },
       {
         "text": "OpenAI: How Itaú is building generative AI for its entire customer base",

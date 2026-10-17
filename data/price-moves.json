@@ -1,5 +1,71 @@
 [
   {
+    "id": "a4f4ba14cd003457",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-17T15:42:26.434Z",
+    "field": "prompt",
+    "from": 0.43935,
+    "to": 0.2088,
+    "change": -52.5
+  },
+  {
+    "id": "53a5b86c853f0127",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-17T15:42:26.434Z",
+    "field": "completion",
+    "from": 0.8787,
+    "to": 0.4176,
+    "change": -52.5
+  },
+  {
+    "id": "df1ee06c79c2480d",
+    "modelId": "z-ai/glm-4.7",
+    "name": "Z.ai: GLM 4.7",
+    "lab": "zai",
+    "at": "2026-10-17T15:42:26.434Z",
+    "field": "prompt",
+    "from": 0.6,
+    "to": 0.54,
+    "change": -10
+  },
+  {
+    "id": "d0057fbb3d43415c",
+    "modelId": "z-ai/glm-4.7",
+    "name": "Z.ai: GLM 4.7",
+    "lab": "zai",
+    "at": "2026-10-17T15:42:26.434Z",
+    "field": "completion",
+    "from": 2.2,
+    "to": 1.98,
+    "change": -10
+  },
+  {
+    "id": "9efae0ac358d413d",
+    "modelId": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "lab": "deepseek",
+    "at": "2026-10-17T15:42:26.434Z",
+    "field": "prompt",
+    "from": 0.259,
+    "to": 0.28,
+    "change": 8.1
+  },
+  {
+    "id": "ff7a9d6ab9d3275a",
+    "modelId": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "lab": "deepseek",
+    "at": "2026-10-17T15:42:26.434Z",
+    "field": "completion",
+    "from": 0.8,
+    "to": 0.42,
+    "change": -47.5
+  },
+  {
     "id": "b411262d9b532eff",
     "modelId": "nvidia/nemotron-3.5-super-vl",
     "name": "NVIDIA: Nemotron 3.5 Super VL",

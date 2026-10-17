@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T10:53:32.165Z",
+  "generatedAt": "2026-10-17T15:42:26.434Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -64,7 +64,7 @@
         "amazon"
       ],
       "official": 2,
-      "press": 8,
+      "press": 9,
       "outlets": [
         "Wccftech",
         "The Decoder",
@@ -84,6 +84,7 @@
         "Nscale",
         "StreetInsider",
         "LMSYS Org",
+        "OrcaRouter",
         "GameGPU"
       ],
       "firstAt": "2026-10-15T15:00:00.000Z",
@@ -191,7 +192,7 @@
       },
       {
         "name": "Nemotron 3.5 Super",
-        "count": 16,
+        "count": 17,
         "prev": 0,
         "labs": [
           "amazon",
@@ -230,12 +231,12 @@
         "prev": 32,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "cohere",
           "qwen",
-          "microsoft",
           "amazon",
+          "microsoft",
           "bytedance",
           "ibm",
           "nvidia"
@@ -244,18 +245,17 @@
       {
         "name": "coding",
         "count": 32,
-        "prev": 36,
+        "prev": 35,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "openai",
           "mistral",
+          "openai",
           "cohere",
           "qwen",
-          "microsoft",
           "amazon",
+          "microsoft",
           "bytedance",
-          "ibm",
           "nvidia"
         ]
       },
@@ -266,8 +266,8 @@
         "labs": [
           "anthropic",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -278,8 +278,8 @@
         "labs": [
           "deepseek",
           "google-deepmind",
-          "openai",
           "mistral",
+          "openai",
           "qwen",
           "tencent",
           "amazon",
@@ -306,8 +306,8 @@
         "prev": 4,
         "labs": [
           "google-deepmind",
-          "openai",
           "mistral",
+          "openai",
           "tencent",
           "amazon",
           "ibm",
