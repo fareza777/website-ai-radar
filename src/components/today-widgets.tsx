@@ -10,11 +10,19 @@ import { LabLogo } from "./lab-logo";
 import { TimeAgo } from "./time-ago";
 
 /** Shared card shell for dashboard widgets. */
+/** Fades out the bottom of a filled panel, so clipped rows never end on a hard cut. */
+const FILL_MASK = "[mask-image:linear-gradient(to_bottom,#000_calc(100%-2.5rem),transparent)]";
+
 export function Panel({
-  title, icon: Icon, href, hint, className, children,
-}: { title: string; icon: typeof Flame; href?: string; hint?: string; className?: string; children: React.ReactNode }) {
+  title, icon: Icon, href, hint, className, fill = false, children,
+}: {
+  title: string; icon: typeof Flame; href?: string; hint?: string; className?: string;
+  /** Stretch to the parent's height and clip (with a fade) whatever does not fit. */
+  fill?: boolean;
+  children: React.ReactNode;
+}) {
   return (
-    <section className={cn("card-surface flex min-w-0 flex-col p-4", className)}>
+    <section className={cn("card-surface flex min-w-0 flex-col p-4", fill && "h-full overflow-hidden", className)}>
       <div className="mb-3 flex items-center justify-between gap-2">
         <h2 className="flex items-center gap-2 text-[15px] font-semibold tracking-tight">
           <Icon className="size-4 text-brand" /> {title}
@@ -27,7 +35,7 @@ export function Panel({
           <span className="text-[12.5px] text-muted-foreground">{hint}</span>
         ) : null}
       </div>
-      {children}
+      {fill ? <div className={cn("min-h-0 flex-1 overflow-hidden", FILL_MASK)}>{children}</div> : children}
     </section>
   );
 }
@@ -159,11 +167,12 @@ export function TopicsPanel({ topics }: { topics: TrendingEntry[] }) {
   );
 }
 
-export function LabActivityPanel({ stats }: { stats: LabStat[] }) {
-  const rows = [...stats].sort((a, b) => b.last7 - a.last7).slice(0, 8);
+export function LabActivityPanel({ stats, fill = false }: { stats: LabStat[]; fill?: boolean }) {
+  // A filled panel lists every lab and lets the height decide how many show.
+  const rows = [...stats].sort((a, b) => b.last7 - a.last7).slice(0, fill ? stats.length : 8);
   const max = Math.max(1, ...rows.map((s) => s.last7));
   return (
-    <Panel title="Most active labs" icon={Radar} href="/labs" hint="7d">
+    <Panel title="Most active labs" icon={Radar} href="/labs" hint="7d" fill={fill}>
       <ul className="space-y-2.5">
         {rows.map((s) => {
           const lab = LAB_BY_SLUG[s.slug];
@@ -246,12 +255,12 @@ export function PapersPanel({ papers }: { papers: PaperItem[] }) {
   );
 }
 
-export function PulsePanel({ items }: { items: PulseItem[] }) {
+export function PulsePanel({ items, fill = false }: { items: PulseItem[]; fill?: boolean }) {
   if (!items.length) return null;
   return (
-    <Panel title="Community pulse" icon={MessageSquare} href="/firehose?s=community" hint="Hacker News · 72h">
+    <Panel title="Community pulse" icon={MessageSquare} href="/firehose?s=community" hint="Hacker News · 72h" fill={fill}>
       <ul className="space-y-3">
-        {items.slice(0, 6).map((c) => {
+        {items.slice(0, fill ? items.length : 6).map((c) => {
           const lab = c.lab ? LAB_BY_SLUG[c.lab] : undefined;
           return (
             <li key={c.id} className="flex items-start gap-2.5">

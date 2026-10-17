@@ -85,7 +85,7 @@ export default function TodayPage() {
   const related = topStory ? all.filter((i) => i.lab === topStory.lab && i.id !== topStory.id).slice(0, 3) : [];
   const models = getModels();
   const newModels = models.filter((m) => m.createdAt && ref - Date.parse(m.createdAt) < 7 * DAY).slice(0, 5);
-  const pulse = getPulse().filter((p) => ref - Date.parse(p.at) < 3 * DAY).slice(0, 6);
+  const pulse = getPulse().filter((p) => ref - Date.parse(p.at) < 3 * DAY).slice(0, 12);
   const papers = getPapers()
     .filter((p) => p.lab && ref - Date.parse(p.submittedAt) < 7 * DAY)
     .sort((a, b) => b.upvotes - a.upvotes);
@@ -104,8 +104,11 @@ export default function TodayPage() {
         Wrappers use display:contents below xl so every widget joins the same flex column.
       */}
       <div className="flex flex-col gap-5 xl:grid xl:grid-cols-[minmax(0,1fr)_380px] xl:items-start xl:gap-6 3xl:grid-cols-[320px_minmax(0,1fr)_400px] 4xl:grid-cols-[360px_minmax(0,1fr)_460px]">
-        {/* At 3xl the short left column sticks beside the taller briefing instead of leaving a dead gap. */}
-        <div className="contents xl:col-span-full xl:grid xl:grid-cols-4 xl:items-start xl:gap-4 3xl:sticky 3xl:top-[4.5rem] 3xl:col-span-1 3xl:flex 3xl:flex-col 3xl:items-stretch 3xl:gap-5">
+        {/*
+          Side columns stretch to the briefing's height; their last panel ("fill") absorbs the leftover space,
+          clipping extra rows with a fade, so neither side ever ends in a dead gap.
+        */}
+        <div className="contents xl:col-span-full xl:grid xl:grid-cols-3 xl:items-stretch xl:gap-4 3xl:col-span-1 3xl:flex 3xl:flex-col 3xl:items-stretch 3xl:gap-5 3xl:self-stretch">
           {briefing && (
             <div className="order-3 grid grid-cols-2 gap-3 sm:grid-cols-4 xl:order-none xl:grid-cols-2">
               <StatTile icon={Zap} label="Updates · 24h" value={briefing.stats.updates24h} hint={`from ${briefing.stats.labsActive24h} active labs`} />
@@ -114,9 +117,14 @@ export default function TodayPage() {
               <StatTile icon={Radio} label="Sources" value={sources} hint={`${LABS.length} labs · auto 3h`} />
             </div>
           )}
-          <div className="order-5 min-w-0 xl:order-none"><TrendingPanel entities={stories.trending.entities} /></div>
-          <div className="order-6 min-w-0 xl:order-none"><TopicsPanel topics={stories.trending.topics} /></div>
-          <div className="order-7 min-w-0 xl:order-none 3xl:hidden"><LabActivityPanel stats={stats} /></div>
+          <div className="order-5 min-w-0 xl:order-none xl:[&>section]:h-full 3xl:[&>section]:h-auto"><TrendingPanel entities={stories.trending.entities} /></div>
+          <div className="order-6 min-w-0 xl:order-none xl:[&>section]:h-full 3xl:[&>section]:h-auto"><TopicsPanel topics={stories.trending.topics} /></div>
+          <div className="order-7 min-w-0 xl:hidden"><LabActivityPanel stats={stats} /></div>
+          {pulse.length > 0 && (
+            <div className="relative hidden min-h-[18rem] flex-1 3xl:block">
+              <div className="absolute inset-0"><PulsePanel items={pulse} fill /></div>
+            </div>
+          )}
         </div>
 
         <div className="contents xl:flex xl:min-w-0 xl:flex-col xl:gap-5">
@@ -124,10 +132,12 @@ export default function TodayPage() {
           <div className="order-4 xl:order-none"><StoriesPanel stories={stories.stories} /></div>
         </div>
 
-        <div className="contents xl:flex xl:min-w-0 xl:flex-col xl:gap-5">
+        <div className="contents xl:flex xl:min-w-0 xl:flex-col xl:gap-5 xl:self-stretch">
           <div className="order-2 xl:order-none"><LiveRadar blips={blips} sectors={sectors} windowHours={RADAR_HOURS} /></div>
           <div className="order-8 xl:order-none"><UnconfirmedPanel items={stories.unconfirmed} /></div>
-          <div className="hidden 3xl:block"><LabActivityPanel stats={stats} /></div>
+          <div className="relative hidden min-h-[20rem] flex-1 xl:block">
+            <div className="absolute inset-0"><LabActivityPanel stats={stats} fill /></div>
+          </div>
         </div>
       </div>
 
@@ -143,7 +153,7 @@ export default function TodayPage() {
         rail={
           <>
             <SocialPanel posts={social} official={social.filter((p) => p.official).length} />
-            <PulsePanel items={pulse} />
+            <div className="3xl:hidden"><PulsePanel items={pulse} /></div>
             <PapersPanel papers={papers} />
             {deals.length > 0 && (
               <Panel title="Verified active deals" icon={Gift} href="/deals">
