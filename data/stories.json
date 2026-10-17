@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T15:42:26.434Z",
+  "generatedAt": "2026-10-17T20:42:32.148Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -64,7 +64,7 @@
         "amazon"
       ],
       "official": 2,
-      "press": 9,
+      "press": 8,
       "outlets": [
         "Wccftech",
         "The Decoder",
@@ -74,6 +74,7 @@
         "SQ Magazine",
         "ZDNET",
         "Prime Intellect",
+        "OrcaRouter",
         "Business Wire",
         "Techzine Global",
         "Startup Fortune",
@@ -84,7 +85,6 @@
         "Nscale",
         "StreetInsider",
         "LMSYS Org",
-        "OrcaRouter",
         "GameGPU"
       ],
       "firstAt": "2026-10-15T15:00:00.000Z",
@@ -231,11 +231,11 @@
         "prev": 32,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "cohere",
-          "qwen",
           "amazon",
+          "qwen",
           "microsoft",
           "bytedance",
           "ibm",
@@ -249,11 +249,11 @@
         "labs": [
           "anthropic",
           "google-deepmind",
-          "mistral",
           "openai",
+          "mistral",
           "cohere",
-          "qwen",
           "amazon",
+          "qwen",
           "microsoft",
           "bytedance",
           "nvidia"
@@ -276,13 +276,13 @@
         "count": 7,
         "prev": 12,
         "labs": [
-          "deepseek",
           "google-deepmind",
-          "mistral",
+          "deepseek",
           "openai",
+          "mistral",
+          "amazon",
           "qwen",
           "tencent",
-          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -290,7 +290,7 @@
       {
         "name": "safety",
         "count": 6,
-        "prev": 7,
+        "prev": 6,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -306,10 +306,10 @@
         "prev": 4,
         "labs": [
           "google-deepmind",
-          "mistral",
           "openai",
-          "tencent",
+          "mistral",
           "amazon",
+          "tencent",
           "ibm",
           "nvidia"
         ]
@@ -332,8 +332,8 @@
         "labs": [
           "google-deepmind",
           "openai",
-          "qwen",
-          "amazon"
+          "amazon",
+          "qwen"
         ]
       }
     ]

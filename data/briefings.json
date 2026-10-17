@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-10-18",
+    "generatedAt": "2026-10-17T20:42:32.148Z",
+    "stats": {
+      "updates24h": 3,
+      "labsActive24h": 3,
+      "updates7d": 119,
+      "newModels7d": 37
+    },
+    "source": "template",
+    "headline": "3 updates from 3 AI labs in the last 24 hours · 37 model releases this week.",
+    "bullets": [
+      {
+        "text": "DeepSeek: DeepSeek-V4.1-Flash-1017",
+        "itemId": "9b13d6a721a0c270",
+        "lab": "deepseek"
+      },
+      {
+        "text": "Amazon: Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+        "itemId": "c22ce4d9c5995d4a",
+        "lab": "amazon"
+      },
+      {
+        "text": "Anthropic: Claude Code v2.1.302",
+        "itemId": "0c6e6f470183a107",
+        "lab": "anthropic"
+      }
+    ]
+  },
+  {
     "date": "2026-10-17",
     "generatedAt": "2026-10-17T15:42:26.434Z",
     "stats": {
