@@ -18,7 +18,7 @@ export function Chip({ active, onClick, children, count, className }: ChipProps)
       onClick={onClick}
       aria-pressed={active}
       className={cn(
-        "inline-flex h-8 shrink-0 items-center gap-1.5 rounded-md border px-2.5 text-[12px] font-medium transition",
+        "inline-flex h-9 shrink-0 items-center gap-1.5 rounded-md border px-2 text-[14px] font-medium transition",
         active
           ? "border-brand/25 bg-brand/12 text-brand"
           : "bg-surface/60 text-muted-foreground hover:border-foreground/20 hover:text-foreground",
@@ -26,7 +26,7 @@ export function Chip({ active, onClick, children, count, className }: ChipProps)
       )}
     >
       {children}
-      {count != null && <span className={cn("font-mono tabular-nums text-[10px]", active ? "text-brand/80" : "text-muted-foreground/80")}>{count}</span>}
+      {count != null && <span className={cn("font-mono tabular-nums text-[12px]", active ? "text-brand/80" : "text-muted-foreground/80")}>{count}</span>}
     </button>
   );
 }
@@ -44,7 +44,7 @@ interface SegmentedProps<T extends string> {
 
 export function Segmented<T extends string>({ value, onChange, options, ariaLabel }: SegmentedProps<T>) {
   return (
-    <div role="radiogroup" aria-label={ariaLabel} className="no-scrollbar inline-flex h-8 max-w-full items-center overflow-x-auto rounded-lg border bg-surface/60 p-0.5">
+    <div role="radiogroup" aria-label={ariaLabel} className="no-scrollbar inline-flex h-9 max-w-full items-center overflow-x-auto rounded-lg border bg-surface/60 p-0.5">
       {options.map((o) => (
         <button
           key={o.value}
@@ -53,7 +53,7 @@ export function Segmented<T extends string>({ value, onChange, options, ariaLabe
           aria-checked={value === o.value}
           onClick={() => onChange(o.value)}
           className={cn(
-            "h-full shrink-0 whitespace-nowrap rounded-md px-2.5 text-[13.5px] font-medium text-muted-foreground transition",
+            "h-full shrink-0 whitespace-nowrap rounded-md px-2.5 text-[14px] font-medium text-muted-foreground transition",
             value === o.value && "bg-accent text-foreground shadow-xs",
           )}
         >
@@ -66,7 +66,7 @@ export function Segmented<T extends string>({ value, onChange, options, ariaLabe
 
 export function SearchInput({ value, onChange, placeholder, className }: { value: string; onChange: (v: string) => void; placeholder: string; className?: string }) {
   return (
-    <label className={cn("relative flex h-9 items-center", className)}>
+    <label className={cn("relative flex h-10 items-center", className)}>
       <Search className="pointer-events-none absolute left-3 size-4 text-muted-foreground" />
       <input
         type="search"
@@ -74,7 +74,7 @@ export function SearchInput({ value, onChange, placeholder, className }: { value
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
         aria-label={placeholder}
-        className="h-full w-full rounded-lg border bg-surface/60 pl-9 pr-8 text-sm outline-none transition placeholder:text-muted-foreground/70 focus:border-ring focus:ring-2 focus:ring-ring/30 [&::-webkit-search-cancel-button]:hidden"
+        className="h-full w-full rounded-lg border bg-surface/60 pl-9 pr-8 text-base outline-none transition placeholder:text-muted-foreground/80 focus:border-ring focus:ring-2 focus:ring-ring/30 [&::-webkit-search-cancel-button]:hidden"
       />
       {value && (
         <button type="button" onClick={() => onChange("")} aria-label="Clear search" className="absolute right-2 rounded p-0.5 text-muted-foreground hover:text-foreground">

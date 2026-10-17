@@ -21,20 +21,20 @@ export function UpdateRow({ item, unread = false, isNew = false }: { item: FeedI
       <span className={cn("hidden size-1.5 shrink-0 rounded-full sm:block", CATEGORY_META[item.category].dot)} title={CATEGORY_META[item.category].label} />
       <div className="min-w-0 flex-1">
         <a
-        href={extHref(item.url)}
-        target="_blank"
-        rel="noopener noreferrer"
-        onClick={() => markRead(item.id)}
-        className={cn("line-clamp-2 text-[13px] leading-snug hover:text-brand hover:underline sm:line-clamp-1", unread ? "font-semibold" : "text-foreground/80")}
-        title={item.summary}
-      >
-        {item.title}
-      </a>
-        <span className="mt-1 flex flex-wrap items-center gap-x-1.5 text-[10px] text-muted-foreground sm:hidden">{lab?.name}<span aria-hidden="true">·</span>{CATEGORY_META[item.category].label}<span aria-hidden="true">·</span><TimeAgo iso={item.publishedAt} /></span>
+          href={extHref(item.url)}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => markRead(item.id)}
+          className={cn("line-clamp-2 text-base leading-snug hover:text-brand hover:underline sm:line-clamp-1", unread ? "font-semibold" : "text-foreground/80")}
+          title={item.summary}
+        >
+          {item.title}
+        </a>
+        <span className="mt-1 flex flex-wrap items-center gap-x-1.5 text-[12px] text-muted-foreground sm:hidden">{lab?.name}<span aria-hidden="true">·</span>{CATEGORY_META[item.category].label}<span aria-hidden="true">·</span><TimeAgo iso={item.publishedAt} /></span>
       </div>
-      {important && <span className="hidden shrink-0 rounded bg-brand/10 px-1.5 text-[10px] font-medium text-brand sm:inline">Important</span>}
-      {isNew && <span className="shrink-0 rounded bg-brand/15 px-1.5 text-[10px] font-semibold text-brand">New</span>}
-      <TimeAgo iso={item.publishedAt} className="hidden w-16 shrink-0 text-right text-[10px] text-muted-foreground sm:block" />
+      {important && <span className="hidden shrink-0 rounded bg-brand/10 px-1.5 text-[12px] font-medium text-brand sm:inline">Important</span>}
+      {isNew && <span className="shrink-0 rounded bg-brand/15 px-1.5 text-[12px] font-semibold text-brand">New</span>}
+      <TimeAgo iso={item.publishedAt} className="hidden w-20 shrink-0 text-right text-[12px] text-muted-foreground sm:block" />
       <ArrowUpRight className="hidden size-3 shrink-0 text-muted-foreground opacity-0 transition group-hover:opacity-100 sm:block" />
       <BookmarkButton className="-my-1 shrink-0" entry={{ id: item.id, kind: "update", title: item.title, url: item.url, lab: item.lab, subtitle: item.summary, date: item.publishedAt }} />
     </article>

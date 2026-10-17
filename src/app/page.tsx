@@ -27,13 +27,13 @@ const DAY = 86_400_000;
 function StatTile({ icon: Icon, label, value, hint }: { icon: typeof Zap; label: string; value: string | number; hint: string }) {
   return (
     <div className="overview-stat">
-      <div className="flex items-center justify-between gap-2">
-        <span className="text-xs font-medium text-muted-foreground">{label}</span>
+      <div className="stat-heading flex items-start justify-between gap-2">
+        <span className="text-sm font-medium text-muted-foreground">{label}</span>
         <Icon className="size-4 text-brand/80" />
       </div>
       <div className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-        <span className="text-[32px] font-semibold leading-none tracking-[-0.05em] tabular-nums">{value}</span>
-        <span className="text-xs leading-relaxed text-muted-foreground">{hint}</span>
+        <span className="text-[36px] font-semibold leading-none tracking-[-0.05em] tabular-nums">{value}</span>
+        <span className="text-[13px] leading-relaxed text-muted-foreground">{hint}</span>
       </div>
     </div>
   );
@@ -101,11 +101,11 @@ export default function TodayPage() {
       <div className="overview-heading">
         <div>
           <p className="eyebrow">Your daily intelligence</p>
-          <h1 className="mt-2 text-[28px] font-semibold leading-tight tracking-[-0.045em] sm:text-[36px]">The AI landscape, in focus<span className="text-brand">.</span></h1>
-          <p className="mt-2 text-sm text-muted-foreground">Releases, research, and the shifts that matter. One clear view.</p>
+          <h1 className="mt-2 text-[30px] font-semibold leading-tight tracking-[-0.045em] sm:text-[40px]">The AI landscape, in focus<span className="text-brand">.</span></h1>
+          <p className="mt-2 text-base leading-relaxed text-muted-foreground">Releases, research, and the shifts that matter. One clear view.</p>
         </div>
         <div className="overview-heading-actions">
-          {status && <span className="flex items-center gap-2 text-xs text-muted-foreground"><span className="size-1.5 rounded-full bg-brand" />{formatDate(status.generatedAt)}<span className="text-border">/</span>Updated <TimeAgo iso={status.generatedAt} /></span>}
+          {status && <span className="flex items-center gap-2 text-[13px] text-muted-foreground"><span className="size-1.5 rounded-full bg-brand" />{formatDate(status.generatedAt)}<span className="text-border">/</span>Updated <TimeAgo iso={status.generatedAt} /></span>}
           <div className="flex items-center gap-2">
             <Link href="/digest" className="quiet-button">Weekly digest <ArrowUpRight className="size-3.5" /></Link>
             <a href="#global-feed" className="primary-button">Explore the feed <ArrowDown className="size-3.5" /></a>
@@ -151,8 +151,8 @@ export default function TodayPage() {
                       <a href={extHref(d.url)} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-2">
                         <span className="mt-2 size-1.5 shrink-0 rounded-full bg-brand" />
                         <span>
-                          <span className="block text-[14px] font-medium group-hover:underline">{d.title}</span>
-                          <span className="text-[13px] text-muted-foreground">{d.provider}</span>
+                          <span className="block text-[16px] font-medium group-hover:underline">{d.title}</span>
+                          <span className="text-[15px] text-muted-foreground">{d.provider}</span>
                         </span>
                       </a>
                     </li>

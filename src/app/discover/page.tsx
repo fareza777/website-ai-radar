@@ -60,7 +60,7 @@ export default function DiscoverPage() {
           <span className="ml-auto text-xs text-muted-foreground group-open:hidden">Show</span>
           <span className="ml-auto hidden text-xs text-muted-foreground group-open:inline">Hide</span>
         </summary>
-        <ul className="mt-3 flex flex-wrap gap-2 text-[13px] text-muted-foreground">
+        <ul className="mt-3 flex flex-wrap gap-2 text-[15px] text-muted-foreground">
           {sources.map((s) => (
             <li key={s.id} className="inline-flex items-center gap-1.5 rounded-full border bg-surface/60 px-2.5 py-1">
               <span className={s.ok ? "size-1.5 rounded-full bg-brand" : "size-1.5 rounded-full bg-muted-foreground/50"} />

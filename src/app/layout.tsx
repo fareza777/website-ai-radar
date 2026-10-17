@@ -52,7 +52,7 @@ function SiteFooter() {
   return (
     <footer className="mt-10 border-t bg-card/50 pb-24 lg:pb-6">
       {/* Sitewide internal links: every section and lab is two clicks from anywhere (crawlable, and handy for visitors). */}
-      <nav aria-label="Footer" className="site-container grid gap-8 pt-6 text-[13px] md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
+      <nav aria-label="Footer" className="site-container grid gap-8 pt-6 text-[15px] md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
         <div>
           <h2 className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground">Explore</h2>
           <ul className="grid grid-cols-2 gap-x-6 gap-y-1.5 text-muted-foreground">

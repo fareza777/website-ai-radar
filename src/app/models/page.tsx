@@ -52,16 +52,16 @@ export default function ModelsPage() {
               {newest.map((m) => {
                 const lab = m.lab ? LAB_BY_SLUG[m.lab] : undefined;
                 return (
-                  <li key={m.id} className="flex items-center gap-2.5 text-[14px]">
+                  <li key={m.id} className="flex items-center gap-2.5 text-[16px]">
                     {lab ? <LabLogo logo={lab.logo} name={lab.name} size="xs" /> : <span className="size-5" />}
                     <a href={`https://openrouter.ai/${m.id}`} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1 truncate font-medium hover:underline">{m.name}</a>
-                    <span className="font-mono text-[12.5px] text-muted-foreground">{m.free ? "Free" : `${usd(m.prompt)}/${usd(m.completion)}`}</span>
+                    <span className="font-mono text-[14px] text-muted-foreground">{m.free ? "Free" : `${usd(m.prompt)}/${usd(m.completion)}`}</span>
                   </li>
                 );
               })}
             </ul>
           ) : (
-            <p className="text-[14px] text-muted-foreground">No new models in the last 7 days.</p>
+            <p className="text-[16px] text-muted-foreground">No new models in the last 7 days.</p>
           )}
         </section>
         <section className="card-surface min-w-0 p-4">
@@ -70,10 +70,10 @@ export default function ModelsPage() {
             {cheapestFrontier.map((m) => {
               const lab = m.lab ? LAB_BY_SLUG[m.lab] : undefined;
               return (
-                <li key={m.id} className="flex items-center gap-2.5 text-[14px]">
+                <li key={m.id} className="flex items-center gap-2.5 text-[16px]">
                   {lab ? <LabLogo logo={lab.logo} name={lab.name} size="xs" /> : <span className="size-5" />}
                   <a href={`https://openrouter.ai/${m.id}`} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1 truncate font-medium hover:underline">{m.name}</a>
-                  <span className="font-mono text-[12.5px] text-muted-foreground">{usd(m.prompt)}/{usd(m.completion)}</span>
+                  <span className="font-mono text-[14px] text-muted-foreground">{usd(m.prompt)}/{usd(m.completion)}</span>
                 </li>
               );
             })}

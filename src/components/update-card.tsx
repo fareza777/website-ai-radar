@@ -29,9 +29,9 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
 
   return (
     <article
-      className={cn("card-surface group p-4 transition hover:border-brand/35", unread && "border-l-2 border-l-brand/70")}
+      className={cn("card-surface group p-4 transition hover:border-brand/40 hover:shadow-[0_6px_22px_#04091410] sm:p-5", unread && "border-l-2 border-l-brand/70")}
     >
-      <header className="flex flex-wrap items-center gap-x-2 gap-y-1.5 text-[11px] text-muted-foreground">
+      <header className="flex flex-wrap items-center gap-x-2 gap-y-1.5 text-[13px] text-muted-foreground">
         {showLab && lab && (
           <Link href={`/labs/${lab.slug}`} className="flex min-w-0 items-center gap-2 font-medium text-foreground/90 hover:text-foreground">
             <LabLogo logo={lab.logo} name={lab.name} size="xs" />
@@ -40,11 +40,11 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
         )}
         <CategoryBadge category={item.category} />
         {important && (
-          <span className="inline-flex h-5 items-center gap-0.5 rounded bg-brand/10 px-1.5 text-[10px] font-medium text-brand" title={`Relevance score ${item.importance}/100`}>
+          <span className="inline-flex h-5 items-center gap-0.5 rounded bg-brand/10 px-1.5 text-[12px] font-medium text-brand" title={`Relevance score ${item.importance}/100`}>
             <Flame className="size-3" /> Important
           </span>
         )}
-        {isNew && <span className="rounded-md bg-brand/15 px-1.5 text-[12.5px] font-semibold text-brand">New</span>}
+        {isNew && <span className="rounded-md bg-brand/15 px-1.5 text-[14px] font-semibold text-brand">New</span>}
         <span className="ml-auto flex items-center gap-1 whitespace-nowrap">
           <TimeAgo iso={item.publishedAt} />
         </span>
@@ -54,17 +54,17 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
         />
       </header>
 
-      <h3 className={cn("mt-2.5 text-[15px] font-semibold leading-snug tracking-tight", unread ? "text-foreground" : "text-foreground/80")}>
+      <h3 className={cn("mt-2.5 text-[18px] font-semibold leading-snug tracking-tight", unread ? "text-foreground" : "text-foreground/80")}>
         <a href={extHref(item.url)} target="_blank" rel="noopener noreferrer" onClick={() => markRead(item.id)} className="decoration-brand/50 underline-offset-4 hover:underline">
           {item.title}
           <ArrowUpRight className="ml-1 inline size-3.5 -translate-y-px text-muted-foreground opacity-0 transition group-hover:opacity-100" />
         </a>
       </h3>
 
-      <p className="mt-1.5 text-[13px] leading-relaxed text-muted-foreground">{item.summary}</p>
+      <p className="mt-2 text-base leading-relaxed text-muted-foreground">{item.summary}</p>
 
       {!compact && (
-        <p className="mt-2.5 flex gap-2 border-l border-brand/40 pl-2.5 text-[12px] leading-relaxed text-foreground/80">
+        <p className="mt-3 flex gap-2 border-l border-brand/40 pl-3 text-[15px] leading-relaxed text-foreground/85">
           <Lightbulb className="mt-0.5 size-3.5 shrink-0 text-brand" />
           <span>
             <span className="font-medium text-foreground">Why it matters: </span>
@@ -73,7 +73,7 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
         </p>
       )}
 
-      <footer className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-border/60 pt-2.5 text-[10px] text-muted-foreground">
+      <footer className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-border/60 pt-2.5 text-[12px] text-muted-foreground">
         <span className="truncate">{item.sourceName}</span>
         <VerifyBadge verified={item.verified} trust={item.trust} />
         {edited && (
@@ -87,7 +87,7 @@ export function UpdateCard({ item, unread = false, isNew = false, showLab = true
           </span>
         ) : null}
         {item.tags.slice(0, 3).map((t) => (
-          <span key={t} className="font-mono text-[10px] text-muted-foreground/80">
+          <span key={t} className="font-mono text-[12px] text-muted-foreground/80">
             #{t}
           </span>
         ))}

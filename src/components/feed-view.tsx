@@ -139,7 +139,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
               value={lab}
               onChange={(e) => { setLab(e.target.value); reset(); }}
               aria-label="Filter by lab"
-              className="h-9 rounded-lg border bg-surface/60 px-3 text-sm outline-none focus:border-ring sm:w-52 xl:hidden"
+              className="h-10 rounded-lg border bg-surface/60 px-3 text-sm outline-none focus:border-ring sm:w-52 xl:hidden"
             >
               <option value="all">All labs</option>
               {LABS.map((l) => (
@@ -154,7 +154,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
           <button
             type="button"
             onClick={() => { setLab("all"); reset(); }}
-            className={cn("flex w-full items-center justify-between rounded-lg px-2.5 py-2 text-[14px] font-medium transition hover:bg-accent", lab === "all" && "bg-accent")}
+            className={cn("flex w-full items-center justify-between rounded-lg px-2.5 py-2 text-[16px] font-medium transition hover:bg-accent", lab === "all" && "bg-accent")}
           >
             All labs <span className="tabular-nums text-muted-foreground">{[...labCounts.values()].reduce((a, b) => a + b, 0)}</span>
           </button>
@@ -165,7 +165,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
                   type="button"
                   onClick={() => { setLab(lab === l.slug ? "all" : l.slug); reset(); }}
                   aria-pressed={lab === l.slug}
-                  className={cn("flex w-full items-center gap-2.5 rounded-lg px-2.5 py-1.5 text-[14px] transition hover:bg-accent", lab === l.slug && "bg-accent font-semibold", n === 0 && "opacity-45")}
+                  className={cn("flex w-full items-center gap-2.5 rounded-lg px-2.5 py-1.5 text-[16px] transition hover:bg-accent", lab === l.slug && "bg-accent font-semibold", n === 0 && "opacity-45")}
                 >
                   <LabLogo logo={l.logo} name={l.name} size="xs" />
                   <span className="min-w-0 flex-1 truncate text-left">{l.name}</span>
@@ -191,14 +191,14 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
               {olderError && " · could not load earlier days"}
             </p>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex max-w-full flex-wrap items-center gap-2">
             <Segmented<Sort>
               ariaLabel="Sort"
               value={sort}
               onChange={(v) => { setSort(v); reset(); }}
               options={[{ value: "newest", label: "Newest" }, { value: "important", label: "Priority" }]}
             />
-            <div role="radiogroup" aria-label="Density" className="inline-flex h-8 items-center rounded-lg border bg-surface/60 p-0.5">
+            <div role="radiogroup" aria-label="Density" className="inline-flex h-9 items-center rounded-lg border bg-surface/60 p-0.5">
               {([["cards", LayoutList, "Cards"], ["compact", Rows3, "Compact"]] as const).map(([value, Icon, label]) => (
                 <button
                   key={value}
@@ -208,7 +208,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
                   aria-label={label}
                   title={label}
                   onClick={() => setDensity(value)}
-                  className={cn("inline-flex h-full items-center gap-1 rounded-md px-2 text-[13px] font-medium text-muted-foreground transition", state.density === value && "bg-accent text-foreground shadow-xs")}
+                  className={cn("inline-flex h-full items-center gap-1 rounded-md px-2 text-[15px] font-medium text-muted-foreground transition", state.density === value && "bg-accent text-foreground shadow-xs")}
                 >
                   <Icon className="size-4" />
                   <span className="hidden 3xl:inline">{label}</span>
@@ -218,7 +218,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
             <button
               type="button"
               onClick={markAllRead}
-              className="inline-flex h-8 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 text-[13.5px] font-medium text-muted-foreground transition hover:text-foreground"
+              className="inline-flex h-9 items-center gap-1.5 rounded-lg border bg-surface/60 px-2.5 text-[15px] font-medium text-muted-foreground transition hover:text-foreground"
               title="Mark all as read"
             >
               <CheckCheck className="size-4" /> <span className="hidden 3xl:inline">Mark all read</span>
@@ -239,7 +239,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
               return (
                 <li key={item.id}>
                   {showDay && (
-                    <h3 className="sticky top-16 z-10 -mx-1 mb-2 mt-4 border-b bg-background/95 px-1 py-2 font-mono text-[10px] font-medium uppercase tracking-wider text-muted-foreground backdrop-blur first:mt-0">
+                    <h3 className="sticky top-16 z-10 -mx-1 mb-2 mt-4 border-b bg-background/95 px-1 py-2 font-mono text-[12px] font-medium uppercase tracking-wider text-muted-foreground backdrop-blur first:mt-0">
                       {formatDayHeader(item.publishedAt)}
                     </h3>
                   )}

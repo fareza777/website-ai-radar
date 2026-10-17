@@ -23,8 +23,8 @@ export function SiteHeader() {
         <Link href="/" className="group flex items-center gap-2.5" aria-label="AI Radar — home">
           <RadarMark />
           <span className="flex flex-col leading-none">
-            <span className="text-[18px] font-semibold tracking-[-0.04em]">AI Radar<span className="text-brand">.</span></span>
-            <span className="mt-1 hidden font-mono text-[9px] tracking-[0.12em] text-muted-foreground sm:block">AI INTELLIGENCE HUB</span>
+            <span className="text-[20px] font-semibold tracking-[-0.04em]">AI Radar<span className="text-brand">.</span></span>
+            <span className="mt-1 hidden font-mono text-[11px] tracking-[0.12em] text-muted-foreground sm:block">AI INTELLIGENCE HUB</span>
           </span>
         </Link>
 
@@ -38,14 +38,14 @@ export function SiteHeader() {
                 title={label}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "relative inline-flex h-9 items-center gap-1.5 rounded-md px-2.5 text-[13px] font-medium text-muted-foreground transition hover:bg-subtle hover:text-foreground xl:px-3",
+                  "relative inline-flex h-10 items-center gap-1.5 rounded-md px-2.5 text-[14px] font-medium text-muted-foreground transition hover:bg-subtle hover:text-foreground",
                   active && "bg-accent text-brand shadow-[inset_0_-2px_var(--brand)]",
                 )}
               >
-                <Icon className="size-3.5" />
+                <Icon className="size-4" />
                 <span className={cn(!active && "hidden xl:inline")}>{label}</span>
                 {href === "/saved" && saved > 0 && (
-                  <span className="ml-0.5 rounded-full bg-brand/15 px-1.5 text-[11.5px] font-semibold text-brand tabular-nums">{saved}</span>
+                  <span className="ml-0.5 rounded-full bg-brand/15 px-1.5 text-[13px] font-semibold text-brand tabular-nums">{saved}</span>
                 )}
               </Link>
             );
@@ -56,7 +56,7 @@ export function SiteHeader() {
           <button
             type="button"
             onClick={openSearch}
-            className="inline-flex h-9 items-center gap-2 rounded-md border bg-surface/60 px-2.5 text-xs text-muted-foreground transition hover:border-foreground/20 hover:text-foreground sm:w-52 lg:w-9 lg:justify-center lg:px-0 xl:w-48 xl:justify-start xl:px-2.5"
+            className="inline-flex h-10 items-center gap-2 rounded-md border bg-surface/60 px-2.5 text-[13px] text-muted-foreground transition hover:border-foreground/20 hover:text-foreground sm:w-52 lg:w-10 lg:justify-center lg:px-0 xl:w-48 xl:justify-start xl:px-2.5"
             aria-label="Search (Ctrl+K)"
           >
             <Search className="size-4" />
@@ -86,7 +86,7 @@ export function MobileNav() {
                 <Link
                   href={href}
                   aria-current={active ? "page" : undefined}
-                  className={cn("flex h-14 flex-col items-center justify-center gap-0.5 text-[12px] font-medium text-muted-foreground", active && "text-foreground")}
+                  className={cn("flex h-14 flex-col items-center justify-center gap-0.5 text-[14px] font-medium text-muted-foreground", active && "text-foreground")}
                 >
                   <span className={cn("flex h-7 w-11 items-center justify-center rounded-full transition", active && "bg-brand/15 text-brand")}>
                     <Icon className="size-[18px]" />
@@ -101,7 +101,7 @@ export function MobileNav() {
               type="button"
               onClick={() => setMore(true)}
               aria-label="More pages"
-              className={cn("flex h-14 w-full flex-col items-center justify-center gap-0.5 text-[12px] font-medium text-muted-foreground", moreActive && "text-foreground")}
+              className={cn("flex h-14 w-full flex-col items-center justify-center gap-0.5 text-[14px] font-medium text-muted-foreground", moreActive && "text-foreground")}
             >
               <span className={cn("flex h-7 w-11 items-center justify-center rounded-full transition", moreActive && "bg-brand/15 text-brand")}>
                 <Ellipsis className="size-[18px]" />
@@ -120,7 +120,7 @@ export function MobileNav() {
           <ul className="grid grid-cols-2 gap-2 px-4">
             {MORE_LINKS.map(({ href, label, icon: Icon }) => (
               <li key={href}>
-                <Link href={href} onClick={() => setMore(false)} className="flex items-center gap-3 rounded-xl border bg-surface/60 p-3 text-[15px] font-medium">
+                <Link href={href} onClick={() => setMore(false)} className="flex items-center gap-3 rounded-xl border bg-surface/60 p-3 text-[18px] font-medium">
                   <Icon className="size-5 text-brand" /> {label}
                 </Link>
               </li>

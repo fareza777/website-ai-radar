@@ -35,14 +35,14 @@ function VendorBadge({ row }: { row: ModelRow }) {
   return lab ? (
     <LabLogo logo={lab.logo} name={lab.name} size="xs" />
   ) : (
-    <span className="inline-flex size-5 items-center justify-center rounded-md border text-[11.5px] font-semibold uppercase text-muted-foreground">{row.vendor.charAt(0)}</span>
+    <span className="inline-flex size-5 items-center justify-center rounded-md border text-[13px] font-semibold uppercase text-muted-foreground">{row.vendor.charAt(0)}</span>
   );
 }
 
 export function PriceMoves({ moves, limit = 8 }: { moves: PriceMove[]; limit?: number }) {
   if (!moves.length) {
     return (
-      <p className="text-[14px] text-muted-foreground">
+      <p className="text-[16px] text-muted-foreground">
         No price changes detected yet. Prices are snapshotted every run; any change to a model’s input/output price shows up here with the exact before → after values.
       </p>
     );
@@ -53,15 +53,15 @@ export function PriceMoves({ moves, limit = 8 }: { moves: PriceMove[]; limit?: n
         const down = m.to < m.from;
         const lab = m.lab ? LAB_BY_SLUG[m.lab] : undefined;
         return (
-          <li key={m.id} className="flex items-center gap-3 py-2.5 text-[14px]">
+          <li key={m.id} className="flex items-center gap-3 py-2.5 text-[16px]">
             {lab ? <LabLogo logo={lab.logo} name={lab.name} size="xs" /> : <span className="size-5" />}
             <span className="min-w-0 flex-1">
               <span className="block truncate font-medium">{m.name}</span>
-              <span className="text-[12.5px] text-muted-foreground">
+              <span className="text-[14px] text-muted-foreground">
                 {m.field} · {usd(m.from)} → {usd(m.to)} / 1M · <TimeAgo iso={m.at} />
               </span>
             </span>
-            <span className={cn("rounded-md px-1.5 py-0.5 font-mono text-[13px] font-semibold", down ? "bg-brand/10 text-brand" : "bg-rose-500/10 text-rose-700 dark:text-rose-300")}>
+            <span className={cn("rounded-md px-1.5 py-0.5 font-mono text-[15px] font-semibold", down ? "bg-brand/10 text-brand" : "bg-rose-500/10 text-rose-700 dark:text-rose-300")}>
               {m.change > 0 ? "+" : ""}
               {m.change}%
             </span>
@@ -118,7 +118,7 @@ export function ModelsView({ rows }: { rows: ModelRow[] }) {
             value={vendor}
             onChange={(e) => { setVendor(e.target.value); reset(); }}
             aria-label="Filter by provider"
-            className="h-9 rounded-lg border bg-surface/60 px-3 text-sm outline-none focus:border-ring lg:w-56"
+            className="h-10 rounded-lg border bg-surface/60 px-3 text-sm outline-none focus:border-ring lg:w-56"
           >
             <option value="all">All providers ({rows.length})</option>
             {vendors.map(([v, n]) => (
@@ -144,8 +144,8 @@ export function ModelsView({ rows }: { rows: ModelRow[] }) {
         <EmptyState icon={<Search className="size-6" />} title="No models match" />
       ) : (
         <div className="card-surface overflow-hidden">
-          <table className="w-full text-left text-[14px]">
-            <thead className="hidden border-b bg-subtle/60 text-[12.5px] uppercase tracking-wider text-muted-foreground sm:table-header-group">
+          <table className="w-full text-left text-[16px]">
+            <thead className="hidden border-b bg-subtle/60 text-[14px] uppercase tracking-wider text-muted-foreground sm:table-header-group">
               <tr>
                 <th className="px-4 py-2.5 font-medium">Model</th>
                 <th className="px-3 py-2.5 text-right font-medium">Input</th>
@@ -163,25 +163,25 @@ export function ModelsView({ rows }: { rows: ModelRow[] }) {
                       <span className="min-w-0">
                         <span className="flex items-center gap-1.5 font-medium hover:underline">
                           <span className="truncate">{r.name}</span>
-                          {r.free && <span className="rounded bg-brand/10 px-1.5 text-[12px] font-semibold text-brand">FREE</span>}
+                          {r.free && <span className="rounded bg-brand/10 px-1.5 text-[14px] font-semibold text-brand">FREE</span>}
                           <Trend row={r} />
                         </span>
-                        <span className="block truncate font-mono text-[12px] text-muted-foreground">{r.id}</span>
+                        <span className="block truncate font-mono text-[14px] text-muted-foreground">{r.id}</span>
                       </span>
                     </a>
                   </td>
                   <td className="font-mono tabular-nums sm:px-3 sm:py-3 sm:text-right">
-                    <span className="mr-1 text-[12px] text-muted-foreground sm:hidden">in</span>
+                    <span className="mr-1 text-[14px] text-muted-foreground sm:hidden">in</span>
                     {usd(r.prompt)}
                   </td>
                   <td className="font-mono tabular-nums sm:px-3 sm:py-3 sm:text-right">
-                    <span className="mr-1 text-[12px] text-muted-foreground sm:hidden">out</span>
+                    <span className="mr-1 text-[14px] text-muted-foreground sm:hidden">out</span>
                     {usd(r.completion)}
                   </td>
                   <td className="font-mono tabular-nums text-muted-foreground sm:px-3 sm:py-3 sm:text-right md:table-cell">
                     {r.contextLength ? `${compactNumber(r.contextLength)} ctx` : "—"}
                   </td>
-                  <td className="hidden px-4 py-3 text-right text-[13px] text-muted-foreground lg:table-cell">{r.createdAt ? formatDate(r.createdAt) : "—"}</td>
+                  <td className="hidden px-4 py-3 text-right text-[15px] text-muted-foreground lg:table-cell">{r.createdAt ? formatDate(r.createdAt) : "—"}</td>
                 </tr>
               ))}
             </tbody>
