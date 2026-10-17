@@ -1,16 +1,21 @@
 [
   {
     "date": "2026-10-17",
-    "generatedAt": "2026-10-17T04:37:40.871Z",
+    "generatedAt": "2026-10-17T10:53:32.165Z",
     "stats": {
       "updates24h": 9,
       "labsActive24h": 6,
-      "updates7d": 117,
-      "newModels7d": 36
+      "updates7d": 119,
+      "newModels7d": 37
     },
     "source": "template",
-    "headline": "9 updates from 6 AI labs in the last 24 hours · 36 model releases this week.",
+    "headline": "9 updates from 6 AI labs in the last 24 hours · 37 model releases this week.",
     "bullets": [
+      {
+        "text": "DeepSeek: DeepSeek-V4.1-Flash-1017",
+        "itemId": "9b13d6a721a0c270",
+        "lab": "deepseek"
+      },
       {
         "text": "Amazon: Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
         "itemId": "3b6b85c81106ab13",

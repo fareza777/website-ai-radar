@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-10-17T04:37:40.871Z",
+  "generatedAt": "2026-10-17T10:53:32.165Z",
   "stories": [
+    {
+      "id": "66cb1e68848fee2d",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "entity": "Gemini 4 Argon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 4,
+      "press": 29,
+      "outlets": [
+        "The Decoder",
+        "Search Engine Journal",
+        "Search Engine Roundtable",
+        "Engadget",
+        "SiliconANGLE",
+        "The Verge",
+        "The American Bazaar",
+        "WinBuzzer",
+        "9to5Google",
+        "Business Insider",
+        "The Next Web",
+        "Ars Technica",
+        "CNET",
+        "Techzine Global",
+        "The GitHub Blog",
+        "Reuters",
+        "CNBC",
+        "Mashable",
+        "MarkTechPost",
+        "TechEBlog -",
+        "Technology Org",
+        "The Neuron",
+        "about.gitlab.com",
+        "InfoWorld",
+        "Lifehacker",
+        "Yahoo Finance UK",
+        "Yahoo Finance Singapore",
+        "Yahoo Finance",
+        "Forbes",
+        "Channel Insider",
+        "TechRepublic",
+        "https://tech-insider.org/",
+        "PYMNTS.com",
+        "shattered.io"
+      ],
+      "firstAt": "2026-10-10T10:04:14.000Z",
+      "lastAt": "2026-10-17T05:39:48.000Z",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "lead": {
+        "kind": "official",
+        "id": "66cb1e68848fee2d"
+      },
+      "importance": 100
+    },
     {
       "id": "3b6b85c81106ab13",
       "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
@@ -38,59 +92,6 @@
       "lead": {
         "kind": "official",
         "id": "3b6b85c81106ab13"
-      },
-      "importance": 100
-    },
-    {
-      "id": "66cb1e68848fee2d",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "entity": "Gemini 4 Argon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 4,
-      "press": 28,
-      "outlets": [
-        "The Decoder",
-        "Search Engine Journal",
-        "Search Engine Roundtable",
-        "Engadget",
-        "SiliconANGLE",
-        "The Verge",
-        "The American Bazaar",
-        "WinBuzzer",
-        "9to5Google",
-        "Business Insider",
-        "The Next Web",
-        "Ars Technica",
-        "CNET",
-        "Techzine Global",
-        "The GitHub Blog",
-        "Reuters",
-        "CNBC",
-        "Mashable",
-        "MarkTechPost",
-        "TechEBlog -",
-        "Technology Org",
-        "The Neuron",
-        "about.gitlab.com",
-        "InfoWorld",
-        "Lifehacker",
-        "Yahoo Finance UK",
-        "Yahoo Finance Singapore",
-        "Yahoo Finance",
-        "Forbes",
-        "Channel Insider",
-        "TechRepublic",
-        "https://tech-insider.org/",
-        "PYMNTS.com"
-      ],
-      "firstAt": "2026-10-10T10:04:14.000Z",
-      "lastAt": "2026-10-16T19:11:49.000Z",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-      "lead": {
-        "kind": "official",
-        "id": "66cb1e68848fee2d"
       },
       "importance": 100
     },
@@ -182,7 +183,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 44,
+        "count": 45,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -195,6 +196,14 @@
         "labs": [
           "amazon",
           "nvidia"
+        ]
+      },
+      {
+        "name": "DeepSeek 4.1 Flash",
+        "count": 5,
+        "prev": 2,
+        "labs": [
+          "deepseek"
         ]
       },
       {
@@ -225,8 +234,8 @@
           "meta",
           "cohere",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "bytedance",
           "ibm",
           "nvidia"
@@ -234,17 +243,17 @@
       },
       {
         "name": "coding",
-        "count": 31,
+        "count": 32,
         "prev": 36,
         "labs": [
-          "google-deepmind",
           "anthropic",
+          "google-deepmind",
           "openai",
           "mistral",
           "cohere",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "bytedance",
           "ibm",
           "nvidia"
@@ -257,8 +266,24 @@
         "labs": [
           "anthropic",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "multimodal",
+        "count": 7,
+        "prev": 12,
+        "labs": [
+          "deepseek",
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "qwen",
+          "tencent",
+          "amazon",
+          "ibm",
           "nvidia"
         ]
       },
@@ -267,26 +292,11 @@
         "count": 6,
         "prev": 7,
         "labs": [
-          "google-deepmind",
           "anthropic",
+          "google-deepmind",
           "openai",
           "amazon",
           "bytedance",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "multimodal",
-        "count": 6,
-        "prev": 12,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "mistral",
-          "qwen",
-          "tencent",
-          "amazon",
-          "ibm",
           "nvidia"
         ]
       },
@@ -328,5 +338,18 @@
       }
     ]
   },
-  "unconfirmed": []
+  "unconfirmed": [
+    {
+      "id": "nvidia:098a0fc560b72a",
+      "lab": "nvidia",
+      "title": "Multiverse Computing Launches Comet 60B in collaboration with NVIDIA: Multimodal Capabilities at Half the Parameters",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOTVRSNGtsRnVPNEl2X0NtcDhLVXhDZlJlUXh1a0xfTWV0cW01YXVrYUcxeDdpQ28zX21yQXJoeHVqcVd4UWhTbzMyTV9KWVBxTjMxYUNwVkJlUzNlZ2xHbUc2Sm9UWk1VaVVwNnNNeE5QNXQzWXFIRHVkMnNvcUZaY0FnRU5MazR0Rjg3bUl0bFJ1NUpWMHd2TWtiQnB5dExpOTBHeWxXRXdOQmluQ05PemJTOWF2WVJMZDNJN005X3FWcWpkOWc0X3QtVVJrazVMRFFxTmIwSUlJS1NNSjhqOUpwNzA1WEt3cVNKNWNsYUVoWllDdFkyS0hfM3Z2Y21nc1FteA?oc=5",
+      "outlets": [
+        "HPCwire",
+        "markets.businessinsider.com"
+      ],
+      "reports": 2,
+      "at": "2026-10-15T19:41:05.000Z"
+    }
+  ]
 }
