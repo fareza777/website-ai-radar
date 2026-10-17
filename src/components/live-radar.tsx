@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { ArrowUpRight, Radio } from "lucide-react";
 import { LAB_BY_SLUG } from "@/config/labs";
 import type { Category } from "@/lib/types";
@@ -41,6 +41,7 @@ function polar(angle: number, radius: number): { left: string; top: string } {
 /** Animated radar: each blip is a real update; distance from center = age, sector = lab. */
 export function LiveRadar({ blips, sectors, windowHours }: { blips: RadarBlip[]; sectors: RadarSector[]; windowHours: number }) {
   const [activeId, setActiveId] = useState<string | null>(null);
+  const signalButtons = useRef(new Map<string, HTMLButtonElement>());
   const active = blips.find((b) => b.id === activeId) ?? blips[0];
   const activeLab = active ? LAB_BY_SLUG[active.lab] : undefined;
 
@@ -48,6 +49,7 @@ export function LiveRadar({ blips, sectors, windowHours }: { blips: RadarBlip[];
     const bounds = canvas.getBoundingClientRect();
     const id = nearestRadarSignal(blips, clientX - bounds.left, clientY - bounds.top, bounds.width, bounds.height);
     if (id) setActiveId(id);
+    return id;
   }
 
   return (
@@ -63,6 +65,13 @@ export function LiveRadar({ blips, sectors, windowHours }: { blips: RadarBlip[];
         className="radar-canvas"
         onPointerMove={(event) => {
           if (event.pointerType !== "touch") selectPointer(event.clientX, event.clientY, event.currentTarget);
+        }}
+        onPointerDownCapture={(event) => {
+          const id = selectPointer(event.clientX, event.clientY, event.currentTarget);
+          if (!id) return;
+          // Keep keyboard focus on the same signal when transparent targets overlap.
+          event.preventDefault();
+          signalButtons.current.get(id)?.focus({ preventScroll: true });
         }}
         onClickCapture={(event) => {
           if (event.detail === 0) return;
@@ -119,6 +128,10 @@ export function LiveRadar({ blips, sectors, windowHours }: { blips: RadarBlip[];
             <button
               key={b.id}
               type="button"
+              ref={(button) => {
+                if (button) signalButtons.current.set(b.id, button);
+                else signalButtons.current.delete(b.id);
+              }}
               onFocus={(event) => {
                 if (event.currentTarget.matches(":focus-visible")) setActiveId(b.id);
               }}
