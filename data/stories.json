@@ -1,6 +1,46 @@
 {
-  "generatedAt": "2026-10-17T00:03:17.091Z",
+  "generatedAt": "2026-10-17T04:37:40.871Z",
   "stories": [
+    {
+      "id": "3b6b85c81106ab13",
+      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+      "entity": "Nemotron 3.5 Super",
+      "labs": [
+        "nvidia",
+        "amazon"
+      ],
+      "official": 2,
+      "press": 8,
+      "outlets": [
+        "Wccftech",
+        "The Decoder",
+        "https://tech-insider.org/",
+        "Yahoo Finance",
+        "MarkTechPost",
+        "SQ Magazine",
+        "ZDNET",
+        "Prime Intellect",
+        "Business Wire",
+        "Techzine Global",
+        "Startup Fortune",
+        "Unite.AI",
+        "Technology Org",
+        "巴士的報",
+        "Newsquawk",
+        "Nscale",
+        "StreetInsider",
+        "LMSYS Org",
+        "GameGPU"
+      ],
+      "firstAt": "2026-10-15T15:00:00.000Z",
+      "lastAt": "2026-10-17T02:01:39.000Z",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
+      "lead": {
+        "kind": "official",
+        "id": "3b6b85c81106ab13"
+      },
+      "importance": 100
+    },
     {
       "id": "66cb1e68848fee2d",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
@@ -51,45 +91,6 @@
       "lead": {
         "kind": "official",
         "id": "66cb1e68848fee2d"
-      },
-      "importance": 100
-    },
-    {
-      "id": "3b6b85c81106ab13",
-      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
-      "entity": "Nemotron 3.5 Super",
-      "labs": [
-        "nvidia",
-        "amazon"
-      ],
-      "official": 2,
-      "press": 8,
-      "outlets": [
-        "Wccftech",
-        "The Decoder",
-        "https://tech-insider.org/",
-        "Yahoo Finance",
-        "MarkTechPost",
-        "SQ Magazine",
-        "ZDNET",
-        "Prime Intellect",
-        "Business Wire",
-        "Techzine Global",
-        "Startup Fortune",
-        "Unite.AI",
-        "Technology Org",
-        "巴士的報",
-        "Newsquawk",
-        "Nscale",
-        "StreetInsider",
-        "LMSYS Org"
-      ],
-      "firstAt": "2026-10-15T15:00:00.000Z",
-      "lastAt": "2026-10-16T17:59:00.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
-      "lead": {
-        "kind": "official",
-        "id": "3b6b85c81106ab13"
       },
       "importance": 100
     },
@@ -181,7 +182,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 42,
+        "count": 44,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -189,7 +190,7 @@
       },
       {
         "name": "Nemotron 3.5 Super",
-        "count": 15,
+        "count": 16,
         "prev": 0,
         "labs": [
           "amazon",
@@ -220,8 +221,8 @@
         "prev": 32,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "cohere",
           "qwen",
           "amazon",
@@ -236,8 +237,8 @@
         "count": 31,
         "prev": 36,
         "labs": [
-          "anthropic",
           "google-deepmind",
+          "anthropic",
           "openai",
           "mistral",
           "cohere",
@@ -266,8 +267,8 @@
         "count": 6,
         "prev": 7,
         "labs": [
-          "anthropic",
           "google-deepmind",
+          "anthropic",
           "openai",
           "amazon",
           "bytedance",
@@ -282,8 +283,8 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "tencent",
           "qwen",
+          "tencent",
           "amazon",
           "ibm",
           "nvidia"

@@ -1,5 +1,58 @@
 [
   {
+    "id": "ac7b6bddd5f3a9e8",
+    "modelId": "reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "at": "2026-10-17T04:37:40.871Z",
+    "field": "prompt",
+    "from": 0.25,
+    "to": 1,
+    "change": 300
+  },
+  {
+    "id": "b63507dd0623a52b",
+    "modelId": "reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "at": "2026-10-17T04:37:40.871Z",
+    "field": "completion",
+    "from": 1,
+    "to": 3,
+    "change": 200
+  },
+  {
+    "id": "61253625f4944054",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-17T04:37:40.871Z",
+    "field": "completion",
+    "from": 12.533,
+    "to": 11.936,
+    "change": -4.8
+  },
+  {
+    "id": "c82e1da4951f9976",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-17T04:37:40.871Z",
+    "field": "prompt",
+    "from": 0.09,
+    "to": 0.0675,
+    "change": -25
+  },
+  {
+    "id": "ec07be38b561641e",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-17T04:37:40.871Z",
+    "field": "completion",
+    "from": 0.3,
+    "to": 0.225,
+    "change": -25
+  },
+  {
     "id": "7567e744457cffa6",
     "modelId": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
