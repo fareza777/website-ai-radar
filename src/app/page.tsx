@@ -81,7 +81,8 @@ export default function TodayPage() {
     .filter((i) => ref - Date.parse(i.publishedAt) < 72 * 3_600_000 && i.sourceType === "rss")
     .sort((a, b) => b.importance - a.importance || b.publishedAt.localeCompare(a.publishedAt))[0];
   const discover = getDiscover();
-  const buzz = [...discover.filter((d) => d.kind === "tip"), ...discover.filter((d) => d.kind === "x"), ...discover.filter((d) => d.kind === "newsletter")].slice(0, 4);
+  const buzz = [...discover.filter((d) => d.kind === "tip"), ...discover.filter((d) => d.kind === "x"), ...discover.filter((d) => d.kind === "newsletter")].slice(0, 6);
+  const related = topStory ? all.filter((i) => i.lab === topStory.lab && i.id !== topStory.id).slice(0, 3) : [];
   const models = getModels();
   const newModels = models.filter((m) => m.createdAt && ref - Date.parse(m.createdAt) < 7 * DAY).slice(0, 5);
   const pulse = getPulse().filter((p) => ref - Date.parse(p.at) < 3 * DAY).slice(0, 6);
@@ -102,7 +103,7 @@ export default function TodayPage() {
           ≥1700px (3xl)   three balanced columns
         Wrappers use display:contents below xl so every widget joins the same flex column.
       */}
-      <div className="flex flex-col gap-5 xl:grid xl:grid-cols-[minmax(0,1fr)_380px] xl:items-start xl:gap-6 3xl:grid-cols-[320px_minmax(0,1fr)_400px]">
+      <div className="flex flex-col gap-5 xl:grid xl:grid-cols-[minmax(0,1fr)_380px] xl:items-start xl:gap-6 3xl:grid-cols-[320px_minmax(0,1fr)_400px] 4xl:grid-cols-[360px_minmax(0,1fr)_460px]">
         {/* At 3xl the short left column sticks beside the taller briefing instead of leaving a dead gap. */}
         <div className="contents xl:col-span-full xl:grid xl:grid-cols-4 xl:items-start xl:gap-4 3xl:sticky 3xl:top-[4.5rem] 3xl:col-span-1 3xl:flex 3xl:flex-col 3xl:items-stretch 3xl:gap-5">
           {briefing && (
@@ -130,7 +131,7 @@ export default function TodayPage() {
         </div>
       </div>
 
-      <Bento topStory={topStory} buzz={buzz} newModels={newModels} moves={getPriceMoves()} freeModels={models.filter((m) => m.free).length} />
+      <Bento topStory={topStory} related={related} buzz={buzz} newModels={newModels} moves={getPriceMoves()} freeModels={models.filter((m) => m.free).length} />
 
       {/*
         SECTION 2 — WORKSPACE (everything, chronological). Filters (left) and signals (right) are sticky,

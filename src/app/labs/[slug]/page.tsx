@@ -42,6 +42,7 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
   if (!lab) notFound();
 
   const items = getLabItems(slug);
+  const press = getLabPress(slug);
   const status = getStatus();
   const stats = getLabStats();
   const stat = stats.find((s) => s.slug === slug);
@@ -149,16 +150,16 @@ export default async function LabPage({ params }: PageProps<"/labs/[slug]">) {
       </header>
 
       {/* Timeline + a sticky glance rail on wide screens, so cards keep a readable line length. */}
-      <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_360px] xl:items-start">
+      <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_360px] 4xl:grid-cols-[minmax(0,1fr)_420px] xl:items-start">
         <div className="min-w-0">
           <LabStreams
-            press={getLabPress(slug).map((p) => ({ ...p, members: [] }))}
+            press={press.map((p) => ({ ...p, members: [] }))}
             social={getLabSocial(slug)}
             papers={getLabPapers(slug)}
             official={<LabTimeline slug={lab.slug} items={items.map(toFeedItem)} dataTime={status?.generatedAt ?? new Date(0).toISOString()} />}
           />
         </div>
-        <LabSidebar lab={lab} stat={stat} items={items} stats={stats} />
+        <LabSidebar lab={lab} stat={stat} items={items} stats={stats} press={press} />
       </div>
     </div>
   );

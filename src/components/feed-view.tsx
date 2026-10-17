@@ -111,7 +111,7 @@ export function FeedView({ items, dataTime, rail }: FeedWorkspaceProps) {
   const labList = LABS.map((l) => ({ lab: l, n: labCounts.get(l.slug) ?? 0 })).sort((a, b) => b.n - a.n || a.lab.name.localeCompare(b.lab.name));
 
   return (
-    <section aria-labelledby="feed-title" className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_380px] xl:items-start xl:gap-6 3xl:grid-cols-[300px_minmax(0,1fr)_400px]">
+    <section aria-labelledby="feed-title" className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_380px] xl:items-start xl:gap-6 3xl:grid-cols-[300px_minmax(0,1fr)_400px] 4xl:grid-cols-[340px_minmax(0,1fr)_460px]">
       {/* LEFT: filters (a full-width strip below 3xl, a sticky column at 3xl) */}
       <aside className="thin-scroll space-y-3 xl:col-span-full 3xl:sticky 3xl:top-[4.5rem] 3xl:col-span-1 3xl:max-h-[calc(100vh-5.5rem)] 3xl:overflow-y-auto 3xl:pr-1" aria-label="Feed filters">
         <div className="card-surface space-y-3 p-3 sm:p-4">

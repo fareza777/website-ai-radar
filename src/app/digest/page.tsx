@@ -47,7 +47,7 @@ export default function DigestPage() {
       </header>
 
       {/* Masonry columns: sections differ a lot in length, so a row grid would leave tall empty cards. */}
-      <div className="gap-4 xl:columns-2 3xl:columns-3">
+      <div className="gap-4 xl:columns-2 3xl:columns-3 4xl:columns-4">
         {digest.sections.map((s) => (
           <section key={s.id} aria-labelledby={`d-${s.id}`} className="card-surface mb-4 break-inside-avoid p-5">
             <h2 id={`d-${s.id}`} className="text-base font-semibold tracking-tight">{s.title}</h2>

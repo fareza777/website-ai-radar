@@ -59,11 +59,12 @@ export default function StatusPage() {
         )}
       </header>
 
-      <div className="grid gap-3 lg:grid-cols-2">
+      {/* Masonry columns: labs have 2–6 sources, so equal-height rows would leave empty card bottoms. */}
+      <div className="gap-3 lg:columns-2 3xl:columns-3 4xl:columns-4">
         {LABS.map((lab) => {
           const st = stats.get(lab.slug);
           return (
-            <section key={lab.slug} className="card-surface p-4">
+            <section key={lab.slug} className="card-surface mb-3 break-inside-avoid p-4">
               <div className="flex items-center gap-3">
                 <LabLogo logo={lab.logo} name={lab.name} size="sm" />
                 <Link href={`/labs/${lab.slug}`} className="font-semibold hover:underline">{lab.name}</Link>
@@ -91,7 +92,7 @@ export default function StatusPage() {
             X and Threads are read only through official access: oEmbed for posts found in newsletters and tips, plus the X API and Threads API when their
             tokens are configured (greyed rows below). Nothing is scraped.
           </p>
-          <ul className="mt-2 divide-y">
+          <ul className="mt-2 gap-x-8 divide-y xl:columns-2 xl:divide-y-0 [&>li]:break-inside-avoid xl:[&>li]:border-b">
             {extra.map((s) => <Row key={s.id} s={s} />)}
           </ul>
         </section>

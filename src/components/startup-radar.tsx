@@ -40,12 +40,12 @@ export function StartupRadar({ items }: { items: StartupNews[] }) {
         </ChipRow>
       </div>
 
-      <ul className="mt-4 divide-y">
+      <ul className="mt-4 lg:grid lg:grid-cols-2 lg:gap-x-8">
         {visible.map((i) => {
           const meta = i.kind === "other" ? null : KIND[i.kind];
           const Icon = meta?.icon ?? Rocket;
           return (
-            <li key={i.id}>
+            <li key={i.id} className="border-b">
               <a href={extHref(i.url)} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-3 py-3">
                 <span className={cn("mt-0.5 inline-flex size-8 shrink-0 items-center justify-center rounded-lg", meta?.className)}>
                   <Icon className="size-4" />

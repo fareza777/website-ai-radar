@@ -52,7 +52,7 @@ function SiteFooter() {
   return (
     <footer className="mt-16 border-t pb-24 lg:pb-8">
       {/* Sitewide internal links: every section and lab is two clicks from anywhere (crawlable, and handy for visitors). */}
-      <nav aria-label="Footer" className="mx-auto grid max-w-[1760px] gap-8 px-4 pt-8 text-sm sm:px-6 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] 2xl:px-10">
+      <nav aria-label="Footer" className="mx-auto grid max-w-[1760px] 4xl:max-w-[2200px] gap-8 px-4 pt-8 text-sm sm:px-6 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] 2xl:px-10">
         <div>
           <h2 className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground">Explore</h2>
           <ul className="grid grid-cols-2 gap-x-6 gap-y-1.5 text-muted-foreground">
@@ -72,7 +72,7 @@ function SiteFooter() {
           </ul>
         </div>
       </nav>
-      <div className="mx-auto flex max-w-[1760px] flex-col gap-4 px-4 py-8 text-sm text-muted-foreground sm:px-6 2xl:px-10 md:flex-row md:items-center md:justify-between">
+      <div className="mx-auto flex max-w-[1760px] 4xl:max-w-[2200px] flex-col gap-4 px-4 py-8 text-sm text-muted-foreground sm:px-6 2xl:px-10 md:flex-row md:items-center md:justify-between">
         <div className="space-y-1">
           <p className="font-medium text-foreground">{SITE.name} · {SITE.tagline}</p>
           <p className="max-w-xl text-xs leading-relaxed">
@@ -108,7 +108,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div aria-hidden="true" className="bg-aurora pointer-events-none fixed inset-x-0 top-0 -z-10 h-[38rem]" />
           <div aria-hidden="true" className="bg-grid pointer-events-none fixed inset-x-0 top-0 -z-10 h-[30rem]" />
           <SiteHeader />
-          <main className="mx-auto w-full max-w-[1760px] flex-1 px-4 pt-6 sm:px-6 sm:pt-8 2xl:px-10">{children}</main>
+          <main className="mx-auto w-full max-w-[1760px] 4xl:max-w-[2200px] flex-1 px-4 pt-6 sm:px-6 sm:pt-8 2xl:px-10">{children}</main>
           <SiteFooter />
           <MobileNav />
           <CommandSearch />

@@ -19,7 +19,7 @@ export function SiteHeader() {
 
   return (
     <header className="glass sticky top-0 z-40 border-b">
-      <div className="mx-auto flex h-14 max-w-[1760px] items-center gap-3 px-4 sm:px-6 2xl:px-10">
+      <div className="mx-auto flex h-14 max-w-[1760px] 4xl:max-w-[2200px] items-center gap-3 px-4 sm:px-6 2xl:px-10">
         <Link href="/" className="group flex items-center gap-2.5" aria-label="AI Radar — home">
           <RadarMark />
           <span className="flex flex-col leading-none">

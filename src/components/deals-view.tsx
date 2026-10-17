@@ -148,7 +148,7 @@ export function DealsView({ deals }: { deals: Deal[] }) {
               </h2>
               <p className="text-xs text-muted-foreground">{g.note}</p>
             </div>
-            <ul className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+            <ul className="grid gap-3 md:grid-cols-2 xl:grid-cols-3 4xl:grid-cols-4">
               {list.map(({ deal, status: s }) => (
                 <li key={deal.id}>
                   <DealCard deal={deal} status={s} />

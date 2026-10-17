@@ -40,48 +40,51 @@ export default function ModelsPage() {
         </p>
       </header>
 
-      <div className="grid gap-3 lg:grid-cols-3">
-        <section className="card-surface p-4">
-          <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold"><TrendingDown className="size-4 text-brand" /> Price moves · 90 days</h2>
-          <PriceMoves moves={moves} limit={6} />
-        </section>
-        <section className="card-surface p-4">
-          <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold"><Sparkles className="size-4 text-brand" /> New this week</h2>
-          {newest.length ? (
+      {/* Table + sticky summary rail on wide screens; the rail becomes a 3-up strip above the table below xl. */}
+      <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_380px] 4xl:grid-cols-[minmax(0,1fr)_440px] xl:items-start">
+        <aside aria-label="Model highlights" className="grid grid-cols-1 gap-3 lg:grid-cols-3 xl:sticky xl:top-[4.5rem] xl:order-2 xl:grid-cols-1">
+          <section className="card-surface p-4">
+            <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold"><TrendingDown className="size-4 text-brand" /> Price moves · 90 days</h2>
+            <PriceMoves moves={moves} limit={6} />
+          </section>
+          <section className="card-surface p-4">
+            <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold"><Sparkles className="size-4 text-brand" /> New this week</h2>
+            {newest.length ? (
+              <ul className="space-y-2.5">
+                {newest.map((m) => {
+                  const lab = m.lab ? LAB_BY_SLUG[m.lab] : undefined;
+                  return (
+                    <li key={m.id} className="flex items-center gap-2.5 text-[14px]">
+                      {lab ? <LabLogo logo={lab.logo} name={lab.name} size="xs" /> : <span className="size-5" />}
+                      <a href={`https://openrouter.ai/${m.id}`} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1 truncate font-medium hover:underline">{m.name}</a>
+                      <span className="font-mono text-[12.5px] text-muted-foreground">{m.free ? "Free" : `${usd(m.prompt)}/${usd(m.completion)}`}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            ) : (
+              <p className="text-[14px] text-muted-foreground">No new models in the last 7 days.</p>
+            )}
+          </section>
+          <section className="card-surface p-4">
+            <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold"><Gift className="size-4 text-brand" /> Cheapest long-context (lab models, ≥100K)</h2>
             <ul className="space-y-2.5">
-              {newest.map((m) => {
+              {cheapestFrontier.map((m) => {
                 const lab = m.lab ? LAB_BY_SLUG[m.lab] : undefined;
                 return (
                   <li key={m.id} className="flex items-center gap-2.5 text-[14px]">
                     {lab ? <LabLogo logo={lab.logo} name={lab.name} size="xs" /> : <span className="size-5" />}
                     <a href={`https://openrouter.ai/${m.id}`} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1 truncate font-medium hover:underline">{m.name}</a>
-                    <span className="font-mono text-[12.5px] text-muted-foreground">{m.free ? "Free" : `${usd(m.prompt)}/${usd(m.completion)}`}</span>
+                    <span className="font-mono text-[12.5px] text-muted-foreground">{usd(m.prompt)}/{usd(m.completion)}</span>
                   </li>
                 );
               })}
             </ul>
-          ) : (
-            <p className="text-[14px] text-muted-foreground">No new models in the last 7 days.</p>
-          )}
-        </section>
-        <section className="card-surface p-4">
-          <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold"><Gift className="size-4 text-brand" /> Cheapest long-context (lab models, ≥100K)</h2>
-          <ul className="space-y-2.5">
-            {cheapestFrontier.map((m) => {
-              const lab = m.lab ? LAB_BY_SLUG[m.lab] : undefined;
-              return (
-                <li key={m.id} className="flex items-center gap-2.5 text-[14px]">
-                  {lab ? <LabLogo logo={lab.logo} name={lab.name} size="xs" /> : <span className="size-5" />}
-                  <a href={`https://openrouter.ai/${m.id}`} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1 truncate font-medium hover:underline">{m.name}</a>
-                  <span className="font-mono text-[12.5px] text-muted-foreground">{usd(m.prompt)}/{usd(m.completion)}</span>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-      </div>
+          </section>
+        </aside>
 
-      <ModelsView rows={models.map(toModelRow)} />
+        <div className="min-w-0"><ModelsView rows={models.map(toModelRow)} /></div>
+      </div>
     </div>
   );
 }

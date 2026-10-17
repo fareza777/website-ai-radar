@@ -6,6 +6,7 @@
 
 @theme inline {
   --breakpoint-3xl: 106.25rem;
+  --breakpoint-4xl: 125rem;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);

@@ -183,7 +183,7 @@ export function DiscoverView({ items }: { items: DiscoverItem[] }) {
       {visible.length === 0 ? (
         <EmptyState icon={<Search className="size-6" />} title="No results">Try another keyword or clear filters.</EmptyState>
       ) : (
-        <ul className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+        <ul className="grid gap-3 md:grid-cols-2 xl:grid-cols-3 4xl:grid-cols-4">
           {visible.map((i) => (
             <li key={i.id}>
               <DiscoverCard item={i} />

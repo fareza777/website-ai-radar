@@ -67,7 +67,7 @@ export function LabGrid({ stats, dates }: LabGridProps) {
         <Segmented<Sort> ariaLabel="Sort labs" value={sort} onChange={setSort} options={[{ value: "activity", label: "Most active" }, { value: "az", label: "A–Z" }]} />
       </div>
 
-      <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 4xl:grid-cols-5">
         {labs.map((lab) => {
           const s = statBy.get(lab.slug);
           const badge = newCount(lab.slug);
