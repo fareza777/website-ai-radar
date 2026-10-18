@@ -15,8 +15,8 @@
     "title": "Claude reveals ECDSA curve origins",
     "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
     "hnUrl": "https://news.ycombinator.com/item?id=50122800",
-    "points": 1037,
-    "comments": 383,
+    "points": 1044,
+    "comments": 386,
     "at": "2026-10-16T18:55:59Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-16T21:19:28.792Z"
@@ -30,6 +30,17 @@
     "comments": 619,
     "at": "2026-10-14T17:45:23Z",
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
+  },
+  {
+    "id": "50129045",
+    "title": "DeepSeek-v4.1-Flash-1017",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "hnUrl": "https://news.ycombinator.com/item?id=50129045",
+    "points": 920,
+    "comments": 680,
+    "at": "2026-10-17T08:21:25Z",
+    "lab": "deepseek",
+    "firstSeenAt": "2026-10-17T10:53:32.165Z"
   },
   {
     "id": "50073633",
@@ -51,17 +62,6 @@
     "comments": 390,
     "at": "2026-10-14T20:48:24Z",
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
-  },
-  {
-    "id": "50129045",
-    "title": "DeepSeek-v4.1-Flash-1017",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "hnUrl": "https://news.ycombinator.com/item?id=50129045",
-    "points": 873,
-    "comments": 662,
-    "at": "2026-10-17T08:21:25Z",
-    "lab": "deepseek",
-    "firstSeenAt": "2026-10-17T10:53:32.165Z"
   },
   {
     "id": "50078141",
@@ -90,8 +90,8 @@
     "title": "How the Claude Code team does code review",
     "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
     "hnUrl": "https://news.ycombinator.com/item?id=50122951",
-    "points": 460,
-    "comments": 465,
+    "points": 466,
+    "comments": 466,
     "at": "2026-10-16T19:04:47Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-16T21:19:28.792Z"
@@ -108,11 +108,22 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
+    "id": "50138531",
+    "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+    "url": "https://api-docs.deepseek.com/guides/search/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50138531",
+    "points": 392,
+    "comments": 199,
+    "at": "2026-10-18T06:50:36Z",
+    "lab": "deepseek",
+    "firstSeenAt": "2026-10-18T11:18:39.615Z"
+  },
+  {
     "id": "50122431",
     "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
     "url": "https://github.com/cobanov/PS5LM",
     "hnUrl": "https://news.ycombinator.com/item?id=50122431",
-    "points": 367,
+    "points": 368,
     "comments": 85,
     "at": "2026-10-16T18:32:35Z",
     "lab": "meta",
@@ -123,8 +134,8 @@
     "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
     "url": "https://llmspeed.dev/",
     "hnUrl": "https://news.ycombinator.com/item?id=50127979",
-    "points": 299,
-    "comments": 82,
+    "points": 313,
+    "comments": 86,
     "at": "2026-10-17T04:36:53Z",
     "firstSeenAt": "2026-10-17T10:53:32.165Z"
   },
@@ -133,8 +144,8 @@
     "title": "Anthropic assigned highest junk credit rating in June",
     "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
     "hnUrl": "https://news.ycombinator.com/item?id=50122112",
-    "points": 291,
-    "comments": 86,
+    "points": 292,
+    "comments": 87,
     "at": "2026-10-16T18:11:42Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-16T21:19:28.792Z"
@@ -165,7 +176,7 @@
     "title": "Show HN: Gemini 4 Argon plays StarCraft",
     "url": "https://starskirmish.com/bench/v0-2/",
     "hnUrl": "https://news.ycombinator.com/item?id=50118688",
-    "points": 245,
+    "points": 248,
     "comments": 110,
     "at": "2026-10-16T14:18:44Z",
     "lab": "google-deepmind",
@@ -183,14 +194,13 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
-    "id": "50138531",
-    "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-    "url": "https://api-docs.deepseek.com/guides/search/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50138531",
-    "points": 229,
-    "comments": 109,
-    "at": "2026-10-18T06:50:36Z",
-    "lab": "deepseek",
+    "id": "50137950",
+    "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+    "url": "https://sphinx-six-theta.vercel.app/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50137950",
+    "points": 203,
+    "comments": 63,
+    "at": "2026-10-18T04:33:49Z",
     "firstSeenAt": "2026-10-18T11:18:39.615Z"
   },
   {
@@ -226,6 +236,17 @@
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
   {
+    "id": "50133231",
+    "title": "Codex Desktop continuously generates Crashpad pending dumps",
+    "url": "https://github.com/openai/codex/issues/25921",
+    "hnUrl": "https://news.ycombinator.com/item?id=50133231",
+    "points": 157,
+    "comments": 77,
+    "at": "2026-10-17T17:45:08Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-18T04:43:17.817Z"
+  },
+  {
     "id": "50085323",
     "title": "TV4 postpones show after AI agent erases edited material",
     "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
@@ -236,25 +257,15 @@
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
   {
-    "id": "50137950",
-    "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-    "url": "https://sphinx-six-theta.vercel.app/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50137950",
-    "points": 144,
-    "comments": 42,
-    "at": "2026-10-18T04:33:49Z",
-    "firstSeenAt": "2026-10-18T11:18:39.615Z"
-  },
-  {
-    "id": "50133231",
-    "title": "Codex Desktop continuously generates Crashpad pending dumps",
-    "url": "https://github.com/openai/codex/issues/25921",
-    "hnUrl": "https://news.ycombinator.com/item?id=50133231",
-    "points": 135,
-    "comments": 57,
-    "at": "2026-10-17T17:45:08Z",
+    "id": "50132502",
+    "title": "OpenAI discloses four more rogue incidents",
+    "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50132502",
+    "points": 129,
+    "comments": 155,
+    "at": "2026-10-17T16:31:12Z",
     "lab": "openai",
-    "firstSeenAt": "2026-10-18T04:43:17.817Z"
+    "firstSeenAt": "2026-10-17T20:42:32.148Z"
   },
   {
     "id": "50085553",
@@ -265,17 +276,6 @@
     "comments": 48,
     "at": "2026-10-14T10:51:37Z",
     "firstSeenAt": "2026-10-16T16:45:25.416Z"
-  },
-  {
-    "id": "50132502",
-    "title": "OpenAI discloses four more rogue incidents",
-    "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50132502",
-    "points": 125,
-    "comments": 153,
-    "at": "2026-10-17T16:31:12Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-17T20:42:32.148Z"
   },
   {
     "id": "50090842",
@@ -306,6 +306,17 @@
     "comments": 169,
     "at": "2026-10-14T14:47:44Z",
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
+  },
+  {
+    "id": "50139873",
+    "title": "How employment is changing at Anthropic",
+    "url": "https://www.anthropic.com/research/employment-at-anthropic",
+    "hnUrl": "https://news.ycombinator.com/item?id=50139873",
+    "points": 89,
+    "comments": 169,
+    "at": "2026-10-18T10:49:26Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-18T15:57:20.114Z"
   },
   {
     "id": "50121562",
@@ -370,5 +381,27 @@
     "at": "2026-10-14T05:53:36Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "50141429",
+    "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+    "hnUrl": "https://news.ycombinator.com/item?id=50141429",
+    "points": 73,
+    "comments": 62,
+    "at": "2026-10-18T14:30:27Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-18T15:57:20.114Z"
+  },
+  {
+    "id": "50128468",
+    "title": "Why Math Dumped OpenAI",
+    "url": "https://raymyers.org/post/math-dumped-openai/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50128468",
+    "points": 61,
+    "comments": 14,
+    "at": "2026-10-17T06:19:44Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-18T15:57:20.114Z"
   }
 ]
