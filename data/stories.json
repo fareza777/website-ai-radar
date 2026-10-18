@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T20:52:46.911Z",
+  "generatedAt": "2026-10-18T23:20:30.937Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -66,7 +66,7 @@
         "amazon"
       ],
       "official": 2,
-      "press": 8,
+      "press": 9,
       "outlets": [
         "Wccftech",
         "The Decoder",
@@ -190,7 +190,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 50,
+        "count": 51,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -198,7 +198,7 @@
       },
       {
         "name": "Nemotron 3.5 Super",
-        "count": 17,
+        "count": 18,
         "prev": 0,
         "labs": [
           "amazon",
@@ -250,7 +250,7 @@
       },
       {
         "name": "coding",
-        "count": 29,
+        "count": 30,
         "prev": 38,
         "labs": [
           "anthropic",
@@ -282,9 +282,9 @@
         "count": 7,
         "prev": 12,
         "labs": [
-          "deepseek",
           "google-deepmind",
           "openai",
+          "deepseek",
           "mistral",
           "qwen",
           "tencent",

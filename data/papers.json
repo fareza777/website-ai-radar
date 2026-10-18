@@ -6,7 +6,7 @@
     "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 667,
+    "upvotes": 668,
     "org": null,
     "githubRepo": "https://github.com/hhhbxloveai/WaypointOPD",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -79,7 +79,7 @@
     "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 200,
+    "upvotes": 201,
     "org": "zgcagi",
     "githubRepo": "https://github.com/zgcagi/Harness-RSI",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -541,7 +541,7 @@
     "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework for incentivizing…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 212,
+    "upvotes": 213,
     "org": "ruc-nlpir",
     "githubRepo": "https://github.com/RUC-NLPIR/Agent-Reflex",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -553,7 +553,7 @@
     "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 134,
+    "upvotes": 135,
     "org": "microsoft",
     "lab": "microsoft",
     "githubRepo": "https://github.com/microsoft/AesCode",
@@ -566,7 +566,7 @@
     "summary": "City-scale 3D grounding is commonly formulated as candidate ranking, which requires precomputed instance proposals and becomes inefficient in large outdoor scenes. We propose Urbex, an agentic vision-language framework that instead casts grounding as active spatial search. Urbex represents a city-scale 3D scene as an interactive multi-view environment, allowing a VLM agent to query landmarks, zoom into local…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 132,
+    "upvotes": 133,
     "org": "alibabagroup",
     "githubRepo": "https://github.com/AMAP-ML/Urbex",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -578,7 +578,7 @@
     "summary": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth…",
     "publishedAt": "2026-10-09T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 114,
+    "upvotes": 115,
     "org": "google",
     "lab": "google-deepmind",
     "githubRepo": "https://github.com/google-research/harness2",
@@ -608,13 +608,24 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
+    "id": "2610.01496",
+    "title": "SALD: Self-Referenced Advantage Learning for Diffusion Models",
+    "url": "https://huggingface.co/papers/2610.01496",
+    "summary": "Recent work on language-model adaptation has shown that single models can obtain informative training signals by evaluating their behavior in demonstrationor feedback-augmented contexts, with the help of a teacher network, which is driven by the student's learned parameters. Inspired by this internal-reference principle, we investigate how diffusion models can identify self-referenced training signals without…",
+    "publishedAt": "2026-10-07T00:00:00.000Z",
+    "submittedAt": "2026-10-14T00:00:00.000Z",
+    "upvotes": 103,
+    "org": "iitk",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
     "id": "2610.16794",
     "title": "TPPO: Tracking-Value PPO For Language Model Reasoning",
     "url": "https://huggingface.co/papers/2610.16794",
     "summary": "Proximal Policy Optimization (PPO) is widely used in reinforcement learning with verifiable rewards for language-model reasoning. While value evolution along trajectory characterizes relative token-level credit, yet standard critics often fail to track it under sparse terminal rewards. To model this evolution, we analyze the relation between successive prefix values and show that they admit a Bayesian decomposition…",
     "publishedAt": "2026-10-12T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 94,
+    "upvotes": 95,
     "org": null,
     "githubRepo": "https://github.com/LINs-lab/TPPO",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -628,17 +639,6 @@
     "submittedAt": "2026-10-14T00:00:00.000Z",
     "upvotes": 89,
     "org": "ustc-community",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.01496",
-    "title": "SALD: Self-Referenced Advantage Learning for Diffusion Models",
-    "url": "https://huggingface.co/papers/2610.01496",
-    "summary": "Recent work on language-model adaptation has shown that single models can obtain informative training signals by evaluating their behavior in demonstrationor feedback-augmented contexts, with the help of a teacher network, which is driven by the student's learned parameters. Inspired by this internal-reference principle, we investigate how diffusion models can identify self-referenced training signals without…",
-    "publishedAt": "2026-10-07T00:00:00.000Z",
-    "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 87,
-    "org": "iitk",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -683,7 +683,7 @@
     "summary": "Sparse attention visits few keys, yet finding them can still require scoring every key with every indexer head. We introduce DoSA (Dots Sparse Attention), a lossless method for making this computation conditional while preserving exact token selection. Its central observation is that Top-K selection requires sufficient evidence to reject a candidate, not necessarily its full score. A seed set supplies a lower bound…",
     "publishedAt": "2026-09-26T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 79,
+    "upvotes": 80,
     "org": "dots-studio",
     "githubRepo": "https://github.com/llm-sys/flash-indexer",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -695,7 +695,7 @@
     "summary": "Joint-embedding predictive architectures (JEPAs) learn compact latent world models without pixel reconstruction. Existing JEPA pipelines typically train visual representations and action-conditioned dynamics before adding a control policy or solver. We introduce LeWAM, an end-to-end JEPA for control with: (1) a joint training objective over next latent state prediction and action flow matching, and (2) an isotropic…",
     "publishedAt": "2026-10-08T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 77,
+    "upvotes": 78,
     "org": "lewam",
     "githubRepo": "https://github.com/MinghaoFu/lewam",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -998,7 +998,7 @@
     "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependencies on both the grounding source and the current rendered video state. These dependencies may not be explicitly stated in any individual input, but emerge only when the source, rendered history, and…",
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 100,
+    "upvotes": 101,
     "org": "googie",
     "githubRepo": "https://github.com/vis-ground/code",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
