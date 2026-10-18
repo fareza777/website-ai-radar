@@ -1,5 +1,27 @@
 [
   {
+    "id": "a5cecb4213809d7c",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-18T04:43:17.817Z",
+    "field": "prompt",
+    "from": 0.01818,
+    "to": 0.048,
+    "change": 164
+  },
+  {
+    "id": "e6be51f8a29b80aa",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-18T04:43:17.817Z",
+    "field": "completion",
+    "from": 0.9,
+    "to": 0.2,
+    "change": -77.8
+  },
+  {
     "id": "a4f4ba14cd003457",
     "modelId": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
