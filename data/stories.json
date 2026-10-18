@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:43:17.817Z",
+  "generatedAt": "2026-10-18T11:18:39.615Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 29,
+      "press": 31,
       "outlets": [
         "The Decoder",
         "Search Engine Journal",
@@ -40,10 +40,12 @@
         "Yahoo Finance Singapore",
         "Yahoo Finance",
         "Forbes",
+        "Crypto Briefing",
         "Channel Insider",
         "TechRepublic",
         "https://tech-insider.org/",
         "PYMNTS.com",
+        "The National Law Review",
         "shattered.io"
       ],
       "firstAt": "2026-10-10T10:04:14.000Z",
@@ -178,13 +180,37 @@
         "id": "7d369f9d483c77b3"
       },
       "importance": 64
+    },
+    {
+      "id": "deepseek:a10506682e04b2",
+      "title": "DeepSeek V4.1-Flash-1017 Hits 77.0 on DeepSWE [2026]",
+      "entity": "DeepSeek 4.1 Flash",
+      "labs": [
+        "deepseek"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "https://tech-insider.org/",
+        "Pandaily",
+        "shattered.io",
+        "Briefs Finance"
+      ],
+      "firstAt": "2026-10-12T10:10:33.000Z",
+      "lastAt": "2026-10-17T20:33:17.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OSlM2T1g2czdzWHM0WWVBTnJwLTVXeU1aeWRlcTdXNl8wdUt4YjdzWEtzUTBJS3AtYXlPSjNnbllId2hkeGE1Z0ZDUXAydEpWYzhSb29IXzBnYXd0UUdqWFhORll5VWpqZjVESjZKQUZmaHVON1R6UTFCT0NMdw?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "deepseek:a10506682e04b2"
+      },
+      "importance": 56
     }
   ],
   "trending": {
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 45,
+        "count": 48,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -201,7 +227,7 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 5,
+        "count": 7,
         "prev": 2,
         "labs": [
           "deepseek"
@@ -209,7 +235,7 @@
       },
       {
         "name": "Grok 4.7",
-        "count": 3,
+        "count": 4,
         "prev": 0,
         "labs": [
           "amazon"
@@ -236,9 +262,9 @@
           "cohere",
           "qwen",
           "amazon",
-          "microsoft",
           "bytedance",
           "ibm",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -254,8 +280,8 @@
           "cohere",
           "qwen",
           "amazon",
-          "microsoft",
           "bytedance",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -302,7 +328,7 @@
       {
         "name": "safety",
         "count": 6,
-        "prev": 7,
+        "prev": 6,
         "labs": [
           "anthropic",
           "google-deepmind",

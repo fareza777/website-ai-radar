@@ -1,5 +1,27 @@
 [
   {
+    "id": "76e42330c779a928",
+    "modelId": "qwen/qwen3-30b-a3b-instruct-2507",
+    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "lab": "qwen",
+    "at": "2026-10-18T11:18:39.615Z",
+    "field": "prompt",
+    "from": 0.1,
+    "to": 0.09,
+    "change": -10
+  },
+  {
+    "id": "c7cb72e12b631dc8",
+    "modelId": "google/gemma-3-27b-it",
+    "name": "Google: Gemma 3 27B",
+    "lab": "google-deepmind",
+    "at": "2026-10-18T11:18:39.615Z",
+    "field": "completion",
+    "from": 0.45,
+    "to": 0.35,
+    "change": -22.2
+  },
+  {
     "id": "a5cecb4213809d7c",
     "modelId": "z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",
