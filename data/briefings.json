@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-10-19",
+    "generatedAt": "2026-10-18T20:52:46.911Z",
+    "stats": {
+      "updates24h": 2,
+      "labsActive24h": 2,
+      "updates7d": 120,
+      "newModels7d": 39
+    },
+    "source": "template",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 8 labs.",
+    "bullets": [
+      {
+        "text": "DeepSeek: DeepSeek-V4.1-Flash-1017",
+        "itemId": "9b13d6a721a0c270",
+        "lab": "deepseek"
+      },
+      {
+        "text": "Tencent: Qwen3-8B-DSpine-b16",
+        "itemId": "e33d1da6e264a687",
+        "lab": "tencent"
+      },
+      {
+        "text": "Amazon: Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+        "itemId": "3b6b85c81106ab13",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
+        "itemId": "42200690b98b1f60",
+        "lab": "amazon"
+      },
+      {
+        "text": "Microsoft: Managing open-weight model risk in enterprise deployments",
+        "itemId": "1cf09e23a2a13be7",
+        "lab": "microsoft"
+      },
+      {
+        "text": "Anthropic: Investing in the public benefit",
+        "itemId": "66d5720ec836838d",
+        "lab": "anthropic"
+      }
+    ]
+  },
+  {
     "date": "2026-10-18",
     "generatedAt": "2026-10-18T15:57:20.114Z",
     "stats": {
