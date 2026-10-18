@@ -1630,5 +1630,32 @@
     "hash": "be5b93d0c295",
     "summary": "Claude Code v2.1.302 adds CLAUDE_CODE_AUTO_MODE_MODEL for the client-side auto mode classifier, an Idle compaction row in /config, and a notice about standalone Claude Design.",
     "benefit": "You can choose the client-side auto mode classifier model and turn idle compaction off from /config in this release."
+  },
+  "9b13d6a721a0c270": {
+    "hash": "18a9fc6b6c59",
+    "summary": "DeepSeek published DeepSeek-V4.1-Flash-1017, an image-text-to-text model under the MIT license.",
+    "benefit": "Developers can start from an MIT-licensed model that takes images plus text and returns text."
+  },
+  "1cf09e23a2a13be7": {
+    "hash": "780e5a30fcc5",
+    "summary": "Microsoft explains how enterprises should manage risk when deploying open-weight models, which let teams inspect, evaluate, modify, and run weights in their own environments.",
+    "benefit": "Security and platform teams can weigh that extra control against how open-weight models change risk evaluation.",
+    "category": "research"
+  },
+  "4fe80e5d0fd4b175": {
+    "hash": "68ddc5b15f78",
+    "summary": "Microsoft says agents are changing how applications work, so the cloud-native platform under more capable AI has to evolve with them.",
+    "benefit": "Teams running agents can use this as a prompt to rethink what their cloud foundation needs to support.",
+    "category": "developer"
+  },
+  "4a2f3ca18eb9cee6": {
+    "hash": "5a16eed46db5",
+    "summary": "Benefit Street Partners uses Codex so Anant Kumar can build tools that compare loan valuations and analyze credit agreements, with code review and faster follow-ups.",
+    "benefit": "Finance teams can see a Codex workflow for reviewing code and answering questions about loans and credit agreements."
+  },
+  "af59b3284175b1f2": {
+    "hash": "df497889d461",
+    "summary": "NVIDIA RTX Spark laptops are available, with Blackwell RTX graphics, up to 128GB of unified memory, and the NVIDIA AI platform in slim Windows PCs from ASUS, Dell, HP, Lenovo, Microsoft, and MSI, starting at $2,399.",
+    "benefit": "People who want local AI, content creation, and gaming can buy a portable Windows PC with Blackwell RTX graphics."
   }
 }

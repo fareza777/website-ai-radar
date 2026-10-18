@@ -405,20 +405,10 @@
     "unique": "It collects working examples of what to build or delegate, not another agent runtime.",
     "benefit": "Someone who already has an agent can browse concrete tasks to hand it."
   },
-  "bb77bee59da6ad5d": {
-    "summary": "awesome-jev-tools is a curated list of tools built for Jev, TypeSafe AI's System One model for typed decisions.",
-    "unique": "The list is specific to Jev tools rather than general LLM libraries.",
-    "benefit": "Developers using Jev can find tools made for typed decisions in one list."
-  },
   "1af61c53a9a1026e": {
     "summary": "AI System Design is a course on designing systems built on LLMs, RAG, and AI agents, taught step by step.",
     "unique": "The program walks through system design for those three pieces rather than a single model API.",
     "benefit": "Engineers learning to design LLM, RAG, and agent systems get a step-by-step path."
-  },
-  "30a61943a75d7b7a": {
-    "summary": "awesome-decision-models lists decision models, including hosted APIs, open-weight models, runtimes, SDKs, applications, benchmarks, and papers.",
-    "unique": "It covers System One and typed decision models across the stack, not only one vendor.",
-    "benefit": "Builders comparing decision models can scan APIs, weights, runtimes, and papers in one list."
   },
   "3aedabad940870b8": {
     "summary": "awesome-jev-projects is a source-backed radar of the open-source Jev ecosystem, with plain-language project pages and automatic GitHub sync.",
@@ -559,26 +549,6 @@
     "summary": "This people-search tool finds contacts and verified work emails for agents.",
     "unique": "Calls start from $0.0089, and a cited run returned 27 people and 20 verified emails for $0.58.",
     "benefit": "Agents doing lead enrichment can look up contacts and verified work emails per call."
-  },
-  "0aa11e881fb130a9": {
-    "summary": "The Choke-point Report lists companies supplying scarce inputs behind AI, electrification, defence, and healthcare.",
-    "unique": "It covers 49 listed companies, with research, price charts, and risks as at 29 September 2026.",
-    "benefit": "Readers can review those suppliers' research, price charts, and stated risks in one report."
-  },
-  "4519b181cc56c83d": {
-    "summary": "Just Ship It covers how to find startup ideas, launch fast, and get profitable.",
-    "unique": "The author left Beehiiv for a vibe-coded newsletter platform with campaigns, web archives, an API, list cleanup, and deliverability reports.",
-    "benefit": "Founders can follow notes on ideas, fast launches, and getting profitable."
-  },
-  "7111a7b7f33eeb11": {
-    "summary": "Jev Decision Index gathers benchmarks and news on various reproductions of TypeSafe's Jev.",
-    "unique": "The space tracks multiple public repros of Jev rather than one build.",
-    "benefit": "People following TypeSafe's Jev can compare those reproductions in one place."
-  },
-  "14c9627bda602aee": {
-    "summary": "Every Agent is a newsletter about going AI-native automatically.",
-    "unique": "The offer is to go AI-native automatically.",
-    "benefit": "Readers who want an AI-native workflow can follow this newsletter."
   },
   "5247a702d6a16253": {
     "summary": "A single Rust program that builds a code graph and project memory for coding agents.",
@@ -759,10 +729,46 @@
     "unique": "Each step stays reviewable while the agent works across local files, ERP•AI, and the web.",
     "benefit": "Business teams can ask an agent to update records or build a workflow and then inspect each step."
   },
-  "d8112fe8c243c17e": {
-    "hash": "30300841",
-    "summary": "A Show HN item titled Gemini 4 Argon plays StarCraft, pointing at a StarSkirmish bench page.",
-    "unique": "The page is a bench where Gemini 4 Argon plays StarCraft, not a general game release.",
-    "benefit": "People comparing models can open the bench and see Gemini 4 Argon play StarCraft."
+  "ae86307b5f6abc46": {
+    "hash": "e3109deb",
+    "summary": "Research communities for independent AI agents, with discussion tied to a problem and papers that are reviewed.",
+    "unique": "Agents share a problem-specific forum and a literature of reviewed papers.",
+    "benefit": "People running their own agents can point them at shared research problems instead of working alone."
+  },
+  "8bce0f51c2c283fd": {
+    "hash": "2a3ad365",
+    "summary": "An npm package to run Laya, an open-source Jev-compatible System-1 decision model, from Node.js and TypeScript through ONNX Runtime.",
+    "unique": "It is a local-first Node.js path to a Jev-compatible decision model.",
+    "benefit": "TypeScript developers can run that decision model locally without leaving Node.js."
+  },
+  "393155777d7ff5e3": {
+    "hash": "f241af1a",
+    "summary": "Trace-native CI/CD for AI agents that grades production traces, clusters failures, freezes them into replayable regression tests, and blocks pull requests that regress.",
+    "unique": "It turns clustered production failures into replayable tests and is self-hostable.",
+    "benefit": "Teams shipping agents can stop a regression from merging by replaying failures seen in production traces."
+  },
+  "eb2ec5951aaf61aa": {
+    "hash": "7b9dcdbd",
+    "summary": "A site for creating videos and images with AI and proving them.",
+    "unique": "Creation of videos and images is paired with a way to prove them.",
+    "benefit": "Creators who generate videos and images with AI can also prove them."
+  },
+  "b4bfc5a8b8fc5971": {
+    "hash": "9b83a8ae",
+    "summary": "A Model Context Protocol platform for building MCP servers and MCP apps with a TypeScript SDK and CLI, testing them in NitroStudio, and deploying to NitroCloud.",
+    "unique": "Build, test, and deploy stay in one MCP workflow, from the SDK through NitroStudio to NitroCloud.",
+    "benefit": "Developers shipping MCP servers can build, test, and deploy them in the same platform."
+  },
+  "b92ace6419d30aee": {
+    "hash": "7b5f8ac3",
+    "summary": "Reason Network puts coding agents such as Grok Bot, Muse, Claude Code, and Codex on one free peer-to-peer network so they can ask each other for work.",
+    "unique": "The open-source engine is meant to keep live agents, including teammates', from colliding while coding.",
+    "benefit": "Teams running several coding agents can have them message each other instead of working on top of each other."
+  },
+  "d3cde2676bc921e1": {
+    "hash": "5c3b8fa4",
+    "summary": "Elorian introduced Glimpse on Oct 16 and calls it a visual thinking model.",
+    "unique": "Glimpse is Elorian's visual thinking model.",
+    "benefit": "People looking for a visual thinking model can try the one Elorian introduced as Glimpse."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T23:11:30.117Z",
+  "generatedAt": "2026-10-18T00:03:06.118Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -178,6 +178,30 @@
         "id": "7d369f9d483c77b3"
       },
       "importance": 64
+    },
+    {
+      "id": "mistral:6a7a5ef3a3110f",
+      "title": "Mistral Large 4 (Le Chonk): A Review of Europe’s Trillion-Parameter Model and Its Open-Weight…",
+      "entity": "Mistral Large 4",
+      "labs": [
+        "mistral"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "Medium",
+        "Geeky Gadgets",
+        "Xpert.Digital - Konrad Wolfenstein",
+        "Brief IA"
+      ],
+      "firstAt": "2026-10-08T07:00:00.000Z",
+      "lastAt": "2026-10-08T19:32:58.000Z",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVEVreUF5WHFJakRYZDNCSGJxYlpTS1l5RkhOSWQ5NUM0U255cUVNV3Q4Q1VvQU00R1JEVl83RmQxak1VQ2Rsejd5b2M2aFdtMER2Q1MzR2d1MXZnVVpGcERmTmJCbmdsOGRKczZkXzY1SnFRXzFfbFJxcG9ORzNRM2IyMkRvWl9xNjh0Szl1eFQ1STV3SGp4cTNwR2d5MEQ2ZUxacG1KMFAxUVdISUFyUy1LdzJtUVB0S2NBQ3dWYjRBM0cxOTNMNjZJT1JVcUk?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:6a7a5ef3a3110f"
+      },
+      "importance": 56
     }
   ],
   "trending": {
@@ -231,15 +255,15 @@
         "prev": 32,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "cohere",
-          "qwen",
-          "bytedance",
           "amazon",
+          "qwen",
           "microsoft",
-          "nvidia",
-          "ibm"
+          "bytedance",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -252,10 +276,10 @@
           "openai",
           "mistral",
           "cohere",
-          "qwen",
-          "bytedance",
           "amazon",
+          "qwen",
           "microsoft",
+          "bytedance",
           "nvidia"
         ]
       },
@@ -276,15 +300,15 @@
         "count": 7,
         "prev": 12,
         "labs": [
-          "deepseek",
           "google-deepmind",
+          "deepseek",
           "openai",
           "mistral",
-          "qwen",
-          "tencent",
           "amazon",
-          "nvidia",
-          "ibm"
+          "tencent",
+          "qwen",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -307,8 +331,8 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "bytedance",
           "amazon",
+          "bytedance",
           "nvidia"
         ]
       },
@@ -320,10 +344,10 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "tencent",
           "amazon",
-          "nvidia",
-          "ibm"
+          "tencent",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -333,8 +357,8 @@
         "labs": [
           "google-deepmind",
           "openai",
-          "qwen",
-          "amazon"
+          "amazon",
+          "qwen"
         ]
       }
     ]
