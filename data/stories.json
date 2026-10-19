@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T23:20:30.937Z",
+  "generatedAt": "2026-10-19T04:51:17.625Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -66,7 +66,7 @@
         "amazon"
       ],
       "official": 2,
-      "press": 9,
+      "press": 8,
       "outlets": [
         "Wccftech",
         "The Decoder",
@@ -76,11 +76,11 @@
         "SQ Magazine",
         "ZDNET",
         "Prime Intellect",
-        "OrcaRouter",
-        "Business Wire",
         "Techzine Global",
         "Startup Fortune",
         "Unite.AI",
+        "OrcaRouter",
+        "Business Wire",
         "Technology Org",
         "巴士的報",
         "Newsquawk",
@@ -162,6 +162,33 @@
       "importance": 64
     },
     {
+      "id": "qwen:be79bb06ce432c",
+      "title": "Alibaba launches Qwen N1 AI glasses in China from $450",
+      "entity": null,
+      "labs": [
+        "qwen"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Analytics India Magazine",
+        "YourStory.com",
+        "Briefs Finance",
+        "eWeek",
+        "Trend Hunter",
+        "The Next Web",
+        "CryptoRank"
+      ],
+      "firstAt": "2026-10-13T07:00:00.000Z",
+      "lastAt": "2026-10-13T10:32:09.000Z",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11TGNFeC1LNVVsX0tJOU1rNUdpZWdraHMzLTI5WER6c3p1eUpOejBRWHVUcEc5WWlUSjZYX2psLV9BUXhGTzRlaE5qZjZKM3lsWWxTT3dEdlh0SG1Tczk5MEVJQUJQbHNKYWg4N1JpSHlReU1aSms0MlZzSzIyX3M?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:be79bb06ce432c"
+      },
+      "importance": 59
+    },
+    {
       "id": "deepseek:a10506682e04b2",
       "title": "DeepSeek V4.1-Flash-1017 Hits 77.0 on DeepSWE [2026]",
       "entity": "DeepSeek 4.1 Flash",
@@ -184,6 +211,29 @@
         "id": "deepseek:a10506682e04b2"
       },
       "importance": 56
+    },
+    {
+      "id": "xai:92ecac57376cc6",
+      "title": "XAI Corp Price: XAI/USD Live Price Chart, Market Cap & News Today",
+      "entity": null,
+      "labs": [
+        "xai",
+        "tencent"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "CoinGecko",
+        "Binance"
+      ],
+      "firstAt": "2026-10-13T01:45:01.000Z",
+      "lastAt": "2026-10-14T06:06:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIZi0wR3QtS2plQndiNTFza18wQUFHNXpxTXhDV1Z0YXNoS0NNbjBZeVB0OUpsR19PUERtQlNBLXdSam5oWGs5OWc1dDZ3b0Q0dXhzMVJ3?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "xai:92ecac57376cc6"
+      },
+      "importance": 54
     }
   ],
   "trending": {
@@ -233,7 +283,7 @@
     "topics": [
       {
         "name": "agents",
-        "count": 49,
+        "count": 48,
         "prev": 32,
         "labs": [
           "anthropic",
@@ -283,11 +333,11 @@
         "prev": 12,
         "labs": [
           "google-deepmind",
-          "openai",
           "deepseek",
+          "openai",
           "mistral",
-          "qwen",
           "tencent",
+          "qwen",
           "amazon",
           "ibm",
           "nvidia"
