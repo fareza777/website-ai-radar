@@ -1,5 +1,95 @@
 [
   {
+    "id": "4ac761225dba94bd",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.25.3",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.3",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-19T08:06:26.000Z",
+    "firstSeenAt": "2026-10-19T13:31:59.604Z",
+    "updatedAt": "2026-10-19T08:06:26.000Z",
+    "excerpt": "What's Changed fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle ( #13847 ) by @wenshao in #14160 test(managed-agent): add the FG8e/FG8f monitor_run and background-shell fault gates by @wenshao in #14120 feat(extensions): add bounded generated failure explorer views (PR4) by @qqqys in #14269 fix(sdk-java): Order the FG8 gate's imports for the checkstyle rules by @wenshao in…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.25.3 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "014a65fb81f1",
+    "meta": {
+      "version": "v0.25.3",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
+    "id": "ed40b48547adbec7",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.21",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.21",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-19T07:47:40.000Z",
+    "firstSeenAt": "2026-10-19T13:31:59.604Z",
+    "updatedAt": "2026-10-19T07:47:40.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.25.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.21 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "aed10bc5e137",
+    "meta": {
+      "version": "v0.1.21",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
+    "id": "b1dd4b301d615d53",
+    "lab": "qwen",
+    "title": "Qwen Code v0.25.3",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.3",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-19T06:52:53.000Z",
+    "firstSeenAt": "2026-10-19T13:31:59.604Z",
+    "updatedAt": "2026-10-19T06:52:53.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds optional model-generated layouts to Test Failure Explorer, with validation and fallback to the fixed view ( #14269 ) by @qqqys The Web Shell mobile composer no longer shows the ↑ and ↓ history buttons, reducing clutter while keeping history search available. ( #14220 ) by @pomelo-nwu The Web…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.25.3 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "363e8961ed90",
+    "meta": {
+      "version": "v0.25.3",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
     "id": "88dca9de836d4f1f",
     "lab": "qwen",
     "title": "Qwen Code desktop v0.25.2",
@@ -113,7 +203,7 @@
     "importance": 43,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 129,
+      "stars": 145,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -231,8 +321,8 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 986,
-      "downloads": 23131,
+      "likes": 991,
+      "downloads": 25033,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
       "license": "other"
@@ -380,7 +470,7 @@
     "contentHash": "d108635bb7df",
     "meta": {
       "likes": 65,
-      "downloads": 20852,
+      "downloads": 21365,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
     }
@@ -410,7 +500,7 @@
     "contentHash": "2deb903ef0b2",
     "meta": {
       "likes": 67,
-      "downloads": 10726,
+      "downloads": 10927,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
       "license": "other"
@@ -496,8 +586,8 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3382,
-      "downloads": 176035,
+      "likes": 3386,
+      "downloads": 181547,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
       "license": "other"
@@ -535,7 +625,7 @@
     "importance": 44,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 211,
+      "stars": 213,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -656,8 +746,8 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6333,
-      "downloads": 2485835,
+      "likes": 6339,
+      "downloads": 2494099,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -687,8 +777,8 @@
     "importance": 95,
     "contentHash": "df6b90143e8c",
     "meta": {
-      "likes": 1320,
-      "downloads": 25746,
+      "likes": 1321,
+      "downloads": 25658,
       "repo": "Qwen/Qwen3.8-2.4T-A95B",
       "pipeline": "text-generation",
       "license": "other"
@@ -719,8 +809,8 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 17969,
-      "downloads": 7695206,
+      "likes": 17983,
+      "downloads": 7458401,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"

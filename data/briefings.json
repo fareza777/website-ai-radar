@@ -1,44 +1,39 @@
 [
   {
     "date": "2026-10-19",
-    "generatedAt": "2026-10-19T04:51:17.625Z",
+    "generatedAt": "2026-10-19T13:31:59.604Z",
     "stats": {
-      "updates24h": 1,
-      "labsActive24h": 1,
-      "updates7d": 120,
-      "newModels7d": 38
+      "updates24h": 6,
+      "labsActive24h": 4,
+      "updates7d": 122,
+      "newModels7d": 39
     },
     "source": "template",
-    "headline": "A quiet day — here are the highlights from the last 72 hours across 8 labs.",
+    "headline": "6 updates from 4 AI labs in the last 24 hours · 39 model releases this week.",
     "bullets": [
       {
-        "text": "DeepSeek: DeepSeek-V4.1-Flash-1017",
-        "itemId": "9b13d6a721a0c270",
-        "lab": "deepseek"
+        "text": "Meta AI: Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+        "itemId": "eeca3caa47fa95f2",
+        "lab": "meta"
       },
       {
-        "text": "Tencent: Qwen3-8B-DSpine-b16",
-        "itemId": "e33d1da6e264a687",
-        "lab": "tencent"
+        "text": "IBM: New course teaches how AI models run on modern accelerators",
+        "itemId": "de58e4ba20a4ed12",
+        "lab": "ibm"
       },
       {
-        "text": "Amazon: Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
-        "itemId": "3b6b85c81106ab13",
-        "lab": "amazon"
+        "text": "Alibaba Qwen: Qwen Code desktop v0.25.3",
+        "itemId": "4ac761225dba94bd",
+        "lab": "qwen"
       },
       {
-        "text": "Amazon: Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
-        "itemId": "42200690b98b1f60",
-        "lab": "amazon"
+        "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.21",
+        "itemId": "ed40b48547adbec7",
+        "lab": "qwen"
       },
       {
-        "text": "Microsoft: Managing open-weight model risk in enterprise deployments",
-        "itemId": "1cf09e23a2a13be7",
-        "lab": "microsoft"
-      },
-      {
-        "text": "Anthropic: Investing in the public benefit",
-        "itemId": "66d5720ec836838d",
+        "text": "Anthropic: Claude Code v2.1.303",
+        "itemId": "13d5315f51758d6f",
         "lab": "anthropic"
       }
     ]
