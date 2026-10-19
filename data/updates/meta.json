@@ -1,5 +1,54 @@
 [
   {
+    "id": "d5f5b896866a7ed7",
+    "lab": "meta",
+    "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+    "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary",
+    "sourceId": "meta-eng",
+    "sourceName": "Engineering at Meta",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-19T16:00:47.000Z",
+    "firstSeenAt": "2026-10-19T20:37:58.193Z",
+    "updatedAt": "2026-10-19T16:00:47.000Z",
+    "excerpt": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world knowledge built into LLMs makes ad matching more intelligent and precise, compounding gains for advertisers. GenRecs Tokenization is the foundational data representation that makes this possible…",
+    "summary": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "reasoning"
+    ],
+    "importance": 65,
+    "contentHash": "cfe2ed79da5d"
+  },
+  {
+    "id": "dbb53c4e8ada17e8",
+    "lab": "meta",
+    "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+    "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture",
+    "sourceId": "meta-eng",
+    "sourceName": "Engineering at Meta",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-19T15:30:37.000Z",
+    "firstSeenAt": "2026-10-19T20:37:58.193Z",
+    "updatedAt": "2026-10-19T15:30:37.000Z",
+    "excerpt": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach. At Meta, we’ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents deliberately thin: It routes work and enforces reliability checks, while specialized agents do the domain reasoning. We’re sharing our own process and insights, plus how any team can apply this to their…",
+    "summary": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "reasoning"
+    ],
+    "importance": 55,
+    "contentHash": "058327c9106a"
+  },
+  {
     "id": "eeca3caa47fa95f2",
     "lab": "meta",
     "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",

@@ -1,5 +1,35 @@
 [
   {
+    "id": "638ec17e71c879fc",
+    "lab": "mistral",
+    "title": "Mistral Vibe v3.0.0",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v3.0.0",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-19T16:43:51.000Z",
+    "firstSeenAt": "2026-10-19T20:37:58.193Z",
+    "updatedAt": "2026-10-19T16:43:51.000Z",
+    "excerpt": "Added The app-server reports each model's compaction threshold, so a client can show how full a session's context is before it compacts. Desktop can import projects and sessions from another coding agent during onboarding. Rust CLI: /leanstall and /unleanstall install and uninstall the Lean agent. With experimental_enable_model_catalog on, the model list includes Mistral's curated models, and your config can still…",
+    "summary": "Mistral AI shipped Mistral Vibe v3.0.0 (major release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 60,
+    "contentHash": "6a114defefbc",
+    "meta": {
+      "version": "v3.0.0",
+      "semver": "major",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "3a11e60ee8cf431d",
     "lab": "mistral",
     "title": "Introducing Timestral",
@@ -45,7 +75,7 @@
     "importance": 67,
     "contentHash": "417d409580a4",
     "meta": {
-      "likes": 27,
+      "likes": 31,
       "downloads": 932,
       "repo": "mistralai/Timestral-123M",
       "pipeline": "time-series-forecasting",
@@ -76,7 +106,7 @@
     "importance": 66,
     "contentHash": "bb226bca6d6b",
     "meta": {
-      "likes": 24,
+      "likes": 26,
       "downloads": 1448,
       "repo": "mistralai/Timestral-28M",
       "pipeline": "time-series-forecasting",
@@ -104,10 +134,10 @@
     "tags": [
       "5M"
     ],
-    "importance": 67,
+    "importance": 68,
     "contentHash": "fd4a807fe29b",
     "meta": {
-      "likes": 30,
+      "likes": 43,
       "downloads": 1686,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
@@ -138,7 +168,7 @@
     "importance": 73,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 153,
+      "likes": 186,
       "downloads": 2601,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",

@@ -1,5 +1,29 @@
 [
   {
+    "id": "98948186cc0e34f7",
+    "lab": "amazon",
+    "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-19T16:49:19.000Z",
+    "firstSeenAt": "2026-10-19T20:37:58.193Z",
+    "updatedAt": "2026-10-19T16:49:19.000Z",
+    "excerpt": "On Oct 9, 2026 we announced the availability of TwelveLabs’ Pegasus 1.5 on Amazon Bedrock . Pegasus 1.5 is a video language model that turns long-form video into structured, timestamped metadata. You describe the moments that matter to your workflow, and the model returns every matching segment as JSON. Video represents a significant and complex category of unstructured data, yet most of it remains unsearchable and…",
+    "summary": "On Oct 9, 2026 we announced the availability of TwelveLabs’ Pegasus 1.5 on Amazon Bedrock .",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 65,
+    "contentHash": "e6a9e658b346"
+  },
+  {
     "id": "c22ce4d9c5995d4a",
     "lab": "amazon",
     "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",

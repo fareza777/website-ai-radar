@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T13:31:59.604Z",
+  "generatedAt": "2026-10-19T20:37:58.193Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 32,
+      "press": 33,
       "outlets": [
         "The Decoder",
         "The National Law Review",
@@ -29,10 +29,10 @@
         "The GitHub Blog",
         "Yahoo Finance",
         "Reuters",
+        "https://tech-insider.org/",
         "CNBC",
         "Quartz",
         "Mashable",
-        "https://tech-insider.org/",
         "MarkTechPost",
         "TechEBlog -",
         "Technology Org",
@@ -163,33 +163,6 @@
       "importance": 64
     },
     {
-      "id": "qwen:213875e5e45518",
-      "title": "Alibaba launches Qwen N1 AI glasses in China from $450",
-      "entity": null,
-      "labs": [
-        "qwen"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Trend Hunter",
-        "Briefs Finance",
-        "eWeek",
-        "Analytics India Magazine",
-        "YourStory.com",
-        "The Next Web",
-        "CryptoRank"
-      ],
-      "firstAt": "2026-10-13T07:00:00.000Z",
-      "lastAt": "2026-10-13T10:32:09.000Z",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11TGNFeC1LNVVsX0tJOU1rNUdpZWdraHMzLTI5WER6c3p1eUpOejBRWHVUcEc5WWlUSjZYX2psLV9BUXhGTzRlaE5qZjZKM3lsWWxTT3dEdlh0SG1Tczk5MEVJQUJQbHNKYWg4N1JpSHlReU1aSms0MlZzSzIyX3M?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:213875e5e45518"
-      },
-      "importance": 59
-    },
-    {
       "id": "deepseek:a10506682e04b2",
       "title": "DeepSeek V4.1-Flash-1017 Hits 77.0 on DeepSWE [2026]",
       "entity": "DeepSeek 4.1 Flash",
@@ -243,7 +216,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 52,
+        "count": 53,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -275,9 +248,9 @@
         ]
       },
       {
-        "name": "GLM 5.5",
+        "name": "Claude Opus 5",
         "count": 3,
-        "prev": 2,
+        "prev": 0,
         "labs": []
       },
       {
@@ -287,17 +260,32 @@
         "labs": [
           "openai"
         ]
+      },
+      {
+        "name": "GLM 5.5",
+        "count": 3,
+        "prev": 3,
+        "labs": []
+      },
+      {
+        "name": "GLM 5.3",
+        "count": 3,
+        "prev": 5,
+        "labs": [
+          "amazon"
+        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 49,
+        "count": 51,
         "prev": 30,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
+          "mistral",
           "cohere",
           "qwen",
           "amazon",
@@ -310,7 +298,7 @@
       {
         "name": "coding",
         "count": 33,
-        "prev": 35,
+        "prev": 34,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -325,20 +313,8 @@
         ]
       },
       {
-        "name": "reasoning",
-        "count": 7,
-        "prev": 5,
-        "labs": [
-          "anthropic",
-          "cohere",
-          "amazon",
-          "microsoft",
-          "nvidia"
-        ]
-      },
-      {
         "name": "multimodal",
-        "count": 7,
+        "count": 9,
         "prev": 12,
         "labs": [
           "deepseek",
@@ -349,6 +325,32 @@
           "tencent",
           "amazon",
           "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 8,
+        "prev": 6,
+        "labs": [
+          "anthropic",
+          "meta",
+          "cohere",
+          "amazon",
+          "microsoft",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "safety",
+        "count": 7,
+        "prev": 7,
+        "labs": [
+          "anthropic",
+          "google-deepmind",
+          "openai",
+          "amazon",
+          "bytedance",
           "nvidia"
         ]
       },
@@ -365,22 +367,9 @@
         ]
       },
       {
-        "name": "safety",
-        "count": 6,
-        "prev": 7,
-        "labs": [
-          "anthropic",
-          "google-deepmind",
-          "openai",
-          "amazon",
-          "bytedance",
-          "nvidia"
-        ]
-      },
-      {
         "name": "audio",
-        "count": 5,
-        "prev": 4,
+        "count": 4,
+        "prev": 5,
         "labs": [
           "google-deepmind",
           "openai",
@@ -393,8 +382,8 @@
       },
       {
         "name": "mcp",
-        "count": 3,
-        "prev": 4,
+        "count": 2,
+        "prev": 5,
         "labs": [
           "google-deepmind",
           "openai",
@@ -417,6 +406,30 @@
       ],
       "reports": 3,
       "at": "2026-10-19T12:24:49.000Z"
+    },
+    {
+      "id": "minimax:96564b8d90d1a2",
+      "lab": "minimax",
+      "title": "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026]",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
+      "outlets": [
+        "https://tech-insider.org/",
+        "shattered.io"
+      ],
+      "reports": 2,
+      "at": "2026-10-19T18:09:15.000Z"
+    },
+    {
+      "id": "minimax:30359f8a157438",
+      "lab": "minimax",
+      "title": "MiniMax quietly launches M3.1-Flash after weeks as a mystery Space Bunny model",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcU9pLVo3ZWdIWHQwazZFQjZoR2hzeWpuX083T0gwTW5jbWhHa211U3pqLXNfWGNGbVpaMHd1UHpKbWFKQzNhWHVqQ2hpNjMxc3dEaW1tblpMRTRPVmRESmM4U3d6SnYwaHpKb1lERzBGaUdmTXFnSC1wYmhSY3pEaFU5Tl9TZ2pJckNKOWkxWEc2ZkZpSFRzNXhVZVVXaUFVdjdlc3JoSWE?oc=5",
+      "outlets": [
+        "Startup Fortune",
+        "Unite.AI"
+      ],
+      "reports": 2,
+      "at": "2026-10-19T10:50:13.000Z"
     }
   ]
 }
