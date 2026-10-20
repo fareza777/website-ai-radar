@@ -1,5 +1,49 @@
 [
   {
+    "id": "2d705cd9c13cf64f",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-10-20T19:21:23.050Z",
+    "field": "prompt",
+    "from": 0.24,
+    "to": 0.04,
+    "change": -83.3
+  },
+  {
+    "id": "0f08d0bd707d9396",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-10-20T19:21:23.050Z",
+    "field": "completion",
+    "from": 2.2,
+    "to": 1.35,
+    "change": -38.6
+  },
+  {
+    "id": "708f79fd1d4dc18e",
+    "modelId": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "lab": "qwen",
+    "at": "2026-10-20T19:21:23.050Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.1,
+    "change": -33.3
+  },
+  {
+    "id": "31a927db8b6f2ba8",
+    "modelId": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "lab": "qwen",
+    "at": "2026-10-20T19:21:23.050Z",
+    "field": "completion",
+    "from": 1,
+    "to": 0.95,
+    "change": -5
+  },
+  {
     "id": "e9485112f18c3404",
     "modelId": "nvidia/nemotron-3.5-super-vl",
     "name": "NVIDIA: Nemotron 3.5 Super VL",

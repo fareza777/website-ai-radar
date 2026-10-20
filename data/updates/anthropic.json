@@ -69,15 +69,15 @@
     "verified": true,
     "publishedAt": "2026-10-18T00:00:00.000Z",
     "firstSeenAt": "2026-10-18T20:52:46.911Z",
-    "updatedAt": "2026-10-18T00:00:00.000Z",
-    "excerpt": "Investing in the public benefit",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+    "summary": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 55,
-    "contentHash": "ee2861d4b4a7"
+    "contentHash": "280586b00ae2"
   },
   {
     "id": "0c6e6f470183a107",
@@ -228,15 +228,17 @@
     "verified": true,
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "firstSeenAt": "2026-10-15T21:30:26.752Z",
-    "updatedAt": "2026-10-15T00:00:00.000Z",
-    "excerpt": "An update on independent evaluators",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
-    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.",
+    "summary": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
     "summarySource": "template",
-    "category": "feature",
-    "tags": [],
-    "importance": 55,
-    "contentHash": "9658cf051064"
+    "category": "research",
+    "tags": [
+      "safety"
+    ],
+    "importance": 45,
+    "contentHash": "b0ec4973837c"
   },
   {
     "id": "b09ae946e685c3f0",
@@ -392,15 +394,15 @@
     "verified": true,
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "firstSeenAt": "2026-10-14T12:03:25.951Z",
-    "updatedAt": "2026-10-14T00:00:00.000Z",
-    "excerpt": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.",
+    "summary": "Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 55,
-    "contentHash": "a01be479290a"
+    "contentHash": "f3a57d160749"
   },
   {
     "id": "18177a36d83526b9",
@@ -414,15 +416,15 @@
     "verified": true,
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "firstSeenAt": "2026-10-14T21:47:04.696Z",
-    "updatedAt": "2026-10-14T00:00:00.000Z",
-    "excerpt": "Preparing for the 2026 US midterms",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
+    "summary": "Earlier this year, we shared an update on our election safeguards.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 55,
-    "contentHash": "4bb286816eae"
+    "contentHash": "ba03bd15c308"
   },
   {
     "id": "0fff098609ae8946",
@@ -470,7 +472,14 @@
       "agents"
     ],
     "importance": 55,
-    "contentHash": "b6c14af8e0f0"
+    "contentHash": "b6c14af8e0f0",
+    "seenIn": [
+      {
+        "sourceId": "anthropic-eng",
+        "sourceName": "Anthropic Engineering",
+        "url": "https://anthropic.com/research/redesigning-source-control"
+      }
+    ]
   },
   {
     "id": "b603e27850b0fbed",
@@ -496,6 +505,28 @@
     ],
     "importance": 35,
     "contentHash": "a157adfbdc9b"
+  },
+  {
+    "id": "8441dda466a0cda9",
+    "lab": "anthropic",
+    "title": "Strengthening our defenses against distillation attacks",
+    "url": "https://anthropic.com/news/distillation-defenses",
+    "sourceId": "anthropic-news",
+    "sourceName": "Anthropic News",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-12T00:00:00.000Z",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z",
+    "updatedAt": "2026-10-12T00:00:00.000Z",
+    "excerpt": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+    "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 65,
+    "contentHash": "6a1915c9c466"
   },
   {
     "id": "03bdc9822921c76d",
@@ -628,15 +659,15 @@
     "verified": true,
     "publishedAt": "2026-10-08T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-08T00:00:00.000Z",
-    "excerpt": "Building on our commitment to American scientific discovery",
-    "summary": "Official research update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
+    "summary": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
     "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
     "summarySource": "template",
     "category": "research",
     "tags": [],
     "importance": 45,
-    "contentHash": "0733cf2f04a0"
+    "contentHash": "8af8d298658c"
   },
   {
     "id": "77b3f0b977bcd0cf",
@@ -650,15 +681,15 @@
     "verified": true,
     "publishedAt": "2026-10-08T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-08T00:00:00.000Z",
-    "excerpt": "Introducing the Anthropic Cyber Mission",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.",
+    "summary": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 70,
-    "contentHash": "208a6e8ff6df"
+    "contentHash": "d80a9908a44f"
   },
   {
     "id": "d40aae393b587da5",
@@ -672,15 +703,15 @@
     "verified": true,
     "publishedAt": "2026-10-08T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-08T00:00:00.000Z",
-    "excerpt": "2026 Usage Policy update",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
+    "summary": "We’re publishing a new version of our Usage Policy.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 55,
-    "contentHash": "243de34360dc"
+    "contentHash": "65ab43e5168c"
   },
   {
     "id": "a844f06ee64192fd",
@@ -793,7 +824,7 @@
     "verified": true,
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-07T00:00:00.000Z",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
     "excerpt": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "summary": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -928,7 +959,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-20T14:21:40.747Z",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
@@ -1097,15 +1128,15 @@
     "verified": true,
     "publishedAt": "2026-10-02T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-02T00:00:00.000Z",
-    "excerpt": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.",
+    "summary": "Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 55,
-    "contentHash": "b47ed97f8bac"
+    "contentHash": "20baeb3f9c47"
   },
   {
     "id": "8a78d74aef0967c5",
@@ -1119,15 +1150,15 @@
     "verified": true,
     "publishedAt": "2026-10-01T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-01T00:00:00.000Z",
-    "excerpt": "Barclays scales Claude to upgrade operations and improve client experience",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+    "summary": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 55,
-    "contentHash": "3a0f4748274b"
+    "contentHash": "05b0ae67d857"
   },
   {
     "id": "4a8c364d1c7cc512",
@@ -1321,7 +1352,7 @@
     "verified": true,
     "publishedAt": "2026-09-28T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-09-28T00:00:00.000Z",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
     "excerpt": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
     "summary": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -1632,6 +1663,53 @@
     "contentHash": "3cf152895251"
   },
   {
+    "id": "dfd20da099fcf7fa",
+    "lab": "anthropic",
+    "title": "Introducing Claude Opus 5.5",
+    "url": "https://anthropic.com/claude-opus-5-5",
+    "sourceId": "anthropic-news",
+    "sourceName": "Anthropic News",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-09-22T00:00:00.000Z",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z",
+    "updatedAt": "2026-09-22T00:00:00.000Z",
+    "excerpt": "Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.",
+    "summary": "Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 80,
+    "contentHash": "4c169fd6edd0"
+  },
+  {
+    "id": "e4ec8a4be7efe582",
+    "lab": "anthropic",
+    "title": "The Situation Report",
+    "url": "https://anthropic.com/features/ebola-response",
+    "sourceId": "anthropic-news",
+    "sourceName": "Anthropic News",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-09-21T00:00:00.000Z",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z",
+    "updatedAt": "2026-09-21T00:00:00.000Z",
+    "excerpt": "A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.",
+    "summary": "A rare Ebola strain is spreading in the DRC, with no confirmed vaccine.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 55,
+    "contentHash": "570d4762ac46"
+  },
+  {
     "id": "879ba832b5d6e4eb",
     "lab": "anthropic",
     "title": "Partnering with Accenture on embedded evaluation",
@@ -1665,15 +1743,15 @@
     "verified": true,
     "publishedAt": "2026-09-17T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-09-17T00:00:00.000Z",
-    "excerpt": "Introducing the Life Sciences Verification Program",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.",
+    "summary": "The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 70,
-    "contentHash": "dfd87f3ee450"
+    "contentHash": "3319c43c4fa3"
   },
   {
     "id": "b1ae31799633c914",
@@ -1808,6 +1886,30 @@
     "tags": [],
     "importance": 35,
     "contentHash": "32a9037c3810"
+  },
+  {
+    "id": "c3eef50e9010768e",
+    "lab": "anthropic",
+    "title": "Introducing Claude Mythos and Fable 5.1",
+    "url": "https://anthropic.com/claude-fable-and-mythos-5-1",
+    "sourceId": "anthropic-news",
+    "sourceName": "Anthropic News",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-09-15T00:00:00.000Z",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z",
+    "updatedAt": "2026-09-15T00:00:00.000Z",
+    "excerpt": "They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.",
+    "summary": "They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "coding"
+    ],
+    "importance": 70,
+    "contentHash": "a6512f05b357"
   },
   {
     "id": "c58959049907fa24",
@@ -2052,9 +2154,9 @@
     "verified": true,
     "publishedAt": "2026-08-31T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-08-31T00:00:00.000Z",
-    "excerpt": "Improving our alignment and security efforts",
-    "summary": "Official research update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
+    "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems.",
     "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
     "summarySource": "template",
     "category": "research",
@@ -2062,7 +2164,7 @@
       "safety"
     ],
     "importance": 45,
-    "contentHash": "78ace631d513"
+    "contentHash": "ed7f52cd3061"
   },
   {
     "id": "9ccc41aceb903feb",
@@ -2120,15 +2222,17 @@
     "verified": true,
     "publishedAt": "2026-08-27T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-08-27T00:00:00.000Z",
-    "excerpt": "Previewing the Model Hardware Standard",
-    "summary": "Official model update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+    "summary": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
     "summarySource": "template",
     "category": "model",
-    "tags": [],
+    "tags": [
+      "agents"
+    ],
     "importance": 65,
-    "contentHash": "c0aea8e849a3"
+    "contentHash": "3e7cd4668549"
   },
   {
     "id": "d8566decaa8e36d6",
@@ -2142,15 +2246,15 @@
     "verified": true,
     "publishedAt": "2026-08-27T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-08-27T00:00:00.000Z",
-    "excerpt": "Expanding our support for scientists",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
-    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.",
+    "summary": "Starting today, 10,000 scientists around the world can get Claude at no cost to start.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
     "summarySource": "template",
-    "category": "feature",
+    "category": "research",
     "tags": [],
-    "importance": 55,
-    "contentHash": "9241db3c43e7"
+    "importance": 45,
+    "contentHash": "f6d5dcdd896d"
   },
   {
     "id": "834e7c6a251e40fa",
@@ -2232,15 +2336,15 @@
     "verified": true,
     "publishedAt": "2026-08-25T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-08-25T00:00:00.000Z",
-    "excerpt": "Funding better evaluations of AI’s impact on wellbeing",
-    "summary": "Official research update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+    "summary": "We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
     "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
     "summarySource": "template",
     "category": "research",
     "tags": [],
     "importance": 45,
-    "contentHash": "e3e936eba6ce"
+    "contentHash": "264ad89410c5"
   },
   {
     "id": "54d773b5f0cf2ca8",
@@ -2534,15 +2638,15 @@
     "verified": true,
     "publishedAt": "2026-08-14T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-08-14T00:00:00.000Z",
-    "excerpt": "How Claude’s text watermark works",
-    "summary": "Official feature update from Anthropic (Anthropic News).",
+    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "excerpt": "In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
+    "summary": "In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 55,
-    "contentHash": "f8da691faf9a"
+    "contentHash": "0664b9b02e75"
   },
   {
     "id": "661a815e8ba2f792",

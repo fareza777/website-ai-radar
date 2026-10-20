@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T14:21:40.747Z",
+  "generatedAt": "2026-10-20T19:21:23.050Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -144,6 +144,26 @@
       "importance": 85
     },
     {
+      "id": "ea83f0dd69c5142c",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "entity": null,
+      "labs": [
+        "amazon",
+        "anthropic"
+      ],
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-10-19T23:32:19.000Z",
+      "lastAt": "2026-10-19T23:32:19.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "lead": {
+        "kind": "official",
+        "id": "ea83f0dd69c5142c"
+      },
+      "importance": 70
+    },
+    {
       "id": "024d9eece6c046fd",
       "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
       "entity": null,
@@ -214,6 +234,31 @@
       "importance": 58
     },
     {
+      "id": "deepseek:88135af9b37941",
+      "title": "US bans DeepSeek from federal civilian agencies",
+      "entity": null,
+      "labs": [
+        "deepseek"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Engadget",
+        "Washington Times",
+        "The Decoder",
+        "IT Pro",
+        "BleepingComputer"
+      ],
+      "firstAt": "2026-10-19T16:59:28.000Z",
+      "lastAt": "2026-10-20T10:02:25.000Z",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWm93VkViWXpISlZqbkxyX0tzRU5EVnN6cHE2a1ZFQ3BUdnRZdDdHcU5qak5vS04tMnRKZ1g5eWhwQk9IcE5acFRsUk9ScUxHU3BBZDNRZ3U1V2xqdS0yaTZMSVdobU43Q1dpY1NWeXcwQlNZcFpiUlFIVzdYaEw2ejNzNUc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "deepseek:88135af9b37941"
+      },
+      "importance": 57
+    },
+    {
       "id": "xai:92ecac57376cc6",
       "title": "XAI Corp Price: XAI/USD Live Price Chart, Market Cap & News Today",
       "entity": null,
@@ -241,8 +286,8 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 57,
-        "prev": 0,
+        "count": 31,
+        "prev": 26,
         "labs": [
           "google-deepmind"
         ]
@@ -265,14 +310,6 @@
         ]
       },
       {
-        "name": "Grok 4.7",
-        "count": 5,
-        "prev": 0,
-        "labs": [
-          "amazon"
-        ]
-      },
-      {
         "name": "Claude Opus 5",
         "count": 4,
         "prev": 0,
@@ -289,7 +326,7 @@
       {
         "name": "GLM 5.5",
         "count": 3,
-        "prev": 3,
+        "prev": 2,
         "labs": []
       },
       {
@@ -302,26 +339,26 @@
     "topics": [
       {
         "name": "agents",
-        "count": 49,
-        "prev": 32,
+        "count": 53,
+        "prev": 33,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "mistral",
           "cohere",
           "qwen",
           "microsoft",
           "amazon",
           "bytedance",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
         "count": 35,
-        "prev": 29,
+        "prev": 27,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -350,9 +387,24 @@
         ]
       },
       {
-        "name": "safety",
+        "name": "multimodal",
         "count": 8,
-        "prev": 4,
+        "prev": 10,
+        "labs": [
+          "google-deepmind",
+          "deepseek",
+          "openai",
+          "qwen",
+          "tencent",
+          "amazon",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "safety",
+        "count": 7,
+        "prev": 6,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -361,21 +413,6 @@
           "amazon",
           "bytedance",
           "nvidia"
-        ]
-      },
-      {
-        "name": "multimodal",
-        "count": 8,
-        "prev": 11,
-        "labs": [
-          "google-deepmind",
-          "deepseek",
-          "openai",
-          "qwen",
-          "tencent",
-          "amazon",
-          "nvidia",
-          "ibm"
         ]
       },
       {
@@ -392,21 +429,21 @@
       },
       {
         "name": "audio",
-        "count": 3,
-        "prev": 6,
+        "count": 4,
+        "prev": 5,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
           "tencent",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "mcp",
-        "count": 2,
+        "count": 4,
         "prev": 5,
         "labs": [
           "google-deepmind",
@@ -457,6 +494,30 @@
       ],
       "reports": 3,
       "at": "2026-10-19T12:24:49.000Z"
+    },
+    {
+      "id": "xai:b893e1cdd62312",
+      "lab": "xai",
+      "title": "XAI Floating Rate & Alternative Income Trust Announces Expiration and Preliminary Results of Voluntary Tender Offer",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemJGbW5vWXpadW5rZUJfNjJkN3JpRXJRVDFWWkQxV2ZxMjRWQlpFRFVxMjJKX3VCNlQyMGR2VHhLOG5VaGpEQk1sSHRESmZDS010SGFiUWMxazJZT2VhVktBUVZ6WW1DRTNOUks5dmJFMVpHU3h0OWxXeHBYU1ZHYXlOUG1Vb2dURUlpR04xZ2dMQzFRV1lObFRqUUdCa2Y2eW1n?oc=5",
+      "outlets": [
+        "Quiver Quantitative",
+        "Yahoo Finance"
+      ],
+      "reports": 2,
+      "at": "2026-10-20T12:45:00.000Z"
+    },
+    {
+      "id": "minimax:0ee94ada8528aa",
+      "lab": "minimax",
+      "title": "MiniMax Launches M3.1 Flash, Claiming 3x Faster Inference and 70% Lower Agent Task Costs",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wY2VpWXlFVGtyZGgtRFNzTkZhOF82UlNUYmxGQUJibzBYYTRkVWpBXy1uVUVHTnpqVUVVS0M2cVlZRURoR3hwbnRoZmdmVVV1eTRDM1kzRUNBTkFBam9uUWlTekc?oc=5",
+      "outlets": [
+        "XenoSpectrum",
+        "Technology Org"
+      ],
+      "reports": 2,
+      "at": "2026-10-20T00:46:38.000Z"
     },
     {
       "id": "minimax:96564b8d90d1a2",

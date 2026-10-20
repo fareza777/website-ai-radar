@@ -1,22 +1,11 @@
 [
   {
-    "id": "50073879",
-    "title": "Gemini 4 Argon",
-    "url": "https://deepmind.google/models/gemini/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50073879",
-    "points": 1457,
-    "comments": 1038,
-    "at": "2026-10-13T16:03:16Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
     "id": "50163277",
-    "title": "DeepSeek just open-sourced its inference engine",
+    "title": "DeepInfer: High-performance inference framework for DeepSeek models",
     "url": "https://github.com/deepseek-ai/DeepInfer",
     "hnUrl": "https://news.ycombinator.com/item?id=50163277",
-    "points": 1179,
-    "comments": 416,
+    "points": 1945,
+    "comments": 752,
     "at": "2026-10-20T09:08:54Z",
     "lab": "deepseek",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
@@ -54,17 +43,6 @@
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
   {
-    "id": "50073633",
-    "title": "Redesigning source control at Anthropic",
-    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-    "hnUrl": "https://news.ycombinator.com/item?id=50073633",
-    "points": 886,
-    "comments": 1007,
-    "at": "2026-10-13T15:49:56Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
     "id": "50094994",
     "title": "OpenCode 2.0",
     "url": "https://anoma.ly/notes/opencode-2-0/",
@@ -73,6 +51,16 @@
     "comments": 390,
     "at": "2026-10-14T20:48:24Z",
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
+  },
+  {
+    "id": "50159341",
+    "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+    "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+    "hnUrl": "https://news.ycombinator.com/item?id=50159341",
+    "points": 699,
+    "comments": 200,
+    "at": "2026-10-19T23:22:18Z",
+    "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
   {
     "id": "50078141",
@@ -86,14 +74,15 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
-    "id": "50159341",
-    "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-    "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-    "hnUrl": "https://news.ycombinator.com/item?id=50159341",
-    "points": 618,
-    "comments": 175,
-    "at": "2026-10-19T23:22:18Z",
-    "firstSeenAt": "2026-10-20T08:40:19.794Z"
+    "id": "50150434",
+    "title": "Timestral: Mistral's time-series foundation models",
+    "url": "https://mistral.ai/news/timestral/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50150434",
+    "points": 613,
+    "comments": 118,
+    "at": "2026-10-19T09:59:32Z",
+    "lab": "mistral",
+    "firstSeenAt": "2026-10-19T13:31:59.604Z"
   },
   {
     "id": "50138531",
@@ -107,15 +96,15 @@
     "firstSeenAt": "2026-10-18T11:18:39.615Z"
   },
   {
-    "id": "50150434",
-    "title": "Timestral: Mistral's time-series foundation models",
-    "url": "https://mistral.ai/news/timestral/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50150434",
-    "points": 596,
-    "comments": 115,
-    "at": "2026-10-19T09:59:32Z",
-    "lab": "mistral",
-    "firstSeenAt": "2026-10-19T13:31:59.604Z"
+    "id": "50154244",
+    "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+    "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50154244",
+    "points": 536,
+    "comments": 470,
+    "at": "2026-10-19T16:16:46Z",
+    "lab": "deepseek",
+    "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
   {
     "id": "50129121",
@@ -133,8 +122,8 @@
     "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
     "url": "https://arxiv.org/abs/2610.18861",
     "hnUrl": "https://news.ycombinator.com/item?id=50145337",
-    "points": 510,
-    "comments": 236,
+    "points": 512,
+    "comments": 238,
     "at": "2026-10-18T20:48:14Z",
     "firstSeenAt": "2026-10-18T23:20:30.937Z"
   },
@@ -161,17 +150,6 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
-    "id": "50154244",
-    "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-    "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50154244",
-    "points": 425,
-    "comments": 351,
-    "at": "2026-10-19T16:16:46Z",
-    "lab": "deepseek",
-    "firstSeenAt": "2026-10-20T08:40:19.794Z"
-  },
-  {
     "id": "50122431",
     "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
     "url": "https://github.com/cobanov/PS5LM",
@@ -187,8 +165,8 @@
     "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
     "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
     "hnUrl": "https://news.ycombinator.com/item?id=50153630",
-    "points": 352,
-    "comments": 59,
+    "points": 354,
+    "comments": 60,
     "at": "2026-10-19T15:28:24Z",
     "lab": "mistral",
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
@@ -204,6 +182,27 @@
     "firstSeenAt": "2026-10-17T10:53:32.165Z"
   },
   {
+    "id": "50168396",
+    "title": "Voxtral 3",
+    "url": "https://mistral.ai/news/voxtral-3/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50168396",
+    "points": 322,
+    "comments": 83,
+    "at": "2026-10-20T16:02:07Z",
+    "lab": "mistral",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z"
+  },
+  {
+    "id": "50145507",
+    "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+    "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50145507",
+    "points": 299,
+    "comments": 213,
+    "at": "2026-10-18T21:09:12Z",
+    "firstSeenAt": "2026-10-19T04:51:17.625Z"
+  },
+  {
     "id": "50122112",
     "title": "Anthropic assigned highest junk credit rating in June",
     "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
@@ -213,16 +212,6 @@
     "at": "2026-10-16T18:11:42Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-16T21:19:28.792Z"
-  },
-  {
-    "id": "50145507",
-    "title": "If you don't run your own LLM proxy, how do you know whats going on?",
-    "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50145507",
-    "points": 298,
-    "comments": 213,
-    "at": "2026-10-18T21:09:12Z",
-    "firstSeenAt": "2026-10-19T04:51:17.625Z"
   },
   {
     "id": "50097369",
@@ -239,10 +228,20 @@
     "title": "I built a programming language that LLMs can't use",
     "url": "https://blog.picheta.me/post/killswitch-lang/",
     "hnUrl": "https://news.ycombinator.com/item?id=50135762",
-    "points": 275,
-    "comments": 215,
+    "points": 279,
+    "comments": 217,
     "at": "2026-10-17T22:26:47Z",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
+  },
+  {
+    "id": "50165801",
+    "title": "Publish fake stats, get cited in LLMs",
+    "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+    "hnUrl": "https://news.ycombinator.com/item?id=50165801",
+    "points": 263,
+    "comments": 145,
+    "at": "2026-10-20T13:06:22Z",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z"
   },
   {
     "id": "50106738",
@@ -277,23 +276,12 @@
     "firstSeenAt": "2026-10-16T16:45:25.416Z"
   },
   {
-    "id": "50074869",
-    "title": "Gemini 4 Argon for Robotics",
-    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50074869",
-    "points": 232,
-    "comments": 59,
-    "at": "2026-10-13T16:55:47Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
     "id": "50136126",
     "title": "RuneScape Bench: MMOs for Agents [video]",
     "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
     "hnUrl": "https://news.ycombinator.com/item?id=50136126",
-    "points": 225,
-    "comments": 75,
+    "points": 237,
+    "comments": 80,
     "at": "2026-10-17T23:24:05Z",
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
   },
@@ -302,8 +290,8 @@
     "title": "How abliterated models can get you pwned",
     "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
     "hnUrl": "https://news.ycombinator.com/item?id=50159245",
-    "points": 197,
-    "comments": 115,
+    "points": 220,
+    "comments": 129,
     "at": "2026-10-19T23:08:52Z",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
@@ -312,8 +300,8 @@
     "title": "DeepSeek V4.1 Flash 1017 (Max)",
     "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
     "hnUrl": "https://news.ycombinator.com/item?id=50148452",
-    "points": 188,
-    "comments": 91,
+    "points": 189,
+    "comments": 94,
     "at": "2026-10-19T04:41:46Z",
     "lab": "deepseek",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
@@ -366,11 +354,22 @@
     "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
     "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
     "hnUrl": "https://news.ycombinator.com/item?id=50148855",
-    "points": 159,
-    "comments": 120,
+    "points": 164,
+    "comments": 124,
     "at": "2026-10-19T05:55:31Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
+  },
+  {
+    "id": "50139873",
+    "title": "How employment is changing at Anthropic",
+    "url": "https://www.anthropic.com/research/employment-at-anthropic",
+    "hnUrl": "https://news.ycombinator.com/item?id=50139873",
+    "points": 159,
+    "comments": 252,
+    "at": "2026-10-18T10:49:26Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-18T15:57:20.114Z"
   },
   {
     "id": "50085323",
@@ -383,22 +382,11 @@
     "firstSeenAt": "2026-10-16T13:18:24.335Z"
   },
   {
-    "id": "50139873",
-    "title": "How employment is changing at Anthropic",
-    "url": "https://www.anthropic.com/research/employment-at-anthropic",
-    "hnUrl": "https://news.ycombinator.com/item?id=50139873",
-    "points": 156,
-    "comments": 252,
-    "at": "2026-10-18T10:49:26Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-18T15:57:20.114Z"
-  },
-  {
     "id": "50141657",
     "title": "Websites are closing their doors to AI agents",
     "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
     "hnUrl": "https://news.ycombinator.com/item?id=50141657",
-    "points": 154,
+    "points": 155,
     "comments": 149,
     "at": "2026-10-18T14:58:10Z",
     "firstSeenAt": "2026-10-18T20:52:46.911Z"
@@ -408,7 +396,7 @@
     "title": "Show HN: WhatsApp MCP running free on Cloudflare",
     "url": "https://github.com/finereli/whatsapp-mcp",
     "hnUrl": "https://news.ycombinator.com/item?id=50145715",
-    "points": 152,
+    "points": 154,
     "comments": 81,
     "at": "2026-10-18T21:36:10Z",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -418,7 +406,7 @@
     "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
     "url": "https://100toolkit.com/blog/deslop-model/",
     "hnUrl": "https://news.ycombinator.com/item?id=50151928",
-    "points": 151,
+    "points": 154,
     "comments": 110,
     "at": "2026-10-19T13:00:47Z",
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
@@ -429,7 +417,7 @@
     "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
     "hnUrl": "https://news.ycombinator.com/item?id=50151376",
     "points": 147,
-    "comments": 135,
+    "comments": 140,
     "at": "2026-10-19T12:06:03Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
@@ -466,6 +454,16 @@
     "firstSeenAt": "2026-10-16T16:45:25.416Z"
   },
   {
+    "id": "50152466",
+    "title": "Maxwell: A new kind of model that sits between code and hardware",
+    "url": "https://heymaxwell.ai/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50152466",
+    "points": 124,
+    "comments": 60,
+    "at": "2026-10-19T13:47:56Z",
+    "firstSeenAt": "2026-10-20T14:21:40.747Z"
+  },
+  {
     "id": "50090842",
     "title": "Linus Torvalds's first LLM-assisted patch series",
     "url": "https://lwn.net/Articles/1100449/",
@@ -486,16 +484,6 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
-    "id": "50152466",
-    "title": "Maxwell: A new kind of model that sits between code and hardware",
-    "url": "https://heymaxwell.ai/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50152466",
-    "points": 111,
-    "comments": 48,
-    "at": "2026-10-19T13:47:56Z",
-    "firstSeenAt": "2026-10-20T14:21:40.747Z"
-  },
-  {
     "id": "50088534",
     "title": "AI is mass decompiling games. That's both awesome and scary",
     "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
@@ -510,8 +498,8 @@
     "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
     "url": "https://www.vals.ai/blogs/impossible-refund",
     "hnUrl": "https://news.ycombinator.com/item?id=50140462",
-    "points": 105,
-    "comments": 124,
+    "points": 106,
+    "comments": 126,
     "at": "2026-10-18T12:22:58Z",
     "firstSeenAt": "2026-10-18T20:52:46.911Z"
   },

@@ -6,8 +6,20 @@
     "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 133,
+    "upvotes": 231,
     "org": "mindlab-research",
+    "firstSeenAt": "2026-10-20T14:21:40.747Z"
+  },
+  {
+    "id": "2610.24087",
+    "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+    "url": "https://huggingface.co/papers/2610.24087",
+    "summary": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professionally validated solutions. We introduce OR-License, an…",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "submittedAt": "2026-10-20T00:00:00.000Z",
+    "upvotes": 110,
+    "org": "hkust-dsail",
+    "githubRepo": "https://github.com/NineAbyss/OR-License",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
   },
   {
@@ -17,7 +29,7 @@
     "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 103,
+    "upvotes": 107,
     "org": null,
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
@@ -28,7 +40,7 @@
     "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 97,
+    "upvotes": 107,
     "org": "memtensor",
     "githubRepo": "https://github.com/MemTensor/MemT-1.0",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -40,9 +52,21 @@
     "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We introduce HOLI-WORLD…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 82,
+    "upvotes": 103,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/holi-world",
+    "firstSeenAt": "2026-10-20T14:21:40.747Z"
+  },
+  {
+    "id": "2610.26625",
+    "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+    "url": "https://huggingface.co/papers/2610.26625",
+    "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack…",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "submittedAt": "2026-10-20T00:00:00.000Z",
+    "upvotes": 96,
+    "org": "ropedia-ai",
+    "githubRepo": "https://github.com/Ropedia/EgoXperience",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
   },
   {
@@ -52,22 +76,10 @@
     "summary": "We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location. End-to-end navigation policies require diverse training data to generalize across scenes, yet real-robot data is costly to collect and simulated data leaves a sim-to-real gap. Internet egocentric videos offer a scalable source of real-world…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 76,
+    "upvotes": 84,
     "org": null,
     "githubRepo": "https://github.com/MachEmbodied/ScaleNav",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
-  },
-  {
-    "id": "2610.26625",
-    "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
-    "url": "https://huggingface.co/papers/2610.26625",
-    "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack…",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 74,
-    "org": "ropedia-ai",
-    "githubRepo": "https://github.com/Ropedia/EgoXperience",
-    "firstSeenAt": "2026-10-20T14:21:40.747Z"
   },
   {
     "id": "2610.26860",
@@ -76,7 +88,7 @@
     "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 70,
+    "upvotes": 81,
     "org": "apple",
     "githubRepo": "https://github.com/uclanlp/OpenVLHarness",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -88,22 +100,22 @@
     "summary": "Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout. Specifically, we extend MRL with a…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 70,
+    "upvotes": 79,
     "org": null,
     "githubRepo": "https://github.com/CentreChen/Spec-MRL",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
   },
   {
-    "id": "2610.24087",
-    "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
-    "url": "https://huggingface.co/papers/2610.24087",
-    "summary": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professionally validated solutions. We introduce OR-License, an…",
+    "id": "2610.22791",
+    "title": "Self-Evolving Coding Agents via Harness-Policy Optimization",
+    "url": "https://huggingface.co/papers/2610.22791",
+    "summary": "Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated policy, while policy…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 50,
-    "org": "hkust-dsail",
-    "githubRepo": "https://github.com/NineAbyss/OR-License",
-    "firstSeenAt": "2026-10-20T14:21:40.747Z"
+    "upvotes": 40,
+    "org": "microsoftresearch",
+    "githubRepo": "https://github.com/MSR-Orchard/Self-HPO",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z"
   },
   {
     "id": "2610.23986",
@@ -112,7 +124,7 @@
     "summary": "Recent advances in multimodal large language models (MLLMs) have enabled them to act as autonomous agents, creating and editing 3D models via code or direct software manipulation. In practical workflows, these models must infer object shapes, materials, spatial layouts, and lighting from diverse references while strictly following instructions to reconstruct, modify, or design 3D content. However, existing…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 21,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/QwenLM/BlenderWorld",
@@ -125,7 +137,7 @@
     "summary": "Video overlay removal aims to recover scenes obscured by subtitles, titles, and logos while preserving surrounding content. Existing methods use temporal propagation or source-conditioned generation, but can leave residual overlays and distort scene structure when useful source information is obscured. We propose DeOverlay, a source-anchored flow model that reconstructs the clean video from the source latent with…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 12,
+    "upvotes": 13,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -137,22 +149,22 @@
     "summary": "Speculative decoding accelerates large language model inference through parallel verification of tokens proposed by a drafter. Diffusion drafters further parallelize proposal generation, but greater proposal capacity or higher mean accepted tokens (MAT) need not yield higher throughput. Because verification accepts only a consecutive prefix, early rejections can render later correct predictions ineffective, limiting…",
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 5,
+    "upvotes": 7,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
   {
-    "id": "2610.22471",
-    "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
-    "url": "https://huggingface.co/papers/2610.22471",
-    "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative…",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 420,
-    "org": "sensenova",
-    "githubRepo": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
-    "firstSeenAt": "2026-10-19T04:51:17.625Z"
+    "id": "2610.16078",
+    "title": "Heterogeneous Agentic Coevolution",
+    "url": "https://huggingface.co/papers/2610.16078",
+    "summary": "Recent advances in self-improving LLM agents have demonstrated the potential of AI systems that drive their own intelligence. However, many domain-specific applications rely on specialized foundation models that possess strong domain expertise but remain dependent on human-designed improvements. Extending recursive self-improvement to these models presents a key challenge: as a specialist improves, the strategies…",
+    "publishedAt": "2026-10-12T00:00:00.000Z",
+    "submittedAt": "2026-10-20T00:00:00.000Z",
+    "upvotes": 3,
+    "org": "meta",
+    "lab": "meta",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z"
   },
   {
     "id": "2610.20424",
@@ -161,9 +173,21 @@
     "summary": "Existing long-horizon agent benchmarks often emphasize final task success while providing limited assessment of intermediate execution validity. Yet real-world business operations require agents to navigate extensive, potentially outdated or conflicting policies while satisfying critical constraints throughout execution. These requirements are particularly consequential in high-stakes domains such as payments, where…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 363,
+    "upvotes": 437,
     "org": "ant-intl",
     "githubRepo": "https://github.com/ant-intl/BizAgentBench",
+    "firstSeenAt": "2026-10-19T04:51:17.625Z"
+  },
+  {
+    "id": "2610.22471",
+    "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "url": "https://huggingface.co/papers/2610.22471",
+    "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative…",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "submittedAt": "2026-10-19T00:00:00.000Z",
+    "upvotes": 421,
+    "org": "sensenova",
+    "githubRepo": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
   },
   {
@@ -173,7 +197,7 @@
     "summary": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pass without generating text. Like the fast System 1 of dual-process theory, they answer at once, but their depth is fixed at training time, so they spend the same computation on easy and hard questions. Models that reason in generated text can think longer, but they pay for every extra step in decoded…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 307,
+    "upvotes": 369,
     "org": null,
     "githubRepo": "https://github.com/OpenLAIR/lev",
     "firstSeenAt": "2026-10-20T00:25:25.575Z"
@@ -185,7 +209,7 @@
     "summary": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's commands into robot motion. The agent drives a robot with two arms through one command line. It sees three RGB cameras and…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 291,
+    "upvotes": 295,
     "org": "hexafuture",
     "githubRepo": "https://github.com/HexaFuture/HexaShell",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -197,7 +221,7 @@
     "summary": "Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate what a paper says. We introduce ReviewFact, a benchmark that labels such factual errors in review comments under one definition across NLP, machine learning, and the natural sciences, and that measures cost and latency alongside accuracy. A frontier LLM checks comments well but must read the whole…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 194,
+    "upvotes": 250,
     "org": null,
     "githubRepo": "https://github.com/OpenLAIR/PremiseCheck",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -209,7 +233,7 @@
     "summary": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move left) and…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 157,
+    "upvotes": 164,
     "org": "ucsandiego",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
   },
@@ -220,7 +244,7 @@
     "summary": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 138,
+    "upvotes": 145,
     "org": "carnegiemellonu",
     "githubRepo": "https://github.com/prometheus-eval/into-the-unknown",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
@@ -232,7 +256,7 @@
     "summary": "Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware benchmark that uses live financial markets as a naturally evolving testbed for persistent LLM agents. Five frontier LLMs…",
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 115,
+    "upvotes": 116,
     "org": "fudan-university",
     "githubRepo": "https://github.com/RaymondVoldemortFu/LiveMACE",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
@@ -244,7 +268,7 @@
     "summary": "Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we introduce CarryOn, an object-oriented context runtime that organizes continuation around reusable task…",
     "publishedAt": "2026-10-13T17:35:27.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 106,
+    "upvotes": 111,
     "org": "mcauley-lab",
     "githubRepo": "https://github.com/Ethannju/carryon",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -256,7 +280,7 @@
     "summary": "Interactive video generation commonly relies on small bidirectional chunks to reduce response latency. Yet our preliminary experiments show that larger chunks improve video quality and better utilize GPU parallelism, allowing more latents to be sampled with only a modest increase in sampling time. Motivated by these observations, we propose Speculative Sampling, a strategy that combines the modeling power of large…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 74,
+    "upvotes": 75,
     "org": "ustc",
     "githubRepo": "https://github.com/Yubo-Shankui/SpeculativeSampling",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
@@ -268,7 +292,7 @@
     "summary": "Recent closed-source image generation systems can produce diverse visual content from simple compositions to information-dense graphics, yet open-weight text-to-image models still struggle with dense text and intricate layouts. To narrow this gap, we introduce MOSS-Image, an open generation system that combines high-fidelity visual synthesis with intent-aware composition. First, we pretrain a 5B single-stream…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 72,
+    "upvotes": 73,
     "org": "openmoss-team",
     "githubRepo": "https://github.com/OpenMOSS/MOSS-Image",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -280,7 +304,7 @@
     "summary": "Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: the ability to design high-quality scenes and critique their quality. However, existing approaches either rely on general-purpose models lacking domain-specific design experience or learn from static scenes. In this work, we introduce Scene-Designer, an agentic framework that learns design…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 56,
     "org": "omniai-zju",
     "githubRepo": "https://github.com/ZJU-OmniAI/Scene-Designer",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
@@ -292,7 +316,7 @@
     "summary": "The vocabulary of a language model is its native semantics: the embedding and the unembedding fix the meaning of a state at the two ends of the residual stream. Between them, existing methods either reuse a fixed lens or treat the states as a point cloud, and neither reads a state the way the model does. We argue that every hidden state has a native reference frame, induced by the layers that read it next and…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 46,
+    "upvotes": 47,
     "org": null,
     "githubRepo": "https://github.com/jianguda/lexframe",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
@@ -304,7 +328,7 @@
     "summary": "We introduce OpenMobile-2, a near-frontier mobile agent with fully open training environments and recipes. We make three key advances: (1) Diverse environments with simulated commercial apps: We build MobileGym++, featuring 35 realistic, functionally rich commercial-style apps with cross-app workflows, while preserving full controllability for reset and verification. Together with newly configured apps in Android…",
     "publishedAt": "2026-10-09T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 47,
     "org": "nju",
     "githubRepo": "https://github.com/OpenMobile2/OpenMobile2-Code",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -328,7 +352,7 @@
     "summary": "World Action Models (WAMs) commonly couple video and action experts through dense, layer-wise Mixture-of-Transformers (MoT) attention, exposing action prediction to irrelevant visual features while enforcing matched expert depths. This coupling hinders selective visual-feature use and introduces redundant computation. We introduce Bridge-of-Experts (BoE), instantiated as BridgeWAM, which aggregates visual, language…",
     "publishedAt": "2026-10-10T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 43,
     "org": "fudan-university",
     "githubRepo": "https://github.com/jxfang04/BridgeWAM-code",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
@@ -340,7 +364,7 @@
     "summary": "Reinforcement learning with verifiable rewards has become a scalable post-training paradigm for large language models. However, training agents over long-horizon interactions presents two challenges: using only terminal rewards makes turn-level credit assignment sparse and high-variance, while sequential mini-batch updates on a fixed rollout batch introduce policy staleness as the current policy drifts from the…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 39,
+    "upvotes": 41,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -352,7 +376,7 @@
     "summary": "Unified multimodal models (UMMs) receive image-generation supervision that exposes them to visual information not fully documented in text. Can learning to generate images expand what pretrained models know? We introduce Knowledge Transfer Probing (KTP), a controlled protocol that supplies new knowledge through image-generation training and tests its accessibility through text-only question answering. Across seven…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 24,
+    "upvotes": 25,
     "org": "zai-org",
     "lab": "zai",
     "githubRepo": "https://github.com/kevinlllee/Knowledge-Transfer-Probing",
@@ -438,7 +462,7 @@
     "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 555,
+    "upvotes": 557,
     "org": "mindlab-research",
     "githubRepo": "https://github.com/Fr0zenCrane/MJev-Spatial",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -450,7 +474,7 @@
     "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 323,
+    "upvotes": 327,
     "org": "tongyi-mai",
     "lab": "qwen",
     "githubRepo": "https://github.com/Tongyi-MAI/OpenGCUA",
@@ -475,7 +499,7 @@
     "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 210,
+    "upvotes": 213,
     "org": "zgcagi",
     "githubRepo": "https://github.com/zgcagi/Harness-RSI",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -487,7 +511,7 @@
     "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses successive…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 202,
+    "upvotes": 205,
     "org": "mac-automl",
     "githubRepo": "https://github.com/MAC-AutoML/RoTA-Bench",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -512,7 +536,7 @@
     "summary": "Audio source separation models must preserve fine spectral structure while keeping the cost of the separator tractable. Band-split architectures reduce this cost by manually partitioning the spectrum into predefined frequency bands and encoding each band as a token, but the same boundaries are used for every mixture. Because informative spectral structure varies with source content, fixed boundaries can merge…",
     "publishedAt": "2026-10-10T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 141,
+    "upvotes": 143,
     "org": "thu-ml",
     "githubRepo": "https://github.com/JusperLee/Dynamic-Band-Splitting",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -524,7 +548,7 @@
     "summary": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training changes. Our method…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 129,
+    "upvotes": 130,
     "org": "zju3dv",
     "githubRepo": "https://github.com/zju3dv/InfiniSplat",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -536,7 +560,7 @@
     "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 116,
+    "upvotes": 117,
     "org": "universityofsoutherncalifornia",
     "githubRepo": "https://github.com/gaoypeng/3dcodeverse",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -548,7 +572,7 @@
     "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of interactions above…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 107,
+    "upvotes": 108,
     "org": "opensae",
     "githubRepo": "https://github.com/OpenSAE/SAE-Behavioral-Compositionality",
     "firstSeenAt": "2026-10-17T04:37:40.871Z"
@@ -560,7 +584,7 @@
     "summary": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a framework that…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 89,
+    "upvotes": 91,
     "org": "naver-ai",
     "githubRepo": "https://github.com/naver-ai/speculative-forcing",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -572,10 +596,22 @@
     "summary": "Reinforcement learning (RL) enables language models to improve text-to-image (T2I) generation by rewriting prompts for a frozen image generator. Existing methods typically apply a single signal derived from the image to individual subword tokens, although objects, counts, attributes, and relations form coherent semantic spans. We propose SCOPE, an objective based on Group Relative Policy Optimization (GRPO) that…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 81,
+    "upvotes": 82,
     "org": "university-of-rochester",
     "githubRepo": "https://github.com/MAC-AutoML/SCOPE",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "2610.21306",
+    "title": "VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models",
+    "url": "https://huggingface.co/papers/2610.21306",
+    "summary": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some methods introduce…",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "submittedAt": "2026-10-16T00:00:00.000Z",
+    "upvotes": 62,
+    "org": "omniai-zju",
+    "githubRepo": "https://github.com/ZJU-OmniAI/VLA-Delta",
+    "firstSeenAt": "2026-10-16T16:45:25.416Z"
   },
   {
     "id": "2610.21439",
@@ -590,25 +626,13 @@
     "firstSeenAt": "2026-10-17T20:42:32.148Z"
   },
   {
-    "id": "2610.21306",
-    "title": "VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models",
-    "url": "https://huggingface.co/papers/2610.21306",
-    "summary": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some methods introduce…",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 61,
-    "org": "omniai-zju",
-    "githubRepo": "https://github.com/ZJU-OmniAI/VLA-Delta",
-    "firstSeenAt": "2026-10-16T16:45:25.416Z"
-  },
-  {
     "id": "2610.22174",
     "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
     "url": "https://huggingface.co/papers/2610.22174",
     "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we introduce…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 58,
+    "upvotes": 59,
     "org": "lark-lab",
     "githubRepo": "https://github.com/LARK-AI-Lab/Mosaic",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -631,10 +655,23 @@
     "summary": "Unified multimodal generation covers discrete, continuous, and hybrid paradigms. Discrete approaches with single-codebook visual tokenizers align naturally with text modeling but have limited representational capacity. Continuous and hybrid approaches retain richer visual representations, but they model text and images in heterogeneous spaces with different training objectives, potentially introducing optimization…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 50,
     "org": "shanghai-ai-laboratory",
     "githubRepo": "https://github.com/InternLM/InternLumina-U2",
     "firstSeenAt": "2026-10-17T00:03:17.091Z"
+  },
+  {
+    "id": "2610.20693",
+    "title": "Orbia: Do Generated Videos Form a Consistent 3D World?",
+    "url": "https://huggingface.co/papers/2610.20693",
+    "summary": "Video generators serve as interactive worlds for exploration and simulation, yet realistic and visually appealing frames do not necessarily depict a consistent 3D world. Existing benchmarks assess selected geometric properties or use vision-language models to judge memory and consistency, leaving systematic 3D evaluation underexplored. We introduce Orbia, the first benchmark dedicated to a systematic and…",
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "submittedAt": "2026-10-16T00:00:00.000Z",
+    "upvotes": 42,
+    "org": "tencent",
+    "lab": "tencent",
+    "githubRepo": "https://github.com/worldbench/orbia",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
     "id": "2610.22194",
@@ -649,16 +686,15 @@
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
   {
-    "id": "2610.20693",
-    "title": "Orbia: Do Generated Videos Form a Consistent 3D World?",
-    "url": "https://huggingface.co/papers/2610.20693",
-    "summary": "Video generators serve as interactive worlds for exploration and simulation, yet realistic and visually appealing frames do not necessarily depict a consistent 3D world. Existing benchmarks assess selected geometric properties or use vision-language models to judge memory and consistency, leaving systematic 3D evaluation underexplored. We introduce Orbia, the first benchmark dedicated to a systematic and…",
-    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "id": "2610.22192",
+    "title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+    "url": "https://huggingface.co/papers/2610.22192",
+    "summary": "Converting verifier outcomes into useful policy updates and partial progress into complete task resolution is crucial for terminal agents. We present Terminal-RSI, which alternates Recursive Self-Rewrite (RSR) of verified trajectories with critic-inheriting Recursive Policy-Refine (RPR). We formulate Turn-Boundary Skip-Observation GAE (TB-GAE) to retain token-specific baselines while applying decay across…",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 38,
     "org": "tencent",
     "lab": "tencent",
-    "githubRepo": "https://github.com/worldbench/orbia",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -675,25 +711,13 @@
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
-    "id": "2610.22192",
-    "title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
-    "url": "https://huggingface.co/papers/2610.22192",
-    "summary": "Converting verifier outcomes into useful policy updates and partial progress into complete task resolution is crucial for terminal agents. We present Terminal-RSI, which alternates Recursive Self-Rewrite (RSR) of verified trajectories with critic-inheriting Recursive Policy-Refine (RPR). We formulate Turn-Boundary Skip-Observation GAE (TB-GAE) to retain token-specific baselines while applying decay across…",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 35,
-    "org": "tencent",
-    "lab": "tencent",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
     "id": "2610.17560",
     "title": "EdgeWise: Bringing Long-Horizon Agents to the Edge via Selective Cloud Delegation",
     "url": "https://huggingface.co/papers/2610.17560",
     "summary": "Complex and long-horizon agent tasks often rely on frontier models deployed in the cloud to achieve strong performance. However, using these models for every step of a long-horizon trajectory incurs substantial inference cost, even though not all steps may require the same level of model capability. In this paper, we find that allocating the LLM to only a small subset of key steps can achieve performance comparable…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 27,
+    "upvotes": 28,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -705,7 +729,7 @@
     "summary": "The design of attention mechanisms in long-context large language models faces an ``impossible triangle'' among KV cache size, training and prefill FLOPs, and model quality. GQA achieves strong quality but incurs high KV cache overhead; alternative approaches such as MLA and MFA can compress the cache, but MLA suffers from quality loss while MFA substantially increases training and prefill compute. We propose…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 19,
+    "upvotes": 20,
     "org": "baidu",
     "lab": "baidu",
     "githubRepo": "https://github.com/PaddlePaddle/VHA",
@@ -730,7 +754,7 @@
     "summary": "Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the mask a dominant bottleneck. FlashMask's column-wise sparse mask compresses them from O(n^2) to O(n) via four query-axis boundary vectors, covering broad structured patterns. Implemented for Ampere GPUs, it…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 12,
+    "upvotes": 14,
     "org": "baidu",
     "lab": "baidu",
     "githubRepo": "https://github.com/PaddlePaddle/FlashMask",
@@ -767,7 +791,7 @@
     "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) by routing domain-specific data to specialized teachers, integrating their capabilities through dense token-level supervision on student-generated trajectories. However, domain routing only distinguishes the supervision sources for different domains; updates from all domains still act on shared parameters. When teachers differ…",
     "publishedAt": "2026-10-09T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 250,
+    "upvotes": 251,
     "org": "jingdong1",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
@@ -802,7 +826,7 @@
     "summary": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using error recognition to…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 90,
+    "upvotes": 91,
     "org": null,
     "githubRepo": "https://github.com/kzhao5/CriticOPD",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -814,9 +838,20 @@
     "summary": "Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even when they share parameters. To probe the contributions of different loop visits, we learn separate residual coefficients in a model that applies a shared block twice, observing a smaller scale in the first…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 80,
+    "upvotes": 81,
     "org": null,
     "githubRepo": "https://github.com/lcqysl/LatentLoop",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "2610.20431",
+    "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
+    "url": "https://huggingface.co/papers/2610.20431",
+    "summary": "Recursive self-improvement (RSI) in scientific research aims to improve agents' research capabilities through their own experimental experience. Scientific agent swarms can combine evidence and implementations from different research directions to guide their agents' subsequent experiments. However, poor experimental results can leave unclear whether to revise a hypothesis or its implementation, while overall…",
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "submittedAt": "2026-10-15T00:00:00.000Z",
+    "upvotes": 80,
+    "org": null,
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -829,17 +864,6 @@
     "upvotes": 79,
     "org": "nanyangtechnologicaluniversity",
     "githubRepo": "https://github.com/LiXin97/ReMaRk",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.20431",
-    "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
-    "url": "https://huggingface.co/papers/2610.20431",
-    "summary": "Recursive self-improvement (RSI) in scientific research aims to improve agents' research capabilities through their own experimental experience. Scientific agent swarms can combine evidence and implementations from different research directions to guide their agents' subsequent experiments. However, poor experimental results can leave unclear whether to revise a hypothesis or its implementation, while overall…",
-    "publishedAt": "2026-10-14T00:00:00.000Z",
-    "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 79,
-    "org": null,
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -960,7 +984,7 @@
     "summary": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 420,
+    "upvotes": 426,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/LiQiiiii/Jeva",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -1057,7 +1081,7 @@
     "summary": "Recent work on language-model adaptation has shown that single models can obtain informative training signals by evaluating their behavior in demonstrationor feedback-augmented contexts, with the help of a teacher network, which is driven by the student's learned parameters. Inspired by this internal-reference principle, we investigate how diffusion models can identify self-referenced training signals without…",
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 105,
+    "upvotes": 107,
     "org": "iitk",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },

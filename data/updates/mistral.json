@@ -31,6 +31,31 @@
     }
   },
   {
+    "id": "afe5d96a9d4684fb",
+    "lab": "mistral",
+    "title": "Voxtral 3",
+    "url": "https://mistral.ai/news/voxtral-3",
+    "sourceId": "mistral-news",
+    "sourceName": "Mistral News",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-20T12:00:22.000Z",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z",
+    "updatedAt": "2026-10-20T12:00:22.000Z",
+    "excerpt": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.",
+    "summary": "Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "audio"
+    ],
+    "importance": 65,
+    "contentHash": "9f2db5d7fc04"
+  },
+  {
     "id": "638ec17e71c879fc",
     "lab": "mistral",
     "title": "Mistral Vibe v3.0.0",
@@ -168,7 +193,7 @@
     "importance": 69,
     "contentHash": "fd4a807fe29b",
     "meta": {
-      "likes": 56,
+      "likes": 57,
       "downloads": 2511,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
@@ -199,7 +224,7 @@
     "importance": 74,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 219,
+      "likes": 226,
       "downloads": 4008,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
@@ -257,7 +282,7 @@
     "importance": 66,
     "contentHash": "c984e1dce577",
     "meta": {
-      "likes": 24,
+      "likes": 25,
       "downloads": 159,
       "repo": "mistralai/LIDstral-Arabic",
       "pipeline": "text-classification",
