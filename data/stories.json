@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-10-20T00:25:25.575Z",
+  "generatedAt": "2026-10-20T08:40:19.794Z",
   "stories": [
+    {
+      "id": "3b6b85c81106ab13",
+      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+      "entity": "Nemotron 3.5 Super",
+      "labs": [
+        "nvidia",
+        "amazon"
+      ],
+      "official": 2,
+      "press": 9,
+      "outlets": [
+        "Wccftech",
+        "The Decoder",
+        "https://tech-insider.org/",
+        "Yahoo Finance",
+        "MarkTechPost",
+        "SQ Magazine",
+        "ZDNET",
+        "Prime Intellect",
+        "Techzine Global",
+        "Startup Fortune",
+        "Unite.AI",
+        "Technology Org",
+        "OrcaRouter",
+        "Business Wire",
+        "巴士的報",
+        "Newsquawk",
+        "Nscale",
+        "StreetInsider",
+        "LMSYS Org",
+        "GameGPU",
+        "NewsCord"
+      ],
+      "firstAt": "2026-10-15T15:00:00.000Z",
+      "lastAt": "2026-10-20T00:03:33.000Z",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
+      "lead": {
+        "kind": "official",
+        "id": "3b6b85c81106ab13"
+      },
+      "importance": 100
+    },
     {
       "id": "66cb1e68848fee2d",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
@@ -9,7 +51,7 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 34,
+      "press": 35,
       "outlets": [
         "The Decoder",
         "The National Law Review",
@@ -47,10 +89,11 @@
         "Channel Insider",
         "TechRepublic",
         "PYMNTS.com",
-        "shattered.io"
+        "shattered.io",
+        "Towards Data Science"
       ],
       "firstAt": "2026-10-10T10:04:14.000Z",
-      "lastAt": "2026-10-17T05:39:48.000Z",
+      "lastAt": "2026-10-19T16:45:48.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
       "lead": {
         "kind": "official",
@@ -59,45 +102,26 @@
       "importance": 100
     },
     {
-      "id": "3b6b85c81106ab13",
-      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
-      "entity": "Nemotron 3.5 Super",
+      "id": "e0c0a0e8000237a7",
+      "title": "Maintaining software with the GPT-6 family",
+      "entity": "GPT 6",
       "labs": [
-        "nvidia",
-        "amazon"
+        "openai",
+        "microsoft"
       ],
-      "official": 2,
-      "press": 8,
+      "official": 1,
+      "press": 1,
       "outlets": [
-        "Wccftech",
-        "The Decoder",
-        "https://tech-insider.org/",
-        "Yahoo Finance",
-        "MarkTechPost",
-        "SQ Magazine",
-        "ZDNET",
-        "Prime Intellect",
-        "Techzine Global",
-        "Startup Fortune",
-        "Unite.AI",
-        "Technology Org",
-        "OrcaRouter",
-        "Business Wire",
-        "巴士的報",
-        "Newsquawk",
-        "Nscale",
-        "StreetInsider",
-        "LMSYS Org",
-        "GameGPU"
+        "Visual Studio Magazine"
       ],
-      "firstAt": "2026-10-15T15:00:00.000Z",
-      "lastAt": "2026-10-17T02:01:39.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
+      "firstAt": "2026-10-14T00:00:00.000Z",
+      "lastAt": "2026-10-19T19:41:14.000Z",
+      "url": "https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family",
       "lead": {
         "kind": "official",
-        "id": "3b6b85c81106ab13"
+        "id": "e0c0a0e8000237a7"
       },
-      "importance": 100
+      "importance": 92
     },
     {
       "id": "c4d6082c07a1abcc",
@@ -147,20 +171,21 @@
         "cohere"
       ],
       "official": 1,
-      "press": 1,
+      "press": 2,
       "outlets": [
         "Evertiq",
         "بوابة التكنولوجيا المالية",
-        "WebWire"
+        "WebWire",
+        "Pulse 2.0"
       ],
       "firstAt": "2026-10-15T00:00:00.000Z",
-      "lastAt": "2026-10-15T12:32:59.000Z",
+      "lastAt": "2026-10-20T04:06:25.000Z",
       "url": "https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai",
       "lead": {
         "kind": "official",
         "id": "7d369f9d483c77b3"
       },
-      "importance": 64
+      "importance": 66
     },
     {
       "id": "deepseek:a10506682e04b2",
@@ -187,6 +212,30 @@
         "id": "deepseek:a10506682e04b2"
       },
       "importance": 58
+    },
+    {
+      "id": "deepseek:35cc21ff608db1",
+      "title": "DHS Banning DeepSeek from US Federal Civilian Agencies",
+      "entity": null,
+      "labs": [
+        "deepseek"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "CyberScoop",
+        "Security Magazine",
+        "The Register",
+        "BankInfoSecurity"
+      ],
+      "firstAt": "2026-10-19T15:29:07.000Z",
+      "lastAt": "2026-10-19T18:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLUNlQ3dzZ012cklZaC04WXBDdFUzc2RoQmx1ck9KT1N4NjRWNVNvcVVzUnpsZGRVWlhacHAyX0lSZXlCMlJPQXFuY3JqLXIwTWVxZEFfVG1qRFJld043bVRvRHpoWW5rc2Rra05jU0lPeHliSEk3QjlCbHpSQkpoZG5KNTNCZXVvOWh2WkhpZnVONHNpcmlXMXdkVDBjb1NCNktzUEVn?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "deepseek:35cc21ff608db1"
+      },
+      "importance": 56
     },
     {
       "id": "xai:92ecac57376cc6",
@@ -216,7 +265,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 54,
+        "count": 55,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -224,7 +273,7 @@
       },
       {
         "name": "Nemotron 3.5 Super",
-        "count": 18,
+        "count": 19,
         "prev": 0,
         "labs": [
           "amazon",
@@ -233,7 +282,7 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 9,
+        "count": 10,
         "prev": 3,
         "labs": [
           "deepseek"
@@ -249,13 +298,13 @@
       },
       {
         "name": "Claude Opus 5",
-        "count": 3,
+        "count": 4,
         "prev": 0,
         "labs": []
       },
       {
         "name": "GPT 6",
-        "count": 3,
+        "count": 4,
         "prev": 3,
         "labs": [
           "openai"
@@ -277,17 +326,17 @@
     "topics": [
       {
         "name": "agents",
-        "count": 50,
-        "prev": 30,
+        "count": 49,
+        "prev": 31,
         "labs": [
           "anthropic",
+          "openai",
           "meta",
           "mistral",
-          "openai",
           "cohere",
           "qwen",
-          "microsoft",
           "amazon",
+          "microsoft",
           "bytedance",
           "ibm",
           "nvidia"
@@ -296,16 +345,16 @@
       {
         "name": "coding",
         "count": 36,
-        "prev": 30,
+        "prev": 29,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "mistral",
           "openai",
+          "mistral",
           "cohere",
           "qwen",
-          "microsoft",
           "amazon",
+          "microsoft",
           "bytedance",
           "nvidia"
         ]
@@ -316,9 +365,9 @@
         "prev": 11,
         "labs": [
           "google-deepmind",
+          "openai",
           "deepseek",
           "mistral",
-          "openai",
           "qwen",
           "tencent",
           "amazon",
@@ -333,8 +382,8 @@
         "labs": [
           "anthropic",
           "meta",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -358,8 +407,8 @@
         "labs": [
           "anthropic",
           "meta",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -369,8 +418,8 @@
         "prev": 5,
         "labs": [
           "google-deepmind",
-          "mistral",
           "openai",
+          "mistral",
           "tencent",
           "amazon",
           "ibm",
@@ -392,6 +441,20 @@
   },
   "unconfirmed": [
     {
+      "id": "minimax:3510b2740932e1",
+      "lab": "minimax",
+      "title": "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026]",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
+      "outlets": [
+        "SiliconANGLE",
+        "디지털투데이",
+        "shattered.io",
+        "https://tech-insider.org/"
+      ],
+      "reports": 4,
+      "at": "2026-10-19T18:09:15.000Z"
+    },
+    {
       "id": "minimax:f1d6bbfc73918b",
       "lab": "minimax",
       "title": "China's MiniMax launches updated AI model M3.1 Flash, claims major improvements",
@@ -403,18 +466,6 @@
       ],
       "reports": 3,
       "at": "2026-10-19T12:24:49.000Z"
-    },
-    {
-      "id": "minimax:3510b2740932e1",
-      "lab": "minimax",
-      "title": "MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70%",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUTFzLTVJTXFMdGsxc3NOTWtLTVhkOFcxX1BjcVFrOGVTUnhUMmFhWWNmaVhQVjFnNEt2cXJWVWZSQmhvQXlxeVNTM2d1aFI4RHIxVjFnMkhoX2Q5SHp6d0xCS1FwZ2FBeEhrWWdZWE5ST0RCeFg4VW5PTDFqczNvbjYwd2dOb0tOSTc1RkJ0WXBaeHoxdnhCWXEzOUNtTERfV1AyRGNiVQ?oc=5",
-      "outlets": [
-        "SiliconANGLE",
-        "디지털투데이"
-      ],
-      "reports": 2,
-      "at": "2026-10-19T22:25:00.000Z"
     },
     {
       "id": "minimax:96564b8d90d1a2",

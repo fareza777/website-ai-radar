@@ -1,5 +1,25 @@
 [
   {
+    "id": "5e67532aaa14f235",
+    "modelId": "reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "at": "2026-10-20T08:40:19.794Z",
+    "field": "prompt",
+    "from": 1,
+    "to": 0.3,
+    "change": -70
+  },
+  {
+    "id": "044f2949c546a9fa",
+    "modelId": "reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "at": "2026-10-20T08:40:19.794Z",
+    "field": "completion",
+    "from": 3,
+    "to": 1,
+    "change": -66.7
+  },
+  {
     "id": "4bff5e0569c0727a",
     "modelId": "z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",
