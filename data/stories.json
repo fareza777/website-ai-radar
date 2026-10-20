@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T19:21:23.050Z",
+  "generatedAt": "2026-10-20T23:57:39.440Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -75,6 +75,7 @@
         "Quartz",
         "The Decoder",
         "Mashable",
+        "Mashable SEA",
         "MarkTechPost",
         "TechEBlog -",
         "Technology Org",
@@ -234,31 +235,6 @@
       "importance": 58
     },
     {
-      "id": "deepseek:88135af9b37941",
-      "title": "US bans DeepSeek from federal civilian agencies",
-      "entity": null,
-      "labs": [
-        "deepseek"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Engadget",
-        "Washington Times",
-        "The Decoder",
-        "IT Pro",
-        "BleepingComputer"
-      ],
-      "firstAt": "2026-10-19T16:59:28.000Z",
-      "lastAt": "2026-10-20T10:02:25.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWm93VkViWXpISlZqbkxyX0tzRU5EVnN6cHE2a1ZFQ3BUdnRZdDdHcU5qak5vS04tMnRKZ1g5eWhwQk9IcE5acFRsUk9ScUxHU3BBZDNRZ3U1V2xqdS0yaTZMSVdobU43Q1dpY1NWeXcwQlNZcFpiUlFIVzdYaEw2ejNzNUc?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "deepseek:88135af9b37941"
-      },
-      "importance": 57
-    },
-    {
       "id": "xai:92ecac57376cc6",
       "title": "XAI Corp Price: XAI/USD Live Price Chart, Market Cap & News Today",
       "entity": null,
@@ -286,8 +262,8 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 31,
-        "prev": 26,
+        "count": 29,
+        "prev": 28,
         "labs": [
           "google-deepmind"
         ]
@@ -339,16 +315,16 @@
     "topics": [
       {
         "name": "agents",
-        "count": 53,
-        "prev": 33,
+        "count": 52,
+        "prev": 34,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "cohere",
-          "qwen",
           "microsoft",
+          "qwen",
           "amazon",
           "bytedance",
           "ibm",
@@ -357,27 +333,27 @@
       },
       {
         "name": "coding",
-        "count": 35,
-        "prev": 27,
+        "count": 38,
+        "prev": 26,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
           "cohere",
-          "qwen",
           "microsoft",
+          "qwen",
           "amazon",
           "bytedance",
+          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "reasoning",
-        "count": 10,
-        "prev": 5,
+        "count": 11,
+        "prev": 4,
         "labs": [
-          "anthropic",
           "meta",
           "mistral",
           "cohere",
@@ -394,8 +370,8 @@
           "google-deepmind",
           "deepseek",
           "openai",
-          "qwen",
           "tencent",
+          "qwen",
           "amazon",
           "ibm",
           "nvidia"
@@ -404,7 +380,7 @@
       {
         "name": "safety",
         "count": 7,
-        "prev": 6,
+        "prev": 5,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -444,9 +420,8 @@
       {
         "name": "mcp",
         "count": 4,
-        "prev": 5,
+        "prev": 4,
         "labs": [
-          "google-deepmind",
           "openai",
           "qwen",
           "amazon"
@@ -455,6 +430,21 @@
     ]
   },
   "unconfirmed": [
+    {
+      "id": "minimax:0bb1e82c77719f",
+      "lab": "minimax",
+      "title": "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026]",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
+      "outlets": [
+        "TechRepublic",
+        "SiliconANGLE",
+        "shattered.io",
+        "Technology Org",
+        "https://tech-insider.org/"
+      ],
+      "reports": 5,
+      "at": "2026-10-19T18:09:15.000Z"
+    },
     {
       "id": "minimax:3510b2740932e1",
       "lab": "minimax",
@@ -468,6 +458,19 @@
       ],
       "reports": 4,
       "at": "2026-10-19T18:09:15.000Z"
+    },
+    {
+      "id": "deepseek:b6bbf9c2345a4b",
+      "lab": "deepseek",
+      "title": "DeepSeek open-sources DeepInfer software for running its AI models",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IRHJQZVBMMTdReU1BbHdBX3JfNnZ4MUxfUEhZQnhzcW9zbklPa0xZZmxHWlMxeUg5QXExYld5NS02ZU1iWUlMeFdadjVpTFk2eWxLS00yR3lUMm9obl9jbE43RF8wQjZjWVlQSWpuN2J0eWN2dFdxckJDWU9ISDQ?oc=5",
+      "outlets": [
+        "Yahoo Finance",
+        "Quartz",
+        "Investing.com"
+      ],
+      "reports": 3,
+      "at": "2026-10-20T13:36:46.000Z"
     },
     {
       "id": "minimax:80fcc69e01f308",
@@ -494,6 +497,18 @@
       ],
       "reports": 3,
       "at": "2026-10-19T12:24:49.000Z"
+    },
+    {
+      "id": "deepseek:b9b9a6d7168ef4",
+      "lab": "deepseek",
+      "title": "DeepSeek Unveils Open-Source Tool to Help Cut AI Operating Costs",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaTNwMlNFRlZ6SkZCMWtZaEJfUWdXbGxlQVBnSEZOZ0dVM1dLc240NTVQdnZTbjJqd2pRWVNpUUZVYldWZDlzdF8waFlUVlRRaW1uYllNRjdVNFZZSW9aeFhGQmRzS1p1VmhFUG9HbTMzaE5hTm1mOGFwSHp5VzlEbTEtc2ZsQTJ3amdCVjhkZUU5bkY3UDM2ajNRcGY4aDJBWjhFbGljNjlZaXI1X3gyX1gyYTV4QQ?oc=5",
+      "outlets": [
+        "Bloomberg.com",
+        "TechTarget"
+      ],
+      "reports": 2,
+      "at": "2026-10-20T12:45:23.000Z"
     },
     {
       "id": "xai:b893e1cdd62312",

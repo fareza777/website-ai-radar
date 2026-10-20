@@ -1,5 +1,34 @@
 [
   {
+    "id": "b64d539ee639b00f",
+    "lab": "ibm",
+    "title": "Docling v2.141.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.141.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-20T21:27:15.000Z",
+    "firstSeenAt": "2026-10-20T23:57:39.440Z",
+    "updatedAt": "2026-10-20T21:27:15.000Z",
+    "excerpt": "Feature Add nvidia/Nemotron-3.5-Parse as supported VLM model ( #4897 ) ( 2d1d814 ) cli: Generic engine options for docling convert ( #4729 ) ( f57160e ) service: Allow artifact downloads from trusted private origins ( #4892 ) ( 8df5b6e ) forms: Map form fields with a geometric solver when AcroForm widgets are available ( #4496 ) ( 2f13b3d ) asciidoc: Keep comments in the notes content layer ( #4663 ) ( ba458a2 ) Fix…",
+    "summary": "IBM shipped Docling v2.141.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 40,
+    "contentHash": "1893fc5aac40",
+    "meta": {
+      "version": "v2.141.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "8a14a92d09a13dfe",
     "lab": "ibm",
     "title": "llm-d 1.0 hardens open-source AI inference for production",

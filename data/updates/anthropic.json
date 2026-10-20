@@ -1,5 +1,64 @@
 [
   {
+    "id": "1b384a65c9391d0e",
+    "lab": "anthropic",
+    "title": "Claude Agent SDK (Python) v0.2.169",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.169",
+    "sourceId": "anthropic-agent-sdk",
+    "sourceName": "GitHub · anthropics/claude-agent-sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-20T21:39:30.000Z",
+    "firstSeenAt": "2026-10-20T23:57:39.440Z",
+    "updatedAt": "2026-10-20T21:39:30.000Z",
+    "excerpt": "Documentation Clarified that include_hook_events does not suppress SessionStart and Setup hook events, which the CLI emits regardless of the setting ( #1336 ) Internal/Other Changes Updated bundled Claude CLI to version 2.1.305 CI: hash-pinned the release build tools ( build , twine , wheel , hatchling ) so a tampered or unexpected download stops the job ( #1415 ) PyPI…",
+    "summary": "Anthropic shipped Claude Agent SDK (Python) v0.2.169 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "071748d66f9c",
+    "meta": {
+      "version": "v0.2.169",
+      "semver": "patch",
+      "repo": "anthropics/claude-agent-sdk-python"
+    }
+  },
+  {
+    "id": "d48a46ffc5b791b4",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.305",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-20T20:46:50.000Z",
+    "firstSeenAt": "2026-10-20T23:57:39.440Z",
+    "updatedAt": "2026-10-20T20:46:50.000Z",
+    "excerpt": "What's changed Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections Added CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) notices a usage limit that was lifted before its reset Fixed every request failing on Vertex, Bedrock and…",
+    "summary": "Anthropic shipped Claude Code v2.1.305 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "f15e51a87157",
+    "meta": {
+      "version": "v2.1.305",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "1288e651f266f647",
     "lab": "anthropic",
     "title": "Claude Code v2.1.304",
@@ -824,7 +883,7 @@
     "verified": true,
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "updatedAt": "2026-10-20T23:57:39.440Z",
     "excerpt": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "summary": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -959,7 +1018,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "updatedAt": "2026-10-20T23:57:39.440Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
@@ -1352,7 +1411,7 @@
     "verified": true,
     "publishedAt": "2026-09-28T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-20T19:21:23.050Z",
+    "updatedAt": "2026-10-20T23:57:39.440Z",
     "excerpt": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
     "summary": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
