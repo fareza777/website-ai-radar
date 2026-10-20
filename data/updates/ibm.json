@@ -1,5 +1,30 @@
 [
   {
+    "id": "8a14a92d09a13dfe",
+    "lab": "ibm",
+    "title": "llm-d 1.0 hardens open-source AI inference for production",
+    "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "firstSeenAt": "2026-10-20T14:21:40.747Z",
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "excerpt": "The distributed inference framework makes serving large models on your own infrastructure reliable and affordable for the agentic era.",
+    "summary": "The distributed inference framework makes serving large models on your own infrastructure reliable and affordable for the agentic era.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source",
+      "agents"
+    ],
+    "importance": 60,
+    "contentHash": "c61cb9ce2add"
+  },
+  {
     "id": "de58e4ba20a4ed12",
     "lab": "ibm",
     "title": "New course teaches how AI models run on modern accelerators",
@@ -75,7 +100,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 35,
-      "downloads": 980,
+      "downloads": 1267,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -106,7 +131,7 @@
     "contentHash": "6f6f69225449",
     "meta": {
       "likes": 25,
-      "downloads": 768,
+      "downloads": 973,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -539,7 +564,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 6,
-      "downloads": 193,
+      "downloads": 209,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
@@ -845,7 +870,7 @@
     "contentHash": "45adf5a46f06",
     "meta": {
       "likes": 34,
-      "downloads": 873,
+      "downloads": 32477,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
       "license": "cc-by-nc-sa-4.0"
@@ -943,8 +968,8 @@
     "importance": 67,
     "contentHash": "ff3e756cb61a",
     "meta": {
-      "likes": 133,
-      "downloads": 38088,
+      "likes": 134,
+      "downloads": 38344,
       "repo": "ibm-granite/granite-4.2-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -975,7 +1000,7 @@
     "contentHash": "c8e55083221f",
     "meta": {
       "likes": 105,
-      "downloads": 92215,
+      "downloads": 90464,
       "repo": "ibm-granite/granite-4.2-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1006,7 +1031,7 @@
     "contentHash": "d9e26c7be4a7",
     "meta": {
       "likes": 113,
-      "downloads": 40041,
+      "downloads": 40898,
       "repo": "ibm-granite/granite-4.2-3b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1035,7 +1060,7 @@
     "contentHash": "720803661a02",
     "meta": {
       "likes": 16,
-      "downloads": 340126,
+      "downloads": 274328,
       "repo": "ibm-granite/granite-timeseries-patchtst-fm-r2",
       "pipeline": "time-series-forecasting",
       "license": "openmdw-1.0"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T08:40:19.794Z",
+  "generatedAt": "2026-10-20T14:21:40.747Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -53,7 +53,6 @@
       "official": 4,
       "press": 35,
       "outlets": [
-        "The Decoder",
         "The National Law Review",
         "The American Bazaar",
         "Business Insider",
@@ -74,6 +73,7 @@
         "https://tech-insider.org/",
         "CNBC",
         "Quartz",
+        "The Decoder",
         "Mashable",
         "MarkTechPost",
         "TechEBlog -",
@@ -92,7 +92,7 @@
         "shattered.io",
         "Towards Data Science"
       ],
-      "firstAt": "2026-10-10T10:04:14.000Z",
+      "firstAt": "2026-10-13T16:00:00.000Z",
       "lastAt": "2026-10-19T16:45:48.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
       "lead": {
@@ -214,30 +214,6 @@
       "importance": 58
     },
     {
-      "id": "deepseek:35cc21ff608db1",
-      "title": "DHS Banning DeepSeek from US Federal Civilian Agencies",
-      "entity": null,
-      "labs": [
-        "deepseek"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "CyberScoop",
-        "Security Magazine",
-        "The Register",
-        "BankInfoSecurity"
-      ],
-      "firstAt": "2026-10-19T15:29:07.000Z",
-      "lastAt": "2026-10-19T18:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLUNlQ3dzZ012cklZaC04WXBDdFUzc2RoQmx1ck9KT1N4NjRWNVNvcVVzUnpsZGRVWlhacHAyX0lSZXlCMlJPQXFuY3JqLXIwTWVxZEFfVG1qRFJld043bVRvRHpoWW5rc2Rra05jU0lPeHliSEk3QjlCbHpSQkpoZG5KNTNCZXVvOWh2WkhpZnVONHNpcmlXMXdkVDBjb1NCNktzUEVn?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "deepseek:35cc21ff608db1"
-      },
-      "importance": 56
-    },
-    {
       "id": "xai:92ecac57376cc6",
       "title": "XAI Corp Price: XAI/USD Live Price Chart, Market Cap & News Today",
       "entity": null,
@@ -265,7 +241,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 55,
+        "count": 57,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -327,7 +303,7 @@
       {
         "name": "agents",
         "count": 49,
-        "prev": 31,
+        "prev": 32,
         "labs": [
           "anthropic",
           "openai",
@@ -335,16 +311,16 @@
           "mistral",
           "cohere",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 36,
+        "count": 35,
         "prev": 29,
         "labs": [
           "anthropic",
@@ -353,77 +329,79 @@
           "mistral",
           "cohere",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
+          "bytedance",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 10,
+        "prev": 5,
+        "labs": [
+          "anthropic",
+          "meta",
+          "mistral",
+          "cohere",
+          "microsoft",
+          "amazon",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "safety",
+        "count": 8,
+        "prev": 4,
+        "labs": [
+          "anthropic",
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "amazon",
           "bytedance",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 9,
+        "count": 8,
         "prev": 11,
         "labs": [
           "google-deepmind",
-          "openai",
           "deepseek",
-          "mistral",
+          "openai",
           "qwen",
           "tencent",
           "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 8,
-        "prev": 5,
-        "labs": [
-          "anthropic",
-          "meta",
-          "amazon",
-          "microsoft",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "safety",
-        "count": 7,
-        "prev": 4,
-        "labs": [
-          "anthropic",
-          "google-deepmind",
-          "openai",
-          "amazon",
-          "bytedance",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "open-source",
-        "count": 4,
-        "prev": 4,
+        "count": 5,
+        "prev": 3,
         "labs": [
           "anthropic",
           "meta",
-          "amazon",
           "microsoft",
-          "nvidia"
+          "amazon",
+          "ibm"
         ]
       },
       {
         "name": "audio",
-        "count": 4,
-        "prev": 5,
+        "count": 3,
+        "prev": 6,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
           "tencent",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -452,6 +430,19 @@
         "https://tech-insider.org/"
       ],
       "reports": 4,
+      "at": "2026-10-19T18:09:15.000Z"
+    },
+    {
+      "id": "minimax:80fcc69e01f308",
+      "lab": "minimax",
+      "title": "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026]",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
+      "outlets": [
+        "shattered.io",
+        "Technology Org",
+        "https://tech-insider.org/"
+      ],
+      "reports": 3,
       "at": "2026-10-19T18:09:15.000Z"
     },
     {

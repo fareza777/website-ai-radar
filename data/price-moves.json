@@ -1,5 +1,135 @@
 [
   {
+    "id": "e9485112f18c3404",
+    "modelId": "nvidia/nemotron-3.5-super-vl",
+    "name": "NVIDIA: Nemotron 3.5 Super VL",
+    "lab": "nvidia",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "prompt",
+    "from": 0.1,
+    "to": 0.15,
+    "change": 50
+  },
+  {
+    "id": "40f90585917b377b",
+    "modelId": "nvidia/nemotron-3.5-super-vl",
+    "name": "NVIDIA: Nemotron 3.5 Super VL",
+    "lab": "nvidia",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "completion",
+    "from": 0.4,
+    "to": 0.5,
+    "change": 25
+  },
+  {
+    "id": "0f11d4f880247dd2",
+    "modelId": "upstage/solar-pro4",
+    "name": "Upstage: Solar Pro 4",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "prompt",
+    "from": 0.09,
+    "to": 0.15,
+    "change": 66.7
+  },
+  {
+    "id": "e1e8045e5d9c847a",
+    "modelId": "upstage/solar-pro4",
+    "name": "Upstage: Solar Pro 4",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "completion",
+    "from": 0.36,
+    "to": 0.6,
+    "change": 66.7
+  },
+  {
+    "id": "e2bd654597721022",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "prompt",
+    "from": 0.0094,
+    "to": 0.44,
+    "change": 4580.9
+  },
+  {
+    "id": "d990d35bb5246bbd",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "completion",
+    "from": 1.28,
+    "to": 1.32,
+    "change": 3.1
+  },
+  {
+    "id": "a6fa70ef463f7ca0",
+    "modelId": "qwen/qwen3.5-397b-a17b",
+    "name": "Qwen: Qwen3.5 397B A17B",
+    "lab": "qwen",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "prompt",
+    "from": 0.5,
+    "to": 0.39,
+    "change": -22
+  },
+  {
+    "id": "8a039749ff21d696",
+    "modelId": "qwen/qwen3.5-397b-a17b",
+    "name": "Qwen: Qwen3.5 397B A17B",
+    "lab": "qwen",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "completion",
+    "from": 3.6,
+    "to": 2.34,
+    "change": -35
+  },
+  {
+    "id": "7f7455f7812e4976",
+    "modelId": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "lab": "google-deepmind",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "prompt",
+    "from": 0.05,
+    "to": 0.04,
+    "change": -20
+  },
+  {
+    "id": "a01d4dcb14152f3c",
+    "modelId": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "lab": "google-deepmind",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "completion",
+    "from": 0.1,
+    "to": 0.05,
+    "change": -50
+  },
+  {
+    "id": "c4efc5517a25293e",
+    "modelId": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "lab": "deepseek",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "prompt",
+    "from": 0.32,
+    "to": 0.2574,
+    "change": -19.6
+  },
+  {
+    "id": "3d545adaeeab4c1a",
+    "modelId": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "lab": "deepseek",
+    "at": "2026-10-20T14:21:40.747Z",
+    "field": "completion",
+    "from": 0.89,
+    "to": 1.0287,
+    "change": 15.6
+  },
+  {
     "id": "5e67532aaa14f235",
     "modelId": "reflection/beam-1.0-501b-a23b",
     "name": "Reflection: Beam 1.0 501B A23B",

@@ -1,21 +1,16 @@
 [
   {
     "date": "2026-10-20",
-    "generatedAt": "2026-10-20T08:40:19.794Z",
+    "generatedAt": "2026-10-20T14:21:40.747Z",
     "stats": {
-      "updates24h": 15,
+      "updates24h": 14,
       "labsActive24h": 7,
       "updates7d": 124,
-      "newModels7d": 43
+      "newModels7d": 42
     },
     "source": "template",
-    "headline": "15 updates from 7 AI labs in the last 24 hours · 43 model releases this week.",
+    "headline": "14 updates from 7 AI labs in the last 24 hours · 42 model releases this week.",
     "bullets": [
-      {
-        "text": "Amazon: Grok 4.7 is now available on Amazon Bedrock in AWS GovCloud (US)",
-        "itemId": "40609a70c2f2c94d",
-        "lab": "amazon"
-      },
       {
         "text": "Amazon: Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
         "itemId": "98948186cc0e34f7",
@@ -27,19 +22,24 @@
         "lab": "meta"
       },
       {
-        "text": "Meta AI: Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
-        "itemId": "eeca3caa47fa95f2",
-        "lab": "meta"
+        "text": "IBM: llm-d 1.0 hardens open-source AI inference for production",
+        "itemId": "8a14a92d09a13dfe",
+        "lab": "ibm"
+      },
+      {
+        "text": "Cohere: Rethinking Confidence in Reasoning Models",
+        "itemId": "4b3ccd0a9d656ec9",
+        "lab": "cohere"
+      },
+      {
+        "text": "Amazon: Structured outputs for Anthropic Claude models on Amazon Bedrock",
+        "itemId": "ea83f0dd69c5142c",
+        "lab": "amazon"
       },
       {
         "text": "NVIDIA: Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
         "itemId": "5d44067f2d19c9de",
         "lab": "nvidia"
-      },
-      {
-        "text": "Mistral AI: Mistral Vibe v3.0.0",
-        "itemId": "638ec17e71c879fc",
-        "lab": "mistral"
       }
     ]
   },

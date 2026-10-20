@@ -1,5 +1,36 @@
 [
   {
+    "id": "360cf5fe96615f37",
+    "lab": "mistral",
+    "title": "Mistral Vibe v3.0.1",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v3.0.1",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-20T13:55:39.000Z",
+    "firstSeenAt": "2026-10-20T14:21:40.747Z",
+    "updatedAt": "2026-10-20T13:55:39.000Z",
+    "excerpt": "Added New enable_auto_approve setting: when the admin-managed config sets it to false , the auto-approve (YOLO) mode is forbidden — the auto-approve agent (and any custom agent with safety = \"yolo\" ) is hidden and --auto-approve / --yolo plus bypass_tool_permissions are ignored. Per-tool permissions still apply. compaction_max_output_tokens (80000), compaction_thinking (unset), compaction_reasoning_limit_tokens…",
+    "summary": "Mistral AI shipped Mistral Vibe v3.0.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "reasoning",
+      "safety"
+    ],
+    "importance": 25,
+    "contentHash": "7ff14473be6a",
+    "meta": {
+      "version": "v3.0.1",
+      "semver": "patch",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "638ec17e71c879fc",
     "lab": "mistral",
     "title": "Mistral Vibe v3.0.0",
@@ -76,7 +107,7 @@
     "contentHash": "417d409580a4",
     "meta": {
       "likes": 34,
-      "downloads": 932,
+      "downloads": 1423,
       "repo": "mistralai/Timestral-123M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -107,7 +138,7 @@
     "contentHash": "bb226bca6d6b",
     "meta": {
       "likes": 29,
-      "downloads": 1448,
+      "downloads": 2602,
       "repo": "mistralai/Timestral-28M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -137,8 +168,8 @@
     "importance": 69,
     "contentHash": "fd4a807fe29b",
     "meta": {
-      "likes": 51,
-      "downloads": 1686,
+      "likes": 56,
+      "downloads": 2511,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -168,8 +199,8 @@
     "importance": 74,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 208,
-      "downloads": 2601,
+      "likes": 219,
+      "downloads": 4008,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -227,7 +258,7 @@
     "contentHash": "c984e1dce577",
     "meta": {
       "likes": 24,
-      "downloads": 154,
+      "downloads": 159,
       "repo": "mistralai/LIDstral-Arabic",
       "pipeline": "text-classification",
       "license": "apache-2.0"
@@ -259,7 +290,7 @@
     "contentHash": "11354caaa84e",
     "meta": {
       "likes": 41,
-      "downloads": 1265,
+      "downloads": 1379,
       "repo": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
       "pipeline": "automatic-speech-recognition"
     }
