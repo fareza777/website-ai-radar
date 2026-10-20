@@ -1,5 +1,34 @@
 [
   {
+    "id": "1288e651f266f647",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.304",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-19T21:34:39.000Z",
+    "firstSeenAt": "2026-10-20T00:25:25.575Z",
+    "updatedAt": "2026-10-19T21:34:39.000Z",
+    "excerpt": "What's changed Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked Added e.isReadOnly to a mod's tool.check event, set when the tool call is read-only Added…",
+    "summary": "Anthropic shipped Claude Code v2.1.304 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "5839d7968060",
+    "meta": {
+      "version": "v2.1.304",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "13d5315f51758d6f",
     "lab": "anthropic",
     "title": "Claude Code v2.1.303",
@@ -431,7 +460,7 @@
     "verified": true,
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "updatedAt": "2026-10-19T20:37:58.193Z",
+    "updatedAt": "2026-10-20T00:25:25.575Z",
     "excerpt": "As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.",
     "summary": "As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
@@ -899,7 +928,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-19T20:37:58.193Z",
+    "updatedAt": "2026-10-20T00:25:25.575Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",

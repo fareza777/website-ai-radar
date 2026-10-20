@@ -1571,9 +1571,40 @@
     "importance": 65,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 79,
+      "likes": 80,
       "downloads": 6541,
       "repo": "nvidia/NV-Reason-CT",
+      "pipeline": "image-text-to-text",
+      "license": "openmdw-1.1"
+    }
+  },
+  {
+    "id": "0387ac6c8a759ea2",
+    "lab": "nvidia",
+    "title": "Nemotron-3.5-Parse",
+    "url": "https://huggingface.co/nvidia/Nemotron-3.5-Parse",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-03T06:29:29.000Z",
+    "firstSeenAt": "2026-10-20T00:25:25.575Z",
+    "updatedAt": "2026-09-03T06:29:29.000Z",
+    "excerpt": "image-text-to-text · license: openmdw-1.1",
+    "summary": "NVIDIA published the Nemotron-3.5-Parse model on Hugging Face for multimodal (image + text). License: openmdw-1.1.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 61,
+    "contentHash": "1a235bb4339f",
+    "meta": {
+      "likes": 25,
+      "downloads": 559,
+      "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
     }
@@ -1602,7 +1633,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 792,
+      "likes": 785,
       "downloads": 102844,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",

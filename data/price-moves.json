@@ -1,5 +1,60 @@
 [
   {
+    "id": "4bff5e0569c0727a",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-20T00:25:25.575Z",
+    "field": "completion",
+    "from": 0.2,
+    "to": 0.16,
+    "change": -20
+  },
+  {
+    "id": "27ba74f93f5bdd96",
+    "modelId": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "lab": "qwen",
+    "at": "2026-10-20T00:25:25.575Z",
+    "field": "prompt",
+    "from": 0.26,
+    "to": 0.27,
+    "change": 3.8
+  },
+  {
+    "id": "002068321352f61c",
+    "modelId": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "lab": "qwen",
+    "at": "2026-10-20T00:25:25.575Z",
+    "field": "completion",
+    "from": 2.6,
+    "to": 2.16,
+    "change": -16.9
+  },
+  {
+    "id": "84618ad1273007ef",
+    "modelId": "z-ai/glm-4.6",
+    "name": "Z.ai: GLM 4.6",
+    "lab": "zai",
+    "at": "2026-10-20T00:25:25.575Z",
+    "field": "prompt",
+    "from": 0.5,
+    "to": 0.55,
+    "change": 10
+  },
+  {
+    "id": "57b94db7ad9c66fc",
+    "modelId": "z-ai/glm-4.6",
+    "name": "Z.ai: GLM 4.6",
+    "lab": "zai",
+    "at": "2026-10-20T00:25:25.575Z",
+    "field": "completion",
+    "from": 2,
+    "to": 2.2,
+    "change": 10
+  },
+  {
     "id": "d5aa70ad314389a6",
     "modelId": "moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",

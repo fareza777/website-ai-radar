@@ -1,16 +1,21 @@
 [
   {
     "date": "2026-10-20",
-    "generatedAt": "2026-10-19T20:37:58.193Z",
+    "generatedAt": "2026-10-20T00:25:25.575Z",
     "stats": {
-      "updates24h": 13,
-      "labsActive24h": 7,
-      "updates7d": 122,
-      "newModels7d": 40
+      "updates24h": 17,
+      "labsActive24h": 8,
+      "updates7d": 124,
+      "newModels7d": 43
     },
     "source": "template",
-    "headline": "13 updates from 7 AI labs in the last 24 hours · 40 model releases this week.",
+    "headline": "17 updates from 8 AI labs in the last 24 hours · 43 model releases this week.",
     "bullets": [
+      {
+        "text": "Amazon: Grok 4.7 is now available on Amazon Bedrock in AWS GovCloud (US)",
+        "itemId": "40609a70c2f2c94d",
+        "lab": "amazon"
+      },
       {
         "text": "Amazon: Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
         "itemId": "98948186cc0e34f7",
@@ -35,11 +40,6 @@
         "text": "Mistral AI: Mistral Vibe v3.0.0",
         "itemId": "638ec17e71c879fc",
         "lab": "mistral"
-      },
-      {
-        "text": "NVIDIA: NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-        "itemId": "24f0298eed3882d9",
-        "lab": "nvidia"
       }
     ]
   },

@@ -100,6 +100,37 @@
     }
   },
   {
+    "id": "e3751cc733b4b0b1",
+    "lab": "microsoft",
+    "title": "UserRepGen-4B",
+    "url": "https://huggingface.co/microsoft/UserRepGen-4B",
+    "sourceId": "microsoft-hf",
+    "sourceName": "Hugging Face · microsoft",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T20:30:00.000Z",
+    "firstSeenAt": "2026-10-20T00:25:25.575Z",
+    "updatedAt": "2026-10-14T20:30:00.000Z",
+    "excerpt": "text-generation · license: mit",
+    "summary": "Microsoft published the UserRepGen-4B model on Hugging Face for text generation (LLM). License: mit.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "4B"
+    ],
+    "importance": 60,
+    "contentHash": "f2a424fdb314",
+    "meta": {
+      "likes": 15,
+      "downloads": 1008,
+      "repo": "microsoft/UserRepGen-4B",
+      "pipeline": "text-generation",
+      "license": "mit"
+    }
+  },
+  {
     "id": "496d74f3d437e219",
     "lab": "microsoft",
     "title": "Microsoft Agent Framework dotnet v1.25.0",

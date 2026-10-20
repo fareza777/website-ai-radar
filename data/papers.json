@@ -6,7 +6,7 @@
     "summary": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's commands into robot motion. The agent drives a robot with two arms through one command line. It sees three RGB cameras and…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 244,
+    "upvotes": 284,
     "org": "hexafuture",
     "githubRepo": "https://github.com/HexaFuture/HexaShell",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -18,7 +18,7 @@
     "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 235,
+    "upvotes": 236,
     "org": "sensenova",
     "githubRepo": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -42,7 +42,7 @@
     "summary": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move left) and…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 141,
+    "upvotes": 144,
     "org": "ucsandiego",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
   },
@@ -53,7 +53,7 @@
     "summary": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 129,
+    "upvotes": 131,
     "org": "carnegiemellonu",
     "githubRepo": "https://github.com/prometheus-eval/into-the-unknown",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
@@ -65,7 +65,7 @@
     "summary": "Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware benchmark that uses live financial markets as a naturally evolving testbed for persistent LLM agents. Five frontier LLMs…",
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 110,
+    "upvotes": 111,
     "org": "fudan-university",
     "githubRepo": "https://github.com/RaymondVoldemortFu/LiveMACE",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
@@ -77,7 +77,7 @@
     "summary": "Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we introduce CarryOn, an object-oriented context runtime that organizes continuation around reusable task…",
     "publishedAt": "2026-10-13T17:35:27.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 95,
+    "upvotes": 99,
     "org": "mcauley-lab",
     "githubRepo": "https://github.com/Ethannju/carryon",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -93,6 +93,18 @@
     "org": "ustc",
     "githubRepo": "https://github.com/Yubo-Shankui/SpeculativeSampling",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
+  },
+  {
+    "id": "2610.20951",
+    "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
+    "url": "https://huggingface.co/papers/2610.20951",
+    "summary": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pass without generating text. Like the fast System 1 of dual-process theory, they answer at once, but their depth is fixed at training time, so they spend the same computation on easy and hard questions. Models that reason in generated text can think longer, but they pay for every extra step in decoded…",
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "submittedAt": "2026-10-19T00:00:00.000Z",
+    "upvotes": 69,
+    "org": null,
+    "githubRepo": "https://github.com/OpenLAIR/lev",
+    "firstSeenAt": "2026-10-20T00:25:25.575Z"
   },
   {
     "id": "2610.23121",
@@ -113,7 +125,7 @@
     "summary": "Reinforcement learning with verifiable rewards has become a scalable post-training paradigm for large language models. However, training agents over long-horizon interactions presents two challenges: using only terminal rewards makes turn-level credit assignment sparse and high-variance, while sequential mini-batch updates on a fixed rollout batch introduce policy staleness as the current policy drifts from the…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 31,
+    "upvotes": 32,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -174,7 +186,7 @@
     "summary": "Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and general terminal-usage problems is a pressing challenge. Current state-of-the-art LLMs often go through large-scale agentic Reinforcement Learning (RL). However, they mostly rely on high-level outcome rewards, with minimal consideration of low-level toolcall and mid-level workflow-stage rewards, which…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 1,
+    "upvotes": 2,
     "org": "amazon",
     "lab": "amazon",
     "githubRepo": "https://github.com/RickySkywalker/Lean4AgenticRL",
@@ -211,7 +223,7 @@
     "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-16T00:00:00.000Z",
-    "upvotes": 540,
+    "upvotes": 542,
     "org": "mindlab-research",
     "githubRepo": "https://github.com/Fr0zenCrane/MJev-Spatial",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -504,7 +516,7 @@
     "summary": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 351,
+    "upvotes": 357,
     "org": "zju",
     "githubRepo": "https://github.com/ziplab/ATAS",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -563,7 +575,7 @@
     "summary": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using error recognition to…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 83,
+    "upvotes": 84,
     "org": null,
     "githubRepo": "https://github.com/kzhao5/CriticOPD",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -575,9 +587,21 @@
     "summary": "A recommendation request on Reddit draws several replies, each naming different titles. When an LLM recommender is trained on such threads with reinforcement learning (RL), which replies should a generated list be rewarded against? The state-of-the-art recipe, Rank-GRPO, picks one reply per training example, so the advantage mostly records which reply was drawn (85% of its variance) rather than how good the list is…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 76,
+    "upvotes": 77,
     "org": "nanyangtechnologicaluniversity",
     "githubRepo": "https://github.com/LiXin97/ReMaRk",
+    "firstSeenAt": "2026-10-16T13:15:09.451Z"
+  },
+  {
+    "id": "2610.19975",
+    "title": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
+    "url": "https://huggingface.co/papers/2610.19975",
+    "summary": "Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even when they share parameters. To probe the contributions of different loop visits, we learn separate residual coefficients in a model that applies a shared block twice, observing a smaller scale in the first…",
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "submittedAt": "2026-10-15T00:00:00.000Z",
+    "upvotes": 75,
+    "org": null,
+    "githubRepo": "https://github.com/lcqysl/LatentLoop",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -589,18 +613,6 @@
     "submittedAt": "2026-10-15T00:00:00.000Z",
     "upvotes": 74,
     "org": null,
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.19975",
-    "title": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
-    "url": "https://huggingface.co/papers/2610.19975",
-    "summary": "Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even when they share parameters. To probe the contributions of different loop visits, we learn separate residual coefficients in a model that applies a shared block twice, observing a smaller scale in the first…",
-    "publishedAt": "2026-10-14T00:00:00.000Z",
-    "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 72,
-    "org": null,
-    "githubRepo": "https://github.com/lcqysl/LatentLoop",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
@@ -622,7 +634,7 @@
     "summary": "Distilling capable language-model agents into smaller models requires aligning the student's behavior with the teacher's. This raises a fundamental question: at which states and at what granularity should this alignment be performed? Offline imitation provides dense but token-specific supervision and can suffer from state-distribution mismatch. Token-level on-policy distillation (OPD) addresses this mismatch but…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 61,
+    "upvotes": 62,
     "org": "nics-efc",
     "githubRepo": "https://github.com/thu-nics/ActionOPD",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -634,7 +646,7 @@
     "summary": "Multimodal models and agents have emerged to enable AI systems to learn from and interact with the real world more like humans by integrating information across multiple modalities. However, enabling multimodal agents to continually acquire useful information from complex, heterogeneous multimodal data remains a significant challenge as they move toward long-horizon tasks and lifelong settings. Addressing this…",
     "publishedAt": "2026-10-14T01:11:57.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 53,
+    "upvotes": 54,
     "org": "fudan-university",
     "githubRepo": "https://github.com/Seeing-Maintaining-Learning/multimodal-agent-memory-evolution",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
@@ -646,7 +658,7 @@
     "summary": "We introduce LensErase, a general-purpose mask-based Erase Anything foundation model designed to cover a broad spectrum of real-world erase scenarios. LensErase supports diverse objects, visual text, watermarks, associated visual effects, multiple-object removal, and a wide range of object scales, aspect ratios, and image resolutions. First, to enable such broad coverage, we construct LensErase-100M, a large-scale…",
     "publishedAt": "2026-10-13T09:56:02.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 52,
     "org": "microsoft",
     "lab": "microsoft",
     "githubRepo": "https://github.com/LensFamily/LensErase",
@@ -659,7 +671,7 @@
     "summary": "Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize this KV concentration and find that KV cache quantization delivers substantially greater acceleration than weight-only…",
     "publishedAt": "2026-10-10T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 45,
     "org": "kaist-ai",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
   },
@@ -670,7 +682,7 @@
     "summary": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution. We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-15T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 41,
     "org": null,
     "githubRepo": "https://github.com/chonghanqin/Awesome-Agentic-Robots",
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
@@ -757,7 +769,7 @@
     "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-14T00:00:00.000Z",
-    "upvotes": 136,
+    "upvotes": 137,
     "org": "microsoft",
     "lab": "microsoft",
     "githubRepo": "https://github.com/microsoft/AesCode",

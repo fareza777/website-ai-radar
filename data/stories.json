@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T20:37:58.193Z",
+  "generatedAt": "2026-10-20T00:25:25.575Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 33,
+      "press": 34,
       "outlets": [
         "The Decoder",
         "The National Law Review",
@@ -216,7 +216,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 53,
+        "count": 54,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -241,7 +241,7 @@
       },
       {
         "name": "Grok 4.7",
-        "count": 4,
+        "count": 5,
         "prev": 0,
         "labs": [
           "amazon"
@@ -270,26 +270,24 @@
       {
         "name": "GLM 5.3",
         "count": 3,
-        "prev": 5,
-        "labs": [
-          "amazon"
-        ]
+        "prev": 3,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 51,
+        "count": 50,
         "prev": 30,
         "labs": [
           "anthropic",
           "meta",
-          "openai",
           "mistral",
+          "openai",
           "cohere",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "bytedance",
           "ibm",
           "nvidia"
@@ -297,17 +295,17 @@
       },
       {
         "name": "coding",
-        "count": 33,
-        "prev": 34,
+        "count": 36,
+        "prev": 30,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "openai",
           "mistral",
+          "openai",
           "cohere",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "bytedance",
           "nvidia"
         ]
@@ -315,12 +313,12 @@
       {
         "name": "multimodal",
         "count": 9,
-        "prev": 12,
+        "prev": 11,
         "labs": [
-          "deepseek",
           "google-deepmind",
-          "openai",
+          "deepseek",
           "mistral",
+          "openai",
           "qwen",
           "tencent",
           "amazon",
@@ -331,20 +329,19 @@
       {
         "name": "reasoning",
         "count": 8,
-        "prev": 6,
+        "prev": 5,
         "labs": [
           "anthropic",
           "meta",
-          "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "safety",
         "count": 7,
-        "prev": 7,
+        "prev": 4,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -356,13 +353,13 @@
       },
       {
         "name": "open-source",
-        "count": 6,
+        "count": 4,
         "prev": 4,
         "labs": [
           "anthropic",
           "meta",
-          "amazon",
           "microsoft",
+          "amazon",
           "nvidia"
         ]
       },
@@ -372,8 +369,8 @@
         "prev": 5,
         "labs": [
           "google-deepmind",
-          "openai",
           "mistral",
+          "openai",
           "tencent",
           "amazon",
           "ibm",
@@ -406,6 +403,18 @@
       ],
       "reports": 3,
       "at": "2026-10-19T12:24:49.000Z"
+    },
+    {
+      "id": "minimax:3510b2740932e1",
+      "lab": "minimax",
+      "title": "MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70%",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUTFzLTVJTXFMdGsxc3NOTWtLTVhkOFcxX1BjcVFrOGVTUnhUMmFhWWNmaVhQVjFnNEt2cXJWVWZSQmhvQXlxeVNTM2d1aFI4RHIxVjFnMkhoX2Q5SHp6d0xCS1FwZ2FBeEhrWWdZWE5ST0RCeFg4VW5PTDFqczNvbjYwd2dOb0tOSTc1RkJ0WXBaeHoxdnhCWXEzOUNtTERfV1AyRGNiVQ?oc=5",
+      "outlets": [
+        "SiliconANGLE",
+        "디지털투데이"
+      ],
+      "reports": 2,
+      "at": "2026-10-19T22:25:00.000Z"
     },
     {
       "id": "minimax:96564b8d90d1a2",
