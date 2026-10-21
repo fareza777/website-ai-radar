@@ -211,7 +211,7 @@
     "importance": 61,
     "contentHash": "f2a424fdb314",
     "meta": {
-      "likes": 20,
+      "likes": 22,
       "downloads": 1254,
       "repo": "microsoft/UserRepGen-4B",
       "pipeline": "text-generation",
@@ -577,7 +577,7 @@
     "importance": 64,
     "contentHash": "508a2d739bfa",
     "meta": {
-      "likes": 54,
+      "likes": 55,
       "downloads": 1103,
       "repo": "microsoft/AesCode-32B",
       "pipeline": "image-text-to-text",
@@ -943,6 +943,34 @@
     "tags": [],
     "importance": 60,
     "contentHash": "8726e31a87cd"
+  },
+  {
+    "id": "40e87167821085a9",
+    "lab": "microsoft",
+    "title": "bioemu2",
+    "url": "https://huggingface.co/microsoft/bioemu2",
+    "sourceId": "microsoft-hf",
+    "sourceName": "Hugging Face · microsoft",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-08-27T08:53:53.000Z",
+    "firstSeenAt": "2026-10-21T21:48:23.060Z",
+    "updatedAt": "2026-08-27T08:53:53.000Z",
+    "excerpt": "license: mit",
+    "summary": "Microsoft published the bioemu2 model on Hugging Face. License: mit.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "407998099ca2",
+    "meta": {
+      "likes": 15,
+      "downloads": 0,
+      "repo": "microsoft/bioemu2",
+      "license": "mit"
+    }
   },
   {
     "id": "203d5eb3c1daab23",

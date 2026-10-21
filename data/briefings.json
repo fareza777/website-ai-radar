@@ -1,16 +1,21 @@
 [
   {
     "date": "2026-10-22",
-    "generatedAt": "2026-10-21T17:19:55.191Z",
+    "generatedAt": "2026-10-21T21:48:23.060Z",
     "stats": {
-      "updates24h": 38,
+      "updates24h": 39,
       "labsActive24h": 10,
-      "updates7d": 139,
-      "newModels7d": 39
+      "updates7d": 136,
+      "newModels7d": 33
     },
     "source": "template",
-    "headline": "38 updates from 10 AI labs in the last 24 hours · 39 model releases this week.",
+    "headline": "39 updates from 10 AI labs in the last 24 hours · 33 model releases this week.",
     "bullets": [
+      {
+        "text": "Anthropic: Introducing Claude Duet",
+        "itemId": "292e35e33e7becf5",
+        "lab": "anthropic"
+      },
       {
         "text": "OpenAI: OpenAI models are coming to Google Cloud",
         "itemId": "61f4d0141ff303c0",
@@ -32,14 +37,9 @@
         "lab": "nvidia"
       },
       {
-        "text": "OpenAI: ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-        "itemId": "74fcf21eca7add4a",
+        "text": "OpenAI: How AT&T is rethinking in-house legal work with OpenAI",
+        "itemId": "4ab93569e260b2b0",
         "lab": "openai"
-      },
-      {
-        "text": "Mistral AI: Mistral Advances AI for Engineering with NVIDIA",
-        "itemId": "82899c94557909a4",
-        "lab": "mistral"
       }
     ]
   },

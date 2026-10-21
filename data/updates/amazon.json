@@ -1,5 +1,119 @@
 [
   {
+    "id": "8c44d30ec948e664",
+    "lab": "amazon",
+    "title": "Strands Agents SDK typescript v1.22.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.22.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T21:38:08.000Z",
+    "firstSeenAt": "2026-10-21T21:48:23.060Z",
+    "updatedAt": "2026-10-21T21:38:08.000Z",
+    "excerpt": "typescript/v1.22.0 Auto-drafted from commits in typescript/v1.21.0..typescript/v1.22.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(decisions): add decision usage to the request's invocation context ( #5304 ) ( 5adc6a6 ) feat(python): add experimental OpenAI Live provider ( #5286 ) (…",
+    "summary": "Amazon shipped Strands Agents SDK typescript v1.22.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "6238fef5c210",
+    "meta": {
+      "version": "v1.22.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "typescript"
+    }
+  },
+  {
+    "id": "d841fc8b370bc211",
+    "lab": "amazon",
+    "title": "Adaptive agentic intelligence framework using Strands Agents",
+    "url": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T21:23:26.000Z",
+    "firstSeenAt": "2026-10-21T21:48:23.060Z",
+    "updatedAt": "2026-10-21T21:23:26.000Z",
+    "excerpt": "Organizations building AI agents face a common challenge: Every request, whether a routine status check or complex analysis, typically gets routed to a single large, expensive model. This one-size-fits-all approach can drive up API costs, introduce unpredictable latency, and remove the possibility of offline operation. Even routine queries that could resolve locally end up requiring a full network round-trip to a…",
+    "summary": "Organizations building AI agents face a common challenge: Every request, whether a routine status check or complex analysis, typically gets routed to a single large, expensive model.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 30,
+    "contentHash": "e3249bd0dd08"
+  },
+  {
+    "id": "03ac9a20214401a7",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-typescript v0.3.1",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.3.1",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T20:39:31.000Z",
+    "firstSeenAt": "2026-10-21T21:48:23.060Z",
+    "updatedAt": "2026-10-21T20:39:31.000Z",
+    "excerpt": "harness-typescript/v0.3.1 Auto-drafted from commits in harness-typescript/v0.3.0..harness-typescript/v0.3.1 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(decisions): add decision usage to the request's invocation context ( #5304 ) ( 5adc6a6 ) feat(python): add experimental OpenAI Live…",
+    "summary": "Amazon shipped Strands Agents SDK harness-typescript v0.3.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 20,
+    "contentHash": "765081399b58",
+    "meta": {
+      "version": "v0.3.1",
+      "semver": "patch",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-typescript"
+    }
+  },
+  {
+    "id": "3ab26b1f13bb98bf",
+    "lab": "amazon",
+    "title": "Strands Agents SDK python v1.62.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.62.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T18:47:18.000Z",
+    "firstSeenAt": "2026-10-21T21:48:23.060Z",
+    "updatedAt": "2026-10-21T18:47:18.000Z",
+    "excerpt": "python/v1.62.0 Auto-drafted from commits in python/v1.61.1..python/v1.62.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(decisions): add decision usage to the request's invocation context ( #5304 ) ( 5adc6a6 ) feat(python): add experimental OpenAI Live provider ( #5286 ) ( 420cedc )…",
+    "summary": "Amazon shipped Strands Agents SDK python v1.62.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "58ce524ca81b",
+    "meta": {
+      "version": "v1.62.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "python"
+    }
+  },
+  {
     "id": "209f0f415bceb89a",
     "lab": "amazon",
     "title": "Work management context for AI agents with Smartsheet MCP on AWS",

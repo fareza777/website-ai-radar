@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T17:19:55.191Z",
+  "generatedAt": "2026-10-21T21:48:23.060Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -278,8 +278,8 @@
       },
       {
         "name": "Gemini 4 Argon",
-        "count": 20,
-        "prev": 39,
+        "count": 18,
+        "prev": 41,
         "labs": [
           "google-deepmind"
         ]
@@ -299,6 +299,12 @@
         "labs": []
       },
       {
+        "name": "Granite 5.0 2B",
+        "count": 3,
+        "prev": 0,
+        "labs": []
+      },
+      {
         "name": "Nemotron 3.5",
         "count": 3,
         "prev": 1,
@@ -314,17 +320,17 @@
     "topics": [
       {
         "name": "agents",
-        "count": 56,
-        "prev": 39,
+        "count": 54,
+        "prev": 44,
         "labs": [
           "anthropic",
           "openai",
           "meta",
           "mistral",
           "cohere",
+          "amazon",
           "microsoft",
           "qwen",
-          "amazon",
           "bytedance",
           "ibm",
           "nvidia"
@@ -332,16 +338,16 @@
       },
       {
         "name": "coding",
-        "count": 40,
-        "prev": 30,
+        "count": 36,
+        "prev": 33,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
           "cohere",
-          "qwen",
           "amazon",
+          "qwen",
           "bytedance",
           "ibm",
           "nvidia"
@@ -352,57 +358,32 @@
         "count": 11,
         "prev": 4,
         "labs": [
+          "openai",
           "meta",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
         "count": 9,
-        "prev": 9,
+        "prev": 7,
         "labs": [
-          "google-deepmind",
           "deepseek",
           "openai",
           "tencent",
-          "qwen",
           "amazon",
+          "qwen",
           "ibm",
           "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 7,
-        "prev": 2,
-        "labs": [
-          "anthropic",
-          "openai",
-          "meta",
-          "microsoft",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 5,
-        "prev": 4,
-        "labs": [
-          "anthropic",
-          "openai",
-          "qwen",
-          "amazon"
         ]
       },
       {
         "name": "safety",
-        "count": 5,
+        "count": 7,
         "prev": 8,
         "labs": [
           "anthropic",
@@ -415,9 +396,34 @@
         ]
       },
       {
+        "name": "open-source",
+        "count": 7,
+        "prev": 2,
+        "labs": [
+          "anthropic",
+          "openai",
+          "meta",
+          "amazon",
+          "microsoft",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 6,
+        "prev": 4,
+        "labs": [
+          "anthropic",
+          "openai",
+          "amazon",
+          "qwen"
+        ]
+      },
+      {
         "name": "rag",
         "count": 4,
-        "prev": 3,
+        "prev": 2,
         "labs": [
           "cohere",
           "amazon",
@@ -427,7 +433,7 @@
       {
         "name": "audio",
         "count": 3,
-        "prev": 7,
+        "prev": 6,
         "labs": [
           "google-deepmind",
           "openai",
@@ -457,6 +463,20 @@
       "at": "2026-10-19T18:09:15.000Z"
     },
     {
+      "id": "xai:b893e1cdd62312",
+      "lab": "xai",
+      "title": "XAI Floating Rate & Alternative Income Trust Announces Expiration and Preliminary Results of Voluntary Tender Offer",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemJGbW5vWXpadW5rZUJfNjJkN3JpRXJRVDFWWkQxV2ZxMjRWQlpFRFVxMjJKX3VCNlQyMGR2VHhLOG5VaGpEQk1sSHRESmZDS010SGFiUWMxazJZT2VhVktBUVZ6WW1DRTNOUks5dmJFMVpHU3h0OWxXeHBYU1ZHYXlOUG1Vb2dURUlpR04xZ2dMQzFRV1lObFRqUUdCa2Y2eW1n?oc=5",
+      "outlets": [
+        "Quiver Quantitative",
+        "Yahoo Finance",
+        "TradingView",
+        "WBOC TV"
+      ],
+      "reports": 4,
+      "at": "2026-10-20T12:45:00.000Z"
+    },
+    {
       "id": "minimax:3510b2740932e1",
       "lab": "minimax",
       "title": "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026]",
@@ -482,19 +502,6 @@
       ],
       "reports": 3,
       "at": "2026-10-20T13:36:46.000Z"
-    },
-    {
-      "id": "xai:b893e1cdd62312",
-      "lab": "xai",
-      "title": "XAI Floating Rate & Alternative Income Trust Announces Expiration and Preliminary Results of Voluntary Tender Offer",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemJGbW5vWXpadW5rZUJfNjJkN3JpRXJRVDFWWkQxV2ZxMjRWQlpFRFVxMjJKX3VCNlQyMGR2VHhLOG5VaGpEQk1sSHRESmZDS010SGFiUWMxazJZT2VhVktBUVZ6WW1DRTNOUks5dmJFMVpHU3h0OWxXeHBYU1ZHYXlOUG1Vb2dURUlpR04xZ2dMQzFRV1lObFRqUUdCa2Y2eW1n?oc=5",
-      "outlets": [
-        "Quiver Quantitative",
-        "Yahoo Finance",
-        "TradingView"
-      ],
-      "reports": 3,
-      "at": "2026-10-20T12:45:00.000Z"
     },
     {
       "id": "minimax:80fcc69e01f308",
