@@ -1,5 +1,60 @@
 [
   {
+    "id": "df76ddb77d2021b9",
+    "modelId": "mistralai/mistral-large-4-0",
+    "name": "Mistral: Mistral Large 4",
+    "lab": "mistral",
+    "at": "2026-10-21T04:58:36.683Z",
+    "field": "prompt",
+    "from": 0.68,
+    "to": 1.36,
+    "change": 100
+  },
+  {
+    "id": "c6d56721d1a8a828",
+    "modelId": "mistralai/mistral-large-4-0",
+    "name": "Mistral: Mistral Large 4",
+    "lab": "mistral",
+    "at": "2026-10-21T04:58:36.683Z",
+    "field": "completion",
+    "from": 2.09,
+    "to": 4.18,
+    "change": 100
+  },
+  {
+    "id": "29c3c3214b15d8e5",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-21T04:58:36.683Z",
+    "field": "prompt",
+    "from": 0.0675,
+    "to": 0.0765,
+    "change": 13.3
+  },
+  {
+    "id": "ac8efa8cd81aaded",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-21T04:58:36.683Z",
+    "field": "completion",
+    "from": 0.225,
+    "to": 0.255,
+    "change": 13.3
+  },
+  {
+    "id": "48d740a825f492f5",
+    "modelId": "qwen/qwen3.5-35b-a3b",
+    "name": "Qwen: Qwen3.5-35B-A3B",
+    "lab": "qwen",
+    "at": "2026-10-21T04:58:36.683Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.14,
+    "change": -6.7
+  },
+  {
     "id": "2d705cd9c13cf64f",
     "modelId": "qwen/qwen3.8-27b",
     "name": "Qwen: Qwen3.8 27B",

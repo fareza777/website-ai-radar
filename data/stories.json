@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T23:57:39.440Z",
+  "generatedAt": "2026-10-21T04:58:36.683Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -10,7 +10,7 @@
         "amazon"
       ],
       "official": 2,
-      "press": 9,
+      "press": 10,
       "outlets": [
         "Wccftech",
         "The Decoder",
@@ -31,6 +31,7 @@
         "Nscale",
         "StreetInsider",
         "LMSYS Org",
+        "Nasdaq",
         "GameGPU",
         "NewsCord"
       ],
@@ -216,23 +217,24 @@
         "deepseek"
       ],
       "official": 0,
-      "press": 7,
+      "press": 8,
       "outlets": [
         "https://tech-insider.org/",
         "Pandaily",
         "shattered.io",
         "Briefs Finance",
         "Techzine Global",
-        "Quartz"
+        "Quartz",
+        "Interconnects AI"
       ],
       "firstAt": "2026-10-12T10:10:33.000Z",
-      "lastAt": "2026-10-19T11:37:50.000Z",
+      "lastAt": "2026-10-20T17:04:21.000Z",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OSlM2T1g2czdzWHM0WWVBTnJwLTVXeU1aeWRlcTdXNl8wdUt4YjdzWEtzUTBJS3AtYXlPSjNnbllId2hkeGE1Z0ZDUXAydEpWYzhSb29IXzBnYXd0UUdqWFhORll5VWpqZjVESjZKQUZmaHVON1R6UTFCT0NMdw?oc=5",
       "lead": {
         "kind": "press",
         "id": "deepseek:a10506682e04b2"
       },
-      "importance": 58
+      "importance": 59
     },
     {
       "id": "xai:92ecac57376cc6",
@@ -270,7 +272,7 @@
       },
       {
         "name": "Nemotron 3.5 Super",
-        "count": 19,
+        "count": 20,
         "prev": 0,
         "labs": [
           "amazon",
@@ -279,7 +281,7 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 10,
+        "count": 11,
         "prev": 3,
         "labs": [
           "deepseek"
@@ -292,18 +294,18 @@
         "labs": []
       },
       {
-        "name": "GPT 6",
-        "count": 4,
-        "prev": 3,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
         "name": "GLM 5.5",
         "count": 3,
         "prev": 2,
         "labs": []
+      },
+      {
+        "name": "GPT 6",
+        "count": 3,
+        "prev": 3,
+        "labs": [
+          "openai"
+        ]
       },
       {
         "name": "GLM 5.3",
@@ -315,16 +317,16 @@
     "topics": [
       {
         "name": "agents",
-        "count": 52,
-        "prev": 34,
+        "count": 51,
+        "prev": 38,
         "labs": [
           "anthropic",
           "openai",
           "meta",
           "mistral",
+          "qwen",
           "cohere",
           "microsoft",
-          "qwen",
           "amazon",
           "bytedance",
           "ibm",
@@ -333,16 +335,16 @@
       },
       {
         "name": "coding",
-        "count": 38,
-        "prev": 26,
+        "count": 37,
+        "prev": 29,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
+          "qwen",
           "cohere",
           "microsoft",
-          "qwen",
           "amazon",
           "bytedance",
           "ibm",
@@ -370,9 +372,9 @@
           "google-deepmind",
           "deepseek",
           "openai",
-          "tencent",
           "qwen",
           "amazon",
+          "tencent",
           "ibm",
           "nvidia"
         ]
@@ -392,6 +394,17 @@
         ]
       },
       {
+        "name": "mcp",
+        "count": 5,
+        "prev": 4,
+        "labs": [
+          "anthropic",
+          "openai",
+          "qwen",
+          "amazon"
+        ]
+      },
+      {
         "name": "open-source",
         "count": 5,
         "prev": 3,
@@ -405,26 +418,16 @@
       },
       {
         "name": "audio",
-        "count": 4,
+        "count": 5,
         "prev": 5,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
-          "tencent",
           "amazon",
+          "tencent",
           "ibm",
           "nvidia"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 4,
-        "prev": 4,
-        "labs": [
-          "openai",
-          "qwen",
-          "amazon"
         ]
       }
     ]
@@ -533,6 +536,18 @@
       ],
       "reports": 2,
       "at": "2026-10-20T00:46:38.000Z"
+    },
+    {
+      "id": "nvidia:98d9d5c0af7044",
+      "lab": "nvidia",
+      "title": "Amazon Launches TorchNeuron to Challenge Nvidia's AI Grip",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVXZCX0hKakR0OGczLVBBbmNPMjcyS2x1aUcyRjlLUVdxOEVubXVlUk1kTjBYUE5BT19xLTBpb1htQnh6b0dRX1RzdzBwTkpKaTBtNjRDVUR4UHBNZEFjZVRUY2lrVWJDUFZmNHJKc3VGV3VRUUdYX2ExQWFkc2lUZnpsWnpyTm1CWldaYVBpR1VZMmVh?oc=5",
+      "outlets": [
+        "The Tech Buzz",
+        "NewsCord"
+      ],
+      "reports": 2,
+      "at": "2026-10-19T20:37:00.000Z"
     },
     {
       "id": "minimax:96564b8d90d1a2",

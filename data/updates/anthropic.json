@@ -1,5 +1,65 @@
 [
   {
+    "id": "d493f59b0064f50d",
+    "lab": "anthropic",
+    "title": "Claude Agent SDK (Python) v0.2.170",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.170",
+    "sourceId": "anthropic-agent-sdk",
+    "sourceName": "GitHub · anthropics/claude-agent-sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T04:15:33.000Z",
+    "firstSeenAt": "2026-10-21T04:58:36.683Z",
+    "updatedAt": "2026-10-21T04:15:33.000Z",
+    "excerpt": "Bug Fixes Fixed parallel tool calls missing from session messages : get_session_messages and get_session_messages_from_store now return every tool call and result from turns that ran tools in parallel. Previously only one branch of the forked transcript was followed, dropping some calls and results ( #1422 ) Internal/Other Changes Updated bundled Claude CLI to version 2.1.306 CI: release uploads to PyPI now use…",
+    "summary": "Anthropic shipped Claude Agent SDK (Python) v0.2.170 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "9e6aeb8baf20",
+    "meta": {
+      "version": "v0.2.170",
+      "semver": "patch",
+      "repo": "anthropics/claude-agent-sdk-python"
+    }
+  },
+  {
+    "id": "e35546215de17cb0",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.306",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T03:16:31.000Z",
+    "firstSeenAt": "2026-10-21T04:58:36.683Z",
+    "updatedAt": "2026-10-21T03:16:31.000Z",
+    "excerpt": "What's changed Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
+    "summary": "Anthropic shipped Claude Code v2.1.306 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "mcp"
+    ],
+    "importance": 25,
+    "contentHash": "03c2f3a15945",
+    "meta": {
+      "version": "v2.1.306",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "1b384a65c9391d0e",
     "lab": "anthropic",
     "title": "Claude Agent SDK (Python) v0.2.169",
@@ -883,7 +943,7 @@
     "verified": true,
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-20T23:57:39.440Z",
+    "updatedAt": "2026-10-21T04:58:36.683Z",
     "excerpt": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "summary": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -1018,7 +1078,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-20T23:57:39.440Z",
+    "updatedAt": "2026-10-21T04:58:36.683Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
@@ -1411,7 +1471,7 @@
     "verified": true,
     "publishedAt": "2026-09-28T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-20T23:57:39.440Z",
+    "updatedAt": "2026-10-21T04:58:36.683Z",
     "excerpt": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
     "summary": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",

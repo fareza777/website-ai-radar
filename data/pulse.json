@@ -4,8 +4,8 @@
     "title": "DeepInfer: High-performance inference framework for DeepSeek models",
     "url": "https://github.com/deepseek-ai/DeepInfer",
     "hnUrl": "https://news.ycombinator.com/item?id=50163277",
-    "points": 2097,
-    "comments": 818,
+    "points": 2186,
+    "comments": 848,
     "at": "2026-10-20T09:08:54Z",
     "lab": "deepseek",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
@@ -57,8 +57,8 @@
     "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
     "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
     "hnUrl": "https://news.ycombinator.com/item?id=50159341",
-    "points": 711,
-    "comments": 207,
+    "points": 720,
+    "comments": 208,
     "at": "2026-10-19T23:22:18Z",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
@@ -68,7 +68,7 @@
     "url": "https://mistral.ai/news/timestral/",
     "hnUrl": "https://news.ycombinator.com/item?id=50150434",
     "points": 614,
-    "comments": 119,
+    "comments": 120,
     "at": "2026-10-19T09:59:32Z",
     "lab": "mistral",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
@@ -85,12 +85,23 @@
     "firstSeenAt": "2026-10-18T11:18:39.615Z"
   },
   {
+    "id": "50168396",
+    "title": "Voxtral 3",
+    "url": "https://mistral.ai/news/voxtral-3/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50168396",
+    "points": 571,
+    "comments": 147,
+    "at": "2026-10-20T16:02:07Z",
+    "lab": "mistral",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z"
+  },
+  {
     "id": "50154244",
     "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
     "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
     "hnUrl": "https://news.ycombinator.com/item?id=50154244",
-    "points": 549,
-    "comments": 501,
+    "points": 560,
+    "comments": 511,
     "at": "2026-10-19T16:16:46Z",
     "lab": "deepseek",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -111,21 +122,10 @@
     "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
     "url": "https://arxiv.org/abs/2610.18861",
     "hnUrl": "https://news.ycombinator.com/item?id=50145337",
-    "points": 513,
+    "points": 516,
     "comments": 238,
     "at": "2026-10-18T20:48:14Z",
     "firstSeenAt": "2026-10-18T23:20:30.937Z"
-  },
-  {
-    "id": "50168396",
-    "title": "Voxtral 3",
-    "url": "https://mistral.ai/news/voxtral-3/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50168396",
-    "points": 488,
-    "comments": 133,
-    "at": "2026-10-20T16:02:07Z",
-    "lab": "mistral",
-    "firstSeenAt": "2026-10-20T19:21:23.050Z"
   },
   {
     "id": "50122951",
@@ -165,11 +165,21 @@
     "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
     "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
     "hnUrl": "https://news.ycombinator.com/item?id=50153630",
-    "points": 355,
+    "points": 356,
     "comments": 61,
     "at": "2026-10-19T15:28:24Z",
     "lab": "mistral",
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
+  },
+  {
+    "id": "50165801",
+    "title": "Publish fake stats, get cited in LLMs",
+    "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+    "hnUrl": "https://news.ycombinator.com/item?id=50165801",
+    "points": 330,
+    "comments": 192,
+    "at": "2026-10-20T13:06:22Z",
+    "firstSeenAt": "2026-10-20T19:21:23.050Z"
   },
   {
     "id": "50127979",
@@ -182,22 +192,12 @@
     "firstSeenAt": "2026-10-17T10:53:32.165Z"
   },
   {
-    "id": "50165801",
-    "title": "Publish fake stats, get cited in LLMs",
-    "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-    "hnUrl": "https://news.ycombinator.com/item?id=50165801",
-    "points": 314,
-    "comments": 179,
-    "at": "2026-10-20T13:06:22Z",
-    "firstSeenAt": "2026-10-20T19:21:23.050Z"
-  },
-  {
     "id": "50145507",
     "title": "If you don't run your own LLM proxy, how do you know whats going on?",
     "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
     "hnUrl": "https://news.ycombinator.com/item?id=50145507",
     "points": 300,
-    "comments": 214,
+    "comments": 215,
     "at": "2026-10-18T21:09:12Z",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
   },
@@ -279,8 +279,8 @@
     "title": "How abliterated models can get you pwned",
     "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
     "hnUrl": "https://news.ycombinator.com/item?id=50159245",
-    "points": 225,
-    "comments": 132,
+    "points": 234,
+    "comments": 133,
     "at": "2026-10-19T23:08:52Z",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
@@ -333,8 +333,8 @@
     "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
     "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
     "hnUrl": "https://news.ycombinator.com/item?id=50148855",
-    "points": 166,
-    "comments": 125,
+    "points": 168,
+    "comments": 127,
     "at": "2026-10-19T05:55:31Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
@@ -355,7 +355,7 @@
     "url": "https://www.anthropic.com/research/employment-at-anthropic",
     "hnUrl": "https://news.ycombinator.com/item?id=50139873",
     "points": 159,
-    "comments": 252,
+    "comments": 254,
     "at": "2026-10-18T10:49:26Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-18T15:57:20.114Z"
@@ -385,7 +385,7 @@
     "title": "Show HN: WhatsApp MCP running free on Cloudflare",
     "url": "https://github.com/finereli/whatsapp-mcp",
     "hnUrl": "https://news.ycombinator.com/item?id=50145715",
-    "points": 154,
+    "points": 155,
     "comments": 81,
     "at": "2026-10-18T21:36:10Z",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -405,8 +405,8 @@
     "title": "The obscure trust looming over Anthropic's IPO",
     "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
     "hnUrl": "https://news.ycombinator.com/item?id=50151376",
-    "points": 149,
-    "comments": 141,
+    "points": 150,
+    "comments": 142,
     "at": "2026-10-19T12:06:03Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
@@ -433,6 +433,27 @@
     "firstSeenAt": "2026-10-17T20:42:32.148Z"
   },
   {
+    "id": "50152466",
+    "title": "Maxwell: A new kind of model that sits between code and hardware",
+    "url": "https://heymaxwell.ai/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50152466",
+    "points": 130,
+    "comments": 66,
+    "at": "2026-10-19T13:47:56Z",
+    "firstSeenAt": "2026-10-20T14:21:40.747Z"
+  },
+  {
+    "id": "50171966",
+    "title": "Anthropic logged net loss of over $80B in first half of 2026",
+    "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50171966",
+    "points": 130,
+    "comments": 57,
+    "at": "2026-10-20T20:09:46Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-20T23:57:39.440Z"
+  },
+  {
     "id": "50085553",
     "title": "AI-assisted PCB design for KiCad 10",
     "url": "https://github.com/mixelpixx/Konnect",
@@ -441,16 +462,6 @@
     "comments": 48,
     "at": "2026-10-14T10:51:37Z",
     "firstSeenAt": "2026-10-16T16:45:25.416Z"
-  },
-  {
-    "id": "50152466",
-    "title": "Maxwell: A new kind of model that sits between code and hardware",
-    "url": "https://heymaxwell.ai/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50152466",
-    "points": 128,
-    "comments": 63,
-    "at": "2026-10-19T13:47:56Z",
-    "firstSeenAt": "2026-10-20T14:21:40.747Z"
   },
   {
     "id": "50090842",
@@ -483,6 +494,17 @@
     "firstSeenAt": "2026-10-18T20:52:46.911Z"
   },
   {
+    "id": "50170021",
+    "title": "Claude designed protein binders against scorpion neurotoxins",
+    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "hnUrl": "https://news.ycombinator.com/item?id=50170021",
+    "points": 101,
+    "comments": 64,
+    "at": "2026-10-20T17:48:29Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-20T23:57:39.440Z"
+  },
+  {
     "id": "50128468",
     "title": "Why Math Dumped OpenAI",
     "url": "https://raymyers.org/post/math-dumped-openai/",
@@ -503,28 +525,6 @@
     "at": "2026-10-16T17:31:42Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-16T21:19:28.792Z"
-  },
-  {
-    "id": "50170021",
-    "title": "Claude designed protein binders against scorpion neurotoxins",
-    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-    "hnUrl": "https://news.ycombinator.com/item?id=50170021",
-    "points": 87,
-    "comments": 57,
-    "at": "2026-10-20T17:48:29Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-20T23:57:39.440Z"
-  },
-  {
-    "id": "50171966",
-    "title": "Anthropic logged net loss of over $80B in first half of 2026",
-    "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50171966",
-    "points": 85,
-    "comments": 46,
-    "at": "2026-10-20T20:09:46Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-20T23:57:39.440Z"
   },
   {
     "id": "50086363",

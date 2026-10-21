@@ -1,16 +1,21 @@
 [
   {
     "date": "2026-10-21",
-    "generatedAt": "2026-10-20T23:57:39.440Z",
+    "generatedAt": "2026-10-21T04:58:36.683Z",
     "stats": {
-      "updates24h": 22,
-      "labsActive24h": 9,
-      "updates7d": 130,
-      "newModels7d": 39
+      "updates24h": 25,
+      "labsActive24h": 8,
+      "updates7d": 126,
+      "newModels7d": 37
     },
     "source": "template",
-    "headline": "22 updates from 9 AI labs in the last 24 hours · 39 model releases this week.",
+    "headline": "25 updates from 8 AI labs in the last 24 hours · 37 model releases this week.",
     "bullets": [
+      {
+        "text": "OpenAI: Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+        "itemId": "a84b6a7bee5c68a6",
+        "lab": "openai"
+      },
       {
         "text": "Mistral AI: Voxtral 3",
         "itemId": "afe5d96a9d4684fb",
@@ -32,14 +37,9 @@
         "lab": "amazon"
       },
       {
-        "text": "Cohere: Rethinking confidence in reasoning models",
-        "itemId": "4b3ccd0a9d656ec9",
-        "lab": "cohere"
-      },
-      {
-        "text": "OpenAI: Franchisee reconciles cash in 94% less time with ChatGPT Work",
-        "itemId": "b3fcb2e42d321123",
-        "lab": "openai"
+        "text": "Google DeepMind: Southeast Asia’s digital economy to hit $368 billion",
+        "itemId": "6bc0a4e087e6311f",
+        "lab": "google-deepmind"
       }
     ]
   },

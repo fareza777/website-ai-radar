@@ -829,6 +829,28 @@
     "contentHash": "bc1953c55d63"
   },
   {
+    "id": "7d3780bd1cbda9a9",
+    "lab": "amazon",
+    "title": "Amazon Bedrock AgentCore Memory now supports configurable time-to-live for long-term memory",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-long-term-memory-ttl",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-13T16:00:00.000Z",
+    "firstSeenAt": "2026-10-21T04:58:36.683Z",
+    "updatedAt": "2026-10-13T16:00:00.000Z",
+    "excerpt": "Amazon Bedrock AgentCore Memory now lets you set a time-to-live (TTL) on long-term memory records, so they are automatically deleted after a retention period you define. By default, long-term memory records do not expire. With this launch, you can configure a TTL to meet data-retention requirements, control storage growth, and ensure that stale insights age out of a memory over time. You can configure retention on…",
+    "summary": "Amazon Bedrock AgentCore Memory now lets you set a time-to-live (TTL) on long-term memory records, so they are automatically deleted after a retention period you define.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "5c2583cde0e0"
+  },
+  {
     "id": "576253ed894737fc",
     "lab": "amazon",
     "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",

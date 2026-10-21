@@ -92,6 +92,35 @@
     "contentHash": "77c760955059"
   },
   {
+    "id": "c0e1585a4edc9e68",
+    "lab": "nvidia",
+    "title": "TensorRT-LLM v1.4.0",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.4.0rc1",
+    "sourceId": "tensorrt-llm",
+    "sourceName": "GitHub · NVIDIA/TensorRT-LLM",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-19T04:44:01.000Z",
+    "firstSeenAt": "2026-10-21T04:58:36.683Z",
+    "updatedAt": "2026-10-19T04:44:01.000Z",
+    "excerpt": "Signed-off-by: trtllm-agent 296075020+trtllm-agent@users.noreply.github.com",
+    "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "1b6744d1271e",
+    "meta": {
+      "version": "v1.4.0",
+      "semver": "minor",
+      "repo": "NVIDIA/TensorRT-LLM"
+    }
+  },
+  {
     "id": "af59b3284175b1f2",
     "lab": "nvidia",
     "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
@@ -574,7 +603,7 @@
     "importance": 67,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 138,
+      "likes": 139,
       "downloads": 6820,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1624,7 +1653,7 @@
     "importance": 62,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 30,
+      "likes": 33,
       "downloads": 861,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
@@ -1655,7 +1684,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 786,
+      "likes": 787,
       "downloads": 109698,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
