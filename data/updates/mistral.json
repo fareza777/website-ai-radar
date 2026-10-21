@@ -1,5 +1,27 @@
 [
   {
+    "id": "82899c94557909a4",
+    "lab": "mistral",
+    "title": "Mistral Advances AI for Engineering with NVIDIA",
+    "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering",
+    "sourceId": "mistral-news",
+    "sourceName": "Mistral News",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-21T12:00:20.000Z",
+    "firstSeenAt": "2026-10-21T17:19:55.191Z",
+    "updatedAt": "2026-10-21T12:00:20.000Z",
+    "excerpt": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.",
+    "summary": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 55,
+    "contentHash": "8766e448394c"
+  },
+  {
     "id": "360cf5fe96615f37",
     "lab": "mistral",
     "title": "Mistral Vibe v3.0.1",
@@ -128,10 +150,10 @@
     "tags": [
       "123M"
     ],
-    "importance": 67,
+    "importance": 68,
     "contentHash": "417d409580a4",
     "meta": {
-      "likes": 35,
+      "likes": 36,
       "downloads": 1996,
       "repo": "mistralai/Timestral-123M",
       "pipeline": "time-series-forecasting",
@@ -162,7 +184,7 @@
     "importance": 67,
     "contentHash": "bb226bca6d6b",
     "meta": {
-      "likes": 31,
+      "likes": 32,
       "downloads": 3629,
       "repo": "mistralai/Timestral-28M",
       "pipeline": "time-series-forecasting",
@@ -190,10 +212,10 @@
     "tags": [
       "5M"
     ],
-    "importance": 69,
+    "importance": 70,
     "contentHash": "fd4a807fe29b",
     "meta": {
-      "likes": 60,
+      "likes": 64,
       "downloads": 3315,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
@@ -224,7 +246,7 @@
     "importance": 74,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 248,
+      "likes": 256,
       "downloads": 5488,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
@@ -282,7 +304,7 @@
     "importance": 66,
     "contentHash": "c984e1dce577",
     "meta": {
-      "likes": 25,
+      "likes": 26,
       "downloads": 162,
       "repo": "mistralai/LIDstral-Arabic",
       "pipeline": "text-classification",
@@ -314,7 +336,7 @@
     "importance": 68,
     "contentHash": "11354caaa84e",
     "meta": {
-      "likes": 41,
+      "likes": 42,
       "downloads": 1454,
       "repo": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
       "pipeline": "automatic-speech-recognition"

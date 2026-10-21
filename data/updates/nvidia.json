@@ -1,5 +1,27 @@
 [
   {
+    "id": "eb16235ac421051a",
+    "lab": "nvidia",
+    "title": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search",
+    "url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T12:30:00.000Z",
+    "firstSeenAt": "2026-10-21T17:19:55.191Z",
+    "updatedAt": "2026-10-21T12:30:00.000Z",
+    "excerpt": "Protein design is a search problem. Choose amino acids for an eight-residue protein sequence and more than 25 billion combinations are possible. Choose amino... Protein design is a search problem. Choose amino acids for an eight-residue protein sequence and more than 25 billion combinations are possible. Choose amino acids for a 100-residue protein sequence and the number of possibilities exceeds the number of atoms…",
+    "summary": "Protein design is a search problem.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "b8c00d8fb63c"
+  },
+  {
     "id": "4ad89d65a44a1c50",
     "lab": "nvidia",
     "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
@@ -915,7 +937,7 @@
     "importance": 67,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 142,
+      "likes": 143,
       "downloads": 7494,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1130,7 +1152,7 @@
     "importance": 66,
     "contentHash": "b721cbc7be2c",
     "meta": {
-      "likes": 88,
+      "likes": 89,
       "downloads": 0,
       "repo": "nvidia/PixelUMM",
       "pipeline": "any-to-any",
@@ -1965,7 +1987,7 @@
     "importance": 63,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 38,
+      "likes": 41,
       "downloads": 1217,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
@@ -1996,7 +2018,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 789,
+      "likes": 790,
       "downloads": 115730,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
@@ -2025,7 +2047,7 @@
     "importance": 67,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 143,
+      "likes": 144,
       "downloads": 17867,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"

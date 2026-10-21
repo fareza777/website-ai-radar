@@ -1,5 +1,133 @@
 [
   {
+    "id": "f6fd98a8be651fea",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "prompt",
+    "from": 0.048,
+    "to": 0.15,
+    "change": 212.5
+  },
+  {
+    "id": "7ac84446f2113016",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "completion",
+    "from": 0.16,
+    "to": 0.5,
+    "change": 212.5
+  },
+  {
+    "id": "01b71e7a1c513c97",
+    "modelId": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "lab": "zai",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "prompt",
+    "from": 0.62,
+    "to": 0.0341,
+    "change": -94.5
+  },
+  {
+    "id": "10a5949232d7cb3e",
+    "modelId": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "lab": "zai",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "completion",
+    "from": 2.42,
+    "to": 7,
+    "change": 189.3
+  },
+  {
+    "id": "b19d3c3b04761a73",
+    "modelId": "xiaomi/mimo-v2.5-pro",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "prompt",
+    "from": 0.435,
+    "to": 0.3045,
+    "change": -30
+  },
+  {
+    "id": "a78bbdf2ce3ff5a0",
+    "modelId": "xiaomi/mimo-v2.5-pro",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "completion",
+    "from": 0.87,
+    "to": 0.609,
+    "change": -30
+  },
+  {
+    "id": "b1e04951833e7dc5",
+    "modelId": "xiaomi/mimo-v2.5",
+    "name": "Xiaomi: MiMo-V2.5",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "prompt",
+    "from": 0.14,
+    "to": 0.119,
+    "change": -15
+  },
+  {
+    "id": "6acd7680028d029a",
+    "modelId": "xiaomi/mimo-v2.5",
+    "name": "Xiaomi: MiMo-V2.5",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "completion",
+    "from": 0.28,
+    "to": 0.238,
+    "change": -15
+  },
+  {
+    "id": "85cdcf1c9a421fb1",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "prompt",
+    "from": 0.966,
+    "to": 1.4,
+    "change": 44.9
+  },
+  {
+    "id": "87084fa6424644ef",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "completion",
+    "from": 3.036,
+    "to": 4.4,
+    "change": 44.9
+  },
+  {
+    "id": "d9d3132407489521",
+    "modelId": "qwen/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "lab": "qwen",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "prompt",
+    "from": 0.1,
+    "to": 0.08,
+    "change": -20
+  },
+  {
+    "id": "6ab9cf94ee590883",
+    "modelId": "qwen/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "lab": "qwen",
+    "at": "2026-10-21T17:19:55.191Z",
+    "field": "completion",
+    "from": 0.15,
+    "to": 0.13,
+    "change": -13.3
+  },
+  {
     "id": "a69b2a1306d403cb",
     "modelId": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",

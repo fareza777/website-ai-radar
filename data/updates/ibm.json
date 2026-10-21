@@ -1,5 +1,27 @@
 [
   {
+    "id": "7ca92b76f40e62d7",
+    "lab": "ibm",
+    "title": "A new plugin can enable fast runtime monitoring and control",
+    "url": "https://research.ibm.com/blog/fast-interpretability-plugin-vllm",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "firstSeenAt": "2026-10-21T17:19:55.191Z",
+    "updatedAt": "2026-10-21T12:00:00.000Z",
+    "excerpt": "IBM's vLLM-Hook MIA lets developers inspect and edit the AI generation process with hardly any delay.",
+    "summary": "IBM's vLLM-Hook MIA lets developers inspect and edit the AI generation process with hardly any delay.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 30,
+    "contentHash": "bbcf30d687e2"
+  },
+  {
     "id": "b64d539ee639b00f",
     "lab": "ibm",
     "title": "Docling v2.141.0",
@@ -346,6 +368,38 @@
       "version": "v2.136.0",
       "semver": "minor",
       "repo": "docling-project/docling"
+    }
+  },
+  {
+    "id": "35f57c1eaaf84c6d",
+    "lab": "ibm",
+    "title": "granite-speech-5.0-2b",
+    "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b",
+    "sourceId": "ibm-granite-hf",
+    "sourceName": "Hugging Face · ibm-granite",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-07T16:10:49.000Z",
+    "firstSeenAt": "2026-10-21T17:19:55.191Z",
+    "updatedAt": "2026-10-07T16:10:49.000Z",
+    "excerpt": "automatic-speech-recognition · license: apache-2.0",
+    "summary": "IBM published the granite-speech-5.0-2b model on Hugging Face for speech recognition (ASR). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "2B",
+      "audio"
+    ],
+    "importance": 60,
+    "contentHash": "a598e14a409a",
+    "meta": {
+      "likes": 17,
+      "downloads": 105,
+      "repo": "ibm-granite/granite-speech-5.0-2b",
+      "pipeline": "automatic-speech-recognition",
+      "license": "apache-2.0"
     }
   },
   {
@@ -1117,10 +1171,10 @@
       "470M",
       "audio"
     ],
-    "importance": 65,
+    "importance": 66,
     "contentHash": "d9d402627057",
     "meta": {
-      "likes": 84,
+      "likes": 87,
       "downloads": 59402,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",
