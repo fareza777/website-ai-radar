@@ -1,5 +1,35 @@
 [
   {
+    "id": "ab8d7d65380d8267",
+    "lab": "qwen",
+    "title": "Qwen Code cua-driver-rs v0.26.0",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.26.0",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T08:22:13.000Z",
+    "firstSeenAt": "2026-10-21T11:59:56.158Z",
+    "updatedAt": "2026-10-21T08:22:13.000Z",
+    "excerpt": "Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the target machine before UIAccess activation Node.js : the same workflow publishes @qwen-code/cua-sdk…",
+    "summary": "Alibaba Qwen shipped Qwen Code cua-driver-rs v0.26.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "e6ed067deb9b",
+    "meta": {
+      "version": "v0.26.0",
+      "semver": "minor",
+      "repo": "QwenLM/qwen-code",
+      "package": "cua-driver-rs"
+    }
+  },
+  {
     "id": "4ac761225dba94bd",
     "lab": "qwen",
     "title": "Qwen Code desktop v0.25.3",
@@ -200,10 +230,10 @@
     "summarySource": "template",
     "category": "developer",
     "tags": [],
-    "importance": 43,
+    "importance": 44,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 176,
+      "stars": 182,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -321,8 +351,8 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1015,
-      "downloads": 27652,
+      "likes": 1019,
+      "downloads": 29826,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
       "license": "other"
@@ -470,7 +500,7 @@
     "contentHash": "d108635bb7df",
     "meta": {
       "likes": 66,
-      "downloads": 17417,
+      "downloads": 16639,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
     }
@@ -499,8 +529,8 @@
     "importance": 70,
     "contentHash": "2deb903ef0b2",
     "meta": {
-      "likes": 69,
-      "downloads": 10691,
+      "likes": 70,
+      "downloads": 9713,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
       "license": "other"
@@ -586,8 +616,8 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3396,
-      "downloads": 184994,
+      "likes": 3401,
+      "downloads": 183038,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
       "license": "other"
@@ -625,7 +655,7 @@
     "importance": 44,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 218,
+      "stars": 219,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -681,7 +711,7 @@
     "importance": 42,
     "contentHash": "978160f51b54",
     "meta": {
-      "stars": 113,
+      "stars": 114,
       "repo": "QwenLM/E-CommerceBench",
       "language": "Python"
     }
@@ -746,8 +776,8 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6364,
-      "downloads": 2530599,
+      "likes": 6375,
+      "downloads": 2633567,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -777,8 +807,8 @@
     "importance": 95,
     "contentHash": "df6b90143e8c",
     "meta": {
-      "likes": 1322,
-      "downloads": 25844,
+      "likes": 1323,
+      "downloads": 25804,
       "repo": "Qwen/Qwen3.8-2.4T-A95B",
       "pipeline": "text-generation",
       "license": "other"
@@ -809,8 +839,8 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 18076,
-      "downloads": 7586857,
+      "likes": 18100,
+      "downloads": 7729432,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T04:58:36.683Z",
+  "generatedAt": "2026-10-21T11:59:56.158Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -28,10 +28,10 @@
         "Business Wire",
         "巴士的報",
         "Newsquawk",
+        "Nasdaq",
         "Nscale",
         "StreetInsider",
         "LMSYS Org",
-        "Nasdaq",
         "GameGPU",
         "NewsCord"
       ],
@@ -52,19 +52,19 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 35,
+      "press": 36,
       "outlets": [
         "The National Law Review",
         "The American Bazaar",
         "Business Insider",
         "The Next Web",
+        "9to5Google",
         "Search Engine Journal",
         "Search Engine Roundtable",
         "Engadget",
         "SiliconANGLE",
         "The Verge",
         "WinBuzzer",
-        "9to5Google",
         "Ars Technica",
         "CNET",
         "Techzine Global",
@@ -91,6 +91,7 @@
         "Channel Insider",
         "TechRepublic",
         "PYMNTS.com",
+        "ActuIA",
         "shattered.io",
         "Towards Data Science"
       ],
@@ -217,7 +218,7 @@
         "deepseek"
       ],
       "official": 0,
-      "press": 8,
+      "press": 9,
       "outlets": [
         "https://tech-insider.org/",
         "Pandaily",
@@ -225,6 +226,8 @@
         "Briefs Finance",
         "Techzine Global",
         "Quartz",
+        "SiliconANGLE",
+        "MarkTechPost",
         "Interconnects AI"
       ],
       "firstAt": "2026-10-12T10:10:33.000Z",
@@ -234,7 +237,7 @@
         "kind": "press",
         "id": "deepseek:a10506682e04b2"
       },
-      "importance": 59
+      "importance": 61
     },
     {
       "id": "xai:92ecac57376cc6",
@@ -264,8 +267,8 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 29,
-        "prev": 28,
+        "count": 23,
+        "prev": 35,
         "labs": [
           "google-deepmind"
         ]
@@ -281,8 +284,8 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 11,
-        "prev": 3,
+        "count": 12,
+        "prev": 2,
         "labs": [
           "deepseek"
         ]
@@ -294,59 +297,51 @@
         "labs": []
       },
       {
-        "name": "GLM 5.5",
+        "name": "GLM 5.3",
         "count": 3,
-        "prev": 2,
+        "prev": 1,
         "labs": []
       },
       {
-        "name": "GPT 6",
+        "name": "GLM 5.5",
         "count": 3,
-        "prev": 3,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
-        "name": "GLM 5.3",
-        "count": 3,
-        "prev": 3,
+        "prev": 2,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 51,
-        "prev": 38,
+        "count": 57,
+        "prev": 41,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "mistral",
-          "qwen",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "bytedance",
+          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 37,
-        "prev": 29,
+        "count": 39,
+        "prev": 30,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
-          "qwen",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "bytedance",
+          "qwen",
           "ibm",
           "nvidia"
         ]
@@ -359,37 +354,36 @@
           "meta",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 8,
-        "prev": 10,
+        "count": 9,
+        "prev": 9,
         "labs": [
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
-          "qwen",
           "amazon",
           "tencent",
+          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
-        "name": "safety",
-        "count": 7,
-        "prev": 5,
+        "name": "open-source",
+        "count": 6,
+        "prev": 3,
         "labs": [
           "anthropic",
-          "google-deepmind",
-          "openai",
-          "mistral",
+          "meta",
           "amazon",
-          "bytedance",
+          "microsoft",
+          "ibm",
           "nvidia"
         ]
       },
@@ -400,20 +394,22 @@
         "labs": [
           "anthropic",
           "openai",
-          "qwen",
-          "amazon"
+          "amazon",
+          "qwen"
         ]
       },
       {
-        "name": "open-source",
+        "name": "safety",
         "count": 5,
-        "prev": 3,
+        "prev": 8,
         "labs": [
           "anthropic",
-          "meta",
-          "microsoft",
+          "google-deepmind",
+          "openai",
+          "mistral",
           "amazon",
-          "ibm"
+          "bytedance",
+          "nvidia"
         ]
       },
       {
@@ -427,6 +423,16 @@
           "amazon",
           "tencent",
           "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "rag",
+        "count": 2,
+        "prev": 3,
+        "labs": [
+          "cohere",
+          "amazon",
           "nvidia"
         ]
       }

@@ -1,25 +1,30 @@
 [
   {
     "date": "2026-10-21",
-    "generatedAt": "2026-10-21T04:58:36.683Z",
+    "generatedAt": "2026-10-21T11:59:56.158Z",
     "stats": {
-      "updates24h": 25,
+      "updates24h": 34,
       "labsActive24h": 8,
-      "updates7d": 126,
-      "newModels7d": 37
+      "updates7d": 135,
+      "newModels7d": 41
     },
     "source": "template",
-    "headline": "25 updates from 8 AI labs in the last 24 hours · 37 model releases this week.",
+    "headline": "34 updates from 8 AI labs in the last 24 hours · 41 model releases this week.",
     "bullets": [
-      {
-        "text": "OpenAI: Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-        "itemId": "a84b6a7bee5c68a6",
-        "lab": "openai"
-      },
       {
         "text": "Mistral AI: Voxtral 3",
         "itemId": "afe5d96a9d4684fb",
         "lab": "mistral"
+      },
+      {
+        "text": "NVIDIA: NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+        "itemId": "3df8ce2aed7d825d",
+        "lab": "nvidia"
+      },
+      {
+        "text": "NVIDIA: Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+        "itemId": "d290a28d44092657",
+        "lab": "nvidia"
       },
       {
         "text": "Amazon: Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
@@ -30,11 +35,6 @@
         "text": "IBM: llm-d 1.0 hardens open-source AI inference for production",
         "itemId": "8a14a92d09a13dfe",
         "lab": "ibm"
-      },
-      {
-        "text": "Amazon: Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
-        "itemId": "c4ccece22afdd805",
-        "lab": "amazon"
       },
       {
         "text": "Google DeepMind: Southeast Asia’s digital economy to hit $368 billion",

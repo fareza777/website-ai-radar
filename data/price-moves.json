@@ -1,5 +1,27 @@
 [
   {
+    "id": "a69b2a1306d403cb",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-21T11:59:56.158Z",
+    "field": "prompt",
+    "from": 0.2088,
+    "to": 0.95526,
+    "change": 357.5
+  },
+  {
+    "id": "309f4945451d8cac",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-21T11:59:56.158Z",
+    "field": "completion",
+    "from": 0.4176,
+    "to": 1.91052,
+    "change": 357.5
+  },
+  {
     "id": "df76ddb77d2021b9",
     "modelId": "mistralai/mistral-large-4-0",
     "name": "Mistral: Mistral Large 4",
