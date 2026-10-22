@@ -114,6 +114,30 @@
     }
   },
   {
+    "id": "d817cc0813866f6b",
+    "lab": "amazon",
+    "title": "Amazon SageMaker AI now supports custom sequence lengths for serverless model customization jobs",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-sequence-lengths",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T08:00:00.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-21T08:00:00.000Z",
+    "excerpt": "Today, Amazon SageMaker AI announces the ability to configure the sequence length used during your serverless model customization job. Amazon SageMaker AI serverless model customization supports fine-tuning for many open-weight models, including models from popular families including gpt-oss, Gemma, Llama, Nemotron, and Qwen. Previously, each fine-tuning recipe ran at a fixed sequence length that customers could not…",
+    "summary": "Today, Amazon SageMaker AI announces the ability to configure the sequence length used during your serverless model customization job.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source"
+    ],
+    "importance": 60,
+    "contentHash": "2bda21e56246"
+  },
+  {
     "id": "209f0f415bceb89a",
     "lab": "amazon",
     "title": "Work management context for AI agents with Smartsheet MCP on AWS",

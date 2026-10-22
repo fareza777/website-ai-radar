@@ -1,5 +1,94 @@
 [
   {
+    "id": "831ab4bfc7768f3a",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.308",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T04:34:55.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-22T04:34:55.000Z",
+    "excerpt": "What's changed Bug fixes and reliability improvements",
+    "summary": "Anthropic shipped Claude Code v2.1.308 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "c2a9d0f773f5",
+    "meta": {
+      "version": "v2.1.308",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
+    "id": "b1284a54fe92b526",
+    "lab": "anthropic",
+    "title": "Claude Agent SDK (Python) v0.2.171",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.171",
+    "sourceId": "anthropic-agent-sdk",
+    "sourceName": "GitHub · anthropics/claude-agent-sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T23:06:54.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-21T23:06:54.000Z",
+    "excerpt": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.307 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.171/ pip install claude-agent-sdk==0.2.171",
+    "summary": "Anthropic shipped Claude Agent SDK (Python) v0.2.171 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "c1ec08875324",
+    "meta": {
+      "version": "v0.2.171",
+      "semver": "patch",
+      "repo": "anthropics/claude-agent-sdk-python"
+    }
+  },
+  {
+    "id": "2a7200426574942c",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.307",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T22:17:02.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-21T22:17:02.000Z",
+    "excerpt": "What's changed Added /claude-api api-version to move Claude API code to API version 2026-10-21 Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back Fixed requests failing with a model-not-found error when CLAUDE_CODE_DISABLE_1M_CONTEXT is set and the model is an alias with the [1m] suffix, such as…",
+    "summary": "Anthropic shipped Claude Code v2.1.307 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "safety"
+    ],
+    "importance": 25,
+    "contentHash": "649456777680",
+    "meta": {
+      "version": "v2.1.307",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "d493f59b0064f50d",
     "lab": "anthropic",
     "title": "Claude Agent SDK (Python) v0.2.170",
@@ -1035,7 +1124,7 @@
     "verified": true,
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-21T21:48:23.060Z",
+    "updatedAt": "2026-10-22T04:59:19.574Z",
     "excerpt": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "summary": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -1170,7 +1259,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-21T21:48:23.060Z",
+    "updatedAt": "2026-10-22T04:59:19.574Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
@@ -1563,7 +1652,7 @@
     "verified": true,
     "publishedAt": "2026-09-28T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-21T21:48:23.060Z",
+    "updatedAt": "2026-10-22T04:59:19.574Z",
     "excerpt": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
     "summary": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",

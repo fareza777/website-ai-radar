@@ -88,6 +88,37 @@
     "contentHash": "9fb730381f98"
   },
   {
+    "id": "be75ea8912a0fb62",
+    "lab": "microsoft",
+    "title": "Sentiment-Analysis-7B",
+    "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B",
+    "sourceId": "microsoft-hf",
+    "sourceName": "Hugging Face · microsoft",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-17T00:51:18.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-17T00:51:18.000Z",
+    "excerpt": "text-generation · license: mit",
+    "summary": "Microsoft published the Sentiment-Analysis-7B model on Hugging Face for text generation (LLM). License: mit.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "7B"
+    ],
+    "importance": 60,
+    "contentHash": "c7ac7f097f76",
+    "meta": {
+      "likes": 15,
+      "downloads": 123,
+      "repo": "microsoft/Sentiment-Analysis-7B",
+      "pipeline": "text-generation",
+      "license": "mit"
+    }
+  },
+  {
     "id": "1cf09e23a2a13be7",
     "lab": "microsoft",
     "title": "Managing open-weight model risk in enterprise deployments",
@@ -609,7 +640,7 @@
     "importance": 65,
     "contentHash": "4f0bc4169b75",
     "meta": {
-      "likes": 74,
+      "likes": 75,
       "downloads": 1169,
       "repo": "microsoft/AesCode-8B",
       "pipeline": "image-text-to-text",
@@ -852,7 +883,7 @@
     "importance": 68,
     "contentHash": "dedfbfa6454f",
     "meta": {
-      "likes": 159,
+      "likes": 160,
       "downloads": 2180,
       "repo": "microsoft/FrogNano-4B-2609",
       "license": "mit"
@@ -880,10 +911,10 @@
       "1.5B",
       "audio"
     ],
-    "importance": 64,
+    "importance": 65,
     "contentHash": "a578814b8678",
     "meta": {
-      "likes": 63,
+      "likes": 64,
       "downloads": 2085,
       "repo": "microsoft/VibeVoice-ASR-Streaming-1.5B",
       "pipeline": "automatic-speech-recognition",
@@ -915,7 +946,7 @@
     "importance": 69,
     "contentHash": "806cdab3e7ad",
     "meta": {
-      "likes": 259,
+      "likes": 260,
       "downloads": 1729,
       "repo": "microsoft/VibeVoice-ASR-Streaming-7B",
       "pipeline": "automatic-speech-recognition",
@@ -1043,7 +1074,7 @@
     "importance": 63,
     "contentHash": "a4e4cd3da320",
     "meta": {
-      "likes": 42,
+      "likes": 43,
       "downloads": 270,
       "repo": "microsoft/Mage-ViT",
       "pipeline": "image-feature-extraction",
@@ -1074,7 +1105,7 @@
     "importance": 71,
     "contentHash": "a23d886d9109",
     "meta": {
-      "likes": 437,
+      "likes": 438,
       "downloads": 8987,
       "repo": "microsoft/Mage-VL",
       "pipeline": "image-text-to-text",
@@ -1105,7 +1136,7 @@
     "importance": 69,
     "contentHash": "3c7a6571567c",
     "meta": {
-      "likes": 207,
+      "likes": 208,
       "downloads": 63522,
       "repo": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",

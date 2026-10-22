@@ -437,17 +437,15 @@
     "verified": true,
     "publishedAt": "2026-10-19T04:44:01.000Z",
     "firstSeenAt": "2026-10-21T04:58:36.683Z",
-    "updatedAt": "2026-10-19T04:44:01.000Z",
-    "excerpt": "Signed-off-by: trtllm-agent 296075020+trtllm-agent@users.noreply.github.com",
+    "updatedAt": "2026-10-22T04:59:19.574Z",
+    "excerpt": "Highlights Known Issues Disaggregated serving with the default Python KV cache transceiver may fail generation requests with a KV cache transfer error after streaming requests are cancelled (observed on A100). The OpenAI JSON-schema serving example (examples/serve/openai_completion_client_json_schema.py) may return an unbounded response with Qwen3 models. Model Support Add DeepSeek-V4.1-Flash support #19727 Support…",
     "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
-    "tags": [
-      "agents"
-    ],
+    "tags": [],
     "importance": 40,
-    "contentHash": "1b6744d1271e",
+    "contentHash": "9d4b0bdba2b2",
     "meta": {
       "version": "v1.4.0",
       "semver": "minor",
@@ -937,7 +935,7 @@
     "importance": 67,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 144,
+      "likes": 145,
       "downloads": 7494,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1129,6 +1127,36 @@
     ],
     "importance": 75,
     "contentHash": "32adc06296e2"
+  },
+  {
+    "id": "ce9a2fa9c0bd1ee8",
+    "lab": "nvidia",
+    "title": "Flora-Captioner",
+    "url": "https://huggingface.co/nvidia/Flora-Captioner",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-01T22:22:57.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-01T22:22:57.000Z",
+    "excerpt": "image-text-to-text",
+    "summary": "NVIDIA published the Flora-Captioner model on Hugging Face for multimodal (image + text).",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 61,
+    "contentHash": "328bbaa4e167",
+    "meta": {
+      "likes": 25,
+      "downloads": 185,
+      "repo": "nvidia/Flora-Captioner",
+      "pipeline": "image-text-to-text"
+    }
   },
   {
     "id": "964086eae3922d9e",
@@ -1984,10 +2012,10 @@
     "tags": [
       "multimodal"
     ],
-    "importance": 63,
+    "importance": 64,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 44,
+      "likes": 53,
       "downloads": 1217,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
@@ -2018,7 +2046,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 791,
+      "likes": 793,
       "downloads": 115730,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
@@ -2047,7 +2075,7 @@
     "importance": 67,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 145,
+      "likes": 146,
       "downloads": 17867,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"

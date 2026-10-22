@@ -1,5 +1,96 @@
 [
   {
+    "id": "ad2b07ad4fec2079",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.22",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.22",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T00:23:42.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-22T00:23:42.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.26.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.22 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "47e26de0d86c",
+    "meta": {
+      "version": "v0.1.22",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
+    "id": "4e79f34f0f7d0ab9",
+    "lab": "qwen",
+    "title": "Qwen Code v0.26.0",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.0",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T00:02:31.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-22T00:02:31.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(daemon): support session-targeted Skill and Extension refresh ( #14050 ) by @callmeYe feat(runtime-broker): Session-create warm for Workspace-isolated bound Sessions ( #14599 ) by @doudouOUC feat(managed-agent): ship a configuration template in the reference distribution ( #14631 ) by…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.26.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "26dc41e5d440",
+    "meta": {
+      "version": "v0.26.0",
+      "semver": "minor",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "af0defe4c9dc3336",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.26.0",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.0",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T23:50:15.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-21T23:50:15.000Z",
+    "excerpt": "What's Changed feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in #14050 fix(managed-agent): bound initial publication guard waits by @yiliang114 in #14563 feat(runtime-broker): Session-create warm for Workspace-isolated bound Sessions by @doudouOUC in #14599 test(cli): give turn-settling waits the slow-host budget by @yiliang114 in #14598 feat(managed-agent): ship a configuration…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.26.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "fd78c2ad322d",
+    "meta": {
+      "version": "v0.26.0",
+      "semver": "minor",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
     "id": "ab8d7d65380d8267",
     "lab": "qwen",
     "title": "Qwen Code cua-driver-rs v0.26.0",
@@ -351,7 +442,7 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1021,
+      "likes": 1025,
       "downloads": 29826,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
@@ -499,7 +590,7 @@
     "importance": 70,
     "contentHash": "d108635bb7df",
     "meta": {
-      "likes": 66,
+      "likes": 67,
       "downloads": 16639,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
@@ -529,7 +620,7 @@
     "importance": 70,
     "contentHash": "2deb903ef0b2",
     "meta": {
-      "likes": 70,
+      "likes": 71,
       "downloads": 9713,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
@@ -616,7 +707,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3406,
+      "likes": 3411,
       "downloads": 183038,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -655,7 +746,7 @@
     "importance": 44,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 220,
+      "stars": 222,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -776,7 +867,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6385,
+      "likes": 6392,
       "downloads": 2633567,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
@@ -839,7 +930,7 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 18130,
+      "likes": 18151,
       "downloads": 7729432,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",

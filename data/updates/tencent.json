@@ -51,7 +51,7 @@
     "importance": 43,
     "contentHash": "f84bba9f37d6",
     "meta": {
-      "stars": 1124,
+      "stars": 1134,
       "repo": "Tencent-Hunyuan/Hy-Memory",
       "language": "Python"
     }
@@ -77,14 +77,43 @@
     "tags": [
       "30B-A3B"
     ],
-    "importance": 69,
+    "importance": 70,
     "contentHash": "d780f7f18b0b",
     "meta": {
-      "likes": 270,
+      "likes": 275,
       "downloads": 2682,
       "repo": "tencent/Hy-Memory-30B-A3B",
       "pipeline": "text-generation",
       "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "20ed99f71a0183f8",
+    "lab": "tencent",
+    "title": "DiagSafe",
+    "url": "https://github.com/Tencent-Hunyuan/DiagSafe",
+    "sourceId": "hunyuan-gh",
+    "sourceName": "GitHub · Tencent-Hunyuan (new repos)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-15T06:49:00.000Z",
+    "firstSeenAt": "2026-10-22T04:59:19.574Z",
+    "updatedAt": "2026-10-15T06:49:00.000Z",
+    "excerpt": "DiagSafe: diagnostic LLM safety benchmark with prompt-level rubrics (3,489 bilingual prompts, 84-label taxonomy)",
+    "summary": "Tencent created a new public repository: DiagSafe.",
+    "benefit": "A new open-source project from this lab that you can study or use right away.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "safety"
+    ],
+    "importance": 29,
+    "contentHash": "ef0590f2c8d2",
+    "meta": {
+      "stars": 4,
+      "repo": "Tencent-Hunyuan/DiagSafe",
+      "language": "Python"
     }
   },
   {
@@ -228,7 +257,7 @@
     "importance": 42,
     "contentHash": "160ea336e84d",
     "meta": {
-      "stars": 678,
+      "stars": 650,
       "repo": "Tencent-Hunyuan/Prism",
       "language": "Python"
     }

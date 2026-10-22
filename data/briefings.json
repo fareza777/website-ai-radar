@@ -1,30 +1,20 @@
 [
   {
     "date": "2026-10-22",
-    "generatedAt": "2026-10-21T21:48:23.060Z",
+    "generatedAt": "2026-10-22T04:59:19.574Z",
     "stats": {
-      "updates24h": 39,
-      "labsActive24h": 10,
-      "updates7d": 136,
-      "newModels7d": 33
+      "updates24h": 37,
+      "labsActive24h": 9,
+      "updates7d": 139,
+      "newModels7d": 35
     },
     "source": "template",
-    "headline": "39 updates from 10 AI labs in the last 24 hours · 33 model releases this week.",
+    "headline": "37 updates from 9 AI labs in the last 24 hours · 35 model releases this week.",
     "bullets": [
-      {
-        "text": "Anthropic: Introducing Claude Duet",
-        "itemId": "292e35e33e7becf5",
-        "lab": "anthropic"
-      },
       {
         "text": "OpenAI: OpenAI models are coming to Google Cloud",
         "itemId": "61f4d0141ff303c0",
         "lab": "openai"
-      },
-      {
-        "text": "Cohere: Introducing Rerank 5: precise, efficient enterprise document retrieval",
-        "itemId": "477f0efd611b7db5",
-        "lab": "cohere"
       },
       {
         "text": "NVIDIA: NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
@@ -37,9 +27,19 @@
         "lab": "nvidia"
       },
       {
-        "text": "OpenAI: How AT&T is rethinking in-house legal work with OpenAI",
-        "itemId": "4ab93569e260b2b0",
+        "text": "Amazon: Amazon SageMaker AI now supports custom sequence lengths for serverless model customization jobs",
+        "itemId": "d817cc0813866f6b",
+        "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: Broad access through consistent standards",
+        "itemId": "2ed22a61b2f19a0c",
         "lab": "openai"
+      },
+      {
+        "text": "Mistral AI: Mistral Advances AI for Engineering with NVIDIA",
+        "itemId": "82899c94557909a4",
+        "lab": "mistral"
       }
     ]
   },

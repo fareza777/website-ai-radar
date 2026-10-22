@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T21:48:23.060Z",
+  "generatedAt": "2026-10-22T04:59:19.574Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -242,6 +242,30 @@
       "importance": 61
     },
     {
+      "id": "ibm:a9cae2783c20b2",
+      "title": "IBM Granite Switch 4.1: Unified AI for Chat, Decisions, and Speech",
+      "entity": "Granite 4.1",
+      "labs": [
+        "ibm"
+      ],
+      "official": 0,
+      "press": 3,
+      "outlets": [
+        "Unite.AI",
+        "OrcaRouter",
+        "The Chenab Times",
+        "TUN - The University Network"
+      ],
+      "firstAt": "2026-10-15T20:57:09.000Z",
+      "lastAt": "2026-10-16T11:19:36.000Z",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWUNkU3BSZ3FfNlEwNVFVb056TG5VLV9xeWI1Vmpza2JLTVNNSGR0cU55MXFKdHRlWU5RTllNX210N2ZFVDEyRTV4MDloQm1IU3V2ZnlxYm9DbG5qZnZCOW53V290dHFQTlhyalM1QndaVVRlZUw2aS1UaU1jY1g5dThqajctRy1NeVI1WWg1dmx1R05vcExIaGlneWdrdll5RnFSUGVtRnFMaVJYdzA4Nno0cjItQdIBvgFBVV95cUxOUlczekRvX1pFNGRrNXYzWnJjN3IzQm8xVzMwZmpOZVlnbjdQaXhxOUpwaS1PVWJMOGJKMk8xOEF1ekdmdFVpVVVSYmplbkZDdTFwd19RaFdMbkRuY2s0VndDangwZUliYTZGTEN4OVpMVE16aFMteUZYSmJydGJ6TzdyNTk3cHVjbUs3NDlBVm9MNFFYcmNzd093a1RQOHBXVUhIVWRwMEZKaW1zdjJiLThld0ZiTlZzSl9WREFn?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "ibm:a9cae2783c20b2"
+      },
+      "importance": 56
+    },
+    {
       "id": "xai:92ecac57376cc6",
       "title": "XAI Corp Price: XAI/USD Live Price Chart, Market Cap & News Today",
       "entity": null,
@@ -279,7 +303,7 @@
       {
         "name": "Gemini 4 Argon",
         "count": 18,
-        "prev": 41,
+        "prev": 42,
         "labs": [
           "google-deepmind"
         ]
@@ -287,7 +311,7 @@
       {
         "name": "DeepSeek 4.1 Flash",
         "count": 12,
-        "prev": 2,
+        "prev": 1,
         "labs": [
           "deepseek"
         ]
@@ -313,7 +337,13 @@
       {
         "name": "GLM 5.5",
         "count": 3,
-        "prev": 2,
+        "prev": 1,
+        "labs": []
+      },
+      {
+        "name": "Mistral Large 4",
+        "count": 3,
+        "prev": 3,
         "labs": []
       }
     ],
@@ -321,24 +351,24 @@
       {
         "name": "agents",
         "count": 54,
-        "prev": 44,
+        "prev": 45,
         "labs": [
           "anthropic",
           "openai",
           "meta",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
-          "qwen",
+          "amazon",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "qwen",
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 36,
+        "count": 42,
         "prev": 33,
         "labs": [
           "anthropic",
@@ -347,10 +377,10 @@
           "mistral",
           "cohere",
           "amazon",
-          "qwen",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "qwen",
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -362,8 +392,8 @@
           "meta",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "nvidia"
         ]
       },
@@ -372,24 +402,25 @@
         "count": 9,
         "prev": 7,
         "labs": [
-          "deepseek",
           "openai",
+          "deepseek",
           "tencent",
           "amazon",
           "qwen",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "safety",
-        "count": 7,
-        "prev": 8,
+        "count": 8,
+        "prev": 9,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
+          "tencent",
           "amazon",
           "bytedance",
           "nvidia"
@@ -397,22 +428,22 @@
       },
       {
         "name": "open-source",
-        "count": 7,
+        "count": 8,
         "prev": 2,
         "labs": [
           "anthropic",
           "openai",
           "meta",
-          "amazon",
           "microsoft",
-          "ibm",
-          "nvidia"
+          "amazon",
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "mcp",
-        "count": 6,
-        "prev": 4,
+        "count": 5,
+        "prev": 5,
         "labs": [
           "anthropic",
           "openai",
@@ -440,8 +471,8 @@
           "mistral",
           "tencent",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       }
     ]
