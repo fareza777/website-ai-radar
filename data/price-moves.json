@@ -1,5 +1,71 @@
 [
   {
+    "id": "e4f4639e1d7f695a",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-22T17:17:28.896Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.3,
+    "change": 100
+  },
+  {
+    "id": "227b0c0e0b054f52",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-22T17:17:28.896Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 1.2,
+    "change": 100
+  },
+  {
+    "id": "6079f566c13b2fd3",
+    "modelId": "qwen/qwen3.5-122b-a10b",
+    "name": "Qwen: Qwen3.5-122B-A10B",
+    "lab": "qwen",
+    "at": "2026-10-22T17:17:28.896Z",
+    "field": "prompt",
+    "from": 0.26,
+    "to": 0.4,
+    "change": 53.8
+  },
+  {
+    "id": "3301bf65d4a91cf4",
+    "modelId": "qwen/qwen3.5-122b-a10b",
+    "name": "Qwen: Qwen3.5-122B-A10B",
+    "lab": "qwen",
+    "at": "2026-10-22T17:17:28.896Z",
+    "field": "completion",
+    "from": 2.08,
+    "to": 3.2,
+    "change": 53.8
+  },
+  {
+    "id": "946d2cfa81f42a23",
+    "modelId": "qwen/qwen3.5-397b-a17b",
+    "name": "Qwen: Qwen3.5 397B A17B",
+    "lab": "qwen",
+    "at": "2026-10-22T17:17:28.896Z",
+    "field": "prompt",
+    "from": 0.39,
+    "to": 0.5,
+    "change": 28.2
+  },
+  {
+    "id": "c33b54c7c3af0592",
+    "modelId": "qwen/qwen3.5-397b-a17b",
+    "name": "Qwen: Qwen3.5 397B A17B",
+    "lab": "qwen",
+    "at": "2026-10-22T17:17:28.896Z",
+    "field": "completion",
+    "from": 2.34,
+    "to": 3.6,
+    "change": 53.8
+  },
+  {
     "id": "cf0279340a66f5d7",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "name": "NVIDIA: Nemotron 3 Super",

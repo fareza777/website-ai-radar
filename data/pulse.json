@@ -4,7 +4,7 @@
     "title": "DeepInfer: High-performance inference framework for DeepSeek models",
     "url": "https://github.com/deepseek-ai/DeepInfer",
     "hnUrl": "https://news.ycombinator.com/item?id=50163277",
-    "points": 2323,
+    "points": 2325,
     "comments": 886,
     "at": "2026-10-20T09:08:54Z",
     "lab": "deepseek",
@@ -37,8 +37,8 @@
     "title": "Voxtral 3",
     "url": "https://mistral.ai/news/voxtral-3/",
     "hnUrl": "https://news.ycombinator.com/item?id=50168396",
-    "points": 762,
-    "comments": 198,
+    "points": 765,
+    "comments": 200,
     "at": "2026-10-20T16:02:07Z",
     "lab": "mistral",
     "firstSeenAt": "2026-10-20T19:21:23.050Z"
@@ -108,6 +108,17 @@
     "firstSeenAt": "2026-10-18T23:20:30.937Z"
   },
   {
+    "id": "50186037",
+    "title": "Claude Duet",
+    "url": "https://claude.com/product/claude-duet",
+    "hnUrl": "https://news.ycombinator.com/item?id=50186037",
+    "points": 515,
+    "comments": 474,
+    "at": "2026-10-21T19:14:01Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-21T21:48:23.060Z"
+  },
+  {
     "id": "50122951",
     "title": "How the Claude Code team does code review",
     "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
@@ -117,17 +128,6 @@
     "at": "2026-10-16T19:04:47Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-16T21:19:28.792Z"
-  },
-  {
-    "id": "50186037",
-    "title": "Claude Duet",
-    "url": "https://claude.com/product/claude-duet",
-    "hnUrl": "https://news.ycombinator.com/item?id=50186037",
-    "points": 427,
-    "comments": 388,
-    "at": "2026-10-21T19:14:01Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-21T21:48:23.060Z"
   },
   {
     "id": "50122431",
@@ -145,7 +145,7 @@
     "title": "Publish fake stats, get cited in LLMs",
     "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
     "hnUrl": "https://news.ycombinator.com/item?id=50165801",
-    "points": 363,
+    "points": 364,
     "comments": 203,
     "at": "2026-10-20T13:06:22Z",
     "firstSeenAt": "2026-10-20T19:21:23.050Z"
@@ -176,10 +176,21 @@
     "title": "Mistral Large 4",
     "url": "https://mistral.ai/news/mistral-large-4/",
     "hnUrl": "https://news.ycombinator.com/item?id=50186129",
-    "points": 320,
-    "comments": 100,
+    "points": 322,
+    "comments": 102,
     "at": "2026-10-21T19:20:55Z",
     "lab": "mistral",
+    "firstSeenAt": "2026-10-21T21:48:23.060Z"
+  },
+  {
+    "id": "50180079",
+    "title": "OpenAI models are coming to Google Cloud",
+    "url": "https://openai.com/index/openai-models-google-cloud/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50180079",
+    "points": 316,
+    "comments": 139,
+    "at": "2026-10-21T12:53:11Z",
+    "lab": "openai",
     "firstSeenAt": "2026-10-21T21:48:23.060Z"
   },
   {
@@ -191,17 +202,6 @@
     "comments": 217,
     "at": "2026-10-18T21:09:12Z",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
-  },
-  {
-    "id": "50180079",
-    "title": "OpenAI models are coming to Google Cloud",
-    "url": "https://openai.com/index/openai-models-google-cloud/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50180079",
-    "points": 301,
-    "comments": 124,
-    "at": "2026-10-21T12:53:11Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-21T21:48:23.060Z"
   },
   {
     "id": "50122112",
@@ -229,22 +229,11 @@
     "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
     "hnUrl": "https://news.ycombinator.com/item?id=50181175",
-    "points": 259,
-    "comments": 176,
+    "points": 260,
+    "comments": 182,
     "at": "2026-10-21T14:03:43Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
-  },
-  {
-    "id": "50106738",
-    "title": "More on Anthropic's Scion ripping off Mononoke",
-    "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50106738",
-    "points": 254,
-    "comments": 90,
-    "at": "2026-10-15T17:05:19Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
   },
   {
     "id": "50137950",
@@ -272,7 +261,7 @@
     "title": "How abliterated models can get you pwned",
     "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
     "hnUrl": "https://news.ycombinator.com/item?id=50159245",
-    "points": 248,
+    "points": 249,
     "comments": 137,
     "at": "2026-10-19T23:08:52Z",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -298,6 +287,17 @@
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
   },
   {
+    "id": "50191507",
+    "title": "OpenAI CLI",
+    "url": "https://github.com/openai/openai-cli",
+    "hnUrl": "https://news.ycombinator.com/item?id=50191507",
+    "points": 210,
+    "comments": 101,
+    "at": "2026-10-22T05:23:11Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
     "id": "50148452",
     "title": "DeepSeek V4.1 Flash 1017 (Max)",
     "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
@@ -313,11 +313,21 @@
     "title": "Anthropic logged net loss of over $80B in first half of 2026",
     "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
     "hnUrl": "https://news.ycombinator.com/item?id=50171966",
-    "points": 187,
+    "points": 188,
     "comments": 95,
     "at": "2026-10-20T20:09:46Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-20T23:57:39.440Z"
+  },
+  {
+    "id": "50176082",
+    "title": "Using LLM for confidence scoring is a bad idea",
+    "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+    "hnUrl": "https://news.ycombinator.com/item?id=50176082",
+    "points": 181,
+    "comments": 96,
+    "at": "2026-10-21T04:27:51Z",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
     "id": "50133231",
@@ -416,23 +426,12 @@
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
   },
   {
-    "id": "50191507",
-    "title": "OpenAI CLI",
-    "url": "https://github.com/openai/openai-cli",
-    "hnUrl": "https://news.ycombinator.com/item?id=50191507",
-    "points": 148,
-    "comments": 79,
-    "at": "2026-10-22T05:23:11Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
     "id": "50180752",
     "title": "Using thousands of AI agents to uncover new leads in biological data",
     "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
     "hnUrl": "https://news.ycombinator.com/item?id=50180752",
-    "points": 146,
-    "comments": 97,
+    "points": 153,
+    "comments": 101,
     "at": "2026-10-21T13:37:00Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -463,7 +462,7 @@
     "url": "https://www.anthropic.com/research/attack-surface-reduction",
     "hnUrl": "https://news.ycombinator.com/item?id=50175779",
     "points": 132,
-    "comments": 87,
+    "comments": 88,
     "at": "2026-10-21T03:36:43Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -491,16 +490,6 @@
     "firstSeenAt": "2026-10-20T23:57:39.440Z"
   },
   {
-    "id": "50176082",
-    "title": "Using LLM for confidence scoring is a bad idea",
-    "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
-    "hnUrl": "https://news.ycombinator.com/item?id=50176082",
-    "points": 116,
-    "comments": 61,
-    "at": "2026-10-21T04:27:51Z",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
     "id": "50140462",
     "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
     "url": "https://www.vals.ai/blogs/impossible-refund",
@@ -515,11 +504,22 @@
     "title": "Advanced coding in low-resource programming languages",
     "url": "https://openai.com/index/low-resource-programming-languages/",
     "hnUrl": "https://news.ycombinator.com/item?id=50169955",
-    "points": 104,
+    "points": 105,
     "comments": 102,
     "at": "2026-10-20T17:43:11Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
+  },
+  {
+    "id": "50183892",
+    "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+    "url": "https://github.com/omnara-ai/omnara",
+    "hnUrl": "https://news.ycombinator.com/item?id=50183892",
+    "points": 104,
+    "comments": 30,
+    "at": "2026-10-21T16:44:53Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
     "id": "50128468",
@@ -544,26 +544,26 @@
     "firstSeenAt": "2026-10-16T21:19:28.792Z"
   },
   {
-    "id": "50183892",
-    "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
-    "url": "https://github.com/omnara-ai/omnara",
-    "hnUrl": "https://news.ycombinator.com/item?id=50183892",
-    "points": 87,
-    "comments": 26,
-    "at": "2026-10-21T16:44:53Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
     "id": "50186455",
     "title": "Claude Duet",
     "url": "https://claude.com/resources/articles/claude-duet",
     "hnUrl": "https://news.ycombinator.com/item?id=50186455",
-    "points": 84,
-    "comments": 9,
+    "points": 86,
+    "comments": 11,
     "at": "2026-10-21T19:40:18Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-22T04:59:19.574Z"
+  },
+  {
+    "id": "50190357",
+    "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+    "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+    "hnUrl": "https://news.ycombinator.com/item?id=50190357",
+    "points": 74,
+    "comments": 9,
+    "at": "2026-10-22T02:17:58Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-22T17:17:28.896Z"
   },
   {
     "id": "50179857",
@@ -581,7 +581,7 @@
     "url": "https://jevcards.com/",
     "hnUrl": "https://news.ycombinator.com/item?id=50167617",
     "points": 71,
-    "comments": 52,
+    "comments": 53,
     "at": "2026-10-20T15:11:56Z",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
@@ -607,33 +607,33 @@
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
   {
+    "id": "50183344",
+    "title": "The bridge to agent-scale Git infrastructure",
+    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50183344",
+    "points": 66,
+    "comments": 19,
+    "at": "2026-10-21T16:09:28Z",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
     "id": "50167604",
     "title": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
     "url": "https://github.com/AbdullahAlhariri/penmentor",
     "hnUrl": "https://news.ycombinator.com/item?id=50167604",
     "points": 65,
-    "comments": 7,
+    "comments": 9,
     "at": "2026-10-20T15:10:54Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
-  },
-  {
-    "id": "50183344",
-    "title": "The bridge to agent-scale Git infrastructure",
-    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50183344",
-    "points": 65,
-    "comments": 18,
-    "at": "2026-10-21T16:09:28Z",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
     "id": "50176908",
     "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
     "url": "https://alterauth.com/",
     "hnUrl": "https://news.ycombinator.com/item?id=50176908",
-    "points": 63,
-    "comments": 28,
+    "points": 65,
+    "comments": 35,
     "at": "2026-10-21T06:42:12Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   }

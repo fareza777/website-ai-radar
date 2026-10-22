@@ -1,5 +1,57 @@
 [
   {
+    "id": "bfab9e73c5d91fb2",
+    "lab": "ibm",
+    "title": "Docling v2.142.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.142.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T14:28:24.000Z",
+    "firstSeenAt": "2026-10-22T17:17:28.896Z",
+    "updatedAt": "2026-10-22T14:28:24.000Z",
+    "excerpt": "Feature afp: Treat a move to a new baseline as a line boundary ( #4962 ) ( af3e144 ) Fix cli: Exit with code 1 when a document fails to convert ( #4888 ) ( 787ad5e ) nemotron-parse: Bound work on untrusted model output ( #4923 ) ( 3b0f25f ) Align transformer engine input dtype with model weights (fixes #3110 ) ( #4158 ) ( a401629 ) asr: End merged sentences at full-width CJK punctuation ( #4836 ) ( d18c25b ) Adapt…",
+    "summary": "IBM shipped Docling v2.142.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "audio"
+    ],
+    "importance": 40,
+    "contentHash": "55bf3cd0a56e",
+    "meta": {
+      "version": "v2.142.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
+    "id": "9a1e158a67b61c1a",
+    "lab": "ibm",
+    "title": "Qiskit SDK v2.6 release summary",
+    "url": "https://research.ibm.com/blog/qiskit-2-6-release-summary",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "firstSeenAt": "2026-10-22T17:17:28.896Z",
+    "updatedAt": "2026-10-22T04:00:00.000Z",
+    "excerpt": "Technical release summary for Qiskit SDK v2.6, including updates on top new features.",
+    "summary": "Technical release summary for Qiskit SDK v2.6, including updates on top new features.",
+    "benefit": "API/SDK change — check whether your integration needs an update or can use the new capability.",
+    "summarySource": "template",
+    "category": "api",
+    "tags": [],
+    "importance": 65,
+    "contentHash": "a5a8ef0cfe57"
+  },
+  {
     "id": "7ca92b76f40e62d7",
     "lab": "ibm",
     "title": "A new plugin can enable fast runtime monitoring and control",
@@ -392,10 +444,10 @@
       "2B",
       "audio"
     ],
-    "importance": 62,
+    "importance": 63,
     "contentHash": "a598e14a409a",
     "meta": {
-      "likes": 33,
+      "likes": 40,
       "downloads": 212,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
@@ -646,7 +698,7 @@
     "importance": 57,
     "contentHash": "30e0f1167733",
     "meta": {
-      "likes": 6,
+      "likes": 7,
       "downloads": 225,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
@@ -949,10 +1001,10 @@
       "470M",
       "audio"
     ],
-    "importance": 62,
+    "importance": 63,
     "contentHash": "45adf5a46f06",
     "meta": {
-      "likes": 35,
+      "likes": 36,
       "downloads": 32817,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
@@ -1082,7 +1134,7 @@
     "importance": 66,
     "contentHash": "c8e55083221f",
     "meta": {
-      "likes": 106,
+      "likes": 107,
       "downloads": 86110,
       "repo": "ibm-granite/granite-4.2-8b",
       "pipeline": "text-generation",
@@ -1113,7 +1165,7 @@
     "importance": 67,
     "contentHash": "d9e26c7be4a7",
     "meta": {
-      "likes": 116,
+      "likes": 115,
       "downloads": 40452,
       "repo": "ibm-granite/granite-4.2-3b",
       "pipeline": "text-generation",
@@ -1174,7 +1226,7 @@
     "importance": 66,
     "contentHash": "d9d402627057",
     "meta": {
-      "likes": 91,
+      "likes": 92,
       "downloads": 58541,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",

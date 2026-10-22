@@ -1,5 +1,60 @@
 [
   {
+    "id": "6ddc5dca002d6e9c",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework python v1.23.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.23.0",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T17:06:17.000Z",
+    "firstSeenAt": "2026-10-22T17:17:28.896Z",
+    "updatedAt": "2026-10-22T17:06:17.000Z",
+    "excerpt": "[1.23.0] - 2026-10-22 Added agent-framework-a2a : Add allowlisted forwarding of function-invocation and client arguments from A2A request metadata ( #9193 ) agent-framework-core , agent-framework-orchestrations : Add an opt-in synthetic trailing user turn for providers that return empty text after assistant-ending prompts ( #8779 ) Changed agent-framework , agent-framework-ag-ui , agent-framework-core…",
+    "summary": "Microsoft shipped Microsoft Agent Framework python v1.23.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "c24e1ed90ed5",
+    "meta": {
+      "version": "1.23.0",
+      "semver": "minor",
+      "repo": "microsoft/agent-framework",
+      "package": "python"
+    }
+  },
+  {
+    "id": "ccc3219ff3a46714",
+    "lab": "microsoft",
+    "title": "Flint-interactive: A language for creating interactive data visualizations",
+    "url": "https://microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+    "sourceId": "msr-blog",
+    "sourceName": "Microsoft Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T16:00:00.000Z",
+    "firstSeenAt": "2026-10-22T17:17:28.896Z",
+    "updatedAt": "2026-10-22T16:00:00.000Z",
+    "excerpt": "At a glance Brings rich interactivity to AI-generated charts: Flint-interactive enables agents to create data visualizations that users can explore directly through clicking, filtering, zooming, highlighting, and cross-chart interactions. Makes complex interactions easier to build: Instead of requiring low-level visualization code, Flint-interactive lets users and agents define behaviors using high-level semantic…",
+    "summary": "At a glance Brings rich interactivity to AI-generated charts: Flint-interactive enables agents to create data visualizations that users can explore directly through clicking, filtering, zooming, highlighting, and cross-chart interactions.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 50,
+    "contentHash": "b1418b4d238d"
+  },
+  {
     "id": "0397d30cafbc8a72",
     "lab": "microsoft",
     "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",

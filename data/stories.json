@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T12:02:42.943Z",
+  "generatedAt": "2026-10-22T17:17:28.896Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -270,18 +270,9 @@
   "trending": {
     "entities": [
       {
-        "name": "Nemotron 3.5 Super",
-        "count": 20,
-        "prev": 0,
-        "labs": [
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "Gemini 4 Argon",
-        "count": 18,
-        "prev": 44,
+        "count": 15,
+        "prev": 47,
         "labs": [
           "google-deepmind"
         ]
@@ -301,13 +292,16 @@
         "labs": []
       },
       {
-        "name": "Claude Opus 5",
+        "name": "Nemotron 3.5 Super",
         "count": 4,
-        "prev": 0,
-        "labs": []
+        "prev": 16,
+        "labs": [
+          "amazon",
+          "nvidia"
+        ]
       },
       {
-        "name": "Nemotron 3.5",
+        "name": "Claude Opus 5",
         "count": 3,
         "prev": 1,
         "labs": []
@@ -329,25 +323,25 @@
       {
         "name": "Mistral Large 4",
         "count": 3,
-        "prev": 4,
+        "prev": 5,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 55,
-        "prev": 44,
+        "count": 53,
+        "prev": 46,
         "labs": [
           "anthropic",
           "openai",
           "meta",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
-          "qwen",
+          "microsoft",
           "bytedance",
+          "qwen",
           "ibm",
           "nvidia"
         ]
@@ -355,31 +349,32 @@
       {
         "name": "coding",
         "count": 43,
-        "prev": 31,
+        "prev": 32,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
           "cohere",
           "amazon",
-          "qwen",
+          "microsoft",
           "bytedance",
+          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "reasoning",
-        "count": 11,
-        "prev": 3,
+        "count": 10,
+        "prev": 4,
         "labs": [
           "openai",
           "meta",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -391,64 +386,65 @@
           "anthropic",
           "openai",
           "meta",
+          "amazon",
           "microsoft",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "multimodal",
-        "count": 9,
-        "prev": 6,
-        "labs": [
-          "openai",
-          "deepseek",
-          "tencent",
-          "amazon",
-          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 7,
+        "count": 8,
         "prev": 10,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
-          "tencent",
+          "cohere",
           "amazon",
+          "tencent",
           "bytedance",
           "nvidia"
         ]
       },
       {
-        "name": "mcp",
+        "name": "multimodal",
+        "count": 7,
+        "prev": 8,
+        "labs": [
+          "deepseek",
+          "openai",
+          "amazon",
+          "tencent",
+          "qwen",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "audio",
         "count": 5,
         "prev": 5,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "amazon",
+          "tencent",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 4,
+        "prev": 3,
         "labs": [
           "anthropic",
           "openai",
           "amazon",
           "qwen"
-        ]
-      },
-      {
-        "name": "audio",
-        "count": 4,
-        "prev": 5,
-        "labs": [
-          "openai",
-          "google-deepmind",
-          "mistral",
-          "tencent",
-          "amazon",
-          "ibm",
-          "nvidia"
         ]
       },
       {
@@ -534,19 +530,6 @@
       "at": "2026-10-19T18:09:15.000Z"
     },
     {
-      "id": "minimax:f1d6bbfc73918b",
-      "lab": "minimax",
-      "title": "China's MiniMax launches updated AI model M3.1 Flash, claims major improvements",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNRnpBdnpmMzJtWGVkOHJQR0JBXzhUd09PcXVMMlVLLVN5cDR3ZFRmV3hxNUEwc0tHbnJfaS1uRFR4TFI3YTNXLW96V0tneXotanJlS1lXTEFjVEJkejY4cUlrVDJ2RGxGemZOWjdoanZpd2VVUzBGaTJzVHd4Q3JKUEozeG9sYnNSb3JXaFFlREwxdGdpenpEMmZpVlpMeV8tYTV6d2N6VmtycC1Qa3ptcWR4dmdfV2JnblhmZGFDeHp3NEhYMDg1SmxhUEcySDNkd0JoX2hvU0h4LVZSeXRPVzN5WUZwdHhNVlFKNVRROUlOSWF6OEREQ1F0YXo0LU5iTXoyYnpsNA?oc=5",
-      "outlets": [
-        "Reuters",
-        "Central Oregon Daily",
-        "The Lufkin Daily News"
-      ],
-      "reports": 3,
-      "at": "2026-10-19T12:24:49.000Z"
-    },
-    {
       "id": "mistral:bb1b22edc07f49",
       "lab": "mistral",
       "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
@@ -557,6 +540,18 @@
       ],
       "reports": 2,
       "at": "2026-10-21T06:03:12.000Z"
+    },
+    {
+      "id": "mistral:a839ffbedea5e0",
+      "lab": "mistral",
+      "title": "Mistral AI Launches Voxtral 3 With Voice Agent SDK and 50+ Languages",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91UmNaSlM2NkdBMko5TDdWTXFZTWYtUjMxb0UtNTJqZ3pEZUthSkVkczM5aXdYTWdFVDdUSnZqUDZyb3VkZWZmVjhtYnl0clljZVJGSk9rdHhDd29oOWJpOW5Ea1QyUXgwcnhoMnE1VnloTGpodEsw?oc=5",
+      "outlets": [
+        "BigGo Finance",
+        "Technobezz"
+      ],
+      "reports": 2,
+      "at": "2026-10-20T18:28:39.000Z"
     },
     {
       "id": "deepseek:b9b9a6d7168ef4",

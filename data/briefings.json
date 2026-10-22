@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-10-23",
+    "generatedAt": "2026-10-22T17:17:28.896Z",
+    "stats": {
+      "updates24h": 35,
+      "labsActive24h": 10,
+      "updates7d": 147,
+      "newModels7d": 41
+    },
+    "source": "template",
+    "headline": "35 updates from 10 AI labs in the last 24 hours · 41 model releases this week.",
+    "bullets": [
+      {
+        "text": "NVIDIA: NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+        "itemId": "99c8819be3a73948",
+        "lab": "nvidia"
+      },
+      {
+        "text": "Cohere: Introducing Confidential Computing on Cohere Model Vault",
+        "itemId": "ff1cfc81dcac62e0",
+        "lab": "cohere"
+      },
+      {
+        "text": "IBM: Qiskit SDK v2.6 release summary",
+        "itemId": "9a1e158a67b61c1a",
+        "lab": "ibm"
+      },
+      {
+        "text": "NVIDIA: Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+        "itemId": "676b58ceeee7bff8",
+        "lab": "nvidia"
+      },
+      {
+        "text": "Amazon: Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen 3.8 and Ministral 3 models",
+        "itemId": "191c89b31a66b523",
+        "lab": "amazon"
+      },
+      {
+        "text": "Cohere: Inside Cohere Model Vault: Building a verifiable confidential AI inference",
+        "itemId": "b3ec856821a0404d",
+        "lab": "cohere"
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "generatedAt": "2026-10-22T12:02:42.943Z",
     "stats": {

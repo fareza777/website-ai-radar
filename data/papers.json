@@ -6,7 +6,7 @@
     "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 101,
+    "upvotes": 269,
     "org": null,
     "githubRepo": "https://github.com/StreamEval/StreamEval",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -18,33 +18,9 @@
     "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 92,
+    "upvotes": 128,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/JesseZZZZZ/SpatialScout",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
-    "id": "2610.29989",
-    "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
-    "url": "https://huggingface.co/papers/2610.29989",
-    "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective…",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 77,
-    "org": "tencentarc",
-    "githubRepo": "https://github.com/TencentARC/Looking-Ahead",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
-    "id": "2610.28577",
-    "title": "Cache Engineering for Agents",
-    "url": "https://huggingface.co/papers/2610.28577",
-    "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing…",
-    "publishedAt": "2026-10-20T00:00:00.000Z",
-    "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 76,
-    "org": "nics-efc",
-    "githubRepo": "https://github.com/thu-nics/AKV",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
@@ -54,9 +30,33 @@
     "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 65,
+    "upvotes": 109,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/DONIC",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
+    "id": "2610.28577",
+    "title": "Cache Engineering for Agents",
+    "url": "https://huggingface.co/papers/2610.28577",
+    "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-22T00:00:00.000Z",
+    "upvotes": 106,
+    "org": "nics-efc",
+    "githubRepo": "https://github.com/thu-nics/AKV",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
+    "id": "2610.29989",
+    "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+    "url": "https://huggingface.co/papers/2610.29989",
+    "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective…",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "submittedAt": "2026-10-22T00:00:00.000Z",
+    "upvotes": 93,
+    "org": "tencentarc",
+    "githubRepo": "https://github.com/TencentARC/Looking-Ahead",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
@@ -66,7 +66,7 @@
     "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 59,
+    "upvotes": 61,
     "org": "microsoftresearch",
     "githubRepo": "https://github.com/MSR-Orchard/WildAWM",
     "firstSeenAt": "2026-10-22T04:59:19.574Z"
@@ -96,13 +96,38 @@
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
+    "id": "2610.28698",
+    "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+    "url": "https://huggingface.co/papers/2610.28698",
+    "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-22T00:00:00.000Z",
+    "upvotes": 46,
+    "org": "thusi-lab",
+    "githubRepo": "https://github.com/THUSI-Lab/GameScaling",
+    "firstSeenAt": "2026-10-22T17:17:28.896Z"
+  },
+  {
+    "id": "2610.29722",
+    "title": "Retrieval Augmented Generation Compositionality",
+    "url": "https://huggingface.co/papers/2610.29722",
+    "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same…",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "submittedAt": "2026-10-22T00:00:00.000Z",
+    "upvotes": 21,
+    "org": "ibm",
+    "lab": "ibm",
+    "githubRepo": "https://github.com/dolev31/lasagna",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
     "id": "2610.19376",
     "title": "DeLoop: Repeated Actions as Self-Supervision for Long-Horizon Agents",
     "url": "https://huggingface.co/papers/2610.19376",
     "summary": "Language-model agents that run long tasks often redo work they have already done: they re-issue a tool call they made earlier and get back exactly the same observation, a step that adds no new information. We identify this failure as a loop. Loops appear natively in Qwen, Llama, and Gemini agents and become far more common once the agent's history is compressed to fit its context window. To reduce these loops, we…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 16,
     "org": "google",
     "lab": "google-deepmind",
     "githubRepo": "https://github.com/cskyl/deloop",
@@ -120,19 +145,6 @@
     "lab": "anthropic",
     "githubRepo": "https://github.com/maszhongming/agent4sci",
     "firstSeenAt": "2026-10-22T04:59:19.574Z"
-  },
-  {
-    "id": "2610.29722",
-    "title": "Retrieval Augmented Generation Compositionality",
-    "url": "https://huggingface.co/papers/2610.29722",
-    "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same…",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 9,
-    "org": "ibm",
-    "lab": "ibm",
-    "githubRepo": "https://github.com/dolev31/lasagna",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
     "id": "2610.26203",
@@ -199,7 +211,7 @@
     "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 100,
+    "upvotes": 104,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/S-Agent-2.0",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -211,7 +223,7 @@
     "summary": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 66,
+    "upvotes": 68,
     "org": "internscience",
     "githubRepo": "https://github.com/InternScience/Agents-A1",
     "firstSeenAt": "2026-10-21T04:58:36.683Z"
@@ -259,7 +271,7 @@
     "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene. Here we present a model that directly co-generates the video and 3D…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 24,
+    "upvotes": 25,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -271,7 +283,7 @@
     "summary": "Drafting an answer allows a reasoning model to reconsider each decision in the context of the others. Yet repeated diffusion denoising does not ensure that individually plausible token updates form a better answer together. We introduce Draft Refinement Language Models (DRLMs), which use a single denoiser to propose parallel revisions and evaluate a candidate draft. We train the denoiser to reconstruct every token…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 19,
+    "upvotes": 20,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-10-21T04:58:36.683Z"
@@ -332,7 +344,7 @@
     "summary": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image inputs and produces text outputs…",
     "publishedAt": "2026-10-17T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 8,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -380,7 +392,7 @@
     "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 242,
+    "upvotes": 244,
     "org": "mindlab-research",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
   },
@@ -391,7 +403,7 @@
     "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 179,
+    "upvotes": 187,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/EgoXperience",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
@@ -403,7 +415,7 @@
     "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We introduce HOLI-WORLD…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 164,
+    "upvotes": 170,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/holi-world",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
@@ -415,7 +427,7 @@
     "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 130,
+    "upvotes": 132,
     "org": "memtensor",
     "githubRepo": "https://github.com/MemTensor/MemT-1.0",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -427,7 +439,7 @@
     "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 119,
+    "upvotes": 125,
     "org": null,
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
@@ -438,7 +450,7 @@
     "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 105,
+    "upvotes": 111,
     "org": "apple",
     "githubRepo": "https://github.com/uclanlp/OpenVLHarness",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -450,7 +462,7 @@
     "summary": "We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location. End-to-end navigation policies require diverse training data to generalize across scenes, yet real-robot data is costly to collect and simulated data leaves a sim-to-real gap. Internet egocentric videos offer a scalable source of real-world…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 86,
+    "upvotes": 89,
     "org": null,
     "githubRepo": "https://github.com/MachEmbodied/ScaleNav",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -468,28 +480,28 @@
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
   },
   {
-    "id": "2610.24960",
-    "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
-    "url": "https://huggingface.co/papers/2610.24960",
-    "summary": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workflow requirements…",
-    "publishedAt": "2026-10-18T00:00:00.000Z",
-    "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 49,
-    "org": null,
-    "githubRepo": "https://github.com/HKUST-KnowComp/CoworkEnv",
-    "firstSeenAt": "2026-10-21T11:59:56.158Z"
-  },
-  {
     "id": "2610.22791",
     "title": "Self-Evolving Coding Agents via Harness-Policy Optimization",
     "url": "https://huggingface.co/papers/2610.22791",
     "summary": "Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated policy, while policy…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 48,
+    "upvotes": 54,
     "org": "microsoftresearch",
     "githubRepo": "https://github.com/MSR-Orchard/Self-HPO",
     "firstSeenAt": "2026-10-20T19:21:23.050Z"
+  },
+  {
+    "id": "2610.24960",
+    "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
+    "url": "https://huggingface.co/papers/2610.24960",
+    "summary": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workflow requirements…",
+    "publishedAt": "2026-10-18T00:00:00.000Z",
+    "submittedAt": "2026-10-20T00:00:00.000Z",
+    "upvotes": 50,
+    "org": null,
+    "githubRepo": "https://github.com/HKUST-KnowComp/CoworkEnv",
+    "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
   {
     "id": "2610.25404",
@@ -498,9 +510,21 @@
     "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, enabling more effective interactive visual content creation for users. However, existing methods often exhibit noticeable drift after only a few editing turns, manifesting in two aspects: 1) unstable visual quality, with accumulating artifacts and degraded details; and 2) inconsistent image content, with unintended changes to…",
     "publishedAt": "2026-10-18T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 43,
+    "upvotes": 44,
     "org": "sensenova",
     "githubRepo": "https://github.com/houyuanchen111/MT-Forcing",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
+    "id": "2610.26844",
+    "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+    "url": "https://huggingface.co/papers/2610.26844",
+    "summary": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics…",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "submittedAt": "2026-10-20T00:00:00.000Z",
+    "upvotes": 43,
+    "org": "galilai-group",
+    "githubRepo": "https://github.com/galilai-group/AnyGoal",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
@@ -515,25 +539,13 @@
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
-    "id": "2610.26844",
-    "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
-    "url": "https://huggingface.co/papers/2610.26844",
-    "summary": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics…",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 41,
-    "org": "galilai-group",
-    "githubRepo": "https://github.com/galilai-group/AnyGoal",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
     "id": "2610.23986",
     "title": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
     "url": "https://huggingface.co/papers/2610.23986",
     "summary": "Recent advances in multimodal large language models (MLLMs) have enabled them to act as autonomous agents, creating and editing 3D models via code or direct software manipulation. In practical workflows, these models must infer object shapes, materials, spatial layouts, and lighting from diverse references while strictly following instructions to reconstruct, modify, or design 3D content. However, existing…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 32,
+    "upvotes": 36,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/QwenLM/BlenderWorld",
@@ -546,7 +558,7 @@
     "summary": "Video overlay removal aims to recover scenes obscured by subtitles, titles, and logos while preserving surrounding content. Existing methods use temporal propagation or source-conditioned generation, but can leave residual overlays and distort scene structure when useful source information is obscured. We propose DeOverlay, a source-anchored flow model that reconstructs the clean video from the source latent with…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 17,
+    "upvotes": 18,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -570,7 +582,7 @@
     "summary": "Recent advances in self-improving LLM agents have demonstrated the potential of AI systems that drive their own intelligence. However, many domain-specific applications rely on specialized foundation models that possess strong domain expertise but remain dependent on human-designed improvements. Extending recursive self-improvement to these models presents a key challenge: as a specialist improves, the strategies…",
     "publishedAt": "2026-10-12T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 5,
+    "upvotes": 6,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-10-20T19:21:23.050Z"
@@ -618,7 +630,7 @@
     "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 461,
+    "upvotes": 464,
     "org": "sensenova",
     "githubRepo": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -773,7 +785,7 @@
     "summary": "Multimodal large language models (MLLMs) answer questions about whole images well, yet they still struggle with fine-grained region understanding. A key reason is that text-only supervision never specifies which regions support an answer. To close this gap, we present Xiaomi-Lens-0, a 4B MLLM built on Qwen3.5 that predicts masks from its own visual representations. Specifically, a lightweight decoder combines…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 48,
+    "upvotes": 49,
     "org": "seerray-lab",
     "githubRepo": "https://github.com/SeerRay-Lab/Xiaomi-Lens-0",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -810,7 +822,7 @@
     "summary": "Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and general terminal-usage problems is a pressing challenge. Current state-of-the-art LLMs often go through large-scale agentic Reinforcement Learning (RL). However, they mostly rely on high-level outcome rewards, with minimal consideration of low-level toolcall and mid-level workflow-stage rewards, which…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 22,
+    "upvotes": 23,
     "org": "amazon",
     "lab": "amazon",
     "githubRepo": "https://github.com/RickySkywalker/Lean4AgenticRL",
@@ -835,7 +847,7 @@
     "summary": "Evaluation has been central to advances in AI, and it is equally critical to autonomous discovery. Yet scaling autonomous discovery to real-world engineering challenges faces a fundamental bottleneck: the cost of evaluating progress. In real settings, a single true evaluation, such as a full benchmark or serving trace, can take hours, so a search can afford only a handful of true evaluations. We present DuoDiscover…",
     "publishedAt": "2026-10-12T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 15,
+    "upvotes": 16,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"

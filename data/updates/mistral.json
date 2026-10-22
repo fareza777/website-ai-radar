@@ -1,5 +1,34 @@
 [
   {
+    "id": "55c7d164f9ffe791",
+    "lab": "mistral",
+    "title": "Mistral Vibe v3.0.2",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v3.0.2",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T16:15:57.000Z",
+    "firstSeenAt": "2026-10-22T17:17:28.896Z",
+    "updatedAt": "2026-10-22T16:15:57.000Z",
+    "excerpt": "Added enable_mouse_capture setting (or VIBE_ENABLE_MOUSE_CAPTURE=false ) to leave text selection and copy to your terminal; depending on the terminal, some other mouse interactions such as clicks are disabled too. Added max_subagents and max_concurrent_subagents settings to control how many subagents can be alive and running at once In VS Code, connectors that need no login, such as DeepWiki, show as Not connected…",
+    "summary": "Mistral AI shipped Mistral Vibe v3.0.2 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "c90ebf7dace9",
+    "meta": {
+      "version": "v3.0.2",
+      "semver": "patch",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "82899c94557909a4",
     "lab": "mistral",
     "title": "Mistral Advances AI for Engineering with NVIDIA",
@@ -64,9 +93,9 @@
     "verified": true,
     "publishedAt": "2026-10-20T12:00:22.000Z",
     "firstSeenAt": "2026-10-20T19:21:23.050Z",
-    "updatedAt": "2026-10-20T12:00:22.000Z",
-    "excerpt": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.",
-    "summary": "Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use.",
+    "updatedAt": "2026-10-22T17:17:28.896Z",
+    "excerpt": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages, accurate transcription, emotional TTS, deep tool use.",
+    "summary": "Mistral's voice agent SDK for real-time speech in 50+ languages, accurate transcription, emotional TTS, deep tool use.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
     "summarySource": "template",
     "category": "model",
@@ -75,7 +104,7 @@
       "audio"
     ],
     "importance": 65,
-    "contentHash": "9f2db5d7fc04"
+    "contentHash": "716ee035ae56"
   },
   {
     "id": "638ec17e71c879fc",
@@ -184,7 +213,7 @@
     "importance": 67,
     "contentHash": "bb226bca6d6b",
     "meta": {
-      "likes": 34,
+      "likes": 35,
       "downloads": 4141,
       "repo": "mistralai/Timestral-28M",
       "pipeline": "time-series-forecasting",
@@ -215,7 +244,7 @@
     "importance": 70,
     "contentHash": "fd4a807fe29b",
     "meta": {
-      "likes": 67,
+      "likes": 68,
       "downloads": 3692,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
@@ -246,7 +275,7 @@
     "importance": 75,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 273,
+      "likes": 278,
       "downloads": 6194,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
