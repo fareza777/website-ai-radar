@@ -1,5 +1,37 @@
 [
   {
+    "id": "fe9ccecbb6e319ec",
+    "modelId": "reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "at": "2026-10-22T21:43:19.556Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.25,
+    "change": -16.7
+  },
+  {
+    "id": "8c1003a8ce43d982",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-22T21:43:19.556Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.0052,
+    "change": -96.5
+  },
+  {
+    "id": "df913215573de77a",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-10-22T21:43:19.556Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.1985,
+    "change": -60.3
+  },
+  {
     "id": "e4f4639e1d7f695a",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",

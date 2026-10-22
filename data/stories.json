@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T17:17:28.896Z",
+  "generatedAt": "2026-10-22T21:43:19.556Z",
   "stories": [
     {
       "id": "66cb1e68848fee2d",
@@ -147,26 +147,6 @@
       "importance": 70
     },
     {
-      "id": "024d9eece6c046fd",
-      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
-      "entity": null,
-      "labs": [
-        "amazon",
-        "openai"
-      ],
-      "official": 1,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-10-12T17:52:22.000Z",
-      "lastAt": "2026-10-12T17:52:22.000Z",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan",
-      "lead": {
-        "kind": "official",
-        "id": "024d9eece6c046fd"
-      },
-      "importance": 70
-    },
-    {
       "id": "7d369f9d483c77b3",
       "title": "Cohere to acquire AISLE to advance cyber-resilient sovereign AI",
       "entity": null,
@@ -271,8 +251,8 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 15,
-        "prev": 47,
+        "count": 14,
+        "prev": 48,
         "labs": [
           "google-deepmind"
         ]
@@ -319,19 +299,13 @@
         "labs": [
           "amazon"
         ]
-      },
-      {
-        "name": "Mistral Large 4",
-        "count": 3,
-        "prev": 5,
-        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 53,
-        "prev": 46,
+        "count": 51,
+        "prev": 47,
         "labs": [
           "anthropic",
           "openai",
@@ -339,16 +313,15 @@
           "mistral",
           "cohere",
           "amazon",
-          "microsoft",
-          "bytedance",
           "qwen",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 43,
+        "count": 40,
         "prev": 32,
         "labs": [
           "anthropic",
@@ -357,31 +330,16 @@
           "mistral",
           "cohere",
           "amazon",
-          "microsoft",
-          "bytedance",
           "qwen",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 10,
-        "prev": 4,
-        "labs": [
-          "openai",
-          "meta",
-          "mistral",
-          "cohere",
-          "amazon",
           "microsoft",
+          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "open-source",
         "count": 9,
-        "prev": 2,
+        "prev": 3,
         "labs": [
           "anthropic",
           "openai",
@@ -395,50 +353,63 @@
       {
         "name": "safety",
         "count": 8,
-        "prev": 10,
+        "prev": 8,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
           "cohere",
-          "amazon",
           "tencent",
-          "bytedance",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
         "count": 7,
-        "prev": 8,
+        "prev": 9,
         "labs": [
           "deepseek",
           "openai",
-          "amazon",
           "tencent",
+          "amazon",
           "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
+        "name": "reasoning",
+        "count": 7,
+        "prev": 7,
+        "labs": [
+          "openai",
+          "meta",
+          "mistral",
+          "cohere",
+          "amazon",
+          "microsoft",
+          "nvidia"
+        ]
+      },
+      {
         "name": "audio",
-        "count": 5,
+        "count": 6,
         "prev": 5,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
-          "amazon",
           "tencent",
+          "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "mcp",
-        "count": 4,
+        "count": 5,
         "prev": 3,
         "labs": [
           "anthropic",
@@ -449,7 +420,7 @@
       },
       {
         "name": "rag",
-        "count": 4,
+        "count": 5,
         "prev": 2,
         "labs": [
           "cohere",
@@ -460,21 +431,6 @@
     ]
   },
   "unconfirmed": [
-    {
-      "id": "minimax:0bb1e82c77719f",
-      "lab": "minimax",
-      "title": "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026]",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
-      "outlets": [
-        "TechRepublic",
-        "SiliconANGLE",
-        "shattered.io",
-        "Technology Org",
-        "https://tech-insider.org/"
-      ],
-      "reports": 5,
-      "at": "2026-10-19T18:09:15.000Z"
-    },
     {
       "id": "xai:b893e1cdd62312",
       "lab": "xai",
@@ -490,20 +446,6 @@
       "at": "2026-10-20T12:45:00.000Z"
     },
     {
-      "id": "minimax:3510b2740932e1",
-      "lab": "minimax",
-      "title": "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026]",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
-      "outlets": [
-        "SiliconANGLE",
-        "디지털투데이",
-        "shattered.io",
-        "https://tech-insider.org/"
-      ],
-      "reports": 4,
-      "at": "2026-10-19T18:09:15.000Z"
-    },
-    {
       "id": "deepseek:b6bbf9c2345a4b",
       "lab": "deepseek",
       "title": "DeepSeek open-sources DeepInfer software for running its AI models",
@@ -515,19 +457,6 @@
       ],
       "reports": 3,
       "at": "2026-10-20T13:36:46.000Z"
-    },
-    {
-      "id": "minimax:80fcc69e01f308",
-      "lab": "minimax",
-      "title": "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026]",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
-      "outlets": [
-        "shattered.io",
-        "Technology Org",
-        "https://tech-insider.org/"
-      ],
-      "reports": 3,
-      "at": "2026-10-19T18:09:15.000Z"
     },
     {
       "id": "mistral:bb1b22edc07f49",
@@ -576,30 +505,6 @@
       ],
       "reports": 2,
       "at": "2026-10-20T00:46:38.000Z"
-    },
-    {
-      "id": "nvidia:98d9d5c0af7044",
-      "lab": "nvidia",
-      "title": "Amazon Launches TorchNeuron to Challenge Nvidia's AI Grip",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVXZCX0hKakR0OGczLVBBbmNPMjcyS2x1aUcyRjlLUVdxOEVubXVlUk1kTjBYUE5BT19xLTBpb1htQnh6b0dRX1RzdzBwTkpKaTBtNjRDVUR4UHBNZEFjZVRUY2lrVWJDUFZmNHJKc3VGV3VRUUdYX2ExQWFkc2lUZnpsWnpyTm1CWldaYVBpR1VZMmVh?oc=5",
-      "outlets": [
-        "The Tech Buzz",
-        "NewsCord"
-      ],
-      "reports": 2,
-      "at": "2026-10-19T20:37:00.000Z"
-    },
-    {
-      "id": "minimax:96564b8d90d1a2",
-      "lab": "minimax",
-      "title": "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026]",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
-      "outlets": [
-        "https://tech-insider.org/",
-        "shattered.io"
-      ],
-      "reports": 2,
-      "at": "2026-10-19T18:09:15.000Z"
     }
   ]
 }

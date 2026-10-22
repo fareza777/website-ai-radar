@@ -1139,7 +1139,7 @@
     "importance": 67,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 149,
+      "likes": 150,
       "downloads": 8023,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1345,8 +1345,8 @@
     "publishedAt": "2026-10-01T22:22:57.000Z",
     "firstSeenAt": "2026-10-22T04:59:19.574Z",
     "updatedAt": "2026-10-01T22:22:57.000Z",
-    "excerpt": "image-text-to-text",
-    "summary": "NVIDIA published the Flora-Captioner model on Hugging Face for multimodal (image + text).",
+    "excerpt": "image-text-to-text · license: other",
+    "summary": "NVIDIA published the Flora-Captioner model on Hugging Face for multimodal (image + text). License: other.",
     "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
     "summarySource": "template",
     "category": "model",
@@ -1354,12 +1354,13 @@
       "multimodal"
     ],
     "importance": 62,
-    "contentHash": "328bbaa4e167",
+    "contentHash": "b0ac029a9c38",
     "meta": {
-      "likes": 31,
+      "likes": 32,
       "downloads": 521,
       "repo": "nvidia/Flora-Captioner",
-      "pipeline": "image-text-to-text"
+      "pipeline": "image-text-to-text",
+      "license": "other"
     }
   },
   {
@@ -2219,7 +2220,7 @@
     "importance": 65,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 72,
+      "likes": 74,
       "downloads": 1799,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
@@ -2250,7 +2251,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 797,
+      "likes": 798,
       "downloads": 119586,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",

@@ -6,7 +6,7 @@
     "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 269,
+    "upvotes": 327,
     "org": null,
     "githubRepo": "https://github.com/StreamEval/StreamEval",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -18,7 +18,7 @@
     "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 128,
+    "upvotes": 129,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/JesseZZZZZ/SpatialScout",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -30,7 +30,7 @@
     "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 109,
+    "upvotes": 124,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/DONIC",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -42,7 +42,7 @@
     "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 106,
+    "upvotes": 110,
     "org": "nics-efc",
     "githubRepo": "https://github.com/thu-nics/AKV",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -54,10 +54,22 @@
     "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 93,
+    "upvotes": 108,
     "org": "tencentarc",
     "githubRepo": "https://github.com/TencentARC/Looking-Ahead",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
+    "id": "2610.11942",
+    "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+    "url": "https://huggingface.co/papers/2610.11942",
+    "summary": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition requires an expectation of what should have followed the action. Existing GUI world models provide…",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "submittedAt": "2026-10-22T00:00:00.000Z",
+    "upvotes": 81,
+    "org": null,
+    "githubRepo": "https://github.com/jiamingzhang94/lgwm",
+    "firstSeenAt": "2026-10-22T21:43:19.556Z"
   },
   {
     "id": "2610.26828",
@@ -66,7 +78,7 @@
     "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 61,
+    "upvotes": 63,
     "org": "microsoftresearch",
     "githubRepo": "https://github.com/MSR-Orchard/WildAWM",
     "firstSeenAt": "2026-10-22T04:59:19.574Z"
@@ -114,7 +126,7 @@
     "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 21,
+    "upvotes": 25,
     "org": "ibm",
     "lab": "ibm",
     "githubRepo": "https://github.com/dolev31/lasagna",
@@ -127,7 +139,7 @@
     "summary": "Language-model agents that run long tasks often redo work they have already done: they re-issue a tool call they made earlier and get back exactly the same observation, a step that adds no new information. We identify this failure as a loop. Loops appear natively in Qwen, Llama, and Gemini agents and become far more common once the agent's history is compressed to fit its context window. To reduce these loops, we…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 17,
     "org": "google",
     "lab": "google-deepmind",
     "githubRepo": "https://github.com/cskyl/deloop",
@@ -140,7 +152,7 @@
     "summary": "Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 12,
     "org": "anthropic",
     "lab": "anthropic",
     "githubRepo": "https://github.com/maszhongming/agent4sci",
@@ -159,6 +171,17 @@
     "firstSeenAt": "2026-10-21T04:58:36.683Z"
   },
   {
+    "id": "2610.27999",
+    "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+    "url": "https://huggingface.co/papers/2610.27999",
+    "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-21T00:00:00.000Z",
+    "upvotes": 189,
+    "org": null,
+    "firstSeenAt": "2026-10-21T11:59:56.158Z"
+  },
+  {
     "id": "2610.26855",
     "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
     "url": "https://huggingface.co/papers/2610.26855",
@@ -171,24 +194,13 @@
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
   {
-    "id": "2610.27999",
-    "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
-    "url": "https://huggingface.co/papers/2610.27999",
-    "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and…",
-    "publishedAt": "2026-10-20T00:00:00.000Z",
-    "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 185,
-    "org": null,
-    "firstSeenAt": "2026-10-21T11:59:56.158Z"
-  },
-  {
     "id": "2610.27628",
     "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
     "url": "https://huggingface.co/papers/2610.27628",
     "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 149,
+    "upvotes": 154,
     "org": "ant-intl",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
@@ -223,7 +235,7 @@
     "summary": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 68,
+    "upvotes": 69,
     "org": "internscience",
     "githubRepo": "https://github.com/InternScience/Agents-A1",
     "firstSeenAt": "2026-10-21T04:58:36.683Z"
@@ -235,7 +247,7 @@
     "summary": "Flow-matching vision-language-action (VLA) models generate an action chunk by iteratively denoising Gaussian noise, but typically execute only a short prefix before replanning with updated observations. Under this receding-horizon paradigm, the unexecuted remainder---the action tail---is discarded, and the next chunk is regenerated from fresh noise. We show that this discarded tail retains transferable denoising…",
     "publishedAt": "2026-10-18T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 61,
     "org": "omniai-zju",
     "githubRepo": "https://github.com/ZJU-OmniAI/VLA-Rolling",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -247,7 +259,7 @@
     "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are not aligned with…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 50,
     "org": "showlab",
     "githubRepo": "https://github.com/Enderfga/SolarRenderer",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -259,10 +271,22 @@
     "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 46,
     "org": null,
     "githubRepo": "https://github.com/rootyJeon/VPM",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
+  },
+  {
+    "id": "2610.14136",
+    "title": "Correction Training for Diffusion Models",
+    "url": "https://huggingface.co/papers/2610.14136",
+    "summary": "Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training time. This might be one reason diffusion models often struggle without additional help, such as CFG. We introduce a…",
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "submittedAt": "2026-10-21T00:00:00.000Z",
+    "upvotes": 42,
+    "org": "ucberkeley",
+    "githubRepo": "https://github.com/sunovivid/correction-training",
+    "firstSeenAt": "2026-10-22T21:43:19.556Z"
   },
   {
     "id": "2610.28632",
@@ -295,10 +319,23 @@
     "summary": "Long-horizon terminal agents may solve a task in one run yet fail across repeated runs. Stochastic errors can propagate through actions and context, creating a gap between capability and reliable execution. We present RiseHarness, a framework for iteratively improving agent harnesses with model weights fixed. It focuses on flipping tasks with both successful and failed runs under the same configuration, using…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 12,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "firstSeenAt": "2026-10-21T04:58:36.683Z"
+  },
+  {
+    "id": "2610.28069",
+    "title": "Training the Whole Agent, Not Just the Model",
+    "url": "https://huggingface.co/papers/2610.28069",
+    "summary": "Training coding agents typically updates the policy while keeping the harness fixed. During training, trajectories reveal flawed repair strategies and interaction problems that vary across tasks and change as the policy learns. We introduce HarnessAdapt-RL, which trains the policy and adapts its harness during reinforcement learning. For flawed repair strategies, a frozen teacher generates task-specific…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-21T00:00:00.000Z",
+    "upvotes": 12,
+    "org": "tencent",
+    "lab": "tencent",
+    "githubRepo": "https://github.com/lingxiaotang/HarnessAdapt-RL",
+    "firstSeenAt": "2026-10-21T17:19:55.191Z"
   },
   {
     "id": "2610.27327",
@@ -313,17 +350,16 @@
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
   {
-    "id": "2610.28069",
-    "title": "Training the Whole Agent, Not Just the Model",
-    "url": "https://huggingface.co/papers/2610.28069",
-    "summary": "Training coding agents typically updates the policy while keeping the harness fixed. During training, trajectories reveal flawed repair strategies and interaction problems that vary across tasks and change as the policy learns. We introduce HarnessAdapt-RL, which trains the policy and adapts its harness during reinforcement learning. For flawed repair strategies, a frozen teacher generates task-specific…",
-    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "id": "2610.24628",
+    "title": "Muse Glimmer 30B: An On-Device Agentic Model",
+    "url": "https://huggingface.co/papers/2610.24628",
+    "summary": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image inputs and produces text outputs…",
+    "publishedAt": "2026-10-17T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 11,
-    "org": "tencent",
-    "lab": "tencent",
-    "githubRepo": "https://github.com/lingxiaotang/HarnessAdapt-RL",
-    "firstSeenAt": "2026-10-21T17:19:55.191Z"
+    "upvotes": 10,
+    "org": "meta",
+    "lab": "meta",
+    "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
   {
     "id": "2610.19425",
@@ -338,25 +374,13 @@
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
   {
-    "id": "2610.24628",
-    "title": "Muse Glimmer 30B: An On-Device Agentic Model",
-    "url": "https://huggingface.co/papers/2610.24628",
-    "summary": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image inputs and produces text outputs…",
-    "publishedAt": "2026-10-17T00:00:00.000Z",
-    "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 8,
-    "org": "meta",
-    "lab": "meta",
-    "firstSeenAt": "2026-10-21T11:59:56.158Z"
-  },
-  {
     "id": "2610.28388",
     "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
     "url": "https://huggingface.co/papers/2610.28388",
     "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challenging, especially for long-horizon tasks. We propose Self-Credit, an end-to-end agentic RL method that creates dense supervision signals from sparse outcome rewards using self-generated credit assignment via intra-group rescaling. Self-Credit builds on group-based RL with three components. First…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 7,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -427,7 +451,7 @@
     "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 132,
+    "upvotes": 133,
     "org": "memtensor",
     "githubRepo": "https://github.com/MemTensor/MemT-1.0",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -582,7 +606,7 @@
     "summary": "Recent advances in self-improving LLM agents have demonstrated the potential of AI systems that drive their own intelligence. However, many domain-specific applications rely on specialized foundation models that possess strong domain expertise but remain dependent on human-designed improvements. Extending recursive self-improvement to these models presents a key challenge: as a specialist improves, the strategies…",
     "publishedAt": "2026-10-12T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 7,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-10-20T19:21:23.050Z"
@@ -618,7 +642,7 @@
     "summary": "Existing long-horizon agent benchmarks often emphasize final task success while providing limited assessment of intermediate execution validity. Yet real-world business operations require agents to navigate extensive, potentially outdated or conflicting policies while satisfying critical constraints throughout execution. These requirements are particularly consequential in high-stakes domains such as payments, where…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 491,
+    "upvotes": 492,
     "org": "ant-intl",
     "githubRepo": "https://github.com/ant-intl/BizAgentBench",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -630,7 +654,7 @@
     "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 464,
+    "upvotes": 465,
     "org": "sensenova",
     "githubRepo": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -822,7 +846,7 @@
     "summary": "Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and general terminal-usage problems is a pressing challenge. Current state-of-the-art LLMs often go through large-scale agentic Reinforcement Learning (RL). However, they mostly rely on high-level outcome rewards, with minimal consideration of low-level toolcall and mid-level workflow-stage rewards, which…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 23,
+    "upvotes": 24,
     "org": "amazon",
     "lab": "amazon",
     "githubRepo": "https://github.com/RickySkywalker/Lean4AgenticRL",
