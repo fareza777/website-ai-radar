@@ -1,5 +1,27 @@
 [
   {
+    "id": "cf0279340a66f5d7",
+    "modelId": "nvidia/nemotron-3-super-120b-a12b",
+    "name": "NVIDIA: Nemotron 3 Super",
+    "lab": "nvidia",
+    "at": "2026-10-22T12:02:42.943Z",
+    "field": "prompt",
+    "from": 0.08,
+    "to": 0.3,
+    "change": 275
+  },
+  {
+    "id": "a1d0f7fa3d03b072",
+    "modelId": "nvidia/nemotron-3-super-120b-a12b",
+    "name": "NVIDIA: Nemotron 3 Super",
+    "lab": "nvidia",
+    "at": "2026-10-22T12:02:42.943Z",
+    "field": "completion",
+    "from": 0.45,
+    "to": 2.4,
+    "change": 433.3
+  },
+  {
     "id": "f6fd98a8be651fea",
     "modelId": "z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",
