@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-10-22T21:43:19.556Z",
+  "generatedAt": "2026-10-23T05:00:33.793Z",
   "stories": [
+    {
+      "id": "3b6b85c81106ab13",
+      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+      "entity": "Nemotron 3.5 Super",
+      "labs": [
+        "nvidia",
+        "amazon"
+      ],
+      "official": 2,
+      "press": 10,
+      "outlets": [
+        "Wccftech",
+        "Nasdaq",
+        "Business Wire",
+        "Yahoo Finance",
+        "SQ Magazine",
+        "MarkTechPost",
+        "Startup Fortune",
+        "ZDNET",
+        "https://tech-insider.org/",
+        "The Decoder",
+        "Prime Intellect",
+        "Techzine Global",
+        "Unite.AI",
+        "Technology Org",
+        "OrcaRouter",
+        "巴士的報",
+        "Newsquawk",
+        "Nscale",
+        "StreetInsider",
+        "LMSYS Org",
+        "GameGPU",
+        "NewsCord"
+      ],
+      "firstAt": "2026-10-15T15:00:00.000Z",
+      "lastAt": "2026-10-23T01:05:41.000Z",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
+      "lead": {
+        "kind": "official",
+        "id": "3b6b85c81106ab13"
+      },
+      "importance": 100
+    },
     {
       "id": "66cb1e68848fee2d",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
@@ -9,7 +52,7 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 39,
+      "press": 40,
       "outlets": [
         "Google Cloud",
         "The National Law Review",
@@ -52,57 +95,15 @@
         "PYMNTS.com",
         "ActuIA",
         "shattered.io",
-        "Towards Data Science"
+        "Towards Data Science",
+        "Robotics & Automation News"
       ],
       "firstAt": "2026-10-13T07:00:00.000Z",
-      "lastAt": "2026-10-22T00:42:54.000Z",
+      "lastAt": "2026-10-22T19:34:44.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
       "lead": {
         "kind": "official",
         "id": "66cb1e68848fee2d"
-      },
-      "importance": 100
-    },
-    {
-      "id": "3b6b85c81106ab13",
-      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
-      "entity": "Nemotron 3.5 Super",
-      "labs": [
-        "nvidia",
-        "amazon"
-      ],
-      "official": 2,
-      "press": 9,
-      "outlets": [
-        "Wccftech",
-        "Nasdaq",
-        "Business Wire",
-        "Yahoo Finance",
-        "SQ Magazine",
-        "MarkTechPost",
-        "Startup Fortune",
-        "ZDNET",
-        "https://tech-insider.org/",
-        "The Decoder",
-        "Prime Intellect",
-        "Techzine Global",
-        "Unite.AI",
-        "Technology Org",
-        "OrcaRouter",
-        "巴士的報",
-        "Newsquawk",
-        "Nscale",
-        "StreetInsider",
-        "LMSYS Org",
-        "GameGPU",
-        "NewsCord"
-      ],
-      "firstAt": "2026-10-15T15:00:00.000Z",
-      "lastAt": "2026-10-20T00:03:33.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
-      "lead": {
-        "kind": "official",
-        "id": "3b6b85c81106ab13"
       },
       "importance": 100
     },
@@ -222,29 +223,6 @@
         "id": "ibm:a9cae2783c20b2"
       },
       "importance": 56
-    },
-    {
-      "id": "xai:92ecac57376cc6",
-      "title": "XAI Corp Price: XAI/USD Live Price Chart, Market Cap & News Today",
-      "entity": null,
-      "labs": [
-        "xai",
-        "tencent"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "CoinGecko",
-        "Binance"
-      ],
-      "firstAt": "2026-10-13T01:45:01.000Z",
-      "lastAt": "2026-10-14T06:06:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIZi0wR3QtS2plQndiNTFza18wQUFHNXpxTXhDV1Z0YXNoS0NNbjBZeVB0OUpsR19PUERtQlNBLXdSam5oWGs5OWc1dDZ3b0Q0dXhzMVJ3?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "xai:92ecac57376cc6"
-      },
-      "importance": 54
     }
   ],
   "trending": {
@@ -252,15 +230,15 @@
       {
         "name": "Gemini 4 Argon",
         "count": 14,
-        "prev": 48,
+        "prev": 49,
         "labs": [
           "google-deepmind"
         ]
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 12,
-        "prev": 1,
+        "count": 11,
+        "prev": 2,
         "labs": [
           "deepseek"
         ]
@@ -274,7 +252,7 @@
       {
         "name": "Nemotron 3.5 Super",
         "count": 4,
-        "prev": 16,
+        "prev": 17,
         "labs": [
           "amazon",
           "nvidia"
@@ -304,8 +282,8 @@
     "topics": [
       {
         "name": "agents",
-        "count": 51,
-        "prev": 47,
+        "count": 49,
+        "prev": 50,
         "labs": [
           "anthropic",
           "openai",
@@ -313,16 +291,16 @@
           "mistral",
           "cohere",
           "amazon",
-          "qwen",
           "microsoft",
+          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 40,
-        "prev": 32,
+        "count": 41,
+        "prev": 35,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -330,8 +308,23 @@
           "mistral",
           "cohere",
           "amazon",
-          "qwen",
           "microsoft",
+          "qwen",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "multimodal",
+        "count": 10,
+        "prev": 8,
+        "labs": [
+          "google-deepmind",
+          "deepseek",
+          "openai",
+          "minimax",
+          "amazon",
+          "tencent",
           "ibm",
           "nvidia"
         ]
@@ -360,28 +353,14 @@
           "openai",
           "mistral",
           "cohere",
-          "tencent",
           "amazon",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "multimodal",
-        "count": 7,
-        "prev": 9,
-        "labs": [
-          "deepseek",
-          "openai",
           "tencent",
-          "amazon",
-          "qwen",
-          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "reasoning",
-        "count": 7,
+        "count": 8,
         "prev": 7,
         "labs": [
           "openai",
@@ -395,21 +374,21 @@
       },
       {
         "name": "audio",
-        "count": 6,
+        "count": 7,
         "prev": 5,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
-          "tencent",
           "amazon",
+          "tencent",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "mcp",
-        "count": 5,
+        "count": 6,
         "prev": 3,
         "labs": [
           "anthropic",
@@ -421,7 +400,7 @@
       {
         "name": "rag",
         "count": 5,
-        "prev": 2,
+        "prev": 1,
         "labs": [
           "cohere",
           "amazon",
@@ -493,18 +472,6 @@
       ],
       "reports": 2,
       "at": "2026-10-20T12:45:23.000Z"
-    },
-    {
-      "id": "minimax:0ee94ada8528aa",
-      "lab": "minimax",
-      "title": "MiniMax Launches M3.1 Flash, Claiming 3x Faster Inference and 70% Lower Agent Task Costs",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wY2VpWXlFVGtyZGgtRFNzTkZhOF82UlNUYmxGQUJibzBYYTRkVWpBXy1uVUVHTnpqVUVVS0M2cVlZRURoR3hwbnRoZmdmVVV1eTRDM1kzRUNBTkFBam9uUWlTekc?oc=5",
-      "outlets": [
-        "XenoSpectrum",
-        "Technology Org"
-      ],
-      "reports": 2,
-      "at": "2026-10-20T00:46:38.000Z"
     }
   ]
 }

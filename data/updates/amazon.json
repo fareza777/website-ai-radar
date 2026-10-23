@@ -202,6 +202,30 @@
     "contentHash": "9a6ebeefc668"
   },
   {
+    "id": "94905f02a5c74265",
+    "lab": "amazon",
+    "title": "AgentCore Gateway now supports Bedrock InvokeModel APIs and model fallback",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T08:00:00.000Z",
+    "firstSeenAt": "2026-10-23T05:00:33.793Z",
+    "updatedAt": "2026-10-22T08:00:00.000Z",
+    "excerpt": "Amazon Bedrock AgentCore Gateway now supports the Amazon Bedrock InvokeModel and InvokeModelWithResponseStream APIs on its inference endpoint, along with model fallback routing for inference traffic. With InvokeModel support, you can point your existing Amazon Bedrock SDK integration at the gateway and reach any model provider through one governed endpoint, without rewriting client code for each provider. With model…",
+    "summary": "Amazon Bedrock AgentCore Gateway now supports the Amazon Bedrock InvokeModel and InvokeModelWithResponseStream APIs on its inference endpoint, along with model fallback routing for inference traffic.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "coding"
+    ],
+    "importance": 60,
+    "contentHash": "0787a122ee31"
+  },
+  {
     "id": "8c44d30ec948e664",
     "lab": "amazon",
     "title": "Strands Agents SDK typescript v1.22.0",

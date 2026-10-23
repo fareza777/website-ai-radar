@@ -1,5 +1,35 @@
 [
   {
+    "id": "2fe2f98c9cef9416",
+    "lab": "google-deepmind",
+    "title": "Google GenAI SDK (Python) v2.33.0",
+    "url": "https://github.com/googleapis/python-genai/releases/tag/v2.33.0",
+    "sourceId": "google-genai-sdk",
+    "sourceName": "GitHub · googleapis/python-genai",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-23T00:04:36.000Z",
+    "firstSeenAt": "2026-10-23T05:00:33.793Z",
+    "updatedAt": "2026-10-23T00:04:36.000Z",
+    "excerpt": "2.33.0 (2026-10-22) Features Add store to GenerateContentConfig (Gemini Developer API only) and labels to LiveConnectConfig . ( 16a29c9 ) Add support for Python 3.15. ( e1c4fc7 ) Add support for Python 3.15. ( 1a64450 ) client: Support httpx2 with GOOGLE_GENAI_HTTP_CLIENT configuration ( 87ddba1 ) Include AudioContent, DocumentContent, and VideoContent in FunctionResultSubContent ( adbc79c ) Bug Fixes client: Skip…",
+    "summary": "Google DeepMind shipped Google GenAI SDK (Python) v2.33.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal",
+      "audio"
+    ],
+    "importance": 45,
+    "contentHash": "6de1a2be798f",
+    "meta": {
+      "version": "v2.33.0",
+      "semver": "minor",
+      "repo": "googleapis/python-genai"
+    }
+  },
+  {
     "id": "655df0fb22ace891",
     "lab": "google-deepmind",
     "title": "Beyond tree cover: mapping the world’s forest types",
@@ -931,8 +961,8 @@
     "lab": "google-deepmind",
     "title": "DevFest is back",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -974,7 +1004,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 2840,
+      "likes": 2849,
       "downloads": 185259,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",
@@ -1147,8 +1177,8 @@
     "lab": "google-deepmind",
     "title": "The latest AI news we announced in August 2026",
     "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -1386,7 +1416,7 @@
     "importance": 79,
     "contentHash": "d8c99b7d47a0",
     "meta": {
-      "likes": 982,
+      "likes": 984,
       "downloads": 888024,
       "repo": "google/timesfm-3.0-pytorch",
       "pipeline": "time-series-forecasting",
@@ -1483,7 +1513,7 @@
     "importance": 65,
     "contentHash": "8be77bd28d4c",
     "meta": {
-      "likes": 15,
+      "likes": 16,
       "downloads": 364,
       "repo": "google/tipsv1-g14",
       "pipeline": "zero-shot-image-classification",
@@ -1600,10 +1630,10 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 65,
+    "importance": 66,
     "contentHash": "3cfb5c2feb64",
     "meta": {
-      "likes": 19,
+      "likes": 20,
       "downloads": 881,
       "repo": "google/tabfm-1.1.0-pytorch",
       "pipeline": "tabular-classification",

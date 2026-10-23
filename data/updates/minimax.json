@@ -1,5 +1,36 @@
 [
   {
+    "id": "bf04d12d42270af3",
+    "lab": "minimax",
+    "title": "MiniMax-M3.1-Flash",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+    "sourceId": "minimax-hf",
+    "sourceName": "Hugging Face · MiniMaxAI",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-17T06:37:50.000Z",
+    "firstSeenAt": "2026-10-23T05:00:33.793Z",
+    "updatedAt": "2026-10-17T06:37:50.000Z",
+    "excerpt": "image-text-to-text · license: other",
+    "summary": "MiniMax published the MiniMax-M3.1-Flash model on Hugging Face for multimodal (image + text). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 66,
+    "contentHash": "8abcf2afde84",
+    "meta": {
+      "likes": 104,
+      "downloads": 357,
+      "repo": "MiniMaxAI/MiniMax-M3.1-Flash",
+      "pipeline": "image-text-to-text",
+      "license": "other"
+    }
+  },
+  {
     "id": "14f8438d2f05bf47",
     "lab": "minimax",
     "title": "homebrew-tap",
@@ -246,7 +277,7 @@
     "importance": 75,
     "contentHash": "5f9a5ec47884",
     "meta": {
-      "likes": 1468,
+      "likes": 1469,
       "downloads": 5983,
       "repo": "MiniMaxAI/MiniMax-Music3",
       "pipeline": "text-to-audio"
@@ -276,7 +307,7 @@
     "importance": 75,
     "contentHash": "8a2062357a2e",
     "meta": {
-      "likes": 6294,
+      "likes": 6301,
       "downloads": 5011999,
       "repo": "MiniMaxAI/MiniMax-H3",
       "pipeline": "image-text-to-video",

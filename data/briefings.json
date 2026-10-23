@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-23",
-    "generatedAt": "2026-10-22T21:43:19.556Z",
+    "generatedAt": "2026-10-23T05:00:33.793Z",
     "stats": {
-      "updates24h": 38,
-      "labsActive24h": 10,
-      "updates7d": 145,
-      "newModels7d": 40
+      "updates24h": 26,
+      "labsActive24h": 8,
+      "updates7d": 150,
+      "newModels7d": 44
     },
     "source": "template",
-    "headline": "38 updates from 10 AI labs in the last 24 hours · 40 model releases this week.",
+    "headline": "26 updates from 8 AI labs in the last 24 hours · 44 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Announcing new ways to customize models with SageMaker AI, without managing GPUs",
@@ -22,14 +22,9 @@
         "lab": "nvidia"
       },
       {
-        "text": "Cohere: Introducing Confidential Computing on Cohere Model Vault",
-        "itemId": "ff1cfc81dcac62e0",
-        "lab": "cohere"
-      },
-      {
-        "text": "IBM: Qiskit SDK v2.6 release summary",
-        "itemId": "9a1e158a67b61c1a",
-        "lab": "ibm"
+        "text": "NVIDIA: Kazakhstan Expands Compute for Its AI Future",
+        "itemId": "822412740c4fdfe1",
+        "lab": "nvidia"
       },
       {
         "text": "Amazon: Amazon SageMaker AI announces training session APIs for serverless model customization",
@@ -37,9 +32,14 @@
         "lab": "amazon"
       },
       {
-        "text": "NVIDIA: Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
-        "itemId": "676b58ceeee7bff8",
-        "lab": "nvidia"
+        "text": "OpenAI: Build more responsive apps with the Decisions API",
+        "itemId": "27825e3003584012",
+        "lab": "openai"
+      },
+      {
+        "text": "Google DeepMind: Beyond tree cover: mapping the world’s forest types",
+        "itemId": "655df0fb22ace891",
+        "lab": "google-deepmind"
       }
     ]
   },
