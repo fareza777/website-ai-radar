@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T11:48:11.444Z",
+  "generatedAt": "2026-10-23T17:15:08.040Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -45,42 +45,26 @@
       "importance": 100
     },
     {
-      "id": "66cb1e68848fee2d",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "id": "25432b6b093a311b",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
       ],
-      "official": 4,
-      "press": 39,
+      "official": 1,
+      "press": 30,
       "outlets": [
-        "The National Law Review",
-        "The American Bazaar",
-        "Business Insider",
-        "The Next Web",
-        "9to5Google",
-        "Search Engine Journal",
-        "Search Engine Roundtable",
-        "Engadget",
-        "SiliconANGLE",
-        "The Verge",
-        "WinBuzzer",
-        "Ars Technica",
-        "CNET",
-        "Techzine Global",
-        "The GitHub Blog",
-        "Yahoo Finance",
-        "Reuters",
-        "https://tech-insider.org/",
-        "CNBC",
         "Quartz",
         "The Decoder",
         "Mashable",
+        "The American Bazaar",
         "Mashable SEA",
+        "https://tech-insider.org/",
         "Snowflake",
         "MarkTechPost",
         "TechEBlog -",
         "Technology Org",
+        "Yahoo Finance",
         "The Neuron",
         "about.gitlab.com",
         "InfoWorld",
@@ -97,34 +81,14 @@
         "Towards Data Science",
         "Robotics & Automation News"
       ],
-      "firstAt": "2026-10-13T16:00:00.000Z",
+      "firstAt": "2026-10-13T17:15:40.000Z",
       "lastAt": "2026-10-22T19:34:44.000Z",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
       "lead": {
         "kind": "official",
-        "id": "66cb1e68848fee2d"
+        "id": "25432b6b093a311b"
       },
       "importance": 100
-    },
-    {
-      "id": "c4d6082c07a1abcc",
-      "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
-      "entity": "Grok 4.7",
-      "labs": [
-        "amazon",
-        "xai"
-      ],
-      "official": 1,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-10-13T15:52:20.000Z",
-      "lastAt": "2026-10-13T15:52:20.000Z",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock",
-      "lead": {
-        "kind": "official",
-        "id": "c4d6082c07a1abcc"
-      },
-      "importance": 85
     },
     {
       "id": "ea83f0dd69c5142c",
@@ -200,6 +164,31 @@
       "importance": 61
     },
     {
+      "id": "nvidia:6dbd7cfebdb47e",
+      "title": "Rockwell Automation Expands FactoryTalk Conductor with NVIDIA Nemotron Support",
+      "entity": null,
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "marketscreener.com",
+        "StreetInsider",
+        "The Globe and Mail",
+        "Investing News Network",
+        "Yahoo Finance"
+      ],
+      "firstAt": "2026-10-22T12:00:00.000Z",
+      "lastAt": "2026-10-22T12:03:42.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWjVMUm9IV1haTFJQLVJsa0tKUXdNdTJTdjZldHlrVUgtQ3hiQnRVcmtSVGtKTjc4RjJ1UkUwQldLc3R2Ri1GNDdnQnQ1WlZyVE4wZnE0Rk1LUldtTjFUczlaREdpZklOUExkMVpkRXAwbS1ZWlVwUl9nS3BlR0xvbURQSXgyQ1VfeFFTdHVrZUtSbWNFRnBFWWNfNXY5QWFIN1dIWXMyM0JGMDg4UEdacThvbHZwd1B3a0xrUlhSaWZTXzlYY051QmNNd2FtQVRQQzBveGlocTZsSXl5aGQ3MjYyenpRbjRCNVB3Yl8xX0I2cGZZeGlz?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:6dbd7cfebdb47e"
+      },
+      "importance": 57
+    },
+    {
       "id": "ibm:a9cae2783c20b2",
       "title": "IBM Granite Switch 4.1: Unified AI for Chat, Decisions, and Speech",
       "entity": "Granite 4.1",
@@ -228,8 +217,8 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 13,
-        "prev": 50,
+        "count": 12,
+        "prev": 52,
         "labs": [
           "google-deepmind"
         ]
@@ -237,7 +226,7 @@
       {
         "name": "DeepSeek 4.1 Flash",
         "count": 11,
-        "prev": 2,
+        "prev": 3,
         "labs": [
           "deepseek"
         ]
@@ -258,12 +247,6 @@
         ]
       },
       {
-        "name": "Claude Opus 5",
-        "count": 3,
-        "prev": 1,
-        "labs": []
-      },
-      {
         "name": "Grok 4.7",
         "count": 3,
         "prev": 3,
@@ -276,46 +259,46 @@
       {
         "name": "agents",
         "count": 49,
-        "prev": 49,
+        "prev": 50,
         "labs": [
           "anthropic",
           "meta",
-          "openai",
           "mistral",
+          "openai",
           "cohere",
-          "microsoft",
           "amazon",
           "qwen",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 41,
-        "prev": 34,
+        "count": 38,
+        "prev": 35,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "openai",
           "mistral",
+          "openai",
           "cohere",
-          "microsoft",
           "amazon",
           "qwen",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 11,
-        "prev": 6,
+        "count": 14,
+        "prev": 5,
         "labs": [
           "google-deepmind",
           "deepseek",
-          "openai",
           "minimax",
+          "openai",
           "tencent",
           "amazon",
           "ibm",
@@ -329,8 +312,8 @@
         "labs": [
           "anthropic",
           "google-deepmind",
-          "openai",
           "mistral",
+          "openai",
           "cohere",
           "tencent",
           "amazon",
@@ -338,30 +321,16 @@
         ]
       },
       {
-        "name": "open-source",
-        "count": 9,
-        "prev": 3,
-        "labs": [
-          "anthropic",
-          "meta",
-          "openai",
-          "microsoft",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
         "name": "reasoning",
-        "count": 8,
-        "prev": 7,
+        "count": 7,
+        "prev": 8,
         "labs": [
           "meta",
-          "openai",
           "mistral",
+          "openai",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -377,13 +346,27 @@
         ]
       },
       {
+        "name": "open-source",
+        "count": 6,
+        "prev": 6,
+        "labs": [
+          "anthropic",
+          "meta",
+          "openai",
+          "amazon",
+          "microsoft",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
         "name": "audio",
         "count": 6,
         "prev": 6,
         "labs": [
           "google-deepmind",
-          "openai",
           "mistral",
+          "openai",
           "tencent",
           "amazon",
           "ibm",
@@ -403,33 +386,6 @@
     ]
   },
   "unconfirmed": [
-    {
-      "id": "xai:b893e1cdd62312",
-      "lab": "xai",
-      "title": "XAI Floating Rate & Alternative Income Trust Announces Expiration and Preliminary Results of Voluntary Tender Offer",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemJGbW5vWXpadW5rZUJfNjJkN3JpRXJRVDFWWkQxV2ZxMjRWQlpFRFVxMjJKX3VCNlQyMGR2VHhLOG5VaGpEQk1sSHRESmZDS010SGFiUWMxazJZT2VhVktBUVZ6WW1DRTNOUks5dmJFMVpHU3h0OWxXeHBYU1ZHYXlOUG1Vb2dURUlpR04xZ2dMQzFRV1lObFRqUUdCa2Y2eW1n?oc=5",
-      "outlets": [
-        "Quiver Quantitative",
-        "Yahoo Finance",
-        "TradingView",
-        "WBOC TV"
-      ],
-      "reports": 4,
-      "at": "2026-10-20T12:45:00.000Z"
-    },
-    {
-      "id": "deepseek:b6bbf9c2345a4b",
-      "lab": "deepseek",
-      "title": "DeepSeek open-sources DeepInfer software for running its AI models",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IRHJQZVBMMTdReU1BbHdBX3JfNnZ4MUxfUEhZQnhzcW9zbklPa0xZZmxHWlMxeUg5QXExYld5NS02ZU1iWUlMeFdadjVpTFk2eWxLS00yR3lUMm9obl9jbE43RF8wQjZjWVlQSWpuN2J0eWN2dFdxckJDWU9ISDQ?oc=5",
-      "outlets": [
-        "Yahoo Finance",
-        "Quartz",
-        "Investing.com"
-      ],
-      "reports": 3,
-      "at": "2026-10-20T13:36:46.000Z"
-    },
     {
       "id": "mistral:bb1b22edc07f49",
       "lab": "mistral",
@@ -453,18 +409,6 @@
       ],
       "reports": 2,
       "at": "2026-10-20T18:28:39.000Z"
-    },
-    {
-      "id": "deepseek:b9b9a6d7168ef4",
-      "lab": "deepseek",
-      "title": "DeepSeek Unveils Open-Source Tool to Help Cut AI Operating Costs",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaTNwMlNFRlZ6SkZCMWtZaEJfUWdXbGxlQVBnSEZOZ0dVM1dLc240NTVQdnZTbjJqd2pRWVNpUUZVYldWZDlzdF8waFlUVlRRaW1uYllNRjdVNFZZSW9aeFhGQmRzS1p1VmhFUG9HbTMzaE5hTm1mOGFwSHp5VzlEbTEtc2ZsQTJ3amdCVjhkZUU5bkY3UDM2ajNRcGY4aDJBWjhFbGljNjlZaXI1X3gyX1gyYTV4QQ?oc=5",
-      "outlets": [
-        "Bloomberg.com",
-        "TechTarget"
-      ],
-      "reports": 2,
-      "at": "2026-10-20T12:45:23.000Z"
     }
   ]
 }

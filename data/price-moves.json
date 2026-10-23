@@ -1,5 +1,49 @@
 [
   {
+    "id": "595a599c6ea239ba",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-10-23T17:15:08.040Z",
+    "field": "prompt",
+    "from": 0.04,
+    "to": 0.2,
+    "change": 400
+  },
+  {
+    "id": "9307314233967d22",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-10-23T17:15:08.040Z",
+    "field": "completion",
+    "from": 1.35,
+    "to": 2.5,
+    "change": 85.2
+  },
+  {
+    "id": "6dce76943c92fd84",
+    "modelId": "mistralai/mistral-small-3.2-24b-instruct",
+    "name": "Mistral: Mistral Small 3.2 24B",
+    "lab": "mistral",
+    "at": "2026-10-23T17:15:08.040Z",
+    "field": "prompt",
+    "from": 0.09375,
+    "to": 0.075,
+    "change": -20
+  },
+  {
+    "id": "a2a648a98b4aa756",
+    "modelId": "mistralai/mistral-small-3.2-24b-instruct",
+    "name": "Mistral: Mistral Small 3.2 24B",
+    "lab": "mistral",
+    "at": "2026-10-23T17:15:08.040Z",
+    "field": "completion",
+    "from": 0.25,
+    "to": 0.2,
+    "change": -20
+  },
+  {
     "id": "fe9ccecbb6e319ec",
     "modelId": "reflection/beam-1.0-501b-a23b",
     "name": "Reflection: Beam 1.0 501B A23B",

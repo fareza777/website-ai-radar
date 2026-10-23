@@ -1,5 +1,27 @@
 [
   {
+    "id": "298c8de07d18f423",
+    "lab": "openai",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-23T17:00:00.000Z",
+    "firstSeenAt": "2026-10-23T17:15:08.040Z",
+    "updatedAt": "2026-10-23T17:00:00.000Z",
+    "excerpt": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+    "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 55,
+    "contentHash": "86958f58e1d3"
+  },
+  {
     "id": "d7afdec100a14ec3",
     "lab": "openai",
     "title": "Codex CLI rust v0.164.0",

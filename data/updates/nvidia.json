@@ -1,5 +1,29 @@
 [
   {
+    "id": "3b0fc092303087ba",
+    "lab": "nvidia",
+    "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+    "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-23T14:58:32.000Z",
+    "firstSeenAt": "2026-10-23T17:15:08.040Z",
+    "updatedAt": "2026-10-23T14:58:32.000Z",
+    "excerpt": "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions... Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions when obstacles block the path ahead. Developing these capabilities connects several stages…",
+    "summary": "Teaching a robot to navigate an obstacle course requires more than a walking policy.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 50,
+    "contentHash": "f8109dc35469"
+  },
+  {
     "id": "822412740c4fdfe1",
     "lab": "nvidia",
     "title": "Kazakhstan Expands Compute for Its AI Future",
@@ -1158,10 +1182,10 @@
       "74B-A9B",
       "multimodal"
     ],
-    "importance": 67,
+    "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 152,
+      "likes": 153,
       "downloads": 8379,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1284,6 +1308,34 @@
     "contentHash": "37cddf0e0558"
   },
   {
+    "id": "62fc4dfeb3816642",
+    "lab": "nvidia",
+    "title": "RFD4-Proteina",
+    "url": "https://huggingface.co/nvidia/RFD4-Proteina",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-06T05:00:39.000Z",
+    "firstSeenAt": "2026-10-23T17:15:08.040Z",
+    "updatedAt": "2026-10-06T05:00:39.000Z",
+    "excerpt": "license: bsd-3-clause",
+    "summary": "NVIDIA published the RFD4-Proteina model on Hugging Face. License: bsd-3-clause.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 61,
+    "contentHash": "806c45ea6874",
+    "meta": {
+      "likes": 25,
+      "downloads": 1623,
+      "repo": "nvidia/RFD4-Proteina",
+      "license": "bsd-3-clause"
+    }
+  },
+  {
     "id": "a2beb8a05eac6abd",
     "lab": "nvidia",
     "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
@@ -1304,6 +1356,37 @@
     "tags": [],
     "importance": 30,
     "contentHash": "a1097c1da511"
+  },
+  {
+    "id": "13c0f423c09dd3f2",
+    "lab": "nvidia",
+    "title": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-05T04:26:43.000Z",
+    "firstSeenAt": "2026-10-23T17:15:08.040Z",
+    "updatedAt": "2026-10-05T04:26:43.000Z",
+    "excerpt": "text-generation · license: other",
+    "summary": "NVIDIA published the NVIDIA-Nemotron-3.5-Bolt-E4B-4GB model on Hugging Face for text generation (LLM). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "4B"
+    ],
+    "importance": 62,
+    "contentHash": "e0c973a81b2f",
+    "meta": {
+      "likes": 27,
+      "downloads": 213,
+      "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+      "pipeline": "text-generation",
+      "license": "other"
+    }
   },
   {
     "id": "d4e3054526b7ef03",
@@ -2242,7 +2325,7 @@
     "importance": 66,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 88,
+      "likes": 96,
       "downloads": 2535,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
@@ -2273,7 +2356,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 802,
+      "likes": 803,
       "downloads": 120820,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",

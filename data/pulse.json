@@ -91,8 +91,8 @@
     "title": "Claude Duet",
     "url": "https://claude.com/product/claude-duet",
     "hnUrl": "https://news.ycombinator.com/item?id=50186037",
-    "points": 551,
-    "comments": 522,
+    "points": 559,
+    "comments": 525,
     "at": "2026-10-21T19:14:01Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T21:48:23.060Z"
@@ -134,11 +134,33 @@
     "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
     "url": "https://github.com/NVIDIA/OpenShell",
     "hnUrl": "https://news.ycombinator.com/item?id=50198675",
-    "points": 415,
-    "comments": 196,
+    "points": 475,
+    "comments": 205,
     "at": "2026-10-22T17:44:06Z",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-22T21:43:19.556Z"
+  },
+  {
+    "id": "50202217",
+    "title": "LLMs are making formal software verification feasible at a much larger scale",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "hnUrl": "https://news.ycombinator.com/item?id=50202217",
+    "points": 414,
+    "comments": 252,
+    "at": "2026-10-22T22:54:43Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-23T05:00:33.793Z"
+  },
+  {
+    "id": "50200997",
+    "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+    "url": "https://news.ycombinator.com/item?id=50200997",
+    "hnUrl": "https://news.ycombinator.com/item?id=50200997",
+    "points": 410,
+    "comments": 442,
+    "at": "2026-10-22T21:03:55Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-23T05:00:33.793Z"
   },
   {
     "id": "50122431",
@@ -171,17 +193,6 @@
     "at": "2026-10-19T15:28:24Z",
     "lab": "mistral",
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
-  },
-  {
-    "id": "50202217",
-    "title": "LLMs are making formal software verification feasible at a much larger scale",
-    "url": "https://www.anthropic.com/research/formal-verification",
-    "hnUrl": "https://news.ycombinator.com/item?id=50202217",
-    "points": 360,
-    "comments": 217,
-    "at": "2026-10-22T22:54:43Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-23T05:00:33.793Z"
   },
   {
     "id": "50127979",
@@ -226,6 +237,17 @@
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
   },
   {
+    "id": "50207405",
+    "title": "Swedish government offices to ban ChatGPT and Claude",
+    "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+    "hnUrl": "https://news.ycombinator.com/item?id=50207405",
+    "points": 301,
+    "comments": 112,
+    "at": "2026-10-23T11:39:54Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-23T17:15:08.040Z"
+  },
+  {
     "id": "50122112",
     "title": "Anthropic assigned highest junk credit rating in June",
     "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
@@ -268,17 +290,6 @@
     "firstSeenAt": "2026-10-18T11:18:39.615Z"
   },
   {
-    "id": "50118688",
-    "title": "Show HN: Gemini 4 Argon plays StarCraft",
-    "url": "https://starskirmish.com/bench/v0-2/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50118688",
-    "points": 249,
-    "comments": 111,
-    "at": "2026-10-16T14:18:44Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-10-16T16:45:25.416Z"
-  },
-  {
     "id": "50159245",
     "title": "How abliterated models can get you pwned",
     "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
@@ -299,6 +310,17 @@
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
   },
   {
+    "id": "50191507",
+    "title": "OpenAI CLI",
+    "url": "https://github.com/openai/openai-cli",
+    "hnUrl": "https://news.ycombinator.com/item?id=50191507",
+    "points": 240,
+    "comments": 111,
+    "at": "2026-10-22T05:23:11Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
     "id": "50136126",
     "title": "RuneScape Bench: MMOs for Agents [video]",
     "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
@@ -309,36 +331,14 @@
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
   },
   {
-    "id": "50191507",
-    "title": "OpenAI CLI",
-    "url": "https://github.com/openai/openai-cli",
-    "hnUrl": "https://news.ycombinator.com/item?id=50191507",
-    "points": 236,
-    "comments": 111,
-    "at": "2026-10-22T05:23:11Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
     "id": "50176082",
     "title": "Using LLM for confidence scoring is a bad idea",
     "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50176082",
-    "points": 210,
+    "points": 215,
     "comments": 100,
     "at": "2026-10-21T04:27:51Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
-    "id": "50200997",
-    "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-    "url": "https://news.ycombinator.com/item?id=50200997",
-    "hnUrl": "https://news.ycombinator.com/item?id=50200997",
-    "points": 204,
-    "comments": 200,
-    "at": "2026-10-22T21:03:55Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-23T05:00:33.793Z"
   },
   {
     "id": "50148452",
@@ -356,7 +356,7 @@
     "title": "Anthropic logged net loss of over $80B in first half of 2026",
     "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
     "hnUrl": "https://news.ycombinator.com/item?id=50171966",
-    "points": 188,
+    "points": 189,
     "comments": 96,
     "at": "2026-10-20T20:09:46Z",
     "lab": "anthropic",
@@ -428,6 +428,17 @@
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
   },
   {
+    "id": "50180752",
+    "title": "Using thousands of AI agents to uncover new leads in biological data",
+    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50180752",
+    "points": 158,
+    "comments": 105,
+    "at": "2026-10-21T13:37:00Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-21T17:19:55.191Z"
+  },
+  {
     "id": "50141657",
     "title": "Websites are closing their doors to AI agents",
     "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
@@ -446,17 +457,6 @@
     "comments": 83,
     "at": "2026-10-18T21:36:10Z",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
-  },
-  {
-    "id": "50180752",
-    "title": "Using thousands of AI agents to uncover new leads in biological data",
-    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50180752",
-    "points": 157,
-    "comments": 105,
-    "at": "2026-10-21T13:37:00Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-21T17:19:55.191Z"
   },
   {
     "id": "50151376",
@@ -592,8 +592,8 @@
     "title": "Claude Now Works with Google Docs, Sheets, and Slides",
     "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
     "hnUrl": "https://news.ycombinator.com/item?id=50190357",
-    "points": 88,
-    "comments": 14,
+    "points": 89,
+    "comments": 15,
     "at": "2026-10-22T02:17:58Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-22T17:17:28.896Z"
@@ -634,7 +634,7 @@
     "url": "https://alterauth.com/",
     "hnUrl": "https://news.ycombinator.com/item?id=50176908",
     "points": 68,
-    "comments": 45,
+    "comments": 48,
     "at": "2026-10-21T06:42:12Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
@@ -643,7 +643,7 @@
     "title": "The bridge to agent-scale Git infrastructure",
     "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
     "hnUrl": "https://news.ycombinator.com/item?id=50183344",
-    "points": 67,
+    "points": 68,
     "comments": 20,
     "at": "2026-10-21T16:09:28Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -669,5 +669,16 @@
     "at": "2026-10-20T15:10:54Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
+  },
+  {
+    "id": "50212065",
+    "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+    "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+    "hnUrl": "https://news.ycombinator.com/item?id=50212065",
+    "points": 61,
+    "comments": 7,
+    "at": "2026-10-23T16:59:08Z",
+    "lab": "moonshot",
+    "firstSeenAt": "2026-10-23T17:15:08.040Z"
   }
 ]
