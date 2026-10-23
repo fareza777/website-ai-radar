@@ -37,7 +37,7 @@
     "title": "Voxtral 3",
     "url": "https://mistral.ai/news/voxtral-3/",
     "hnUrl": "https://news.ycombinator.com/item?id=50168396",
-    "points": 767,
+    "points": 768,
     "comments": 200,
     "at": "2026-10-20T16:02:07Z",
     "lab": "mistral",
@@ -91,8 +91,8 @@
     "title": "Claude Duet",
     "url": "https://claude.com/product/claude-duet",
     "hnUrl": "https://news.ycombinator.com/item?id=50186037",
-    "points": 549,
-    "comments": 514,
+    "points": 551,
+    "comments": 522,
     "at": "2026-10-21T19:14:01Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T21:48:23.060Z"
@@ -130,6 +130,17 @@
     "firstSeenAt": "2026-10-16T21:19:28.792Z"
   },
   {
+    "id": "50198675",
+    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "hnUrl": "https://news.ycombinator.com/item?id=50198675",
+    "points": 415,
+    "comments": 196,
+    "at": "2026-10-22T17:44:06Z",
+    "lab": "nvidia",
+    "firstSeenAt": "2026-10-22T21:43:19.556Z"
+  },
+  {
     "id": "50122431",
     "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
     "url": "https://github.com/cobanov/PS5LM",
@@ -145,8 +156,8 @@
     "title": "Publish fake stats, get cited in LLMs",
     "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
     "hnUrl": "https://news.ycombinator.com/item?id=50165801",
-    "points": 365,
-    "comments": 204,
+    "points": 366,
+    "comments": 206,
     "at": "2026-10-20T13:06:22Z",
     "firstSeenAt": "2026-10-20T19:21:23.050Z"
   },
@@ -162,15 +173,15 @@
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
   },
   {
-    "id": "50198675",
-    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-    "url": "https://github.com/NVIDIA/OpenShell",
-    "hnUrl": "https://news.ycombinator.com/item?id=50198675",
-    "points": 342,
-    "comments": 181,
-    "at": "2026-10-22T17:44:06Z",
-    "lab": "nvidia",
-    "firstSeenAt": "2026-10-22T21:43:19.556Z"
+    "id": "50202217",
+    "title": "LLMs are making formal software verification feasible at a much larger scale",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "hnUrl": "https://news.ycombinator.com/item?id=50202217",
+    "points": 360,
+    "comments": 217,
+    "at": "2026-10-22T22:54:43Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-23T05:00:33.793Z"
   },
   {
     "id": "50127979",
@@ -187,8 +198,8 @@
     "title": "Mistral Large 4",
     "url": "https://mistral.ai/news/mistral-large-4/",
     "hnUrl": "https://news.ycombinator.com/item?id=50186129",
-    "points": 323,
-    "comments": 102,
+    "points": 326,
+    "comments": 104,
     "at": "2026-10-21T19:20:55Z",
     "lab": "mistral",
     "firstSeenAt": "2026-10-21T21:48:23.060Z"
@@ -198,7 +209,7 @@
     "title": "OpenAI models are coming to Google Cloud",
     "url": "https://openai.com/index/openai-models-google-cloud/",
     "hnUrl": "https://news.ycombinator.com/item?id=50180079",
-    "points": 322,
+    "points": 323,
     "comments": 145,
     "at": "2026-10-21T12:53:11Z",
     "lab": "openai",
@@ -240,7 +251,7 @@
     "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
     "hnUrl": "https://news.ycombinator.com/item?id=50181175",
-    "points": 264,
+    "points": 265,
     "comments": 183,
     "at": "2026-10-21T14:03:43Z",
     "lab": "openai",
@@ -302,32 +313,32 @@
     "title": "OpenAI CLI",
     "url": "https://github.com/openai/openai-cli",
     "hnUrl": "https://news.ycombinator.com/item?id=50191507",
-    "points": 232,
-    "comments": 110,
+    "points": 236,
+    "comments": 111,
     "at": "2026-10-22T05:23:11Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
-    "id": "50202217",
-    "title": "LLMs are making formal software verification feasible at a much larger scale",
-    "url": "https://www.anthropic.com/research/formal-verification",
-    "hnUrl": "https://news.ycombinator.com/item?id=50202217",
-    "points": 217,
-    "comments": 120,
-    "at": "2026-10-22T22:54:43Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-23T05:00:33.793Z"
   },
   {
     "id": "50176082",
     "title": "Using LLM for confidence scoring is a bad idea",
     "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50176082",
-    "points": 203,
+    "points": 210,
     "comments": 100,
     "at": "2026-10-21T04:27:51Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
+    "id": "50200997",
+    "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+    "url": "https://news.ycombinator.com/item?id=50200997",
+    "hnUrl": "https://news.ycombinator.com/item?id=50200997",
+    "points": 204,
+    "comments": 200,
+    "at": "2026-10-22T21:03:55Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-23T05:00:33.793Z"
   },
   {
     "id": "50148452",
@@ -441,8 +452,8 @@
     "title": "Using thousands of AI agents to uncover new leads in biological data",
     "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
     "hnUrl": "https://news.ycombinator.com/item?id=50180752",
-    "points": 155,
-    "comments": 104,
+    "points": 157,
+    "comments": 105,
     "at": "2026-10-21T13:37:00Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -463,8 +474,8 @@
     "title": "Using Claude to reduce the attack surface of code",
     "url": "https://www.anthropic.com/research/attack-surface-reduction",
     "hnUrl": "https://news.ycombinator.com/item?id=50175779",
-    "points": 134,
-    "comments": 89,
+    "points": 135,
+    "comments": 91,
     "at": "2026-10-21T03:36:43Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -516,7 +527,7 @@
     "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
     "url": "https://github.com/omnara-ai/omnara",
     "hnUrl": "https://news.ycombinator.com/item?id=50183892",
-    "points": 110,
+    "points": 111,
     "comments": 34,
     "at": "2026-10-21T16:44:53Z",
     "lab": "anthropic",
@@ -581,8 +592,8 @@
     "title": "Claude Now Works with Google Docs, Sheets, and Slides",
     "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
     "hnUrl": "https://news.ycombinator.com/item?id=50190357",
-    "points": 86,
-    "comments": 12,
+    "points": 88,
+    "comments": 14,
     "at": "2026-10-22T02:17:58Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-22T17:17:28.896Z"
@@ -592,7 +603,7 @@
     "title": "LayerFS: A filesystem for AI coding agents",
     "url": "https://layerfs.ai/",
     "hnUrl": "https://news.ycombinator.com/item?id=50179857",
-    "points": 74,
+    "points": 75,
     "comments": 47,
     "at": "2026-10-21T12:34:46Z",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -603,7 +614,7 @@
     "url": "https://jevcards.com/",
     "hnUrl": "https://news.ycombinator.com/item?id=50167617",
     "points": 71,
-    "comments": 53,
+    "comments": 54,
     "at": "2026-10-20T15:11:56Z",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
@@ -618,6 +629,16 @@
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
   },
   {
+    "id": "50176908",
+    "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+    "url": "https://alterauth.com/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50176908",
+    "points": 68,
+    "comments": 45,
+    "at": "2026-10-21T06:42:12Z",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
     "id": "50183344",
     "title": "The bridge to agent-scale Git infrastructure",
     "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
@@ -625,16 +646,6 @@
     "points": 67,
     "comments": 20,
     "at": "2026-10-21T16:09:28Z",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
-    "id": "50176908",
-    "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
-    "url": "https://alterauth.com/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50176908",
-    "points": 67,
-    "comments": 44,
-    "at": "2026-10-21T06:42:12Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
@@ -658,16 +669,5 @@
     "at": "2026-10-20T15:10:54Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
-  },
-  {
-    "id": "50200997",
-    "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-    "url": "https://news.ycombinator.com/item?id=50200997",
-    "hnUrl": "https://news.ycombinator.com/item?id=50200997",
-    "points": 64,
-    "comments": 67,
-    "at": "2026-10-22T21:03:55Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-23T05:00:33.793Z"
   }
 ]

@@ -1,5 +1,34 @@
 [
   {
+    "id": "9fcb3014b1abacc6",
+    "lab": "ibm",
+    "title": "Docling v2.142.1",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.142.1",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-23T08:18:50.000Z",
+    "firstSeenAt": "2026-10-23T11:48:11.444Z",
+    "updatedAt": "2026-10-23T08:18:50.000Z",
+    "excerpt": "Fix Clamp page_range bounds to sys.maxsize ( #4980 ) ( 0db3aea ) Limit the decompressed size of DOCX, XLSX and EPUB archive members ( #4977 ) ( ce0f04c ) xlsx: Clip merged-cell and hyperlink ranges while loading workbooks ( #4979 ) ( a63ec34 ) Decode image pages on demand and limit decoded image pixels ( #4976 ) ( bae7aa3 ) xbrl: Apply the fetch options to taxonomy references ( #4975 ) ( cf8959f ) latex: Clamp…",
+    "summary": "IBM shipped Docling v2.142.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 20,
+    "contentHash": "5b9a2121199e",
+    "meta": {
+      "version": "v2.142.1",
+      "semver": "patch",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "bfab9e73c5d91fb2",
     "lab": "ibm",
     "title": "Docling v2.142.0",
@@ -203,7 +232,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 40,
-      "downloads": 1622,
+      "downloads": 1805,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -233,8 +262,8 @@
     "importance": 62,
     "contentHash": "6f6f69225449",
     "meta": {
-      "likes": 28,
-      "downloads": 1234,
+      "likes": 29,
+      "downloads": 1364,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -448,7 +477,7 @@
     "contentHash": "a598e14a409a",
     "meta": {
       "likes": 42,
-      "downloads": 212,
+      "downloads": 1125,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -699,7 +728,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 7,
-      "downloads": 225,
+      "downloads": 255,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
@@ -1005,7 +1034,7 @@
     "contentHash": "45adf5a46f06",
     "meta": {
       "likes": 36,
-      "downloads": 32817,
+      "downloads": 32797,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
       "license": "cc-by-nc-sa-4.0"
@@ -1104,7 +1133,7 @@
     "contentHash": "ff3e756cb61a",
     "meta": {
       "likes": 136,
-      "downloads": 38947,
+      "downloads": 38763,
       "repo": "ibm-granite/granite-4.2-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1135,7 +1164,7 @@
     "contentHash": "c8e55083221f",
     "meta": {
       "likes": 108,
-      "downloads": 86110,
+      "downloads": 80469,
       "repo": "ibm-granite/granite-4.2-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1166,7 +1195,7 @@
     "contentHash": "d9e26c7be4a7",
     "meta": {
       "likes": 116,
-      "downloads": 40452,
+      "downloads": 38858,
       "repo": "ibm-granite/granite-4.2-3b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1195,7 +1224,7 @@
     "contentHash": "720803661a02",
     "meta": {
       "likes": 17,
-      "downloads": 243639,
+      "downloads": 237738,
       "repo": "ibm-granite/granite-timeseries-patchtst-fm-r2",
       "pipeline": "time-series-forecasting",
       "license": "openmdw-1.0"
@@ -1227,7 +1256,7 @@
     "contentHash": "d9d402627057",
     "meta": {
       "likes": 97,
-      "downloads": 58541,
+      "downloads": 58154,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"

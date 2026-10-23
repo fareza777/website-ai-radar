@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T05:00:33.793Z",
+  "generatedAt": "2026-10-23T11:48:11.444Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -52,9 +52,8 @@
         "google-deepmind"
       ],
       "official": 4,
-      "press": 40,
+      "press": 39,
       "outlets": [
-        "Google Cloud",
         "The National Law Review",
         "The American Bazaar",
         "Business Insider",
@@ -98,7 +97,7 @@
         "Towards Data Science",
         "Robotics & Automation News"
       ],
-      "firstAt": "2026-10-13T07:00:00.000Z",
+      "firstAt": "2026-10-13T16:00:00.000Z",
       "lastAt": "2026-10-22T19:34:44.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
       "lead": {
@@ -229,8 +228,8 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 14,
-        "prev": 49,
+        "count": 13,
+        "prev": 50,
         "labs": [
           "google-deepmind"
         ]
@@ -265,12 +264,6 @@
         "labs": []
       },
       {
-        "name": "GLM 5.5",
-        "count": 3,
-        "prev": 1,
-        "labs": []
-      },
-      {
         "name": "Grok 4.7",
         "count": 3,
         "prev": 3,
@@ -283,15 +276,15 @@
       {
         "name": "agents",
         "count": 49,
-        "prev": 50,
+        "prev": 49,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "qwen",
           "ibm",
           "nvidia"
@@ -300,15 +293,15 @@
       {
         "name": "coding",
         "count": 41,
-        "prev": 35,
+        "prev": 34,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "qwen",
           "ibm",
           "nvidia"
@@ -316,16 +309,31 @@
       },
       {
         "name": "multimodal",
-        "count": 10,
-        "prev": 8,
+        "count": 11,
+        "prev": 6,
         "labs": [
           "google-deepmind",
           "deepseek",
           "openai",
           "minimax",
-          "amazon",
           "tencent",
+          "amazon",
           "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "safety",
+        "count": 9,
+        "prev": 8,
+        "labs": [
+          "anthropic",
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "cohere",
+          "tencent",
+          "amazon",
           "nvidia"
         ]
       },
@@ -335,26 +343,11 @@
         "prev": 3,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
-          "amazon",
-          "microsoft",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "safety",
-        "count": 8,
-        "prev": 8,
-        "labs": [
-          "anthropic",
-          "google-deepmind",
           "openai",
-          "mistral",
-          "cohere",
+          "microsoft",
           "amazon",
-          "tencent",
+          "ibm",
           "nvidia"
         ]
       },
@@ -363,26 +356,12 @@
         "count": 8,
         "prev": 7,
         "labs": [
-          "openai",
           "meta",
+          "openai",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "audio",
-        "count": 7,
-        "prev": 5,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "mistral",
           "amazon",
-          "tencent",
-          "ibm",
           "nvidia"
         ]
       },
@@ -395,6 +374,20 @@
           "openai",
           "amazon",
           "qwen"
+        ]
+      },
+      {
+        "name": "audio",
+        "count": 6,
+        "prev": 6,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "tencent",
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
