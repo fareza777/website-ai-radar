@@ -1,5 +1,34 @@
 [
   {
+    "id": "52b155cec5d6a228",
+    "lab": "xai",
+    "title": "xAI SDK (Python) v1.21.0",
+    "url": "https://github.com/xai-org/xai-sdk-python/releases/tag/v1.21.0",
+    "sourceId": "xai-sdk",
+    "sourceName": "GitHub · xai-org/xai-sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-23T19:47:17.000Z",
+    "firstSeenAt": "2026-10-23T21:29:28.915Z",
+    "updatedAt": "2026-10-23T19:47:17.000Z",
+    "excerpt": "What's Changed Update changelog by @Omar-V2 in #220 Add safety_identifier to chat.create by @rokujix in #221 Add guidelines to chat.create by @rokujix in #229 Allow protobuf 7 by @codewithfourtix in #223 Prepare to release v1.21.0 of the xAI Python SDK by @Omar-V2 in #237 New Contributors @rokujix made their first contribution in #221 @codewithfourtix made their first contribution in #223 Full Changelog…",
+    "summary": "xAI shipped xAI SDK (Python) v1.21.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "safety"
+    ],
+    "importance": 45,
+    "contentHash": "259b877d0960",
+    "meta": {
+      "version": "v1.21.0",
+      "semver": "minor",
+      "repo": "xai-org/xai-sdk-python"
+    }
+  },
+  {
     "id": "e09691c053d0a93a",
     "lab": "xai",
     "title": "Team Bots: shared AI teammates that learn as they work",

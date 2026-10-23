@@ -1,5 +1,27 @@
 [
   {
+    "id": "4737fb7f586e5bc0",
+    "modelId": "qwen/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "lab": "qwen",
+    "at": "2026-10-23T21:29:28.915Z",
+    "field": "prompt",
+    "from": 0.08,
+    "to": 0.17,
+    "change": 112.5
+  },
+  {
+    "id": "79d887fb519cb629",
+    "modelId": "qwen/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "lab": "qwen",
+    "at": "2026-10-23T21:29:28.915Z",
+    "field": "completion",
+    "from": 0.13,
+    "to": 0.25,
+    "change": 92.3
+  },
+  {
     "id": "595a599c6ea239ba",
     "modelId": "qwen/qwen3.8-27b",
     "name": "Qwen: Qwen3.8 27B",

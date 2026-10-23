@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T17:15:08.040Z",
+  "generatedAt": "2026-10-23T21:29:28.915Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -45,52 +45,6 @@
       "importance": 100
     },
     {
-      "id": "25432b6b093a311b",
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "entity": "Gemini 4 Argon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 1,
-      "press": 30,
-      "outlets": [
-        "Quartz",
-        "The Decoder",
-        "Mashable",
-        "The American Bazaar",
-        "Mashable SEA",
-        "https://tech-insider.org/",
-        "Snowflake",
-        "MarkTechPost",
-        "TechEBlog -",
-        "Technology Org",
-        "Yahoo Finance",
-        "The Neuron",
-        "about.gitlab.com",
-        "InfoWorld",
-        "Lifehacker",
-        "Yahoo Finance UK",
-        "Yahoo Finance Singapore",
-        "Forbes",
-        "Crypto Briefing",
-        "Channel Insider",
-        "TechRepublic",
-        "PYMNTS.com",
-        "ActuIA",
-        "shattered.io",
-        "Towards Data Science",
-        "Robotics & Automation News"
-      ],
-      "firstAt": "2026-10-13T17:15:40.000Z",
-      "lastAt": "2026-10-22T19:34:44.000Z",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
-      "lead": {
-        "kind": "official",
-        "id": "25432b6b093a311b"
-      },
-      "importance": 100
-    },
-    {
       "id": "ea83f0dd69c5142c",
       "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
       "entity": null,
@@ -109,6 +63,50 @@
         "id": "ea83f0dd69c5142c"
       },
       "importance": 70
+    },
+    {
+      "id": "google-deepmind:4ebbff939622d9",
+      "title": "Google's Gemini 4 Argon Is the Most Accurate and Most Consistent AI Model on Accounting Work, DualEntry Benchmark Finds",
+      "entity": "Gemini 4 Argon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 27,
+      "outlets": [
+        "Snowflake",
+        "MarkTechPost",
+        "TechEBlog -",
+        "Technology Org",
+        "Yahoo Finance",
+        "The Neuron",
+        "about.gitlab.com",
+        "InfoWorld",
+        "Lifehacker",
+        "Yahoo Finance UK",
+        "Yahoo Finance Singapore",
+        "Forbes",
+        "Crypto Briefing",
+        "Channel Insider",
+        "Mashable",
+        "TechRepublic",
+        "https://tech-insider.org/",
+        "The Decoder",
+        "PYMNTS.com",
+        "ActuIA",
+        "shattered.io",
+        "Towards Data Science",
+        "Robotics & Automation News",
+        "Seeking Alpha"
+      ],
+      "firstAt": "2026-10-14T02:45:42.000Z",
+      "lastAt": "2026-10-23T16:25:17.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRzlPdVhYS0hZWnB0SXJiQ0dDVXpsN1Z0RHNac2ZmeUtJbjdrRXFCYXJHSy16QmJfblRMV3pVSWpqRjVlWUpSM2NOY1Q2Q1RuUDBMRXZGTF81NmExTHhsaE1LTUk1OHJkRTBteTl4b21IX0JCQy1ia3VaamswSGRTX25n?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:4ebbff939622d9"
+      },
+      "importance": 68
     },
     {
       "id": "7d369f9d483c77b3",
@@ -164,7 +162,7 @@
       "importance": 61
     },
     {
-      "id": "nvidia:6dbd7cfebdb47e",
+      "id": "nvidia:b0f023eb8b2a0a",
       "title": "Rockwell Automation Expands FactoryTalk Conductor with NVIDIA Nemotron Support",
       "entity": null,
       "labs": [
@@ -173,20 +171,21 @@
       "official": 0,
       "press": 2,
       "outlets": [
-        "marketscreener.com",
+        "Yahoo Finance",
         "StreetInsider",
-        "The Globe and Mail",
+        "Nasdaq",
         "Investing News Network",
-        "Yahoo Finance"
+        "The Globe and Mail",
+        "marketscreener.com"
       ],
       "firstAt": "2026-10-22T12:00:00.000Z",
-      "lastAt": "2026-10-22T12:03:42.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWjVMUm9IV1haTFJQLVJsa0tKUXdNdTJTdjZldHlrVUgtQ3hiQnRVcmtSVGtKTjc4RjJ1UkUwQldLc3R2Ri1GNDdnQnQ1WlZyVE4wZnE0Rk1LUldtTjFUczlaREdpZklOUExkMVpkRXAwbS1ZWlVwUl9nS3BlR0xvbURQSXgyQ1VfeFFTdHVrZUtSbWNFRnBFWWNfNXY5QWFIN1dIWXMyM0JGMDg4UEdacThvbHZwd1B3a0xrUlhSaWZTXzlYY051QmNNd2FtQVRQQzBveGlocTZsSXl5aGQ3MjYyenpRbjRCNVB3Yl8xX0I2cGZZeGlz?oc=5",
+      "lastAt": "2026-10-22T12:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZVltOHJCVFA0OHNKd0pfZzE1NXF0SGY4MzZaUy0zMTJuXzIyNi1ObHk5eXp2UjhCLUdxaWJzdlZWOVloRlN6dUVjSElrZk1jdlNkMTIycHhwcE5DX2RNalZCaWx5elFzMUZNLXMtT3Fpb2JCWnVrQW9RbE9TOXBpYWdwUFluZ0tjT05vTGlERjB6bGZMMTMtdUszMFZHRHBNMi1RTXF4V0tWc3NLd18tRmJ3Wk00UnhDRk9BSWpR?oc=5",
       "lead": {
         "kind": "press",
-        "id": "nvidia:6dbd7cfebdb47e"
+        "id": "nvidia:b0f023eb8b2a0a"
       },
-      "importance": 57
+      "importance": 58
     },
     {
       "id": "ibm:a9cae2783c20b2",
@@ -211,25 +210,54 @@
         "id": "ibm:a9cae2783c20b2"
       },
       "importance": 56
+    },
+    {
+      "id": "anthropic:5ded18ae0cbcf5",
+      "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
+      "entity": "Claude Opus 5.5",
+      "labs": [
+        "anthropic",
+        "moonshot"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Google Cloud",
+        "Crypto Briefing"
+      ],
+      "firstAt": "2026-10-20T16:20:38.000Z",
+      "lastAt": "2026-10-23T18:21:54.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYlRVVVRvR21CSnQ3QUFkSkZBcWZhSmk4UTEzZmJlbU1PZ0k5cWFUTjg3TDBkdkdpdzJ6bU9TUGREdjQxZ2dxTllMODNMYTdlUVNJbDZ5bmFUMHNGNzhFby1MQ3ZNbUp0UVJLX3N5aHJmaDlKS1YteVIya1V3ZFBmOGxHWGNuWTFoQ1FjVTZTVHI2bTRvUU04ek44SmUyLUdjZEhTdk02WTlDOF9UUFVMRlkya2dPSDk4RUdn?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "anthropic:5ded18ae0cbcf5"
+      },
+      "importance": 54
     }
   ],
   "trending": {
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 12,
-        "prev": 52,
+        "count": 13,
+        "prev": 54,
         "labs": [
           "google-deepmind"
         ]
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 11,
+        "count": 12,
         "prev": 3,
         "labs": [
           "deepseek"
         ]
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "count": 5,
+        "prev": 2,
+        "labs": []
       },
       {
         "name": "Granite 5.0 2B",
@@ -238,20 +266,20 @@
         "labs": []
       },
       {
-        "name": "Nemotron 3.5 Super",
-        "count": 4,
-        "prev": 17,
-        "labs": [
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "Grok 4.7",
         "count": 3,
         "prev": 3,
         "labs": [
           "amazon"
+        ]
+      },
+      {
+        "name": "Nemotron 3.5 Super",
+        "count": 3,
+        "prev": 18,
+        "labs": [
+          "amazon",
+          "nvidia"
         ]
       }
     ],
@@ -263,12 +291,12 @@
         "labs": [
           "anthropic",
           "meta",
-          "mistral",
           "openai",
+          "mistral",
           "cohere",
+          "microsoft",
           "amazon",
           "qwen",
-          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -276,29 +304,29 @@
       {
         "name": "coding",
         "count": 38,
-        "prev": 35,
+        "prev": 33,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "mistral",
           "openai",
+          "mistral",
           "cohere",
+          "microsoft",
           "amazon",
           "qwen",
-          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 14,
-        "prev": 5,
+        "count": 13,
+        "prev": 6,
         "labs": [
           "google-deepmind",
           "deepseek",
-          "minimax",
           "openai",
+          "minimax",
           "tencent",
           "amazon",
           "ibm",
@@ -307,13 +335,14 @@
       },
       {
         "name": "safety",
-        "count": 9,
+        "count": 11,
         "prev": 8,
         "labs": [
           "anthropic",
+          "xai",
           "google-deepmind",
-          "mistral",
           "openai",
+          "mistral",
           "cohere",
           "tencent",
           "amazon",
@@ -323,14 +352,14 @@
       {
         "name": "reasoning",
         "count": 7,
-        "prev": 8,
+        "prev": 7,
         "labs": [
           "meta",
-          "mistral",
           "openai",
+          "mistral",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "nvidia"
         ]
       },
@@ -353,8 +382,8 @@
           "anthropic",
           "meta",
           "openai",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -365,8 +394,8 @@
         "prev": 6,
         "labs": [
           "google-deepmind",
-          "mistral",
           "openai",
+          "mistral",
           "tencent",
           "amazon",
           "ibm",
@@ -387,6 +416,18 @@
   },
   "unconfirmed": [
     {
+      "id": "moonshot:b5ab6d8df0b847",
+      "lab": "moonshot",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
+      "outlets": [
+        "Unite.AI",
+        "Startup Fortune"
+      ],
+      "reports": 2,
+      "at": "2026-10-23T17:26:02.000Z"
+    },
+    {
       "id": "mistral:bb1b22edc07f49",
       "lab": "mistral",
       "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
@@ -397,18 +438,6 @@
       ],
       "reports": 2,
       "at": "2026-10-21T06:03:12.000Z"
-    },
-    {
-      "id": "mistral:a839ffbedea5e0",
-      "lab": "mistral",
-      "title": "Mistral AI Launches Voxtral 3 With Voice Agent SDK and 50+ Languages",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91UmNaSlM2NkdBMko5TDdWTXFZTWYtUjMxb0UtNTJqZ3pEZUthSkVkczM5aXdYTWdFVDdUSnZqUDZyb3VkZWZmVjhtYnl0clljZVJGSk9rdHhDd29oOWJpOW5Ea1QyUXgwcnhoMnE1VnloTGpodEsw?oc=5",
-      "outlets": [
-        "BigGo Finance",
-        "Technobezz"
-      ],
-      "reports": 2,
-      "at": "2026-10-20T18:28:39.000Z"
     }
   ]
 }

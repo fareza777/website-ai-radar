@@ -1,20 +1,25 @@
 [
   {
     "date": "2026-10-24",
-    "generatedAt": "2026-10-23T17:15:08.040Z",
+    "generatedAt": "2026-10-23T21:29:28.915Z",
     "stats": {
-      "updates24h": 18,
-      "labsActive24h": 7,
-      "updates7d": 153,
-      "newModels7d": 44
+      "updates24h": 19,
+      "labsActive24h": 8,
+      "updates7d": 156,
+      "newModels7d": 45
     },
     "source": "template",
-    "headline": "18 updates from 7 AI labs in the last 24 hours · 44 model releases this week.",
+    "headline": "19 updates from 8 AI labs in the last 24 hours · 45 model releases this week.",
     "bullets": [
       {
-        "text": "Amazon: Announcing new ways to customize models with SageMaker AI, without managing GPUs",
-        "itemId": "418ae447f600fa7e",
-        "lab": "amazon"
+        "text": "OpenAI: Securing our frontier model training environment",
+        "itemId": "48e2274fdf2ba9fe",
+        "lab": "openai"
+      },
+      {
+        "text": "NVIDIA: Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
+        "itemId": "5c25f1831f0e4d47",
+        "lab": "nvidia"
       },
       {
         "text": "Amazon: How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
@@ -32,14 +37,9 @@
         "lab": "openai"
       },
       {
-        "text": "OpenAI: Build more responsive apps with the Decisions API",
-        "itemId": "27825e3003584012",
-        "lab": "openai"
-      },
-      {
-        "text": "NVIDIA: Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
-        "itemId": "3b0fc092303087ba",
-        "lab": "nvidia"
+        "text": "Anthropic: Claude Cowork and chat come together for Enterprise",
+        "itemId": "faf6b20eb041e7b0",
+        "lab": "anthropic"
       }
     ]
   },

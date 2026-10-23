@@ -11,17 +11,6 @@
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
   },
   {
-    "id": "50122800",
-    "title": "Claude reveals ECDSA curve origins",
-    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-    "hnUrl": "https://news.ycombinator.com/item?id=50122800",
-    "points": 1054,
-    "comments": 388,
-    "at": "2026-10-16T18:55:59Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-16T21:19:28.792Z"
-  },
-  {
     "id": "50129045",
     "title": "DeepSeek-v4.1-Flash-1017",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -91,11 +80,33 @@
     "title": "Claude Duet",
     "url": "https://claude.com/product/claude-duet",
     "hnUrl": "https://news.ycombinator.com/item?id=50186037",
-    "points": 559,
-    "comments": 525,
+    "points": 561,
+    "comments": 528,
     "at": "2026-10-21T19:14:01Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T21:48:23.060Z"
+  },
+  {
+    "id": "50200997",
+    "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+    "url": "https://news.ycombinator.com/item?id=50200997",
+    "hnUrl": "https://news.ycombinator.com/item?id=50200997",
+    "points": 555,
+    "comments": 603,
+    "at": "2026-10-22T21:03:55Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-23T05:00:33.793Z"
+  },
+  {
+    "id": "50212065",
+    "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "hnUrl": "https://news.ycombinator.com/item?id=50212065",
+    "points": 532,
+    "comments": 327,
+    "at": "2026-10-23T16:59:08Z",
+    "lab": "moonshot",
+    "firstSeenAt": "2026-10-23T17:15:08.040Z"
   },
   {
     "id": "50129121",
@@ -119,23 +130,12 @@
     "firstSeenAt": "2026-10-18T23:20:30.937Z"
   },
   {
-    "id": "50122951",
-    "title": "How the Claude Code team does code review",
-    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50122951",
-    "points": 480,
-    "comments": 471,
-    "at": "2026-10-16T19:04:47Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-16T21:19:28.792Z"
-  },
-  {
     "id": "50198675",
     "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
     "url": "https://github.com/NVIDIA/OpenShell",
     "hnUrl": "https://news.ycombinator.com/item?id=50198675",
-    "points": 475,
-    "comments": 205,
+    "points": 487,
+    "comments": 212,
     "at": "2026-10-22T17:44:06Z",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-22T21:43:19.556Z"
@@ -145,33 +145,11 @@
     "title": "LLMs are making formal software verification feasible at a much larger scale",
     "url": "https://www.anthropic.com/research/formal-verification",
     "hnUrl": "https://news.ycombinator.com/item?id=50202217",
-    "points": 414,
-    "comments": 252,
+    "points": 436,
+    "comments": 280,
     "at": "2026-10-22T22:54:43Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
-  },
-  {
-    "id": "50200997",
-    "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-    "url": "https://news.ycombinator.com/item?id=50200997",
-    "hnUrl": "https://news.ycombinator.com/item?id=50200997",
-    "points": 410,
-    "comments": 442,
-    "at": "2026-10-22T21:03:55Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-23T05:00:33.793Z"
-  },
-  {
-    "id": "50122431",
-    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-    "url": "https://github.com/cobanov/PS5LM",
-    "hnUrl": "https://news.ycombinator.com/item?id=50122431",
-    "points": 373,
-    "comments": 85,
-    "at": "2026-10-16T18:32:35Z",
-    "lab": "meta",
-    "firstSeenAt": "2026-10-16T21:19:28.792Z"
   },
   {
     "id": "50165801",
@@ -227,6 +205,17 @@
     "firstSeenAt": "2026-10-21T21:48:23.060Z"
   },
   {
+    "id": "50207405",
+    "title": "Swedish government offices to ban ChatGPT and Claude",
+    "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+    "hnUrl": "https://news.ycombinator.com/item?id=50207405",
+    "points": 311,
+    "comments": 114,
+    "at": "2026-10-23T11:39:54Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-23T17:15:08.040Z"
+  },
+  {
     "id": "50145507",
     "title": "If you don't run your own LLM proxy, how do you know whats going on?",
     "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
@@ -235,28 +224,6 @@
     "comments": 217,
     "at": "2026-10-18T21:09:12Z",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
-  },
-  {
-    "id": "50207405",
-    "title": "Swedish government offices to ban ChatGPT and Claude",
-    "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-    "hnUrl": "https://news.ycombinator.com/item?id=50207405",
-    "points": 301,
-    "comments": 112,
-    "at": "2026-10-23T11:39:54Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-23T17:15:08.040Z"
-  },
-  {
-    "id": "50122112",
-    "title": "Anthropic assigned highest junk credit rating in June",
-    "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-    "hnUrl": "https://news.ycombinator.com/item?id=50122112",
-    "points": 298,
-    "comments": 89,
-    "at": "2026-10-16T18:11:42Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-16T21:19:28.792Z"
   },
   {
     "id": "50135762",
@@ -314,7 +281,7 @@
     "title": "OpenAI CLI",
     "url": "https://github.com/openai/openai-cli",
     "hnUrl": "https://news.ycombinator.com/item?id=50191507",
-    "points": 240,
+    "points": 242,
     "comments": 111,
     "at": "2026-10-22T05:23:11Z",
     "lab": "openai",
@@ -335,7 +302,7 @@
     "title": "Using LLM for confidence scoring is a bad idea",
     "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50176082",
-    "points": 215,
+    "points": 221,
     "comments": 100,
     "at": "2026-10-21T04:27:51Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -372,17 +339,6 @@
     "at": "2026-10-17T17:45:08Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-18T04:43:17.817Z"
-  },
-  {
-    "id": "50121939",
-    "title": "Designing more efficient quantum circuits with Claude",
-    "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-    "hnUrl": "https://news.ycombinator.com/item?id=50121939",
-    "points": 172,
-    "comments": 37,
-    "at": "2026-10-16T18:00:18Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-17T00:03:17.091Z"
   },
   {
     "id": "50141429",
@@ -523,6 +479,17 @@
     "firstSeenAt": "2026-10-20T23:57:39.440Z"
   },
   {
+    "id": "50213337",
+    "title": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
+    "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+    "hnUrl": "https://news.ycombinator.com/item?id=50213337",
+    "points": 113,
+    "comments": 36,
+    "at": "2026-10-23T18:24:54Z",
+    "lab": "moonshot",
+    "firstSeenAt": "2026-10-23T21:29:28.915Z"
+  },
+  {
     "id": "50183892",
     "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
     "url": "https://github.com/omnara-ai/omnara",
@@ -577,17 +544,6 @@
     "firstSeenAt": "2026-10-22T04:59:19.574Z"
   },
   {
-    "id": "50121562",
-    "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
-    "url": "https://news.ycombinator.com/item?id=50121562",
-    "hnUrl": "https://news.ycombinator.com/item?id=50121562",
-    "points": 89,
-    "comments": 36,
-    "at": "2026-10-16T17:31:42Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-16T21:19:28.792Z"
-  },
-  {
     "id": "50190357",
     "title": "Claude Now Works with Google Docs, Sheets, and Slides",
     "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
@@ -599,11 +555,22 @@
     "firstSeenAt": "2026-10-22T17:17:28.896Z"
   },
   {
+    "id": "50209907",
+    "title": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
+    "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50209907",
+    "points": 79,
+    "comments": 13,
+    "at": "2026-10-23T14:43:02Z",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-10-23T21:29:28.915Z"
+  },
+  {
     "id": "50179857",
     "title": "LayerFS: A filesystem for AI coding agents",
     "url": "https://layerfs.ai/",
     "hnUrl": "https://news.ycombinator.com/item?id=50179857",
-    "points": 75,
+    "points": 76,
     "comments": 47,
     "at": "2026-10-21T12:34:46Z",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -634,7 +601,7 @@
     "url": "https://alterauth.com/",
     "hnUrl": "https://news.ycombinator.com/item?id=50176908",
     "points": 68,
-    "comments": 48,
+    "comments": 49,
     "at": "2026-10-21T06:42:12Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
@@ -669,16 +636,5 @@
     "at": "2026-10-20T15:10:54Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
-  },
-  {
-    "id": "50212065",
-    "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-    "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
-    "hnUrl": "https://news.ycombinator.com/item?id=50212065",
-    "points": 61,
-    "comments": 7,
-    "at": "2026-10-23T16:59:08Z",
-    "lab": "moonshot",
-    "firstSeenAt": "2026-10-23T17:15:08.040Z"
   }
 ]

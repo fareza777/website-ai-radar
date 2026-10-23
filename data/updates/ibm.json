@@ -29,6 +29,28 @@
     }
   },
   {
+    "id": "b244982e29f70511",
+    "lab": "ibm",
+    "title": "IBM supports award-winning projects in NEDO Challenge",
+    "url": "https://research.ibm.com/blog/ibm-nedo-challenge-2026",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "firstSeenAt": "2026-10-23T21:29:28.915Z",
+    "updatedAt": "2026-10-23T04:00:00.000Z",
+    "excerpt": "Teams across all three tracks of Japan's national quantum competition used IBM quantum computers during research on real-world applications.",
+    "summary": "Teams across all three tracks of Japan's national quantum competition used IBM quantum computers during research on real-world applications.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "e148e24ac8db"
+  },
+  {
     "id": "bfab9e73c5d91fb2",
     "lab": "ibm",
     "title": "Docling v2.142.0",
@@ -473,10 +495,10 @@
       "2B",
       "audio"
     ],
-    "importance": 63,
+    "importance": 64,
     "contentHash": "a598e14a409a",
     "meta": {
-      "likes": 46,
+      "likes": 48,
       "downloads": 1125,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
@@ -1033,7 +1055,7 @@
     "importance": 63,
     "contentHash": "45adf5a46f06",
     "meta": {
-      "likes": 36,
+      "likes": 37,
       "downloads": 32797,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
@@ -1255,7 +1277,7 @@
     "importance": 66,
     "contentHash": "d9d402627057",
     "meta": {
-      "likes": 98,
+      "likes": 99,
       "downloads": 58154,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",
