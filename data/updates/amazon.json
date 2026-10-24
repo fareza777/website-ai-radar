@@ -1,5 +1,27 @@
 [
   {
+    "id": "116e84c7c9fa0dbd",
+    "lab": "amazon",
+    "title": "Web Search on AWS Bedrock now supports domain filtering and user location controls",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-23T21:04:00.000Z",
+    "firstSeenAt": "2026-10-24T04:45:31.936Z",
+    "updatedAt": "2026-10-23T21:04:00.000Z",
+    "excerpt": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request. With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100…",
+    "summary": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "86648f8f58ca"
+  },
+  {
     "id": "d543a8c819225bfc",
     "lab": "amazon",
     "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",

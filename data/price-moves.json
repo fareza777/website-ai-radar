@@ -1,5 +1,27 @@
 [
   {
+    "id": "b7b5a1ca70859bb1",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-24T04:45:31.936Z",
+    "field": "prompt",
+    "from": 0.0765,
+    "to": 0.0675,
+    "change": -11.8
+  },
+  {
+    "id": "c3fbb965815cce8b",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-24T04:45:31.936Z",
+    "field": "completion",
+    "from": 0.255,
+    "to": 0.225,
+    "change": -11.8
+  },
+  {
     "id": "6b61925847168a1b",
     "modelId": "tencent/hy4-preview",
     "name": "Tencent: Hy4 preview",

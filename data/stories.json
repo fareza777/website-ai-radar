@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T00:02:15.500Z",
+  "generatedAt": "2026-10-24T04:45:31.936Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -72,9 +72,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 27,
+      "press": 26,
       "outlets": [
-        "Snowflake",
         "MarkTechPost",
         "TechEBlog -",
         "Technology Org",
@@ -100,14 +99,14 @@
         "Robotics & Automation News",
         "Seeking Alpha"
       ],
-      "firstAt": "2026-10-14T02:45:42.000Z",
+      "firstAt": "2026-10-14T05:03:34.000Z",
       "lastAt": "2026-10-23T16:25:17.000Z",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRzlPdVhYS0hZWnB0SXJiQ0dDVXpsN1Z0RHNac2ZmeUtJbjdrRXFCYXJHSy16QmJfblRMV3pVSWpqRjVlWUpSM2NOY1Q2Q1RuUDBMRXZGTF81NmExTHhsaE1LTUk1OHJkRTBteTl4b21IX0JCQy1ia3VaamswSGRTX25n?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:4ebbff939622d9"
       },
-      "importance": 69
+      "importance": 68
     },
     {
       "id": "7d369f9d483c77b3",
@@ -240,16 +239,16 @@
     "entities": [
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 12,
-        "prev": 3,
+        "count": 11,
+        "prev": 4,
         "labs": [
           "deepseek"
         ]
       },
       {
         "name": "Gemini 4 Argon",
-        "count": 12,
-        "prev": 55,
+        "count": 11,
+        "prev": 56,
         "labs": [
           "google-deepmind"
         ]
@@ -273,21 +272,12 @@
         "labs": [
           "amazon"
         ]
-      },
-      {
-        "name": "Nemotron 3.5 Super",
-        "count": 3,
-        "prev": 18,
-        "labs": [
-          "amazon",
-          "nvidia"
-        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 49,
+        "count": 50,
         "prev": 50,
         "labs": [
           "anthropic",
@@ -295,16 +285,16 @@
           "meta",
           "mistral",
           "cohere",
-          "qwen",
-          "microsoft",
           "amazon",
+          "microsoft",
+          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 39,
+        "count": 40,
         "prev": 32,
         "labs": [
           "anthropic",
@@ -312,24 +302,9 @@
           "openai",
           "mistral",
           "cohere",
-          "qwen",
+          "amazon",
           "microsoft",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "multimodal",
-        "count": 12,
-        "prev": 6,
-        "labs": [
-          "deepseek",
-          "google-deepmind",
-          "openai",
-          "minimax",
-          "tencent",
-          "amazon",
+          "qwen",
           "ibm",
           "nvidia"
         ]
@@ -340,13 +315,28 @@
         "prev": 8,
         "labs": [
           "anthropic",
-          "xai",
           "google-deepmind",
+          "xai",
           "openai",
           "mistral",
           "cohere",
           "tencent",
           "amazon",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "multimodal",
+        "count": 11,
+        "prev": 7,
+        "labs": [
+          "google-deepmind",
+          "deepseek",
+          "openai",
+          "minimax",
+          "tencent",
+          "amazon",
+          "ibm",
           "nvidia"
         ]
       },
@@ -359,8 +349,8 @@
           "meta",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -371,8 +361,8 @@
         "labs": [
           "anthropic",
           "openai",
-          "qwen",
-          "amazon"
+          "amazon",
+          "qwen"
         ]
       },
       {
@@ -383,8 +373,8 @@
           "anthropic",
           "openai",
           "meta",
-          "microsoft",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -430,16 +420,16 @@
       "at": "2026-10-23T17:26:02.000Z"
     },
     {
-      "id": "mistral:bb1b22edc07f49",
-      "lab": "mistral",
-      "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUWxrcTc5aHlvSVhMelFNQXN6THVMdlV1bHRpbVNjQ015c1dqVlQwVURkR0xMWFVOcmNaTU84Y3hCUU9SUS1iQ1Vmc19TVEQ4Z2NIME9qRjQwMnU2c1lyMHdhdktzWklTU2lRRlZFazd4eGd5azZ0d3Zqc3N1NFJGQ2x6TWlwNTBZaWVHYWp5N3lSZ9IBkgFBVV95cUxNUWxrcTc5aHlvSVhMelFNQXN6THVMdlV1bHRpbVNjQ015c1dqVlQwVURkR0xMWFVOcmNaTU84Y3hCUU9SUS1iQ1Vmc19TVEQ4Z2NIME9qRjQwMnU2c1lyMHdhdktzWklTU2lRRlZFazd4eGd5azZ0d3Zqc3N1NFJGQ2x6TWlwNTBZaWVHYWp5N3lSZw?oc=5",
+      "id": "minimax:e0a96fd942c28b",
+      "lab": "minimax",
+      "title": "China's MiniMax completes export registration for open-source, overseas AI model licensing",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUDVGa0hCU3ppVlo3amtaT1l4T18zcHNWWlFkV3Nveks4TDI5RGxkMzE1TFpEZjIxWFBZNl9ILU9SRVdzMEtCX2JKai1FbXlYTTFFX1Y0U3NfRGZuRGttQ0ZKYVhRS3NaUTlEWldxNzVIQUdzamNVMTE1cVg0N1VpLUlweVZlU3lpOGFRajJ6eHItM3NHTGlLVldsVWxnbTcwQncxekJITDJfWUxWUGt1OWx1Zm4zLXdEdm5ja0VPbXNlNmFxWWstT0lfVkZOQXNTNlRYcktB?oc=5",
       "outlets": [
-        "MarkTechPost",
-        "TestingCatalog AI News"
+        "The Lufkin Daily News",
+        "Reuters"
       ],
       "reports": 2,
-      "at": "2026-10-21T06:03:12.000Z"
+      "at": "2026-10-23T06:59:00.000Z"
     }
   ]
 }

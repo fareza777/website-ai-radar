@@ -6,7 +6,7 @@
     "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 221,
+    "upvotes": 225,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisOne-VL",
@@ -19,7 +19,7 @@
     "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them…",
     "publishedAt": "2026-10-22T08:43:48.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 163,
+    "upvotes": 165,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Songlin1998/ShotVerse2.0",
@@ -32,7 +32,7 @@
     "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 151,
+    "upvotes": 152,
     "org": null,
     "githubRepo": "https://github.com/Yu-xm/OpenDS",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -44,7 +44,7 @@
     "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples…",
     "publishedAt": "2026-10-17T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 73,
+    "upvotes": 74,
     "org": "jingdong1",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
@@ -55,7 +55,7 @@
     "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 54,
+    "upvotes": 55,
     "org": "iquestlab",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
@@ -66,10 +66,21 @@
     "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 46,
+    "upvotes": 49,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
+  },
+  {
+    "id": "2610.25100",
+    "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+    "url": "https://huggingface.co/papers/2610.25100",
+    "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow…",
+    "publishedAt": "2026-10-18T00:00:00.000Z",
+    "submittedAt": "2026-10-23T00:00:00.000Z",
+    "upvotes": 40,
+    "org": null,
+    "firstSeenAt": "2026-10-24T04:45:31.936Z"
   },
   {
     "id": "2610.31158",
@@ -115,9 +126,21 @@
     "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 430,
+    "upvotes": 434,
     "org": null,
     "githubRepo": "https://github.com/StreamEval/StreamEval",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
+    "id": "2610.21114",
+    "title": "Spectral-Spatial Interpretation",
+    "url": "https://huggingface.co/papers/2610.21114",
+    "summary": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each…",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "submittedAt": "2026-10-22T00:00:00.000Z",
+    "upvotes": 172,
+    "org": null,
+    "githubRepo": "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
@@ -127,7 +150,7 @@
     "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 158,
+    "upvotes": 162,
     "org": "tencentarc",
     "githubRepo": "https://github.com/TencentARC/Looking-Ahead",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -139,7 +162,7 @@
     "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 150,
+    "upvotes": 151,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/DONIC",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -151,7 +174,7 @@
     "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 147,
+    "upvotes": 151,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/JesseZZZZZ/SpatialScout",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -163,21 +186,9 @@
     "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 139,
+    "upvotes": 145,
     "org": "nics-efc",
     "githubRepo": "https://github.com/thu-nics/AKV",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
-    "id": "2610.21114",
-    "title": "Spectral-Spatial Interpretation",
-    "url": "https://huggingface.co/papers/2610.21114",
-    "summary": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each…",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 136,
-    "org": null,
-    "githubRepo": "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
@@ -187,7 +198,7 @@
     "summary": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition requires an expectation of what should have followed the action. Existing GUI world models provide…",
     "publishedAt": "2026-10-08T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 115,
+    "upvotes": 128,
     "org": null,
     "githubRepo": "https://github.com/jiamingzhang94/lgwm",
     "firstSeenAt": "2026-10-22T21:43:19.556Z"
@@ -199,7 +210,7 @@
     "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 77,
+    "upvotes": 78,
     "org": "microsoftresearch",
     "githubRepo": "https://github.com/MSR-Orchard/WildAWM",
     "firstSeenAt": "2026-10-22T04:59:19.574Z"
@@ -211,7 +222,7 @@
     "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 61,
     "org": "thusi-lab",
     "githubRepo": "https://github.com/THUSI-Lab/GameScaling",
     "firstSeenAt": "2026-10-22T17:17:28.896Z"
@@ -223,7 +234,7 @@
     "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone. Yet their data and…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 61,
     "org": "hkunlp",
     "githubRepo": "https://github.com/QiushiSun/PrismaCoder",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -235,7 +246,7 @@
     "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 42,
     "org": "ibm",
     "lab": "ibm",
     "githubRepo": "https://github.com/dolev31/lasagna",
@@ -344,7 +355,7 @@
     "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 105,
+    "upvotes": 106,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/S-Agent-2.0",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -356,7 +367,7 @@
     "summary": "Decision models support routing, guardrails, and output verification in LLM systems. However, item accuracy alone cannot establish whether models make correct decisions across controlled variations or assign reliable confidence to their predictions. We introduce DecisionPivot, a diagnostic benchmark comprising 48 tasks and 40,033 items across seven decision roles. Its core track contains 7,800 items from 13…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 73,
+    "upvotes": 74,
     "org": "startlux-models",
     "githubRepo": "https://github.com/StartLuxLabs/DecisionPivot",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -392,7 +403,7 @@
     "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are not aligned with…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 52,
     "org": "showlab",
     "githubRepo": "https://github.com/Enderfga/SolarRenderer",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -452,7 +463,7 @@
     "summary": "Training coding agents typically updates the policy while keeping the harness fixed. During training, trajectories reveal flawed repair strategies and interaction problems that vary across tasks and change as the policy learns. We introduce HarnessAdapt-RL, which trains the policy and adapts its harness during reinforcement learning. For flawed repair strategies, a frozen teacher generates task-specific…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 15,
+    "upvotes": 16,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/lingxiaotang/HarnessAdapt-RL",
@@ -465,7 +476,7 @@
     "summary": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image inputs and produces text outputs…",
     "publishedAt": "2026-10-17T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 14,
+    "upvotes": 15,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -477,7 +488,7 @@
     "summary": "Long-horizon terminal agents may solve a task in one run yet fail across repeated runs. Stochastic errors can propagate through actions and context, creating a gap between capability and reliable execution. We present RiseHarness, a framework for iteratively improving agent harnesses with model weights fixed. It focuses on flipping tasks with both successful and failed runs under the same configuration, using…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 12,
+    "upvotes": 13,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "firstSeenAt": "2026-10-21T04:58:36.683Z"
@@ -489,7 +500,7 @@
     "summary": "Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data. However, they discard this work after each question and redo it from scratch for the next one. Tool evolution, which automatically builds and refines reusable tools across tasks, is a natural fit for this repetition. Since a ground-truth label for a data-lake question requires an expert to solve it…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 12,
+    "upvotes": 13,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -501,7 +512,7 @@
     "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challenging, especially for long-horizon tasks. We propose Self-Credit, an end-to-end agentic RL method that creates dense supervision signals from sparse outcome rewards using self-generated credit assignment via intra-group rescaling. Self-Credit builds on group-based RL with three components. First…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 10,
+    "upvotes": 11,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -513,7 +524,7 @@
     "summary": "Agentic capabilities are increasingly important for modern LLMs, yet remain difficult to evaluate during pretraining. Existing approaches typically rely on static trajectory-derived tasks or likelihood-based proxies, which are lightweight but provide limited visibility into how base models behave in interactive environments. We introduce ASAP (Agent Scaffold Adaptation for Pretraining Evaluation), a lightweight…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 9,
+    "upvotes": 10,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -525,7 +536,7 @@
     "summary": "Despite the success of video world models, extending them to multiple agents is difficult because it requires generating several agent-specific video streams that are consistent in time and between agents. To address this gap, we introduce OverSeer, a multi-agent world model that augments egocentric agent views with auxiliary camera views. We suggest that, by fixing the auxiliary views in space, they act as a proxy…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 5,
+    "upvotes": 6,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -549,7 +560,7 @@
     "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 245,
+    "upvotes": 246,
     "org": "mindlab-research",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
   },
@@ -596,7 +607,7 @@
     "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 126,
+    "upvotes": 127,
     "org": null,
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
@@ -607,7 +618,7 @@
     "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 113,
+    "upvotes": 114,
     "org": "apple",
     "githubRepo": "https://github.com/uclanlp/OpenVLHarness",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -672,6 +683,18 @@
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
+    "id": "2610.26844",
+    "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+    "url": "https://huggingface.co/papers/2610.26844",
+    "summary": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics…",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "submittedAt": "2026-10-20T00:00:00.000Z",
+    "upvotes": 45,
+    "org": "galilai-group",
+    "githubRepo": "https://github.com/galilai-group/AnyGoal",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
     "id": "2610.25404",
     "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
     "url": "https://huggingface.co/papers/2610.25404",
@@ -681,18 +704,6 @@
     "upvotes": 44,
     "org": "sensenova",
     "githubRepo": "https://github.com/houyuanchen111/MT-Forcing",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
-    "id": "2610.26844",
-    "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
-    "url": "https://huggingface.co/papers/2610.26844",
-    "summary": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics…",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 44,
-    "org": "galilai-group",
-    "githubRepo": "https://github.com/galilai-group/AnyGoal",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
@@ -787,7 +798,7 @@
     "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 468,
+    "upvotes": 470,
     "org": "sensenova",
     "githubRepo": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
