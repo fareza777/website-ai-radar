@@ -1,5 +1,27 @@
 [
   {
+    "id": "97c426011a1a2081",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-24T11:12:54.627Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.02,
+    "change": -93.3
+  },
+  {
+    "id": "c7cf89621d60591a",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-24T11:12:54.627Z",
+    "field": "completion",
+    "from": 1.2,
+    "to": 1,
+    "change": -16.7
+  },
+  {
     "id": "b7b5a1ca70859bb1",
     "modelId": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",

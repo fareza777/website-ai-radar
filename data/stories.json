@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T04:45:31.936Z",
+  "generatedAt": "2026-10-24T11:12:54.627Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -72,18 +72,14 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 26,
+      "press": 21,
       "outlets": [
-        "MarkTechPost",
-        "TechEBlog -",
-        "Technology Org",
-        "Yahoo Finance",
-        "The Neuron",
         "about.gitlab.com",
         "InfoWorld",
         "Lifehacker",
         "Yahoo Finance UK",
         "Yahoo Finance Singapore",
+        "Yahoo Finance",
         "Forbes",
         "Crypto Briefing",
         "Channel Insider",
@@ -99,14 +95,14 @@
         "Robotics & Automation News",
         "Seeking Alpha"
       ],
-      "firstAt": "2026-10-14T05:03:34.000Z",
+      "firstAt": "2026-10-14T11:27:30.000Z",
       "lastAt": "2026-10-23T16:25:17.000Z",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRzlPdVhYS0hZWnB0SXJiQ0dDVXpsN1Z0RHNac2ZmeUtJbjdrRXFCYXJHSy16QmJfblRMV3pVSWpqRjVlWUpSM2NOY1Q2Q1RuUDBMRXZGTF81NmExTHhsaE1LTUk1OHJkRTBteTl4b21IX0JCQy1ia3VaamswSGRTX25n?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:4ebbff939622d9"
       },
-      "importance": 68
+      "importance": 67
     },
     {
       "id": "7d369f9d483c77b3",
@@ -188,6 +184,30 @@
       "importance": 58
     },
     {
+      "id": "ibm:1c452e9063ca86",
+      "title": "Granite Speech 5.0 2B: what IBM shipped on 7 October",
+      "entity": "Granite 5.0 2B",
+      "labs": [
+        "ibm"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "OrcaRouter",
+        "GIGAZINE",
+        "MarkTechPost",
+        "NeoTeo"
+      ],
+      "firstAt": "2026-10-21T16:56:11.000Z",
+      "lastAt": "2026-10-24T03:21:37.000Z",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94Z0FQZERFY3c2Z3hOcmlmRzlqaW03Mzd4NVF3N0hva2ZCNy1ZV3Z4WkRkNGVPNUZrNzcyMkRIQmFyYUdiU1FzTDFjQXc3aUpVSDRhOENNSGFYZ0pOM2prSkxEQ3VzbHNManZTZW9ySQ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "ibm:1c452e9063ca86"
+      },
+      "importance": 56
+    },
+    {
       "id": "ibm:a9cae2783c20b2",
       "title": "IBM Granite Switch 4.1: Unified AI for Chat, Decisions, and Speech",
       "entity": "Granite 4.1",
@@ -238,19 +258,19 @@
   "trending": {
     "entities": [
       {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 11,
-        "prev": 4,
+        "name": "Gemini 4 Argon",
+        "count": 10,
+        "prev": 57,
         "labs": [
-          "deepseek"
+          "google-deepmind"
         ]
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 11,
-        "prev": 56,
+        "name": "DeepSeek 4.1 Flash",
+        "count": 9,
+        "prev": 6,
         "labs": [
-          "google-deepmind"
+          "deepseek"
         ]
       },
       {
@@ -315,27 +335,27 @@
         "prev": 8,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "xai",
+          "google-deepmind",
           "openai",
           "mistral",
           "cohere",
-          "tencent",
           "amazon",
+          "tencent",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 11,
-        "prev": 7,
+        "count": 10,
+        "prev": 8,
         "labs": [
           "google-deepmind",
           "deepseek",
           "openai",
           "minimax",
-          "tencent",
           "amazon",
+          "tencent",
           "ibm",
           "nvidia"
         ]
@@ -387,8 +407,8 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "tencent",
           "amazon",
+          "tencent",
           "ibm",
           "nvidia"
         ]
@@ -407,6 +427,33 @@
   },
   "unconfirmed": [
     {
+      "id": "moonshot:dabd4522e394bb",
+      "lab": "moonshot",
+      "title": "Chinas Moonshot AI launches Kimi K3.1 Pro; plans full model weights release by Nov",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1pfX0hrUjRYVk1MTFNKVVBrdldITFFLSnRmb1pSWTN2djcyb25vcTdrdFZNd1pVR2IteTdITmVRWElsVmRrMEJiWTQ5YVNLM2tXNUFaRmdBeG9HdWtIbmhjVnd4dmk0RmhJRHcxNWE2LU9OdTRNaUgwa2dQLVJPWkhFWWlPTGM5dS00cmJrY3NJYU1FMi1PUVktMEN6aTVtM25lUEhIdEpsbVVzNG13WnF2U3ZTMElOdjhTbHFPaHhKRFXSAccBQVVfeXFMTUlNaHBtejRvYnkzeWFNRUo4Rm80TGxRSV9Tck1FazMxYVJHWkNEalVKU0tMUElHc2d6R2QxMlR4aDhoZldUZ1hSS19sU3paVzhadXNnZU44VXFZRld0UjVTeWJBMGFtTEJZR2xiSko4aXZUbFdTenpIQ1dlV2lhTUNmU0NybnVqWmFwVExxcThxWlJ6cE8yZ21NZnh2T0NWRWU1akFmMDc2NmFCdE0tOFZoNEJnTVFlMDV3bEhNeV8tOVptQi1ZNA?oc=5",
+      "outlets": [
+        "The Tribune",
+        "The Economic Times",
+        "Lokmat Times",
+        "LatestLY"
+      ],
+      "reports": 4,
+      "at": "2026-10-24T05:07:28.000Z"
+    },
+    {
+      "id": "moonshot:bd1a9e13cdfe46",
+      "lab": "moonshot",
+      "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
+      "outlets": [
+        "SiliconANGLE",
+        "The Information",
+        "Startup Fortune"
+      ],
+      "reports": 3,
+      "at": "2026-10-23T18:23:36.000Z"
+    },
+    {
       "id": "moonshot:b5ab6d8df0b847",
       "lab": "moonshot",
       "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
@@ -418,6 +465,18 @@
       ],
       "reports": 3,
       "at": "2026-10-23T17:26:02.000Z"
+    },
+    {
+      "id": "moonshot:efe644a57e4511",
+      "lab": "moonshot",
+      "title": "Moonshot AI Unveils Kimi K3.1 Pro 3-Trillion-Parameter AI Model",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeWtUT1AtUEwydXpjNk9RdU56Q0UzLWdtX3h2TlZqUjcxTDRaelgzTnlGREEybnRkaG1uRHpOUTdGU29nMWZLTlJzSWI1dkQ2NGNLQzkxVU5KcFVSXzllZ0o5NnJmREo3OGJCUTRXbDJjR1lSMm5VYUNnNUJvRjZBZTlrdUlRaE9ZQmU3TEYwNEpSQTJ4NHdCX2JXV3JMYzVqR3A0UzRzS1lDOTNjZjVyZVhCYngwMVVnbmd2bTNFTi1JdjA0Q0hVONIByAFBVV95cUxPeWtUT1AtUEwydXpjNk9RdU56Q0UzLWdtX3h2TlZqUjcxTDRaelgzTnlGREEybnRkaG1uRHpOUTdGU29nMWZLTlJzSWI1dkQ2NGNLQzkxVU5KcFVSXzllZ0o5NnJmREo3OGJCUTRXbDJjR1lSMm5VYUNnNUJvRjZBZTlrdUlRaE9ZQmU3TEYwNEpSQTJ4NHdCX2JXV3JMYzVqR3A0UzRzS1lDOTNjZjVyZVhCYngwMVVnbmd2bTNFTi1JdjA0Q0hVOA?oc=5",
+      "outlets": [
+        "Menafn",
+        "Asianet Newsable"
+      ],
+      "reports": 2,
+      "at": "2026-10-24T05:11:35.000Z"
     },
     {
       "id": "minimax:e0a96fd942c28b",
