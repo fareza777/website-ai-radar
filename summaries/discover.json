@@ -99,11 +99,6 @@
     "unique": "The answer is a single readable HTML page rather than a long chat transcript.",
     "benefit": "People asking complex questions can get one HTML page they can open and read."
   },
-  "7d3465fad608c3c9": {
-    "summary": "invisible_playwright_mcp is a Playwright MCP server that browses on anti-detect stealth Firefox so agents are less likely to be stopped by anti-bots and captchas.",
-    "unique": "It pairs Playwright MCP with stealth Firefox for undetected browsing, scraping, and computer use.",
-    "benefit": "Agent builders can browse sites that block ordinary automation through this stealth Playwright server."
-  },
   "926fd02075a833c5": {
     "summary": "jevgrep is a CLI for coding agents that uses Jev to find files and source context by asking what the code does.",
     "unique": "Search is by behavior, using Jev, instead of by exact text match.",
@@ -145,10 +140,10 @@
     "benefit": "Anyone geolocating a photo can see the evidence the agent used, not only a guess."
   },
   "0fb55ef66f9ce5d2": {
-    "hash": "df7a4c60",
-    "summary": "A Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5.",
-    "unique": "The set includes OPUSCAR 98 and a new Evidence Films style, from Lemomo.",
-    "benefit": "People using Claude Code can make style-specific short films in code instead of calling a video model."
+    "hash": "107fe8f2",
+    "summary": "lemo-opuscar is Lemomo's toolbox of film styles made in code for Claude Code: 59 ready to use, plus your own.",
+    "unique": "Each style is a prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model.",
+    "benefit": "Claude Code users can apply 59 coded film styles or add their own without a video model."
   },
   "74a90c5a46b6cecf": {
     "summary": "ClearAI is an ontology-first DSH agent preset. Evidence-checked research grows into a domain ontology you can browse.",
@@ -225,11 +220,6 @@
     "unique": "The desktop app talks to a local daemon instead of a hosted view of those sessions.",
     "benefit": "Herdr users can watch agents, terminals, and worktrees in a native app on their machine."
   },
-  "09b7d9e6fc379941": {
-    "summary": "ThinkWatch-Lite is a local gateway for Claude Code, Codex, and other AI clients on macOS, Windows, and Linux. It switches upstreams without touching clients, keeps API keys off relays, blocks malicious tool calls, and traces every request.",
-    "unique": "Keys stay off relays, and cost tracking sits on the gateway rather than in each client.",
-    "benefit": "Developers can change upstream models and trace requests without putting API keys on a relay."
-  },
   "870696629d61a9c0": {
     "summary": "AgentVerse-OS is a personal cloud OS for a developer and their AI agents on one server. One command installs it on Ubuntu, then a browser desktop holds isolated workspaces with VS Code, Claude Code, and Codex, plus a store of 944 self-hosted apps.",
     "unique": "Access is only via Tailscale, with backups and updates included.",
@@ -274,11 +264,6 @@
     "summary": "AniDoodle writes art and animation as code, from illustrations and loops to interactive web art and scored films.",
     "unique": "Renders stay identical every time, and it ships as skills for Claude Code and Codex.",
     "benefit": "Creative coding agents can regenerate the same illustration or film from code."
-  },
-  "094ad66f4681692e": {
-    "summary": "WorkBuddy2API Hub is a multi-account reverse-proxy gateway for international and domestic accounts.",
-    "unique": "It supports Codex, Claude Code, DSH, and standard OpenAI clients.",
-    "benefit": "Clients that speak the OpenAI API can reach those coding agents through one gateway."
   },
   "ec1479fcab36d212": {
     "summary": "Rizzo Flow is an open, local take on Jev that returns typed decisions from an LLM.",
@@ -344,16 +329,6 @@
     "summary": "Pine Computer is a cloud computer with AI built in.",
     "unique": "You hand it a job and get the finished work back.",
     "benefit": "You can assign work to a remote computer instead of running the agent on your own machine."
-  },
-  "d2b75276af3d0a00": {
-    "summary": "This tool coordinates models from Codex to plan, delegate, use host tools, and review work across workspaces.",
-    "unique": "It was formerly called Astra Flash Orchestrator.",
-    "benefit": "Developers can delegate and review multi-workspace work from Codex."
-  },
-  "7e946d054ee6261c": {
-    "summary": "EvoOntology is a self-evolving ontology layer for data agents, packaged as a plugin for Claude Code and Codex.",
-    "unique": "The plugin builds and evolves that ontology layer for data analysis.",
-    "benefit": "Data agents can keep an ontology that changes as the analysis does."
   },
   "5b5eee513a527f6e": {
     "summary": "herdr-web-ui is a browser and phone client for herdr, with chat and a live terminal for every agent pane.",
@@ -475,11 +450,6 @@
     "unique": "It ranks relay stations by measured availability, latency, and price, and can switch between them.",
     "benefit": "Claude Code and Codex users can compare AI API relays on uptime, latency, and price before switching."
   },
-  "b8f7576006e38611": {
-    "summary": "Cognition's Agent Memory Repo is an open spec for agent memory as a git repo: a MEMORY.md entry point, one-line entries with sources, and cross-links between files.",
-    "unique": "Memory is a git repo with MEMORY.md, sourced one-line entries, and links between files. Dreaming lets Devin self-improve that memory across sessions.",
-    "benefit": "Agent builders can store memory in git and let a nightly pass drop stale records and find latent links."
-  },
   "54d164a6a58484ab": {
     "summary": "An open-source newsletter for the agentic era that you can self-host or use as a hosted service.",
     "unique": "It is described as the affordable newsletter for the agentic era, and the project is open source.",
@@ -545,11 +515,6 @@
     "unique": "It scales from one card to 16, on NVIDIA or AMD and Linux or Windows, with an OpenAI- and Anthropic-compatible API.",
     "benefit": "People with their own GPUs can serve GLM-5.3-Flash privately through those APIs."
   },
-  "8e93adbc676abe8c": {
-    "summary": "This people-search tool finds contacts and verified work emails for agents.",
-    "unique": "Calls start from $0.0089, and a cited run returned 27 people and 20 verified emails for $0.58.",
-    "benefit": "Agents doing lead enrichment can look up contacts and verified work emails per call."
-  },
   "5247a702d6a16253": {
     "summary": "A single Rust program that builds a code graph and project memory for coding agents.",
     "unique": "It works with Claude Code, Codex, Cursor, and any MCP client.",
@@ -559,11 +524,6 @@
     "summary": "A local-first CLI and web dashboard that reads Claude Code, Codex, and Gemini CLI session logs.",
     "unique": "It shows token usage and cost by model, project, day, and activity, with no account and no API key.",
     "benefit": "Developers can see session token cost on their own machine, with nothing leaving it."
-  },
-  "f0b5cab248708618": {
-    "summary": "A project that implements LLM architectures from scratch in PyTorch.",
-    "unique": "The architectures are implemented from scratch in PyTorch.",
-    "benefit": "Learners can study LLM architectures by reading implementations written from scratch in PyTorch."
   },
   "b91613c5759964cd": {
     "summary": "Runs AI-generated logic in a sandbox, expressed as JSON with functions.",
@@ -585,16 +545,6 @@
     "unique": "Every run is in the open so anyone can steer it, and sign-up is free.",
     "benefit": "A team can start Claude Code or Codex from Slack, Linear, or GitHub and steer the run together."
   },
-  "dcd189d507b81bf3": {
-    "summary": "An open-source coding agent that lives in the terminal, plans multi-step changes, edits files, and runs commands and tests.",
-    "unique": "It iterates until the task is done with a transparent, extensible tool loop.",
-    "benefit": "Developers can run a terminal coding agent that shows its tool loop while it works through a repository."
-  },
-  "74a389cc0b38331c": {
-    "summary": "Scout is an open-source browser agent by Outcrawl.",
-    "unique": "It is mirrored automatically from Outcrawl's own repository.",
-    "benefit": "Developers can use Outcrawl's open-source browser agent from the mirrored repository."
-  },
   "68c43d696805912b": {
     "summary": "DigUp searches a computer by what is inside photos, PDFs, documents, recordings, videos, and code, on device for Mac, Windows, and Linux.",
     "unique": "It is built on Google DeepMind's EmbeddingGemma 2 and stays on the machine.",
@@ -609,11 +559,6 @@
     "summary": "my-claude-code-mods is a collection of custom Claude Code mods the author uses.",
     "unique": "The repo is tagged as Claude Code mods and plugins.",
     "benefit": "Claude Code users can browse one person's custom mods and plugins."
-  },
-  "43ce2405c958ffa7": {
-    "summary": "Autoloom is AI coding with Aegis governance built into execution, including baseline-aware changes and evidence-backed delivery, plus a free desktop client.",
-    "unique": "You choose the model, and governance is part of execution rather than a separate check.",
-    "benefit": "Developers who want evidence for AI code changes can use the free desktop client with their own model."
   },
   "113c2c1fc3b83a25": {
     "summary": "Cedric is an AI employee that connects to a team's tools, remembers company and workflow context, and does work for the whole team.",
@@ -635,16 +580,6 @@
     "unique": "It can deploy on-prem and is described as SOC 2 and HIPAA compliant.",
     "benefit": "Operations teams can turn unwritten app workflows into agents that stay on-prem."
   },
-  "db5d652b945ce6d3": {
-    "summary": "cloudroom-core is an open-source, self-hostable Rust runtime that runs Claude Code, Codex, and Pi in the cloud.",
-    "unique": "You host the runtime yourself and it runs those coding agents in the cloud.",
-    "benefit": "Teams that want Claude Code, Codex, or Pi off their laptops can self-host this Rust runtime."
-  },
-  "9d78670791f614ae": {
-    "summary": "neckbeard is an agent plugin that scaffolds tested, cost-honest cloud infrastructure from a versioned module catalog.",
-    "unique": "Infrastructure comes from a versioned catalog and is meant to be tested and cost-honest.",
-    "benefit": "Agent users can scaffold cloud infrastructure from a catalog instead of writing each module from scratch."
-  },
   "8e1cba0dbde87475": {
     "hash": "935bcfe8",
     "summary": "SolidCraft is an open-source parametric 3D CAD application built in pure Rust, with desktop, web, and automation through MCP.",
@@ -663,35 +598,11 @@
     "unique": "Those 217 tools are available to Claude or another LLM of your choosing.",
     "benefit": "PCB designers can ask Claude or another model to run KiCAD schematic, layout, and manufacturing checks."
   },
-  "510d0b00db58d223": {
-    "hash": "12f627b5",
-    "summary": "open_scion is the open-source version of Scion, version control built for coding agents.",
-    "unique": "It is an open release of Scion, not a general-purpose Git client.",
-    "benefit": "Teams running coding agents can try Scion-style version control from this open-source project."
-  },
-  "db1862398a74b05f": {
-    "hash": "f693f9a0",
-    "summary": "git-ai is Git designed for AI agents.",
-    "unique": "The project is framed as Git for coding agents, and it is tagged with Scion and version control.",
-    "benefit": "Agent builders who want source control shaped for coding agents can start from this repository."
-  },
-  "f7f7084046b4a510": {
-    "hash": "169e43b4",
-    "summary": "Intent-Router is an intent compiler that turns vague requests into typed IntentSpec contracts, and can probe, ask, or halt before routing.",
-    "unique": "It is the input layer for routers and typed-decision models such as Jev and Laya.",
-    "benefit": "Agent routers can hold a vague request until it becomes a typed contract."
-  },
   "dede43c9058e1211": {
     "hash": "8ed6e9b3",
     "summary": "Eleven free Claude skills that test a business before launch: a board, a marketing director, a CFO, and a consumer panel of 100 buyer agents.",
     "unique": "The board is trained on Hormozi, Thiel, and Jobs, and the pack is free under MIT.",
     "benefit": "Founders using Claude can stress-test an idea with those skills before they launch."
-  },
-  "9dea3e72c8e0c302": {
-    "hash": "86e7cada",
-    "summary": "Mission control for Herdr that runs dozens of coding agents from one board. Each works on its own branch, a second agent reviews it, and you see what needs you.",
-    "unique": "Review is a separate agent, and the board surfaces the work that needs a person.",
-    "benefit": "People running many coding agents can watch branches and reviews from one Herdr board."
   },
   "6ec647ee4b23d616": {
     "hash": "a9e38b5e",
@@ -735,12 +646,6 @@
     "unique": "Agents share a problem-specific forum and a literature of reviewed papers.",
     "benefit": "People running their own agents can point them at shared research problems instead of working alone."
   },
-  "8bce0f51c2c283fd": {
-    "hash": "2a3ad365",
-    "summary": "An npm package to run Laya, an open-source Jev-compatible System-1 decision model, from Node.js and TypeScript through ONNX Runtime.",
-    "unique": "It is a local-first Node.js path to a Jev-compatible decision model.",
-    "benefit": "TypeScript developers can run that decision model locally without leaving Node.js."
-  },
   "393155777d7ff5e3": {
     "hash": "f241af1a",
     "summary": "Trace-native CI/CD for AI agents that grades production traces, clusters failures, freezes them into replayable regression tests, and blocks pull requests that regress.",
@@ -770,5 +675,113 @@
     "summary": "Elorian introduced Glimpse on Oct 16 and calls it a visual thinking model.",
     "unique": "Glimpse is Elorian's visual thinking model.",
     "benefit": "People looking for a visual thinking model can try the one Elorian introduced as Glimpse."
+  },
+  "cd5078972b3d3c08": {
+    "hash": "0dc89156",
+    "summary": "DeepInfer is a high-performance, large-scale inference framework for DeepSeek models.",
+    "unique": "It targets large-scale serving specifically for DeepSeek models.",
+    "benefit": "Teams serving DeepSeek models can use a framework built for high-performance inference."
+  },
+  "709f5095e900a7b6": {
+    "hash": "4f3d55a5",
+    "summary": "harness2 is listed under that name with no description in the source text.",
+    "unique": "The source gives the name harness2 and nothing else.",
+    "benefit": "You can identify the project as harness2 when the listing has no further description."
+  },
+  "d14ee6ca0abba76f": {
+    "hash": "ea1ef068",
+    "summary": "cleanyourtv debloats any Android or Google TV over Wi-Fi and replaces the home screen with an Apple TV-style layout.",
+    "unique": "Debloat and a new home screen happen over Wi-Fi on Android or Google TV.",
+    "benefit": "People with Android or Google TV can strip bloat and get a simpler home screen without a cable."
+  },
+  "6d180bd208d82fdf": {
+    "hash": "30784cd4",
+    "summary": "Harness Engineering 101 teaches building AI agents from first principles, treating the LLM as the brain and the harness as the body.",
+    "unique": "The course splits the agent into an LLM brain and a harness body.",
+    "benefit": "Developers learning agents can start from that brain-and-body split instead of a framework tutorial."
+  },
+  "758b7ed35b754e6d": {
+    "hash": "b911ba8d",
+    "summary": "free-my-tv is a fast, ad-free home screen for Google TV, LG webOS, and Samsung Tizen, with one button to undo.",
+    "unique": "One undo button covers Google TV, webOS, and Tizen.",
+    "benefit": "TV owners on those platforms can try an ad-free home screen and reverse it with one button."
+  },
+  "e23800d2872df7fa": {
+    "hash": "96b8df25",
+    "summary": "tv-vibehack debloats Android TV or Google TV over Wi-Fi and swaps the ad-filled home screen for an Apple TV-style launcher.",
+    "unique": "No root, and the change is fully reversible.",
+    "benefit": "You can clean an Android or Google TV over Wi-Fi and undo it later without rooting."
+  },
+  "59a6d856ff3bb794": {
+    "hash": "c2660acb",
+    "summary": "whatsapp-mcp is a read-only MCP server that lets an agent search and read your own WhatsApp messages.",
+    "unique": "It runs on Cloudflare Workers and does not write messages.",
+    "benefit": "Agents can look through your WhatsApp history without sending or editing chats."
+  },
+  "2b32bace1db032ac": {
+    "hash": "8464f9d3",
+    "summary": "earshot gives coding agents ears: they can hear, review, and make sound.",
+    "unique": "It is CPU-only and open source.",
+    "benefit": "Agent builders can add audio review and sound generation without a GPU."
+  },
+  "4d45a2179d273d4d": {
+    "hash": "58251e69",
+    "summary": "openfilm is an open-source AI video agent that turns any coding agent into a video agent, with an editor for what it makes.",
+    "unique": "It wraps an existing coding agent and still lets you edit the result.",
+    "benefit": "People who already use a coding agent can have it make video and then change the output."
+  },
+  "63a18991a3dd0b7d": {
+    "hash": "4420aa28",
+    "summary": "ARTEX is an autonomous penetration-testing system built as a multi-agent LLM app in Go and Next.js.",
+    "unique": "The project says it won the Baidu agent+ attack-defense challenge.",
+    "benefit": "Security teams can inspect a multi-agent system that automates penetration testing."
+  },
+  "68fdd067ca06eccb": {
+    "hash": "cf1af56e",
+    "summary": "omnara is an open-source managed agent platform you can self-host.",
+    "unique": "It is positioned as a self-hostable alternative to Claude Managed Agents and OpenAI's Agents API.",
+    "benefit": "Teams that want a managed agent service can run it themselves instead of those hosted APIs."
+  },
+  "02dea8d24563c4d2": {
+    "hash": "c6a41cfe",
+    "summary": "huashu-motion lets a coding agent produce commercial-grade product films, including music, and change a shot by pointing at the frame.",
+    "unique": "You point at the frame to revise the film instead of rewriting the whole prompt.",
+    "benefit": "Marketing teams can have a coding agent draft a launch film and edit a specific frame."
+  },
+  "7ceb78935d2c06d9": {
+    "hash": "b716afd2",
+    "summary": "StartLux-Decision offers open decision models from 0.8B to 27B that return a calibrated probability for every option in one pass.",
+    "unique": "A short thought is added only when the model is unsure, with engines for vLLM, llama.cpp, and MLX.",
+    "benefit": "Apps that need a probability per option can serve these models on vLLM, llama.cpp, or MLX."
+  },
+  "933a1138bcdd8897": {
+    "hash": "afdd7b35",
+    "summary": "awesome-reverse-engineering is a curated list of reverse-engineering tools and learning resources.",
+    "unique": "It covers binaries, apps, firmware, formats, and protocols.",
+    "benefit": "People learning reverse engineering can start from one list instead of hunting tools separately."
+  },
+  "1481f0036d649bd9": {
+    "hash": "a781dc6f",
+    "summary": "Reason Network lets a team's coding agents talk to each other and is the engine behind reason network.",
+    "unique": "The product is the shared network those coding agents use to communicate.",
+    "benefit": "Teams with several coding agents can have them exchange work through one network."
+  },
+  "d2921dface736d11": {
+    "hash": "47809773",
+    "summary": "mcd-saver-strategist pulls the McDonald's menu and available coupons and finds the cheapest order combination.",
+    "unique": "The description's example turns a Big Mac meal from ¥47 to ¥21.9, a 53% saving.",
+    "benefit": "Someone ordering at McDonald's in China can have an agent pick a coupon mix that costs less."
+  },
+  "268f7427aaa596eb": {
+    "hash": "87eec111",
+    "summary": "Aucert explores a mobile app, learns the team's standards, and returns evidence-backed verdicts before release.",
+    "unique": "Verdicts come with evidence and are meant to land before you ship.",
+    "benefit": "Mobile teams can get a pre-release check that cites evidence instead of a pass-fail score only."
+  },
+  "15542b753b93fbdc": {
+    "hash": "e5dcfaf5",
+    "summary": "Ideogram's vector model creates logos, print designs, and illustrations from a prompt or an image as scalable, editable SVG artwork.",
+    "unique": "The output is SVG you can edit, not a flat raster.",
+    "benefit": "Designers can start a logo or illustration from a prompt or image and keep editing the vectors."
   }
 }

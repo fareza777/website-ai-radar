@@ -76,21 +76,18 @@
     "publishedAt": "2026-10-21T02:17:37.000Z",
     "firstSeenAt": "2026-10-23T17:15:08.040Z",
     "updatedAt": "2026-10-21T02:17:37.000Z",
-    "excerpt": "text-to-video · license: apache-2.0",
-    "summary": "Tencent published the Hy-Nomas model on Hugging Face for text to video. License: apache-2.0.",
+    "excerpt": "license: apache-2.0",
+    "summary": "Tencent published the Hy-Nomas model on Hugging Face. License: apache-2.0.",
     "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
     "summarySource": "template",
     "category": "model",
-    "tags": [
-      "multimodal"
-    ],
+    "tags": [],
     "importance": 62,
-    "contentHash": "a4cfd998f734",
+    "contentHash": "6e6b860ed408",
     "meta": {
-      "likes": 34,
+      "likes": 35,
       "downloads": 0,
       "repo": "tencent/Hy-Nomas",
-      "pipeline": "text-to-video",
       "license": "apache-2.0"
     },
     "seenIn": [
@@ -125,7 +122,7 @@
     "importance": 76,
     "contentHash": "b80a8b33297c",
     "meta": {
-      "likes": 24,
+      "likes": 25,
       "downloads": 460,
       "repo": "tencent/Qwen3-8B-DSpine-b16",
       "license": "apache-2.0"
@@ -153,7 +150,7 @@
     "importance": 44,
     "contentHash": "f84bba9f37d6",
     "meta": {
-      "stars": 1230,
+      "stars": 1232,
       "repo": "Tencent-Hunyuan/Hy-Memory",
       "language": "Python"
     }
@@ -297,10 +294,10 @@
     "tags": [
       "multimodal"
     ],
-    "importance": 66,
+    "importance": 67,
     "contentHash": "17ed023e66bd",
     "meta": {
-      "likes": 114,
+      "likes": 115,
       "downloads": 2351,
       "repo": "tencent/Youtu-Parsing-Omni",
       "pipeline": "image-text-to-text",
@@ -359,7 +356,7 @@
     "importance": 43,
     "contentHash": "160ea336e84d",
     "meta": {
-      "stars": 835,
+      "stars": 839,
       "repo": "Tencent-Hunyuan/Prism",
       "language": "Python"
     }
@@ -594,7 +591,7 @@
     "importance": 72,
     "contentHash": "b47e25917303",
     "meta": {
-      "likes": 513,
+      "likes": 514,
       "downloads": 18369,
       "repo": "tencent/Hy4-preview",
       "pipeline": "text-generation",

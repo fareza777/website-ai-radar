@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T21:29:28.915Z",
+  "generatedAt": "2026-10-24T00:02:15.500Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -95,6 +95,7 @@
         "PYMNTS.com",
         "ActuIA",
         "shattered.io",
+        "ALM Corp",
         "Towards Data Science",
         "Robotics & Automation News",
         "Seeking Alpha"
@@ -106,7 +107,7 @@
         "kind": "press",
         "id": "google-deepmind:4ebbff939622d9"
       },
-      "importance": 68
+      "importance": 69
     },
     {
       "id": "7d369f9d483c77b3",
@@ -238,19 +239,19 @@
   "trending": {
     "entities": [
       {
-        "name": "Gemini 4 Argon",
-        "count": 13,
-        "prev": 54,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "DeepSeek 4.1 Flash",
         "count": 12,
         "prev": 3,
         "labs": [
           "deepseek"
+        ]
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "count": 12,
+        "prev": 55,
+        "labs": [
+          "google-deepmind"
         ]
       },
       {
@@ -290,41 +291,41 @@
         "prev": 50,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "cohere",
+          "qwen",
           "microsoft",
           "amazon",
-          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 38,
-        "prev": 33,
+        "count": 39,
+        "prev": 32,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
           "cohere",
+          "qwen",
           "microsoft",
           "amazon",
-          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 13,
+        "count": 12,
         "prev": 6,
         "labs": [
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
           "minimax",
           "tencent",
@@ -354,8 +355,8 @@
         "count": 7,
         "prev": 7,
         "labs": [
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "cohere",
           "microsoft",
@@ -370,8 +371,8 @@
         "labs": [
           "anthropic",
           "openai",
-          "amazon",
-          "qwen"
+          "qwen",
+          "amazon"
         ]
       },
       {
@@ -380,8 +381,8 @@
         "prev": 6,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "microsoft",
           "amazon",
           "ibm",
@@ -422,9 +423,10 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
       "outlets": [
         "Unite.AI",
-        "Startup Fortune"
+        "Startup Fortune",
+        "The Information"
       ],
-      "reports": 2,
+      "reports": 3,
       "at": "2026-10-23T17:26:02.000Z"
     },
     {

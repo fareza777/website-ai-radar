@@ -30,11 +30,6 @@
     "summary": "Claude Sonnet 5.5 is the second model in the Claude 5.5 family, a clear upgrade over Claude Sonnet 5 that runs 30%+ faster and costs up to 30% less for most work.",
     "benefit": "Developers on Sonnet 5 can move most work to Sonnet 5.5 for higher speed and a lower cost."
   },
-  "9bd0e8e8cb2cba9a": {
-    "hash": "527310878156",
-    "summary": "Anthropic published a guide on when to choose Sonnet over Opus, what it costs, and how to tune it.",
-    "benefit": "Builders can use the guide to pick Sonnet or Opus and tune Sonnet for their workload."
-  },
   "311e095023e6d9fd": {
     "hash": "198a1bf458ae",
     "summary": "Google DeepMind announced Gemini 4 Argon as its next era of frontier intelligence.",
@@ -1551,9 +1546,9 @@
     "benefit": "AWS customers can deploy Nemotron 3.5 Super VL for document intelligence and GUI tasks from SageMaker JumpStart."
   },
   "42200690b98b1f60": {
-    "hash": "3bd9aa4a76f1",
-    "summary": "Reflection's Beam, its first open-weight model, is now in Amazon SageMaker JumpStart and on AWS Trainium. The announcement says it is strong on reasoning, coding, and agentic benchmarks.",
-    "benefit": "Customers can build coding agents and automated workflows on this open-weight model through SageMaker JumpStart and Trainium."
+    "hash": "15610a6ec587",
+    "summary": "Reflection's open-weight Beam model is on Amazon SageMaker JumpStart and AWS Trainium for reasoning, coding, and agentic work.",
+    "benefit": "Teams that want to adapt an open-weight model, not only call one, can start from Beam in JumpStart."
   },
   "7bd3e3f63e0f7daa": {
     "hash": "665eb8cffbc1",
@@ -1657,5 +1652,332 @@
     "hash": "df497889d461",
     "summary": "NVIDIA RTX Spark laptops are available, with Blackwell RTX graphics, up to 128GB of unified memory, and the NVIDIA AI platform in slim Windows PCs from ASUS, Dell, HP, Lenovo, Microsoft, and MSI, starting at $2,399.",
     "benefit": "People who want local AI, content creation, and gaming can buy a portable Windows PC with Blackwell RTX graphics."
+  },
+  "a84b6a7bee5c68a6": {
+    "hash": "5f831b9e7a10",
+    "summary": "Terminal X says its Eval Agent matches senior investor judgment 88.6% of the time with GPT-6.1, grading outputs on a 54-criterion rubric and catching 25% more mandate deviations with GPT-6.1 Sol.",
+    "benefit": "Funds can grade model outputs against a 54-criterion mandate and catch more deviations when they use GPT-6.1 Sol."
+  },
+  "ff1cfc81dcac62e0": {
+    "hash": "7f010f35ad08",
+    "summary": "Cohere Model Vault confidential computing is in public beta with NVIDIA Confidential Computing on NVIDIA GPUs in Microsoft Azure.",
+    "benefit": "Enterprises can run sensitive workloads on Model Vault with hardware-backed protection and verifiable security.",
+    "category": "feature"
+  },
+  "418ae447f600fa7e": {
+    "hash": "99d0a0b2a589",
+    "summary": "Amazon SageMaker AI adds ways to customize open-weight models with post-training such as reinforcement learning, without managing GPUs.",
+    "benefit": "Teams can adapt a model to their catalog, clinical vocabulary, or business context and run it at lower cost without standing up GPUs."
+  },
+  "40609a70c2f2c94d": {
+    "hash": "151b9f868a95",
+    "summary": "SpaceXAI Grok 4.7 is on Amazon Bedrock in AWS GovCloud (US), with better mixed-document handling, repo-scale coding, and browser-use agents than Grok 4.6.",
+    "benefit": "GovCloud users can call Grok 4.7 from the Bedrock console or API for coding, agents, and form or portal work."
+  },
+  "99c8819be3a73948": {
+    "hash": "39aff35ade66",
+    "summary": "NVIDIA launched Minerva, an AIOps platform that combines infrastructure and AI-workload telemetry and uses purpose-built models to surface problems earlier.",
+    "benefit": "Operators of large GPU clusters can spot issues sooner and keep AI factory jobs productive.",
+    "category": "feature"
+  },
+  "292e35e33e7becf5": {
+    "hash": "d8db68eb74a7",
+    "summary": "Claude Duet is in a research preview by waitlist, starting with US Pro and Max subscribers.",
+    "benefit": "US Claude Pro and Max subscribers can join the waitlist to try the Duet research preview."
+  },
+  "bf04d12d42270af3": {
+    "hash": "8abcf2afde84",
+    "summary": "MiniMax released MiniMax-M3.1-Flash, an image-text-to-text model under a non-standard license.",
+    "benefit": "Developers who need image and text input can evaluate MiniMax-M3.1-Flash under its stated other license."
+  },
+  "48e2274fdf2ba9fe": {
+    "hash": "1afcaa450ed3",
+    "summary": "OpenAI describes stronger containment for frontier-model training and evaluation, including offline environments and high-compute red-teaming.",
+    "benefit": "Security teams can see how OpenAI keeps frontier training and evaluation offline and red-teams the boundary.",
+    "category": "research"
+  },
+  "61f4d0141ff303c0": {
+    "hash": "d5c8e9bc6692",
+    "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini's Model Garden through Google Cloud Marketplace.",
+    "benefit": "Enterprises on Google Cloud can buy OpenAI frontier models and Codex workflows from Marketplace."
+  },
+  "7a3ac6df3675c0cc": {
+    "hash": "0068ef9edec6",
+    "summary": "Anthropic-managed Claude Models on Google Cloud expose Claude Platform features with Google Cloud authentication, billing, and commitment retirement.",
+    "benefit": "Google Cloud customers can use the full Claude Platform without a separate Anthropic billing setup."
+  },
+  "8441dda466a0cda9": {
+    "hash": "6a1915c9c466",
+    "summary": "Anthropic describes defenses that cut the rate of illicit distillation attacks by more than 90%.",
+    "benefit": "Model providers can study how Anthropic reduced copying of frontier capabilities without matching safeguards.",
+    "category": "research"
+  },
+  "d5f5b896866a7ed7": {
+    "hash": "cfe2ed79da5d",
+    "summary": "Meta's GenRecs Tokenization gives generative ad recommenders a stable vocabulary so they can reason over ad content and user preferences together.",
+    "benefit": "Ads teams can match ads from content and preference in one representation instead of scoring every ad.",
+    "category": "research"
+  },
+  "eeca3caa47fa95f2": {
+    "hash": "e5c3f264efc0",
+    "summary": "Meta says the first phase of Prometheus, the gigawatt-scale cluster behind Muse, is complete, with a path toward about 1 million GPUs and closed-loop liquid cooling.",
+    "benefit": "Infrastructure readers can see the cluster design Meta used to train the Muse model family.",
+    "category": "research"
+  },
+  "afe5d96a9d4684fb": {
+    "hash": "716ee035ae56",
+    "summary": "Voxtral 3 is Mistral's voice-agent SDK for real-time speech in 50+ languages, with transcription, emotional TTS, and tool use.",
+    "benefit": "Developers can build voice agents that transcribe, speak with emotion, and call tools in more than 50 languages."
+  },
+  "477f0efd611b7db5": {
+    "hash": "2b126e93a106",
+    "summary": "Cohere introduced Rerank 5 for precise, efficient retrieval over enterprise documents.",
+    "benefit": "Search and RAG apps can reorder enterprise documents with a newer Cohere reranker."
+  },
+  "98948186cc0e34f7": {
+    "hash": "e6a9e658b346",
+    "summary": "TwelveLabs Pegasus 1.5, announced on Amazon Bedrock on Oct 9, 2026, turns long video into timestamped JSON segments from a description of the moments you care about.",
+    "benefit": "Teams can search unindexed video and get every matching segment back as JSON."
+  },
+  "9a1e158a67b61c1a": {
+    "hash": "a5a8ef0cfe57",
+    "summary": "IBM published the Qiskit SDK v2.6 release summary covering its top new features.",
+    "benefit": "Quantum developers can see what changed in Qiskit SDK v2.6 before upgrading."
+  },
+  "7b6571f88a718510": {
+    "hash": "6e6b860ed408",
+    "summary": "Tencent released Hy-Nomas under the Apache-2.0 license.",
+    "benefit": "Developers can use Hy-Nomas under Apache-2.0 without a separate commercial license."
+  },
+  "be75ea8912a0fb62": {
+    "hash": "c7ac7f097f76",
+    "summary": "Microsoft released Sentiment-Analysis-7B, a text-generation model under the MIT license.",
+    "benefit": "Teams can run a 7B sentiment model and reuse it under MIT terms."
+  },
+  "e3751cc733b4b0b1": {
+    "hash": "f2a424fdb314",
+    "summary": "Microsoft released UserRepGen-4B, a text-generation model under the MIT license.",
+    "benefit": "Developers can generate text with a 4B model and ship it under MIT terms."
+  },
+  "3714391ca530b579": {
+    "hash": "ee6717133fbc",
+    "summary": "Tencent released WeVisOne-VL-2B, an image-text-to-text model under Apache-2.0.",
+    "benefit": "Apps that take images and text can try a 2B vision-language model under Apache-2.0."
+  },
+  "638ec17e71c879fc": {
+    "hash": "6a114defefbc",
+    "summary": "Mistral Vibe v3.0.0 reports each model's compaction threshold, can import projects and sessions from another coding agent, and adds Lean install commands plus an optional curated model catalog.",
+    "benefit": "Desktop users can see how full a session is before compaction and bring existing agent projects into Vibe."
+  },
+  "b3ec856821a0404d": {
+    "hash": "ede3f2eee55a",
+    "summary": "Cohere explains how Model Vault pairs confidential CPU and GPU execution, end-to-end encrypted request contents, and remote attestation.",
+    "benefit": "Security teams can check how Model Vault keeps request contents encrypted while a model runs.",
+    "category": "research"
+  },
+  "4b3ccd0a9d656ec9": {
+    "hash": "933989d32dc6",
+    "summary": "Cohere published a piece on rethinking confidence in reasoning models.",
+    "benefit": "Researchers can read how Cohere thinks about confidence scores from reasoning models.",
+    "category": "research"
+  },
+  "7f0dec178da37fe0": {
+    "hash": "dbe34893d097",
+    "summary": "Bayer Crop Science built the Connected Decision Engine on Amazon Bedrock AgentCore so plant-breeding model runs stay repeatable and governed across crops, regions, and teams.",
+    "benefit": "Ag teams with many ML configurations can deploy breeding decisions with a governed agent workflow.",
+    "category": "research"
+  },
+  "16e66a666855e420": {
+    "hash": "74a6ed4d5c22",
+    "summary": "SageMaker AI serverless customization adds training session APIs so customers control the post-training algorithm without provisioning GPUs, beyond managed SFT, DPO, and other RL methods.",
+    "benefit": "Teams can write their own post-training loop on SageMaker without managing GPU infrastructure.",
+    "category": "api"
+  },
+  "191c89b31a66b523": {
+    "hash": "9a6ebeefc668",
+    "summary": "SageMaker AI serverless customization now covers Muse Glimmer, Qwen3.8 27B, and Ministral 3 at 3B, 8B, and 14B, using SFT, DPO, or RFT.",
+    "benefit": "You can fine-tune those specific models on SageMaker without running your own GPU cluster."
+  },
+  "94905f02a5c74265": {
+    "hash": "0787a122ee31",
+    "summary": "AgentCore Gateway now accepts Bedrock InvokeModel and InvokeModelWithResponseStream on its inference endpoint and can fall back across models.",
+    "benefit": "Existing Bedrock SDK clients can hit one governed endpoint for any model provider and fail over if a model is unavailable.",
+    "category": "api"
+  },
+  "d817cc0813866f6b": {
+    "hash": "2bda21e56246",
+    "summary": "SageMaker AI serverless customization jobs can set sequence length, instead of a fixed length, for families including gpt-oss, Gemma, Llama, Nemotron, and Qwen.",
+    "benefit": "Fine-tunes can use a context length that matches your data instead of the recipe default.",
+    "category": "feature"
+  },
+  "753fc98bb47cb9f3": {
+    "hash": "1bef376c2421",
+    "summary": "From Canadian AWS Regions, Bedrock cross-Region inference now reaches OpenAI GPT-5.6 Sol, Terra, and Luna, GPT-6 Astra, Sol, and Luna, and GPT-6.1 Sol.",
+    "benefit": "Canadian teams can call those GPT models from Bedrock without leaving a Canada Region setup."
+  },
+  "c4ccece22afdd805": {
+    "hash": "bdd8f7d1492c",
+    "summary": "Bedrock Guardrails adds a Standard tier for contextual grounding that checks whether a response is grounded in your source and relevant to the query, including reasoning or conversational text.",
+    "benefit": "Apps can filter hallucinations more strictly than the Classic tier when answers include reasoning.",
+    "category": "feature"
+  },
+  "c42869f5ee9b5517": {
+    "hash": "a6790a8dba2d",
+    "summary": "Bedrock Advanced Prompt Optimization can now shorten a prompt while keeping or improving evaluation scores, instead of only optimizing for quality.",
+    "benefit": "You can cut prompt length on Bedrock without giving up the scores you already measure.",
+    "category": "feature"
+  },
+  "ea83f0dd69c5142c": {
+    "hash": "082b11db1815",
+    "summary": "Amazon Bedrock supports structured outputs for all Anthropic Claude models on bedrock-runtime and bedrock-mantle, returning schema-compliant JSON.",
+    "benefit": "Claude calls from Boto3 or the Messages API can return JSON that matches your schema without custom parsing.",
+    "category": "api"
+  },
+  "4a4fa336246ecf11": {
+    "hash": "8a1d2c0f7679",
+    "summary": "Tencent released WeVisOne-VL-4B, an image-text-to-text model under Apache-2.0.",
+    "benefit": "Vision-language apps can try a 4B model under Apache-2.0."
+  },
+  "5c25f1831f0e4d47": {
+    "hash": "82e938f218b0",
+    "summary": "NVIDIA TensorRT 11.1 adds the Global Performance Tuner for automatic, accuracy-aware, end-to-end tuning that customizes optimizations per model.",
+    "benefit": "Inference teams can tune TensorRT builds automatically instead of picking one optimization route by hand.",
+    "category": "developer"
+  },
+  "822412740c4fdfe1": {
+    "hash": "5b21e9137af4",
+    "summary": "NVIDIA says Kazakhstan's AI stack is moving from plans to deployment, with announcements on Oct. 23 during a visit by founder and CEO Jensen Huang.",
+    "benefit": "Readers tracking regional compute can see NVIDIA's Oct. 23 announcements tied to Kazakhstan's AI deployment.",
+    "category": "feature"
+  },
+  "676b58ceeee7bff8": {
+    "hash": "8f8c4268a01e",
+    "summary": "A guide shows how to run frontier-class models that need hundreds of gigabytes across 8 NVIDIA DGX Spark nodes for parallel models and chained inference.",
+    "benefit": "Developers with DGX Spark can spread large multi-model workloads across eight nodes.",
+    "category": "developer"
+  },
+  "e12302cd4e2cd85c": {
+    "hash": "37410ad860e7",
+    "summary": "At GTC Berlin, European banks and payment firms showed production systems on NVIDIA open-weight models, including Revolut rebuilding its stack on PRAGMA with cuDF and Dynamo-Triton.",
+    "benefit": "Financial firms can see how peers run proprietary intelligence on their own NVIDIA infrastructure.",
+    "category": "research"
+  },
+  "c3ecf70aef549971": {
+    "hash": "cba4e74e9198",
+    "summary": "NVIDIA expanded Cosmos with training tools, simulation checkpoints, and Cosmos Data Factory blueprints, and says the platform ranks in the top five on six open-model leaderboards.",
+    "benefit": "World-model builders get training data, checkpoints, and deploy tools in one Cosmos stack.",
+    "category": "developer"
+  },
+  "8ed037559253241d": {
+    "hash": "802b54456766",
+    "summary": "NVIDIA describes European retailers using open models and physical intelligence, including a commerce platform that cut inference costs by 90% and a fulfillment digital twin of mixed robot fleets.",
+    "benefit": "Retail teams can compare cost and warehouse-robot setups already running on NVIDIA open models.",
+    "category": "research"
+  },
+  "67906ae6df39627e": {
+    "hash": "c1b5be575b87",
+    "summary": "European groups are deploying NVIDIA Earth-2 open models so energy, insurance, and transport teams can forecast local weather, not only global storms.",
+    "benefit": "Forecasters can adapt open Earth-2 models for solar, shipping, or insured-property decisions.",
+    "category": "research"
+  },
+  "5346e68360b4948b": {
+    "hash": "bc8c843a10ff",
+    "summary": "NVIDIA says European public-sector projects are using open models they can adapt to local languages, run on their own infrastructure, and keep inside controlled environments.",
+    "benefit": "Government teams can evaluate open models and apply their own safeguards without sending sensitive data out.",
+    "category": "research"
+  },
+  "3df8ce2aed7d825d": {
+    "hash": "7b4edb5f1256",
+    "summary": "NVIDIA Cloud Partners are adding regional training and inference capacity across Europe, the Nordics, Africa, and Central Asia for customizable open models and agents.",
+    "benefit": "Developers who need compute near their data can use partner clouds built for sovereign, open models.",
+    "category": "feature"
+  },
+  "d290a28d44092657": {
+    "hash": "34d9df7e4e2f",
+    "summary": "European manufacturers are using CUDA-X, Omniverse, Cosmos, and Nemotron, and the Factory Operations Blueprint (FOX) is in early access.",
+    "benefit": "Factory teams can try the FOX blueprint to connect NVIDIA libraries across engineering and the plant floor.",
+    "category": "feature"
+  },
+  "82603c5be23035c0": {
+    "hash": "e754779b4827",
+    "summary": "NVIDIA expanded Confidential Computing, the layer that protects models and data while agents run, alongside the OpenShell Reference Architecture announced the same day.",
+    "benefit": "Organizations deploying agents can protect model weights and data in use across global infrastructure.",
+    "category": "feature"
+  },
+  "140f65345f1e83c4": {
+    "hash": "2989a384c0bb",
+    "summary": "NVIDIA expanded open models including Nemotron 3.5 Super VL, Nemotron 3.5 Bolt, and new Nemotron Retriever models for embedding, reranking, and document parsing.",
+    "benefit": "Builders can pick new Nemotron language, vision, and retrieval models for local-language industry apps."
+  },
+  "3a928764b3c4b0a3": {
+    "hash": "51386ca63e11",
+    "summary": "NVIDIA describes an agent-assisted workflow that turns site plans, equipment, and engineering requirements into an editable AI factory digital twin.",
+    "benefit": "Developers can assemble a twin their team can inspect and revise before simulation.",
+    "category": "developer"
+  },
+  "5d44067f2d19c9de": {
+    "hash": "bd5d39883d94",
+    "summary": "NVIDIA shows high-performance forward-pass kernels for Mamba-2 written in CUDA Tile, a Python DSL that targets tile-level GPU programming.",
+    "benefit": "GPU programmers can speed Mamba-2 forwards without hand-writing thread and warp code.",
+    "category": "developer"
+  },
+  "24f0298eed3882d9": {
+    "hash": "77c760955059",
+    "summary": "At a Berlin media event with Adobe, Bertelsmann, NVIDIA, and UFA, the EBU is expanding a sovereign framework with NVIDIA, and Adobe Frame.io is speeding video agent search.",
+    "benefit": "Broadcasters can follow the EBU's NVIDIA collaboration and Frame.io's faster agent search for video.",
+    "category": "feature"
+  },
+  "8a14a92d09a13dfe": {
+    "hash": "c61cb9ce2add",
+    "summary": "IBM says llm-d 1.0 hardens the open-source distributed inference framework so serving large models on your own infrastructure is more reliable and affordable.",
+    "benefit": "Platform teams can serve large models for agents on infrastructure they operate."
+  },
+  "de58e4ba20a4ed12": {
+    "hash": "953f5534e191",
+    "summary": "IBM Research's Dataflow Architectures for AI is a 6-course specialization that compares accelerator architectures in hands-on labs.",
+    "benefit": "Engineers can learn how models run on current accelerators through six lab courses.",
+    "category": "developer"
+  },
+  "298c8de07d18f423": {
+    "hash": "86958f58e1d3",
+    "summary": "OpenAI describes scaling Habitat with multi-tenancy, global caching, and Azure Cosmos DB to serve online storage for over 1 billion ChatGPT users, with 12× faster reads.",
+    "benefit": "Storage engineers can see the design that delivered 12× faster ChatGPT reads at that user scale.",
+    "category": "developer"
+  },
+  "27825e3003584012": {
+    "hash": "cc6db240a7bb",
+    "summary": "OpenAI's Decisions API offers fast, focused, low-cost decisions for applications.",
+    "benefit": "App developers can add a small decision call without using a full chat completion."
+  },
+  "ba6fa07d677a8221": {
+    "hash": "80e4c4673199",
+    "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees for research, data analysis, presentations, and complex workflows.",
+    "benefit": "Companies evaluating ChatGPT Work can look at a rollout that covers Uber's full employee base."
+  },
+  "2ed22a61b2f19a0c": {
+    "hash": "80d86a13c4d5",
+    "summary": "OpenAI explains how it works with distribution partners on consistent safeguards, responsible access, and Usage Policy expectations.",
+    "benefit": "Partners distributing OpenAI models can see the access and policy standards they are expected to keep."
+  },
+  "4ab93569e260b2b0": {
+    "hash": "9c87d4a7fc10",
+    "summary": "AT&T is working with OpenAI so its LegalEdge team can make legal knowledge easier to find, rethink intake, and scale legal judgment.",
+    "benefit": "In-house legal teams can see how AT&T uses OpenAI for intake and access to legal knowledge."
+  },
+  "74fcf21eca7add4a": {
+    "hash": "6ab8d00c279c",
+    "summary": "ChatGPT Ads expanded to 26 new countries, and more than 100,000 advertisers have used the platform.",
+    "benefit": "Advertisers in those new countries can reach people while they compare purchases in ChatGPT."
+  },
+  "edef63b51aedc012": {
+    "hash": "6843662bfff3",
+    "summary": "OpenAI describes an LLM-powered ad stack that reads conversational intent, keeps ads separate from answers, and serves relevant ads.",
+    "benefit": "Ad teams can see how ChatGPT ranks ads without mixing them into the answer."
+  },
+  "b2deaf97c98cf0ff": {
+    "hash": "2c304d8bcccb",
+    "summary": "OpenAI's second governance note outlines giving cyber defenders frontier AI, stronger safeguards, and more resilient public institutions.",
+    "benefit": "Defenders and policymakers can read OpenAI's blueprint for using frontier models in cybersecurity.",
+    "category": "research"
   }
 }
