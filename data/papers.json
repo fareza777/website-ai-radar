@@ -6,7 +6,7 @@
     "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 230,
+    "upvotes": 232,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisOne-VL",
@@ -19,7 +19,7 @@
     "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples…",
     "publishedAt": "2026-10-17T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 170,
+    "upvotes": 175,
     "org": "jingdong1",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
@@ -43,7 +43,7 @@
     "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 153,
+    "upvotes": 154,
     "org": null,
     "githubRepo": "https://github.com/Yu-xm/OpenDS",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -55,7 +55,7 @@
     "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 84,
+    "upvotes": 86,
     "org": "iquestlab",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
@@ -78,7 +78,7 @@
     "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow…",
     "publishedAt": "2026-10-18T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 41,
     "org": null,
     "firstSeenAt": "2026-10-24T04:45:31.936Z"
   },
@@ -102,7 +102,7 @@
     "summary": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose Cola2, a framework that jointly studies continuous semantic compression, the balance between reconstruction and generation, and continuous-discrete co-adaptation. Cola2 dynamically segments text…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 14,
+    "upvotes": 15,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -120,27 +120,27 @@
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
   },
   {
-    "id": "2610.28402",
-    "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
-    "url": "https://huggingface.co/papers/2610.28402",
-    "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying…",
-    "publishedAt": "2026-10-20T00:00:00.000Z",
-    "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 439,
-    "org": null,
-    "githubRepo": "https://github.com/StreamEval/StreamEval",
-    "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
     "id": "2610.21114",
     "title": "Spectral-Spatial Interpretation",
     "url": "https://huggingface.co/papers/2610.21114",
     "summary": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 374,
+    "upvotes": 480,
     "org": null,
     "githubRepo": "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation",
+    "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
+    "id": "2610.28402",
+    "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+    "url": "https://huggingface.co/papers/2610.28402",
+    "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-22T00:00:00.000Z",
+    "upvotes": 441,
+    "org": null,
+    "githubRepo": "https://github.com/StreamEval/StreamEval",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
@@ -150,7 +150,7 @@
     "summary": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition requires an expectation of what should have followed the action. Existing GUI world models provide…",
     "publishedAt": "2026-10-08T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 170,
+    "upvotes": 173,
     "org": null,
     "githubRepo": "https://github.com/jiamingzhang94/lgwm",
     "firstSeenAt": "2026-10-22T21:43:19.556Z"
@@ -162,7 +162,7 @@
     "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 164,
+    "upvotes": 165,
     "org": "tencentarc",
     "githubRepo": "https://github.com/TencentARC/Looking-Ahead",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -174,7 +174,7 @@
     "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 158,
+    "upvotes": 160,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/JesseZZZZZ/SpatialScout",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -198,7 +198,7 @@
     "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 146,
+    "upvotes": 148,
     "org": "nics-efc",
     "githubRepo": "https://github.com/thu-nics/AKV",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -210,7 +210,7 @@
     "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 84,
+    "upvotes": 87,
     "org": "microsoftresearch",
     "githubRepo": "https://github.com/MSR-Orchard/WildAWM",
     "firstSeenAt": "2026-10-22T04:59:19.574Z"
@@ -222,7 +222,7 @@
     "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 66,
+    "upvotes": 72,
     "org": "thusi-lab",
     "githubRepo": "https://github.com/THUSI-Lab/GameScaling",
     "firstSeenAt": "2026-10-22T17:17:28.896Z"
@@ -234,7 +234,7 @@
     "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone. Yet their data and…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 64,
+    "upvotes": 66,
     "org": "hkunlp",
     "githubRepo": "https://github.com/QiushiSun/PrismaCoder",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -246,7 +246,7 @@
     "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 49,
     "org": "ibm",
     "lab": "ibm",
     "githubRepo": "https://github.com/dolev31/lasagna",
@@ -259,7 +259,7 @@
     "summary": "Agent Skills improve LLM agents by making task knowledge reusable across sessions. Learning transferable Skills requires evidence about a procedure and its conditions of use, which a successful task attempt can leave untested. We introduce Socratic Skill Learning (SSL), which interleaves expert teaching with Student practice. An Educator guides investigation while the Student remains the sole environment operator…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 45,
     "org": "nju-link",
     "githubRepo": "https://github.com/NJU-LINK/Socratic-Skill-Learning",
     "firstSeenAt": "2026-10-24T00:02:15.500Z"
@@ -271,7 +271,7 @@
     "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-source model is still…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 44,
     "org": "independentresearcher121",
     "firstSeenAt": "2026-10-24T16:02:51.649Z"
   },
@@ -282,7 +282,7 @@
     "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore investigate whether…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 42,
     "org": "ucf-ai-llms",
     "githubRepo": "https://github.com/xinxinliu-ai/AgenticRoboRL",
     "firstSeenAt": "2026-10-24T16:02:51.649Z"
@@ -294,7 +294,7 @@
     "summary": "Language-model agents that run long tasks often redo work they have already done: they re-issue a tool call they made earlier and get back exactly the same observation, a step that adds no new information. We identify this failure as a loop. Loops appear natively in Qwen, Llama, and Gemini agents and become far more common once the agent's history is compressed to fit its context window. To reduce these loops, we…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 25,
+    "upvotes": 27,
     "org": "google",
     "lab": "google-deepmind",
     "githubRepo": "https://github.com/cskyl/deloop",
@@ -307,7 +307,7 @@
     "summary": "Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 22,
+    "upvotes": 25,
     "org": "anthropic",
     "lab": "anthropic",
     "githubRepo": "https://github.com/maszhongming/agent4sci",
@@ -499,7 +499,7 @@
     "summary": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image inputs and produces text outputs…",
     "publishedAt": "2026-10-17T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 15,
+    "upvotes": 16,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
@@ -594,7 +594,7 @@
     "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 188,
+    "upvotes": 189,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/EgoXperience",
     "firstSeenAt": "2026-10-20T14:21:40.747Z"
@@ -618,7 +618,7 @@
     "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 137,
+    "upvotes": 138,
     "org": "memtensor",
     "githubRepo": "https://github.com/MemTensor/MemT-1.0",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -741,13 +741,25 @@
     "firstSeenAt": "2026-10-24T11:12:54.627Z"
   },
   {
+    "id": "2610.26216",
+    "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
+    "url": "https://huggingface.co/papers/2610.26216",
+    "summary": "An effective visual tokenizer must preserve image fidelity while producing latents that downstream diffusion models can learn efficiently. Prior work improves latent diffusability through semantic alignment or joint tokenizer--diffusion training. Revisiting REPA-E, a representative approach, we find that removing its diffusion objective and dedicated generative blocks while retaining semantic prediction from…",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "submittedAt": "2026-10-20T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "tsinghua-leaplab",
+    "githubRepo": "https://github.com/LeapLabTHU/RoAR-VAE",
+    "firstSeenAt": "2026-10-24T20:56:42.655Z"
+  },
+  {
     "id": "2610.23986",
     "title": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
     "url": "https://huggingface.co/papers/2610.23986",
     "summary": "Recent advances in multimodal large language models (MLLMs) have enabled them to act as autonomous agents, creating and editing 3D models via code or direct software manipulation. In practical workflows, these models must infer object shapes, materials, spatial layouts, and lighting from diverse references while strictly following instructions to reconstruct, modify, or design 3D content. However, existing…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 38,
+    "upvotes": 39,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/QwenLM/BlenderWorld",
@@ -832,7 +844,7 @@
     "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 472,
+    "upvotes": 473,
     "org": "sensenova",
     "githubRepo": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
@@ -939,7 +951,7 @@
     "summary": "We introduce OpenMobile-2, a near-frontier mobile agent with fully open training environments and recipes. We make three key advances: (1) Diverse environments with simulated commercial apps: We build MobileGym++, featuring 35 realistic, functionally rich commercial-style apps with cross-app workflows, while preserving full controllability for reset and verification. Together with newly configured apps in Android…",
     "publishedAt": "2026-10-09T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 56,
+    "upvotes": 57,
     "org": "nju",
     "githubRepo": "https://github.com/OpenMobile2/OpenMobile2-Code",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -1011,7 +1023,7 @@
     "summary": "Unified multimodal models (UMMs) receive image-generation supervision that exposes them to visual information not fully documented in text. Can learning to generate images expand what pretrained models know? We introduce Knowledge Transfer Probing (KTP), a controlled protocol that supplies new knowledge through image-generation training and tests its accessibility through text-only question answering. Across seven…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 35,
+    "upvotes": 36,
     "org": "zai-org",
     "lab": "zai",
     "githubRepo": "https://github.com/kevinlllee/Knowledge-Transfer-Probing",

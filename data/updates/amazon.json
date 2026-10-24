@@ -2,7 +2,7 @@
   {
     "id": "116e84c7c9fa0dbd",
     "lab": "amazon",
-    "title": "Web Search on AWS Bedrock now supports domain filtering and user location controls",
+    "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location",
     "sourceId": "aws-whats-new",
     "sourceName": "AWS What's New",
@@ -11,15 +11,15 @@
     "verified": true,
     "publishedAt": "2026-10-23T21:04:00.000Z",
     "firstSeenAt": "2026-10-24T04:45:31.936Z",
-    "updatedAt": "2026-10-23T21:04:00.000Z",
-    "excerpt": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request. With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100…",
-    "summary": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location.",
+    "updatedAt": "2026-10-24T20:56:42.655Z",
+    "excerpt": "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request. With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100…",
+    "summary": "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 50,
-    "contentHash": "86648f8f58ca"
+    "contentHash": "dd6efb095baf"
   },
   {
     "id": "d543a8c819225bfc",
@@ -1120,6 +1120,36 @@
       "semver": "minor",
       "repo": "strands-agents/sdk-python",
       "package": "harness-typescript"
+    }
+  },
+  {
+    "id": "3894cf8b2170198f",
+    "lab": "amazon",
+    "title": "LAR-27B",
+    "url": "https://huggingface.co/amazon/LAR-27B",
+    "sourceId": "amazon-hf",
+    "sourceName": "Hugging Face · amazon",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-14T17:31:01.000Z",
+    "firstSeenAt": "2026-10-24T20:56:42.655Z",
+    "updatedAt": "2026-10-14T17:31:01.000Z",
+    "excerpt": "license: apache-2.0",
+    "summary": "Amazon published the LAR-27B model on Hugging Face. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "27B"
+    ],
+    "importance": 57,
+    "contentHash": "f6b52138e9a2",
+    "meta": {
+      "likes": 6,
+      "downloads": 70,
+      "repo": "amazon/LAR-27B",
+      "license": "apache-2.0"
     }
   },
   {

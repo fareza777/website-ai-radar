@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T16:02:51.649Z",
+  "generatedAt": "2026-10-24T20:56:42.655Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -89,8 +89,8 @@
       "importance": 66
     },
     {
-      "id": "google-deepmind:4ebbff939622d9",
-      "title": "Google's Gemini 4 Argon Is the Most Accurate and Most Consistent AI Model on Accounting Work, DualEntry Benchmark Finds",
+      "id": "google-deepmind:ed1ecfc1aad6b0",
+      "title": "Gemini 4 Argon Lands in Google AI Mode (October 2026)",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
@@ -98,10 +98,6 @@
       "official": 0,
       "press": 19,
       "outlets": [
-        "Yahoo Finance UK",
-        "Yahoo Finance Singapore",
-        "Yahoo Finance",
-        "Forbes",
         "Crypto Briefing",
         "Channel Insider",
         "Mashable",
@@ -110,18 +106,20 @@
         "The Decoder",
         "PYMNTS.com",
         "ActuIA",
+        "Yahoo Finance",
         "shattered.io",
         "ALM Corp",
         "Towards Data Science",
         "Robotics & Automation News",
-        "Seeking Alpha"
+        "Seeking Alpha",
+        "infoq.com"
       ],
-      "firstAt": "2026-10-14T17:15:00.000Z",
-      "lastAt": "2026-10-23T16:25:17.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRzlPdVhYS0hZWnB0SXJiQ0dDVXpsN1Z0RHNac2ZmeUtJbjdrRXFCYXJHSy16QmJfblRMV3pVSWpqRjVlWUpSM2NOY1Q2Q1RuUDBMRXZGTF81NmExTHhsaE1LTUk1OHJkRTBteTl4b21IX0JCQy1ia3VaamswSGRTX25n?oc=5",
+      "firstAt": "2026-10-14T21:21:29.000Z",
+      "lastAt": "2026-10-24T16:00:02.000Z",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ia2xWd0tyWnBOU0lwMXdlNEFyNnBJb3FEZll6djYyME1ybUs3VjN4NVBOMmVPQTdpT2pFRklMaWIycjA3MFRpTTRFUW5YTDRwVTJCLXlwbVZxMlRqbzVkc0NoMnJlamR1Ump4eVZ3?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:4ebbff939622d9"
+        "id": "google-deepmind:ed1ecfc1aad6b0"
       },
       "importance": 65
     },
@@ -169,6 +167,7 @@
         "Nasdaq",
         "Investing News Network",
         "The Globe and Mail",
+        "TradingView",
         "marketscreener.com"
       ],
       "firstAt": "2026-10-22T12:00:00.000Z",
@@ -178,7 +177,7 @@
         "kind": "press",
         "id": "nvidia:b0f023eb8b2a0a"
       },
-      "importance": 58
+      "importance": 59
     },
     {
       "id": "ibm:1c452e9063ca86",
@@ -256,7 +255,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 10,
+        "count": 12,
         "prev": 57,
         "labs": [
           "google-deepmind"
@@ -264,8 +263,8 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 8,
-        "prev": 7,
+        "count": 7,
+        "prev": 8,
         "labs": [
           "deepseek"
         ]
@@ -298,20 +297,20 @@
         "prev": 50,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "mistral",
           "cohere",
-          "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
+          "qwen",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 41,
+        "count": 42,
         "prev": 32,
         "labs": [
           "anthropic",
@@ -319,10 +318,10 @@
           "openai",
           "mistral",
           "cohere",
-          "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
+          "qwen",
           "nvidia"
         ]
       },
@@ -362,12 +361,12 @@
         "count": 7,
         "prev": 7,
         "labs": [
-          "openai",
           "meta",
+          "openai",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "nvidia"
         ]
       },
@@ -378,8 +377,8 @@
         "labs": [
           "anthropic",
           "openai",
-          "qwen",
-          "amazon"
+          "amazon",
+          "qwen"
         ]
       },
       {
@@ -388,10 +387,10 @@
         "prev": 6,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
-          "amazon",
+          "openai",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -441,16 +440,17 @@
     {
       "id": "moonshot:efe644a57e4511",
       "lab": "moonshot",
-      "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
       "outlets": [
         "Menafn",
         "Asianet Newsable",
         "The Information",
-        "Startup Fortune"
+        "Startup Fortune",
+        "Unite.AI"
       ],
-      "reports": 4,
-      "at": "2026-10-23T18:23:36.000Z"
+      "reports": 5,
+      "at": "2026-10-23T17:26:02.000Z"
     },
     {
       "id": "moonshot:bd1a9e13cdfe46",
@@ -465,6 +465,19 @@
       ],
       "reports": 4,
       "at": "2026-10-23T17:26:02.000Z"
+    },
+    {
+      "id": "moonshot:1e599103d1152b",
+      "lab": "moonshot",
+      "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
+      "outlets": [
+        "ForkLog",
+        "The Information",
+        "Startup Fortune"
+      ],
+      "reports": 3,
+      "at": "2026-10-23T18:23:36.000Z"
     },
     {
       "id": "moonshot:b5ab6d8df0b847",
