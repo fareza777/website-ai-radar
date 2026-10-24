@@ -15,8 +15,8 @@
     "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
     "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
     "hnUrl": "https://news.ycombinator.com/item?id=50212065",
-    "points": 927,
-    "comments": 551,
+    "points": 1013,
+    "comments": 613,
     "at": "2026-10-23T16:59:08Z",
     "lab": "moonshot",
     "firstSeenAt": "2026-10-23T17:15:08.040Z"
@@ -47,8 +47,8 @@
     "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
     "url": "https://news.ycombinator.com/item?id=50200997",
     "hnUrl": "https://news.ycombinator.com/item?id=50200997",
-    "points": 621,
-    "comments": 693,
+    "points": 632,
+    "comments": 708,
     "at": "2026-10-22T21:03:55Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -112,8 +112,8 @@
     "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
     "url": "https://github.com/NVIDIA/OpenShell",
     "hnUrl": "https://news.ycombinator.com/item?id=50198675",
-    "points": 495,
-    "comments": 213,
+    "points": 496,
+    "comments": 217,
     "at": "2026-10-22T17:44:06Z",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-22T21:43:19.556Z"
@@ -123,11 +123,22 @@
     "title": "LLMs are making formal software verification feasible at a much larger scale",
     "url": "https://www.anthropic.com/research/formal-verification",
     "hnUrl": "https://news.ycombinator.com/item?id=50202217",
-    "points": 451,
-    "comments": 293,
+    "points": 454,
+    "comments": 297,
     "at": "2026-10-22T22:54:43Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
+  },
+  {
+    "id": "50218633",
+    "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+    "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50218633",
+    "points": 394,
+    "comments": 138,
+    "at": "2026-10-24T05:49:57Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-24T11:12:54.627Z"
   },
   {
     "id": "50165801",
@@ -177,7 +188,7 @@
     "title": "Swedish government offices to ban ChatGPT and Claude",
     "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
     "hnUrl": "https://news.ycombinator.com/item?id=50207405",
-    "points": 320,
+    "points": 321,
     "comments": 119,
     "at": "2026-10-23T11:39:54Z",
     "lab": "openai",
@@ -296,17 +307,6 @@
     "at": "2026-10-20T20:09:46Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-20T23:57:39.440Z"
-  },
-  {
-    "id": "50218633",
-    "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
-    "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50218633",
-    "points": 184,
-    "comments": 44,
-    "at": "2026-10-24T05:49:57Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-24T11:12:54.627Z"
   },
   {
     "id": "50133231",
@@ -452,9 +452,20 @@
     "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
     "hnUrl": "https://news.ycombinator.com/item?id=50213337",
     "points": 119,
-    "comments": 40,
+    "comments": 41,
     "at": "2026-10-23T18:24:54Z",
     "lab": "moonshot",
+    "firstSeenAt": "2026-10-23T21:29:28.915Z"
+  },
+  {
+    "id": "50209907",
+    "title": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
+    "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50209907",
+    "points": 119,
+    "comments": 32,
+    "at": "2026-10-23T14:43:02Z",
+    "lab": "google-deepmind",
     "firstSeenAt": "2026-10-23T21:29:28.915Z"
   },
   {
@@ -469,15 +480,14 @@
     "firstSeenAt": "2026-10-20T23:57:39.440Z"
   },
   {
-    "id": "50209907",
-    "title": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
-    "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50209907",
-    "points": 116,
+    "id": "50214373",
+    "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+    "url": "https://corgi.computer/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50214373",
+    "points": 115,
     "comments": 32,
-    "at": "2026-10-23T14:43:02Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-10-23T21:29:28.915Z"
+    "at": "2026-10-23T19:46:38Z",
+    "firstSeenAt": "2026-10-24T11:12:54.627Z"
   },
   {
     "id": "50183892",
@@ -489,6 +499,17 @@
     "at": "2026-10-21T16:44:53Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
+  },
+  {
+    "id": "50214416",
+    "title": "Securing our frontier model training environment",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50214416",
+    "points": 109,
+    "comments": 112,
+    "at": "2026-10-23T19:50:56Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-24T00:02:15.500Z"
   },
   {
     "id": "50169955",
@@ -512,17 +533,6 @@
     "firstSeenAt": "2026-10-18T20:52:46.911Z"
   },
   {
-    "id": "50214416",
-    "title": "Securing our frontier model training environment",
-    "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50214416",
-    "points": 106,
-    "comments": 107,
-    "at": "2026-10-23T19:50:56Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-24T00:02:15.500Z"
-  },
-  {
     "id": "50186455",
     "title": "Claude Duet",
     "url": "https://claude.com/resources/articles/claude-duet",
@@ -543,16 +553,6 @@
     "at": "2026-10-22T02:17:58Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-22T17:17:28.896Z"
-  },
-  {
-    "id": "50214373",
-    "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
-    "url": "https://corgi.computer/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50214373",
-    "points": 89,
-    "comments": 24,
-    "at": "2026-10-23T19:46:38Z",
-    "firstSeenAt": "2026-10-24T11:12:54.627Z"
   },
   {
     "id": "50179857",

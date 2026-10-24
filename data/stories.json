@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T11:12:54.627Z",
+  "generatedAt": "2026-10-24T16:02:51.649Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -65,46 +65,6 @@
       "importance": 70
     },
     {
-      "id": "google-deepmind:4ebbff939622d9",
-      "title": "Google's Gemini 4 Argon Is the Most Accurate and Most Consistent AI Model on Accounting Work, DualEntry Benchmark Finds",
-      "entity": "Gemini 4 Argon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 21,
-      "outlets": [
-        "about.gitlab.com",
-        "InfoWorld",
-        "Lifehacker",
-        "Yahoo Finance UK",
-        "Yahoo Finance Singapore",
-        "Yahoo Finance",
-        "Forbes",
-        "Crypto Briefing",
-        "Channel Insider",
-        "Mashable",
-        "TechRepublic",
-        "https://tech-insider.org/",
-        "The Decoder",
-        "PYMNTS.com",
-        "ActuIA",
-        "shattered.io",
-        "ALM Corp",
-        "Towards Data Science",
-        "Robotics & Automation News",
-        "Seeking Alpha"
-      ],
-      "firstAt": "2026-10-14T11:27:30.000Z",
-      "lastAt": "2026-10-23T16:25:17.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRzlPdVhYS0hZWnB0SXJiQ0dDVXpsN1Z0RHNac2ZmeUtJbjdrRXFCYXJHSy16QmJfblRMV3pVSWpqRjVlWUpSM2NOY1Q2Q1RuUDBMRXZGTF81NmExTHhsaE1LTUk1OHJkRTBteTl4b21IX0JCQy1ia3VaamswSGRTX25n?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:4ebbff939622d9"
-      },
-      "importance": 67
-    },
-    {
       "id": "7d369f9d483c77b3",
       "title": "Cohere to acquire AISLE to advance cyber-resilient sovereign AI",
       "entity": null,
@@ -127,6 +87,43 @@
         "id": "7d369f9d483c77b3"
       },
       "importance": 66
+    },
+    {
+      "id": "google-deepmind:4ebbff939622d9",
+      "title": "Google's Gemini 4 Argon Is the Most Accurate and Most Consistent AI Model on Accounting Work, DualEntry Benchmark Finds",
+      "entity": "Gemini 4 Argon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 19,
+      "outlets": [
+        "Yahoo Finance UK",
+        "Yahoo Finance Singapore",
+        "Yahoo Finance",
+        "Forbes",
+        "Crypto Briefing",
+        "Channel Insider",
+        "Mashable",
+        "TechRepublic",
+        "https://tech-insider.org/",
+        "The Decoder",
+        "PYMNTS.com",
+        "ActuIA",
+        "shattered.io",
+        "ALM Corp",
+        "Towards Data Science",
+        "Robotics & Automation News",
+        "Seeking Alpha"
+      ],
+      "firstAt": "2026-10-14T17:15:00.000Z",
+      "lastAt": "2026-10-23T16:25:17.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRzlPdVhYS0hZWnB0SXJiQ0dDVXpsN1Z0RHNac2ZmeUtJbjdrRXFCYXJHSy16QmJfblRMV3pVSWpqRjVlWUpSM2NOY1Q2Q1RuUDBMRXZGTF81NmExTHhsaE1LTUk1OHJkRTBteTl4b21IX0JCQy1ia3VaamswSGRTX25n?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:4ebbff939622d9"
+      },
+      "importance": 65
     },
     {
       "id": "deepseek:a10506682e04b2",
@@ -267,8 +264,8 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 9,
-        "prev": 6,
+        "count": 8,
+        "prev": 7,
         "labs": [
           "deepseek"
         ]
@@ -297,7 +294,7 @@
     "topics": [
       {
         "name": "agents",
-        "count": 50,
+        "count": 51,
         "prev": 50,
         "labs": [
           "anthropic",
@@ -305,16 +302,16 @@
           "meta",
           "mistral",
           "cohere",
+          "qwen",
           "amazon",
           "microsoft",
-          "qwen",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 40,
+        "count": 41,
         "prev": 32,
         "labs": [
           "anthropic",
@@ -322,9 +319,9 @@
           "openai",
           "mistral",
           "cohere",
+          "qwen",
           "amazon",
           "microsoft",
-          "qwen",
           "ibm",
           "nvidia"
         ]
@@ -340,8 +337,8 @@
           "openai",
           "mistral",
           "cohere",
-          "amazon",
           "tencent",
+          "amazon",
           "nvidia"
         ]
       },
@@ -354,8 +351,8 @@
           "deepseek",
           "openai",
           "minimax",
-          "amazon",
           "tencent",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -381,8 +378,8 @@
         "labs": [
           "anthropic",
           "openai",
-          "amazon",
-          "qwen"
+          "qwen",
+          "amazon"
         ]
       },
       {
@@ -407,8 +404,8 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "amazon",
           "tencent",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -435,23 +432,39 @@
         "The Tribune",
         "The Economic Times",
         "Lokmat Times",
-        "LatestLY"
+        "LatestLY",
+        "ET Enterprise AI"
       ],
-      "reports": 4,
+      "reports": 5,
       "at": "2026-10-24T05:07:28.000Z"
     },
     {
-      "id": "moonshot:bd1a9e13cdfe46",
+      "id": "moonshot:efe644a57e4511",
       "lab": "moonshot",
       "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
       "outlets": [
-        "SiliconANGLE",
+        "Menafn",
+        "Asianet Newsable",
         "The Information",
         "Startup Fortune"
       ],
-      "reports": 3,
+      "reports": 4,
       "at": "2026-10-23T18:23:36.000Z"
+    },
+    {
+      "id": "moonshot:bd1a9e13cdfe46",
+      "lab": "moonshot",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
+      "outlets": [
+        "SiliconANGLE",
+        "The Information",
+        "Startup Fortune",
+        "Unite.AI"
+      ],
+      "reports": 4,
+      "at": "2026-10-23T17:26:02.000Z"
     },
     {
       "id": "moonshot:b5ab6d8df0b847",
@@ -467,27 +480,16 @@
       "at": "2026-10-23T17:26:02.000Z"
     },
     {
-      "id": "moonshot:efe644a57e4511",
-      "lab": "moonshot",
-      "title": "Moonshot AI Unveils Kimi K3.1 Pro 3-Trillion-Parameter AI Model",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeWtUT1AtUEwydXpjNk9RdU56Q0UzLWdtX3h2TlZqUjcxTDRaelgzTnlGREEybnRkaG1uRHpOUTdGU29nMWZLTlJzSWI1dkQ2NGNLQzkxVU5KcFVSXzllZ0o5NnJmREo3OGJCUTRXbDJjR1lSMm5VYUNnNUJvRjZBZTlrdUlRaE9ZQmU3TEYwNEpSQTJ4NHdCX2JXV3JMYzVqR3A0UzRzS1lDOTNjZjVyZVhCYngwMVVnbmd2bTNFTi1JdjA0Q0hVONIByAFBVV95cUxPeWtUT1AtUEwydXpjNk9RdU56Q0UzLWdtX3h2TlZqUjcxTDRaelgzTnlGREEybnRkaG1uRHpOUTdGU29nMWZLTlJzSWI1dkQ2NGNLQzkxVU5KcFVSXzllZ0o5NnJmREo3OGJCUTRXbDJjR1lSMm5VYUNnNUJvRjZBZTlrdUlRaE9ZQmU3TEYwNEpSQTJ4NHdCX2JXV3JMYzVqR3A0UzRzS1lDOTNjZjVyZVhCYngwMVVnbmd2bTNFTi1JdjA0Q0hVOA?oc=5",
-      "outlets": [
-        "Menafn",
-        "Asianet Newsable"
-      ],
-      "reports": 2,
-      "at": "2026-10-24T05:11:35.000Z"
-    },
-    {
       "id": "minimax:e0a96fd942c28b",
       "lab": "minimax",
       "title": "China's MiniMax completes export registration for open-source, overseas AI model licensing",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUDVGa0hCU3ppVlo3amtaT1l4T18zcHNWWlFkV3Nveks4TDI5RGxkMzE1TFpEZjIxWFBZNl9ILU9SRVdzMEtCX2JKai1FbXlYTTFFX1Y0U3NfRGZuRGttQ0ZKYVhRS3NaUTlEWldxNzVIQUdzamNVMTE1cVg0N1VpLUlweVZlU3lpOGFRajJ6eHItM3NHTGlLVldsVWxnbTcwQncxekJITDJfWUxWUGt1OWx1Zm4zLXdEdm5ja0VPbXNlNmFxWWstT0lfVkZOQXNTNlRYcktB?oc=5",
       "outlets": [
         "The Lufkin Daily News",
-        "Reuters"
+        "Reuters",
+        "www.marketscreener.com"
       ],
-      "reports": 2,
+      "reports": 3,
       "at": "2026-10-23T06:59:00.000Z"
     }
   ]

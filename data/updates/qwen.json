@@ -1,5 +1,35 @@
 [
   {
+    "id": "d55f384a0a348e07",
+    "lab": "qwen",
+    "title": "Qwen Code v0.26.1",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-24T15:47:58.000Z",
+    "firstSeenAt": "2026-10-24T16:02:51.649Z",
+    "updatedAt": "2026-10-24T15:47:58.000Z",
+    "excerpt": "What's Changed feat(serve): add daemon token persistence by @wenshao in #15023 fix(release): cover every spawned vendored binary in the tarball exec-bit gate by @yiliang114 in #15008 test(managed-agent): reuse a same-key cancel (FG11d) by @wenshao in #14997 test(managed-agent): share the quote and camel gate helpers (FG13) by @wenshao in #15047 test(managed-agent): align Hosted fault gates with shared ownership by…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.26.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "5226588ecc28",
+    "meta": {
+      "version": "v0.26.1",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
     "id": "ad2b07ad4fec2079",
     "lab": "qwen",
     "title": "Qwen Code sdk-typescript v0.1.22",
@@ -324,7 +354,7 @@
     "importance": 44,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 255,
+      "stars": 256,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -442,7 +472,7 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1043,
+      "likes": 1046,
       "downloads": 32825,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
@@ -620,7 +650,7 @@
     "importance": 70,
     "contentHash": "2deb903ef0b2",
     "meta": {
-      "likes": 72,
+      "likes": 73,
       "downloads": 8233,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
@@ -707,7 +737,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3434,
+      "likes": 3442,
       "downloads": 179520,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -746,7 +776,7 @@
     "importance": 44,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 233,
+      "stars": 235,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -867,7 +897,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6445,
+      "likes": 6451,
       "downloads": 3035077,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
@@ -930,7 +960,7 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 18309,
+      "likes": 18318,
       "downloads": 7851161,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",
