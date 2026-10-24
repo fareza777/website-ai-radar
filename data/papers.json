@@ -126,7 +126,7 @@
     "summary": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 480,
+    "upvotes": 532,
     "org": null,
     "githubRepo": "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -138,7 +138,7 @@
     "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 441,
+    "upvotes": 442,
     "org": null,
     "githubRepo": "https://github.com/StreamEval/StreamEval",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -150,7 +150,7 @@
     "summary": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition requires an expectation of what should have followed the action. Existing GUI world models provide…",
     "publishedAt": "2026-10-08T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 173,
+    "upvotes": 174,
     "org": null,
     "githubRepo": "https://github.com/jiamingzhang94/lgwm",
     "firstSeenAt": "2026-10-22T21:43:19.556Z"
@@ -162,7 +162,7 @@
     "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 165,
+    "upvotes": 167,
     "org": "tencentarc",
     "githubRepo": "https://github.com/TencentARC/Looking-Ahead",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -186,7 +186,7 @@
     "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 154,
+    "upvotes": 156,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/DONIC",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -198,7 +198,7 @@
     "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 148,
+    "upvotes": 149,
     "org": "nics-efc",
     "githubRepo": "https://github.com/thu-nics/AKV",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -222,7 +222,7 @@
     "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 72,
+    "upvotes": 73,
     "org": "thusi-lab",
     "githubRepo": "https://github.com/THUSI-Lab/GameScaling",
     "firstSeenAt": "2026-10-22T17:17:28.896Z"
@@ -259,7 +259,7 @@
     "summary": "Agent Skills improve LLM agents by making task knowledge reusable across sessions. Learning transferable Skills requires evidence about a procedure and its conditions of use, which a successful task attempt can leave untested. We introduce Socratic Skill Learning (SSL), which interleaves expert teaching with Student practice. An Educator guides investigation while the Student remains the sole environment operator…",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 46,
     "org": "nju-link",
     "githubRepo": "https://github.com/NJU-LINK/Socratic-Skill-Learning",
     "firstSeenAt": "2026-10-24T00:02:15.500Z"
@@ -271,7 +271,7 @@
     "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-source model is still…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 45,
     "org": "independentresearcher121",
     "firstSeenAt": "2026-10-24T16:02:51.649Z"
   },
@@ -282,7 +282,7 @@
     "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore investigate whether…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 43,
     "org": "ucf-ai-llms",
     "githubRepo": "https://github.com/xinxinliu-ai/AgenticRoboRL",
     "firstSeenAt": "2026-10-24T16:02:51.649Z"
@@ -307,7 +307,7 @@
     "summary": "Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 25,
+    "upvotes": 26,
     "org": "anthropic",
     "lab": "anthropic",
     "githubRepo": "https://github.com/maszhongming/agent4sci",
@@ -438,7 +438,7 @@
     "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 52,
     "org": null,
     "githubRepo": "https://github.com/rootyJeon/VPM",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
@@ -450,7 +450,7 @@
     "summary": "Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training time. This might be one reason diffusion models often struggle without additional help, such as CFG. We introduce a…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 48,
     "org": "ucberkeley",
     "githubRepo": "https://github.com/sunovivid/correction-training",
     "firstSeenAt": "2026-10-22T21:43:19.556Z"
@@ -618,7 +618,7 @@
     "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 138,
+    "upvotes": 139,
     "org": "memtensor",
     "githubRepo": "https://github.com/MemTensor/MemT-1.0",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -630,7 +630,7 @@
     "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 130,
+    "upvotes": 131,
     "org": null,
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
@@ -730,6 +730,18 @@
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
+    "id": "2610.26216",
+    "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
+    "url": "https://huggingface.co/papers/2610.26216",
+    "summary": "An effective visual tokenizer must preserve image fidelity while producing latents that downstream diffusion models can learn efficiently. Prior work improves latent diffusability through semantic alignment or joint tokenizer--diffusion training. Revisiting REPA-E, a representative approach, we find that removing its diffusion objective and dedicated generative blocks while retaining semantic prediction from…",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "submittedAt": "2026-10-20T00:00:00.000Z",
+    "upvotes": 41,
+    "org": "tsinghua-leaplab",
+    "githubRepo": "https://github.com/LeapLabTHU/RoAR-VAE",
+    "firstSeenAt": "2026-10-24T20:56:42.655Z"
+  },
+  {
     "id": "2610.26834",
     "title": "Kronecker Delta Rule for Long Context Linear Attention",
     "url": "https://huggingface.co/papers/2610.26834",
@@ -739,18 +751,6 @@
     "upvotes": 40,
     "org": "nx-ai",
     "firstSeenAt": "2026-10-24T11:12:54.627Z"
-  },
-  {
-    "id": "2610.26216",
-    "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
-    "url": "https://huggingface.co/papers/2610.26216",
-    "summary": "An effective visual tokenizer must preserve image fidelity while producing latents that downstream diffusion models can learn efficiently. Prior work improves latent diffusability through semantic alignment or joint tokenizer--diffusion training. Revisiting REPA-E, a representative approach, we find that removing its diffusion objective and dedicated generative blocks while retaining semantic prediction from…",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 40,
-    "org": "tsinghua-leaplab",
-    "githubRepo": "https://github.com/LeapLabTHU/RoAR-VAE",
-    "firstSeenAt": "2026-10-24T20:56:42.655Z"
   },
   {
     "id": "2610.23986",
@@ -915,7 +915,7 @@
     "summary": "Recent closed-source image generation systems can produce diverse visual content from simple compositions to information-dense graphics, yet open-weight text-to-image models still struggle with dense text and intricate layouts. To narrow this gap, we introduce MOSS-Image, an open generation system that combines high-fidelity visual synthesis with intent-aware composition. First, we pretrain a 5B single-stream…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 97,
+    "upvotes": 98,
     "org": "openmoss-team",
     "githubRepo": "https://github.com/OpenMOSS/MOSS-Image",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -975,7 +975,7 @@
     "summary": "Reinforcement learning with verifiable rewards has become a scalable post-training paradigm for large language models. However, training agents over long-horizon interactions presents two challenges: using only terminal rewards makes turn-level credit assignment sparse and high-variance, while sequential mini-batch updates on a fixed rollout batch introduce policy staleness as the current policy drifts from the…",
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "submittedAt": "2026-10-19T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 56,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"

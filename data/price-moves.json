@@ -1,5 +1,27 @@
 [
   {
+    "id": "8efab0604773f344",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-24T23:21:19.432Z",
+    "field": "prompt",
+    "from": 0.95526,
+    "to": 0.2088,
+    "change": -78.1
+  },
+  {
+    "id": "386f674d35324d74",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-24T23:21:19.432Z",
+    "field": "completion",
+    "from": 1.91052,
+    "to": 0.4176,
+    "change": -78.1
+  },
+  {
     "id": "ab469d9ab19eadd2",
     "modelId": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",

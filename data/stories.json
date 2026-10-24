@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T20:56:42.655Z",
+  "generatedAt": "2026-10-24T23:21:19.432Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -96,9 +96,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 19,
+      "press": 18,
       "outlets": [
-        "Crypto Briefing",
         "Channel Insider",
         "Mashable",
         "TechRepublic",
@@ -114,14 +113,14 @@
         "Seeking Alpha",
         "infoq.com"
       ],
-      "firstAt": "2026-10-14T21:21:29.000Z",
+      "firstAt": "2026-10-15T01:46:24.000Z",
       "lastAt": "2026-10-24T16:00:02.000Z",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ia2xWd0tyWnBOU0lwMXdlNEFyNnBJb3FEZll6djYyME1ybUs3VjN4NVBOMmVPQTdpT2pFRklMaWIycjA3MFRpTTRFUW5YTDRwVTJCLXlwbVZxMlRqbzVkc0NoMnJlamR1Ump4eVZ3?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:ed1ecfc1aad6b0"
       },
-      "importance": 65
+      "importance": 64
     },
     {
       "id": "deepseek:a10506682e04b2",
@@ -297,15 +296,15 @@
         "prev": 50,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "cohere",
           "microsoft",
           "amazon",
-          "ibm",
           "qwen",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -320,9 +319,9 @@
           "cohere",
           "microsoft",
           "amazon",
-          "ibm",
           "qwen",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -330,8 +329,8 @@
         "count": 11,
         "prev": 8,
         "labs": [
-          "anthropic",
           "xai",
+          "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
@@ -352,8 +351,8 @@
           "minimax",
           "tencent",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -361,8 +360,8 @@
         "count": 7,
         "prev": 7,
         "labs": [
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "cohere",
           "microsoft",
@@ -387,12 +386,12 @@
         "prev": 6,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -405,8 +404,8 @@
           "mistral",
           "tencent",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -438,6 +437,21 @@
       "at": "2026-10-24T05:07:28.000Z"
     },
     {
+      "id": "moonshot:1e599103d1152b",
+      "lab": "moonshot",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
+      "outlets": [
+        "ForkLog",
+        "The Information",
+        "Startup Fortune",
+        "Unite.AI",
+        "Tech in Asia"
+      ],
+      "reports": 5,
+      "at": "2026-10-23T17:26:02.000Z"
+    },
+    {
       "id": "moonshot:efe644a57e4511",
       "lab": "moonshot",
       "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
@@ -467,12 +481,12 @@
       "at": "2026-10-23T17:26:02.000Z"
     },
     {
-      "id": "moonshot:1e599103d1152b",
+      "id": "moonshot:2dc78da0b58c99",
       "lab": "moonshot",
       "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
       "outlets": [
-        "ForkLog",
+        "NewsBytes",
         "The Information",
         "Startup Fortune"
       ],
