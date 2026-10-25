@@ -1,30 +1,45 @@
 [
   {
     "date": "2026-10-25",
-    "generatedAt": "2026-10-25T00:04:12.985Z",
+    "generatedAt": "2026-10-25T04:52:53.901Z",
     "stats": {
-      "updates24h": 3,
-      "labsActive24h": 2,
+      "updates24h": 2,
+      "labsActive24h": 1,
       "updates7d": 156,
       "newModels7d": 42
     },
     "source": "template",
-    "headline": "3 updates from 2 AI labs in the last 24 hours · 42 model releases this week.",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 11 labs.",
     "bullets": [
       {
-        "text": "Alibaba Qwen: Qwen Code desktop v0.26.1",
-        "itemId": "42779ff9f340792c",
-        "lab": "qwen"
+        "text": "Amazon: Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+        "itemId": "418ae447f600fa7e",
+        "lab": "amazon"
       },
       {
-        "text": "Alibaba Qwen: Qwen Code v0.26.1",
-        "itemId": "d55f384a0a348e07",
-        "lab": "qwen"
+        "text": "NVIDIA: NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+        "itemId": "99c8819be3a73948",
+        "lab": "nvidia"
       },
       {
-        "text": "Anthropic: Claude Agent SDK (Python) v0.2.174",
-        "itemId": "3a721705aa0c9b7f",
-        "lab": "anthropic"
+        "text": "OpenAI: Securing our frontier model training environment",
+        "itemId": "48e2274fdf2ba9fe",
+        "lab": "openai"
+      },
+      {
+        "text": "Tencent: WeVisOne-VL-4B",
+        "itemId": "4a4fa336246ecf11",
+        "lab": "tencent"
+      },
+      {
+        "text": "Tencent: WeVisOne-VL-2B",
+        "itemId": "3714391ca530b579",
+        "lab": "tencent"
+      },
+      {
+        "text": "NVIDIA: Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
+        "itemId": "5c25f1831f0e4d47",
+        "lab": "nvidia"
       }
     ]
   },
