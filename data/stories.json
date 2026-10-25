@@ -1,30 +1,29 @@
 {
-  "generatedAt": "2026-10-25T20:56:48.163Z",
+  "generatedAt": "2026-10-25T23:20:11.465Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
       "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
       "entity": "Nemotron 3.5 Super",
       "labs": [
-        "nvidia",
-        "amazon"
+        "amazon",
+        "nvidia"
       ],
       "official": 1,
-      "press": 4,
+      "press": 3,
       "outlets": [
-        "LMSYS Org",
         "GameGPU",
         "NewsCord",
         "tech-insider.org"
       ],
-      "firstAt": "2026-10-15T23:15:05.000Z",
+      "firstAt": "2026-10-16T17:59:00.000Z",
       "lastAt": "2026-10-23T01:05:41.000Z",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
       "lead": {
         "kind": "official",
         "id": "3b6b85c81106ab13"
       },
-      "importance": 92
+      "importance": 91
     },
     {
       "id": "ea83f0dd69c5142c",
@@ -54,28 +53,29 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 12,
+      "press": 13,
       "outlets": [
-        "PYMNTS.com",
         "ActuIA",
         "The Decoder",
         "Yahoo Finance",
         "shattered.io",
         "ALM Corp",
         "Towards Data Science",
+        "The Davis Enterprise",
+        "Endor Labs",
         "https://tech-insider.org/",
         "Robotics & Automation News",
         "Seeking Alpha",
         "infoq.com"
       ],
-      "firstAt": "2026-10-15T23:15:56.000Z",
+      "firstAt": "2026-10-16T05:32:00.000Z",
       "lastAt": "2026-10-24T16:00:02.000Z",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ia2xWd0tyWnBOU0lwMXdlNEFyNnBJb3FEZll6djYyME1ybUs3VjN4NVBOMmVPQTdpT2pFRklMaWIycjA3MFRpTTRFUW5YTDRwVTJCLXlwbVZxMlRqbzVkc0NoMnJlamR1Ump4eVZ3?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:ed1ecfc1aad6b0"
       },
-      "importance": 62
+      "importance": 63
     },
     {
       "id": "deepseek:a10506682e04b2",
@@ -159,30 +159,6 @@
       "importance": 57
     },
     {
-      "id": "ibm:a9cae2783c20b2",
-      "title": "IBM Granite Switch 4.1: Unified AI for Chat, Decisions, and Speech",
-      "entity": "Granite 4.1",
-      "labs": [
-        "ibm"
-      ],
-      "official": 0,
-      "press": 3,
-      "outlets": [
-        "Unite.AI",
-        "OrcaRouter",
-        "The Chenab Times",
-        "TUN - The University Network"
-      ],
-      "firstAt": "2026-10-15T20:57:09.000Z",
-      "lastAt": "2026-10-16T11:19:36.000Z",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWUNkU3BSZ3FfNlEwNVFVb056TG5VLV9xeWI1Vmpza2JLTVNNSGR0cU55MXFKdHRlWU5RTllNX210N2ZFVDEyRTV4MDloQm1IU3V2ZnlxYm9DbG5qZnZCOW53V290dHFQTlhyalM1QndaVVRlZUw2aS1UaU1jY1g5dThqajctRy1NeVI1WWg1dmx1R05vcExIaGlneWdrdll5RnFSUGVtRnFMaVJYdzA4Nno0cjItQdIBvgFBVV95cUxOUlczekRvX1pFNGRrNXYzWnJjN3IzQm8xVzMwZmpOZVlnbjdQaXhxOUpwaS1PVWJMOGJKMk8xOEF1ekdmdFVpVVVSYmplbkZDdTFwd19RaFdMbkRuY2s0VndDangwZUliYTZGTEN4OVpMVE16aFMteUZYSmJydGJ6TzdyNTk3cHVjbUs3NDlBVm9MNFFYcmNzd093a1RQOHBXVUhIVWRwMEZKaW1zdjJiLThld0ZiTlZzSl9WREFn?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "ibm:a9cae2783c20b2"
-      },
-      "importance": 56
-    },
-    {
       "id": "anthropic:5ded18ae0cbcf5",
       "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
       "entity": "Claude Opus 5.5",
@@ -233,7 +209,7 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 9,
+        "count": 11,
         "prev": 61,
         "labs": [
           "google-deepmind"
@@ -273,32 +249,32 @@
         "prev": 50,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
           "qwen",
-          "nvidia",
-          "ibm"
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 42,
-        "prev": 29,
+        "count": 41,
+        "prev": 30,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
           "qwen",
-          "nvidia",
-          "ibm"
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -306,14 +282,14 @@
         "count": 11,
         "prev": 8,
         "labs": [
+          "xai",
           "anthropic",
           "google-deepmind",
           "openai",
-          "xai",
           "mistral",
           "cohere",
-          "amazon",
           "tencent",
+          "amazon",
           "nvidia"
         ]
       },
@@ -323,13 +299,13 @@
         "prev": 8,
         "labs": [
           "google-deepmind",
-          "openai",
           "deepseek",
+          "openai",
           "minimax",
-          "amazon",
           "tencent",
-          "nvidia",
-          "ibm"
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -337,12 +313,12 @@
         "count": 7,
         "prev": 7,
         "labs": [
-          "openai",
           "meta",
+          "openai",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "nvidia"
         ]
       },
@@ -353,8 +329,8 @@
         "labs": [
           "anthropic",
           "openai",
-          "amazon",
-          "qwen"
+          "qwen",
+          "amazon"
         ]
       },
       {
@@ -363,12 +339,12 @@
         "prev": 6,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
-          "amazon",
+          "openai",
           "microsoft",
-          "nvidia",
-          "ibm"
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -379,10 +355,10 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "amazon",
           "tencent",
-          "nvidia",
-          "ibm"
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -420,18 +396,19 @@
     {
       "id": "moonshot:02e3d0c4f78689",
       "lab": "moonshot",
-      "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
       "outlets": [
         "Qatar Tribune",
         "Tech in Asia",
         "ET Enterprise AI",
         "Menafn",
         "The Information",
-        "Startup Fortune"
+        "Startup Fortune",
+        "Unite.AI"
       ],
-      "reports": 6,
-      "at": "2026-10-23T18:23:36.000Z"
+      "reports": 7,
+      "at": "2026-10-23T17:26:02.000Z"
     },
     {
       "id": "moonshot:2dc78da0b58c99",
