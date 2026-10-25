@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-10-26",
+    "generatedAt": "2026-10-25T20:56:48.163Z",
+    "stats": {
+      "updates24h": 0,
+      "labsActive24h": 0,
+      "updates7d": 156,
+      "newModels7d": 42
+    },
+    "source": "template",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 9 labs.",
+    "bullets": [
+      {
+        "text": "OpenAI: Securing our frontier model training environment",
+        "itemId": "48e2274fdf2ba9fe",
+        "lab": "openai"
+      },
+      {
+        "text": "NVIDIA: Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
+        "itemId": "5c25f1831f0e4d47",
+        "lab": "nvidia"
+      },
+      {
+        "text": "Amazon: How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
+        "itemId": "7f0dec178da37fe0",
+        "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Kazakhstan Expands Compute for Its AI Future",
+        "itemId": "822412740c4fdfe1",
+        "lab": "nvidia"
+      },
+      {
+        "text": "OpenAI: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+        "itemId": "298c8de07d18f423",
+        "lab": "openai"
+      },
+      {
+        "text": "Anthropic: Claude Cowork and chat come together for Enterprise",
+        "itemId": "faf6b20eb041e7b0",
+        "lab": "anthropic"
+      }
+    ]
+  },
+  {
     "date": "2026-10-25",
     "generatedAt": "2026-10-25T16:31:46.241Z",
     "stats": {
