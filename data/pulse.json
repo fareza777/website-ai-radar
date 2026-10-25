@@ -15,8 +15,8 @@
     "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
     "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
     "hnUrl": "https://news.ycombinator.com/item?id=50212065",
-    "points": 1066,
-    "comments": 663,
+    "points": 1070,
+    "comments": 665,
     "at": "2026-10-23T16:59:08Z",
     "lab": "moonshot",
     "firstSeenAt": "2026-10-23T17:15:08.040Z"
@@ -47,8 +47,8 @@
     "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
     "url": "https://news.ycombinator.com/item?id=50200997",
     "hnUrl": "https://news.ycombinator.com/item?id=50200997",
-    "points": 655,
-    "comments": 740,
+    "points": 659,
+    "comments": 743,
     "at": "2026-10-22T21:03:55Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -101,7 +101,7 @@
     "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
     "url": "https://github.com/NVIDIA/OpenShell",
     "hnUrl": "https://news.ycombinator.com/item?id=50198675",
-    "points": 499,
+    "points": 500,
     "comments": 217,
     "at": "2026-10-22T17:44:06Z",
     "lab": "nvidia",
@@ -112,7 +112,7 @@
     "title": "LLMs are making formal software verification feasible at a much larger scale",
     "url": "https://www.anthropic.com/research/formal-verification",
     "hnUrl": "https://news.ycombinator.com/item?id=50202217",
-    "points": 457,
+    "points": 459,
     "comments": 310,
     "at": "2026-10-22T22:54:43Z",
     "lab": "anthropic",
@@ -184,6 +184,17 @@
     "firstSeenAt": "2026-10-23T17:15:08.040Z"
   },
   {
+    "id": "50219700",
+    "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+    "url": "https://github.com/Zagitta/gpu-unlock",
+    "hnUrl": "https://news.ycombinator.com/item?id=50219700",
+    "points": 308,
+    "comments": 74,
+    "at": "2026-10-24T09:58:27Z",
+    "lab": "nvidia",
+    "firstSeenAt": "2026-10-24T20:56:42.655Z"
+  },
+  {
     "id": "50145507",
     "title": "If you don't run your own LLM proxy, how do you know whats going on?",
     "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
@@ -192,6 +203,16 @@
     "comments": 217,
     "at": "2026-10-18T21:09:12Z",
     "firstSeenAt": "2026-10-19T04:51:17.625Z"
+  },
+  {
+    "id": "50227356",
+    "title": "Cerebras Deploys Trillion-Parameter AI Models",
+    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "hnUrl": "https://news.ycombinator.com/item?id=50227356",
+    "points": 282,
+    "comments": 95,
+    "at": "2026-10-25T01:33:49Z",
+    "firstSeenAt": "2026-10-25T11:42:45.846Z"
   },
   {
     "id": "50181175",
@@ -203,17 +224,6 @@
     "at": "2026-10-21T14:03:43Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
-  },
-  {
-    "id": "50219700",
-    "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-    "url": "https://github.com/Zagitta/gpu-unlock",
-    "hnUrl": "https://news.ycombinator.com/item?id=50219700",
-    "points": 262,
-    "comments": 73,
-    "at": "2026-10-24T09:58:27Z",
-    "lab": "nvidia",
-    "firstSeenAt": "2026-10-24T20:56:42.655Z"
   },
   {
     "id": "50159245",
@@ -257,16 +267,6 @@
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
-    "id": "50227356",
-    "title": "Cerebras Deploys Trillion-Parameter AI Models",
-    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-    "hnUrl": "https://news.ycombinator.com/item?id=50227356",
-    "points": 196,
-    "comments": 64,
-    "at": "2026-10-25T01:33:49Z",
-    "firstSeenAt": "2026-10-25T11:42:45.846Z"
-  },
-  {
     "id": "50148452",
     "title": "DeepSeek V4.1 Flash 1017 (Max)",
     "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
@@ -289,15 +289,14 @@
     "firstSeenAt": "2026-10-20T23:57:39.440Z"
   },
   {
-    "id": "50141429",
-    "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-    "hnUrl": "https://news.ycombinator.com/item?id=50141429",
-    "points": 172,
-    "comments": 167,
-    "at": "2026-10-18T14:30:27Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-18T15:57:20.114Z"
+    "id": "50228167",
+    "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+    "url": "https://github.com/slee-persis/GVS5H",
+    "hnUrl": "https://news.ycombinator.com/item?id=50228167",
+    "points": 175,
+    "comments": 63,
+    "at": "2026-10-25T03:56:01Z",
+    "firstSeenAt": "2026-10-25T11:42:45.846Z"
   },
   {
     "id": "50148855",
@@ -309,16 +308,6 @@
     "at": "2026-10-19T05:55:31Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-19T13:31:59.604Z"
-  },
-  {
-    "id": "50228167",
-    "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-    "url": "https://github.com/slee-persis/GVS5H",
-    "hnUrl": "https://news.ycombinator.com/item?id=50228167",
-    "points": 165,
-    "comments": 57,
-    "at": "2026-10-25T03:56:01Z",
-    "firstSeenAt": "2026-10-25T11:42:45.846Z"
   },
   {
     "id": "50180752",
@@ -340,16 +329,6 @@
     "comments": 113,
     "at": "2026-10-19T13:00:47Z",
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
-  },
-  {
-    "id": "50141657",
-    "title": "Websites are closing their doors to AI agents",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-    "hnUrl": "https://news.ycombinator.com/item?id=50141657",
-    "points": 157,
-    "comments": 149,
-    "at": "2026-10-18T14:58:10Z",
-    "firstSeenAt": "2026-10-18T20:52:46.911Z"
   },
   {
     "id": "50145715",
@@ -384,6 +363,16 @@
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
   {
+    "id": "50214373",
+    "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+    "url": "https://corgi.computer/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50214373",
+    "points": 134,
+    "comments": 46,
+    "at": "2026-10-23T19:46:38Z",
+    "firstSeenAt": "2026-10-24T11:12:54.627Z"
+  },
+  {
     "id": "50152466",
     "title": "Maxwell: A new kind of model that sits between code and hardware",
     "url": "https://heymaxwell.ai/",
@@ -404,21 +393,11 @@
     "firstSeenAt": "2026-10-19T20:37:58.193Z"
   },
   {
-    "id": "50214373",
-    "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
-    "url": "https://corgi.computer/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50214373",
-    "points": 132,
-    "comments": 43,
-    "at": "2026-10-23T19:46:38Z",
-    "firstSeenAt": "2026-10-24T11:12:54.627Z"
-  },
-  {
     "id": "50209907",
     "title": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
     "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b/",
     "hnUrl": "https://news.ycombinator.com/item?id=50209907",
-    "points": 125,
+    "points": 126,
     "comments": 34,
     "at": "2026-10-23T14:43:02Z",
     "lab": "google-deepmind",
@@ -478,16 +457,6 @@
     "at": "2026-10-20T17:43:11Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
-  },
-  {
-    "id": "50140462",
-    "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
-    "url": "https://www.vals.ai/blogs/impossible-refund",
-    "hnUrl": "https://news.ycombinator.com/item?id=50140462",
-    "points": 106,
-    "comments": 126,
-    "at": "2026-10-18T12:22:58Z",
-    "firstSeenAt": "2026-10-18T20:52:46.911Z"
   },
   {
     "id": "50186455",
@@ -582,5 +551,15 @@
     "at": "2026-10-20T15:10:54Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
+  },
+  {
+    "id": "50231722",
+    "title": "R/open source bans all solo projects and projects using LLMs",
+    "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+    "hnUrl": "https://news.ycombinator.com/item?id=50231722",
+    "points": 64,
+    "comments": 85,
+    "at": "2026-10-25T14:05:03Z",
+    "firstSeenAt": "2026-10-25T16:31:46.241Z"
   }
 ]

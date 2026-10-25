@@ -1,25 +1,20 @@
 [
   {
     "date": "2026-10-25",
-    "generatedAt": "2026-10-25T11:42:45.846Z",
+    "generatedAt": "2026-10-25T16:31:46.241Z",
     "stats": {
-      "updates24h": 2,
+      "updates24h": 1,
       "labsActive24h": 1,
       "updates7d": 156,
       "newModels7d": 42
     },
     "source": "template",
-    "headline": "A quiet day — here are the highlights from the last 72 hours across 10 labs.",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 9 labs.",
     "bullets": [
       {
         "text": "Amazon: Announcing new ways to customize models with SageMaker AI, without managing GPUs",
         "itemId": "418ae447f600fa7e",
         "lab": "amazon"
-      },
-      {
-        "text": "NVIDIA: NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-        "itemId": "99c8819be3a73948",
-        "lab": "nvidia"
       },
       {
         "text": "OpenAI: Securing our frontier model training environment",
@@ -35,6 +30,11 @@
         "text": "Amazon: How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
         "itemId": "7f0dec178da37fe0",
         "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Kazakhstan Expands Compute for Its AI Future",
+        "itemId": "822412740c4fdfe1",
+        "lab": "nvidia"
       },
       {
         "text": "OpenAI: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",

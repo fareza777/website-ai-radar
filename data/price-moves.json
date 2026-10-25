@@ -1,5 +1,27 @@
 [
   {
+    "id": "8eb9d4de64e75a70",
+    "modelId": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "lab": "meta",
+    "at": "2026-10-25T16:31:46.241Z",
+    "field": "prompt",
+    "from": 0.0509,
+    "to": 0.05,
+    "change": -1.8
+  },
+  {
+    "id": "1793676952d3dff7",
+    "modelId": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "lab": "meta",
+    "at": "2026-10-25T16:31:46.241Z",
+    "field": "completion",
+    "from": 0.335,
+    "to": 0.33,
+    "change": -1.5
+  },
+  {
     "id": "8efab0604773f344",
     "modelId": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",

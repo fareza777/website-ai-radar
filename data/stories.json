@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T11:42:45.846Z",
+  "generatedAt": "2026-10-25T16:31:46.241Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -9,40 +9,22 @@
         "nvidia",
         "amazon"
       ],
-      "official": 2,
-      "press": 10,
+      "official": 1,
+      "press": 4,
       "outlets": [
-        "Wccftech",
-        "Nasdaq",
-        "Business Wire",
-        "Yahoo Finance",
-        "SQ Magazine",
-        "MarkTechPost",
-        "Startup Fortune",
-        "ZDNET",
-        "https://tech-insider.org/",
-        "The Decoder",
-        "Prime Intellect",
-        "Techzine Global",
-        "Unite.AI",
-        "Technology Org",
-        "OrcaRouter",
-        "巴士的報",
-        "Newsquawk",
-        "Nscale",
-        "StreetInsider",
         "LMSYS Org",
         "GameGPU",
-        "NewsCord"
+        "NewsCord",
+        "tech-insider.org"
       ],
-      "firstAt": "2026-10-15T15:00:00.000Z",
+      "firstAt": "2026-10-15T23:15:05.000Z",
       "lastAt": "2026-10-23T01:05:41.000Z",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
       "lead": {
         "kind": "official",
         "id": "3b6b85c81106ab13"
       },
-      "importance": 100
+      "importance": 92
     },
     {
       "id": "ea83f0dd69c5142c",
@@ -72,9 +54,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 15,
+      "press": 13,
       "outlets": [
-        "https://tech-insider.org/",
         "The Decoder",
         "PYMNTS.com",
         "ActuIA",
@@ -82,11 +63,12 @@
         "shattered.io",
         "ALM Corp",
         "Towards Data Science",
+        "https://tech-insider.org/",
         "Robotics & Automation News",
         "Seeking Alpha",
         "infoq.com"
       ],
-      "firstAt": "2026-10-15T14:24:13.000Z",
+      "firstAt": "2026-10-15T17:02:58.000Z",
       "lastAt": "2026-10-24T16:00:02.000Z",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ia2xWd0tyWnBOU0lwMXdlNEFyNnBJb3FEZll6djYyME1ybUs3VjN4NVBOMmVPQTdpT2pFRklMaWIycjA3MFRpTTRFUW5YTDRwVTJCLXlwbVZxMlRqbzVkc0NoMnJlamR1Ump4eVZ3?oc=5",
       "lead": {
@@ -228,30 +210,30 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 11,
-        "prev": 59,
+        "count": 9,
+        "prev": 61,
         "labs": [
           "google-deepmind"
         ]
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 7,
-        "prev": 8,
+        "count": 6,
+        "prev": 9,
         "labs": [
           "deepseek"
         ]
       },
       {
-        "name": "Claude Opus 5.5",
-        "count": 5,
-        "prev": 2,
-        "labs": []
-      },
-      {
         "name": "Granite 5.0 2B",
         "count": 4,
         "prev": 0,
+        "labs": []
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "count": 4,
+        "prev": 3,
         "labs": []
       },
       {
@@ -272,9 +254,9 @@
           "meta",
           "mistral",
           "cohere",
-          "amazon",
-          "microsoft",
           "qwen",
+          "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -289,9 +271,9 @@
           "openai",
           "mistral",
           "cohere",
-          "amazon",
-          "microsoft",
           "qwen",
+          "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -307,8 +289,8 @@
           "openai",
           "mistral",
           "cohere",
-          "amazon",
           "tencent",
+          "amazon",
           "nvidia"
         ]
       },
@@ -317,12 +299,12 @@
         "count": 10,
         "prev": 8,
         "labs": [
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
           "minimax",
-          "amazon",
           "tencent",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -336,8 +318,8 @@
           "meta",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "nvidia"
         ]
       },
@@ -348,8 +330,8 @@
         "labs": [
           "anthropic",
           "openai",
-          "amazon",
-          "qwen"
+          "qwen",
+          "amazon"
         ]
       },
       {
@@ -360,8 +342,8 @@
           "anthropic",
           "openai",
           "meta",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -374,8 +356,8 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "amazon",
           "tencent",
+          "amazon",
           "ibm",
           "nvidia"
         ]
