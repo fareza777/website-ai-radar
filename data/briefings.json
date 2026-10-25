@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-10-25",
-    "generatedAt": "2026-10-25T04:52:53.901Z",
+    "generatedAt": "2026-10-25T11:42:45.846Z",
     "stats": {
       "updates24h": 2,
       "labsActive24h": 1,
@@ -9,7 +9,7 @@
       "newModels7d": 42
     },
     "source": "template",
-    "headline": "A quiet day — here are the highlights from the last 72 hours across 11 labs.",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 10 labs.",
     "bullets": [
       {
         "text": "Amazon: Announcing new ways to customize models with SageMaker AI, without managing GPUs",
@@ -27,19 +27,19 @@
         "lab": "openai"
       },
       {
-        "text": "Tencent: WeVisOne-VL-4B",
-        "itemId": "4a4fa336246ecf11",
-        "lab": "tencent"
-      },
-      {
-        "text": "Tencent: WeVisOne-VL-2B",
-        "itemId": "3714391ca530b579",
-        "lab": "tencent"
-      },
-      {
         "text": "NVIDIA: Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
         "itemId": "5c25f1831f0e4d47",
         "lab": "nvidia"
+      },
+      {
+        "text": "Amazon: How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
+        "itemId": "7f0dec178da37fe0",
+        "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+        "itemId": "298c8de07d18f423",
+        "lab": "openai"
       }
     ]
   },

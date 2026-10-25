@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T04:52:53.901Z",
+  "generatedAt": "2026-10-25T11:42:45.846Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -72,10 +72,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 17,
+      "press": 15,
       "outlets": [
-        "Mashable",
-        "TechRepublic",
         "https://tech-insider.org/",
         "The Decoder",
         "PYMNTS.com",
@@ -88,14 +86,14 @@
         "Seeking Alpha",
         "infoq.com"
       ],
-      "firstAt": "2026-10-15T07:00:00.000Z",
+      "firstAt": "2026-10-15T14:24:13.000Z",
       "lastAt": "2026-10-24T16:00:02.000Z",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ia2xWd0tyWnBOU0lwMXdlNEFyNnBJb3FEZll6djYyME1ybUs3VjN4NVBOMmVPQTdpT2pFRklMaWIycjA3MFRpTTRFUW5YTDRwVTJCLXlwbVZxMlRqbzVkc0NoMnJlamR1Ump4eVZ3?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:ed1ecfc1aad6b0"
       },
-      "importance": 63
+      "importance": 62
     },
     {
       "id": "deepseek:a10506682e04b2",
@@ -156,16 +154,17 @@
     {
       "id": "ibm:1c452e9063ca86",
       "title": "Granite Speech 5.0 2B: what IBM shipped on 7 October",
-      "entity": "Granite 5.0 2B",
+      "entity": "Granite 5.0",
       "labs": [
         "ibm"
       ],
       "official": 0,
-      "press": 4,
+      "press": 5,
       "outlets": [
         "OrcaRouter",
         "GIGAZINE",
         "MarkTechPost",
+        "TUN - The University Network",
         "NeoTeo"
       ],
       "firstAt": "2026-10-21T16:56:11.000Z",
@@ -175,7 +174,7 @@
         "kind": "press",
         "id": "ibm:1c452e9063ca86"
       },
-      "importance": 56
+      "importance": 57
     },
     {
       "id": "ibm:a9cae2783c20b2",
@@ -230,7 +229,7 @@
       {
         "name": "Gemini 4 Argon",
         "count": 11,
-        "prev": 58,
+        "prev": 59,
         "labs": [
           "google-deepmind"
         ]
@@ -252,6 +251,12 @@
       {
         "name": "Granite 5.0 2B",
         "count": 4,
+        "prev": 0,
+        "labs": []
+      },
+      {
+        "name": "Granite 5.0",
+        "count": 3,
         "prev": 0,
         "labs": []
       }
@@ -277,7 +282,7 @@
       {
         "name": "coding",
         "count": 42,
-        "prev": 32,
+        "prev": 29,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -451,6 +456,20 @@
       ],
       "reports": 5,
       "at": "2026-10-23T17:26:02.000Z"
+    },
+    {
+      "id": "moonshot:02e3d0c4f78689",
+      "lab": "moonshot",
+      "title": "Moonshot AI Unveils Kimi K3.1 Pro 3-Trillion-Parameter AI Model",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMmh6TFktNlpuUzY5X0xSdFZSeDR3ZjR0Mi1TcnRmd091Nm41aXg1NW5zNk5VQkNhRm9IVlJsOHFleVRITGNkSExSMF9hWGt3VFlPUGhTR2FQNnNXUTZ5VFZvckN1TG1fNWw1dDhwMWJNNDB1akFSaGpqeVktMGYtcmNWUHlzb0ZNeE9vVG9sVGZ5TlhrSjBj?oc=5",
+      "outlets": [
+        "Qatar Tribune",
+        "Tech in Asia",
+        "ET Enterprise AI",
+        "Menafn"
+      ],
+      "reports": 4,
+      "at": "2026-10-24T05:15:27.000Z"
     },
     {
       "id": "moonshot:bd1a9e13cdfe46",
