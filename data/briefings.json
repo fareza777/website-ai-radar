@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-25",
-    "generatedAt": "2026-10-24T23:21:19.432Z",
+    "generatedAt": "2026-10-25T00:04:12.985Z",
     "stats": {
-      "updates24h": 4,
+      "updates24h": 3,
       "labsActive24h": 2,
-      "updates7d": 157,
+      "updates7d": 156,
       "newModels7d": 42
     },
     "source": "template",
-    "headline": "4 updates from 2 AI labs in the last 24 hours · 42 model releases this week.",
+    "headline": "3 updates from 2 AI labs in the last 24 hours · 42 model releases this week.",
     "bullets": [
       {
         "text": "Alibaba Qwen: Qwen Code desktop v0.26.1",
@@ -24,11 +24,6 @@
       {
         "text": "Anthropic: Claude Agent SDK (Python) v0.2.174",
         "itemId": "3a721705aa0c9b7f",
-        "lab": "anthropic"
-      },
-      {
-        "text": "Anthropic: Claude Code v2.1.310",
-        "itemId": "27b067f2e1fb95dc",
         "lab": "anthropic"
       }
     ]

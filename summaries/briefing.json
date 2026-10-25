@@ -317,5 +317,34 @@
         "itemId": "418ae447f600fa7e"
       }
     ]
+  },
+  "2026-10-25": {
+    "headline": "SageMaker AI customizes open-weight models without GPUs, NVIDIA launches Minerva for AI-factory observability, and OpenAI details offline frontier-training containment.",
+    "bullets": [
+      {
+        "text": "SageMaker AI adds ways to customize open-weight models with post-training such as reinforcement learning without managing GPUs.",
+        "itemId": "418ae447f600fa7e"
+      },
+      {
+        "text": "NVIDIA Minerva is an AIOps platform that combines infrastructure and workload telemetry and uses purpose-built models so AI factories stay productive.",
+        "itemId": "99c8819be3a73948"
+      },
+      {
+        "text": "OpenAI strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+        "itemId": "48e2274fdf2ba9fe"
+      },
+      {
+        "text": "SageMaker AI serverless model customization now has training session APIs so teams write the post-training algorithm without provisioning GPUs, including SFT, DPO, and other RL methods.",
+        "itemId": "16e66a666855e420"
+      },
+      {
+        "text": "SageMaker AI serverless customization now covers Muse Glimmer, Qwen3.8 27B, and Ministral 3 3B, 8B, and 14B with SFT, DPO, and RFT.",
+        "itemId": "191c89b31a66b523"
+      },
+      {
+        "text": "AgentCore Gateway now supports Bedrock InvokeModel and InvokeModelWithResponseStream plus model fallback on one governed endpoint.",
+        "itemId": "94905f02a5c74265"
+      }
+    ]
   }
 }

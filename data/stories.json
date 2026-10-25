@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T23:21:19.432Z",
+  "generatedAt": "2026-10-25T00:04:12.985Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -63,30 +63,6 @@
         "id": "ea83f0dd69c5142c"
       },
       "importance": 70
-    },
-    {
-      "id": "7d369f9d483c77b3",
-      "title": "Cohere to acquire AISLE to advance cyber-resilient sovereign AI",
-      "entity": null,
-      "labs": [
-        "cohere"
-      ],
-      "official": 1,
-      "press": 2,
-      "outlets": [
-        "Evertiq",
-        "بوابة التكنولوجيا المالية",
-        "WebWire",
-        "Pulse 2.0"
-      ],
-      "firstAt": "2026-10-15T00:00:00.000Z",
-      "lastAt": "2026-10-20T04:06:25.000Z",
-      "url": "https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai",
-      "lead": {
-        "kind": "official",
-        "id": "7d369f9d483c77b3"
-      },
-      "importance": 66
     },
     {
       "id": "google-deepmind:ed1ecfc1aad6b0",
@@ -300,11 +276,11 @@
           "meta",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "qwen",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -317,11 +293,11 @@
           "openai",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "qwen",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -329,10 +305,10 @@
         "count": 11,
         "prev": 8,
         "labs": [
-          "xai",
           "anthropic",
           "google-deepmind",
           "openai",
+          "xai",
           "mistral",
           "cohere",
           "tencent",
@@ -351,8 +327,8 @@
           "minimax",
           "tencent",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -364,8 +340,8 @@
           "meta",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -388,10 +364,10 @@
           "anthropic",
           "openai",
           "meta",
-          "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "microsoft",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -404,8 +380,8 @@
           "mistral",
           "tencent",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -424,17 +400,34 @@
     {
       "id": "moonshot:dabd4522e394bb",
       "lab": "moonshot",
-      "title": "Chinas Moonshot AI launches Kimi K3.1 Pro; plans full model weights release by Nov",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1pfX0hrUjRYVk1MTFNKVVBrdldITFFLSnRmb1pSWTN2djcyb25vcTdrdFZNd1pVR2IteTdITmVRWElsVmRrMEJiWTQ5YVNLM2tXNUFaRmdBeG9HdWtIbmhjVnd4dmk0RmhJRHcxNWE2LU9OdTRNaUgwa2dQLVJPWkhFWWlPTGM5dS00cmJrY3NJYU1FMi1PUVktMEN6aTVtM25lUEhIdEpsbVVzNG13WnF2U3ZTMElOdjhTbHFPaHhKRFXSAccBQVVfeXFMTUlNaHBtejRvYnkzeWFNRUo4Rm80TGxRSV9Tck1FazMxYVJHWkNEalVKU0tMUElHc2d6R2QxMlR4aDhoZldUZ1hSS19sU3paVzhadXNnZU44VXFZRld0UjVTeWJBMGFtTEJZR2xiSko4aXZUbFdTenpIQ1dlV2lhTUNmU0NybnVqWmFwVExxcThxWlJ6cE8yZ21NZnh2T0NWRWU1akFmMDc2NmFCdE0tOFZoNEJnTVFlMDV3bEhNeV8tOVptQi1ZNA?oc=5",
+      "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
       "outlets": [
         "The Tribune",
         "The Economic Times",
         "Lokmat Times",
         "LatestLY",
-        "ET Enterprise AI"
+        "ET Enterprise AI",
+        "The Information",
+        "Startup Fortune"
+      ],
+      "reports": 7,
+      "at": "2026-10-23T18:23:36.000Z"
+    },
+    {
+      "id": "moonshot:2dc78da0b58c99",
+      "lab": "moonshot",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
+      "outlets": [
+        "NewsBytes",
+        "The Information",
+        "Startup Fortune",
+        "Unite.AI",
+        "Tech in Asia"
       ],
       "reports": 5,
-      "at": "2026-10-24T05:07:28.000Z"
+      "at": "2026-10-23T17:26:02.000Z"
     },
     {
       "id": "moonshot:1e599103d1152b",
@@ -479,19 +472,6 @@
       ],
       "reports": 4,
       "at": "2026-10-23T17:26:02.000Z"
-    },
-    {
-      "id": "moonshot:2dc78da0b58c99",
-      "lab": "moonshot",
-      "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
-      "outlets": [
-        "NewsBytes",
-        "The Information",
-        "Startup Fortune"
-      ],
-      "reports": 3,
-      "at": "2026-10-23T18:23:36.000Z"
     },
     {
       "id": "moonshot:b5ab6d8df0b847",

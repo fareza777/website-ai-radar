@@ -210,25 +210,10 @@
     "unique": "It is a Swift share extension for chat history, aimed at Obsidian and AI agents.",
     "benefit": "Mac users can send a WeChat thread to an agent or an Obsidian note without copying it by hand."
   },
-  "739df77aef3ec866": {
-    "summary": "dscode is a DeepSeek coding-agent harness with a persistent shell, Ultra subagents, auto approval, Chrome MCP, and session telemetry.",
-    "unique": "It is a CLI coding agent built as a DeepSeek harness, including code review.",
-    "benefit": "Developers on DeepSeek can keep a shell, subagents, and browser tools in one harness."
-  },
   "acbfc8b6782f5594": {
     "summary": "herdr-gpui is a native Herdr client for macOS, Linux, and Windows, built with Rust and GPUI. It shows terminal sessions, workspaces, Git worktrees, and agent activity from your local Herdr daemon.",
     "unique": "The desktop app talks to a local daemon instead of a hosted view of those sessions.",
     "benefit": "Herdr users can watch agents, terminals, and worktrees in a native app on their machine."
-  },
-  "870696629d61a9c0": {
-    "summary": "AgentVerse-OS is a personal cloud OS for a developer and their AI agents on one server. One command installs it on Ubuntu, then a browser desktop holds isolated workspaces with VS Code, Claude Code, and Codex, plus a store of 944 self-hosted apps.",
-    "unique": "Access is only via Tailscale, with backups and updates included.",
-    "benefit": "Developers can give agents a private Ubuntu desktop and a catalog of self-hosted apps without opening it to the public internet."
-  },
-  "11d4aeca05fb4a33": {
-    "summary": "TypeLLM is a project for LLMs with type-safe generation.",
-    "unique": "It connects LLMs, types, and Jev-style constraints on what the model is allowed to emit.",
-    "benefit": "Developers who need structured output can look at generation that is checked by types."
   },
   "bae66b4f1f180cf9": {
     "summary": "easyread turns English papers into comfortable Chinese: local PDF translation, side-by-side original text, questions to an AI while you read, and reference management.",
@@ -713,10 +698,10 @@
     "benefit": "You can clean an Android or Google TV over Wi-Fi and undo it later without rooting."
   },
   "59a6d856ff3bb794": {
-    "hash": "c2660acb",
-    "summary": "whatsapp-mcp is a read-only MCP server that lets an agent search and read your own WhatsApp messages.",
-    "unique": "It runs on Cloudflare Workers and does not write messages.",
-    "benefit": "Agents can look through your WhatsApp history without sending or editing chats."
+    "hash": "db8f374a",
+    "summary": "whatsapp-mcp is a read-only MCP server that lets an AI agent search and read your own WhatsApp messages, hosted free at whatsapp.finereli.com or self-hosted on Cloudflare.",
+    "unique": "Read-only access to your own WhatsApp, with a hosted option or a Cloudflare copy.",
+    "benefit": "You can let an agent search your WhatsApp without giving it write access."
   },
   "2b32bace1db032ac": {
     "hash": "8464f9d3",
@@ -778,10 +763,28 @@
     "unique": "Verdicts come with evidence and are meant to land before you ship.",
     "benefit": "Mobile teams can get a pre-release check that cites evidence instead of a pass-fail score only."
   },
-  "15542b753b93fbdc": {
-    "hash": "e5dcfaf5",
-    "summary": "Ideogram's vector model creates logos, print designs, and illustrations from a prompt or an image as scalable, editable SVG artwork.",
-    "unique": "The output is SVG you can edit, not a flat raster.",
-    "benefit": "Designers can start a logo or illustration from a prompt or image and keep editing the vectors."
+  "48bb6eb3c24be9c2": {
+    "hash": "32615e28",
+    "summary": "Argus is an open-source agentic security operations platform.",
+    "unique": "GitHub topics center on agentic security, cyber-threat intelligence, and cybersecurity tools.",
+    "benefit": "Security teams exploring agentic SOC tooling can start from this open-source platform."
+  },
+  "819312591f4abddd": {
+    "hash": "25b34290",
+    "summary": "Corgi is a friendly helper for your agents.",
+    "unique": "The product site frames it as a helper for agents rather than a general chat app.",
+    "benefit": "People running agents can try Corgi as a helper around those agents."
+  },
+  "d0b73b86cb1a287f": {
+    "hash": "17f06c01",
+    "summary": "mcd-budget-meal is a McDonald's budget-meal skill that uses a McDonald's MCP for real pricing, budget comparison, and item substitution.",
+    "unique": "It prices and swaps McDonald's items through that MCP rather than a generic menu scraper.",
+    "benefit": "Someone on a McDonald's budget can have an agent compare and substitute meals using real prices."
+  },
+  "d7dd10e271a06ed1": {
+    "hash": "c733b35b",
+    "summary": "Co-op Anything points an AI agent at a single-player game so you can play it with friends online or splitscreen, with an MCP server and playbook to reverse engineer, fix, test, ship, and share what it learns.",
+    "unique": "It turns single-player games into co-op via an agent plus a reverse-engineering playbook.",
+    "benefit": "Friends can co-op a single-player title while the agent documents how the hack was built."
   }
 }

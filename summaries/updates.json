@@ -1128,9 +1128,9 @@
     "category": "research"
   },
   "d6e89e4381e4169d": {
-    "hash": "213cca0b3cfb",
-    "summary": "Anthropic migrated to an in-house version control system in five months after merges per day grew more than tenfold and source control became its biggest development bottleneck.",
-    "benefit": "Engineering teams facing the same bottleneck can read how Anthropic redesigned source control."
+    "hash": "b6c14af8e0f0",
+    "summary": "As monorepo merges grew from about 2,500 to more than 30,000 a day, Anthropic built Scion, an in-house version control system for always-online agents, and migrated off git in five months.",
+    "benefit": "Platform teams facing agent-driven merge volume can study Scion's git replacement."
   },
   "4826ab478a6a20b8": {
     "hash": "ec8259aa5ec7",
@@ -1222,14 +1222,14 @@
     "benefit": "EU enterprises and small businesses can see where agentic AI adoption is growing and where deeper use could add value."
   },
   "f2bde108f64c5a7a": {
-    "hash": "a01be479290a",
-    "summary": "Anthropic has opened a Singapore office and signed an MOU with the Government of Singapore.",
-    "benefit": "People working with Anthropic in Singapore now have a local office and a signed government MOU."
+    "hash": "f3a57d160749",
+    "summary": "Anthropic opened a Singapore office and signed an MOU with the Government of Singapore on safe, responsible AI adoption.",
+    "benefit": "Singapore customers and partners now have a local Anthropic office tied to that government MOU."
   },
   "18177a36d83526b9": {
-    "hash": "4bb286816eae",
-    "summary": "A new update covers preparing for the 2026 US midterms.",
-    "benefit": "Readers following election-related work can see this note on preparing for the 2026 US midterms."
+    "hash": "ba03bd15c308",
+    "summary": "Anthropic outlines how it has continued to strengthen election safeguards ahead of the 2026 US midterms.",
+    "benefit": "Anyone using Claude around election content can read the current midterm safeguards."
   },
   "0fff098609ae8946": {
     "hash": "194f67ca1da5",
@@ -1427,10 +1427,9 @@
     "benefit": "Teams that want a smaller Granite Switch model can use the 8B checkpoint under Apache-2.0."
   },
   "227d02ee5d0460b9": {
-    "hash": "9658cf051064",
-    "summary": "Anthropic published an update on independent evaluators.",
-    "benefit": "Readers tracking Anthropic's evaluation process can see the latest note on independent evaluators.",
-    "category": "research"
+    "hash": "b0ec4973837c",
+    "summary": "Anthropic is giving employee-like access to METR to evaluate system safety and is in early discussions with several other organizations, including Hugging Face.",
+    "benefit": "Independent evaluators and customers can see how METR is being given deeper access."
   },
   "1d4cff712a9a1281": {
     "hash": "d10bdd91d961",
@@ -1597,9 +1596,9 @@
     "benefit": "Teams facing a high volume of agent diffs can copy a review flow that mixes model checks with human approval by risk."
   },
   "ce8bd23968211e78": {
-    "hash": "1f30310a237b",
-    "summary": "An Anthropic Japan business development representative uses Claude Managed Agents and Claude Tag to clear his inbound queue and draft bilingual customer emails.",
-    "benefit": "BDRs can hand inbound triage and bilingual customer email drafts to Claude Managed Agents and Claude Tag."
+    "hash": "81b8d1e21320",
+    "summary": "An Anthropic business development representative in Japan uses Claude Managed Agents and Claude Tag to clear an inbound queue and draft bilingual customer emails.",
+    "benefit": "Sales teams can copy a bilingual inbox-and-email workflow on Managed Agents."
   },
   "e127630b938b3649": {
     "hash": "f84bba9f37d6",
@@ -1979,5 +1978,286 @@
     "summary": "OpenAI's second governance note outlines giving cyber defenders frontier AI, stronger safeguards, and more resilient public institutions.",
     "benefit": "Defenders and policymakers can read OpenAI's blueprint for using frontier models in cybersecurity.",
     "category": "research"
+  },
+  "3894cf8b2170198f": {
+    "hash": "f6b52138e9a2",
+    "summary": "Amazon published LAR-27B on Hugging Face under an Apache-2.0 license.",
+    "benefit": "Anyone can download LAR-27B from Hugging Face under Apache-2.0 terms.",
+    "category": "model"
+  },
+  "b3fcb2e42d321123": {
+    "hash": "1eeef0862cfa",
+    "summary": "An independent Schlotzsky's and Cinnabon franchisee used ChatGPT Work to cut menu repricing time by 95% and reconcile cash in 94% less time, and built a workflow that could free up $100K in cash flow.",
+    "benefit": "Restaurant operators can see a concrete cash-and-repricing workflow built on ChatGPT Work."
+  },
+  "dbaa902542534b3a": {
+    "hash": "78e7925b658a",
+    "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D so biopharma teams can accelerate drug development.",
+    "benefit": "Life-sciences teams get a signal that Orchestra Bio's operations tooling will sit inside OpenAI."
+  },
+  "7a364f356aab4946": {
+    "hash": "64fd398f6b9c",
+    "summary": "OpenAI is improving ChatGPT for low-resource programming languages and added evaluations for software engineering, SQLite, and COBOL migration.",
+    "benefit": "Developers working in less common languages or COBOL migrations can check the new evaluations."
+  },
+  "faf6b20eb041e7b0": {
+    "hash": "2545b9e130d3",
+    "summary": "Claude Cowork and chat come together for Enterprise.",
+    "benefit": "Enterprise Claude users can work in one place instead of splitting Cowork and chat."
+  },
+  "cc012b1e3b750154": {
+    "hash": "48addfcae5d8",
+    "summary": "Anthropic is donating Agent Skills, the open standard for specialized agent knowledge and workflows, to the Agentic AI Foundation. More than 70 platforms including ChatGPT, Cursor, GitHub Copilot, and VS Code have integrated it since December 2025.",
+    "benefit": "Agent builders can treat Agent Skills as a foundation-hosted standard already used by those products."
+  },
+  "6eda137552a56aa9": {
+    "hash": "56bd8d05fed3",
+    "summary": "Anthropic is inviting members of the life sciences community to apply to work on special projects as guest investigators.",
+    "benefit": "Life-science researchers can apply to collaborate with Anthropic on those projects."
+  },
+  "d8bc34fcb2848bc4": {
+    "hash": "43bad8c15bbc",
+    "summary": "HCLTech joined the Claude Partner Network as a Global Premier partner and will bring Claude into solutions for banks, hospitals, telecom companies, and manufacturers.",
+    "benefit": "Enterprises already served by HCLTech can get Claude inside those industry solutions."
+  },
+  "3964fa015c0d2656": {
+    "hash": "dbe48b12ccf5",
+    "summary": "Claude Security now scans continuously as code changes, tracks findings until they are fixed, learns from team context, and connects through an API and MCP. Public beta for Claude Enterprise.",
+    "benefit": "Enterprise security teams can keep findings open until fixed and hook scans into their own tools.",
+    "category": "api"
+  },
+  "66d5720ec836838d": {
+    "hash": "280586b00ae2",
+    "summary": "Anthropic is committing a portion of its shares to the Anthropic Public Benefit Fund, a new entity whose stake increases as the company grows.",
+    "benefit": "Readers can see how Anthropic is structuring a growing public-benefit share commitment."
+  },
+  "655df0fb22ace891": {
+    "hash": "9596dae21d25",
+    "summary": "Google DeepMind published a global map that categorizes every 10-meter patch of land on Earth into distinct forest types.",
+    "benefit": "Researchers can use a 10-meter forest-type map instead of tree-cover-only layers."
+  },
+  "6bc0a4e087e6311f": {
+    "hash": "97c51a27fba7",
+    "summary": "Google reports that widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+    "benefit": "Regional planners can cite those 2026 and 2035 digital-economy figures from Google's report."
+  },
+  "dbb53c4e8ada17e8": {
+    "hash": "058327c9106a",
+    "summary": "Meta describes a thin orchestrator for data-pipeline agents: the router only routes work and enforces reliability checks, while specialized agents do domain reasoning, which improved efficiency and accuracy.",
+    "benefit": "Teams with unreliable fat routers can split routing from domain reasoning the way Meta did."
+  },
+  "82899c94557909a4": {
+    "hash": "8766e448394c",
+    "summary": "Mistral is collaborating with NVIDIA to develop AI-native engineering workflows powered by NVIDIA accelerated computing.",
+    "benefit": "Engineering teams on NVIDIA hardware can watch for Mistral's AI-native workflow stack."
+  },
+  "147a52922e17021c": {
+    "hash": "202a7226c9cd",
+    "summary": "NVIDIA cuDSS is generally available as a CUDA-X library that moves a critical part of engineering and scientific simulations onto GPUs.",
+    "benefit": "Simulation engineers can run that solver step on GPUs instead of waiting longer as designs get more complex.",
+    "category": "developer"
+  },
+  "79e072c528493212": {
+    "hash": "c663d29416f8",
+    "summary": "DeepSeek released DeepInfer, a high-performance, large-scale inference framework for DeepSeek models.",
+    "benefit": "Operators serving DeepSeek models can use this dedicated large-scale inference framework."
+  },
+  "7207c59bed78ddb3": {
+    "hash": "6de3eaf36c80",
+    "summary": "Cohere published a post in which a retired teacher and a high schooler put AI to the test on whether it can understand culture.",
+    "benefit": "Readers can see Cohere's culture-understanding test through those two perspectives."
+  },
+  "ccc3219ff3a46714": {
+    "hash": "b1418b4d238d",
+    "summary": "Microsoft Research's Flint-interactive lets agents create charts users explore by clicking, filtering, zooming, highlighting, and cross-chart interactions, using high-level semantic behaviors instead of low-level visualization code.",
+    "benefit": "Agent builders can ship interactive charts without writing low-level viz code."
+  },
+  "abedaf2dbb115971": {
+    "hash": "271a7ead0de7",
+    "summary": "Microsoft writes about advancing digital sovereignty so governments, critical infrastructure, and regulated industries can use cloud and AI while keeping the control those systems require.",
+    "benefit": "Regulated buyers can read Microsoft's control-and-choice framing for cloud and AI."
+  },
+  "630e178266bc2a3e": {
+    "hash": "9fb730381f98",
+    "summary": "Microsoft describes a shared sovereign-AI foundation from edge to cloud so manufacturers, pharmaceutical companies, and government agencies can run AI next to confidential data.",
+    "benefit": "Teams with on-prem data constraints can place AI from edge to cloud under that sovereignty design."
+  },
+  "116e84c7c9fa0dbd": {
+    "hash": "dd6efb095baf",
+    "summary": "Web Search on Amazon Bedrock now supports domain filtering and user location on the web_search tool in OpenAI Responses API requests. Domain filtering can restrict results to up to 100 chosen domains.",
+    "benefit": "Bedrock app builders can ground answers on chosen domains and a user location without a new API."
+  },
+  "d543a8c819225bfc": {
+    "hash": "ee5b5596bf51",
+    "summary": "Amazon Quick Sight layer maps can now plot points and routes with GeoJSON, such as store locations or flights leaving an airport.",
+    "benefit": "Analysts can overlay stores and routes on layer maps instead of only filled or point maps."
+  },
+  "ad44bdcab03f890e": {
+    "hash": "e48a4cd2ec27",
+    "summary": "Amazon Polly's Generative engine upgrade delivers more expressive, more accurate speech with low latency, adding 14 new voices across 9 locales and generally available Hindi and Finnish Generative voices.",
+    "benefit": "TTS apps can use the upgraded engine, including Hindi and Finnish Generative voices."
+  },
+  "762687ac4e575ecb": {
+    "hash": "b598f408c388",
+    "summary": "IskayPet unified office knowledge with Amazon Bedrock Managed Knowledge Bases after answers lived in hundreds of SharePoint documents across four languages and three countries.",
+    "benefit": "Multi-country retailers can follow this Bedrock knowledge-base pattern for SharePoint sprawl."
+  },
+  "e78a121961a6bf92": {
+    "hash": "afd3f61bd131",
+    "summary": "AWS announced AWS Interconnect - last mile preview with Megaport, a fully managed connectivity offering to connect branch offices, data centers, and remote locations to AWS with a few clicks.",
+    "benefit": "Network teams can try last-mile AWS connectivity via Megaport without a full custom setup."
+  },
+  "209f0f415bceb89a": {
+    "hash": "7ff9b1b0791b",
+    "summary": "Smartsheet launched a generally available MCP so AI agents can work on project timelines, task reassignment, and status without switching tools, on AWS.",
+    "benefit": "Agents can update Smartsheet work management through MCP on AWS.",
+    "category": "api"
+  },
+  "dead45002f0a59b6": {
+    "hash": "25e48cdb2435",
+    "summary": "Smartsheet launched a generally available MCP Server so AI agents can update project timelines, reassign tasks, and surface status without switching tools.",
+    "benefit": "Ops teams can let agents act on Smartsheet workflows through MCP on AWS.",
+    "category": "api"
+  },
+  "bf3eb719b179efc5": {
+    "hash": "af5f60679e0b",
+    "summary": "AWS describes conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore so teams can query systems behind decisions such as SKU exposure to a port closure.",
+    "benefit": "Supply-chain teams can ask those questions in conversation instead of stitching reports."
+  },
+  "d42536b869033e81": {
+    "hash": "02d04364c430",
+    "summary": "Octave built a secure multi-tenant AI foundation on Amazon Bedrock so quality-management knowledge in billions of documents can be searched by semantic similarity across languages.",
+    "benefit": "Regulated quality teams can study this Bedrock pattern for CAPA and audit search."
+  },
+  "441fb3c5749df7f5": {
+    "hash": "a32605cf64dc",
+    "summary": "Eon used an MCP Gateway on Amazon Bedrock AgentCore to connect agents and humans to operational tools across AWS, GCP, and Azure with different auth and network boundaries.",
+    "benefit": "ISVs spanning three clouds can reuse this AgentCore MCP gateway pattern.",
+    "category": "api"
+  },
+  "7d3780bd1cbda9a9": {
+    "hash": "5c2583cde0e0",
+    "summary": "Amazon Bedrock AgentCore Memory now lets you set a TTL on long-term memory records so they delete after a retention period you define; by default they do not expire.",
+    "benefit": "Agent builders can meet data-retention rules and drop stale memories automatically."
+  },
+  "3b0fc092303087ba": {
+    "hash": "f8109dc35469",
+    "summary": "NVIDIA describes using AI agents to teach robots like Microduck to walk in simulation, covering perception, balance, and adjusting actions when obstacles block the path.",
+    "benefit": "Robotics developers can follow this agent-in-simulation path for walking policies."
+  },
+  "f298fb1604b9d5d4": {
+    "hash": "3ffc3bdcb9ad",
+    "summary": "Companies are using the NVIDIA DSX AI Factory Platform to plan, simulate, and run the grid and the AI factory as one system. Power is described as the biggest bottleneck, with more than $300 billion in equipment backlogged and over 200 gigawatts waiting in U.S. interconnection.",
+    "benefit": "Operators facing power bottlenecks can treat grid and factory as one DSX system."
+  },
+  "eb16235ac421051a": {
+    "hash": "b8c00d8fb63c",
+    "summary": "NVIDIA describes designing proteins with RFD4-Proteina using reward-guided inference-time search, noting more than 25 billion combinations for an eight-residue sequence.",
+    "benefit": "Protein designers can try reward-guided inference-time search instead of enumerating sequences."
+  },
+  "4ad89d65a44a1c50": {
+    "hash": "f86d3214048d",
+    "summary": "At GTC Berlin, NVIDIA is showing RTX Spark for personal agents on Windows PCs, DGX Spark for developers on Linux, and DGX Station for enterprise frontier workloads on Linux, with a Windows version arriving in December. Underdog Desktop Agent is now available for RTX.",
+    "benefit": "Builders who want local agents can pick Spark or Station hardware from that lineup."
+  },
+  "cc5dc25c23d0228d": {
+    "hash": "04cc3045cabd",
+    "summary": "The open-source NVIDIA Agent Toolkit expanded with new tools so enterprises can customize agents, use company data, monitor them, and govern how they operate, including NVIDIA Agent Knowledge Foundation.",
+    "benefit": "Enterprise agent teams can ground answers on company data inside this toolkit."
+  },
+  "5aaac97d85d09699": {
+    "hash": "702390d9cac5",
+    "summary": "NVIDIA Sentry is described as a way to secure AI agents at runtime, because agents can complete an assignment and still cross a security boundary while using tools and credentials.",
+    "benefit": "Security teams can monitor and enforce agent behavior at runtime, not only at assignment time."
+  },
+  "1ff743f739528010": {
+    "hash": "a8002c2c0390",
+    "summary": "NVIDIA OpenShell is a reference architecture to secure and govern AI agent workloads at scale when agents access files, tools, the internet, and spawn other agents over long tasks.",
+    "benefit": "Platform teams running long autonomous agents can apply this governance architecture."
+  },
+  "77c10bd5f145a8aa": {
+    "hash": "846bb12ec6ea",
+    "summary": "GTC Berlin 2026 is running three days with more than 100 sessions on agentic AI, robotics, physical AI, open models, and accelerated computing, plus Jensen Huang's keynote at the Tempodrom.",
+    "benefit": "Attendees can follow live keynote updates from GTC Berlin."
+  },
+  "da019040563955b2": {
+    "hash": "aafcf7d9223d",
+    "summary": "Barcelona Supercomputing Center's AI Factory Accelerator Programme is in full operation, giving startups sovereign compute, technical support, and training. Access to some BSC AI Factory services is now available, and many companies are NVIDIA Inception members.",
+    "benefit": "Spain-based startups can apply for that sovereign compute and training."
+  },
+  "037c22a3c2937ce4": {
+    "hash": "0c2e9415e21c",
+    "summary": "NVIDIA CEO Jensen Huang sat with German Chancellor Friedrich Merz to discuss Germany's industrial AI roadmap, tracing NVIDIA's relationship with German industry from gaming and automotive design in the early 2000s.",
+    "benefit": "German industrial AI teams can read NVIDIA's stated role in that national roadmap."
+  },
+  "d7afdec100a14ec3": {
+    "hash": "5fa365ecb445",
+    "summary": "Codex CLI rust v0.164.0 adds ten numbered /presets slots for reusable prompts, inline /model and /permissions arguments, and image preview in the fullscreen transcript on Kitty or Sixel terminals.",
+    "benefit": "Codex CLI users can save slash-command presets and set model and permissions inline."
+  },
+  "15c1f8ef7a582594": {
+    "hash": "fc089a3d86b2",
+    "summary": "OpenAI and Poland's NASK are partnering on AI safety, security, and technical research to strengthen safeguards.",
+    "benefit": "Polish and EU safety work can plug into this OpenAI–NASK research partnership."
+  },
+  "d3f519557f32dd3d": {
+    "hash": "6fb4db8ce2a9",
+    "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source, including when agents uncover them.",
+    "benefit": "OSS maintainers can join coordinated disclosure when agent-found bugs need a global response."
+  },
+  "1de8e62ff715d1f1": {
+    "hash": "0d5d0f8f4f4f",
+    "summary": "OpenAI, PerturbAI, and Scripps Research used thousands of distributed AI agents to uncover research leads in data from millions of brain cells.",
+    "benefit": "Biology labs can see how agent swarms were used on that brain-cell dataset."
+  },
+  "3fd19a8cb4a20067": {
+    "hash": "9146ac7eee6d",
+    "summary": "Claude Duet is a proactive agent that works even while you are away, adding protections for working across accounts and acting on your behalf on top of Claude model safety training and existing Claude Code and Managed Agents safeguards.",
+    "benefit": "People considering Duet can read the extra privacy and security layers for acting on their behalf."
+  },
+  "fac04cd6a26e55f3": {
+    "hash": "d753f0648bc1",
+    "summary": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard, joined Anthropic's Long-Term Benefit Trust, bringing expertise in observational cosmology and precision measurement.",
+    "benefit": "Observers of Anthropic governance can see who now sits on the Long-Term Benefit Trust."
+  },
+  "2fe2f98c9cef9416": {
+    "hash": "6de1a2be798f",
+    "summary": "Google GenAI SDK (Python) v2.33.0 adds store to GenerateContentConfig (Gemini Developer API only), labels to LiveConnectConfig, Python 3.15 support, optional httpx2 via GOOGLE_GENAI_HTTP_CLIENT, and AudioContent, DocumentContent, and VideoContent in FunctionResultSubContent.",
+    "benefit": "Python 3.15 users and Live/function-result apps can pick up those SDK fields."
+  },
+  "50815ed8788f528b": {
+    "hash": "add6994d036e",
+    "summary": "Google GenAI SDK (Python) v2.32.0 adds base_voice to PromptedVoice, generation_output_config on GenerateContentConfig, Live API in-session context updates (send_context_update), and OpenSingleValueEnumsOct2026 fixes.",
+    "benefit": "Live API clients can send in-session context updates from this SDK version."
+  },
+  "5556459d2193733a": {
+    "hash": "1d73f321c618",
+    "summary": "Gemini CLI v0.65.0 enforces read-only workspace settings in untrusted folders, avoids duplicate tool response turns when resuming sessions, and prevents deletion of resumed session history on quick exit.",
+    "benefit": "CLI users in untrusted folders stay read-only and keep resumed session history."
+  },
+  "52b155cec5d6a228": {
+    "hash": "259b877d0960",
+    "summary": "xAI SDK (Python) v1.21.0 adds safety_identifier and guidelines to chat.create and allows protobuf 7.",
+    "benefit": "Python callers can pass safety_identifier and guidelines on chat.create and use protobuf 7."
+  },
+  "4e79f34f0f7d0ab9": {
+    "hash": "26dc41e5d440",
+    "summary": "Qwen Code v0.26.0 lists no known breaking changes and adds session-targeted Skill and Extension refresh, Session-create warm for workspace-isolated bound sessions, and a managed-agent configuration template.",
+    "benefit": "Qwen Code users can refresh skills per session and warm workspace-isolated sessions."
+  },
+  "af0defe4c9dc3336": {
+    "hash": "fd78c2ad322d",
+    "summary": "Qwen Code desktop v0.26.0 includes session-targeted Skill and Extension refresh, a bound initial publication guard wait, and Session-create warm for workspace-isolated bound sessions.",
+    "benefit": "Desktop users get the same session-targeted skill refresh and session-create warm as the CLI."
+  },
+  "ab8d7d65380d8267": {
+    "hash": "e6ed067deb9b",
+    "summary": "Qwen CUA Driver v0.26.0 ships prebuilt binaries: codesigned notarized universal macOS plus QwenCuaDriver.app, unsigned Linux x86_64 and arm64 (glibc 2.31), unsigned Windows UIAccess worker that must be signed on the target, and @qwen-code/cua-sdk on Node.js.",
+    "benefit": "Computer-use deployments can grab the matching OS binary, noting Windows still needs signing."
+  },
+  "8e3870fdb6ead259": {
+    "hash": "86f6a2fb3861",
+    "summary": "Cohere Python SDK v7.3.0 regenerates the client, preserves embedding types across batches, and supports a new relevant_spans parameter for Rerank models.",
+    "benefit": "Rerank callers can pass relevant_spans and keep embedding types across batches."
   }
 }
