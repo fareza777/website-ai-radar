@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T04:56:58.020Z",
+  "generatedAt": "2026-10-26T13:15:11.052Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -55,7 +55,6 @@
       "official": 0,
       "press": 13,
       "outlets": [
-        "ActuIA",
         "The Decoder",
         "Yahoo Finance",
         "shattered.io",
@@ -63,12 +62,13 @@
         "Towards Data Science",
         "The Davis Enterprise",
         "Endor Labs",
+        "HPCwire",
         "https://tech-insider.org/",
         "Robotics & Automation News",
         "Seeking Alpha",
         "infoq.com"
       ],
-      "firstAt": "2026-10-16T05:32:00.000Z",
+      "firstAt": "2026-10-16T15:08:10.000Z",
       "lastAt": "2026-10-24T16:00:02.000Z",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ia2xWd0tyWnBOU0lwMXdlNEFyNnBJb3FEZll6djYyME1ybUs3VjN4NVBOMmVPQTdpT2pFRklMaWIycjA3MFRpTTRFUW5YTDRwVTJCLXlwbVZxMlRqbzVkc0NoMnJlamR1Ump4eVZ3?oc=5",
       "lead": {
@@ -208,18 +208,10 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 10,
+        "count": 11,
         "prev": 63,
         "labs": [
           "google-deepmind"
-        ]
-      },
-      {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 6,
-        "prev": 9,
-        "labs": [
-          "deepseek"
         ]
       },
       {
@@ -239,41 +231,49 @@
         "count": 3,
         "prev": 0,
         "labs": []
+      },
+      {
+        "name": "DeepSeek 4.1 Flash",
+        "count": 3,
+        "prev": 11,
+        "labs": [
+          "deepseek"
+        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 51,
-        "prev": 49,
+        "count": 49,
+        "prev": 51,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "cohere",
-          "amazon",
           "qwen",
+          "amazon",
+          "microsoft",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 42,
-        "prev": 30,
+        "count": 37,
+        "prev": 35,
         "labs": [
-          "anthropic",
           "google-deepmind",
+          "anthropic",
           "openai",
           "mistral",
           "cohere",
-          "amazon",
           "qwen",
+          "amazon",
+          "microsoft",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
         ]
       },
       {
@@ -281,8 +281,8 @@
         "count": 11,
         "prev": 8,
         "labs": [
-          "anthropic",
           "google-deepmind",
+          "anthropic",
           "xai",
           "openai",
           "mistral",
@@ -312,13 +312,26 @@
         "count": 7,
         "prev": 7,
         "labs": [
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "cohere",
           "amazon",
-          "nvidia",
-          "microsoft"
+          "microsoft",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "audio",
+        "count": 6,
+        "prev": 5,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -328,8 +341,8 @@
         "labs": [
           "anthropic",
           "openai",
-          "amazon",
-          "qwen"
+          "qwen",
+          "amazon"
         ]
       },
       {
@@ -338,24 +351,10 @@
         "prev": 6,
         "labs": [
           "anthropic",
+          "openai",
           "meta",
-          "openai",
           "amazon",
-          "ibm",
-          "nvidia",
-          "microsoft"
-        ]
-      },
-      {
-        "name": "audio",
-        "count": 6,
-        "prev": 6,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "mistral",
-          "tencent",
-          "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -469,6 +468,32 @@
       "at": "2026-10-23T17:26:02.000Z"
     },
     {
+      "id": "moonshot:8bdef8fde23372",
+      "lab": "moonshot",
+      "title": "Moonshot resets subscriber quotas after Kimi K3.1 Pro launch issues",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVFRQNTJoWXRmV21ybjhESTU4bHJVMUx1Y3dhYVVDVlBRa2tYSGpTU2Jma1poXzQ2WVQwcTVnNVF2d0M1WDZmZi16ZEhvRGtpSTZFeE1sOV9hLVo1U1V2ODlabE9zS3FIdU1Hc2dtRFNOa1pZY3dOcTZ0amJqTERkRFBJS0phWXVoZ2FFb2gydDZhbnozYWhXY3lEZmhrb3Vhb2YycnI3UjVodFkwRDFZdTlkVGdMenZRdkZiUEZR?oc=5",
+      "outlets": [
+        "Reuters",
+        "TradingView",
+        "The Economic Times"
+      ],
+      "reports": 3,
+      "at": "2026-10-26T02:22:00.000Z"
+    },
+    {
+      "id": "moonshot:6ca97c847e5811",
+      "lab": "moonshot",
+      "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
+      "outlets": [
+        "Caixin Global",
+        "The Information",
+        "Startup Fortune"
+      ],
+      "reports": 3,
+      "at": "2026-10-23T18:23:36.000Z"
+    },
+    {
       "id": "moonshot:b5ab6d8df0b847",
       "lab": "moonshot",
       "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
@@ -480,19 +505,6 @@
       ],
       "reports": 3,
       "at": "2026-10-23T17:26:02.000Z"
-    },
-    {
-      "id": "minimax:e0a96fd942c28b",
-      "lab": "minimax",
-      "title": "China's MiniMax completes export registration for open-source, overseas AI model licensing",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUDVGa0hCU3ppVlo3amtaT1l4T18zcHNWWlFkV3Nveks4TDI5RGxkMzE1TFpEZjIxWFBZNl9ILU9SRVdzMEtCX2JKai1FbXlYTTFFX1Y0U3NfRGZuRGttQ0ZKYVhRS3NaUTlEWldxNzVIQUdzamNVMTE1cVg0N1VpLUlweVZlU3lpOGFRajJ6eHItM3NHTGlLVldsVWxnbTcwQncxekJITDJfWUxWUGt1OWx1Zm4zLXdEdm5ja0VPbXNlNmFxWWstT0lfVkZOQXNTNlRYcktB?oc=5",
-      "outlets": [
-        "The Lufkin Daily News",
-        "Reuters",
-        "www.marketscreener.com"
-      ],
-      "reports": 3,
-      "at": "2026-10-23T06:59:00.000Z"
     }
   ]
 }

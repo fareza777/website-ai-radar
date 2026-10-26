@@ -1,16 +1,27 @@
 [
   {
-    "id": "2610.32253",
-    "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
-    "url": "https://huggingface.co/papers/2610.32253",
-    "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and…",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "id": "2610.31668",
+    "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+    "url": "https://huggingface.co/papers/2610.31668",
+    "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as…",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 19,
-    "org": "bytedance",
-    "lab": "bytedance",
-    "githubRepo": "https://github.com/simple-agent-lab/RSIHub",
-    "firstSeenAt": "2026-10-26T04:56:58.020Z"
+    "upvotes": 202,
+    "org": "oxford",
+    "githubRepo": "https://github.com/vid-gen/awesome-video-world-model",
+    "firstSeenAt": "2026-10-26T13:15:11.052Z"
+  },
+  {
+    "id": "2610.30932",
+    "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+    "url": "https://huggingface.co/papers/2610.30932",
+    "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and…",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "submittedAt": "2026-10-26T00:00:00.000Z",
+    "upvotes": 46,
+    "org": "alibabagroup",
+    "githubRepo": "https://github.com/RecGPT-Team/UserArena",
+    "firstSeenAt": "2026-10-26T13:15:11.052Z"
   },
   {
     "id": "2610.31162",
@@ -19,10 +30,35 @@
     "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizon autonomy or…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 35,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-10-26T04:56:58.020Z"
+  },
+  {
+    "id": "2610.32253",
+    "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+    "url": "https://huggingface.co/papers/2610.32253",
+    "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-10-26T00:00:00.000Z",
+    "upvotes": 30,
+    "org": "bytedance",
+    "lab": "bytedance",
+    "githubRepo": "https://github.com/simple-agent-lab/RSIHub",
+    "firstSeenAt": "2026-10-26T04:56:58.020Z"
+  },
+  {
+    "id": "2610.32770",
+    "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+    "url": "https://huggingface.co/papers/2610.32770",
+    "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-10-26T00:00:00.000Z",
+    "upvotes": 8,
+    "org": "google",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-10-26T13:15:11.052Z"
   },
   {
     "id": "2610.31329",
@@ -38,28 +74,28 @@
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
   {
-    "id": "2610.24738",
-    "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
-    "url": "https://huggingface.co/papers/2610.24738",
-    "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples…",
-    "publishedAt": "2026-10-17T00:00:00.000Z",
-    "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 184,
-    "org": "jingdong1",
-    "firstSeenAt": "2026-10-23T11:48:11.444Z"
-  },
-  {
     "id": "2610.30926",
     "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
     "url": "https://huggingface.co/papers/2610.30926",
     "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them…",
     "publishedAt": "2026-10-22T08:43:48.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 179,
+    "upvotes": 196,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Songlin1998/ShotVerse2.0",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
+  },
+  {
+    "id": "2610.24738",
+    "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+    "url": "https://huggingface.co/papers/2610.24738",
+    "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples…",
+    "publishedAt": "2026-10-17T00:00:00.000Z",
+    "submittedAt": "2026-10-23T00:00:00.000Z",
+    "upvotes": 187,
+    "org": "jingdong1",
+    "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
   {
     "id": "2610.30181",
@@ -68,7 +104,7 @@
     "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 165,
+    "upvotes": 177,
     "org": null,
     "githubRepo": "https://github.com/Yu-xm/OpenDS",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -80,7 +116,7 @@
     "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 99,
+    "upvotes": 101,
     "org": "iquestlab",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
@@ -91,7 +127,7 @@
     "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 59,
+    "upvotes": 65,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
@@ -103,7 +139,7 @@
     "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow…",
     "publishedAt": "2026-10-18T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 54,
     "org": null,
     "firstSeenAt": "2026-10-24T04:45:31.936Z"
   },
@@ -114,10 +150,33 @@
     "summary": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that learns from…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 52,
     "org": "naver-ai",
     "githubRepo": "https://github.com/junha1125/LaLa-World",
     "firstSeenAt": "2026-10-26T04:56:58.020Z"
+  },
+  {
+    "id": "2610.30320",
+    "title": "Self-Distilling Future Video Representations for World Action Models",
+    "url": "https://huggingface.co/papers/2610.30320",
+    "summary": "World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extracted from a single denoising step, avoiding costly iterative denoising required for video…",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "submittedAt": "2026-10-23T00:00:00.000Z",
+    "upvotes": 41,
+    "org": "kaist-ai",
+    "githubRepo": "https://github.com/suhyeok-jang/FRED",
+    "firstSeenAt": "2026-10-26T13:15:11.052Z"
+  },
+  {
+    "id": "2610.27598",
+    "title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+    "url": "https://huggingface.co/papers/2610.27598",
+    "summary": "As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity and redundancy in their stored content. Compared to the hierarchically arranged Local Expert in existing mainstream…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-23T00:00:00.000Z",
+    "upvotes": 41,
+    "org": "tsinghuac3i",
+    "firstSeenAt": "2026-10-26T13:15:11.052Z"
   },
   {
     "id": "2610.31158",
@@ -126,7 +185,7 @@
     "summary": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video and user request, an agent identifies research questions, retrieves external multimodal evidence, and produces an interactive report linked to relevant video moments. This task has direct practical…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 29,
+    "upvotes": 31,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/marinero4972/OmniDR-Bench",
@@ -139,7 +198,7 @@
     "summary": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose Cola2, a framework that jointly studies continuous semantic compression, the balance between reconstruction and generation, and continuous-discrete co-adaptation. Cola2 dynamically segments text…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 21,
+    "upvotes": 23,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -151,7 +210,7 @@
     "summary": "We introduce Foundation4D, a unified feed-forward model for geometry estimation, 3D detection, semantic occupancy, and Gaussian reconstruction from multi-camera driving video. A shared backbone uses factorized spatiotemporal attention to efficiently combine observations across cameras and time. Our video inference pipeline uses pose graph optimization to refine camera trajectories and assembles object tracks across…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 18,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -163,7 +222,7 @@
     "summary": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 732,
+    "upvotes": 750,
     "org": null,
     "githubRepo": "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -175,7 +234,7 @@
     "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 582,
+    "upvotes": 632,
     "org": null,
     "githubRepo": "https://github.com/StreamEval/StreamEval",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -701,7 +760,7 @@
     "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 141,
+    "upvotes": 143,
     "org": "memtensor",
     "githubRepo": "https://github.com/MemTensor/MemT-1.0",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
@@ -713,7 +772,7 @@
     "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 137,
+    "upvotes": 138,
     "org": null,
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
   },
@@ -772,7 +831,7 @@
     "summary": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workflow requirements…",
     "publishedAt": "2026-10-18T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 54,
+    "upvotes": 55,
     "org": null,
     "githubRepo": "https://github.com/HKUST-KnowComp/CoworkEnv",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
