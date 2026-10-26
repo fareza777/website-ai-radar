@@ -2259,5 +2259,263 @@
     "hash": "86f6a2fb3861",
     "summary": "Cohere Python SDK v7.3.0 regenerates the client, preserves embedding types across batches, and supports a new relevant_spans parameter for Rerank models.",
     "benefit": "Rerank callers can pass relevant_spans and keep embedding types across batches."
+  },
+  "f2ab90fe57c0e259": {
+    "hash": "b5cabd0da901",
+    "summary": "Cohere Python SDK v7.2.0 is Fern-generated and reapplies patches so embed with an empty texts list no longer crashes, Client/ClientV2 forward max_retries, and the Authorization header can be omitted.",
+    "benefit": "Python callers can pass max_retries, skip Authorization, and embed empty text lists without an IndexError."
+  },
+  "49bd5af8ca98f386": {
+    "hash": "6eac32059507",
+    "summary": "Microsoft Agent Framework .NET v1.26.0 updates package versions and includes .NET AG-UI sample path fixes plus a warning log, alongside Python AnthropicClient and Copilot session-hook changes in the same release notes.",
+    "benefit": ".NET Agent Framework users can pick up v1.26.0 with the AG-UI sample troubleshooting paths corrected."
+  },
+  "6ddc5dca002d6e9c": {
+    "hash": "c24e1ed90ed5",
+    "summary": "Microsoft Agent Framework Python v1.23.0 adds agent-framework-a2a allowlisted forwarding of function-invocation and client arguments from A2A request metadata, plus an opt-in synthetic trailing user turn for providers that return empty text after assistant-ending prompts.",
+    "benefit": "Python Agent Framework users can forward A2A metadata and opt in to a trailing user turn when a provider returns empty text."
+  },
+  "0397d30cafbc8a72": {
+    "hash": "885dcf9f7ea6",
+    "summary": "A Microsoft researcher and collaborator combined new mathematical ideas with human-directed AI to resolve the Kannan-Lovász-Simonovits (KLS) conjecture, a 31-year-old problem in high-dimensional geometry and probability.",
+    "benefit": "Researchers in high-dimensional geometry can use this resolution of KLS as a settled result rather than an open conjecture.",
+    "category": "research"
+  },
+  "5cfb05484559629f": {
+    "hash": "eb9dcf8a456e",
+    "summary": "A Microsoft Research podcast with Principal Technical Program Manager Chris White covers his 2010 DARPA postdoc work on data analysis to prevent violence and protect troops in Afghanistan, and being asked to prove its value on the ground.",
+    "benefit": "Listeners can hear how that DARPA data-analysis work was tested in the field.",
+    "category": "research"
+  },
+  "8c44d30ec948e664": {
+    "hash": "6238fef5c210",
+    "summary": "Strands Agents SDK TypeScript v1.22.0 adds decision usage to the request invocation context and includes an experimental OpenAI Live provider in the same release notes.",
+    "benefit": "TypeScript Strands users can read decision usage from invocation context and try the experimental OpenAI Live provider."
+  },
+  "3ab26b1f13bb98bf": {
+    "hash": "58ce524ca81b",
+    "summary": "Strands Agents SDK Python v1.62.0 adds decision usage to the request invocation context and an experimental OpenAI Live provider.",
+    "benefit": "Python Strands users can attach decision usage to invocations and try OpenAI Live experimentally."
+  },
+  "db73069fa994e255": {
+    "hash": "cc15070cda43",
+    "summary": "Google Cloud and NVIDIA announced general availability of NVIDIA Vera Rubin infrastructure is coming next month, with planned expansion to Europe. A5X instances combine NVIDIA Vera Rubin NVL72, ConnectX-9 SuperNICs, Google Cloud Virgo Network, and fourth-generation liquid cooling.",
+    "benefit": "Cloud customers who need an integrated platform for training, inference, and large-scale reinforcement learning can plan for A5X next month."
+  },
+  "03fd7aaadcdf57c8": {
+    "hash": "076c618ec6e9",
+    "summary": "Nebius and Nscale are among partners using NVIDIA Vera CPUs to build local European infrastructure for agentic computing, where agents retrieve information, run tools, execute code, and evaluate results.",
+    "benefit": "Teams standing up agent workloads in Europe can look at Vera CPUs for faster CPU steps in those loops."
+  },
+  "c0e1585a4edc9e68": {
+    "hash": "9d4b0bdba2b2",
+    "summary": "TensorRT-LLM v1.4.0 adds DeepSeek-V4.1-Flash support. Known issues include disaggregated serving KV-cache transfer errors after cancelled streaming requests on A100 with the default Python transceiver, and unbounded JSON-schema responses with Qwen3 models.",
+    "benefit": "Inference teams can serve DeepSeek-V4.1-Flash, watching the A100 KV-cache and Qwen3 JSON-schema caveats."
+  },
+  "b244982e29f70511": {
+    "hash": "e148e24ac8db",
+    "summary": "IBM reports that teams across all three tracks of Japan's NEDO Challenge used IBM quantum computers while researching real-world applications.",
+    "benefit": "Quantum application teams can see IBM hardware used across every track of that national competition.",
+    "category": "research"
+  },
+  "bfab9e73c5d91fb2": {
+    "hash": "55bf3cd0a56e",
+    "summary": "Docling v2.142.0 treats AFP moves to a new baseline as a line boundary, exits the CLI with code 1 when conversion fails, bounds work on untrusted nemotron-parse output, and ends merged ASR sentences at full-width CJK punctuation.",
+    "benefit": "Document pipelines get a failing CLI exit code and safer handling of untrusted parse output."
+  },
+  "b64d539ee639b00f": {
+    "hash": "1893fc5aac40",
+    "summary": "Docling v2.141.0 adds nvidia/Nemotron-3.5-Parse as a supported VLM, generic CLI engine options for convert, artifact downloads from trusted private origins, geometric form-field mapping when AcroForm widgets exist, and AsciiDoc comments in the notes layer.",
+    "benefit": "Converters can use Nemotron-3.5-Parse and generic convert engine options, including private artifact origins."
+  },
+  "63c31ca523f91ccf": {
+    "hash": "194c81a0d73d",
+    "summary": "OpenAI published a piece on what forward deployed engineering (FDE) means at OpenAI.",
+    "benefit": "Candidates and partners can read OpenAI's own description of FDE rather than inferring it."
+  },
+  "9201054eeb4c743a": {
+    "hash": "9be273c4d25f",
+    "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review, and its developers use Codex to build faster and improve code quality.",
+    "benefit": "Security and product teams can see a Daybreak-plus-Codex workflow used at Cloudflare."
+  },
+  "6d403bbe93797ac5": {
+    "hash": "304a67990835",
+    "summary": "Anthropic argues that on Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency, and describes when to migrate.",
+    "benefit": "Agent builders can decide when to fold subagents into the main loop to cut cost and latency."
+  },
+  "40fef03a112b3345": {
+    "hash": "3c1a3d995d7c",
+    "summary": "NVIDIA explains how to read data into GPU memory in Python with GPUDirect Storage, noting compute for notable AI models has been doubling about every five months per the 2025 Stanford AI Index.",
+    "benefit": "Python GPU pipelines can load large datasets into GPU memory with GPUDirect Storage instead of a host bounce."
+  },
+  "20ed99f71a0183f8": {
+    "hash": "ef0590f2c8d2",
+    "summary": "Tencent-Hunyuan published DiagSafe, a diagnostic LLM safety benchmark with prompt-level rubrics covering 3,489 bilingual prompts and an 84-label taxonomy.",
+    "benefit": "Safety evaluators can score diagnostic LLM behavior on those bilingual prompts and labels."
+  },
+  "d841fc8b370bc211": {
+    "hash": "e3249bd0dd08",
+    "summary": "AWS describes an adaptive agentic intelligence framework with Strands Agents so routine requests need not always hit a single large, expensive model, addressing API cost, latency, and offline operation.",
+    "benefit": "Teams can route simple queries locally instead of a full network round-trip to a large model."
+  },
+  "9b29e0f65dbe9ce7": {
+    "hash": "1ca976f35682",
+    "summary": "AWS shows a semantic layer for agentic AI using Denodo and Amazon Bedrock AgentCore so agents get governed access to live enterprise data across operational, warehouse, SaaS, other-cloud, and on-prem sources.",
+    "benefit": "AgentCore teams can query a Denodo semantic layer instead of wiring every source into the agent."
+  },
+  "31ded39c9d23707e": {
+    "hash": "b2c66771d7fd",
+    "summary": "AWS, with Strategy, shows a semantic layer for agentic AI using Strategy Mosaic and Amazon Bedrock AgentCore on the same customer 360 pattern as earlier posts in the series.",
+    "benefit": "Teams already on Strategy Mosaic can put a Strands agent on AgentCore against that semantic layer."
+  },
+  "bedc00d59bfc6b97": {
+    "hash": "2880160512d0",
+    "summary": "AWS shows the same customer 360 semantic-layer pattern with AtScale and Amazon Bedrock AgentCore after earlier Stardog and Denodo posts.",
+    "benefit": "AtScale users can run a Strands agent on AgentCore against that semantic layer."
+  },
+  "87cd33ee12bd9f5e": {
+    "hash": "fc4716cda451",
+    "summary": "New Amazon SageMaker AI customers can land in a configured SageMaker Studio in a few steps after signing up for AWS, using Amazon, Apple, GitHub, Google, or email, without an advanced account setup or, for most customers, a credit card.",
+    "benefit": "Developers can open Studio after a simple AWS sign-up instead of configuring an account first."
+  },
+  "4b2a7795a5b56d7d": {
+    "hash": "420acc64bb66",
+    "summary": "Part 1 explains TensorRT engine building as interdependent scheduling and introduces the Global Performance Tuner for accuracy-aware tuning with customizable build routes.",
+    "benefit": "TensorRT users can reason about engine scheduling before using the Global Performance Tuner."
+  },
+  "7ca92b76f40e62d7": {
+    "hash": "bbcf30d687e2",
+    "summary": "IBM's vLLM-Hook MIA plugin lets developers inspect and edit the AI generation process with hardly any delay.",
+    "benefit": "vLLM operators can monitor and control generation at runtime with that plugin."
+  },
+  "3a721705aa0c9b7f": {
+    "hash": "a5369b15cd80",
+    "summary": "Claude Agent SDK (Python) v0.2.174 updates the bundled Claude CLI to version 2.1.310.",
+    "benefit": "Python Agent SDK users pick up Claude CLI 2.1.310 via pip install claude-agent-sdk==0.2.174."
+  },
+  "27b067f2e1fb95dc": {
+    "hash": "57f3fcd89761",
+    "summary": "Claude Code v2.1.310 adds the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry and when telemetry or nonessential traffic is disabled, blocks long foreground sleeps there, and retries when gateways reject the effort-2025-11-24 beta or mid-conversation system messages.",
+    "benefit": "Claude Code on those clouds gets Monitor tools and retries past gateways that reject that beta value."
+  },
+  "9e819df92ba56df0": {
+    "hash": "5ad03ae733b4",
+    "summary": "Claude Agent SDK (Python) v0.2.173 updates the bundled Claude CLI to version 2.1.309.",
+    "benefit": "Python Agent SDK users pick up Claude CLI 2.1.309 via pip install claude-agent-sdk==0.2.173."
+  },
+  "d85b259ea5bc893d": {
+    "hash": "0faa5446c4f6",
+    "summary": "Claude Code v2.1.309 fixes sandboxed Bash on macOS and Linux running shell startup files outside the sandbox, macOS denyWrite globs through symlinks, sandboxed commands modifying an --mcp-config file, and a disabled MCP server issue.",
+    "benefit": "Users of the sandbox and --mcp-config avoid those startup-file and config-file holes."
+  },
+  "f548e78b4d831b1c": {
+    "hash": "c51304dbda8b",
+    "summary": "Claude Agent SDK (Python) v0.2.172 updates the bundled Claude CLI to version 2.1.308.",
+    "benefit": "Python Agent SDK users pick up Claude CLI 2.1.308 via pip install claude-agent-sdk==0.2.172."
+  },
+  "831ab4bfc7768f3a": {
+    "hash": "c2a9d0f773f5",
+    "summary": "Claude Code v2.1.308 is a release of bug fixes and reliability improvements.",
+    "benefit": "Install v2.1.308 if you want those reliability fixes on Claude Code."
+  },
+  "b1284a54fe92b526": {
+    "hash": "c1ec08875324",
+    "summary": "Claude Agent SDK (Python) v0.2.171 updates the bundled Claude CLI to version 2.1.307.",
+    "benefit": "Python Agent SDK users pick up Claude CLI 2.1.307 via pip install claude-agent-sdk==0.2.171."
+  },
+  "2a7200426574942c": {
+    "hash": "649456777680",
+    "summary": "Claude Code v2.1.307 adds /claude-api api-version for API version 2026-10-21, claude_code.safety_event OpenTelemetry for blocked or prompted tool calls, and a model-not-found fix for CLAUDE_CODE_DISABLE_1M_CONTEXT on [1m] aliases.",
+    "benefit": "Teams can target API version 2026-10-21 and get safety_event telemetry for blocked tool calls."
+  },
+  "d493f59b0064f50d": {
+    "hash": "9e6aeb8baf20",
+    "summary": "Claude Agent SDK (Python) v0.2.170 makes get_session_messages and get_session_messages_from_store return every tool call and result from parallel tool turns, and bundles Claude CLI 2.1.306.",
+    "benefit": "Session replay no longer drops parallel tool-call branches."
+  },
+  "e35546215de17cb0": {
+    "hash": "03c2f3a15945",
+    "summary": "Claude Code v2.1.306 fixes claude -p in cloud sessions reporting Not logged in without the session environment, and an API error being replaced by prompt is too long plus unneeded compaction in sessions with many MCP tools.",
+    "benefit": "Cloud print mode and MCP-heavy sessions avoid those login and compaction failures."
+  },
+  "1b384a65c9391d0e": {
+    "hash": "071748d66f9c",
+    "summary": "Claude Agent SDK (Python) v0.2.169 clarifies that include_hook_events does not suppress SessionStart and Setup hooks, bundles Claude CLI 2.1.305, and hash-pins release build tools.",
+    "benefit": "SDK users keep SessionStart and Setup hooks even when include_hook_events is off."
+  },
+  "d48a46ffc5b791b4": {
+    "hash": "f15e51a87157",
+    "summary": "Claude Code v2.1.305 adds sandbox.allowNestedUserNamespaces on Linux for Chromium and rootless podman, CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS so unattended retry notices a lifted usage limit, and fixes every request failing on Vertex, Bedrock and related setups.",
+    "benefit": "Linux sandbox users can run Chromium or rootless podman, and Vertex/Bedrock requests that were failing can retry."
+  },
+  "1288e651f266f647": {
+    "hash": "5839d7968060",
+    "summary": "Claude Code v2.1.304 adds a transcript line when a plugin that runs first skips a mod hook, decider person so only the permission dialog or host callback can approve, and e.isReadOnly on tool.check when the call is read-only.",
+    "benefit": "Mod authors can require a person to approve asks and see when a tool.check is read-only."
+  },
+  "13d5315f51758d6f": {
+    "hash": "47ad3324b7d5",
+    "summary": "Claude Code v2.1.303 is a release of bug fixes and reliability improvements.",
+    "benefit": "Install v2.1.303 if you want those reliability fixes on Claude Code."
+  },
+  "42779ff9f340792c": {
+    "hash": "ea49cbc425aa",
+    "summary": "Qwen Code desktop v0.26.1 adds daemon token persistence and covers every spawned vendored binary in the tarball exec-bit gate.",
+    "benefit": "Desktop users can persist a daemon bearer token and get the exec-bit gate on vendored binaries."
+  },
+  "d55f384a0a348e07": {
+    "hash": "796e1e9654e7",
+    "summary": "Qwen Code v0.26.1 restores per-group session isolation under thread scope for qqbot as a breaking change, and adds opt-in daemon token persistence via qwen daemon start --save-token plus qwen daemon token.",
+    "benefit": "QQ bot users get per-group sessions again, and operators can persist an owner-only daemon token."
+  },
+  "ad2b07ad4fec2079": {
+    "hash": "47e26de0d86c",
+    "summary": "Qwen Code TypeScript SDK v0.1.22 bundles CLI version 0.26.0 built from the same branch as the SDK.",
+    "benefit": "TypeScript SDK users get CLI 0.26.0 in the same package."
+  },
+  "4ac761225dba94bd": {
+    "hash": "014a65fb81f1",
+    "summary": "Qwen Code desktop v0.25.3 admits team_plan_approval into the journal-only interrupted-turn settle and adds bounded generated failure explorer views.",
+    "benefit": "Desktop users get those managed-agent settle and Test Failure Explorer view changes."
+  },
+  "ed40b48547adbec7": {
+    "hash": "aed10bc5e137",
+    "summary": "Qwen Code TypeScript SDK v0.1.21 bundles CLI version 0.25.3 built from the same branch as the SDK.",
+    "benefit": "TypeScript SDK users get CLI 0.25.3 in the same package."
+  },
+  "b1dd4b301d615d53": {
+    "hash": "363e8961ed90",
+    "summary": "Qwen Code v0.25.3 lists no known breaking changes, adds optional model-generated layouts to Test Failure Explorer with validation and fallback, and hides Web Shell mobile composer history buttons while keeping history search.",
+    "benefit": "Web Shell on mobile is less cluttered, and Test Failure Explorer can use model-generated layouts with a fallback."
+  },
+  "55c7d164f9ffe791": {
+    "hash": "c90ebf7dace9",
+    "summary": "Mistral Vibe v3.0.2 adds enable_mouse_capture (or VIBE_ENABLE_MOUSE_CAPTURE=false) so the terminal keeps text selection, plus max_subagents and max_concurrent_subagents. In VS Code, no-login connectors such as DeepWiki show as Not connected.",
+    "benefit": "You can leave copy-paste to the terminal and cap how many subagents are alive or running."
+  },
+  "360cf5fe96615f37": {
+    "hash": "7ff14473be6a",
+    "summary": "Mistral Vibe v3.0.1 adds enable_auto_approve so admin-managed config can forbid YOLO mode, hiding the auto-approve agent and ignoring --auto-approve/--yolo and bypass_tool_permissions, plus compaction_max_output_tokens of 80000.",
+    "benefit": "Admins can disable auto-approve globally while per-tool permissions still apply."
+  },
+  "f1e3346712d33dad": {
+    "hash": "a9e7e6ceedcd",
+    "summary": "Strands Agents SDK harness-cli v0.2.2 adds decision usage to the request invocation context and includes an experimental OpenAI Live provider in the same notes.",
+    "benefit": "Harness CLI users can see decision usage on invocations."
+  },
+  "90bc0de0b5f1d91c": {
+    "hash": "efcc947ca437",
+    "summary": "Strands Agents SDK harness-python v0.3.2 consolidates shared agent tool streaming logic and adds decision usage to the request invocation context.",
+    "benefit": "Python harness users get shared tool streaming plus decision usage on invocations."
+  },
+  "03ac9a20214401a7": {
+    "hash": "765081399b58",
+    "summary": "Strands Agents SDK harness-typescript v0.3.1 adds decision usage to the request invocation context and includes an experimental OpenAI Live provider in the same notes.",
+    "benefit": "TypeScript harness users can read decision usage from invocation context."
+  },
+  "9fcb3014b1abacc6": {
+    "hash": "5b9a2121199e",
+    "summary": "Docling v2.142.1 clamps page_range bounds to sys.maxsize, limits decompressed size of DOCX, XLSX and EPUB archive members, clips XLSX merged-cell and hyperlink ranges, decodes image pages on demand with a pixel limit, and applies fetch options to XBRL taxonomy references.",
+    "benefit": "Converters are less exposed to huge archives, unbounded page ranges, and oversized decoded images."
   }
 }

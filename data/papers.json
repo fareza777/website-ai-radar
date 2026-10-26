@@ -126,7 +126,7 @@
     "summary": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 681,
+    "upvotes": 689,
     "org": null,
     "githubRepo": "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -138,7 +138,7 @@
     "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 563,
+    "upvotes": 570,
     "org": null,
     "githubRepo": "https://github.com/StreamEval/StreamEval",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -174,7 +174,7 @@
     "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 167,
+    "upvotes": 169,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/JesseZZZZZ/SpatialScout",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -198,7 +198,7 @@
     "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 158,
+    "upvotes": 159,
     "org": "nics-efc",
     "githubRepo": "https://github.com/thu-nics/AKV",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -210,7 +210,7 @@
     "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 100,
+    "upvotes": 101,
     "org": "microsoftresearch",
     "githubRepo": "https://github.com/MSR-Orchard/WildAWM",
     "firstSeenAt": "2026-10-22T04:59:19.574Z"
@@ -222,7 +222,7 @@
     "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 76,
+    "upvotes": 77,
     "org": "thusi-lab",
     "githubRepo": "https://github.com/THUSI-Lab/GameScaling",
     "firstSeenAt": "2026-10-22T17:17:28.896Z"
@@ -234,7 +234,7 @@
     "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone. Yet their data and…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 71,
+    "upvotes": 72,
     "org": "hkunlp",
     "githubRepo": "https://github.com/QiushiSun/PrismaCoder",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -270,7 +270,7 @@
     "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore investigate whether…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 48,
+    "upvotes": 49,
     "org": "ucf-ai-llms",
     "githubRepo": "https://github.com/xinxinliu-ai/AgenticRoboRL",
     "firstSeenAt": "2026-10-24T16:02:51.649Z"
@@ -286,6 +286,17 @@
     "org": "nju-link",
     "githubRepo": "https://github.com/NJU-LINK/Socratic-Skill-Learning",
     "firstSeenAt": "2026-10-24T00:02:15.500Z"
+  },
+  {
+    "id": "2610.28887",
+    "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
+    "url": "https://huggingface.co/papers/2610.28887",
+    "summary": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers. To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the team using agents with varying expertise. However, realizing this design requires more than diverse backgrounds. When…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-22T00:00:00.000Z",
+    "upvotes": 44,
+    "org": "ucsantabarbara",
+    "firstSeenAt": "2026-10-25T11:42:45.846Z"
   },
   {
     "id": "2610.29357",
@@ -309,17 +320,6 @@
     "org": "coherelabscommunity",
     "githubRepo": "https://github.com/Cohere-Labs-Community/CulturalRiddles",
     "firstSeenAt": "2026-10-25T16:31:46.241Z"
-  },
-  {
-    "id": "2610.28887",
-    "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
-    "url": "https://huggingface.co/papers/2610.28887",
-    "summary": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers. To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the team using agents with varying expertise. However, realizing this design requires more than diverse backgrounds. When…",
-    "publishedAt": "2026-10-20T00:00:00.000Z",
-    "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 43,
-    "org": "ucsantabarbara",
-    "firstSeenAt": "2026-10-25T11:42:45.846Z"
   },
   {
     "id": "2610.30128",

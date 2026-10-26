@@ -346,5 +346,34 @@
         "itemId": "94905f02a5c74265"
       }
     ]
+  },
+  "2026-10-26": {
+    "headline": "OpenAI details offline frontier-training containment, Bedrock Web Search adds domain filters, and TensorRT 11.1 ships the Global Performance Tuner.",
+    "bullets": [
+      {
+        "text": "OpenAI strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+        "itemId": "48e2274fdf2ba9fe"
+      },
+      {
+        "text": "Web Search on Amazon Bedrock now supports domain filtering (up to 100 domains) and user location on the web_search tool.",
+        "itemId": "116e84c7c9fa0dbd"
+      },
+      {
+        "text": "The Global Performance Tuner in NVIDIA TensorRT 11.1 does automatic, accuracy-aware, end-to-end performance tuning with customizable optimizations per model.",
+        "itemId": "5c25f1831f0e4d47"
+      },
+      {
+        "text": "OpenAI scaled Habitat with multi-tenancy, global caching, and Azure Cosmos DB for 12× faster reads for ChatGPT.",
+        "itemId": "298c8de07d18f423"
+      },
+      {
+        "text": "Bayer Crop Science built the Connected Decision Engine on Amazon Bedrock AgentCore with AWS Unified Operations for governed plant-breeding model runs.",
+        "itemId": "7f0dec178da37fe0"
+      },
+      {
+        "text": "Kazakhstan's AI stack announcements, coinciding with Jensen Huang's visit to Astana, point to more accelerated computing supply.",
+        "itemId": "822412740c4fdfe1"
+      }
+    ]
   }
 }

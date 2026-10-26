@@ -165,11 +165,6 @@
     "unique": "One named agent runs on Android, iPhone and iPad, Windows, macOS, Linux, and in the browser.",
     "benefit": "People who want one agent across their devices can keep it running and still approve irreversible actions."
   },
-  "9b5741cc5b868ba2": {
-    "summary": "aurelio-finance is an open-source personal finance app with an AI financial advisor that tracks net worth, investments, ETFs, cash, and debts on your own computer.",
-    "unique": "The books and the advisor stay on your machine, covering dividends and financial planning.",
-    "benefit": "People tracking investments locally can ask the advisor without sending the books to a hosted app."
-  },
   "2fa2385c3505d9d8": {
     "summary": "llm-master is a full-stack LLM learning path and Chinese tutorial covering prompt engineering, RAG, AI agents, MCP, fine-tuning, deployment, transformers, and AI programming.",
     "unique": "It runs from introductory material through production practice and big-company interview topics.",
@@ -505,11 +500,6 @@
     "unique": "It works with Claude Code, Codex, Cursor, and any MCP client.",
     "benefit": "Coding agents can use one local graph and memory store for cited context from a repository."
   },
-  "236536d228cfe0f1": {
-    "summary": "A local-first CLI and web dashboard that reads Claude Code, Codex, and Gemini CLI session logs.",
-    "unique": "It shows token usage and cost by model, project, day, and activity, with no account and no API key.",
-    "benefit": "Developers can see session token cost on their own machine, with nothing leaving it."
-  },
   "b91613c5759964cd": {
     "summary": "Runs AI-generated logic in a sandbox, expressed as JSON with functions.",
     "unique": "The logic is JSON with functions, and it runs inside a sandbox.",
@@ -739,18 +729,6 @@
     "unique": "A short thought is added only when the model is unsure, with engines for vLLM, llama.cpp, and MLX.",
     "benefit": "Apps that need a probability per option can serve these models on vLLM, llama.cpp, or MLX."
   },
-  "933a1138bcdd8897": {
-    "hash": "afdd7b35",
-    "summary": "awesome-reverse-engineering is a curated list of reverse-engineering tools and learning resources.",
-    "unique": "It covers binaries, apps, firmware, formats, and protocols.",
-    "benefit": "People learning reverse engineering can start from one list instead of hunting tools separately."
-  },
-  "1481f0036d649bd9": {
-    "hash": "a781dc6f",
-    "summary": "Reason Network lets a team's coding agents talk to each other and is the engine behind reason network.",
-    "unique": "The product is the shared network those coding agents use to communicate.",
-    "benefit": "Teams with several coding agents can have them exchange work through one network."
-  },
   "d2921dface736d11": {
     "hash": "47809773",
     "summary": "mcd-saver-strategist pulls the McDonald's menu and available coupons and finds the cheapest order combination.",
@@ -764,7 +742,7 @@
     "benefit": "Mobile teams can get a pre-release check that cites evidence instead of a pass-fail score only."
   },
   "48bb6eb3c24be9c2": {
-    "hash": "32615e28",
+    "hash": "8888ac60",
     "summary": "Argus is an open-source agentic security operations platform.",
     "unique": "GitHub topics center on agentic security, cyber-threat intelligence, and cybersecurity tools.",
     "benefit": "Security teams exploring agentic SOC tooling can start from this open-source platform."
@@ -786,5 +764,29 @@
     "summary": "Co-op Anything points an AI agent at a single-player game so you can play it with friends online or splitscreen, with an MCP server and playbook to reverse engineer, fix, test, ship, and share what it learns.",
     "unique": "It turns single-player games into co-op via an agent plus a reverse-engineering playbook.",
     "benefit": "Friends can co-op a single-player title while the agent documents how the hack was built."
+  },
+  "38b3593549cb6878": {
+    "hash": "80c0fd10",
+    "summary": "Hycli turns website tasks into verified CLI and MCP actions, with a local dashboard and 20 languages.",
+    "unique": "It reverse-engineers sites into CLI and MCP tools rather than a generic browser agent.",
+    "benefit": "Agent builders can give models verified CLI and MCP actions against a website, locally first."
+  },
+  "e17cb310774abd83": {
+    "hash": "bff7268e",
+    "summary": "MuscleMemory is open-source procedural memory for AI agents that learns from what worked and what failed.",
+    "unique": "Topics list coding agents, Claude Code, Codex, MCP, and procedural memory.",
+    "benefit": "People running coding agents can store procedures that worked or failed instead of relearning each run."
+  },
+  "d0500136076acb7e": {
+    "hash": "eec69e55",
+    "summary": "Crawlerpeek checks whether AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can access your site, as a CLI, library, MCP server, and GitHub Action.",
+    "unique": "It targets AI crawler access specifically, not a generic robots.txt linter.",
+    "benefit": "Site owners can see which AI crawlers they allow before changing robots.txt."
+  },
+  "8e91bab678fe2ac1": {
+    "hash": "be9b636c",
+    "summary": "GVS5H presents five Qwen3.8-27B models that match Claude Fable 5 on LiveCodeBench Hard, described as Fable 5-level coding for a fifth the price or on a single GPU.",
+    "unique": "It frames five Qwen3.8-27B models against Claude Fable 5 on that LiveCodeBench Hard split.",
+    "benefit": "Teams comparing coding models can try that Qwen3.8-27B setup on one GPU or at a fifth the price."
   }
 }
