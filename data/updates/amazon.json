@@ -1,5 +1,78 @@
 [
   {
+    "id": "c7498dd5644029b2",
+    "lab": "amazon",
+    "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-26T18:27:00.000Z",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z",
+    "updatedAt": "2026-10-26T18:27:00.000Z",
+    "excerpt": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock. GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday workloads. As the newest model in the Terra line, GPT-6.1 Terra combines detailed visual reasoning, accurate computer use, and improved factuality and natural writing over GPT-5.6 Terra, for complex workflows. In OpenAI’s…",
+    "summary": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "reasoning"
+    ],
+    "importance": 75,
+    "contentHash": "32d3d83909a2"
+  },
+  {
+    "id": "0f715e1693d7c6b7",
+    "lab": "amazon",
+    "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-26T17:27:20.000Z",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z",
+    "updatedAt": "2026-10-26T17:27:20.000Z",
+    "excerpt": "Every time you spin off your agent, it has to re-read its whole life story before performing an action. Here’s how to make it remember without having to feed it the same context again. In the movie Groundhog Day , Bill Murray’s character re-lives the same February 2 every day. He wakes up to the same song playing on the radio, in the same inn, and the same small town, again and again for what some movie fans…",
+    "summary": "Every time you spin off your agent, it has to re-read its whole life story before performing an action.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 60,
+    "contentHash": "debd80bca64e"
+  },
+  {
+    "id": "e5e4c3ae2b7984fd",
+    "lab": "amazon",
+    "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-26T17:15:14.000Z",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z",
+    "updatedAt": "2026-10-26T17:15:14.000Z",
+    "excerpt": "This post builds enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS Cloud Development Kit (AWS CDK). To see why that’s worth building, it helps to start with where ordinary Retrieval Augmented Generation (RAG) breaks down. Most RAG systems start the same way: they embed the question, fetch the nearest chunks from one index, hand them to a model, and return the answer. One retrieval…",
+    "summary": "This post builds enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS Cloud Development Kit (AWS CDK).",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "rag"
+    ],
+    "importance": 30,
+    "contentHash": "5b6734586f69"
+  },
+  {
     "id": "116e84c7c9fa0dbd",
     "lab": "amazon",
     "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
@@ -1146,7 +1219,7 @@
     "importance": 58,
     "contentHash": "f6b52138e9a2",
     "meta": {
-      "likes": 9,
+      "likes": 10,
       "downloads": 91,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"

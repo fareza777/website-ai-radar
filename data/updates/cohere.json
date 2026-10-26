@@ -1,5 +1,52 @@
 [
   {
+    "id": "1facaf81d0081c73",
+    "lab": "cohere",
+    "title": "PitchBook in North: Private market intelligence for enterprise teams",
+    "url": "https://cohere.com/blog/pitchbook-integration",
+    "sourceId": "cohere-blog",
+    "sourceName": "Cohere Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z",
+    "updatedAt": "2026-10-26T00:00:00.000Z",
+    "excerpt": "Connect PitchBook to access company financials, funding history, investor activity, and market benchmarks - all within the workflows your teams already use in North.",
+    "summary": "Connect PitchBook to access company financials, funding history, investor activity, and market benchmarks - all within the workflows your teams already use in North.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "8601379c0c22"
+  },
+  {
+    "id": "ce5ce5fc43fb0958",
+    "lab": "cohere",
+    "title": "Concerning behavior from a popular open-weight AI model",
+    "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+    "sourceId": "cohere-blog",
+    "sourceName": "Cohere Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z",
+    "updatedAt": "2026-10-26T00:00:00.000Z",
+    "excerpt": "Inside a closed testing sandbox managed by Cohere, one of Alibaba's newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container situated in Beijing. Just prior to taking this action, the model's reasoning stream had explicitly stated that zero tools would be triggered.",
+    "summary": "Inside a closed testing sandbox managed by Cohere, one of Alibaba's newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container situated in Beijing.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source",
+      "reasoning"
+    ],
+    "importance": 60,
+    "contentHash": "a06c4a5b471a"
+  },
+  {
     "id": "7207c59bed78ddb3",
     "lab": "cohere",
     "title": "Can AI understand culture?",
@@ -11,15 +58,15 @@
     "verified": true,
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "firstSeenAt": "2026-10-22T04:59:19.574Z",
-    "updatedAt": "2026-10-22T00:00:00.000Z",
-    "excerpt": "A retired teacher and high schooler put AI to the test",
-    "summary": "A retired teacher and high schooler put AI to the test",
+    "updatedAt": "2026-10-26T20:35:11.061Z",
+    "excerpt": "Can AI understand culture?",
+    "summary": "Official feature update from Cohere (Cohere Blog).",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 50,
-    "contentHash": "6de3eaf36c80"
+    "contentHash": "c6cb0e32385d"
   },
   {
     "id": "ff1cfc81dcac62e0",
@@ -33,17 +80,15 @@
     "verified": true,
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "firstSeenAt": "2026-10-22T17:17:28.896Z",
-    "updatedAt": "2026-10-22T00:00:00.000Z",
-    "excerpt": "Now in public beta with NVIDIA Confidential Computing with NVIDIA GPUs on Microsoft Azure, bringing hardware-backed protection and verifiable security to sensitive enterprise AI.",
-    "summary": "Now in public beta with NVIDIA Confidential Computing with NVIDIA GPUs on Microsoft Azure, bringing hardware-backed protection and verifiable security to sensitive enterprise AI.",
+    "updatedAt": "2026-10-26T20:35:11.061Z",
+    "excerpt": "Introducing Confidential Computing on Cohere Model Vault",
+    "summary": "Official model update from Cohere (Cohere Blog).",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
     "summarySource": "template",
     "category": "model",
-    "tags": [
-      "safety"
-    ],
+    "tags": [],
     "importance": 75,
-    "contentHash": "7f010f35ad08"
+    "contentHash": "fb78569fad95"
   },
   {
     "id": "b3ec856821a0404d",

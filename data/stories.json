@@ -1,29 +1,73 @@
 {
-  "generatedAt": "2026-10-26T13:15:11.052Z",
+  "generatedAt": "2026-10-26T20:35:11.061Z",
   "stories": [
     {
-      "id": "3b6b85c81106ab13",
-      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
-      "entity": "Nemotron 3.5 Super",
+      "id": "a84b6a7bee5c68a6",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "entity": "GPT 6.1 Terra",
       "labs": [
-        "amazon",
-        "nvidia"
+        "openai",
+        "amazon"
       ],
-      "official": 1,
-      "press": 3,
-      "outlets": [
-        "GameGPU",
-        "NewsCord",
-        "tech-insider.org"
-      ],
-      "firstAt": "2026-10-16T17:59:00.000Z",
-      "lastAt": "2026-10-23T01:05:41.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart",
+      "official": 3,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-10-20T07:00:00.000Z",
+      "lastAt": "2026-10-26T18:27:00.000Z",
+      "url": "https://openai.com/index/terminal-x",
       "lead": {
         "kind": "official",
-        "id": "3b6b85c81106ab13"
+        "id": "a84b6a7bee5c68a6"
       },
-      "importance": 91
+      "importance": 90
+    },
+    {
+      "id": "40609a70c2f2c94d",
+      "title": "Grok 4.7 is now available on Amazon Bedrock in AWS GovCloud (US)",
+      "entity": "Grok 4.7",
+      "labs": [
+        "amazon",
+        "xai"
+      ],
+      "official": 1,
+      "press": 1,
+      "outlets": [
+        "BASENOR - Tesla Accessories"
+      ],
+      "firstAt": "2026-10-19T13:00:00.000Z",
+      "lastAt": "2026-10-21T18:08:42.000Z",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud",
+      "lead": {
+        "kind": "official",
+        "id": "40609a70c2f2c94d"
+      },
+      "importance": 87
+    },
+    {
+      "id": "191c89b31a66b523",
+      "title": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen 3.8 and Ministral 3 models",
+      "entity": "Qwen 3.8",
+      "labs": [
+        "amazon",
+        "qwen",
+        "cohere"
+      ],
+      "official": 1,
+      "press": 4,
+      "outlets": [
+        "TradingView",
+        "Dealroom",
+        "VentureBeat",
+        "BetaKit"
+      ],
+      "firstAt": "2026-10-22T08:00:00.000Z",
+      "lastAt": "2026-10-26T20:04:49.000Z",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-sagemaker-muse-qwen-ministral",
+      "lead": {
+        "kind": "official",
+        "id": "191c89b31a66b523"
+      },
+      "importance": 78
     },
     {
       "id": "ea83f0dd69c5142c",
@@ -46,19 +90,16 @@
       "importance": 70
     },
     {
-      "id": "google-deepmind:ed1ecfc1aad6b0",
-      "title": "Gemini 4 Argon Lands in Google AI Mode (October 2026)",
+      "id": "google-deepmind:42a742b28a5be9",
+      "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 13,
+      "press": 10,
       "outlets": [
-        "The Decoder",
-        "Yahoo Finance",
         "shattered.io",
-        "ALM Corp",
         "Towards Data Science",
         "The Davis Enterprise",
         "Endor Labs",
@@ -68,14 +109,14 @@
         "Seeking Alpha",
         "infoq.com"
       ],
-      "firstAt": "2026-10-16T15:08:10.000Z",
+      "firstAt": "2026-10-17T05:39:48.000Z",
       "lastAt": "2026-10-24T16:00:02.000Z",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ia2xWd0tyWnBOU0lwMXdlNEFyNnBJb3FEZll6djYyME1ybUs3VjN4NVBOMmVPQTdpT2pFRklMaWIycjA3MFRpTTRFUW5YTDRwVTJCLXlwbVZxMlRqbzVkc0NoMnJlamR1Ump4eVZ3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:ed1ecfc1aad6b0"
+        "id": "google-deepmind:42a742b28a5be9"
       },
-      "importance": 63
+      "importance": 61
     },
     {
       "id": "deepseek:a10506682e04b2",
@@ -158,6 +199,29 @@
       "importance": 57
     },
     {
+      "id": "cohere:3c2f48aef6645c",
+      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
+      "entity": null,
+      "labs": [
+        "cohere",
+        "qwen"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Reuters",
+        "marketscreener.com"
+      ],
+      "firstAt": "2026-10-26T18:49:17.000Z",
+      "lastAt": "2026-10-26T18:51:37.000Z",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOE9VemsxZWlwTVpkNHBEeUxNV2dDei1vY0w0NEVmSWlVRnNQOTB1d2JQRFE0TndPeGJ0amlfN0NIOUVQV2toM1hOVjlhWFdkTHFiMlQwaGkxcGcyRU91YWROT2l6WnNOUDRJcEJ5dnBpODBPS0hXTlVMNi1CdTJRYUJJN2QteFJwZkJCY1hXX1FSQ0Y2Ylo2bGc1REg4TlU3VlAzZlVCV0hzMnlhSnNPbTJDZXVmZUVPd0lHUndac0pOU0J3TFJEanRZUEphM2s?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "cohere:3c2f48aef6645c"
+      },
+      "importance": 54
+    },
+    {
       "id": "anthropic:5ded18ae0cbcf5",
       "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
       "entity": "Claude Opus 5.5",
@@ -208,10 +272,18 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 11,
-        "prev": 63,
+        "count": 10,
+        "prev": 64,
         "labs": [
           "google-deepmind"
+        ]
+      },
+      {
+        "name": "Qwen 3.8",
+        "count": 6,
+        "prev": 2,
+        "labs": [
+          "amazon"
         ]
       },
       {
@@ -227,9 +299,24 @@
         "labs": []
       },
       {
+        "name": "GPT 6.1 Terra",
+        "count": 3,
+        "prev": 0,
+        "labs": [
+          "openai",
+          "amazon"
+        ]
+      },
+      {
         "name": "Granite 5.0",
         "count": 3,
         "prev": 0,
+        "labs": []
+      },
+      {
+        "name": "Mistral Large 4",
+        "count": 3,
+        "prev": 4,
         "labs": []
       },
       {
@@ -244,49 +331,48 @@
     "topics": [
       {
         "name": "agents",
-        "count": 49,
-        "prev": 51,
+        "count": 48,
+        "prev": 52,
         "labs": [
           "anthropic",
           "openai",
           "meta",
-          "mistral",
           "cohere",
+          "mistral",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 37,
+        "count": 38,
         "prev": 35,
         "labs": [
           "google-deepmind",
           "anthropic",
           "openai",
-          "mistral",
           "cohere",
+          "mistral",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 11,
-        "prev": 8,
+        "count": 10,
+        "prev": 9,
         "labs": [
           "google-deepmind",
           "anthropic",
           "xai",
           "openai",
           "mistral",
-          "cohere",
           "tencent",
           "amazon",
           "nvidia"
@@ -294,8 +380,8 @@
       },
       {
         "name": "multimodal",
-        "count": 10,
-        "prev": 8,
+        "count": 8,
+        "prev": 10,
         "labs": [
           "google-deepmind",
           "deepseek",
@@ -308,23 +394,38 @@
         ]
       },
       {
+        "name": "open-source",
+        "count": 7,
+        "prev": 6,
+        "labs": [
+          "anthropic",
+          "openai",
+          "meta",
+          "cohere",
+          "microsoft",
+          "amazon",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
         "name": "reasoning",
         "count": 7,
-        "prev": 7,
+        "prev": 8,
         "labs": [
           "openai",
           "meta",
-          "mistral",
           "cohere",
-          "amazon",
+          "mistral",
           "microsoft",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "audio",
         "count": 6,
-        "prev": 5,
+        "prev": 4,
         "labs": [
           "google-deepmind",
           "openai",
@@ -337,7 +438,7 @@
       {
         "name": "mcp",
         "count": 6,
-        "prev": 3,
+        "prev": 2,
         "labs": [
           "anthropic",
           "openai",
@@ -346,23 +447,9 @@
         ]
       },
       {
-        "name": "open-source",
-        "count": 6,
-        "prev": 6,
-        "labs": [
-          "anthropic",
-          "openai",
-          "meta",
-          "amazon",
-          "microsoft",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
         "name": "rag",
-        "count": 5,
-        "prev": 1,
+        "count": 6,
+        "prev": 0,
         "labs": [
           "cohere",
           "amazon",
@@ -373,101 +460,6 @@
   },
   "unconfirmed": [
     {
-      "id": "moonshot:dabd4522e394bb",
-      "lab": "moonshot",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
-      "outlets": [
-        "The Tribune",
-        "The Economic Times",
-        "Lokmat Times",
-        "LatestLY",
-        "ET Enterprise AI",
-        "The Information",
-        "Startup Fortune",
-        "Unite.AI",
-        "Tech in Asia"
-      ],
-      "reports": 9,
-      "at": "2026-10-23T17:26:02.000Z"
-    },
-    {
-      "id": "moonshot:02e3d0c4f78689",
-      "lab": "moonshot",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
-      "outlets": [
-        "Qatar Tribune",
-        "Tech in Asia",
-        "ET Enterprise AI",
-        "Menafn",
-        "The Information",
-        "Startup Fortune",
-        "Unite.AI"
-      ],
-      "reports": 7,
-      "at": "2026-10-23T17:26:02.000Z"
-    },
-    {
-      "id": "moonshot:2dc78da0b58c99",
-      "lab": "moonshot",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
-      "outlets": [
-        "NewsBytes",
-        "The Information",
-        "Startup Fortune",
-        "Unite.AI",
-        "Tech in Asia"
-      ],
-      "reports": 5,
-      "at": "2026-10-23T17:26:02.000Z"
-    },
-    {
-      "id": "moonshot:1e599103d1152b",
-      "lab": "moonshot",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
-      "outlets": [
-        "ForkLog",
-        "The Information",
-        "Startup Fortune",
-        "Unite.AI",
-        "Tech in Asia"
-      ],
-      "reports": 5,
-      "at": "2026-10-23T17:26:02.000Z"
-    },
-    {
-      "id": "moonshot:efe644a57e4511",
-      "lab": "moonshot",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
-      "outlets": [
-        "Menafn",
-        "Asianet Newsable",
-        "The Information",
-        "Startup Fortune",
-        "Unite.AI"
-      ],
-      "reports": 5,
-      "at": "2026-10-23T17:26:02.000Z"
-    },
-    {
-      "id": "moonshot:bd1a9e13cdfe46",
-      "lab": "moonshot",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
-      "outlets": [
-        "SiliconANGLE",
-        "The Information",
-        "Startup Fortune",
-        "Unite.AI"
-      ],
-      "reports": 4,
-      "at": "2026-10-23T17:26:02.000Z"
-    },
-    {
       "id": "moonshot:8bdef8fde23372",
       "lab": "moonshot",
       "title": "Moonshot resets subscriber quotas after Kimi K3.1 Pro launch issues",
@@ -475,36 +467,23 @@
       "outlets": [
         "Reuters",
         "TradingView",
-        "The Economic Times"
+        "The Economic Times",
+        "ET Enterprise AI"
       ],
-      "reports": 3,
+      "reports": 4,
       "at": "2026-10-26T02:22:00.000Z"
     },
     {
-      "id": "moonshot:6ca97c847e5811",
-      "lab": "moonshot",
-      "title": "Moonshot AI releases Kimi K3.1 Pro open weight model to rival Claude",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3VwQndMemVCbVNzZFc2UmZkdGdySTJ3cGZwaTFwcUpsc3ZURW9VRW45QUtFVUxSS2RNZWdmYUR3bG1neUdmYWljOHJTaHpuaVRtaG11Y3dvSUdiZW9WbnI4cW9KakNNVnRPWXBVMm1OMEhDcUd6dUpuQU53TFdSbEt6RXdKaTR6VTN0Y09vWGdsTG1rZHU2b3dCSQ?oc=5",
+      "id": "xai:4e5f8d2354f160",
+      "lab": "xai",
+      "title": "Grok Releases Seven Minutes of Its AI-Made Odyssey Series",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN3VrLVg5SEpTRXk0UWpyVHpvV1V3S010SE90R291TDdHaGdSLVZMVmlrdjZqYV9lOUUtU1NYUm9DX1l2UUJicnctZmJVMkl3X1VLdzZ2LXA1b0xYNC1wRFk4VXF1ME5OZTF6LUhJYVkyb1lvd0VJNWFuN0JBWG9ISEVtY1o0Y2J0dUZyYWhR?oc=5",
       "outlets": [
-        "Caixin Global",
-        "The Information",
+        "Digital Trends",
         "Startup Fortune"
       ],
-      "reports": 3,
-      "at": "2026-10-23T18:23:36.000Z"
-    },
-    {
-      "id": "moonshot:b5ab6d8df0b847",
-      "lab": "moonshot",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
-      "outlets": [
-        "Unite.AI",
-        "Startup Fortune",
-        "The Information"
-      ],
-      "reports": 3,
-      "at": "2026-10-23T17:26:02.000Z"
+      "reports": 2,
+      "at": "2026-10-26T07:19:38.000Z"
     }
   ]
 }

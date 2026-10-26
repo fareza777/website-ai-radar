@@ -1,5 +1,27 @@
 [
   {
+    "id": "56260fcd11d47ed1",
+    "lab": "nvidia",
+    "title": "How NVIDIA Mission Control 2.5 Brings Autonomous Recovery to Kubernetes",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-mission-control-2-5-brings-autonomous-recovery-to-kubernetes",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-26T15:00:00.000Z",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z",
+    "updatedAt": "2026-10-26T15:00:00.000Z",
+    "excerpt": "Training large-scale AI models on thousands of GPUs is a high-stakes operation where monitoring and automation must be built-in to optimize cluster resiliency... Training large-scale AI models on thousands of GPUs is a high-stakes operation where monitoring and automation must be built-in to optimize cluster resiliency and uptime at scale. This concept isn’t new to data center operators who have measured…",
+    "summary": "Training large-scale AI models on thousands of GPUs is a high-stakes operation where monitoring and automation must be built-in to optimize cluster resiliency...",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 30,
+    "contentHash": "e154f47045f2"
+  },
+  {
     "id": "5c25f1831f0e4d47",
     "lab": "nvidia",
     "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
@@ -1422,10 +1444,10 @@
     "tags": [
       "4B"
     ],
-    "importance": 67,
+    "importance": 68,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 142,
+      "likes": 153,
       "downloads": 35608,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2366,10 +2388,10 @@
     "tags": [
       "multimodal"
     ],
-    "importance": 66,
+    "importance": 67,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 114,
+      "likes": 115,
       "downloads": 7657,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",

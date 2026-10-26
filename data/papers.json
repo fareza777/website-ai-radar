@@ -6,7 +6,7 @@
     "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 202,
+    "upvotes": 212,
     "org": "oxford",
     "githubRepo": "https://github.com/vid-gen/awesome-video-world-model",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -18,7 +18,7 @@
     "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 46,
+    "upvotes": 47,
     "org": "alibabagroup",
     "githubRepo": "https://github.com/RecGPT-Team/UserArena",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -30,7 +30,7 @@
     "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizon autonomy or…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 35,
+    "upvotes": 38,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-10-26T04:56:58.020Z"
@@ -42,7 +42,7 @@
     "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 30,
+    "upvotes": 34,
     "org": "bytedance",
     "lab": "bytedance",
     "githubRepo": "https://github.com/simple-agent-lab/RSIHub",
@@ -55,10 +55,23 @@
     "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 11,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
+  },
+  {
+    "id": "2610.31779",
+    "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
+    "url": "https://huggingface.co/papers/2610.31779",
+    "summary": "The life-cycle of robotics foundation models crucially depends on data labels. Outcome reward labels are needed for monitoring real-world deployments. Process reward labels are needed during RL post-training. Timestamped captions are needed for filtering and balancing pretraining data. We present Flora, an industrial-quality data engine used for training GR00T models, that simultaneously covers these capabilities…",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "submittedAt": "2026-10-26T00:00:00.000Z",
+    "upvotes": 0,
+    "org": "nvidia",
+    "lab": "nvidia",
+    "githubRepo": "https://github.com/NVIDIA/Flora",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z"
   },
   {
     "id": "2610.31329",
@@ -67,7 +80,7 @@
     "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 244,
+    "upvotes": 249,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisOne-VL",
@@ -80,7 +93,7 @@
     "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them…",
     "publishedAt": "2026-10-22T08:43:48.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 196,
+    "upvotes": 201,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Songlin1998/ShotVerse2.0",
@@ -93,7 +106,7 @@
     "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples…",
     "publishedAt": "2026-10-17T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 187,
+    "upvotes": 195,
     "org": "jingdong1",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
@@ -104,7 +117,7 @@
     "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 177,
+    "upvotes": 184,
     "org": null,
     "githubRepo": "https://github.com/Yu-xm/OpenDS",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -127,7 +140,7 @@
     "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 65,
+    "upvotes": 71,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
@@ -139,7 +152,7 @@
     "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow…",
     "publishedAt": "2026-10-18T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 54,
+    "upvotes": 57,
     "org": null,
     "firstSeenAt": "2026-10-24T04:45:31.936Z"
   },
@@ -150,7 +163,7 @@
     "summary": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that learns from…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 55,
     "org": "naver-ai",
     "githubRepo": "https://github.com/junha1125/LaLa-World",
     "firstSeenAt": "2026-10-26T04:56:58.020Z"
@@ -162,7 +175,7 @@
     "summary": "World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extracted from a single denoising step, avoiding costly iterative denoising required for video…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 45,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/suhyeok-jang/FRED",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -174,9 +187,33 @@
     "summary": "As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity and redundancy in their stored content. Compared to the hierarchically arranged Local Expert in existing mainstream…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 45,
     "org": "tsinghuac3i",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
+  },
+  {
+    "id": "2610.23987",
+    "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+    "url": "https://huggingface.co/papers/2610.23987",
+    "summary": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual information complementary to understanding. However, existing generation-assisted understanding methods mainly rely on…",
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "submittedAt": "2026-10-23T00:00:00.000Z",
+    "upvotes": 43,
+    "org": null,
+    "githubRepo": "https://github.com/LRuca/GAFU",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z"
+  },
+  {
+    "id": "2610.28416",
+    "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+    "url": "https://huggingface.co/papers/2610.28416",
+    "summary": "Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos. However, existing code-based benchmarks primarily target specialized tasks, leaving complete video creation across…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-23T00:00:00.000Z",
+    "upvotes": 43,
+    "org": "fudan-university",
+    "githubRepo": "https://github.com/code2video-compass/Code2Video-Compass",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z"
   },
   {
     "id": "2610.31158",
@@ -185,7 +222,7 @@
     "summary": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video and user request, an agent identifies research questions, retrieves external multimodal evidence, and produces an interactive report linked to relevant video moments. This task has direct practical…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 31,
+    "upvotes": 32,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/marinero4972/OmniDR-Bench",
@@ -198,7 +235,7 @@
     "summary": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose Cola2, a framework that jointly studies continuous semantic compression, the balance between reconstruction and generation, and continuous-discrete co-adaptation. Cola2 dynamically segments text…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 23,
+    "upvotes": 26,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -210,7 +247,7 @@
     "summary": "We introduce Foundation4D, a unified feed-forward model for geometry estimation, 3D detection, semantic occupancy, and Gaussian reconstruction from multi-camera driving video. A shared backbone uses factorized spatiotemporal attention to efficiently combine observations across cameras and time. Our video inference pipeline uses pose graph optimization to refine camera trajectories and assembles object tracks across…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 18,
+    "upvotes": 20,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -222,7 +259,7 @@
     "summary": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 750,
+    "upvotes": 753,
     "org": null,
     "githubRepo": "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -234,7 +271,7 @@
     "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 632,
+    "upvotes": 654,
     "org": null,
     "githubRepo": "https://github.com/StreamEval/StreamEval",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -474,7 +511,7 @@
     "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 194,
+    "upvotes": 195,
     "org": null,
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
   },
@@ -783,7 +820,7 @@
     "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-20T00:00:00.000Z",
-    "upvotes": 120,
+    "upvotes": 121,
     "org": "apple",
     "githubRepo": "https://github.com/uclanlp/OpenVLHarness",
     "firstSeenAt": "2026-10-20T08:40:19.794Z"
