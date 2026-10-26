@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-26",
-    "generatedAt": "2026-10-26T00:04:10.881Z",
+    "generatedAt": "2026-10-26T04:56:58.020Z",
     "stats": {
-      "updates24h": 0,
-      "labsActive24h": 0,
-      "updates7d": 155,
+      "updates24h": 1,
+      "labsActive24h": 1,
+      "updates7d": 156,
       "newModels7d": 42
     },
     "source": "template",
-    "headline": "A quiet day — here are the highlights from the last 72 hours across 9 labs.",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 8 labs.",
     "bullets": [
       {
         "text": "OpenAI: Securing our frontier model training environment",
@@ -27,11 +27,6 @@
         "lab": "amazon"
       },
       {
-        "text": "NVIDIA: Kazakhstan Expands Compute for Its AI Future",
-        "itemId": "822412740c4fdfe1",
-        "lab": "nvidia"
-      },
-      {
         "text": "OpenAI: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
         "itemId": "298c8de07d18f423",
         "lab": "openai"
@@ -40,6 +35,11 @@
         "text": "Amazon: Web Search on Amazon Bedrock now supports domain filtering and user location controls",
         "itemId": "116e84c7c9fa0dbd",
         "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+        "itemId": "3b0fc092303087ba",
+        "lab": "nvidia"
       }
     ]
   },

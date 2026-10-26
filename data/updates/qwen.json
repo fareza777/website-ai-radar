@@ -1,5 +1,35 @@
 [
   {
+    "id": "2bfb9149c3c89998",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.23",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.23",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-26T04:43:39.000Z",
+    "firstSeenAt": "2026-10-26T04:56:58.020Z",
+    "updatedAt": "2026-10-26T04:43:39.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.26.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.23 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "9a18ceb12051",
+    "meta": {
+      "version": "v0.1.23",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
     "id": "42779ff9f340792c",
     "lab": "qwen",
     "title": "Qwen Code desktop v0.26.1",
@@ -57,6 +87,33 @@
       "version": "v0.26.1",
       "semver": "patch",
       "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "12888c07b6b588c9",
+    "lab": "qwen",
+    "title": "BabelArena",
+    "url": "https://github.com/QwenLM/BabelArena",
+    "sourceId": "qwen-gh",
+    "sourceName": "GitHub · QwenLM (new repos)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T03:05:00.000Z",
+    "firstSeenAt": "2026-10-26T04:56:58.020Z",
+    "updatedAt": "2026-10-22T03:05:00.000Z",
+    "excerpt": "",
+    "summary": "Alibaba Qwen created a new public repository: BabelArena.",
+    "benefit": "A new open-source project from this lab that you can study or use right away.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 30,
+    "contentHash": "53e975208578",
+    "meta": {
+      "stars": 0,
+      "repo": "QwenLM/BabelArena",
+      "language": "Python"
     }
   },
   {
@@ -384,7 +441,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 269,
+      "stars": 271,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -738,7 +795,7 @@
     "importance": 36,
     "contentHash": "2f3cd119e85f",
     "meta": {
-      "stars": 9,
+      "stars": 10,
       "repo": "QwenLM/Omnilingua-Bench",
       "language": "Python"
     }
@@ -767,7 +824,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3454,
+      "likes": 3456,
       "downloads": 184227,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -927,7 +984,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6479,
+      "likes": 6482,
       "downloads": 3093369,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
@@ -990,7 +1047,7 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 18393,
+      "likes": 18406,
       "downloads": 7762014,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",

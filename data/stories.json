@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T00:04:10.881Z",
+  "generatedAt": "2026-10-26T04:56:58.020Z",
   "stories": [
     {
       "id": "3b6b85c81106ab13",
@@ -85,9 +85,8 @@
         "deepseek"
       ],
       "official": 0,
-      "press": 8,
+      "press": 7,
       "outlets": [
-        "Pandaily",
         "shattered.io",
         "https://tech-insider.org/",
         "Briefs Finance",
@@ -97,14 +96,14 @@
         "MarkTechPost",
         "Interconnects AI"
       ],
-      "firstAt": "2026-10-16T03:10:16.000Z",
+      "firstAt": "2026-10-17T10:29:04.000Z",
       "lastAt": "2026-10-20T17:04:21.000Z",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OSlM2T1g2czdzWHM0WWVBTnJwLTVXeU1aeWRlcTdXNl8wdUt4YjdzWEtzUTBJS3AtYXlPSjNnbllId2hkeGE1Z0ZDUXAydEpWYzhSb29IXzBnYXd0UUdqWFhORll5VWpqZjVESjZKQUZmaHVON1R6UTFCT0NMdw?oc=5",
       "lead": {
         "kind": "press",
         "id": "deepseek:a10506682e04b2"
       },
-      "importance": 61
+      "importance": 60
     },
     {
       "id": "nvidia:b0f023eb8b2a0a",
@@ -209,8 +208,8 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 11,
-        "prev": 62,
+        "count": 10,
+        "prev": 63,
         "labs": [
           "google-deepmind"
         ]
@@ -246,23 +245,23 @@
       {
         "name": "agents",
         "count": 51,
-        "prev": 50,
+        "prev": 49,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "mistral",
           "cohere",
-          "qwen",
-          "microsoft",
           "amazon",
+          "qwen",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "microsoft"
         ]
       },
       {
         "name": "coding",
-        "count": 41,
+        "count": 42,
         "prev": 30,
         "labs": [
           "anthropic",
@@ -270,11 +269,11 @@
           "openai",
           "mistral",
           "cohere",
-          "qwen",
-          "microsoft",
           "amazon",
+          "qwen",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "microsoft"
         ]
       },
       {
@@ -283,13 +282,13 @@
         "prev": 8,
         "labs": [
           "anthropic",
-          "xai",
           "google-deepmind",
+          "xai",
           "openai",
           "mistral",
           "cohere",
-          "amazon",
           "tencent",
+          "amazon",
           "nvidia"
         ]
       },
@@ -302,8 +301,8 @@
           "deepseek",
           "openai",
           "minimax",
-          "amazon",
           "tencent",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -313,13 +312,13 @@
         "count": 7,
         "prev": 7,
         "labs": [
-          "openai",
           "meta",
+          "openai",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
-          "nvidia"
+          "nvidia",
+          "microsoft"
         ]
       },
       {
@@ -329,8 +328,8 @@
         "labs": [
           "anthropic",
           "openai",
-          "qwen",
-          "amazon"
+          "amazon",
+          "qwen"
         ]
       },
       {
@@ -339,12 +338,12 @@
         "prev": 6,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
-          "microsoft",
+          "openai",
           "amazon",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "microsoft"
         ]
       },
       {
@@ -355,8 +354,8 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "amazon",
           "tencent",
+          "amazon",
           "ibm",
           "nvidia"
         ]
