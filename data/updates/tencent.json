@@ -22,7 +22,7 @@
     "contentHash": "da2d675df551",
     "meta": {
       "likes": 11,
-      "downloads": 79,
+      "downloads": 89,
       "repo": "tencent/Hy-Nomas-Diffusers",
       "license": "apache-2.0"
     }
@@ -52,8 +52,8 @@
     "importance": 65,
     "contentHash": "8a1d2c0f7679",
     "meta": {
-      "likes": 66,
-      "downloads": 2605,
+      "likes": 67,
+      "downloads": 3786,
       "repo": "tencent/WeVisOne-VL-4B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -84,10 +84,41 @@
     "importance": 63,
     "contentHash": "ee6717133fbc",
     "meta": {
-      "likes": 43,
-      "downloads": 2049,
+      "likes": 47,
+      "downloads": 3086,
       "repo": "tencent/WeVisOne-VL-2B",
       "pipeline": "image-text-to-text",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "5ccb1bc52e2dfe3e",
+    "lab": "tencent",
+    "title": "Hy-SimulMT-30B-A3B-Interleave",
+    "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-Interleave",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-22T07:44:33.000Z",
+    "firstSeenAt": "2026-10-27T15:25:14.259Z",
+    "updatedAt": "2026-10-22T07:44:33.000Z",
+    "excerpt": "translation · license: apache-2.0",
+    "summary": "Tencent published the Hy-SimulMT-30B-A3B-Interleave model on Hugging Face for translation. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "30B-A3B"
+    ],
+    "importance": 59,
+    "contentHash": "1383bbe2659d",
+    "meta": {
+      "likes": 11,
+      "downloads": 89,
+      "repo": "tencent/Hy-SimulMT-30B-A3B-Interleave",
+      "pipeline": "translation",
       "license": "apache-2.0"
     }
   },
@@ -112,11 +143,11 @@
     "tags": [
       "30B-A3B"
     ],
-    "importance": 62,
+    "importance": 63,
     "contentHash": "1f93e6955462",
     "meta": {
-      "likes": 29,
-      "downloads": 0,
+      "likes": 37,
+      "downloads": 131,
       "repo": "tencent/Hy-SimulMT-30B-A3B",
       "pipeline": "translation",
       "license": "apache-2.0"
@@ -141,10 +172,10 @@
     "summarySource": "template",
     "category": "developer",
     "tags": [],
-    "importance": 37,
+    "importance": 38,
     "contentHash": "e80aa80d5890",
     "meta": {
-      "stars": 106,
+      "stars": 140,
       "repo": "Tencent-Hunyuan/Hy-SimulMT",
       "language": "Python"
     }
@@ -171,8 +202,8 @@
     "importance": 65,
     "contentHash": "6e6b860ed408",
     "meta": {
-      "likes": 81,
-      "downloads": 44,
+      "likes": 84,
+      "downloads": 155,
       "repo": "tencent/Hy-Nomas",
       "license": "apache-2.0"
     },
@@ -209,7 +240,7 @@
     "contentHash": "b80a8b33297c",
     "meta": {
       "likes": 26,
-      "downloads": 627,
+      "downloads": 655,
       "repo": "tencent/Qwen3-8B-DSpine-b16",
       "license": "apache-2.0"
     }
@@ -236,7 +267,7 @@
     "importance": 44,
     "contentHash": "f84bba9f37d6",
     "meta": {
-      "stars": 1322,
+      "stars": 1330,
       "repo": "Tencent-Hunyuan/Hy-Memory",
       "language": "Python"
     }
@@ -266,7 +297,7 @@
     "contentHash": "d780f7f18b0b",
     "meta": {
       "likes": 316,
-      "downloads": 4519,
+      "downloads": 4878,
       "repo": "tencent/Hy-Memory-30B-A3B",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -296,7 +327,7 @@
     "importance": 34,
     "contentHash": "ef0590f2c8d2",
     "meta": {
-      "stars": 30,
+      "stars": 31,
       "repo": "Tencent-Hunyuan/DiagSafe",
       "language": "Python"
     }
@@ -384,7 +415,7 @@
     "contentHash": "17ed023e66bd",
     "meta": {
       "likes": 117,
-      "downloads": 2646,
+      "downloads": 2731,
       "repo": "tencent/Youtu-Parsing-Omni",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -442,7 +473,7 @@
     "importance": 44,
     "contentHash": "160ea336e84d",
     "meta": {
-      "stars": 1383,
+      "stars": 1411,
       "repo": "Tencent-Hunyuan/Prism",
       "language": "Python"
     }
@@ -472,7 +503,7 @@
     "contentHash": "c86c9e33d02c",
     "meta": {
       "likes": 52,
-      "downloads": 7605,
+      "downloads": 7927,
       "repo": "tencent/WeVisDoc-4B",
       "license": "apache-2.0"
     }
@@ -502,7 +533,7 @@
     "contentHash": "2dd0738488f5",
     "meta": {
       "likes": 30,
-      "downloads": 27448,
+      "downloads": 27599,
       "repo": "tencent/WeVisDoc-2B",
       "license": "apache-2.0"
     }
@@ -617,7 +648,7 @@
     "contentHash": "e57ae848d21c",
     "meta": {
       "likes": 35,
-      "downloads": 507,
+      "downloads": 494,
       "repo": "tencent/EVIE-8B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -649,7 +680,7 @@
     "contentHash": "83b19eefd490",
     "meta": {
       "likes": 41,
-      "downloads": 1067,
+      "downloads": 1117,
       "repo": "tencent/EVIE-4.5B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -678,7 +709,7 @@
     "contentHash": "b47e25917303",
     "meta": {
       "likes": 517,
-      "downloads": 16366,
+      "downloads": 16298,
       "repo": "tencent/Hy4-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -716,7 +747,7 @@
     "contentHash": "811b13d55f01",
     "meta": {
       "likes": 23,
-      "downloads": 1221,
+      "downloads": 1314,
       "repo": "tencent/ContextPilot-14B",
       "pipeline": "text-generation",
       "license": "other"
@@ -747,7 +778,7 @@
     "contentHash": "bda3c45fcfa8",
     "meta": {
       "likes": 12,
-      "downloads": 797,
+      "downloads": 813,
       "repo": "tencent/ContextPilot-8B",
       "pipeline": "text-generation",
       "license": "other"
@@ -779,7 +810,7 @@
     "contentHash": "b85706cfb27d",
     "meta": {
       "likes": 141,
-      "downloads": 4347,
+      "downloads": 4400,
       "repo": "tencent/WeMM-Embedding-9B",
       "pipeline": "feature-extraction",
       "license": "other"
@@ -811,7 +842,7 @@
     "contentHash": "a5c8029cf366",
     "meta": {
       "likes": 37,
-      "downloads": 2289,
+      "downloads": 2237,
       "repo": "tencent/WeMM-Embedding-4B",
       "pipeline": "feature-extraction",
       "license": "other"
@@ -843,7 +874,7 @@
     "contentHash": "1de4f56d9cf1",
     "meta": {
       "likes": 123,
-      "downloads": 14666,
+      "downloads": 14891,
       "repo": "tencent/WeMM-Embedding-2B",
       "pipeline": "feature-extraction",
       "license": "other"
@@ -874,7 +905,7 @@
     "contentHash": "e9be2dea12c2",
     "meta": {
       "likes": 107,
-      "downloads": 1033,
+      "downloads": 950,
       "repo": "tencent/AuK-Flash",
       "pipeline": "text-to-speech",
       "license": "mit"
@@ -905,7 +936,7 @@
     "contentHash": "6272c1d7f11c",
     "meta": {
       "likes": 392,
-      "downloads": 1840,
+      "downloads": 1800,
       "repo": "tencent/AuK",
       "pipeline": "text-to-speech",
       "license": "mit"
@@ -944,7 +975,7 @@
     "contentHash": "55095458a6ff",
     "meta": {
       "likes": 101,
-      "downloads": 752,
+      "downloads": 747,
       "repo": "tencent/EVIE-Preview-4.5B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -976,7 +1007,7 @@
     "contentHash": "788de4e86b4e",
     "meta": {
       "likes": 18,
-      "downloads": 446,
+      "downloads": 441,
       "repo": "tencent/UI-Mate-democua-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -1008,7 +1039,7 @@
     "contentHash": "91653dd6cf7f",
     "meta": {
       "likes": 30,
-      "downloads": 1239,
+      "downloads": 1355,
       "repo": "tencent/UI-Mate-9B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -1040,7 +1071,7 @@
     "contentHash": "bb94234d39f8",
     "meta": {
       "likes": 98,
-      "downloads": 760,
+      "downloads": 758,
       "repo": "tencent/UI-Mate-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"

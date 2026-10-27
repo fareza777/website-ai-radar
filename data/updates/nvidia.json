@@ -1,5 +1,51 @@
 [
   {
+    "id": "4a299d1e9f3d5424",
+    "lab": "nvidia",
+    "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+    "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T15:00:20.000Z",
+    "firstSeenAt": "2026-10-27T15:25:14.259Z",
+    "updatedAt": "2026-10-27T15:00:20.000Z",
+    "excerpt": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in Neurodegeneration (C-BRAIN), working with NVIDIA, is using AI to change that. Alzheimer’s disease is one of…",
+    "summary": "There are 57 million people worldwide living with dementia today.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "cdf262f2e7a9"
+  },
+  {
+    "id": "c6329a986f18633d",
+    "lab": "nvidia",
+    "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+    "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T15:00:00.000Z",
+    "firstSeenAt": "2026-10-27T15:25:14.259Z",
+    "updatedAt": "2026-10-27T15:00:00.000Z",
+    "excerpt": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA... Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA DGX Spark, profiling showed that decoding was memory-bound: reading model weights drove…",
+    "summary": "Generating tokens faster starts with identifying what limits inference performance.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 15,
+    "contentHash": "a53a687130ca"
+  },
+  {
     "id": "56260fcd11d47ed1",
     "lab": "nvidia",
     "title": "How NVIDIA Mission Control 2.5 Brings Autonomous Recovery to Kubernetes",
@@ -40,10 +86,10 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 64,
+    "importance": 65,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 55,
+      "likes": 64,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -1280,7 +1326,7 @@
     "contentHash": "08356dcbd0c7",
     "meta": {
       "likes": 163,
-      "downloads": 10274,
+      "downloads": 10877,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -1423,8 +1469,8 @@
     "importance": 62,
     "contentHash": "806c45ea6874",
     "meta": {
-      "likes": 31,
-      "downloads": 4361,
+      "likes": 33,
+      "downloads": 5303,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
     }
@@ -1475,8 +1521,8 @@
     "importance": 68,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 161,
-      "downloads": 35608,
+      "likes": 170,
+      "downloads": 44651,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
       "license": "other"
@@ -1556,7 +1602,7 @@
     "contentHash": "b0ac029a9c38",
     "meta": {
       "likes": 36,
-      "downloads": 1351,
+      "downloads": 1588,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -2389,7 +2435,7 @@
     "contentHash": "e3362fa9da93",
     "meta": {
       "likes": 86,
-      "downloads": 7632,
+      "downloads": 7681,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -2419,8 +2465,8 @@
     "importance": 67,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 119,
-      "downloads": 7657,
+      "likes": 120,
+      "downloads": 9406,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -2450,8 +2496,8 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 810,
-      "downloads": 117418,
+      "likes": 811,
+      "downloads": 125502,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
       "license": "openmdw-1.1"
@@ -2479,8 +2525,8 @@
     "importance": 68,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 155,
-      "downloads": 38749,
+      "likes": 157,
+      "downloads": 46143,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
     }

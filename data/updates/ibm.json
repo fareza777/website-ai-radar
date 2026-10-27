@@ -1,5 +1,51 @@
 [
   {
+    "id": "84d2d4dcfb6d5f11",
+    "lab": "ibm",
+    "title": "Modular quantum computing takes shape with l-couplers",
+    "url": "https://research.ibm.com/blog/connecting-quantum-processors-with-l-couplers",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "firstSeenAt": "2026-10-27T15:25:14.259Z",
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "excerpt": "IBM researchers achieve a critical advance for scaling quantum computers.",
+    "summary": "IBM researchers achieve a critical advance for scaling quantum computers.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "231213b3faf0"
+  },
+  {
+    "id": "e4fae318cc13558f",
+    "lab": "ibm",
+    "title": "IBM and Kaggle launch Java framework migration leaderboard",
+    "url": "https://research.ibm.com/blog/ibm-and-kaggle-launch-leaderboard-for-java-framework-migration",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "firstSeenAt": "2026-10-27T15:25:14.259Z",
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "excerpt": "ScarfBench evaluates model-and-agent-harness combinations for enterprise Java migration, pairing migration validation with reproduced runs and a leaderboard.",
+    "summary": "ScarfBench evaluates model-and-agent-harness combinations for enterprise Java migration, pairing migration validation with reproduced runs and a leaderboard.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 65,
+    "contentHash": "0b2e09b7e368"
+  },
+  {
     "id": "843ec3210052983e",
     "lab": "ibm",
     "title": "Docling v2.143.0",
@@ -305,7 +351,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 44,
-      "downloads": 2772,
+      "downloads": 2990,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -336,7 +382,7 @@
     "contentHash": "6f6f69225449",
     "meta": {
       "likes": 30,
-      "downloads": 1910,
+      "downloads": 2092,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -549,8 +595,8 @@
     "importance": 64,
     "contentHash": "a598e14a409a",
     "meta": {
-      "likes": 50,
-      "downloads": 3075,
+      "likes": 52,
+      "downloads": 3517,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -797,11 +843,11 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 57,
+    "importance": 58,
     "contentHash": "30e0f1167733",
     "meta": {
-      "likes": 7,
-      "downloads": 289,
+      "likes": 8,
+      "downloads": 305,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
@@ -1107,7 +1153,7 @@
     "contentHash": "45adf5a46f06",
     "meta": {
       "likes": 37,
-      "downloads": 32726,
+      "downloads": 38042,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
       "license": "cc-by-nc-sa-4.0"
@@ -1206,7 +1252,7 @@
     "contentHash": "ff3e756cb61a",
     "meta": {
       "likes": 136,
-      "downloads": 40121,
+      "downloads": 36612,
       "repo": "ibm-granite/granite-4.2-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1237,7 +1283,7 @@
     "contentHash": "c8e55083221f",
     "meta": {
       "likes": 109,
-      "downloads": 76914,
+      "downloads": 73725,
       "repo": "ibm-granite/granite-4.2-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1267,8 +1313,8 @@
     "importance": 67,
     "contentHash": "d9e26c7be4a7",
     "meta": {
-      "likes": 116,
-      "downloads": 40020,
+      "likes": 117,
+      "downloads": 40244,
       "repo": "ibm-granite/granite-4.2-3b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1297,7 +1343,7 @@
     "contentHash": "720803661a02",
     "meta": {
       "likes": 17,
-      "downloads": 222380,
+      "downloads": 216032,
       "repo": "ibm-granite/granite-timeseries-patchtst-fm-r2",
       "pipeline": "time-series-forecasting",
       "license": "openmdw-1.0"
@@ -1329,7 +1375,7 @@
     "contentHash": "d9d402627057",
     "meta": {
       "likes": 102,
-      "downloads": 61208,
+      "downloads": 61599,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
