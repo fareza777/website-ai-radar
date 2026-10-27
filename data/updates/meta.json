@@ -1,5 +1,27 @@
 [
   {
+    "id": "a7fcfcf24af1c1ba",
+    "lab": "meta",
+    "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+    "url": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape",
+    "sourceId": "meta-eng",
+    "sourceName": "Engineering at Meta",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T15:59:24.000Z",
+    "firstSeenAt": "2026-10-27T22:22:25.706Z",
+    "updatedAt": "2026-10-27T15:59:24.000Z",
+    "excerpt": "The 2026 Python Typing Survey received 1,794 responses. Type hint use changed little across three years, but checker selection changed sharply. Among respondents who reported which checkers they use, half selected more than one, and missing library type information was the most common difficulty. For the third consecutive year, we asked Python developers how they use and experience Python typing: the language…",
+    "summary": "The 2026 Python Typing Survey received 1,794 responses.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 35,
+    "contentHash": "a41f268b0486"
+  },
+  {
     "id": "9401fe00400266b3",
     "lab": "meta",
     "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
@@ -206,7 +228,7 @@
     "importance": 67,
     "contentHash": "3f7811be5be5",
     "meta": {
-      "likes": 29,
+      "likes": 31,
       "downloads": 142,
       "repo": "facebook/meta-encoder",
       "pipeline": "feature-extraction",

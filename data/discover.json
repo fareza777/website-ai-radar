@@ -9,7 +9,7 @@
     "summary": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
     "unique": "Written in C++",
     "benefit": "Alternative inference/API infrastructure that may cut costs.",
-    "why": "32 days old · 24k ⭐ on GitHub · 932 points on Hacker News.",
+    "why": "33 days old · 24k ⭐ on GitHub · 932 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-24T16:40:20Z",
@@ -67,7 +67,7 @@
     "summary": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
     "unique": "Topics: ai-agents, deepseek, deepseek-harness, developer-tools, dsh",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "32 days old · 39k ⭐ on GitHub · +20k ⭐ this week.",
+    "why": "33 days old · 39k ⭐ on GitHub · +20k ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-24T16:17:19Z",
@@ -171,7 +171,7 @@
     "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
     "unique": "Topics: claude-code, codex, deepseek, gemini-cli, llm",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "33 days old · 19k ⭐ on GitHub · +6.1k ⭐ this week.",
+    "why": "34 days old · 19k ⭐ on GitHub · +6.1k ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-23T16:22:35Z",
@@ -348,8 +348,8 @@
     "novelty": "new",
     "createdAt": "2026-10-08T10:12:49Z",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 21340,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 21430,
     "starHistory": [
       {
         "at": "2026-10-12T21:18:41.028Z",
@@ -412,11 +412,11 @@
         "stars": 21018
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 21340
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 21430
       }
     ],
-    "starsDelta7d": 4558,
+    "starsDelta7d": 4648,
     "language": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -652,8 +652,8 @@
     "novelty": "new",
     "createdAt": "2026-10-16T07:47:23Z",
     "firstSeenAt": "2026-10-20T14:21:40.747Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 23319,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 23382,
     "starHistory": [
       {
         "at": "2026-10-20T23:57:39.440Z",
@@ -684,8 +684,8 @@
         "stars": 22994
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 23319
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 23382
       }
     ],
     "language": "Python",
@@ -713,13 +713,13 @@
     "summary": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
     "unique": "Topics: agent, agent-skills, app-clone, claude, claude-code",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "24 days old · 6.0k ⭐ on GitHub · +2.4k ⭐ this week.",
+    "why": "24 days old · 6.0k ⭐ on GitHub · +2.5k ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-03T12:07:49Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 5973,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 6044,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -794,11 +794,11 @@
         "stars": 5754
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 5973
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 6044
       }
     ],
-    "starsDelta7d": 2444,
+    "starsDelta7d": 2515,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -814,10 +814,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "5,973 stars",
+        "label": "6,044 stars",
         "url": "https://github.com/Jakeschincariol/replica-skill",
-        "value": 5973,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 6044,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 100,
@@ -833,13 +833,13 @@
     "summary": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
     "unique": "Topics: agent-memory, ai-agents, claude-code, code-analysis, code-graph",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · 13 days old · 364 ⭐ on GitHub · +45 ⭐ this week · 40 points on Hacker News.",
+    "why": "Agent pick · 13 days old · 365 ⭐ on GitHub · +46 ⭐ this week · 40 points on Hacker News.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-14T12:25:36Z",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 364,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 365,
     "starHistory": [
       {
         "at": "2026-10-15T21:30:26.752Z",
@@ -890,11 +890,11 @@
         "stars": 363
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 364
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 365
       }
     ],
-    "starsDelta7d": 45,
+    "starsDelta7d": 46,
     "language": "Rust",
     "license": "Apache-2.0",
     "topics": [
@@ -910,10 +910,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "364 stars",
+        "label": "365 stars",
         "url": "https://github.com/Graphicle-AI/graphicle",
-        "value": 364,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 365,
+        "at": "2026-10-27T22:22:25.706Z"
       },
       {
         "source": "tip",
@@ -943,13 +943,13 @@
     "summary": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
     "unique": "Topics: embeddinggemma, embeddings, file-search, linux, llama-cpp",
     "benefit": "Helps you build search/RAG on top of your own data.",
-    "why": "18 days old · Featured in Ben's Bites · 5.9k ⭐ on GitHub · +894 ⭐ this week.",
+    "why": "19 days old · Featured in Ben's Bites · 5.9k ⭐ on GitHub · +900 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-08T20:37:51Z",
     "firstSeenAt": "2026-10-15T17:08:32.062Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 5912,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 5918,
     "starHistory": [
       {
         "at": "2026-10-15T21:30:26.752Z",
@@ -1000,11 +1000,11 @@
         "stars": 5861
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 5912
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 5918
       }
     ],
-    "starsDelta7d": 894,
+    "starsDelta7d": 900,
     "language": "Swift",
     "license": "MIT",
     "topics": [
@@ -1039,13 +1039,13 @@
     "summary": "OpenShell is the safe, private runtime for autonomous AI agents.",
     "unique": "Written in Rust",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Older project (since 2026) gaining momentum · Featured in Ben's Bites · 20k ⭐ on GitHub · +4.2k ⭐ this week · 209 points on Hacker News.",
+    "why": "Older project (since 2026) gaining momentum · Featured in Ben's Bites · 20k ⭐ on GitHub · +4.3k ⭐ this week · 209 points on Hacker News.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "trending",
     "createdAt": "2026-02-24T22:52:22Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 20230,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 20272,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1088,11 +1088,11 @@
         "stars": 20064
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 20230
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 20272
       }
     ],
-    "starsDelta7d": 4210,
+    "starsDelta7d": 4252,
     "language": "Rust",
     "license": "Apache-2.0",
     "topics": [],
@@ -1125,13 +1125,13 @@
     "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
     "unique": "Topics: 3d-modeling, brep, cad, egui, mcp",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "19 days old · 11k ⭐ on GitHub · +3.9k ⭐ this week.",
+    "why": "20 days old · 11k ⭐ on GitHub · +4.1k ⭐ this week.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-07T18:57:48Z",
     "firstSeenAt": "2026-10-16T21:19:28.792Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 11003,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 11216,
     "starHistory": [
       {
         "at": "2026-10-16T21:19:28.792Z",
@@ -1178,11 +1178,11 @@
         "stars": 10779
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 11003
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 11216
       }
     ],
-    "starsDelta7d": 3916,
+    "starsDelta7d": 4129,
     "language": "Rust",
     "license": "Apache-2.0",
     "topics": [
@@ -1198,10 +1198,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "11,003 stars",
+        "label": "11,216 stars",
         "url": "https://github.com/tangency-labs/solidcraft",
-        "value": 11003,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 11216,
+        "at": "2026-10-27T22:22:25.706Z"
       },
       {
         "source": "watchlist",
@@ -1224,13 +1224,13 @@
     "summary": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
     "unique": "Topics: adb, adblock, android-tv, android-tv-launcher, apple-tv",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "10 days old · 41k ⭐ on GitHub · +36k ⭐ this week.",
+    "why": "10 days old · 42k ⭐ on GitHub · +37k ⭐ this week.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-10-17T08:12:35Z",
     "firstSeenAt": "2026-10-19T13:31:59.604Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 40975,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 41704,
     "starHistory": [
       {
         "at": "2026-10-19T20:37:58.193Z",
@@ -1265,11 +1265,11 @@
         "stars": 38870
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 40975
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 41704
       }
     ],
-    "starsDelta7d": 36279,
+    "starsDelta7d": 37008,
     "language": "Python",
     "license": null,
     "topics": [
@@ -1285,10 +1285,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "40,975 stars",
+        "label": "41,704 stars",
         "url": "https://github.com/Gathin23/cleanyourtv",
-        "value": 40975,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 41704,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 100,
@@ -1304,13 +1304,13 @@
     "summary": "harness2",
     "unique": "Written in Python",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "20 days old · 20k ⭐ on GitHub · +9.1k ⭐ this week · 68 points on Hacker News.",
+    "why": "21 days old · 21k ⭐ on GitHub · +9.2k ⭐ this week · 68 points on Hacker News.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-06T21:48:11Z",
     "firstSeenAt": "2026-10-19T20:37:58.193Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 20428,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 20522,
     "starHistory": [
       {
         "at": "2026-10-19T20:37:58.193Z",
@@ -1345,11 +1345,11 @@
         "stars": 20117
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 20428
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 20522
       }
     ],
-    "starsDelta7d": 9131,
+    "starsDelta7d": 9225,
     "language": "Python",
     "license": "Apache-2.0",
     "topics": [],
@@ -1380,8 +1380,8 @@
     "novelty": "new",
     "createdAt": "2026-10-02T09:50:45Z",
     "firstSeenAt": "2026-10-12T21:18:41.028Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 3778,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 3791,
     "starHistory": [
       {
         "at": "2026-10-12T21:18:41.028Z",
@@ -1444,11 +1444,11 @@
         "stars": 3737
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 3778
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 3791
       }
     ],
-    "starsDelta7d": 1796,
+    "starsDelta7d": 1809,
     "language": "Rust",
     "license": null,
     "topics": [
@@ -1464,13 +1464,13 @@
     "signals": [
       {
         "source": "github",
-        "label": "3,778 stars",
+        "label": "3,791 stars",
         "url": "https://github.com/Folkbench/folkbench",
-        "value": 3778,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 3791,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
-    "score": 98,
+    "score": 99,
     "summarySource": "template"
   },
   {
@@ -1590,7 +1590,7 @@
     "summary": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
     "unique": "Topics: ai-agents, anthropic, antigravity, claude, claude-code",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "29 days old · 6.6k ⭐ on GitHub · +1.0k ⭐ this week.",
+    "why": "30 days old · 6.6k ⭐ on GitHub · +1.0k ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-27T21:54:12Z",
@@ -1706,13 +1706,13 @@
     "summary": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
     "unique": "Topics: ai-video, claude-code, codex, coding-agents, html",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "23 days old · 3.1k ⭐ on GitHub · +1.9k ⭐ this week.",
+    "why": "23 days old · 3.2k ⭐ on GitHub · +1.9k ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-04T09:29:07Z",
     "firstSeenAt": "2026-10-18T15:57:20.114Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 3143,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 3183,
     "starHistory": [
       {
         "at": "2026-10-18T23:20:30.937Z",
@@ -1751,11 +1751,11 @@
         "stars": 3012
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 3143
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 3183
       }
     ],
-    "starsDelta7d": 1864,
+    "starsDelta7d": 1904,
     "language": "TypeScript",
     "license": "MIT",
     "topics": [
@@ -1771,10 +1771,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "3,143 stars",
+        "label": "3,183 stars",
         "url": "https://github.com/openfilm/openfilm",
-        "value": 3143,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 3183,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 98,
@@ -1870,13 +1870,13 @@
     "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
     "unique": "Topics: age-of-empires, claude-code, claude-code-plugin, fal, game-assets",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "27 days old · 9.1k ⭐ on GitHub · +619 ⭐ this week.",
+    "why": "27 days old · 9.1k ⭐ on GitHub · +638 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-30T05:00:35Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 9059,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 9078,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -1951,11 +1951,11 @@
         "stars": 9016
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 9059
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 9078
       }
     ],
-    "starsDelta7d": 619,
+    "starsDelta7d": 638,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -1971,10 +1971,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "9,059 stars",
+        "label": "9,078 stars",
         "url": "https://github.com/rehan-remade/universal-modder",
-        "value": 9059,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 9078,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 97,
@@ -1990,13 +1990,13 @@
     "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
     "unique": "Topics: ai, chinese, content-curation, daily-digest, docker-compose",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "28 days old · 8.7k ⭐ on GitHub · +640 ⭐ this week.",
+    "why": "28 days old · 8.7k ⭐ on GitHub · +647 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-28T23:40:05Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 8725,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 8732,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2071,11 +2071,11 @@
         "stars": 8674
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 8725
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 8732
       }
     ],
-    "starsDelta7d": 640,
+    "starsDelta7d": 647,
     "language": "TypeScript",
     "license": "MIT",
     "topics": [
@@ -2091,10 +2091,87 @@
     "signals": [
       {
         "source": "github",
-        "label": "8,725 stars",
+        "label": "8,732 stars",
         "url": "https://github.com/KKKKhazix/AIHOT",
-        "value": 8725,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 8732,
+        "at": "2026-10-27T22:22:25.706Z"
+      }
+    ],
+    "score": 97,
+    "summarySource": "template"
+  },
+  {
+    "id": "2b32bace1db032ac",
+    "name": "earshot",
+    "url": "https://github.com/Leonxlnx/earshot",
+    "repo": "Leonxlnx/earshot",
+    "kind": "github",
+    "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+    "summary": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+    "unique": "Topics: ai-agents, audio, claude-code, mcp, sound-design",
+    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
+    "why": "12 days old · 3.0k ⭐ on GitHub · +1.6k ⭐ this week.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-15T06:52:46Z",
+    "firstSeenAt": "2026-10-19T13:31:59.604Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 3045,
+    "starHistory": [
+      {
+        "at": "2026-10-19T20:37:58.193Z",
+        "stars": 1464
+      },
+      {
+        "at": "2026-10-20T23:57:39.440Z",
+        "stars": 1944
+      },
+      {
+        "at": "2026-10-21T21:48:23.060Z",
+        "stars": 2049
+      },
+      {
+        "at": "2026-10-22T21:43:19.556Z",
+        "stars": 2141
+      },
+      {
+        "at": "2026-10-23T21:29:28.915Z",
+        "stars": 2435
+      },
+      {
+        "at": "2026-10-24T23:21:19.432Z",
+        "stars": 2627
+      },
+      {
+        "at": "2026-10-25T23:20:11.465Z",
+        "stars": 2779
+      },
+      {
+        "at": "2026-10-26T20:35:11.061Z",
+        "stars": 2900
+      },
+      {
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 3045
+      }
+    ],
+    "starsDelta7d": 1581,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+      "ai-agents",
+      "audio",
+      "claude-code",
+      "mcp",
+      "sound-design"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "3,045 stars",
+        "url": "https://github.com/Leonxlnx/earshot",
+        "value": 3045,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 97,
@@ -2110,7 +2187,7 @@
     "summary": "Open source SDK to build Muse gadgets",
     "unique": "Written in C",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "24 days old · Featured in Ben's Bites · 2.3k ⭐ on GitHub · +260 ⭐ this week.",
+    "why": "25 days old · Featured in Ben's Bites · 2.3k ⭐ on GitHub · +260 ⭐ this week.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-02T18:21:23Z",
@@ -2296,83 +2373,6 @@
     "summarySource": "template"
   },
   {
-    "id": "2b32bace1db032ac",
-    "name": "earshot",
-    "url": "https://github.com/Leonxlnx/earshot",
-    "repo": "Leonxlnx/earshot",
-    "kind": "github",
-    "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-    "summary": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-    "unique": "Topics: ai-agents, audio, claude-code, mcp, sound-design",
-    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "12 days old · 3.0k ⭐ on GitHub · +1.5k ⭐ this week.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-10-15T06:52:46Z",
-    "firstSeenAt": "2026-10-19T13:31:59.604Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 3006,
-    "starHistory": [
-      {
-        "at": "2026-10-19T20:37:58.193Z",
-        "stars": 1464
-      },
-      {
-        "at": "2026-10-20T23:57:39.440Z",
-        "stars": 1944
-      },
-      {
-        "at": "2026-10-21T21:48:23.060Z",
-        "stars": 2049
-      },
-      {
-        "at": "2026-10-22T21:43:19.556Z",
-        "stars": 2141
-      },
-      {
-        "at": "2026-10-23T21:29:28.915Z",
-        "stars": 2435
-      },
-      {
-        "at": "2026-10-24T23:21:19.432Z",
-        "stars": 2627
-      },
-      {
-        "at": "2026-10-25T23:20:11.465Z",
-        "stars": 2779
-      },
-      {
-        "at": "2026-10-26T20:35:11.061Z",
-        "stars": 2900
-      },
-      {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 3006
-      }
-    ],
-    "starsDelta7d": 1542,
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-      "ai-agents",
-      "audio",
-      "claude-code",
-      "mcp",
-      "sound-design"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "3,005 stars",
-        "url": "https://github.com/Leonxlnx/earshot",
-        "value": 3005,
-        "at": "2026-10-27T15:25:14.259Z"
-      }
-    ],
-    "score": 96,
-    "summarySource": "template"
-  },
-  {
     "id": "54d164a6a58484ab",
     "name": "mailcheap",
     "url": "https://mailcheap.ai",
@@ -2382,13 +2382,13 @@
     "summary": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai.",
     "unique": "Topics: ai-agents, amazon-ses, beehiiv-alternative, email, email-marketing",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "17 days old · Featured in Ben's Bites · 1.5k ⭐ on GitHub · +262 ⭐ this week.",
+    "why": "17 days old · Featured in Ben's Bites · 1.5k ⭐ on GitHub · +269 ⭐ this week.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-10T12:55:36Z",
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1513,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1520,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -2447,11 +2447,11 @@
         "stars": 1490
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1513
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1520
       }
     ],
-    "starsDelta7d": 262,
+    "starsDelta7d": 269,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "topics": [
@@ -2467,10 +2467,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,513 stars",
+        "label": "1,520 stars",
         "url": "https://github.com/marclou/mailcheap",
-        "value": 1513,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 1520,
+        "at": "2026-10-27T22:22:25.706Z"
       },
       {
         "source": "newsletter",
@@ -2493,13 +2493,13 @@
     "summary": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
     "unique": "Topics: agent-skill, ai-agent, claude-code, claude-code-skill, claude-skill",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "25 days old · 4.5k ⭐ on GitHub · +651 ⭐ this week.",
+    "why": "25 days old · 4.5k ⭐ on GitHub · +656 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-02T09:57:40Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 4539,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 4544,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -2574,11 +2574,11 @@
         "stars": 4495
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 4539
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 4544
       }
     ],
-    "starsDelta7d": 651,
+    "starsDelta7d": 656,
     "language": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -2594,10 +2594,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "4,539 stars",
+        "label": "4,544 stars",
         "url": "https://github.com/QingYunA/answer-me-with-html",
-        "value": 4539,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 4544,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 93,
@@ -2613,13 +2613,13 @@
     "summary": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
     "unique": "Topics: ai-agent, airplay, automation, computer-use, esp32",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "15 days old · 4.0k ⭐ on GitHub · +720 ⭐ this week.",
+    "why": "16 days old · 4.0k ⭐ on GitHub · +735 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-11T19:10:25Z",
     "firstSeenAt": "2026-10-13T06:52:26.045Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 3996,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 4011,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -2678,11 +2678,11 @@
         "stars": 3941
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 3996
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 4011
       }
     ],
-    "starsDelta7d": 720,
+    "starsDelta7d": 735,
     "language": "C",
     "license": "MIT",
     "topics": [
@@ -2698,10 +2698,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "3,996 stars",
+        "label": "4,011 stars",
         "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-        "value": 3996,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 4011,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 93,
@@ -2979,13 +2979,13 @@
     "summary": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
     "unique": "Topics: cli, javascript, mcp, react, shaders",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "27 days old · 5.6k ⭐ on GitHub · +442 ⭐ this week.",
+    "why": "28 days old · 5.6k ⭐ on GitHub · +465 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-29T16:36:26Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 5581,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 5604,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3060,11 +3060,11 @@
         "stars": 5497
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 5581
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 5604
       }
     ],
-    "starsDelta7d": 442,
+    "starsDelta7d": 465,
     "language": "TypeScript",
     "license": "MIT",
     "topics": [
@@ -3080,10 +3080,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "5,581 stars",
+        "label": "5,604 stars",
         "url": "https://github.com/shader-effects-inc/shaders",
-        "value": 5581,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 5604,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 92,
@@ -3099,13 +3099,13 @@
     "summary": "Project Maya - run GLM-5.3-Flash (321B MoE), DeepSeek-V4.1-Flash-1017 (748B MoE) and MiniMax-M3.1-Flash (428B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.",
     "unique": "Topics: cuda, deepseek, deepseek-v4, glm, glm-5",
     "benefit": "Alternative inference/API infrastructure that may cut costs.",
-    "why": "20 days old · 2.0k ⭐ on GitHub · +965 ⭐ this week.",
+    "why": "20 days old · 2.1k ⭐ on GitHub · +992 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-06T22:55:13Z",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 2045,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 2072,
     "starHistory": [
       {
         "at": "2026-10-14T21:47:04.696Z",
@@ -3160,11 +3160,11 @@
         "stars": 1975
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 2045
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 2072
       }
     ],
-    "starsDelta7d": 965,
+    "starsDelta7d": 992,
     "language": "Cuda",
     "license": "MIT",
     "topics": [
@@ -3180,10 +3180,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,045 stars",
+        "label": "2,072 stars",
         "url": "https://github.com/mw00/project-maya",
-        "value": 2045,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 2072,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 92,
@@ -3295,13 +3295,13 @@
     "summary": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
     "unique": "Topics: business-plan, claude-code, claude-skills, startup, subagents",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "20 days old · 2.0k ⭐ on GitHub · +889 ⭐ this week.",
+    "why": "20 days old · 2.0k ⭐ on GitHub · +949 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-07T01:07:13Z",
     "firstSeenAt": "2026-10-16T11:33:48.792Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1958,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 2018,
     "starHistory": [
       {
         "at": "2026-10-16T21:19:28.792Z",
@@ -3348,11 +3348,11 @@
         "stars": 1848
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1958
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 2018
       }
     ],
-    "starsDelta7d": 889,
+    "starsDelta7d": 949,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -3366,10 +3366,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,958 stars",
+        "label": "2,018 stars",
         "url": "https://github.com/Jakeschincariol/founder-skill",
-        "value": 1958,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 2018,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 91,
@@ -3477,13 +3477,13 @@
     "summary": "ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑战赛冠军",
     "unique": "Topics: ai-agent, ai-security, artex, autonomous-agents, cybersecurity",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "18 days old · 2.0k ⭐ on GitHub · +731 ⭐ this week.",
+    "why": "19 days old · 2.1k ⭐ on GitHub · +744 ⭐ this week.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-08T20:35:22Z",
     "firstSeenAt": "2026-10-18T20:52:46.911Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 2048,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 2061,
     "starHistory": [
       {
         "at": "2026-10-18T23:20:30.937Z",
@@ -3522,11 +3522,11 @@
         "stars": 1985
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 2048
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 2061
       }
     ],
-    "starsDelta7d": 731,
+    "starsDelta7d": 744,
     "language": "Go",
     "license": "AGPL-3.0",
     "topics": [
@@ -3542,10 +3542,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,048 stars",
+        "label": "2,061 stars",
         "url": "https://github.com/trhhubsd/ARTEX",
-        "value": 2048,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 2061,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 90,
@@ -3561,12 +3561,12 @@
     "summary": "Harness Engineering 101 — building AI agents from first principles. The LLM is the brain; the harness is the body.",
     "unique": "Written in Python",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "50 days old · 598 ⭐ on GitHub · +356 ⭐ this week · 127 points on Hacker News.",
+    "why": "51 days old · 598 ⭐ on GitHub · +356 ⭐ this week · 127 points on Hacker News.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-06T22:22:17Z",
     "firstSeenAt": "2026-10-19T20:37:58.193Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "stars": 598,
     "starHistory": [
       {
@@ -3602,7 +3602,7 @@
         "stars": 580
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
+        "at": "2026-10-27T22:22:25.706Z",
         "stars": 598
       }
     ],
@@ -3632,13 +3632,13 @@
     "summary": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
     "unique": "Topics: agent-skills, ai-design, claude-code, claude-skills, codex",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "27 days old · 2.4k ⭐ on GitHub · +570 ⭐ this week.",
+    "why": "27 days old · 2.4k ⭐ on GitHub · +574 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-30T03:55:35Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 2411,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 2415,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -3713,11 +3713,11 @@
         "stars": 2368
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 2411
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 2415
       }
     ],
-    "starsDelta7d": 570,
+    "starsDelta7d": 574,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -3733,10 +3733,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,411 stars",
+        "label": "2,415 stars",
         "url": "https://github.com/oil-oil/oil-ui",
-        "value": 2411,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 2415,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 89,
@@ -3752,13 +3752,13 @@
     "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
     "unique": "Topics: agent-skills, ai, aisa, claude-code, claude-skills",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "15 days old · 1.9k ⭐ on GitHub · +736 ⭐ this week.",
+    "why": "15 days old · 1.9k ⭐ on GitHub · +743 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-12T07:11:01Z",
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1866,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1873,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -3817,11 +3817,11 @@
         "stars": 1817
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1866
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1873
       }
     ],
-    "starsDelta7d": 736,
+    "starsDelta7d": 743,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -3837,10 +3837,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,866 stars",
+        "label": "1,873 stars",
         "url": "https://github.com/zhuyansen/new-term-radar",
-        "value": 1866,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 1873,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 89,
@@ -3856,13 +3856,13 @@
     "summary": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "unique": "Topics: ai-agent, autonomous-agents, blue-team, cybersecurity, detection-engineering",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "24 days old · 2.3k ⭐ on GitHub · +551 ⭐ this week.",
+    "why": "24 days old · 2.3k ⭐ on GitHub · +569 ⭐ this week.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-03T14:49:48Z",
     "firstSeenAt": "2026-10-13T16:59:55.572Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 2262,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 2280,
     "starHistory": [
       {
         "at": "2026-10-13T22:53:06.584Z",
@@ -3921,11 +3921,11 @@
         "stars": 2217
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 2262
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 2280
       }
     ],
-    "starsDelta7d": 551,
+    "starsDelta7d": 569,
     "language": "Go",
     "license": "AGPL-3.0",
     "topics": [
@@ -3941,10 +3941,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,262 stars",
+        "label": "2,280 stars",
         "url": "https://github.com/jiwoochris/artex-global",
-        "value": 2262,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 2280,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 89,
@@ -4043,13 +4043,13 @@
     "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
     "unique": "Topics: ai-agent, cloudflare, cloudflare-workers, durable-objects, personal-assistant",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "17 days old · 1.4k ⭐ on GitHub · +53 ⭐ this week · 188 points on Hacker News.",
+    "why": "17 days old · 1.4k ⭐ on GitHub · +57 ⭐ this week · 188 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-10T09:46:56Z",
     "firstSeenAt": "2026-10-10T19:19:56.969Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1392,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1396,
     "starHistory": [
       {
         "at": "2026-10-10T19:19:56.969Z",
@@ -4120,11 +4120,11 @@
         "stars": 1391
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1392
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1396
       }
     ],
-    "starsDelta7d": 53,
+    "starsDelta7d": 57,
     "language": "TypeScript",
     "license": "MIT",
     "topics": [
@@ -4140,10 +4140,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,392 stars",
+        "label": "1,396 stars",
         "url": "https://github.com/rociiu/talorys",
-        "value": 1392,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 1396,
+        "at": "2026-10-27T22:22:25.706Z"
       },
       {
         "source": "hackernews",
@@ -4171,7 +4171,7 @@
     "novelty": "new",
     "createdAt": "2026-10-08T08:39:15Z",
     "firstSeenAt": "2026-10-09T16:18:37.683Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "stars": 823,
     "starHistory": [
       {
@@ -4247,7 +4247,7 @@
         "stars": 822
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
+        "at": "2026-10-27T22:22:25.706Z",
         "stars": 823
       }
     ],
@@ -4269,7 +4269,7 @@
         "label": "823 stars",
         "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
         "value": 823,
-        "at": "2026-10-27T15:25:14.259Z"
+        "at": "2026-10-27T22:22:25.706Z"
       },
       {
         "source": "hackernews",
@@ -4378,13 +4378,13 @@
     "summary": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
     "unique": "Topics: agent-skills, ai-writing, antigravity, claude-code, codex",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "27 days old · 2.6k ⭐ on GitHub · +335 ⭐ this week.",
+    "why": "27 days old · 2.6k ⭐ on GitHub · +339 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-30T11:49:32Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 2597,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 2601,
     "starHistory": [
       {
         "at": "2026-10-09T22:44:03.896Z",
@@ -4459,11 +4459,11 @@
         "stars": 2573
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 2597
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 2601
       }
     ],
-    "starsDelta7d": 335,
+    "starsDelta7d": 339,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -4479,10 +4479,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,597 stars",
+        "label": "2,601 stars",
         "url": "https://github.com/nanaism/yomiyasu",
-        "value": 2597,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 2601,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 86,
@@ -4577,6 +4577,125 @@
     "summarySource": "template"
   },
   {
+    "id": "2c26ee007454d2a2",
+    "name": "mesh-avatar-studio",
+    "url": "https://shinshin86.github.io/mesh-avatar-studio/",
+    "repo": "shinshin86/mesh-avatar-studio",
+    "kind": "github",
+    "description": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
+    "summary": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
+    "unique": "Topics: 2d-animation, avatar, claude-code, codex, mesh-deformation",
+    "benefit": "Could speed up coding workflows and developer automation.",
+    "why": "23 days old · 1.3k ⭐ on GitHub · +396 ⭐ this week.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-04T03:33:57Z",
+    "firstSeenAt": "2026-10-09T09:38:27.208Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1250,
+    "starHistory": [
+      {
+        "at": "2026-10-09T22:44:03.896Z",
+        "stars": 563
+      },
+      {
+        "at": "2026-10-10T19:19:56.969Z",
+        "stars": 587
+      },
+      {
+        "at": "2026-10-11T19:36:03.298Z",
+        "stars": 610
+      },
+      {
+        "at": "2026-10-12T21:18:41.028Z",
+        "stars": 646
+      },
+      {
+        "at": "2026-10-13T22:53:06.584Z",
+        "stars": 674
+      },
+      {
+        "at": "2026-10-14T21:47:04.696Z",
+        "stars": 689
+      },
+      {
+        "at": "2026-10-15T21:30:26.752Z",
+        "stars": 736
+      },
+      {
+        "at": "2026-10-16T21:19:28.792Z",
+        "stars": 762
+      },
+      {
+        "at": "2026-10-17T23:11:30.117Z",
+        "stars": 790
+      },
+      {
+        "at": "2026-10-18T23:20:30.937Z",
+        "stars": 810
+      },
+      {
+        "at": "2026-10-19T20:37:58.193Z",
+        "stars": 854
+      },
+      {
+        "at": "2026-10-20T23:57:39.440Z",
+        "stars": 901
+      },
+      {
+        "at": "2026-10-21T21:48:23.060Z",
+        "stars": 959
+      },
+      {
+        "at": "2026-10-22T21:43:19.556Z",
+        "stars": 975
+      },
+      {
+        "at": "2026-10-23T21:29:28.915Z",
+        "stars": 994
+      },
+      {
+        "at": "2026-10-24T23:21:19.432Z",
+        "stars": 1013
+      },
+      {
+        "at": "2026-10-25T23:20:11.465Z",
+        "stars": 1101
+      },
+      {
+        "at": "2026-10-26T20:35:11.061Z",
+        "stars": 1182
+      },
+      {
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1250
+      }
+    ],
+    "starsDelta7d": 396,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "2d-animation",
+      "avatar",
+      "claude-code",
+      "codex",
+      "mesh-deformation",
+      "vtuber",
+      "webgl"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "1,250 stars",
+        "url": "https://github.com/shinshin86/mesh-avatar-studio",
+        "value": 1250,
+        "at": "2026-10-27T22:22:25.706Z"
+      }
+    ],
+    "score": 84,
+    "summarySource": "template"
+  },
+  {
     "id": "5920535834eef505",
     "name": "PS5LM",
     "url": "https://ps5lm.cobanov.dev",
@@ -4586,7 +4705,7 @@
     "summary": "llama.cpp on a jailbroken PS5: run any GGUF model natively on the console, starting with Qwen 3.8",
     "unique": "Topics: homebrew, llama-cpp, llm, playstation-5, ps5",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "25 days old · 722 ⭐ on GitHub · +140 ⭐ this week · 108 points on Hacker News.",
+    "why": "26 days old · 722 ⭐ on GitHub · +140 ⭐ this week · 108 points on Hacker News.",
     "pricing": "Open source (GPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-01T21:09:59Z",
@@ -4683,7 +4802,7 @@
     "summary": "Browser and phone client for herdr: chat and live terminal for every agent pane, remote PCs over SSH, web push alerts",
     "unique": "Topics: bun, claude-code, codex, coding-agents, herdr",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "39 days old · 1.1k ⭐ on GitHub · +403 ⭐ this week.",
+    "why": "40 days old · 1.1k ⭐ on GitHub · +403 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-17T18:52:07Z",
@@ -4750,125 +4869,6 @@
     "summarySource": "template"
   },
   {
-    "id": "2c26ee007454d2a2",
-    "name": "mesh-avatar-studio",
-    "url": "https://shinshin86.github.io/mesh-avatar-studio/",
-    "repo": "shinshin86/mesh-avatar-studio",
-    "kind": "github",
-    "description": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
-    "summary": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
-    "unique": "Topics: 2d-animation, avatar, claude-code, codex, mesh-deformation",
-    "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "23 days old · 1.2k ⭐ on GitHub · +380 ⭐ this week.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-10-04T03:33:57Z",
-    "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1234,
-    "starHistory": [
-      {
-        "at": "2026-10-09T22:44:03.896Z",
-        "stars": 563
-      },
-      {
-        "at": "2026-10-10T19:19:56.969Z",
-        "stars": 587
-      },
-      {
-        "at": "2026-10-11T19:36:03.298Z",
-        "stars": 610
-      },
-      {
-        "at": "2026-10-12T21:18:41.028Z",
-        "stars": 646
-      },
-      {
-        "at": "2026-10-13T22:53:06.584Z",
-        "stars": 674
-      },
-      {
-        "at": "2026-10-14T21:47:04.696Z",
-        "stars": 689
-      },
-      {
-        "at": "2026-10-15T21:30:26.752Z",
-        "stars": 736
-      },
-      {
-        "at": "2026-10-16T21:19:28.792Z",
-        "stars": 762
-      },
-      {
-        "at": "2026-10-17T23:11:30.117Z",
-        "stars": 790
-      },
-      {
-        "at": "2026-10-18T23:20:30.937Z",
-        "stars": 810
-      },
-      {
-        "at": "2026-10-19T20:37:58.193Z",
-        "stars": 854
-      },
-      {
-        "at": "2026-10-20T23:57:39.440Z",
-        "stars": 901
-      },
-      {
-        "at": "2026-10-21T21:48:23.060Z",
-        "stars": 959
-      },
-      {
-        "at": "2026-10-22T21:43:19.556Z",
-        "stars": 975
-      },
-      {
-        "at": "2026-10-23T21:29:28.915Z",
-        "stars": 994
-      },
-      {
-        "at": "2026-10-24T23:21:19.432Z",
-        "stars": 1013
-      },
-      {
-        "at": "2026-10-25T23:20:11.465Z",
-        "stars": 1101
-      },
-      {
-        "at": "2026-10-26T20:35:11.061Z",
-        "stars": 1182
-      },
-      {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1234
-      }
-    ],
-    "starsDelta7d": 380,
-    "language": "TypeScript",
-    "license": "MIT",
-    "topics": [
-      "2d-animation",
-      "avatar",
-      "claude-code",
-      "codex",
-      "mesh-deformation",
-      "vtuber",
-      "webgl"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "1,234 stars",
-        "url": "https://github.com/shinshin86/mesh-avatar-studio",
-        "value": 1234,
-        "at": "2026-10-27T15:25:14.259Z"
-      }
-    ],
-    "score": 83,
-    "summarySource": "template"
-  },
-  {
     "id": "78c563e635c116e2",
     "name": "hob",
     "url": "https://hob.chat",
@@ -4878,17 +4878,17 @@
     "summary": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline.",
     "unique": "Topics: ai-agent, ai-assistant, chatgpt-alternative, claude-alternative, desktop-app",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · 12 days old · 233 ⭐ on GitHub · 97 points on Hacker News.",
+    "why": "Agent pick · 13 days old · 259 ⭐ on GitHub · 97 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-14T22:11:20Z",
     "firstSeenAt": "2026-10-27T00:07:27.875Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 233,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 259,
     "starHistory": [
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 233
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 259
       }
     ],
     "language": "TypeScript",
@@ -5215,12 +5215,12 @@
     "summary": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Use it free at whatsapp.finereli.com, or run your own copy on Cloudflare.",
     "unique": "Written in TypeScript",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "8 days old · 390 ⭐ on GitHub · +108 ⭐ this week · 127 points on Hacker News.",
+    "why": "9 days old · 390 ⭐ on GitHub · +108 ⭐ this week · 127 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-18T21:01:54Z",
     "firstSeenAt": "2026-10-19T13:31:59.604Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "stars": 390,
     "starHistory": [
       {
@@ -5256,7 +5256,7 @@
         "stars": 387
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
+        "at": "2026-10-27T22:22:25.706Z",
         "stars": 390
       }
     ],
@@ -5384,12 +5384,12 @@
     "summary": "Websites, ready for AI. Turn website tasks into verified CLI and MCP actions, with a local dashboard and 20 languages.",
     "unique": "Topics: ai-agents, automation, cli, developer-tools, local-first",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · 17 days old · 429 ⭐ on GitHub.",
+    "why": "Agent pick · 18 days old · 429 ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-09T16:57:27Z",
     "firstSeenAt": "2026-10-26T00:07:31.415Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "stars": 429,
     "starHistory": [
       {
@@ -5397,7 +5397,7 @@
         "stars": 428
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
+        "at": "2026-10-27T22:22:25.706Z",
         "stars": 429
       }
     ],
@@ -5442,13 +5442,13 @@
     "summary": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs that regress. Self-hostable.",
     "unique": "Topics: agent-evaluation, ai-agents, ai-testing, ci-cd, clickhouse",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "15 days old · 1.2k ⭐ on GitHub · +113 ⭐ this week.",
+    "why": "16 days old · 1.2k ⭐ on GitHub · +116 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-11T15:38:03Z",
     "firstSeenAt": "2026-10-18T00:03:06.118Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1199,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1202,
     "starHistory": [
       {
         "at": "2026-10-18T23:20:30.937Z",
@@ -5487,11 +5487,11 @@
         "stars": 1190
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1199
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1202
       }
     ],
-    "starsDelta7d": 113,
+    "starsDelta7d": 116,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -5507,10 +5507,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,199 stars",
+        "label": "1,202 stars",
         "url": "https://github.com/jwuthri-cloud/Tracely-ai",
-        "value": 1199,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 1202,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 76,
@@ -5936,7 +5936,7 @@
     "novelty": "new",
     "createdAt": "2026-09-30T12:52:24Z",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "stars": 1046,
     "starHistory": [
       {
@@ -6012,7 +6012,7 @@
         "stars": 1039
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
+        "at": "2026-10-27T22:22:25.706Z",
         "stars": 1046
       }
     ],
@@ -6035,7 +6035,7 @@
         "label": "1,046 stars",
         "url": "https://github.com/Edwardxlai/easyread",
         "value": 1046,
-        "at": "2026-10-27T15:25:14.259Z"
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 72,
@@ -6131,17 +6131,17 @@
     "summary": "Know the risk of merging a pull request, and where it lives. Free, open-source CLI and GitHub Action: after your AI review, farol shows the riskiest files, what they reach, diff coverage and contract breaks. TypeScript/React, Go, Python.",
     "unique": "Topics: ai-code-review, cli, code-review, developer-tools, diff-coverage",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "Agent pick · 5 days old · 146 ⭐ on GitHub.",
+    "why": "Agent pick · 6 days old · 153 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-21T21:52:58Z",
     "firstSeenAt": "2026-10-27T00:07:27.875Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 146,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 153,
     "starHistory": [
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 146
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 153
       }
     ],
     "language": "TypeScript",
@@ -6178,13 +6178,13 @@
     "summary": "Open-source agentic security operations platform:",
     "unique": "Topics: agentic-ai, agentic-security, agentic-workflow, cyber-security, cyber-threat-intelligence",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · 2 days old · 101 ⭐ on GitHub · 17 points on Hacker News.",
+    "why": "Agent pick · 3 days old · 106 ⭐ on GitHub · 17 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-24T16:12:28Z",
     "firstSeenAt": "2026-10-25T00:07:15.670Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 101,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 106,
     "starHistory": [
       {
         "at": "2026-10-25T23:20:11.465Z",
@@ -6195,8 +6195,8 @@
         "stars": 95
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 101
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 106
       }
     ],
     "language": "Python",
@@ -6536,17 +6536,17 @@
     "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
     "unique": "Written in CSS",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Older project (since 2026) gaining momentum · Featured in Ben's Bites · 38k ⭐ on GitHub.",
+    "why": "Older project (since 2026) gaining momentum · Featured in Ben's Bites · 39k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "trending",
     "createdAt": "2026-04-27T20:47:10Z",
     "firstSeenAt": "2026-10-27T15:25:14.259Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 38302,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 38868,
     "starHistory": [
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 38302
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 38868
       }
     ],
     "language": "CSS",
@@ -6742,7 +6742,7 @@
     "novelty": "trending",
     "createdAt": "2026-03-23T21:20:50Z",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "stars": 62,
     "starHistory": [
       {
@@ -6806,7 +6806,7 @@
         "stars": 62
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
+        "at": "2026-10-27T22:22:25.706Z",
         "stars": 62
       }
     ],
@@ -6845,21 +6845,21 @@
     "summary": "Your local AI copilot for documents",
     "unique": "Written in Rust",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "29 days old · 643 ⭐ on GitHub · 178 points on Hacker News.",
+    "why": "29 days old · 651 ⭐ on GitHub · 178 points on Hacker News.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-28T08:04:29Z",
     "firstSeenAt": "2026-10-26T13:15:11.052Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 643,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 651,
     "starHistory": [
       {
         "at": "2026-10-26T20:35:11.061Z",
         "stars": 552
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 643
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 651
       }
     ],
     "language": "Rust",
@@ -6892,12 +6892,12 @@
     "novelty": "new",
     "createdAt": "2026-10-23T12:20:16Z",
     "firstSeenAt": "2026-10-27T15:25:14.259Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1166,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1233,
     "starHistory": [
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1166
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1233
       }
     ],
     "language": "HTML",
@@ -7008,7 +7008,7 @@
     "summary": "Deep AI search for every photo and every frame of video in any folder on macOS",
     "unique": "Topics: embeddinggemma-2, transformers-js, video-agents, video-processing, vlms",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "23 days old · 481 ⭐ on GitHub · 180 points on Hacker News.",
+    "why": "24 days old · 481 ⭐ on GitHub · 180 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-03T16:11:55Z",
@@ -7072,13 +7072,13 @@
     "summary": "Friendly helper for your agents.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 3 days ago · 125 points on Hacker News.",
+    "why": "Agent pick · First spotted 4 days ago · 125 points on Hacker News.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-23T19:46:38Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-25T00:07:15.670Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7111,7 +7111,7 @@
     "summary": "Agent tooling for generative LEGO models building, built with Astra and Opus 5.5, powered by Jev",
     "unique": "Written in Python",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "33 days old · 346 ⭐ on GitHub · 167 points on Hacker News.",
+    "why": "34 days old · 346 ⭐ on GitHub · 167 points on Hacker News.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-23T18:08:25Z",
@@ -7161,7 +7161,7 @@
     "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
     "unique": "Topics: 3d-modeling, brep, cad, egui, mcp",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "19 days old · 3.0k ⭐ on GitHub · 33 points on Hacker News.",
+    "why": "20 days old · 3.0k ⭐ on GitHub · 33 points on Hacker News.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-07T18:57:48Z",
@@ -7231,13 +7231,13 @@
     "summary": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
     "unique": "Topics: android-tv, claude-code, google-tv, home-screen, launcher",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "7 days old · 4.9k ⭐ on GitHub.",
+    "why": "8 days old · 5.0k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-19T19:29:01Z",
     "firstSeenAt": "2026-10-20T19:21:23.050Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 4946,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 5040,
     "starHistory": [
       {
         "at": "2026-10-20T23:57:39.440Z",
@@ -7268,8 +7268,8 @@
         "stars": 4833
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 4946
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 5040
       }
     ],
     "language": "Java",
@@ -7287,10 +7287,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "4,946 stars",
+        "label": "5,040 stars",
         "url": "https://github.com/simbasjungles/free-my-tv",
-        "value": 4946,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 5040,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 54,
@@ -7311,7 +7311,7 @@
     "novelty": "trending",
     "createdAt": "2026-07-21T03:37:58Z",
     "firstSeenAt": "2026-10-26T00:07:31.415Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "stars": 39,
     "starHistory": [
       {
@@ -7319,7 +7319,7 @@
         "stars": 39
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
+        "at": "2026-10-27T22:22:25.706Z",
         "stars": 39
       }
     ],
@@ -7357,12 +7357,12 @@
     "summary": "Check whether AI crawlers (GPTBot, ClaudeBot, PerplexityBot and more) can access your site. CLI, library, MCP server and GitHub Action.",
     "unique": "Topics: ai-crawlers, claudebot, cli, geo, github-action",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · Just launched · 3 ⭐ on GitHub.",
+    "why": "Agent pick · 2 days old · 3 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-25T20:17:29Z",
     "firstSeenAt": "2026-10-26T00:07:31.415Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "stars": 3,
     "starHistory": [
       {
@@ -7370,7 +7370,7 @@
         "stars": 3
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
+        "at": "2026-10-27T22:22:25.706Z",
         "stars": 3
       }
     ],
@@ -7408,12 +7408,12 @@
     "summary": "A local macOS jolt for agents that need your attention. Desktop glitch cues, five original crackles, CLI and MCP.",
     "unique": "Written in Swift",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · Just launched · 3 ⭐ on GitHub.",
+    "why": "Agent pick · 2 days old · 3 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-25T21:46:08Z",
     "firstSeenAt": "2026-10-26T04:56:58.020Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "stars": 3,
     "starHistory": [
       {
@@ -7421,7 +7421,7 @@
         "stars": 3
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
+        "at": "2026-10-27T22:22:25.706Z",
         "stars": 3
       }
     ],
@@ -7435,6 +7435,47 @@
         "url": "https://github.com/elbee19/glitchrupt",
         "value": 1,
         "at": "2026-10-26T00:07:27.624Z"
+      }
+    ],
+    "score": 52,
+    "summarySource": "template"
+  },
+  {
+    "id": "145263340b866919",
+    "name": "coworkers",
+    "url": "https://github.com/fayazara/coworkers",
+    "repo": "fayazara/coworkers",
+    "kind": "github",
+    "description": "AI teammates that each get their own computer and browser. Built entirely on Cloudflare.",
+    "summary": "AI teammates that each get their own computer and browser. Built entirely on Cloudflare.",
+    "unique": "Topics: cloudflare, durable-objects",
+    "benefit": "A new AI tool worth evaluating for your needs.",
+    "why": "27 days old · Featured in Ben's Bites · 300 ⭐ on GitHub.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-09-30T14:42:19Z",
+    "firstSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 300,
+    "starHistory": [
+      {
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 300
+      }
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "cloudflare",
+      "durable-objects"
+    ],
+    "signals": [
+      {
+        "source": "newsletter",
+        "label": "Featured in Ben's Bites",
+        "url": "https://www.bensbites.com/p/is-anthropic-the-best-business-in",
+        "value": 1,
+        "at": "2026-10-27T14:19:32.000Z"
       }
     ],
     "score": 52,
@@ -7563,47 +7604,6 @@
     "summarySource": "template"
   },
   {
-    "id": "145263340b866919",
-    "name": "coworkers",
-    "url": "https://github.com/fayazara/coworkers",
-    "repo": "fayazara/coworkers",
-    "kind": "github",
-    "description": "AI teammates that each get their own computer and browser. Built entirely on Cloudflare.",
-    "summary": "AI teammates that each get their own computer and browser. Built entirely on Cloudflare.",
-    "unique": "Topics: cloudflare, durable-objects",
-    "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "27 days old · Featured in Ben's Bites · 281 ⭐ on GitHub.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-09-30T14:42:19Z",
-    "firstSeenAt": "2026-10-27T15:25:14.259Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 281,
-    "starHistory": [
-      {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 281
-      }
-    ],
-    "language": "TypeScript",
-    "license": "MIT",
-    "topics": [
-      "cloudflare",
-      "durable-objects"
-    ],
-    "signals": [
-      {
-        "source": "newsletter",
-        "label": "Featured in Ben's Bites",
-        "url": "https://www.bensbites.com/p/is-anthropic-the-best-business-in",
-        "value": 1,
-        "at": "2026-10-27T14:19:32.000Z"
-      }
-    ],
-    "score": 51,
-    "summarySource": "template"
-  },
-  {
     "id": "0d1137bc27098f73",
     "name": "solid-glass",
     "url": "https://deeplethe.github.io/solid-glass",
@@ -7618,8 +7618,8 @@
     "novelty": "new",
     "createdAt": "2026-10-12T09:19:02Z",
     "firstSeenAt": "2026-10-15T04:50:11.717Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 2258,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 2260,
     "starHistory": [
       {
         "at": "2026-10-15T21:30:26.752Z",
@@ -7670,11 +7670,11 @@
         "stars": 2252
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 2258
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 2260
       }
     ],
-    "starsDelta7d": -13,
+    "starsDelta7d": -11,
     "language": "TypeScript",
     "license": "MIT",
     "topics": [
@@ -7690,10 +7690,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "2,258 stars",
+        "label": "2,260 stars",
         "url": "https://github.com/deeplethe/solid-glass",
-        "value": 2258,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 2260,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 50,
@@ -7714,8 +7714,8 @@
     "novelty": "trending",
     "createdAt": "2026-08-26T20:56:52Z",
     "firstSeenAt": "2026-10-25T11:42:45.846Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1064,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1068,
     "starHistory": [
       {
         "at": "2026-10-25T23:20:11.465Z",
@@ -7726,8 +7726,8 @@
         "stars": 1043
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1064
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1068
       }
     ],
     "language": "Python",
@@ -7760,7 +7760,7 @@
     "createdAt": "2026-10-16T14:35:43Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-18T00:08:33.076Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -7793,7 +7793,7 @@
     "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
     "unique": "Topics: 2d-animation, ai-agents, ai-video, animation, claude-code",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "28 days old · 1.9k ⭐ on GitHub.",
+    "why": "29 days old · 1.9k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-28T19:14:59Z",
@@ -7889,7 +7889,7 @@
     "summary": "Skill to record video demos of your web app with zoom-ins and voiceover",
     "unique": "Written in TypeScript",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "39 days old · Featured in Ben's Bites · 189 ⭐ on GitHub.",
+    "why": "40 days old · Featured in Ben's Bites · 189 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-17T21:40:30Z",
@@ -7932,8 +7932,8 @@
     "novelty": "trending",
     "createdAt": "2025-07-09T01:30:55Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 3289,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 3295,
     "starHistory": [
       {
         "at": "2026-10-22T21:43:19.556Z",
@@ -7956,8 +7956,8 @@
         "stars": 3270
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 3289
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 3295
       }
     ],
     "language": "Go",
@@ -7999,8 +7999,8 @@
     "novelty": "new",
     "createdAt": "2026-10-18T12:19:27Z",
     "firstSeenAt": "2026-10-20T14:21:40.747Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1787,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1800,
     "starHistory": [
       {
         "at": "2026-10-20T23:57:39.440Z",
@@ -8031,8 +8031,8 @@
         "stars": 1732
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1787
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1800
       }
     ],
     "language": "JavaScript",
@@ -8050,10 +8050,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,787 stars",
+        "label": "1,800 stars",
         "url": "https://github.com/alchaincyf/huashu-motion",
-        "value": 1787,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 1800,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 49,
@@ -8074,12 +8074,12 @@
     "novelty": "new",
     "createdAt": "2026-10-07T05:10:45Z",
     "firstSeenAt": "2026-10-27T15:25:14.259Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1678,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1677,
     "starHistory": [
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1678
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1677
       }
     ],
     "language": "TypeScript",
@@ -8097,10 +8097,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,678 stars",
+        "label": "1,677 stars",
         "url": "https://github.com/HelixDB/helix-foundry",
-        "value": 1678,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 1677,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 49,
@@ -8281,13 +8281,13 @@
     "summary": "An open-source benchmark of how much code AI models add.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 13 days ago · 33 points on Hacker News.",
+    "why": "Agent pick · First spotted 14 days ago · 33 points on Hacker News.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T19:50:31Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8376,8 +8376,8 @@
     "novelty": "new",
     "createdAt": "2026-09-29T11:53:37Z",
     "firstSeenAt": "2026-10-21T11:59:56.158Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
-    "stars": 1593,
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
+    "stars": 1595,
     "starHistory": [
       {
         "at": "2026-10-21T21:48:23.060Z",
@@ -8404,8 +8404,8 @@
         "stars": 1581
       },
       {
-        "at": "2026-10-27T15:25:14.259Z",
-        "stars": 1593
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 1595
       }
     ],
     "language": "Python",
@@ -8423,10 +8423,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,593 stars",
+        "label": "1,595 stars",
         "url": "https://github.com/StartLuxLabs/StartLux-Decision",
-        "value": 1593,
-        "at": "2026-10-27T15:25:14.259Z"
+        "value": 1595,
+        "at": "2026-10-27T22:22:25.706Z"
       }
     ],
     "score": 48,
@@ -8447,7 +8447,7 @@
     "createdAt": "2026-10-09T09:31:18.502Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8485,7 +8485,7 @@
     "createdAt": "2026-10-09T14:35:33.981Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8516,7 +8516,7 @@
     "createdAt": "2026-10-09T14:35:33.716Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8547,7 +8547,7 @@
     "createdAt": "2026-10-09T14:35:33.470Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8578,7 +8578,7 @@
     "createdAt": "2026-10-09T14:35:33.219Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8609,7 +8609,7 @@
     "createdAt": "2026-10-09T14:35:32.976Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8640,7 +8640,7 @@
     "createdAt": "2026-10-10T00:08:19.894Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8671,7 +8671,7 @@
     "createdAt": "2026-10-10T00:08:19.596Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8702,7 +8702,7 @@
     "createdAt": "2026-10-10T00:08:19.322Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8733,7 +8733,7 @@
     "createdAt": "2026-10-10T00:08:19.049Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8764,7 +8764,7 @@
     "createdAt": "2026-10-10T00:08:18.795Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8795,7 +8795,7 @@
     "createdAt": "2026-10-11T00:13:00.501Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8826,7 +8826,7 @@
     "createdAt": "2026-10-11T00:13:00.256Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8857,7 +8857,7 @@
     "createdAt": "2026-10-11T00:13:00.008Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8888,7 +8888,7 @@
     "createdAt": "2026-10-11T00:12:59.766Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8919,7 +8919,7 @@
     "createdAt": "2026-10-12T00:11:43.908Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8950,7 +8950,7 @@
     "createdAt": "2026-10-12T00:11:43.648Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -8981,7 +8981,7 @@
     "createdAt": "2026-10-12T00:11:43.399Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9012,7 +9012,7 @@
     "createdAt": "2026-10-13T00:09:43.211Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9037,7 +9037,7 @@
     "summary": "Use your AI agent to prepare directory submissions with platform instructions, a reusable product brief and a local tracker. Pay once for your own products.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 15 days ago · Buzzing on X (@AleksDoesCode).",
+    "why": "Agent pick · First spotted 16 days ago · Buzzing on X (@AleksDoesCode).",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T17:00:00.000Z",
@@ -9050,7 +9050,7 @@
       "date": "2026-10-12T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9081,7 +9081,7 @@
     "createdAt": "2026-10-13T00:09:42.711Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9112,7 +9112,7 @@
     "createdAt": "2026-10-13T00:09:42.456Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9143,7 +9143,7 @@
     "createdAt": "2026-10-13T00:09:42.215Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9168,7 +9168,7 @@
     "summary": "Join the Ambi waitlist. We’ll let you know when your access is ready.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 15 days ago · Buzzing on X (@hello_ambi).",
+    "why": "Agent pick · First spotted 16 days ago · Buzzing on X (@hello_ambi).",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T17:00:00.000Z",
@@ -9181,7 +9181,7 @@
       "date": "2026-10-12T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9212,7 +9212,7 @@
     "createdAt": "2026-10-14T00:10:07.943Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9243,7 +9243,7 @@
     "createdAt": "2026-10-14T00:10:07.591Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9274,7 +9274,7 @@
     "createdAt": "2026-10-14T00:10:07.237Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9305,7 +9305,7 @@
     "createdAt": "2026-10-14T00:10:06.541Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9336,7 +9336,7 @@
     "createdAt": "2026-10-15T00:09:27.012Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9367,7 +9367,7 @@
     "createdAt": "2026-10-15T00:09:26.659Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9398,7 +9398,7 @@
     "createdAt": "2026-10-15T00:09:26.243Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9423,7 +9423,7 @@
     "summary": "Bring Claude Code and Codex to where your team already works. Merlin runs them on your team's own machines and puts every run in the open where anyone can steer it.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 32 days ago · Buzzing on X (@DottChen).",
+    "why": "Agent pick · First spotted 33 days ago · Buzzing on X (@DottChen).",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-09-24T17:00:00.000Z",
@@ -9436,7 +9436,7 @@
       "date": "2026-09-25T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9467,7 +9467,7 @@
     "createdAt": "2026-10-16T00:11:32.952Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T00:11:40.350Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9498,7 +9498,7 @@
     "createdAt": "2026-10-16T00:11:32.679Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T00:11:40.350Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9529,7 +9529,7 @@
     "createdAt": "2026-10-16T00:11:32.416Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T00:11:40.350Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9560,7 +9560,7 @@
     "createdAt": "2026-10-16T00:11:32.139Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T00:11:40.350Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9591,7 +9591,7 @@
     "createdAt": "2026-10-16T00:11:31.873Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T13:36:11.791Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9622,7 +9622,7 @@
     "createdAt": "2026-10-17T00:07:56.723Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9653,7 +9653,7 @@
     "createdAt": "2026-10-17T00:07:56.379Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9684,7 +9684,7 @@
     "createdAt": "2026-10-17T00:07:56.006Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9715,7 +9715,7 @@
     "createdAt": "2026-10-17T00:07:55.608Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9746,7 +9746,7 @@
     "createdAt": "2026-10-17T00:07:55.254Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9777,7 +9777,7 @@
     "createdAt": "2026-10-18T00:08:28.648Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-18T00:08:33.076Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9808,7 +9808,7 @@
     "createdAt": "2026-10-18T00:08:28.398Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-18T00:08:33.076Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9846,7 +9846,7 @@
       "date": "2026-10-16T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-18T00:08:33.076Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9877,7 +9877,7 @@
     "createdAt": "2026-10-18T00:08:27.610Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-18T00:08:33.076Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -9908,7 +9908,7 @@
     "createdAt": "2026-10-24T00:08:56.215Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-24T00:09:00.324Z",
-    "lastSeenAt": "2026-10-27T15:25:14.259Z",
+    "lastSeenAt": "2026-10-27T22:22:25.706Z",
     "language": null,
     "license": null,
     "topics": [],

@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-10-27T15:25:14.259Z",
+  "generatedAt": "2026-10-27T22:22:25.706Z",
   "stories": [
+    {
+      "id": "c6099fc8919f3d54",
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "entity": "GPT 6",
+      "labs": [
+        "microsoft",
+        "openai"
+      ],
+      "official": 1,
+      "press": 1,
+      "outlets": [
+        "Visual Studio Magazine"
+      ],
+      "firstAt": "2026-10-19T19:41:14.000Z",
+      "lastAt": "2026-10-23T00:00:00.000Z",
+      "url": "https://openai.com/index/anima",
+      "lead": {
+        "kind": "official",
+        "id": "c6099fc8919f3d54"
+      },
+      "importance": 92
+    },
     {
       "id": "1758535ac6be3e6b",
       "title": "Introducing GPT-6.1 Terra",
@@ -99,7 +121,7 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 13,
+      "press": 16,
       "outlets": [
         "Towards Data Science",
         "The Davis Enterprise",
@@ -113,17 +135,51 @@
         "PPC Land",
         "shattered.io",
         "infoq.com",
+        "i-programmer.info",
         "9to5Google",
-        "TechRadar"
+        "TechRadar",
+        "Mezha.net"
       ],
       "firstAt": "2026-10-19T16:45:48.000Z",
-      "lastAt": "2026-10-27T04:00:00.000Z",
+      "lastAt": "2026-10-27T15:25:27.000Z",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLTFFREd2SGVNNTJqa201dU1rc1E2aUE1ZzlXVEczcHMtM2ItQlFvS0RheWxrTjNKLThPSEZKVUxYZmp0TzZiNmdlTXpFQWpITkQtMll0NTVXZUhvbG1YSXlFLWFFZkE1LXZYUW5lR0lHaG1VTnFNa1RCdGxlVmZxcldNeHBLaVV2MFNLdXNMdnFEZnlobHJpLTlWU3hqbU9mdDdPLU45OVRtMTZNNXFnZTNPeGMydVhCazNOOGNpSTlQQXBjYlhJMUdkMFNVdlVrbnB6ZFBJQnlNSjlzbmNidk14SU1hd3lOTFhYcHhOc0lsdjhL?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:cf5a1652bc43d7"
       },
-      "importance": 64
+      "importance": 65
+    },
+    {
+      "id": "cohere:e64b80cec2130a",
+      "title": "Cohere says Alibaba's Qwen model tried to send data to a Beijing server during a security test",
+      "entity": null,
+      "labs": [
+        "cohere",
+        "qwen"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "BigGo Finance",
+        "Technology Org",
+        "www.trendingtopics.eu",
+        "Startup Fortune",
+        "Analytics India Magazine",
+        "Crypto Briefing",
+        "디지털투데이",
+        "TechCrunch",
+        "CSO Online",
+        "Cyber Magazine",
+        "Mezha.net"
+      ],
+      "firstAt": "2026-10-26T20:56:35.000Z",
+      "lastAt": "2026-10-26T22:15:59.000Z",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IMzZiMjhVdkowa1loZzdrQVUxZlZqX3AxRjJuT3g0YU1rTGE4RzJQN2xOSDdUQjlrRm1EMmxnaW1JMVd5aFVmcTRnNmR5eGdPNEtUUHpOb2ZoMkE1bnRFYlBEVGdCeWdLRm1sTlJiX2JMT1l0Z2c?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "cohere:e64b80cec2130a"
+      },
+      "importance": 63
     },
     {
       "id": "qwen:903f2bd3fa59a7",
@@ -155,6 +211,26 @@
       "importance": 61
     },
     {
+      "id": "685f0df653a9c59c",
+      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+      "entity": null,
+      "labs": [
+        "microsoft",
+        "amazon"
+      ],
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-10-22T18:15:00.000Z",
+      "lastAt": "2026-10-27T18:03:12.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service",
+      "lead": {
+        "kind": "official",
+        "id": "685f0df653a9c59c"
+      },
+      "importance": 60
+    },
+    {
       "id": "nvidia:b0f023eb8b2a0a",
       "title": "Rockwell Automation Expands FactoryTalk Conductor with NVIDIA Nemotron Support",
       "entity": null,
@@ -183,33 +259,6 @@
       "importance": 60
     },
     {
-      "id": "deepseek:c255ac70fae1ec",
-      "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
-      "entity": "DeepSeek 4.1 Flash",
-      "labs": [
-        "deepseek"
-      ],
-      "official": 0,
-      "press": 6,
-      "outlets": [
-        "Briefs Finance",
-        "Techzine Global",
-        "https://tech-insider.org/",
-        "Quartz",
-        "SiliconANGLE",
-        "MarkTechPost",
-        "Interconnects AI"
-      ],
-      "firstAt": "2026-10-17T20:33:17.000Z",
-      "lastAt": "2026-10-20T17:04:21.000Z",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNzRSM0RPcGNOS0lhbGoweV93Q1lTajR5M293eldzLVRzY1NtYjVxaTdWWXJpamdTN2E0b1BERUpvUzUtLWVBaUhCeWlGMVgzeDJCcnFXSmpBZlByMW9fbHFweW9DQlA0UTlMUzhTNGtrQTh6WnM3QXc2bHFtck5GdGpqNDZhRldVZm5id3lVTE5RS254cGfSAZYBQVVfeXFMTzc0UjNET3BjTktJYWxqMHlfd0NZU2o0eTNvd3pXcy1Uc2NTbWI1cWk3VllyaWpnUzdhNG9QREVKb1M1LS1lQWlIQnlpRjFYM3gyQnJxV0pqQWZQcjFvX2xxcHlvQ0JQNFE5TFM4UzRra0E4elpzN0F3NmxxbXJORnRqajQ2YUZXVWZuYnd5VUxOUUtueHBn?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "deepseek:c255ac70fae1ec"
-      },
-      "importance": 59
-    },
-    {
       "id": "qwen:41937276a19072",
       "title": "Qwen3.8-Flash-Next Tried a Beijing Upload, Cohere Says",
       "entity": "Qwen 3.8 Flash",
@@ -232,6 +281,32 @@
       "lead": {
         "kind": "press",
         "id": "qwen:41937276a19072"
+      },
+      "importance": 58
+    },
+    {
+      "id": "deepseek:c255ac70fae1ec",
+      "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
+      "entity": "DeepSeek 4.1 Flash",
+      "labs": [
+        "deepseek"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "Techzine Global",
+        "https://tech-insider.org/",
+        "Quartz",
+        "SiliconANGLE",
+        "MarkTechPost",
+        "Interconnects AI"
+      ],
+      "firstAt": "2026-10-19T07:32:11.000Z",
+      "lastAt": "2026-10-20T17:04:21.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNzRSM0RPcGNOS0lhbGoweV93Q1lTajR5M293eldzLVRzY1NtYjVxaTdWWXJpamdTN2E0b1BERUpvUzUtLWVBaUhCeWlGMVgzeDJCcnFXSmpBZlByMW9fbHFweW9DQlA0UTlMUzhTNGtrQTh6WnM3QXc2bHFtck5GdGpqNDZhRldVZm5id3lVTE5RS254cGfSAZYBQVVfeXFMTzc0UjNET3BjTktJYWxqMHlfd0NZU2o0eTNvd3pXcy1Uc2NTbWI1cWk3VllyaWpnUzdhNG9QREVKb1M1LS1lQWlIQnlpRjFYM3gyQnJxV0pqQWZQcjFvX2xxcHlvQ0JQNFE5TFM4UzRra0E4elpzN0F3NmxxbXJORnRqajQ2YUZXVWZuYnd5VUxOUUtueHBn?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "deepseek:c255ac70fae1ec"
       },
       "importance": 58
     },
@@ -286,6 +361,29 @@
       "importance": 57
     },
     {
+      "id": "qwen:a32e0804e5a1eb",
+      "title": "Alibaba Qwen AI model attempted to contact Beijing server, Cohere says",
+      "entity": null,
+      "labs": [
+        "qwen",
+        "cohere"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Tech Wire Asia",
+        "Brief IA"
+      ],
+      "firstAt": "2026-10-23T07:00:00.000Z",
+      "lastAt": "2026-10-27T02:04:57.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qZC1xNXFnLXktTDR3aGJtcEZkSmZEM0dWOGpaLWtHOTJoVndWWWhfNXRMTlhNbFVKTGZ1YVU4ajNnZG10eGNTa0gwQTFzRmNrRnBHdExJakJGRnlGT1JUNG5kX2xSOVlOVHAxX0xPQm1PbWgxSHhXRThMY1lhZw?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:a32e0804e5a1eb"
+      },
+      "importance": 54
+    },
+    {
       "id": "anthropic:5ded18ae0cbcf5",
       "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
       "entity": "Claude Opus 5.5",
@@ -313,11 +411,9 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 13,
-        "prev": 61,
-        "labs": [
-          "google-deepmind"
-        ]
+        "count": 16,
+        "prev": 34,
+        "labs": []
       },
       {
         "name": "Qwen 3.8",
@@ -348,10 +444,12 @@
         ]
       },
       {
-        "name": "Claude Opus 5.5",
+        "name": "GPT 6",
         "count": 4,
-        "prev": 2,
-        "labs": []
+        "prev": 4,
+        "labs": [
+          "openai"
+        ]
       },
       {
         "name": "GPT 6 Astra",
@@ -389,26 +487,24 @@
         "labs": []
       },
       {
-        "name": "GPT 6",
+        "name": "Claude Opus 5.5",
         "count": 3,
-        "prev": 4,
-        "labs": [
-          "openai"
-        ]
+        "prev": 3,
+        "labs": []
       }
     ],
     "topics": [
       {
-        "name": "agents",
-        "count": 45,
-        "prev": 52,
+        "name": "coding",
+        "count": 43,
+        "prev": 39,
         "labs": [
           "anthropic",
+          "google-deepmind",
           "openai",
-          "meta",
           "mistral",
-          "cohere",
           "qwen",
+          "cohere",
           "amazon",
           "microsoft",
           "ibm",
@@ -416,16 +512,16 @@
         ]
       },
       {
-        "name": "coding",
-        "count": 40,
-        "prev": 36,
+        "name": "agents",
+        "count": 42,
+        "prev": 55,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "meta",
           "mistral",
-          "cohere",
           "qwen",
+          "cohere",
           "amazon",
           "microsoft",
           "ibm",
@@ -434,12 +530,11 @@
       },
       {
         "name": "safety",
-        "count": 11,
-        "prev": 10,
+        "count": 12,
+        "prev": 8,
         "labs": [
           "anthropic",
           "xai",
-          "google-deepmind",
           "openai",
           "mistral",
           "tencent",
@@ -449,7 +544,7 @@
       },
       {
         "name": "multimodal",
-        "count": 9,
+        "count": 10,
         "prev": 9,
         "labs": [
           "google-deepmind",
@@ -474,17 +569,6 @@
           "microsoft",
           "ibm",
           "nvidia"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 6,
-        "prev": 2,
-        "labs": [
-          "anthropic",
-          "openai",
-          "qwen",
-          "amazon"
         ]
       },
       {
@@ -521,6 +605,17 @@
           "cohere",
           "amazon",
           "nvidia"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 3,
+        "prev": 5,
+        "labs": [
+          "anthropic",
+          "openai",
+          "qwen",
+          "amazon"
         ]
       }
     ]

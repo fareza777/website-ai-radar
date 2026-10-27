@@ -1,5 +1,69 @@
 [
   {
+    "id": "e014b25466019d4d",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-27T22:22:25.706Z",
+    "field": "prompt",
+    "from": 0.44,
+    "to": 0.119,
+    "change": -73
+  },
+  {
+    "id": "ee7ad4280419888a",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-10-27T22:22:25.706Z",
+    "field": "completion",
+    "from": 1.32,
+    "to": 0.238,
+    "change": -82
+  },
+  {
+    "id": "77c1b6c13f8e1ddc",
+    "modelId": "xiaomi/mimo-v2.5-pro",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "at": "2026-10-27T22:22:25.706Z",
+    "field": "prompt",
+    "from": 0.3045,
+    "to": 0.48,
+    "change": 57.6
+  },
+  {
+    "id": "f7fe680fa2c2696d",
+    "modelId": "xiaomi/mimo-v2.5-pro",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "at": "2026-10-27T22:22:25.706Z",
+    "field": "completion",
+    "from": 0.609,
+    "to": 1.8,
+    "change": 195.6
+  },
+  {
+    "id": "510b082f62aad5f0",
+    "modelId": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "lab": "google-deepmind",
+    "at": "2026-10-27T22:22:25.706Z",
+    "field": "prompt",
+    "from": 0.04,
+    "to": 0.05,
+    "change": 25
+  },
+  {
+    "id": "5567cce797b7771c",
+    "modelId": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "lab": "google-deepmind",
+    "at": "2026-10-27T22:22:25.706Z",
+    "field": "completion",
+    "from": 0.05,
+    "to": 0.1,
+    "change": 100
+  },
+  {
     "id": "3a4fda640c8cc45e",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",

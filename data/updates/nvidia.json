@@ -1,5 +1,27 @@
 [
   {
+    "id": "e2324f34bfee3970",
+    "lab": "nvidia",
+    "title": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
+    "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T16:00:00.000Z",
+    "firstSeenAt": "2026-10-27T22:22:25.706Z",
+    "updatedAt": "2026-10-27T16:00:00.000Z",
+    "excerpt": "As AI adoption expands globally, people across languages and cultures are using it in more aspects of their daily lives. General-purpose language models serve... As AI adoption expands globally, people across languages and cultures are using it in more aspects of their daily lives. General-purpose language models serve as a powerful foundation, but they sometimes lack the local knowledge, cultural nuance, and…",
+    "summary": "As AI adoption expands globally, people across languages and cultures are using it in more aspects of their daily lives.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 30,
+    "contentHash": "d5a9ecc7508a"
+  },
+  {
     "id": "4a299d1e9f3d5424",
     "lab": "nvidia",
     "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
@@ -89,7 +111,7 @@
     "importance": 65,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 64,
+      "likes": 71,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -1325,7 +1347,7 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 163,
+      "likes": 164,
       "downloads": 10877,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1469,7 +1491,7 @@
     "importance": 62,
     "contentHash": "806c45ea6874",
     "meta": {
-      "likes": 33,
+      "likes": 34,
       "downloads": 5303,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
@@ -1521,7 +1543,7 @@
     "importance": 68,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 170,
+      "likes": 180,
       "downloads": 44651,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2434,7 +2456,7 @@
     "importance": 66,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 86,
+      "likes": 87,
       "downloads": 7681,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
@@ -2465,7 +2487,7 @@
     "importance": 67,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 120,
+      "likes": 122,
       "downloads": 9406,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
@@ -2496,7 +2518,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 811,
+      "likes": 815,
       "downloads": 125502,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
@@ -2525,7 +2547,7 @@
     "importance": 68,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 157,
+      "likes": 158,
       "downloads": 46143,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"

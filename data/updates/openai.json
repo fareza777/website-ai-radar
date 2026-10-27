@@ -1,5 +1,84 @@
 [
   {
+    "id": "8357008dccbcb5f4",
+    "lab": "openai",
+    "title": "Codex CLI rust v0.165.0",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+    "sourceId": "openai-codex",
+    "sourceName": "GitHub · openai/codex",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T20:11:49.000Z",
+    "firstSeenAt": "2026-10-27T22:22:25.706Z",
+    "updatedAt": "2026-10-27T20:11:49.000Z",
+    "excerpt": "New Features Added a built-in Google Cloud Vertex AI provider, configured with model_provider = \"gcp\" . ( #56265 ) Added GPT-6.1 Terra to the model catalogs. ( #57337 ) Added a repository filter to the session picker and directory grouping to the agent command center, making it easier to navigate sessions across linked worktrees. ( #56308 ) Added experimental attached thread forks to the app-server API. ( #56351 )…",
+    "summary": "OpenAI shipped Codex CLI rust v0.165.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "17068152332e",
+    "meta": {
+      "version": "v0.165.0",
+      "semver": "minor",
+      "repo": "openai/codex",
+      "package": "rust"
+    }
+  },
+  {
+    "id": "a3a879144b2984ac",
+    "lab": "openai",
+    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+    "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T07:00:00.000Z",
+    "firstSeenAt": "2026-10-27T22:22:25.706Z",
+    "updatedAt": "2026-10-27T07:00:00.000Z",
+    "excerpt": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 55,
+    "contentHash": "dfa0ad72bcfe"
+  },
+  {
+    "id": "8cb333260a17a324",
+    "lab": "openai",
+    "title": "How Check Point accelerates vulnerability research with Daybreak",
+    "url": "https://openai.com/index/check-point-daybreak",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "firstSeenAt": "2026-10-27T22:22:25.706Z",
+    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "excerpt": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+    "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "safety"
+    ],
+    "importance": 30,
+    "contentHash": "751bff80a394"
+  },
+  {
     "id": "938e2958153c019c",
     "lab": "openai",
     "title": "Using Codex for education at Dagster Labs",
@@ -286,6 +365,28 @@
     ],
     "importance": 45,
     "contentHash": "fc089a3d86b2"
+  },
+  {
+    "id": "c6099fc8919f3d54",
+    "lab": "openai",
+    "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+    "url": "https://openai.com/index/anima",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "firstSeenAt": "2026-10-27T22:22:25.706Z",
+    "updatedAt": "2026-10-23T00:00:00.000Z",
+    "excerpt": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+    "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 80,
+    "contentHash": "f9cba5c48857"
   },
   {
     "id": "27825e3003584012",
