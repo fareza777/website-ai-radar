@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-26T20:35:11.061Z",
+  "generatedAt": "2026-10-27T00:04:03.536Z",
   "stories": [
     {
-      "id": "a84b6a7bee5c68a6",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "id": "1758535ac6be3e6b",
+      "title": "Introducing GPT-6.1 Terra",
       "entity": "GPT 6.1 Terra",
       "labs": [
         "openai",
         "amazon"
       ],
-      "official": 3,
+      "official": 2,
       "press": 0,
       "outlets": [],
-      "firstAt": "2026-10-20T07:00:00.000Z",
+      "firstAt": "2026-10-26T00:00:00.000Z",
       "lastAt": "2026-10-26T18:27:00.000Z",
-      "url": "https://openai.com/index/terminal-x",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
       "lead": {
         "kind": "official",
-        "id": "a84b6a7bee5c68a6"
+        "id": "1758535ac6be3e6b"
       },
       "importance": 90
     },
@@ -53,21 +53,22 @@
         "cohere"
       ],
       "official": 1,
-      "press": 4,
+      "press": 5,
       "outlets": [
         "TradingView",
         "Dealroom",
         "VentureBeat",
-        "BetaKit"
+        "BetaKit",
+        "news.lavx.hu"
       ],
       "firstAt": "2026-10-22T08:00:00.000Z",
-      "lastAt": "2026-10-26T20:04:49.000Z",
+      "lastAt": "2026-10-26T20:12:13.000Z",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-sagemaker-muse-qwen-ministral",
       "lead": {
         "kind": "official",
         "id": "191c89b31a66b523"
       },
-      "importance": 78
+      "importance": 79
     },
     {
       "id": "ea83f0dd69c5142c",
@@ -97,7 +98,7 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 10,
+      "press": 11,
       "outlets": [
         "shattered.io",
         "Towards Data Science",
@@ -107,16 +108,45 @@
         "https://tech-insider.org/",
         "Robotics & Automation News",
         "Seeking Alpha",
-        "infoq.com"
+        "infoq.com",
+        "9to5Google"
       ],
       "firstAt": "2026-10-17T05:39:48.000Z",
-      "lastAt": "2026-10-24T16:00:02.000Z",
+      "lastAt": "2026-10-26T22:06:22.000Z",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:42a742b28a5be9"
       },
-      "importance": 61
+      "importance": 62
+    },
+    {
+      "id": "nvidia:b0f023eb8b2a0a",
+      "title": "Rockwell Automation Expands FactoryTalk Conductor with NVIDIA Nemotron Support",
+      "entity": null,
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Yahoo Finance",
+        "StreetInsider",
+        "Nasdaq",
+        "Investing News Network",
+        "The Globe and Mail",
+        "TradingView",
+        "PR Newswire",
+        "marketscreener.com"
+      ],
+      "firstAt": "2026-10-22T12:00:00.000Z",
+      "lastAt": "2026-10-22T12:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZVltOHJCVFA0OHNKd0pfZzE1NXF0SGY4MzZaUy0zMTJuXzIyNi1ObHk5eXp2UjhCLUdxaWJzdlZWOVloRlN6dUVjSElrZk1jdlNkMTIycHhwcE5DX2RNalZCaWx5elFzMUZNLXMtT3Fpb2JCWnVrQW9RbE9TOXBpYWdwUFluZ0tjT05vTGlERjB6bGZMMTMtdUszMFZHRHBNMi1RTXF4V0tWc3NLd18tRmJ3Wk00UnhDRk9BSWpR?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:b0f023eb8b2a0a"
+      },
+      "importance": 60
     },
     {
       "id": "deepseek:a10506682e04b2",
@@ -145,33 +175,6 @@
         "id": "deepseek:a10506682e04b2"
       },
       "importance": 60
-    },
-    {
-      "id": "nvidia:b0f023eb8b2a0a",
-      "title": "Rockwell Automation Expands FactoryTalk Conductor with NVIDIA Nemotron Support",
-      "entity": null,
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Yahoo Finance",
-        "StreetInsider",
-        "Nasdaq",
-        "Investing News Network",
-        "The Globe and Mail",
-        "TradingView",
-        "marketscreener.com"
-      ],
-      "firstAt": "2026-10-22T12:00:00.000Z",
-      "lastAt": "2026-10-22T12:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZVltOHJCVFA0OHNKd0pfZzE1NXF0SGY4MzZaUy0zMTJuXzIyNi1ObHk5eXp2UjhCLUdxaWJzdlZWOVloRlN6dUVjSElrZk1jdlNkMTIycHhwcE5DX2RNalZCaWx5elFzMUZNLXMtT3Fpb2JCWnVrQW9RbE9TOXBpYWdwUFluZ0tjT05vTGlERjB6bGZMMTMtdUszMFZHRHBNMi1RTXF4V0tWc3NLd18tRmJ3Wk00UnhDRk9BSWpR?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:b0f023eb8b2a0a"
-      },
-      "importance": 59
     },
     {
       "id": "ibm:1c452e9063ca86",
@@ -210,7 +213,8 @@
       "press": 2,
       "outlets": [
         "Reuters",
-        "marketscreener.com"
+        "marketscreener.com",
+        "디지털투데이"
       ],
       "firstAt": "2026-10-26T18:49:17.000Z",
       "lastAt": "2026-10-26T18:51:37.000Z",
@@ -219,7 +223,31 @@
         "kind": "press",
         "id": "cohere:3c2f48aef6645c"
       },
-      "importance": 54
+      "importance": 56
+    },
+    {
+      "id": "nvidia:1bf067743e1fb3",
+      "title": "Cassava AI deploys NVIDIA Nemotron to accelerate agentic AI adoption across its markets",
+      "entity": null,
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 3,
+      "outlets": [
+        "Telecompaper",
+        "Liquid Intelligent Technologies",
+        "TradingView",
+        "Cyprus Shipping News"
+      ],
+      "firstAt": "2026-10-21T11:06:10.000Z",
+      "lastAt": "2026-10-26T03:48:22.000Z",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUWh5Zmc3UXRpejA3MmowbURjbm5tZXB5X3Zkai0zR0t0TWN6NXB6aGRyRUdCWmZibG0zNE40UXdzaFE1WTVMLUxTVHZYd1p3NDFZRkM2Y284UzNQR3lVNEF1LXB0UHZadXF4QXk1UUFxaHVRWWJ0dGplNDM5NkYyMkxZV3ZhVmVXdnJTSHJLX1lZYjFyWmlhTnVGT0xiNl9VcE5VM0lB?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:1bf067743e1fb3"
+      },
+      "importance": 56
     },
     {
       "id": "anthropic:5ded18ae0cbcf5",
@@ -243,36 +271,13 @@
         "id": "anthropic:5ded18ae0cbcf5"
       },
       "importance": 54
-    },
-    {
-      "id": "microsoft:a29940809a4514",
-      "title": "Microsoft Foundry Update Brings Scheduled AI Agents, Smarter Tool Use and GPT-6 Models",
-      "entity": "GPT 6 Agent",
-      "labs": [
-        "microsoft",
-        "openai"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Visual Studio Magazine",
-        "The Hacker News"
-      ],
-      "firstAt": "2026-10-19T19:41:14.000Z",
-      "lastAt": "2026-10-21T16:33:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc3FjNDhnZjUwMGJ1eEJnOHVrcmEweFJwUWpvTXZjSThIQkdaXzA2QjZZU2NZT1Y2azhPbHNkRk5INjhJRU93WG5mQU9pbk02Q3IyQXp6X19aeGlLVUVHdHZVbXNWZjZoMElSRmdWRmRDODZyS3lJanpnMWhoX2dFQXdfal9fVFA3eFJHR1BiTnFxcW9sb3VSdG12cEVncWJ1ZkpZWWduNVZJOWNKdHNCODNpRnNDSmtmQjhoTVJMTGxja2t0Z0c5RWJxVjVYOGpYR3hFdlBTSkg5OEk?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "microsoft:a29940809a4514"
-      },
-      "importance": 54
     }
   ],
   "trending": {
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 10,
+        "count": 11,
         "prev": 64,
         "labs": [
           "google-deepmind"
@@ -280,7 +285,7 @@
       },
       {
         "name": "Qwen 3.8",
-        "count": 6,
+        "count": 7,
         "prev": 2,
         "labs": [
           "amazon"
@@ -314,6 +319,14 @@
         "labs": []
       },
       {
+        "name": "GPT 6.1 Sol",
+        "count": 3,
+        "prev": 2,
+        "labs": [
+          "openai"
+        ]
+      },
+      {
         "name": "Mistral Large 4",
         "count": 3,
         "prev": 4,
@@ -331,46 +344,46 @@
     "topics": [
       {
         "name": "agents",
-        "count": 48,
-        "prev": 52,
+        "count": 49,
+        "prev": 50,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
-          "cohere",
+          "openai",
           "mistral",
+          "cohere",
           "qwen",
-          "microsoft",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 38,
-        "prev": 35,
+        "count": 39,
+        "prev": 36,
         "labs": [
-          "google-deepmind",
           "anthropic",
+          "google-deepmind",
           "openai",
-          "cohere",
           "mistral",
+          "cohere",
           "qwen",
-          "microsoft",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 10,
+        "count": 12,
         "prev": 9,
         "labs": [
-          "google-deepmind",
           "anthropic",
           "xai",
+          "google-deepmind",
           "openai",
           "mistral",
           "tencent",
@@ -380,13 +393,14 @@
       },
       {
         "name": "multimodal",
-        "count": 8,
+        "count": 9,
         "prev": 10,
         "labs": [
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
           "minimax",
+          "baidu",
           "tencent",
           "amazon",
           "ibm",
@@ -394,15 +408,13 @@
         ]
       },
       {
-        "name": "open-source",
+        "name": "audio",
         "count": 7,
-        "prev": 6,
+        "prev": 4,
         "labs": [
-          "anthropic",
+          "google-deepmind",
           "openai",
-          "meta",
-          "cohere",
-          "microsoft",
+          "mistral",
           "amazon",
           "ibm",
           "nvidia"
@@ -411,26 +423,26 @@
       {
         "name": "reasoning",
         "count": 7,
-        "prev": 8,
+        "prev": 9,
         "labs": [
-          "openai",
           "meta",
-          "cohere",
+          "openai",
           "mistral",
-          "microsoft",
+          "cohere",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
       {
-        "name": "audio",
-        "count": 6,
+        "name": "open-source",
+        "count": 7,
         "prev": 4,
         "labs": [
-          "google-deepmind",
           "openai",
-          "mistral",
+          "cohere",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -468,9 +480,10 @@
         "Reuters",
         "TradingView",
         "The Economic Times",
-        "ET Enterprise AI"
+        "ET Enterprise AI",
+        "NewsBytes"
       ],
-      "reports": 4,
+      "reports": 5,
       "at": "2026-10-26T02:22:00.000Z"
     },
     {

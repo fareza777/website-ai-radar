@@ -1,5 +1,34 @@
 [
   {
+    "id": "075b2fe9f2ace5bb",
+    "lab": "mistral",
+    "title": "Mistral Vibe v3.0.3",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v3.0.3",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-26T22:15:08.000Z",
+    "firstSeenAt": "2026-10-27T00:04:03.536Z",
+    "updatedAt": "2026-10-26T22:15:08.000Z",
+    "excerpt": "Added Skills added or edited on disk are picked up by running sessions without /reload The footer shows the active model and its thinking level next to the token counter, and updates after /model , /thinking or a resume. Clicking the model in the footer opens /model while no turn is running, keeping the prompt being typed. The / menu starts each skill's description with its scope (project, user or vibe), setting…",
+    "summary": "Mistral AI shipped Mistral Vibe v3.0.3 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "reasoning"
+    ],
+    "importance": 25,
+    "contentHash": "af5dc92ab72d",
+    "meta": {
+      "version": "v3.0.3",
+      "semver": "patch",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "55c7d164f9ffe791",
     "lab": "mistral",
     "title": "Mistral Vibe v3.0.2",
@@ -275,7 +304,7 @@
     "importance": 76,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 396,
+      "likes": 398,
       "downloads": 10971,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",

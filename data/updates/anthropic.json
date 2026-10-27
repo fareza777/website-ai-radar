@@ -1,5 +1,34 @@
 [
   {
+    "id": "38313c82af265d42",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.311",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-26T21:51:23.000Z",
+    "firstSeenAt": "2026-10-27T00:04:03.536Z",
+    "updatedAt": "2026-10-26T21:51:23.000Z",
+    "excerpt": "What's changed Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running Added a tip for the Explanatory output style, shown when you ask Claude for explanations Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item Fixed interrupting Claude not taking effect until a timeout…",
+    "summary": "Anthropic shipped Claude Code v2.1.311 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "e1adefbbb7f6",
+    "meta": {
+      "version": "v2.1.311",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "8a77e646571ba4d5",
     "lab": "anthropic",
     "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
@@ -1482,7 +1511,7 @@
     "verified": true,
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-26T20:35:11.061Z",
+    "updatedAt": "2026-10-27T00:04:03.536Z",
     "excerpt": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "summary": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -1617,7 +1646,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-26T20:35:11.061Z",
+    "updatedAt": "2026-10-27T00:04:03.536Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
@@ -2010,7 +2039,7 @@
     "verified": true,
     "publishedAt": "2026-09-28T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-10-26T20:35:11.061Z",
+    "updatedAt": "2026-10-27T00:04:03.536Z",
     "excerpt": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
     "summary": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",

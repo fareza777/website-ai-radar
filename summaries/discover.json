@@ -145,11 +145,6 @@
     "unique": "Each style is a prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model.",
     "benefit": "Claude Code users can apply 59 coded film styles or add their own without a video model."
   },
-  "74a90c5a46b6cecf": {
-    "summary": "ClearAI is an ontology-first DSH agent preset. Evidence-checked research grows into a domain ontology you can browse.",
-    "unique": "It is a native DSH plugin built around an epistemic loop for scientific discovery.",
-    "benefit": "Researchers using DSH can turn checked evidence into a browsable ontology instead of a loose note."
-  },
   "1e32cba93e1dadbe": {
     "summary": "inkloom uses specialised models for logo design: a brand-analysis model turns a business into constraints, typography and symbol models build the mark, and a composition engine makes lockups and clear-space rules.",
     "unique": "The pipeline splits brand analysis, type, symbol, and composition instead of one general image prompt.",
@@ -165,11 +160,6 @@
     "unique": "One named agent runs on Android, iPhone and iPad, Windows, macOS, Linux, and in the browser.",
     "benefit": "People who want one agent across their devices can keep it running and still approve irreversible actions."
   },
-  "2fa2385c3505d9d8": {
-    "summary": "llm-master is a full-stack LLM learning path and Chinese tutorial covering prompt engineering, RAG, AI agents, MCP, fine-tuning, deployment, transformers, and AI programming.",
-    "unique": "It runs from introductory material through production practice and big-company interview topics.",
-    "benefit": "Learners who want one Chinese path can follow it from prompts and RAG through deployment."
-  },
   "554d6c430c3db6a8": {
     "summary": "AnyJev turns any LLM into a Jev-style decision model with typed decisions and real probabilities, and it does not require training.",
     "unique": "It targets calibration and decision models, including vLLM, rather than open-ended chat.",
@@ -184,11 +174,6 @@
     "summary": "golive-skill takes an agent-built product live: hosting, database, domain, email, and payments on your own accounts. It is an open-source agent skill plus a zero-dependency Node CLI.",
     "unique": "The flow is detect, plan, approve, apply, verify, with no GoLive account, backend, or telemetry.",
     "benefit": "Developers can ship hosting and payments on accounts they already own, and approve each step."
-  },
-  "dae5d2fbddceaca2": {
-    "summary": "typesafe-computer-use does computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, then click. It runs on macOS.",
-    "unique": "Each step is OCR plus a TypeSafe classification instead of a large vision-agent loop.",
-    "benefit": "Mac users can try cheap computer-use clicks when a full vision model is more than they need."
   },
   "2c648aa0ea2364e9": {
     "summary": "oil-ui pushes AI UI design by exploring distinct directions, comparing them side by side, and refining against real screenshots.",
@@ -379,11 +364,6 @@
     "summary": "rea reverse engineers anything with agents, from app behavior down to native binaries.",
     "unique": "Agents can go from how an app behaves all the way down to native binaries.",
     "benefit": "Developers can ask an agent to explain an app's behavior and its native binaries."
-  },
-  "fb7ab59fa69f0381": {
-    "summary": "Insomnia is a macOS menu bar app that keeps a MacBook awake with the lid closed for timed agent sessions.",
-    "unique": "It is built to hold the lid closed safely, and only for a timed session.",
-    "benefit": "People running agents on a MacBook can close the lid for a set time without the machine sleeping."
   },
   "22baff0fefab0b61": {
     "summary": "SolidCraft is an open-source parametric 3D CAD application built in pure Rust, for desktop, web, and automation through MCP.",
@@ -788,5 +768,29 @@
     "summary": "GVS5H presents five Qwen3.8-27B models that match Claude Fable 5 on LiveCodeBench Hard, described as Fable 5-level coding for a fifth the price or on a single GPU.",
     "unique": "It frames five Qwen3.8-27B models against Claude Fable 5 on that LiveCodeBench Hard split.",
     "benefit": "Teams comparing coding models can try that Qwen3.8-27B setup on one GPU or at a fifth the price."
+  },
+  "78c563e635c116e2": {
+    "hash": "ae773680",
+    "summary": "Hob is a free, open-source desktop alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows, and Linux.",
+    "unique": "It is a local Electron desktop app for Gemma and gpt-oss, private and offline.",
+    "benefit": "People who want Claude- or ChatGPT-style help without sending files to a host can run Gemma and gpt-oss on their own computer."
+  },
+  "bf8405e75df60fec": {
+    "hash": "0adbf7b2",
+    "summary": "Farol is a free, open-source CLI and GitHub Action that, after AI review, shows a pull request's merge risk: the riskiest files, what they reach, diff coverage, and contract breaks for TypeScript/React, Go, and Python.",
+    "unique": "It maps merge risk and reachability after AI review rather than generating another LLM review.",
+    "benefit": "Reviewers deciding whether to merge can see where risk lives in TypeScript, Go, or Python diffs."
+  },
+  "34dd82429834cf19": {
+    "hash": "20d12876",
+    "summary": "PaperPilot is a local AI copilot for documents.",
+    "unique": "It runs as a local copilot for documents rather than a cloud chat product.",
+    "benefit": "People working with documents on their machine can use a local copilot instead of uploading files."
+  },
+  "3c73c358cb198c70": {
+    "hash": "b5ccda2f",
+    "summary": "glitchrupt is a local macOS jolt for agents that need your attention, with desktop glitch cues, five original crackles, a CLI, and MCP.",
+    "unique": "It uses desktop glitch cues and five original crackles, plus CLI and MCP.",
+    "benefit": "macOS users running agents can get a local visual and audio jolt when an agent needs attention."
   }
 }

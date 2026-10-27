@@ -1,5 +1,34 @@
 [
   {
+    "id": "843ec3210052983e",
+    "lab": "ibm",
+    "title": "Docling v2.143.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.143.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-26T23:59:04.000Z",
+    "firstSeenAt": "2026-10-27T00:04:03.536Z",
+    "updatedAt": "2026-10-26T23:59:04.000Z",
+    "excerpt": "Feature service: Add optional filename to ZipArchiveResult ( #4996 ) ( 87de795 ) Support mixed-format ZIP inputs ( #4865 ) ( aff98aa ) asr: Run the WhisperS2T presets offline from --artifacts-path ( #4898 ) ( 0dbf500 ) ASR: Add transformers and MLX presets for the ASR pipelines ( #4771 ) ( 53c11a2 ) vlm: Let a GenerationStopper declare a valid end of the output ( #4927 ) ( e38fceb ) Fix vlm: Defer optional local…",
+    "summary": "IBM shipped Docling v2.143.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "audio"
+    ],
+    "importance": 40,
+    "contentHash": "0dc9493b4981",
+    "meta": {
+      "version": "v2.143.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "91796b5e1f2bf055",
     "lab": "ibm",
     "title": "PyTorch opens the AI ecosystem to a new accelerator class",

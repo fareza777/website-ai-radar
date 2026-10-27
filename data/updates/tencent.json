@@ -1,5 +1,33 @@
 [
   {
+    "id": "44ac069c0dab09cf",
+    "lab": "tencent",
+    "title": "Hy-Nomas-Diffusers",
+    "url": "https://huggingface.co/tencent/Hy-Nomas-Diffusers",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-24T05:45:20.000Z",
+    "firstSeenAt": "2026-10-27T00:04:03.536Z",
+    "updatedAt": "2026-10-24T05:45:20.000Z",
+    "excerpt": "license: apache-2.0",
+    "summary": "Tencent published the Hy-Nomas-Diffusers model on Hugging Face. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 58,
+    "contentHash": "da2d675df551",
+    "meta": {
+      "likes": 10,
+      "downloads": 79,
+      "repo": "tencent/Hy-Nomas-Diffusers",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "4a4fa336246ecf11",
     "lab": "tencent",
     "title": "WeVisOne-VL-4B",
@@ -21,10 +49,10 @@
       "4B",
       "multimodal"
     ],
-    "importance": 64,
+    "importance": 65,
     "contentHash": "8a1d2c0f7679",
     "meta": {
-      "likes": 58,
+      "likes": 64,
       "downloads": 2605,
       "repo": "tencent/WeVisOne-VL-4B",
       "pipeline": "image-text-to-text",
@@ -113,10 +141,10 @@
     "summarySource": "template",
     "category": "developer",
     "tags": [],
-    "importance": 34,
+    "importance": 35,
     "contentHash": "e80aa80d5890",
     "meta": {
-      "stars": 37,
+      "stars": 43,
       "repo": "Tencent-Hunyuan/Hy-SimulMT",
       "language": "Python"
     }
@@ -143,7 +171,7 @@
     "importance": 65,
     "contentHash": "6e6b860ed408",
     "meta": {
-      "likes": 76,
+      "likes": 77,
       "downloads": 44,
       "repo": "tencent/Hy-Nomas",
       "license": "apache-2.0"
@@ -208,7 +236,7 @@
     "importance": 44,
     "contentHash": "f84bba9f37d6",
     "meta": {
-      "stars": 1303,
+      "stars": 1304,
       "repo": "Tencent-Hunyuan/Hy-Memory",
       "language": "Python"
     }
@@ -237,7 +265,7 @@
     "importance": 70,
     "contentHash": "d780f7f18b0b",
     "meta": {
-      "likes": 314,
+      "likes": 315,
       "downloads": 4519,
       "repo": "tencent/Hy-Memory-30B-A3B",
       "pipeline": "text-generation",
@@ -414,7 +442,7 @@
     "importance": 44,
     "contentHash": "160ea336e84d",
     "meta": {
-      "stars": 1268,
+      "stars": 1273,
       "repo": "Tencent-Hunyuan/Prism",
       "language": "Python"
     }

@@ -6,7 +6,7 @@
     "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 212,
+    "upvotes": 213,
     "org": "oxford",
     "githubRepo": "https://github.com/vid-gen/awesome-video-world-model",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -55,7 +55,7 @@
     "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 12,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -80,7 +80,7 @@
     "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 249,
+    "upvotes": 251,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisOne-VL",
@@ -93,7 +93,7 @@
     "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them…",
     "publishedAt": "2026-10-22T08:43:48.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 201,
+    "upvotes": 203,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Songlin1998/ShotVerse2.0",
@@ -106,7 +106,7 @@
     "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples…",
     "publishedAt": "2026-10-17T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 195,
+    "upvotes": 196,
     "org": "jingdong1",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
@@ -117,7 +117,7 @@
     "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and…",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 184,
+    "upvotes": 188,
     "org": null,
     "githubRepo": "https://github.com/Yu-xm/OpenDS",
     "firstSeenAt": "2026-10-23T05:00:33.793Z"
@@ -140,7 +140,7 @@
     "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 71,
+    "upvotes": 75,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
@@ -152,7 +152,7 @@
     "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow…",
     "publishedAt": "2026-10-18T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 57,
+    "upvotes": 59,
     "org": null,
     "firstSeenAt": "2026-10-24T04:45:31.936Z"
   },
@@ -175,7 +175,7 @@
     "summary": "World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extracted from a single denoising step, avoiding costly iterative denoising required for video…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 46,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/suhyeok-jang/FRED",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -192,6 +192,18 @@
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
   },
   {
+    "id": "2610.28416",
+    "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+    "url": "https://huggingface.co/papers/2610.28416",
+    "summary": "Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos. However, existing code-based benchmarks primarily target specialized tasks, leaving complete video creation across…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-23T00:00:00.000Z",
+    "upvotes": 44,
+    "org": "fudan-university",
+    "githubRepo": "https://github.com/code2video-compass/Code2Video-Compass",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z"
+  },
+  {
     "id": "2610.23987",
     "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
     "url": "https://huggingface.co/papers/2610.23987",
@@ -201,18 +213,6 @@
     "upvotes": 43,
     "org": null,
     "githubRepo": "https://github.com/LRuca/GAFU",
-    "firstSeenAt": "2026-10-26T20:35:11.061Z"
-  },
-  {
-    "id": "2610.28416",
-    "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
-    "url": "https://huggingface.co/papers/2610.28416",
-    "summary": "Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos. However, existing code-based benchmarks primarily target specialized tasks, leaving complete video creation across…",
-    "publishedAt": "2026-10-20T00:00:00.000Z",
-    "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 43,
-    "org": "fudan-university",
-    "githubRepo": "https://github.com/code2video-compass/Code2Video-Compass",
     "firstSeenAt": "2026-10-26T20:35:11.061Z"
   },
   {
@@ -259,7 +259,7 @@
     "summary": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 753,
+    "upvotes": 754,
     "org": null,
     "githubRepo": "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
@@ -283,7 +283,7 @@
     "summary": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition requires an expectation of what should have followed the action. Existing GUI world models provide…",
     "publishedAt": "2026-10-08T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 188,
+    "upvotes": 189,
     "org": null,
     "githubRepo": "https://github.com/jiamingzhang94/lgwm",
     "firstSeenAt": "2026-10-22T21:43:19.556Z"
@@ -432,6 +432,18 @@
     "firstSeenAt": "2026-10-25T11:42:45.846Z"
   },
   {
+    "id": "2610.29968",
+    "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
+    "url": "https://huggingface.co/papers/2610.29968",
+    "summary": "As LLMs expand their language coverage, evaluating how well they understand and represent diverse cultures becomes increasingly important. However, many benchmarks remain English-centric, with limited cultural coverage and a focus on factual knowledge over its application in real-world cultural contexts. We propose CulturalRiddles, a benchmark of original, culturally grounded riddles created entirely by humans…",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "submittedAt": "2026-10-22T00:00:00.000Z",
+    "upvotes": 44,
+    "org": "coherelabscommunity",
+    "githubRepo": "https://github.com/Cohere-Labs-Community/CulturalRiddles",
+    "firstSeenAt": "2026-10-25T16:31:46.241Z"
+  },
+  {
     "id": "2610.29357",
     "title": "Memory-Centric Continual Learning for AI Agents",
     "url": "https://huggingface.co/papers/2610.29357",
@@ -441,18 +453,6 @@
     "upvotes": 43,
     "org": "slaiaitp",
     "firstSeenAt": "2026-10-25T11:42:45.846Z"
-  },
-  {
-    "id": "2610.29968",
-    "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
-    "url": "https://huggingface.co/papers/2610.29968",
-    "summary": "As LLMs expand their language coverage, evaluating how well they understand and represent diverse cultures becomes increasingly important. However, many benchmarks remain English-centric, with limited cultural coverage and a focus on factual knowledge over its application in real-world cultural contexts. We propose CulturalRiddles, a benchmark of original, culturally grounded riddles created entirely by humans…",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 43,
-    "org": "coherelabscommunity",
-    "githubRepo": "https://github.com/Cohere-Labs-Community/CulturalRiddles",
-    "firstSeenAt": "2026-10-25T16:31:46.241Z"
   },
   {
     "id": "2610.30128",
@@ -473,7 +473,7 @@
     "summary": "Language-model agents that run long tasks often redo work they have already done: they re-issue a tool call they made earlier and get back exactly the same observation, a step that adds no new information. We identify this failure as a loop. Loops appear natively in Qwen, Llama, and Gemini agents and become far more common once the agent's history is compressed to fit its context window. To reduce these loops, we…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-22T00:00:00.000Z",
-    "upvotes": 32,
+    "upvotes": 33,
     "org": "google",
     "lab": "google-deepmind",
     "githubRepo": "https://github.com/cskyl/deloop",
@@ -557,7 +557,7 @@
     "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-21T00:00:00.000Z",
-    "upvotes": 107,
+    "upvotes": 108,
     "org": "ropedia-ai",
     "githubRepo": "https://github.com/Ropedia/S-Agent-2.0",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"

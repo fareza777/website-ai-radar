@@ -1,5 +1,36 @@
 [
   {
+    "id": "c55904e21a85a75c",
+    "lab": "baidu",
+    "title": "Unlimited-OCR-2",
+    "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+    "sourceId": "baidu-hf",
+    "sourceName": "Hugging Face · baidu",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-26T03:57:46.000Z",
+    "firstSeenAt": "2026-10-27T00:04:03.536Z",
+    "updatedAt": "2026-10-26T03:57:46.000Z",
+    "excerpt": "image-text-to-text · license: mit",
+    "summary": "Baidu published the Unlimited-OCR-2 model on Hugging Face for multimodal (image + text). License: mit.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 50,
+    "contentHash": "7480469824fa",
+    "meta": {
+      "likes": 0,
+      "downloads": 0,
+      "repo": "baidu/Unlimited-OCR-2",
+      "pipeline": "image-text-to-text",
+      "license": "mit"
+    }
+  },
+  {
     "id": "1cf885d36957a581",
     "lab": "baidu",
     "title": "Unlimited-OCR",
