@@ -80,7 +80,7 @@
     "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 251,
+    "upvotes": 252,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisOne-VL",
@@ -129,7 +129,7 @@
     "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 101,
+    "upvotes": 103,
     "org": "iquestlab",
     "firstSeenAt": "2026-10-23T11:48:11.444Z"
   },
@@ -198,7 +198,7 @@
     "summary": "Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos. However, existing code-based benchmarks primarily target specialized tasks, leaving complete video creation across…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 45,
     "org": "fudan-university",
     "githubRepo": "https://github.com/code2video-compass/Code2Video-Compass",
     "firstSeenAt": "2026-10-26T20:35:11.061Z"

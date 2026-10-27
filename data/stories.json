@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T00:04:03.536Z",
+  "generatedAt": "2026-10-27T00:32:44.138Z",
   "stories": [
     {
       "id": "1758535ac6be3e6b",
@@ -177,6 +177,31 @@
       "importance": 60
     },
     {
+      "id": "nvidia:1bf067743e1fb3",
+      "title": "Cassava AI deploys NVIDIA Nemotron to accelerate agentic AI adoption across its markets",
+      "entity": null,
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 3,
+      "outlets": [
+        "Telecompaper",
+        "Liquid Intelligent Technologies",
+        "TradingView",
+        "Cyprus Shipping News",
+        "Konsulteer"
+      ],
+      "firstAt": "2026-10-21T11:06:10.000Z",
+      "lastAt": "2026-10-26T03:48:22.000Z",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUWh5Zmc3UXRpejA3MmowbURjbm5tZXB5X3Zkai0zR0t0TWN6NXB6aGRyRUdCWmZibG0zNE40UXdzaFE1WTVMLUxTVHZYd1p3NDFZRkM2Y284UzNQR3lVNEF1LXB0UHZadXF4QXk1UUFxaHVRWWJ0dGplNDM5NkYyMkxZV3ZhVmVXdnJTSHJLX1lZYjFyWmlhTnVGT0xiNl9VcE5VM0lB?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:1bf067743e1fb3"
+      },
+      "importance": 57
+    },
+    {
       "id": "ibm:1c452e9063ca86",
       "title": "Granite Speech 5.0 2B: what IBM shipped on 7 October",
       "entity": "Granite 5.0",
@@ -226,28 +251,27 @@
       "importance": 56
     },
     {
-      "id": "nvidia:1bf067743e1fb3",
-      "title": "Cassava AI deploys NVIDIA Nemotron to accelerate agentic AI adoption across its markets",
+      "id": "cohere:903f2bd3fa59a7",
+      "title": "Cohere says Alibaba AI model tried to secretly send data to Beijing server during test",
       "entity": null,
       "labs": [
-        "nvidia"
+        "cohere",
+        "qwen"
       ],
       "official": 0,
-      "press": 3,
+      "press": 2,
       "outlets": [
-        "Telecompaper",
-        "Liquid Intelligent Technologies",
-        "TradingView",
-        "Cyprus Shipping News"
+        "Crypto Briefing",
+        "디지털투데이"
       ],
-      "firstAt": "2026-10-21T11:06:10.000Z",
-      "lastAt": "2026-10-26T03:48:22.000Z",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUWh5Zmc3UXRpejA3MmowbURjbm5tZXB5X3Zkai0zR0t0TWN6NXB6aGRyRUdCWmZibG0zNE40UXdzaFE1WTVMLUxTVHZYd1p3NDFZRkM2Y284UzNQR3lVNEF1LXB0UHZadXF4QXk1UUFxaHVRWWJ0dGplNDM5NkYyMkxZV3ZhVmVXdnJTSHJLX1lZYjFyWmlhTnVGT0xiNl9VcE5VM0lB?oc=5",
+      "firstAt": "2026-10-26T20:56:35.000Z",
+      "lastAt": "2026-10-26T22:15:59.000Z",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdkQ5cnFlNGwtaHpEdEttTWZtdlZSSGZ5S2ozN1BxbXFTVmlBekVmTG9uT2VNWG9rT3ZtcVhqSllUR0poZ1ZEQnZySnU1UDE5Y0RFME9KVkFGb0xpSjJkOEw3MDBVdENoZ0ZKVGxkNWR5LXJKeTF5eEs3c0pGRHVFUGJSSzBvWHZ1MWtNb1VnRHY3MnZMZmxfMHkxN3NrNDhYSUh4RHV1MTZBd1pORjF3RmhWQ2dQdHZQbDVFYVFITG4wcjNSRF9zLTJyQmg?oc=5",
       "lead": {
         "kind": "press",
-        "id": "nvidia:1bf067743e1fb3"
+        "id": "cohere:903f2bd3fa59a7"
       },
-      "importance": 56
+      "importance": 54
     },
     {
       "id": "anthropic:5ded18ae0cbcf5",
@@ -348,30 +372,30 @@
         "prev": 50,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "mistral",
-          "cohere",
           "qwen",
-          "amazon",
+          "cohere",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 39,
+        "count": 40,
         "prev": 36,
         "labs": [
-          "anthropic",
           "google-deepmind",
+          "anthropic",
           "openai",
           "mistral",
-          "cohere",
           "qwen",
-          "amazon",
+          "cohere",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -381,9 +405,9 @@
         "count": 12,
         "prev": 9,
         "labs": [
+          "google-deepmind",
           "anthropic",
           "xai",
-          "google-deepmind",
           "openai",
           "mistral",
           "tencent",
@@ -396,12 +420,25 @@
         "count": 9,
         "prev": 10,
         "labs": [
-          "deepseek",
           "google-deepmind",
+          "deepseek",
           "openai",
           "minimax",
-          "baidu",
           "tencent",
+          "baidu",
+          "amazon",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "open-source",
+        "count": 8,
+        "prev": 4,
+        "labs": [
+          "openai",
+          "cohere",
+          "microsoft",
           "amazon",
           "ibm",
           "nvidia"
@@ -425,25 +462,12 @@
         "count": 7,
         "prev": 9,
         "labs": [
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 7,
-        "prev": 4,
-        "labs": [
-          "openai",
-          "cohere",
           "amazon",
-          "microsoft",
-          "ibm",
           "nvidia"
         ]
       },
