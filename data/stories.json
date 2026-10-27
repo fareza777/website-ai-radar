@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T00:32:44.138Z",
+  "generatedAt": "2026-10-27T09:08:09.408Z",
   "stories": [
     {
       "id": "1758535ac6be3e6b",
@@ -53,22 +53,23 @@
         "cohere"
       ],
       "official": 1,
-      "press": 5,
+      "press": 4,
       "outlets": [
         "TradingView",
         "Dealroom",
+        "Startup Fortune",
+        "Notebookcheck",
         "VentureBeat",
-        "BetaKit",
-        "news.lavx.hu"
+        "BetaKit"
       ],
       "firstAt": "2026-10-22T08:00:00.000Z",
-      "lastAt": "2026-10-26T20:12:13.000Z",
+      "lastAt": "2026-10-26T20:04:49.000Z",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-sagemaker-muse-qwen-ministral",
       "lead": {
         "kind": "official",
         "id": "191c89b31a66b523"
       },
-      "importance": 79
+      "importance": 80
     },
     {
       "id": "ea83f0dd69c5142c",
@@ -91,34 +92,38 @@
       "importance": 70
     },
     {
-      "id": "google-deepmind:42a742b28a5be9",
-      "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
+      "id": "google-deepmind:cf5a1652bc43d7",
+      "title": "What Google’s Gemini 4 Argon means for small business",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 11,
+      "press": 13,
       "outlets": [
-        "shattered.io",
         "Towards Data Science",
         "The Davis Enterprise",
+        "Black Hills Pioneer",
+        "The Des Moines Register",
         "Endor Labs",
         "HPCwire",
         "https://tech-insider.org/",
         "Robotics & Automation News",
         "Seeking Alpha",
+        "PPC Land",
+        "shattered.io",
         "infoq.com",
-        "9to5Google"
+        "9to5Google",
+        "TechRadar"
       ],
-      "firstAt": "2026-10-17T05:39:48.000Z",
-      "lastAt": "2026-10-26T22:06:22.000Z",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
+      "firstAt": "2026-10-19T16:45:48.000Z",
+      "lastAt": "2026-10-27T04:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLTFFREd2SGVNNTJqa201dU1rc1E2aUE1ZzlXVEczcHMtM2ItQlFvS0RheWxrTjNKLThPSEZKVUxYZmp0TzZiNmdlTXpFQWpITkQtMll0NTVXZUhvbG1YSXlFLWFFZkE1LXZYUW5lR0lHaG1VTnFNa1RCdGxlVmZxcldNeHBLaVV2MFNLdXNMdnFEZnlobHJpLTlWU3hqbU9mdDdPLU45OVRtMTZNNXFnZTNPeGMydVhCazNOOGNpSTlQQXBjYlhJMUdkMFNVdlVrbnB6ZFBJQnlNSjlzbmNidk14SU1hd3lOTFhYcHhOc0lsdjhL?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:42a742b28a5be9"
+        "id": "google-deepmind:cf5a1652bc43d7"
       },
-      "importance": 62
+      "importance": 64
     },
     {
       "id": "nvidia:b0f023eb8b2a0a",
@@ -177,6 +182,59 @@
       "importance": 60
     },
     {
+      "id": "cohere:903f2bd3fa59a7",
+      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
+      "entity": null,
+      "labs": [
+        "cohere",
+        "qwen"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Reuters",
+        "marketscreener.com",
+        "디지털투데이",
+        "Crypto Briefing",
+        "Investing.com",
+        "The Economic Times"
+      ],
+      "firstAt": "2026-10-26T18:49:17.000Z",
+      "lastAt": "2026-10-26T20:40:18.000Z",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHVNeUo5OThtcHVOdE1HTHhlQjV0TXR0RkVpMEk2Qm1hQjdPNzlkaXZaZU5oX1Y3eFoyUW1FZGZ5YmJOX0d0eGRHUUtRaEtvbzRvcWtOenFzSWowam1ZMlQyTmJleGN3dU1JbVhiemduMnZRY0E0a3U4V1N2bUZhLXBRTXNySFdNeE92S3pPeWRmUDRRd0VLYWRCNklpZ2c2NDhOckpzTE5tbnItcXV5VVE2ajJwRG9UeHFOcWpsNmRqbUh0bVpR?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "cohere:903f2bd3fa59a7"
+      },
+      "importance": 59
+    },
+    {
+      "id": "qwen:41937276a19072",
+      "title": "Qwen3.8-Flash-Next Tried a Beijing Upload, Cohere Says",
+      "entity": "Qwen 3.8 Flash",
+      "labs": [
+        "qwen",
+        "cohere"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "tech-insider.org",
+        "Pasquale Pillitteri",
+        "NewsBytes",
+        "NewsCord",
+        "LatestLY"
+      ],
+      "firstAt": "2026-10-27T02:01:21.000Z",
+      "lastAt": "2026-10-27T08:17:35.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkVobkxZWjdCNWQ0LThHTnVObmJkZkJMWVJoVDZvUF9nX2lQMXgtYUVwLWpVeDV1dEYwb28zYlpEdUM0Q3cxZFpoUWEwSm56VXNpVUZELXpuRGFUay1tNnN2dG9tUEJ6d3RCNkhfUkNhNXFIbzBTUTFaSkRBcE9WN25GMl9CcjEtTGc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:41937276a19072"
+      },
+      "importance": 58
+    },
+    {
       "id": "nvidia:1bf067743e1fb3",
       "title": "Cassava AI deploys NVIDIA Nemotron to accelerate agentic AI adoption across its markets",
       "entity": null,
@@ -227,53 +285,6 @@
       "importance": 57
     },
     {
-      "id": "cohere:3c2f48aef6645c",
-      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
-      "entity": null,
-      "labs": [
-        "cohere",
-        "qwen"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Reuters",
-        "marketscreener.com",
-        "디지털투데이"
-      ],
-      "firstAt": "2026-10-26T18:49:17.000Z",
-      "lastAt": "2026-10-26T18:51:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOE9VemsxZWlwTVpkNHBEeUxNV2dDei1vY0w0NEVmSWlVRnNQOTB1d2JQRFE0TndPeGJ0amlfN0NIOUVQV2toM1hOVjlhWFdkTHFiMlQwaGkxcGcyRU91YWROT2l6WnNOUDRJcEJ5dnBpODBPS0hXTlVMNi1CdTJRYUJJN2QteFJwZkJCY1hXX1FSQ0Y2Ylo2bGc1REg4TlU3VlAzZlVCV0hzMnlhSnNPbTJDZXVmZUVPd0lHUndac0pOU0J3TFJEanRZUEphM2s?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:3c2f48aef6645c"
-      },
-      "importance": 56
-    },
-    {
-      "id": "cohere:903f2bd3fa59a7",
-      "title": "Cohere says Alibaba AI model tried to secretly send data to Beijing server during test",
-      "entity": null,
-      "labs": [
-        "cohere",
-        "qwen"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Crypto Briefing",
-        "디지털투데이"
-      ],
-      "firstAt": "2026-10-26T20:56:35.000Z",
-      "lastAt": "2026-10-26T22:15:59.000Z",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdkQ5cnFlNGwtaHpEdEttTWZtdlZSSGZ5S2ozN1BxbXFTVmlBekVmTG9uT2VNWG9rT3ZtcVhqSllUR0poZ1ZEQnZySnU1UDE5Y0RFME9KVkFGb0xpSjJkOEw3MDBVdENoZ0ZKVGxkNWR5LXJKeTF5eEs3c0pGRHVFUGJSSzBvWHZ1MWtNb1VnRHY3MnZMZmxfMHkxN3NrNDhYSUh4RHV1MTZBd1pORjF3RmhWQ2dQdHZQbDVFYVFITG4wcjNSRF9zLTJyQmg?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:903f2bd3fa59a7"
-      },
-      "importance": 54
-    },
-    {
       "id": "anthropic:5ded18ae0cbcf5",
       "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
       "entity": "Claude Opus 5.5",
@@ -301,8 +312,8 @@
     "entities": [
       {
         "name": "Gemini 4 Argon",
-        "count": 11,
-        "prev": 64,
+        "count": 13,
+        "prev": 60,
         "labs": [
           "google-deepmind"
         ]
@@ -316,10 +327,24 @@
         ]
       },
       {
+        "name": "Qwen 3.8 Flash",
+        "count": 6,
+        "prev": 0,
+        "labs": []
+      },
+      {
         "name": "Granite 5.0 2B",
         "count": 4,
         "prev": 0,
         "labs": []
+      },
+      {
+        "name": "GPT 6.1 Sol",
+        "count": 4,
+        "prev": 2,
+        "labs": [
+          "openai"
+        ]
       },
       {
         "name": "Claude Opus 5.5",
@@ -343,14 +368,6 @@
         "labs": []
       },
       {
-        "name": "GPT 6.1 Sol",
-        "count": 3,
-        "prev": 2,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
         "name": "Mistral Large 4",
         "count": 3,
         "prev": 4,
@@ -368,17 +385,17 @@
     "topics": [
       {
         "name": "agents",
-        "count": 49,
+        "count": 48,
         "prev": 50,
         "labs": [
           "anthropic",
           "openai",
           "meta",
           "mistral",
-          "qwen",
           "cohere",
-          "microsoft",
+          "qwen",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -392,10 +409,10 @@
           "anthropic",
           "openai",
           "mistral",
-          "qwen",
           "cohere",
-          "microsoft",
+          "qwen",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -405,9 +422,9 @@
         "count": 12,
         "prev": 9,
         "labs": [
+          "xai",
           "google-deepmind",
           "anthropic",
-          "xai",
           "openai",
           "mistral",
           "tencent",
@@ -424,8 +441,8 @@
           "deepseek",
           "openai",
           "minimax",
-          "tencent",
           "baidu",
+          "tencent",
           "amazon",
           "ibm",
           "nvidia"
@@ -438,8 +455,8 @@
         "labs": [
           "openai",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -458,20 +475,6 @@
         ]
       },
       {
-        "name": "reasoning",
-        "count": 7,
-        "prev": 9,
-        "labs": [
-          "openai",
-          "meta",
-          "mistral",
-          "cohere",
-          "microsoft",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "mcp",
         "count": 6,
         "prev": 2,
@@ -480,6 +483,20 @@
           "openai",
           "qwen",
           "amazon"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 6,
+        "prev": 10,
+        "labs": [
+          "openai",
+          "meta",
+          "mistral",
+          "cohere",
+          "amazon",
+          "microsoft",
+          "nvidia"
         ]
       },
       {

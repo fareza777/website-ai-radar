@@ -15,8 +15,8 @@
     "title": "Anthropic S-1",
     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
     "hnUrl": "https://news.ycombinator.com/item?id=50242939",
-    "points": 1447,
-    "comments": 1413,
+    "points": 1605,
+    "comments": 1538,
     "at": "2026-10-26T13:04:50Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -31,6 +31,17 @@
     "at": "2026-10-23T16:59:08Z",
     "lab": "moonshot",
     "firstSeenAt": "2026-10-23T17:15:08.040Z"
+  },
+  {
+    "id": "50251344",
+    "title": "Three new discoveries in mathematics, computer science, and physics",
+    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50251344",
+    "points": 868,
+    "comments": 392,
+    "at": "2026-10-26T21:35:28Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-27T00:04:03.536Z"
   },
   {
     "id": "50168396",
@@ -59,10 +70,32 @@
     "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
     "url": "https://lynchlab.net/llm-skin-cancer",
     "hnUrl": "https://news.ycombinator.com/item?id=50233779",
-    "points": 653,
-    "comments": 269,
+    "points": 659,
+    "comments": 271,
     "at": "2026-10-25T17:15:38Z",
     "firstSeenAt": "2026-10-25T20:56:48.163Z"
+  },
+  {
+    "id": "50251661",
+    "title": "The Exponential Time Hypothesis Is False [pdf]",
+    "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+    "hnUrl": "https://news.ycombinator.com/item?id=50251661",
+    "points": 611,
+    "comments": 215,
+    "at": "2026-10-26T21:59:15Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-27T00:04:03.536Z"
+  },
+  {
+    "id": "50248124",
+    "title": "GPT-6.1 Terra",
+    "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50248124",
+    "points": 584,
+    "comments": 372,
+    "at": "2026-10-26T18:01:17Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z"
   },
   {
     "id": "50186037",
@@ -87,17 +120,6 @@
     "firstSeenAt": "2026-10-22T21:43:19.556Z"
   },
   {
-    "id": "50248124",
-    "title": "GPT-6.1 Terra",
-    "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50248124",
-    "points": 478,
-    "comments": 303,
-    "at": "2026-10-26T18:01:17Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-26T20:35:11.061Z"
-  },
-  {
     "id": "50202217",
     "title": "LLMs are making formal software verification feasible at a much larger scale",
     "url": "https://www.anthropic.com/research/formal-verification",
@@ -113,8 +135,8 @@
     "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
     "url": "https://minimaxir.com/2026/10/cheap-llms/",
     "hnUrl": "https://news.ycombinator.com/item?id=50236102",
-    "points": 413,
-    "comments": 421,
+    "points": 424,
+    "comments": 431,
     "at": "2026-10-25T21:11:31Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-26T00:04:10.881Z"
@@ -145,8 +167,8 @@
     "title": "Cerebras Deploys Trillion-Parameter AI Models",
     "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
     "hnUrl": "https://news.ycombinator.com/item?id=50227356",
-    "points": 364,
-    "comments": 141,
+    "points": 366,
+    "comments": 142,
     "at": "2026-10-25T01:33:49Z",
     "firstSeenAt": "2026-10-25T11:42:45.846Z"
   },
@@ -155,7 +177,7 @@
     "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
     "url": "https://github.com/Zagitta/gpu-unlock",
     "hnUrl": "https://news.ycombinator.com/item?id=50219700",
-    "points": 348,
+    "points": 349,
     "comments": 82,
     "at": "2026-10-24T09:58:27Z",
     "lab": "nvidia",
@@ -195,17 +217,6 @@
     "firstSeenAt": "2026-10-23T17:15:08.040Z"
   },
   {
-    "id": "50251344",
-    "title": "Announcing three new discoveries in mathematics, computer science, and physics",
-    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50251344",
-    "points": 301,
-    "comments": 121,
-    "at": "2026-10-26T21:35:28Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-27T00:04:03.536Z"
-  },
-  {
     "id": "50181175",
     "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
@@ -215,6 +226,17 @@
     "at": "2026-10-21T14:03:43Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
+  },
+  {
+    "id": "50247630",
+    "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+    "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50247630",
+    "points": 247,
+    "comments": 89,
+    "at": "2026-10-26T17:32:16Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-26T20:35:11.061Z"
   },
   {
     "id": "50191507",
@@ -242,8 +264,8 @@
     "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
     "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
     "hnUrl": "https://news.ycombinator.com/item?id=50238739",
-    "points": 228,
-    "comments": 81,
+    "points": 231,
+    "comments": 85,
     "at": "2026-10-26T03:29:05Z",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
   },
@@ -256,17 +278,6 @@
     "comments": 100,
     "at": "2026-10-21T04:27:51Z",
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
-  },
-  {
-    "id": "50247630",
-    "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
-    "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50247630",
-    "points": 211,
-    "comments": 81,
-    "at": "2026-10-26T17:32:16Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-26T20:35:11.061Z"
   },
   {
     "id": "50171966",
@@ -284,29 +295,18 @@
     "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
     "url": "https://github.com/slee-persis/GVS5H",
     "hnUrl": "https://news.ycombinator.com/item?id=50228167",
-    "points": 184,
+    "points": 185,
     "comments": 75,
     "at": "2026-10-25T03:56:01Z",
     "firstSeenAt": "2026-10-25T11:42:45.846Z"
-  },
-  {
-    "id": "50251661",
-    "title": "The Exponential Time Hypothesis Is False [pdf]",
-    "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-    "hnUrl": "https://news.ycombinator.com/item?id=50251661",
-    "points": 176,
-    "comments": 81,
-    "at": "2026-10-26T21:59:15Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-27T00:04:03.536Z"
   },
   {
     "id": "50242843",
     "title": "Brown student maps the hidden global labor powering AI",
     "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
     "hnUrl": "https://news.ycombinator.com/item?id=50242843",
-    "points": 174,
-    "comments": 163,
+    "points": 179,
+    "comments": 171,
     "at": "2026-10-26T12:58:27Z",
     "firstSeenAt": "2026-10-26T20:35:11.061Z"
   },
@@ -320,6 +320,17 @@
     "at": "2026-10-21T13:37:00Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-21T17:19:55.191Z"
+  },
+  {
+    "id": "50246238",
+    "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+    "url": "https://github.com/FrigadeHQ/hob",
+    "hnUrl": "https://news.ycombinator.com/item?id=50246238",
+    "points": 145,
+    "comments": 33,
+    "at": "2026-10-26T16:12:29Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-27T00:04:03.536Z"
   },
   {
     "id": "50214373",
@@ -341,6 +352,17 @@
     "at": "2026-10-21T03:36:43Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
+  },
+  {
+    "id": "50252159",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50252159",
+    "points": 131,
+    "comments": 43,
+    "at": "2026-10-26T22:41:48Z",
+    "lab": "zai",
+    "firstSeenAt": "2026-10-27T09:08:09.408Z"
   },
   {
     "id": "50209907",
@@ -407,17 +429,6 @@
     "at": "2026-10-20T17:43:11Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-21T11:59:56.158Z"
-  },
-  {
-    "id": "50246238",
-    "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
-    "url": "https://github.com/FrigadeHQ/hob",
-    "hnUrl": "https://news.ycombinator.com/item?id=50246238",
-    "points": 105,
-    "comments": 23,
-    "at": "2026-10-26T16:12:29Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-27T00:04:03.536Z"
   },
   {
     "id": "50186455",
@@ -488,7 +499,7 @@
     "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
     "hnUrl": "https://news.ycombinator.com/item?id=50238620",
     "points": 71,
-    "comments": 28,
+    "comments": 30,
     "at": "2026-10-26T03:12:05Z",
     "lab": "qwen",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -514,6 +525,17 @@
     "firstSeenAt": "2026-10-22T12:02:42.943Z"
   },
   {
+    "id": "50254836",
+    "title": "There are now 5 inference providers for abliterated DeepSeek",
+    "url": "https://allmodels.io/llm/abliterated",
+    "hnUrl": "https://news.ycombinator.com/item?id=50254836",
+    "points": 67,
+    "comments": 76,
+    "at": "2026-10-27T04:53:52Z",
+    "lab": "deepseek",
+    "firstSeenAt": "2026-10-27T09:08:09.408Z"
+  },
+  {
     "id": "50167604",
     "title": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
     "url": "https://github.com/AbdullahAlhariri/penmentor",
@@ -529,9 +551,19 @@
     "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
     "url": "https://adrs.systems/",
     "hnUrl": "https://news.ycombinator.com/item?id=50227041",
-    "points": 64,
+    "points": 66,
     "comments": 54,
     "at": "2026-10-25T00:43:47Z",
     "firstSeenAt": "2026-10-26T20:35:11.061Z"
+  },
+  {
+    "id": "50251062",
+    "title": "Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job",
+    "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50251062",
+    "points": 64,
+    "comments": 28,
+    "at": "2026-10-26T21:13:59Z",
+    "firstSeenAt": "2026-10-27T09:08:09.408Z"
   }
 ]
