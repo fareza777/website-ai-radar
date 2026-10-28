@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:04:12.106Z",
+  "generatedAt": "2026-10-28T05:52:51.451Z",
   "stories": [
     {
       "id": "c6099fc8919f3d54",
@@ -75,23 +75,24 @@
         "cohere"
       ],
       "official": 1,
-      "press": 4,
+      "press": 5,
       "outlets": [
         "TradingView",
         "Dealroom",
         "Startup Fortune",
         "Notebookcheck",
         "VentureBeat",
-        "BetaKit"
+        "BetaKit",
+        "XDA"
       ],
       "firstAt": "2026-10-22T08:00:00.000Z",
-      "lastAt": "2026-10-26T20:04:49.000Z",
+      "lastAt": "2026-10-28T02:56:00.000Z",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-sagemaker-muse-qwen-ministral",
       "lead": {
         "kind": "official",
         "id": "191c89b31a66b523"
       },
-      "importance": 80
+      "importance": 81
     },
     {
       "id": "ea83f0dd69c5142c",
@@ -184,8 +185,8 @@
       "importance": 64
     },
     {
-      "id": "qwen:3da845eb6ca838",
-      "title": "Cohere says Alibaba’s Qwen model tried to upload a file to a Beijing server",
+      "id": "cohere:e64b80cec2130a",
+      "title": "Cohere says Alibaba AI model tried to secretly send data to Beijing server during test",
       "entity": null,
       "labs": [
         "cohere",
@@ -194,25 +195,26 @@
       "official": 0,
       "press": 2,
       "outlets": [
-        "FourWeekMBA",
-        "Startup Fortune",
-        "The Globe and Mail",
-        "Technology Org",
-        "Mezha.net",
+        "TechCrunch",
         "www.trendingtopics.eu",
-        "Tech Wire Asia",
-        "Notebookcheck",
+        "CSO Online",
+        "Cyber Magazine",
+        "Technology Org",
+        "Startup Fortune",
+        "Analytics India Magazine",
+        "Crypto Briefing",
         "BigGo Finance",
-        "Analytics India Magazine"
+        "디지털투데이",
+        "Mezha.net"
       ],
-      "firstAt": "2026-10-26T20:46:41.000Z",
-      "lastAt": "2026-10-27T01:41:47.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc0ZHemtNTGJGc1NhNktuVkYwbkVUTzM5WElvSnQtWDFJRkZiRUdUcC1BcnFnQWJEM3BFcWxFajdiMkFuQmwtTHhQQ0RoYjhuQmxqenluNkZPcXZhNC1PX0tWTjJ1TjF5ZVQ0dHA0YmFrZUhDSG9FZkdWZDBnX3R1NGU3bkhyTk0?oc=5",
+      "firstAt": "2026-10-26T20:56:35.000Z",
+      "lastAt": "2026-10-26T22:15:59.000Z",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdkQ5cnFlNGwtaHpEdEttTWZtdlZSSGZ5S2ozN1BxbXFTVmlBekVmTG9uT2VNWG9rT3ZtcVhqSllUR0poZ1ZEQnZySnU1UDE5Y0RFME9KVkFGb0xpSjJkOEw3MDBVdENoZ0ZKVGxkNWR5LXJKeTF5eEs3c0pGRHVFUGJSSzBvWHZ1MWtNb1VnRHY3MnZMZmxfMHkxN3NrNDhYSUh4RHV1MTZBd1pORjF3RmhWQ2dQdHZQbDVFYVFITG4wcjNSRF9zLTJyQmg?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:3da845eb6ca838"
+        "id": "cohere:e64b80cec2130a"
       },
-      "importance": 62
+      "importance": 63
     },
     {
       "id": "685f0df653a9c59c",
@@ -231,6 +233,34 @@
       "lead": {
         "kind": "official",
         "id": "685f0df653a9c59c"
+      },
+      "importance": 60
+    },
+    {
+      "id": "cohere:3da845eb6ca838",
+      "title": "Alibaba Qwen AI model attempted to contact Beijing server, Cohere says",
+      "entity": null,
+      "labs": [
+        "qwen",
+        "cohere"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Brief IA",
+        "The Globe and Mail",
+        "Technology Org",
+        "Tech Wire Asia",
+        "Analytics India Magazine",
+        "CSO Online",
+        "Investing.com"
+      ],
+      "firstAt": "2026-10-27T02:04:57.000Z",
+      "lastAt": "2026-10-27T04:13:39.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qZC1xNXFnLXktTDR3aGJtcEZkSmZEM0dWOGpaLWtHOTJoVndWWWhfNXRMTlhNbFVKTGZ1YVU4ajNnZG10eGNTa0gwQTFzRmNrRnBHdExJakJGRnlGT1JUNG5kX2xSOVlOVHAxX0xPQm1PbWgxSHhXRThMY1lhZw?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "cohere:3da845eb6ca838"
       },
       "importance": 60
     },
@@ -285,32 +315,6 @@
       "lead": {
         "kind": "press",
         "id": "qwen:41937276a19072"
-      },
-      "importance": 58
-    },
-    {
-      "id": "cohere:3da845eb6ca838",
-      "title": "Alibaba Qwen AI model attempted to contact Beijing server, Cohere says",
-      "entity": null,
-      "labs": [
-        "qwen",
-        "cohere"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Brief IA",
-        "The Globe and Mail",
-        "Technology Org",
-        "Tech Wire Asia",
-        "Analytics India Magazine"
-      ],
-      "firstAt": "2026-10-27T02:04:57.000Z",
-      "lastAt": "2026-10-27T04:13:39.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qZC1xNXFnLXktTDR3aGJtcEZkSmZEM0dWOGpaLWtHOTJoVndWWWhfNXRMTlhNbFVKTGZ1YVU4ajNnZG10eGNTa0gwQTFzRmNrRnBHdExJakJGRnlGT1JUNG5kX2xSOVlOVHAxX0xPQm1PbWgxSHhXRThMY1lhZw?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:3da845eb6ca838"
       },
       "importance": 58
     },
@@ -419,12 +423,12 @@
       {
         "name": "Gemini 4 Argon",
         "count": 15,
-        "prev": 35,
+        "prev": 34,
         "labs": []
       },
       {
         "name": "Qwen 3.8",
-        "count": 7,
+        "count": 8,
         "prev": 2,
         "labs": [
           "amazon"
@@ -490,7 +494,7 @@
       {
         "name": "Mistral Large 4",
         "count": 3,
-        "prev": 2,
+        "prev": 1,
         "labs": []
       },
       {
@@ -502,9 +506,27 @@
     ],
     "topics": [
       {
+        "name": "coding",
+        "count": 41,
+        "prev": 41,
+        "labs": [
+          "anthropic",
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "minimax",
+          "cohere",
+          "qwen",
+          "amazon",
+          "microsoft",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
         "name": "agents",
-        "count": 43,
-        "prev": 54,
+        "count": 41,
+        "prev": 55,
         "labs": [
           "anthropic",
           "openai",
@@ -512,25 +534,8 @@
           "mistral",
           "cohere",
           "qwen",
-          "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "coding",
-        "count": 42,
-        "prev": 40,
-        "labs": [
-          "anthropic",
-          "google-deepmind",
-          "openai",
-          "mistral",
-          "cohere",
-          "qwen",
           "microsoft",
-          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -540,12 +545,12 @@
         "count": 10,
         "prev": 10,
         "labs": [
-          "anthropic",
           "xai",
+          "anthropic",
           "openai",
           "mistral",
-          "tencent",
           "amazon",
+          "tencent",
           "nvidia"
         ]
       },
@@ -559,33 +564,34 @@
           "openai",
           "minimax",
           "baidu",
+          "amazon",
           "tencent",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "audio",
-        "count": 7,
-        "prev": 4,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "mistral",
-          "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "open-source",
-        "count": 7,
+        "count": 8,
         "prev": 5,
         "labs": [
           "openai",
+          "minimax",
           "cohere",
+          "amazon",
           "microsoft",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "audio",
+        "count": 6,
+        "prev": 5,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "mistral",
           "amazon",
           "ibm",
           "nvidia"
@@ -600,8 +606,8 @@
           "meta",
           "mistral",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -613,17 +619,6 @@
           "cohere",
           "amazon",
           "nvidia"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 2,
-        "prev": 6,
-        "labs": [
-          "anthropic",
-          "openai",
-          "qwen",
-          "amazon"
         ]
       }
     ]
