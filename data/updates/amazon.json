@@ -1,5 +1,53 @@
 [
   {
+    "id": "b8bfa4647f108004",
+    "lab": "amazon",
+    "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T18:28:26.000Z",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z",
+    "updatedAt": "2026-10-28T18:28:26.000Z",
+    "excerpt": "If you’ve tried to get an agent into production, the model and tool use are not the blocker. The main bottleneck is everything around them: how many teams can build within a secure environment, which team owns each model and tool, how AgentOps and error handling stay inside a pre-defined boundary, and how platform, Workstream, and finance teams see cost and health across accounts. For a Platform team that wants to…",
+    "summary": "If you’ve tried to get an agent into production, the model and tool use are not the blocker.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 30,
+    "contentHash": "b618a938834d"
+  },
+  {
+    "id": "21f4761ac0bc4960",
+    "lab": "amazon",
+    "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
+    "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T18:12:13.000Z",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z",
+    "updatedAt": "2026-10-28T18:12:13.000Z",
+    "excerpt": "As quality assurance (QA) automation adoption grows inside an organization, a new problem appears that has nothing to do with writing tests. A platform team stands up test automation, then a second team wants to join, then a dozen more. Soon hundreds of test cases belong to different products and squads, and everyone can see everyone else’s tests. No one can answer a basic question at a glance: is this application’s…",
+    "summary": "As quality assurance (QA) automation adoption grows inside an organization, a new problem appears that has nothing to do with writing tests.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 50,
+    "contentHash": "023c722efa2a"
+  },
+  {
     "id": "2dad5a9dd342f741",
     "lab": "amazon",
     "title": "SageMaker MLflow Apps now support MLflow 3.16",
@@ -1330,10 +1378,10 @@
     "tags": [
       "27B"
     ],
-    "importance": 58,
+    "importance": 59,
     "contentHash": "f6b52138e9a2",
     "meta": {
-      "likes": 10,
+      "likes": 11,
       "downloads": 148,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"

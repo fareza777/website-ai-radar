@@ -128,15 +128,17 @@
     "verified": true,
     "publishedAt": "2026-10-25T21:29:15.000Z",
     "firstSeenAt": "2026-10-28T13:09:00.611Z",
-    "updatedAt": "2026-10-25T21:29:15.000Z",
-    "excerpt": "[TRTLLM-17184][fix] Avoid global stop-word buffer growth in the PyTor…",
+    "updatedAt": "2026-10-28T20:21:14.926Z",
+    "excerpt": "Python package version The Python wheels for this release are published as 1.4.0rc2.post1 . Container images and documentation remain at 1.4.0rc2 . Use 1.4.0rc2.post1 when installing the Python package. The wheel-only patch removes a direct Git dependency that prevented PyPI publication ( #21128 ) and updates the Boost download mirror used during builds ( #21133 ). Patched wheel source: v1.4.0rc2.post1 , commit…",
     "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
-    "tags": [],
+    "tags": [
+      "multimodal"
+    ],
     "importance": 40,
-    "contentHash": "78f8381b9820",
+    "contentHash": "50f93f792019",
     "meta": {
       "version": "v1.4.0",
       "semver": "minor",
@@ -165,7 +167,7 @@
     "importance": 66,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 86,
+      "likes": 92,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -1331,6 +1333,38 @@
     "contentHash": "820e3a258ba8"
   },
   {
+    "id": "110f8b3466eef714",
+    "lab": "nvidia",
+    "title": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-07T22:50:21.000Z",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z",
+    "updatedAt": "2026-10-07T22:50:21.000Z",
+    "excerpt": "automatic-speech-recognition · license: other",
+    "summary": "NVIDIA published the NVIDIA-Nemotron-3.5-Transcribe-30B-A4B model on Hugging Face for speech recognition (ASR). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "30B-A4B",
+      "audio"
+    ],
+    "importance": 67,
+    "contentHash": "1bc2fd3b97e9",
+    "meta": {
+      "likes": 133,
+      "downloads": 338,
+      "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "pipeline": "automatic-speech-recognition",
+      "license": "other"
+    }
+  },
+  {
     "id": "6f02344687c47731",
     "lab": "nvidia",
     "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
@@ -1401,7 +1435,7 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 164,
+      "likes": 165,
       "downloads": 11715,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1594,10 +1628,10 @@
     "tags": [
       "4B"
     ],
-    "importance": 68,
+    "importance": 69,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 199,
+      "likes": 209,
       "downloads": 51721,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -1677,7 +1711,7 @@
     "importance": 63,
     "contentHash": "b0ac029a9c38",
     "meta": {
-      "likes": 36,
+      "likes": 37,
       "downloads": 1794,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
@@ -2541,7 +2575,7 @@
     "importance": 67,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 128,
+      "likes": 132,
       "downloads": 10678,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
@@ -2572,7 +2606,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 816,
+      "likes": 817,
       "downloads": 133118,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
@@ -2601,7 +2635,7 @@
     "importance": 68,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 163,
+      "likes": 166,
       "downloads": 50085,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"

@@ -1,5 +1,82 @@
 [
   {
+    "id": "673c57f1d7d477ac",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-10-28T20:21:14.926Z",
+    "field": "prompt",
+    "from": 0.2,
+    "to": 0.039,
+    "change": -80.5
+  },
+  {
+    "id": "d04f8ca4d1201002",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-10-28T20:21:14.926Z",
+    "field": "completion",
+    "from": 2.5,
+    "to": 1.25,
+    "change": -50
+  },
+  {
+    "id": "8adb82f7aafc2d44",
+    "modelId": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "lab": "qwen",
+    "at": "2026-10-28T20:21:14.926Z",
+    "field": "completion",
+    "from": 0.95,
+    "to": 0.9,
+    "change": -5.3
+  },
+  {
+    "id": "e46556404738c785",
+    "modelId": "qwen/qwen3.6-27b",
+    "name": "Qwen: Qwen3.6 27B",
+    "lab": "qwen",
+    "at": "2026-10-28T20:21:14.926Z",
+    "field": "prompt",
+    "from": 0.32,
+    "to": 0.45,
+    "change": 40.6
+  },
+  {
+    "id": "526b751848624eac",
+    "modelId": "qwen/qwen3.6-27b",
+    "name": "Qwen: Qwen3.6 27B",
+    "lab": "qwen",
+    "at": "2026-10-28T20:21:14.926Z",
+    "field": "completion",
+    "from": 3.2,
+    "to": 2.7,
+    "change": -15.6
+  },
+  {
+    "id": "9d20e65f950f87c2",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-10-28T20:21:14.926Z",
+    "field": "prompt",
+    "from": 0.966,
+    "to": 1.4,
+    "change": 44.9
+  },
+  {
+    "id": "e262eb790e552f56",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-10-28T20:21:14.926Z",
+    "field": "completion",
+    "from": 3.036,
+    "to": 4.4,
+    "change": 44.9
+  },
+  {
     "id": "e014b25466019d4d",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",

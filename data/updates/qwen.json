@@ -1,5 +1,96 @@
 [
   {
+    "id": "710957a61d2f99e9",
+    "lab": "qwen",
+    "title": "Qwen Code v0.26.3",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.3",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T16:56:50.000Z",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z",
+    "updatedAt": "2026-10-28T16:56:50.000Z",
+    "excerpt": "Highlights Generated UI cards keep inputs and state across navigation and split views, show live views after initial calculation, and appear only for clients that can render MCP Apps. ( #15611 , #15787 , #15720 , #15790 ) Persistent session Workflow mode can be enabled with --workflow-mode on, /workflows mode on, SDK, or ACP, and workflow switches now reach the CLI sandbox. ( #15422 , #15743 ) Tool results shrink to…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.26.3 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "mcp"
+    ],
+    "importance": 25,
+    "contentHash": "284408203588",
+    "meta": {
+      "version": "v0.26.3",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "7cf81cfa5a040451",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.26.3",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.3",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T16:51:11.000Z",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z",
+    "updatedAt": "2026-10-28T16:51:11.000Z",
+    "excerpt": "What's Changed feat(managed): add session permission rules and Auto approval by @doudouOUC in #15448 fix(cli): harden serve token resolution against project env injection by @yiliang114 in #15228 feat(core): add an experimental shared agent loop and run headless on it by @qqqys in #15369 fix(cli): align OpenTUI cancellation and retry with Ink by @chiga0 in #15283 test(managed-agent): assert web_fetch in the Hosted…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.26.3 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "438c96ecb826",
+    "meta": {
+      "version": "v0.26.3",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
+    "id": "9ffc5f7988fc5749",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.25",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.25",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T16:16:39.000Z",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z",
+    "updatedAt": "2026-10-28T16:16:39.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.26.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.25 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "c7d8045a5fcc",
+    "meta": {
+      "version": "v0.1.25",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
     "id": "753382d1d08139a1",
     "lab": "qwen",
     "title": "Qwen Code sdk-typescript v0.1.24",
@@ -501,7 +592,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 289,
+      "stars": 290,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -619,7 +710,7 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1074,
+      "likes": 1077,
       "downloads": 36391,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
@@ -884,7 +975,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3484,
+      "likes": 3485,
       "downloads": 200640,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -923,7 +1014,7 @@
     "importance": 44,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 237,
+      "stars": 238,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -1044,7 +1135,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6617,
+      "likes": 6623,
       "downloads": 3637182,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
@@ -1107,7 +1198,7 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 18587,
+      "likes": 18607,
       "downloads": 7515620,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",

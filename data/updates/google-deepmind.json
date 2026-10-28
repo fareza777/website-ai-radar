@@ -1,5 +1,27 @@
 [
   {
+    "id": "34b0bf3f94c3851e",
+    "lab": "google-deepmind",
+    "title": "Gemini 4 Carbon: Our next frontier model",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+    "sourceId": "deepmind-blog",
+    "sourceName": "Google DeepMind Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T17:00:58.000Z",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z",
+    "updatedAt": "2026-10-28T17:00:58.000Z",
+    "excerpt": "",
+    "summary": "Official model update from Google DeepMind (Google DeepMind Blog).",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 80,
+    "contentHash": "5d65fec21494"
+  },
+  {
     "id": "71f49f1fd9daa08d",
     "lab": "google-deepmind",
     "title": "Gemini CLI v0.66.0",
@@ -1077,7 +1099,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 2984,
+      "likes": 2991,
       "downloads": 282912,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",
@@ -1489,7 +1511,7 @@
     "importance": 79,
     "contentHash": "d8c99b7d47a0",
     "meta": {
-      "likes": 995,
+      "likes": 997,
       "downloads": 845701,
       "repo": "google/timesfm-3.0-pytorch",
       "pipeline": "time-series-forecasting",

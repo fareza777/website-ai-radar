@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-10-28T13:09:00.611Z",
+  "generatedAt": "2026-10-28T20:21:14.926Z",
   "stories": [
+    {
+      "id": "34b0bf3f94c3851e",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "entity": "Gemini 4 Carbon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 1,
+      "press": 13,
+      "outlets": [
+        "Mashable",
+        "Investing.com",
+        "tech-insider.org",
+        "Ars Technica",
+        "Seeking Alpha",
+        "Constellation Research",
+        "LinkedIn",
+        "shattered.io",
+        "Neowin",
+        "9to5Google",
+        "Reuters",
+        "Wichita Eagle",
+        "The Verge",
+        "VentureBeat",
+        "Anadolu Ajansı",
+        "Unite.AI",
+        "The Decoder"
+      ],
+      "firstAt": "2026-10-28T17:00:58.000Z",
+      "lastAt": "2026-10-28T19:21:14.000Z",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "lead": {
+        "kind": "official",
+        "id": "34b0bf3f94c3851e"
+      },
+      "importance": 100
+    },
     {
       "id": "c6099fc8919f3d54",
       "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
@@ -151,7 +188,7 @@
       "importance": 65
     },
     {
-      "id": "cohere:e64b80cec2130a",
+      "id": "cohere:903f2bd3fa59a7",
       "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
       "entity": null,
       "labs": [
@@ -164,6 +201,10 @@
         "Reuters",
         "marketscreener.com",
         "디지털투데이",
+        "Crypto Briefing",
+        "Investing.com",
+        "The Economic Times",
+        "CNA",
         "TechCrunch",
         "www.trendingtopics.eu",
         "CSO Online",
@@ -171,18 +212,14 @@
         "Technology Org",
         "Startup Fortune",
         "Analytics India Magazine",
-        "Crypto Briefing",
-        "BigGo Finance",
-        "The Economic Times",
-        "CNA",
-        "Investing.com"
+        "BigGo Finance"
       ],
       "firstAt": "2026-10-26T18:49:17.000Z",
       "lastAt": "2026-10-26T20:40:18.000Z",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnRHZXQtNlM4RXQwelJVdUpXRUFMVmZFYmhpSm11NkR5TnZnRllBNmxmRi14WkVITVVQc2NiYndvNmNRcUVPMTRMQzFWUkQwUDFGNFlXQVdJQVFYR2M0cHMwblJVLVA4VUVOWFlXcHlIaXM2TWJyREp1aUtNUlUwN1htMTZaRHFvQjBTMkRDLUdjdy11YU9keWZXV3JwYm81V2VQcC1qOTJNLVFjeGtyNl9NcEg2dmJDYmNWQnMwNzlNVFIwQ3c?oc=5",
       "lead": {
         "kind": "press",
-        "id": "cohere:e64b80cec2130a"
+        "id": "cohere:903f2bd3fa59a7"
       },
       "importance": 65
     },
@@ -366,6 +403,30 @@
       "importance": 57
     },
     {
+      "id": "nvidia:05e07feafa99ca",
+      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
+      "entity": "Nemotron 3.5 Transcribe",
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 3,
+      "outlets": [
+        "shattered.io",
+        "SQ Magazine",
+        "The Decoder",
+        "TradingView"
+      ],
+      "firstAt": "2026-10-27T10:01:39.000Z",
+      "lastAt": "2026-10-28T16:39:10.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:05e07feafa99ca"
+      },
+      "importance": 56
+    },
+    {
       "id": "anthropic:5ded18ae0cbcf5",
       "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
       "entity": "Claude Opus 5.5",
@@ -392,9 +453,17 @@
   "trending": {
     "entities": [
       {
-        "name": "Gemini 4 Argon",
+        "name": "Gemini 4 Carbon",
         "count": 15,
-        "prev": 27,
+        "prev": 0,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "count": 13,
+        "prev": 26,
         "labs": []
       },
       {
@@ -412,10 +481,20 @@
         "labs": []
       },
       {
-        "name": "Granite 5.0 2B",
+        "name": "GPT 6 Astra",
         "count": 4,
         "prev": 0,
-        "labs": []
+        "labs": [
+          "openai"
+        ]
+      },
+      {
+        "name": "GPT 6",
+        "count": 4,
+        "prev": 1,
+        "labs": [
+          "openai"
+        ]
       },
       {
         "name": "GPT 6.1 Sol",
@@ -426,20 +505,10 @@
         ]
       },
       {
-        "name": "GPT 6",
+        "name": "Claude Opus 5.5",
         "count": 4,
         "prev": 2,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
-        "name": "GPT 6 Astra",
-        "count": 3,
-        "prev": 0,
-        "labs": [
-          "openai"
-        ]
+        "labs": []
       },
       {
         "name": "GPT 6.1 Terra",
@@ -449,6 +518,12 @@
           "openai",
           "amazon"
         ]
+      },
+      {
+        "name": "Nemotron 3.5 Transcribe",
+        "count": 3,
+        "prev": 0,
+        "labs": []
       },
       {
         "name": "Qwen 3 Coder",
@@ -467,19 +542,13 @@
         "count": 3,
         "prev": 1,
         "labs": []
-      },
-      {
-        "name": "Claude Opus 5.5",
-        "count": 3,
-        "prev": 2,
-        "labs": []
       }
     ],
     "topics": [
       {
         "name": "coding",
-        "count": 39,
-        "prev": 42,
+        "count": 42,
+        "prev": 38,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -488,16 +557,16 @@
           "minimax",
           "cohere",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "agents",
-        "count": 33,
-        "prev": 60,
+        "count": 36,
+        "prev": 53,
         "labs": [
           "anthropic",
           "openai",
@@ -505,23 +574,23 @@
           "mistral",
           "cohere",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 9,
+        "count": 10,
         "prev": 10,
         "labs": [
           "deepseek",
           "google-deepmind",
           "openai",
           "minimax",
-          "baidu",
           "tencent",
+          "baidu",
           "amazon",
           "ibm",
           "nvidia"
@@ -530,42 +599,26 @@
       {
         "name": "safety",
         "count": 8,
-        "prev": 9,
+        "prev": 8,
         "labs": [
           "anthropic",
           "xai",
           "openai",
           "mistral",
           "tencent",
-          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "audio",
         "count": 7,
-        "prev": 4,
+        "prev": 3,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
           "amazon",
           "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 6,
-        "prev": 11,
-        "labs": [
-          "openai",
-          "meta",
-          "mistral",
-          "cohere",
-          "tencent",
-          "amazon",
-          "microsoft",
           "nvidia"
         ]
       },
@@ -577,20 +630,46 @@
           "openai",
           "minimax",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 5,
+        "prev": 11,
+        "labs": [
+          "openai",
+          "meta",
+          "mistral",
+          "cohere",
+          "tencent",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "rag",
         "count": 3,
-        "prev": 3,
+        "prev": 4,
         "labs": [
+          "meta",
           "cohere",
           "amazon",
           "nvidia"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 2,
+        "prev": 7,
+        "labs": [
+          "anthropic",
+          "openai",
+          "qwen",
+          "amazon"
         ]
       }
     ]
@@ -634,6 +713,18 @@
       ],
       "reports": 2,
       "at": "2026-10-26T07:19:38.000Z"
+    },
+    {
+      "id": "nvidia:ff8b625eb18e35",
+      "lab": "nvidia",
+      "title": "Honeywell Technologies Launches Forge Plant Cognition with Dangote, Built with NVIDIA AI and Dell Technologies Capabilities",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTHlKNzlwanZWbzdEN2VxNmxPaXBwa1NXZTYyRTJXLW5iclVJNFlVYjBfSlBkZzY5UVdudGlZNVphbW1vYjZDVm1ubTZsX2w4dmNielFDbGtyVW9OQ2NPRVFEZXhVOVRaS2EwZW9nRTltbXBJbFVfTHNQUnlyY0R0bnAtZVp4ZldpcDlhR1Z5b24xX19zbXFtS3FWU2VHZWJqUTBsVk1iMGFBNXRDdkdxQkFMMWZtMnpmQWZhdFI5TzlUMkZzbTEtZlJvb2RPZXhsTC1MYWhEeDlfbVhHZHNSNFBCZExoRUlaTkhPUE1FY0VkNHl5R1NrMA?oc=5",
+      "outlets": [
+        "Yahoo Finance Singapore",
+        "Honeywell"
+      ],
+      "reports": 2,
+      "at": "2026-10-25T22:00:00.000Z"
     }
   ]
 }
