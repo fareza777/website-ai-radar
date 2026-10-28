@@ -1,5 +1,32 @@
 [
   {
+    "id": "f44dc5581c0448e6",
+    "lab": "nvidia",
+    "title": "TensorRT-LLM v1.4.0",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.4.0rc2.post1",
+    "sourceId": "tensorrt-llm",
+    "sourceName": "GitHub · NVIDIA/TensorRT-LLM",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T05:29:36.000Z",
+    "firstSeenAt": "2026-10-28T13:09:00.611Z",
+    "updatedAt": "2026-10-28T05:29:36.000Z",
+    "excerpt": "Signed-off-by: Sharabesh Jayaraman 338298191+sharabeshj-nvda@users.noreply.github.com (cherry picked from commit eb6fc51 ) Signed-off-by: Yanchao Lu yanchaol@nvidia.com",
+    "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "cb8eaf9cda6a",
+    "meta": {
+      "version": "v1.4.0",
+      "semver": "minor",
+      "repo": "NVIDIA/TensorRT-LLM"
+    }
+  },
+  {
     "id": "e2324f34bfee3970",
     "lab": "nvidia",
     "title": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
@@ -90,6 +117,33 @@
     "contentHash": "e154f47045f2"
   },
   {
+    "id": "aa016b76770ef942",
+    "lab": "nvidia",
+    "title": "TensorRT-LLM v1.4.0",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.4.0rc2",
+    "sourceId": "tensorrt-llm",
+    "sourceName": "GitHub · NVIDIA/TensorRT-LLM",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-25T21:29:15.000Z",
+    "firstSeenAt": "2026-10-28T13:09:00.611Z",
+    "updatedAt": "2026-10-25T21:29:15.000Z",
+    "excerpt": "[TRTLLM-17184][fix] Avoid global stop-word buffer growth in the PyTor…",
+    "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "78f8381b9820",
+    "meta": {
+      "version": "v1.4.0",
+      "semver": "minor",
+      "repo": "NVIDIA/TensorRT-LLM"
+    }
+  },
+  {
     "id": "db7766864b1cc762",
     "lab": "nvidia",
     "title": "MotionBricks",
@@ -108,10 +162,10 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 65,
+    "importance": 66,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 78,
+      "likes": 86,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -1348,7 +1402,7 @@
     "contentHash": "08356dcbd0c7",
     "meta": {
       "likes": 164,
-      "downloads": 10877,
+      "downloads": 11715,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -1491,8 +1545,8 @@
     "importance": 62,
     "contentHash": "806c45ea6874",
     "meta": {
-      "likes": 34,
-      "downloads": 5303,
+      "likes": 35,
+      "downloads": 6131,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
     }
@@ -1543,8 +1597,8 @@
     "importance": 68,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 196,
-      "downloads": 44651,
+      "likes": 199,
+      "downloads": 51721,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
       "license": "other"
@@ -1624,7 +1678,7 @@
     "contentHash": "b0ac029a9c38",
     "meta": {
       "likes": 36,
-      "downloads": 1588,
+      "downloads": 1794,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -2457,7 +2511,7 @@
     "contentHash": "e3362fa9da93",
     "meta": {
       "likes": 87,
-      "downloads": 7681,
+      "downloads": 7639,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -2487,8 +2541,8 @@
     "importance": 67,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 125,
-      "downloads": 9406,
+      "likes": 128,
+      "downloads": 10678,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -2519,7 +2573,7 @@
     "contentHash": "5af7f2181f27",
     "meta": {
       "likes": 816,
-      "downloads": 125502,
+      "downloads": 133118,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
       "license": "openmdw-1.1"
@@ -2547,8 +2601,8 @@
     "importance": 68,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 161,
-      "downloads": 46143,
+      "likes": 163,
+      "downloads": 50085,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
     }
