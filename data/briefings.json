@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-10-28",
-    "generatedAt": "2026-10-27T22:22:25.706Z",
+    "generatedAt": "2026-10-28T00:04:12.106Z",
     "stats": {
-      "updates24h": 23,
+      "updates24h": 19,
       "labsActive24h": 8,
-      "updates7d": 165,
-      "newModels7d": 45
+      "updates7d": 160,
+      "newModels7d": 46
     },
     "source": "template",
-    "headline": "23 updates from 8 AI labs in the last 24 hours · 45 model releases this week.",
+    "headline": "19 updates from 8 AI labs in the last 24 hours · 46 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Announcing SOCI-indexed images for faster SageMaker AI jobs",
@@ -20,6 +20,11 @@
         "text": "Google DeepMind: Genie 4: A new generation of world simulation",
         "itemId": "5ef94984dce414f6",
         "lab": "google-deepmind"
+      },
+      {
+        "text": "OpenAI: Retell uses OpenAI models to help power 100M monthly calls",
+        "itemId": "d42fb1eb3362412f",
+        "lab": "openai"
       },
       {
         "text": "IBM: IBM and Kaggle launch Java framework migration leaderboard",
@@ -35,11 +40,6 @@
         "text": "OpenAI: OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
         "itemId": "a3a879144b2984ac",
         "lab": "openai"
-      },
-      {
-        "text": "Anthropic: Manage costs and demonstrate ROI for Claude Code on Google Cloud",
-        "itemId": "728afeb9147d0f5a",
-        "lab": "anthropic"
       }
     ]
   },

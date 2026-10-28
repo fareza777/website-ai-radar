@@ -2589,9 +2589,10 @@
     "benefit": "Retailers with large catalogs can see Fanatics' Shop the Look result of 10% higher engagement on about 30,000 MLB products."
   },
   "8a77e646571ba4d5": {
-    "hash": "f63965b5e53f",
-    "summary": "Anthropic filed an S-1 with the SEC for a proposed initial public offering.",
-    "benefit": "Readers following lab funding can track Anthropic's proposed IPO from the S-1 filing."
+    "hash": "444ed130fdac",
+    "summary": "Anthropic filed a Form S-1 registration statement with the SEC for a proposed initial public offering of its Class A common stock.",
+    "benefit": "Investors and partners can read Anthropic’s public IPO filing once the SEC registration statement becomes effective.",
+    "category": "feature"
   },
   "24f8c924a60c9d73": {
     "hash": "3265152f9c0c",
@@ -2678,5 +2679,173 @@
     "hash": "af5dc92ab72d",
     "summary": "Mistral Vibe v3.0.3 picks up skills added or edited on disk without /reload, shows the active model and thinking level in the footer next to the token counter, and prefixes / menu skill descriptions with project, user, or vibe scope.",
     "benefit": "Vibe users can change skills on disk without /reload and see the model and thinking level in the footer."
+  },
+  "c6099fc8919f3d54": {
+    "hash": "f9cba5c48857",
+    "summary": "Anima says clinics can cut call waits by 75% using GPT-6 and GPT-Live, giving care teams more capacity to respond to patients.",
+    "benefit": "Clinic teams using Anima with OpenAI models can handle more patient calls with shorter wait times.",
+    "category": "feature"
+  },
+  "2f7df4450dee9eaf": {
+    "hash": "c1162b388308",
+    "summary": "AWS announced Seekable OCI (SOCI) indexing for SageMaker AI Training and related jobs to cut minutes of container image download overhead on each run.",
+    "benefit": "SageMaker users can start training jobs sooner and pay for less idle time while large deep learning images download.",
+    "category": "feature"
+  },
+  "d42fb1eb3362412f": {
+    "hash": "a05e70b09f03",
+    "summary": "Retell says it powers 100M monthly calls with OpenAI models; GPT-6 Astra tops its voice agent benchmark and Codex supports a $1.6M annual revenue run rate per employee.",
+    "benefit": "Voice AI builders can see how Retell pairs Astra for calls with Codex to scale a lean engineering team.",
+    "category": "feature"
+  },
+  "5ef94984dce414f6": {
+    "hash": "0f525ce7a99e",
+    "summary": "Google DeepMind introduced Genie 4, described as a new world model for real-time simulation with unprecedented realism.",
+    "benefit": "Researchers and developers exploring world models can try Genie 4 for more realistic real-time simulation.",
+    "category": "model"
+  },
+  "e4fae318cc13558f": {
+    "hash": "0b2e09b7e368",
+    "summary": "IBM and Kaggle launched ScarfBench, a leaderboard that evaluates model-and-agent setups for enterprise Java framework migration with reproduced runs.",
+    "benefit": "Teams migrating Java frameworks can compare agent harnesses on a shared benchmark with validation and reproduction.",
+    "category": "developer"
+  },
+  "10659eb70d41a8da": {
+    "hash": "aa1cd00dfa6c",
+    "summary": "Property Finder found 96.8% of its Bedrock evaluation labels came from one model’s predictions rather than human verification, skewing ground truth toward the incumbent model.",
+    "benefit": "Bedrock customers can audit whether their eval labels are human-verified before picking a replacement model.",
+    "category": "developer"
+  },
+  "5ccb1bc52e2dfe3e": {
+    "hash": "1383bbe2659d",
+    "summary": "Tencent released Hy-SimulMT-30B-A3B-Interleave on Hugging Face as a translation model under the Apache 2.0 license.",
+    "benefit": "Developers needing a large Tencent translation checkpoint can use Hy-SimulMT-30B-A3B-Interleave under Apache 2.0.",
+    "category": "model"
+  },
+  "a3a879144b2984ac": {
+    "hash": "dfa0ad72bcfe",
+    "summary": "OpenAI and Oracle are expanding their partnership to bring Oracle business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "benefit": "ChatGPT users may get Oracle apps and agents in-product, while Oracle customers gain new OpenAI-backed offerings.",
+    "category": "feature"
+  },
+  "1d7d75b47c31f4d0": {
+    "hash": "b76defe23155",
+    "summary": "Grupo Boticário runs a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests with OpenAI tools.",
+    "benefit": "Sales organizations can see how a proprietary agent platform frees resellers for advisory work by handling routine requests.",
+    "category": "feature"
+  },
+  "827221925d8dc2bc": {
+    "hash": "580a68ece8a2",
+    "summary": "Localiza reorganized work around ChatGPT Enterprise, the OpenAI API, Codex, and more than 60 specialized agents for AI-native mobility experiences.",
+    "benefit": "Mobility companies can study how Localiza scaled dozens of agents across enterprise ChatGPT and Codex.",
+    "category": "feature"
+  },
+  "728afeb9147d0f5a": {
+    "hash": "8c193c351f0e",
+    "summary": "Anthropic published guidance on managing costs and demonstrating ROI for Claude Code on Google Cloud.",
+    "benefit": "Teams running Claude Code on Google Cloud get concrete practices for cost control and ROI reporting.",
+    "category": "developer"
+  },
+  "31f854764086b8ec": {
+    "hash": "c5ab9261a022",
+    "summary": "Anthropic expanded its GSA partnership with a OneGov agreement offering government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
+    "benefit": "U.S. government teams can access Claude products at a 40% discount through the new GSA agreement.",
+    "category": "pricing"
+  },
+  "2dad5a9dd342f741": {
+    "hash": "b12bc2221227",
+    "summary": "SageMaker MLflow Apps now support MLflow 3.16, including a redesigned default trace explorer for generative AI and agent debugging.",
+    "benefit": "SageMaker MLflow users get faster experiment tracking and a better trace UI for debugging agents.",
+    "category": "developer"
+  },
+  "685f0df653a9c59c": {
+    "hash": "eaf15413f50e",
+    "summary": "AWS says it was named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service for Amazon Connect for the fourth consecutive year.",
+    "benefit": "Contact center buyers can weigh Gartner’s 2026 CCaaS placement when evaluating Amazon Connect.",
+    "category": "feature"
+  },
+  "8357008dccbcb5f4": {
+    "hash": "17068152332e",
+    "summary": "Codex CLI rust v0.165.0 adds a built-in Google Cloud Vertex AI provider, GPT-6.1 Terra in the model catalog, and session-picker improvements for linked worktrees.",
+    "benefit": "Codex CLI users on GCP can point at Vertex AI and select GPT-6.1 Terra without custom provider wiring.",
+    "category": "developer"
+  },
+  "001110b136cd9821": {
+    "hash": "6eadf4c4e199",
+    "summary": "Anthropic described early drug-development work with Claude, including research partnerships with six organizations developing new medicines.",
+    "benefit": "Life-sciences teams can follow Anthropic’s early partnerships to see how Claude is applied across drug development stages.",
+    "category": "research"
+  },
+  "71f49f1fd9daa08d": {
+    "hash": "16ded291ef46",
+    "summary": "Gemini CLI v0.66.0 ships with UI fixes such as synchronized output and isolated spinner rendering alongside routine release chores.",
+    "benefit": "Gemini CLI users get smoother terminal output and spinner behavior in v0.66.0.",
+    "category": "developer"
+  },
+  "4a299d1e9f3d5424": {
+    "hash": "cdf262f2e7a9",
+    "summary": "NVIDIA highlights C-BRAIN using open-source AI tools with NVIDIA to help researchers synthesize vast dementia data for 57 million people worldwide.",
+    "benefit": "Dementia researchers can explore C-BRAIN’s NVIDIA-backed open tools to cope with large biomedical datasets.",
+    "category": "research"
+  },
+  "84d2d4dcfb6d5f11": {
+    "hash": "231213b3faf0",
+    "summary": "IBM researchers report an advance connecting quantum processors with l-couplers toward modular quantum computing.",
+    "benefit": "Quantum hardware teams can track IBM’s l-coupler work as a step toward linking processors at scale.",
+    "category": "research"
+  },
+  "938e2958153c019c": {
+    "hash": "a76dc979a95d",
+    "summary": "Dagster Labs uses Codex in open-source projects to speed documentation, translate content across mediums, and measure documentation completeness.",
+    "benefit": "Open-source maintainers can copy Dagster’s Codex workflow for docs velocity and completeness checks.",
+    "category": "developer"
+  },
+  "a7fcfcf24af1c1ba": {
+    "hash": "a41f268b0486",
+    "summary": "Meta’s 2026 Python Typing Survey drew 1,794 responses; checker choices shifted while type-hint use stayed steady, and missing library stubs topped difficulties.",
+    "benefit": "Python developers can compare their typing setup to the 2026 survey on checkers and pain points.",
+    "category": "developer"
+  },
+  "8cb333260a17a324": {
+    "hash": "751bff80a394",
+    "summary": "Check Point uses OpenAI Daybreak to speed vulnerability research so analysts turn intelligence into customer protections faster.",
+    "benefit": "Security teams can see how Daybreak accelerates turning vulnerability research into shipped defenses.",
+    "category": "research"
+  },
+  "e2324f34bfee3970": {
+    "hash": "d5a9ecc7508a",
+    "summary": "NVIDIA explains fine-tuning Nemotron so models follow local rules and cultural nuance, not just local languages.",
+    "benefit": "Teams deploying Nemotron regionally can fine-tune for local policy and culture beyond translation.",
+    "category": "developer"
+  },
+  "3fa83c67bd726680": {
+    "hash": "85269c4ca217",
+    "summary": "Claude Code v2.1.312 adds configurable OIDC user ID claims for the apps gateway and fixes managed-settings fetch after VS Code sign-in.",
+    "benefit": "Enterprise Claude Code users on Entra ID can map oidc.user_id_claim, and VS Code sign-in picks up org policy reliably.",
+    "category": "developer"
+  },
+  "753382d1d08139a1": {
+    "hash": "1dd10010e8b3",
+    "summary": "Qwen Code sdk-typescript v0.1.24 bundles CLI version 0.26.2 built from the same source as the SDK.",
+    "benefit": "TypeScript SDK users get a matching Qwen Code CLI 0.26.2 in the v0.1.24 release.",
+    "category": "developer"
+  },
+  "6cb7cfd26ca30e9f": {
+    "hash": "9a187fc6b077",
+    "summary": "Qwen Code v0.26.2 adds managed-agent session permission rules, an experimental shared agent loop, and DashScope source-config headers.",
+    "benefit": "Qwen Code users can try Auto approval rules and the experimental shared agent loop in v0.26.2.",
+    "category": "developer"
+  },
+  "ffda304ca8127943": {
+    "hash": "1855d2938244",
+    "summary": "Docling v2.143.1 fixes table OCR token handling, PPTX chart table limits, and several OCR and presentation parsing edge cases.",
+    "benefit": "Docling users parsing tables or slides get more reliable OCR cells and whitespace handling in v2.143.1.",
+    "category": "developer"
+  },
+  "c6329a986f18633d": {
+    "hash": "a53a687130ca",
+    "summary": "NVIDIA shares three ways to speed MoE inference on DGX Spark, using Ling-3.0-flash profiling that showed decode was memory-bound at batch size 1.",
+    "benefit": "Teams running MoE models on DGX Spark can apply NVIDIA’s memory-bound decode optimizations from the Ling-3.0-flash example.",
+    "category": "developer"
   }
 }

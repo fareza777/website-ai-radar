@@ -18,7 +18,7 @@
     "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them less suited to…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 238,
+    "upvotes": 240,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -30,7 +30,7 @@
     "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harness reliability into…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 209,
+    "upvotes": 233,
     "org": "tracelite-ai",
     "githubRepo": "https://github.com/TraceLite-AI/TraceTrial-Bench",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -42,7 +42,7 @@
     "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 183,
+    "upvotes": 184,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/amiya-special/Dynaflow",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -139,7 +139,7 @@
     "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 288,
+    "upvotes": 290,
     "org": "oxford",
     "githubRepo": "https://github.com/vid-gen/awesome-video-world-model",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -151,7 +151,7 @@
     "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) improves reasoning in language models, but scalar outcomes provide coarse supervision over response trajectories. Self-distillation offers denser token-level guidance by comparing an unassisted policy with a feedback-informed self-teacher, yet the teacher evolves with the student, creating unstable targets and motivating additional regularization. We introduce…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 132,
+    "upvotes": 133,
     "org": "iitk",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
   },
@@ -211,7 +211,7 @@
     "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 34,
+    "upvotes": 35,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -223,7 +223,7 @@
     "summary": "The life-cycle of robotics foundation models crucially depends on data labels. Outcome reward labels are needed for monitoring real-world deployments. Process reward labels are needed during RL post-training. Timestamped captions are needed for filtering and balancing pretraining data. We present Flora, an industrial-quality data engine used for training GR00T models, that simultaneously covers these capabilities…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 1,
+    "upvotes": 2,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVIDIA/Flora",

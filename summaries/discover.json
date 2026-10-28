@@ -435,11 +435,6 @@
     "unique": "The score is about added code, and the benchmark is open source.",
     "benefit": "People comparing coding models can see which ones add more code."
   },
-  "9233eb2e28069236": {
-    "summary": "yovoice is an open-source local AI audio and music studio for macOS and Windows.",
-    "unique": "TTS, voice cloning, songs with lyrics, and multi-track scores run 100% offline with zero API fees.",
-    "benefit": "People making audio can generate voices and songs on their own machine without API fees."
-  },
   "ecd9624a5a29da8e": {
     "summary": "atticus-mac is a fast, free voice assistant for your Mac that runs on a Claude Pro or Max plan.",
     "unique": "No API key is required. It remembers you, learns shortcuts, and starts when you hold ⌃⌥Space.",
@@ -509,11 +504,6 @@
     "summary": "solid-glass is a design system for AI applications, described as material, physical, tactile, and technical.",
     "unique": "It targets agent and chat interfaces, with React and shadcn among its topics.",
     "benefit": "Developers building AI app interfaces can start from a design system made for agent and chat UIs."
-  },
-  "e920b6b8e9de3c20": {
-    "summary": "my-claude-code-mods is a collection of custom Claude Code mods the author uses.",
-    "unique": "The repo is tagged as Claude Code mods and plugins.",
-    "benefit": "Claude Code users can browse one person's custom mods and plugins."
   },
   "113c2c1fc3b83a25": {
     "summary": "Cedric is an AI employee that connects to a team's tools, remembers company and workflow context, and does work for the whole team.",
@@ -703,24 +693,6 @@
     "unique": "You point at the frame to revise the film instead of rewriting the whole prompt.",
     "benefit": "Marketing teams can have a coding agent draft a launch film and edit a specific frame."
   },
-  "7ceb78935d2c06d9": {
-    "hash": "b716afd2",
-    "summary": "StartLux-Decision offers open decision models from 0.8B to 27B that return a calibrated probability for every option in one pass.",
-    "unique": "A short thought is added only when the model is unsure, with engines for vLLM, llama.cpp, and MLX.",
-    "benefit": "Apps that need a probability per option can serve these models on vLLM, llama.cpp, or MLX."
-  },
-  "d2921dface736d11": {
-    "hash": "47809773",
-    "summary": "mcd-saver-strategist pulls the McDonald's menu and available coupons and finds the cheapest order combination.",
-    "unique": "The description's example turns a Big Mac meal from ¥47 to ¥21.9, a 53% saving.",
-    "benefit": "Someone ordering at McDonald's in China can have an agent pick a coupon mix that costs less."
-  },
-  "268f7427aaa596eb": {
-    "hash": "87eec111",
-    "summary": "Aucert explores a mobile app, learns the team's standards, and returns evidence-backed verdicts before release.",
-    "unique": "Verdicts come with evidence and are meant to land before you ship.",
-    "benefit": "Mobile teams can get a pre-release check that cites evidence instead of a pass-fail score only."
-  },
   "48bb6eb3c24be9c2": {
     "hash": "8888ac60",
     "summary": "Argus is an open-source agentic security operations platform.",
@@ -732,18 +704,6 @@
     "summary": "Corgi is a friendly helper for your agents.",
     "unique": "The product site frames it as a helper for agents rather than a general chat app.",
     "benefit": "People running agents can try Corgi as a helper around those agents."
-  },
-  "d0b73b86cb1a287f": {
-    "hash": "17f06c01",
-    "summary": "mcd-budget-meal is a McDonald's budget-meal skill that uses a McDonald's MCP for real pricing, budget comparison, and item substitution.",
-    "unique": "It prices and swaps McDonald's items through that MCP rather than a generic menu scraper.",
-    "benefit": "Someone on a McDonald's budget can have an agent compare and substitute meals using real prices."
-  },
-  "d7dd10e271a06ed1": {
-    "hash": "c733b35b",
-    "summary": "Co-op Anything points an AI agent at a single-player game so you can play it with friends online or splitscreen, with an MCP server and playbook to reverse engineer, fix, test, ship, and share what it learns.",
-    "unique": "It turns single-player games into co-op via an agent plus a reverse-engineering playbook.",
-    "benefit": "Friends can co-op a single-player title while the agent documents how the hack was built."
   },
   "38b3593549cb6878": {
     "hash": "80c0fd10",
@@ -792,5 +752,47 @@
     "summary": "glitchrupt is a local macOS jolt for agents that need your attention, with desktop glitch cues, five original crackles, a CLI, and MCP.",
     "unique": "It uses desktop glitch cues and five original crackles, plus CLI and MCP.",
     "benefit": "macOS users running agents can get a local visual and audio jolt when an agent needs attention."
+  },
+  "43882fe7cb46be23": {
+    "hash": "9e5da9f4",
+    "summary": "VoidAccess is a self-hosted dark web OSINT platform that automates threat intelligence from a query to a graph in 13 steps.",
+    "unique": "It packages collection, enrichment, and graph export as a 13-step pipeline with hosted or self-hosted options.",
+    "benefit": "Security researchers can run investigations locally and export STIX, MISP, and related formats without a commercial dark-intel feed."
+  },
+  "2b9b1b4c8857fc39": {
+    "hash": "67e8590e",
+    "summary": "Hallmark is an anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "unique": "It targets generic AI-generated UI patterns rather than general coding tasks.",
+    "benefit": "Designers using agentic IDEs can steer outputs away from repetitive AI-default styling."
+  },
+  "9cd53c5e3f78f30c": {
+    "hash": "0776a14c",
+    "summary": "Sphinx is a Git hook for agent-assisted development that asks you a question about what the agent’s code does before it ships.",
+    "unique": "It blocks pushes with a comprehension quiz tied to the agent-written diff.",
+    "benefit": "Teams shipping agent-generated code can catch misunderstanding before production deploys."
+  },
+  "a48c5643aa5fb503": {
+    "hash": "d2b726b9",
+    "summary": "STROT compiles decision tasks with a one-time LLM pass into deterministic local runtimes, published as strot-ai on PyPI.",
+    "unique": "Runtime decisions use a small local model with no API calls after compile time.",
+    "benefit": "Engineers routing or classifying records can freeze LLM intent once and run cheap local inference."
+  },
+  "c6a5e1b7d9cda68d": {
+    "hash": "b6b8e2bf",
+    "summary": "dimensional-drawing helps create Apple-style dimensional drawings of UI components.",
+    "unique": "It focuses on dimensional UI diagrams in Apple’s visual style.",
+    "benefit": "UI designers can generate consistent dimensional component drawings for specs and reviews."
+  },
+  "145263340b866919": {
+    "hash": "171afe1a",
+    "summary": "coworkers provides AI teammates that each get their own computer and browser, built on Cloudflare.",
+    "unique": "Each teammate runs with isolated compute and browser infrastructure on Cloudflare.",
+    "benefit": "Builders wanting multi-agent setups can deploy separate browser-capable agents without managing VMs themselves."
+  },
+  "0c849edb3950bbf1": {
+    "hash": "58e0960b",
+    "summary": "Helix Foundry connects company data, drafts an ontology with an agent, and loads it into HelixDB as one explorable graph.",
+    "unique": "It pairs automated ontology drafting with HelixDB graph loading from integrated sources.",
+    "benefit": "Data teams can turn scattered sources into a queryable knowledge graph without hand-building the ontology first."
   }
 }
