@@ -22,6 +22,28 @@
     "contentHash": "a888e4846c14"
   },
   {
+    "id": "e827d3360a1e1147",
+    "lab": "cohere",
+    "title": "Who Gets to Build the Frontier for AI",
+    "url": "https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai",
+    "sourceId": "cohere-blog",
+    "sourceName": "Cohere Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T00:00:00.000Z",
+    "excerpt": "Why the democratic world needs more frontier AI builders and how we intend to compete.",
+    "summary": "Why the democratic world needs more frontier AI builders and how we intend to compete.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "e00498cc2dbd"
+  },
+  {
     "id": "1facaf81d0081c73",
     "lab": "cohere",
     "title": "PitchBook in North: Private market intelligence for enterprise teams",
@@ -55,18 +77,17 @@
     "verified": true,
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "firstSeenAt": "2026-10-26T20:35:11.061Z",
-    "updatedAt": "2026-10-26T00:00:00.000Z",
-    "excerpt": "Inside a closed testing sandbox managed by Cohere, one of Alibaba's newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container situated in Beijing. Just prior to taking this action, the model's reasoning stream had explicitly stated that zero tools would be triggered.",
-    "summary": "Inside a closed testing sandbox managed by Cohere, one of Alibaba's newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container situated in Beijing.",
+    "updatedAt": "2026-10-29T18:32:11.922Z",
+    "excerpt": "Concerning behavior from a popular open-weight AI model",
+    "summary": "Official model update from Cohere (Cohere Blog).",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
     "summarySource": "template",
     "category": "model",
     "tags": [
-      "open-source",
-      "reasoning"
+      "open-source"
     ],
     "importance": 60,
-    "contentHash": "a06c4a5b471a"
+    "contentHash": "77fb923fb746"
   },
   {
     "id": "7207c59bed78ddb3",
@@ -780,7 +801,7 @@
     "contentHash": "6d717b0074a7",
     "meta": {
       "likes": 15,
-      "downloads": 314,
+      "downloads": 290,
       "repo": "CohereLabs/tiny-aya-l2-thinker",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -995,7 +1016,7 @@
     "contentHash": "64d1068470db",
     "meta": {
       "likes": 64,
-      "downloads": 128,
+      "downloads": 136,
       "repo": "CohereLabs/North-Small-Translate-1.0",
       "pipeline": "translation",
       "license": "cc-by-nc-4.0"
@@ -1026,7 +1047,7 @@
     "contentHash": "78363ebea532",
     "meta": {
       "likes": 154,
-      "downloads": 34705,
+      "downloads": 33984,
       "repo": "CohereLabs/North-Micro-Vision-Instruct",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"

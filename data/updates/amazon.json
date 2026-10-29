@@ -1,5 +1,97 @@
 [
   {
+    "id": "1fcf22f867e2d9da",
+    "lab": "amazon",
+    "title": "Building intent-driven UI testing with Amazon Nova Act",
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T18:20:27.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T18:20:27.000Z",
+    "excerpt": "To scale intent-driven UI testing across its product teams, Epsilon , a data, technology, and marketing-services company and part of Publicis Groupe , turned to Amazon Nova Act . With hundreds of millions of consumer profiles and thousands of brand relationships, Epsilon needed UI testing that could keep pace with rapid application changes. The solution could not create maintenance overhead for every product team…",
+    "summary": "To scale intent-driven UI testing across its product teams, Epsilon , a data, technology, and marketing-services company and part of Publicis Groupe , turned to Amazon Nova Act .",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "65b328d5bec4"
+  },
+  {
+    "id": "983901472b072637",
+    "lab": "amazon",
+    "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T18:14:17.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T18:14:17.000Z",
+    "excerpt": "When your team moves a mature PHP application to Java, you gain stronger type safety, broader library support, and more predictable scaling. A PHP codebase built over the years with Laravel, Symfony, or Doctrine carries business rules in places that are not obvious, from Eloquent traits to XML mapping files, so a structurally similar Java port can compile cleanly and still behave differently. This post shows how to…",
+    "summary": "When your team moves a mature PHP application to Java, you gain stronger type safety, broader library support, and more predictable scaling.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "safety"
+    ],
+    "importance": 30,
+    "contentHash": "c987781b3123"
+  },
+  {
+    "id": "aa702b033bfda9cd",
+    "lab": "amazon",
+    "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+    "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T16:58:57.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T16:58:57.000Z",
+    "excerpt": "With the launch of AWS Batch support for Amazon SageMaker Training jobs, customers gained a new fully managed way to queue, schedule, and retry machine learning (ML) training workloads without building their own infrastructure. Instead, they use the queuing and scheduling features of AWS Batch. As organizations scale their artificial intelligence and machine learning (AI/ML) operations and onboard more teams…",
+    "summary": "With the launch of AWS Batch support for Amazon SageMaker Training jobs, customers gained a new fully managed way to queue, schedule, and retry machine learning (ML) training workloads without building their own infrastructure.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "fd8a49eb2b53"
+  },
+  {
+    "id": "3dcfe747ba6ccec0",
+    "lab": "amazon",
+    "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T16:54:52.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T16:54:52.000Z",
+    "excerpt": "This post was co-written with Nikhil Kumar and Shakir Khan from MoEngage. When engineering teams start building AI agents, the capabilities those agents need usually already exist as internal APIs. Campaign creation, segment queries, delivery stats. The challenge isn’t building new functionality. The challenge is making hundreds of private APIs safely reachable by agents without exposing them to the public internet…",
+    "summary": "This post was co-written with Nikhil Kumar and Shakir Khan from MoEngage.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 30,
+    "contentHash": "f21566098e90"
+  },
+  {
     "id": "902c8601d29e4236",
     "lab": "amazon",
     "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
@@ -71,6 +163,30 @@
     ],
     "importance": 50,
     "contentHash": "023c722efa2a"
+  },
+  {
+    "id": "3b0895e0e0745196",
+    "lab": "amazon",
+    "title": "AWS Agent Registry is now available in four additional AWS Regions",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-four-regions",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T08:00:00.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-28T08:00:00.000Z",
+    "excerpt": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in four additional AWS Regions: Europe (London) eu-west-2, Europe (Frankfurt) eu-central-1, US East (Ohio) us-east-2, and Canada (Central) ca-central-1. AWS Agent Registry is a fully managed discovery service that provides a centralized catalog for organizing, curating, and discovering resources across your organization. With AWS Agent…",
+    "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in four additional AWS Regions: Europe (London) eu-west-2, Europe (Frankfurt) eu-central-1, US East (Ohio) us-east-2, and Canada (Central) ca-central-1.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 65,
+    "contentHash": "7a95a0f8adad"
   },
   {
     "id": "2dad5a9dd342f741",
@@ -1407,7 +1523,7 @@
     "contentHash": "f6b52138e9a2",
     "meta": {
       "likes": 11,
-      "downloads": 148,
+      "downloads": 162,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"
     }
@@ -2467,7 +2583,7 @@
     "contentHash": "2462e1ba8e00",
     "meta": {
       "likes": 12,
-      "downloads": 657,
+      "downloads": 686,
       "repo": "amazon/ALoDLM-1.7B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -2498,7 +2614,7 @@
     "contentHash": "48b7b19078e5",
     "meta": {
       "likes": 62,
-      "downloads": 2219,
+      "downloads": 2257,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"

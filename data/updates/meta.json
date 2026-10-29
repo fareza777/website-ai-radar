@@ -1,5 +1,27 @@
 [
   {
+    "id": "2b2f487795f0e5d2",
+    "lab": "meta",
+    "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+    "url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale",
+    "sourceId": "meta-eng",
+    "sourceName": "Engineering at Meta",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T16:00:12.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T16:00:12.000Z",
+    "excerpt": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “ Just-in-Time Catching Test Generation at Meta ,” fully details our initial deployment and testing with Catching JiTTests…",
+    "summary": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests).",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 65,
+    "contentHash": "c713fee0e47b"
+  },
+  {
     "id": "7a5fec0b961daf67",
     "lab": "meta",
     "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
@@ -253,7 +275,7 @@
     "contentHash": "3f7811be5be5",
     "meta": {
       "likes": 31,
-      "downloads": 146,
+      "downloads": 148,
       "repo": "facebook/meta-encoder",
       "pipeline": "feature-extraction",
       "license": "apache-2.0"

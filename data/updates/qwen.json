@@ -1,5 +1,95 @@
 [
   {
+    "id": "4584e873877a0ca6",
+    "lab": "qwen",
+    "title": "Qwen Code v0.26.4",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.4",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T16:02:46.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T16:02:46.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(generated-ui): follow the host theme in generated views ( #15798 ) by @qqqys feat(ci): bound autofix takeover with a round budget ( #15388 ) by @wenshao feat(verify-pr): make \"re-verify after update\" a follow-up trigger ( #15816 ) by @wenshao feat(extensions): support unscoped npm…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.26.4 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "35d4ad415bca",
+    "meta": {
+      "version": "v0.26.4",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "137c8aa2e59f4a9e",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.26",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.26",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T15:29:54.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T15:29:54.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.26.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.26 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "4df54cfcfe22",
+    "meta": {
+      "version": "v0.1.26",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
+    "id": "357f64af40d07616",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.26.4",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.4",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T15:18:19.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T15:18:19.000Z",
+    "excerpt": "What's Changed fix(config): report controls that were silently dropped by @yiliang114 in #15794 docs(managed): cite the shared-Session queue decision in the gate design by @wenshao in #15797 test(managed-agent): pin HostedProcessLiveness.running on every host by @wenshao in #15791 feat(generated-ui): follow the host theme in generated views by @qqqys in #15798 perf(web-templates): reclaim 92 KB of the HTML export…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.26.4 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "b6cfca0b60ef",
+    "meta": {
+      "version": "v0.26.4",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
     "id": "710957a61d2f99e9",
     "lab": "qwen",
     "title": "Qwen Code v0.26.3",
@@ -592,7 +682,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 292,
+      "stars": 293,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -710,8 +800,8 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1077,
-      "downloads": 36391,
+      "likes": 1080,
+      "downloads": 37747,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
       "license": "other"
@@ -859,7 +949,7 @@
     "contentHash": "d108635bb7df",
     "meta": {
       "likes": 70,
-      "downloads": 14086,
+      "downloads": 13773,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
     }
@@ -888,8 +978,8 @@
     "importance": 70,
     "contentHash": "2deb903ef0b2",
     "meta": {
-      "likes": 74,
-      "downloads": 7009,
+      "likes": 77,
+      "downloads": 6711,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
       "license": "other"
@@ -946,7 +1036,7 @@
     "importance": 36,
     "contentHash": "2f3cd119e85f",
     "meta": {
-      "stars": 10,
+      "stars": 11,
       "repo": "QwenLM/Omnilingua-Bench",
       "language": "Python"
     }
@@ -975,8 +1065,8 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3487,
-      "downloads": 200640,
+      "likes": 3493,
+      "downloads": 203240,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1014,7 +1104,7 @@
     "importance": 44,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 241,
+      "stars": 242,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -1135,8 +1225,8 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6631,
-      "downloads": 3637182,
+      "likes": 6639,
+      "downloads": 3853710,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -1166,8 +1256,8 @@
     "importance": 95,
     "contentHash": "df6b90143e8c",
     "meta": {
-      "likes": 1340,
-      "downloads": 25602,
+      "likes": 1341,
+      "downloads": 25643,
       "repo": "Qwen/Qwen3.8-2.4T-A95B",
       "pipeline": "text-generation",
       "license": "other"
@@ -1198,8 +1288,8 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 18653,
-      "downloads": 7515620,
+      "likes": 18670,
+      "downloads": 7509924,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"

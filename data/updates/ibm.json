@@ -1,5 +1,58 @@
 [
   {
+    "id": "360807184a6bee5e",
+    "lab": "ibm",
+    "title": "Docling v2.145.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.145.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T14:40:25.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T14:40:25.000Z",
+    "excerpt": "Feature ocr: Detect page orientation for RapidOCR ( #4709 ) ( 5e72863 ) api: Add InputDocument.release() ( #3600 ) ( 761d4cf ) Fix pipeline: Drop page backend references on unload ( #5089 ) ( 544f368 ) jats: Stop rendering the literal text None in figure and table captions ( #4291 ) ( dc4693f ) md: Strip leading YAML frontmatter instead of misparsing it ( #4596 ) ( 8f9a971 ) asr: Avoid initializing MLX during preset…",
+    "summary": "IBM shipped Docling v2.145.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "audio"
+    ],
+    "importance": 40,
+    "contentHash": "91301be880e3",
+    "meta": {
+      "version": "v2.145.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
+    "id": "5d55e9b7e8175025",
+    "lab": "ibm",
+    "title": "How Zurich is shaping the future of algorithms, 70 years in",
+    "url": "https://research.ibm.com/blog/celebrating-70-years-ibm-research-europe",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T14:15:00.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T14:15:00.000Z",
+    "excerpt": "As IBM's Zurich Lab turns 70, director Alessandro Curioni speaks about the celebrations, his work on Algorithms & Applications, and his vision for the future.",
+    "summary": "As IBM's Zurich Lab turns 70, director Alessandro Curioni speaks about the celebrations, his work on Algorithms & Applications, and his vision for the future.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 50,
+    "contentHash": "f0a888b8a14c"
+  },
+  {
     "id": "774e82c1deb5f6c3",
     "lab": "ibm",
     "title": "Docling v2.144.0",
@@ -436,7 +489,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 54,
-      "downloads": 3563,
+      "downloads": 3734,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -466,8 +519,8 @@
     "importance": 63,
     "contentHash": "6f6f69225449",
     "meta": {
-      "likes": 40,
-      "downloads": 2610,
+      "likes": 42,
+      "downloads": 2759,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -680,8 +733,8 @@
     "importance": 65,
     "contentHash": "a598e14a409a",
     "meta": {
-      "likes": 65,
-      "downloads": 4001,
+      "likes": 66,
+      "downloads": 4650,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -932,7 +985,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 8,
-      "downloads": 320,
+      "downloads": 336,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
@@ -1238,7 +1291,7 @@
     "contentHash": "45adf5a46f06",
     "meta": {
       "likes": 46,
-      "downloads": 37982,
+      "downloads": 37978,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
       "license": "cc-by-nc-sa-4.0"
@@ -1336,8 +1389,8 @@
     "importance": 67,
     "contentHash": "ff3e756cb61a",
     "meta": {
-      "likes": 137,
-      "downloads": 36188,
+      "likes": 138,
+      "downloads": 36633,
       "repo": "ibm-granite/granite-4.2-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1368,7 +1421,7 @@
     "contentHash": "c8e55083221f",
     "meta": {
       "likes": 110,
-      "downloads": 72936,
+      "downloads": 70118,
       "repo": "ibm-granite/granite-4.2-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1399,7 +1452,7 @@
     "contentHash": "d9e26c7be4a7",
     "meta": {
       "likes": 118,
-      "downloads": 39863,
+      "downloads": 37116,
       "repo": "ibm-granite/granite-4.2-3b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1428,7 +1481,7 @@
     "contentHash": "720803661a02",
     "meta": {
       "likes": 17,
-      "downloads": 212338,
+      "downloads": 194287,
       "repo": "ibm-granite/granite-timeseries-patchtst-fm-r2",
       "pipeline": "time-series-forecasting",
       "license": "openmdw-1.0"
@@ -1460,7 +1513,7 @@
     "contentHash": "d9d402627057",
     "meta": {
       "likes": 111,
-      "downloads": 61527,
+      "downloads": 61328,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"

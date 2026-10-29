@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T10:08:49.449Z",
+  "generatedAt": "2026-10-29T18:32:11.922Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 17,
+      "press": 24,
       "outlets": [
         "Mashable",
         "Investing.com",
@@ -26,22 +26,62 @@
         "Wichita Eagle",
         "The Verge",
         "SiliconANGLE",
+        "Technology Org",
         "VentureBeat",
         "Anadolu Ajansı",
         "Unite.AI",
         "TestingCatalog AI News",
+        "Wccftech",
         "The Decoder",
         "R&D World",
         "Interesting Engineering",
         "Fello AI",
-        "CNET"
+        "CNET",
+        "The Register",
+        "Techzine Global",
+        "Engadget",
+        "AI Magazine",
+        "SC Media",
+        "The Hacker News"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
-      "lastAt": "2026-10-28T20:51:37.000Z",
+      "lastAt": "2026-10-29T13:42:00.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
       "lead": {
         "kind": "official",
         "id": "34b0bf3f94c3851e"
+      },
+      "importance": 100
+    },
+    {
+      "id": "250e5d8f302445e7",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "openai",
+        "deepseek",
+        "moonshot"
+      ],
+      "official": 1,
+      "press": 4,
+      "outlets": [
+        "Reuters",
+        "Idaho Statesman",
+        "shattered.io",
+        "Techzine Global",
+        "Times Of AI",
+        "Tekedia",
+        "TechGig",
+        "ET Enterprise AI",
+        "联合早报",
+        "헤럴드경제"
+      ],
+      "firstAt": "2026-10-26T22:00:00.000Z",
+      "lastAt": "2026-10-29T10:50:01.000Z",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "lead": {
+        "kind": "official",
+        "id": "250e5d8f302445e7"
       },
       "importance": 100
     },
@@ -88,28 +128,6 @@
         "id": "c6099fc8919f3d54"
       },
       "importance": 92
-    },
-    {
-      "id": "40609a70c2f2c94d",
-      "title": "Grok 4.7 is now available on Amazon Bedrock in AWS GovCloud (US)",
-      "entity": "Grok 4.7",
-      "labs": [
-        "amazon",
-        "xai"
-      ],
-      "official": 1,
-      "press": 1,
-      "outlets": [
-        "BASENOR - Tesla Accessories"
-      ],
-      "firstAt": "2026-10-19T13:00:00.000Z",
-      "lastAt": "2026-10-21T18:08:42.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud",
-      "lead": {
-        "kind": "official",
-        "id": "40609a70c2f2c94d"
-      },
-      "importance": 87
     },
     {
       "id": "191c89b31a66b523",
@@ -206,9 +224,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 16,
+      "press": 15,
       "outlets": [
-        "Towards Data Science",
         "The Davis Enterprise",
         "Black Hills Pioneer",
         "The Des Moines Register",
@@ -225,7 +242,7 @@
         "TechRadar",
         "Mezha.net"
       ],
-      "firstAt": "2026-10-19T16:45:48.000Z",
+      "firstAt": "2026-10-20T04:00:00.000Z",
       "lastAt": "2026-10-27T15:25:27.000Z",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLTFFREd2SGVNNTJqa201dU1rc1E2aUE1ZzlXVEczcHMtM2ItQlFvS0RheWxrTjNKLThPSEZKVUxYZmp0TzZiNmdlTXpFQWpITkQtMll0NTVXZUhvbG1YSXlFLWFFZkE1LXZYUW5lR0lHaG1VTnFNa1RCdGxlVmZxcldNeHBLaVV2MFNLdXNMdnFEZnlobHJpLTlWU3hqbU9mdDdPLU45OVRtMTZNNXFnZTNPeGMydVhCazNOOGNpSTlQQXBjYlhJMUdkMFNVdlVrbnB6ZFBJQnlNSjlzbmNidk14SU1hd3lOTFhYcHhOc0lsdjhL?oc=5",
       "lead": {
@@ -388,6 +405,30 @@
       "importance": 57
     },
     {
+      "id": "mistral:168bb87059e10b",
+      "title": "Mistral Large 4 is free to download, and it fits on one $22,299 Mac",
+      "entity": "Mistral Large 4",
+      "labs": [
+        "mistral"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "Martin Cid Magazine",
+        "Techzine Global",
+        "OrcaRouter",
+        "shattered.io"
+      ],
+      "firstAt": "2026-10-29T15:10:44.000Z",
+      "lastAt": "2026-10-29T16:30:56.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX0dnUVZOUmRWd1Vwdm9MdHE1Y1lyS2lWdUN3bS10R2Q1NXFGSGljM2JpQmJVNjFXX3laYVdjMzMyNk96TnJtR0MwQWFnbklzTXV4X3B5bWpNR2RCMGJMdjEzRTlNY3lvWHpUSGhHNFlGUEtTVTNHbk5VYlEzeEF4bi1vN2V3dlJHVFNRVlg4VWZWbDQ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:168bb87059e10b"
+      },
+      "importance": 56
+    },
+    {
       "id": "nvidia:05e07feafa99ca",
       "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
       "entity": "Nemotron 3.5 Transcribe",
@@ -408,30 +449,6 @@
       "lead": {
         "kind": "press",
         "id": "nvidia:05e07feafa99ca"
-      },
-      "importance": 56
-    },
-    {
-      "id": "deepseek:c255ac70fae1ec",
-      "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
-      "entity": "DeepSeek 4.1 Flash",
-      "labs": [
-        "deepseek"
-      ],
-      "official": 0,
-      "press": 3,
-      "outlets": [
-        "Quartz",
-        "SiliconANGLE",
-        "MarkTechPost",
-        "Interconnects AI"
-      ],
-      "firstAt": "2026-10-19T11:37:50.000Z",
-      "lastAt": "2026-10-20T17:04:21.000Z",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNzRSM0RPcGNOS0lhbGoweV93Q1lTajR5M293eldzLVRzY1NtYjVxaTdWWXJpamdTN2E0b1BERUpvUzUtLWVBaUhCeWlGMVgzeDJCcnFXSmpBZlByMW9fbHFweW9DQlA0UTlMUzhTNGtrQTh6WnM3QXc2bHFtck5GdGpqNDZhRldVZm5id3lVTE5RS254cGfSAZYBQVVfeXFMTzc0UjNET3BjTktJYWxqMHlfd0NZU2o0eTNvd3pXcy1Uc2NTbWI1cWk3VllyaWpnUzdhNG9QREVKb1M1LS1lQWlIQnlpRjFYM3gyQnJxV0pqQWZQcjFvX2xxcHlvQ0JQNFE5TFM4UzRra0E4elpzN0F3NmxxbXJORnRqajQ2YUZXVWZuYnd5VUxOUUtueHBn?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "deepseek:c255ac70fae1ec"
       },
       "importance": 56
     },
@@ -485,7 +502,7 @@
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 19,
+        "count": 28,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -494,8 +511,16 @@
       {
         "name": "Gemini 4 Argon",
         "count": 11,
-        "prev": 24,
+        "prev": 23,
         "labs": []
+      },
+      {
+        "name": "GPT 6 Astra",
+        "count": 8,
+        "prev": 0,
+        "labs": [
+          "openai"
+        ]
       },
       {
         "name": "Qwen 3.8",
@@ -506,27 +531,19 @@
         ]
       },
       {
-        "name": "Qwen 3.8 Flash",
-        "count": 5,
-        "prev": 1,
-        "labs": []
-      },
-      {
-        "name": "GPT 6 Astra",
-        "count": 4,
-        "prev": 0,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
         "name": "GPT 6.1 Terra",
-        "count": 4,
+        "count": 5,
         "prev": 0,
         "labs": [
           "openai",
           "amazon"
         ]
+      },
+      {
+        "name": "Qwen 3.8 Flash",
+        "count": 5,
+        "prev": 1,
+        "labs": []
       },
       {
         "name": "GPT 6",
@@ -537,6 +554,12 @@
         ]
       },
       {
+        "name": "Mistral Large 4",
+        "count": 4,
+        "prev": 4,
+        "labs": []
+      },
+      {
         "name": "Nemotron 3.5 Transcribe",
         "count": 3,
         "prev": 0,
@@ -545,13 +568,13 @@
       {
         "name": "Nemotron 3.5 Bolt",
         "count": 3,
-        "prev": 2,
+        "prev": 1,
         "labs": []
       },
       {
         "name": "GPT 6.1 Sol",
         "count": 3,
-        "prev": 3,
+        "prev": 2,
         "labs": [
           "openai"
         ]
@@ -566,16 +589,16 @@
     "topics": [
       {
         "name": "coding",
-        "count": 34,
-        "prev": 47,
+        "count": 36,
+        "prev": 45,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
-          "mistral",
           "qwen",
+          "mistral",
           "cohere",
+          "minimax",
           "amazon",
           "microsoft",
           "ibm",
@@ -584,14 +607,14 @@
       },
       {
         "name": "agents",
-        "count": 29,
-        "prev": 60,
+        "count": 30,
+        "prev": 56,
         "labs": [
           "anthropic",
           "openai",
+          "qwen",
           "meta",
           "mistral",
-          "qwen",
           "amazon",
           "microsoft",
           "ibm",
@@ -600,15 +623,16 @@
       },
       {
         "name": "multimodal",
-        "count": 9,
-        "prev": 12,
+        "count": 10,
+        "prev": 10,
         "labs": [
           "google-deepmind",
           "deepseek",
           "openai",
+          "mistral",
           "minimax",
-          "baidu",
           "tencent",
+          "baidu",
           "amazon",
           "ibm",
           "nvidia"
@@ -616,40 +640,27 @@
       },
       {
         "name": "safety",
-        "count": 7,
+        "count": 9,
         "prev": 7,
         "labs": [
           "xai",
           "anthropic",
           "openai",
           "mistral",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "audio",
-        "count": 6,
-        "prev": 4,
+        "count": 5,
+        "prev": 6,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
           "amazon",
           "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 5,
-        "prev": 11,
-        "labs": [
-          "openai",
-          "meta",
-          "mistral",
-          "cohere",
-          "tencent",
-          "amazon",
           "nvidia"
         ]
       },
@@ -659,8 +670,9 @@
         "prev": 9,
         "labs": [
           "openai",
-          "minimax",
+          "mistral",
           "cohere",
+          "minimax",
           "amazon",
           "microsoft",
           "ibm",
@@ -668,29 +680,66 @@
         ]
       },
       {
+        "name": "reasoning",
+        "count": 4,
+        "prev": 9,
+        "labs": [
+          "openai",
+          "meta",
+          "mistral",
+          "cohere",
+          "tencent",
+          "amazon"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 2,
+        "prev": 5,
+        "labs": [
+          "anthropic",
+          "qwen",
+          "amazon"
+        ]
+      },
+      {
         "name": "rag",
-        "count": 3,
-        "prev": 4,
+        "count": 2,
+        "prev": 5,
         "labs": [
           "meta",
           "cohere",
           "amazon",
           "nvidia"
         ]
-      },
-      {
-        "name": "mcp",
-        "count": 2,
-        "prev": 6,
-        "labs": [
-          "anthropic",
-          "qwen",
-          "amazon"
-        ]
       }
     ]
   },
   "unconfirmed": [
+    {
+      "id": "mistral:3ffba218e9fb8c",
+      "lab": "mistral",
+      "title": "Mistral releases Large 4 Le Chonk open weights on Hugging Face",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOenEyRGlBUGxnX0tNZXZXZGxtRmJTaEFtbXp5Q3hTV2VjT0ppMUlESk5mNlJXRXFZYWxDQV9NRjJpWVVaN29XbVZfXzk5VUFSUGtmaXlaUFctRTMyZ0dhVGNQMVRxNXd5M0VXQzJHVzJmNU10NWc2Z2YwelZtdUM0WUNHY0tkNzNUUEU1ZUxvVGlFS1lTbU5iUl9R?oc=5",
+      "outlets": [
+        "SiliconANGLE",
+        "Pasquale Pillitteri"
+      ],
+      "reports": 2,
+      "at": "2026-10-29T15:18:51.000Z"
+    },
+    {
+      "id": "mistral:79ea3dacafeba6",
+      "lab": "mistral",
+      "title": "Mistral AI publicly releases Large 4, targets cybersecurity users",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb3RNdmpuR3NIU0w0bUd0bDZNS1gtdUp1dkpLMlphSkZiQjJpZ29fQXUteXRkOG14cGxGdHpEM2RoeUZIWmNnTUFKaUx4MGxkU1JqcWJUT05ES3lOdG5ad3RHS0szc0lGQy1icnJIZGtaWEMxWVp0ZVc3NEJMUEFvWGFvSW95UC0xRmFKdmE3VjZYcWNYVFNWNlNKcHpWd1dwVngwY29oUXk2a2haY1BVQTgxMEFTQktCYVlqandKQ3p5Z04xSEJnRnNpWmYxcms?oc=5",
+      "outlets": [
+        "Reuters",
+        "TradingView"
+      ],
+      "reports": 2,
+      "at": "2026-10-29T14:00:00.000Z"
+    },
     {
       "id": "ibm:9f1619a503c4a2",
       "lab": "ibm",

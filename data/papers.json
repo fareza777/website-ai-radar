@@ -18,10 +18,22 @@
     "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 145,
+    "upvotes": 147,
     "org": "thu-ml",
     "githubRepo": "https://github.com/JusperLee/Falcon",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
+  },
+  {
+    "id": "2610.35684",
+    "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+    "url": "https://huggingface.co/papers/2610.35684",
+    "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "submittedAt": "2026-10-29T00:00:00.000Z",
+    "upvotes": 41,
+    "org": "kaist-ai",
+    "githubRepo": "https://github.com/justin4ai/OmniShowcase",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z"
   },
   {
     "id": "2610.36077",
@@ -36,27 +48,27 @@
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
-    "id": "2610.35013",
-    "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
-    "url": "https://huggingface.co/papers/2610.35013",
-    "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align…",
-    "publishedAt": "2026-10-26T00:00:00.000Z",
-    "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 377,
-    "org": "iquestlab",
-    "firstSeenAt": "2026-10-28T20:21:14.926Z"
-  },
-  {
     "id": "2610.34283",
     "title": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
     "url": "https://huggingface.co/papers/2610.34283",
     "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; we call this…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 377,
+    "upvotes": 399,
     "org": "lins-lab",
     "githubRepo": "https://github.com/yihaohu0118/ChronoReplay",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
+  },
+  {
+    "id": "2610.35013",
+    "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+    "url": "https://huggingface.co/papers/2610.35013",
+    "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align…",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 379,
+    "org": "iquestlab",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z"
   },
   {
     "id": "2610.35864",
@@ -76,7 +88,7 @@
     "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 147,
+    "upvotes": 149,
     "org": "uiuc-cs",
     "githubRepo": "https://github.com/hexuan21/MemoryTax",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -88,20 +100,8 @@
     "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 141,
+    "upvotes": 143,
     "org": null,
-    "firstSeenAt": "2026-10-28T13:09:00.611Z"
-  },
-  {
-    "id": "2610.32046",
-    "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
-    "url": "https://huggingface.co/papers/2610.32046",
-    "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to…",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 110,
-    "org": "ucsantabarbara",
-    "githubRepo": "https://github.com/yepengliu/TTME",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
@@ -111,11 +111,35 @@
     "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. Our central design…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 108,
+    "upvotes": 117,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
+  },
+  {
+    "id": "2610.32046",
+    "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+    "url": "https://huggingface.co/papers/2610.32046",
+    "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 112,
+    "org": "ucsantabarbara",
+    "githubRepo": "https://github.com/yepengliu/TTME",
+    "firstSeenAt": "2026-10-28T13:09:00.611Z"
+  },
+  {
+    "id": "2610.24520",
+    "title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+    "url": "https://huggingface.co/papers/2610.24520",
+    "summary": "In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies. Retaining past interactions alone does not ensure that agents can infer habits and apply them…",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 84,
+    "org": "sjtu",
+    "githubRepo": "https://github.com/LUMIA-Group/habit-bench",
+    "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
     "id": "2610.37662",
@@ -130,25 +154,13 @@
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
-    "id": "2610.24520",
-    "title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
-    "url": "https://huggingface.co/papers/2610.24520",
-    "summary": "In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies. Retaining past interactions alone does not ensure that agents can infer habits and apply them…",
-    "publishedAt": "2026-10-20T00:00:00.000Z",
-    "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 80,
-    "org": "sjtu",
-    "githubRepo": "https://github.com/LUMIA-Group/habit-bench",
-    "firstSeenAt": "2026-10-28T13:09:00.611Z"
-  },
-  {
     "id": "2610.36068",
     "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
     "url": "https://huggingface.co/papers/2610.36068",
     "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 71,
+    "upvotes": 81,
     "org": "agibot-world",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
   },
@@ -159,7 +171,7 @@
     "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 52,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -176,13 +188,37 @@
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
+    "id": "2610.36456",
+    "title": "LociArt: A Unified Paradigm for Free-Style Local Video Stylization",
+    "url": "https://huggingface.co/papers/2610.36456",
+    "summary": "Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style association, spatial control, and temporal consistency. We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content. At its core, GRNStyle builds on Generative Refinement Networks…",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 44,
+    "org": "xiaomi-research",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z"
+  },
+  {
+    "id": "2610.36466",
+    "title": "Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation",
+    "url": "https://huggingface.co/papers/2610.36466",
+    "summary": "We propose Nemotron-Labs-Diffusion-Uni (NLD-Uni), a unified discrete diffusion large language model (DLLM) for visual understanding and generation tasks. Compared with prior unified diffusion models, NLD-Uni introduces two major innovations. First, we propose a unified cross-paradigm on-policy distillation (OPD) framework that successfully transfers the visual understanding ability of autoregressive VLMs and visual…",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 26,
+    "org": "nvidia",
+    "lab": "nvidia",
+    "githubRepo": "https://github.com/NVlabs/Nemotron-Labs-Diffusion-Uni",
+    "firstSeenAt": "2026-10-28T05:52:51.451Z"
+  },
+  {
     "id": "2610.37364",
     "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
     "url": "https://huggingface.co/papers/2610.37364",
     "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Notably, in…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 20,
+    "upvotes": 25,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
@@ -194,7 +230,7 @@
     "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating specialized provers. This raises a bitter-lesson question: can a simple agentic loop that scales test-time compute match these…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 18,
     "org": "meta-llama",
     "lab": "meta",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -213,26 +249,13 @@
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
   },
   {
-    "id": "2610.36466",
-    "title": "Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation",
-    "url": "https://huggingface.co/papers/2610.36466",
-    "summary": "We propose Nemotron-Labs-Diffusion-Uni (NLD-Uni), a unified discrete diffusion large language model (DLLM) for visual understanding and generation tasks. Compared with prior unified diffusion models, NLD-Uni introduces two major innovations. First, we propose a unified cross-paradigm on-policy distillation (OPD) framework that successfully transfers the visual understanding ability of autoregressive VLMs and visual…",
-    "publishedAt": "2026-10-27T00:00:00.000Z",
-    "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 12,
-    "org": "nvidia",
-    "lab": "nvidia",
-    "githubRepo": "https://github.com/NVlabs/Nemotron-Labs-Diffusion-Uni",
-    "firstSeenAt": "2026-10-28T05:52:51.451Z"
-  },
-  {
     "id": "2610.37585",
     "title": "Timestral",
     "url": "https://huggingface.co/papers/2610.37585",
     "summary": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with three ingredients: Decoupled Horizon Forecasting (DHF), which separates prediction tokens from the…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 10,
     "org": "mistralai",
     "lab": "mistral",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -317,7 +340,7 @@
     "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvement through accumulated experience. We introduce Continual Learning Exam (CLE), a large-scale…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 61,
     "org": "universitycollegelondon",
     "githubRepo": "https://github.com/haoyu-zhao/Continual-Learning-Exam",
     "firstSeenAt": "2026-10-27T22:22:25.706Z"
@@ -329,7 +352,7 @@
     "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream computation. We introduce the redistribution sensitivity score (RSS), which identifies large…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 59,
+    "upvotes": 61,
     "org": "opensae",
     "githubRepo": "https://github.com/OpenSAE/Redistribution-Sensitivity-Score",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -423,7 +446,7 @@
     "summary": "Language model agents often abandon correct work when a user challenges it, yet simply telling them to stand firm makes them ignore real mistakes. Once an agent reads a complaint, it tends to discount its own earlier checks in order to agree with the user. We introduce Thinking-in-Bets, a training-free method in which an agent writes a short private record of its main claims, the checks supporting them, and its…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 18,
+    "upvotes": 19,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-27T15:25:14.259Z"

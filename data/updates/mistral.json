@@ -1,5 +1,31 @@
 [
   {
+    "id": "8ccea7e89b703086",
+    "lab": "mistral",
+    "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+    "url": "https://mistral.ai/news/mistral-large-4-oss",
+    "sourceId": "mistral-news",
+    "sourceName": "Mistral News",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-10-29T12:00:07.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-10-29T12:00:07.000Z",
+    "excerpt": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+    "summary": "The weights of Mistral Large 4 (Le Chonk) are now open.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source",
+      "coding",
+      "multimodal"
+    ],
+    "importance": 65,
+    "contentHash": "0c1a9b7da595"
+  },
+  {
     "id": "075b2fe9f2ace5bb",
     "lab": "mistral",
     "title": "Mistral Vibe v3.0.3",
@@ -212,7 +238,7 @@
     "contentHash": "417d409580a4",
     "meta": {
       "likes": 44,
-      "downloads": 4329,
+      "downloads": 4585,
       "repo": "mistralai/Timestral-123M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -243,7 +269,7 @@
     "contentHash": "bb226bca6d6b",
     "meta": {
       "likes": 47,
-      "downloads": 8890,
+      "downloads": 9738,
       "repo": "mistralai/Timestral-28M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -274,7 +300,7 @@
     "contentHash": "fd4a807fe29b",
     "meta": {
       "likes": 76,
-      "downloads": 7113,
+      "downloads": 7597,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -305,7 +331,7 @@
     "contentHash": "c08e0cb0414f",
     "meta": {
       "likes": 442,
-      "downloads": 13828,
+      "downloads": 14988,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -363,7 +389,7 @@
     "contentHash": "c984e1dce577",
     "meta": {
       "likes": 29,
-      "downloads": 193,
+      "downloads": 199,
       "repo": "mistralai/LIDstral-Arabic",
       "pipeline": "text-classification",
       "license": "apache-2.0"
@@ -395,7 +421,7 @@
     "contentHash": "11354caaa84e",
     "meta": {
       "likes": 51,
-      "downloads": 2119,
+      "downloads": 2224,
       "repo": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
       "pipeline": "automatic-speech-recognition"
     }
@@ -451,6 +477,38 @@
       "version": "v2.26.0",
       "semver": "minor",
       "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
+    "id": "014576526a4dc284",
+    "lab": "mistral",
+    "title": "Mistral-Large-4-1T-A52B",
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+    "sourceId": "mistral-hf",
+    "sourceName": "Hugging Face · mistralai",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-30T18:35:13.000Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z",
+    "updatedAt": "2026-09-30T18:35:13.000Z",
+    "excerpt": "image-text-to-text · license: other",
+    "summary": "Mistral AI published the Mistral-Large-4-1T-A52B model on Hugging Face for multimodal (image + text). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "52B",
+      "multimodal"
+    ],
+    "importance": 80,
+    "contentHash": "c4578af56c8a",
+    "meta": {
+      "likes": 1159,
+      "downloads": 278,
+      "repo": "mistralai/Mistral-Large-4-1T-A52B",
+      "pipeline": "image-text-to-text",
+      "license": "other"
     }
   },
   {
