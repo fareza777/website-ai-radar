@@ -1,5 +1,60 @@
 [
   {
+    "id": "a7cbef4e009ecbdc",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-29T10:08:49.449Z",
+    "field": "prompt",
+    "from": 0.14,
+    "to": 0.045,
+    "change": -67.9
+  },
+  {
+    "id": "d0c9b90f3bb086b6",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-10-29T10:08:49.449Z",
+    "field": "completion",
+    "from": 0.42,
+    "to": 0.5,
+    "change": 19
+  },
+  {
+    "id": "7ca7a7559ef1fb09",
+    "modelId": "ibm-granite/granite-4.2-8b",
+    "name": "IBM: Granite 4.2 8B",
+    "lab": "ibm",
+    "at": "2026-10-29T10:08:49.449Z",
+    "field": "completion",
+    "from": 0.25,
+    "to": 0.15,
+    "change": -40
+  },
+  {
+    "id": "5874720c3666e095",
+    "modelId": "z-ai/glm-4.6",
+    "name": "Z.ai: GLM 4.6",
+    "lab": "zai",
+    "at": "2026-10-29T10:08:49.449Z",
+    "field": "prompt",
+    "from": 0.55,
+    "to": 0.5,
+    "change": -9.1
+  },
+  {
+    "id": "d30b0a9235ccb65c",
+    "modelId": "z-ai/glm-4.6",
+    "name": "Z.ai: GLM 4.6",
+    "lab": "zai",
+    "at": "2026-10-29T10:08:49.449Z",
+    "field": "completion",
+    "from": 2.2,
+    "to": 2,
+    "change": -9.1
+  },
+  {
     "id": "f5f0aa5da46e1a7f",
     "modelId": "moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",

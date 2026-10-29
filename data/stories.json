@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:02:13.102Z",
+  "generatedAt": "2026-10-29T10:08:49.449Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -338,32 +338,6 @@
       "importance": 58
     },
     {
-      "id": "deepseek:c255ac70fae1ec",
-      "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
-      "entity": "DeepSeek 4.1 Flash",
-      "labs": [
-        "deepseek"
-      ],
-      "official": 0,
-      "press": 5,
-      "outlets": [
-        "Techzine Global",
-        "https://tech-insider.org/",
-        "Quartz",
-        "SiliconANGLE",
-        "MarkTechPost",
-        "Interconnects AI"
-      ],
-      "firstAt": "2026-10-19T07:32:11.000Z",
-      "lastAt": "2026-10-20T17:04:21.000Z",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNzRSM0RPcGNOS0lhbGoweV93Q1lTajR5M293eldzLVRzY1NtYjVxaTdWWXJpamdTN2E0b1BERUpvUzUtLWVBaUhCeWlGMVgzeDJCcnFXSmpBZlByMW9fbHFweW9DQlA0UTlMUzhTNGtrQTh6WnM3QXc2bHFtck5GdGpqNDZhRldVZm5id3lVTE5RS254cGfSAZYBQVVfeXFMTzc0UjNET3BjTktJYWxqMHlfd0NZU2o0eTNvd3pXcy1Uc2NTbWI1cWk3VllyaWpnUzdhNG9QREVKb1M1LS1lQWlIQnlpRjFYM3gyQnJxV0pqQWZQcjFvX2xxcHlvQ0JQNFE5TFM4UzRra0E4elpzN0F3NmxxbXJORnRqajQ2YUZXVWZuYnd5VUxOUUtueHBn?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "deepseek:c255ac70fae1ec"
-      },
-      "importance": 58
-    },
-    {
       "id": "nvidia:1bf067743e1fb3",
       "title": "Cassava AI deploys NVIDIA Nemotron to accelerate agentic AI adoption across its markets",
       "entity": null,
@@ -438,6 +412,30 @@
       "importance": 56
     },
     {
+      "id": "deepseek:c255ac70fae1ec",
+      "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
+      "entity": "DeepSeek 4.1 Flash",
+      "labs": [
+        "deepseek"
+      ],
+      "official": 0,
+      "press": 3,
+      "outlets": [
+        "Quartz",
+        "SiliconANGLE",
+        "MarkTechPost",
+        "Interconnects AI"
+      ],
+      "firstAt": "2026-10-19T11:37:50.000Z",
+      "lastAt": "2026-10-20T17:04:21.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNzRSM0RPcGNOS0lhbGoweV93Q1lTajR5M293eldzLVRzY1NtYjVxaTdWWXJpamdTN2E0b1BERUpvUzUtLWVBaUhCeWlGMVgzeDJCcnFXSmpBZlByMW9fbHFweW9DQlA0UTlMUzhTNGtrQTh6WnM3QXc2bHFtck5GdGpqNDZhRldVZm5id3lVTE5RS254cGfSAZYBQVVfeXFMTzc0UjNET3BjTktJYWxqMHlfd0NZU2o0eTNvd3pXcy1Uc2NTbWI1cWk3VllyaWpnUzdhNG9QREVKb1M1LS1lQWlIQnlpRjFYM3gyQnJxV0pqQWZQcjFvX2xxcHlvQ0JQNFE5TFM4UzRra0E4elpzN0F3NmxxbXJORnRqajQ2YUZXVWZuYnd5VUxOUUtueHBn?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "deepseek:c255ac70fae1ec"
+      },
+      "importance": 56
+    },
+    {
       "id": "anthropic:5ded18ae0cbcf5",
       "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
       "entity": "Claude Opus 5.5",
@@ -495,22 +493,22 @@
       },
       {
         "name": "Gemini 4 Argon",
-        "count": 12,
-        "prev": 26,
+        "count": 11,
+        "prev": 24,
         "labs": []
       },
       {
         "name": "Qwen 3.8",
-        "count": 8,
-        "prev": 1,
+        "count": 7,
+        "prev": 2,
         "labs": [
           "amazon"
         ]
       },
       {
         "name": "Qwen 3.8 Flash",
-        "count": 6,
-        "prev": 0,
+        "count": 5,
+        "prev": 1,
         "labs": []
       },
       {
@@ -539,33 +537,7 @@
         ]
       },
       {
-        "name": "GPT 6.1 Sol",
-        "count": 4,
-        "prev": 2,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
-        "name": "Claude Opus 5.5",
-        "count": 4,
-        "prev": 2,
-        "labs": []
-      },
-      {
         "name": "Nemotron 3.5 Transcribe",
-        "count": 3,
-        "prev": 0,
-        "labs": []
-      },
-      {
-        "name": "Qwen 3 Coder",
-        "count": 3,
-        "prev": 0,
-        "labs": []
-      },
-      {
-        "name": "Granite 5.0",
         "count": 3,
         "prev": 0,
         "labs": []
@@ -575,21 +547,35 @@
         "count": 3,
         "prev": 2,
         "labs": []
+      },
+      {
+        "name": "GPT 6.1 Sol",
+        "count": 3,
+        "prev": 3,
+        "labs": [
+          "openai"
+        ]
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "count": 3,
+        "prev": 3,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "coding",
-        "count": 37,
-        "prev": 44,
+        "count": 34,
+        "prev": 47,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
-          "cohere",
+          "mistral",
           "qwen",
+          "cohere",
           "amazon",
           "microsoft",
           "ibm",
@@ -598,7 +584,7 @@
       },
       {
         "name": "agents",
-        "count": 30,
+        "count": 29,
         "prev": 60,
         "labs": [
           "anthropic",
@@ -614,15 +600,15 @@
       },
       {
         "name": "multimodal",
-        "count": 10,
-        "prev": 10,
+        "count": 9,
+        "prev": 12,
         "labs": [
           "google-deepmind",
           "deepseek",
           "openai",
           "minimax",
-          "tencent",
           "baidu",
+          "tencent",
           "amazon",
           "ibm",
           "nvidia"
@@ -631,39 +617,24 @@
       {
         "name": "safety",
         "count": 7,
-        "prev": 8,
+        "prev": 7,
         "labs": [
           "xai",
           "anthropic",
           "openai",
           "mistral",
-          "tencent",
           "nvidia"
         ]
       },
       {
         "name": "audio",
-        "count": 7,
-        "prev": 3,
+        "count": 6,
+        "prev": 4,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
           "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 5,
-        "prev": 8,
-        "labs": [
-          "openai",
-          "minimax",
-          "cohere",
-          "amazon",
-          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -683,6 +654,20 @@
         ]
       },
       {
+        "name": "open-source",
+        "count": 4,
+        "prev": 9,
+        "labs": [
+          "openai",
+          "minimax",
+          "cohere",
+          "amazon",
+          "microsoft",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
         "name": "rag",
         "count": 3,
         "prev": 4,
@@ -696,10 +681,9 @@
       {
         "name": "mcp",
         "count": 2,
-        "prev": 7,
+        "prev": 6,
         "labs": [
           "anthropic",
-          "openai",
           "qwen",
           "amazon"
         ]
@@ -707,21 +691,6 @@
     ]
   },
   "unconfirmed": [
-    {
-      "id": "moonshot:8bdef8fde23372",
-      "lab": "moonshot",
-      "title": "Moonshot resets subscriber quotas after Kimi K3.1 Pro launch issues",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVFRQNTJoWXRmV21ybjhESTU4bHJVMUx1Y3dhYVVDVlBRa2tYSGpTU2Jma1poXzQ2WVQwcTVnNVF2d0M1WDZmZi16ZEhvRGtpSTZFeE1sOV9hLVo1U1V2ODlabE9zS3FIdU1Hc2dtRFNOa1pZY3dOcTZ0amJqTERkRFBJS0phWXVoZ2FFb2gydDZhbnozYWhXY3lEZmhrb3Vhb2YycnI3UjVodFkwRDFZdTlkVGdMenZRdkZiUEZR?oc=5",
-      "outlets": [
-        "Reuters",
-        "TradingView",
-        "The Economic Times",
-        "ET Enterprise AI",
-        "NewsBytes"
-      ],
-      "reports": 5,
-      "at": "2026-10-26T02:22:00.000Z"
-    },
     {
       "id": "ibm:9f1619a503c4a2",
       "lab": "ibm",
@@ -733,18 +702,6 @@
       ],
       "reports": 2,
       "at": "2026-10-27T04:23:58.000Z"
-    },
-    {
-      "id": "xai:4e5f8d2354f160",
-      "lab": "xai",
-      "title": "Grok Releases Seven Minutes of Its AI-Made Odyssey Series",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN3VrLVg5SEpTRXk0UWpyVHpvV1V3S010SE90R291TDdHaGdSLVZMVmlrdjZqYV9lOUUtU1NYUm9DX1l2UUJicnctZmJVMkl3X1VLdzZ2LXA1b0xYNC1wRFk4VXF1ME5OZTF6LUhJYVkyb1lvd0VJNWFuN0JBWG9ISEVtY1o0Y2J0dUZyYWhR?oc=5",
-      "outlets": [
-        "Digital Trends",
-        "Startup Fortune"
-      ],
-      "reports": 2,
-      "at": "2026-10-26T07:19:38.000Z"
     }
   ]
 }

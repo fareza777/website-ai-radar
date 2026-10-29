@@ -1,12 +1,48 @@
 [
   {
+    "id": "2610.35201",
+    "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+    "url": "https://huggingface.co/papers/2610.35201",
+    "summary": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens…",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "submittedAt": "2026-10-29T00:00:00.000Z",
+    "upvotes": 256,
+    "org": "omniai-zju",
+    "githubRepo": "https://github.com/ZJU-OmniAI/DTCA",
+    "firstSeenAt": "2026-10-29T10:08:49.449Z"
+  },
+  {
+    "id": "2610.32749",
+    "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+    "url": "https://huggingface.co/papers/2610.32749",
+    "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-10-29T00:00:00.000Z",
+    "upvotes": 145,
+    "org": "thu-ml",
+    "githubRepo": "https://github.com/JusperLee/Falcon",
+    "firstSeenAt": "2026-10-29T10:08:49.449Z"
+  },
+  {
+    "id": "2610.36077",
+    "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+    "url": "https://huggingface.co/papers/2610.36077",
+    "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same…",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 540,
+    "org": "nationaluniversityofsingapore",
+    "githubRepo": "https://github.com/InfRec-Cardinal/The-Trinity",
+    "firstSeenAt": "2026-10-28T13:09:00.611Z"
+  },
+  {
     "id": "2610.35013",
     "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
     "url": "https://huggingface.co/papers/2610.35013",
     "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 373,
+    "upvotes": 377,
     "org": "iquestlab",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
   },
@@ -17,22 +53,10 @@
     "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; we call this…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 345,
+    "upvotes": 377,
     "org": "lins-lab",
     "githubRepo": "https://github.com/yihaohu0118/ChronoReplay",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
-  },
-  {
-    "id": "2610.36077",
-    "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-    "url": "https://huggingface.co/papers/2610.36077",
-    "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same…",
-    "publishedAt": "2026-10-26T00:00:00.000Z",
-    "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 312,
-    "org": "nationaluniversityofsingapore",
-    "githubRepo": "https://github.com/InfRec-Cardinal/The-Trinity",
-    "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
     "id": "2610.35864",
@@ -41,18 +65,7 @@
     "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 239 self-contained…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 172,
-    "org": null,
-    "firstSeenAt": "2026-10-28T13:09:00.611Z"
-  },
-  {
-    "id": "2610.37381",
-    "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
-    "url": "https://huggingface.co/papers/2610.37381",
-    "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features…",
-    "publishedAt": "2026-10-27T00:00:00.000Z",
-    "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 136,
+    "upvotes": 174,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -63,9 +76,32 @@
     "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 125,
+    "upvotes": 147,
     "org": "uiuc-cs",
     "githubRepo": "https://github.com/hexuan21/MemoryTax",
+    "firstSeenAt": "2026-10-28T13:09:00.611Z"
+  },
+  {
+    "id": "2610.37381",
+    "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+    "url": "https://huggingface.co/papers/2610.37381",
+    "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features…",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 141,
+    "org": null,
+    "firstSeenAt": "2026-10-28T13:09:00.611Z"
+  },
+  {
+    "id": "2610.32046",
+    "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+    "url": "https://huggingface.co/papers/2610.32046",
+    "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 110,
+    "org": "ucsantabarbara",
+    "githubRepo": "https://github.com/yepengliu/TTME",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
@@ -75,23 +111,11 @@
     "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. Our central design…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 105,
+    "upvotes": 108,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
-  },
-  {
-    "id": "2610.32046",
-    "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
-    "url": "https://huggingface.co/papers/2610.32046",
-    "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to…",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 101,
-    "org": "ucsantabarbara",
-    "githubRepo": "https://github.com/yepengliu/TTME",
-    "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
     "id": "2610.37662",
@@ -100,7 +124,7 @@
     "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 82,
+    "upvotes": 83,
     "org": "meituan-longcat",
     "githubRepo": "https://github.com/hustvl/FVQ",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -112,7 +136,7 @@
     "summary": "In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies. Retaining past interactions alone does not ensure that agents can infer habits and apply them…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 79,
+    "upvotes": 80,
     "org": "sjtu",
     "githubRepo": "https://github.com/LUMIA-Group/habit-bench",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -124,8 +148,20 @@
     "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 71,
     "org": "agibot-world",
+    "firstSeenAt": "2026-10-28T05:52:51.451Z"
+  },
+  {
+    "id": "2610.37666",
+    "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+    "url": "https://huggingface.co/papers/2610.37666",
+    "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a…",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 51,
+    "org": "nvidia",
+    "lab": "nvidia",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
   },
   {
@@ -140,25 +176,13 @@
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
-    "id": "2610.37666",
-    "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-    "url": "https://huggingface.co/papers/2610.37666",
-    "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a…",
-    "publishedAt": "2026-10-27T00:00:00.000Z",
-    "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 48,
-    "org": "nvidia",
-    "lab": "nvidia",
-    "firstSeenAt": "2026-10-28T05:52:51.451Z"
-  },
-  {
     "id": "2610.37364",
     "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
     "url": "https://huggingface.co/papers/2610.37364",
     "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Notably, in…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 17,
+    "upvotes": 20,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
@@ -170,7 +194,7 @@
     "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating specialized provers. This raises a bitter-lesson question: can a simple agentic loop that scales test-time compute match these…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 15,
+    "upvotes": 16,
     "org": "meta-llama",
     "lab": "meta",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -182,7 +206,7 @@
     "summary": "Omnimodal large language models (Omni-LLMs) are increasingly expected to assist users while observing continuous audiovisual streams. However, existing evaluations provide limited insight into how reliably these models connect stream evidence and user needs to timely, sustained interventions. We introduce Omni-InteractScope, a benchmark of 1,479 human-annotated, cross-reviewed interactions with 1,790 temporal…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 12,
+    "upvotes": 14,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/YinsongYan/Omni-InteractScope",
@@ -195,7 +219,7 @@
     "summary": "We propose Nemotron-Labs-Diffusion-Uni (NLD-Uni), a unified discrete diffusion large language model (DLLM) for visual understanding and generation tasks. Compared with prior unified diffusion models, NLD-Uni introduces two major innovations. First, we propose a unified cross-paradigm on-policy distillation (OPD) framework that successfully transfers the visual understanding ability of autoregressive VLMs and visual…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 12,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVlabs/Nemotron-Labs-Diffusion-Uni",
@@ -208,7 +232,7 @@
     "summary": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with three ingredients: Decoupled Horizon Forecasting (DHF), which separates prediction tokens from the…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 7,
     "org": "mistralai",
     "lab": "mistral",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -232,7 +256,7 @@
     "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harness reliability into…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 298,
+    "upvotes": 299,
     "org": "tracelite-ai",
     "githubRepo": "https://github.com/TraceLite-AI/TraceTrial-Bench",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -256,7 +280,7 @@
     "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 203,
+    "upvotes": 205,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/amiya-special/Dynaflow",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -281,7 +305,7 @@
     "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 117,
+    "upvotes": 118,
     "org": "sjtu",
     "githubRepo": "https://github.com/EnjunDu/awesome-working-agent",
     "firstSeenAt": "2026-10-27T15:25:14.259Z"
@@ -299,28 +323,28 @@
     "firstSeenAt": "2026-10-27T22:22:25.706Z"
   },
   {
-    "id": "2610.34415",
-    "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
-    "url": "https://huggingface.co/papers/2610.34415",
-    "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with rectified-flow…",
-    "publishedAt": "2026-10-25T00:00:00.000Z",
-    "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 56,
-    "org": "noizai",
-    "githubRepo": "https://github.com/WJM-George/AMBIT",
-    "firstSeenAt": "2026-10-28T05:52:51.451Z"
-  },
-  {
     "id": "2610.21240",
     "title": "Representation Redistribution in Sparse Autoencoders",
     "url": "https://huggingface.co/papers/2610.21240",
     "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream computation. We introduce the redistribution sensitivity score (RSS), which identifies large…",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 56,
+    "upvotes": 59,
     "org": "opensae",
     "githubRepo": "https://github.com/OpenSAE/Redistribution-Sensitivity-Score",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
+  },
+  {
+    "id": "2610.34415",
+    "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+    "url": "https://huggingface.co/papers/2610.34415",
+    "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with rectified-flow…",
+    "publishedAt": "2026-10-25T00:00:00.000Z",
+    "submittedAt": "2026-10-27T00:00:00.000Z",
+    "upvotes": 57,
+    "org": "noizai",
+    "githubRepo": "https://github.com/WJM-George/AMBIT",
+    "firstSeenAt": "2026-10-28T05:52:51.451Z"
   },
   {
     "id": "2610.33135",
@@ -353,9 +377,21 @@
     "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual. We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulations in open-scene…",
     "publishedAt": "2026-10-24T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 48,
     "org": "tsinghua",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
+  },
+  {
+    "id": "2610.31635",
+    "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
+    "url": "https://huggingface.co/papers/2610.31635",
+    "summary": "Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational and memory costs prevent direct inference on sequences containing thousands of frames. Long videos must therefore be processed as overlapping chunks. This division produces independent local reconstructions with inconsistent coordinate frames and duplicate estimates of shared cameras. Achieving…",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "submittedAt": "2026-10-27T00:00:00.000Z",
+    "upvotes": 43,
+    "org": "nanyang-technological-university-singapore",
+    "githubRepo": "https://github.com/HiP3Rs/HiP3R",
+    "firstSeenAt": "2026-10-29T10:08:49.449Z"
   },
   {
     "id": "2610.32195",
@@ -375,7 +411,7 @@
     "summary": "Learning visual design is essential for prompt enhancement (PE) to turn underspecified user requests into coherent visual specifications for text-to-image (T2I) generation. Existing methods preserve user intent and improve overall visual appeal, with less explicit emphasis on fine-grained design dimensions. To address this gap, we introduce Qwen-Image-PE, which learns visual design through two-stage training…",
     "publishedAt": "2026-10-24T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 39,
+    "upvotes": 41,
     "org": "qwen",
     "lab": "qwen",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -387,7 +423,7 @@
     "summary": "Language model agents often abandon correct work when a user challenges it, yet simply telling them to stand firm makes them ignore real mistakes. Once an agent reads a complaint, it tends to discount its own earlier checks in order to agree with the user. We introduce Thinking-in-Bets, a training-free method in which an agent writes a short private record of its main claims, the checks supporting them, and its…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 18,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-27T15:25:14.259Z"
@@ -471,11 +507,23 @@
     "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 48,
+    "upvotes": 49,
     "org": "bytedance",
     "lab": "bytedance",
     "githubRepo": "https://github.com/simple-agent-lab/RSIHub",
     "firstSeenAt": "2026-10-26T04:56:58.020Z"
+  },
+  {
+    "id": "2610.27103",
+    "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+    "url": "https://huggingface.co/papers/2610.27103",
+    "summary": "Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge. Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused representations. To address this issue, we propose Omni-Woodpecker (OWP), a training-free framework that shifts…",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "submittedAt": "2026-10-26T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "nanjinguniv",
+    "githubRepo": "https://github.com/ZiiJianLiu/Omni-Woodpecker",
+    "firstSeenAt": "2026-10-29T10:08:49.449Z"
   },
   {
     "id": "2610.32770",
@@ -484,7 +532,7 @@
     "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 38,
+    "upvotes": 39,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -509,7 +557,7 @@
     "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 258,
+    "upvotes": 259,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisOne-VL",
@@ -592,7 +640,7 @@
     "summary": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that learns from…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-23T00:00:00.000Z",
-    "upvotes": 57,
+    "upvotes": 58,
     "org": "naver-ai",
     "githubRepo": "https://github.com/junha1125/LaLa-World",
     "firstSeenAt": "2026-10-26T04:56:58.020Z"

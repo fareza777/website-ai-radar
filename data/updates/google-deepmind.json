@@ -1,5 +1,34 @@
 [
   {
+    "id": "1eed7297f646848e",
+    "lab": "google-deepmind",
+    "title": "Google GenAI SDK (Python) v2.34.0",
+    "url": "https://github.com/googleapis/python-genai/releases/tag/v2.34.0",
+    "sourceId": "google-genai-sdk",
+    "sourceName": "GitHub · googleapis/python-genai",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T06:23:11.000Z",
+    "firstSeenAt": "2026-10-29T10:08:49.449Z",
+    "updatedAt": "2026-10-29T06:23:11.000Z",
+    "excerpt": "2.34.0 (2026-10-29) Features Add support for continuation_token and requires_continuation status ( daac53e ) Add support for Python 3.15. ( cb1408b ) Add video upscale task parameter ( 0456043 ) Drop support for Python 3.10 ( 2677298 ) interactions: Add automatic_continuation to interactions.create in the Python SDK ( c85d5ae ) interactions: Declare continuation_ids on Interaction ( 4bdde3a ) Support base_url…",
+    "summary": "Google DeepMind shipped Google GenAI SDK (Python) v2.34.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 45,
+    "contentHash": "7bfa70d80fa9",
+    "meta": {
+      "version": "v2.34.0",
+      "semver": "minor",
+      "repo": "googleapis/python-genai"
+    }
+  },
+  {
     "id": "34b0bf3f94c3851e",
     "lab": "google-deepmind",
     "title": "Gemini 4 Carbon: Our next frontier model",
@@ -1099,7 +1128,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 2993,
+      "likes": 3001,
       "downloads": 282912,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",
@@ -1511,7 +1540,7 @@
     "importance": 79,
     "contentHash": "d8c99b7d47a0",
     "meta": {
-      "likes": 997,
+      "likes": 999,
       "downloads": 845701,
       "repo": "google/timesfm-3.0-pytorch",
       "pipeline": "time-series-forecasting",

@@ -1,5 +1,29 @@
 [
   {
+    "id": "6f03a38cbdd849f8",
+    "lab": "microsoft",
+    "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+    "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry",
+    "sourceId": "azure-blog",
+    "sourceName": "Azure Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T17:40:56.000Z",
+    "firstSeenAt": "2026-10-29T10:08:49.449Z",
+    "updatedAt": "2026-10-28T17:40:56.000Z",
+    "excerpt": "A model can reason about a task. Completing that task takes more: the right context, tools, execution environment, and controls, and an agent loop that brings them together. Microsoft’s unified harness strategy brings a shared execution foundation across our agent experiences while preserving customer choice. In Microsoft Foundry, that means you can choose a supported model and decide how much of the agent stack to…",
+    "summary": "A model can reason about a task.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 65,
+    "contentHash": "30a7afa3ff32"
+  },
+  {
     "id": "a1fd010ba46270e7",
     "lab": "microsoft",
     "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
