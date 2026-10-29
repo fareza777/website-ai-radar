@@ -1,5 +1,27 @@
 [
   {
+    "id": "f5f0aa5da46e1a7f",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-29T01:02:13.102Z",
+    "field": "prompt",
+    "from": 0.239,
+    "to": 0.192,
+    "change": -19.7
+  },
+  {
+    "id": "2d427aadc202d6e2",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-29T01:02:13.102Z",
+    "field": "completion",
+    "from": 10.8,
+    "to": 20,
+    "change": 85.2
+  },
+  {
     "id": "673c57f1d7d477ac",
     "modelId": "qwen/qwen3.8-27b",
     "name": "Qwen: Qwen3.8 27B",

@@ -6,7 +6,7 @@
     "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 372,
+    "upvotes": 373,
     "org": "iquestlab",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
   },
@@ -29,7 +29,7 @@
     "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 311,
+    "upvotes": 312,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/InfRec-Cardinal/The-Trinity",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -41,7 +41,7 @@
     "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 239 self-contained…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 171,
+    "upvotes": 172,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -52,7 +52,7 @@
     "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 135,
+    "upvotes": 136,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -63,7 +63,7 @@
     "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 112,
+    "upvotes": 125,
     "org": "uiuc-cs",
     "githubRepo": "https://github.com/hexuan21/MemoryTax",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -75,7 +75,7 @@
     "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. Our central design…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 104,
+    "upvotes": 105,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
@@ -88,7 +88,7 @@
     "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 100,
+    "upvotes": 101,
     "org": "ucsantabarbara",
     "githubRepo": "https://github.com/yepengliu/TTME",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -100,7 +100,7 @@
     "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 81,
+    "upvotes": 82,
     "org": "meituan-longcat",
     "githubRepo": "https://github.com/hustvl/FVQ",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -112,7 +112,7 @@
     "summary": "In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies. Retaining past interactions alone does not ensure that agents can infer habits and apply them…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 78,
+    "upvotes": 79,
     "org": "sjtu",
     "githubRepo": "https://github.com/LUMIA-Group/habit-bench",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -124,7 +124,7 @@
     "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 51,
     "org": "agibot-world",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
   },
@@ -135,7 +135,7 @@
     "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary representation of…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 48,
+    "upvotes": 49,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -146,7 +146,7 @@
     "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 48,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -158,7 +158,7 @@
     "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Notably, in…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 15,
+    "upvotes": 17,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
@@ -170,7 +170,7 @@
     "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating specialized provers. This raises a bitter-lesson question: can a simple agentic loop that scales test-time compute match these…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 13,
+    "upvotes": 15,
     "org": "meta-llama",
     "lab": "meta",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -182,7 +182,7 @@
     "summary": "Omnimodal large language models (Omni-LLMs) are increasingly expected to assist users while observing continuous audiovisual streams. However, existing evaluations provide limited insight into how reliably these models connect stream evidence and user needs to timely, sustained interventions. We introduce Omni-InteractScope, a benchmark of 1,479 human-annotated, cross-reviewed interactions with 1,790 temporal…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 12,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/YinsongYan/Omni-InteractScope",
@@ -195,7 +195,7 @@
     "summary": "We propose Nemotron-Labs-Diffusion-Uni (NLD-Uni), a unified discrete diffusion large language model (DLLM) for visual understanding and generation tasks. Compared with prior unified diffusion models, NLD-Uni introduces two major innovations. First, we propose a unified cross-paradigm on-policy distillation (OPD) framework that successfully transfers the visual understanding ability of autoregressive VLMs and visual…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 7,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVlabs/Nemotron-Labs-Diffusion-Uni",
@@ -208,7 +208,7 @@
     "summary": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with three ingredients: Decoupled Horizon Forecasting (DHF), which separates prediction tokens from the…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 5,
+    "upvotes": 6,
     "org": "mistralai",
     "lab": "mistral",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -220,7 +220,7 @@
     "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and…",
     "publishedAt": "2026-10-24T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 366,
+    "upvotes": 367,
     "org": "ant-intl",
     "githubRepo": "https://github.com/yihaohu0118/Trajectory2Gym",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -268,7 +268,7 @@
     "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is challenging and…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 125,
+    "upvotes": 126,
     "org": "meta",
     "lab": "meta",
     "githubRepo": "https://github.com/facebookresearch/InteractiveWorld",
@@ -375,7 +375,7 @@
     "summary": "Learning visual design is essential for prompt enhancement (PE) to turn underspecified user requests into coherent visual specifications for text-to-image (T2I) generation. Existing methods preserve user intent and improve overall visual appeal, with less explicit emphasis on fine-grained design dimensions. To address this gap, we introduce Qwen-Image-PE, which learns visual design through two-stage training…",
     "publishedAt": "2026-10-24T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 38,
+    "upvotes": 39,
     "org": "qwen",
     "lab": "qwen",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -399,7 +399,7 @@
     "summary": "Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth, so storing weights in two bits instead of bfloat16 can potentially make inference 8times cheaper. Two-bit methods are usually judged by perplexity and multiple-choice question-answering accuracy, both of which say little about whether a model can still reason through more difficult problems. We…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 4,
+    "upvotes": 5,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-10-27T22:22:25.706Z"

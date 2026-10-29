@@ -231,12 +231,14 @@
     "outlet": "Unite.AI",
     "publishedAt": "2026-10-28T19:07:02.000Z",
     "firstSeenAt": "2026-10-28T20:21:14.926Z",
-    "reports": 1,
+    "reports": 2,
     "outlets": [
-      "Unite.AI"
+      "Unite.AI",
+      "TestingCatalog AI News"
     ],
     "members": [
-      "dbb668ec59d016"
+      "dbb668ec59d016",
+      "d97c8ab5a4a2d6"
     ]
   },
   {
@@ -286,7 +288,8 @@
     ],
     "members": [
       "fd28bb87675475",
-      "2f93e4d4937740"
+      "2f93e4d4937740",
+      "054318477e49f4"
     ]
   },
   {
@@ -361,18 +364,20 @@
     "outlet": "Reuters",
     "publishedAt": "2026-10-28T18:12:49.000Z",
     "firstSeenAt": "2026-10-28T20:21:14.926Z",
-    "reports": 4,
+    "reports": 5,
     "outlets": [
       "Reuters",
       "Wichita Eagle",
       "The Verge",
-      "SiliconANGLE"
+      "SiliconANGLE",
+      "Investing.com"
     ],
     "members": [
       "5a342024f39507",
       "762e68b90d43c5",
       "1cb732d149dead",
-      "6f5e611576d518"
+      "6f5e611576d518",
+      "16877111b78d60"
     ]
   },
   {
@@ -701,24 +706,6 @@
     ],
     "members": [
       "1ab6679ce36d96"
-    ]
-  },
-  {
-    "id": "xai:e471ff7a6138a0",
-    "lab": "xai",
-    "title": "Grok Deepfaked This UK Politician—Now She’s Taking Elon Musk’s xAI To Court",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRHk0QTB2ekFUa0FfN0kxT1pDTFpZSTMxYkVEX1N0R3pZdkQ5dDlZSUltTnFFNTU2SzBpTlVjeFN3dXphbDBqUDF6NmhiQVFoTGRoa0R3ejRhRElhV0ZmUVY3WUNpM3hrV0dRa2tuQ295VVVsNDZwcGNHT1FBTjNKQi1OTktQSmstdkR6MElVUkVJTjk4?oc=5",
-    "outlet": "Yahoo",
-    "publishedAt": "2026-10-28T16:00:00.000Z",
-    "firstSeenAt": "2026-10-28T20:21:14.926Z",
-    "reports": 2,
-    "outlets": [
-      "WIRED",
-      "Yahoo"
-    ],
-    "members": [
-      "e471ff7a6138a0",
-      "5bbb6390ee955d"
     ]
   },
   {
@@ -1058,24 +1045,6 @@
     ]
   },
   {
-    "id": "google-deepmind:179e37ababbe95",
-    "lab": "google-deepmind",
-    "title": "Google DeepMind Genie 4 World Model Adds Audio",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbjhHbHg1a3dPX0V3dmdTSjhjOHdtTngwX2ZpcHNEcktuVmxXakM5aFNNc0NtMEpaZlpUX1REbHJMNEtzMDdOeHBGRlZ2S2Y0bHpBOVR3dVUzajk5ZV9OQXVlTW1ObzQ3R18tbnRKQWpvUGdKbXZWSVl5NTAwQjEtNzV5UTE5dnRNYVRBMTZYWTlNNkhH?oc=5",
-    "outlet": "Technology Org",
-    "publishedAt": "2026-10-28T10:25:00.000Z",
-    "firstSeenAt": "2026-10-28T20:21:14.926Z",
-    "reports": 2,
-    "outlets": [
-      "The Next Web",
-      "Technology Org"
-    ],
-    "members": [
-      "179e37ababbe95",
-      "118d09a8de8a9d"
-    ]
-  },
-  {
     "id": "mistral:b7eb9236b778f9",
     "lab": "mistral",
     "title": "Mistral AI’s Voxtral Mini Transcribe 3 takes second place on Voice Arena leaderboard",
@@ -1185,22 +1154,6 @@
     ],
     "members": [
       "7a91db4beb6072"
-    ]
-  },
-  {
-    "id": "cohere:52d64a6b560f25",
-    "lab": "cohere",
-    "title": "Cohere Flags Alibaba’s Qwen Model for Attempted Upload to Beijing Server During Security Test",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjVhNy03dVpEVTIyNWZUSnlnX2xGWkx2VmNmNFJfbmFmWnJJcVAta3Mzc2UtNFpiSGYxNDBPVi1GUUVSUWJlZXlPN2NJS2kzQ2RhN1BaeWxJZ29wdTRFSmFXblFwT0EzNFhvV2t4MDV0d29uSEtSMGViVmZtazNUQXN1bk9UV0lrNWg1Zk9pWloxcGV0aVZwNXhUWktaM3BqOUVLSWVNRXRmRUVvaXpkY016ZEtMNXB4RE9kSVk3VTktdll1VXN6RHVn?oc=5",
-    "outlet": "AI Insider",
-    "publishedAt": "2026-10-28T07:23:57.000Z",
-    "firstSeenAt": "2026-10-28T13:09:00.611Z",
-    "reports": 1,
-    "outlets": [
-      "AI Insider"
-    ],
-    "members": [
-      "52d64a6b560f25"
     ]
   },
   {
@@ -1820,22 +1773,6 @@
     ]
   },
   {
-    "id": "mistral:cb16b2719de319",
-    "lab": "mistral",
-    "title": "Cloudera Expands Enterprise AI Ecosystem With Mistral AI, VAST Data, Neo4j, And Cartesia",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa0pqUDlGMnBIMktCVFZ5ekJHemxJZVNMSzNPLUpNcVY4bDhKVEExVkF2RlV3R1RYcENyZndYYUduaXgxdnlUdkRadEZKTm5ZX093TDFWeTFhMDJrcV9VZGViVXRuN001OWdCZ242SWFaWm9iOFY2UkNOcVFNbjNrYl9aZDczbld5WVBnSU1YN183MW05YVllcXJYR2pvOXNtdE9QVkFia2M?oc=5",
-    "outlet": "Pulse 2.0",
-    "publishedAt": "2026-10-27T19:28:49.000Z",
-    "firstSeenAt": "2026-10-27T22:22:25.706Z",
-    "reports": 1,
-    "outlets": [
-      "Pulse 2.0"
-    ],
-    "members": [
-      "cb16b2719de319"
-    ]
-  },
-  {
     "id": "anthropic:9ca19d0dc977ed",
     "lab": "anthropic",
     "title": "Anthropic's IPO filing lists 93 pages of risks. What could possibly go wrong?",
@@ -2226,6 +2163,26 @@
     ]
   },
   {
+    "id": "google-deepmind:179e37ababbe95",
+    "lab": "google-deepmind",
+    "title": "Google DeepMind Rolls Out Genie 4 World Model in Research Preview",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcHN4SmZSeVRRQkVWMjFxdVAtTnd1MzRJSFZXbE9Cenc3U2RCeTFnZjRWeFo5RGpaZUxwZEV5ZW9vaHBkRUFMS19HVFUtdEhmcV9YQ1A1MHI0UWlxNENHNE5DaEI5VzRsOTdCejZBNlFaTlh0VkNQRGhxTnBRa1lTUlhTX0lyemlHNWxwMExsZ1E?oc=5",
+    "outlet": "Unite.AI",
+    "publishedAt": "2026-10-27T16:21:02.000Z",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z",
+    "reports": 3,
+    "outlets": [
+      "The Next Web",
+      "Technology Org",
+      "Unite.AI"
+    ],
+    "members": [
+      "179e37ababbe95",
+      "118d09a8de8a9d",
+      "19330cc0bbf4ae"
+    ]
+  },
+  {
     "id": "google-deepmind:19330cc0bbf4ae",
     "lab": "google-deepmind",
     "title": "Google DeepMind Rolls Out Genie 4 World Model in Research Preview",
@@ -2598,6 +2555,25 @@
     ]
   },
   {
+    "id": "xai:e471ff7a6138a0",
+    "lab": "xai",
+    "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBldDJvRkRSN2tHbzFsMnduVElkRkdPT3Jfc3ZFdmFVamNsWjRXM1RwbDFNRWdodGMtQVIxZzRMdDNXNlFYdC15Y3VIaUprdHZ3MFVyNmx0bTVtOXMtWW1hZmY1R3hQYWxIcW0zYVF5eW1weE0?oc=5",
+    "outlet": "WIRED",
+    "publishedAt": "2026-10-27T13:29:00.000Z",
+    "firstSeenAt": "2026-10-28T20:21:14.926Z",
+    "reports": 2,
+    "outlets": [
+      "WIRED",
+      "Yahoo"
+    ],
+    "members": [
+      "e471ff7a6138a0",
+      "5bbb6390ee955d",
+      "4973babfa24d79"
+    ]
+  },
+  {
     "id": "xai:4973babfa24d79",
     "lab": "xai",
     "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
@@ -2695,6 +2671,24 @@
     ],
     "members": [
       "dc6759f7835bc0"
+    ]
+  },
+  {
+    "id": "mistral:cb16b2719de319",
+    "lab": "mistral",
+    "title": "Cloudera Expands Enterprise AI Ecosystem With Mistral AI, VAST Data, Neo4j And Cartesia",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeEpNWFNJb0hHYTJDWWJXa1ZuTmQ5WW81b0VpekR5UWNYcmhsT3NlQ0RWMDYtRjg2WEpMT001ZDlLZ1BOZXVJSXNST0htV1J1Z2Fab01lUGhjMHZQUmFrczFvM0hXa1hpdlVBekFYYWlTcEYtOGlJdkNXQ08zQW0zMmI4d2Izdmt4bFpuLVZkZW9WZEVGTk1JMWV6RENVMWRXMlcxeGo1d0tITlFXNTdvTXAxNk1GLXBjaUZTU3dNZWFIbGdlbFdKclZtMUctbTBzdHNDOQ?oc=5",
+    "outlet": "www.marketscreener.com",
+    "publishedAt": "2026-10-27T12:30:00.000Z",
+    "firstSeenAt": "2026-10-27T22:22:25.706Z",
+    "reports": 2,
+    "outlets": [
+      "Pulse 2.0",
+      "www.marketscreener.com"
+    ],
+    "members": [
+      "cb16b2719de319",
+      "ae8cdce6760a8e"
     ]
   },
   {
@@ -3585,6 +3579,26 @@
     ]
   },
   {
+    "id": "cohere:52d64a6b560f25",
+    "lab": "cohere",
+    "title": "Cohere Says Alibaba's Qwen Model Sought Beijing Upload During Security Test",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qMFpkbVF6SkhreWZsS3hLZGhWOEFROWxOOU5zU1V2cFBEUDF3QXJGQ21TX1ZsdW1sbW5KR0theFJ1aG1jQWIxQ3Z5T1BGeUxMZUp6eXVGTWtyaWcyREFyd0o0YjVPaER5RUM5OFRKMEtMVHp1Z0E?oc=5",
+    "outlet": "BigGo Finance",
+    "publishedAt": "2026-10-27T03:25:00.000Z",
+    "firstSeenAt": "2026-10-28T13:09:00.611Z",
+    "reports": 3,
+    "outlets": [
+      "AI Insider",
+      "BigGo Finance",
+      "Analytics India Magazine"
+    ],
+    "members": [
+      "52d64a6b560f25",
+      "eb659e375b110b",
+      "c91761bd73404b"
+    ]
+  },
+  {
     "id": "tencent:6bf1a942d92b90",
     "lab": "tencent",
     "title": "Tencent Hunyuan Open-Sources Hy-SimulMT, a Speech-to-Speech Interpreter With About 3 Seconds of Lag",
@@ -3930,7 +3944,7 @@
     "outlet": "Crypto Briefing",
     "publishedAt": "2026-10-26T22:15:59.000Z",
     "firstSeenAt": "2026-10-27T22:22:25.706Z",
-    "reports": 14,
+    "reports": 15,
     "outlets": [
       "The Globe and Mail",
       "Technology Org",
@@ -3945,7 +3959,8 @@
       "Cyber Magazine",
       "Computing UK",
       "Crypto Briefing",
-      "International Business Times UK"
+      "International Business Times UK",
+      "AI Insider"
     ],
     "members": [
       "3da845eb6ca838",
@@ -3961,7 +3976,8 @@
       "44077263dac5bd",
       "43a9522959ffc2",
       "903f2bd3fa59a7",
-      "9df7740329beee"
+      "9df7740329beee",
+      "52d64a6b560f25"
     ]
   },
   {
@@ -4143,42 +4159,6 @@
     ]
   },
   {
-    "id": "qwen:155a975d0930ae",
-    "lab": "qwen",
-    "title": "Cohere says Alibaba AI model tried to secretly send data to Beijing server during test",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdkQ5cnFlNGwtaHpEdEttTWZtdlZSSGZ5S2ozN1BxbXFTVmlBekVmTG9uT2VNWG9rT3ZtcVhqSllUR0poZ1ZEQnZySnU1UDE5Y0RFME9KVkFGb0xpSjJkOEw3MDBVdENoZ0ZKVGxkNWR5LXJKeTF5eEs3c0pGRHVFUGJSSzBvWHZ1MWtNb1VnRHY3MnZMZmxfMHkxN3NrNDhYSUh4RHV1MTZBd1pORjF3RmhWQ2dQdHZQbDVFYVFITG4wcjNSRF9zLTJyQmg?oc=5",
-    "outlet": "디지털투데이",
-    "publishedAt": "2026-10-26T20:56:35.000Z",
-    "firstSeenAt": "2026-10-27T09:08:09.408Z",
-    "reports": 11,
-    "outlets": [
-      "www.trendingtopics.eu",
-      "TechCrunch",
-      "Technology Org",
-      "Cyber Magazine",
-      "Startup Fortune",
-      "Analytics India Magazine",
-      "Crypto Briefing",
-      "Mezha.net",
-      "BigGo Finance",
-      "AI Insider",
-      "디지털투데이"
-    ],
-    "members": [
-      "155a975d0930ae",
-      "e64b80cec2130a",
-      "86c28cc145cc43",
-      "44077263dac5bd",
-      "6c2785be679eb8",
-      "c91761bd73404b",
-      "903f2bd3fa59a7",
-      "cb04b47cefaf69",
-      "eb659e375b110b",
-      "52d64a6b560f25",
-      "132499da5ef90f"
-    ]
-  },
-  {
     "id": "amazon:8d44744ec54a66",
     "lab": "amazon",
     "title": "AI-enabled ECU validation on AWS using Corellium Atlas virtual ECUs",
@@ -4226,6 +4206,46 @@
     ],
     "members": [
       "5b881d7948d6e9"
+    ]
+  },
+  {
+    "id": "qwen:155a975d0930ae",
+    "lab": "qwen",
+    "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHVNeUo5OThtcHVOdE1HTHhlQjV0TXR0RkVpMEk2Qm1hQjdPNzlkaXZaZU5oX1Y3eFoyUW1FZGZ5YmJOX0d0eGRHUUtRaEtvbzRvcWtOenFzSWowam1ZMlQyTmJleGN3dU1JbVhiemduMnZRY0E0a3U4V1N2bUZhLXBRTXNySFdNeE92S3pPeWRmUDRRd0VLYWRCNklpZ2c2NDhOckpzTE5tbnItcXV5VVE2ajJwRG9UeHFOcWpsNmRqbUh0bVpR?oc=5",
+    "outlet": "Reuters",
+    "publishedAt": "2026-10-26T20:40:18.000Z",
+    "firstSeenAt": "2026-10-27T09:08:09.408Z",
+    "reports": 13,
+    "outlets": [
+      "www.trendingtopics.eu",
+      "TechCrunch",
+      "Technology Org",
+      "Cyber Magazine",
+      "Startup Fortune",
+      "Analytics India Magazine",
+      "Crypto Briefing",
+      "Mezha.net",
+      "BigGo Finance",
+      "AI Insider",
+      "디지털투데이",
+      "Reuters",
+      "The Economic Times"
+    ],
+    "members": [
+      "155a975d0930ae",
+      "e64b80cec2130a",
+      "86c28cc145cc43",
+      "44077263dac5bd",
+      "6c2785be679eb8",
+      "c91761bd73404b",
+      "903f2bd3fa59a7",
+      "cb04b47cefaf69",
+      "eb659e375b110b",
+      "52d64a6b560f25",
+      "132499da5ef90f",
+      "3c2f48aef6645c",
+      "f96ec8f5bdb781"
     ]
   },
   {
@@ -4978,6 +4998,22 @@
     ],
     "members": [
       "05e566dbfd5493"
+    ]
+  },
+  {
+    "id": "qwen:45b1d738caefa3",
+    "lab": "qwen",
+    "title": "Apple Intelligence Qwen China: Deleted Mac Guide Explained",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaVZzczVOVzVvdzg4ak5KWlN4SzJzX1BkbmV0a2xob3lDNmNVOS16MV9IaENPQTJpaGdQV0VFRm1GbkxBbkxKdlJiQ0IzOFdaLUNYM0plTlZ0NUpyMEZOOVhocDNNcXJINjJVSXBnYVc3TjZrQzlzVWR1eWg4U3F3MUlGak8yal82ZUp5d296VUprNzZOWDEzZw?oc=5",
+    "outlet": "Gadget Hacks",
+    "publishedAt": "2026-10-26T18:01:37.000Z",
+    "firstSeenAt": "2026-10-29T01:02:13.102Z",
+    "reports": 1,
+    "outlets": [
+      "Gadget Hacks"
+    ],
+    "members": [
+      "45b1d738caefa3"
     ]
   },
   {
@@ -7785,6 +7821,22 @@
     ],
     "members": [
       "3454863d93fb04"
+    ]
+  },
+  {
+    "id": "meta:5069ab464e6251",
+    "lab": "meta",
+    "title": "Exclusive: Meta acquires AI data platform Sundial",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yaUIwQVJsYmpVanBJTkF0M1g4RWZDeGh3X1NYbzVINFY4M2wxTUtTWmRZdkYtY0tlU2dBcXNXY1JxU1JNeUJsZTc5c2czQzFwX0ZOcndNekd0WE5XQXc0QzVjWHdWek9nbXZkZUZXNA?oc=5",
+    "outlet": "Axios",
+    "publishedAt": "2026-10-23T20:56:20.000Z",
+    "firstSeenAt": "2026-10-29T01:02:13.102Z",
+    "reports": 1,
+    "outlets": [
+      "Axios"
+    ],
+    "members": [
+      "5069ab464e6251"
     ]
   },
   {

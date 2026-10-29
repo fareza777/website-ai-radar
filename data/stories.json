@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T00:04:43.850Z",
+  "generatedAt": "2026-10-29T01:02:13.102Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -29,6 +29,7 @@
         "VentureBeat",
         "Anadolu Ajansı",
         "Unite.AI",
+        "TestingCatalog AI News",
         "The Decoder",
         "R&D World",
         "Interesting Engineering",
@@ -160,6 +161,44 @@
       "importance": 70
     },
     {
+      "id": "cohere:903f2bd3fa59a7",
+      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
+      "entity": null,
+      "labs": [
+        "cohere",
+        "qwen"
+      ],
+      "official": 0,
+      "press": 3,
+      "outlets": [
+        "Reuters",
+        "marketscreener.com",
+        "디지털투데이",
+        "Crypto Briefing",
+        "Investing.com",
+        "The Economic Times",
+        "CNA",
+        "TechCrunch",
+        "www.trendingtopics.eu",
+        "CSO Online",
+        "Cyber Magazine",
+        "Technology Org",
+        "Startup Fortune",
+        "Analytics India Magazine",
+        "BigGo Finance",
+        "Mezha.net",
+        "AI Insider"
+      ],
+      "firstAt": "2026-10-26T18:49:17.000Z",
+      "lastAt": "2026-10-26T20:40:18.000Z",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnRHZXQtNlM4RXQwelJVdUpXRUFMVmZFYmhpSm11NkR5TnZnRllBNmxmRi14WkVITVVQc2NiYndvNmNRcUVPMTRMQzFWUkQwUDFGNFlXQVdJQVFYR2M0cHMwblJVLVA4VUVOWFlXcHlIaXM2TWJyREp1aUtNUlUwN1htMTZaRHFvQjBTMkRDLUdjdy11YU9keWZXV3JwYm81V2VQcC1qOTJNLVFjeGtyNl9NcEg2dmJDYmNWQnMwNzlNVFIwQ3c?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "cohere:903f2bd3fa59a7"
+      },
+      "importance": 66
+    },
+    {
       "id": "google-deepmind:cf5a1652bc43d7",
       "title": "What Google’s Gemini 4 Argon means for small business",
       "entity": "Gemini 4 Argon",
@@ -192,78 +231,6 @@
       "lead": {
         "kind": "press",
         "id": "google-deepmind:cf5a1652bc43d7"
-      },
-      "importance": 65
-    },
-    {
-      "id": "qwen:3da845eb6ca838",
-      "title": "Cohere says Alibaba's Qwen model tried to send data to a Beijing server during a security test",
-      "entity": null,
-      "labs": [
-        "qwen"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "www.trendingtopics.eu",
-        "TechCrunch",
-        "Technology Org",
-        "Cyber Magazine",
-        "Startup Fortune",
-        "Analytics India Magazine",
-        "Crypto Briefing",
-        "Mezha.net",
-        "BigGo Finance",
-        "AI Insider",
-        "디지털투데이",
-        "The Globe and Mail",
-        "Tech Wire Asia",
-        "Notebookcheck",
-        "Computing UK",
-        "International Business Times UK"
-      ],
-      "firstAt": "2026-10-26T20:56:35.000Z",
-      "lastAt": "2026-10-26T22:15:59.000Z",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IMzZiMjhVdkowa1loZzdrQVUxZlZqX3AxRjJuT3g0YU1rTGE4RzJQN2xOSDdUQjlrRm1EMmxnaW1JMVd5aFVmcTRnNmR5eGdPNEtUUHpOb2ZoMkE1bnRFYlBEVGdCeWdLRm1sTlJiX2JMT1l0Z2c?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:3da845eb6ca838"
-      },
-      "importance": 65
-    },
-    {
-      "id": "cohere:903f2bd3fa59a7",
-      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
-      "entity": null,
-      "labs": [
-        "cohere",
-        "qwen"
-      ],
-      "official": 0,
-      "press": 3,
-      "outlets": [
-        "Reuters",
-        "marketscreener.com",
-        "디지털투데이",
-        "Crypto Briefing",
-        "Investing.com",
-        "The Economic Times",
-        "CNA",
-        "TechCrunch",
-        "www.trendingtopics.eu",
-        "CSO Online",
-        "Cyber Magazine",
-        "Technology Org",
-        "Startup Fortune",
-        "Analytics India Magazine",
-        "BigGo Finance"
-      ],
-      "firstAt": "2026-10-26T18:49:17.000Z",
-      "lastAt": "2026-10-26T20:40:18.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnRHZXQtNlM4RXQwelJVdUpXRUFMVmZFYmhpSm11NkR5TnZnRllBNmxmRi14WkVITVVQc2NiYndvNmNRcUVPMTRMQzFWUkQwUDFGNFlXQVdJQVFYR2M0cHMwblJVLVA4VUVOWFlXcHlIaXM2TWJyREp1aUtNUlUwN1htMTZaRHFvQjBTMkRDLUdjdy11YU9keWZXV3JwYm81V2VQcC1qOTJNLVFjeGtyNl9NcEg2dmJDYmNWQnMwNzlNVFIwQ3c?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:903f2bd3fa59a7"
       },
       "importance": 65
     },
@@ -528,8 +495,8 @@
       },
       {
         "name": "Gemini 4 Argon",
-        "count": 13,
-        "prev": 25,
+        "count": 12,
+        "prev": 26,
         "labs": []
       },
       {
@@ -604,12 +571,6 @@
         "labs": []
       },
       {
-        "name": "Mistral Large 4",
-        "count": 3,
-        "prev": 1,
-        "labs": []
-      },
-      {
         "name": "Nemotron 3.5 Bolt",
         "count": 3,
         "prev": 2,
@@ -619,14 +580,14 @@
     "topics": [
       {
         "name": "coding",
-        "count": 38,
-        "prev": 43,
+        "count": 37,
+        "prev": 44,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "qwen",
           "amazon",
@@ -641,8 +602,8 @@
         "prev": 60,
         "labs": [
           "anthropic",
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "qwen",
           "amazon",
@@ -660,8 +621,8 @@
           "deepseek",
           "openai",
           "minimax",
-          "baidu",
           "tencent",
+          "baidu",
           "amazon",
           "ibm",
           "nvidia"
@@ -672,8 +633,8 @@
         "count": 7,
         "prev": 8,
         "labs": [
-          "anthropic",
           "xai",
+          "anthropic",
           "openai",
           "mistral",
           "tencent",
@@ -694,20 +655,6 @@
         ]
       },
       {
-        "name": "reasoning",
-        "count": 5,
-        "prev": 11,
-        "labs": [
-          "meta",
-          "openai",
-          "mistral",
-          "cohere",
-          "tencent",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "open-source",
         "count": 5,
         "prev": 8,
@@ -718,6 +665,20 @@
           "amazon",
           "microsoft",
           "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 5,
+        "prev": 11,
+        "labs": [
+          "openai",
+          "meta",
+          "mistral",
+          "cohere",
+          "tencent",
+          "amazon",
           "nvidia"
         ]
       },
