@@ -1769,10 +1769,10 @@
     "benefit": "Desktop users can see how full a session is before compaction and bring existing agent projects into Vibe."
   },
   "b3ec856821a0404d": {
-    "hash": "ede3f2eee55a",
-    "summary": "Cohere explains how Model Vault pairs confidential CPU and GPU execution, end-to-end encrypted request contents, and remote attestation.",
-    "benefit": "Security teams can check how Model Vault keeps request contents encrypted while a model runs.",
-    "category": "research"
+    "hash": "60838ef0d013",
+    "summary": "Cohere outlines building Cohere Model Vault for verifiable confidential AI inference.",
+    "benefit": "Teams needing confidential inference can learn how Cohere approaches verifiable Model Vault deployments.",
+    "category": "model"
   },
   "4b3ccd0a9d656ec9": {
     "hash": "933989d32dc6",
@@ -2846,6 +2846,138 @@
     "hash": "a53a687130ca",
     "summary": "NVIDIA shares three ways to speed MoE inference on DGX Spark, using Ling-3.0-flash profiling that showed decode was memory-bound at batch size 1.",
     "benefit": "Teams running MoE models on DGX Spark can apply NVIDIA’s memory-bound decode optimizations from the Ling-3.0-flash example.",
+    "category": "developer"
+  },
+  "34b0bf3f94c3851e": {
+    "hash": "5d65fec21494",
+    "summary": "Google DeepMind announced Gemini 4 Carbon as its next frontier model.",
+    "benefit": "Teams following Google DeepMind releases can track Carbon as the newly announced frontier model.",
+    "category": "model"
+  },
+  "3cfd7e486253f230": {
+    "hash": "071d2d5f160c",
+    "summary": "Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors.",
+    "benefit": "Legal teams can start from shared artifacts and tailor them with firm data and connectors.",
+    "category": "feature"
+  },
+  "2fc8e689e413caad": {
+    "hash": "f67e74e5573c",
+    "summary": "OpenAI describes how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows and expand contract analysis.",
+    "benefit": "Legal operations teams can see how Legora applies ChatGPT and Codex to contract work.",
+    "category": "feature"
+  },
+  "41c97fe8dc29ac4a": {
+    "hash": "f67e74e5573c",
+    "summary": "OpenAI describes how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows and expand contract analysis.",
+    "benefit": "Legal operations teams can see how Legora applies ChatGPT and Codex to contract work.",
+    "category": "feature"
+  },
+  "7a5fec0b961daf67": {
+    "hash": "85dd6a7246e5",
+    "summary": "Meta describes the next Meta Andromeda ads retrieval engine, co-designed across model, system, and GPU hardware to score ads at over one billion ads per second.",
+    "benefit": "Ads engineers can study how Meta Andromeda pairs near ranking-level quality with retrieval-scale throughput.",
+    "category": "model"
+  },
+  "75e2017ed4c5a2ec": {
+    "hash": "0ba1a89a5c3c",
+    "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+    "benefit": "Enterprise teams on ServiceNow can plan for OpenAI models and agents inside ServiceNow plus ChatGPT and Codex integrations.",
+    "category": "feature"
+  },
+  "0dc3cf0b7c98dcde": {
+    "hash": "8df5452d2a4a",
+    "summary": "OpenAI explores how AI might enter the org chart beneath, beside, and between people.",
+    "benefit": "Leaders planning AI adoption can use the piece to think about where AI sits relative to existing roles.",
+    "category": "feature"
+  },
+  "cba4e4e6bf9fd0d5": {
+    "hash": "e4e556ada7b7",
+    "summary": "Claude Enterprise adds smart reports, surveys, and pooled group budgets to spread Claude work across teams.",
+    "benefit": "Enterprise admins can roll out shared reporting, surveys, and pooled budgets after pilots in individual groups.",
+    "category": "feature"
+  },
+  "064f3e7c0304e7c8": {
+    "hash": "940af828a228",
+    "summary": "IDC integrated Claude into its Quanta platform and rolled Claude out across its own business.",
+    "benefit": "Market intelligence users can see Claude inside Quanta while IDC staff adopt Claude company-wide.",
+    "category": "feature"
+  },
+  "21f4761ac0bc4960": {
+    "hash": "023c722efa2a",
+    "summary": "AWS continues its Nova Act agentic QA series with Part 3 on scaling test automation across many teams and products.",
+    "benefit": "Platform teams running Nova Act QA can manage visibility as dozens of squads add shared test cases.",
+    "category": "feature"
+  },
+  "86db3b0a08ce88a7": {
+    "hash": "a63f3e9276d8",
+    "summary": "IBM Granite published LLMON-Benchmarks on Hugging Face.",
+    "benefit": "Researchers evaluating IBM Granite models can use the LLMON-Benchmarks resource on Hugging Face.",
+    "category": "model"
+  },
+  "c517821d0281c4fa": {
+    "hash": "75a8a2826f2c",
+    "summary": "Anthropic expanded AI for Science with 20 scientific foundations, institutions, and research groups worldwide.",
+    "benefit": "Science organizations in the new cohort can participate in Anthropic’s expanded AI for Science partnerships.",
+    "category": "research"
+  },
+  "902c8601d29e4236": {
+    "hash": "82c992391839",
+    "summary": "Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0) is generally available with faster startup and a consistent command structure.",
+    "benefit": "Agent builders can manage AgentCore resources from the terminal using the GA 1.0 CLI workflow.",
+    "category": "developer"
+  },
+  "f44dc5581c0448e6": {
+    "hash": "cb8eaf9cda6a",
+    "summary": "NVIDIA tagged TensorRT-LLM v1.4.0rc2.post1 with cherry-picked release commits on GitHub.",
+    "benefit": "TensorRT-LLM users installing from GitHub tags can pick up the v1.4.0rc2.post1 release line.",
+    "category": "developer"
+  },
+  "aa016b76770ef942": {
+    "hash": "50f93f792019",
+    "summary": "TensorRT-LLM v1.4.0rc2.post1 publishes Python wheels while container images stay on 1.4.0rc2, fixing PyPI and Boost mirror issues.",
+    "benefit": "Python installs can use wheel 1.4.0rc2.post1 without the Git dependency that blocked PyPI.",
+    "category": "developer"
+  },
+  "774e82c1deb5f6c3": {
+    "hash": "a541927eb8b9",
+    "summary": "Docling v2.144.0 adds PDF heading hierarchy options, OCR for broken text layers, and lazy torch import in the ASR decoder.",
+    "benefit": "Docling users parsing PDFs or running ASR get better headings, OCR fallback, and lighter ASR imports.",
+    "category": "developer"
+  },
+  "76c843e9c8ad82e7": {
+    "hash": "f1b584e2e1f2",
+    "summary": "MiniMax open-sourced mcode-stack with the workflows and skills its Code team uses to build MiniMax Code.",
+    "benefit": "MiniMax Code users can install the same open workflows and skills the team publishes.",
+    "category": "developer"
+  },
+  "b8bfa4647f108004": {
+    "hash": "b618a938834d",
+    "summary": "AWS describes building an agentic AI platform on Amazon Bedrock AgentCore for secure multi-team agent operations.",
+    "benefit": "Platform teams can align ownership, AgentOps boundaries, and cost visibility before scaling agents on AgentCore.",
+    "category": "developer"
+  },
+  "01e886d058f161fb": {
+    "hash": "491d0291fed9",
+    "summary": "Tencent Hunyuan released HyperLogic, a hard Chinese logical reasoning benchmark with execution-derived answers.",
+    "benefit": "Researchers benchmarking Chinese logical reasoning can use HyperLogic’s Seed, Base, and Hard splits.",
+    "category": "research"
+  },
+  "710957a61d2f99e9": {
+    "hash": "284408203588",
+    "summary": "Qwen Code v0.26.3 adds MCP App UI cards, persistent workflow mode, and smaller tool results in the CLI.",
+    "benefit": "Qwen Code users can enable workflow mode and render MCP App cards in supported clients on v0.26.3.",
+    "category": "developer"
+  },
+  "7cf81cfa5a040451": {
+    "hash": "438c96ecb826",
+    "summary": "Qwen Code desktop v0.26.3 adds managed session permission rules, a shared agent loop experiment, and OpenTUI cancellation fixes.",
+    "benefit": "Desktop Qwen Code users get Auto approval rules and improved cancellation behavior in v0.26.3.",
+    "category": "developer"
+  },
+  "9ffc5f7988fc5749": {
+    "hash": "c7d8045a5fcc",
+    "summary": "Qwen Code sdk-typescript v0.1.25 bundles CLI version 0.26.3 built from the same source as the SDK.",
+    "benefit": "TypeScript SDK users receive matching Qwen Code CLI 0.26.3 in the v0.1.25 release.",
     "category": "developer"
   }
 }

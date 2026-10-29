@@ -165,11 +165,6 @@
     "unique": "It targets calibration and decision models, including vLLM, rather than open-ended chat.",
     "benefit": "Developers can get typed decisions and probabilities from an existing LLM without a training run."
   },
-  "966cf788578296ef": {
-    "summary": "Index-Translate is a multilingual translation model family.",
-    "unique": "It is a family of models for machine translation rather than a single bilingual pair.",
-    "benefit": "Developers who need translation models can start from this multilingual family."
-  },
   "a003d22870c20a96": {
     "summary": "golive-skill takes an agent-built product live: hosting, database, domain, email, and payments on your own accounts. It is an open-source agent skill plus a zero-dependency Node CLI.",
     "unique": "The flow is detect, plan, approve, apply, verify, with no GoLive account, backend, or telemetry.",
@@ -179,11 +174,6 @@
     "summary": "oil-ui pushes AI UI design by exploring distinct directions, comparing them side by side, and refining against real screenshots.",
     "unique": "It is an agent skill for Claude Code and Codex aimed at UI and UX design.",
     "benefit": "Designers can compare several AI directions against actual screenshots before committing."
-  },
-  "0d5cfc87e4dcad62": {
-    "summary": "ai-agent-handbook is a practical guide to building enterprise AI agents across their full lifecycle.",
-    "unique": "It covers the lifecycle of an enterprise agent, not a single library or demo.",
-    "benefit": "Teams standing up enterprise agents can use it as a guide from start to finish."
   },
   "569e9268232dd0bc": {
     "summary": "WeChatBridge is a native macOS tool that forwards WeChat chat history to an AI agent and to Obsidian in one step.",
@@ -209,11 +199,6 @@
     "summary": "OneTake makes motion films as one continuous camera, where every beat grows out of the one before.",
     "unique": "Continuity is measured by an oracle, for product launch films and feature demos made with a coding agent.",
     "benefit": "Teams can produce launch videos that never cut from one slide to the next."
-  },
-  "3ebc0c14fb649852": {
-    "summary": "ARTEX-KO is the Korean edition of ARTEX, an AI autonomous penetration-testing framework.",
-    "unique": "It tracks upstream Autumn-27/ARTEX and is released under AGPL-3.0.",
-    "benefit": "Korean-speaking security teams can run that autonomous pentest framework in a localized edition."
   },
   "43a80d05f3eaea1f": {
     "summary": "JevChat-Windows sits beside a chat window, reads the other person's message with local offline OCR, and suggests replies.",
@@ -794,5 +779,17 @@
     "summary": "Helix Foundry connects company data, drafts an ontology with an agent, and loads it into HelixDB as one explorable graph.",
     "unique": "It pairs automated ontology drafting with HelixDB graph loading from integrated sources.",
     "benefit": "Data teams can turn scattered sources into a queryable knowledge graph without hand-building the ontology first."
+  },
+  "3bf2dbbd24685307": {
+    "hash": "41bfa6d0",
+    "summary": "Dossier is a self-hosted job search app that writes tailored resumes and cover letters from your profile.",
+    "unique": "It runs self-hosted and generates application documents from one profile.",
+    "benefit": "Job seekers who want local control can host Dossier and auto-tailor resumes and cover letters."
+  },
+  "d0b73b86cb1a287f": {
+    "hash": "17f06c01",
+    "summary": "mcd-budget-meal is a McDonald's MCP skill for real pricing, budget comparisons, and meal swaps.",
+    "unique": "It uses a McDonald's MCP integration for budget meal planning rather than generic nutrition APIs.",
+    "benefit": "Developers experimenting with MCP meal skills can compare McDonald's budgets with real menu pricing."
   }
 }

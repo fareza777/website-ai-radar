@@ -1,25 +1,20 @@
 [
   {
     "date": "2026-10-29",
-    "generatedAt": "2026-10-28T20:21:14.926Z",
+    "generatedAt": "2026-10-29T00:04:43.850Z",
     "stats": {
-      "updates24h": 20,
-      "labsActive24h": 9,
-      "updates7d": 147,
-      "newModels7d": 43
+      "updates24h": 16,
+      "labsActive24h": 8,
+      "updates7d": 133,
+      "newModels7d": 40
     },
     "source": "template",
-    "headline": "20 updates from 9 AI labs in the last 24 hours · 43 model releases this week.",
+    "headline": "16 updates from 8 AI labs in the last 24 hours · 40 model releases this week.",
     "bullets": [
       {
         "text": "Google DeepMind: Gemini 4 Carbon: Our next frontier model",
         "itemId": "34b0bf3f94c3851e",
         "lab": "google-deepmind"
-      },
-      {
-        "text": "Anthropic: Introducing artifacts for legal work",
-        "itemId": "3cfd7e486253f230",
-        "lab": "anthropic"
       },
       {
         "text": "Meta AI: Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
@@ -37,9 +32,14 @@
         "lab": "openai"
       },
       {
-        "text": "Anthropic: Smart reports, surveys, and pooled group budgets for Claude Enterprise",
-        "itemId": "cba4e4e6bf9fd0d5",
-        "lab": "anthropic"
+        "text": "Amazon: Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
+        "itemId": "21f4761ac0bc4960",
+        "lab": "amazon"
+      },
+      {
+        "text": "IBM: LLMON-Benchmarks",
+        "itemId": "86db3b0a08ce88a7",
+        "lab": "ibm"
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T20:21:14.926Z",
+  "generatedAt": "2026-10-29T00:04:43.850Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -9,13 +9,14 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 13,
+      "press": 17,
       "outlets": [
         "Mashable",
         "Investing.com",
         "tech-insider.org",
         "Ars Technica",
         "Seeking Alpha",
+        "Android Authority",
         "Constellation Research",
         "LinkedIn",
         "shattered.io",
@@ -24,19 +25,46 @@
         "Reuters",
         "Wichita Eagle",
         "The Verge",
+        "SiliconANGLE",
         "VentureBeat",
         "Anadolu Ajansı",
         "Unite.AI",
-        "The Decoder"
+        "The Decoder",
+        "R&D World",
+        "Interesting Engineering",
+        "Fello AI",
+        "CNET"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
-      "lastAt": "2026-10-28T19:21:14.000Z",
+      "lastAt": "2026-10-28T20:51:37.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
       "lead": {
         "kind": "official",
         "id": "34b0bf3f94c3851e"
       },
       "importance": 100
+    },
+    {
+      "id": "1758535ac6be3e6b",
+      "title": "Introducing GPT-6.1 Terra",
+      "entity": "GPT 6.1 Terra",
+      "labs": [
+        "openai",
+        "amazon"
+      ],
+      "official": 2,
+      "press": 1,
+      "outlets": [
+        "9to5Mac"
+      ],
+      "firstAt": "2026-10-26T00:00:00.000Z",
+      "lastAt": "2026-10-26T19:21:00.000Z",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "lead": {
+        "kind": "official",
+        "id": "1758535ac6be3e6b"
+      },
+      "importance": 92
     },
     {
       "id": "c6099fc8919f3d54",
@@ -59,26 +87,6 @@
         "id": "c6099fc8919f3d54"
       },
       "importance": 92
-    },
-    {
-      "id": "1758535ac6be3e6b",
-      "title": "Introducing GPT-6.1 Terra",
-      "entity": "GPT 6.1 Terra",
-      "labs": [
-        "openai",
-        "amazon"
-      ],
-      "official": 2,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-10-26T00:00:00.000Z",
-      "lastAt": "2026-10-26T18:27:00.000Z",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "lead": {
-        "kind": "official",
-        "id": "1758535ac6be3e6b"
-      },
-      "importance": 90
     },
     {
       "id": "40609a70c2f2c94d",
@@ -184,6 +192,42 @@
       "lead": {
         "kind": "press",
         "id": "google-deepmind:cf5a1652bc43d7"
+      },
+      "importance": 65
+    },
+    {
+      "id": "qwen:3da845eb6ca838",
+      "title": "Cohere says Alibaba's Qwen model tried to send data to a Beijing server during a security test",
+      "entity": null,
+      "labs": [
+        "qwen"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "www.trendingtopics.eu",
+        "TechCrunch",
+        "Technology Org",
+        "Cyber Magazine",
+        "Startup Fortune",
+        "Analytics India Magazine",
+        "Crypto Briefing",
+        "Mezha.net",
+        "BigGo Finance",
+        "AI Insider",
+        "디지털투데이",
+        "The Globe and Mail",
+        "Tech Wire Asia",
+        "Notebookcheck",
+        "Computing UK",
+        "International Business Times UK"
+      ],
+      "firstAt": "2026-10-26T20:56:35.000Z",
+      "lastAt": "2026-10-26T22:15:59.000Z",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IMzZiMjhVdkowa1loZzdrQVUxZlZqX3AxRjJuT3g0YU1rTGE4RzJQN2xOSDdUQjlrRm1EMmxnaW1JMVd5aFVmcTRnNmR5eGdPNEtUUHpOb2ZoMkE1bnRFYlBEVGdCeWdLRm1sTlJiX2JMT1l0Z2c?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:3da845eb6ca838"
       },
       "importance": 65
     },
@@ -448,13 +492,35 @@
         "id": "anthropic:5ded18ae0cbcf5"
       },
       "importance": 54
+    },
+    {
+      "id": "mistral:ed0f6d4e9a99cc",
+      "title": "Mistral AI - 2026 Funding Rounds & List of Investors",
+      "entity": null,
+      "labs": [
+        "mistral",
+        "bytedance"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Tracxn"
+      ],
+      "firstAt": "2026-10-22T16:16:12.000Z",
+      "lastAt": "2026-10-23T20:57:29.000Z",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQzRZMkdPOS1TMGVGZ0xGQUE5ZGJnSVJrLU5WUjhlNFd2Zk4tTUJMVTYzelRocW1fOEh6TlBOZ1NjN2NBaGdya2VWNEx2OWg3ZTNNcC1BMXpYcWV1Nl9nTFM3QkdydkRoYzRVWk9qYlVVa1Z3dlE5TnVMZE0zUkt6dUl0OTJwcGpVazgtRTBBVWxNbHB2VVpJMGQ2NmN1WFlCcndRUmNhc0FwTDl4OXc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:ed0f6d4e9a99cc"
+      },
+      "importance": 52
     }
   ],
   "trending": {
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 15,
+        "count": 19,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -463,13 +529,13 @@
       {
         "name": "Gemini 4 Argon",
         "count": 13,
-        "prev": 26,
+        "prev": 25,
         "labs": []
       },
       {
         "name": "Qwen 3.8",
         "count": 8,
-        "prev": 2,
+        "prev": 1,
         "labs": [
           "amazon"
         ]
@@ -486,6 +552,15 @@
         "prev": 0,
         "labs": [
           "openai"
+        ]
+      },
+      {
+        "name": "GPT 6.1 Terra",
+        "count": 4,
+        "prev": 0,
+        "labs": [
+          "openai",
+          "amazon"
         ]
       },
       {
@@ -511,15 +586,6 @@
         "labs": []
       },
       {
-        "name": "GPT 6.1 Terra",
-        "count": 3,
-        "prev": 0,
-        "labs": [
-          "openai",
-          "amazon"
-        ]
-      },
-      {
         "name": "Nemotron 3.5 Transcribe",
         "count": 3,
         "prev": 0,
@@ -542,40 +608,45 @@
         "count": 3,
         "prev": 1,
         "labs": []
+      },
+      {
+        "name": "Nemotron 3.5 Bolt",
+        "count": 3,
+        "prev": 2,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "coding",
-        "count": 42,
-        "prev": 38,
+        "count": 38,
+        "prev": 43,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "qwen",
-          "microsoft",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "agents",
-        "count": 36,
-        "prev": 53,
+        "count": 30,
+        "prev": 60,
         "labs": [
           "anthropic",
-          "openai",
           "meta",
+          "openai",
           "mistral",
-          "cohere",
           "qwen",
-          "microsoft",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -585,12 +656,12 @@
         "count": 10,
         "prev": 10,
         "labs": [
-          "deepseek",
           "google-deepmind",
+          "deepseek",
           "openai",
           "minimax",
-          "tencent",
           "baidu",
+          "tencent",
           "amazon",
           "ibm",
           "nvidia"
@@ -598,7 +669,7 @@
       },
       {
         "name": "safety",
-        "count": 8,
+        "count": 7,
         "prev": 8,
         "labs": [
           "anthropic",
@@ -623,6 +694,20 @@
         ]
       },
       {
+        "name": "reasoning",
+        "count": 5,
+        "prev": 11,
+        "labs": [
+          "meta",
+          "openai",
+          "mistral",
+          "cohere",
+          "tencent",
+          "amazon",
+          "nvidia"
+        ]
+      },
+      {
         "name": "open-source",
         "count": 5,
         "prev": 8,
@@ -630,23 +715,9 @@
           "openai",
           "minimax",
           "cohere",
+          "amazon",
           "microsoft",
-          "amazon",
           "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 5,
-        "prev": 11,
-        "labs": [
-          "openai",
-          "meta",
-          "mistral",
-          "cohere",
-          "tencent",
-          "amazon",
           "nvidia"
         ]
       },
@@ -713,18 +784,6 @@
       ],
       "reports": 2,
       "at": "2026-10-26T07:19:38.000Z"
-    },
-    {
-      "id": "nvidia:ff8b625eb18e35",
-      "lab": "nvidia",
-      "title": "Honeywell Technologies Launches Forge Plant Cognition with Dangote, Built with NVIDIA AI and Dell Technologies Capabilities",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTHlKNzlwanZWbzdEN2VxNmxPaXBwa1NXZTYyRTJXLW5iclVJNFlVYjBfSlBkZzY5UVdudGlZNVphbW1vYjZDVm1ubTZsX2w4dmNielFDbGtyVW9OQ2NPRVFEZXhVOVRaS2EwZW9nRTltbXBJbFVfTHNQUnlyY0R0bnAtZVp4ZldpcDlhR1Z5b24xX19zbXFtS3FWU2VHZWJqUTBsVk1iMGFBNXRDdkdxQkFMMWZtMnpmQWZhdFI5TzlUMkZzbTEtZlJvb2RPZXhsTC1MYWhEeDlfbVhHZHNSNFBCZExoRUlaTkhPUE1FY0VkNHl5R1NrMA?oc=5",
-      "outlets": [
-        "Yahoo Finance Singapore",
-        "Honeywell"
-      ],
-      "reports": 2,
-      "at": "2026-10-25T22:00:00.000Z"
     }
   ]
 }
