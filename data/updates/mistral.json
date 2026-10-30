@@ -1,5 +1,32 @@
 [
   {
+    "id": "ff868911cde047e6",
+    "lab": "mistral",
+    "title": "Mistral Vibe v3.0.4",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v3.0.4",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T11:44:18.000Z",
+    "firstSeenAt": "2026-10-30T18:04:10.825Z",
+    "updatedAt": "2026-10-30T11:44:18.000Z",
+    "excerpt": "Added /release-notes (alias /whatsnew ) browses the release notes of every Vibe version in a searchable, full-screen view. Provider option preserve_api_base = true keeps a custom api_base that /whoami would otherwise overwrite (split-horizon / proxied deployments) VIBE_TERMINAL_KEY names the terminal --continue uses; an empty value makes it ignore the terminal Setup warns when an API key set in your shell overrides…",
+    "summary": "Mistral AI shipped Mistral Vibe v3.0.4 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 25,
+    "contentHash": "a2f5195028c4",
+    "meta": {
+      "version": "v3.0.4",
+      "semver": "patch",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "8ccea7e89b703086",
     "lab": "mistral",
     "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
@@ -299,7 +326,7 @@
     "importance": 70,
     "contentHash": "fd4a807fe29b",
     "meta": {
-      "likes": 76,
+      "likes": 77,
       "downloads": 8139,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
@@ -330,7 +357,7 @@
     "importance": 76,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 448,
+      "likes": 454,
       "downloads": 16339,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
@@ -420,7 +447,7 @@
     "importance": 69,
     "contentHash": "11354caaa84e",
     "meta": {
-      "likes": 51,
+      "likes": 52,
       "downloads": 2316,
       "repo": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
       "pipeline": "automatic-speech-recognition"
@@ -504,7 +531,7 @@
     "importance": 80,
     "contentHash": "c4578af56c8a",
     "meta": {
-      "likes": 1268,
+      "likes": 1321,
       "downloads": 1239,
       "repo": "mistralai/Mistral-Large-4-1T-A52B",
       "pipeline": "image-text-to-text",

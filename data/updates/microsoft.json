@@ -1,5 +1,57 @@
 [
   {
+    "id": "c76597c7b3989257",
+    "lab": "microsoft",
+    "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+    "url": "https://microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
+    "sourceId": "msr-blog",
+    "sourceName": "Microsoft Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T13:05:28.000Z",
+    "firstSeenAt": "2026-10-30T18:04:10.825Z",
+    "updatedAt": "2026-10-30T13:05:28.000Z",
+    "excerpt": "At a glance Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. To resolve this tension, we built Industry Evaluation Data Generation Platform: full-scale synthetic enterprise environments grounded in publicly available real-world…",
+    "summary": "At a glance Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for…",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "3311370c5f92"
+  },
+  {
+    "id": "77771dabca627f40",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework python v1.24.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.24.0",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T11:25:14.000Z",
+    "firstSeenAt": "2026-10-30T18:04:10.825Z",
+    "updatedAt": "2026-10-30T11:25:14.000Z",
+    "excerpt": "Prepare Python 1.24.0 release for October 30 Prepare changes through 85f3fc6 (python-1.23.0..main) without tagging or publishing. Refresh this preparation after tomorrow's intended merges. Select 43 packages from the changelog: shipping fixes/features and Python 3.10 classifier removal. Core/root 1.24.0, OpenAI 1.18.0, and Foundry 1.16.0 add APIs; other released packages receive patch bumps. Alpha/beta stamps use…",
+    "summary": "Microsoft shipped Microsoft Agent Framework python v1.24.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "63742495cfa5",
+    "meta": {
+      "version": "1.24.0",
+      "semver": "minor",
+      "repo": "microsoft/agent-framework",
+      "package": "python"
+    }
+  },
+  {
     "id": "c1d5df7fdedb914f",
     "lab": "microsoft",
     "title": "Microsoft Research Focus – Edition #97",
@@ -1099,7 +1151,7 @@
     "importance": 69,
     "contentHash": "806cdab3e7ad",
     "meta": {
-      "likes": 265,
+      "likes": 266,
       "downloads": 2330,
       "repo": "microsoft/VibeVoice-ASR-Streaming-7B",
       "pipeline": "automatic-speech-recognition",

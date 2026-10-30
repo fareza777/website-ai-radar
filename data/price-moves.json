@@ -1,5 +1,60 @@
 [
   {
+    "id": "64a2f4c0a06bfdcc",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-10-30T18:04:10.825Z",
+    "field": "prompt",
+    "from": 0.0699,
+    "to": 0.08,
+    "change": 14.4
+  },
+  {
+    "id": "36243a7c1b7c4511",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-10-30T18:04:10.825Z",
+    "field": "completion",
+    "from": 1.4,
+    "to": 3.6,
+    "change": 157.1
+  },
+  {
+    "id": "947e077bd50d22df",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-10-30T18:04:10.825Z",
+    "field": "completion",
+    "from": 20,
+    "to": 15,
+    "change": -25
+  },
+  {
+    "id": "80d8a8cf5b5122d3",
+    "modelId": "qwen/qwen3.6-27b",
+    "name": "Qwen: Qwen3.6 27B",
+    "lab": "qwen",
+    "at": "2026-10-30T18:04:10.825Z",
+    "field": "prompt",
+    "from": 0.45,
+    "to": 0.32,
+    "change": -28.9
+  },
+  {
+    "id": "0057727a76d812f5",
+    "modelId": "qwen/qwen3.6-27b",
+    "name": "Qwen: Qwen3.6 27B",
+    "lab": "qwen",
+    "at": "2026-10-30T18:04:10.825Z",
+    "field": "completion",
+    "from": 2.7,
+    "to": 3.2,
+    "change": 18.5
+  },
+  {
     "id": "c248342780a3069c",
     "modelId": "mistralai/mistral-large-4-0",
     "name": "Mistral: Mistral Large 4",

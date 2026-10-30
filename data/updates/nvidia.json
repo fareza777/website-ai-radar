@@ -1,5 +1,75 @@
 [
   {
+    "id": "b5bd2734bcbd8d3c",
+    "lab": "nvidia",
+    "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+    "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T16:00:00.000Z",
+    "firstSeenAt": "2026-10-30T18:04:10.825Z",
+    "updatedAt": "2026-10-30T16:00:00.000Z",
+    "excerpt": "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces... Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces policies, along with optimization and observability tools for reliable execution. For production…",
+    "summary": "Building an autonomous agent requires a model, a harness, and domain-specific tools.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 60,
+    "contentHash": "1dd074ac8471"
+  },
+  {
+    "id": "a283ca869f875377",
+    "lab": "nvidia",
+    "title": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+    "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T15:01:36.000Z",
+    "firstSeenAt": "2026-10-30T18:04:10.825Z",
+    "updatedAt": "2026-10-30T15:01:36.000Z",
+    "excerpt": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments. It provides a robust, portable, and efficient data path... NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments. It provides a robust, portable, and efficient data path between NVIDIA GPUs and storage targets to increase bandwidth, minimize latency, and reduce CPU and…",
+    "summary": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 15,
+    "contentHash": "81f784469a37"
+  },
+  {
+    "id": "691aeb39c4445330",
+    "lab": "nvidia",
+    "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+    "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T15:00:10.000Z",
+    "firstSeenAt": "2026-10-30T18:04:10.825Z",
+    "updatedAt": "2026-10-30T15:00:10.000Z",
+    "excerpt": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents built by aliens. Some scientists have suggested that extraterrestrial civilizations…",
+    "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence…",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 50,
+    "contentHash": "2e3e4d715a23"
+  },
+  {
     "id": "f44dc5581c0448e6",
     "lab": "nvidia",
     "title": "TensorRT-LLM v1.4.0",
@@ -167,7 +237,7 @@
     "importance": 66,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 100,
+      "likes": 102,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -1357,7 +1427,7 @@
     "importance": 71,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 445,
+      "likes": 476,
       "downloads": 15980,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -1435,7 +1505,7 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 166,
+      "likes": 168,
       "downloads": 12511,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -1579,7 +1649,7 @@
     "importance": 63,
     "contentHash": "806c45ea6874",
     "meta": {
-      "likes": 36,
+      "likes": 37,
       "downloads": 7816,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
@@ -1628,10 +1698,10 @@
     "tags": [
       "4B"
     ],
-    "importance": 69,
+    "importance": 70,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 263,
+      "likes": 277,
       "downloads": 64263,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2635,7 +2705,7 @@
     "importance": 68,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 172,
+      "likes": 174,
       "downloads": 56636,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
@@ -2663,10 +2733,10 @@
       "0.6B",
       "audio"
     ],
-    "importance": 61,
+    "importance": 62,
     "contentHash": "6c63dced677a",
     "meta": {
-      "likes": 26,
+      "likes": 28,
       "downloads": 432,
       "repo": "nvidia/nemotron-labs-unified-asr-0.6b",
       "pipeline": "automatic-speech-recognition",

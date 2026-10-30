@@ -78,10 +78,10 @@
       "4B",
       "multimodal"
     ],
-    "importance": 65,
+    "importance": 66,
     "contentHash": "8a1d2c0f7679",
     "meta": {
-      "likes": 84,
+      "likes": 86,
       "downloads": 7306,
       "repo": "tencent/WeVisOne-VL-4B",
       "pipeline": "image-text-to-text",
@@ -113,7 +113,7 @@
     "importance": 64,
     "contentHash": "ee6717133fbc",
     "meta": {
-      "likes": 58,
+      "likes": 59,
       "downloads": 7921,
       "repo": "tencent/WeVisOne-VL-2B",
       "pipeline": "image-text-to-text",
@@ -175,7 +175,7 @@
     "importance": 63,
     "contentHash": "1f93e6955462",
     "meta": {
-      "likes": 42,
+      "likes": 44,
       "downloads": 407,
       "repo": "tencent/Hy-SimulMT-30B-A3B",
       "pipeline": "translation",
@@ -204,7 +204,7 @@
     "importance": 39,
     "contentHash": "e80aa80d5890",
     "meta": {
-      "stars": 180,
+      "stars": 182,
       "repo": "Tencent-Hunyuan/Hy-SimulMT",
       "language": "Python"
     }
@@ -231,7 +231,7 @@
     "importance": 67,
     "contentHash": "6e6b860ed408",
     "meta": {
-      "likes": 120,
+      "likes": 123,
       "downloads": 52249,
       "repo": "tencent/Hy-Nomas",
       "license": "apache-2.0"
@@ -296,7 +296,7 @@
     "importance": 45,
     "contentHash": "f84bba9f37d6",
     "meta": {
-      "stars": 1873,
+      "stars": 1879,
       "repo": "Tencent-Hunyuan/Hy-Memory",
       "language": "Python"
     }
@@ -325,7 +325,7 @@
     "importance": 70,
     "contentHash": "d780f7f18b0b",
     "meta": {
-      "likes": 319,
+      "likes": 320,
       "downloads": 5677,
       "repo": "tencent/Hy-Memory-30B-A3B",
       "pipeline": "text-generation",
@@ -385,7 +385,7 @@
     "importance": 31,
     "contentHash": "b6ed80950333",
     "meta": {
-      "stars": 8,
+      "stars": 9,
       "repo": "Tencent-Hunyuan/OmniCapBench",
       "language": "Python"
     }
@@ -443,7 +443,7 @@
     "importance": 67,
     "contentHash": "17ed023e66bd",
     "meta": {
-      "likes": 117,
+      "likes": 120,
       "downloads": 2940,
       "repo": "tencent/Youtu-Parsing-Omni",
       "pipeline": "image-text-to-text",
@@ -622,6 +622,35 @@
       "stars": 67,
       "repo": "Tencent-Hunyuan/Simple-Attention-Sparsification",
       "language": "Python"
+    }
+  },
+  {
+    "id": "9782550d0eb25cff",
+    "lab": "tencent",
+    "title": "WeVisCut",
+    "url": "https://huggingface.co/tencent/WeVisCut",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-09T03:19:00.000Z",
+    "firstSeenAt": "2026-10-30T18:04:10.825Z",
+    "updatedAt": "2026-09-09T03:19:00.000Z",
+    "excerpt": "any-to-any · license: other",
+    "summary": "Tencent published the WeVisCut model on Hugging Face for omni / any-to-any. License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 58,
+    "contentHash": "4221f3f97b3d",
+    "meta": {
+      "likes": 10,
+      "downloads": 4,
+      "repo": "tencent/WeVisCut",
+      "pipeline": "any-to-any",
+      "license": "other"
     }
   },
   {
