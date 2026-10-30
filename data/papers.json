@@ -18,7 +18,7 @@
     "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 147,
+    "upvotes": 149,
     "org": "thu-ml",
     "githubRepo": "https://github.com/JusperLee/Falcon",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
@@ -30,7 +30,7 @@
     "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 44,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/justin4ai/OmniShowcase",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
@@ -54,7 +54,7 @@
     "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; we call this…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 399,
+    "upvotes": 412,
     "org": "lins-lab",
     "githubRepo": "https://github.com/yihaohu0118/ChronoReplay",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -66,7 +66,7 @@
     "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 379,
+    "upvotes": 380,
     "org": "iquestlab",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
   },
@@ -88,7 +88,7 @@
     "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 149,
+    "upvotes": 151,
     "org": "uiuc-cs",
     "githubRepo": "https://github.com/hexuan21/MemoryTax",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -100,7 +100,7 @@
     "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 143,
+    "upvotes": 145,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -111,7 +111,7 @@
     "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. Our central design…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 117,
+    "upvotes": 124,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
@@ -124,7 +124,7 @@
     "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 112,
+    "upvotes": 120,
     "org": "ucsantabarbara",
     "githubRepo": "https://github.com/yepengliu/TTME",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -136,10 +136,21 @@
     "summary": "In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies. Retaining past interactions alone does not ensure that agents can infer habits and apply them…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 84,
+    "upvotes": 88,
     "org": "sjtu",
     "githubRepo": "https://github.com/LUMIA-Group/habit-bench",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
+  },
+  {
+    "id": "2610.36068",
+    "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+    "url": "https://huggingface.co/papers/2610.36068",
+    "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy…",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "submittedAt": "2026-10-28T00:00:00.000Z",
+    "upvotes": 86,
+    "org": "agibot-world",
+    "firstSeenAt": "2026-10-28T05:52:51.451Z"
   },
   {
     "id": "2610.37662",
@@ -154,24 +165,13 @@
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
-    "id": "2610.36068",
-    "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
-    "url": "https://huggingface.co/papers/2610.36068",
-    "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy…",
-    "publishedAt": "2026-10-26T00:00:00.000Z",
-    "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 81,
-    "org": "agibot-world",
-    "firstSeenAt": "2026-10-28T05:52:51.451Z"
-  },
-  {
     "id": "2610.37666",
     "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
     "url": "https://huggingface.co/papers/2610.37666",
     "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 53,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -183,7 +183,7 @@
     "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary representation of…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 50,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -194,7 +194,7 @@
     "summary": "Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style association, spatial control, and temporal consistency. We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content. At its core, GRNStyle builds on Generative Refinement Networks…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 49,
     "org": "xiaomi-research",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
   },
@@ -205,7 +205,7 @@
     "summary": "We propose Nemotron-Labs-Diffusion-Uni (NLD-Uni), a unified discrete diffusion large language model (DLLM) for visual understanding and generation tasks. Compared with prior unified diffusion models, NLD-Uni introduces two major innovations. First, we propose a unified cross-paradigm on-policy distillation (OPD) framework that successfully transfers the visual understanding ability of autoregressive VLMs and visual…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 26,
+    "upvotes": 31,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVlabs/Nemotron-Labs-Diffusion-Uni",
@@ -242,7 +242,7 @@
     "summary": "Omnimodal large language models (Omni-LLMs) are increasingly expected to assist users while observing continuous audiovisual streams. However, existing evaluations provide limited insight into how reliably these models connect stream evidence and user needs to timely, sustained interventions. We introduce Omni-InteractScope, a benchmark of 1,479 human-annotated, cross-reviewed interactions with 1,790 temporal…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 14,
+    "upvotes": 15,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/YinsongYan/Omni-InteractScope",
@@ -255,7 +255,7 @@
     "summary": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with three ingredients: Decoupled Horizon Forecasting (DHF), which separates prediction tokens from the…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 10,
+    "upvotes": 11,
     "org": "mistralai",
     "lab": "mistral",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -555,7 +555,7 @@
     "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 39,
+    "upvotes": 40,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"

@@ -11,8 +11,8 @@
     "verified": true,
     "publishedAt": "2026-10-29T17:44:31.000Z",
     "firstSeenAt": "2026-10-29T18:32:11.922Z",
-    "updatedAt": "2026-10-29T17:44:31.000Z",
-    "excerpt": "Release 0.166.0",
+    "updatedAt": "2026-10-30T01:07:35.891Z",
+    "excerpt": "New Features Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts. ( #57221 , #57222 , #57223 , #57224 ) Rendered Markdown consistently in async questions, choices, answers, and transcript replies. ( #57259 , #57292 ) Added GPT-6.1 Terra to the bundled, Vertex AI, and Amazon Bedrock model catalogs. ( #57293 ) Added codex queue --resume to resume…",
     "summary": "OpenAI shipped Codex CLI rust v0.166.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
@@ -21,7 +21,7 @@
       "coding"
     ],
     "importance": 45,
-    "contentHash": "0f723acc56d5",
+    "contentHash": "655c6bbd47b8",
     "meta": {
       "version": "v0.166.0",
       "semver": "minor",

@@ -1,5 +1,118 @@
 [
   {
+    "id": "3fa519422b2c3b84",
+    "lab": "amazon",
+    "title": "How the UK Amazon Quick User Group grew in 2026",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T20:16:40.000Z",
+    "firstSeenAt": "2026-10-30T01:07:35.891Z",
+    "updatedAt": "2026-10-29T20:16:40.000Z",
+    "excerpt": "The Amazon Quick User Group – United Kingdom is a community of Amazon Quick users in the United Kingdom who meet quarterly to exchange knowledge, share best practices, learn through hands-on sessions, and discuss their experiences using the service. These user groups function as collaborative forums where members learn, connect, and innovate together. Whether you’re already using Amazon Quick or just getting…",
+    "summary": "The Amazon Quick User Group – United Kingdom is a community of Amazon Quick users in the United Kingdom who meet quarterly to exchange knowledge, share best practices, learn through hands-on sessions, and discuss their…",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "95a7f0f0961f"
+  },
+  {
+    "id": "43da601559f4699b",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-cli v0.2.3",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.2.3",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T19:02:07.000Z",
+    "firstSeenAt": "2026-10-30T01:07:35.891Z",
+    "updatedAt": "2026-10-29T19:02:07.000Z",
+    "excerpt": "harness-cli/v0.2.3 Auto-drafted from commits in harness-cli/v0.2.2..harness-cli/v0.2.3 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(sdk): add structured output attempt limits ( #4926 ) ( 9cca7b2 ) feat(stop): use agent.cancel() to stop the event loop (TypeScript) ( #4834 ) ( 0334ab3 )…",
+    "summary": "Amazon shipped Strands Agents SDK harness-cli v0.2.3 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 20,
+    "contentHash": "8d46a7a4efb5",
+    "meta": {
+      "version": "v0.2.3",
+      "semver": "patch",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-cli"
+    }
+  },
+  {
+    "id": "74161e994934fb76",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-typescript v0.3.2",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.3.2",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T19:01:53.000Z",
+    "firstSeenAt": "2026-10-30T01:07:35.891Z",
+    "updatedAt": "2026-10-29T19:01:53.000Z",
+    "excerpt": "harness-typescript/v0.3.2 Auto-drafted from commits in harness-typescript/v0.3.1..harness-typescript/v0.3.2 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(sdk): add structured output attempt limits ( #4926 ) ( 9cca7b2 ) feat(stop): use agent.cancel() to stop the event loop (TypeScript) (…",
+    "summary": "Amazon shipped Strands Agents SDK harness-typescript v0.3.2 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 20,
+    "contentHash": "1da9ba68c50f",
+    "meta": {
+      "version": "v0.3.2",
+      "semver": "patch",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-typescript"
+    }
+  },
+  {
+    "id": "160037325de80351",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-python v0.3.3",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.3.3",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T19:01:16.000Z",
+    "firstSeenAt": "2026-10-30T01:07:35.891Z",
+    "updatedAt": "2026-10-29T19:01:16.000Z",
+    "excerpt": "harness-python/v0.3.3 Auto-drafted from commits in harness-python/v0.3.2..harness-python/v0.3.3 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(sdk): add structured output attempt limits ( #4926 ) ( 9cca7b2 ) feat(stop): use agent.cancel() to stop the event loop (TypeScript) ( #4834 ) (…",
+    "summary": "Amazon shipped Strands Agents SDK harness-python v0.3.3 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 20,
+    "contentHash": "05e10ca00533",
+    "meta": {
+      "version": "v0.3.3",
+      "semver": "patch",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-python"
+    }
+  },
+  {
     "id": "1fcf22f867e2d9da",
     "lab": "amazon",
     "title": "Building intent-driven UI testing with Amazon Nova Act",
@@ -90,6 +203,55 @@
     ],
     "importance": 30,
     "contentHash": "f21566098e90"
+  },
+  {
+    "id": "c2f075fe2f460941",
+    "lab": "amazon",
+    "title": "AWS Step Functions workflows now available as AI agent tools",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T08:00:00.000Z",
+    "firstSeenAt": "2026-10-30T01:07:35.891Z",
+    "updatedAt": "2026-10-29T08:00:00.000Z",
+    "excerpt": "You can now use your AWS Step Functions workflows as tools for AI agents through Amazon Bedrock AgentCore Gateway. Your agent decides when to run a workflow and what input to pass, and Step Functions runs each step exactly as you defined it. Agents can use your existing Standard and Express workflows as tools. AWS Step Functions is a visual workflow service capable of orchestrating over 220 AWS services to help…",
+    "summary": "You can now use your AWS Step Functions workflows as tools for AI agents through Amazon Bedrock AgentCore Gateway.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 65,
+    "contentHash": "3fd05cfb39f4"
+  },
+  {
+    "id": "954ff63a34f10211",
+    "lab": "amazon",
+    "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-29T08:00:00.000Z",
+    "firstSeenAt": "2026-10-30T01:07:35.891Z",
+    "updatedAt": "2026-10-29T08:00:00.000Z",
+    "excerpt": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start Amazon SageMaker AI training containers in seconds, cutting GPU idle time during image pulls by up to 90%, with no impact on training performance. Before a training or processing job can run, SageMaker AI downloads its…",
+    "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "coding",
+      "multimodal"
+    ],
+    "importance": 50,
+    "contentHash": "3bb8052a1110"
   },
   {
     "id": "902c8601d29e4236",
@@ -279,6 +441,28 @@
     "tags": [],
     "importance": 60,
     "contentHash": "aa1cd00dfa6c"
+  },
+  {
+    "id": "a6e85a09ab08a1b8",
+    "lab": "amazon",
+    "title": "Amazon Bedrock now offers Canada cross-Region inference for Claude Haiku 5.5",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-canada-cris",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T08:00:00.000Z",
+    "firstSeenAt": "2026-10-30T01:07:35.891Z",
+    "updatedAt": "2026-10-27T08:00:00.000Z",
+    "excerpt": "Amazon Bedrock now offers Canada cross-Region inference (CRIS) for Anthropic's Claude Haiku 5.5. Customers with strict data residency requirements can now keep inference processing entirely within Canada. Canada CRIS routes requests only between ca-central-1 (Canada Central) and ca-west-1 (Canada West, Calgary). This helps organizations in financial services, healthcare, the public sector, and other regulated…",
+    "summary": "Amazon Bedrock now offers Canada cross-Region inference (CRIS) for Anthropic's Claude Haiku 5.5.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 75,
+    "contentHash": "a720584d88a8"
   },
   {
     "id": "c7498dd5644029b2",
@@ -1522,7 +1706,7 @@
     "importance": 59,
     "contentHash": "f6b52138e9a2",
     "meta": {
-      "likes": 11,
+      "likes": 13,
       "downloads": 162,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"

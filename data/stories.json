@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-10-29T18:32:11.922Z",
+  "generatedAt": "2026-10-30T01:07:35.891Z",
   "stories": [
+    {
+      "id": "250e5d8f302445e7",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "openai",
+        "deepseek",
+        "moonshot"
+      ],
+      "official": 1,
+      "press": 6,
+      "outlets": [
+        "Reuters",
+        "shattered.io",
+        "Techzine Global",
+        "Times Of AI",
+        "Tekedia",
+        "TechGig",
+        "ET Enterprise AI",
+        "联合早报",
+        "Idaho Statesman",
+        "헤럴드경제",
+        "TOKENPOST",
+        "WinBuzzer"
+      ],
+      "firstAt": "2026-10-26T22:00:00.000Z",
+      "lastAt": "2026-10-29T21:05:34.000Z",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "lead": {
+        "kind": "official",
+        "id": "250e5d8f302445e7"
+      },
+      "importance": 100
+    },
     {
       "id": "34b0bf3f94c3851e",
       "title": "Gemini 4 Carbon: Our next frontier model",
@@ -9,14 +43,17 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 24,
+      "press": 23,
       "outlets": [
         "Mashable",
+        "Techzine Global",
+        "TestingCatalog AI News",
         "Investing.com",
         "tech-insider.org",
-        "Ars Technica",
+        "AI Magazine",
         "Seeking Alpha",
         "Android Authority",
+        "Ars Technica",
         "Constellation Research",
         "LinkedIn",
         "shattered.io",
@@ -28,60 +65,28 @@
         "SiliconANGLE",
         "Technology Org",
         "VentureBeat",
+        "Engadget",
         "Anadolu Ajansı",
         "Unite.AI",
-        "TestingCatalog AI News",
         "Wccftech",
         "The Decoder",
         "R&D World",
+        "The Next Web",
         "Interesting Engineering",
         "Fello AI",
         "CNET",
         "The Register",
-        "Techzine Global",
-        "Engadget",
-        "AI Magazine",
         "SC Media",
-        "The Hacker News"
+        "The Hacker News",
+        "SecurityWeek",
+        "Brave New Coin"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
-      "lastAt": "2026-10-29T13:42:00.000Z",
+      "lastAt": "2026-10-29T17:40:16.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
       "lead": {
         "kind": "official",
         "id": "34b0bf3f94c3851e"
-      },
-      "importance": 100
-    },
-    {
-      "id": "250e5d8f302445e7",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "openai",
-        "deepseek",
-        "moonshot"
-      ],
-      "official": 1,
-      "press": 4,
-      "outlets": [
-        "Reuters",
-        "Idaho Statesman",
-        "shattered.io",
-        "Techzine Global",
-        "Times Of AI",
-        "Tekedia",
-        "TechGig",
-        "ET Enterprise AI",
-        "联合早报",
-        "헤럴드경제"
-      ],
-      "firstAt": "2026-10-26T22:00:00.000Z",
-      "lastAt": "2026-10-29T10:50:01.000Z",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "lead": {
-        "kind": "official",
-        "id": "250e5d8f302445e7"
       },
       "importance": 100
     },
@@ -104,28 +109,6 @@
       "lead": {
         "kind": "official",
         "id": "1758535ac6be3e6b"
-      },
-      "importance": 92
-    },
-    {
-      "id": "c6099fc8919f3d54",
-      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
-      "entity": "GPT 6",
-      "labs": [
-        "microsoft",
-        "openai"
-      ],
-      "official": 1,
-      "press": 1,
-      "outlets": [
-        "Visual Studio Magazine"
-      ],
-      "firstAt": "2026-10-19T19:41:14.000Z",
-      "lastAt": "2026-10-23T00:00:00.000Z",
-      "url": "https://openai.com/index/anima",
-      "lead": {
-        "kind": "official",
-        "id": "c6099fc8919f3d54"
       },
       "importance": 92
     },
@@ -157,26 +140,6 @@
         "id": "191c89b31a66b523"
       },
       "importance": 81
-    },
-    {
-      "id": "ea83f0dd69c5142c",
-      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
-      "entity": null,
-      "labs": [
-        "amazon",
-        "anthropic"
-      ],
-      "official": 1,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-10-19T23:32:19.000Z",
-      "lastAt": "2026-10-19T23:32:19.000Z",
-      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
-      "lead": {
-        "kind": "official",
-        "id": "ea83f0dd69c5142c"
-      },
-      "importance": 70
     },
     {
       "id": "cohere:903f2bd3fa59a7",
@@ -281,6 +244,34 @@
       "importance": 61
     },
     {
+      "id": "mistral:6f7d89d8ad3ee2",
+      "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
+      "entity": "Mistral Large 4",
+      "labs": [
+        "mistral"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "ActuIA",
+        "Martin Cid Magazine",
+        "Techzine Global",
+        "OrcaRouter",
+        "shattered.io",
+        "www.trendingtopics.eu",
+        "FindArticles",
+        "WinBuzzer"
+      ],
+      "firstAt": "2026-10-28T21:20:39.000Z",
+      "lastAt": "2026-10-29T22:26:34.000Z",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:6f7d89d8ad3ee2"
+      },
+      "importance": 60
+    },
+    {
       "id": "685f0df653a9c59c",
       "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
       "entity": null,
@@ -329,30 +320,55 @@
       "importance": 60
     },
     {
-      "id": "qwen:41937276a19072",
+      "id": "cohere:11779f23f98d5f",
       "title": "Qwen3.8-Flash-Next Tried a Beijing Upload, Cohere Says",
       "entity": "Qwen 3.8 Flash",
       "labs": [
-        "qwen",
-        "cohere"
+        "cohere",
+        "qwen"
       ],
       "official": 0,
-      "press": 5,
+      "press": 4,
       "outlets": [
-        "tech-insider.org",
         "Pasquale Pillitteri",
+        "tech-insider.org",
         "NewsBytes",
         "NewsCord",
         "LatestLY"
       ],
       "firstAt": "2026-10-27T02:01:21.000Z",
-      "lastAt": "2026-10-27T08:17:35.000Z",
+      "lastAt": "2026-10-27T06:07:36.000Z",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkVobkxZWjdCNWQ0LThHTnVObmJkZkJMWVJoVDZvUF9nX2lQMXgtYUVwLWpVeDV1dEYwb28zYlpEdUM0Q3cxZFpoUWEwSm56VXNpVUZELXpuRGFUay1tNnN2dG9tUEJ6d3RCNkhfUkNhNXFIbzBTUTFaSkRBcE9WN25GMl9CcjEtTGc?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:41937276a19072"
+        "id": "cohere:11779f23f98d5f"
       },
       "importance": 58
+    },
+    {
+      "id": "nvidia:05e07feafa99ca",
+      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
+      "entity": "Nemotron 3.5 Transcribe",
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "shattered.io",
+        "SQ Magazine",
+        "The Decoder",
+        "TradingView",
+        "The Next Web"
+      ],
+      "firstAt": "2026-10-27T10:01:39.000Z",
+      "lastAt": "2026-10-28T16:49:26.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:05e07feafa99ca"
+      },
+      "importance": 57
     },
     {
       "id": "nvidia:1bf067743e1fb3",
@@ -405,54 +421,6 @@
       "importance": 57
     },
     {
-      "id": "mistral:168bb87059e10b",
-      "title": "Mistral Large 4 is free to download, and it fits on one $22,299 Mac",
-      "entity": "Mistral Large 4",
-      "labs": [
-        "mistral"
-      ],
-      "official": 0,
-      "press": 4,
-      "outlets": [
-        "Martin Cid Magazine",
-        "Techzine Global",
-        "OrcaRouter",
-        "shattered.io"
-      ],
-      "firstAt": "2026-10-29T15:10:44.000Z",
-      "lastAt": "2026-10-29T16:30:56.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX0dnUVZOUmRWd1Vwdm9MdHE1Y1lyS2lWdUN3bS10R2Q1NXFGSGljM2JpQmJVNjFXX3laYVdjMzMyNk96TnJtR0MwQWFnbklzTXV4X3B5bWpNR2RCMGJMdjEzRTlNY3lvWHpUSGhHNFlGUEtTVTNHbk5VYlEzeEF4bi1vN2V3dlJHVFNRVlg4VWZWbDQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "mistral:168bb87059e10b"
-      },
-      "importance": 56
-    },
-    {
-      "id": "nvidia:05e07feafa99ca",
-      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
-      "entity": "Nemotron 3.5 Transcribe",
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 3,
-      "outlets": [
-        "shattered.io",
-        "SQ Magazine",
-        "The Decoder",
-        "TradingView"
-      ],
-      "firstAt": "2026-10-27T10:01:39.000Z",
-      "lastAt": "2026-10-28T16:39:10.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:05e07feafa99ca"
-      },
-      "importance": 56
-    },
-    {
       "id": "anthropic:5ded18ae0cbcf5",
       "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
       "entity": "Claude Opus 5.5",
@@ -502,25 +470,25 @@
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 28,
+        "count": 29,
         "prev": 0,
         "labs": [
           "google-deepmind"
         ]
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 11,
-        "prev": 23,
-        "labs": []
-      },
-      {
         "name": "GPT 6 Astra",
-        "count": 8,
+        "count": 11,
         "prev": 0,
         "labs": [
           "openai"
         ]
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "count": 10,
+        "prev": 23,
+        "labs": []
       },
       {
         "name": "Qwen 3.8",
@@ -529,6 +497,12 @@
         "labs": [
           "amazon"
         ]
+      },
+      {
+        "name": "Mistral Large 4",
+        "count": 7,
+        "prev": 3,
+        "labs": []
       },
       {
         "name": "GPT 6.1 Terra",
@@ -546,22 +520,8 @@
         "labs": []
       },
       {
-        "name": "GPT 6",
-        "count": 4,
-        "prev": 1,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
-        "name": "Mistral Large 4",
-        "count": 4,
-        "prev": 4,
-        "labs": []
-      },
-      {
         "name": "Nemotron 3.5 Transcribe",
-        "count": 3,
+        "count": 4,
         "prev": 0,
         "labs": []
       },
@@ -580,6 +540,14 @@
         ]
       },
       {
+        "name": "GPT 6",
+        "count": 3,
+        "prev": 2,
+        "labs": [
+          "openai"
+        ]
+      },
+      {
         "name": "Claude Opus 5.5",
         "count": 3,
         "prev": 3,
@@ -589,18 +557,18 @@
     "topics": [
       {
         "name": "coding",
-        "count": 36,
-        "prev": 45,
+        "count": 35,
+        "prev": 42,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "openai",
           "qwen",
           "mistral",
-          "cohere",
           "minimax",
-          "amazon",
+          "openai",
+          "cohere",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -608,15 +576,15 @@
       {
         "name": "agents",
         "count": 30,
-        "prev": 56,
+        "prev": 50,
         "labs": [
           "anthropic",
-          "openai",
           "qwen",
           "meta",
           "mistral",
-          "amazon",
+          "openai",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -624,15 +592,15 @@
       {
         "name": "multimodal",
         "count": 10,
-        "prev": 10,
+        "prev": 11,
         "labs": [
           "google-deepmind",
           "deepseek",
-          "openai",
           "mistral",
           "minimax",
-          "tencent",
+          "openai",
           "baidu",
+          "tencent",
           "amazon",
           "ibm",
           "nvidia"
@@ -640,41 +608,26 @@
       },
       {
         "name": "safety",
-        "count": 9,
-        "prev": 7,
+        "count": 7,
+        "prev": 9,
         "labs": [
-          "xai",
           "anthropic",
-          "openai",
+          "xai",
           "mistral",
+          "openai",
           "amazon",
           "nvidia"
         ]
       },
       {
         "name": "audio",
-        "count": 5,
-        "prev": 6,
+        "count": 4,
+        "prev": 7,
         "labs": [
           "google-deepmind",
-          "openai",
           "mistral",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 4,
-        "prev": 9,
-        "labs": [
           "openai",
-          "mistral",
-          "cohere",
-          "minimax",
           "amazon",
-          "microsoft",
           "ibm",
           "nvidia"
         ]
@@ -682,24 +635,29 @@
       {
         "name": "reasoning",
         "count": 4,
-        "prev": 9,
+        "prev": 7,
         "labs": [
-          "openai",
           "meta",
           "mistral",
+          "openai",
           "cohere",
           "tencent",
           "amazon"
         ]
       },
       {
-        "name": "mcp",
-        "count": 2,
-        "prev": 5,
+        "name": "open-source",
+        "count": 4,
+        "prev": 9,
         "labs": [
-          "anthropic",
-          "qwen",
-          "amazon"
+          "mistral",
+          "minimax",
+          "openai",
+          "cohere",
+          "microsoft",
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -717,6 +675,55 @@
   },
   "unconfirmed": [
     {
+      "id": "mistral:79ea3dacafeba6",
+      "lab": "mistral",
+      "title": "Mistral AI publicly releases Large 4, targets cybersecurity users",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb3RNdmpuR3NIU0w0bUd0bDZNS1gtdUp1dkpLMlphSkZiQjJpZ29fQXUteXRkOG14cGxGdHpEM2RoeUZIWmNnTUFKaUx4MGxkU1JqcWJUT05ES3lOdG5ad3RHS0szc0lGQy1icnJIZGtaWEMxWVp0ZVc3NEJMUEFvWGFvSW95UC0xRmFKdmE3VjZYcWNYVFNWNlNKcHpWd1dwVngwY29oUXk2a2haY1BVQTgxMEFTQktCYVlqandKQ3p5Z04xSEJnRnNpWmYxcms?oc=5",
+      "outlets": [
+        "Reuters",
+        "TradingView",
+        "www.marketscreener.com"
+      ],
+      "reports": 3,
+      "at": "2026-10-29T14:00:00.000Z"
+    },
+    {
+      "id": "mistral:6f7d89d8ad3ee2",
+      "lab": "mistral",
+      "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
+      "outlets": [
+        "FindArticles",
+        "WinBuzzer"
+      ],
+      "reports": 2,
+      "at": "2026-10-29T22:26:34.000Z"
+    },
+    {
+      "id": "moonshot:978e3a0529da0a",
+      "lab": "moonshot",
+      "title": "ZenMux Introduces Kimi K3.1 Pro for Long-Context AI Workflows",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOanRzU0JrM1lMVjMyTnZMRXpYaU5Qb2REbzctbXBUWS0zV3RQTWM4OW01S0k0UDB6TkVUdldSX3Bvckx4dEtPZ0tWV3Bzc0s4ZXh5ZmJjRTg5TXpkc28xOEhWQW5PelN6VlV1WjROV19TWFdLNEpXSWRpVHNsUEtMaDd4X0xnME90WHJDdWkwclRUc2lpcU4zVTZrS2hqRXdjT0c4dERSNTYwV2daZ015Y2RuWEU0Qk0?oc=5",
+      "outlets": [
+        "Cincinnati Enquirer",
+        "USA Today"
+      ],
+      "reports": 2,
+      "at": "2026-10-29T16:12:55.000Z"
+    },
+    {
+      "id": "cohere:8624baeae7721b",
+      "lab": "cohere",
+      "title": "Cohere Announces Series E Fundraise Targeting CAD $7 Billion to Meet Surging Global Demand for Secure, Sovereign AI",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTjluVi1FTE5wM3dRd1g1VXgyTURYZTFUSFdTTzNDWjN0U0FjaDFjU014bV9iR1N6VTRPNmxJQUItMmlGbUdOa1ZvYml0cDBxaVZ4eUwwUjNYOWxsaHhSMVFMT2FXRzlQSHFoa3RLM0ctV05yVlhPcnlLbC1IbTIwYXVjTmtDZDhMNHZuYUlIU3h0MGFXeUphV1hldXhoTTlfa29yTVRaci1CS0h1Q3NRdDIwVFk1enkzN29FOHo5MzFrUmJlTy1lUTFaYnRPWTFiZm43dGdWbU1yU2NSTUlvM3ZkRkdrZDFMU2RwYl9RbWNZUWJrRkVVV3hn?oc=5",
+      "outlets": [
+        "PR Newswire Canada",
+        "PR Newswire"
+      ],
+      "reports": 2,
+      "at": "2026-10-29T15:48:00.000Z"
+    },
+    {
       "id": "mistral:3ffba218e9fb8c",
       "lab": "mistral",
       "title": "Mistral releases Large 4 Le Chonk open weights on Hugging Face",
@@ -729,16 +736,16 @@
       "at": "2026-10-29T15:18:51.000Z"
     },
     {
-      "id": "mistral:79ea3dacafeba6",
-      "lab": "mistral",
-      "title": "Mistral AI publicly releases Large 4, targets cybersecurity users",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb3RNdmpuR3NIU0w0bUd0bDZNS1gtdUp1dkpLMlphSkZiQjJpZ29fQXUteXRkOG14cGxGdHpEM2RoeUZIWmNnTUFKaUx4MGxkU1JqcWJUT05ES3lOdG5ad3RHS0szc0lGQy1icnJIZGtaWEMxWVp0ZVc3NEJMUEFvWGFvSW95UC0xRmFKdmE3VjZYcWNYVFNWNlNKcHpWd1dwVngwY29oUXk2a2haY1BVQTgxMEFTQktCYVlqandKQ3p5Z04xSEJnRnNpWmYxcms?oc=5",
+      "id": "nvidia:d7895ee2207d3b",
+      "lab": "nvidia",
+      "title": "Nvidia Releases Open Nemotron 3.5 Transcribe Model for 40 Languages",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kM2FUNzhEYVZyczlwQ3E3azQ1RExOdzlVeE1Ia0Fua19WbGNndGozSEFYT0ZSNDdTOTFhckI5djItR2Mtb2MwY3pCcHQ0ZDc5ZTUwQVg5RllDb0tmTDNCYkVKbXMxQ3F0akx4ejJ6eWRhaXdJLXc?oc=5",
       "outlets": [
-        "Reuters",
-        "TradingView"
+        "The Next Web",
+        "SQ Magazine"
       ],
       "reports": 2,
-      "at": "2026-10-29T14:00:00.000Z"
+      "at": "2026-10-28T16:49:26.000Z"
     },
     {
       "id": "ibm:9f1619a503c4a2",

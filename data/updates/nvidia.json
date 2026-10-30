@@ -167,7 +167,7 @@
     "importance": 66,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 97,
+      "likes": 100,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -1357,7 +1357,7 @@
     "importance": 71,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 376,
+      "likes": 412,
       "downloads": 4276,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -1631,7 +1631,7 @@
     "importance": 69,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 244,
+      "likes": 256,
       "downloads": 57228,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2606,7 +2606,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 820,
+      "likes": 822,
       "downloads": 140274,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
@@ -2635,10 +2635,42 @@
     "importance": 68,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 169,
+      "likes": 170,
       "downloads": 53065,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
+    }
+  },
+  {
+    "id": "0f9b9cd99aa5baa3",
+    "lab": "nvidia",
+    "title": "nemotron-labs-unified-asr-0.6b",
+    "url": "https://huggingface.co/nvidia/nemotron-labs-unified-asr-0.6b",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-08-21T09:26:40.000Z",
+    "firstSeenAt": "2026-10-30T01:07:35.891Z",
+    "updatedAt": "2026-08-21T09:26:40.000Z",
+    "excerpt": "automatic-speech-recognition · license: other",
+    "summary": "NVIDIA published the nemotron-labs-unified-asr-0.6b model on Hugging Face for speech recognition (ASR). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "0.6B",
+      "audio"
+    ],
+    "importance": 61,
+    "contentHash": "6c63dced677a",
+    "meta": {
+      "likes": 26,
+      "downloads": 275,
+      "repo": "nvidia/nemotron-labs-unified-asr-0.6b",
+      "pipeline": "automatic-speech-recognition",
+      "license": "other"
     }
   },
   {
