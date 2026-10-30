@@ -1,5 +1,27 @@
 [
   {
+    "id": "c248342780a3069c",
+    "modelId": "mistralai/mistral-large-4-0",
+    "name": "Mistral: Mistral Large 4",
+    "lab": "mistral",
+    "at": "2026-10-30T10:10:53.380Z",
+    "field": "prompt",
+    "from": 1.36,
+    "to": 0.7,
+    "change": -48.5
+  },
+  {
+    "id": "e2bdff5617dfdd2a",
+    "modelId": "mistralai/mistral-large-4-0",
+    "name": "Mistral: Mistral Large 4",
+    "lab": "mistral",
+    "at": "2026-10-30T10:10:53.380Z",
+    "field": "completion",
+    "from": 4.18,
+    "to": 2.1,
+    "change": -49.8
+  },
+  {
     "id": "ad1569759e69852e",
     "modelId": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",

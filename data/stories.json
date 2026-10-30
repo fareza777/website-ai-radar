@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T01:07:35.891Z",
+  "generatedAt": "2026-10-30T10:10:53.380Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -7,27 +7,29 @@
       "entity": "GPT 6 Astra",
       "labs": [
         "openai",
-        "deepseek",
-        "moonshot"
+        "moonshot",
+        "deepseek"
       ],
       "official": 1,
       "press": 6,
       "outlets": [
-        "Reuters",
-        "shattered.io",
-        "Techzine Global",
-        "Times Of AI",
-        "Tekedia",
+        "WinBuzzer",
+        "Crypto Briefing",
+        "헤럴드경제",
         "TechGig",
         "ET Enterprise AI",
         "联合早报",
+        "Reuters",
+        "shattered.io",
+        "Tekedia",
+        "Techzine Global",
+        "Times Of AI",
         "Idaho Statesman",
-        "헤럴드경제",
         "TOKENPOST",
-        "WinBuzzer"
+        "International Business Times UK"
       ],
       "firstAt": "2026-10-26T22:00:00.000Z",
-      "lastAt": "2026-10-29T21:05:34.000Z",
+      "lastAt": "2026-10-30T06:45:00.000Z",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "lead": {
         "kind": "official",
@@ -59,14 +61,16 @@
         "shattered.io",
         "Neowin",
         "9to5Google",
-        "Reuters",
-        "Wichita Eagle",
-        "The Verge",
-        "SiliconANGLE",
-        "Technology Org",
-        "VentureBeat",
         "Engadget",
+        "The Verge",
+        "Technology Org",
+        "Wichita Eagle",
+        "Reuters",
+        "SiliconANGLE",
+        "Ticker News",
+        "VentureBeat",
         "Anadolu Ajansı",
+        "Türkiye Today",
         "Unite.AI",
         "Wccftech",
         "The Decoder",
@@ -79,10 +83,12 @@
         "SC Media",
         "The Hacker News",
         "SecurityWeek",
-        "Brave New Coin"
+        "Brave New Coin",
+        "PCMag Middle East",
+        "The National CIO Review"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
-      "lastAt": "2026-10-29T17:40:16.000Z",
+      "lastAt": "2026-10-29T19:08:56.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
       "lead": {
         "kind": "official",
@@ -180,17 +186,15 @@
       "importance": 66
     },
     {
-      "id": "google-deepmind:cf5a1652bc43d7",
-      "title": "What Google’s Gemini 4 Argon means for small business",
+      "id": "google-deepmind:42a742b28a5be9",
+      "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 15,
+      "press": 14,
       "outlets": [
-        "The Davis Enterprise",
-        "Black Hills Pioneer",
         "The Des Moines Register",
         "Endor Labs",
         "HPCwire",
@@ -205,14 +209,14 @@
         "TechRadar",
         "Mezha.net"
       ],
-      "firstAt": "2026-10-20T04:00:00.000Z",
+      "firstAt": "2026-10-20T14:04:46.000Z",
       "lastAt": "2026-10-27T15:25:27.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLTFFREd2SGVNNTJqa201dU1rc1E2aUE1ZzlXVEczcHMtM2ItQlFvS0RheWxrTjNKLThPSEZKVUxYZmp0TzZiNmdlTXpFQWpITkQtMll0NTVXZUhvbG1YSXlFLWFFZkE1LXZYUW5lR0lHaG1VTnFNa1RCdGxlVmZxcldNeHBLaVV2MFNLdXNMdnFEZnlobHJpLTlWU3hqbU9mdDdPLU45OVRtMTZNNXFnZTNPeGMydVhCazNOOGNpSTlQQXBjYlhJMUdkMFNVdlVrbnB6ZFBJQnlNSjlzbmNidk14SU1hd3lOTFhYcHhOc0lsdjhL?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:cf5a1652bc43d7"
+        "id": "google-deepmind:42a742b28a5be9"
       },
-      "importance": 65
+      "importance": 63
     },
     {
       "id": "cohere:3da845eb6ca838",
@@ -320,6 +324,33 @@
       "importance": 60
     },
     {
+      "id": "nvidia:d7895ee2207d3b",
+      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
+      "entity": "Nemotron 3.5 Transcribe",
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "The Next Web",
+        "SQ Magazine",
+        "shattered.io",
+        "The Decoder",
+        "TradingView",
+        "AI Insider",
+        "HackerNoon"
+      ],
+      "firstAt": "2026-10-27T10:01:39.000Z",
+      "lastAt": "2026-10-30T05:34:07.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:d7895ee2207d3b"
+      },
+      "importance": 59
+    },
+    {
       "id": "cohere:11779f23f98d5f",
       "title": "Qwen3.8-Flash-Next Tried a Beijing Upload, Cohere Says",
       "entity": "Qwen 3.8 Flash",
@@ -344,31 +375,6 @@
         "id": "cohere:11779f23f98d5f"
       },
       "importance": 58
-    },
-    {
-      "id": "nvidia:05e07feafa99ca",
-      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
-      "entity": "Nemotron 3.5 Transcribe",
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 4,
-      "outlets": [
-        "shattered.io",
-        "SQ Magazine",
-        "The Decoder",
-        "TradingView",
-        "The Next Web"
-      ],
-      "firstAt": "2026-10-27T10:01:39.000Z",
-      "lastAt": "2026-10-28T16:49:26.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:05e07feafa99ca"
-      },
-      "importance": 57
     },
     {
       "id": "nvidia:1bf067743e1fb3",
@@ -471,14 +477,14 @@
       {
         "name": "Gemini 4 Carbon",
         "count": 29,
-        "prev": 0,
+        "prev": 1,
         "labs": [
           "google-deepmind"
         ]
       },
       {
         "name": "GPT 6 Astra",
-        "count": 11,
+        "count": 12,
         "prev": 0,
         "labs": [
           "openai"
@@ -487,7 +493,7 @@
       {
         "name": "Gemini 4 Argon",
         "count": 10,
-        "prev": 23,
+        "prev": 22,
         "labs": []
       },
       {
@@ -502,6 +508,12 @@
         "name": "Mistral Large 4",
         "count": 7,
         "prev": 3,
+        "labs": []
+      },
+      {
+        "name": "Nemotron 3.5 Transcribe",
+        "count": 6,
+        "prev": 0,
         "labs": []
       },
       {
@@ -520,15 +532,15 @@
         "labs": []
       },
       {
-        "name": "Nemotron 3.5 Transcribe",
-        "count": 4,
+        "name": "Mistral Large 4 Open",
+        "count": 3,
         "prev": 0,
         "labs": []
       },
       {
         "name": "Nemotron 3.5 Bolt",
         "count": 3,
-        "prev": 1,
+        "prev": 0,
         "labs": []
       },
       {
@@ -557,48 +569,48 @@
     "topics": [
       {
         "name": "coding",
-        "count": 35,
-        "prev": 42,
+        "count": 36,
+        "prev": 43,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "qwen",
+          "openai",
           "mistral",
           "minimax",
-          "openai",
           "cohere",
-          "microsoft",
+          "qwen",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "agents",
-        "count": 30,
+        "count": 31,
         "prev": 50,
         "labs": [
           "anthropic",
-          "qwen",
           "meta",
-          "mistral",
           "openai",
-          "microsoft",
+          "mistral",
+          "qwen",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 10,
-        "prev": 11,
+        "count": 8,
+        "prev": 13,
         "labs": [
           "google-deepmind",
           "deepseek",
+          "openai",
           "mistral",
           "minimax",
-          "openai",
           "baidu",
           "tencent",
           "amazon",
@@ -613,8 +625,8 @@
         "labs": [
           "anthropic",
           "xai",
-          "mistral",
           "openai",
+          "mistral",
           "amazon",
           "nvidia"
         ]
@@ -622,27 +634,14 @@
       {
         "name": "audio",
         "count": 4,
-        "prev": 7,
+        "prev": 6,
         "labs": [
           "google-deepmind",
-          "mistral",
           "openai",
+          "mistral",
           "amazon",
           "ibm",
           "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 4,
-        "prev": 7,
-        "labs": [
-          "meta",
-          "mistral",
-          "openai",
-          "cohere",
-          "tencent",
-          "amazon"
         ]
       },
       {
@@ -650,14 +649,27 @@
         "count": 4,
         "prev": 9,
         "labs": [
+          "openai",
           "mistral",
           "minimax",
-          "openai",
           "cohere",
-          "microsoft",
           "amazon",
+          "microsoft",
           "ibm",
           "nvidia"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 3,
+        "prev": 8,
+        "labs": [
+          "meta",
+          "openai",
+          "mistral",
+          "cohere",
+          "tencent",
+          "amazon"
         ]
       },
       {
@@ -674,6 +686,19 @@
     ]
   },
   "unconfirmed": [
+    {
+      "id": "moonshot:978e3a0529da0a",
+      "lab": "moonshot",
+      "title": "ZenMux Introduces Kimi K3.1 Pro for Long-Context AI Workflows",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaFFfTzR1bmVrcVpyQVBTRTZvR2MwcDBsTmw2QWdwTGVvQ0l4VFE1TlgySDNGWGgtZzFkb0hWVGhGU096V1YyRG9GdGVSazUtMG43WWtTMjNGY3NPVXR0X1hTSm45bHlIbmRTVy1BMHVfVTJQazEzN2lXYUJhS041RVBlSmFaRGRLUUQ0TDBZTFJYbVRxVWh5V2swVUR0VGw3OFc4LVp4OWotbWRwYW5idm9ad1B6Z0hkY2xQNTZNZjE?oc=5",
+      "outlets": [
+        "Cincinnati Enquirer",
+        "USA Today",
+        "The Des Moines Register"
+      ],
+      "reports": 3,
+      "at": "2026-10-29T16:03:33.000Z"
+    },
     {
       "id": "mistral:79ea3dacafeba6",
       "lab": "mistral",
@@ -700,18 +725,6 @@
       "at": "2026-10-29T22:26:34.000Z"
     },
     {
-      "id": "moonshot:978e3a0529da0a",
-      "lab": "moonshot",
-      "title": "ZenMux Introduces Kimi K3.1 Pro for Long-Context AI Workflows",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOanRzU0JrM1lMVjMyTnZMRXpYaU5Qb2REbzctbXBUWS0zV3RQTWM4OW01S0k0UDB6TkVUdldSX3Bvckx4dEtPZ0tWV3Bzc0s4ZXh5ZmJjRTg5TXpkc28xOEhWQW5PelN6VlV1WjROV19TWFdLNEpXSWRpVHNsUEtMaDd4X0xnME90WHJDdWkwclRUc2lpcU4zVTZrS2hqRXdjT0c4dERSNTYwV2daZ015Y2RuWEU0Qk0?oc=5",
-      "outlets": [
-        "Cincinnati Enquirer",
-        "USA Today"
-      ],
-      "reports": 2,
-      "at": "2026-10-29T16:12:55.000Z"
-    },
-    {
       "id": "cohere:8624baeae7721b",
       "lab": "cohere",
       "title": "Cohere Announces Series E Fundraise Targeting CAD $7 Billion to Meet Surging Global Demand for Secure, Sovereign AI",
@@ -736,28 +749,16 @@
       "at": "2026-10-29T15:18:51.000Z"
     },
     {
-      "id": "nvidia:d7895ee2207d3b",
-      "lab": "nvidia",
-      "title": "Nvidia Releases Open Nemotron 3.5 Transcribe Model for 40 Languages",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kM2FUNzhEYVZyczlwQ3E3azQ1RExOdzlVeE1Ia0Fua19WbGNndGozSEFYT0ZSNDdTOTFhckI5djItR2Mtb2MwY3pCcHQ0ZDc5ZTUwQVg5RllDb0tmTDNCYkVKbXMxQ3F0akx4ejJ6eWRhaXdJLXc?oc=5",
+      "id": "mistral:5016cac48cd653",
+      "lab": "mistral",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMjNidjZYcnoxeE9Gc3NzX05BMlFMeDVwRjF2eWNNQ0FZTWR2amRmYm9YVzFKbmJteUR1TEZpallEUXBoeFVKeDBQemNhd3ExckNJUzYxMmFIXy1NNEhqNUdHeW1OVWdyVVRMa2ItV2pxOWhEdzlXRU80NVhOd1FPRFdGSDh0VHRTLWFXamJJUlNabTQyMlVNNjBqc3FMQkg1enB3TlBQcW1ESmhJa1lrcVRpeHJWRFNjdjhB?oc=5",
       "outlets": [
-        "The Next Web",
-        "SQ Magazine"
+        "TechCrunch",
+        "KuCoin"
       ],
       "reports": 2,
-      "at": "2026-10-28T16:49:26.000Z"
-    },
-    {
-      "id": "ibm:9f1619a503c4a2",
-      "lab": "ibm",
-      "title": "IBM launches identity and access controls for enterprise AI agents",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdklKZmFvRWNlVmVvY0RNNk1BZER1Q0JrOHhRMkk2NTItUWRGNWFyTDM5VkhBOE9tRjRiQmJLbW5SQkxmSFFRckpaNHJvdEFwX190M05hN09fNWZ0TFJRWjQxVngwRXE2elBzeGxLZ00zYlQ2QVRLdk9HWUFTdnJhakJjN3J3U2cyZUQwRkUtRV93RS1qOFQ0MUZPSEZ5ZS1fNlZrLUdGZ9IBrAFBVV95cUxPOHNSbEJmV1pieWdUMlJ3RXRUYUtzS0FKVGItRHBhbTU3MHBza1RWdjNCVmZha0RXRmZ1c0tZeldEbTdEUDNOLWNRSXlSZ3FORU0tTTlOamFUTmxub3BHbm1ydVdjZFowbG1wN240QUFpSjQwUmJEakJVX2RjZnZUZlZGUXRFYmV6NGtvU2ZaZWJkejlNM2xhZWN2bHREbHFsUG1SSVFJakx0Z2FQ?oc=5",
-      "outlets": [
-        "Tech Observer Magazine",
-        "www.tokenpost.com"
-      ],
-      "reports": 2,
-      "at": "2026-10-27T04:23:58.000Z"
+      "at": "2026-10-29T14:00:00.000Z"
     }
   ]
 }

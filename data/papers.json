@@ -1,5 +1,103 @@
 [
   {
+    "id": "2610.39633",
+    "title": "Intrinsic Distribution Matching",
+    "url": "https://huggingface.co/papers/2610.39633",
+    "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 230,
+    "org": "inclusionai",
+    "githubRepo": "https://github.com/inclusionAI/IDM",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
+    "id": "2610.29927",
+    "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
+    "url": "https://huggingface.co/papers/2610.29927",
+    "summary": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered…",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 136,
+    "org": "uiuc-cs",
+    "githubRepo": "https://github.com/ASTRAL-Group/benchmark-difficulty-measure",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
+    "id": "2610.36671",
+    "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+    "url": "https://huggingface.co/papers/2610.36671",
+    "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining…",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 68,
+    "org": "kaist-ai",
+    "githubRepo": "https://github.com/hyeon9698/LOWN",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
+    "id": "2610.32411",
+    "title": "A Broader Look into MLLM's Retrieval Heads",
+    "url": "https://huggingface.co/papers/2610.32411",
+    "summary": "Locating relevant evidence in long inputs is a core capability of Multimodal Large Language Models. Prior studies attribute this capability to retrieval heads, a sparse set of attention heads that transfer information from the context to the output. However, these analyses are confined to a limited set of modalities and the corresponding models. Moreover, how retrieval heads can be leveraged to enhance the model…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 25,
+    "org": "tencent",
+    "lab": "tencent",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
+    "id": "2610.35138",
+    "title": "Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models",
+    "url": "https://huggingface.co/papers/2610.35138",
+    "summary": "Evaluating human-AI co-design requires testing whether coding agents can translate real users' multimodal requests into working application revisions. We introduce Co-Design Bench, a reference-free benchmark of 273 tasks curated from 37,463 deduplicated queries across 26,314 real user coding sessions. Its two tracks, Multimodal Editing (ME) and Repository Editing (RE), cover localized edits with optional image…",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 18,
+    "org": "qwen",
+    "lab": "qwen",
+    "githubRepo": "https://github.com/Wiselnn570/Co-Design-Bench",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
+    "id": "2610.38352",
+    "title": "WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video",
+    "url": "https://huggingface.co/papers/2610.38352",
+    "summary": "Producing long-form videos from narration requires interdependent decisions that remain coherent across shots. Existing agentic editors often use multi-stage workflows driven by general models, leaving the quality-cost trade-off of compact, task-adapted policies unclear. We address this gap with WeVisCut, a long-form script-to-video system that connects tool execution with policy learning. Its agent harness…",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 12,
+    "org": "tencent",
+    "lab": "tencent",
+    "githubRepo": "https://github.com/Tencent/WeVisCut",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
+    "id": "2610.39301",
+    "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+    "url": "https://huggingface.co/papers/2610.39301",
+    "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 2,
+    "org": "tencent",
+    "lab": "tencent",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
+    "id": "2610.40362",
+    "title": "Your LR Schedule May Not Be Principled: Effective Learning Rate Scheduling in Weight-Normalized Training",
+    "url": "https://huggingface.co/papers/2610.40362",
+    "summary": "Weight-normalized (WN) training is emerging as a compelling alternative to conventional weight decay (WD), with recent studies reporting substantial pretraining loss gains. We show that these gains are driven primarily by the induced effective learning rate (ELR) trajectory rather than by normalization alone. Matching ELR trajectories largely collapses the training loss dynamics of WN and WD. Schedule design should…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 2,
+    "org": "bytedance-seed",
+    "lab": "bytedance",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
     "id": "2610.35201",
     "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
     "url": "https://huggingface.co/papers/2610.35201",
@@ -18,7 +116,7 @@
     "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 149,
+    "upvotes": 152,
     "org": "thu-ml",
     "githubRepo": "https://github.com/JusperLee/Falcon",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
@@ -30,7 +128,7 @@
     "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 50,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/justin4ai/OmniShowcase",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
@@ -54,7 +152,7 @@
     "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; we call this…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 412,
+    "upvotes": 418,
     "org": "lins-lab",
     "githubRepo": "https://github.com/yihaohu0118/ChronoReplay",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -66,8 +164,9 @@
     "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 380,
+    "upvotes": 382,
     "org": "iquestlab",
+    "githubRepo": "https://github.com/IQuestLab/Multiscale-Policy-Optimization",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
   },
   {
@@ -88,7 +187,7 @@
     "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 151,
+    "upvotes": 156,
     "org": "uiuc-cs",
     "githubRepo": "https://github.com/hexuan21/MemoryTax",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -100,7 +199,7 @@
     "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 145,
+    "upvotes": 147,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -111,7 +210,7 @@
     "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. Our central design…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 124,
+    "upvotes": 126,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
@@ -124,7 +223,7 @@
     "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 120,
+    "upvotes": 122,
     "org": "ucsantabarbara",
     "githubRepo": "https://github.com/yepengliu/TTME",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -136,7 +235,7 @@
     "summary": "In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies. Retaining past interactions alone does not ensure that agents can infer habits and apply them…",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 88,
+    "upvotes": 90,
     "org": "sjtu",
     "githubRepo": "https://github.com/LUMIA-Group/habit-bench",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -148,7 +247,7 @@
     "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 86,
+    "upvotes": 88,
     "org": "agibot-world",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
   },
@@ -171,7 +270,7 @@
     "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 53,
+    "upvotes": 55,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -183,7 +282,7 @@
     "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary representation of…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 51,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -194,7 +293,7 @@
     "summary": "Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style association, spatial control, and temporal consistency. We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content. At its core, GRNStyle builds on Generative Refinement Networks…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 51,
     "org": "xiaomi-research",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
   },
@@ -205,7 +304,7 @@
     "summary": "We propose Nemotron-Labs-Diffusion-Uni (NLD-Uni), a unified discrete diffusion large language model (DLLM) for visual understanding and generation tasks. Compared with prior unified diffusion models, NLD-Uni introduces two major innovations. First, we propose a unified cross-paradigm on-policy distillation (OPD) framework that successfully transfers the visual understanding ability of autoregressive VLMs and visual…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 31,
+    "upvotes": 32,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVlabs/Nemotron-Labs-Diffusion-Uni",
@@ -218,7 +317,7 @@
     "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Notably, in…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 25,
+    "upvotes": 26,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
@@ -255,7 +354,7 @@
     "summary": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with three ingredients: Decoupled Horizon Forecasting (DHF), which separates prediction tokens from the…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 12,
     "org": "mistralai",
     "lab": "mistral",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -267,7 +366,7 @@
     "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and…",
     "publishedAt": "2026-10-24T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 367,
+    "upvotes": 368,
     "org": "ant-intl",
     "githubRepo": "https://github.com/yihaohu0118/Trajectory2Gym",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -328,10 +427,22 @@
     "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 118,
+    "upvotes": 119,
     "org": "sjtu",
     "githubRepo": "https://github.com/EnjunDu/awesome-working-agent",
     "firstSeenAt": "2026-10-27T15:25:14.259Z"
+  },
+  {
+    "id": "2610.21240",
+    "title": "Representation Redistribution in Sparse Autoencoders",
+    "url": "https://huggingface.co/papers/2610.21240",
+    "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream computation. We introduce the redistribution sensitivity score (RSS), which identifies large…",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "submittedAt": "2026-10-27T00:00:00.000Z",
+    "upvotes": 62,
+    "org": "opensae",
+    "githubRepo": "https://github.com/OpenSAE/Redistribution-Sensitivity-Score",
+    "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
     "id": "2610.33956",
@@ -344,18 +455,6 @@
     "org": "universitycollegelondon",
     "githubRepo": "https://github.com/haoyu-zhao/Continual-Learning-Exam",
     "firstSeenAt": "2026-10-27T22:22:25.706Z"
-  },
-  {
-    "id": "2610.21240",
-    "title": "Representation Redistribution in Sparse Autoencoders",
-    "url": "https://huggingface.co/papers/2610.21240",
-    "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream computation. We introduce the redistribution sensitivity score (RSS), which identifies large…",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 61,
-    "org": "opensae",
-    "githubRepo": "https://github.com/OpenSAE/Redistribution-Sensitivity-Score",
-    "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
   {
     "id": "2610.34415",
@@ -493,7 +592,7 @@
     "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 63,
+    "upvotes": 64,
     "org": "alibabagroup",
     "githubRepo": "https://github.com/RecGPT-Team/UserArena",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
@@ -537,6 +636,18 @@
     "firstSeenAt": "2026-10-26T04:56:58.020Z"
   },
   {
+    "id": "2610.32770",
+    "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+    "url": "https://huggingface.co/papers/2610.32770",
+    "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-10-26T00:00:00.000Z",
+    "upvotes": 41,
+    "org": "google",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-10-26T13:15:11.052Z"
+  },
+  {
     "id": "2610.27103",
     "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
     "url": "https://huggingface.co/papers/2610.27103",
@@ -547,18 +658,6 @@
     "org": "nanjinguniv",
     "githubRepo": "https://github.com/ZiiJianLiu/Omni-Woodpecker",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
-  },
-  {
-    "id": "2610.32770",
-    "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
-    "url": "https://huggingface.co/papers/2610.32770",
-    "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 40,
-    "org": "google",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-10-26T13:15:11.052Z"
   },
   {
     "id": "2610.31779",

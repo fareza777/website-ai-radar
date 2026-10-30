@@ -1,5 +1,35 @@
 [
   {
+    "id": "fc627973e586d9b0",
+    "lab": "qwen",
+    "title": "Qwen Code cua-driver-rs v0.27.0",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.27.0",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T06:32:30.000Z",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z",
+    "updatedAt": "2026-10-30T06:32:30.000Z",
+    "excerpt": "Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the target machine before UIAccess activation Node.js : the same workflow publishes @qwen-code/cua-sdk…",
+    "summary": "Alibaba Qwen shipped Qwen Code cua-driver-rs v0.27.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "d3673f2b8570",
+    "meta": {
+      "version": "v0.27.0",
+      "semver": "minor",
+      "repo": "QwenLM/qwen-code",
+      "package": "cua-driver-rs"
+    }
+  },
+  {
     "id": "4584e873877a0ca6",
     "lab": "qwen",
     "title": "Qwen Code v0.26.4",
@@ -682,7 +712,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 294,
+      "stars": 300,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -800,8 +830,8 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1081,
-      "downloads": 37747,
+      "likes": 1084,
+      "downloads": 38769,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
       "license": "other"
@@ -948,8 +978,8 @@
     "importance": 70,
     "contentHash": "d108635bb7df",
     "meta": {
-      "likes": 70,
-      "downloads": 13773,
+      "likes": 71,
+      "downloads": 13809,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
     }
@@ -979,7 +1009,7 @@
     "contentHash": "2deb903ef0b2",
     "meta": {
       "likes": 77,
-      "downloads": 6711,
+      "downloads": 6397,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1066,7 +1096,7 @@
     "contentHash": "8adc2e24a56d",
     "meta": {
       "likes": 3496,
-      "downloads": 203240,
+      "downloads": 206320,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1104,7 +1134,7 @@
     "importance": 44,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 242,
+      "stars": 244,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -1225,8 +1255,8 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6644,
-      "downloads": 3853710,
+      "likes": 6650,
+      "downloads": 4137335,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -1256,8 +1286,8 @@
     "importance": 95,
     "contentHash": "df6b90143e8c",
     "meta": {
-      "likes": 1342,
-      "downloads": 25643,
+      "likes": 1343,
+      "downloads": 25944,
       "repo": "Qwen/Qwen3.8-2.4T-A95B",
       "pipeline": "text-generation",
       "license": "other"
@@ -1288,8 +1318,8 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 18688,
-      "downloads": 7509924,
+      "likes": 18704,
+      "downloads": 7624809,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
