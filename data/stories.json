@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T18:04:10.825Z",
+  "generatedAt": "2026-10-30T22:27:19.130Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -11,7 +11,7 @@
         "deepseek"
       ],
       "official": 1,
-      "press": 6,
+      "press": 7,
       "outlets": [
         "Techzine Global",
         "Times Of AI",
@@ -62,17 +62,17 @@
         "shattered.io",
         "Neowin",
         "9to5Google",
+        "PCMag Middle East",
+        "The National CIO Review",
         "Engadget",
         "The Verge",
         "Technology Org",
+        "Ticker News",
+        "PCMag",
         "Wichita Eagle",
         "Reuters",
         "SiliconANGLE",
-        "Ticker News",
         "VentureBeat",
-        "PCMag Middle East",
-        "The National CIO Review",
-        "PCMag",
         "Anadolu Ajansı",
         "Türkiye Today",
         "Unite.AI",
@@ -84,6 +84,7 @@
         "Interesting Engineering",
         "Fello AI",
         "CNET",
+        "TradingView",
         "The Register",
         "SC Media",
         "The Hacker News",
@@ -227,28 +228,28 @@
     },
     {
       "id": "nvidia:058c6ca6c7a58e",
-      "title": "Nvidia Releases Open Nemotron 3.5 Transcribe Model for 40 Languages",
+      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
       "entity": "Nemotron 3.5 Transcribe",
       "labs": [
         "nvidia"
       ],
       "official": 0,
-      "press": 7,
+      "press": 6,
       "outlets": [
-        "The Next Web",
+        "AI Insider",
         "SQ Magazine",
+        "The Next Web",
+        "BigGo Finance",
         "shattered.io",
         "The Decoder",
         "TradingView",
-        "AI Insider",
-        "BigGo Finance",
         "OrcaRouter",
         "Startup Fortune",
         "HackerNoon"
       ],
       "firstAt": "2026-10-27T10:01:39.000Z",
       "lastAt": "2026-10-30T05:34:07.000Z",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kM2FUNzhEYVZyczlwQ3E3azQ1RExOdzlVeE1Ia0Fua19WbGNndGozSEFYT0ZSNDdTOTFhckI5djItR2Mtb2MwY3pCcHQ0ZDc5ZTUwQVg5RllDb0tmTDNCYkVKbXMxQ3F0akx4ejJ6eWRhaXdJLXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
       "lead": {
         "kind": "press",
         "id": "nvidia:058c6ca6c7a58e"
@@ -463,7 +464,7 @@
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 29,
+        "count": 30,
         "prev": 1,
         "labs": [
           "google-deepmind"
@@ -471,22 +472,22 @@
       },
       {
         "name": "GPT 6 Astra",
-        "count": 13,
+        "count": 14,
         "prev": 0,
         "labs": [
           "openai"
         ]
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 9,
-        "prev": 21,
-        "labs": []
-      },
-      {
         "name": "Nemotron 3.5 Transcribe",
         "count": 8,
         "prev": 0,
+        "labs": []
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "count": 8,
+        "prev": 20,
         "labs": []
       },
       {
@@ -537,61 +538,47 @@
         "labs": [
           "openai"
         ]
-      },
-      {
-        "name": "GPT 6",
-        "count": 3,
-        "prev": 2,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
-        "name": "Claude Opus 5.5",
-        "count": 3,
-        "prev": 3,
-        "labs": []
       }
     ],
     "topics": [
       {
-        "name": "coding",
-        "count": 37,
-        "prev": 40,
-        "labs": [
-          "anthropic",
-          "google-deepmind",
-          "openai",
-          "minimax",
-          "cohere",
-          "qwen",
-          "mistral",
-          "amazon",
-          "ibm",
-          "microsoft",
-          "nvidia"
-        ]
-      },
-      {
         "name": "agents",
-        "count": 32,
-        "prev": 50,
+        "count": 39,
+        "prev": 49,
         "labs": [
           "anthropic",
           "openai",
           "meta",
-          "qwen",
           "mistral",
+          "qwen",
+          "microsoft",
           "amazon",
           "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "coding",
+        "count": 38,
+        "prev": 39,
+        "labs": [
+          "anthropic",
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "minimax",
+          "cohere",
+          "qwen",
           "microsoft",
+          "amazon",
+          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "safety",
         "count": 9,
-        "prev": 9,
+        "prev": 10,
         "labs": [
           "anthropic",
           "xai",
@@ -603,16 +590,17 @@
       },
       {
         "name": "multimodal",
-        "count": 7,
+        "count": 8,
         "prev": 12,
         "labs": [
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
-          "tencent",
+          "minimax",
           "baidu",
+          "tencent",
+          "microsoft",
           "amazon",
           "ibm",
           "nvidia"
@@ -637,9 +625,9 @@
         "prev": 6,
         "labs": [
           "openai",
+          "mistral",
           "minimax",
           "cohere",
-          "mistral",
           "amazon",
           "ibm",
           "nvidia"
@@ -652,15 +640,15 @@
         "labs": [
           "openai",
           "meta",
-          "cohere",
           "mistral",
+          "cohere",
           "tencent",
           "amazon"
         ]
       },
       {
         "name": "rag",
-        "count": 2,
+        "count": 3,
         "prev": 5,
         "labs": [
           "meta",
@@ -673,18 +661,20 @@
   },
   "unconfirmed": [
     {
-      "id": "nvidia:058c6ca6c7a58e",
-      "lab": "nvidia",
-      "title": "Nvidia Releases Open Nemotron 3.5 Transcribe Model for 40 Languages",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kM2FUNzhEYVZyczlwQ3E3azQ1RExOdzlVeE1Ia0Fua19WbGNndGozSEFYT0ZSNDdTOTFhckI5djItR2Mtb2MwY3pCcHQ0ZDc5ZTUwQVg5RllDb0tmTDNCYkVKbXMxQ3F0akx4ejJ6eWRhaXdJLXc?oc=5",
+      "id": "mistral:5913b69c5c504d",
+      "lab": "mistral",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMjNidjZYcnoxeE9Gc3NzX05BMlFMeDVwRjF2eWNNQ0FZTWR2amRmYm9YVzFKbmJteUR1TEZpallEUXBoeFVKeDBQemNhd3ExckNJUzYxMmFIXy1NNEhqNUdHeW1OVWdyVVRMa2ItV2pxOWhEdzlXRU80NVhOd1FPRFdGSDh0VHRTLWFXamJJUlNabTQyMlVNNjBqc3FMQkg1enB3TlBQcW1ESmhJa1lrcVRpeHJWRFNjdjhB?oc=5",
       "outlets": [
-        "AI Insider",
-        "SQ Magazine",
-        "The Next Web",
-        "BigGo Finance"
+        "BigGo Finance",
+        "디지털투데이",
+        "TechCrunch",
+        "TechRepublic",
+        "KuCoin",
+        "YourStory.com"
       ],
-      "reports": 4,
-      "at": "2026-10-28T16:49:26.000Z"
+      "reports": 6,
+      "at": "2026-10-29T17:00:00.000Z"
     },
     {
       "id": "moonshot:978e3a0529da0a",
@@ -738,18 +728,6 @@
       "at": "2026-10-29T22:26:34.000Z"
     },
     {
-      "id": "mistral:5913b69c5c504d",
-      "lab": "mistral",
-      "title": "Mistral releases weights for 1 trillion-parameter AI model Large 4 aimed at cybersecurity",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdU5qMEdRcDhtQkRoRF9vVXJoWC12Y0J0TVJEQ3MzajN2ajYtRzJoMzVnTm9FSzYtb1Ria0lNZjZOVTFzeHNmYTRpblVScG9IWWdIeHA0emNWVlpuQjl5dnQ0YXU2ZUxBRVFEZV9ETDFuTEFwZ3RRQUY0ZGR0Qzg0dVlpMTAtaUJEanU2dVpqckl2WnVFR2EyWmxqRU9SSHl0aklnRGwwd0NFLTVJZ0pOTE54aGR0VHpPNDRBN0FoNXp3RmdHaUpPRzdMLTVla1Nt?oc=5",
-      "outlets": [
-        "BigGo Finance",
-        "디지털투데이"
-      ],
-      "reports": 2,
-      "at": "2026-10-29T19:12:31.000Z"
-    },
-    {
       "id": "cohere:8624baeae7721b",
       "lab": "cohere",
       "title": "Cohere Announces Series E Fundraise Targeting CAD $7 Billion to Meet Surging Global Demand for Secure, Sovereign AI",
@@ -772,6 +750,18 @@
       ],
       "reports": 2,
       "at": "2026-10-29T15:18:51.000Z"
+    },
+    {
+      "id": "mistral:5888b1715e0e4d",
+      "lab": "mistral",
+      "title": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XcVRkZU9oekdPekFMUWNQM1pyb2JmMEtOQm81ZnVyWW9MWjhEMk5yTkpOdzYzUW9Ob0Ftd1BGNXN6WkFqZnktSnRxMzN6WkhWaHlrT0pLMDAwZjM3azNLRVNXc2VFV0s4Mnp3X2w5cVVmZw?oc=5",
+      "outlets": [
+        "The Next Web",
+        "ForkLog"
+      ],
+      "reports": 2,
+      "at": "2026-10-29T13:18:58.000Z"
     }
   ]
 }

@@ -1,40 +1,45 @@
 [
   {
     "date": "2026-10-31",
-    "generatedAt": "2026-10-30T18:04:10.825Z",
+    "generatedAt": "2026-10-30T22:27:19.130Z",
     "stats": {
-      "updates24h": 20,
+      "updates24h": 27,
       "labsActive24h": 8,
-      "updates7d": 121,
-      "newModels7d": 26
+      "updates7d": 133,
+      "newModels7d": 28
     },
     "source": "template",
-    "headline": "20 updates from 8 AI labs in the last 24 hours · 26 model releases this week.",
+    "headline": "27 updates from 8 AI labs in the last 24 hours · 28 model releases this week.",
     "bullets": [
+      {
+        "text": "Amazon: Web Search now available on Kiro in AWS GovCloud (US)",
+        "itemId": "5350a2a8922d84d9",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
+        "itemId": "2ad4a602c2fe4366",
+        "lab": "amazon"
+      },
+      {
+        "text": "Microsoft: Mage-VL-Cowork",
+        "itemId": "63a60d5375b55a30",
+        "lab": "microsoft"
+      },
+      {
+        "text": "NVIDIA: Run AI Models for Edge Application Development with Just a Few Commands",
+        "itemId": "52dedc30355aed7e",
+        "lab": "nvidia"
+      },
       {
         "text": "NVIDIA: Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
         "itemId": "b5bd2734bcbd8d3c",
         "lab": "nvidia"
       },
       {
-        "text": "Amazon: How Worldwide Express automated freight exceptions with Amazon Bedrock",
-        "itemId": "44854634469c462e",
-        "lab": "amazon"
-      },
-      {
-        "text": "Amazon: Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
-        "itemId": "cabe8a08dfb85810",
-        "lab": "amazon"
-      },
-      {
-        "text": "NVIDIA: Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-        "itemId": "691aeb39c4445330",
-        "lab": "nvidia"
-      },
-      {
-        "text": "Microsoft: From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
-        "itemId": "c76597c7b3989257",
-        "lab": "microsoft"
+        "text": "OpenAI: Making it easier for websites to express AI training preferences",
+        "itemId": "25cc4c9bb2e3e7e5",
+        "lab": "openai"
       }
     ]
   },

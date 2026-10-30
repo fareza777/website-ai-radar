@@ -1,5 +1,35 @@
 [
   {
+    "id": "483c01c10f1188d9",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework dotnet v1.27.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.27.0",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T19:12:03.000Z",
+    "firstSeenAt": "2026-10-30T22:27:19.130Z",
+    "updatedAt": "2026-10-30T19:12:03.000Z",
+    "excerpt": "[1.27.0] - 2026-10-30 Added skills: Add a .NET consumer skill for building with Agent Framework ( #9651 by westey (@westey-m) ). .NET, CI: Add a script to bump the .NET release version ( #9894 by Vincent Biret (@baywet) ). Changed .NET, AgentServer: [BREAKING] Update AgentServer dependencies ( #9721 by Roger Barreto (@rogerbarreto) ). Migration: In Foundry hosted applications, replace…",
+    "summary": "Microsoft shipped Microsoft Agent Framework dotnet v1.27.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "fa6769bb27cb",
+    "meta": {
+      "version": "1.27.0",
+      "semver": "minor",
+      "repo": "microsoft/agent-framework",
+      "package": "dotnet"
+    }
+  },
+  {
     "id": "c76597c7b3989257",
     "lab": "microsoft",
     "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
@@ -22,6 +52,37 @@
     "contentHash": "3311370c5f92"
   },
   {
+    "id": "63a60d5375b55a30",
+    "lab": "microsoft",
+    "title": "Mage-VL-Cowork",
+    "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+    "sourceId": "microsoft-hf",
+    "sourceName": "Hugging Face · microsoft",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T12:13:24.000Z",
+    "firstSeenAt": "2026-10-30T22:27:19.130Z",
+    "updatedAt": "2026-10-30T12:13:24.000Z",
+    "excerpt": "image-text-to-text · license: apache-2.0",
+    "summary": "Microsoft published the Mage-VL-Cowork model on Hugging Face for multimodal (image + text). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 61,
+    "contentHash": "55470560c200",
+    "meta": {
+      "likes": 22,
+      "downloads": 0,
+      "repo": "microsoft/Mage-VL-Cowork",
+      "pipeline": "image-text-to-text",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "77771dabca627f40",
     "lab": "microsoft",
     "title": "Microsoft Agent Framework python v1.24.0",
@@ -33,8 +94,8 @@
     "verified": true,
     "publishedAt": "2026-10-30T11:25:14.000Z",
     "firstSeenAt": "2026-10-30T18:04:10.825Z",
-    "updatedAt": "2026-10-30T11:25:14.000Z",
-    "excerpt": "Prepare Python 1.24.0 release for October 30 Prepare changes through 85f3fc6 (python-1.23.0..main) without tagging or publishing. Refresh this preparation after tomorrow's intended merges. Select 43 packages from the changelog: shipping fixes/features and Python 3.10 classifier removal. Core/root 1.24.0, OpenAI 1.18.0, and Foundry 1.16.0 add APIs; other released packages receive patch bumps. Alpha/beta stamps use…",
+    "updatedAt": "2026-10-30T22:27:19.130Z",
+    "excerpt": "1.24.0 - 2026-10-30 Warning Redis context index migration: The beta RedisContextProvider now preserves exact scope identity and rejects the legacy raw-scope index schema. Delete the old context index and its context hashes, let the provider create a new index, and re-ingest the context data. overwrite_index=True does not migrate incompatible indexes. Important Python support: Python 3.11 or later is now the…",
     "summary": "Microsoft shipped Microsoft Agent Framework python v1.24.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
@@ -43,7 +104,7 @@
       "agents"
     ],
     "importance": 40,
-    "contentHash": "63742495cfa5",
+    "contentHash": "87d10d3fe642",
     "meta": {
       "version": "1.24.0",
       "semver": "minor",
