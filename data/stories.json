@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T22:27:19.130Z",
+  "generatedAt": "2026-10-31T00:01:49.750Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -195,38 +195,6 @@
       "importance": 68
     },
     {
-      "id": "google-deepmind:42a742b28a5be9",
-      "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
-      "entity": "Gemini 4 Argon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 13,
-      "outlets": [
-        "Endor Labs",
-        "HPCwire",
-        "https://tech-insider.org/",
-        "Robotics & Automation News",
-        "Seeking Alpha",
-        "PPC Land",
-        "shattered.io",
-        "infoq.com",
-        "i-programmer.info",
-        "9to5Google",
-        "TechRadar",
-        "Mezha.net"
-      ],
-      "firstAt": "2026-10-20T23:08:28.000Z",
-      "lastAt": "2026-10-27T15:25:27.000Z",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:42a742b28a5be9"
-      },
-      "importance": 63
-    },
-    {
       "id": "nvidia:058c6ca6c7a58e",
       "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
       "entity": "Nemotron 3.5 Transcribe",
@@ -253,6 +221,37 @@
       "lead": {
         "kind": "press",
         "id": "nvidia:058c6ca6c7a58e"
+      },
+      "importance": 62
+    },
+    {
+      "id": "google-deepmind:42a742b28a5be9",
+      "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
+      "entity": "Gemini 4 Argon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 12,
+      "outlets": [
+        "HPCwire",
+        "https://tech-insider.org/",
+        "Robotics & Automation News",
+        "Seeking Alpha",
+        "PPC Land",
+        "shattered.io",
+        "infoq.com",
+        "i-programmer.info",
+        "9to5Google",
+        "TechRadar",
+        "Mezha.net"
+      ],
+      "firstAt": "2026-10-21T16:18:47.000Z",
+      "lastAt": "2026-10-27T15:25:27.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:42a742b28a5be9"
       },
       "importance": 62
     },
@@ -559,14 +558,14 @@
       },
       {
         "name": "coding",
-        "count": 38,
-        "prev": 39,
+        "count": 37,
+        "prev": 40,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "qwen",
           "microsoft",
@@ -596,10 +595,10 @@
           "deepseek",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
-          "baidu",
+          "mistral",
           "tencent",
+          "baidu",
           "microsoft",
           "amazon",
           "ibm",
@@ -625,8 +624,8 @@
         "prev": 6,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "amazon",
           "ibm",

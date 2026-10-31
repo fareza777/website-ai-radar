@@ -1,5 +1,27 @@
 [
   {
+    "id": "feb912e225e8e3aa",
+    "lab": "amazon",
+    "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+    "url": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-30T22:42:24.000Z",
+    "firstSeenAt": "2026-10-31T00:01:49.750Z",
+    "updatedAt": "2026-10-30T22:42:24.000Z",
+    "excerpt": "Cost management for generative AI is a shared responsibility between the teams that build applications and the teams accountable for cloud spend. Many teams start by comparing per-model token rates and asking application teams to shorten prompts. Those steps help, but they don’t answer the questions that finance and engineering leaders ask as usage scales: which team spent this, on which workload, and was that spend…",
+    "summary": "Cost management for generative AI is a shared responsibility between the teams that build applications and the teams accountable for cloud spend.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "d1a6760e1b96"
+  },
+  {
     "id": "391b23f56ce31826",
     "lab": "amazon",
     "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",

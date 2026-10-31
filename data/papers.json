@@ -6,7 +6,7 @@
     "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 235,
+    "upvotes": 237,
     "org": "inclusionai",
     "githubRepo": "https://github.com/inclusionAI/IDM",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -18,7 +18,7 @@
     "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on…",
     "publishedAt": "2026-10-28T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 148,
+    "upvotes": 150,
     "org": "xiaomi-research",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
@@ -29,7 +29,7 @@
     "summary": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 138,
+    "upvotes": 140,
     "org": "uiuc-cs",
     "githubRepo": "https://github.com/ASTRAL-Group/benchmark-difficulty-measure",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -41,7 +41,7 @@
     "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 90,
+    "upvotes": 91,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/hyeon9698/LOWN",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -53,7 +53,7 @@
     "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 54,
+    "upvotes": 55,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -65,7 +65,7 @@
     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 52,
     "org": "galilai-group",
     "githubRepo": "https://github.com/galilai-group/prh-proof",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
@@ -139,7 +139,7 @@
     "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 193,
+    "upvotes": 199,
     "org": "thu-ml",
     "githubRepo": "https://github.com/JusperLee/Falcon",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
@@ -151,7 +151,7 @@
     "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 75,
+    "upvotes": 77,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/justin4ai/OmniShowcase",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
@@ -246,7 +246,7 @@
     "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 123,
+    "upvotes": 124,
     "org": "ucsantabarbara",
     "githubRepo": "https://github.com/yepengliu/TTME",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"

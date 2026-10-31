@@ -1,5 +1,135 @@
 [
   {
+    "id": "801a069c9027a3d9",
+    "modelId": "particle-ai/particle-1",
+    "name": "Particle AI: Particle-1",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "prompt",
+    "from": 0.25,
+    "to": 0.05,
+    "change": -80
+  },
+  {
+    "id": "c39b9497fff08788",
+    "modelId": "particle-ai/particle-1",
+    "name": "Particle AI: Particle-1",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "completion",
+    "from": 1,
+    "to": 0.5,
+    "change": -50
+  },
+  {
+    "id": "0dbf895ea9089414",
+    "modelId": "minimax/minimax-m3.1-flash",
+    "name": "MiniMax: MiniMax M3.1 Flash",
+    "lab": "minimax",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.075,
+    "change": -50
+  },
+  {
+    "id": "3745b3b488079087",
+    "modelId": "minimax/minimax-m3.1-flash",
+    "name": "MiniMax: MiniMax M3.1 Flash",
+    "lab": "minimax",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.3,
+    "change": -50
+  },
+  {
+    "id": "d3c7c3e71e01a76d",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "prompt",
+    "from": 0.834,
+    "to": 0.7506,
+    "change": -10
+  },
+  {
+    "id": "e2ddf888f878f5f0",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "completion",
+    "from": 2.501,
+    "to": 2.2509,
+    "change": -10
+  },
+  {
+    "id": "189af2c98d3ea590",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "prompt",
+    "from": 0.132,
+    "to": 0.0825,
+    "change": -37.5
+  },
+  {
+    "id": "a448364baed4872d",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "completion",
+    "from": 0.528,
+    "to": 0.33,
+    "change": -37.5
+  },
+  {
+    "id": "e7031228c9144621",
+    "modelId": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "lab": "moonshot",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "prompt",
+    "from": 0.56,
+    "to": 0.6,
+    "change": 7.1
+  },
+  {
+    "id": "aa56a711d0e1e811",
+    "modelId": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "lab": "moonshot",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "completion",
+    "from": 3.1,
+    "to": 3.5,
+    "change": 12.9
+  },
+  {
+    "id": "eefd959081ad09f8",
+    "modelId": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "lab": "deepseek",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "prompt",
+    "from": 0.28,
+    "to": 0.26,
+    "change": -7.1
+  },
+  {
+    "id": "6bdeb54ddbd6ba6b",
+    "modelId": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "lab": "deepseek",
+    "at": "2026-10-31T00:01:49.750Z",
+    "field": "completion",
+    "from": 0.42,
+    "to": 0.38,
+    "change": -9.5
+  },
+  {
     "id": "33ae023b60c620a8",
     "modelId": "qwen/qwen3.8-27b",
     "name": "Qwen: Qwen3.8 27B",

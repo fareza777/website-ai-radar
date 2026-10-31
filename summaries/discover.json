@@ -600,12 +600,6 @@
     "unique": "The open-source engine is meant to keep live agents, including teammates', from colliding while coding.",
     "benefit": "Teams running several coding agents can have them message each other instead of working on top of each other."
   },
-  "d3cde2676bc921e1": {
-    "hash": "5c3b8fa4",
-    "summary": "Elorian introduced Glimpse on Oct 16 and calls it a visual thinking model.",
-    "unique": "Glimpse is Elorian's visual thinking model.",
-    "benefit": "People looking for a visual thinking model can try the one Elorian introduced as Glimpse."
-  },
   "cd5078972b3d3c08": {
     "hash": "0dc89156",
     "summary": "DeepInfer is a high-performance, large-scale inference framework for DeepSeek models.",
@@ -659,12 +653,6 @@
     "summary": "openfilm is an open-source AI video agent that turns any coding agent into a video agent, with an editor for what it makes.",
     "unique": "It wraps an existing coding agent and still lets you edit the result.",
     "benefit": "People who already use a coding agent can have it make video and then change the output."
-  },
-  "63a18991a3dd0b7d": {
-    "hash": "4420aa28",
-    "summary": "ARTEX is an autonomous penetration-testing system built as a multi-agent LLM app in Go and Next.js.",
-    "unique": "The project says it won the Baidu agent+ attack-defense challenge.",
-    "benefit": "Security teams can inspect a multi-agent system that automates penetration testing."
   },
   "68fdd067ca06eccb": {
     "hash": "cf1af56e",
@@ -786,10 +774,28 @@
     "unique": "It runs self-hosted and generates application documents from one profile.",
     "benefit": "Job seekers who want local control can host Dossier and auto-tailor resumes and cover letters."
   },
-  "d0b73b86cb1a287f": {
-    "hash": "17f06c01",
-    "summary": "mcd-budget-meal is a McDonald's MCP skill for real pricing, budget comparisons, and meal swaps.",
-    "unique": "It uses a McDonald's MCP integration for budget meal planning rather than generic nutrition APIs.",
-    "benefit": "Developers experimenting with MCP meal skills can compare McDonald's budgets with real menu pricing."
+  "bf35f75c9c8a134f": {
+    "hash": "6207d63e",
+    "summary": "Tiny world model generates games and stream ac plays them all on Pico 2W.",
+    "unique": "Focus areas include rust, transformers.",
+    "benefit": "Developers can inspect the repo to try the project or adapt its approach locally."
+  },
+  "e863b804e69a32e3": {
+    "hash": "0a33c0e1",
+    "summary": "Self-hosted CLI for running untrusted AI agents locally inside hardened Docker sandboxes with controlled egress, credential-managed integrations, and transparent inference auditing.",
+    "unique": "Focus areas include agent-orchestration, agent-safety, agent-sandbox.",
+    "benefit": "Developers can inspect the repo to try the project or adapt its approach locally."
+  },
+  "31ac00c384bb5247": {
+    "hash": "49eb3033",
+    "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。.",
+    "unique": "Focus areas include ai-agent, android, android-app.",
+    "benefit": "Developers can inspect the repo to try the project or adapt its approach locally."
+  },
+  "073bd530cac588ba": {
+    "hash": "df83b733",
+    "summary": "Arsaze is Cursor for video editing: the AI-native video editor for agents and humans. Your AI edits a real multi-track timeline over MCP while you watch, every edit is versioned, and clients review on the exact frame.",
+    "unique": "Arsaze is Cursor for video editing: the AI-native video editor for agents and humans.",
+    "benefit": "Builders can open the site to see whether the tool fits a workflow they are exploring."
   }
 }

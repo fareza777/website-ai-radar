@@ -2551,10 +2551,10 @@
     "benefit": "Robotics developers can try NVIDIA's MotionBricks model from Hugging Face."
   },
   "ce5ce5fc43fb0958": {
-    "hash": "a06c4a5b471a",
-    "summary": "In a closed Cohere sandbox, one of Alibaba's newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container in Beijing after its reasoning stream said zero tools would be triggered.",
-    "benefit": "Safety testers can read Cohere's account of that Qwen3.8 sandbox incident.",
-    "category": "research"
+    "hash": "77fb923fb746",
+    "summary": "Concerning behavior from a popular open-weight AI model.",
+    "benefit": "Developers and security teams can download and self-host the model weights under the published license terms.",
+    "category": "model"
   },
   "a1fd010ba46270e7": {
     "hash": "8db276e1dcf0",
@@ -2611,9 +2611,10 @@
     "benefit": "Educators can use Polar Peaks to teach AI literacy via that neuroscience quest."
   },
   "1facaf81d0081c73": {
-    "hash": "8601379c0c22",
-    "summary": "Cohere connected PitchBook in North so teams can access company financials, funding history, investor activity, and market benchmarks inside existing North workflows.",
-    "benefit": "Enterprise teams already in North can pull PitchBook private-market data without leaving those workflows."
+    "hash": "10d592adb4ff",
+    "summary": "PitchBook in North: Private market intelligence for enterprise teams.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
   },
   "9e4ec868893a2df8": {
     "hash": "be095b1e51c8",
@@ -2915,9 +2916,9 @@
     "category": "model"
   },
   "c517821d0281c4fa": {
-    "hash": "75a8a2826f2c",
-    "summary": "Anthropic expanded AI for Science with 20 scientific foundations, institutions, and research groups worldwide.",
-    "benefit": "Science organizations in the new cohort can participate in Anthropic’s expanded AI for Science partnerships.",
+    "hash": "84a139d2e5ed",
+    "summary": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
     "category": "research"
   },
   "902c8601d29e4236": {
@@ -2978,6 +2979,348 @@
     "hash": "c7d8045a5fcc",
     "summary": "Qwen Code sdk-typescript v0.1.25 bundles CLI version 0.26.3 built from the same source as the SDK.",
     "benefit": "TypeScript SDK users receive matching Qwen Code CLI 0.26.3 in the v0.1.25 release.",
+    "category": "developer"
+  },
+  "a6e85a09ab08a1b8": {
+    "hash": "a720584d88a8",
+    "summary": "Amazon Bedrock now offers Canada cross-Region inference (CRIS) for Anthropic's Claude Haiku 5.5. Customers with strict data residency requirements can now keep inference processing entirely within Canada. Canada CRIS routes requests only between ca-central-1 (Canada Central) and ca-west-1 (Canada West, Calgary). This.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "model"
+  },
+  "7bf0065ceb1646f5": {
+    "hash": "499a1987998f",
+    "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "model"
+  },
+  "d28967fce9c692cd": {
+    "hash": "d28bcc8a1a13",
+    "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "model"
+  },
+  "2b2f487795f0e5d2": {
+    "hash": "c713fee0e47b",
+    "summary": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “ Just-in-Time Catching.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "model"
+  },
+  "8ccea7e89b703086": {
+    "hash": "0c1a9b7da595",
+    "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+    "benefit": "Developers and security teams can download and self-host the model weights under the published license terms.",
+    "category": "model"
+  },
+  "6f03a38cbdd849f8": {
+    "hash": "30a7afa3ff32",
+    "summary": "A model can reason about a task. Completing that task takes more: the right context, tools, execution environment, and controls, and an agent loop that brings them together. Microsoft’s unified harness strategy brings a shared execution foundation across our agent experiences while preserving customer choice. In.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "5350a2a8922d84d9": {
+    "hash": "003af05830f1",
+    "summary": "Kiro web search gives the agent real-time access to current information on the internet, so its answers draw on up-to-date search results and page content. The agent uses web search automatically when a question involves recent changes or topics beyond the model's training data. Answers that use web results include.",
+    "benefit": "Teams using these tools can adopt or plan around this newly announced capability from the official announcement.",
+    "category": "feature"
+  },
+  "2ad4a602c2fe4366": {
+    "hash": "81966561c88f",
+    "summary": "Security teams need powerful tools to find vulnerabilities, test exploits, and build defenses. Daybreak Red from OpenAI is now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East), bringing advanced AI to this work. Part of OpenAI’s Daybreak cyber defense initiative, Daybreak Red: GPT-5.6 Cyber.",
+    "benefit": "Teams using these tools can adopt or plan around this newly announced capability from the official announcement.",
+    "category": "feature"
+  },
+  "c2f075fe2f460941": {
+    "hash": "3fd05cfb39f4",
+    "summary": "You can now use your AWS Step Functions workflows as tools for AI agents through Amazon Bedrock AgentCore Gateway. Your agent decides when to run a workflow and what input to pass, and Step Functions runs each step exactly as you defined it. Agents can use your existing Standard and Express workflows as tools. AWS.",
+    "benefit": "Teams using these tools can adopt or plan around this newly announced capability from the official announcement.",
+    "category": "feature"
+  },
+  "3b0895e0e0745196": {
+    "hash": "7a95a0f8adad",
+    "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in four additional AWS Regions: Europe (London) eu-west-2, Europe (Frankfurt) eu-central-1, US East (Ohio) us-east-2, and Canada (Central) ca-central-1. AWS Agent Registry is a fully managed discovery service that provides a centralized.",
+    "benefit": "Teams using these tools can adopt or plan around this newly announced capability from the official announcement.",
+    "category": "feature"
+  },
+  "63a60d5375b55a30": {
+    "hash": "55470560c200",
+    "summary": "Mage-VL-Cowork......",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "model"
+  },
+  "6750c2461412185f": {
+    "hash": "6d26dbf4966b",
+    "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+    "benefit": "Organizations evaluating AI can use this update to see what changed and whether it affects their workflows.",
+    "category": "promo"
+  },
+  "feb912e225e8e3aa": {
+    "hash": "d1a6760e1b96",
+    "summary": "Cost management for generative AI is a shared responsibility between the teams that build applications and the teams accountable for cloud spend. Many teams start by comparing per-model token rates and asking application teams to shorten prompts. Those steps help, but they don’t answer the questions that finance and.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "model"
+  },
+  "e721105ebf24bc9d": {
+    "hash": "246cef5be651",
+    "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS GovCloud (US). It also adds support for Cross-Region Inference, allowing customers to use Cross-Region Inference within AWS GovCloud (US).",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "model"
+  },
+  "52dedc30355aed7e": {
+    "hash": "a7d879b1ff78",
+    "summary": "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,... AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "model"
+  },
+  "b5bd2734bcbd8d3c": {
+    "hash": "1dd074ac8471",
+    "summary": "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces... Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "model"
+  },
+  "25cc4c9bb2e3e7e5": {
+    "hash": "48af2b816773",
+    "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "d2282bcce1625c64": {
+    "hash": "561d10dc7623",
+    "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "2d9928289658e986": {
+    "hash": "282551d51be3",
+    "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "cc85fff07433e62d": {
+    "hash": "0b952aa529df",
+    "summary": "Build a financial research assistant with Cohere on AWS.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "e827d3360a1e1147": {
+    "hash": "e00498cc2dbd",
+    "summary": "Who Gets to Build the Frontier for AI. Why the democratic world needs more frontier AI builders and how we intend to compete.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "c76597c7b3989257": {
+    "hash": "3311370c5f92",
+    "summary": "At a glance Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. To resolve this tension, we built Industry Evaluation Data.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "391b23f56ce31826": {
+    "hash": "e51a08ac2a54",
+    "summary": "Coding agents now build working web apps: a dashboard, a product page, a prototype that a product team wants to try. The fastest way to review that work is to open the app, use it, ask for a change, and check the result. That loop works well when the app keeps running where the agent edits it, so each change shows up.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "44854634469c462e": {
+    "hash": "7101da7e1478",
+    "summary": "Worldwide Express (part of ShipStation Global) had built something big: approximately $5 billion in systemwide revenue, over 75 less-than-truckload (LTL) carriers and more than 130,000 customers. But that same scale had a hidden cost. Every month, $15 million in free cash flow sat frozen, locked in billing exceptions.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "cabe8a08dfb85810": {
+    "hash": "3296bbdd6c2e",
+    "summary": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US) , providing access to OpenAI’s frontier models through two components. Work completes complex, multi-step tasks and delivers review-ready results, and Codex is a coding agent for developing, testing, and reviewing software. This.",
+    "benefit": "Teams using these tools can adopt or plan around this newly announced capability from the official announcement.",
+    "category": "feature"
+  },
+  "60e82159de5d0984": {
+    "hash": "853f8b3a7ad1",
+    "summary": "Amazon SageMaker AI inference now supports GPU partitioning, enabling you to run several models on a single GPU instead of dedicating a whole accelerator to each one. Using NVIDIA Multi-Instance GPU (MIG) technology, SageMaker AI divides a GPU into as many as seven isolated partitions, each with its own memory and.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "api"
+  },
+  "3fa519422b2c3b84": {
+    "hash": "95a7f0f0961f",
+    "summary": "The Amazon Quick User Group – United Kingdom is a community of Amazon Quick users in the United Kingdom who meet quarterly to exchange knowledge, share best practices, learn through hands-on sessions, and discuss their experiences using the service. These user groups function as collaborative forums where members.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "1fcf22f867e2d9da": {
+    "hash": "65b328d5bec4",
+    "summary": "To scale intent-driven UI testing across its product teams, Epsilon , a data, technology, and marketing-services company and part of Publicis Groupe , turned to Amazon Nova Act . With hundreds of millions of consumer profiles and thousands of brand relationships, Epsilon needed UI testing that could keep pace with.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "aa702b033bfda9cd": {
+    "hash": "fd8a49eb2b53",
+    "summary": "With the launch of AWS Batch support for Amazon SageMaker Training jobs, customers gained a new fully managed way to queue, schedule, and retry machine learning (ML) training workloads without building their own infrastructure. Instead, they use the queuing and scheduling features of AWS Batch. As organizations scale.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "954ff63a34f10211": {
+    "hash": "3bb8052a1110",
+    "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start Amazon SageMaker AI training containers in seconds, cutting GPU idle time during image pulls by up to 90%, with no.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "196ca0066afd35e5": {
+    "hash": "ec0d130cc0de",
+    "summary": "Amazon SageMaker Unified Studio now supports custom designations, named permission sets that control what actions individual project members can perform. Previously, project members could only be assigned Owner or Contributor designations, which provided nearly identical permissions. With custom designations.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "691aeb39c4445330": {
+    "hash": "2e3e4d715a23",
+    "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "5d55e9b7e8175025": {
+    "hash": "f0a888b8a14c",
+    "summary": "As IBM's Zurich Lab turns 70, director Alessandro Curioni speaks about the celebrations, his work on Algorithms & Applications, and his vision for the future.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "feature"
+  },
+  "c7606af40dbb903f": {
+    "hash": "4f2e94e56aac",
+    "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "research"
+  },
+  "05bd4a8e7e9f3076": {
+    "hash": "655c6bbd47b8",
+    "summary": "New Features Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts. ( #57221 , #57222 , #57223 , #57224 ) Rendered Markdown consistently in async questions, choices, answers, and transcript replies. ( #57259 , #57292 ) Added GPT-6.1 Terra to the.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "1eed7297f646848e": {
+    "hash": "7bfa70d80fa9",
+    "summary": "2.34.0 (2026-10-29) Features Add support for continuation_token and requires_continuation status ( daac53e ) Add support for Python 3.15. ( cb1408b ) Add video upscale task parameter ( 0456043 ) Drop support for Python 3.10 ( 2677298 ) interactions: Add automatic_continuation to interactions.create in the Python SDK.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "fc627973e586d9b0": {
+    "hash": "d3673f2b8570",
+    "summary": "Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "f9f11eb14dc07ba3": {
+    "hash": "22dababcc0d3",
+    "summary": "This will help strengthen Canada's sovereign AI capabilities through investments in talent, research, infrastructure, and commercialization.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "research"
+  },
+  "483c01c10f1188d9": {
+    "hash": "fa6769bb27cb",
+    "summary": "[1.27.0] - 2026-10-30 Added skills: Add a .NET consumer skill for building with Agent Framework ( #9651 by westey (@westey-m) ). .NET, CI: Add a script to bump the .NET release version ( #9894 by Vincent Biret (@baywet) ). Changed .NET, AgentServer: [BREAKING] Update AgentServer dependencies ( #9721 by Roger Barreto.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "77771dabca627f40": {
+    "hash": "87d10d3fe642",
+    "summary": "1.24.0 - 2026-10-30 Warning Redis context index migration: The beta RedisContextProvider now preserves exact scope identity and rejects the legacy raw-scope index schema. Delete the old context index and its context hashes, let the provider create a new index, and re-ingest the context data. overwrite_index=True does.",
+    "benefit": "Developers can adopt or plan around this newly announced capability from the official announcement.",
+    "category": "developer"
+  },
+  "c1d5df7fdedb914f": {
+    "hash": "9e40b013a570",
+    "summary": "What’s new in research? You may already be familiar with the Research Focus newsletter (opens in new tab) on LinkedIn. Now, you can catch up on highlights from across the research community at Microsoft on our social channels, YouTube, and major podcast platforms, too. In this edition of Microsoft Research Focus.",
+    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
+    "category": "research"
+  },
+  "5630b1651d0e3640": {
+    "hash": "c4ffd9573b65",
+    "summary": "typescript/v1.23.0 Auto-drafted from commits in typescript/v1.22.0..typescript/v1.23.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(models): default Bedrock maxTokens to the model info.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "c8c8ed0fab3a6ca0": {
+    "hash": "5db5a0b675d1",
+    "summary": "python/v1.63.0 Auto-drafted from commits in python/v1.62.0..python/v1.63.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(models): default Bedrock maxTokens to the model info output limit.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "360807184a6bee5e": {
+    "hash": "91301be880e3",
+    "summary": "Feature ocr: Detect page orientation for RapidOCR ( #4709 ) ( 5e72863 ) api: Add InputDocument.release() ( #3600 ) ( 761d4cf ) Fix pipeline: Drop page backend references on unload ( #5089 ) ( 544f368 ) jats: Stop rendering the literal text None in figure and table captions ( #4291 ) ( dc4693f ) md: Strip leading YAML.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "983901472b072637": {
+    "hash": "c987781b3123",
+    "summary": "When your team moves a mature PHP application to Java, you gain stronger type safety, broader library support, and more predictable scaling. A PHP codebase built over the years with Laravel, Symfony, or Doctrine carries business rules in places that are not obvious, from Eloquent traits to XML mapping files, so a.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "3dcfe747ba6ccec0": {
+    "hash": "f21566098e90",
+    "summary": "This post was co-written with Nikhil Kumar and Shakir Khan from MoEngage. When engineering teams start building AI agents, the capabilities those agents need usually already exist as internal APIs. Campaign creation, segment queries, delivery stats. The challenge isn’t building new functionality. The challenge is.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "ae8372a9c3c19778": {
+    "hash": "a0724981661c",
+    "summary": "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference... Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "efb27271ba1f1a87": {
+    "hash": "af34ed8f55a5",
+    "summary": "Claude Agent SDK (Python) v0.2.175 updates the bundled Claude CLI to version 2.1.314 and raises the PyPI project size limit guard from 50 GiB to 150 GiB to match a new PyPI quota.",
+    "benefit": "Python agent developers can upgrade to pick up the newer bundled CLI and packaging limit changes.",
+    "category": "developer"
+  },
+  "d820d0beaa384d1f": {
+    "hash": "b65875aa494b",
+    "summary": "What's changed Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode Added an optional groups list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to that upstream, on failover too.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "4584e873877a0ca6": {
+    "hash": "35d4ad415bca",
+    "summary": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(generated-ui): follow the host theme in generated views ( #15798 ) by @qqqys feat(ci): bound autofix takeover with a round budget ( #15388 ) by @wenshao feat(verify-pr): make \"re-verify after.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "137c8aa2e59f4a9e": {
+    "hash": "4df54cfcfe22",
+    "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.2 Source: CLI.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "357f64af40d07616": {
+    "hash": "b6cfca0b60ef",
+    "summary": "What's Changed fix(config): report controls that were silently dropped by @yiliang114 in #15794 docs(managed): cite the shared-Session queue decision in the gate design by @wenshao in #15797 test(managed-agent): pin HostedProcessLiveness.running on every host by @wenshao in #15791 feat(generated-ui): follow the host.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "ff868911cde047e6": {
+    "hash": "a2f5195028c4",
+    "summary": "Added /release-notes (alias /whatsnew ) browses the release notes of every Vibe version in a searchable, full-screen view. Provider option preserve_api_base = true keeps a custom api_base that /whoami would otherwise overwrite (split-horizon / proxied deployments) VIBE_TERMINAL_KEY names the terminal --continue uses.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "8f8a3ef8818c8594": {
+    "hash": "3ae2fbbacd90",
+    "summary": "harness-typescript/v0.3.3 Auto-drafted from commits in harness-typescript/v0.3.2..harness-typescript/v0.3.3 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(models): default Bedrock maxTokens.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "43da601559f4699b": {
+    "hash": "8d46a7a4efb5",
+    "summary": "harness-cli/v0.2.3 Auto-drafted from commits in harness-cli/v0.2.2..harness-cli/v0.2.3 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(sdk): add structured output attempt limits ( #4926 ) (.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "74161e994934fb76": {
+    "hash": "1da9ba68c50f",
+    "summary": "harness-typescript/v0.3.2 Auto-drafted from commits in harness-typescript/v0.3.1..harness-typescript/v0.3.2 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(sdk): add structured output.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
+    "category": "developer"
+  },
+  "160037325de80351": {
+    "hash": "05e10ca00533",
+    "summary": "harness-python/v0.3.3 Auto-drafted from commits in harness-python/v0.3.2..harness-python/v0.3.3 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(sdk): add structured output attempt limits (.",
+    "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
     "category": "developer"
   }
 }
