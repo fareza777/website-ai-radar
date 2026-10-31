@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-11-01",
+    "generatedAt": "2026-10-31T19:22:48.985Z",
+    "stats": {
+      "updates24h": 12,
+      "labsActive24h": 4,
+      "updates7d": 132,
+      "newModels7d": 28
+    },
+    "source": "template",
+    "headline": "12 updates from 4 AI labs in the last 24 hours · 28 model releases this week.",
+    "bullets": [
+      {
+        "text": "Amazon: Web Search now available on Kiro in AWS GovCloud (US)",
+        "itemId": "5350a2a8922d84d9",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+        "itemId": "feb912e225e8e3aa",
+        "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Run AI Models for Edge Application Development with Just a Few Commands",
+        "itemId": "52dedc30355aed7e",
+        "lab": "nvidia"
+      },
+      {
+        "text": "DeepSeek: dsh-superagent-prototype",
+        "itemId": "76e502c4ebad39b1",
+        "lab": "deepseek"
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "generatedAt": "2026-10-31T12:44:47.503Z",
     "stats": {

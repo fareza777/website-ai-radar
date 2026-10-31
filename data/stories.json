@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-31T12:44:47.503Z",
+  "generatedAt": "2026-10-31T19:22:48.985Z",
   "stories": [
     {
-      "id": "250e5d8f302445e7",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "id": "c6099fc8919f3d54",
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
       "entity": "GPT 6 Astra",
       "labs": [
         "openai",
         "moonshot",
         "deepseek"
       ],
-      "official": 1,
-      "press": 7,
+      "official": 2,
+      "press": 6,
       "outlets": [
         "Techzine Global",
         "Times Of AI",
@@ -24,17 +24,17 @@
         "Reuters",
         "Crypto Briefing",
         "WinBuzzer",
-        "헤럴드경제",
         "trendingtopics.eu",
+        "헤럴드경제",
         "TOKENPOST",
         "International Business Times UK"
       ],
-      "firstAt": "2026-10-26T22:00:00.000Z",
+      "firstAt": "2026-10-23T00:00:00.000Z",
       "lastAt": "2026-10-30T06:45:00.000Z",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "url": "https://openai.com/index/anima",
       "lead": {
         "kind": "official",
-        "id": "250e5d8f302445e7"
+        "id": "c6099fc8919f3d54"
       },
       "importance": 100
     },
@@ -215,12 +215,12 @@
         "BigGo Finance",
         "The Decoder",
         "TradingView",
+        "https://tech-insider.org/",
         "OrcaRouter",
-        "Startup Fortune",
-        "https://tech-insider.org/"
+        "Startup Fortune"
       ],
       "firstAt": "2026-10-27T10:01:39.000Z",
-      "lastAt": "2026-10-31T09:46:05.000Z",
+      "lastAt": "2026-10-31T00:21:11.000Z",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
       "lead": {
         "kind": "press",
@@ -236,9 +236,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 13,
+      "press": 12,
       "outlets": [
-        "HPCwire",
         "https://tech-insider.org/",
         "Robotics & Automation News",
         "Seeking Alpha",
@@ -251,14 +250,14 @@
         "Mezha.net",
         "Small Business Trends"
       ],
-      "firstAt": "2026-10-21T16:18:47.000Z",
+      "firstAt": "2026-10-22T00:42:54.000Z",
       "lastAt": "2026-10-30T16:11:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:42a742b28a5be9"
       },
-      "importance": 63
+      "importance": 62
     },
     {
       "id": "cohere:3da845eb6ca838",
@@ -345,16 +344,16 @@
         "nvidia"
       ],
       "official": 0,
-      "press": 2,
+      "press": 3,
       "outlets": [
-        "Yahoo Finance",
+        "marketscreener.com",
         "StreetInsider",
-        "Nasdaq",
-        "Investing News Network",
         "The Globe and Mail",
-        "TradingView",
+        "Investing News Network",
+        "Nasdaq",
         "PR Newswire",
-        "marketscreener.com"
+        "Yahoo Finance",
+        "TradingView"
       ],
       "firstAt": "2026-10-22T07:00:00.000Z",
       "lastAt": "2026-10-22T12:00:00.000Z",
@@ -374,47 +373,71 @@
         "qwen"
       ],
       "official": 0,
-      "press": 4,
+      "press": 5,
       "outlets": [
         "Pasquale Pillitteri",
         "tech-insider.org",
         "NewsBytes",
         "NewsCord",
-        "LatestLY"
+        "LatestLY",
+        "Medium"
       ],
       "firstAt": "2026-10-27T02:01:21.000Z",
-      "lastAt": "2026-10-27T06:07:36.000Z",
+      "lastAt": "2026-10-31T12:51:29.000Z",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkVobkxZWjdCNWQ0LThHTnVObmJkZkJMWVJoVDZvUF9nX2lQMXgtYUVwLWpVeDV1dEYwb28zYlpEdUM0Q3cxZFpoUWEwSm56VXNpVUZELXpuRGFUay1tNnN2dG9tUEJ6d3RCNkhfUkNhNXFIbzBTUTFaSkRBcE9WN25GMl9CcjEtTGc?oc=5",
       "lead": {
         "kind": "press",
         "id": "cohere:11779f23f98d5f"
       },
-      "importance": 58
+      "importance": 59
     },
     {
-      "id": "ibm:1c452e9063ca86",
-      "title": "Granite Speech 5.0 2B: what IBM shipped on 7 October",
+      "id": "zai:f0d186775253b4",
+      "title": "GLM-5.3 Hits 100% Safety Bypass, Builds Exploits [2026]",
+      "entity": "GLM 5.3",
+      "labs": [
+        "zai"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "shattered.io",
+        "Crypto Briefing",
+        "Technology Org",
+        "ET CISO"
+      ],
+      "firstAt": "2026-10-26T07:00:00.000Z",
+      "lastAt": "2026-10-31T02:31:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4yeUk3T0hqZXNtZEVjODlzUmY4aFk4ejhUNjdFVW5vVmdkeGtMZmgzdFJiVm5VeXNLSUFHQXR5TGlfcWFTbWdVcjhxazJLMGwzNFhsTlgzaE9SQWRCYjFacVNqazVLYmkyOU1wdHpXelh6ZDg4Uk1KMA?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "zai:f0d186775253b4"
+      },
+      "importance": 56
+    },
+    {
+      "id": "ibm:a927dd7610a0e1",
+      "title": "IBM has released its voice AI 'Granite Speech 5.0' as open source, which can transcribe text with high accuracy even in noisy environments and has enhanced AI for identifying conversations involving multiple people.",
       "entity": "Granite 5.0",
       "labs": [
         "ibm"
       ],
       "official": 0,
-      "press": 5,
+      "press": 4,
       "outlets": [
-        "OrcaRouter",
         "GIGAZINE",
         "MarkTechPost",
         "TUN - The University Network",
         "NeoTeo"
       ],
-      "firstAt": "2026-10-21T16:56:11.000Z",
+      "firstAt": "2026-10-22T05:20:08.000Z",
       "lastAt": "2026-10-24T03:21:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94Z0FQZERFY3c2Z3hOcmlmRzlqaW03Mzd4NVF3N0hva2ZCNy1ZV3Z4WkRkNGVPNUZrNzcyMkRIQmFyYUdiU1FzTDFjQXc3aUpVSDRhOENNSGFYZ0pOM2prSkxEQ3VzbHNManZTZW9ySQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLUjdtTHRYdjl0VC1LbUZtRlhMc3Q2RDcxR0ZxTUZDQUE3aFZVaWNZcDI0d05DN3FhNWV1VjdPeEx6UVl4bHJ1aWpmZnF2OUQyX25yQWxRRWlwOHVIZXByOG9GSXlZSjZJaUhhRkZmRmxZZDg?oc=5",
       "lead": {
         "kind": "press",
-        "id": "ibm:1c452e9063ca86"
+        "id": "ibm:a927dd7610a0e1"
       },
-      "importance": 57
+      "importance": 56
     },
     {
       "id": "mistral:ed0f6d4e9a99cc",
@@ -464,12 +487,6 @@
         "labs": []
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 9,
-        "prev": 18,
-        "labs": []
-      },
-      {
         "name": "Qwen 3.8",
         "count": 7,
         "prev": 1,
@@ -484,6 +501,18 @@
         "labs": []
       },
       {
+        "name": "Gemini 4 Argon",
+        "count": 7,
+        "prev": 19,
+        "labs": []
+      },
+      {
+        "name": "Qwen 3.8 Flash",
+        "count": 6,
+        "prev": 1,
+        "labs": []
+      },
+      {
         "name": "GPT 6.1 Terra",
         "count": 5,
         "prev": 0,
@@ -491,12 +520,6 @@
           "openai",
           "amazon"
         ]
-      },
-      {
-        "name": "Qwen 3.8 Flash",
-        "count": 5,
-        "prev": 1,
-        "labs": []
       },
       {
         "name": "Mistral Large 4 Open",
@@ -511,18 +534,24 @@
         "labs": [
           "openai"
         ]
+      },
+      {
+        "name": "GLM 5.3",
+        "count": 3,
+        "prev": 2,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 40,
-        "prev": 50,
+        "count": 39,
+        "prev": 51,
         "labs": [
           "anthropic",
-          "openai",
           "deepseek",
           "meta",
+          "openai",
           "mistral",
           "qwen",
           "microsoft",
@@ -533,12 +562,12 @@
       },
       {
         "name": "coding",
-        "count": 38,
-        "prev": 41,
+        "count": 36,
+        "prev": 43,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "minimax",
           "mistral",
           "cohere",
@@ -567,12 +596,12 @@
         "count": 8,
         "prev": 10,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
           "baidu",
-          "tencent",
           "microsoft",
+          "tencent",
           "amazon",
           "ibm",
           "nvidia"
@@ -583,8 +612,8 @@
         "count": 4,
         "prev": 6,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
           "amazon",
           "ibm",
@@ -606,19 +635,6 @@
         ]
       },
       {
-        "name": "reasoning",
-        "count": 3,
-        "prev": 7,
-        "labs": [
-          "openai",
-          "meta",
-          "mistral",
-          "cohere",
-          "tencent",
-          "amazon"
-        ]
-      },
-      {
         "name": "rag",
         "count": 3,
         "prev": 5,
@@ -627,6 +643,19 @@
           "cohere",
           "amazon",
           "nvidia"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 3,
+        "prev": 7,
+        "labs": [
+          "meta",
+          "openai",
+          "mistral",
+          "cohere",
+          "tencent",
+          "amazon"
         ]
       }
     ]
@@ -647,6 +676,20 @@
       ],
       "reports": 6,
       "at": "2026-10-29T17:00:00.000Z"
+    },
+    {
+      "id": "mistral:dde922099b14be",
+      "lab": "mistral",
+      "title": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XcVRkZU9oekdPekFMUWNQM1pyb2JmMEtOQm81ZnVyWW9MWjhEMk5yTkpOdzYzUW9Ob0Ftd1BGNXN6WkFqZnktSnRxMzN6WkhWaHlrT0pLMDAwZjM3azNLRVNXc2VFV0s4Mnp3X2w5cVVmZw?oc=5",
+      "outlets": [
+        "Online Tech Tips",
+        "KuCoin",
+        "ForkLog",
+        "The Next Web"
+      ],
+      "reports": 4,
+      "at": "2026-10-29T13:18:58.000Z"
     },
     {
       "id": "moonshot:978e3a0529da0a",

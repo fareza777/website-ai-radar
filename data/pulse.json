@@ -1,5 +1,16 @@
 [
   {
+    "id": "50289418",
+    "title": "We're releasing the weights of Mistral Large 4",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50289418",
+    "points": 1705,
+    "comments": 438,
+    "at": "2026-10-29T14:13:21Z",
+    "lab": "mistral",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z"
+  },
+  {
     "id": "50242939",
     "title": "Anthropic S-1",
     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
@@ -9,17 +20,6 @@
     "at": "2026-10-26T13:04:50Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
-  },
-  {
-    "id": "50289418",
-    "title": "We're releasing the weights of Mistral Large 4",
-    "url": "https://mistral.ai/news/mistral-large-4-oss/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50289418",
-    "points": 1695,
-    "comments": 436,
-    "at": "2026-10-29T14:13:21Z",
-    "lab": "mistral",
-    "firstSeenAt": "2026-10-29T18:32:11.922Z"
   },
   {
     "id": "50251344",
@@ -59,8 +59,8 @@
     "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
     "hnUrl": "https://news.ycombinator.com/item?id=50300683",
-    "points": 917,
-    "comments": 535,
+    "points": 959,
+    "comments": 544,
     "at": "2026-10-30T07:09:12Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
@@ -81,7 +81,7 @@
     "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
     "url": "https://divagr.com/blog/qwenputer",
     "hnUrl": "https://news.ycombinator.com/item?id=50282838",
-    "points": 698,
+    "points": 699,
     "comments": 145,
     "at": "2026-10-29T00:25:45Z",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
@@ -119,6 +119,16 @@
     "firstSeenAt": "2026-10-26T20:35:11.061Z"
   },
   {
+    "id": "50290177",
+    "title": "LLM Voice",
+    "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+    "hnUrl": "https://news.ycombinator.com/item?id=50290177",
+    "points": 604,
+    "comments": 333,
+    "at": "2026-10-29T14:57:55Z",
+    "firstSeenAt": "2026-10-29T18:32:11.922Z"
+  },
+  {
     "id": "50260814",
     "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
     "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
@@ -130,21 +140,11 @@
     "firstSeenAt": "2026-10-27T22:22:25.706Z"
   },
   {
-    "id": "50290177",
-    "title": "LLM Voice",
-    "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-    "hnUrl": "https://news.ycombinator.com/item?id=50290177",
-    "points": 598,
-    "comments": 329,
-    "at": "2026-10-29T14:57:55Z",
-    "firstSeenAt": "2026-10-29T18:32:11.922Z"
-  },
-  {
     "id": "50284255",
     "title": "Claude Code regularly sends each background agent’s transcript to its model",
     "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
     "hnUrl": "https://news.ycombinator.com/item?id=50284255",
-    "points": 583,
+    "points": 584,
     "comments": 235,
     "at": "2026-10-29T03:33:42Z",
     "lab": "anthropic",
@@ -176,8 +176,8 @@
     "title": "We ran AI agent swarms in Minecraft and Mindustry",
     "url": "https://labs.ycombinator.com/projects/games/index.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50296486",
-    "points": 403,
-    "comments": 166,
+    "points": 411,
+    "comments": 167,
     "at": "2026-10-29T21:40:28Z",
     "firstSeenAt": "2026-10-30T01:07:35.891Z"
   },
@@ -238,7 +238,7 @@
     "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
     "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
     "hnUrl": "https://news.ycombinator.com/item?id=50288019",
-    "points": 337,
+    "points": 338,
     "comments": 245,
     "at": "2026-10-29T12:41:56Z",
     "lab": "google-deepmind",
@@ -260,11 +260,22 @@
     "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
     "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
     "hnUrl": "https://news.ycombinator.com/item?id=50307219",
-    "points": 311,
-    "comments": 261,
+    "points": 322,
+    "comments": 274,
     "at": "2026-10-30T17:27:25Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
+  },
+  {
+    "id": "50306442",
+    "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+    "url": "https://github.com/dbreunig/nesformer",
+    "hnUrl": "https://news.ycombinator.com/item?id=50306442",
+    "points": 280,
+    "comments": 141,
+    "at": "2026-10-30T16:40:22Z",
+    "lab": "qwen",
+    "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
   {
     "id": "50295450",
@@ -275,6 +286,17 @@
     "comments": 19,
     "at": "2026-10-29T20:32:28Z",
     "firstSeenAt": "2026-10-30T01:07:35.891Z"
+  },
+  {
+    "id": "50314699",
+    "title": "Do the math: How we took over ChatGPT accounts",
+    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+    "hnUrl": "https://news.ycombinator.com/item?id=50314699",
+    "points": 265,
+    "comments": 120,
+    "at": "2026-10-31T10:30:11Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-31T19:22:48.985Z"
   },
   {
     "id": "50275626",
@@ -296,17 +318,6 @@
     "at": "2026-10-26T17:32:16Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-26T20:35:11.061Z"
-  },
-  {
-    "id": "50306442",
-    "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-    "url": "https://github.com/dbreunig/nesformer",
-    "hnUrl": "https://news.ycombinator.com/item?id=50306442",
-    "points": 260,
-    "comments": 127,
-    "at": "2026-10-30T16:40:22Z",
-    "lab": "qwen",
-    "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
   {
     "id": "50238739",
@@ -340,6 +351,16 @@
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
   },
   {
+    "id": "50316531",
+    "title": "Malware uses LLMs to rank victims by how much they're worth",
+    "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50316531",
+    "points": 193,
+    "comments": 102,
+    "at": "2026-10-31T14:29:03Z",
+    "firstSeenAt": "2026-10-31T19:22:48.985Z"
+  },
+  {
     "id": "50228167",
     "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
     "url": "https://github.com/slee-persis/GVS5H",
@@ -371,6 +392,17 @@
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
   },
   {
+    "id": "50312922",
+    "title": "OpenAI raises less than half of $30B target",
+    "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+    "hnUrl": "https://news.ycombinator.com/item?id=50312922",
+    "points": 175,
+    "comments": 173,
+    "at": "2026-10-31T03:22:44Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-31T05:55:30.561Z"
+  },
+  {
     "id": "50246238",
     "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
     "url": "https://github.com/FrigadeHQ/hob",
@@ -393,22 +425,11 @@
     "firstSeenAt": "2026-10-29T00:04:43.850Z"
   },
   {
-    "id": "50312922",
-    "title": "OpenAI raises less than half of $30B target",
-    "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-    "hnUrl": "https://news.ycombinator.com/item?id=50312922",
-    "points": 159,
-    "comments": 149,
-    "at": "2026-10-31T03:22:44Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-31T05:55:30.561Z"
-  },
-  {
     "id": "50297697",
     "title": "Show HN: I Turned DOOM into a Transformer",
     "url": "https://github.com/mottopanikeiku/doomformer",
     "hnUrl": "https://news.ycombinator.com/item?id=50297697",
-    "points": 127,
+    "points": 129,
     "comments": 36,
     "at": "2026-10-29T23:25:46Z",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -418,7 +439,7 @@
     "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
     "url": "https://fig.blue/posts/duet-is-the-future/",
     "hnUrl": "https://news.ycombinator.com/item?id=50292727",
-    "points": 124,
+    "points": 125,
     "comments": 139,
     "at": "2026-10-29T17:24:25Z",
     "lab": "anthropic",
@@ -429,11 +450,33 @@
     "title": "Anthropic Cracking Down on Video Game Rewrites",
     "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
     "hnUrl": "https://news.ycombinator.com/item?id=50304358",
-    "points": 109,
-    "comments": 105,
+    "points": 121,
+    "comments": 123,
     "at": "2026-10-30T14:22:52Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
+  },
+  {
+    "id": "50305797",
+    "title": "Sam Altman Thinks You're Wasting DRAM",
+    "url": "https://frvr.com/blog/news/openai-ceo-sam-altman-says-its-terrible-to-have-everybody-have-a-bunch-of-the-worlds-limited-supply-of-dram-instead-of-shoving-it-all-in-datacentres/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50305797",
+    "points": 99,
+    "comments": 104,
+    "at": "2026-10-30T15:58:39Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-31T00:01:49.750Z"
+  },
+  {
+    "id": "50311311",
+    "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
+    "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50311311",
+    "points": 98,
+    "comments": 72,
+    "at": "2026-10-30T23:08:12Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
   {
     "id": "50254836",
@@ -478,36 +521,25 @@
     "firstSeenAt": "2026-10-25T16:31:46.241Z"
   },
   {
-    "id": "50311311",
-    "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
-    "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50311311",
-    "points": 90,
-    "comments": 69,
-    "at": "2026-10-30T23:08:12Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-31T05:55:30.561Z"
-  },
-  {
-    "id": "50305797",
-    "title": "Sam Altman Thinks You're Wasting DRAM",
-    "url": "https://frvr.com/blog/news/openai-ceo-sam-altman-says-its-terrible-to-have-everybody-have-a-bunch-of-the-worlds-limited-supply-of-dram-instead-of-shoving-it-all-in-datacentres/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50305797",
-    "points": 89,
-    "comments": 97,
-    "at": "2026-10-30T15:58:39Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-31T00:01:49.750Z"
-  },
-  {
     "id": "50291116",
     "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
     "url": "https://news.ycombinator.com/item?id=50291116",
     "hnUrl": "https://news.ycombinator.com/item?id=50291116",
     "points": 77,
-    "comments": 35,
+    "comments": 36,
     "at": "2026-10-29T15:56:32Z",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
+    "id": "50315990",
+    "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+    "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+    "hnUrl": "https://news.ycombinator.com/item?id=50315990",
+    "points": 74,
+    "comments": 18,
+    "at": "2026-10-31T13:25:10Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-10-31T19:22:48.985Z"
   },
   {
     "id": "50238620",
