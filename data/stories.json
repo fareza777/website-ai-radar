@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T00:01:49.750Z",
+  "generatedAt": "2026-10-31T05:55:30.561Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -25,6 +25,7 @@
         "Crypto Briefing",
         "WinBuzzer",
         "헤럴드경제",
+        "trendingtopics.eu",
         "TOKENPOST",
         "International Business Times UK"
       ],
@@ -195,36 +196,6 @@
       "importance": 68
     },
     {
-      "id": "nvidia:058c6ca6c7a58e",
-      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
-      "entity": "Nemotron 3.5 Transcribe",
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 6,
-      "outlets": [
-        "AI Insider",
-        "SQ Magazine",
-        "The Next Web",
-        "BigGo Finance",
-        "shattered.io",
-        "The Decoder",
-        "TradingView",
-        "OrcaRouter",
-        "Startup Fortune",
-        "HackerNoon"
-      ],
-      "firstAt": "2026-10-27T10:01:39.000Z",
-      "lastAt": "2026-10-30T05:34:07.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:058c6ca6c7a58e"
-      },
-      "importance": 62
-    },
-    {
       "id": "google-deepmind:42a742b28a5be9",
       "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
       "entity": "Gemini 4 Argon",
@@ -232,7 +203,7 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 12,
+      "press": 13,
       "outlets": [
         "HPCwire",
         "https://tech-insider.org/",
@@ -244,14 +215,46 @@
         "i-programmer.info",
         "9to5Google",
         "TechRadar",
-        "Mezha.net"
+        "Mezha.net",
+        "Small Business Trends"
       ],
       "firstAt": "2026-10-21T16:18:47.000Z",
-      "lastAt": "2026-10-27T15:25:27.000Z",
+      "lastAt": "2026-10-30T16:11:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:42a742b28a5be9"
+      },
+      "importance": 63
+    },
+    {
+      "id": "nvidia:058c6ca6c7a58e",
+      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
+      "entity": "Nemotron 3.5 Transcribe",
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "AI Insider",
+        "SQ Magazine",
+        "The Next Web",
+        "BigGo Finance",
+        "shattered.io",
+        "The Decoder",
+        "TradingView",
+        "HackerNoon",
+        "TUN - The University Network",
+        "OrcaRouter",
+        "Startup Fortune"
+      ],
+      "firstAt": "2026-10-27T10:01:39.000Z",
+      "lastAt": "2026-10-31T00:21:11.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:058c6ca6c7a58e"
       },
       "importance": 62
     },
@@ -471,7 +474,7 @@
       },
       {
         "name": "GPT 6 Astra",
-        "count": 14,
+        "count": 15,
         "prev": 0,
         "labs": [
           "openai"
@@ -479,20 +482,20 @@
       },
       {
         "name": "Nemotron 3.5 Transcribe",
-        "count": 8,
+        "count": 9,
         "prev": 0,
         "labs": []
       },
       {
         "name": "Gemini 4 Argon",
-        "count": 8,
-        "prev": 20,
+        "count": 9,
+        "prev": 18,
         "labs": []
       },
       {
         "name": "Qwen 3.8",
         "count": 7,
-        "prev": 2,
+        "prev": 1,
         "labs": [
           "amazon"
         ]
@@ -525,12 +528,6 @@
         "labs": []
       },
       {
-        "name": "Nemotron 3.5 Bolt",
-        "count": 3,
-        "prev": 0,
-        "labs": []
-      },
-      {
         "name": "GPT 6.1 Sol",
         "count": 3,
         "prev": 1,
@@ -543,7 +540,7 @@
       {
         "name": "agents",
         "count": 39,
-        "prev": 49,
+        "prev": 50,
         "labs": [
           "anthropic",
           "openai",
@@ -558,16 +555,16 @@
       },
       {
         "name": "coding",
-        "count": 37,
-        "prev": 40,
+        "count": 38,
+        "prev": 41,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
-          "cohere",
+          "minimax",
           "qwen",
+          "cohere",
           "microsoft",
           "amazon",
           "ibm",
@@ -579,8 +576,8 @@
         "count": 9,
         "prev": 10,
         "labs": [
-          "anthropic",
           "xai",
+          "anthropic",
           "openai",
           "mistral",
           "amazon",
@@ -590,15 +587,14 @@
       {
         "name": "multimodal",
         "count": 8,
-        "prev": 12,
+        "prev": 11,
         "labs": [
-          "deepseek",
           "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
-          "tencent",
+          "minimax",
           "baidu",
+          "tencent",
           "microsoft",
           "amazon",
           "ibm",
@@ -624,8 +620,8 @@
         "prev": 6,
         "labs": [
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "amazon",
           "ibm",
@@ -674,6 +670,20 @@
       ],
       "reports": 6,
       "at": "2026-10-29T17:00:00.000Z"
+    },
+    {
+      "id": "nvidia:c2540016d1759e",
+      "lab": "nvidia",
+      "title": "Nvidia Releases Open Nemotron 3.5 Transcribe Model for 40 Languages",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kM2FUNzhEYVZyczlwQ3E3azQ1RExOdzlVeE1Ia0Fua19WbGNndGozSEFYT0ZSNDdTOTFhckI5djItR2Mtb2MwY3pCcHQ0ZDc5ZTUwQVg5RllDb0tmTDNCYkVKbXMxQ3F0akx4ejJ6eWRhaXdJLXc?oc=5",
+      "outlets": [
+        "HackerNoon",
+        "TUN - The University Network",
+        "SQ Magazine",
+        "AI Insider"
+      ],
+      "reports": 4,
+      "at": "2026-10-28T16:49:26.000Z"
     },
     {
       "id": "moonshot:978e3a0529da0a",

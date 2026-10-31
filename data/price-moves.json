@@ -1,5 +1,49 @@
 [
   {
+    "id": "dca773bbf161df0a",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-31T05:55:30.561Z",
+    "field": "prompt",
+    "from": 0.95526,
+    "to": 1.6,
+    "change": 67.5
+  },
+  {
+    "id": "d0e6ef03b443eb0d",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-10-31T05:55:30.561Z",
+    "field": "completion",
+    "from": 1.91052,
+    "to": 3.2,
+    "change": 67.5
+  },
+  {
+    "id": "6afbba88bdec6ec1",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-31T05:55:30.561Z",
+    "field": "prompt",
+    "from": 0.0765,
+    "to": 0.0675,
+    "change": -11.8
+  },
+  {
+    "id": "4dbb1cadc2d4be49",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-10-31T05:55:30.561Z",
+    "field": "completion",
+    "from": 0.255,
+    "to": 0.225,
+    "change": -11.8
+  },
+  {
     "id": "801a069c9027a3d9",
     "modelId": "particle-ai/particle-1",
     "name": "Particle AI: Particle-1",

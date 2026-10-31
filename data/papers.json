@@ -6,7 +6,7 @@
     "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 237,
+    "upvotes": 239,
     "org": "inclusionai",
     "githubRepo": "https://github.com/inclusionAI/IDM",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -18,7 +18,7 @@
     "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on…",
     "publishedAt": "2026-10-28T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 150,
+    "upvotes": 151,
     "org": "xiaomi-research",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
@@ -35,6 +35,18 @@
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
   },
   {
+    "id": "2610.39301",
+    "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+    "url": "https://huggingface.co/papers/2610.39301",
+    "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 121,
+    "org": "tencent",
+    "lab": "tencent",
+    "firstSeenAt": "2026-10-30T10:10:53.380Z"
+  },
+  {
     "id": "2610.36671",
     "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
     "url": "https://huggingface.co/papers/2610.36671",
@@ -47,25 +59,13 @@
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
   },
   {
-    "id": "2610.39301",
-    "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
-    "url": "https://huggingface.co/papers/2610.39301",
-    "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text…",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 55,
-    "org": "tencent",
-    "lab": "tencent",
-    "firstSeenAt": "2026-10-30T10:10:53.380Z"
-  },
-  {
     "id": "2610.39302",
     "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
     "url": "https://huggingface.co/papers/2610.39302",
     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 54,
     "org": "galilai-group",
     "githubRepo": "https://github.com/galilai-group/prh-proof",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
@@ -139,7 +139,7 @@
     "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 199,
+    "upvotes": 215,
     "org": "thu-ml",
     "githubRepo": "https://github.com/JusperLee/Falcon",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
@@ -151,10 +151,21 @@
     "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 77,
+    "upvotes": 84,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/justin4ai/OmniShowcase",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
+  },
+  {
+    "id": "2610.37230",
+    "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+    "url": "https://huggingface.co/papers/2610.37230",
+    "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling…",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "submittedAt": "2026-10-29T00:00:00.000Z",
+    "upvotes": 45,
+    "org": "aior-research",
+    "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
   {
     "id": "2610.36077",
@@ -270,7 +281,7 @@
     "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 88,
+    "upvotes": 89,
     "org": "agibot-world",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
   },
@@ -604,7 +615,7 @@
     "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) improves reasoning in language models, but scalar outcomes provide coarse supervision over response trajectories. Self-distillation offers denser token-level guidance by comparing an unassisted policy with a feedback-informed self-teacher, yet the teacher evolves with the student, creating unstable targets and motivating additional regularization. We introduce…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 140,
+    "upvotes": 142,
     "org": "iitk",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
   },
@@ -665,7 +676,7 @@
     "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 45,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
