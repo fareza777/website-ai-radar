@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T05:55:30.561Z",
+  "generatedAt": "2026-10-31T12:44:47.503Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -73,6 +73,7 @@
         "Wichita Eagle",
         "Reuters",
         "SiliconANGLE",
+        "CyberSecurityNews",
         "VentureBeat",
         "Anadolu Ajansı",
         "Türkiye Today",
@@ -196,6 +197,38 @@
       "importance": 68
     },
     {
+      "id": "nvidia:c2540016d1759e",
+      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
+      "entity": "Nemotron 3.5 Transcribe",
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "HackerNoon",
+        "TUN - The University Network",
+        "SQ Magazine",
+        "AI Insider",
+        "shattered.io",
+        "The Next Web",
+        "BigGo Finance",
+        "The Decoder",
+        "TradingView",
+        "OrcaRouter",
+        "Startup Fortune",
+        "https://tech-insider.org/"
+      ],
+      "firstAt": "2026-10-27T10:01:39.000Z",
+      "lastAt": "2026-10-31T09:46:05.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:c2540016d1759e"
+      },
+      "importance": 63
+    },
+    {
       "id": "google-deepmind:42a742b28a5be9",
       "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
       "entity": "Gemini 4 Argon",
@@ -226,37 +259,6 @@
         "id": "google-deepmind:42a742b28a5be9"
       },
       "importance": 63
-    },
-    {
-      "id": "nvidia:058c6ca6c7a58e",
-      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
-      "entity": "Nemotron 3.5 Transcribe",
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 7,
-      "outlets": [
-        "AI Insider",
-        "SQ Magazine",
-        "The Next Web",
-        "BigGo Finance",
-        "shattered.io",
-        "The Decoder",
-        "TradingView",
-        "HackerNoon",
-        "TUN - The University Network",
-        "OrcaRouter",
-        "Startup Fortune"
-      ],
-      "firstAt": "2026-10-27T10:01:39.000Z",
-      "lastAt": "2026-10-31T00:21:11.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:058c6ca6c7a58e"
-      },
-      "importance": 62
     },
     {
       "id": "cohere:3da845eb6ca838",
@@ -354,9 +356,9 @@
         "PR Newswire",
         "marketscreener.com"
       ],
-      "firstAt": "2026-10-22T12:00:00.000Z",
+      "firstAt": "2026-10-22T07:00:00.000Z",
       "lastAt": "2026-10-22T12:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZVltOHJCVFA0OHNKd0pfZzE1NXF0SGY4MzZaUy0zMTJuXzIyNi1ObHk5eXp2UjhCLUdxaWJzdlZWOVloRlN6dUVjSElrZk1jdlNkMTIycHhwcE5DX2RNalZCaWx5elFzMUZNLXMtT3Fpb2JCWnVrQW9RbE9TOXBpYWdwUFluZ0tjT05vTGlERjB6bGZMMTMtdUszMFZHRHBNMi1RTXF4V0tWc3NLd18tRmJ3Wk00UnhDRk9BSWpR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR0wxdGhfN0ptYWVBb3h3WnIybmJvb1VmQzZTVHhBenFQeHowRVNxbWNPUW1lM09HY25Kb1dLME51TE9pV2lzUC11cl9zbVRTbEg4RnZyQ1FxTG15d1pqbXQ2Ni1WLTJSNFktM1haUUZiUlpmMW1aUTZxX2xOanQ0YmZLeFNiaWMxeTZTUGpub2lTYWdsRjdQVmtvMy1TVzA5b2Y2V0l0N0FQd2kyNUxVd3NPVQ?oc=5",
       "lead": {
         "kind": "press",
         "id": "nvidia:b0f023eb8b2a0a"
@@ -388,31 +390,6 @@
         "id": "cohere:11779f23f98d5f"
       },
       "importance": 58
-    },
-    {
-      "id": "nvidia:1bf067743e1fb3",
-      "title": "Cassava AI deploys NVIDIA Nemotron to accelerate agentic AI adoption across its markets",
-      "entity": null,
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 3,
-      "outlets": [
-        "Telecompaper",
-        "Liquid Intelligent Technologies",
-        "TradingView",
-        "Cyprus Shipping News",
-        "Konsulteer"
-      ],
-      "firstAt": "2026-10-21T11:06:10.000Z",
-      "lastAt": "2026-10-26T03:48:22.000Z",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUWh5Zmc3UXRpejA3MmowbURjbm5tZXB5X3Zkai0zR0t0TWN6NXB6aGRyRUdCWmZibG0zNE40UXdzaFE1WTVMLUxTVHZYd1p3NDFZRkM2Y284UzNQR3lVNEF1LXB0UHZadXF4QXk1UUFxaHVRWWJ0dGplNDM5NkYyMkxZV3ZhVmVXdnJTSHJLX1lZYjFyWmlhTnVGT0xiNl9VcE5VM0lB?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:1bf067743e1fb3"
-      },
-      "importance": 57
     },
     {
       "id": "ibm:1c452e9063ca86",
@@ -482,7 +459,7 @@
       },
       {
         "name": "Nemotron 3.5 Transcribe",
-        "count": 9,
+        "count": 10,
         "prev": 0,
         "labs": []
       },
@@ -539,11 +516,12 @@
     "topics": [
       {
         "name": "agents",
-        "count": 39,
+        "count": 40,
         "prev": 50,
         "labs": [
           "anthropic",
           "openai",
+          "deepseek",
           "meta",
           "mistral",
           "qwen",
@@ -559,12 +537,12 @@
         "prev": 41,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
-          "mistral",
+          "google-deepmind",
           "minimax",
-          "qwen",
+          "mistral",
           "cohere",
+          "qwen",
           "microsoft",
           "amazon",
           "ibm",
@@ -576,8 +554,8 @@
         "count": 9,
         "prev": 10,
         "labs": [
-          "xai",
           "anthropic",
+          "xai",
           "openai",
           "mistral",
           "amazon",
@@ -587,12 +565,11 @@
       {
         "name": "multimodal",
         "count": 8,
-        "prev": 11,
+        "prev": 10,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "mistral",
-          "minimax",
           "baidu",
           "tencent",
           "microsoft",
@@ -606,8 +583,8 @@
         "count": 4,
         "prev": 6,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "mistral",
           "amazon",
           "ibm",
@@ -620,8 +597,8 @@
         "prev": 6,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "amazon",
           "ibm",
@@ -670,20 +647,6 @@
       ],
       "reports": 6,
       "at": "2026-10-29T17:00:00.000Z"
-    },
-    {
-      "id": "nvidia:c2540016d1759e",
-      "lab": "nvidia",
-      "title": "Nvidia Releases Open Nemotron 3.5 Transcribe Model for 40 Languages",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kM2FUNzhEYVZyczlwQ3E3azQ1RExOdzlVeE1Ia0Fua19WbGNndGozSEFYT0ZSNDdTOTFhckI5djItR2Mtb2MwY3pCcHQ0ZDc5ZTUwQVg5RllDb0tmTDNCYkVKbXMxQ3F0akx4ejJ6eWRhaXdJLXc?oc=5",
-      "outlets": [
-        "HackerNoon",
-        "TUN - The University Network",
-        "SQ Magazine",
-        "AI Insider"
-      ],
-      "reports": 4,
-      "at": "2026-10-28T16:49:26.000Z"
     },
     {
       "id": "moonshot:978e3a0529da0a",

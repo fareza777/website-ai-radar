@@ -6,7 +6,7 @@
     "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 239,
+    "upvotes": 241,
     "org": "inclusionai",
     "githubRepo": "https://github.com/inclusionAI/IDM",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -18,7 +18,7 @@
     "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on…",
     "publishedAt": "2026-10-28T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 151,
+    "upvotes": 152,
     "org": "xiaomi-research",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
@@ -29,7 +29,7 @@
     "summary": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered…",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 140,
+    "upvotes": 141,
     "org": "uiuc-cs",
     "githubRepo": "https://github.com/ASTRAL-Group/benchmark-difficulty-measure",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -41,7 +41,7 @@
     "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 121,
+    "upvotes": 138,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -53,7 +53,7 @@
     "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 91,
+    "upvotes": 95,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/hyeon9698/LOWN",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -65,7 +65,7 @@
     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 54,
+    "upvotes": 56,
     "org": "galilai-group",
     "githubRepo": "https://github.com/galilai-group/prh-proof",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
@@ -115,7 +115,7 @@
     "summary": "Weight-normalized (WN) training is emerging as a compelling alternative to conventional weight decay (WD), with recent studies reporting substantial pretraining loss gains. We show that these gains are driven primarily by the induced effective learning rate (ELR) trajectory rather than by normalization alone. Matching ELR trajectories largely collapses the training loss dynamics of WN and WD. Schedule design should…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 3,
+    "upvotes": 4,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -139,7 +139,7 @@
     "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 215,
+    "upvotes": 227,
     "org": "thu-ml",
     "githubRepo": "https://github.com/JusperLee/Falcon",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
@@ -151,7 +151,7 @@
     "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 84,
+    "upvotes": 95,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/justin4ai/OmniShowcase",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
@@ -163,9 +163,21 @@
     "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 54,
     "org": "aior-research",
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
+  },
+  {
+    "id": "2610.31670",
+    "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+    "url": "https://huggingface.co/papers/2610.31670",
+    "summary": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-10-29T00:00:00.000Z",
+    "upvotes": 41,
+    "org": "riceuniversity",
+    "githubRepo": "https://github.com/yunfeixie233/sensorimotor-alignment",
+    "firstSeenAt": "2026-10-31T12:44:47.503Z"
   },
   {
     "id": "2610.36077",
@@ -198,7 +210,7 @@
     "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 382,
+    "upvotes": 384,
     "org": "iquestlab",
     "githubRepo": "https://github.com/IQuestLab/Multiscale-Policy-Optimization",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
@@ -221,7 +233,7 @@
     "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 157,
+    "upvotes": 158,
     "org": "uiuc-cs",
     "githubRepo": "https://github.com/hexuan21/MemoryTax",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -292,7 +304,7 @@
     "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 83,
+    "upvotes": 84,
     "org": "meituan-longcat",
     "githubRepo": "https://github.com/hustvl/FVQ",
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
@@ -304,7 +316,7 @@
     "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 57,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -351,7 +363,7 @@
     "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Notably, in…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 28,
+    "upvotes": 29,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
@@ -579,7 +591,7 @@
     "summary": "Language model agents often abandon correct work when a user challenges it, yet simply telling them to stand firm makes them ignore real mistakes. Once an agent reads a complaint, it tends to discount its own earlier checks in order to agree with the user. We introduce Thinking-in-Bets, a training-free method in which an agent writes a short private record of its main claims, the checks supporting them, and its…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-27T00:00:00.000Z",
-    "upvotes": 19,
+    "upvotes": 20,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-27T15:25:14.259Z"
@@ -615,7 +627,7 @@
     "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) improves reasoning in language models, but scalar outcomes provide coarse supervision over response trajectories. Self-distillation offers denser token-level guidance by comparing an unassisted policy with a feedback-informed self-teacher, yet the teacher evolves with the student, creating unstable targets and motivating additional regularization. We introduce…",
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 142,
+    "upvotes": 146,
     "org": "iitk",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
   },
@@ -638,7 +650,7 @@
     "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizon autonomy or…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 57,
+    "upvotes": 59,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Andytonglove/HiSTEVE-1.0",
@@ -651,7 +663,7 @@
     "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 56,
     "org": "alibaba-damo-academy",
     "githubRepo": "https://github.com/alibaba-damo-academy/RynnUnify",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
@@ -663,7 +675,7 @@
     "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 50,
     "org": "bytedance",
     "lab": "bytedance",
     "githubRepo": "https://github.com/simple-agent-lab/RSIHub",
