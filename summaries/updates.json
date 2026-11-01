@@ -3322,5 +3322,29 @@
     "summary": "harness-python/v0.3.3 Auto-drafted from commits in harness-python/v0.3.2..harness-python/v0.3.3 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(sdk): add structured output attempt limits (.",
     "benefit": "Developers can use this update to see what changed and whether it affects their workflows.",
     "category": "developer"
+  },
+  "76e502c4ebad39b1": {
+    "hash": "a3a27b7ae0d7",
+    "summary": "DeepSeek published dsh-superagent-prototype on GitHub with the subtitle Towards a More Autonomous Agent System.",
+    "benefit": "Developers exploring harness-style agents can read the research prototype and adapt it in their own environment.",
+    "category": "developer"
+  },
+  "d6ee244f1f3a6311": {
+    "hash": "2f1891d65517",
+    "summary": "Claude Agent SDK (Python) v0.2.176 updates the bundled Claude CLI to version 2.1.316.",
+    "benefit": "Python SDK users installing v0.2.176 get CLI 2.1.316 aligned with that release.",
+    "category": "developer"
+  },
+  "1ac62f843edf24f0": {
+    "hash": "78509305da5a",
+    "summary": "Claude Code v2.1.316 adds CLAUDE_CODE_DISABLE_ULTRATHINK, pooled group budgets on the Claude apps gateway, and CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP for looped system cross-certificates.",
+    "benefit": "Teams can disable ultrathink, set shared group spend limits, and control looped cross-cert drops in managed deployments.",
+    "category": "developer"
+  },
+  "a283ca869f875377": {
+    "hash": "81f784469a37",
+    "summary": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access on premises and in the cloud with a data path between GPUs and storage targets.",
+    "benefit": "Platform engineers can follow the post to check and configure GDS for higher bandwidth and lower latency on GPU storage.",
+    "category": "developer"
   }
 }

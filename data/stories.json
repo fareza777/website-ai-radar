@@ -1,43 +1,6 @@
 {
-  "generatedAt": "2026-10-31T19:22:48.985Z",
+  "generatedAt": "2026-11-01T00:04:39.293Z",
   "stories": [
-    {
-      "id": "c6099fc8919f3d54",
-      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "openai",
-        "moonshot",
-        "deepseek"
-      ],
-      "official": 2,
-      "press": 6,
-      "outlets": [
-        "Techzine Global",
-        "Times Of AI",
-        "Tekedia",
-        "TechGig",
-        "ET Enterprise AI",
-        "联合早报",
-        "Idaho Statesman",
-        "shattered.io",
-        "Reuters",
-        "Crypto Briefing",
-        "WinBuzzer",
-        "trendingtopics.eu",
-        "헤럴드경제",
-        "TOKENPOST",
-        "International Business Times UK"
-      ],
-      "firstAt": "2026-10-23T00:00:00.000Z",
-      "lastAt": "2026-10-30T06:45:00.000Z",
-      "url": "https://openai.com/index/anima",
-      "lead": {
-        "kind": "official",
-        "id": "c6099fc8919f3d54"
-      },
-      "importance": 100
-    },
     {
       "id": "34b0bf3f94c3851e",
       "title": "Gemini 4 Carbon: Our next frontier model",
@@ -46,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 23,
+      "press": 24,
       "outlets": [
         "Mashable",
         "Techzine Global",
@@ -91,14 +54,52 @@
         "SC Media",
         "The Hacker News",
         "SecurityWeek",
-        "Brave New Coin"
+        "Brave New Coin",
+        "Barchart.com"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
-      "lastAt": "2026-10-29T17:40:16.000Z",
+      "lastAt": "2026-10-31T13:00:03.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
       "lead": {
         "kind": "official",
         "id": "34b0bf3f94c3851e"
+      },
+      "importance": 100
+    },
+    {
+      "id": "c6099fc8919f3d54",
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "openai",
+        "moonshot",
+        "deepseek"
+      ],
+      "official": 2,
+      "press": 6,
+      "outlets": [
+        "헤럴드경제",
+        "TechGig",
+        "联合早报",
+        "ET Enterprise AI",
+        "Times Of AI",
+        "Idaho Statesman",
+        "shattered.io",
+        "Tekedia",
+        "Reuters",
+        "Crypto Briefing",
+        "Techzine Global",
+        "WinBuzzer",
+        "trendingtopics.eu",
+        "TOKENPOST",
+        "International Business Times UK"
+      ],
+      "firstAt": "2026-10-23T00:00:00.000Z",
+      "lastAt": "2026-10-30T06:45:00.000Z",
+      "url": "https://openai.com/index/anima",
+      "lead": {
+        "kind": "official",
+        "id": "c6099fc8919f3d54"
       },
       "importance": 100
     },
@@ -197,25 +198,25 @@
       "importance": 68
     },
     {
-      "id": "nvidia:c2540016d1759e",
+      "id": "nvidia:dc951ec9a66516",
       "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
       "entity": "Nemotron 3.5 Transcribe",
       "labs": [
         "nvidia"
       ],
       "official": 0,
-      "press": 7,
+      "press": 6,
       "outlets": [
-        "HackerNoon",
-        "TUN - The University Network",
+        "https://tech-insider.org/",
         "SQ Magazine",
         "AI Insider",
-        "shattered.io",
         "The Next Web",
         "BigGo Finance",
+        "shattered.io",
+        "HackerNoon",
+        "TUN - The University Network",
         "The Decoder",
         "TradingView",
-        "https://tech-insider.org/",
         "OrcaRouter",
         "Startup Fortune"
       ],
@@ -224,7 +225,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
       "lead": {
         "kind": "press",
-        "id": "nvidia:c2540016d1759e"
+        "id": "nvidia:dc951ec9a66516"
       },
       "importance": 63
     },
@@ -344,19 +345,19 @@
         "nvidia"
       ],
       "official": 0,
-      "press": 3,
+      "press": 2,
       "outlets": [
-        "marketscreener.com",
-        "StreetInsider",
         "The Globe and Mail",
-        "Investing News Network",
+        "StreetInsider",
+        "marketscreener.com",
         "Nasdaq",
+        "Investing News Network",
         "PR Newswire",
         "Yahoo Finance",
         "TradingView"
       ],
       "firstAt": "2026-10-22T07:00:00.000Z",
-      "lastAt": "2026-10-22T12:00:00.000Z",
+      "lastAt": "2026-10-22T07:00:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR0wxdGhfN0ptYWVBb3h3WnIybmJvb1VmQzZTVHhBenFQeHowRVNxbWNPUW1lM09HY25Kb1dLME51TE9pV2lzUC11cl9zbVRTbEg4RnZyQ1FxTG15d1pqbXQ2Ni1WLTJSNFktM1haUUZiUlpmMW1aUTZxX2xOanQ0YmZLeFNiaWMxeTZTUGpub2lTYWdsRjdQVmtvMy1TVzA5b2Y2V0l0N0FQd2kyNUxVd3NPVQ?oc=5",
       "lead": {
         "kind": "press",
@@ -466,7 +467,7 @@
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 30,
+        "count": 31,
         "prev": 1,
         "labs": [
           "google-deepmind"
@@ -600,8 +601,8 @@
           "openai",
           "mistral",
           "baidu",
-          "microsoft",
           "tencent",
+          "microsoft",
           "amazon",
           "ibm",
           "nvidia"

@@ -4,7 +4,7 @@
     "title": "We're releasing the weights of Mistral Large 4",
     "url": "https://mistral.ai/news/mistral-large-4-oss/",
     "hnUrl": "https://news.ycombinator.com/item?id=50289418",
-    "points": 1705,
+    "points": 1706,
     "comments": 438,
     "at": "2026-10-29T14:13:21Z",
     "lab": "mistral",
@@ -59,8 +59,8 @@
     "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
     "hnUrl": "https://news.ycombinator.com/item?id=50300683",
-    "points": 959,
-    "comments": 544,
+    "points": 967,
+    "comments": 547,
     "at": "2026-10-30T07:09:12Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
@@ -124,7 +124,7 @@
     "url": "https://martinfowler.com/bliki/LLM-Voice.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50290177",
     "points": 604,
-    "comments": 333,
+    "comments": 335,
     "at": "2026-10-29T14:57:55Z",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
   },
@@ -145,7 +145,7 @@
     "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
     "hnUrl": "https://news.ycombinator.com/item?id=50284255",
     "points": 584,
-    "comments": 235,
+    "comments": 236,
     "at": "2026-10-29T03:33:42Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
@@ -176,8 +176,8 @@
     "title": "We ran AI agent swarms in Minecraft and Mindustry",
     "url": "https://labs.ycombinator.com/projects/games/index.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50296486",
-    "points": 411,
-    "comments": 167,
+    "points": 412,
+    "comments": 168,
     "at": "2026-10-29T21:40:28Z",
     "firstSeenAt": "2026-10-30T01:07:35.891Z"
   },
@@ -261,18 +261,29 @@
     "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
     "hnUrl": "https://news.ycombinator.com/item?id=50307219",
     "points": 322,
-    "comments": 274,
+    "comments": 284,
     "at": "2026-10-30T17:27:25Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
+  },
+  {
+    "id": "50314699",
+    "title": "Do the math: How we took over ChatGPT accounts",
+    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+    "hnUrl": "https://news.ycombinator.com/item?id=50314699",
+    "points": 297,
+    "comments": 144,
+    "at": "2026-10-31T10:30:11Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-31T19:22:48.985Z"
   },
   {
     "id": "50306442",
     "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
     "url": "https://github.com/dbreunig/nesformer",
     "hnUrl": "https://news.ycombinator.com/item?id=50306442",
-    "points": 280,
-    "comments": 141,
+    "points": 282,
+    "comments": 144,
     "at": "2026-10-30T16:40:22Z",
     "lab": "qwen",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
@@ -286,17 +297,6 @@
     "comments": 19,
     "at": "2026-10-29T20:32:28Z",
     "firstSeenAt": "2026-10-30T01:07:35.891Z"
-  },
-  {
-    "id": "50314699",
-    "title": "Do the math: How we took over ChatGPT accounts",
-    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-    "hnUrl": "https://news.ycombinator.com/item?id=50314699",
-    "points": 265,
-    "comments": 120,
-    "at": "2026-10-31T10:30:11Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-31T19:22:48.985Z"
   },
   {
     "id": "50275626",
@@ -330,6 +330,16 @@
     "firstSeenAt": "2026-10-26T13:15:11.052Z"
   },
   {
+    "id": "50316531",
+    "title": "Malware uses LLMs to rank victims by how much they're worth",
+    "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50316531",
+    "points": 228,
+    "comments": 125,
+    "at": "2026-10-31T14:29:03Z",
+    "firstSeenAt": "2026-10-31T19:22:48.985Z"
+  },
+  {
     "id": "50259406",
     "title": "Is my data used for model training?",
     "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
@@ -349,16 +359,6 @@
     "comments": 22,
     "at": "2026-10-28T12:24:25Z",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
-  },
-  {
-    "id": "50316531",
-    "title": "Malware uses LLMs to rank victims by how much they're worth",
-    "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50316531",
-    "points": 193,
-    "comments": 102,
-    "at": "2026-10-31T14:29:03Z",
-    "firstSeenAt": "2026-10-31T19:22:48.985Z"
   },
   {
     "id": "50228167",
@@ -396,8 +396,8 @@
     "title": "OpenAI raises less than half of $30B target",
     "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
     "hnUrl": "https://news.ycombinator.com/item?id=50312922",
-    "points": 175,
-    "comments": 173,
+    "points": 181,
+    "comments": 186,
     "at": "2026-10-31T03:22:44Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
@@ -425,6 +425,28 @@
     "firstSeenAt": "2026-10-29T00:04:43.850Z"
   },
   {
+    "id": "50319358",
+    "title": "Anthropic blocks users for anything touching training larger models",
+    "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+    "hnUrl": "https://news.ycombinator.com/item?id=50319358",
+    "points": 153,
+    "comments": 54,
+    "at": "2026-10-31T19:39:19Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-01T00:04:39.293Z"
+  },
+  {
+    "id": "50318871",
+    "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+    "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50318871",
+    "points": 152,
+    "comments": 167,
+    "at": "2026-10-31T18:50:34Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-11-01T00:04:39.293Z"
+  },
+  {
     "id": "50297697",
     "title": "Show HN: I Turned DOOM into a Transformer",
     "url": "https://github.com/mottopanikeiku/doomformer",
@@ -450,8 +472,8 @@
     "title": "Anthropic Cracking Down on Video Game Rewrites",
     "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
     "hnUrl": "https://news.ycombinator.com/item?id=50304358",
-    "points": 121,
-    "comments": 123,
+    "points": 124,
+    "comments": 127,
     "at": "2026-10-30T14:22:52Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
@@ -472,8 +494,8 @@
     "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
     "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
     "hnUrl": "https://news.ycombinator.com/item?id=50311311",
-    "points": 98,
-    "comments": 72,
+    "points": 99,
+    "comments": 75,
     "at": "2026-10-30T23:08:12Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
@@ -519,6 +541,17 @@
     "comments": 128,
     "at": "2026-10-25T14:05:03Z",
     "firstSeenAt": "2026-10-25T16:31:46.241Z"
+  },
+  {
+    "id": "50320255",
+    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+    "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+    "hnUrl": "https://news.ycombinator.com/item?id=50320255",
+    "points": 89,
+    "comments": 60,
+    "at": "2026-10-31T21:07:58Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-01T00:04:39.293Z"
   },
   {
     "id": "50291116",
@@ -592,5 +625,16 @@
     "comments": 56,
     "at": "2026-10-25T00:43:47Z",
     "firstSeenAt": "2026-10-26T20:35:11.061Z"
+  },
+  {
+    "id": "50315987",
+    "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+    "hnUrl": "https://news.ycombinator.com/item?id=50315987",
+    "points": 61,
+    "comments": 37,
+    "at": "2026-10-31T13:25:00Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-01T00:04:39.293Z"
   }
 ]

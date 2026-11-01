@@ -124,16 +124,6 @@
     "unique": "It is a Claude Code and Codex skill, MIT licensed, that draws on the screen without blocking clicks.",
     "benefit": "People steering agents on a Mac can point at the UI without the overlay getting in the way."
   },
-  "6439c41fbb1f21fe": {
-    "summary": "reelmimic takes a video you like and makes a new video in the same style. An AI crew in Claude Code or Codex plans, builds, and reviews it with you.",
-    "unique": "The crew covers 2D animation and style transfer, and you stay in the review loop.",
-    "benefit": "Creators who want a look matched to a reference video can plan and review it with Claude Code or Codex."
-  },
-  "38bdc84fd7878e9f": {
-    "summary": "video-demo is a skill that records video demos of a web app with zoom-ins and voiceover.",
-    "unique": "It adds zoom and voiceover to the recording instead of a plain screen capture.",
-    "benefit": "Developers can turn a web app walkthrough into a narrated demo with zooms."
-  },
   "35be46e698a587a6": {
     "summary": "geo-sleuth is an agent skill that estimates where a photo was taken using OpenStreetMap geometry, elevation skylines, satellite imagery, and street view, and it shows its work.",
     "unique": "It works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and GitHub Copilot.",
@@ -485,11 +475,6 @@
     "unique": "It is built on Google DeepMind's EmbeddingGemma 2 and stays on the machine.",
     "benefit": "People who want file search without uploading content can look across local files on Mac, Windows, or Linux."
   },
-  "0d1137bc27098f73": {
-    "summary": "solid-glass is a design system for AI applications, described as material, physical, tactile, and technical.",
-    "unique": "It targets agent and chat interfaces, with React and shadcn among its topics.",
-    "benefit": "Developers building AI app interfaces can start from a design system made for agent and chat UIs."
-  },
   "113c2c1fc3b83a25": {
     "summary": "Cedric is an AI employee that connects to a team's tools, remembers company and workflow context, and does work for the whole team.",
     "unique": "It keeps company and workflow context so the work is for the team, not a single chat.",
@@ -696,12 +681,6 @@
     "unique": "It targets AI crawler access specifically, not a generic robots.txt linter.",
     "benefit": "Site owners can see which AI crawlers they allow before changing robots.txt."
   },
-  "8e91bab678fe2ac1": {
-    "hash": "be9b636c",
-    "summary": "GVS5H presents five Qwen3.8-27B models that match Claude Fable 5 on LiveCodeBench Hard, described as Fable 5-level coding for a fifth the price or on a single GPU.",
-    "unique": "It frames five Qwen3.8-27B models against Claude Fable 5 on that LiveCodeBench Hard split.",
-    "benefit": "Teams comparing coding models can try that Qwen3.8-27B setup on one GPU or at a fifth the price."
-  },
   "78c563e635c116e2": {
     "hash": "ae773680",
     "summary": "Hob is a free, open-source desktop alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows, and Linux.",
@@ -762,12 +741,6 @@
     "unique": "Each teammate runs with isolated compute and browser infrastructure on Cloudflare.",
     "benefit": "Builders wanting multi-agent setups can deploy separate browser-capable agents without managing VMs themselves."
   },
-  "0c849edb3950bbf1": {
-    "hash": "58e0960b",
-    "summary": "Helix Foundry connects company data, drafts an ontology with an agent, and loads it into HelixDB as one explorable graph.",
-    "unique": "It pairs automated ontology drafting with HelixDB graph loading from integrated sources.",
-    "benefit": "Data teams can turn scattered sources into a queryable knowledge graph without hand-building the ontology first."
-  },
   "3bf2dbbd24685307": {
     "hash": "41bfa6d0",
     "summary": "Dossier is a self-hosted job search app that writes tailored resumes and cover letters from your profile.",
@@ -797,5 +770,35 @@
     "summary": "Arsaze is Cursor for video editing: the AI-native video editor for agents and humans. Your AI edits a real multi-track timeline over MCP while you watch, every edit is versioned, and clients review on the exact frame.",
     "unique": "Arsaze is Cursor for video editing: the AI-native video editor for agents and humans.",
     "benefit": "Builders can open the site to see whether the tool fits a workflow they are exploring."
+  },
+  "60c078b5a5141e02": {
+    "hash": "9f7d763e",
+    "summary": "nesformer compiles an NES CPU into the weights of a stock Qwen3.5 model.",
+    "unique": "It targets NES execution through model weights instead of a standalone conventional CPU emulator alone.",
+    "benefit": "Researchers interested in model-as-computer demos can study how the repo maps CPU state into Qwen3.5 weights."
+  },
+  "088f2cf1ab7b0f8c": {
+    "hash": "60d41527",
+    "summary": "Hey Spark is a wake-word voice assistant that uses Claude, Hermes Agent, or any OpenAI-compatible model with MCP servers as connectors.",
+    "unique": "It is a local-first open assistant that routes tasks through MCP connectors.",
+    "benefit": "Laptop users can run a configurable voice assistant with their preferred compatible model and MCP tools."
+  },
+  "de5ac1ce9dc93405": {
+    "hash": "f2120122",
+    "summary": "TokenEconomizer offers experience-driven black-box cost control for coding agents.",
+    "unique": "It applies experience-driven black-box cost control aimed at coding-agent spend.",
+    "benefit": "Teams operating coding agents can explore the repo for patterns to curb runaway inference cost."
+  },
+  "edd4a3b15b06c1fb": {
+    "hash": "5896d106",
+    "summary": "Mika is an on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "unique": "It targets Android automation across apps and the web from the device.",
+    "benefit": "Android developers can inspect an on-device agent design for app and web task automation."
+  },
+  "176d5c2f0b3b785a": {
+    "hash": "4b8f67f1",
+    "summary": "Inboxwall provides local-first, read-only AI email security that sanitizes hidden CSS tricks, Unicode obfuscation, and prompt injection attacks before AI sees them.",
+    "unique": "It is a read-only sanitizer that strips obfuscation and injection patterns before messages reach models.",
+    "benefit": "Agent builders can add a local email gate that reduces prompt-injection risk in agent inboxes."
   }
 }
