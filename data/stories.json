@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T00:04:39.293Z",
+  "generatedAt": "2026-11-01T00:12:05.095Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -76,20 +76,20 @@
         "deepseek"
       ],
       "official": 2,
-      "press": 6,
+      "press": 5,
       "outlets": [
-        "헤럴드경제",
-        "TechGig",
-        "联合早报",
-        "ET Enterprise AI",
-        "Times Of AI",
         "Idaho Statesman",
         "shattered.io",
         "Tekedia",
+        "TechGig",
+        "联合早报",
+        "ET Enterprise AI",
         "Reuters",
         "Crypto Briefing",
-        "Techzine Global",
+        "헤럴드경제",
+        "Times Of AI",
         "WinBuzzer",
+        "Techzine Global",
         "trendingtopics.eu",
         "TOKENPOST",
         "International Business Times UK"
@@ -338,7 +338,7 @@
       "importance": 60
     },
     {
-      "id": "nvidia:b0f023eb8b2a0a",
+      "id": "nvidia:ace92d92eabadc",
       "title": "Rockwell Automation Expands FactoryTalk Conductor with NVIDIA Nemotron Support",
       "entity": null,
       "labs": [
@@ -358,10 +358,10 @@
       ],
       "firstAt": "2026-10-22T07:00:00.000Z",
       "lastAt": "2026-10-22T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR0wxdGhfN0ptYWVBb3h3WnIybmJvb1VmQzZTVHhBenFQeHowRVNxbWNPUW1lM09HY25Kb1dLME51TE9pV2lzUC11cl9zbVRTbEg4RnZyQ1FxTG15d1pqbXQ2Ni1WLTJSNFktM1haUUZiUlpmMW1aUTZxX2xOanQ0YmZLeFNiaWMxeTZTUGpub2lTYWdsRjdQVmtvMy1TVzA5b2Y2V0l0N0FQd2kyNUxVd3NPVQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSFVlU0s0ZHBya0oyZUFJRTNRV1pVWTNlS1dnN05qQzlUeWxfME1BX3UwYTR1WGxWaEVIWkNzWE9Wd1ZNbnJRdjFrX1Rsc2lJWUtuNml3RWhhX0ZTcGhKdkNqRndhZ0FUSHQ1eU4xYm1kNXozNmxCcHQyUTgwRG40dk5UTEFHRHJXVFZYWjJmb1lyYm5pZ0hDMFZObHUwc3dhT0hSTVV4aUhNRldJVEJkc2dTZENzcjNBaWR1VmdSXzZpSDg1ejVuT3AxRi1SZDg?oc=5",
       "lead": {
         "kind": "press",
-        "id": "nvidia:b0f023eb8b2a0a"
+        "id": "nvidia:ace92d92eabadc"
       },
       "importance": 60
     },
@@ -551,13 +551,13 @@
         "labs": [
           "anthropic",
           "deepseek",
-          "meta",
           "openai",
+          "meta",
           "mistral",
           "qwen",
-          "microsoft",
           "amazon",
           "ibm",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -573,9 +573,9 @@
           "mistral",
           "cohere",
           "qwen",
-          "microsoft",
           "amazon",
           "ibm",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -602,9 +602,9 @@
           "mistral",
           "baidu",
           "tencent",
-          "microsoft",
           "amazon",
           "ibm",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -636,6 +636,19 @@
         ]
       },
       {
+        "name": "reasoning",
+        "count": 3,
+        "prev": 7,
+        "labs": [
+          "openai",
+          "meta",
+          "mistral",
+          "cohere",
+          "tencent",
+          "amazon"
+        ]
+      },
+      {
         "name": "rag",
         "count": 3,
         "prev": 5,
@@ -644,19 +657,6 @@
           "cohere",
           "amazon",
           "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 3,
-        "prev": 7,
-        "labs": [
-          "meta",
-          "openai",
-          "mistral",
-          "cohere",
-          "tencent",
-          "amazon"
         ]
       }
     ]
@@ -677,6 +677,20 @@
       ],
       "reports": 6,
       "at": "2026-10-29T17:00:00.000Z"
+    },
+    {
+      "id": "mistral:79ea3dacafeba6",
+      "lab": "mistral",
+      "title": "Mistral AI publicly releases Large 4, targets cybersecurity users",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb3RNdmpuR3NIU0w0bUd0bDZNS1gtdUp1dkpLMlphSkZiQjJpZ29fQXUteXRkOG14cGxGdHpEM2RoeUZIWmNnTUFKaUx4MGxkU1JqcWJUT05ES3lOdG5ad3RHS0szc0lGQy1icnJIZGtaWEMxWVp0ZVc3NEJMUEFvWGFvSW95UC0xRmFKdmE3VjZYcWNYVFNWNlNKcHpWd1dwVngwY29oUXk2a2haY1BVQTgxMEFTQktCYVlqandKQ3p5Z04xSEJnRnNpWmYxcms?oc=5",
+      "outlets": [
+        "Reuters",
+        "TradingView",
+        "www.marketscreener.com",
+        "The Economic Times"
+      ],
+      "reports": 4,
+      "at": "2026-10-29T14:00:00.000Z"
     },
     {
       "id": "mistral:dde922099b14be",
@@ -704,19 +718,6 @@
       ],
       "reports": 3,
       "at": "2026-10-29T16:03:33.000Z"
-    },
-    {
-      "id": "mistral:79ea3dacafeba6",
-      "lab": "mistral",
-      "title": "Mistral AI publicly releases Large 4, targets cybersecurity users",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb3RNdmpuR3NIU0w0bUd0bDZNS1gtdUp1dkpLMlphSkZiQjJpZ29fQXUteXRkOG14cGxGdHpEM2RoeUZIWmNnTUFKaUx4MGxkU1JqcWJUT05ES3lOdG5ad3RHS0szc0lGQy1icnJIZGtaWEMxWVp0ZVc3NEJMUEFvWGFvSW95UC0xRmFKdmE3VjZYcWNYVFNWNlNKcHpWd1dwVngwY29oUXk2a2haY1BVQTgxMEFTQktCYVlqandKQ3p5Z04xSEJnRnNpWmYxcms?oc=5",
-      "outlets": [
-        "Reuters",
-        "TradingView",
-        "www.marketscreener.com"
-      ],
-      "reports": 3,
-      "at": "2026-10-29T14:00:00.000Z"
     },
     {
       "id": "mistral:5016cac48cd653",

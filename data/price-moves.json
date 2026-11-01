@@ -1,5 +1,49 @@
 [
   {
+    "id": "45b88845a55501bd",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-01T00:12:05.095Z",
+    "field": "prompt",
+    "from": 0.66,
+    "to": 0.115,
+    "change": -82.6
+  },
+  {
+    "id": "598cd045ad3a53cd",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-01T00:12:05.095Z",
+    "field": "completion",
+    "from": 1.98,
+    "to": 4,
+    "change": 102
+  },
+  {
+    "id": "a52d3107cde46319",
+    "modelId": "z-ai/glm-4.7",
+    "name": "Z.ai: GLM 4.7",
+    "lab": "zai",
+    "at": "2026-11-01T00:12:05.095Z",
+    "field": "prompt",
+    "from": 0.54,
+    "to": 0.6,
+    "change": 11.1
+  },
+  {
+    "id": "6fcc01b3fb66a8b2",
+    "modelId": "z-ai/glm-4.7",
+    "name": "Z.ai: GLM 4.7",
+    "lab": "zai",
+    "at": "2026-11-01T00:12:05.095Z",
+    "field": "completion",
+    "from": 1.98,
+    "to": 2.2,
+    "change": 11.1
+  },
+  {
     "id": "b3a1c1a1a9f05028",
     "modelId": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
