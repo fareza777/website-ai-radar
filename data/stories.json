@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T06:20:26.674Z",
+  "generatedAt": "2026-11-01T16:06:55.292Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -80,19 +80,20 @@
       "official": 2,
       "press": 5,
       "outlets": [
-        "Idaho Statesman",
-        "shattered.io",
+        "trendingtopics.eu",
+        "Techzine Global",
+        "Times Of AI",
         "Tekedia",
         "TechGig",
+        "Reuters",
+        "Idaho Statesman",
         "联合早报",
         "ET Enterprise AI",
-        "Reuters",
         "Crypto Briefing",
+        "shattered.io",
         "WinBuzzer",
+        "NeoTeo",
         "헤럴드경제",
-        "Times Of AI",
-        "Techzine Global",
-        "trendingtopics.eu",
         "TOKENPOST",
         "International Business Times UK"
       ],
@@ -128,35 +129,6 @@
       "importance": 92
     },
     {
-      "id": "191c89b31a66b523",
-      "title": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen 3.8 and Ministral 3 models",
-      "entity": "Qwen 3.8",
-      "labs": [
-        "amazon",
-        "qwen",
-        "cohere"
-      ],
-      "official": 1,
-      "press": 5,
-      "outlets": [
-        "TradingView",
-        "Dealroom",
-        "Startup Fortune",
-        "Notebookcheck",
-        "VentureBeat",
-        "BetaKit",
-        "XDA"
-      ],
-      "firstAt": "2026-10-22T08:00:00.000Z",
-      "lastAt": "2026-10-28T02:56:00.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-sagemaker-muse-qwen-ministral",
-      "lead": {
-        "kind": "official",
-        "id": "191c89b31a66b523"
-      },
-      "importance": 81
-    },
-    {
       "id": "qwen:3da845eb6ca838",
       "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
       "entity": null,
@@ -170,29 +142,29 @@
         "Reuters",
         "marketscreener.com",
         "디지털투데이",
-        "Crypto Briefing",
-        "Investing.com",
-        "The Economic Times",
-        "CNA",
-        "TechCrunch",
-        "www.trendingtopics.eu",
-        "CSO Online",
-        "Cyber Magazine",
-        "Technology Org",
-        "Startup Fortune",
-        "Analytics India Magazine",
-        "BigGo Finance",
         "The Globe and Mail",
+        "Technology Org",
         "Mezha.net",
+        "www.trendingtopics.eu",
+        "Startup Fortune",
         "Tech Wire Asia",
         "Notebookcheck",
+        "BigGo Finance",
+        "Analytics India Magazine",
+        "TechCrunch",
+        "Cyber Magazine",
         "Computing UK",
+        "Crypto Briefing",
         "International Business Times UK",
-        "AI Insider"
+        "AI Insider",
+        "The Economic Times",
+        "Investing.com",
+        "CNA",
+        "CSO Online"
       ],
       "firstAt": "2026-10-26T18:49:17.000Z",
       "lastAt": "2026-10-26T20:40:18.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHVNeUo5OThtcHVOdE1HTHhlQjV0TXR0RkVpMEk2Qm1hQjdPNzlkaXZaZU5oX1Y3eFoyUW1FZGZ5YmJOX0d0eGRHUUtRaEtvbzRvcWtOenFzSWowam1ZMlQyTmJleGN3dU1JbVhiemduMnZRY0E0a3U4V1N2bUZhLXBRTXNySFdNeE92S3pPeWRmUDRRd0VLYWRCNklpZ2c2NDhOckpzTE5tbnItcXV5VVE2ajJwRG9UeHFOcWpsNmRqbUh0bVpR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnRHZXQtNlM4RXQwelJVdUpXRUFMVmZFYmhpSm11NkR5TnZnRllBNmxmRi14WkVITVVQc2NiYndvNmNRcUVPMTRMQzFWUkQwUDFGNFlXQVdJQVFYR2M0cHMwblJVLVA4VUVOWFlXcHlIaXM2TWJyREp1aUtNUlUwN1htMTZaRHFvQjBTMkRDLUdjdy11YU9keWZXV3JwYm81V2VQcC1qOTJNLVFjeGtyNl9NcEg2dmJDYmNWQnMwNzlNVFIwQ3c?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:3da845eb6ca838"
@@ -320,6 +292,34 @@
       "importance": 60
     },
     {
+      "id": "qwen:dce8d3ce26d331",
+      "title": "Cohere says Alibaba's Qwen3.8 model tried to upload a probe file to a Beijing cloud bucket during a sandbox test",
+      "entity": "Qwen 3.8",
+      "labs": [
+        "qwen",
+        "cohere"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "TradingView",
+        "Dealroom",
+        "Startup Fortune",
+        "Notebookcheck",
+        "VentureBeat",
+        "BetaKit",
+        "XDA"
+      ],
+      "firstAt": "2026-10-26T18:51:50.000Z",
+      "lastAt": "2026-10-28T02:56:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUjdQdmVNLTZiOGNMdXlZSl9ZdXJab2JldnZKUWVkb2JLUGMyVFB0S1VZYnBkMHJ5ZHJjbmxvbGxBSldMb00zOG9NUmphRDFpZDZWaGQzUUFNUjRKUUlrNVIzUnhqak9fUlZkUXRmcjJUQkl5Wi1YTHo5blB3UG9iR2xWWEVZcnl2UW54UnhPaU54N2cwNzM0MmswRUxzdGRpZ1p5eXZORVVfTzdnSjJNdVo5MmlCQmZXNi1hOWJ3UHhndjVlQTExeTUyaWJTcjdwaFVRNExVcC1hZW1SVkU4?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:dce8d3ce26d331"
+      },
+      "importance": 60
+    },
+    {
       "id": "685f0df653a9c59c",
       "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
       "entity": null,
@@ -336,34 +336,6 @@
       "lead": {
         "kind": "official",
         "id": "685f0df653a9c59c"
-      },
-      "importance": 60
-    },
-    {
-      "id": "nvidia:ace92d92eabadc",
-      "title": "Rockwell Automation Expands FactoryTalk Conductor with NVIDIA Nemotron Support",
-      "entity": null,
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "The Globe and Mail",
-        "StreetInsider",
-        "marketscreener.com",
-        "Nasdaq",
-        "Investing News Network",
-        "PR Newswire",
-        "Yahoo Finance",
-        "TradingView"
-      ],
-      "firstAt": "2026-10-22T07:00:00.000Z",
-      "lastAt": "2026-10-22T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSFVlU0s0ZHBya0oyZUFJRTNRV1pVWTNlS1dnN05qQzlUeWxfME1BX3UwYTR1WGxWaEVIWkNzWE9Wd1ZNbnJRdjFrX1Rsc2lJWUtuNml3RWhhX0ZTcGhKdkNqRndhZ0FUSHQ1eU4xYm1kNXozNmxCcHQyUTgwRG40dk5UTEFHRHJXVFZYWjJmb1lyYm5pZ0hDMFZObHUwc3dhT0hSTVV4aUhNRldJVEJkc2dTZENzcjNBaWR1VmdSXzZpSDg1ejVuT3AxRi1SZDg?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:ace92d92eabadc"
       },
       "importance": 60
     },
@@ -482,7 +454,7 @@
       {
         "name": "Gemini 4 Argon",
         "count": 7,
-        "prev": 18,
+        "prev": 15,
         "labs": []
       },
       {
@@ -533,8 +505,8 @@
           "meta",
           "mistral",
           "qwen",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -547,12 +519,12 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
-          "qwen",
+          "mistral",
           "cohere",
-          "amazon",
+          "qwen",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -580,8 +552,8 @@
           "mistral",
           "baidu",
           "tencent",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
@@ -605,8 +577,8 @@
         "prev": 6,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "amazon",
           "ibm",
@@ -657,60 +629,6 @@
       "at": "2026-10-29T17:00:00.000Z"
     },
     {
-      "id": "mistral:79ea3dacafeba6",
-      "lab": "mistral",
-      "title": "Mistral AI publicly releases Large 4, targets cybersecurity users",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb3RNdmpuR3NIU0w0bUd0bDZNS1gtdUp1dkpLMlphSkZiQjJpZ29fQXUteXRkOG14cGxGdHpEM2RoeUZIWmNnTUFKaUx4MGxkU1JqcWJUT05ES3lOdG5ad3RHS0szc0lGQy1icnJIZGtaWEMxWVp0ZVc3NEJMUEFvWGFvSW95UC0xRmFKdmE3VjZYcWNYVFNWNlNKcHpWd1dwVngwY29oUXk2a2haY1BVQTgxMEFTQktCYVlqandKQ3p5Z04xSEJnRnNpWmYxcms?oc=5",
-      "outlets": [
-        "Reuters",
-        "TradingView",
-        "www.marketscreener.com",
-        "The Economic Times"
-      ],
-      "reports": 4,
-      "at": "2026-10-29T14:00:00.000Z"
-    },
-    {
-      "id": "mistral:dde922099b14be",
-      "lab": "mistral",
-      "title": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XcVRkZU9oekdPekFMUWNQM1pyb2JmMEtOQm81ZnVyWW9MWjhEMk5yTkpOdzYzUW9Ob0Ftd1BGNXN6WkFqZnktSnRxMzN6WkhWaHlrT0pLMDAwZjM3azNLRVNXc2VFV0s4Mnp3X2w5cVVmZw?oc=5",
-      "outlets": [
-        "Online Tech Tips",
-        "KuCoin",
-        "ForkLog",
-        "The Next Web"
-      ],
-      "reports": 4,
-      "at": "2026-10-29T13:18:58.000Z"
-    },
-    {
-      "id": "moonshot:978e3a0529da0a",
-      "lab": "moonshot",
-      "title": "ZenMux Introduces Kimi K3.1 Pro for Long-Context AI Workflows",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaFFfTzR1bmVrcVpyQVBTRTZvR2MwcDBsTmw2QWdwTGVvQ0l4VFE1TlgySDNGWGgtZzFkb0hWVGhGU096V1YyRG9GdGVSazUtMG43WWtTMjNGY3NPVXR0X1hTSm45bHlIbmRTVy1BMHVfVTJQazEzN2lXYUJhS041RVBlSmFaRGRLUUQ0TDBZTFJYbVRxVWh5V2swVUR0VGw3OFc4LVp4OWotbWRwYW5idm9ad1B6Z0hkY2xQNTZNZjE?oc=5",
-      "outlets": [
-        "Cincinnati Enquirer",
-        "USA Today",
-        "The Des Moines Register"
-      ],
-      "reports": 3,
-      "at": "2026-10-29T16:03:33.000Z"
-    },
-    {
-      "id": "mistral:5016cac48cd653",
-      "lab": "mistral",
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMjNidjZYcnoxeE9Gc3NzX05BMlFMeDVwRjF2eWNNQ0FZTWR2amRmYm9YVzFKbmJteUR1TEZpallEUXBoeFVKeDBQemNhd3ExckNJUzYxMmFIXy1NNEhqNUdHeW1OVWdyVVRMa2ItV2pxOWhEdzlXRU80NVhOd1FPRFdGSDh0VHRTLWFXamJJUlNabTQyMlVNNjBqc3FMQkg1enB3TlBQcW1ESmhJa1lrcVRpeHJWRFNjdjhB?oc=5",
-      "outlets": [
-        "TechCrunch",
-        "KuCoin",
-        "YourStory.com"
-      ],
-      "reports": 3,
-      "at": "2026-10-29T14:00:00.000Z"
-    },
-    {
       "id": "mistral:6f7d89d8ad3ee2",
       "lab": "mistral",
       "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
@@ -721,42 +639,6 @@
       ],
       "reports": 2,
       "at": "2026-10-29T22:26:34.000Z"
-    },
-    {
-      "id": "cohere:8624baeae7721b",
-      "lab": "cohere",
-      "title": "Cohere Announces Series E Fundraise Targeting CAD $7 Billion to Meet Surging Global Demand for Secure, Sovereign AI",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTjluVi1FTE5wM3dRd1g1VXgyTURYZTFUSFdTTzNDWjN0U0FjaDFjU014bV9iR1N6VTRPNmxJQUItMmlGbUdOa1ZvYml0cDBxaVZ4eUwwUjNYOWxsaHhSMVFMT2FXRzlQSHFoa3RLM0ctV05yVlhPcnlLbC1IbTIwYXVjTmtDZDhMNHZuYUlIU3h0MGFXeUphV1hldXhoTTlfa29yTVRaci1CS0h1Q3NRdDIwVFk1enkzN29FOHo5MzFrUmJlTy1lUTFaYnRPWTFiZm43dGdWbU1yU2NSTUlvM3ZkRkdrZDFMU2RwYl9RbWNZUWJrRkVVV3hn?oc=5",
-      "outlets": [
-        "PR Newswire Canada",
-        "PR Newswire"
-      ],
-      "reports": 2,
-      "at": "2026-10-29T15:48:00.000Z"
-    },
-    {
-      "id": "mistral:3ffba218e9fb8c",
-      "lab": "mistral",
-      "title": "Mistral releases Large 4 Le Chonk open weights on Hugging Face",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOenEyRGlBUGxnX0tNZXZXZGxtRmJTaEFtbXp5Q3hTV2VjT0ppMUlESk5mNlJXRXFZYWxDQV9NRjJpWVVaN29XbVZfXzk5VUFSUGtmaXlaUFctRTMyZ0dhVGNQMVRxNXd5M0VXQzJHVzJmNU10NWc2Z2YwelZtdUM0WUNHY0tkNzNUUEU1ZUxvVGlFS1lTbU5iUl9R?oc=5",
-      "outlets": [
-        "SiliconANGLE",
-        "Pasquale Pillitteri"
-      ],
-      "reports": 2,
-      "at": "2026-10-29T15:18:51.000Z"
-    },
-    {
-      "id": "mistral:5888b1715e0e4d",
-      "lab": "mistral",
-      "title": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XcVRkZU9oekdPekFMUWNQM1pyb2JmMEtOQm81ZnVyWW9MWjhEMk5yTkpOdzYzUW9Ob0Ftd1BGNXN6WkFqZnktSnRxMzN6WkhWaHlrT0pLMDAwZjM3azNLRVNXc2VFV0s4Mnp3X2w5cVVmZw?oc=5",
-      "outlets": [
-        "The Next Web",
-        "ForkLog"
-      ],
-      "reports": 2,
-      "at": "2026-10-29T13:18:58.000Z"
     }
   ]
 }

@@ -59,8 +59,8 @@
     "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
     "hnUrl": "https://news.ycombinator.com/item?id=50300683",
-    "points": 972,
-    "comments": 547,
+    "points": 982,
+    "comments": 549,
     "at": "2026-10-30T07:09:12Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
@@ -101,7 +101,7 @@
     "title": "Backdoors in official Claude Code extensions",
     "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
     "hnUrl": "https://news.ycombinator.com/item?id=50302334",
-    "points": 656,
+    "points": 659,
     "comments": 17,
     "at": "2026-10-30T11:05:53Z",
     "lab": "anthropic",
@@ -172,11 +172,22 @@
     "firstSeenAt": "2026-10-26T00:04:10.881Z"
   },
   {
+    "id": "50319358",
+    "title": "Anthropic blocks users for anything touching training larger models",
+    "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+    "hnUrl": "https://news.ycombinator.com/item?id=50319358",
+    "points": 422,
+    "comments": 234,
+    "at": "2026-10-31T19:39:19Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-01T00:04:39.293Z"
+  },
+  {
     "id": "50296486",
     "title": "We ran AI agent swarms in Minecraft and Mindustry",
     "url": "https://labs.ycombinator.com/projects/games/index.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50296486",
-    "points": 412,
+    "points": 414,
     "comments": 169,
     "at": "2026-10-29T21:40:28Z",
     "firstSeenAt": "2026-10-30T01:07:35.891Z"
@@ -213,6 +224,17 @@
     "firstSeenAt": "2026-10-27T22:22:25.706Z"
   },
   {
+    "id": "50314699",
+    "title": "Do the math: How we took over ChatGPT accounts",
+    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+    "hnUrl": "https://news.ycombinator.com/item?id=50314699",
+    "points": 354,
+    "comments": 173,
+    "at": "2026-10-31T10:30:11Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-31T19:22:48.985Z"
+  },
+  {
     "id": "50251200",
     "title": "OpenAI's agents talked to each other through the CPU Cache",
     "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
@@ -222,6 +244,16 @@
     "at": "2026-10-26T21:24:18Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
+  },
+  {
+    "id": "50320995",
+    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+    "hnUrl": "https://news.ycombinator.com/item?id=50320995",
+    "points": 346,
+    "comments": 168,
+    "at": "2026-10-31T22:46:12Z",
+    "firstSeenAt": "2026-11-01T06:20:26.674Z"
   },
   {
     "id": "50288019",
@@ -251,40 +283,18 @@
     "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
     "hnUrl": "https://news.ycombinator.com/item?id=50307219",
     "points": 323,
-    "comments": 288,
+    "comments": 290,
     "at": "2026-10-30T17:27:25Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
-  },
-  {
-    "id": "50314699",
-    "title": "Do the math: How we took over ChatGPT accounts",
-    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-    "hnUrl": "https://news.ycombinator.com/item?id=50314699",
-    "points": 316,
-    "comments": 157,
-    "at": "2026-10-31T10:30:11Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-31T19:22:48.985Z"
-  },
-  {
-    "id": "50319358",
-    "title": "Anthropic blocks users for anything touching training larger models",
-    "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-    "hnUrl": "https://news.ycombinator.com/item?id=50319358",
-    "points": 297,
-    "comments": 164,
-    "at": "2026-10-31T19:39:19Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-01T00:04:39.293Z"
   },
   {
     "id": "50306442",
     "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
     "url": "https://github.com/dbreunig/nesformer",
     "hnUrl": "https://news.ycombinator.com/item?id=50306442",
-    "points": 284,
-    "comments": 146,
+    "points": 291,
+    "comments": 148,
     "at": "2026-10-30T16:40:22Z",
     "lab": "qwen",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
@@ -325,8 +335,8 @@
     "title": "Malware uses LLMs to rank victims by how much they're worth",
     "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
     "hnUrl": "https://news.ycombinator.com/item?id=50316531",
-    "points": 241,
-    "comments": 131,
+    "points": 250,
+    "comments": 132,
     "at": "2026-10-31T14:29:03Z",
     "firstSeenAt": "2026-10-31T19:22:48.985Z"
   },
@@ -362,6 +372,28 @@
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
   },
   {
+    "id": "50320588",
+    "title": "ChatGPT and Codex usage limits merging",
+    "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+    "hnUrl": "https://news.ycombinator.com/item?id=50320588",
+    "points": 198,
+    "comments": 136,
+    "at": "2026-10-31T21:49:07Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-11-01T06:20:26.674Z"
+  },
+  {
+    "id": "50312922",
+    "title": "OpenAI raises less than half of $30B target",
+    "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+    "hnUrl": "https://news.ycombinator.com/item?id=50312922",
+    "points": 184,
+    "comments": 196,
+    "at": "2026-10-31T03:22:44Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-10-31T05:55:30.561Z"
+  },
+  {
     "id": "50242843",
     "title": "Brown student maps the hidden global labor powering AI",
     "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
@@ -370,17 +402,6 @@
     "comments": 178,
     "at": "2026-10-26T12:58:27Z",
     "firstSeenAt": "2026-10-26T20:35:11.061Z"
-  },
-  {
-    "id": "50312922",
-    "title": "OpenAI raises less than half of $30B target",
-    "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-    "hnUrl": "https://news.ycombinator.com/item?id=50312922",
-    "points": 182,
-    "comments": 190,
-    "at": "2026-10-31T03:22:44Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
   {
     "id": "50252159",
@@ -392,6 +413,17 @@
     "at": "2026-10-26T22:41:48Z",
     "lab": "zai",
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
+  },
+  {
+    "id": "50318871",
+    "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+    "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50318871",
+    "points": 175,
+    "comments": 186,
+    "at": "2026-10-31T18:50:34Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-11-01T00:04:39.293Z"
   },
   {
     "id": "50246238",
@@ -416,24 +448,14 @@
     "firstSeenAt": "2026-10-29T00:04:43.850Z"
   },
   {
-    "id": "50320995",
-    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-    "hnUrl": "https://news.ycombinator.com/item?id=50320995",
-    "points": 168,
-    "comments": 91,
-    "at": "2026-10-31T22:46:12Z",
-    "firstSeenAt": "2026-11-01T06:20:26.674Z"
-  },
-  {
-    "id": "50318871",
-    "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-    "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50318871",
-    "points": 164,
-    "comments": 179,
-    "at": "2026-10-31T18:50:34Z",
-    "lab": "openai",
+    "id": "50320255",
+    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+    "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+    "hnUrl": "https://news.ycombinator.com/item?id=50320255",
+    "points": 166,
+    "comments": 105,
+    "at": "2026-10-31T21:07:58Z",
+    "lab": "anthropic",
     "firstSeenAt": "2026-11-01T00:04:39.293Z"
   },
   {
@@ -447,23 +469,12 @@
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
   },
   {
-    "id": "50320255",
-    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
-    "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-    "hnUrl": "https://news.ycombinator.com/item?id=50320255",
-    "points": 128,
-    "comments": 79,
-    "at": "2026-10-31T21:07:58Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-01T00:04:39.293Z"
-  },
-  {
     "id": "50292727",
     "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
     "url": "https://fig.blue/posts/duet-is-the-future/",
     "hnUrl": "https://news.ycombinator.com/item?id=50292727",
     "points": 125,
-    "comments": 140,
+    "comments": 141,
     "at": "2026-10-29T17:24:25Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T01:07:35.891Z"
@@ -473,8 +484,8 @@
     "title": "Anthropic Cracking Down on Video Game Rewrites",
     "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
     "hnUrl": "https://news.ycombinator.com/item?id=50304358",
-    "points": 124,
-    "comments": 128,
+    "points": 125,
+    "comments": 131,
     "at": "2026-10-30T14:22:52Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
@@ -484,8 +495,8 @@
     "title": "Sam Altman Thinks You're Wasting DRAM",
     "url": "https://frvr.com/blog/news/openai-ceo-sam-altman-says-its-terrible-to-have-everybody-have-a-bunch-of-the-worlds-limited-supply-of-dram-instead-of-shoving-it-all-in-datacentres/",
     "hnUrl": "https://news.ycombinator.com/item?id=50305797",
-    "points": 100,
-    "comments": 108,
+    "points": 102,
+    "comments": 114,
     "at": "2026-10-30T15:58:39Z",
     "lab": "openai",
     "firstSeenAt": "2026-10-31T00:01:49.750Z"
@@ -496,7 +507,7 @@
     "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
     "hnUrl": "https://news.ycombinator.com/item?id=50311311",
     "points": 100,
-    "comments": 76,
+    "comments": 78,
     "at": "2026-10-30T23:08:12Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
@@ -513,17 +524,6 @@
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
   },
   {
-    "id": "50232682",
-    "title": "What Adobe v ArtCraft teaches us",
-    "url": "https://techbronerd.substack.com/p/openai-and-anthropic-wanted-to-replace",
-    "hnUrl": "https://news.ycombinator.com/item?id=50232682",
-    "points": 91,
-    "comments": 99,
-    "at": "2026-10-25T15:34:44Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-25T20:56:48.163Z"
-  },
-  {
     "id": "50251062",
     "title": "Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job",
     "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
@@ -534,14 +534,14 @@
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
   },
   {
-    "id": "50231722",
-    "title": "R/open source bans all solo projects and projects using LLMs",
-    "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
-    "hnUrl": "https://news.ycombinator.com/item?id=50231722",
-    "points": 90,
-    "comments": 128,
-    "at": "2026-10-25T14:05:03Z",
-    "firstSeenAt": "2026-10-25T16:31:46.241Z"
+    "id": "50315782",
+    "title": "Show HN: A language model that lives in a boot sector",
+    "url": "https://github.com/kerlenton/bootgpt",
+    "hnUrl": "https://news.ycombinator.com/item?id=50315782",
+    "points": 88,
+    "comments": 5,
+    "at": "2026-10-31T12:58:29Z",
+    "firstSeenAt": "2026-11-01T06:20:26.674Z"
   },
   {
     "id": "50291116",
@@ -565,14 +565,15 @@
     "firstSeenAt": "2026-10-31T19:22:48.985Z"
   },
   {
-    "id": "50315782",
-    "title": "Show HN: A language model that lives in a boot sector",
-    "url": "https://github.com/kerlenton/bootgpt",
-    "hnUrl": "https://news.ycombinator.com/item?id=50315782",
-    "points": 73,
-    "comments": 3,
-    "at": "2026-10-31T12:58:29Z",
-    "firstSeenAt": "2026-11-01T06:20:26.674Z"
+    "id": "50315987",
+    "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+    "hnUrl": "https://news.ycombinator.com/item?id=50315987",
+    "points": 72,
+    "comments": 43,
+    "at": "2026-10-31T13:25:00Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-01T00:04:39.293Z"
   },
   {
     "id": "50238620",
@@ -615,27 +616,5 @@
     "comments": 38,
     "at": "2026-10-28T13:56:21Z",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
-  },
-  {
-    "id": "50315987",
-    "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-    "hnUrl": "https://news.ycombinator.com/item?id=50315987",
-    "points": 69,
-    "comments": 41,
-    "at": "2026-10-31T13:25:00Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-01T00:04:39.293Z"
-  },
-  {
-    "id": "50320588",
-    "title": "ChatGPT and Codex usage limits merging",
-    "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
-    "hnUrl": "https://news.ycombinator.com/item?id=50320588",
-    "points": 61,
-    "comments": 25,
-    "at": "2026-10-31T21:49:07Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-11-01T06:20:26.674Z"
   }
 ]
