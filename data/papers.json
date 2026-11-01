@@ -65,10 +65,22 @@
     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 61,
+    "upvotes": 64,
     "org": "galilai-group",
     "githubRepo": "https://github.com/galilai-group/prh-proof",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
+  },
+  {
+    "id": "2610.40614",
+    "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+    "url": "https://huggingface.co/papers/2610.40614",
+    "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "kaist-ai",
+    "githubRepo": "https://github.com/cvlab-kaist/L3G-World",
+    "firstSeenAt": "2026-11-01T22:10:15.829Z"
   },
   {
     "id": "2610.32411",
@@ -77,7 +89,7 @@
     "summary": "Locating relevant evidence in long inputs is a core capability of Multimodal Large Language Models. Prior studies attribute this capability to retrieval heads, a sparse set of attention heads that transfer information from the context to the output. However, these analyses are confined to a limited set of modalities and the corresponding models. Moreover, how retrieval heads can be leveraged to enhance the model…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 28,
+    "upvotes": 29,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -151,7 +163,7 @@
     "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 128,
+    "upvotes": 131,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/justin4ai/OmniShowcase",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
@@ -163,7 +175,7 @@
     "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 81,
+    "upvotes": 85,
     "org": "aior-research",
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
@@ -174,10 +186,21 @@
     "summary": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 50,
     "org": "riceuniversity",
     "githubRepo": "https://github.com/yunfeixie233/sensorimotor-alignment",
     "firstSeenAt": "2026-10-31T12:44:47.503Z"
+  },
+  {
+    "id": "2601.15351",
+    "title": "OmniSpectra: A Unified Foundation Model for Universal Spectra Representation Learning",
+    "url": "https://huggingface.co/papers/2601.15351",
+    "summary": "Standard sequence models encode position by token rank rather than physical coordinate, typically forcing practitioners to destructively resample continuous physical signals such as spectra observed across heterogeneous instruments. We identify this coordinate mismatch as a structural limitation in cross-instrument representation learning, and propose OmniSpectra, a wavelength-native foundation model for spectral…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-10-29T00:00:00.000Z",
+    "upvotes": 40,
+    "org": null,
+    "firstSeenAt": "2026-11-01T22:10:15.829Z"
   },
   {
     "id": "2610.36077",
@@ -316,7 +339,7 @@
     "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 64,
+    "upvotes": 66,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -688,7 +711,7 @@
     "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 46,
+    "upvotes": 47,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-26T13:15:11.052Z"

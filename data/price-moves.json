@@ -1,5 +1,27 @@
 [
   {
+    "id": "bac091f6c42e004f",
+    "modelId": "openai/gpt-oss-20b",
+    "name": "OpenAI: gpt-oss-20b",
+    "lab": "openai",
+    "at": "2026-11-01T22:10:15.829Z",
+    "field": "prompt",
+    "from": 0.018,
+    "to": 0.03,
+    "change": 66.7
+  },
+  {
+    "id": "6d8ade04dc26f17a",
+    "modelId": "openai/gpt-oss-20b",
+    "name": "OpenAI: gpt-oss-20b",
+    "lab": "openai",
+    "at": "2026-11-01T22:10:15.829Z",
+    "field": "completion",
+    "from": 0.09,
+    "to": 0.13,
+    "change": 44.4
+  },
+  {
     "id": "af131862a3b85ff9",
     "modelId": "tencent/hy4-preview",
     "name": "Tencent: Hy4 preview",
