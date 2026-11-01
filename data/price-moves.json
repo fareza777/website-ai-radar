@@ -1,5 +1,49 @@
 [
   {
+    "id": "af131862a3b85ff9",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-11-01T06:20:26.674Z",
+    "field": "prompt",
+    "from": 0.7506,
+    "to": 0.834,
+    "change": 11.1
+  },
+  {
+    "id": "0501741ddaf1e5e4",
+    "modelId": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "lab": "tencent",
+    "at": "2026-11-01T06:20:26.674Z",
+    "field": "completion",
+    "from": 2.2509,
+    "to": 2.501,
+    "change": 11.1
+  },
+  {
+    "id": "e4b45587c8ce81d7",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-11-01T06:20:26.674Z",
+    "field": "prompt",
+    "from": 0.0825,
+    "to": 0.132,
+    "change": 60
+  },
+  {
+    "id": "45d9d0a64d050b7a",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-11-01T06:20:26.674Z",
+    "field": "completion",
+    "from": 0.33,
+    "to": 0.528,
+    "change": 60
+  },
+  {
     "id": "45b88845a55501bd",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",

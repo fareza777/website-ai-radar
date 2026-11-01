@@ -1,5 +1,64 @@
 [
   {
+    "id": "845192bdcbf27af2",
+    "lab": "qwen",
+    "title": "Qwen Code v0.26.5",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.5",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-01T04:00:10.000Z",
+    "firstSeenAt": "2026-11-01T06:20:26.674Z",
+    "updatedAt": "2026-11-01T04:00:10.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds bounded SQL history queries for Managed local H2 and Hosted MySQL, enabling paged recent messages, journal transactions, and exact operation or command lookups. ( #15839 ) by @doudouOUC Enables Generated UI by default and lets users continue chatting with interactive card values attached as…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.26.5 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "4f03b947c42f",
+    "meta": {
+      "version": "v0.26.5",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "3f75b1fc2e8a2332",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.26.5",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.5",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-01T03:59:58.000Z",
+    "firstSeenAt": "2026-11-01T06:20:26.674Z",
+    "updatedAt": "2026-11-01T03:59:58.000Z",
+    "excerpt": "What's Changed feat(managed): Add bounded SQL history queries by @doudouOUC in #15839 feat(generated-ui): keep chatting with a card's values and turn Generated UI on by default by @qqqys in #15856 test(web-shell): follow the renamed workspace copy in two e2e specs by @wenshao in #15860 feat(web-shell): keyboard shortcuts for Session Overview and Split View by @4ekuct25 in #14179 feat(web-shell): add Russian locale…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.26.5 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "2137a238ff49",
+    "meta": {
+      "version": "v0.26.5",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
     "id": "fc627973e586d9b0",
     "lab": "qwen",
     "title": "Qwen Code cua-driver-rs v0.27.0",
@@ -830,7 +889,7 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1088,
+      "likes": 1089,
       "downloads": 39718,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
@@ -1095,7 +1154,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3507,
+      "likes": 3511,
       "downloads": 212670,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -1255,7 +1314,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6672,
+      "likes": 6675,
       "downloads": 4162561,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
@@ -1318,7 +1377,7 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 18859,
+      "likes": 18874,
       "downloads": 7581050,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",

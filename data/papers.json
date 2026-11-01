@@ -53,7 +53,7 @@
     "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 98,
+    "upvotes": 99,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/hyeon9698/LOWN",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -151,7 +151,7 @@
     "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 107,
+    "upvotes": 112,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/justin4ai/OmniShowcase",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
@@ -163,7 +163,7 @@
     "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 56,
+    "upvotes": 71,
     "org": "aior-research",
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
@@ -245,7 +245,7 @@
     "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 149,
+    "upvotes": 150,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -316,7 +316,7 @@
     "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 61,
+    "upvotes": 63,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
@@ -712,7 +712,7 @@
     "summary": "The life-cycle of robotics foundation models crucially depends on data labels. Outcome reward labels are needed for monitoring real-world deployments. Process reward labels are needed during RL post-training. Timestamped captions are needed for filtering and balancing pretraining data. We present Flora, an industrial-quality data engine used for training GR00T models, that simultaneously covers these capabilities…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-10-26T00:00:00.000Z",
-    "upvotes": 2,
+    "upvotes": 3,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVIDIA/Flora",
