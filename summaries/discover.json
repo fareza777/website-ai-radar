@@ -615,12 +615,6 @@
     "unique": "One undo button covers Google TV, webOS, and Tizen.",
     "benefit": "TV owners on those platforms can try an ad-free home screen and reverse it with one button."
   },
-  "e23800d2872df7fa": {
-    "hash": "96b8df25",
-    "summary": "tv-vibehack debloats Android TV or Google TV over Wi-Fi and swaps the ad-filled home screen for an Apple TV-style launcher.",
-    "unique": "No root, and the change is fully reversible.",
-    "benefit": "You can clean an Android or Google TV over Wi-Fi and undo it later without rooting."
-  },
   "59a6d856ff3bb794": {
     "hash": "db8f374a",
     "summary": "whatsapp-mcp is a read-only MCP server that lets an AI agent search and read your own WhatsApp messages, hosted free at whatsapp.finereli.com or self-hosted on Cloudflare.",
@@ -790,10 +784,16 @@
     "benefit": "Teams operating coding agents can explore the repo for patterns to curb runaway inference cost."
   },
   "edd4a3b15b06c1fb": {
-    "hash": "5896d106",
+    "hash": "4c8f2c04",
     "summary": "Mika is an on-device AI agent for Android that operates apps and the web to get things done for you.",
     "unique": "It targets Android automation across apps and the web from the device.",
     "benefit": "Android developers can inspect an on-device agent design for app and web task automation."
+  },
+  "8e91bab678fe2ac1": {
+    "hash": "be9b636c",
+    "summary": "GVS5H runs five Qwen3.8-27B models that match Claude Fable 5 on LiveCodeBench Hard, aiming for Fable 5-level coding on a single GPU or at a fifth of the price.",
+    "unique": "It ensembles five Qwen3.8-27B models rather than one frontier model for hard coding benchmarks.",
+    "benefit": "Teams with one GPU can explore whether the five-model stack reaches Fable 5-level LiveCodeBench Hard scores at lower cost."
   },
   "176d5c2f0b3b785a": {
     "hash": "4b8f67f1",

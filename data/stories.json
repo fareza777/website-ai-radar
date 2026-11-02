@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T22:10:15.829Z",
+  "generatedAt": "2026-11-02T00:02:39.418Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -9,12 +9,14 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 26,
+      "press": 25,
       "outlets": [
         "Mashable",
-        "Techzine Global",
+        "Tech My Money",
+        "Forbes",
         "TestingCatalog AI News",
         "Investing.com",
+        "Techzine Global",
         "TechRepublic",
         "tech-insider.org",
         "AI Magazine",
@@ -41,27 +43,25 @@
         "Anadolu Ajansı",
         "Türkiye Today",
         "Unite.AI",
-        "Forbes",
         "Wccftech",
         "The Decoder",
         "R&D World",
         "The Next Web",
+        "Yahoo Tech",
         "Interesting Engineering",
         "Fello AI",
         "CNET",
         "TradingView",
         "The Register",
         "SC Media",
-        "Yahoo Tech",
         "The Hacker News",
         "SecurityWeek",
         "Brave New Coin",
         "Barchart.com",
-        "Yahoo Finance",
-        "Tech My Money"
+        "Yahoo Finance"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
-      "lastAt": "2026-11-01T12:17:55.000Z",
+      "lastAt": "2026-10-31T13:00:03.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
       "lead": {
         "kind": "official",
@@ -70,15 +70,15 @@
       "importance": 100
     },
     {
-      "id": "c6099fc8919f3d54",
-      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "id": "250e5d8f302445e7",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
       "entity": "GPT 6 Astra",
       "labs": [
         "openai",
         "moonshot",
         "deepseek"
       ],
-      "official": 2,
+      "official": 1,
       "press": 5,
       "outlets": [
         "헤럴드경제",
@@ -89,21 +89,21 @@
         "shattered.io",
         "Tekedia",
         "Crypto Briefing",
-        "trendingtopics.eu",
         "Techzine Global",
-        "Times Of AI",
-        "Idaho Statesman",
         "WinBuzzer",
         "NeoTeo",
+        "trendingtopics.eu",
+        "Times Of AI",
+        "Idaho Statesman",
         "TOKENPOST",
         "International Business Times UK"
       ],
-      "firstAt": "2026-10-23T00:00:00.000Z",
+      "firstAt": "2026-10-26T22:00:00.000Z",
       "lastAt": "2026-10-30T06:45:00.000Z",
-      "url": "https://openai.com/index/anima",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "lead": {
         "kind": "official",
-        "id": "c6099fc8919f3d54"
+        "id": "250e5d8f302445e7"
       },
       "importance": 100
     },
@@ -130,7 +130,7 @@
       "importance": 92
     },
     {
-      "id": "qwen:155a975d0930ae",
+      "id": "qwen:903f2bd3fa59a7",
       "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
       "entity": null,
       "labs": [
@@ -143,20 +143,20 @@
         "Reuters",
         "marketscreener.com",
         "디지털투데이",
-        "www.trendingtopics.eu",
-        "TechCrunch",
-        "Technology Org",
-        "Cyber Magazine",
-        "Startup Fortune",
-        "Analytics India Magazine",
         "Crypto Briefing",
-        "Mezha.net",
+        "TechCrunch",
         "BigGo Finance",
-        "AI Insider",
         "The Economic Times",
         "Computing UK",
         "Investing.com",
+        "Analytics India Magazine",
         "CNA",
+        "www.trendingtopics.eu",
+        "Technology Org",
+        "Cyber Magazine",
+        "Startup Fortune",
+        "Mezha.net",
+        "AI Insider",
         "The Globe and Mail",
         "Tech Wire Asia",
         "Notebookcheck",
@@ -164,11 +164,11 @@
         "CSO Online"
       ],
       "firstAt": "2026-10-26T18:49:17.000Z",
-      "lastAt": "2026-10-26T20:40:18.000Z",
+      "lastAt": "2026-10-26T18:51:37.000Z",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnRHZXQtNlM4RXQwelJVdUpXRUFMVmZFYmhpSm11NkR5TnZnRllBNmxmRi14WkVITVVQc2NiYndvNmNRcUVPMTRMQzFWUkQwUDFGNFlXQVdJQVFYR2M0cHMwblJVLVA4VUVOWFlXcHlIaXM2TWJyREp1aUtNUlUwN1htMTZaRHFvQjBTMkRDLUdjdy11YU9keWZXV3JwYm81V2VQcC1qOTJNLVFjeGtyNl9NcEg2dmJDYmNWQnMwNzlNVFIwQ3c?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:155a975d0930ae"
+        "id": "qwen:903f2bd3fa59a7"
       },
       "importance": 68
     },
@@ -271,7 +271,7 @@
         "mistral"
       ],
       "official": 0,
-      "press": 7,
+      "press": 8,
       "outlets": [
         "ActuIA",
         "Martin Cid Magazine",
@@ -283,7 +283,7 @@
         "WinBuzzer"
       ],
       "firstAt": "2026-10-28T21:20:39.000Z",
-      "lastAt": "2026-10-29T22:26:34.000Z",
+      "lastAt": "2026-10-29T22:28:32.000Z",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
       "lead": {
         "kind": "press",
@@ -396,18 +396,18 @@
         "labs": []
       },
       {
+        "name": "Mistral Large 4",
+        "count": 8,
+        "prev": 3,
+        "labs": []
+      },
+      {
         "name": "Qwen 3.8",
         "count": 7,
         "prev": 1,
         "labs": [
           "amazon"
         ]
-      },
-      {
-        "name": "Mistral Large 4",
-        "count": 7,
-        "prev": 3,
-        "labs": []
       },
       {
         "name": "Gemini 4 Argon",
@@ -423,8 +423,8 @@
       },
       {
         "name": "GPT 6.1 Terra",
-        "count": 5,
-        "prev": 0,
+        "count": 4,
+        "prev": 1,
         "labs": [
           "openai",
           "amazon"
@@ -472,13 +472,13 @@
       {
         "name": "coding",
         "count": 38,
-        "prev": 43,
+        "prev": 42,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "qwen",
           "microsoft",
@@ -508,9 +508,9 @@
           "google-deepmind",
           "openai",
           "mistral",
-          "baidu",
-          "microsoft",
           "tencent",
+          "microsoft",
+          "baidu",
           "amazon",
           "ibm",
           "nvidia"
@@ -531,12 +531,12 @@
       },
       {
         "name": "open-source",
-        "count": 4,
-        "prev": 6,
+        "count": 3,
+        "prev": 7,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "amazon",
           "ibm",
@@ -569,18 +569,5 @@
       }
     ]
   },
-  "unconfirmed": [
-    {
-      "id": "mistral:6f7d89d8ad3ee2",
-      "lab": "mistral",
-      "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
-      "outlets": [
-        "FindArticles",
-        "WinBuzzer"
-      ],
-      "reports": 2,
-      "at": "2026-10-29T22:26:34.000Z"
-    }
-  ]
+  "unconfirmed": []
 }

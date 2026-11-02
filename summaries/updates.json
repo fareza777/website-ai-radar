@@ -3346,5 +3346,23 @@
     "summary": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access on premises and in the cloud with a data path between GPUs and storage targets.",
     "benefit": "Platform engineers can follow the post to check and configure GDS for higher bandwidth and lower latency on GPU storage.",
     "category": "developer"
+  },
+  "d6b7f0f1e708554f": {
+    "hash": "c0aef61eb180",
+    "summary": "IBM Research posted the November 2026 Ponder This challenge, titled The SumSum.",
+    "benefit": "Puzzle solvers can email ponder@il.ibm.com with a correct solution to be listed on the challenge page.",
+    "category": "research"
+  },
+  "845192bdcbf27af2": {
+    "hash": "4f03b947c42f",
+    "summary": "Qwen Code v0.26.5 adds bounded SQL history queries for managed local H2 and hosted MySQL, and turns Generated UI on by default so chat can continue with interactive card values attached.",
+    "benefit": "Qwen Code users get paged history lookups and interactive generated UI without flipping a feature flag.",
+    "category": "developer"
+  },
+  "3f75b1fc2e8a2332": {
+    "hash": "2137a238ff49",
+    "summary": "Qwen Code desktop v0.26.5 ships the same bounded SQL history queries and default Generated UI, plus web-shell keyboard shortcuts for Session Overview and Split View and a Russian locale.",
+    "benefit": "Desktop users gain faster session navigation shortcuts and localized UI alongside the new history and Generated UI defaults.",
+    "category": "developer"
   }
 }

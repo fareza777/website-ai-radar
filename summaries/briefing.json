@@ -512,5 +512,30 @@
         "itemId": "2ad4a602c2fe4366"
       }
     ]
+  },
+  "2026-11-02": {
+    "headline": "Qwen Code 0.26.5 shipped desktop and CLI updates while OpenAI, Amazon, and NVIDIA expanded agent and GovCloud tooling.",
+    "bullets": [
+      {
+        "text": "OpenAI will honor a shared robots.txt signal so website operators can express AI training preferences to participating providers.",
+        "itemId": "25cc4c9bb2e3e7e5"
+      },
+      {
+        "text": "Amazon Bedrock supports OpenAI GPT-5.6 Terra and Luna on bedrock-runtime in AWS GovCloud (US) with Responses, Converse, Chat Completions, and cross-region inference.",
+        "itemId": "e721105ebf24bc9d"
+      },
+      {
+        "text": "Kiro web search gives agents real-time internet access with citations, now available in AWS GovCloud (US).",
+        "itemId": "5350a2a8922d84d9"
+      },
+      {
+        "text": "NVIDIA NemoClaw helps teams build specialized agents on a stack they control with policy enforcement and observability.",
+        "itemId": "b5bd2734bcbd8d3c"
+      },
+      {
+        "text": "Qwen Code v0.26.5 adds bounded SQL history queries and enables Generated UI by default for interactive card follow-ups.",
+        "itemId": "845192bdcbf27af2"
+      }
+    ]
   }
 }

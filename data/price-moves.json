@@ -1,5 +1,49 @@
 [
   {
+    "id": "987fd60c4750a015",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-02T00:02:39.418Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.0285,
+    "change": -81
+  },
+  {
+    "id": "80e3ed54cf5caf9d",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-02T00:02:39.418Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.0923,
+    "change": -81.5
+  },
+  {
+    "id": "fd5cdf3a2806bd5f",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-11-02T00:02:39.418Z",
+    "field": "prompt",
+    "from": 0.0699,
+    "to": 0.08,
+    "change": 14.4
+  },
+  {
+    "id": "54e2b8aea3ff5bf6",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-11-02T00:02:39.418Z",
+    "field": "completion",
+    "from": 1.4,
+    "to": 3.6,
+    "change": 157.1
+  },
+  {
     "id": "bac091f6c42e004f",
     "modelId": "openai/gpt-oss-20b",
     "name": "OpenAI: gpt-oss-20b",
