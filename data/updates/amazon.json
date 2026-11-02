@@ -1,5 +1,78 @@
 [
   {
+    "id": "195c284d0de53e7f",
+    "lab": "amazon",
+    "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+    "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-02T17:11:21.000Z",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z",
+    "updatedAt": "2026-11-02T17:11:21.000Z",
+    "excerpt": "When you build Retrieval Augmented Generation (RAG) applications, answer quality depends on the data that you ingest. Amazon Bedrock Knowledge Bases is the fully managed RAG capability of Amazon Bedrock. With Amazon Bedrock Managed Knowledge Base , you connect your data sources, and Amazon Bedrock manages ingestion, storage, indexing, and retrieval for you. You don’t provision or scale a vector store, and embedding…",
+    "summary": "When you build Retrieval Augmented Generation (RAG) applications, answer quality depends on the data that you ingest.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "multimodal",
+      "rag"
+    ],
+    "importance": 50,
+    "contentHash": "36d9973a6999"
+  },
+  {
+    "id": "3e4765c6fd3b0d54",
+    "lab": "amazon",
+    "title": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-02T17:01:16.000Z",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z",
+    "updatedAt": "2026-11-02T17:01:16.000Z",
+    "excerpt": "When a qualified aerospace component goes obsolete or hits a long lead time, an engineer spends days cross-referencing specifications across vendor datasheets, interface control documents (ICDs), and qualification records before documenting a substitution justification for review. An incorrect substitution on a flight-critical component can cause mission failure, yet the evidence trail behind each decision is often…",
+    "summary": "When a qualified aerospace component goes obsolete or hits a long lead time, an engineer spends days cross-referencing specifications across vendor datasheets, interface control documents (ICDs), and qualification…",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "multimodal",
+      "rag"
+    ],
+    "importance": 50,
+    "contentHash": "ad76872184c6"
+  },
+  {
+    "id": "7a5a1669ffe7a96b",
+    "lab": "amazon",
+    "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-02T17:00:58.000Z",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z",
+    "updatedAt": "2026-11-02T17:00:58.000Z",
+    "excerpt": "This post was co-written with Marek Klatowicz, Cloud DevOps Engineer at Circle K. Many DevOps teams know the incident triage pattern: An alert fires, and before anyone can fix the problem, an engineer spends 45–60 minutes figuring out what happened. They pull logs, check service health, and correlate symptoms across a handful of tools. All of this happens before remediation can begin. At Circle K, this challenge…",
+    "summary": "This post was co-written with Marek Klatowicz, Cloud DevOps Engineer at Circle K.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "86ec64e694d1"
+  },
+  {
     "id": "feb912e225e8e3aa",
     "lab": "amazon",
     "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
@@ -2008,7 +2081,7 @@
     "contentHash": "f6b52138e9a2",
     "meta": {
       "likes": 15,
-      "downloads": 203,
+      "downloads": 212,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"
     }
@@ -3068,7 +3141,7 @@
     "contentHash": "2462e1ba8e00",
     "meta": {
       "likes": 12,
-      "downloads": 779,
+      "downloads": 802,
       "repo": "amazon/ALoDLM-1.7B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -3099,7 +3172,7 @@
     "contentHash": "48b7b19078e5",
     "meta": {
       "likes": 62,
-      "downloads": 2360,
+      "downloads": 2409,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"

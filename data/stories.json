@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T06:21:53.387Z",
+  "generatedAt": "2026-11-02T19:34:59.949Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 25,
+      "press": 26,
       "outlets": [
         "Mashable",
         "Tech My Money",
@@ -62,7 +62,7 @@
         "EdTech Innovation Hub"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
-      "lastAt": "2026-11-02T01:18:40.000Z",
+      "lastAt": "2026-11-02T15:30:00.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
       "lead": {
         "kind": "official",
@@ -129,6 +129,26 @@
         "id": "1758535ac6be3e6b"
       },
       "importance": 92
+    },
+    {
+      "id": "0f715e1693d7c6b7",
+      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+      "entity": null,
+      "labs": [
+        "amazon",
+        "openai"
+      ],
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-10-26T17:27:20.000Z",
+      "lastAt": "2026-10-26T17:27:20.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock",
+      "lead": {
+        "kind": "official",
+        "id": "0f715e1693d7c6b7"
+      },
+      "importance": 70
     },
     {
       "id": "qwen:903f2bd3fa59a7",
@@ -213,9 +233,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 11,
+      "press": 10,
       "outlets": [
-        "Seeking Alpha",
         "PPC Land",
         "https://tech-insider.org/",
         "shattered.io",
@@ -226,14 +245,14 @@
         "Mezha.net",
         "Small Business Trends"
       ],
-      "firstAt": "2026-10-23T16:25:17.000Z",
+      "firstAt": "2026-10-23T20:33:18.000Z",
       "lastAt": "2026-10-30T16:11:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:42a742b28a5be9"
       },
-      "importance": 62
+      "importance": 61
     },
     {
       "id": "cohere:3da845eb6ca838",
@@ -376,7 +395,7 @@
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 34,
+        "count": 35,
         "prev": 1,
         "labs": [
           "google-deepmind"
@@ -405,16 +424,8 @@
       {
         "name": "Gemini 4 Argon",
         "count": 8,
-        "prev": 15,
+        "prev": 13,
         "labs": []
-      },
-      {
-        "name": "Qwen 3.8",
-        "count": 7,
-        "prev": 1,
-        "labs": [
-          "amazon"
-        ]
       },
       {
         "name": "Qwen 3.8 Flash",
@@ -423,11 +434,10 @@
         "labs": []
       },
       {
-        "name": "GPT 6.1 Terra",
+        "name": "Qwen 3.8",
         "count": 4,
-        "prev": 1,
+        "prev": 5,
         "labs": [
-          "openai",
           "amazon"
         ]
       },
@@ -438,42 +448,17 @@
         "labs": []
       },
       {
-        "name": "GPT 6.1 Sol",
-        "count": 3,
-        "prev": 1,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
         "name": "GLM 5.3",
         "count": 3,
-        "prev": 2,
+        "prev": 1,
         "labs": []
       }
     ],
     "topics": [
       {
-        "name": "agents",
-        "count": 39,
-        "prev": 51,
-        "labs": [
-          "anthropic",
-          "deepseek",
-          "openai",
-          "meta",
-          "mistral",
-          "qwen",
-          "microsoft",
-          "amazon",
-          "nvidia",
-          "ibm"
-        ]
-      },
-      {
         "name": "coding",
-        "count": 37,
-        "prev": 43,
+        "count": 39,
+        "prev": 38,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -484,14 +469,46 @@
           "qwen",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "agents",
+        "count": 38,
+        "prev": 49,
+        "labs": [
+          "anthropic",
+          "deepseek",
+          "openai",
+          "mistral",
+          "qwen",
+          "microsoft",
+          "amazon",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "multimodal",
+        "count": 8,
+        "prev": 10,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "baidu",
+          "microsoft",
+          "tencent",
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 9,
-        "prev": 10,
+        "count": 7,
+        "prev": 11,
         "labs": [
           "anthropic",
           "xai",
@@ -499,22 +516,6 @@
           "mistral",
           "amazon",
           "nvidia"
-        ]
-      },
-      {
-        "name": "multimodal",
-        "count": 6,
-        "prev": 12,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "mistral",
-          "baidu",
-          "tencent",
-          "microsoft",
-          "amazon",
-          "nvidia",
-          "ibm"
         ]
       },
       {
@@ -526,8 +527,19 @@
           "openai",
           "mistral",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "rag",
+        "count": 4,
+        "prev": 6,
+        "labs": [
+          "meta",
+          "cohere",
+          "amazon",
+          "nvidia"
         ]
       },
       {
@@ -540,32 +552,20 @@
           "mistral",
           "cohere",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "reasoning",
-        "count": 3,
-        "prev": 7,
+        "count": 2,
+        "prev": 6,
         "labs": [
           "openai",
-          "meta",
           "mistral",
           "cohere",
           "tencent",
           "amazon"
-        ]
-      },
-      {
-        "name": "rag",
-        "count": 3,
-        "prev": 5,
-        "labs": [
-          "meta",
-          "cohere",
-          "amazon",
-          "nvidia"
         ]
       }
     ]

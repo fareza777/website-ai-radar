@@ -1,5 +1,27 @@
 [
   {
+    "id": "c3d9c0114f0e103f",
+    "lab": "nvidia",
+    "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
+    "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-02T17:00:00.000Z",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z",
+    "updatedAt": "2026-11-02T17:00:00.000Z",
+    "excerpt": "Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into... Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into applications reliably. NVIDIA Cosmos addresses each. Cosmos is a platform of world foundation…",
+    "summary": "Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into...",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "adb90ebccb87"
+  },
+  {
     "id": "ae8372a9c3c19778",
     "lab": "nvidia",
     "title": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
@@ -280,10 +302,10 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 66,
+    "importance": 67,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 114,
+      "likes": 126,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -1470,11 +1492,11 @@
       "30B-A4B",
       "audio"
     ],
-    "importance": 72,
+    "importance": 73,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 620,
-      "downloads": 29364,
+      "likes": 671,
+      "downloads": 32439,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
       "license": "other"
@@ -1551,8 +1573,8 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 170,
-      "downloads": 13108,
+      "likes": 172,
+      "downloads": 13364,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -1696,7 +1718,7 @@
     "contentHash": "806c45ea6874",
     "meta": {
       "likes": 42,
-      "downloads": 8554,
+      "downloads": 8826,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
     }
@@ -1747,8 +1769,8 @@
     "importance": 70,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 326,
-      "downloads": 83901,
+      "likes": 340,
+      "downloads": 92742,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
       "license": "other"
@@ -1828,7 +1850,7 @@
     "contentHash": "b0ac029a9c38",
     "meta": {
       "likes": 38,
-      "downloads": 2331,
+      "downloads": 2379,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -2661,7 +2683,7 @@
     "contentHash": "e3362fa9da93",
     "meta": {
       "likes": 88,
-      "downloads": 6532,
+      "downloads": 6597,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -2691,8 +2713,8 @@
     "importance": 67,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 139,
-      "downloads": 14041,
+      "likes": 142,
+      "downloads": 14306,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -2723,7 +2745,7 @@
     "contentHash": "5af7f2181f27",
     "meta": {
       "likes": 826,
-      "downloads": 159692,
+      "downloads": 159900,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
       "license": "openmdw-1.1"
@@ -2752,7 +2774,7 @@
     "contentHash": "514b0926029b",
     "meta": {
       "likes": 195,
-      "downloads": 68721,
+      "downloads": 75384,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
     }
@@ -2782,8 +2804,8 @@
     "importance": 62,
     "contentHash": "6c63dced677a",
     "meta": {
-      "likes": 29,
-      "downloads": 947,
+      "likes": 30,
+      "downloads": 1055,
       "repo": "nvidia/nemotron-labs-unified-asr-0.6b",
       "pipeline": "automatic-speech-recognition",
       "license": "other"

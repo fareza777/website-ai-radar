@@ -1,5 +1,64 @@
 [
   {
+    "id": "7726af454e62050c",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.27",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.27",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-02T19:09:07.000Z",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z",
+    "updatedAt": "2026-11-02T19:09:07.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.26.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.27 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "9f286d9551de",
+    "meta": {
+      "version": "v0.1.27",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
+    "id": "d33d62cc970a7752",
+    "lab": "qwen",
+    "title": "Qwen Code v0.26.6",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.6",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-02T18:55:57.000Z",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z",
+    "updatedAt": "2026-11-02T18:55:57.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds a Web Shell sidebar activity view for trusted workspace conversations, showing approval/input/error states, unread completions, running work, and bulk read/archive controls. ( #16022 ) by @deggs7 Adds an \"Add to Split View\" option to eligible sidebar session menus in web shell, making it…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.26.6 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "c625dbd8c258",
+    "meta": {
+      "version": "v0.26.6",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
     "id": "845192bdcbf27af2",
     "lab": "qwen",
     "title": "Qwen Code v0.26.5",
@@ -771,7 +830,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 301,
+      "stars": 304,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -889,8 +948,8 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1092,
-      "downloads": 40738,
+      "likes": 1096,
+      "downloads": 41733,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1038,7 +1097,7 @@
     "contentHash": "d108635bb7df",
     "meta": {
       "likes": 72,
-      "downloads": 13940,
+      "downloads": 13789,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
     }
@@ -1068,7 +1127,7 @@
     "contentHash": "2deb903ef0b2",
     "meta": {
       "likes": 77,
-      "downloads": 6122,
+      "downloads": 5966,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1154,8 +1213,8 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3521,
-      "downloads": 217429,
+      "likes": 3534,
+      "downloads": 223194,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1193,7 +1252,7 @@
     "importance": 44,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 251,
+      "stars": 254,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -1314,8 +1373,8 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6697,
-      "downloads": 4029520,
+      "likes": 6711,
+      "downloads": 3929164,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -1345,8 +1404,8 @@
     "importance": 95,
     "contentHash": "df6b90143e8c",
     "meta": {
-      "likes": 1353,
-      "downloads": 25924,
+      "likes": 1354,
+      "downloads": 26113,
       "repo": "Qwen/Qwen3.8-2.4T-A95B",
       "pipeline": "text-generation",
       "license": "other"
@@ -1377,8 +1436,8 @@
     "importance": 95,
     "contentHash": "c1ed6fc8eb4b",
     "meta": {
-      "likes": 18946,
-      "downloads": 7892866,
+      "likes": 18996,
+      "downloads": 7915637,
       "repo": "Qwen/Qwen3.8-27B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"

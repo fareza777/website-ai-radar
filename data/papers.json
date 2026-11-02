@@ -1,15 +1,48 @@
 [
   {
-    "id": "2610.40339",
-    "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
-    "url": "https://huggingface.co/papers/2610.40339",
-    "summary": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined…",
+    "id": "2610.36545",
+    "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+    "url": "https://huggingface.co/papers/2610.36545",
+    "summary": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-target relationships…",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 111,
+    "org": "framexai",
+    "githubRepo": "https://github.com/Lyne1/FrameForge",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z"
+  },
+  {
+    "id": "2610.22740",
+    "title": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+    "url": "https://huggingface.co/papers/2610.22740",
+    "summary": "In recent years, agentic orchestration has been widely applied to solve complex human tasks. However, existing orchestration learning still faces key challenges, including hand-designed curricula, advantage collapse when a task's rollouts all reach the same outcome, and unreliable evaluation signals that judge each skill by one noisy score. To address these challenges, we propose R^2Orch, a new paradigm of Recursive…",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 86,
+    "org": "cuhksz",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z"
+  },
+  {
+    "id": "2610.39497",
+    "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+    "url": "https://huggingface.co/papers/2610.39497",
+    "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 14,
-    "org": "tencent",
-    "lab": "tencent",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z"
+    "upvotes": 52,
+    "org": "tsinghua",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z"
+  },
+  {
+    "id": "2610.42053",
+    "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+    "url": "https://huggingface.co/papers/2610.42053",
+    "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles…",
+    "publishedAt": "2026-10-30T17:18:13.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 43,
+    "org": null,
+    "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
     "id": "2610.16927",
@@ -18,7 +51,19 @@
     "summary": "Short-video search needs compact query rewriters that recover users' personalized intent from ambiguous queries under strict latency constraints. Existing LLM-based methods have improved rewriting by using synthetic reasoning and subsequent consumption-behavioral feedback. However, overemphasizing subsequent consumption can favor engaging content over the user's immediate need, causing intent drift even when…",
     "publishedAt": "2026-10-30T00:00:00.000Z",
     "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 4,
+    "upvotes": 26,
+    "org": "tencent",
+    "lab": "tencent",
+    "firstSeenAt": "2026-11-02T06:21:53.387Z"
+  },
+  {
+    "id": "2610.40339",
+    "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+    "url": "https://huggingface.co/papers/2610.40339",
+    "summary": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 24,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
@@ -77,7 +122,7 @@
     "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 108,
+    "upvotes": 118,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/hyeon9698/LOWN",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -89,7 +134,7 @@
     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 66,
+    "upvotes": 70,
     "org": "galilai-group",
     "githubRepo": "https://github.com/galilai-group/prh-proof",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
@@ -101,7 +146,7 @@
     "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 53,
+    "upvotes": 60,
     "org": "iquestlab",
     "githubRepo": "https://github.com/IQuestLab/WorkFactory",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
@@ -113,7 +158,7 @@
     "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 46,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/cvlab-kaist/L3G-World",
     "firstSeenAt": "2026-11-01T22:10:15.829Z"
@@ -125,7 +170,7 @@
     "summary": "Locating relevant evidence in long inputs is a core capability of Multimodal Large Language Models. Prior studies attribute this capability to retrieval heads, a sparse set of attention heads that transfer information from the context to the output. However, these analyses are confined to a limited set of modalities and the corresponding models. Moreover, how retrieval heads can be leveraged to enhance the model…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 30,
+    "upvotes": 40,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -137,7 +182,7 @@
     "summary": "Evaluating human-AI co-design requires testing whether coding agents can translate real users' multimodal requests into working application revisions. We introduce Co-Design Bench, a reference-free benchmark of 273 tasks curated from 37,463 deduplicated queries across 26,314 real user coding sessions. Its two tracks, Multimodal Editing (ME) and Repository Editing (RE), cover localized edits with optional image…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 21,
+    "upvotes": 26,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/Wiselnn570/Co-Design-Bench",
@@ -150,7 +195,7 @@
     "summary": "Producing long-form videos from narration requires interdependent decisions that remain coherent across shots. Existing agentic editors often use multi-stage workflows driven by general models, leaving the quality-cost trade-off of compact, task-adapted policies unclear. We address this gap with WeVisCut, a long-form script-to-video system that connects tool execution with policy learning. Its agent harness…",
     "publishedAt": "2026-10-28T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 18,
+    "upvotes": 25,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisCut",
@@ -163,7 +208,7 @@
     "summary": "Weight-normalized (WN) training is emerging as a compelling alternative to conventional weight decay (WD), with recent studies reporting substantial pretraining loss gains. We show that these gains are driven primarily by the induced effective learning rate (ELR) trajectory rather than by normalization alone. Matching ELR trajectories largely collapses the training loss dynamics of WN and WD. Schedule design should…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 10,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -316,7 +361,7 @@
     "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 154,
+    "upvotes": 155,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
