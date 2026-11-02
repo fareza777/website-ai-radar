@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T00:02:39.418Z",
+  "generatedAt": "2026-11-02T06:21:53.387Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -16,8 +16,8 @@
         "Forbes",
         "TestingCatalog AI News",
         "Investing.com",
-        "Techzine Global",
         "TechRepublic",
+        "Techzine Global",
         "tech-insider.org",
         "AI Magazine",
         "Seeking Alpha",
@@ -28,17 +28,18 @@
         "shattered.io",
         "Neowin",
         "9to5Google",
-        "PCMag Middle East",
+        "Yahoo Tech",
         "The National CIO Review",
-        "Engadget",
-        "The Verge",
-        "Technology Org",
-        "Ticker News",
         "PCMag",
-        "Wichita Eagle",
+        "The Verge",
+        "Engadget",
+        "Technology Org",
+        "CyberSecurityNews",
         "Reuters",
         "SiliconANGLE",
-        "CyberSecurityNews",
+        "PCMag Middle East",
+        "Ticker News",
+        "Wichita Eagle",
         "VentureBeat",
         "Anadolu Ajansı",
         "Türkiye Today",
@@ -47,7 +48,6 @@
         "The Decoder",
         "R&D World",
         "The Next Web",
-        "Yahoo Tech",
         "Interesting Engineering",
         "Fello AI",
         "CNET",
@@ -58,10 +58,11 @@
         "SecurityWeek",
         "Brave New Coin",
         "Barchart.com",
-        "Yahoo Finance"
+        "Yahoo Finance",
+        "EdTech Innovation Hub"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
-      "lastAt": "2026-10-31T13:00:03.000Z",
+      "lastAt": "2026-11-02T01:18:40.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
       "lead": {
         "kind": "official",
@@ -92,8 +93,8 @@
         "Techzine Global",
         "WinBuzzer",
         "NeoTeo",
-        "trendingtopics.eu",
         "Times Of AI",
+        "trendingtopics.eu",
         "Idaho Statesman",
         "TOKENPOST",
         "International Business Times UK"
@@ -375,7 +376,7 @@
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 33,
+        "count": 34,
         "prev": 1,
         "labs": [
           "google-deepmind"
@@ -402,18 +403,18 @@
         "labs": []
       },
       {
+        "name": "Gemini 4 Argon",
+        "count": 8,
+        "prev": 15,
+        "labs": []
+      },
+      {
         "name": "Qwen 3.8",
         "count": 7,
         "prev": 1,
         "labs": [
           "amazon"
         ]
-      },
-      {
-        "name": "Gemini 4 Argon",
-        "count": 7,
-        "prev": 16,
-        "labs": []
       },
       {
         "name": "Qwen 3.8 Flash",
@@ -465,14 +466,14 @@
           "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 38,
-        "prev": 42,
+        "count": 37,
+        "prev": 43,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -483,8 +484,8 @@
           "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -502,18 +503,18 @@
       },
       {
         "name": "multimodal",
-        "count": 7,
-        "prev": 11,
+        "count": 6,
+        "prev": 12,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
+          "baidu",
           "tencent",
           "microsoft",
-          "baidu",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -525,8 +526,8 @@
           "openai",
           "mistral",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -539,8 +540,8 @@
           "mistral",
           "cohere",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {

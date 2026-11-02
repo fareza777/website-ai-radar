@@ -1,5 +1,29 @@
 [
   {
+    "id": "2610.40339",
+    "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+    "url": "https://huggingface.co/papers/2610.40339",
+    "summary": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 14,
+    "org": "tencent",
+    "lab": "tencent",
+    "firstSeenAt": "2026-11-02T06:21:53.387Z"
+  },
+  {
+    "id": "2610.16927",
+    "title": "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
+    "url": "https://huggingface.co/papers/2610.16927",
+    "summary": "Short-video search needs compact query rewriters that recover users' personalized intent from ambiguous queries under strict latency constraints. Existing LLM-based methods have improved rewriting by using synthetic reasoning and subsequent consumption-behavioral feedback. However, overemphasizing subsequent consumption can favor engaging content over the user's immediate need, causing intent drift even when…",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 4,
+    "org": "tencent",
+    "lab": "tencent",
+    "firstSeenAt": "2026-11-02T06:21:53.387Z"
+  },
+  {
     "id": "2610.39633",
     "title": "Intrinsic Distribution Matching",
     "url": "https://huggingface.co/papers/2610.39633",
@@ -53,7 +77,7 @@
     "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 101,
+    "upvotes": 108,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/hyeon9698/LOWN",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -65,10 +89,22 @@
     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 64,
+    "upvotes": 66,
     "org": "galilai-group",
     "githubRepo": "https://github.com/galilai-group/prh-proof",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
+  },
+  {
+    "id": "2610.37161",
+    "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+    "url": "https://huggingface.co/papers/2610.37161",
+    "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning…",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "submittedAt": "2026-10-30T00:00:00.000Z",
+    "upvotes": 53,
+    "org": "iquestlab",
+    "githubRepo": "https://github.com/IQuestLab/WorkFactory",
+    "firstSeenAt": "2026-11-02T06:21:53.387Z"
   },
   {
     "id": "2610.40614",
@@ -77,7 +113,7 @@
     "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 44,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/cvlab-kaist/L3G-World",
     "firstSeenAt": "2026-11-01T22:10:15.829Z"
@@ -89,7 +125,7 @@
     "summary": "Locating relevant evidence in long inputs is a core capability of Multimodal Large Language Models. Prior studies attribute this capability to retrieval heads, a sparse set of attention heads that transfer information from the context to the output. However, these analyses are confined to a limited set of modalities and the corresponding models. Moreover, how retrieval heads can be leveraged to enhance the model…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 29,
+    "upvotes": 30,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -101,7 +137,7 @@
     "summary": "Evaluating human-AI co-design requires testing whether coding agents can translate real users' multimodal requests into working application revisions. We introduce Co-Design Bench, a reference-free benchmark of 273 tasks curated from 37,463 deduplicated queries across 26,314 real user coding sessions. Its two tracks, Multimodal Editing (ME) and Repository Editing (RE), cover localized edits with optional image…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 20,
+    "upvotes": 21,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/Wiselnn570/Co-Design-Bench",
@@ -114,7 +150,7 @@
     "summary": "Producing long-form videos from narration requires interdependent decisions that remain coherent across shots. Existing agentic editors often use multi-stage workflows driven by general models, leaving the quality-cost trade-off of compact, task-adapted policies unclear. We address this gap with WeVisCut, a long-form script-to-video system that connects tool execution with policy learning. Its agent harness…",
     "publishedAt": "2026-10-28T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 15,
+    "upvotes": 18,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisCut",
@@ -127,7 +163,7 @@
     "summary": "Weight-normalized (WN) training is emerging as a compelling alternative to conventional weight decay (WD), with recent studies reporting substantial pretraining loss gains. We show that these gains are driven primarily by the induced effective learning rate (ELR) trajectory rather than by normalization alone. Matching ELR trajectories largely collapses the training loss dynamics of WN and WD. Schedule design should…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 8,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -163,7 +199,7 @@
     "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 133,
+    "upvotes": 139,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/justin4ai/OmniShowcase",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
@@ -175,7 +211,7 @@
     "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 90,
+    "upvotes": 95,
     "org": "aior-research",
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
@@ -186,7 +222,7 @@
     "summary": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 54,
+    "upvotes": 56,
     "org": "riceuniversity",
     "githubRepo": "https://github.com/yunfeixie233/sensorimotor-alignment",
     "firstSeenAt": "2026-10-31T12:44:47.503Z"
@@ -209,7 +245,7 @@
     "summary": "Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual embodiment and missing robot proprioception complicate transfer to humanoid policies. To address these challenges, we…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 44,
     "org": null,
     "githubRepo": "https://github.com/yliu-cs/HuGe",
     "firstSeenAt": "2026-11-02T00:02:39.418Z"
@@ -280,7 +316,7 @@
     "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 152,
+    "upvotes": 154,
     "org": null,
     "firstSeenAt": "2026-10-28T13:09:00.611Z"
   },
@@ -435,7 +471,7 @@
     "summary": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with three ingredients: Decoupled Horizon Forecasting (DHF), which separates prediction tokens from the…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 13,
+    "upvotes": 14,
     "org": "mistralai",
     "lab": "mistral",
     "firstSeenAt": "2026-10-28T05:52:51.451Z"
