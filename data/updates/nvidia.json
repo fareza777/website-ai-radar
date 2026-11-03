@@ -1,5 +1,30 @@
 [
   {
+    "id": "4d836f21a02fa461",
+    "lab": "nvidia",
+    "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+    "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T07:00:12.000Z",
+    "firstSeenAt": "2026-11-03T11:00:37.354Z",
+    "updatedAt": "2026-11-03T07:00:12.000Z",
+    "excerpt": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments in control of how sensitive data is processed and used…",
+    "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "multimodal"
+    ],
+    "importance": 30,
+    "contentHash": "ac56cc58eeb6"
+  },
+  {
     "id": "c3d9c0114f0e103f",
     "lab": "nvidia",
     "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
@@ -1495,8 +1520,8 @@
     "importance": 73,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 699,
-      "downloads": 32439,
+      "likes": 705,
+      "downloads": 38942,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
       "license": "other"
@@ -1574,7 +1599,7 @@
     "contentHash": "08356dcbd0c7",
     "meta": {
       "likes": 172,
-      "downloads": 13364,
+      "downloads": 13808,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -1718,7 +1743,7 @@
     "contentHash": "806c45ea6874",
     "meta": {
       "likes": 42,
-      "downloads": 8826,
+      "downloads": 9359,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
     }
@@ -1769,8 +1794,8 @@
     "importance": 70,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 345,
-      "downloads": 92742,
+      "likes": 347,
+      "downloads": 97982,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
       "license": "other"
@@ -1850,7 +1875,7 @@
     "contentHash": "b0ac029a9c38",
     "meta": {
       "likes": 38,
-      "downloads": 2379,
+      "downloads": 2477,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -2683,7 +2708,7 @@
     "contentHash": "e3362fa9da93",
     "meta": {
       "likes": 89,
-      "downloads": 6597,
+      "downloads": 6582,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -2714,7 +2739,7 @@
     "contentHash": "1a235bb4339f",
     "meta": {
       "likes": 142,
-      "downloads": 14306,
+      "downloads": 15275,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -2745,7 +2770,7 @@
     "contentHash": "5af7f2181f27",
     "meta": {
       "likes": 826,
-      "downloads": 159900,
+      "downloads": 166327,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
       "license": "openmdw-1.1"
@@ -2773,8 +2798,8 @@
     "importance": 68,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 196,
-      "downloads": 75384,
+      "likes": 197,
+      "downloads": 84991,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
     }
@@ -2804,8 +2829,8 @@
     "importance": 62,
     "contentHash": "6c63dced677a",
     "meta": {
-      "likes": 30,
-      "downloads": 1055,
+      "likes": 31,
+      "downloads": 1115,
       "repo": "nvidia/nemotron-labs-unified-asr-0.6b",
       "pipeline": "automatic-speech-recognition",
       "license": "other"

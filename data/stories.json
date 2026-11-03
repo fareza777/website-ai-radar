@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T06:57:22.155Z",
+  "generatedAt": "2026-11-03T11:00:37.354Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -204,7 +204,7 @@
         "nvidia"
       ],
       "official": 0,
-      "press": 6,
+      "press": 7,
       "outlets": [
         "https://tech-insider.org/",
         "SQ Magazine",
@@ -236,7 +236,7 @@
         "mistral"
       ],
       "official": 0,
-      "press": 9,
+      "press": 10,
       "outlets": [
         "ActuIA",
         "Martin Cid Magazine",
@@ -246,16 +246,17 @@
         "www.trendingtopics.eu",
         "FindArticles",
         "WinBuzzer",
-        "Kingy AI"
+        "Kingy AI",
+        "Technology Org"
       ],
       "firstAt": "2026-10-28T21:20:39.000Z",
-      "lastAt": "2026-10-30T15:47:05.000Z",
+      "lastAt": "2026-11-03T07:36:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
       "lead": {
         "kind": "press",
         "id": "mistral:6f7d89d8ad3ee2"
       },
-      "importance": 61
+      "importance": 62
     },
     {
       "id": "cohere:3da845eb6ca838",
@@ -406,22 +407,22 @@
       },
       {
         "name": "GPT 6 Astra",
-        "count": 15,
-        "prev": 2,
+        "count": 14,
+        "prev": 3,
         "labs": [
           "openai"
         ]
       },
       {
-        "name": "Nemotron 3.5 Transcribe",
+        "name": "Mistral Large 4",
         "count": 10,
-        "prev": 0,
+        "prev": 3,
         "labs": []
       },
       {
-        "name": "Mistral Large 4",
-        "count": 9,
-        "prev": 3,
+        "name": "Nemotron 3.5 Transcribe",
+        "count": 6,
+        "prev": 5,
         "labs": []
       },
       {
@@ -443,47 +444,61 @@
         "labs": []
       },
       {
-        "name": "Claude Haiku 5.5",
+        "name": "Claude Opus 5.5",
         "count": 3,
-        "prev": 1,
-        "labs": [
-          "amazon"
-        ]
+        "prev": 4,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
         "count": 41,
-        "prev": 49,
+        "prev": 48,
         "labs": [
           "anthropic",
           "deepseek",
           "openai",
           "mistral",
           "qwen",
-          "microsoft",
           "amazon",
+          "ibm",
           "nvidia",
-          "ibm"
+          "microsoft"
         ]
       },
       {
         "name": "coding",
-        "count": 39,
-        "prev": 41,
+        "count": 40,
+        "prev": 40,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "minimax",
           "mistral",
-          "cohere",
           "qwen",
-          "microsoft",
+          "cohere",
           "amazon",
+          "ibm",
           "nvidia",
-          "ibm"
+          "microsoft"
+        ]
+      },
+      {
+        "name": "multimodal",
+        "count": 9,
+        "prev": 10,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "baidu",
+          "tencent",
+          "amazon",
+          "ibm",
+          "nvidia",
+          "microsoft"
         ]
       },
       {
@@ -500,25 +515,9 @@
         ]
       },
       {
-        "name": "multimodal",
-        "count": 8,
-        "prev": 10,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "mistral",
-          "baidu",
-          "tencent",
-          "microsoft",
-          "amazon",
-          "nvidia",
-          "ibm"
-        ]
-      },
-      {
         "name": "rag",
         "count": 5,
-        "prev": 6,
+        "prev": 5,
         "labs": [
           "meta",
           "cohere",
@@ -535,8 +534,8 @@
           "openai",
           "mistral",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -559,13 +558,49 @@
           "mistral",
           "cohere",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       }
     ]
   },
   "unconfirmed": [
+    {
+      "id": "qwen:cf6f20342781bd",
+      "lab": "qwen",
+      "title": "Qwen4 Nears Launch as Alibaba's Open Source Promise Faces Real Doubt",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUY4dlZhejFkcml1SDgzR0UxQUo0WS1IdXRCRXJyeVdjZDlEenplR3JIQmc4THVtd0RZdmVsUUhZbDVKOURRM1l0UThUbWU2a05BbkQ1SFhmaFEwUWVTdDl0WXQ1RnFhNkl2M0U5QV9tNlFyMVVsMzJvQ2g2WWRtbEIwQlJyeC1qOG5pVFRGWE1CWndFblNMUVN3dw?oc=5",
+      "outlets": [
+        "Startup Fortune",
+        "shattered.io"
+      ],
+      "reports": 2,
+      "at": "2026-11-02T18:54:13.000Z"
+    },
+    {
+      "id": "deepseek:4646acabfb9510",
+      "lab": "deepseek",
+      "title": "DeepSeek unveils open-source Super-Agent aimed at Claude Code's turf",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeWswVVhGbHVxSkE4WThBZFgxLXZ6cVFmU1pwUnc2Q3NyckVLdFhKbHZJZE9mQmZTZUVxRktqMWlTTmRTQkpCdGpuMW94OHJ6U2tIcDJKc01lWVpPSkVPY3gwallaQlNGclR2MFVhTFhLQlkyX0FJSXZBYTNEblpmLTB1TVVwbUNEV3d6bWRPb3BUUQ?oc=5",
+      "outlets": [
+        "Techzine Global",
+        "Briefs Finance"
+      ],
+      "reports": 2,
+      "at": "2026-11-01T15:07:42.000Z"
+    },
+    {
+      "id": "deepseek:48af856e3fcf62",
+      "lab": "deepseek",
+      "title": "DeepSeek launches autonomous coding agent to challenge Anthropic’s Claude Code",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU3ZjNTJLaFEza3NuN1FnWVJkSjNzVXdsLW1VMjFrZDVsOTFzVGd6S1BvU2VMRkNBVlpHU2huZzBIU0xTZ0VtcWVMSnFGZHFhazJKLU1BUU5VQXNEejUzbXVrRHZDS2dnTG5jSFdmTjEydU4yaExlRk1Ed1VHelJ1aVFMeDhfSnNjZGVYVFNsd1VsS0owbGxJQ0stVThkdmlmaHFqMGdpOUwwOTJfOFlpTFpEd0pCN1VSVmVsdVd4NHJuZExjSVJweg?oc=5",
+      "outlets": [
+        "Stocktwits",
+        "Investing.com"
+      ],
+      "reports": 2,
+      "at": "2026-11-01T05:47:14.000Z"
+    },
     {
       "id": "mistral:4de175938f53f7",
       "lab": "mistral",
@@ -577,18 +612,6 @@
       ],
       "reports": 2,
       "at": "2026-11-01T05:31:04.000Z"
-    },
-    {
-      "id": "qwen:8eca584c665dab",
-      "lab": "qwen",
-      "title": "Apple Intelligence China Launch Set for December With Qwen",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SWER2aHdYcGN4UUY5YndYRUJFRTljNVNvQzlKZ05mbVpUdGdicmlDLW1XQm9PS3lnVWloS2VBN0loMHFCbUxmODZvdW5fQUN2T1FhTjg1QnFzQk9HTDdSZA?oc=5",
-      "outlets": [
-        "Tech Wire Asia",
-        "ShiftDelete.Net"
-      ],
-      "reports": 2,
-      "at": "2026-10-31T11:58:17.000Z"
     }
   ]
 }

@@ -6,10 +6,34 @@
     "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF)…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 80,
     "org": "sjtu-deng-lab",
     "githubRepo": "https://github.com/SJTU-DENG-Lab/WaveForcing",
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
+  },
+  {
+    "id": "2610.40191",
+    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+    "url": "https://huggingface.co/papers/2610.40191",
+    "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context…",
+    "publishedAt": "2026-10-29T14:47:39.000Z",
+    "submittedAt": "2026-11-03T00:00:00.000Z",
+    "upvotes": 58,
+    "org": "videorebirthai",
+    "githubRepo": "https://github.com/agentic-videogen/awesome-agentic-videogen",
+    "firstSeenAt": "2026-11-03T11:00:37.354Z"
+  },
+  {
+    "id": "2611.03178",
+    "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+    "url": "https://huggingface.co/papers/2611.03178",
+    "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for…",
+    "publishedAt": "2026-11-02T14:15:11.000Z",
+    "submittedAt": "2026-11-03T00:00:00.000Z",
+    "upvotes": 57,
+    "org": "ruc",
+    "githubRepo": "https://github.com/RUC-NLPIR/CoworkOS",
+    "firstSeenAt": "2026-11-03T11:00:37.354Z"
   },
   {
     "id": "2610.42128",
@@ -18,7 +42,7 @@
     "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we…",
     "publishedAt": "2026-10-30T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 9,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-03T02:57:26.551Z"
