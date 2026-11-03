@@ -1,5 +1,29 @@
 [
   {
+    "id": "adafdd4764cb9dbb",
+    "lab": "google-deepmind",
+    "title": "Agentic cheminformatics with Google Antigravity",
+    "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+    "sourceId": "deepmind-blog",
+    "sourceName": "Google DeepMind Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T17:01:49.000Z",
+    "firstSeenAt": "2026-11-03T19:34:58.857Z",
+    "updatedAt": "2026-11-03T17:01:49.000Z",
+    "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+    "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 55,
+    "contentHash": "b3fab56924fe"
+  },
+  {
     "id": "1802721ebc5f02c3",
     "lab": "google-deepmind",
     "title": "The latest AI news we announced in October 2026",
@@ -1172,7 +1196,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 3095,
+      "likes": 3100,
       "downloads": 431301,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",
@@ -1584,7 +1608,7 @@
     "importance": 79,
     "contentHash": "d8c99b7d47a0",
     "meta": {
-      "likes": 1007,
+      "likes": 1009,
       "downloads": 694370,
       "repo": "google/timesfm-3.0-pytorch",
       "pipeline": "time-series-forecasting",

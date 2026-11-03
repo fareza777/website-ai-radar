@@ -6,22 +6,22 @@
     "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF)…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 80,
+    "upvotes": 100,
     "org": "sjtu-deng-lab",
     "githubRepo": "https://github.com/SJTU-DENG-Lab/WaveForcing",
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
   },
   {
-    "id": "2610.40191",
-    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
-    "url": "https://huggingface.co/papers/2610.40191",
-    "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context…",
-    "publishedAt": "2026-10-29T14:47:39.000Z",
+    "id": "2611.03126",
+    "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+    "url": "https://huggingface.co/papers/2611.03126",
+    "summary": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce…",
+    "publishedAt": "2026-11-02T13:41:14.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 58,
-    "org": "videorebirthai",
-    "githubRepo": "https://github.com/agentic-videogen/awesome-agentic-videogen",
-    "firstSeenAt": "2026-11-03T11:00:37.354Z"
+    "upvotes": 90,
+    "org": null,
+    "githubRepo": "https://github.com/xlyu0106/CUA-Master",
+    "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
   {
     "id": "2611.03178",
@@ -30,10 +30,45 @@
     "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for…",
     "publishedAt": "2026-11-02T14:15:11.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 57,
+    "upvotes": 86,
     "org": "ruc",
     "githubRepo": "https://github.com/RUC-NLPIR/CoworkOS",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
+  },
+  {
+    "id": "2611.01860",
+    "title": "Advances in Agentic Computer Graphics",
+    "url": "https://huggingface.co/papers/2611.01860",
+    "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "submittedAt": "2026-11-03T00:00:00.000Z",
+    "upvotes": 83,
+    "org": "utexas",
+    "firstSeenAt": "2026-11-03T19:34:58.857Z"
+  },
+  {
+    "id": "2610.40191",
+    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+    "url": "https://huggingface.co/papers/2610.40191",
+    "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context…",
+    "publishedAt": "2026-10-29T14:47:39.000Z",
+    "submittedAt": "2026-11-03T00:00:00.000Z",
+    "upvotes": 68,
+    "org": "videorebirthai",
+    "githubRepo": "https://github.com/agentic-videogen/awesome-agentic-videogen",
+    "firstSeenAt": "2026-11-03T11:00:37.354Z"
+  },
+  {
+    "id": "2611.01560",
+    "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+    "url": "https://huggingface.co/papers/2611.01560",
+    "summary": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39…",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "submittedAt": "2026-11-03T00:00:00.000Z",
+    "upvotes": 40,
+    "org": null,
+    "githubRepo": "https://github.com/Open-RUA/uni-robot-agent",
+    "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
   {
     "id": "2610.42128",
@@ -42,7 +77,7 @@
     "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we…",
     "publishedAt": "2026-10-30T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 9,
+    "upvotes": 13,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-03T02:57:26.551Z"
@@ -89,7 +124,7 @@
     "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 61,
     "org": "tsinghua",
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
@@ -123,7 +158,7 @@
     "summary": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 24,
+    "upvotes": 26,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
@@ -194,7 +229,7 @@
     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 72,
+    "upvotes": 73,
     "org": "galilai-group",
     "githubRepo": "https://github.com/galilai-group/prh-proof",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
@@ -563,7 +598,7 @@
     "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Notably, in…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-28T00:00:00.000Z",
-    "upvotes": 30,
+    "upvotes": 32,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"

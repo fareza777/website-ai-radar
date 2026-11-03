@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T11:00:37.354Z",
+  "generatedAt": "2026-11-03T19:34:58.857Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -12,7 +12,7 @@
         "qwen"
       ],
       "official": 1,
-      "press": 7,
+      "press": 8,
       "outlets": [
         "헤럴드경제",
         "TechGig",
@@ -31,10 +31,11 @@
         "Idaho Statesman",
         "TOKENPOST",
         "International Business Times UK",
-        "India Today"
+        "India Today",
+        "YourStory.com"
       ],
       "firstAt": "2026-10-26T22:00:00.000Z",
-      "lastAt": "2026-11-03T04:18:19.000Z",
+      "lastAt": "2026-11-03T10:14:44.000Z",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "lead": {
         "kind": "official",
@@ -204,7 +205,7 @@
         "nvidia"
       ],
       "official": 0,
-      "press": 7,
+      "press": 8,
       "outlets": [
         "https://tech-insider.org/",
         "SQ Magazine",
@@ -216,6 +217,7 @@
         "TUN - The University Network",
         "The Decoder",
         "TradingView",
+        "MarkTechPost",
         "OrcaRouter",
         "Startup Fortune"
       ],
@@ -288,34 +290,6 @@
       "importance": 61
     },
     {
-      "id": "google-deepmind:42a742b28a5be9",
-      "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
-      "entity": "Gemini 4 Argon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 9,
-      "outlets": [
-        "https://tech-insider.org/",
-        "shattered.io",
-        "infoq.com",
-        "i-programmer.info",
-        "9to5Google",
-        "TechRadar",
-        "Mezha.net",
-        "Small Business Trends"
-      ],
-      "firstAt": "2026-10-24T14:38:01.000Z",
-      "lastAt": "2026-10-30T16:11:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:42a742b28a5be9"
-      },
-      "importance": 60
-    },
-    {
       "id": "qwen:dce8d3ce26d331",
       "title": "Cohere says Alibaba's Qwen3.8 model tried to upload a probe file to a Beijing cloud bucket during a sandbox test",
       "entity": "Qwen 3.8",
@@ -371,6 +345,32 @@
       "importance": 59
     },
     {
+      "id": "google-deepmind:ed45a1bd8ae01e",
+      "title": "Gemini 4 Argon Learns From Videos",
+      "entity": "Gemini 4 Argon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 8,
+      "outlets": [
+        "i-programmer.info",
+        "9to5Google",
+        "TechRadar",
+        "Mezha.net",
+        "shattered.io",
+        "Small Business Trends"
+      ],
+      "firstAt": "2026-10-25T16:22:04.000Z",
+      "lastAt": "2026-11-03T08:32:23.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY1F3TjZNMEZEY3RCLVNHQUdFc0FLU09LQ3B6VkdYR19Ob3FaeGtTQVZUOXdGeDZzTDZERWhwU0ZHalhjQ0lsV1o2dDZNM3U5Sm5WdzNVS3RLNWV4SG1SUUt1SkhNcGVwYzhiU280X1FKdnhyWTMzMURua3lvTTJwRTh4R1V4aURKUXFrT2YxYnM0Q0pCeko5eWVvTkJZem1UNlNoM1VkYWtMZw?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:ed45a1bd8ae01e"
+      },
+      "importance": 58
+    },
+    {
       "id": "zai:f0d186775253b4",
       "title": "GLM-5.3 Hits 100% Safety Bypass, Builds Exploits [2026]",
       "entity": "GLM 5.3",
@@ -393,6 +393,26 @@
         "id": "zai:f0d186775253b4"
       },
       "importance": 56
+    },
+    {
+      "id": "ibm:5446c7035cbb10",
+      "title": "IBM named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
+      "entity": null,
+      "labs": [
+        "ibm",
+        "microsoft"
+      ],
+      "official": 0,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-11-02T18:55:43.000Z",
+      "lastAt": "2026-11-03T17:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWEhKbVBobVh1SnpPSTF4bnM5X1poZS1vZ1VISEtROFdiMGVZU3lxZWhFb0RESnBVQUtkTnlZN2xUVzdVWXlxcndQeXE1dkJ5d3M2N08tNENjWER0S3huelp1WnhEZ0tlOWRrWmhZdGVkeGp4bVI0bGhmc3hOVmNBbG5NZHotM21aeHVEdjhRSlR2VW5zelRvQlZLcW5ENGc1bU1ETzhxMm9xOUhqRU5IOXlucENRbVBIdTdwNXZQQWg2U2c?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "ibm:5446c7035cbb10"
+      },
+      "importance": 50
     }
   ],
   "trending": {
@@ -407,7 +427,7 @@
       },
       {
         "name": "GPT 6 Astra",
-        "count": 14,
+        "count": 15,
         "prev": 3,
         "labs": [
           "openai"
@@ -421,20 +441,20 @@
       },
       {
         "name": "Nemotron 3.5 Transcribe",
-        "count": 6,
+        "count": 7,
         "prev": 5,
-        "labs": []
-      },
-      {
-        "name": "Gemini 4 Argon",
-        "count": 5,
-        "prev": 15,
         "labs": []
       },
       {
         "name": "GLM 5.3",
         "count": 4,
         "prev": 1,
+        "labs": []
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "count": 4,
+        "prev": 16,
         "labs": []
       },
       {
@@ -446,71 +466,71 @@
       {
         "name": "Claude Opus 5.5",
         "count": 3,
-        "prev": 4,
+        "prev": 3,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 41,
-        "prev": 48,
+        "count": 43,
+        "prev": 42,
         "labs": [
           "anthropic",
-          "deepseek",
+          "google-deepmind",
           "openai",
-          "mistral",
+          "deepseek",
+          "minimax",
           "qwen",
+          "microsoft",
           "amazon",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 40,
-        "prev": 40,
+        "count": 38,
+        "prev": 45,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "minimax",
           "mistral",
-          "qwen",
           "cohere",
+          "qwen",
+          "microsoft",
           "amazon",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
+        ]
+      },
+      {
+        "name": "safety",
+        "count": 8,
+        "prev": 12,
+        "labs": [
+          "anthropic",
+          "xai",
+          "openai",
+          "amazon",
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 9,
-        "prev": 10,
+        "count": 8,
+        "prev": 11,
         "labs": [
           "google-deepmind",
           "openai",
           "mistral",
           "baidu",
           "tencent",
+          "microsoft",
           "amazon",
           "ibm",
-          "nvidia",
-          "microsoft"
-        ]
-      },
-      {
-        "name": "safety",
-        "count": 8,
-        "prev": 13,
-        "labs": [
-          "anthropic",
-          "xai",
-          "openai",
-          "mistral",
-          "amazon",
           "nvidia"
         ]
       },
@@ -532,34 +552,32 @@
         "labs": [
           "google-deepmind",
           "openai",
-          "mistral",
           "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
-        "name": "mcp",
-        "count": 2,
-        "prev": 6,
-        "labs": [
-          "anthropic",
-          "qwen",
-          "amazon"
-        ]
-      },
-      {
         "name": "open-source",
-        "count": 2,
-        "prev": 8,
+        "count": 3,
+        "prev": 7,
         "labs": [
           "openai",
           "minimax",
           "mistral",
           "cohere",
           "amazon",
-          "ibm",
           "nvidia"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 2,
+        "prev": 3,
+        "labs": [
+          "anthropic",
+          "qwen",
+          "amazon"
         ]
       }
     ]

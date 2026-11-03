@@ -1,5 +1,27 @@
 [
   {
+    "id": "91beac25c1c50c49",
+    "modelId": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "lab": "qwen",
+    "at": "2026-11-03T19:34:58.857Z",
+    "field": "prompt",
+    "from": 0.09,
+    "to": 0.14,
+    "change": 55.6
+  },
+  {
+    "id": "52b9be6daf059ecf",
+    "modelId": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "lab": "qwen",
+    "at": "2026-11-03T19:34:58.857Z",
+    "field": "completion",
+    "from": 0.55,
+    "to": 0.8,
+    "change": 45.5
+  },
+  {
     "id": "b6f7ab03b50a7abb",
     "modelId": "minimax/minimax-m3.1-flash",
     "name": "MiniMax: MiniMax M3.1 Flash",

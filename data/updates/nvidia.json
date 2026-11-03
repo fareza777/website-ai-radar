@@ -1,5 +1,27 @@
 [
   {
+    "id": "3bafb79045335714",
+    "lab": "nvidia",
+    "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+    "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T16:00:45.000Z",
+    "firstSeenAt": "2026-11-03T19:34:58.857Z",
+    "updatedAt": "2026-11-03T16:00:45.000Z",
+    "excerpt": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor manufacturing — and these analyses can take days. Physical experiments on a fab line are…",
+    "summary": "Demand for advanced chips is rising.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "2408b4ad0da1"
+  },
+  {
     "id": "4d836f21a02fa461",
     "lab": "nvidia",
     "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
@@ -1520,7 +1542,7 @@
     "importance": 73,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 705,
+      "likes": 724,
       "downloads": 38942,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -1794,7 +1816,7 @@
     "importance": 70,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 347,
+      "likes": 351,
       "downloads": 97982,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -1874,7 +1896,7 @@
     "importance": 63,
     "contentHash": "b0ac029a9c38",
     "meta": {
-      "likes": 38,
+      "likes": 39,
       "downloads": 2477,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
@@ -2707,7 +2729,7 @@
     "importance": 66,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 89,
+      "likes": 90,
       "downloads": 6582,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
@@ -2798,7 +2820,7 @@
     "importance": 68,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 197,
+      "likes": 198,
       "downloads": 84991,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
@@ -2829,7 +2851,7 @@
     "importance": 62,
     "contentHash": "6c63dced677a",
     "meta": {
-      "likes": 31,
+      "likes": 32,
       "downloads": 1115,
       "repo": "nvidia/nemotron-labs-unified-asr-0.6b",
       "pipeline": "automatic-speech-recognition",

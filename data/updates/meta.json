@@ -1,5 +1,27 @@
 [
   {
+    "id": "e1491c4239ea20a0",
+    "lab": "meta",
+    "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+    "url": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production",
+    "sourceId": "meta-eng",
+    "sourceName": "Engineering at Meta",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T17:00:35.000Z",
+    "firstSeenAt": "2026-11-03T19:34:58.857Z",
+    "updatedAt": "2026-11-03T17:00:35.000Z",
+    "excerpt": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020 . F3 reduced execution computational costs by compiling all features into a single merged graph, but that graph also served as the release unit, so a single failure…",
+    "summary": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 65,
+    "contentHash": "c38b78b61e44"
+  },
+  {
     "id": "2b2f487795f0e5d2",
     "lab": "meta",
     "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
