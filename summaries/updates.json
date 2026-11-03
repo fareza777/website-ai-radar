@@ -101,9 +101,9 @@
     "benefit": "You can let dots move project work forward and still decide what happens next."
   },
   "77b3f0b977bcd0cf": {
-    "hash": "208a6e8ff6df",
-    "summary": "Anthropic published an announcement introducing the Anthropic Cyber Mission.",
-    "benefit": "Security readers can open the Anthropic Cyber Mission post to see what was announced."
+    "hash": "d80a9908a44f",
+    "summary": "Anthropic launched the Anthropic Cyber Mission, described as a long-term commitment to securing the systems everyone depends on.",
+    "benefit": "Points to sustained Anthropic effort on cyber defense, relevant to teams using Claude in security-sensitive work."
   },
   "e3596e3e9f007809": {
     "hash": "44a11402797c",
@@ -319,9 +319,9 @@
     "benefit": "Newsrooms in the Lenfest program can apply the extra $5 million in funding plus software credits and engineering help."
   },
   "d40aae393b587da5": {
-    "hash": "243de34360dc",
-    "summary": "Anthropic published a 2026 Usage Policy update.",
-    "benefit": "Claude users should read the 2026 usage policy to see what changed."
+    "hash": "65ab43e5168c",
+    "summary": "Anthropic published a new version of its Usage Policy and summarizes the changes it made in the post.",
+    "benefit": "Builders on Claude get the current rules in one summary, so they can check their use cases against the update."
   },
   "90995f7dbc9c2674": {
     "hash": "91b7b6ac9f7c",
@@ -394,14 +394,14 @@
     "benefit": "Teams building agent builders can study how Cresta put Conductor on the Claude Agent SDK and retests it on each model."
   },
   "bc371631f4a4bebb": {
-    "hash": "b47ed97f8bac",
-    "summary": "Anthropic is investing $100 million to train 10,000 engineers and tackle the enterprise AI talent gap.",
-    "benefit": "Companies short on AI engineers can look to a program aimed at training 10,000 people."
+    "hash": "20baeb3f9c47",
+    "summary": "Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.",
+    "benefit": "Enterprises facing an AI talent gap get a named training path for deployment engineers, with the first cohorts already running."
   },
   "8a78d74aef0967c5": {
-    "hash": "3a0f4748274b",
-    "summary": "Barclays is scaling Claude to upgrade operations and improve the client experience.",
-    "benefit": "Banks watching enterprise rollouts can see how Barclays is applying Claude to operations and clients."
+    "hash": "05b0ae67d857",
+    "summary": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+    "benefit": "A large bank widening Claude across operations is a reference case for regulated firms planning enterprise rollouts."
   },
   "4a8c364d1c7cc512": {
     "hash": "a14d1432db8a",
@@ -629,9 +629,9 @@
     "benefit": "Teams can see a concrete case of using Codex to ship event demos and products."
   },
   "360a27564bca9bba": {
-    "hash": "0733cf2f04a0",
-    "summary": "Anthropic published a note on building on its commitment to American scientific discovery.",
-    "benefit": "Readers can follow how Anthropic frames that scientific-discovery commitment."
+    "hash": "8af8d298658c",
+    "summary": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
+    "benefit": "Research teams get a funded federal route for AI-assisted science, with money committed behind it."
   },
   "8d24aadb9d808241": {
     "hash": "104bf55d476f",
@@ -1576,9 +1576,9 @@
     "category": "developer"
   },
   "65442e708214c10b": {
-    "hash": "de3af489b725",
-    "summary": "Itaú is applying an AI First strategy with ia.i, a conversational interface, and the IARA governance platform for customers and employees in one of Brazil's most regulated sectors.",
-    "benefit": "Banks in regulated markets can see how Itaú pairs a customer chat interface with a governance platform for staff."
+    "hash": "e489f72b6f95",
+    "summary": "Itaú is applying its AI First strategy to customers and employees with ia.i, a conversational interface, and the IARA governance platform, in one of Brazil's most regulated sectors.",
+    "benefit": "Shows a bank pairing a customer-facing assistant with a governance layer, a pattern teams in regulated markets can copy."
   },
   "9db4940a53f86840": {
     "hash": "cd0f4591f331",
@@ -3454,5 +3454,35 @@
     "summary": "Qwen Code v0.26.6 adds a Web Shell sidebar activity view for trusted workspace conversations with approval, input, error states, unread completions, running work, and bulk read or archive controls.",
     "benefit": "Qwen Code users can monitor and manage long web-shell sessions from the new sidebar activity view.",
     "category": "developer"
+  },
+  "6fd6ad7938fa5bc5": {
+    "hash": "6e645c5d3983",
+    "summary": "OpenAI is raising its Security Bug Bounty rewards and adding bonuses for report quality, loyalty, and priority campaigns open to independent security researchers.",
+    "benefit": "Independent researchers who file well-written reports or join priority campaigns can earn more from OpenAI's bounty program."
+  },
+  "262cfa35f4308cc0": {
+    "hash": "4940f0b9f75f",
+    "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems, testing and strengthening its defenses using AI.",
+    "benefit": "A useful model for teams that want to run AI-assisted internal sprints to probe and harden their own stack."
+  },
+  "ff138f709a7e7c37": {
+    "hash": "15b587a83a39",
+    "summary": "OpenAI appointed Dan Driscoll as Senior Counselor for National Security Modernization, advising on responsible AI, cyber resilience, and collaboration with U.S. allies.",
+    "benefit": "Public-sector and defense-adjacent teams get a named senior contact for how OpenAI approaches national security work."
+  },
+  "ddb49050c59a78dc": {
+    "hash": "4c9ead271d9f",
+    "summary": "Docling v2.146.0 adds vision-language presets and parsers: an Unlimited-OCR 2 preset and layout parser, LightOnOCR-3 presets with grounded output parsing, and guarded Nemotron 3.5 multi-pass parsing.",
+    "benefit": "Document pipelines gain more OCR and layout options inside Docling, plus fixes for presigned rejections and decimal128 cell reads."
+  },
+  "f25ffd171c7eba86": {
+    "hash": "1ac56954b81d",
+    "summary": "Claude Agent SDK (Python) v0.2.177 adds an on_failure option for HookMatcher: set it to block to stop the action when a hook callback raises, returns None, or returns a value the CLI rejects.",
+    "benefit": "Hook failures can halt an agent action instead of defaulting to continue, although block needs a CLI version that supports the option."
+  },
+  "8491ebd6e665e9d8": {
+    "hash": "b42380b1221f",
+    "summary": "Claude Code v2.1.317 warns when a new cloud scheduled task is given connectors you did not ask for, and adds a check that asks before a web or shell tool call sends your account email address to the network.",
+    "benefit": "Scheduled tasks and tool calls are harder to leak through: you can drop unrequested connectors and approve email disclosure."
   }
 }

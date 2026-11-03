@@ -109,11 +109,6 @@
     "unique": "It bundles process, SVG craft, tests, and a 1,400+ logo reference library for agents.",
     "benefit": "Designers using coding agents can generate and test SVG logos against a large reference library."
   },
-  "d0439ac1933b8b01": {
-    "summary": "awesome-jev is a curated list of public projects, integrations, and discussions built on Jev, TypeSafe AI's System One model for typed decisions.",
-    "unique": "The list is specifically about Jev and typed decisions, not general LLM tools.",
-    "benefit": "Developers adopting Jev can find public integrations and discussions in one list."
-  },
   "c37b68d1d42fcd28": {
     "summary": "yomiyasu is an agent skill that rewrites AI-generated Japanese into natural Japanese.",
     "unique": "It is aimed at Japanese prose polish for Claude Code, Codex, Cursor, Gemini, and similar agents.",
@@ -573,12 +568,6 @@
     "unique": "Creation of videos and images is paired with a way to prove them.",
     "benefit": "Creators who generate videos and images with AI can also prove them."
   },
-  "b4bfc5a8b8fc5971": {
-    "hash": "9b83a8ae",
-    "summary": "A Model Context Protocol platform for building MCP servers and MCP apps with a TypeScript SDK and CLI, testing them in NitroStudio, and deploying to NitroCloud.",
-    "unique": "Build, test, and deploy stay in one MCP workflow, from the SDK through NitroStudio to NitroCloud.",
-    "benefit": "Developers shipping MCP servers can build, test, and deploy them in the same platform."
-  },
   "cd5078972b3d3c08": {
     "hash": "0dc89156",
     "summary": "DeepInfer is a high-performance, large-scale inference framework for DeepSeek models.",
@@ -754,10 +743,10 @@
     "benefit": "Developers can inspect the repo to try the project or adapt its approach locally."
   },
   "073bd530cac588ba": {
-    "hash": "df83b733",
-    "summary": "Arsaze is Cursor for video editing: the AI-native video editor for agents and humans. Your AI edits a real multi-track timeline over MCP while you watch, every edit is versioned, and clients review on the exact frame.",
-    "unique": "Arsaze is Cursor for video editing: the AI-native video editor for agents and humans.",
-    "benefit": "Builders can open the site to see whether the tool fits a workflow they are exploring."
+    "hash": "d807568a",
+    "summary": "A Cursor-style tool for video editing, with tab completion and agent edits.",
+    "unique": "It applies the Cursor pattern - tab completion and agent-driven edits - to video editing.",
+    "benefit": "Editors can speed up work with tab completion and let agents carry out the edits."
   },
   "60c078b5a5141e02": {
     "hash": "9f7d763e",
@@ -796,9 +785,15 @@
     "benefit": "Agent builders can add a local email gate that reduces prompt-injection risk in agent inboxes."
   },
   "e2585c2d5236df1d": {
-    "hash": "e331397b",
-    "summary": "Momentic is described on its listing as Mo is Momentic.",
-    "unique": "The listing ties the name Mo to Momentic.",
-    "benefit": "Visitors can open Momentic to read how Mo is labeled on the site."
+    "hash": "892ea1ff",
+    "summary": "Agents that catch bugs by using your app.",
+    "unique": "The bug catching is done by agents that use the app itself.",
+    "benefit": "Teams get bug findings from agents that have already used the app."
+  },
+  "ee32c428e7e39dc4": {
+    "hash": "f8e89eb8",
+    "summary": "Gives AI agents their own phones to operate mobile apps: cloud phones for scale and real iPhones, reached through one API or one MCP server.",
+    "unique": "Pairs cloud phones with real iPhones, including for agents that have to be undetectable, across any app on the App Store or Play Store.",
+    "benefit": "An agent can drive any App Store or Play Store app from one integration instead of a device fleet you have to maintain."
   }
 }

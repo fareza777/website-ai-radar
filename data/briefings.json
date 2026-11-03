@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-03",
-    "generatedAt": "2026-11-03T02:57:26.551Z",
+    "generatedAt": "2026-11-03T06:57:22.155Z",
     "stats": {
-      "updates24h": 14,
-      "labsActive24h": 6,
-      "updates7d": 122,
+      "updates24h": 17,
+      "labsActive24h": 7,
+      "updates7d": 125,
       "newModels7d": 22
     },
     "source": "template",
-    "headline": "14 updates from 6 AI labs in the last 24 hours · 22 model releases this week.",
+    "headline": "17 updates from 7 AI labs in the last 24 hours · 22 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
@@ -32,14 +32,14 @@
         "lab": "amazon"
       },
       {
+        "text": "OpenAI: Rewarding defenders with bigger bug bounties",
+        "itemId": "6fd6ad7938fa5bc5",
+        "lab": "openai"
+      },
+      {
         "text": "Google DeepMind: The latest AI news we announced in October 2026",
         "itemId": "1802721ebc5f02c3",
         "lab": "google-deepmind"
-      },
-      {
-        "text": "OpenAI: Scaling Git at OpenAI",
-        "itemId": "de4cf53f9db96311",
-        "lab": "openai"
       }
     ]
   },

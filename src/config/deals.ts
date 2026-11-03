@@ -33,7 +33,8 @@ export const CURATED_DEALS: CuratedDeal[] = [
     provider: "Google AI Studio",
     kind: "free-tier",
     description: "Use the Gemini Developer API at no cost within rate limits — ideal for prototyping before moving to a paid tier.",
-    url: "https://ai.google.dev/gemini-api/docs/pricing?hl=en",
+    // Docs moved from ai.google.dev/gemini-api/docs/pricing, which now 301s to this page (2026-11-03).
+    url: "https://aistudio.google.com/docs/pricing?hl=en",
     mustContain: "free of charge",
     lab: "google-deepmind",
   },
@@ -83,6 +84,25 @@ export const CURATED_DEALS: CuratedDeal[] = [
     description: "Free plan with limited agent requests and limited Chat requests.",
     url: "https://cursor.com/pricing",
     mustContain: "Limited agent requests",
+  },
+  {
+    id: "cohere-trial-api-key",
+    title: "Cohere — Free Trial API key",
+    provider: "Cohere",
+    kind: "free-tier",
+    description: "API calls made from a Trial API key are free, with rate limits and no production or commercial use.",
+    url: "https://cohere.com/pricing",
+    mustContain: "Trial API key are free",
+    lab: "cohere",
+  },
+  {
+    id: "huggingface-inference-credits",
+    title: "Hugging Face Inference Providers — monthly credits",
+    provider: "Hugging Face",
+    kind: "credits",
+    description: "PRO users and Team or Enterprise organizations receive monthly credits for Inference Providers; free users buy credits or upgrade.",
+    url: "https://huggingface.co/docs/inference-providers/pricing",
+    mustContain: "receive monthly credits",
   },
 ];
 

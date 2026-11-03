@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T02:57:26.551Z",
+  "generatedAt": "2026-11-03T06:57:22.155Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -12,7 +12,7 @@
         "qwen"
       ],
       "official": 1,
-      "press": 6,
+      "press": 7,
       "outlets": [
         "헤럴드경제",
         "TechGig",
@@ -30,10 +30,11 @@
         "trendingtopics.eu",
         "Idaho Statesman",
         "TOKENPOST",
-        "International Business Times UK"
+        "International Business Times UK",
+        "India Today"
       ],
       "firstAt": "2026-10-26T22:00:00.000Z",
-      "lastAt": "2026-11-02T18:41:25.000Z",
+      "lastAt": "2026-11-03T04:18:19.000Z",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "lead": {
         "kind": "official",
@@ -405,7 +406,7 @@
       },
       {
         "name": "GPT 6 Astra",
-        "count": 14,
+        "count": 15,
         "prev": 2,
         "labs": [
           "openai"
@@ -425,20 +426,14 @@
       },
       {
         "name": "Gemini 4 Argon",
-        "count": 7,
-        "prev": 14,
+        "count": 5,
+        "prev": 15,
         "labs": []
       },
       {
         "name": "GLM 5.3",
         "count": 4,
         "prev": 1,
-        "labs": []
-      },
-      {
-        "name": "Qwen 3.8 Flash",
-        "count": 4,
-        "prev": 3,
         "labs": []
       },
       {
@@ -469,8 +464,8 @@
           "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -481,13 +476,26 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "qwen",
           "microsoft",
           "amazon",
-          "ibm",
+          "nvidia",
+          "ibm"
+        ]
+      },
+      {
+        "name": "safety",
+        "count": 8,
+        "prev": 13,
+        "labs": [
+          "anthropic",
+          "xai",
+          "openai",
+          "mistral",
+          "amazon",
           "nvidia"
         ]
       },
@@ -500,24 +508,11 @@
           "openai",
           "mistral",
           "baidu",
-          "microsoft",
           "tencent",
+          "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "safety",
-        "count": 6,
-        "prev": 13,
-        "labs": [
-          "anthropic",
-          "xai",
-          "openai",
-          "mistral",
-          "amazon",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -540,8 +535,8 @@
           "openai",
           "mistral",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -560,12 +555,12 @@
         "prev": 8,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       }
     ]
@@ -582,6 +577,18 @@
       ],
       "reports": 2,
       "at": "2026-11-01T05:31:04.000Z"
+    },
+    {
+      "id": "qwen:8eca584c665dab",
+      "lab": "qwen",
+      "title": "Apple Intelligence China Launch Set for December With Qwen",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SWER2aHdYcGN4UUY5YndYRUJFRTljNVNvQzlKZ05mbVpUdGdicmlDLW1XQm9PS3lnVWloS2VBN0loMHFCbUxmODZvdW5fQUN2T1FhTjg1QnFzQk9HTDdSZA?oc=5",
+      "outlets": [
+        "Tech Wire Asia",
+        "ShiftDelete.Net"
+      ],
+      "reports": 2,
+      "at": "2026-10-31T11:58:17.000Z"
     }
   ]
 }

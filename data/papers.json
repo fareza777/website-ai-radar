@@ -1,15 +1,38 @@
 [
   {
+    "id": "2611.00859",
+    "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
+    "url": "https://huggingface.co/papers/2611.00859",
+    "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF)…",
+    "publishedAt": "2026-10-31T00:00:00.000Z",
+    "submittedAt": "2026-11-03T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "sjtu-deng-lab",
+    "githubRepo": "https://github.com/SJTU-DENG-Lab/WaveForcing",
+    "firstSeenAt": "2026-11-03T06:57:22.155Z"
+  },
+  {
     "id": "2610.42128",
     "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
     "url": "https://huggingface.co/papers/2610.42128",
     "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we…",
     "publishedAt": "2026-10-30T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 4,
+    "upvotes": 7,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-03T02:57:26.551Z"
+  },
+  {
+    "id": "2610.42053",
+    "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+    "url": "https://huggingface.co/papers/2610.42053",
+    "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles…",
+    "publishedAt": "2026-10-30T17:18:13.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 136,
+    "org": null,
+    "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
     "id": "2610.36545",
@@ -30,8 +53,9 @@
     "summary": "In recent years, agentic orchestration has been widely applied to solve complex human tasks. However, existing orchestration learning still faces key challenges, including hand-designed curricula, advantage collapse when a task's rollouts all reach the same outcome, and unreliable evaluation signals that judge each skill by one noisy score. To address these challenges, we propose R^2Orch, a new paradigm of Recursive…",
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 90,
+    "upvotes": 93,
     "org": "cuhksz",
+    "githubRepo": "https://github.com/beita6969/R2Orch",
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
@@ -41,20 +65,20 @@
     "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 60,
     "org": "tsinghua",
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
-    "id": "2610.42053",
-    "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
-    "url": "https://huggingface.co/papers/2610.42053",
-    "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles…",
-    "publishedAt": "2026-10-30T17:18:13.000Z",
+    "id": "2610.40373",
+    "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+    "url": "https://huggingface.co/papers/2610.40373",
+    "summary": "Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to enhance the understanding of environmental dynamics and task progression. However, existing methods often model short-term dynamics and long-term task objectives separately…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 40,
     "org": null,
-    "firstSeenAt": "2026-11-02T19:34:59.949Z"
+    "firstSeenAt": "2026-11-03T06:57:22.155Z"
   },
   {
     "id": "2610.16927",
@@ -134,7 +158,7 @@
     "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining…",
     "publishedAt": "2026-10-27T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 124,
+    "upvotes": 125,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/hyeon9698/LOWN",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -146,7 +170,7 @@
     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 71,
+    "upvotes": 72,
     "org": "galilai-group",
     "githubRepo": "https://github.com/galilai-group/prh-proof",
     "firstSeenAt": "2026-10-30T22:27:19.130Z"
@@ -170,7 +194,7 @@
     "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 52,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/cvlab-kaist/L3G-World",
     "firstSeenAt": "2026-11-01T22:10:15.829Z"
@@ -182,7 +206,7 @@
     "summary": "Locating relevant evidence in long inputs is a core capability of Multimodal Large Language Models. Prior studies attribute this capability to retrieval heads, a sparse set of attention heads that transfer information from the context to the output. However, these analyses are confined to a limited set of modalities and the corresponding models. Moreover, how retrieval heads can be leveraged to enhance the model…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 43,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -244,7 +268,7 @@
     "summary": "Weight-normalized (WN) training is emerging as a compelling alternative to conventional weight decay (WD), with recent studies reporting substantial pretraining loss gains. We show that these gains are driven primarily by the induced effective learning rate (ELR) trajectory rather than by normalization alone. Matching ELR trajectories largely collapses the training loss dynamics of WN and WD. Schedule design should…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-10-30T00:00:00.000Z",
-    "upvotes": 14,
+    "upvotes": 15,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
@@ -280,7 +304,7 @@
     "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing…",
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "submittedAt": "2026-10-29T00:00:00.000Z",
-    "upvotes": 141,
+    "upvotes": 142,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/justin4ai/OmniShowcase",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"

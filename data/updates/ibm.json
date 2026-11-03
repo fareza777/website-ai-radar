@@ -1,5 +1,32 @@
 [
   {
+    "id": "ddb49050c59a78dc",
+    "lab": "ibm",
+    "title": "Docling v2.146.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.146.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T06:40:56.000Z",
+    "firstSeenAt": "2026-11-03T06:57:22.155Z",
+    "updatedAt": "2026-11-03T06:40:56.000Z",
+    "excerpt": "Feature vlm: Add Unlimited-OCR 2 preset and layout parser ( #5107 ) ( bdb1d20 ) Add LightOnOCR-3 presets and grounded output parsing ( #4789 ) ( 4b382ee ) vlm: Add guarded Nemotron 3.5 multi-pass parsing ( #4933 ) ( 84599f9 ) Fix service-client: Keep the presigned rejection when the InBody fallback fails ( #5003 ) ( 421b3ba ) iwork: Read decimal128 cells without context rounding ( #5101 ) ( 2fea2c9 ) md: Stop the…",
+    "summary": "IBM shipped Docling v2.146.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "4c9ead271d9f",
+    "meta": {
+      "version": "v2.146.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "d6b7f0f1e708554f",
     "lab": "ibm",
     "title": "Ponder This Challenge - November 2026 - The SumSum",
