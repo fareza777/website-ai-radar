@@ -1,6 +1,46 @@
 {
-  "generatedAt": "2026-11-02T19:34:59.949Z",
+  "generatedAt": "2026-11-03T00:04:55.286Z",
   "stories": [
+    {
+      "id": "250e5d8f302445e7",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "openai",
+        "moonshot",
+        "deepseek",
+        "qwen"
+      ],
+      "official": 1,
+      "press": 6,
+      "outlets": [
+        "헤럴드경제",
+        "TechGig",
+        "ET Enterprise AI",
+        "联合早报",
+        "Reuters",
+        "shattered.io",
+        "Tekedia",
+        "Crypto Briefing",
+        "Techzine Global",
+        "WinBuzzer",
+        "NeoTeo",
+        "Times Of AI",
+        "The Indian Express",
+        "trendingtopics.eu",
+        "Idaho Statesman",
+        "TOKENPOST",
+        "International Business Times UK"
+      ],
+      "firstAt": "2026-10-26T22:00:00.000Z",
+      "lastAt": "2026-11-02T18:41:25.000Z",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "lead": {
+        "kind": "official",
+        "id": "250e5d8f302445e7"
+      },
+      "importance": 100
+    },
     {
       "id": "34b0bf3f94c3851e",
       "title": "Gemini 4 Carbon: Our next frontier model",
@@ -67,44 +107,6 @@
       "lead": {
         "kind": "official",
         "id": "34b0bf3f94c3851e"
-      },
-      "importance": 100
-    },
-    {
-      "id": "250e5d8f302445e7",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "openai",
-        "moonshot",
-        "deepseek"
-      ],
-      "official": 1,
-      "press": 5,
-      "outlets": [
-        "헤럴드경제",
-        "TechGig",
-        "ET Enterprise AI",
-        "联合早报",
-        "Reuters",
-        "shattered.io",
-        "Tekedia",
-        "Crypto Briefing",
-        "Techzine Global",
-        "WinBuzzer",
-        "NeoTeo",
-        "Times Of AI",
-        "trendingtopics.eu",
-        "Idaho Statesman",
-        "TOKENPOST",
-        "International Business Times UK"
-      ],
-      "firstAt": "2026-10-26T22:00:00.000Z",
-      "lastAt": "2026-10-30T06:45:00.000Z",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "lead": {
-        "kind": "official",
-        "id": "250e5d8f302445e7"
       },
       "importance": 100
     },
@@ -226,31 +228,31 @@
       "importance": 63
     },
     {
-      "id": "google-deepmind:42a742b28a5be9",
-      "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
-      "entity": "Gemini 4 Argon",
+      "id": "mistral:6f7d89d8ad3ee2",
+      "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
+      "entity": "Mistral Large 4",
       "labs": [
-        "google-deepmind"
+        "mistral"
       ],
       "official": 0,
-      "press": 10,
+      "press": 9,
       "outlets": [
-        "PPC Land",
-        "https://tech-insider.org/",
+        "ActuIA",
+        "Martin Cid Magazine",
+        "Techzine Global",
+        "OrcaRouter",
         "shattered.io",
-        "infoq.com",
-        "i-programmer.info",
-        "9to5Google",
-        "TechRadar",
-        "Mezha.net",
-        "Small Business Trends"
+        "www.trendingtopics.eu",
+        "FindArticles",
+        "WinBuzzer",
+        "Kingy AI"
       ],
-      "firstAt": "2026-10-23T20:33:18.000Z",
-      "lastAt": "2026-10-30T16:11:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
+      "firstAt": "2026-10-28T21:20:39.000Z",
+      "lastAt": "2026-10-30T15:47:05.000Z",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:42a742b28a5be9"
+        "id": "mistral:6f7d89d8ad3ee2"
       },
       "importance": 61
     },
@@ -284,30 +286,30 @@
       "importance": 61
     },
     {
-      "id": "mistral:6f7d89d8ad3ee2",
-      "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
-      "entity": "Mistral Large 4",
+      "id": "google-deepmind:42a742b28a5be9",
+      "title": "Gemini 4 Argon: 1M Tokens, $2 Input, Paid Only [2026]",
+      "entity": "Gemini 4 Argon",
       "labs": [
-        "mistral"
+        "google-deepmind"
       ],
       "official": 0,
-      "press": 8,
+      "press": 9,
       "outlets": [
-        "ActuIA",
-        "Martin Cid Magazine",
-        "Techzine Global",
-        "OrcaRouter",
+        "https://tech-insider.org/",
         "shattered.io",
-        "www.trendingtopics.eu",
-        "FindArticles",
-        "WinBuzzer"
+        "infoq.com",
+        "i-programmer.info",
+        "9to5Google",
+        "TechRadar",
+        "Mezha.net",
+        "Small Business Trends"
       ],
-      "firstAt": "2026-10-28T21:20:39.000Z",
-      "lastAt": "2026-10-29T22:28:32.000Z",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
+      "firstAt": "2026-10-24T14:38:01.000Z",
+      "lastAt": "2026-10-30T16:11:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHphR0ZWWmJVNVZ0aGJ1SDBHc3lDN0NHSm81RER3NHBKWmpGS0pLZGZPYUh6S1F3TTZXTVh3UVdwdkIxSE9aZUc3ZU5JSFYwdV9QSldIN2NIXy13RjJrU015WDRsRUdoR1hlMEZaZTlYUlJBVTFXVm1GMXBjdm1OaA?oc=5",
       "lead": {
         "kind": "press",
-        "id": "mistral:6f7d89d8ad3ee2"
+        "id": "google-deepmind:42a742b28a5be9"
       },
       "importance": 60
     },
@@ -403,8 +405,8 @@
       },
       {
         "name": "GPT 6 Astra",
-        "count": 15,
-        "prev": 0,
+        "count": 14,
+        "prev": 2,
         "labs": [
           "openai"
         ]
@@ -417,14 +419,14 @@
       },
       {
         "name": "Mistral Large 4",
-        "count": 8,
+        "count": 9,
         "prev": 3,
         "labs": []
       },
       {
         "name": "Gemini 4 Argon",
-        "count": 8,
-        "prev": 13,
+        "count": 7,
+        "prev": 14,
         "labs": []
       },
       {
@@ -434,12 +436,10 @@
         "labs": []
       },
       {
-        "name": "Qwen 3.8",
+        "name": "GLM 5.3",
         "count": 4,
-        "prev": 5,
-        "labs": [
-          "amazon"
-        ]
+        "prev": 1,
+        "labs": []
       },
       {
         "name": "Mistral Large 4 Open",
@@ -448,17 +448,35 @@
         "labs": []
       },
       {
-        "name": "GLM 5.3",
+        "name": "Claude Haiku 5.5",
         "count": 3,
         "prev": 1,
-        "labs": []
+        "labs": [
+          "amazon"
+        ]
       }
     ],
     "topics": [
       {
-        "name": "coding",
+        "name": "agents",
         "count": 39,
-        "prev": 38,
+        "prev": 49,
+        "labs": [
+          "anthropic",
+          "deepseek",
+          "openai",
+          "mistral",
+          "qwen",
+          "amazon",
+          "ibm",
+          "nvidia",
+          "microsoft"
+        ]
+      },
+      {
+        "name": "coding",
+        "count": 37,
+        "prev": 41,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -467,26 +485,10 @@
           "mistral",
           "cohere",
           "qwen",
-          "microsoft",
           "amazon",
           "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "agents",
-        "count": 38,
-        "prev": 49,
-        "labs": [
-          "anthropic",
-          "deepseek",
-          "openai",
-          "mistral",
-          "qwen",
-          "microsoft",
-          "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "microsoft"
         ]
       },
       {
@@ -498,17 +500,17 @@
           "openai",
           "mistral",
           "baidu",
-          "microsoft",
           "tencent",
           "amazon",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "microsoft"
         ]
       },
       {
         "name": "safety",
-        "count": 7,
-        "prev": 11,
+        "count": 5,
+        "prev": 13,
         "labs": [
           "anthropic",
           "xai",
@@ -519,9 +521,20 @@
         ]
       },
       {
-        "name": "audio",
-        "count": 4,
+        "name": "rag",
+        "count": 5,
         "prev": 6,
+        "labs": [
+          "meta",
+          "cohere",
+          "amazon",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "audio",
+        "count": 3,
+        "prev": 7,
         "labs": [
           "google-deepmind",
           "openai",
@@ -532,20 +545,19 @@
         ]
       },
       {
-        "name": "rag",
-        "count": 4,
+        "name": "mcp",
+        "count": 2,
         "prev": 6,
         "labs": [
-          "meta",
-          "cohere",
-          "amazon",
-          "nvidia"
+          "anthropic",
+          "qwen",
+          "amazon"
         ]
       },
       {
         "name": "open-source",
-        "count": 3,
-        "prev": 7,
+        "count": 2,
+        "prev": 8,
         "labs": [
           "openai",
           "minimax",
@@ -555,20 +567,21 @@
           "ibm",
           "nvidia"
         ]
-      },
-      {
-        "name": "reasoning",
-        "count": 2,
-        "prev": 6,
-        "labs": [
-          "openai",
-          "mistral",
-          "cohere",
-          "tencent",
-          "amazon"
-        ]
       }
     ]
   },
-  "unconfirmed": []
+  "unconfirmed": [
+    {
+      "id": "mistral:4de175938f53f7",
+      "lab": "mistral",
+      "title": "Mistral AI launches Large 4 model for cybersecurity",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQXzBLYjllcWlpenNIaVB6c1I1cnBXTlQ2M1l1S01QMXBZVnhSMGFKOVNRLXJoTlNPSU5NYXUxUmNqQktaVE8wTklyendoeWRvblEzWmZJTm1oLS01OG91UnRZSFY4NEFJTFNoU3hsemxDbGY2Rkd2M1cxZnRNS0VNdDllcV9QZnFkbkp5dHBaaUJIWVnSAZgBQVVfeXFMTmozMnM4ZW5oc3RhOVl3UnduYlZzX0FKcmxtNHo0MEtUWkFaT2hmLThadXhFaU5ncTluanRJb1BrTDh2ZXRGZVRwWFFHTVBqNzdBYTAwZXBaR3Z5aHR2NW8wanFncFAtVFdOSlN0aUQ2NEd5X2l2djFTMHdXNVlic3JWVDJ2eUZYMVdMcFdfUmRwSTZxaWZrUHc?oc=5",
+      "outlets": [
+        "Data Centre Solutions",
+        "TechGig"
+      ],
+      "reports": 2,
+      "at": "2026-11-01T05:31:04.000Z"
+    }
+  ]
 }

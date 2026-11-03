@@ -1,5 +1,29 @@
 [
   {
+    "id": "a001212ef6547694",
+    "lab": "amazon",
+    "title": "Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-02T20:45:00.000Z",
+    "firstSeenAt": "2026-11-03T00:04:55.286Z",
+    "updatedAt": "2026-11-02T20:45:00.000Z",
+    "excerpt": "A new Anthropic model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. With Haiku 5.5, all three Claude 5.5 models are now available in Kiro in AWS GovCloud (US). Claude Haiku 5.5 is the fastest model in the Claude 5.5 family. It's a clear step up from Claude Haiku 4.5, built for work that runs in large volumes and needs quick responses. Developers can use it to summarize and compact long…",
+    "summary": "A new Anthropic model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "coding"
+    ],
+    "importance": 75,
+    "contentHash": "7e724e4eb4be"
+  },
+  {
     "id": "195c284d0de53e7f",
     "lab": "amazon",
     "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
@@ -71,6 +95,32 @@
     "tags": [],
     "importance": 50,
     "contentHash": "86ec64e694d1"
+  },
+  {
+    "id": "f45109452b0ee2be",
+    "lab": "amazon",
+    "title": "Amazon Connect Customer now supports Model Context Protocol (MCP) tools in flows",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-02T16:00:00.000Z",
+    "firstSeenAt": "2026-11-03T00:04:55.286Z",
+    "updatedAt": "2026-11-02T16:00:00.000Z",
+    "excerpt": "Amazon Connect Customer now enables you to invoke Model Context Protocol (MCP) tools in customer experience flows through the new 'External Tool' block. With this launch, you can connect flows to third-party applications through Amazon Bedrock AgentCore Gateway and reuse the same tools used by your agentic experiences to retrieve data or trigger actions, without writing custom Lambda functions. For example, when a…",
+    "summary": "Amazon Connect Customer now enables you to invoke Model Context Protocol (MCP) tools in customer experience flows through the new 'External Tool' block.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "mcp",
+      "rag"
+    ],
+    "importance": 60,
+    "contentHash": "cd2a24e6af35"
   },
   {
     "id": "feb912e225e8e3aa",

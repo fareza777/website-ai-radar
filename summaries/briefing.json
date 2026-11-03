@@ -537,5 +537,30 @@
         "itemId": "845192bdcbf27af2"
       }
     ]
+  },
+  "2026-11-03": {
+    "headline": "OpenAI grid and benchmark posts, Anthropic Messages API threads, and AWS GovCloud Kiro access lead the latest lab updates.",
+    "bullets": [
+      {
+        "text": "Claude Haiku 5.5 is available in Kiro in AWS GovCloud (US), completing the Claude 5.5 trio there.",
+        "itemId": "a001212ef6547694"
+      },
+      {
+        "text": "OpenAI’s Grid Protectors Program will work with utilities on grid reliability and consumer electricity costs for future compute campuses.",
+        "itemId": "19244c7aa2063fd3"
+      },
+      {
+        "text": "OpenAI introduced LifeVal to measure how well AI helps with everyday tasks like childcare, finances, and government paperwork.",
+        "itemId": "ed4b58253682640f"
+      },
+      {
+        "text": "Anthropic’s Messages API now supports message threads so each turn sends only new content after the initial conversation.",
+        "itemId": "62ae9381c5a0633c"
+      },
+      {
+        "text": "Amazon Connect Customer flows can call MCP tools through Bedrock AgentCore Gateway via a new External Tool block.",
+        "itemId": "f45109452b0ee2be"
+      }
+    ]
   }
 }

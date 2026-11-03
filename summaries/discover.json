@@ -579,12 +579,6 @@
     "unique": "Build, test, and deploy stay in one MCP workflow, from the SDK through NitroStudio to NitroCloud.",
     "benefit": "Developers shipping MCP servers can build, test, and deploy them in the same platform."
   },
-  "b92ace6419d30aee": {
-    "hash": "7b5f8ac3",
-    "summary": "Reason Network puts coding agents such as Grok Bot, Muse, Claude Code, and Codex on one free peer-to-peer network so they can ask each other for work.",
-    "unique": "The open-source engine is meant to keep live agents, including teammates', from colliding while coding.",
-    "benefit": "Teams running several coding agents can have them message each other instead of working on top of each other."
-  },
   "cd5078972b3d3c08": {
     "hash": "0dc89156",
     "summary": "DeepInfer is a high-performance, large-scale inference framework for DeepSeek models.",
@@ -800,5 +794,11 @@
     "summary": "Inboxwall provides local-first, read-only AI email security that sanitizes hidden CSS tricks, Unicode obfuscation, and prompt injection attacks before AI sees them.",
     "unique": "It is a read-only sanitizer that strips obfuscation and injection patterns before messages reach models.",
     "benefit": "Agent builders can add a local email gate that reduces prompt-injection risk in agent inboxes."
+  },
+  "e2585c2d5236df1d": {
+    "hash": "e331397b",
+    "summary": "Momentic is described on its listing as Mo is Momentic.",
+    "unique": "The listing ties the name Mo to Momentic.",
+    "benefit": "Visitors can open Momentic to read how Mo is labeled on the site."
   }
 }

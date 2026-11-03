@@ -1,5 +1,16 @@
 [
   {
+    "id": "50341174",
+    "title": "Astra can read and write weights to improve Qwen",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50341174",
+    "points": 1719,
+    "comments": 551,
+    "at": "2026-11-02T18:21:28Z",
+    "lab": "qwen",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z"
+  },
+  {
     "id": "50289418",
     "title": "We're releasing the weights of Mistral Large 4",
     "url": "https://mistral.ai/news/mistral-large-4-oss/",
@@ -9,17 +20,6 @@
     "at": "2026-10-29T14:13:21Z",
     "lab": "mistral",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
-  },
-  {
-    "id": "50251344",
-    "title": "Three new discoveries in mathematics, computer science, and physics",
-    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50251344",
-    "points": 1153,
-    "comments": 701,
-    "at": "2026-10-26T21:35:28Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-27T00:04:03.536Z"
   },
   {
     "id": "50261319",
@@ -53,17 +53,6 @@
     "at": "2026-10-30T07:09:12Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
-  },
-  {
-    "id": "50251661",
-    "title": "The Exponential Time Hypothesis Is False [pdf]",
-    "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-    "hnUrl": "https://news.ycombinator.com/item?id=50251661",
-    "points": 796,
-    "comments": 300,
-    "at": "2026-10-26T21:59:15Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-27T00:04:03.536Z"
   },
   {
     "id": "50282838",
@@ -133,8 +122,8 @@
     "title": "Anthropic blocks users for anything touching training larger models",
     "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
     "hnUrl": "https://news.ycombinator.com/item?id=50319358",
-    "points": 487,
-    "comments": 264,
+    "points": 488,
+    "comments": 265,
     "at": "2026-10-31T19:39:19Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-01T00:04:39.293Z"
@@ -144,21 +133,10 @@
     "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
     "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
     "hnUrl": "https://news.ycombinator.com/item?id=50320995",
-    "points": 452,
-    "comments": 226,
+    "points": 454,
+    "comments": 229,
     "at": "2026-10-31T22:46:12Z",
     "firstSeenAt": "2026-11-01T06:20:26.674Z"
-  },
-  {
-    "id": "50341174",
-    "title": "Astra can read and write weights to improve Qwen",
-    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50341174",
-    "points": 416,
-    "comments": 108,
-    "at": "2026-11-02T18:21:28Z",
-    "lab": "qwen",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
     "id": "50296486",
@@ -213,17 +191,6 @@
     "firstSeenAt": "2026-10-31T19:22:48.985Z"
   },
   {
-    "id": "50251200",
-    "title": "OpenAI's agents talked to each other through the CPU Cache",
-    "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50251200",
-    "points": 347,
-    "comments": 245,
-    "at": "2026-10-26T21:24:18Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-29T10:08:49.449Z"
-  },
-  {
     "id": "50288019",
     "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
     "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
@@ -268,6 +235,17 @@
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
   {
+    "id": "50339494",
+    "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+    "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+    "hnUrl": "https://news.ycombinator.com/item?id=50339494",
+    "points": 281,
+    "comments": 232,
+    "at": "2026-11-02T16:40:29Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z"
+  },
+  {
     "id": "50295450",
     "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
     "url": "https://github.com/SheepSeb/tinyworldformer",
@@ -292,7 +270,7 @@
     "title": "Malware uses LLMs to rank victims by how much they're worth",
     "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
     "hnUrl": "https://news.ycombinator.com/item?id=50316531",
-    "points": 260,
+    "points": 261,
     "comments": 137,
     "at": "2026-10-31T14:29:03Z",
     "firstSeenAt": "2026-10-31T19:22:48.985Z"
@@ -302,11 +280,22 @@
     "title": "ChatGPT and Codex usage limits merging",
     "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
     "hnUrl": "https://news.ycombinator.com/item?id=50320588",
-    "points": 230,
-    "comments": 168,
+    "points": 233,
+    "comments": 169,
     "at": "2026-10-31T21:49:07Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-01T06:20:26.674Z"
+  },
+  {
+    "id": "50337439",
+    "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+    "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+    "hnUrl": "https://news.ycombinator.com/item?id=50337439",
+    "points": 226,
+    "comments": 260,
+    "at": "2026-11-02T14:38:45Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
     "id": "50259406",
@@ -318,17 +307,6 @@
     "at": "2026-10-27T13:56:15Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-27T15:25:14.259Z"
-  },
-  {
-    "id": "50337439",
-    "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
-    "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-    "hnUrl": "https://news.ycombinator.com/item?id=50337439",
-    "points": 200,
-    "comments": 218,
-    "at": "2026-11-02T14:38:45Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
     "id": "50272479",
@@ -346,7 +324,7 @@
     "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
     "hnUrl": "https://news.ycombinator.com/item?id=50320255",
     "points": 196,
-    "comments": 117,
+    "comments": 121,
     "at": "2026-10-31T21:07:58Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-01T00:04:39.293Z"
@@ -363,23 +341,12 @@
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
   {
-    "id": "50252159",
-    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50252159",
-    "points": 181,
-    "comments": 79,
-    "at": "2026-10-26T22:41:48Z",
-    "lab": "zai",
-    "firstSeenAt": "2026-10-27T09:08:09.408Z"
-  },
-  {
     "id": "50318871",
     "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
     "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
     "hnUrl": "https://news.ycombinator.com/item?id=50318871",
     "points": 176,
-    "comments": 189,
+    "comments": 190,
     "at": "2026-10-31T18:50:34Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-01T00:04:39.293Z"
@@ -389,8 +356,8 @@
     "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
     "hnUrl": "https://news.ycombinator.com/item?id=50325662",
-    "points": 175,
-    "comments": 88,
+    "points": 176,
+    "comments": 90,
     "at": "2026-11-01T13:47:24Z",
     "firstSeenAt": "2026-11-01T22:10:15.829Z"
   },
@@ -406,14 +373,14 @@
     "firstSeenAt": "2026-10-29T00:04:43.850Z"
   },
   {
-    "id": "50339494",
-    "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-    "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-    "hnUrl": "https://news.ycombinator.com/item?id=50339494",
-    "points": 169,
-    "comments": 139,
-    "at": "2026-11-02T16:40:29Z",
-    "lab": "anthropic",
+    "id": "50337454",
+    "title": "Jobless tech workers are being left out of San Francisco's AI boom",
+    "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+    "hnUrl": "https://news.ycombinator.com/item?id=50337454",
+    "points": 154,
+    "comments": 222,
+    "at": "2026-11-02T14:40:05Z",
+    "lab": "openai",
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
@@ -449,15 +416,46 @@
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
   {
-    "id": "50337454",
-    "title": "Jobless tech workers are being left out of San Francisco's AI boom",
-    "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
-    "hnUrl": "https://news.ycombinator.com/item?id=50337454",
-    "points": 119,
-    "comments": 139,
-    "at": "2026-11-02T14:40:05Z",
-    "lab": "openai",
+    "id": "50336138",
+    "title": "Last night an AI agent performed brain surgery on a mouse",
+    "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+    "hnUrl": "https://news.ycombinator.com/item?id=50336138",
+    "points": 118,
+    "comments": 98,
+    "at": "2026-11-02T12:50:59Z",
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
+  },
+  {
+    "id": "50339913",
+    "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+    "url": "https://momentic.ai/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50339913",
+    "points": 112,
+    "comments": 73,
+    "at": "2026-11-02T17:05:25Z",
+    "firstSeenAt": "2026-11-02T19:34:59.949Z"
+  },
+  {
+    "id": "50344958",
+    "title": "Anthropic's growth just flattened",
+    "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+    "hnUrl": "https://news.ycombinator.com/item?id=50344958",
+    "points": 112,
+    "comments": 131,
+    "at": "2026-11-02T22:33:20Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-03T00:04:55.286Z"
+  },
+  {
+    "id": "50344919",
+    "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+    "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50344919",
+    "points": 107,
+    "comments": 56,
+    "at": "2026-11-02T22:30:47Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-03T00:04:55.286Z"
   },
   {
     "id": "50315782",
@@ -497,19 +495,9 @@
     "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
     "hnUrl": "https://news.ycombinator.com/item?id=50332086",
     "points": 100,
-    "comments": 104,
+    "comments": 110,
     "at": "2026-11-02T01:47:07Z",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
-  },
-  {
-    "id": "50336138",
-    "title": "Last night an AI agent performed brain surgery on a mouse",
-    "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
-    "hnUrl": "https://news.ycombinator.com/item?id=50336138",
-    "points": 100,
-    "comments": 93,
-    "at": "2026-11-02T12:50:59Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
     "id": "50254836",
@@ -523,22 +511,12 @@
     "firstSeenAt": "2026-10-27T09:08:09.408Z"
   },
   {
-    "id": "50251062",
-    "title": "Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job",
-    "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50251062",
-    "points": 91,
-    "comments": 43,
-    "at": "2026-10-26T21:13:59Z",
-    "firstSeenAt": "2026-10-27T09:08:09.408Z"
-  },
-  {
     "id": "50327416",
     "title": "I Am the Reason OpenAI Is Killing Unlimited Chats",
     "url": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt/",
     "hnUrl": "https://news.ycombinator.com/item?id=50327416",
-    "points": 88,
-    "comments": 50,
+    "points": 90,
+    "comments": 53,
     "at": "2026-11-01T17:01:34Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
@@ -558,10 +536,21 @@
     "title": "So I guess everyone uses LLMs to think now",
     "url": "https://eva.ac/blog/llms/",
     "hnUrl": "https://news.ycombinator.com/item?id=50330253",
-    "points": 76,
-    "comments": 130,
+    "points": 77,
+    "comments": 131,
     "at": "2026-11-01T21:49:04Z",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
+  },
+  {
+    "id": "50339224",
+    "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
+    "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+    "hnUrl": "https://news.ycombinator.com/item?id=50339224",
+    "points": 76,
+    "comments": 27,
+    "at": "2026-11-02T16:25:33Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-03T00:04:55.286Z"
   },
   {
     "id": "50315990",
@@ -607,16 +596,6 @@
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
   },
   {
-    "id": "50339913",
-    "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
-    "url": "https://momentic.ai/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50339913",
-    "points": 70,
-    "comments": 48,
-    "at": "2026-11-02T17:05:25Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z"
-  },
-  {
     "id": "50273623",
     "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
     "url": "https://github.com/thomasunise/casecite",
@@ -625,6 +604,17 @@
     "comments": 38,
     "at": "2026-10-28T13:56:21Z",
     "firstSeenAt": "2026-10-28T20:21:14.926Z"
+  },
+  {
+    "id": "50342424",
+    "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+    "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+    "hnUrl": "https://news.ycombinator.com/item?id=50342424",
+    "points": 69,
+    "comments": 43,
+    "at": "2026-11-02T19:36:37Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-03T00:04:55.286Z"
   },
   {
     "id": "50324267",
@@ -636,5 +626,16 @@
     "at": "2026-11-01T10:28:22Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
+  },
+  {
+    "id": "50337503",
+    "title": "GPT-Rosalind-6 System Card Addendum",
+    "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+    "hnUrl": "https://news.ycombinator.com/item?id=50337503",
+    "points": 64,
+    "comments": 50,
+    "at": "2026-11-02T14:44:02Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-11-03T00:04:55.286Z"
   }
 ]

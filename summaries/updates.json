@@ -3364,5 +3364,95 @@
     "summary": "Qwen Code desktop v0.26.5 ships the same bounded SQL history queries and default Generated UI, plus web-shell keyboard shortcuts for Session Overview and Split View and a Russian locale.",
     "benefit": "Desktop users gain faster session navigation shortcuts and localized UI alongside the new history and Generated UI defaults.",
     "category": "developer"
+  },
+  "a001212ef6547694": {
+    "hash": "7e724e4eb4be",
+    "summary": "Claude Haiku 5.5 is now available in the Kiro IDE and CLI in AWS GovCloud (US), completing the Claude 5.5 trio there as the fastest family model for high-volume, quick-response work.",
+    "benefit": "GovCloud developers can pick Haiku 5.5 in Kiro for fast summarization and compaction jobs alongside other Claude 5.5 models.",
+    "category": "model"
+  },
+  "19244c7aa2063fd3": {
+    "hash": "a2de2701bd91",
+    "summary": "OpenAI announced the Grid Protectors Program to work with utilities so future compute campuses support grid reliability and protect consumer electricity costs.",
+    "benefit": "Utility partners can collaborate with OpenAI on grid reliability as large AI compute sites expand.",
+    "category": "feature"
+  },
+  "f45109452b0ee2be": {
+    "hash": "cd2a24e6af35",
+    "summary": "Amazon Connect Customer flows can invoke Model Context Protocol tools through a new External Tool block, using Amazon Bedrock AgentCore Gateway instead of custom Lambda functions.",
+    "benefit": "Contact-center builders can reuse agentic MCP tools inside Connect flows to fetch data or trigger actions.",
+    "category": "feature"
+  },
+  "c3d9c0114f0e103f": {
+    "hash": "adb90ebccb87",
+    "summary": "NVIDIA Cosmos is a platform of world foundation models for adapting simulation to sensors and tasks and deploying those models into applications reliably.",
+    "benefit": "Physical AI teams can adapt Cosmos world models to their data and integrate them into interactive simulation workflows.",
+    "category": "model"
+  },
+  "de4cf53f9db96311": {
+    "hash": "384eaf02758a",
+    "summary": "OpenAI describes Pando, a Git-compatible backend built to handle the scale of development that Codex enables.",
+    "benefit": "Engineering orgs running Codex at scale can study how OpenAI extended Git-style workflows with Pando.",
+    "category": "developer"
+  },
+  "ed4b58253682640f": {
+    "hash": "29e99e85b6f2",
+    "summary": "OpenAI introduced LifeVal, a benchmark measuring how well AI helps people complete everyday tasks such as finding childcare, managing finances, and government paperwork.",
+    "benefit": "Researchers and product teams can compare models on practical life-task assistance using LifeVal.",
+    "category": "research"
+  },
+  "62ae9381c5a0633c": {
+    "hash": "70d0b2c621fb",
+    "summary": "Anthropic added message threads to the Messages API so you send the conversation once and each turn delivers only new content.",
+    "benefit": "Long-running agent builders cut redundant payload size and latency on every Messages API turn.",
+    "category": "api"
+  },
+  "1802721ebc5f02c3": {
+    "hash": "892cbfb696ac",
+    "summary": "Google published a roundup of its AI updates from October 2026 across products and research.",
+    "benefit": "Readers can scan one post for October Google AI announcements they may have missed.",
+    "category": "feature"
+  },
+  "ea66f5a34808c903": {
+    "hash": "0feb6825f7c4",
+    "summary": "Google DeepMind and the UK government are working together on AI tools to reduce planning assessment times for householder applications.",
+    "benefit": "UK planning teams can follow DeepMind’s PlanAssist work to see how Gemini may shorten routine assessment work.",
+    "category": "feature"
+  },
+  "195c284d0de53e7f": {
+    "hash": "36d9973a6999",
+    "summary": "AWS shows how to prepare web content for Amazon Bedrock Knowledge Bases using Crawl4AI so RAG apps ingest cleaner source material.",
+    "benefit": "Bedrock Knowledge Base users can improve answer quality by crawling and normalizing web pages before ingestion.",
+    "category": "feature"
+  },
+  "3e4765c6fd3b0d54": {
+    "hash": "ad76872184c6",
+    "summary": "AWS describes agentic engineering intelligence that combines Amazon Nova Multimodal Embeddings with Amazon Bedrock AgentCore to cross-reference aerospace specs and qualification records.",
+    "benefit": "Aerospace engineers can explore AgentCore patterns to speed substitution justifications when components go obsolete.",
+    "category": "feature"
+  },
+  "7a5a1669ffe7a96b": {
+    "hash": "86ec64e694d1",
+    "summary": "Circle K used Amazon Bedrock to cut DevOps incident triage from roughly 45–60 minutes of log correlation to under 15 minutes before remediation starts.",
+    "benefit": "DevOps teams can mirror Circle K’s Bedrock-assisted triage pattern to shrink time-to-diagnosis after alerts.",
+    "category": "feature"
+  },
+  "598c6194c0d34c23": {
+    "hash": "5205c661e7c2",
+    "summary": "Qodo integrates company knowledge and coding standards into Codex so developers catch P0 issues across repositories before opening a pull request.",
+    "benefit": "Teams using Codex can enforce org-specific review rules earlier in the development loop with Qodo’s context.",
+    "category": "developer"
+  },
+  "7726af454e62050c": {
+    "hash": "9f286d9551de",
+    "summary": "Qwen Code sdk-typescript v0.1.27 bundles CLI version 0.26.6 built from the same branch or ref as the SDK.",
+    "benefit": "TypeScript SDK users get a matched 0.26.6 CLI when they install sdk-typescript v0.1.27.",
+    "category": "developer"
+  },
+  "d33d62cc970a7752": {
+    "hash": "c625dbd8c258",
+    "summary": "Qwen Code v0.26.6 adds a Web Shell sidebar activity view for trusted workspace conversations with approval, input, error states, unread completions, running work, and bulk read or archive controls.",
+    "benefit": "Qwen Code users can monitor and manage long web-shell sessions from the new sidebar activity view.",
+    "category": "developer"
   }
 }
