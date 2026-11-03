@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T00:04:55.286Z",
+  "generatedAt": "2026-11-03T02:57:26.551Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -153,7 +153,7 @@
       "importance": 70
     },
     {
-      "id": "qwen:903f2bd3fa59a7",
+      "id": "qwen:3c2f48aef6645c",
       "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
       "entity": null,
       "labs": [
@@ -161,19 +161,19 @@
         "qwen"
       ],
       "official": 0,
-      "press": 3,
+      "press": 2,
       "outlets": [
         "Reuters",
         "marketscreener.com",
         "디지털투데이",
+        "Computing UK",
+        "Investing.com",
+        "CNA",
         "Crypto Briefing",
         "TechCrunch",
         "BigGo Finance",
         "The Economic Times",
-        "Computing UK",
-        "Investing.com",
         "Analytics India Magazine",
-        "CNA",
         "www.trendingtopics.eu",
         "Technology Org",
         "Cyber Magazine",
@@ -187,11 +187,11 @@
         "CSO Online"
       ],
       "firstAt": "2026-10-26T18:49:17.000Z",
-      "lastAt": "2026-10-26T18:51:37.000Z",
+      "lastAt": "2026-10-26T18:51:23.000Z",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnRHZXQtNlM4RXQwelJVdUpXRUFMVmZFYmhpSm11NkR5TnZnRllBNmxmRi14WkVITVVQc2NiYndvNmNRcUVPMTRMQzFWUkQwUDFGNFlXQVdJQVFYR2M0cHMwblJVLVA4VUVOWFlXcHlIaXM2TWJyREp1aUtNUlUwN1htMTZaRHFvQjBTMkRDLUdjdy11YU9keWZXV3JwYm81V2VQcC1qOTJNLVFjeGtyNl9NcEg2dmJDYmNWQnMwNzlNVFIwQ3c?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:903f2bd3fa59a7"
+        "id": "qwen:3c2f48aef6645c"
       },
       "importance": 68
     },
@@ -430,15 +430,15 @@
         "labs": []
       },
       {
-        "name": "Qwen 3.8 Flash",
-        "count": 6,
+        "name": "GLM 5.3",
+        "count": 4,
         "prev": 1,
         "labs": []
       },
       {
-        "name": "GLM 5.3",
+        "name": "Qwen 3.8 Flash",
         "count": 4,
-        "prev": 1,
+        "prev": 3,
         "labs": []
       },
       {
@@ -459,7 +459,7 @@
     "topics": [
       {
         "name": "agents",
-        "count": 39,
+        "count": 41,
         "prev": 49,
         "labs": [
           "anthropic",
@@ -467,28 +467,28 @@
           "openai",
           "mistral",
           "qwen",
+          "microsoft",
           "amazon",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 37,
+        "count": 39,
         "prev": 41,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "qwen",
+          "microsoft",
           "amazon",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
         ]
       },
       {
@@ -500,16 +500,16 @@
           "openai",
           "mistral",
           "baidu",
+          "microsoft",
           "tencent",
           "amazon",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 5,
+        "count": 6,
         "prev": 13,
         "labs": [
           "anthropic",
@@ -560,8 +560,8 @@
         "prev": 8,
         "labs": [
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "amazon",
           "ibm",
