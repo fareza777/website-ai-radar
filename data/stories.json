@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T11:07:36.704Z",
+  "generatedAt": "2026-11-04T19:52:01.415Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -51,7 +51,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 26,
+      "press": 27,
       "outlets": [
         "Mashable",
         "Tech My Money",
@@ -87,6 +87,7 @@
         "Türkiye Today",
         "Unite.AI",
         "Wccftech",
+        "Dealroom",
         "The Decoder",
         "R&D World",
         "The Next Web",
@@ -319,33 +320,6 @@
       "importance": 60
     },
     {
-      "id": "google-deepmind:ed45a1bd8ae01e",
-      "title": "Gemini 4 Argon Learns From Videos",
-      "entity": "Gemini 4 Argon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 9,
-      "outlets": [
-        "i-programmer.info",
-        "9to5Google",
-        "TechRadar",
-        "Mezha.net",
-        "shattered.io",
-        "Small Business Trends",
-        "Pangram"
-      ],
-      "firstAt": "2026-10-25T16:22:04.000Z",
-      "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY1F3TjZNMEZEY3RCLVNHQUdFc0FLU09LQ3B6VkdYR19Ob3FaeGtTQVZUOXdGeDZzTDZERWhwU0ZHalhjQ0lsV1o2dDZNM3U5Sm5WdzNVS3RLNWV4SG1SUUt1SkhNcGVwYzhiU280X1FKdnhyWTMzMURua3lvTTJwRTh4R1V4aURKUXFrT2YxYnM0Q0pCeko5eWVvTkJZem1UNlNoM1VkYWtMZw?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:ed45a1bd8ae01e"
-      },
-      "importance": 59
-    },
-    {
       "id": "cohere:11779f23f98d5f",
       "title": "Qwen3.8-Flash-Next Tried a Beijing Upload, Cohere Says",
       "entity": "Qwen 3.8 Flash",
@@ -371,6 +345,32 @@
         "id": "cohere:11779f23f98d5f"
       },
       "importance": 59
+    },
+    {
+      "id": "google-deepmind:62a9d2f2d63b99",
+      "title": "Google says Gemini 4 Argon ranks well behind Claude and GPT-6 for Android coding",
+      "entity": "Gemini 4 Argon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 8,
+      "outlets": [
+        "9to5Google",
+        "TechRadar",
+        "Mezha.net",
+        "shattered.io",
+        "Small Business Trends",
+        "Pangram"
+      ],
+      "firstAt": "2026-10-26T22:06:22.000Z",
+      "lastAt": "2026-11-03T08:32:23.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16QW5PSFRuZllfaWVqVmRrWXM4Vk01LTc0VjZlalphQi1Ld2RodkN4cVpMZHB5dXRCME0wU2h1ckJmYnUxajVTcFk5MjlGWVVTSnBQNVZDbEdrTnY3Vmx2Y3RzeFcwa2VwazN1Y1NsbUUwM2FVT1pzcDR1Zno?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:62a9d2f2d63b99"
+      },
+      "importance": 58
     },
     {
       "id": "zai:f0d186775253b4",
@@ -420,19 +420,19 @@
   "trending": {
     "entities": [
       {
-        "name": "Gemini 4 Carbon",
-        "count": 35,
-        "prev": 1,
+        "name": "GPT 6 Astra",
+        "count": 14,
+        "prev": 4,
         "labs": [
-          "google-deepmind"
+          "openai"
         ]
       },
       {
-        "name": "GPT 6 Astra",
-        "count": 15,
-        "prev": 3,
+        "name": "Gemini 4 Carbon",
+        "count": 13,
+        "prev": 24,
         "labs": [
-          "openai"
+          "google-deepmind"
         ]
       },
       {
@@ -442,15 +442,9 @@
         "labs": []
       },
       {
-        "name": "Nemotron 3.5 Transcribe",
-        "count": 7,
-        "prev": 5,
-        "labs": []
-      },
-      {
         "name": "Gemini 4 Argon",
         "count": 5,
-        "prev": 15,
+        "prev": 13,
         "labs": []
       },
       {
@@ -460,49 +454,49 @@
         "labs": []
       },
       {
-        "name": "Mistral Large 4 Open",
-        "count": 3,
-        "prev": 0,
+        "name": "Nemotron 3.5 Transcribe",
+        "count": 4,
+        "prev": 8,
         "labs": []
       },
       {
-        "name": "Claude Opus 5.5",
+        "name": "Mistral Large 4 Open",
         "count": 3,
-        "prev": 3,
+        "prev": 0,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 40,
-        "prev": 35,
+        "count": 43,
+        "prev": 39,
         "labs": [
           "anthropic",
-          "openai",
-          "deepseek",
           "google-deepmind",
+          "deepseek",
+          "openai",
           "minimax",
-          "qwen",
           "microsoft",
+          "qwen",
           "amazon",
           "ibm",
+          "bytedance",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 36,
-        "prev": 41,
+        "count": 35,
+        "prev": 43,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "minimax",
           "mistral",
-          "cohere",
-          "qwen",
           "microsoft",
+          "qwen",
           "amazon",
           "ibm",
           "nvidia"
@@ -510,7 +504,7 @@
       },
       {
         "name": "safety",
-        "count": 9,
+        "count": 10,
         "prev": 8,
         "labs": [
           "anthropic",
@@ -521,11 +515,12 @@
       },
       {
         "name": "multimodal",
-        "count": 8,
+        "count": 10,
         "prev": 10,
         "labs": [
-          "openai",
           "google-deepmind",
+          "moonshot",
+          "openai",
           "mistral",
           "baidu",
           "microsoft",
@@ -537,34 +532,25 @@
       },
       {
         "name": "rag",
-        "count": 5,
+        "count": 7,
         "prev": 3,
         "labs": [
           "meta",
           "cohere",
-          "amazon"
+          "amazon",
+          "bytedance"
         ]
       },
       {
         "name": "audio",
-        "count": 3,
-        "prev": 6,
+        "count": 2,
+        "prev": 7,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "amazon",
           "ibm",
           "nvidia"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 2,
-        "prev": 1,
-        "labs": [
-          "anthropic",
-          "qwen",
-          "amazon"
         ]
       },
       {
@@ -574,8 +560,8 @@
         "labs": [
           "openai",
           "minimax",
-          "mistral",
           "cohere",
+          "mistral",
           "amazon",
           "nvidia"
         ]
@@ -596,16 +582,16 @@
       "at": "2026-11-02T18:54:13.000Z"
     },
     {
-      "id": "deepseek:4646acabfb9510",
+      "id": "deepseek:fc6d6b345d8474",
       "lab": "deepseek",
-      "title": "DeepSeek unveils open-source Super-Agent aimed at Claude Code's turf",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeWswVVhGbHVxSkE4WThBZFgxLXZ6cVFmU1pwUnc2Q3NyckVLdFhKbHZJZE9mQmZTZUVxRktqMWlTTmRTQkpCdGpuMW94OHJ6U2tIcDJKc01lWVpPSkVPY3gwallaQlNGclR2MFVhTFhLQlkyX0FJSXZBYTNEblpmLTB1TVVwbUNEV3d6bWRPb3BUUQ?oc=5",
+      "title": "DeepSeek open-sources Super-Agent, a coding agent that watches team chats for work",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nREY5eGxfa2tXV0ZxeHZpekdIaS05UWdfYUxVTHNIR01TdnU0MEhxaHA2NE1iSHE2MnpHRUgtM3VvR2x2ZEpKQ1ljYVFEME9lQTEtOHNXSHdkT0Jjb0VPTUgtYnNVdEQ2RXBlMERLOTRTcF9ic2c?oc=5",
       "outlets": [
-        "Techzine Global",
-        "Briefs Finance"
+        "Help Net Security",
+        "Technology Org"
       ],
       "reports": 2,
-      "at": "2026-11-01T15:07:42.000Z"
+      "at": "2026-11-02T07:09:55.000Z"
     }
   ]
 }

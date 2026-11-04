@@ -11,15 +11,18 @@
     "verified": true,
     "publishedAt": "2026-11-04T06:46:47.000Z",
     "firstSeenAt": "2026-11-04T11:07:36.704Z",
-    "updatedAt": "2026-11-04T06:46:47.000Z",
-    "excerpt": "docs: replace dead pull/5224 links with squash-merge commit permalink…",
+    "updatedAt": "2026-11-04T19:52:01.415Z",
+    "excerpt": "DeerFlow 2.2.0 DeerFlow 2.2 turns the 2.1 super-agent harness into a deployment-grade platform with a focus on operating at scale and delegating with trust : scheduled tasks grow into goal-driven workflows with fair multi-owner execution, every subsystem from IM channels to workflows runs across multiple Gateway instances, the extension platform ships full-stack plugins, knowledge retrieval becomes…",
     "summary": "ByteDance Seed shipped DeerFlow v2.2.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
-    "tags": [],
+    "tags": [
+      "agents",
+      "rag"
+    ],
     "importance": 40,
-    "contentHash": "ec0ff755e4d6",
+    "contentHash": "be3bf1e29b76",
     "meta": {
       "version": "v2.2.0",
       "semver": "minor",

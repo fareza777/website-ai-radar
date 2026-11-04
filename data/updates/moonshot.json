@@ -1,5 +1,63 @@
 [
   {
+    "id": "2b006ae7c7c02e41",
+    "lab": "moonshot",
+    "title": "TCSExam",
+    "url": "https://github.com/MoonshotAI/TCSExam",
+    "sourceId": "moonshot-gh",
+    "sourceName": "GitHub · MoonshotAI (new repos)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T07:32:03.000Z",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z",
+    "updatedAt": "2026-11-03T07:32:03.000Z",
+    "excerpt": "A benchmark for the full range of theoretical computer science (TCS) research.",
+    "summary": "Moonshot Kimi created a new public repository: TCSExam.",
+    "benefit": "A new open-source project from this lab that you can study or use right away.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 35,
+    "contentHash": "22e1fabe18d1",
+    "meta": {
+      "stars": 7,
+      "repo": "MoonshotAI/TCSExam",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "7838c87736f9082f",
+    "lab": "moonshot",
+    "title": "Kimi-K3.1-Pro",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "sourceId": "moonshot-hf",
+    "sourceName": "Hugging Face · moonshotai",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-02T04:13:51.000Z",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z",
+    "updatedAt": "2026-11-02T04:13:51.000Z",
+    "excerpt": "image-text-to-text · license: other",
+    "summary": "Moonshot Kimi published the Kimi-K3.1-Pro model on Hugging Face for multimodal (image + text). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 91,
+    "contentHash": "6920b28d1034",
+    "meta": {
+      "likes": 382,
+      "downloads": 797,
+      "repo": "moonshotai/Kimi-K3.1-Pro",
+      "pipeline": "image-text-to-text",
+      "license": "other"
+    }
+  },
+  {
     "id": "6e6c79b4e0d6bf9d",
     "lab": "moonshot",
     "title": "Kimi CLI v1.52.0",

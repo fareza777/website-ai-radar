@@ -1,5 +1,34 @@
 [
   {
+    "id": "93d046d44e6edbc2",
+    "lab": "ibm",
+    "title": "Docling v2.147.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.147.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-04T14:30:41.000Z",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z",
+    "updatedAt": "2026-11-04T14:30:41.000Z",
+    "excerpt": "Feature Honor the InlineGroup whitespace contract in the backends ( #3891 ) ( ed7df11 ) Fix asciidoc: Parse links and inline marks in block titles ( #5144 ) ( 0634e2f ) vlm: Keep the page when a dots table is too large ( #5147 ) ( 9884d65 ) latex: Keep \\href links inline instead of splitting the paragraph ( #4600 ) ( a511d52 ) boxnote: Parent the image caption with its picture ( #5119 ) ( f462d37 )",
+    "summary": "IBM shipped Docling v2.147.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 40,
+    "contentHash": "4d4d38ec30e9",
+    "meta": {
+      "version": "v2.147.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "ddb49050c59a78dc",
     "lab": "ibm",
     "title": "Docling v2.146.0",
@@ -1500,7 +1529,7 @@
     "importance": 67,
     "contentHash": "d9e26c7be4a7",
     "meta": {
-      "likes": 127,
+      "likes": 128,
       "downloads": 35711,
       "repo": "ibm-granite/granite-4.2-3b",
       "pipeline": "text-generation",

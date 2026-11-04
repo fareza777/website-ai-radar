@@ -1,5 +1,56 @@
 [
   {
+    "id": "d985449deaae749f",
+    "lab": "cohere",
+    "title": "Cohere SDK (Python) v7.3.1",
+    "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.3.1",
+    "sourceId": "cohere-sdk",
+    "sourceName": "GitHub · cohere-ai/cohere-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-04T19:42:06.000Z",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z",
+    "updatedAt": "2026-11-04T19:42:06.000Z",
+    "excerpt": "What's Changed fix(overrides): forward arguments through patched get_headers by @jasonozuzu-cohere in #823 SDK regeneration by @fern-api [bot] in #824 Full Changelog : 7.2.0...7.3.1",
+    "summary": "Cohere shipped Cohere SDK (Python) v7.3.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 20,
+    "contentHash": "385485b8c030",
+    "meta": {
+      "version": "7.3.1",
+      "semver": "patch",
+      "repo": "cohere-ai/cohere-python"
+    }
+  },
+  {
+    "id": "a655af3d86e91f9c",
+    "lab": "cohere",
+    "title": "Embed 5 and Rerank 5 now on OpenRouter",
+    "url": "https://cohere.com/blog/embed-rerank-5-openrouter",
+    "sourceId": "cohere-blog",
+    "sourceName": "Cohere Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-11-04T00:00:00.000Z",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z",
+    "updatedAt": "2026-11-04T00:00:00.000Z",
+    "excerpt": "Access Cohere’s state-of-the-art retrieval models through a single API, with unified billing and no additional SDKs.",
+    "summary": "Access Cohere’s state-of-the-art retrieval models through a single API, with unified billing and no additional SDKs.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "rag"
+    ],
+    "importance": 60,
+    "contentHash": "171387e32a8f"
+  },
+  {
     "id": "31c683b8a61dc4e7",
     "lab": "cohere",
     "title": "The world's leading open models, fully under your control",
