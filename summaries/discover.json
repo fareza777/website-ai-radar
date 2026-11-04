@@ -772,18 +772,6 @@
     "unique": "It targets Android automation across apps and the web from the device.",
     "benefit": "Android developers can inspect an on-device agent design for app and web task automation."
   },
-  "8e91bab678fe2ac1": {
-    "hash": "be9b636c",
-    "summary": "GVS5H runs five Qwen3.8-27B models that match Claude Fable 5 on LiveCodeBench Hard, aiming for Fable 5-level coding on a single GPU or at a fifth of the price.",
-    "unique": "It ensembles five Qwen3.8-27B models rather than one frontier model for hard coding benchmarks.",
-    "benefit": "Teams with one GPU can explore whether the five-model stack reaches Fable 5-level LiveCodeBench Hard scores at lower cost."
-  },
-  "176d5c2f0b3b785a": {
-    "hash": "4b8f67f1",
-    "summary": "Inboxwall provides local-first, read-only AI email security that sanitizes hidden CSS tricks, Unicode obfuscation, and prompt injection attacks before AI sees them.",
-    "unique": "It is a read-only sanitizer that strips obfuscation and injection patterns before messages reach models.",
-    "benefit": "Agent builders can add a local email gate that reduces prompt-injection risk in agent inboxes."
-  },
   "e2585c2d5236df1d": {
     "hash": "892ea1ff",
     "summary": "Agents that catch bugs by using your app.",
@@ -795,5 +783,23 @@
     "summary": "Gives AI agents their own phones to operate mobile apps: cloud phones for scale and real iPhones, reached through one API or one MCP server.",
     "unique": "Pairs cloud phones with real iPhones, including for agents that have to be undetectable, across any app on the App Store or Play Store.",
     "benefit": "An agent can drive any App Store or Play Store app from one integration instead of a device fleet you have to maintain."
+  },
+  "8dccf5b5e9894460": {
+    "hash": "78f7462f",
+    "summary": "Kairos is an open-source platform for real time event intelligence, fraud and risk decisioning for financial behavior.",
+    "unique": "Fraud and risk decisioning published as readable code, tagged around customer behavior, fraud detection and fraud intelligence.",
+    "benefit": "Fintech teams can inspect and self-host the decisioning logic for customer behavior instead of relying on an opaque vendor model."
+  },
+  "efdfda9f5e69c484": {
+    "hash": "0fe940e4",
+    "summary": "A GitHub repository collecting skills for AI coding agents.",
+    "unique": "Packages reusable agent skills in one repository rather than shipping a single-purpose tool.",
+    "benefit": "Coding-agent users can install ready-made skills instead of writing each agent instruction from scratch."
+  },
+  "3b9360578b735d9f": {
+    "hash": "15f04a28",
+    "summary": "Relayvora resumes unfinished AI coding work across Claude Code, Codex, and OpenCode with verified handoffs.",
+    "unique": "Built for handoffs between three named coding agents, with topics covering a CLI, Model Context Protocol and open-source developer tools.",
+    "benefit": "Developers can move a half-finished task from one coding agent to another without losing the thread of what was already done."
   }
 }

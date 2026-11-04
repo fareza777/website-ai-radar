@@ -562,5 +562,30 @@
         "itemId": "f45109452b0ee2be"
       }
     ]
+  },
+  "2026-11-04": {
+    "headline": "Model availability leads the day: Kimi K3 gains in-country inference in India on Amazon Bedrock, Haiku 5.5 reaches Kiro in AWS GovCloud (US), and MCP tool calls land in Amazon Connect flows.",
+    "bullets": [
+      {
+        "itemId": "020b7910e3b471cc",
+        "text": "Amazon Bedrock added in-country inference in India for Kimi K3, the multi-modal, open-weight model from Moonshot AI, unblocking local workloads with strict data residency requirements."
+      },
+      {
+        "itemId": "a001212ef6547694",
+        "text": "Haiku 5.5 is now available in the Kiro IDE and CLI for AWS GovCloud (US), the fastest model in the Claude 5.5 family and the last of the three to arrive there."
+      },
+      {
+        "itemId": "f45109452b0ee2be",
+        "text": "Amazon Connect Customer now invokes Model Context Protocol (MCP) tools in customer experience flows through a new External Tool block, reusing AgentCore Gateway tools without custom Lambda functions."
+      },
+      {
+        "itemId": "19244c7aa2063fd3",
+        "text": "OpenAI introduced its Grid Protectors Program to work with utilities so future compute campuses can support grid reliability and protect consumer electricity costs."
+      },
+      {
+        "itemId": "e1491c4239ea20a0",
+        "text": "Meta published F3 Lightning for the Facebook Feature Framework that serves ads ranking features, where a single request can require more than 20,000 features and the merged graph was also the release unit."
+      }
+    ]
   }
 }

@@ -2530,9 +2530,9 @@
     "benefit": "Developers using CodeRabbit can review security findings and proposed fixes investigated with GPT-6.1 Sol."
   },
   "1758535ac6be3e6b": {
-    "hash": "4ab2eb3b7b38",
-    "summary": "OpenAI introduced GPT-6.1 Terra, described as bringing fast and capable computer use to everyone.",
-    "benefit": "Anyone looking for faster computer-use in the GPT-6 line can start from this Terra announcement."
+    "hash": "6ff9c0ad8e3a",
+    "summary": "OpenAI introduced GPT-6.1 Terra, which it describes as delivering fast and capable computer use at scale.",
+    "benefit": "Builders running browser and desktop automation get a model positioned for fast computer use, which is where agent runs usually slow down."
   },
   "c7498dd5644029b2": {
     "hash": "32d3d83909a2",
@@ -3102,10 +3102,9 @@
     "category": "feature"
   },
   "e827d3360a1e1147": {
-    "hash": "e00498cc2dbd",
-    "summary": "Who Gets to Build the Frontier for AI. Why the democratic world needs more frontier AI builders and how we intend to compete.",
-    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
-    "category": "feature"
+    "hash": "de652e20e92b",
+    "summary": "Cohere published a blog post titled Who Gets to Build the Frontier for AI, asking who is able to build frontier AI.",
+    "benefit": "Readers get Cohere's own framing of who can access and build frontier AI systems."
   },
   "c76597c7b3989257": {
     "hash": "3311370c5f92",
@@ -3484,5 +3483,109 @@
     "hash": "b42380b1221f",
     "summary": "Claude Code v2.1.317 warns when a new cloud scheduled task is given connectors you did not ask for, and adds a check that asks before a web or shell tool call sends your account email address to the network.",
     "benefit": "Scheduled tasks and tool calls are harder to leak through: you can drop unrequested connectors and approve email disclosure."
+  },
+  "020b7910e3b471cc": {
+    "hash": "ae1b176d317b",
+    "summary": "Amazon Bedrock now supports in-country inference in India for Kimi K3, the multi-modal, open-weight foundation model that provider Moonshot AI reported achieved frontier-level coding and general agentic intelligence at release.",
+    "benefit": "Teams in India with strict data residency rules can keep Kimi K3 workloads in-country instead of routing them through global or US-based inference."
+  },
+  "a2357e701f020223": {
+    "hash": "ab91e2851bc0",
+    "category": "feature",
+    "summary": "OpenAI describes how Cisco combines network intelligence with OpenAI models to strengthen enterprise security and build more adaptive defenses.",
+    "benefit": "Security teams get a worked example of pairing network telemetry with model analysis rather than adding another standalone tool."
+  },
+  "e1491c4239ea20a0": {
+    "hash": "c38b78b61e44",
+    "category": "research",
+    "summary": "Meta presents F3 Lightning for the Facebook Feature Framework, which authors, compiles and serves the machine learning features behind ads ranking models, where a single request can require more than 20,000 features.",
+    "benefit": "ML platform engineers get Meta's fix for the merged feature graph that also acted as the release unit, where one failure blocked shipping."
+  },
+  "bbd4d7a8dcb56d48": {
+    "hash": "e22ab6384113",
+    "category": "promo",
+    "summary": "OpenAI says Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI, and that the team tracked how often free trials led to paid subscriptions.",
+    "benefit": "App teams see which funnel metric to watch when testing ChatGPT Ads as a discovery channel for a subscription product."
+  },
+  "31c683b8a61dc4e7": {
+    "hash": "5a269d788511",
+    "summary": "Cohere posts about running the world's leading open models fully under your control, framed as the right model for the right job, all under your jurisdiction.",
+    "benefit": "Organizations that must keep workloads inside their own jurisdiction get Cohere's pitch for controlling which open model serves which job."
+  },
+  "26c6032e1d267765": {
+    "hash": "e3543059724f",
+    "summary": "OpenAI covers how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+    "benefit": "Hardware and mechanical engineers see where AI already shortens design, PCB, and simulation cycles instead of only text tasks."
+  },
+  "08b710f1e7801fa8": {
+    "hash": "be4f2c79f77b",
+    "summary": "OpenAI describes how Heimstaden uses ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+    "benefit": "Operators of distributed, people-heavy businesses get a reference for rolling out ChatGPT Enterprise and Codex across a European workforce."
+  },
+  "3d509e27bae229a3": {
+    "hash": "bb448452b273",
+    "summary": "OpenAI appointed Jill Hazelbaker as Chief Corporate Affairs Officer, leading the company's global communications and corporate positioning.",
+    "benefit": "Enterprises and researchers tracking OpenAI's external messaging now know who leads global communications and corporate positioning."
+  },
+  "adafdd4764cb9dbb": {
+    "hash": "b3fab56924fe",
+    "summary": "Google DeepMind shows how Google Antigravity and its Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+    "benefit": "Drug-discovery teams get an agentic path for compound search and novel macrocycle proposals that used to need manual tool-chaining."
+  },
+  "841c3ce16d85bb46": {
+    "hash": "44a36a5736db",
+    "summary": "AWS explains a ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway, so AI agents calling enterprise APIs keep the initiating user's identity through the request chain.",
+    "benefit": "Agent builders stop sending calls downstream as the application itself, which breaks audit trails, bypasses user-level access controls, and violates least privilege."
+  },
+  "74c9b2e03867b173": {
+    "hash": "5f85edc913ae",
+    "summary": "AWS details how Gen Digital built Norton Revamp's AI-curated News Engine with Amazon Bedrock AgentCore Web Search, arguing that standing out needs real-time awareness, not content generation alone.",
+    "benefit": "Teams shipping a news or content feature for professionals see how to add live web awareness on top of generation."
+  },
+  "3bafb79045335714": {
+    "hash": "2408b4ad0da1",
+    "summary": "NVIDIA writes about AI in semiconductor fabs, where rising chip demand and more complex processes shrink the margin for error and analyses of process changes, materials, and defect root causes can take days.",
+    "benefit": "Fab engineers see which multi-day analyses AI targets first, reducing the need for physical experiments on a production line."
+  },
+  "873b16d9c0674c99": {
+    "hash": "2952f5002f4c",
+    "summary": "OpenAI published a mirror of the unmodified libcap 2.75 source archive used to build Bubblewrap for Codex's Linux musl packages, with the upstream archive SHA-256 recorded for libcap-2.75.tar.xz.",
+    "benefit": "Developers reproducing Codex's Linux sandbox can confirm they are building against the same libcap archive OpenAI used."
+  },
+  "700c4b528755ca65": {
+    "hash": "fd8d59efc31d",
+    "summary": "A Microsoft Research podcast episode follows Manager Mike Walker on treating rules as opportunities, from uncovering weaknesses in networked systems to redefining how computers are trained to fend off cyberattacks.",
+    "benefit": "Security researchers get a practitioner's account of how rule-breaking thinking shapes defensive AI against cyberattacks."
+  },
+  "84dcd20c671573cf": {
+    "hash": "7a16526c1be0",
+    "summary": "MiniMax released mcode-agent-table, a BYOB Table Protocol v0.1 with a reference implementation that brings your own agent, MiniMax Code and others, to one shared table for any-topology discussion and collaboration.",
+    "benefit": "Developers can put several different agents on one shared table for collaboration without designing a fixed topology first."
+  },
+  "1e3232692398f1e5": {
+    "hash": "d3699db29f23",
+    "summary": "ByteDance Seed opened a new GitHub repository named GenFirst under its ByteDance-Seed organization.",
+    "benefit": "Developers tracking ByteDance Seed's open releases can read the GenFirst repository directly as details appear."
+  },
+  "ef509d7a4530fbcf": {
+    "hash": "70ae1151d0d7",
+    "summary": "AWS shows how to build a semantic layer for agentic AI with EDB Postgres AI, running a Strands Agents agent on Amazon Bedrock AgentCore that queries the layer to answer customer 360 questions.",
+    "benefit": "Data teams get another semantic-layer option for agent SQL access, comparable with the earlier Stardog, Denodo, AtScale, and Strategy Mosaic posts in the same series."
+  },
+  "4d836f21a02fa461": {
+    "hash": "ac56cc58eeb6",
+    "category": "feature",
+    "summary": "NVIDIA describes cities applying physical and agentic AI to data from cameras, sensors and operational systems, from digital twins for infrastructure planning to vision and service agents, while local governments keep control over how sensitive data is processed and used.",
+    "benefit": "Public-sector teams get patterns for turning city data into planning, maintenance and service actions without losing control of sensitive data."
+  },
+  "84ab02d2e2d60a87": {
+    "hash": "2ec98c6d8c3e",
+    "summary": "Anthropic released Claude Agent SDK (Python) v0.2.178, whose listed changes are internal: the bundled Claude CLI was updated to version 2.1.318.",
+    "benefit": "Python agent builders stay aligned with the current Claude CLI build by installing claude-agent-sdk==0.2.178."
+  },
+  "6385d8e47a02bbd3": {
+    "hash": "1ea964e3b0f3",
+    "summary": "Claude Code v2.1.318 records your answer when it asks to turn on the mods it writes in a session, adds assume_role on mantle upstreams of the Claude apps gateway for a role in another AWS account and per-developer AWS cost attribution, and adds an effort option to a mod's $.model.fork.",
+    "benefit": "Teams running Claude Code against AWS get cross-account roles and per-developer cost attribution, plus a lower-effort option for quick side jobs."
   }
 }

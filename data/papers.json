@@ -1,12 +1,48 @@
 [
   {
+    "id": "2611.02079",
+    "title": "ParetoSaddler: Pareto-Guided Optimization of Agent Harnesses for Quality and Cost",
+    "url": "https://huggingface.co/papers/2611.02079",
+    "summary": "Harness optimization can substantially improve LLM agents without modifying model weights, but existing methods primarily optimize response quality. Extending them to joint quality--cost optimization introduces a challenge: applying the deployment preference during intermediate updates can prematurely reject candidates that are valuable for later improvements. We introduce ParetoSaddler, which addresses this…",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 7,
+    "org": "microsoft",
+    "lab": "microsoft",
+    "firstSeenAt": "2026-11-04T04:02:27.843Z"
+  },
+  {
+    "id": "2610.40747",
+    "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+    "url": "https://huggingface.co/papers/2610.40747",
+    "summary": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 2,
+    "org": "microsoft",
+    "lab": "microsoft",
+    "firstSeenAt": "2026-11-04T04:02:27.843Z"
+  },
+  {
+    "id": "2611.04449",
+    "title": "Near-Zero Token Embeddings Silently Stall Training in Gated Sequence Models",
+    "url": "https://huggingface.co/papers/2611.04449",
+    "summary": "Among 291 surveyed open-weight language model repositories (280 distinct embedding tables), 52.6% of untied gated and hybrid checkpoints (20/38) contain reachable input embeddings with norms below 10^{-6}, compared with 0% of weight-tied models. Such near-zero rows can arise during pretraining when unseen rare or template tokens receive zero input gradients while AdamW weight decay shrinks untied embeddings. In…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 1,
+    "org": "google",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-04T04:02:27.843Z"
+  },
+  {
     "id": "2611.01860",
     "title": "Advances in Agentic Computer Graphics",
     "url": "https://huggingface.co/papers/2611.01860",
     "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 111,
+    "upvotes": 116,
     "org": "utexas",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
@@ -17,7 +53,7 @@
     "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF)…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 106,
+    "upvotes": 114,
     "org": "sjtu-deng-lab",
     "githubRepo": "https://github.com/SJTU-DENG-Lab/WaveForcing",
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
@@ -29,7 +65,7 @@
     "summary": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce…",
     "publishedAt": "2026-11-02T13:41:14.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 92,
+    "upvotes": 95,
     "org": null,
     "githubRepo": "https://github.com/xlyu0106/CUA-Master",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
@@ -41,7 +77,7 @@
     "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for…",
     "publishedAt": "2026-11-02T14:15:11.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 88,
+    "upvotes": 89,
     "org": "ruc",
     "githubRepo": "https://github.com/RUC-NLPIR/CoworkOS",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
@@ -53,7 +89,7 @@
     "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context…",
     "publishedAt": "2026-10-29T14:47:39.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 69,
+    "upvotes": 70,
     "org": "videorebirthai",
     "githubRepo": "https://github.com/agentic-videogen/awesome-agentic-videogen",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
@@ -77,7 +113,7 @@
     "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we…",
     "publishedAt": "2026-10-30T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 14,
+    "upvotes": 15,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-03T02:57:26.551Z"
@@ -124,7 +160,7 @@
     "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 61,
+    "upvotes": 62,
     "org": "tsinghua",
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T01:28:06.470Z",
+  "generatedAt": "2026-11-04T04:02:27.843Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -479,32 +479,32 @@
         "labs": [
           "anthropic",
           "deepseek",
-          "openai",
           "google-deepmind",
+          "openai",
           "minimax",
           "qwen",
-          "microsoft",
           "amazon",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "microsoft"
         ]
       },
       {
         "name": "coding",
-        "count": 38,
+        "count": 37,
         "prev": 42,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
-          "mistral",
+          "openai",
           "minimax",
           "cohere",
+          "mistral",
           "qwen",
-          "microsoft",
           "amazon",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "microsoft"
         ]
       },
       {
@@ -512,8 +512,8 @@
         "count": 9,
         "prev": 10,
         "labs": [
-          "anthropic",
           "xai",
+          "anthropic",
           "openai",
           "amazon",
           "nvidia"
@@ -524,15 +524,15 @@
         "count": 8,
         "prev": 11,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
           "baidu",
           "tencent",
-          "microsoft",
           "amazon",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "microsoft"
         ]
       },
       {
@@ -551,34 +551,34 @@
         "count": 3,
         "prev": 6,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
-        "name": "open-source",
-        "count": 3,
-        "prev": 7,
-        "labs": [
-          "openai",
-          "mistral",
-          "minimax",
-          "cohere",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "mcp",
         "count": 2,
-        "prev": 2,
+        "prev": 1,
         "labs": [
           "anthropic",
           "qwen",
           "amazon"
+        ]
+      },
+      {
+        "name": "open-source",
+        "count": 2,
+        "prev": 8,
+        "labs": [
+          "openai",
+          "minimax",
+          "cohere",
+          "mistral",
+          "amazon",
+          "nvidia"
         ]
       }
     ]

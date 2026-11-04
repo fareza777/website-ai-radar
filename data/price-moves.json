@@ -1,5 +1,60 @@
 [
   {
+    "id": "df1a5a9545cd6336",
+    "modelId": "ibm-granite/granite-4.2-8b",
+    "name": "IBM: Granite 4.2 8B",
+    "lab": "ibm",
+    "at": "2026-11-04T04:30:27.525Z",
+    "field": "completion",
+    "from": 0.15,
+    "to": 0.25,
+    "change": 66.7
+  },
+  {
+    "id": "adfe6498d831bfcc",
+    "modelId": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "lab": "qwen",
+    "at": "2026-11-04T04:30:27.525Z",
+    "field": "prompt",
+    "from": 0.14,
+    "to": 0.09,
+    "change": -35.7
+  },
+  {
+    "id": "06b846d37ec0546b",
+    "modelId": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "lab": "qwen",
+    "at": "2026-11-04T04:30:27.525Z",
+    "field": "completion",
+    "from": 0.8,
+    "to": 0.55,
+    "change": -31.2
+  },
+  {
+    "id": "36ead844c5155ff1",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-04T04:30:27.525Z",
+    "field": "prompt",
+    "from": 0.2,
+    "to": 0.1,
+    "change": -50
+  },
+  {
+    "id": "d931febee2187577",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-04T04:30:27.525Z",
+    "field": "completion",
+    "from": 0.52,
+    "to": 0.32,
+    "change": -38.5
+  },
+  {
     "id": "8145da71ceadf912",
     "modelId": "z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",

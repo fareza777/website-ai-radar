@@ -140,7 +140,8 @@ export const LAB_SOCIAL: Record<string, { x: string[]; threads: string[] }> = {
   openai: { x: ["OpenAI", "OpenAIDevs", "OpenAINewsroom", "ChatGPT", "ChatGPTapp"], threads: [] },
   anthropic: { x: ["AnthropicAI", "claudeai", "ClaudeDevs"], threads: [] },
   "google-deepmind": { x: ["GoogleDeepMind", "GoogleAI", "GoogleAIStudio", "GeminiApp"], threads: [] },
-  xai: { x: ["xai", "grok"], threads: [] },
+  // renamed twice in 2026: xAI -> SpaceXAI (Jul) -> SpaceX Super Intelligence, handle @SpaceXSI (verified via X oEmbed)
+  xai: { x: ["spacexsi", "grok"], threads: [] },
   deepseek: { x: ["deepseek_ai"], threads: [] },
   qwen: { x: ["Alibaba_Qwen"], threads: [] },
   moonshot: { x: ["Kimi_Moonshot"], threads: [] },
