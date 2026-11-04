@@ -1,12 +1,23 @@
 [
   {
+    "id": "2611.01860",
+    "title": "Advances in Agentic Computer Graphics",
+    "url": "https://huggingface.co/papers/2611.01860",
+    "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "submittedAt": "2026-11-03T00:00:00.000Z",
+    "upvotes": 111,
+    "org": "utexas",
+    "firstSeenAt": "2026-11-03T19:34:58.857Z"
+  },
+  {
     "id": "2611.00859",
     "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
     "url": "https://huggingface.co/papers/2611.00859",
     "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF)…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 100,
+    "upvotes": 106,
     "org": "sjtu-deng-lab",
     "githubRepo": "https://github.com/SJTU-DENG-Lab/WaveForcing",
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
@@ -18,7 +29,7 @@
     "summary": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce…",
     "publishedAt": "2026-11-02T13:41:14.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 90,
+    "upvotes": 92,
     "org": null,
     "githubRepo": "https://github.com/xlyu0106/CUA-Master",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
@@ -30,21 +41,10 @@
     "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for…",
     "publishedAt": "2026-11-02T14:15:11.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 86,
+    "upvotes": 88,
     "org": "ruc",
     "githubRepo": "https://github.com/RUC-NLPIR/CoworkOS",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
-  },
-  {
-    "id": "2611.01860",
-    "title": "Advances in Agentic Computer Graphics",
-    "url": "https://huggingface.co/papers/2611.01860",
-    "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
-    "publishedAt": "2026-11-01T00:00:00.000Z",
-    "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 83,
-    "org": "utexas",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
   {
     "id": "2610.40191",
@@ -53,7 +53,7 @@
     "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context…",
     "publishedAt": "2026-10-29T14:47:39.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 68,
+    "upvotes": 69,
     "org": "videorebirthai",
     "githubRepo": "https://github.com/agentic-videogen/awesome-agentic-videogen",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
@@ -65,7 +65,7 @@
     "summary": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 42,
     "org": null,
     "githubRepo": "https://github.com/Open-RUA/uni-robot-agent",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
@@ -77,7 +77,7 @@
     "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we…",
     "publishedAt": "2026-10-30T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 13,
+    "upvotes": 14,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-03T02:57:26.551Z"
@@ -140,23 +140,23 @@
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
   },
   {
-    "id": "2610.16927",
-    "title": "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
-    "url": "https://huggingface.co/papers/2610.16927",
-    "summary": "Short-video search needs compact query rewriters that recover users' personalized intent from ambiguous queries under strict latency constraints. Existing LLM-based methods have improved rewriting by using synthetic reasoning and subsequent consumption-behavioral feedback. However, overemphasizing subsequent consumption can favor engaging content over the user's immediate need, causing intent drift even when…",
-    "publishedAt": "2026-10-30T00:00:00.000Z",
-    "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 26,
-    "org": "tencent",
-    "lab": "tencent",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z"
-  },
-  {
     "id": "2610.40339",
     "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
     "url": "https://huggingface.co/papers/2610.40339",
     "summary": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 27,
+    "org": "tencent",
+    "lab": "tencent",
+    "firstSeenAt": "2026-11-02T06:21:53.387Z"
+  },
+  {
+    "id": "2610.16927",
+    "title": "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
+    "url": "https://huggingface.co/papers/2610.16927",
+    "summary": "Short-video search needs compact query rewriters that recover users' personalized intent from ambiguous queries under strict latency constraints. Existing LLM-based methods have improved rewriting by using synthetic reasoning and subsequent consumption-behavioral feedback. However, overemphasizing subsequent consumption can favor engaging content over the user's immediate need, causing intent drift even when…",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
     "submittedAt": "2026-11-02T00:00:00.000Z",
     "upvotes": 26,
     "org": "tencent",

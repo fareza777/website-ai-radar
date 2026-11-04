@@ -1,5 +1,35 @@
 [
   {
+    "id": "873b16d9c0674c99",
+    "lab": "openai",
+    "title": "Codex CLI libcap v2.75",
+    "url": "https://github.com/openai/codex/releases/tag/libcap-v2.75",
+    "sourceId": "openai-codex",
+    "sourceName": "GitHub · openai/codex",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T23:04:31.000Z",
+    "firstSeenAt": "2026-11-04T01:28:06.470Z",
+    "updatedAt": "2026-11-03T23:04:31.000Z",
+    "excerpt": "Mirror of the unmodified libcap 2.75 source archive used to build Bubblewrap for Codex's Linux musl packages. Upstream archive SHA-256 for libcap-2.75.tar.xz is de4e7e064c9ba451d5234dd46e897d7c71c96a9ebf9a0c445bc04f4742d83632 .",
+    "summary": "OpenAI shipped Codex CLI libcap v2.75 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "2952f5002f4c",
+    "meta": {
+      "version": "v2.75",
+      "semver": "minor",
+      "repo": "openai/codex",
+      "package": "libcap"
+    }
+  },
+  {
     "id": "26c6032e1d267765",
     "lab": "openai",
     "title": "Accelerating engineering for the physical world",
@@ -46,6 +76,52 @@
     ],
     "importance": 55,
     "contentHash": "be4f2c79f77b"
+  },
+  {
+    "id": "a2357e701f020223",
+    "lab": "openai",
+    "title": "How Cisco defends at machine speed with OpenAI",
+    "url": "https://openai.com/index/cisco-cyber",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T08:00:00.000Z",
+    "firstSeenAt": "2026-11-04T01:28:06.470Z",
+    "updatedAt": "2026-11-03T08:00:00.000Z",
+    "excerpt": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+    "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "safety"
+    ],
+    "importance": 65,
+    "contentHash": "ab91e2851bc0"
+  },
+  {
+    "id": "3d509e27bae229a3",
+    "lab": "openai",
+    "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+    "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "firstSeenAt": "2026-11-04T01:28:06.470Z",
+    "updatedAt": "2026-11-03T00:00:00.000Z",
+    "excerpt": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+    "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 55,
+    "contentHash": "bb448452b273"
   },
   {
     "id": "6fd6ad7938fa5bc5",
@@ -399,6 +475,28 @@
     "tags": [],
     "importance": 60,
     "contentHash": "6d26dbf4966b"
+  },
+  {
+    "id": "bbd4d7a8dcb56d48",
+    "lab": "openai",
+    "title": "Evernote turns AI-driven discovery into paid subscriptions",
+    "url": "https://openai.com/ads/customers/evernote",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-28T19:40:49.000Z",
+    "firstSeenAt": "2026-11-04T01:28:06.470Z",
+    "updatedAt": "2026-10-28T19:40:49.000Z",
+    "excerpt": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+    "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI.",
+    "benefit": "May change your costs — re-estimate your API or subscription spend.",
+    "summarySource": "template",
+    "category": "pricing",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "e22ab6384113"
   },
   {
     "id": "75e2017ed4c5a2ec",
@@ -781,15 +879,15 @@
     "verified": true,
     "publishedAt": "2026-10-26T00:00:00.000Z",
     "firstSeenAt": "2026-10-26T20:35:11.061Z",
-    "updatedAt": "2026-10-26T00:00:00.000Z",
-    "excerpt": "Bringing fast and capable computer use to everyone",
-    "summary": "Bringing fast and capable computer use to everyone",
+    "updatedAt": "2026-11-04T01:28:06.470Z",
+    "excerpt": "Delivering fast and capable computer use at scale",
+    "summary": "Delivering fast and capable computer use at scale",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
     "summarySource": "template",
     "category": "model",
     "tags": [],
     "importance": 80,
-    "contentHash": "4ab2eb3b7b38"
+    "contentHash": "6ff9c0ad8e3a"
   },
   {
     "id": "298c8de07d18f423",

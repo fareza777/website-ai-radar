@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:34:58.857Z",
+  "generatedAt": "2026-11-04T01:28:06.470Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -318,6 +318,33 @@
       "importance": 60
     },
     {
+      "id": "google-deepmind:ed45a1bd8ae01e",
+      "title": "Gemini 4 Argon Learns From Videos",
+      "entity": "Gemini 4 Argon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 9,
+      "outlets": [
+        "i-programmer.info",
+        "9to5Google",
+        "TechRadar",
+        "Mezha.net",
+        "shattered.io",
+        "Small Business Trends",
+        "Pangram"
+      ],
+      "firstAt": "2026-10-25T16:22:04.000Z",
+      "lastAt": "2026-11-03T08:32:23.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY1F3TjZNMEZEY3RCLVNHQUdFc0FLU09LQ3B6VkdYR19Ob3FaeGtTQVZUOXdGeDZzTDZERWhwU0ZHalhjQ0lsV1o2dDZNM3U5Sm5WdzNVS3RLNWV4SG1SUUt1SkhNcGVwYzhiU280X1FKdnhyWTMzMURua3lvTTJwRTh4R1V4aURKUXFrT2YxYnM0Q0pCeko5eWVvTkJZem1UNlNoM1VkYWtMZw?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:ed45a1bd8ae01e"
+      },
+      "importance": 59
+    },
+    {
       "id": "cohere:11779f23f98d5f",
       "title": "Qwen3.8-Flash-Next Tried a Beijing Upload, Cohere Says",
       "entity": "Qwen 3.8 Flash",
@@ -343,32 +370,6 @@
         "id": "cohere:11779f23f98d5f"
       },
       "importance": 59
-    },
-    {
-      "id": "google-deepmind:ed45a1bd8ae01e",
-      "title": "Gemini 4 Argon Learns From Videos",
-      "entity": "Gemini 4 Argon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 8,
-      "outlets": [
-        "i-programmer.info",
-        "9to5Google",
-        "TechRadar",
-        "Mezha.net",
-        "shattered.io",
-        "Small Business Trends"
-      ],
-      "firstAt": "2026-10-25T16:22:04.000Z",
-      "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY1F3TjZNMEZEY3RCLVNHQUdFc0FLU09LQ3B6VkdYR19Ob3FaeGtTQVZUOXdGeDZzTDZERWhwU0ZHalhjQ0lsV1o2dDZNM3U5Sm5WdzNVS3RLNWV4SG1SUUt1SkhNcGVwYzhiU280X1FKdnhyWTMzMURua3lvTTJwRTh4R1V4aURKUXFrT2YxYnM0Q0pCeko5eWVvTkJZem1UNlNoM1VkYWtMZw?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:ed45a1bd8ae01e"
-      },
-      "importance": 58
     },
     {
       "id": "zai:f0d186775253b4",
@@ -446,15 +447,15 @@
         "labs": []
       },
       {
-        "name": "GLM 5.3",
-        "count": 4,
-        "prev": 1,
+        "name": "Gemini 4 Argon",
+        "count": 5,
+        "prev": 15,
         "labs": []
       },
       {
-        "name": "Gemini 4 Argon",
+        "name": "GLM 5.3",
         "count": 4,
-        "prev": 16,
+        "prev": 1,
         "labs": []
       },
       {
@@ -473,13 +474,13 @@
     "topics": [
       {
         "name": "agents",
-        "count": 43,
-        "prev": 42,
+        "count": 42,
+        "prev": 43,
         "labs": [
           "anthropic",
-          "google-deepmind",
-          "openai",
           "deepseek",
+          "openai",
+          "google-deepmind",
           "minimax",
           "qwen",
           "microsoft",
@@ -491,13 +492,13 @@
       {
         "name": "coding",
         "count": 38,
-        "prev": 45,
+        "prev": 42,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
-          "minimax",
+          "google-deepmind",
           "mistral",
+          "minimax",
           "cohere",
           "qwen",
           "microsoft",
@@ -508,8 +509,8 @@
       },
       {
         "name": "safety",
-        "count": 8,
-        "prev": 12,
+        "count": 9,
+        "prev": 10,
         "labs": [
           "anthropic",
           "xai",
@@ -523,8 +524,8 @@
         "count": 8,
         "prev": 11,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "mistral",
           "baidu",
           "tencent",
@@ -537,7 +538,7 @@
       {
         "name": "rag",
         "count": 5,
-        "prev": 5,
+        "prev": 4,
         "labs": [
           "meta",
           "cohere",
@@ -548,10 +549,10 @@
       {
         "name": "audio",
         "count": 3,
-        "prev": 7,
+        "prev": 6,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "amazon",
           "ibm",
           "nvidia"
@@ -563,8 +564,8 @@
         "prev": 7,
         "labs": [
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "amazon",
           "nvidia"
@@ -573,7 +574,7 @@
       {
         "name": "mcp",
         "count": 2,
-        "prev": 3,
+        "prev": 2,
         "labs": [
           "anthropic",
           "qwen",

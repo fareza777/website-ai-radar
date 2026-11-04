@@ -1,5 +1,25 @@
 [
   {
+    "id": "openrouter-free-a9a3b102ff",
+    "title": "Crouton Alpha — free on OpenRouter",
+    "provider": "OpenRouter",
+    "kind": "free-model",
+    "description": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work. Developers...",
+    "terms": "$0 input & output price per token on OpenRouter · 1,048,576-token context. Free models have daily rate limits.",
+    "url": "https://openrouter.ai/stealth/crouton-alpha",
+    "sourceName": "OpenRouter Models API",
+    "status": "active",
+    "startsAt": "2026-11-03T01:38:50.000Z",
+    "endsAt": null,
+    "firstSeenAt": "2026-11-04T01:28:06.470Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
+    "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: stealth/crouton-alpha)",
+    "meta": {
+      "modelId": "stealth/crouton-alpha",
+      "context": 1048576
+    }
+  },
+  {
     "id": "openrouter-free-2faef97207",
     "title": "Recursive: Flint — free on OpenRouter",
     "provider": "OpenRouter",
@@ -12,7 +32,7 @@
     "startsAt": "2026-10-21T22:46:05.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-21T21:48:23.060Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: recursive/flint-v1.0:free)",
     "meta": {
       "modelId": "recursive/flint-v1.0:free",
@@ -32,7 +52,7 @@
     "startsAt": "2026-10-16T19:04:56.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-16T21:19:28.792Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: xingchen-agi/xing4.0-29b-a4b:free)",
     "meta": {
       "modelId": "xingchen-agi/xing4.0-29b-a4b:free",
@@ -52,7 +72,7 @@
     "startsAt": "2026-10-15T15:04:22.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-15T17:08:32.062Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: nvidia/nemotron-3.5-super-vl:free)",
     "lab": "nvidia",
     "meta": {
@@ -73,7 +93,7 @@
     "startsAt": "2026-08-14T04:06:01.000Z",
     "endsAt": "2026-12-31T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: dots-studio/dots-3-note-preview:free)",
     "meta": {
       "modelId": "dots-studio/dots-3-note-preview:free",
@@ -93,7 +113,7 @@
     "startsAt": "2026-08-11T17:48:39.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: liquid/lfm-2.5-2.6b:free)",
     "meta": {
       "modelId": "liquid/lfm-2.5-2.6b:free",
@@ -113,52 +133,12 @@
     "startsAt": "2026-08-11T12:52:31.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: nvidia/nemotron-3.5-lightning:free)",
     "lab": "nvidia",
     "meta": {
       "modelId": "nvidia/nemotron-3.5-lightning:free",
       "context": 1000000
-    }
-  },
-  {
-    "id": "openrouter-free-a690f8405b",
-    "title": "Thinking Machines: Inkling Small — free on OpenRouter",
-    "provider": "OpenRouter",
-    "kind": "free-model",
-    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
-    "terms": "$0 input & output price per token on OpenRouter · 1,048,576-token context. Free models have daily rate limits.",
-    "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
-    "sourceName": "OpenRouter Models API",
-    "status": "active",
-    "startsAt": "2026-07-30T20:25:17.000Z",
-    "endsAt": "2026-11-04T00:00:00.000Z",
-    "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
-    "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: thinkingmachines/inkling-small:free)",
-    "meta": {
-      "modelId": "thinkingmachines/inkling-small:free",
-      "context": 1048576
-    }
-  },
-  {
-    "id": "openrouter-free-1667854216",
-    "title": "Thinking Machines: Inkling — free on OpenRouter",
-    "provider": "OpenRouter",
-    "kind": "free-model",
-    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use…",
-    "terms": "$0 input & output price per token on OpenRouter · 1,048,576-token context. Free models have daily rate limits.",
-    "url": "https://openrouter.ai/thinkingmachines/inkling:free",
-    "sourceName": "OpenRouter Models API",
-    "status": "active",
-    "startsAt": "2026-07-17T22:05:56.000Z",
-    "endsAt": "2026-11-04T00:00:00.000Z",
-    "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
-    "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: thinkingmachines/inkling:free)",
-    "meta": {
-      "modelId": "thinkingmachines/inkling:free",
-      "context": 1048576
     }
   },
   {
@@ -174,7 +154,7 @@
     "startsAt": "2026-06-17T19:15:48.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: cohere/north-mini-code:free)",
     "lab": "cohere",
     "meta": {
@@ -195,7 +175,7 @@
     "startsAt": "2026-06-04T14:04:24.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: nvidia/nemotron-3.5-content-safety:free)",
     "lab": "nvidia",
     "meta": {
@@ -216,7 +196,7 @@
     "startsAt": "2026-06-04T05:33:28.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: nvidia/nemotron-3-ultra-550b-a55b:free)",
     "lab": "nvidia",
     "meta": {
@@ -237,7 +217,7 @@
     "startsAt": "2026-04-28T16:18:15.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free)",
     "lab": "nvidia",
     "meta": {
@@ -258,7 +238,7 @@
     "startsAt": "2026-04-03T14:53:09.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: google/gemma-4-26b-a4b-it:free)",
     "lab": "google-deepmind",
     "meta": {
@@ -279,7 +259,7 @@
     "startsAt": "2026-04-02T16:48:06.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: google/gemma-4-31b-it:free)",
     "lab": "google-deepmind",
     "meta": {
@@ -300,7 +280,7 @@
     "startsAt": "2026-03-30T21:48:06.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: google/lyria-3-pro-preview)",
     "lab": "google-deepmind",
     "meta": {
@@ -321,7 +301,7 @@
     "startsAt": "2026-03-30T21:47:35.000Z",
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: google/lyria-3-clip-preview)",
     "lab": "google-deepmind",
     "meta": {
@@ -342,7 +322,7 @@
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
     "status": "active",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "…ads and enterprise use cases. Free Plan Limits Developer Plan Limits MODEL ID RPM RPD TPM TPD ASH ASD canopylabs/orpheus-arabic-saudi 10 100 1.2K 3.6K - - canopylabs/orpheus-v1-english 10 100 1.2K 3.6K - - meta-llama"
   },
   {
@@ -358,7 +338,7 @@
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
     "status": "active",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "…nav. See Limits for details. Free Trial Developer (Pay as You Go) Enterprise Model RPM Uncached TPM Total TPM TPH TPD gpt-oss-120b 5 30K 90K 1M 1M qwen-3.8-27b 1 5 30K 90K 1M 1M 1 Image limits: 2 per request,"
   },
   {
@@ -375,7 +355,7 @@
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
     "lab": "nvidia",
     "status": "active",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "…’s leading models Get API Key Free serverless APIs for development Accelerated by DGX Cloud Self-Host on your GPU infrastructure Continuous vulnerability fixes Discover Models Skills Blueprints Playbooks GPUs Docs Forums"
   },
   {
@@ -392,7 +372,7 @@
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
     "lab": "microsoft",
     "status": "active",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "…ompare features Pricing plans Free $0 Get started Pro $10 per month Get started Pro+ $39 per month Get started Max $100 per month Get started GitHub AI Credits GitHub AI Credits Total GitHub AI Credits Credi"
   },
   {
@@ -408,7 +388,7 @@
     "endsAt": null,
     "firstSeenAt": "2026-10-09T07:42:18.762Z",
     "status": "active",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "…Limited AI usage AI Features Limited agent requests Limited Chat requests Features ✓ Post, reply, and follow Plus $8 /month Get Plus Our introductory plan: Shared AI usage pool AI Features Cursor Grok Chat, Voice, Imagine"
   },
   {
@@ -425,7 +405,7 @@
     "firstSeenAt": "2026-11-03T07:18:27.702Z",
     "lab": "cohere",
     "status": "active",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "…PI key? API calls made from a Trial API key are free. However, trial keys are rate limited and are not permitted to be used for production or commercial purposes. API calls made from a Production API key will be charged on"
   },
   {
@@ -441,7 +421,7 @@
     "endsAt": null,
     "firstSeenAt": "2026-11-03T07:18:27.702Z",
     "status": "active",
-    "lastVerifiedAt": "2026-11-03T19:34:58.857Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
     "evidence": "…m or Enterprise organizations receive monthly credits to use with Inference Providers. Free users can use Inference Providers by purchasing credits, or by upgrading to PRO : Account Type Monthly Credits Can be spent on Extr"
   },
   {
@@ -484,7 +464,7 @@
     "provider": "OpenRouter",
     "kind": "free-model",
     "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for…",
-    "terms": "$0 input & output price per token on OpenRouter · 1,000,000-token context. Free models have daily rate limits. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check.",
+    "terms": "$0 input & output price per token on OpenRouter · 1,000,000-token context. Free models have daily rate limits. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check.",
     "url": "https://openrouter.ai/minimax/minimax-m3.1-flash:free",
     "sourceName": "OpenRouter Models API",
     "status": "expired",
@@ -500,12 +480,32 @@
     }
   },
   {
+    "id": "openrouter-free-a690f8405b",
+    "title": "Thinking Machines: Inkling Small — free on OpenRouter",
+    "provider": "OpenRouter",
+    "kind": "free-model",
+    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+    "terms": "$0 input & output price per token on OpenRouter · 1,048,576-token context. Free models have daily rate limits.",
+    "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+    "sourceName": "OpenRouter Models API",
+    "status": "expired",
+    "startsAt": "2026-07-30T20:25:17.000Z",
+    "endsAt": "2026-11-04T00:00:00.000Z",
+    "firstSeenAt": "2026-10-09T07:42:18.762Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
+    "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: thinkingmachines/inkling-small:free)",
+    "meta": {
+      "modelId": "thinkingmachines/inkling-small:free",
+      "context": 1048576
+    }
+  },
+  {
     "id": "openrouter-free-b105e777ba",
     "title": "Poolside: Laguna S 2.1 — free on OpenRouter",
     "provider": "OpenRouter",
     "kind": "free-model",
     "description": "Laguna S 2.1 is the latest coding agent model from [Poolside]( ). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
-    "terms": "$0 input & output price per token on OpenRouter · 262,144-token context. Free models have daily rate limits. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check.",
+    "terms": "$0 input & output price per token on OpenRouter · 262,144-token context. Free models have daily rate limits. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check.",
     "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
     "sourceName": "OpenRouter Models API",
     "status": "expired",
@@ -520,12 +520,32 @@
     }
   },
   {
+    "id": "openrouter-free-1667854216",
+    "title": "Thinking Machines: Inkling — free on OpenRouter",
+    "provider": "OpenRouter",
+    "kind": "free-model",
+    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use…",
+    "terms": "$0 input & output price per token on OpenRouter · 1,048,576-token context. Free models have daily rate limits.",
+    "url": "https://openrouter.ai/thinkingmachines/inkling:free",
+    "sourceName": "OpenRouter Models API",
+    "status": "expired",
+    "startsAt": "2026-07-17T22:05:56.000Z",
+    "endsAt": "2026-11-04T00:00:00.000Z",
+    "firstSeenAt": "2026-10-09T07:42:18.762Z",
+    "lastVerifiedAt": "2026-11-04T01:28:06.470Z",
+    "evidence": "pricing.prompt = 0, pricing.completion = 0 (model id: thinkingmachines/inkling:free)",
+    "meta": {
+      "modelId": "thinkingmachines/inkling:free",
+      "context": 1048576
+    }
+  },
+  {
     "id": "openrouter-free-8706534b6f",
     "title": "Poolside: Laguna XS 2.1 — free on OpenRouter",
     "provider": "OpenRouter",
     "kind": "free-model",
     "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
-    "terms": "$0 input & output price per token on OpenRouter · 262,144-token context. Free models have daily rate limits. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check.",
+    "terms": "$0 input & output price per token on OpenRouter · 262,144-token context. Free models have daily rate limits. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check.",
     "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
     "sourceName": "OpenRouter Models API",
     "status": "expired",
@@ -545,7 +565,7 @@
     "provider": "OpenRouter",
     "kind": "free-model",
     "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-    "terms": "$0 input & output price per token on OpenRouter · 262,144-token context. Free models have daily rate limits. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check.",
+    "terms": "$0 input & output price per token on OpenRouter · 262,144-token context. Free models have daily rate limits. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check. No longer free/available as of the last check.",
     "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
     "sourceName": "OpenRouter Models API",
     "status": "expired",

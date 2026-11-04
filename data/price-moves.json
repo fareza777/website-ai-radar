@@ -1,5 +1,49 @@
 [
   {
+    "id": "8145da71ceadf912",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-04T01:28:06.470Z",
+    "field": "prompt",
+    "from": 0.0285,
+    "to": 0.0313,
+    "change": 9.8
+  },
+  {
+    "id": "e0b526d203d5d46b",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-04T01:28:06.470Z",
+    "field": "completion",
+    "from": 0.0923,
+    "to": 0.0846,
+    "change": -8.3
+  },
+  {
+    "id": "c91df247ba7cebc1",
+    "modelId": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Meta: Llama 3.1 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-04T01:28:06.470Z",
+    "field": "prompt",
+    "from": 0.4,
+    "to": 0.72,
+    "change": 80
+  },
+  {
+    "id": "ac00c7470d9a4d5e",
+    "modelId": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Meta: Llama 3.1 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-04T01:28:06.470Z",
+    "field": "completion",
+    "from": 0.4,
+    "to": 0.72,
+    "change": 80
+  },
+  {
     "id": "91beac25c1c50c49",
     "modelId": "qwen/qwen3-235b-a22b-2507",
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
