@@ -1,5 +1,32 @@
 [
   {
+    "id": "0947ec813b7e2f3a",
+    "lab": "mistral",
+    "title": "Mistral Vibe v3.1.0",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.0",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-04T08:59:29.000Z",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z",
+    "updatedAt": "2026-11-04T08:59:29.000Z",
+    "excerpt": "Added New enable_file_autocomplete setting (and VIBE_ENABLE_FILE_AUTOCOMPLETE) turns off @ file completion and its background file index. A Jump to bottom button appears over a scrolled-up conversation and returns to the latest message. Ctrl+C closes the PR/MR list, and Home, End, PageUp and PageDown move its highlight. New /context command (also opened by clicking the footer's token counter) shows what fills the…",
+    "summary": "Mistral AI shipped Mistral Vibe v3.1.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 45,
+    "contentHash": "f1f74d0e34c2",
+    "meta": {
+      "version": "v3.1.0",
+      "semver": "minor",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "ff868911cde047e6",
     "lab": "mistral",
     "title": "Mistral Vibe v3.0.4",
@@ -265,7 +292,7 @@
     "contentHash": "417d409580a4",
     "meta": {
       "likes": 47,
-      "downloads": 7439,
+      "downloads": 7886,
       "repo": "mistralai/Timestral-123M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -296,7 +323,7 @@
     "contentHash": "bb226bca6d6b",
     "meta": {
       "likes": 48,
-      "downloads": 12654,
+      "downloads": 13271,
       "repo": "mistralai/Timestral-28M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -327,7 +354,7 @@
     "contentHash": "fd4a807fe29b",
     "meta": {
       "likes": 80,
-      "downloads": 10045,
+      "downloads": 10548,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -357,8 +384,8 @@
     "importance": 76,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 476,
-      "downloads": 20126,
+      "likes": 477,
+      "downloads": 21045,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -416,7 +443,7 @@
     "contentHash": "c984e1dce577",
     "meta": {
       "likes": 29,
-      "downloads": 212,
+      "downloads": 215,
       "repo": "mistralai/LIDstral-Arabic",
       "pipeline": "text-classification",
       "license": "apache-2.0"
@@ -448,7 +475,7 @@
     "contentHash": "11354caaa84e",
     "meta": {
       "likes": 52,
-      "downloads": 2648,
+      "downloads": 2739,
       "repo": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
       "pipeline": "automatic-speech-recognition"
     }
@@ -531,8 +558,8 @@
     "importance": 80,
     "contentHash": "c4578af56c8a",
     "meta": {
-      "likes": 1550,
-      "downloads": 6556,
+      "likes": 1566,
+      "downloads": 8200,
       "repo": "mistralai/Mistral-Large-4-1T-A52B",
       "pipeline": "image-text-to-text",
       "license": "other"

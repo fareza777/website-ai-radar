@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T04:02:27.843Z",
+  "generatedAt": "2026-11-04T11:07:36.704Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -238,7 +238,7 @@
         "mistral"
       ],
       "official": 0,
-      "press": 10,
+      "press": 11,
       "outlets": [
         "ActuIA",
         "Martin Cid Magazine",
@@ -248,6 +248,7 @@
         "www.trendingtopics.eu",
         "FindArticles",
         "WinBuzzer",
+        "mspbusiness.com",
         "Kingy AI",
         "Technology Org"
       ],
@@ -436,7 +437,7 @@
       },
       {
         "name": "Mistral Large 4",
-        "count": 10,
+        "count": 11,
         "prev": 3,
         "labs": []
       },
@@ -474,76 +475,74 @@
     "topics": [
       {
         "name": "agents",
-        "count": 42,
-        "prev": 43,
+        "count": 40,
+        "prev": 35,
         "labs": [
           "anthropic",
+          "openai",
           "deepseek",
           "google-deepmind",
-          "openai",
           "minimax",
           "qwen",
+          "microsoft",
           "amazon",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 37,
-        "prev": 42,
+        "count": 36,
+        "prev": 41,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "minimax",
-          "cohere",
           "mistral",
+          "cohere",
           "qwen",
+          "microsoft",
           "amazon",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
         ]
       },
       {
         "name": "safety",
         "count": 9,
-        "prev": 10,
+        "prev": 8,
         "labs": [
-          "xai",
           "anthropic",
+          "xai",
           "openai",
-          "amazon",
-          "nvidia"
+          "amazon"
         ]
       },
       {
         "name": "multimodal",
         "count": 8,
-        "prev": 11,
+        "prev": 10,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "mistral",
           "baidu",
+          "microsoft",
           "tencent",
           "amazon",
           "ibm",
-          "nvidia",
-          "microsoft"
+          "nvidia"
         ]
       },
       {
         "name": "rag",
         "count": 5,
-        "prev": 4,
+        "prev": 3,
         "labs": [
           "meta",
           "cohere",
-          "amazon",
-          "nvidia"
+          "amazon"
         ]
       },
       {
@@ -551,8 +550,8 @@
         "count": 3,
         "prev": 6,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "amazon",
           "ibm",
           "nvidia"
@@ -571,12 +570,12 @@
       {
         "name": "open-source",
         "count": 2,
-        "prev": 8,
+        "prev": 5,
         "labs": [
           "openai",
           "minimax",
-          "cohere",
           "mistral",
+          "cohere",
           "amazon",
           "nvidia"
         ]
@@ -607,30 +606,6 @@
       ],
       "reports": 2,
       "at": "2026-11-01T15:07:42.000Z"
-    },
-    {
-      "id": "deepseek:48af856e3fcf62",
-      "lab": "deepseek",
-      "title": "DeepSeek launches autonomous coding agent to challenge Anthropic’s Claude Code",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU3ZjNTJLaFEza3NuN1FnWVJkSjNzVXdsLW1VMjFrZDVsOTFzVGd6S1BvU2VMRkNBVlpHU2huZzBIU0xTZ0VtcWVMSnFGZHFhazJKLU1BUU5VQXNEejUzbXVrRHZDS2dnTG5jSFdmTjEydU4yaExlRk1Ed1VHelJ1aVFMeDhfSnNjZGVYVFNsd1VsS0owbGxJQ0stVThkdmlmaHFqMGdpOUwwOTJfOFlpTFpEd0pCN1VSVmVsdVd4NHJuZExjSVJweg?oc=5",
-      "outlets": [
-        "Stocktwits",
-        "Investing.com"
-      ],
-      "reports": 2,
-      "at": "2026-11-01T05:47:14.000Z"
-    },
-    {
-      "id": "mistral:4de175938f53f7",
-      "lab": "mistral",
-      "title": "Mistral AI launches Large 4 model for cybersecurity",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQXzBLYjllcWlpenNIaVB6c1I1cnBXTlQ2M1l1S01QMXBZVnhSMGFKOVNRLXJoTlNPSU5NYXUxUmNqQktaVE8wTklyendoeWRvblEzWmZJTm1oLS01OG91UnRZSFY4NEFJTFNoU3hsemxDbGY2Rkd2M1cxZnRNS0VNdDllcV9QZnFkbkp5dHBaaUJIWVnSAZgBQVVfeXFMTmozMnM4ZW5oc3RhOVl3UnduYlZzX0FKcmxtNHo0MEtUWkFaT2hmLThadXhFaU5ncTluanRJb1BrTDh2ZXRGZVRwWFFHTVBqNzdBYTAwZXBaR3Z5aHR2NW8wanFncFAtVFdOSlN0aUQ2NEd5X2l2djFTMHdXNVlic3JWVDJ2eUZYMVdMcFdfUmRwSTZxaWZrUHc?oc=5",
-      "outlets": [
-        "Data Centre Solutions",
-        "TechGig"
-      ],
-      "reports": 2,
-      "at": "2026-11-01T05:31:04.000Z"
     }
   ]
 }

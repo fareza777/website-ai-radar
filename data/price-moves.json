@@ -1,5 +1,27 @@
 [
   {
+    "id": "de5e2bd5f8272299",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-04T11:07:36.704Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.15,
+    "change": -50
+  },
+  {
+    "id": "77203edb9411d2e5",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-04T11:07:36.704Z",
+    "field": "completion",
+    "from": 1.2,
+    "to": 0.6,
+    "change": -50
+  },
+  {
     "id": "df1a5a9545cd6336",
     "modelId": "ibm-granite/granite-4.2-8b",
     "name": "IBM: Granite 4.2 8B",

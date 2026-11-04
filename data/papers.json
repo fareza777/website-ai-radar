@@ -1,15 +1,86 @@
 [
   {
+    "id": "2611.05275",
+    "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+    "url": "https://huggingface.co/papers/2611.05275",
+    "summary": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 85,
+    "org": null,
+    "githubRepo": "https://github.com/InfRec-Cardinal/route-anything",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
+    "id": "2611.00617",
+    "title": "Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy",
+    "url": "https://huggingface.co/papers/2611.00617",
+    "summary": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, a psychotherapy…",
+    "publishedAt": "2026-10-31T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 47,
+    "org": "nextgenwhu",
+    "githubRepo": "https://github.com/whunextgen/Pandora",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
+    "id": "2611.04916",
+    "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+    "url": "https://huggingface.co/papers/2611.04916",
+    "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 46,
+    "org": "klingteam",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
+    "id": "2611.02737",
+    "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
+    "url": "https://huggingface.co/papers/2611.02737",
+    "summary": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evaluation. To provide…",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 45,
+    "org": "adobe",
+    "githubRepo": "https://github.com/adobe-research/MoviEdit-Bench",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
+    "id": "2611.05377",
+    "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+    "url": "https://huggingface.co/papers/2611.05377",
+    "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 42,
+    "org": "kaist-ai",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
     "id": "2611.02079",
     "title": "ParetoSaddler: Pareto-Guided Optimization of Agent Harnesses for Quality and Cost",
     "url": "https://huggingface.co/papers/2611.02079",
     "summary": "Harness optimization can substantially improve LLM agents without modifying model weights, but existing methods primarily optimize response quality. Extending them to joint quality--cost optimization introduces a challenge: applying the deployment preference during intermediate updates can prematurely reject candidates that are valuable for later improvements. We introduce ParetoSaddler, which addresses this…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 16,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-11-04T04:02:27.843Z"
+  },
+  {
+    "id": "2611.03634",
+    "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+    "url": "https://huggingface.co/papers/2611.03634",
+    "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We propose WebHarbor, a suite of 153 executable and dockerized website…",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 15,
+    "org": "microsoft",
+    "lab": "microsoft",
+    "githubRepo": "https://github.com/aiming-lab/WebHarbor",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
     "id": "2610.40747",
@@ -18,10 +89,23 @@
     "summary": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 2,
+    "upvotes": 8,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-11-04T04:02:27.843Z"
+  },
+  {
+    "id": "2611.04814",
+    "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+    "url": "https://huggingface.co/papers/2611.04814",
+    "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state. We…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 3,
+    "org": "tencent",
+    "lab": "tencent",
+    "githubRepo": "https://github.com/MuyaoYuan/LoCo",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
     "id": "2611.04449",
@@ -36,13 +120,25 @@
     "firstSeenAt": "2026-11-04T04:02:27.843Z"
   },
   {
+    "id": "2611.05306",
+    "title": "You don't need long context",
+    "url": "https://huggingface.co/papers/2611.05306",
+    "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 1,
+    "org": "nvidia",
+    "lab": "nvidia",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
     "id": "2611.01860",
     "title": "Advances in Agentic Computer Graphics",
     "url": "https://huggingface.co/papers/2611.01860",
     "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 116,
+    "upvotes": 126,
     "org": "utexas",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
@@ -53,7 +149,7 @@
     "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF)…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 114,
+    "upvotes": 121,
     "org": "sjtu-deng-lab",
     "githubRepo": "https://github.com/SJTU-DENG-Lab/WaveForcing",
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
@@ -65,7 +161,7 @@
     "summary": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce…",
     "publishedAt": "2026-11-02T13:41:14.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 95,
+    "upvotes": 97,
     "org": null,
     "githubRepo": "https://github.com/xlyu0106/CUA-Master",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
@@ -77,7 +173,7 @@
     "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for…",
     "publishedAt": "2026-11-02T14:15:11.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 89,
+    "upvotes": 94,
     "org": "ruc",
     "githubRepo": "https://github.com/RUC-NLPIR/CoworkOS",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
@@ -89,7 +185,7 @@
     "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context…",
     "publishedAt": "2026-10-29T14:47:39.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 70,
+    "upvotes": 73,
     "org": "videorebirthai",
     "githubRepo": "https://github.com/agentic-videogen/awesome-agentic-videogen",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
@@ -101,10 +197,22 @@
     "summary": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 43,
     "org": null,
     "githubRepo": "https://github.com/Open-RUA/uni-robot-agent",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
+  },
+  {
+    "id": "2611.03424",
+    "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
+    "url": "https://huggingface.co/papers/2611.03424",
+    "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by how closely the research proposals it writes from a literature snapshot frozen at 2025 match the work the same communities published in 2026…",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "submittedAt": "2026-11-03T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "cmu-scs",
+    "githubRepo": "https://github.com/cxcscmu/IdeaTaste",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
     "id": "2610.42128",
@@ -174,6 +282,18 @@
     "upvotes": 40,
     "org": null,
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
+  },
+  {
+    "id": "2610.42149",
+    "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+    "url": "https://huggingface.co/papers/2610.42149",
+    "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a…",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "kaist-ai",
+    "githubRepo": "https://github.com/rootyJeon/LARC",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
     "id": "2610.40339",

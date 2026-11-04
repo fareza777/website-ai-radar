@@ -1,5 +1,32 @@
 [
   {
+    "id": "9e94ddcbffdf9b65",
+    "lab": "bytedance",
+    "title": "DeerFlow v2.2.0",
+    "url": "https://github.com/bytedance/deer-flow/releases/tag/v2.2.0",
+    "sourceId": "deer-flow",
+    "sourceName": "GitHub · bytedance/deer-flow",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-04T06:46:47.000Z",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z",
+    "updatedAt": "2026-11-04T06:46:47.000Z",
+    "excerpt": "docs: replace dead pull/5224 links with squash-merge commit permalink…",
+    "summary": "ByteDance Seed shipped DeerFlow v2.2.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "ec0ff755e4d6",
+    "meta": {
+      "version": "v2.2.0",
+      "semver": "minor",
+      "repo": "bytedance/deer-flow"
+    }
+  },
+  {
     "id": "1e3232692398f1e5",
     "lab": "bytedance",
     "title": "GenFirst",
@@ -21,7 +48,7 @@
     "importance": 31,
     "contentHash": "d3699db29f23",
     "meta": {
-      "stars": 8,
+      "stars": 9,
       "repo": "ByteDance-Seed/GenFirst",
       "language": "Python"
     },

@@ -1,5 +1,35 @@
 [
   {
+    "id": "806eab29a87a3e39",
+    "lab": "qwen",
+    "title": "Qwen Code v0.26.7",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-04T05:13:06.000Z",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z",
+    "updatedAt": "2026-11-04T05:13:06.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds an operator-scoped model.catalogRefresh setting and lets privacy.usageStatisticsEnabled: false stop background catalog refreshes while local metadata remains available. ( #16066 ) by @yiliang114 feat(managed-agent): support full model configuration at session creation ( #16153 ) by @doudouOUC…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.26.7 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "eae207af2e92",
+    "meta": {
+      "version": "v0.26.7",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
     "id": "7726af454e62050c",
     "lab": "qwen",
     "title": "Qwen Code sdk-typescript v0.1.27",
@@ -948,8 +978,8 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1107,
-      "downloads": 42908,
+      "likes": 1109,
+      "downloads": 43908,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1097,7 +1127,7 @@
     "contentHash": "d108635bb7df",
     "meta": {
       "likes": 72,
-      "downloads": 13799,
+      "downloads": 13557,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
     }
@@ -1127,7 +1157,7 @@
     "contentHash": "2deb903ef0b2",
     "meta": {
       "likes": 77,
-      "downloads": 5894,
+      "downloads": 5477,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1213,8 +1243,8 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3547,
-      "downloads": 230375,
+      "likes": 3550,
+      "downloads": 233169,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1249,10 +1279,10 @@
       "open-source",
       "agents"
     ],
-    "importance": 44,
+    "importance": 45,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 260,
+      "stars": 262,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -1373,8 +1403,8 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6750,
-      "downloads": 3867800,
+      "likes": 6759,
+      "downloads": 3781476,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -1405,7 +1435,7 @@
     "contentHash": "df6b90143e8c",
     "meta": {
       "likes": 1360,
-      "downloads": 26513,
+      "downloads": 26296,
       "repo": "Qwen/Qwen3.8-2.4T-A95B",
       "pipeline": "text-generation",
       "license": "other"
