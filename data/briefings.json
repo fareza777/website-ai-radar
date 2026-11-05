@@ -1,21 +1,16 @@
 [
   {
     "date": "2026-11-05",
-    "generatedAt": "2026-11-05T04:03:40.474Z",
+    "generatedAt": "2026-11-05T11:08:03.842Z",
     "stats": {
-      "updates24h": 20,
-      "labsActive24h": 9,
-      "updates7d": 124,
+      "updates24h": 17,
+      "labsActive24h": 7,
+      "updates7d": 121,
       "newModels7d": 21
     },
     "source": "template",
-    "headline": "20 updates from 9 AI labs in the last 24 hours · 21 model releases this week.",
+    "headline": "17 updates from 7 AI labs in the last 24 hours · 21 model releases this week.",
     "bullets": [
-      {
-        "text": "OpenAI: Daybreak Red is now available in AWS GovCloud (US-East)",
-        "itemId": "75679f5aa60bfcf8",
-        "lab": "openai"
-      },
       {
         "text": "Amazon: Use decision models with Amazon Bedrock AgentCore Evaluations",
         "itemId": "1840d116fbddf6e3",
@@ -27,9 +22,19 @@
         "lab": "nvidia"
       },
       {
+        "text": "OpenAI: Setting a new standard for responsible AI infrastructure",
+        "itemId": "f93567576105c713",
+        "lab": "openai"
+      },
+      {
         "text": "OpenAI: OpenAI to acquire Pierre Computer Company, Inc.",
         "itemId": "3a06f84c0f51a102",
         "lab": "openai"
+      },
+      {
+        "text": "ByteDance Seed: Cross-Layer-TopK-CLT",
+        "itemId": "6ea32a6f1bc8c725",
+        "lab": "bytedance"
       },
       {
         "text": "NVIDIA: How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",

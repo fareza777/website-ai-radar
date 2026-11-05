@@ -23,11 +23,40 @@
     "importance": 72,
     "contentHash": "7480469824fa",
     "meta": {
-      "likes": 612,
-      "downloads": 230232,
+      "likes": 616,
+      "downloads": 269424,
       "repo": "baidu/Unlimited-OCR-2",
       "pipeline": "image-text-to-text",
       "license": "mit"
+    }
+  },
+  {
+    "id": "9f307c01c0db9701",
+    "lab": "baidu",
+    "title": "ERNIE-5.5-Flash-Base",
+    "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+    "sourceId": "baidu-hf",
+    "sourceName": "Hugging Face · baidu",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-21T08:40:58.000Z",
+    "firstSeenAt": "2026-11-05T11:08:03.842Z",
+    "updatedAt": "2026-10-21T08:40:58.000Z",
+    "excerpt": "text-generation · license: other",
+    "summary": "Baidu published the ERNIE-5.5-Flash-Base model on Hugging Face for text generation (LLM). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 67,
+    "contentHash": "2472baa16875",
+    "meta": {
+      "likes": 140,
+      "downloads": 13,
+      "repo": "baidu/ERNIE-5.5-Flash-Base",
+      "pipeline": "text-generation",
+      "license": "other"
     }
   },
   {

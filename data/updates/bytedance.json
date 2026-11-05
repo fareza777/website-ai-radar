@@ -1,5 +1,33 @@
 [
   {
+    "id": "6ea32a6f1bc8c725",
+    "lab": "bytedance",
+    "title": "Cross-Layer-TopK-CLT",
+    "url": "https://huggingface.co/ByteDance-Seed/Cross-Layer-TopK-CLT",
+    "sourceId": "bytedance-seed-hf",
+    "sourceName": "Hugging Face · ByteDance-Seed",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T06:56:16.000Z",
+    "firstSeenAt": "2026-11-05T11:08:03.842Z",
+    "updatedAt": "2026-11-05T06:56:16.000Z",
+    "excerpt": "license: apache-2.0",
+    "summary": "ByteDance Seed published the Cross-Layer-TopK-CLT model on Hugging Face. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 54,
+    "contentHash": "e75fe167a390",
+    "meta": {
+      "likes": 2,
+      "downloads": 0,
+      "repo": "ByteDance-Seed/Cross-Layer-TopK-CLT",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "9e94ddcbffdf9b65",
     "lab": "bytedance",
     "title": "DeerFlow v2.2.0",
@@ -51,7 +79,7 @@
     "importance": 31,
     "contentHash": "d3699db29f23",
     "meta": {
-      "stars": 9,
+      "stars": 11,
       "repo": "ByteDance-Seed/GenFirst",
       "language": "Python"
     },

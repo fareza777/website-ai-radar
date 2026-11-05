@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-11-05T04:03:40.474Z",
+  "generatedAt": "2026-11-05T11:08:03.842Z",
   "stories": [
+    {
+      "id": "250e5d8f302445e7",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "openai",
+        "moonshot",
+        "deepseek",
+        "qwen"
+      ],
+      "official": 1,
+      "press": 9,
+      "outlets": [
+        "헤럴드경제",
+        "TechGig",
+        "ET Enterprise AI",
+        "联合早报",
+        "Reuters",
+        "shattered.io",
+        "Tekedia",
+        "Crypto Briefing",
+        "Techzine Global",
+        "WinBuzzer",
+        "NeoTeo",
+        "Times Of AI",
+        "The Indian Express",
+        "trendingtopics.eu",
+        "Idaho Statesman",
+        "TOKENPOST",
+        "International Business Times UK",
+        "India Today",
+        "YourStory.com",
+        "Dataconomy"
+      ],
+      "firstAt": "2026-10-26T22:00:00.000Z",
+      "lastAt": "2026-11-05T10:29:03.000Z",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "lead": {
+        "kind": "official",
+        "id": "250e5d8f302445e7"
+      },
+      "importance": 100
+    },
     {
       "id": "34b0bf3f94c3851e",
       "title": "Gemini 4 Carbon: Our next frontier model",
@@ -69,48 +112,6 @@
       "lead": {
         "kind": "official",
         "id": "34b0bf3f94c3851e"
-      },
-      "importance": 100
-    },
-    {
-      "id": "250e5d8f302445e7",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "openai",
-        "moonshot",
-        "deepseek",
-        "qwen"
-      ],
-      "official": 1,
-      "press": 8,
-      "outlets": [
-        "헤럴드경제",
-        "TechGig",
-        "ET Enterprise AI",
-        "联合早报",
-        "Reuters",
-        "shattered.io",
-        "Tekedia",
-        "Crypto Briefing",
-        "Techzine Global",
-        "WinBuzzer",
-        "NeoTeo",
-        "Times Of AI",
-        "The Indian Express",
-        "trendingtopics.eu",
-        "Idaho Statesman",
-        "TOKENPOST",
-        "International Business Times UK",
-        "India Today",
-        "YourStory.com"
-      ],
-      "firstAt": "2026-10-26T22:00:00.000Z",
-      "lastAt": "2026-11-03T10:14:44.000Z",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "lead": {
-        "kind": "official",
-        "id": "250e5d8f302445e7"
       },
       "importance": 100
     },
@@ -198,38 +199,6 @@
         "id": "qwen:3c2f48aef6645c"
       },
       "importance": 68
-    },
-    {
-      "id": "tencent:f2778a12d956ec",
-      "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure",
-      "entity": null,
-      "labs": [
-        "tencent"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Investing.com",
-        "Reuters",
-        "Financial Times",
-        "TradingView",
-        "The Economic Times",
-        "Moomoo",
-        "NewsBytes",
-        "Yahoo Finance",
-        "Euronext Markets: Real-time Stock Market Data | live",
-        "Global Banking & Finance Review",
-        "TIKR.com",
-        "Vision Times"
-      ],
-      "firstAt": "2026-11-04T05:00:45.000Z",
-      "lastAt": "2026-11-04T05:21:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAycHlsdGFnY196YkJJOUhqVjZ4OThWZ3c5SVJlbXpibGNUZHRaeHhORjQ0dlJ3TUZTS1hqbFZJQmp4ZVl4cXpXbnV3LXZ4UEJHQ3NSREd2ZEJpY2tOVWhia182UkZxbTBFSWk?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "tencent:f2778a12d956ec"
-      },
-      "importance": 63
     },
     {
       "id": "nvidia:dc951ec9a66516",
@@ -406,30 +375,6 @@
       "importance": 58
     },
     {
-      "id": "zai:f0d186775253b4",
-      "title": "GLM-5.3 Hits 100% Safety Bypass, Builds Exploits [2026]",
-      "entity": "GLM 5.3",
-      "labs": [
-        "zai"
-      ],
-      "official": 0,
-      "press": 4,
-      "outlets": [
-        "shattered.io",
-        "Crypto Briefing",
-        "Technology Org",
-        "ET CISO"
-      ],
-      "firstAt": "2026-10-26T07:00:00.000Z",
-      "lastAt": "2026-10-31T02:31:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4yeUk3T0hqZXNtZEVjODlzUmY4aFk4ejhUNjdFVW5vVmdkeGtMZmgzdFJiVm5VeXNLSUFHQXR5TGlfcWFTbWdVcjhxazJLMGwzNFhsTlgzaE9SQWRCYjFacVNqazVLYmkyOU1wdHpXelh6ZDg4Uk1KMA?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "zai:f0d186775253b4"
-      },
-      "importance": 56
-    },
-    {
       "id": "ibm:5446c7035cbb10",
       "title": "IBM named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
       "entity": null,
@@ -459,9 +404,15 @@
         "labs": []
       },
       {
+        "name": "ERNIE 5.5 Flash",
+        "count": 9,
+        "prev": 0,
+        "labs": []
+      },
+      {
         "name": "Gemini 4 Carbon",
-        "count": 10,
-        "prev": 29,
+        "count": 9,
+        "prev": 30,
         "labs": [
           "google-deepmind"
         ]
@@ -469,7 +420,7 @@
       {
         "name": "GPT 6 Astra",
         "count": 7,
-        "prev": 12,
+        "prev": 13,
         "labs": [
           "openai"
         ]
@@ -481,65 +432,53 @@
         "labs": []
       },
       {
-        "name": "Nemotron 3.5 Transcribe",
-        "count": 4,
-        "prev": 8,
-        "labs": []
-      },
-      {
         "name": "Mistral Large 4 Open",
         "count": 3,
         "prev": 0,
-        "labs": []
-      },
-      {
-        "name": "GLM 5.3",
-        "count": 3,
-        "prev": 2,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 48,
+        "count": 46,
         "prev": 32,
         "labs": [
           "anthropic",
+          "deepseek",
           "google-deepmind",
           "openai",
-          "deepseek",
           "minimax",
           "qwen",
           "microsoft",
           "amazon",
           "bytedance",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 38,
-        "prev": 37,
+        "count": 37,
+        "prev": 35,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "qwen",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 11,
-        "prev": 7,
+        "count": 10,
+        "prev": 8,
         "labs": [
           "anthropic",
           "xai",
@@ -549,7 +488,7 @@
       },
       {
         "name": "multimodal",
-        "count": 11,
+        "count": 10,
         "prev": 10,
         "labs": [
           "google-deepmind",
@@ -560,8 +499,8 @@
           "tencent",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -578,26 +517,24 @@
       {
         "name": "audio",
         "count": 2,
-        "prev": 7,
+        "prev": 6,
         "labs": [
           "google-deepmind",
           "openai",
           "amazon",
-          "nvidia",
           "ibm"
         ]
       },
       {
         "name": "open-source",
         "count": 2,
-        "prev": 5,
+        "prev": 4,
         "labs": [
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
-          "amazon",
-          "nvidia"
+          "amazon"
         ]
       }
     ]
@@ -614,18 +551,6 @@
       ],
       "reports": 2,
       "at": "2026-11-02T18:54:13.000Z"
-    },
-    {
-      "id": "deepseek:fc6d6b345d8474",
-      "lab": "deepseek",
-      "title": "DeepSeek open-sources Super-Agent, a coding agent that watches team chats for work",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nREY5eGxfa2tXV0ZxeHZpekdIaS05UWdfYUxVTHNIR01TdnU0MEhxaHA2NE1iSHE2MnpHRUgtM3VvR2x2ZEpKQ1ljYVFEME9lQTEtOHNXSHdkT0Jjb0VPTUgtYnNVdEQ2RXBlMERLOTRTcF9ic2c?oc=5",
-      "outlets": [
-        "Help Net Security",
-        "Technology Org"
-      ],
-      "reports": 2,
-      "at": "2026-11-02T07:09:55.000Z"
     }
   ]
 }
