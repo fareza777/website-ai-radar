@@ -35,6 +35,8 @@ export const CURATED_DEALS: CuratedDeal[] = [
     description: "Use the Gemini Developer API at no cost within rate limits — ideal for prototyping before moving to a paid tier.",
     // Docs moved from ai.google.dev/gemini-api/docs/pricing, which now 301s to this page (2026-11-03).
     url: "https://aistudio.google.com/docs/pricing?hl=en",
+    // The AI Studio docs app renders client-side: stripHtml leaves only the <title>, so this page can never
+    // match and the deal stays "unverified". The free tier itself is still on the page (checked in raw HTML).
     mustContain: "free of charge",
     lab: "google-deepmind",
   },
@@ -103,6 +105,25 @@ export const CURATED_DEALS: CuratedDeal[] = [
     description: "PRO users and Team or Enterprise organizations receive monthly credits for Inference Providers; free users buy credits or upgrade.",
     url: "https://huggingface.co/docs/inference-providers/pricing",
     mustContain: "receive monthly credits",
+  },
+  {
+    id: "cloudflare-workers-ai-free",
+    title: "Cloudflare Workers AI — daily free Neurons",
+    provider: "Cloudflare",
+    kind: "free-tier",
+    description: "Anyone can use a total of 10,000 Neurons per day at no charge; usage beyond that needs the Workers Paid plan at $0.011 per 1,000 Neurons.",
+    url: "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    mustContain: "10,000 Neurons per day at no charge",
+  },
+  {
+    id: "aws-free-tier-credits",
+    title: "AWS Free Tier — credits for new customers",
+    provider: "Amazon Web Services",
+    kind: "credits",
+    description: "New AWS Free Tier accounts get up to $200 in credits over 6 months, with $100 issued immediately and more earned as services are used.",
+    url: "https://aws.amazon.com/free/",
+    mustContain: "up to \\$200 in credits",
+    lab: "amazon",
   },
 ];
 

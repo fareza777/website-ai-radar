@@ -556,12 +556,6 @@
     "unique": "Agents share a problem-specific forum and a literature of reviewed papers.",
     "benefit": "People running their own agents can point them at shared research problems instead of working alone."
   },
-  "393155777d7ff5e3": {
-    "hash": "f241af1a",
-    "summary": "Trace-native CI/CD for AI agents that grades production traces, clusters failures, freezes them into replayable regression tests, and blocks pull requests that regress.",
-    "unique": "It turns clustered production failures into replayable tests and is self-hostable.",
-    "benefit": "Teams shipping agents can stop a regression from merging by replaying failures seen in production traces."
-  },
   "eb2ec5951aaf61aa": {
     "hash": "7b9dcdbd",
     "summary": "A site for creating videos and images with AI and proving them.",
@@ -801,5 +795,11 @@
     "summary": "Relayvora resumes unfinished AI coding work across Claude Code, Codex, and OpenCode with verified handoffs.",
     "unique": "Built for handoffs between three named coding agents, with topics covering a CLI, Model Context Protocol and open-source developer tools.",
     "benefit": "Developers can move a half-finished task from one coding agent to another without losing the thread of what was already done."
+  },
+  "176d5c2f0b3b785a": {
+    "hash": "4b8f67f1",
+    "summary": "inboxwall is a local-first, read-only AI email security tool that sanitizes hidden CSS tricks, Unicode obfuscation and prompt injection attacks before an AI sees the message.",
+    "unique": "It works locally and read-only, screening inbound email content before any AI model reads it.",
+    "benefit": "Teams connecting mail to AI agents get a pre-filter that strips obfuscated and injected content before the model ever sees it."
   }
 }

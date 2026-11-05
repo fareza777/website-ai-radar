@@ -146,16 +146,18 @@ export const LAB_SOCIAL: Record<string, { x: string[]; threads: string[] }> = {
   qwen: { x: ["Alibaba_Qwen"], threads: [] },
   moonshot: { x: ["Kimi_Moonshot"], threads: [] },
   zai: { x: ["Zai_org"], threads: [] },
-  meta: { x: ["AIatMeta"], threads: ["metaai"] },
+  meta: { x: ["AIatMeta"], threads: ["metaai", "aiatmeta", "meta.ai"] },
   mistral: { x: ["MistralAI"], threads: [] },
-  minimax: { x: ["MiniMax__AI"], threads: [] },
+  // verified 2026-11-05: the official account is @MiniMax_AI ("MiniMax (official)")
+  minimax: { x: ["MiniMax_AI"], threads: [] },
   cohere: { x: ["cohere"], threads: [] },
   microsoft: { x: ["MSFTResearch", "MicrosoftAI"], threads: [] },
   amazon: { x: ["awscloud", "AmazonScience"], threads: [] },
   baidu: { x: ["Baidu_Inc"], threads: [] },
   tencent: { x: ["TencentHunyuan"], threads: [] },
   bytedance: { x: ["ByteDanceOSS"], threads: [] },
-  nvidia: { x: ["nvidia", "NVIDIAAIDev"], threads: [] },
+  // verified 2026-11-05: @NVIDIAAIDev is inactive and points to @NVIDIAAI, which posts the developer news
+  nvidia: { x: ["nvidia", "NVIDIAAIDev", "NVIDIAAI"], threads: [] },
   ai21: { x: ["AI21Labs"], threads: [] },
   ibm: { x: ["IBMResearch"], threads: [] },
 };

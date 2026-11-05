@@ -3587,5 +3587,145 @@
     "hash": "1ea964e3b0f3",
     "summary": "Claude Code v2.1.318 records your answer when it asks to turn on the mods it writes in a session, adds assume_role on mantle upstreams of the Claude apps gateway for a role in another AWS account and per-developer AWS cost attribution, and adds an effort option to a mod's $.model.fork.",
     "benefit": "Teams running Claude Code against AWS get cross-account roles and per-developer cost attribution, plus a lower-effort option for quick side jobs."
+  },
+  "7838c87736f9082f": {
+    "hash": "6920b28d1034",
+    "summary": "Moonshot Kimi listed Kimi-K3.1-Pro on Hugging Face, an image-text-to-text model released under license: other.",
+    "benefit": "Developers building mixed image and text pipelines get another Moonshot Kimi model to evaluate for their own workloads.",
+    "category": "model"
+  },
+  "bf25be8f87794d7d": {
+    "hash": "ea8a084eec16",
+    "summary": "OpenAI published a customer story in which DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed and cost for enterprise service.",
+    "benefit": "Teams automating enterprise service get a worked example of splitting agent work between reasoning quality, speed and cost."
+  },
+  "75679f5aa60bfcf8": {
+    "hash": "800d7b404d9e",
+    "summary": "Daybreak Red makes GPT-5.6 Cyber available to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+    "benefit": "Security teams with US government data requirements can run GPT-5.6 Cyber for authorized cybersecurity work inside AWS GovCloud."
+  },
+  "0a437d67f2effbc5": {
+    "hash": "42b3c4a24b2c",
+    "summary": "OpenAI introduced Images 2.6, bringing faster image generation, GIF creation, more precise editing and new API controls across ChatGPT, Codex and the API.",
+    "benefit": "Teams generating or editing images get quicker output, GIF support and finer editing control from one update across three surfaces."
+  },
+  "a655af3d86e91f9c": {
+    "hash": "171387e32a8f",
+    "summary": "Cohere announced that Embed 5 and Rerank 5 are now on OpenRouter, giving access to its retrieval models through a single API with unified billing and no additional SDKs.",
+    "benefit": "Teams already calling OpenRouter can add Cohere embedding and reranking to a retrieval stack without a second vendor integration.",
+    "category": "api"
+  },
+  "1840d116fbddf6e3": {
+    "hash": "1b83b6887fca",
+    "summary": "AWS explained how to use decision models with Amazon Bedrock AgentCore Evaluations: they take a structured state and a fixed set of allowed answers and return a calibrated probability rather than free-form text.",
+    "benefit": "Agent teams can answer narrow repeatable checks such as on-policy responses, safe tool calls and context match with stable probabilities.",
+    "category": "developer"
+  },
+  "5093b88f534dd6f4": {
+    "hash": "1891714c660b",
+    "summary": "NVIDIA published a guide to using NVIDIA NeMo to turn production evidence into prioritized issues and custom evaluations that improve prompts, tools, models, memory, skills and harness code.",
+    "benefit": "Developers whose domain agent fails in ways generic benchmarks do not explain can convert real production failures into repeatable tests.",
+    "category": "developer"
+  },
+  "3a06f84c0f51a102": {
+    "hash": "aa5d43667540",
+    "summary": "OpenAI announced it will acquire Pierre Computer Company, expanding Codex's tools for building, understanding and reviewing code.",
+    "benefit": "Developers using Codex gain a path to Pierre's tooling for building, understanding and reviewing code inside OpenAI's coding agent."
+  },
+  "a4f4c423c5426033": {
+    "hash": "b2af17af2b89",
+    "summary": "OpenAI described an autonomous pipeline that found, validated and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+    "benefit": "Security and platform teams get a concrete example of using an agent pipeline to close privilege-escalation paths before attackers reach them."
+  },
+  "58a090b4c9116a8f": {
+    "hash": "9485c8b9e785",
+    "summary": "Anthropic announced new agents and products for security, productivity and creative work on Claude Marketplace.",
+    "benefit": "Teams buying agents get fresh security, productivity and creative-work options listed in one place on Claude Marketplace."
+  },
+  "e2bf3d72acd93610": {
+    "hash": "5ed84b1b5bbf",
+    "summary": "NVIDIA described how the NVIDIA Factory Operations Blueprint coordinates AI agents to investigate production issues, citing a Siemens report that unplanned downtime costs an average large plant in the surveyed sectors $253 million per year.",
+    "benefit": "Factory teams get a pattern for gathering evidence across systems when agents investigate a failed circuit board or a rush order."
+  },
+  "b9a9b99bb9b3810a": {
+    "hash": "a3d0075747d6",
+    "summary": "Gemini CLI v0.67.0 bridges the IDE companion into container sandboxes over exec stdio and prevents duplicate agent loading when the workspace is the home directory.",
+    "benefit": "Developers running Gemini CLI in sandboxes get IDE companion support and no longer load the same agents twice from a home-directory workspace."
+  },
+  "0947ec813b7e2f3a": {
+    "hash": "f1f74d0e34c2",
+    "summary": "Mistral Vibe v3.1.0 adds an enable_file_autocomplete setting that turns off at-file completion and its background file index, a jump-to-bottom button over a scrolled-up conversation, and a /context command showing what fills the context.",
+    "benefit": "Users of Mistral Vibe can stop the background file index and see exactly which parts of a conversation are consuming context."
+  },
+  "9185316cf11be66f": {
+    "hash": "eeca14abf36c",
+    "summary": "Microsoft ran a sponsored article titled The Platform Behind the Next AI Breakthrough about agents taking on longer, more strategic work such as writing and validating code; the piece states it was written and paid for by Microsoft and is not WIRED editorial content.",
+    "benefit": "Readers can treat this as vendor framing rather than a product announcement, since the article discloses that Microsoft paid for it."
+  },
+  "e87b11d8e10166e7": {
+    "hash": "33f38ccff2ec",
+    "summary": "Strands Agents SDK typescript v1.24.0 adds a migration guide from strands-agents-tools and places explicit cache points on GPT-5.6 and later by default.",
+    "benefit": "TypeScript agent developers get a documented path off strands-agents-tools plus prompt cache points applied automatically on newer GPT models."
+  },
+  "88c60cfa20c7e943": {
+    "hash": "8f040c3e430c",
+    "summary": "Strands Agents SDK python v1.64.0 adds a migration guide from strands-agents-tools and places explicit cache points on GPT-5.6 and later by default.",
+    "benefit": "Python agent builders can migrate off strands-agents-tools with guidance and inherit cache-point defaults on newer GPT models without extra config."
+  },
+  "9e94ddcbffdf9b65": {
+    "hash": "be3bf1e29b76",
+    "summary": "ByteDance Seed released DeerFlow v2.2.0, described as turning the 2.1 super-agent harness into a deployment-grade platform where scheduled tasks grow into goal-driven workflows with fair multi-owner execution, subsystems run across multiple Gateway instances and the extension platform ships full-stack plugins.",
+    "benefit": "Teams self-hosting DeerFlow get multi-instance gateways and shared scheduling instead of a single-machine super-agent harness."
+  },
+  "93d046d44e6edbc2": {
+    "hash": "4d4d38ec30e9",
+    "summary": "Docling v2.147.0 honors the InlineGroup whitespace contract in the backends and fixes asciidoc link parsing in block titles, keeping the page when a dots table is too large, inline href links in latex and boxnote image captions parented with their picture.",
+    "benefit": "Document pipelines lose less layout: paragraphs stay together, captions stay attached to their picture and oversized tables no longer drop a page."
+  },
+  "2b006ae7c7c02e41": {
+    "hash": "22e1fabe18d1",
+    "summary": "Moonshot Kimi published TCSExam on GitHub, described as a benchmark for the full range of theoretical computer science research.",
+    "benefit": "Researchers get an evaluation aimed at theoretical computer science work rather than only coding or arithmetic drills.",
+    "category": "research"
+  },
+  "3d39bad411aadc77": {
+    "hash": "85f9a465e6e6",
+    "summary": "NVIDIA described how it uses AI agents to streamline AI factory operations, where site reliability engineers otherwise examine multiple dashboards to find the cause of training performance drops.",
+    "benefit": "Cluster operators see a pattern for replacing dashboard-hunting across compute, network, hardware and scheduling with coordinating agents."
+  },
+  "c5387dca01dcfd3e": {
+    "hash": "129a4eabd5bc",
+    "summary": "AWS told how U Mobile, Malaysia's newest 5G network provider, built agentic telco operations with Amazon Bedrock AgentCore to move automation upstream into how operations teams diagnose and resolve problems.",
+    "benefit": "Telecom operators get a reference for applying agents to problem diagnosis, not only to speeding up existing productivity tasks."
+  },
+  "806eab29a87a3e39": {
+    "hash": "eae207af2e92",
+    "summary": "Qwen Code v0.26.7 adds an operator-scoped model.catalogRefresh setting, lets a privacy usage-statistics opt-out stop background catalog refreshes while local metadata remains available, and supports full model configuration when a managed agent session is created.",
+    "benefit": "Operators who turn off usage statistics stop background model catalog refreshes, and managed agents can start with a complete model configuration."
+  },
+  "c613dc25888c0b7c": {
+    "hash": "7b5021dee0f2",
+    "summary": "Cohere SDK (Python) v7.3.2 forwards arguments through the patched get_headers method and ships a regenerated SDK.",
+    "benefit": "Python users keep custom header arguments working instead of having them dropped by the SDK's patched method."
+  },
+  "d985449deaae749f": {
+    "hash": "430c769dc01f",
+    "summary": "Cohere SDK (Python) v7.3.1 is a Fern-generated release carrying patches for empty embed input crashing with an IndexError, forwarding max_retries through the Client and ClientV2 constructors and omitting the Authorization header.",
+    "benefit": "Python callers avoid a crash when embedding an empty list and can set retry counts directly on the client constructors."
+  },
+  "ca1167c1743eb094": {
+    "hash": "461861d0021f",
+    "summary": "Strands Agents SDK harness-cli v0.2.4 adds a migration guide from strands-agents-tools and places explicit cache points on GPT-5.6 and later by default.",
+    "benefit": "Users driving agents from the harness CLI pick up the migration docs and cache-point defaults of this release train without switching tooling."
+  },
+  "5c5c2540d64cc6ce": {
+    "hash": "12c6dd5e180b",
+    "summary": "Strands Agents SDK harness-typescript v0.3.4 adds a migration guide from strands-agents-tools and places explicit cache points on GPT-5.6 and later by default.",
+    "benefit": "TypeScript harness users get the same migration guidance and automatic cache points as the SDK release in this version band."
+  },
+  "e3eb61d0a0eabf84": {
+    "hash": "3743e78e9bfe",
+    "summary": "Strands Agents SDK harness-python v0.3.4 adds a migration guide from strands-agents-tools and places explicit cache points on GPT-5.6 and later by default.",
+    "benefit": "Python harness users inherit cache points on newer GPT models and a documented way to move off strands-agents-tools."
   }
 }

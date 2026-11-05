@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T01:30:16.249Z",
+  "generatedAt": "2026-11-05T04:03:40.474Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -223,7 +223,7 @@
         "Vision Times"
       ],
       "firstAt": "2026-11-04T05:00:45.000Z",
-      "lastAt": "2026-11-04T08:50:40.000Z",
+      "lastAt": "2026-11-04T05:21:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAycHlsdGFnY196YkJJOUhqVjZ4OThWZ3c5SVJlbXpibGNUZHRaeHhORjQ0dlJ3TUZTS1hqbFZJQmp4ZVl4cXpXbnV3LXZ4UEJHQ3NSREd2ZEJpY2tOVWhia182UkZxbTBFSWk?oc=5",
       "lead": {
         "kind": "press",
@@ -468,8 +468,8 @@
       },
       {
         "name": "GPT 6 Astra",
-        "count": 9,
-        "prev": 10,
+        "count": 7,
+        "prev": 12,
         "labs": [
           "openai"
         ]
@@ -477,13 +477,7 @@
       {
         "name": "Gemini 4 Argon",
         "count": 6,
-        "prev": 12,
-        "labs": []
-      },
-      {
-        "name": "GLM 5.3",
-        "count": 4,
-        "prev": 1,
+        "prev": 11,
         "labs": []
       },
       {
@@ -497,6 +491,12 @@
         "count": 3,
         "prev": 0,
         "labs": []
+      },
+      {
+        "name": "GLM 5.3",
+        "count": 3,
+        "prev": 2,
+        "labs": []
       }
     ],
     "topics": [
@@ -507,15 +507,15 @@
         "labs": [
           "anthropic",
           "google-deepmind",
-          "deepseek",
           "openai",
+          "deepseek",
           "minimax",
           "qwen",
           "microsoft",
           "amazon",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -532,8 +532,8 @@
           "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -560,8 +560,8 @@
           "tencent",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -583,8 +583,8 @@
           "google-deepmind",
           "openai",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {

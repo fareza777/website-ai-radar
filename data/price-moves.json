@@ -1,5 +1,115 @@
 [
   {
+    "id": "5fbe972fd83fc864",
+    "modelId": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "lab": "qwen",
+    "at": "2026-11-05T04:28:28.879Z",
+    "field": "prompt",
+    "from": 0.09,
+    "to": 0.14,
+    "change": 55.6
+  },
+  {
+    "id": "242853bdea73af27",
+    "modelId": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "lab": "qwen",
+    "at": "2026-11-05T04:28:28.879Z",
+    "field": "completion",
+    "from": 0.55,
+    "to": 0.8,
+    "change": 45.5
+  },
+  {
+    "id": "f2215ca50f9f23f5",
+    "modelId": "meta-llama/llama-4-maverick",
+    "name": "Meta: Llama 4 Maverick",
+    "lab": "meta",
+    "at": "2026-11-05T04:28:28.879Z",
+    "field": "prompt",
+    "from": 0.1875,
+    "to": 0.35,
+    "change": 86.7
+  },
+  {
+    "id": "eb4d6f689e8963b1",
+    "modelId": "meta-llama/llama-4-maverick",
+    "name": "Meta: Llama 4 Maverick",
+    "lab": "meta",
+    "at": "2026-11-05T04:28:28.879Z",
+    "field": "completion",
+    "from": 0.6525,
+    "to": 1,
+    "change": 53.3
+  },
+  {
+    "id": "76046a39b0c86a13",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-05T04:28:28.879Z",
+    "field": "prompt",
+    "from": 0.1,
+    "to": 0.2,
+    "change": 100
+  },
+  {
+    "id": "971846ff104686b5",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-05T04:28:28.879Z",
+    "field": "completion",
+    "from": 0.32,
+    "to": 0.52,
+    "change": 62.5
+  },
+  {
+    "id": "e6f5c1f9391f5b99",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-05T04:03:40.474Z",
+    "field": "prompt",
+    "from": 0.0313,
+    "to": 0.15,
+    "change": 379.2
+  },
+  {
+    "id": "162b2ac9842731d6",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-05T04:03:40.474Z",
+    "field": "completion",
+    "from": 0.0846,
+    "to": 0.5,
+    "change": 491
+  },
+  {
+    "id": "f1fd1675e0b27226",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-11-05T04:03:40.474Z",
+    "field": "prompt",
+    "from": 0.08,
+    "to": 0.0699,
+    "change": -12.6
+  },
+  {
+    "id": "54c1750fdb570658",
+    "modelId": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "lab": "zai",
+    "at": "2026-11-05T04:03:40.474Z",
+    "field": "completion",
+    "from": 3.6,
+    "to": 1.4,
+    "change": -61.1
+  },
+  {
     "id": "3eabcefc5587a5eb",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
