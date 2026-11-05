@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-05",
-    "generatedAt": "2026-11-04T19:52:01.415Z",
+    "generatedAt": "2026-11-05T01:30:16.249Z",
     "stats": {
-      "updates24h": 17,
+      "updates24h": 20,
       "labsActive24h": 9,
-      "updates7d": 119,
-      "newModels7d": 20
+      "updates7d": 125,
+      "newModels7d": 21
     },
     "source": "template",
-    "headline": "17 updates from 9 AI labs in the last 24 hours · 20 model releases this week.",
+    "headline": "20 updates from 9 AI labs in the last 24 hours · 21 model releases this week.",
     "bullets": [
       {
         "text": "OpenAI: Daybreak Red is now available in AWS GovCloud (US-East)",
@@ -25,11 +25,6 @@
         "text": "NVIDIA: Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
         "itemId": "5093b88f534dd6f4",
         "lab": "nvidia"
-      },
-      {
-        "text": "Cohere: Embed 5 and Rerank 5 now on OpenRouter",
-        "itemId": "a655af3d86e91f9c",
-        "lab": "cohere"
       },
       {
         "text": "OpenAI: OpenAI to acquire Pierre Computer Company, Inc.",

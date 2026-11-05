@@ -1,5 +1,35 @@
 [
   {
+    "id": "b9a9b99bb9b3810a",
+    "lab": "google-deepmind",
+    "title": "Gemini CLI v0.67.0",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
+    "sourceId": "gemini-cli",
+    "sourceName": "GitHub · google-gemini/gemini-cli",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-04T20:27:11.000Z",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z",
+    "updatedAt": "2026-11-04T20:27:11.000Z",
+    "excerpt": "What's Changed Changelog for v0.65.0 by @gemini-cli-robot in #29853 chore(release): bump version to 0.67.0-nightly.20261020.gb041de017 by @gemini-cli-robot in #29854 Changelog for v0.66.0-preview.0 by @gemini-cli-robot in #29852 feat(cli): bridge the IDE companion into container sandboxes over exec stdio by @elberthc-byte in #29858 fix(core): prevent duplicate agent loading when workspace is home directory ( #27692…",
+    "summary": "Google DeepMind shipped Gemini CLI v0.67.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "a3d0075747d6",
+    "meta": {
+      "version": "v0.67.0",
+      "semver": "minor",
+      "repo": "google-gemini/gemini-cli"
+    }
+  },
+  {
     "id": "adafdd4764cb9dbb",
     "lab": "google-deepmind",
     "title": "Agentic cheminformatics with Google Antigravity",
@@ -1153,8 +1183,8 @@
     "lab": "google-deepmind",
     "title": "DevFest is back",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -1196,7 +1226,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 3132,
+      "likes": 3138,
       "downloads": 454115,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",

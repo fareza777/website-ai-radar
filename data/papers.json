@@ -18,7 +18,7 @@
     "summary": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, a psychotherapy…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 67,
+    "upvotes": 69,
     "org": "nextgenwhu",
     "githubRepo": "https://github.com/whunextgen/Pandora",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
@@ -30,7 +30,7 @@
     "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state. We…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 64,
+    "upvotes": 65,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/MuyaoYuan/LoCo",
@@ -43,7 +43,7 @@
     "summary": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evaluation. To provide…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 61,
+    "upvotes": 63,
     "org": "adobe",
     "githubRepo": "https://github.com/adobe-research/MoviEdit-Bench",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
@@ -55,7 +55,7 @@
     "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 51,
     "org": "klingteam",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
@@ -66,7 +66,7 @@
     "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 51,
     "org": "kaist-ai",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
@@ -77,7 +77,7 @@
     "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluates five…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 43,
+    "upvotes": 44,
     "org": "huggingface",
     "githubRepo": "https://github.com/RoboColosseum/robocolosseum-client",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
@@ -89,7 +89,7 @@
     "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervision alone, without…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 44,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/cvlab-kaist/FactEmbed",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
@@ -126,7 +126,7 @@
     "summary": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 12,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-11-04T04:02:27.843Z"
@@ -138,7 +138,7 @@
     "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 9,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
@@ -150,7 +150,7 @@
     "summary": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets. Dory1.0-4B is built on a normalized Transformer (nGPT) backbone with interleaved sliding-window and full-attention layers, organized into an input block, a shared recurrent block, and an output block. At inference, the recurrent block can be…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 4,
+    "upvotes": 6,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
@@ -174,7 +174,7 @@
     "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 128,
+    "upvotes": 131,
     "org": "utexas",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
@@ -221,7 +221,7 @@
     "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context…",
     "publishedAt": "2026-10-29T14:47:39.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 73,
+    "upvotes": 74,
     "org": "videorebirthai",
     "githubRepo": "https://github.com/agentic-videogen/awesome-agentic-videogen",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
@@ -245,7 +245,7 @@
     "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by how closely the research proposals it writes from a literature snapshot frozen at 2025 match the work the same communities published in 2026…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 43,
     "org": "cmu-scs",
     "githubRepo": "https://github.com/cxcscmu/IdeaTaste",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
@@ -309,6 +309,18 @@
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
+    "id": "2610.42149",
+    "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+    "url": "https://huggingface.co/papers/2610.42149",
+    "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a…",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "submittedAt": "2026-11-02T00:00:00.000Z",
+    "upvotes": 42,
+    "org": "kaist-ai",
+    "githubRepo": "https://github.com/rootyJeon/LARC",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
     "id": "2610.40373",
     "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
     "url": "https://huggingface.co/papers/2610.40373",
@@ -318,18 +330,6 @@
     "upvotes": 40,
     "org": null,
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
-  },
-  {
-    "id": "2610.42149",
-    "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
-    "url": "https://huggingface.co/papers/2610.42149",
-    "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a…",
-    "publishedAt": "2026-10-30T00:00:00.000Z",
-    "submittedAt": "2026-11-02T00:00:00.000Z",
-    "upvotes": 40,
-    "org": "kaist-ai",
-    "githubRepo": "https://github.com/rootyJeon/LARC",
-    "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
     "id": "2610.40339",

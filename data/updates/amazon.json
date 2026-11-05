@@ -1,5 +1,96 @@
 [
   {
+    "id": "e87b11d8e10166e7",
+    "lab": "amazon",
+    "title": "Strands Agents SDK typescript v1.24.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.24.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-04T19:54:03.000Z",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z",
+    "updatedAt": "2026-11-04T19:54:03.000Z",
+    "excerpt": "typescript/v1.24.0 Auto-drafted from commits in typescript/v1.23.0..typescript/v1.24.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(docs): add migration guide from strands-agents-tools ( #5730 ) ( f078b5c ) feat(openai): place explicit cache points on GPT-5.6+ by default ( #5418 ) (…",
+    "summary": "Amazon shipped Strands Agents SDK typescript v1.24.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "33f38ccff2ec",
+    "meta": {
+      "version": "v1.24.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "typescript"
+    }
+  },
+  {
+    "id": "88c60cfa20c7e943",
+    "lab": "amazon",
+    "title": "Strands Agents SDK python v1.64.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.64.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-04T19:53:49.000Z",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z",
+    "updatedAt": "2026-11-04T19:53:49.000Z",
+    "excerpt": "python/v1.64.0 Auto-drafted from commits in python/v1.63.0..python/v1.64.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(docs): add migration guide from strands-agents-tools ( #5730 ) ( f078b5c ) feat(openai): place explicit cache points on GPT-5.6+ by default ( #5418 ) ( 6639872 )…",
+    "summary": "Amazon shipped Strands Agents SDK python v1.64.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "8f040c3e430c",
+    "meta": {
+      "version": "v1.64.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "python"
+    }
+  },
+  {
+    "id": "ca1167c1743eb094",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-cli v0.2.4",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.2.4",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-04T19:53:35.000Z",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z",
+    "updatedAt": "2026-11-04T19:53:35.000Z",
+    "excerpt": "harness-cli/v0.2.4 Auto-drafted from commits in harness-cli/v0.2.3..harness-cli/v0.2.4 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(docs): add migration guide from strands-agents-tools ( #5730 ) ( f078b5c ) feat(openai): place explicit cache points on GPT-5.6+ by default ( #5418 ) (…",
+    "summary": "Amazon shipped Strands Agents SDK harness-cli v0.2.4 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 20,
+    "contentHash": "461861d0021f",
+    "meta": {
+      "version": "v0.2.4",
+      "semver": "patch",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-cli"
+    }
+  },
+  {
     "id": "5c5c2540d64cc6ce",
     "lab": "amazon",
     "title": "Strands Agents SDK harness-typescript v0.3.4",

@@ -1,48 +1,6 @@
 {
-  "generatedAt": "2026-11-04T19:52:01.415Z",
+  "generatedAt": "2026-11-05T01:30:16.249Z",
   "stories": [
-    {
-      "id": "250e5d8f302445e7",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "openai",
-        "moonshot",
-        "deepseek",
-        "qwen"
-      ],
-      "official": 1,
-      "press": 8,
-      "outlets": [
-        "헤럴드경제",
-        "TechGig",
-        "ET Enterprise AI",
-        "联合早报",
-        "Reuters",
-        "shattered.io",
-        "Tekedia",
-        "Crypto Briefing",
-        "Techzine Global",
-        "WinBuzzer",
-        "NeoTeo",
-        "Times Of AI",
-        "The Indian Express",
-        "trendingtopics.eu",
-        "Idaho Statesman",
-        "TOKENPOST",
-        "International Business Times UK",
-        "India Today",
-        "YourStory.com"
-      ],
-      "firstAt": "2026-10-26T22:00:00.000Z",
-      "lastAt": "2026-11-03T10:14:44.000Z",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "lead": {
-        "kind": "official",
-        "id": "250e5d8f302445e7"
-      },
-      "importance": 100
-    },
     {
       "id": "34b0bf3f94c3851e",
       "title": "Gemini 4 Carbon: Our next frontier model",
@@ -51,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 27,
+      "press": 29,
       "outlets": [
         "Mashable",
         "Tech My Money",
@@ -102,10 +60,11 @@
         "Brave New Coin",
         "Barchart.com",
         "Yahoo Finance",
-        "EdTech Innovation Hub"
+        "EdTech Innovation Hub",
+        "qz.com"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
-      "lastAt": "2026-11-02T15:30:00.000Z",
+      "lastAt": "2026-11-04T20:49:38.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
       "lead": {
         "kind": "official",
@@ -114,26 +73,68 @@
       "importance": 100
     },
     {
-      "id": "1758535ac6be3e6b",
-      "title": "Introducing GPT-6.1 Terra",
+      "id": "250e5d8f302445e7",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "openai",
+        "moonshot",
+        "deepseek",
+        "qwen"
+      ],
+      "official": 1,
+      "press": 8,
+      "outlets": [
+        "헤럴드경제",
+        "TechGig",
+        "ET Enterprise AI",
+        "联合早报",
+        "Reuters",
+        "shattered.io",
+        "Tekedia",
+        "Crypto Briefing",
+        "Techzine Global",
+        "WinBuzzer",
+        "NeoTeo",
+        "Times Of AI",
+        "The Indian Express",
+        "trendingtopics.eu",
+        "Idaho Statesman",
+        "TOKENPOST",
+        "International Business Times UK",
+        "India Today",
+        "YourStory.com"
+      ],
+      "firstAt": "2026-10-26T22:00:00.000Z",
+      "lastAt": "2026-11-03T10:14:44.000Z",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "lead": {
+        "kind": "official",
+        "id": "250e5d8f302445e7"
+      },
+      "importance": 100
+    },
+    {
+      "id": "c7498dd5644029b2",
+      "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
       "entity": "GPT 6.1 Terra",
       "labs": [
         "openai",
         "amazon"
       ],
-      "official": 2,
+      "official": 1,
       "press": 1,
       "outlets": [
         "9to5Mac"
       ],
-      "firstAt": "2026-10-26T00:00:00.000Z",
+      "firstAt": "2026-10-26T18:05:36.000Z",
       "lastAt": "2026-10-26T19:21:00.000Z",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock",
       "lead": {
         "kind": "official",
-        "id": "1758535ac6be3e6b"
+        "id": "c7498dd5644029b2"
       },
-      "importance": 92
+      "importance": 87
     },
     {
       "id": "0f715e1693d7c6b7",
@@ -197,6 +198,38 @@
         "id": "qwen:3c2f48aef6645c"
       },
       "importance": 68
+    },
+    {
+      "id": "tencent:f2778a12d956ec",
+      "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure",
+      "entity": null,
+      "labs": [
+        "tencent"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Investing.com",
+        "Reuters",
+        "Financial Times",
+        "TradingView",
+        "The Economic Times",
+        "Moomoo",
+        "NewsBytes",
+        "Yahoo Finance",
+        "Euronext Markets: Real-time Stock Market Data | live",
+        "Global Banking & Finance Review",
+        "TIKR.com",
+        "Vision Times"
+      ],
+      "firstAt": "2026-11-04T05:00:45.000Z",
+      "lastAt": "2026-11-04T08:50:40.000Z",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAycHlsdGFnY196YkJJOUhqVjZ4OThWZ3c5SVJlbXpibGNUZHRaeHhORjQ0dlJ3TUZTS1hqbFZJQmp4ZVl4cXpXbnV3LXZ4UEJHQ3NSREd2ZEJpY2tOVWhia182UkZxbTBFSWk?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "tencent:f2778a12d956ec"
+      },
+      "importance": 63
     },
     {
       "id": "nvidia:dc951ec9a66516",
@@ -420,31 +453,31 @@
   "trending": {
     "entities": [
       {
-        "name": "GPT 6 Astra",
-        "count": 14,
-        "prev": 4,
-        "labs": [
-          "openai"
-        ]
+        "name": "Mistral Large 4",
+        "count": 10,
+        "prev": 1,
+        "labs": []
       },
       {
         "name": "Gemini 4 Carbon",
-        "count": 13,
-        "prev": 24,
+        "count": 10,
+        "prev": 29,
         "labs": [
           "google-deepmind"
         ]
       },
       {
-        "name": "Mistral Large 4",
-        "count": 11,
-        "prev": 3,
-        "labs": []
+        "name": "GPT 6 Astra",
+        "count": 9,
+        "prev": 10,
+        "labs": [
+          "openai"
+        ]
       },
       {
         "name": "Gemini 4 Argon",
-        "count": 5,
-        "prev": 13,
+        "count": 6,
+        "prev": 12,
         "labs": []
       },
       {
@@ -469,34 +502,35 @@
     "topics": [
       {
         "name": "agents",
-        "count": 43,
-        "prev": 39,
+        "count": 48,
+        "prev": 32,
         "labs": [
           "anthropic",
           "google-deepmind",
           "deepseek",
           "openai",
           "minimax",
-          "microsoft",
           "qwen",
+          "microsoft",
           "amazon",
-          "ibm",
           "bytedance",
+          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 35,
-        "prev": 43,
+        "count": 38,
+        "prev": 37,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "minimax",
           "mistral",
-          "microsoft",
+          "cohere",
           "qwen",
+          "microsoft",
           "amazon",
           "ibm",
           "nvidia"
@@ -504,8 +538,8 @@
       },
       {
         "name": "safety",
-        "count": 10,
-        "prev": 8,
+        "count": 11,
+        "prev": 7,
         "labs": [
           "anthropic",
           "xai",
@@ -515,16 +549,16 @@
       },
       {
         "name": "multimodal",
-        "count": 10,
+        "count": 11,
         "prev": 10,
         "labs": [
           "google-deepmind",
-          "moonshot",
           "openai",
+          "moonshot",
           "mistral",
           "baidu",
-          "microsoft",
           "tencent",
+          "microsoft",
           "amazon",
           "ibm",
           "nvidia"
@@ -560,8 +594,8 @@
         "labs": [
           "openai",
           "minimax",
-          "cohere",
           "mistral",
+          "cohere",
           "amazon",
           "nvidia"
         ]

@@ -1,5 +1,27 @@
 [
   {
+    "id": "3eabcefc5587a5eb",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-05T01:30:16.249Z",
+    "field": "completion",
+    "from": 4,
+    "to": 4.6,
+    "change": 15
+  },
+  {
+    "id": "108c74878fac4a8c",
+    "modelId": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "lab": "moonshot",
+    "at": "2026-11-05T01:30:16.249Z",
+    "field": "completion",
+    "from": 15,
+    "to": 16,
+    "change": 6.7
+  },
+  {
     "id": "de5e2bd5f8272299",
     "modelId": "deepseek/deepseek-v4.1-flash-1017",
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017",

@@ -4,7 +4,7 @@
     "title": "Astra can read and write weights to improve Qwen",
     "url": "https://rikiyat.github.io/blog/weight-space-programming/",
     "hnUrl": "https://news.ycombinator.com/item?id=50341174",
-    "points": 2938,
+    "points": 2944,
     "comments": 890,
     "at": "2026-11-02T18:21:28Z",
     "lab": "qwen",
@@ -26,8 +26,8 @@
     "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
     "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
     "hnUrl": "https://news.ycombinator.com/item?id=50354960",
-    "points": 1463,
-    "comments": 477,
+    "points": 1485,
+    "comments": 483,
     "at": "2026-11-03T17:22:37Z",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
@@ -36,8 +36,8 @@
     "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
     "url": "https://honnibal.dev/blog/astra-read-write-misleading",
     "hnUrl": "https://news.ycombinator.com/item?id=50351111",
-    "points": 1014,
-    "comments": 206,
+    "points": 1025,
+    "comments": 207,
     "at": "2026-11-03T12:21:17Z",
     "lab": "qwen",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
@@ -58,21 +58,11 @@
     "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
     "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
     "hnUrl": "https://news.ycombinator.com/item?id=50355251",
-    "points": 708,
-    "comments": 206,
+    "points": 717,
+    "comments": 208,
     "at": "2026-11-03T17:40:00Z",
     "lab": "qwen",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
-  },
-  {
-    "id": "50282838",
-    "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-    "url": "https://divagr.com/blog/qwenputer",
-    "hnUrl": "https://news.ycombinator.com/item?id=50282838",
-    "points": 699,
-    "comments": 145,
-    "at": "2026-10-29T00:25:45Z",
-    "firstSeenAt": "2026-10-29T10:08:49.449Z"
   },
   {
     "id": "50302334",
@@ -86,6 +76,17 @@
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
   {
+    "id": "50363461",
+    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+    "url": "https://news.ycombinator.com/item?id=50363461",
+    "hnUrl": "https://news.ycombinator.com/item?id=50363461",
+    "points": 628,
+    "comments": 163,
+    "at": "2026-11-04T10:10:27Z",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z"
+  },
+  {
     "id": "50290177",
     "title": "LLM Voice",
     "url": "https://martinfowler.com/bliki/LLM-Voice.html",
@@ -94,6 +95,17 @@
     "comments": 335,
     "at": "2026-10-29T14:57:55Z",
     "firstSeenAt": "2026-10-29T18:32:11.922Z"
+  },
+  {
+    "id": "50362905",
+    "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+    "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+    "hnUrl": "https://news.ycombinator.com/item?id=50362905",
+    "points": 590,
+    "comments": 271,
+    "at": "2026-11-04T08:46:29Z",
+    "lab": "nvidia",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
     "id": "50284255",
@@ -107,34 +119,12 @@
     "firstSeenAt": "2026-10-29T10:08:49.449Z"
   },
   {
-    "id": "50363461",
-    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-    "url": "https://news.ycombinator.com/item?id=50363461",
-    "hnUrl": "https://news.ycombinator.com/item?id=50363461",
-    "points": 539,
-    "comments": 137,
-    "at": "2026-11-04T10:10:27Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-11-04T19:52:01.415Z"
-  },
-  {
-    "id": "50362905",
-    "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-    "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-    "hnUrl": "https://news.ycombinator.com/item?id=50362905",
-    "points": 514,
-    "comments": 230,
-    "at": "2026-11-04T08:46:29Z",
-    "lab": "nvidia",
-    "firstSeenAt": "2026-11-04T11:07:36.704Z"
-  },
-  {
     "id": "50352757",
     "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
     "url": "https://news.ycombinator.com/item?id=50352757",
     "hnUrl": "https://news.ycombinator.com/item?id=50352757",
-    "points": 511,
-    "comments": 152,
+    "points": 518,
+    "comments": 154,
     "at": "2026-11-03T14:53:41Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
@@ -175,8 +165,8 @@
     "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
     "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
     "hnUrl": "https://news.ycombinator.com/item?id=50344919",
-    "points": 403,
-    "comments": 320,
+    "points": 404,
+    "comments": 321,
     "at": "2026-11-02T22:30:47Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-03T00:04:55.286Z"
@@ -191,6 +181,17 @@
     "at": "2026-10-30T10:22:51Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-10-30T18:04:10.825Z"
+  },
+  {
+    "id": "50366999",
+    "title": "Kimi K3.1 Pro model weights are out",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "hnUrl": "https://news.ycombinator.com/item?id=50366999",
+    "points": 368,
+    "comments": 100,
+    "at": "2026-11-04T15:30:30Z",
+    "lab": "moonshot",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z"
   },
   {
     "id": "50314699",
@@ -252,8 +253,8 @@
     "title": "Nvidia – open-source auto-ontology",
     "url": "https://github.com/NVIDIA/auto-ontology",
     "hnUrl": "https://news.ycombinator.com/item?id=50348962",
-    "points": 287,
-    "comments": 138,
+    "points": 288,
+    "comments": 142,
     "at": "2026-11-03T07:04:50Z",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
@@ -295,7 +296,7 @@
     "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50337439",
     "points": 238,
-    "comments": 285,
+    "comments": 286,
     "at": "2026-11-02T14:38:45Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
@@ -323,17 +324,6 @@
     "firstSeenAt": "2026-11-03T00:04:55.286Z"
   },
   {
-    "id": "50366999",
-    "title": "Kimi K3.1 Pro model weights are out",
-    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-    "hnUrl": "https://news.ycombinator.com/item?id=50366999",
-    "points": 220,
-    "comments": 58,
-    "at": "2026-11-04T15:30:30Z",
-    "lab": "moonshot",
-    "firstSeenAt": "2026-11-04T19:52:01.415Z"
-  },
-  {
     "id": "50320255",
     "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
     "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
@@ -350,7 +340,7 @@
     "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
     "hnUrl": "https://news.ycombinator.com/item?id=50350004",
     "points": 192,
-    "comments": 162,
+    "comments": 164,
     "at": "2026-11-03T09:53:59Z",
     "lab": "zai",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
@@ -378,6 +368,17 @@
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
   {
+    "id": "50366863",
+    "title": "OpenAI to acquire Pierre Computer Company",
+    "url": "https://openai.com/index/openai-to-acquire-pierre/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50366863",
+    "points": 181,
+    "comments": 56,
+    "at": "2026-11-04T15:21:21Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z"
+  },
+  {
     "id": "50325662",
     "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
@@ -399,23 +400,23 @@
     "firstSeenAt": "2026-11-01T00:04:39.293Z"
   },
   {
-    "id": "50280178",
-    "title": "Google AI gets cagey when asked who won the 2020 elections",
-    "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50280178",
-    "points": 171,
-    "comments": 76,
-    "at": "2026-10-28T20:10:16Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-10-29T00:04:43.850Z"
+    "id": "50368626",
+    "title": "Progress on provable inference for large language models",
+    "url": "https://www.anthropic.com/research/provable-inference",
+    "hnUrl": "https://news.ycombinator.com/item?id=50368626",
+    "points": 174,
+    "comments": 83,
+    "at": "2026-11-04T17:17:46Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z"
   },
   {
     "id": "50339913",
     "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
     "url": "https://momentic.ai/",
     "hnUrl": "https://news.ycombinator.com/item?id=50339913",
-    "points": 161,
-    "comments": 126,
+    "points": 163,
+    "comments": 127,
     "at": "2026-11-02T17:05:25Z",
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
@@ -424,7 +425,7 @@
     "title": "LLMs are not superhuman at reading and writing neural network weights",
     "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
     "hnUrl": "https://news.ycombinator.com/item?id=50344861",
-    "points": 146,
+    "points": 147,
     "comments": 23,
     "at": "2026-11-02T22:26:53Z",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
@@ -476,20 +477,19 @@
     "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
     "url": "https://uncracked.city/",
     "hnUrl": "https://news.ycombinator.com/item?id=50358352",
-    "points": 119,
-    "comments": 61,
+    "points": 121,
+    "comments": 65,
     "at": "2026-11-03T21:20:03Z",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
-    "id": "50368626",
-    "title": "Progress on provable inference for large language models",
-    "url": "https://www.anthropic.com/research/provable-inference",
-    "hnUrl": "https://news.ycombinator.com/item?id=50368626",
-    "points": 112,
-    "comments": 49,
-    "at": "2026-11-04T17:17:46Z",
-    "lab": "anthropic",
+    "id": "50366117",
+    "title": "Ask HN: What's your current AI agentic setup?",
+    "url": "https://news.ycombinator.com/item?id=50366117",
+    "hnUrl": "https://news.ycombinator.com/item?id=50366117",
+    "points": 114,
+    "comments": 133,
+    "at": "2026-11-04T14:37:22Z",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
   },
   {
@@ -541,7 +541,7 @@
     "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
     "hnUrl": "https://news.ycombinator.com/item?id=50332086",
     "points": 101,
-    "comments": 115,
+    "comments": 117,
     "at": "2026-11-02T01:47:07Z",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
   },
@@ -609,15 +609,15 @@
     "firstSeenAt": "2026-10-30T10:10:53.380Z"
   },
   {
-    "id": "50366863",
-    "title": "Pierre Computer is being acquired by OpenAI",
-    "url": "https://twitter.com/pierrecomputer/status/2117999036175188183",
-    "hnUrl": "https://news.ycombinator.com/item?id=50366863",
-    "points": 76,
-    "comments": 32,
-    "at": "2026-11-04T15:21:21Z",
+    "id": "50372945",
+    "title": "Images 2.6",
+    "url": "https://openai.com/index/introducing-images-2-6/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50372945",
+    "points": 75,
+    "comments": 63,
+    "at": "2026-11-04T23:35:44Z",
     "lab": "openai",
-    "firstSeenAt": "2026-11-04T19:52:01.415Z"
+    "firstSeenAt": "2026-11-05T01:30:16.249Z"
   },
   {
     "id": "50315990",
@@ -653,6 +653,17 @@
     "firstSeenAt": "2026-11-03T00:04:55.286Z"
   },
   {
+    "id": "50372929",
+    "title": "A thousand fewer paths to root",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50372929",
+    "points": 72,
+    "comments": 50,
+    "at": "2026-11-04T23:33:14Z",
+    "lab": "openai",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z"
+  },
+  {
     "id": "50337503",
     "title": "GPT-Rosalind-6 System Card Addendum",
     "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
@@ -662,6 +673,16 @@
     "at": "2026-11-02T14:44:02Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-03T00:04:55.286Z"
+  },
+  {
+    "id": "50368804",
+    "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+    "url": "https://news.ycombinator.com/item?id=50368804",
+    "hnUrl": "https://news.ycombinator.com/item?id=50368804",
+    "points": 70,
+    "comments": 26,
+    "at": "2026-11-04T17:31:53Z",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z"
   },
   {
     "id": "50324267",
@@ -675,13 +696,23 @@
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
   },
   {
-    "id": "50366117",
-    "title": "Ask HN: What's your current AI agentic setup?",
-    "url": "https://news.ycombinator.com/item?id=50366117",
-    "hnUrl": "https://news.ycombinator.com/item?id=50366117",
+    "id": "50338474",
+    "title": "Basically no one is using AI agents for their DoorDash orders",
+    "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50338474",
+    "points": 65,
+    "comments": 106,
+    "at": "2026-11-02T15:48:45Z",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z"
+  },
+  {
+    "id": "50366971",
+    "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+    "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50366971",
     "points": 62,
-    "comments": 70,
-    "at": "2026-11-04T14:37:22Z",
-    "firstSeenAt": "2026-11-04T19:52:01.415Z"
+    "comments": 73,
+    "at": "2026-11-04T15:28:31Z",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z"
   }
 ]
