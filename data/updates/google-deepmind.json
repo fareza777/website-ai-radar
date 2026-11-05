@@ -1,5 +1,36 @@
 [
   {
+    "id": "d7e9e3e89ee778d6",
+    "lab": "google-deepmind",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T17:00:00.000Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z",
+    "updatedAt": "2026-11-05T17:00:00.000Z",
+    "excerpt": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+    "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 65,
+    "contentHash": "08ea6c439efa",
+    "seenIn": [
+      {
+        "sourceId": "deepmind-blog",
+        "sourceName": "Google DeepMind Blog",
+        "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips"
+      }
+    ]
+  },
+  {
     "id": "b9a9b99bb9b3810a",
     "lab": "google-deepmind",
     "title": "Gemini CLI v0.67.0",
@@ -1183,8 +1214,8 @@
     "lab": "google-deepmind",
     "title": "DevFest is back",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -1226,7 +1257,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 3141,
+      "likes": 3147,
       "downloads": 472554,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",
@@ -1638,7 +1669,7 @@
     "importance": 79,
     "contentHash": "d8c99b7d47a0",
     "meta": {
-      "likes": 1010,
+      "likes": 1011,
       "downloads": 661706,
       "repo": "google/timesfm-3.0-pytorch",
       "pipeline": "time-series-forecasting",

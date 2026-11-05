@@ -1,5 +1,62 @@
 [
   {
+    "id": "9c5ca6b71a827505",
+    "lab": "bytedance",
+    "title": "Qwen3-30B-A3B-MoE-SAE",
+    "url": "https://huggingface.co/ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE",
+    "sourceId": "bytedance-seed-hf",
+    "sourceName": "Hugging Face · ByteDance-Seed",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T13:38:56.000Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z",
+    "updatedAt": "2026-11-05T13:38:56.000Z",
+    "excerpt": "license: apache-2.0",
+    "summary": "ByteDance Seed published the Qwen3-30B-A3B-MoE-SAE model on Hugging Face. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "30B-A3B"
+    ],
+    "importance": 67,
+    "contentHash": "78e7b0ad4796",
+    "meta": {
+      "likes": 1,
+      "downloads": 0,
+      "repo": "ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "c448493267fe1529",
+    "lab": "bytedance",
+    "title": "SAE-interprets-MoE",
+    "url": "https://github.com/ByteDance-Seed/SAE-interprets-MoE",
+    "sourceId": "bytedance-seed-gh",
+    "sourceName": "GitHub · ByteDance-Seed (new repos)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T10:06:17.000Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z",
+    "updatedAt": "2026-11-05T10:06:17.000Z",
+    "excerpt": "",
+    "summary": "ByteDance Seed created a new public repository: SAE-interprets-MoE.",
+    "benefit": "A new open-source project from this lab that you can study or use right away.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 27,
+    "contentHash": "c91c63342d19",
+    "meta": {
+      "stars": 1,
+      "repo": "ByteDance-Seed/SAE-interprets-MoE",
+      "language": "Python"
+    }
+  },
+  {
     "id": "6ea32a6f1bc8c725",
     "lab": "bytedance",
     "title": "Cross-Layer-TopK-CLT",
@@ -18,10 +75,10 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 54,
+    "importance": 56,
     "contentHash": "e75fe167a390",
     "meta": {
-      "likes": 2,
+      "likes": 5,
       "downloads": 0,
       "repo": "ByteDance-Seed/Cross-Layer-TopK-CLT",
       "license": "apache-2.0"

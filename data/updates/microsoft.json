@@ -1,5 +1,30 @@
 [
   {
+    "id": "763a8148826c7aad",
+    "lab": "microsoft",
+    "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+    "url": "https://microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+    "sourceId": "msr-blog",
+    "sourceName": "Microsoft Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T16:00:00.000Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z",
+    "updatedAt": "2026-11-05T16:00:00.000Z",
+    "excerpt": "At a glance Formal methods for everyday software. PDD Kit helps you turn your intent into a formal spec, then proves the code your agent writes for every input and uses tests where a proof can’t reach. It takes formal methods beyond niche, specialist work to engineers without a formal methods background and to everyday applications, like the full-stack web app shown here. Exhaustive line-by-line human review can…",
+    "summary": "At a glance Formal methods for everyday software.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 50,
+    "contentHash": "fc1f481fb24f"
+  },
+  {
     "id": "700c4b528755ca65",
     "lab": "microsoft",
     "title": "Learn the rules: The hacker mindset",
@@ -122,7 +147,7 @@
     "importance": 68,
     "contentHash": "55470560c200",
     "meta": {
-      "likes": 183,
+      "likes": 186,
       "downloads": 2555,
       "repo": "microsoft/Mage-VL-Cowork",
       "pipeline": "image-text-to-text",
@@ -945,7 +970,7 @@
     "importance": 64,
     "contentHash": "508a2d739bfa",
     "meta": {
-      "likes": 57,
+      "likes": 58,
       "downloads": 2010,
       "repo": "microsoft/AesCode-32B",
       "pipeline": "image-text-to-text",

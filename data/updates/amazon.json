@@ -1,5 +1,27 @@
 [
   {
+    "id": "424b23730d0bdb2a",
+    "lab": "amazon",
+    "title": "Amazon SageMaker AI Studio Now Supports IAM Identity Center Multi-Region Replication",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T08:00:00.000Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z",
+    "updatedAt": "2026-11-05T08:00:00.000Z",
+    "excerpt": "Amazon SageMaker AI now supports IAM Identity Center (IdC) multi-region replication, enabling you to deploy SageMaker AI Studio domains in different regions from your IdC instance's primary region. Previously, the primary IdC instance had to reside in the same region as the SageMaker AI Studio domain; now customers can replicate their primary IdC instance into the region where they wish to use SageMaker AI Studio…",
+    "summary": "Amazon SageMaker AI now supports IAM Identity Center (IdC) multi-region replication, enabling you to deploy SageMaker AI Studio domains in different regions from your IdC instance's primary region.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 30,
+    "contentHash": "33dd9ffdba68"
+  },
+  {
     "id": "e87b11d8e10166e7",
     "lab": "amazon",
     "title": "Strands Agents SDK typescript v1.24.0",

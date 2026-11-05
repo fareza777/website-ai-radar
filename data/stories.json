@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T11:08:03.842Z",
+  "generatedAt": "2026-11-05T20:04:26.298Z",
   "stories": [
     {
       "id": "250e5d8f302445e7",
@@ -52,7 +52,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 29,
+      "press": 31,
       "outlets": [
         "Mashable",
         "Tech My Money",
@@ -80,6 +80,7 @@
         "CyberSecurityNews",
         "Reuters",
         "SiliconANGLE",
+        "Yahoo! Finance Canada",
         "PCMag Middle East",
         "Ticker News",
         "Wichita Eagle",
@@ -104,6 +105,7 @@
         "Barchart.com",
         "Yahoo Finance",
         "EdTech Innovation Hub",
+        "THE ELEC, Korea Electronics Industry Media",
         "qz.com"
       ],
       "firstAt": "2026-10-28T17:00:58.000Z",
@@ -114,91 +116,6 @@
         "id": "34b0bf3f94c3851e"
       },
       "importance": 100
-    },
-    {
-      "id": "c7498dd5644029b2",
-      "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
-      "entity": "GPT 6.1 Terra",
-      "labs": [
-        "openai",
-        "amazon"
-      ],
-      "official": 1,
-      "press": 1,
-      "outlets": [
-        "9to5Mac"
-      ],
-      "firstAt": "2026-10-26T18:05:36.000Z",
-      "lastAt": "2026-10-26T19:21:00.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock",
-      "lead": {
-        "kind": "official",
-        "id": "c7498dd5644029b2"
-      },
-      "importance": 87
-    },
-    {
-      "id": "0f715e1693d7c6b7",
-      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
-      "entity": null,
-      "labs": [
-        "amazon",
-        "openai"
-      ],
-      "official": 1,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-10-26T17:27:20.000Z",
-      "lastAt": "2026-10-26T17:27:20.000Z",
-      "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock",
-      "lead": {
-        "kind": "official",
-        "id": "0f715e1693d7c6b7"
-      },
-      "importance": 70
-    },
-    {
-      "id": "qwen:3c2f48aef6645c",
-      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
-      "entity": null,
-      "labs": [
-        "cohere",
-        "qwen"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Reuters",
-        "marketscreener.com",
-        "디지털투데이",
-        "Computing UK",
-        "Investing.com",
-        "CNA",
-        "Crypto Briefing",
-        "TechCrunch",
-        "BigGo Finance",
-        "The Economic Times",
-        "Analytics India Magazine",
-        "www.trendingtopics.eu",
-        "Technology Org",
-        "Cyber Magazine",
-        "Startup Fortune",
-        "Mezha.net",
-        "AI Insider",
-        "The Globe and Mail",
-        "Tech Wire Asia",
-        "Notebookcheck",
-        "International Business Times UK",
-        "CSO Online"
-      ],
-      "firstAt": "2026-10-26T18:49:17.000Z",
-      "lastAt": "2026-10-26T18:51:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnRHZXQtNlM4RXQwelJVdUpXRUFMVmZFYmhpSm11NkR5TnZnRllBNmxmRi14WkVITVVQc2NiYndvNmNRcUVPMTRMQzFWUkQwUDFGNFlXQVdJQVFYR2M0cHMwblJVLVA4VUVOWFlXcHlIaXM2TWJyREp1aUtNUlUwN1htMTZaRHFvQjBTMkRDLUdjdy11YU9keWZXV3JwYm81V2VQcC1qOTJNLVFjeGtyNl9NcEg2dmJDYmNWQnMwNzlNVFIwQ3c?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:3c2f48aef6645c"
-      },
-      "importance": 68
     },
     {
       "id": "nvidia:dc951ec9a66516",
@@ -294,32 +211,86 @@
       "importance": 61
     },
     {
-      "id": "qwen:dce8d3ce26d331",
-      "title": "Cohere says Alibaba's Qwen3.8 model tried to upload a probe file to a Beijing cloud bucket during a sandbox test",
-      "entity": "Qwen 3.8",
+      "id": "mistral:c957a4e3299808",
+      "title": "Orange unit signs deal to Mistral's latest AI cybersecurity model",
+      "entity": null,
       "labs": [
-        "qwen",
-        "cohere"
+        "mistral"
       ],
       "official": 0,
-      "press": 5,
+      "press": 2,
       "outlets": [
-        "TradingView",
-        "Dealroom",
-        "Startup Fortune",
-        "Notebookcheck",
-        "VentureBeat",
-        "BetaKit",
-        "XDA"
+        "Reuters",
+        "Investing.com",
+        "Global Banking & Finance Review",
+        "CNA",
+        "The Lufkin Daily News",
+        "marketscreener.com",
+        "Traders Union",
+        "Mobile Europe"
       ],
-      "firstAt": "2026-10-26T18:51:50.000Z",
-      "lastAt": "2026-10-28T02:56:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUjdQdmVNLTZiOGNMdXlZSl9ZdXJab2JldnZKUWVkb2JLUGMyVFB0S1VZYnBkMHJ5ZHJjbmxvbGxBSldMb00zOG9NUmphRDFpZDZWaGQzUUFNUjRKUUlrNVIzUnhqak9fUlZkUXRmcjJUQkl5Wi1YTHo5blB3UG9iR2xWWEVZcnl2UW54UnhPaU54N2cwNzM0MmswRUxzdGRpZ1p5eXZORVVfTzdnSjJNdVo5MmlCQmZXNi1hOWJ3UHhndjVlQTExeTUyaWJTcjdwaFVRNExVcC1hZW1SVkU4?oc=5",
+      "firstAt": "2026-10-29T14:32:02.000Z",
+      "lastAt": "2026-10-29T14:37:28.000Z",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWMwRU9NRlZaLTh5S2wtUEh0VVl1R3NlMk5TT1hXWEk0YUFENmZ3ME5HaGZSYUU2UEc0OHNpa0hXWXFlVEVPbjdKR3ExNjRrTWVfNHo2dXNMYTZfQ08yLWtTVkNDZUJ6RXJOM3VWSk5oOHRKZkg2aUxNV0VFak9CeW81SjJpU21OdUlwaVdiSWRNVGIyZjdoTFNvYS1IRWdUVHBVTlk0Q0pVZ0NQY3Ew?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:dce8d3ce26d331"
+        "id": "mistral:c957a4e3299808"
       },
       "importance": 60
+    },
+    {
+      "id": "baidu:0a8db2a09ff83d",
+      "title": "ERNIE-5.5-Flash-Base: 280B open weights, tight licence",
+      "entity": "ERNIE 5.5 Flash",
+      "labs": [
+        "baidu"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "OrcaRouter",
+        "Startup Fortune",
+        "Unite.AI",
+        "AIBase",
+        "BigGo Finance",
+        "news.lavx.hu",
+        "The Decoder"
+      ],
+      "firstAt": "2026-11-05T06:31:44.000Z",
+      "lastAt": "2026-11-05T18:03:08.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Nd0dQMzB4dlpmcDlReWJVQXZHcUNPeXVmYmdnYlliZzdTdUpYWm1EOW5FblFZcTdrZld0dmhOcnRWZnYyVXJQQlNHOHE5cXE0LVNkTEZaUUdIdS0wUmdpVFhNOXZEVVU4QVlmUWcyTlBDMlU5Z0VCUV9mRGc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "baidu:0a8db2a09ff83d"
+      },
+      "importance": 59
+    },
+    {
+      "id": "google-deepmind:62a9d2f2d63b99",
+      "title": "Google says Gemini 4 Argon ranks well behind Claude and GPT-6 for Android coding",
+      "entity": "Gemini 4 Argon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 10,
+      "outlets": [
+        "9to5Google",
+        "TechRadar",
+        "Mezha.net",
+        "shattered.io",
+        "Small Business Trends",
+        "Pangram",
+        "HackerNoon"
+      ],
+      "firstAt": "2026-10-26T22:06:22.000Z",
+      "lastAt": "2026-11-03T08:32:23.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16QW5PSFRuZllfaWVqVmRrWXM4Vk01LTc0VjZlalphQi1Ld2RodkN4cVpMZHB5dXRCME0wU2h1ckJmYnUxajVTcFk5MjlGWVVTSnBQNVZDbEdrTnY3Vmx2Y3RzeFcwa2VwazN1Y1NsbUUwM2FVT1pzcDR1Zno?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:62a9d2f2d63b99"
+      },
+      "importance": 59
     },
     {
       "id": "cohere:11779f23f98d5f",
@@ -349,30 +320,27 @@
       "importance": 59
     },
     {
-      "id": "google-deepmind:62a9d2f2d63b99",
-      "title": "Google says Gemini 4 Argon ranks well behind Claude and GPT-6 for Android coding",
-      "entity": "Gemini 4 Argon",
+      "id": "qwen:0b1a94538076a5",
+      "title": "“Concerning behaviour”: Cohere discovers Alibaba’s open-source Qwen3.8 model can send a diagnostic file to China unprompted",
+      "entity": "Qwen 3.8",
       "labs": [
-        "google-deepmind"
+        "qwen",
+        "cohere"
       ],
       "official": 0,
-      "press": 8,
+      "press": 2,
       "outlets": [
-        "9to5Google",
-        "TechRadar",
-        "Mezha.net",
-        "shattered.io",
-        "Small Business Trends",
-        "Pangram"
+        "BetaKit",
+        "XDA"
       ],
-      "firstAt": "2026-10-26T22:06:22.000Z",
-      "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16QW5PSFRuZllfaWVqVmRrWXM4Vk01LTc0VjZlalphQi1Ld2RodkN4cVpMZHB5dXRCME0wU2h1ckJmYnUxajVTcFk5MjlGWVVTSnBQNVZDbEdrTnY3Vmx2Y3RzeFcwa2VwazN1Y1NsbUUwM2FVT1pzcDR1Zno?oc=5",
+      "firstAt": "2026-10-26T20:04:49.000Z",
+      "lastAt": "2026-10-28T02:56:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLWVNdmJhWkozX3NUVXBCcUVGbFBjdldEaE83ckJ1b25MQmg2NEFvcWRiYXo1UVJEM1JhbkhTLXdDVUNFVVgyOW9zY0h0M0FKNlU2dklqUmxOUV8xVXVtOEJTa1JHNDBlOFd5NVpSNFYtVDFfU084bHk0YzlkekxxOENqVFlWdEgyazVVSHQwcENrQWpEU2R3NXJVRU9ZZHF1X2dCczN5STVHZkRfTm1SLVBHMXgtNkpWMmZuOEs1UVZROUtBVGE5YWlsYVY3S0x0ODY4akZ5RQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:62a9d2f2d63b99"
+        "id": "qwen:0b1a94538076a5"
       },
-      "importance": 58
+      "importance": 54
     },
     {
       "id": "ibm:5446c7035cbb10",
@@ -398,87 +366,82 @@
   "trending": {
     "entities": [
       {
-        "name": "Mistral Large 4",
-        "count": 10,
-        "prev": 1,
-        "labs": []
-      },
-      {
         "name": "ERNIE 5.5 Flash",
-        "count": 9,
+        "count": 13,
         "prev": 0,
         "labs": []
       },
       {
-        "name": "Gemini 4 Carbon",
-        "count": 9,
-        "prev": 30,
-        "labs": [
-          "google-deepmind"
-        ]
+        "name": "Gemini 4 Argon",
+        "count": 8,
+        "prev": 10,
+        "labs": []
+      },
+      {
+        "name": "Mistral Large 4",
+        "count": 6,
+        "prev": 5,
+        "labs": []
       },
       {
         "name": "GPT 6 Astra",
-        "count": 7,
-        "prev": 13,
+        "count": 6,
+        "prev": 14,
         "labs": [
           "openai"
         ]
       },
       {
-        "name": "Gemini 4 Argon",
+        "name": "Gemini 4 Carbon",
         "count": 6,
-        "prev": 11,
-        "labs": []
-      },
-      {
-        "name": "Mistral Large 4 Open",
-        "count": 3,
-        "prev": 0,
-        "labs": []
+        "prev": 34,
+        "labs": [
+          "google-deepmind"
+        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 46,
+        "count": 47,
         "prev": 32,
         "labs": [
           "anthropic",
-          "deepseek",
           "google-deepmind",
+          "deepseek",
           "openai",
           "minimax",
+          "mistral",
           "qwen",
           "microsoft",
           "amazon",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 37,
-        "prev": 35,
+        "count": 36,
+        "prev": 37,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "safety",
-        "count": 10,
-        "prev": 8,
+        "count": 11,
+        "prev": 9,
         "labs": [
           "anthropic",
           "xai",
@@ -488,8 +451,8 @@
       },
       {
         "name": "multimodal",
-        "count": 10,
-        "prev": 10,
+        "count": 9,
+        "prev": 11,
         "labs": [
           "google-deepmind",
           "openai",
@@ -499,14 +462,14 @@
           "tencent",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "rag",
         "count": 7,
-        "prev": 3,
+        "prev": 2,
         "labs": [
           "meta",
           "cohere",
@@ -515,14 +478,25 @@
         ]
       },
       {
-        "name": "audio",
+        "name": "mcp",
         "count": 2,
-        "prev": 6,
+        "prev": 2,
         "labs": [
-          "google-deepmind",
+          "anthropic",
+          "qwen",
+          "amazon"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 2,
+        "prev": 4,
+        "labs": [
           "openai",
+          "mistral",
+          "tencent",
           "amazon",
-          "ibm"
+          "nvidia"
         ]
       },
       {
@@ -531,26 +505,14 @@
         "prev": 4,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
-          "amazon"
+          "amazon",
+          "nvidia"
         ]
       }
     ]
   },
-  "unconfirmed": [
-    {
-      "id": "qwen:cf6f20342781bd",
-      "lab": "qwen",
-      "title": "Qwen4 Nears Launch as Alibaba's Open Source Promise Faces Real Doubt",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUY4dlZhejFkcml1SDgzR0UxQUo0WS1IdXRCRXJyeVdjZDlEenplR3JIQmc4THVtd0RZdmVsUUhZbDVKOURRM1l0UThUbWU2a05BbkQ1SFhmaFEwUWVTdDl0WXQ1RnFhNkl2M0U5QV9tNlFyMVVsMzJvQ2g2WWRtbEIwQlJyeC1qOG5pVFRGWE1CWndFblNMUVN3dw?oc=5",
-      "outlets": [
-        "Startup Fortune",
-        "shattered.io"
-      ],
-      "reports": 2,
-      "at": "2026-11-02T18:54:13.000Z"
-    }
-  ]
+  "unconfirmed": []
 }

@@ -1,5 +1,79 @@
 [
   {
+    "id": "7eab5dddcfa7727d",
+    "lab": "nvidia",
+    "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+    "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T20:00:41.000Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z",
+    "updatedAt": "2026-11-05T20:00:41.000Z",
+    "excerpt": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those steps quickly and support many agents at once, all within the limits of available power. What…",
+    "summary": "AI agents do more than generate answers.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "coding",
+      "reasoning"
+    ],
+    "importance": 50,
+    "contentHash": "adb10c5490f9"
+  },
+  {
+    "id": "477cff6d6b4c7941",
+    "lab": "nvidia",
+    "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+    "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T16:00:05.000Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z",
+    "updatedAt": "2026-11-05T16:00:05.000Z",
+    "excerpt": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers. Alexiuk’s preferred “rooftop” is YouTube , where he’s built a following…",
+    "summary": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source"
+    ],
+    "importance": 60,
+    "contentHash": "fe76518569d0"
+  },
+  {
+    "id": "3df4d68063a5a1b4",
+    "lab": "nvidia",
+    "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+    "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T16:00:00.000Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z",
+    "updatedAt": "2026-11-05T16:00:00.000Z",
+    "excerpt": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. But the approach isn’t to simply pack more memory onto…",
+    "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 50,
+    "contentHash": "3ba88dc315b0"
+  },
+  {
     "id": "3d39bad411aadc77",
     "lab": "nvidia",
     "title": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
@@ -1615,7 +1689,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3036,
+      "likes": 3054,
       "downloads": 57297,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -1889,7 +1963,7 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 373,
+      "likes": 376,
       "downloads": 107369,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2833,7 +2907,7 @@
     "importance": 67,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 146,
+      "likes": 147,
       "downloads": 16933,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
@@ -2859,10 +2933,10 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 61,
+    "importance": 62,
     "contentHash": "0afab6065026",
     "meta": {
-      "likes": 26,
+      "likes": 27,
       "downloads": 1627,
       "repo": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis",
       "pipeline": "any-to-any",
@@ -2922,7 +2996,7 @@
     "importance": 68,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 201,
+      "likes": 203,
       "downloads": 138093,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"

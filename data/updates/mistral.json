@@ -1,5 +1,29 @@
 [
   {
+    "id": "1184d3a025fd9d05",
+    "lab": "mistral",
+    "title": "Le Chonk brings the brains. Studio puts it to work.",
+    "url": "https://mistral.ai/news/build-with-studio",
+    "sourceId": "mistral-news",
+    "sourceName": "Mistral News",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-11-05T12:00:14.000Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z",
+    "updatedAt": "2026-11-05T12:00:14.000Z",
+    "excerpt": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
+    "summary": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 65,
+    "contentHash": "8b3c69563a19"
+  },
+  {
     "id": "0947ec813b7e2f3a",
     "lab": "mistral",
     "title": "Mistral Vibe v3.1.0",
@@ -353,7 +377,7 @@
     "importance": 70,
     "contentHash": "fd4a807fe29b",
     "meta": {
-      "likes": 80,
+      "likes": 81,
       "downloads": 10916,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
@@ -384,7 +408,7 @@
     "importance": 76,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 479,
+      "likes": 480,
       "downloads": 21936,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
@@ -558,7 +582,7 @@
     "importance": 80,
     "contentHash": "c4578af56c8a",
     "meta": {
-      "likes": 1597,
+      "likes": 1609,
       "downloads": 9592,
       "repo": "mistralai/Mistral-Large-4-1T-A52B",
       "pipeline": "image-text-to-text",
