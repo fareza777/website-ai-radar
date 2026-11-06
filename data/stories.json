@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T01:37:07.071Z",
+  "generatedAt": "2026-11-06T04:02:57.281Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -28,18 +28,18 @@
         "shattered.io",
         "Neowin",
         "9to5Google",
-        "PCMag Middle East",
-        "The National CIO Review",
         "Engadget",
         "The Verge",
         "Technology Org",
-        "Ticker News",
-        "PCMag",
         "Wichita Eagle",
         "Reuters",
         "SiliconANGLE",
-        "CyberSecurityNews",
+        "Ticker News",
         "Yahoo! Finance Canada",
+        "CyberSecurityNews",
+        "PCMag Middle East",
+        "The National CIO Review",
+        "PCMag",
         "Yahoo Tech",
         "VentureBeat",
         "Anadolu Ajansı",
@@ -118,41 +118,6 @@
       "importance": 68
     },
     {
-      "id": "tencent:e7afc5f82bd621",
-      "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure",
-      "entity": null,
-      "labs": [
-        "tencent"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "NTD News",
-        "24/7 Wall St.",
-        "Vision Times",
-        "Reuters",
-        "Financial Times",
-        "TradingView",
-        "TIKR.com",
-        "The Economic Times",
-        "NewsBytes",
-        "Yahoo Finance",
-        "Moomoo",
-        "Investing.com",
-        "Euronext Markets: Real-time Stock Market Data | live",
-        "Global Banking & Finance Review",
-        "Pluang"
-      ],
-      "firstAt": "2026-11-04T05:00:45.000Z",
-      "lastAt": "2026-11-04T08:57:04.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAycHlsdGFnY196YkJJOUhqVjZ4OThWZ3c5SVJlbXpibGNUZHRaeHhORjQ0dlJ3TUZTS1hqbFZJQmp4ZVl4cXpXbnV3LXZ4UEJHQ3NSREd2ZEJpY2tOVWhia182UkZxbTBFSWk?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "tencent:e7afc5f82bd621"
-      },
-      "importance": 65
-    },
-    {
       "id": "nvidia:dc951ec9a66516",
       "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
       "entity": "Nemotron 3.5 Transcribe",
@@ -186,6 +151,36 @@
       "importance": 63
     },
     {
+      "id": "baidu:c7eb7b8759594f",
+      "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
+      "entity": "ERNIE 5.5 Flash",
+      "labs": [
+        "baidu"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "OrcaRouter",
+        "Startup Fortune",
+        "Unite.AI",
+        "AIBase",
+        "BigGo Finance",
+        "XenoSpectrum",
+        "Pandaily",
+        "MarkTechPost",
+        "news.lavx.hu",
+        "The Decoder"
+      ],
+      "firstAt": "2026-11-05T06:31:44.000Z",
+      "lastAt": "2026-11-05T18:03:08.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "baidu:c7eb7b8759594f"
+      },
+      "importance": 62
+    },
+    {
       "id": "mistral:6f7d89d8ad3ee2",
       "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
       "entity": "Mistral Large 4",
@@ -217,92 +212,6 @@
       "importance": 62
     },
     {
-      "id": "baidu:fb98b589e43e33",
-      "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
-      "entity": "ERNIE 5.5 Flash",
-      "labs": [
-        "baidu"
-      ],
-      "official": 0,
-      "press": 8,
-      "outlets": [
-        "OrcaRouter",
-        "Startup Fortune",
-        "Unite.AI",
-        "AIBase",
-        "BigGo Finance",
-        "news.lavx.hu",
-        "MarkTechPost",
-        "The Decoder",
-        "XenoSpectrum"
-      ],
-      "firstAt": "2026-11-05T06:31:44.000Z",
-      "lastAt": "2026-11-06T00:45:10.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "baidu:fb98b589e43e33"
-      },
-      "importance": 61
-    },
-    {
-      "id": "cohere:3da845eb6ca838",
-      "title": "Alibaba Qwen AI model attempted to contact Beijing server, Cohere says",
-      "entity": null,
-      "labs": [
-        "qwen",
-        "cohere"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Brief IA",
-        "The Globe and Mail",
-        "Technology Org",
-        "Tech Wire Asia",
-        "Analytics India Magazine",
-        "CSO Online",
-        "Investing.com",
-        "Computing UK"
-      ],
-      "firstAt": "2026-10-27T02:04:57.000Z",
-      "lastAt": "2026-10-27T04:13:39.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qZC1xNXFnLXktTDR3aGJtcEZkSmZEM0dWOGpaLWtHOTJoVndWWWhfNXRMTlhNbFVKTGZ1YVU4ajNnZG10eGNTa0gwQTFzRmNrRnBHdExJakJGRnlGT1JUNG5kX2xSOVlOVHAxX0xPQm1PbWgxSHhXRThMY1lhZw?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:3da845eb6ca838"
-      },
-      "importance": 61
-    },
-    {
-      "id": "cohere:11779f23f98d5f",
-      "title": "Qwen3.8-Flash-Next Tried a Beijing Upload, Cohere Says",
-      "entity": "Qwen 3.8 Flash",
-      "labs": [
-        "cohere",
-        "qwen"
-      ],
-      "official": 0,
-      "press": 6,
-      "outlets": [
-        "Pasquale Pillitteri",
-        "tech-insider.org",
-        "NewsBytes",
-        "NewsCord",
-        "LatestLY",
-        "XDA",
-        "Medium"
-      ],
-      "firstAt": "2026-10-27T02:01:21.000Z",
-      "lastAt": "2026-10-31T12:51:29.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkVobkxZWjdCNWQ0LThHTnVObmJkZkJMWVJoVDZvUF9nX2lQMXgtYUVwLWpVeDV1dEYwb28zYlpEdUM0Q3cxZFpoUWEwSm56VXNpVUZELXpuRGFUay1tNnN2dG9tUEJ6d3RCNkhfUkNhNXFIbzBTUTFaSkRBcE9WN25GMl9CcjEtTGc?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:11779f23f98d5f"
-      },
-      "importance": 60
-    },
-    {
       "id": "mistral:c957a4e3299808",
       "title": "Orange unit signs deal to Mistral's latest AI cybersecurity model",
       "entity": null,
@@ -331,30 +240,54 @@
       "importance": 60
     },
     {
-      "id": "google-deepmind:af728b0cf267c9",
-      "title": "Google's Gemini 4 Argon is incredibly smart, but it might not affect you much",
+      "id": "google-deepmind:911253fd2711c6",
+      "title": "Google’s Gemini 4 Argon may be more power than most users need",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 9,
+      "press": 8,
       "outlets": [
-        "TechRadar",
         "Mezha.net",
         "shattered.io",
         "Small Business Trends",
         "Pangram",
         "HackerNoon"
       ],
-      "firstAt": "2026-10-27T04:00:00.000Z",
+      "firstAt": "2026-10-27T04:06:01.000Z",
       "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSXhERDNFS1ZEaVlrV0hId1BSTktrUEJzSWRxOGtSTEVwQzFLNjRqU25NUVU4aUhocUJDQ2pEQjBmYVpVd3RkdFBjSnNqMFBnTVBoZklTeHJpcjFCS0FvSDNkaWU4MG4yWEE4eTRsd0JNOHFyNDVwQ3Nva3dMd3Y1VnliMHRwaXlHS2ZXUEZFWEtTRzlFU1pNaUUxVEtyN2RlTHNHdTdBWk1QNkp6a2VWakR4UlBsd3FWdHpsZGx3LXJraFZmcjBYU1NwQlhvTnV6ajBDcjFpbE51UjgtT3Rrd1d3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSlZlcGtLX1pDVGtxTkNFMFBDa2RfMTlVekdVdXY2TzFydUJPaXFVekxsb2lua0VoU3pFd3d0WkxUZ0pBeF9PZkRyRGJzTFhmZkJGOXdQRUFQSk1iakVNZ0c3S0ZHWFIzZXJKNzctMFZTZHV5ZmZDRUJNcDFLWHFaVUNB?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:af728b0cf267c9"
+        "id": "google-deepmind:911253fd2711c6"
       },
-      "importance": 58
+      "importance": 57
+    },
+    {
+      "id": "qwen:9933b4eafbf740",
+      "title": "Alibaba's Qwen3.8-Flash-Next AI tried Beijing server contact during malware test",
+      "entity": "Qwen 3.8 Flash",
+      "labs": [
+        "qwen"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "NewsBytes",
+        "NewsCord",
+        "LatestLY",
+        "XDA",
+        "Medium"
+      ],
+      "firstAt": "2026-10-27T04:52:30.000Z",
+      "lastAt": "2026-10-31T12:51:29.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTFRqOFpDWE5yU0lma1QzdWo5SERhdW5IeTRLeVg3QVVHSWdoRGhkOWhyTmk0ekE2U0tJVmo0MHJKMTdLR01leklIZFZabEVhRW53eHVhVDAydEFmenUxYTVOZFlBUkswT0dlZmYxMnFkQVlpZ2dxZWUxZ192RHRqQWRiMEZpSVRteDZNMU9ISUhWczllNWRWZkxTT2FCSVUxb0YzTEk1WEhJeXUxOHlfQWJpWUoyc2Q2UHgwUW9NWl9ja00?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:9933b4eafbf740"
+      },
+      "importance": 57
     },
     {
       "id": "ibm:5446c7035cbb10",
@@ -418,36 +351,36 @@
       {
         "name": "agents",
         "count": 49,
-        "prev": 30,
+        "prev": 31,
         "labs": [
           "anthropic",
-          "deepseek",
           "google-deepmind",
+          "deepseek",
           "openai",
-          "mistral",
-          "minimax",
           "qwen",
-          "microsoft",
+          "minimax",
+          "mistral",
           "amazon",
           "bytedance",
+          "microsoft",
           "nvidia",
           "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 38,
-        "prev": 35,
+        "count": 37,
+        "prev": 36,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
-          "minimax",
-          "cohere",
           "qwen",
-          "microsoft",
+          "minimax",
+          "mistral",
+          "cohere",
           "amazon",
+          "microsoft",
           "nvidia",
           "ibm"
         ]
@@ -465,30 +398,31 @@
       },
       {
         "name": "multimodal",
-        "count": 9,
+        "count": 10,
         "prev": 10,
         "labs": [
           "google-deepmind",
           "openai",
           "moonshot",
           "mistral",
-          "baidu",
-          "microsoft",
           "tencent",
+          "baidu",
           "amazon",
+          "microsoft",
           "nvidia",
           "ibm"
         ]
       },
       {
         "name": "rag",
-        "count": 9,
+        "count": 10,
         "prev": 2,
         "labs": [
           "meta",
           "cohere",
           "amazon",
-          "bytedance"
+          "bytedance",
+          "nvidia"
         ]
       },
       {
@@ -509,8 +443,8 @@
         "prev": 4,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "amazon",
           "nvidia"
@@ -528,6 +462,20 @@
     ]
   },
   "unconfirmed": [
+    {
+      "id": "baidu:c7eb7b8759594f",
+      "lab": "baidu",
+      "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
+      "outlets": [
+        "XenoSpectrum",
+        "Pandaily",
+        "MarkTechPost",
+        "news.lavx.hu"
+      ],
+      "reports": 4,
+      "at": "2026-11-05T12:10:14.000Z"
+    },
     {
       "id": "baidu:fb98b589e43e33",
       "lab": "baidu",

@@ -3727,5 +3727,172 @@
     "hash": "3743e78e9bfe",
     "summary": "Strands Agents SDK harness-python v0.3.4 adds a migration guide from strands-agents-tools and places explicit cache points on GPT-5.6 and later by default.",
     "benefit": "Python harness users inherit cache points on newer GPT models and a documented way to move off strands-agents-tools."
+  },
+  "00183b004892f2d6": {
+    "hash": "e0b9d5167d5c",
+    "summary": "Anthropic introduced Personal Finance in Claude: ask Claude about your money and get straight answers from the accounts you connect.",
+    "benefit": "People who connect their accounts can ask Claude direct questions about their own money instead of checking each account separately."
+  },
+  "9c5ca6b71a827505": {
+    "hash": "78e7b0ad4796",
+    "summary": "ByteDance Seed published Qwen3-30B-A3B-MoE-SAE on Hugging Face with license: apache-2.0.",
+    "benefit": "Developers can pull this Qwen3 MoE SAE release from the ByteDance-Seed organization and build on it under the apache-2.0 license."
+  },
+  "53c56afbaf05f856": {
+    "hash": "770d59cae341",
+    "summary": "OpenAI introduced GPT-6 Cyber, its cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+    "benefit": "Security teams doing authorized work get a model built to both find exploitable vulnerabilities and develop the fix while staying in scope."
+  },
+  "300d91101f21ec1d": {
+    "hash": "a862f57d62ec",
+    "category": "promo",
+    "summary": "OpenAI says Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing, and that its teams also use AI to plan executive dinners and prepare sales updates.",
+    "benefit": "Companies adopting OpenAI tools get a worked example of mixing code review, marketing support and routine internal prep in one stack."
+  },
+  "d7e9e3e89ee778d6": {
+    "hash": "08ea6c439efa",
+    "summary": "Google DeepMind released Gemini Omni 1.2 Flash, which brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+    "benefit": "Video generation workflows gain longer native clips and conversational editing at 30% lower pricing than the previous offer."
+  },
+  "1184d3a025fd9d05": {
+    "hash": "8b3c69563a19",
+    "category": "feature",
+    "summary": "Mistral published a post on building and deploying enterprise agents, workflows and apps with Mistral Studio and Le Chonk, with full control over models, data and infrastructure.",
+    "benefit": "Enterprises can pair the Le Chonk model with Mistral Studio to ship agents and apps while keeping models, data and infrastructure under their own control."
+  },
+  "11c19e26e3d8fe80": {
+    "hash": "f53ac39acf4b",
+    "summary": "Amazon announced the general availability of Web Answer on Amazon Bedrock AgentCore, a managed tool that returns a synthesized, grounded, cited answer to a natural-language question in a single call.",
+    "benefit": "Agent builders can attach Web Answer to an agent and get a finished answer grounded in current web sources instead of building and maintaining their own search, retrieve, synthesis and citation pipeline."
+  },
+  "c55f685449204d1c": {
+    "hash": "4610ffd4871c",
+    "category": "research",
+    "summary": "IBM reports that the U.S. DOE's Quantum Science Center at Oak Ridge National Lab is leading the integration of IBM quantum hardware with ORNL HPC clusters, powered by AMD, in a co-design platform for QEC.",
+    "benefit": "Quantum groups get a co-design platform that links IBM quantum hardware to ORNL supercomputing and AMD hardware for quantum error correction work."
+  },
+  "f6d3226a90fa9d2c": {
+    "hash": "88a605a9a6df",
+    "summary": "The Google GenAI SDK for Python reached v3.0.0 with breaking changes: clients targeting the Gemini Developer API now default to API version v1 instead of v1beta.",
+    "benefit": "Python developers calling the Gemini Developer API get v1 by default, while clients using vertexai=True or enterprise=True keep defaulting to v1beta1."
+  },
+  "477cff6d6b4c7941": {
+    "hash": "fe76518569d0",
+    "category": "developer",
+    "summary": "NVIDIA profiled Chris Alexiuk, a Toronto-based senior product research engineer in deep learning who uses YouTube to make open large language models practical for working developers.",
+    "benefit": "Developers looking for hands-on guidance on open LLMs get a named NVIDIA source for that material, published as video rather than release notes."
+  },
+  "6ea32a6f1bc8c725": {
+    "hash": "e75fe167a390",
+    "summary": "ByteDance Seed published Cross-Layer-TopK-CLT on Hugging Face with license: apache-2.0.",
+    "benefit": "Researchers can take this Cross-Layer-TopK release from the ByteDance-Seed organization and use it under the apache-2.0 license."
+  },
+  "c88b52d0b21039c7": {
+    "hash": "4f64b9b9cc35",
+    "summary": "OpenAI says Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+    "benefit": "Companies rolling out coding agents get an example of teams across functions, not only engineering, using Codex to build their own tools."
+  },
+  "b58fee4edbbb5f7a": {
+    "hash": "56bd69649a63",
+    "summary": "OpenAI reports that Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+    "benefit": "Students and staff at those universities get institutional ChatGPT access and AI use folded into teaching, rather than only personal logins."
+  },
+  "f93567576105c713": {
+    "hash": "aeea3933bf2e",
+    "summary": "OpenAI introduced its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+    "benefit": "Communities and local officials get a stated OpenAI framework to hold new AI infrastructure projects to, instead of negotiating each site from scratch."
+  },
+  "1f9981de57006417": {
+    "hash": "8161ad7ff7a4",
+    "category": "promo",
+    "summary": "OpenAI says Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+    "benefit": "Advertisers using ChatGPT Ads get a worked example of optimizing campaigns for signups rather than for raw clicks."
+  },
+  "94b7888e188ff436": {
+    "hash": "653d1ce89533",
+    "summary": "Anthropic published an update giving security teams more visibility and control over Claude Enterprise.",
+    "benefit": "Teams administering Claude Enterprise get more oversight of and controls on how the deployment is used inside the company."
+  },
+  "763a8148826c7aad": {
+    "hash": "fc1f481fb24f",
+    "summary": "Microsoft Research describes PDD Kit, which turns intent into a formal spec, then proves the code an agent writes for every input and uses tests where a proof cannot reach.",
+    "benefit": "Engineers without a formal methods background can verify agent-written full-stack web apps by proof instead of exhaustive line-by-line human review."
+  },
+  "f987c08b0331cb48": {
+    "hash": "916079e97b94",
+    "summary": "Amazon published a walkthrough of Web Answer on Amazon Bedrock AgentCore, which returns a synthesized, source-cited answer to a natural-language question with a single tool call.",
+    "benefit": "Builders whose agents answer questions from current web sources get a worked setup path and no longer write the search, retrieve, synthesize and citation pipeline themselves."
+  },
+  "f084aaa63e94705d": {
+    "hash": "fe5fecf551b7",
+    "summary": "Amazon renamed Amazon Q Developer in the AWS Management Console and Console Mobile Apps to the AWS assistant, keeping the same personalized, account-aware guidance and actions.",
+    "benefit": "AWS users get one named assistant in the console for building, operating and optimizing their account instead of the Amazon Q Developer label."
+  },
+  "7eab5dddcfa7727d": {
+    "hash": "adb10c5490f9",
+    "summary": "NVIDIA describes Vera, its CPU for AI agents, positioned as delivering highest throughput and fastest agents, since agent steps such as searching, querying databases and writing code rely on a CPU between GPU reasoning passes.",
+    "benefit": "Operators putting more agents to work get a CPU pitched at executing those agent steps quickly and supporting many agents at once within available power."
+  },
+  "3df4d68063a5a1b4": {
+    "hash": "3ba88dc315b0",
+    "summary": "NVIDIA explains how full-stack codesign addresses the GPU memory pressure coming from larger models, longer contexts and agentic applications, noting it was first to adopt HBM3e and HBM4 technologies in an accelerated computing stack.",
+    "benefit": "Teams planning inference capacity get NVIDIA's approach to a tightening memory market, which is not simply packing more memory onto each card."
+  },
+  "dfc5a8a1197046ee": {
+    "hash": "729738e763cb",
+    "category": "research",
+    "summary": "IBM Research reports that a breakthrough in self-calibration technology is revitalizing an old form of navigation, so MEMS inertial sensors can rival GPS.",
+    "benefit": "Builders who need positioning where GPS fails get an IBM Research account of self-calibration that makes inertial sensors accurate enough to compete."
+  },
+  "e2baf2e1c36d11f0": {
+    "hash": "732e496e516a",
+    "summary": "Codex CLI rust v0.167.0 opens an agent command center with codex agents --no-daemon, marks unread results in the command center and session picker, keeps drafts when switching connected backends, and previews local image attachments.",
+    "benefit": "Developers running Codex in the terminal get multi-agent oversight with unread markers, draft-preserving backend switching and image previews before sending."
+  },
+  "c0d7b0808284d182": {
+    "hash": "fabc81774f10",
+    "category": "promo",
+    "summary": "OpenAI says Franklin Templeton is developing AI workflows with OpenAI, starting with equity research, to help portfolio managers compare research views and examine investment risks.",
+    "benefit": "Investment teams get an example of using AI to compare research views and examine risks, rather than to draft reports."
+  },
+  "6f38341c3b89007c": {
+    "hash": "79b45608c5a5",
+    "summary": "NVIDIA tagged TensorRT-LLM v1.4.0, adding token tiling behind TRTLLM_ENABLE_QKV_ROPE_TILING to cut the overhead of one CTA per token and head in large Qwen attention batches, limited to validated shapes.",
+    "benefit": "Teams serving Qwen attention get a flag that reduces per-token kernel overhead while retaining fused normalization, rotary embedding and gate extraction."
+  },
+  "c0a64a3368b74d55": {
+    "hash": "5f91aa4a3f8b",
+    "summary": "Docling released v2.148.0, adding surya v2.5, an iCalendar (.ics) backend, superscript and subscript detection from glyph size and baseline, and a 72 DPI fallback for HTML and MHTML.",
+    "benefit": "Developers parsing documents get a calendar backend, superscripts kept in table cells, and pages that stay loadable when a page div lacks a usable ORDER."
+  },
+  "a68de83a8d887919": {
+    "hash": "dec8e1ddc0bc",
+    "summary": "Tencent published EmoReward on GitHub as the official implementation of EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL.",
+    "benefit": "Teams training emotional video generation get Tencent's reference reward-calibration code instead of rebuilding it from the paper."
+  },
+  "424b23730d0bdb2a": {
+    "hash": "33dd9ffdba68",
+    "summary": "Amazon SageMaker AI now supports IAM Identity Center multi-region replication, so SageMaker AI Studio domains can be deployed in regions other than the primary instance region.",
+    "benefit": "Organizations with one IAM Identity Center instance can run SageMaker AI Studio in the region they need without moving the primary instance there."
+  },
+  "c448493267fe1529": {
+    "hash": "c91c63342d19",
+    "summary": "ByteDance Seed created a new GitHub repository, SAE-interprets-MoE, under its ByteDance-Seed organization.",
+    "benefit": "Developers following ByteDance Seed's interpretability work get a new SAE-interprets-MoE repository to watch on GitHub."
+  },
+  "7248e0d8529a8372": {
+    "hash": "dcb29188dcee",
+    "summary": "Qwen shipped Qwen Code desktop v0.26.8, which shares the managed-agent session event delivery loop, deletes the OAuth refresh lock only when owned, and keeps uniquely named MCP tools when names collide.",
+    "benefit": "Desktop users of Qwen Code get fixes for the OAuth refresh lock and for MCP tools lost when tool names collide."
+  },
+  "84086a458631f5e7": {
+    "hash": "0d5286ad5962",
+    "summary": "Qwen released Qwen Code v0.26.8, which runs prompt.submit hooks in the OpenTUI terminal and the Ink TUI's model rounds on the shared loop's round, and lists no known breaking changes.",
+    "benefit": "Developers using Qwen Code in a terminal get prompt submit hooks and shared-loop model rounds with no breaking change to migrate."
+  },
+  "f1c475b768769de2": {
+    "hash": "c2ee778c8b6c",
+    "summary": "Qwen published Qwen Code sdk-typescript v0.1.28, an SDK release that bundles CLI version 0.26.8 built from the same branch or ref as the SDK.",
+    "benefit": "TypeScript developers embedding Qwen Code get an SDK that ships the matching 0.26.8 CLI, so SDK and CLI do not drift apart."
   }
 }

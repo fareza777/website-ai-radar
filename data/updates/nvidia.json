@@ -169,6 +169,35 @@
     "contentHash": "2408b4ad0da1"
   },
   {
+    "id": "6f38341c3b89007c",
+    "lab": "nvidia",
+    "title": "TensorRT-LLM v1.4.0",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.4.0rc3",
+    "sourceId": "tensorrt-llm",
+    "sourceName": "GitHub · NVIDIA/TensorRT-LLM",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T11:21:00.000Z",
+    "firstSeenAt": "2026-11-06T04:02:57.281Z",
+    "updatedAt": "2026-11-03T11:21:00.000Z",
+    "excerpt": "Why? One CTA per token and head adds overhead to large Qwen attention batches. Token tiling reduces this overhead while retaining the fused normalization, rotary embedding, and gate extraction. What? Add an eight-token path behind TRTLLM_ENABLE_QKV_ROPE_TILING=1. Limit selection to validated shapes with at least 256 tokens Signed-off-by: William Zhang 133824995+2ez4bz@users.noreply.github.com",
+    "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "rag"
+    ],
+    "importance": 40,
+    "contentHash": "79b45608c5a5",
+    "meta": {
+      "version": "v1.4.0",
+      "semver": "minor",
+      "repo": "NVIDIA/TensorRT-LLM"
+    }
+  },
+  {
     "id": "4d836f21a02fa461",
     "lab": "nvidia",
     "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
@@ -1689,7 +1718,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3058,
+      "likes": 3060,
       "downloads": 57297,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -1963,7 +1992,7 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 378,
+      "likes": 379,
       "downloads": 107369,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2043,7 +2072,7 @@
     "importance": 63,
     "contentHash": "b0ac029a9c38",
     "meta": {
-      "likes": 39,
+      "likes": 40,
       "downloads": 2695,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",

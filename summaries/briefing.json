@@ -616,5 +616,34 @@
         "text": "Cohere put Embed 5 and Rerank 5 on OpenRouter, giving access to its retrieval models through a single API with unified billing and no additional SDKs."
       }
     ]
+  },
+  "2026-11-06": {
+    "headline": "OpenAI and Google DeepMind shipped new model releases, while Amazon, Anthropic and Mistral pushed agents and assistants further into everyday work.",
+    "bullets": [
+      {
+        "itemId": "53c56afbaf05f856",
+        "text": "OpenAI introduced GPT-6 Cyber, a cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
+      },
+      {
+        "itemId": "d7e9e3e89ee778d6",
+        "text": "Google DeepMind's Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing."
+      },
+      {
+        "itemId": "0a437d67f2effbc5",
+        "text": "OpenAI introduced Images 2.6, with faster image generation, GIF creation, more precise editing and new API controls across ChatGPT, Codex and the API."
+      },
+      {
+        "itemId": "11c19e26e3d8fe80",
+        "text": "Amazon made Web Answer generally available on Amazon Bedrock AgentCore, a managed tool that returns a synthesized, grounded, cited answer in a single call."
+      },
+      {
+        "itemId": "00183b004892f2d6",
+        "text": "Anthropic introduced Personal Finance in Claude, which answers money questions from the accounts you connect."
+      },
+      {
+        "itemId": "020b7910e3b471cc",
+        "text": "Amazon Bedrock added in-country inference in India for Kimi K3, the multi-modal open-weight model whose provider Moonshot AI reported frontier-level coding."
+      }
+    ]
   }
 }

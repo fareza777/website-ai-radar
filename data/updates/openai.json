@@ -11,17 +11,19 @@
     "verified": true,
     "publishedAt": "2026-11-05T23:31:20.000Z",
     "firstSeenAt": "2026-11-06T01:37:07.071Z",
-    "updatedAt": "2026-11-05T23:31:20.000Z",
-    "excerpt": "Release 0.167.0",
+    "updatedAt": "2026-11-06T04:02:57.281Z",
+    "excerpt": "New Features Open the agent command center with codex agents --no-daemon . The command center and session picker now mark unread results ( #58238 , #58239 , #58263 , #58264 ). Switch between connected backends from the terminal session picker and keep your drafts when switching ( #58280 , #58457 ). Preview local image attachments while composing on supported terminals, and open viewed local images from clickable…",
     "summary": "OpenAI shipped Codex CLI rust v0.167.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
     "tags": [
-      "coding"
+      "agents",
+      "coding",
+      "multimodal"
     ],
     "importance": 45,
-    "contentHash": "19eea20e8bd6",
+    "contentHash": "732e496e516a",
     "meta": {
       "version": "v0.167.0",
       "semver": "minor",
@@ -52,6 +54,28 @@
     ],
     "importance": 55,
     "contentHash": "4f64b9b9cc35"
+  },
+  {
+    "id": "b58fee4edbbb5f7a",
+    "lab": "openai",
+    "title": "Australian universities are creating AI-native graduates",
+    "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T17:00:00.000Z",
+    "firstSeenAt": "2026-11-06T04:02:57.281Z",
+    "updatedAt": "2026-11-05T17:00:00.000Z",
+    "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+    "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 55,
+    "contentHash": "56bd69649a63"
   },
   {
     "id": "53c56afbaf05f856",

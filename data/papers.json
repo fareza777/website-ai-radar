@@ -29,7 +29,7 @@
     "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 48,
     "org": "benchflow",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
@@ -40,7 +40,7 @@
     "summary": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 22,
+    "upvotes": 23,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent-Hunyuan/EmoReward",
@@ -85,6 +85,18 @@
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
   },
   {
+    "id": "2610.00854",
+    "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+    "url": "https://huggingface.co/papers/2610.00854",
+    "summary": "A robot generalist must interpret a scene, act on it, and satisfy every condition of a task. How far do frontier vision-language models (VLMs) meet these demands? We introduce Embodied Agent Arena, evaluating ten VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. Its 1,000 cases combine 32 established sources with GeoProbe, our 168-case benchmark for camera, motion, depth…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 89,
+    "org": null,
+    "githubRepo": "https://github.com/embodied-agent-arena/embodied-agent-arena",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z"
+  },
+  {
     "id": "2611.05275",
     "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
     "url": "https://huggingface.co/papers/2611.05275",
@@ -109,18 +121,6 @@
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
-    "id": "2610.00854",
-    "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
-    "url": "https://huggingface.co/papers/2610.00854",
-    "summary": "A robot generalist must interpret a scene, act on it, and satisfy every condition of a task. How far do frontier vision-language models (VLMs) meet these demands? We introduce Embodied Agent Arena, evaluating ten VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. Its 1,000 cases combine 32 established sources with GeoProbe, our 168-case benchmark for camera, motion, depth…",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 77,
-    "org": null,
-    "githubRepo": "https://github.com/embodied-agent-arena/embodied-agent-arena",
-    "firstSeenAt": "2026-11-05T20:04:26.298Z"
-  },
-  {
     "id": "2611.02737",
     "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
     "url": "https://huggingface.co/papers/2611.02737",
@@ -130,6 +130,17 @@
     "upvotes": 74,
     "org": "adobe",
     "githubRepo": "https://github.com/adobe-research/MoviEdit-Bench",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
+    "id": "2611.04916",
+    "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+    "url": "https://huggingface.co/papers/2611.04916",
+    "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 66,
+    "org": "klingteam",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
@@ -143,17 +154,6 @@
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/MuyaoYuan/LoCo",
-    "firstSeenAt": "2026-11-04T11:07:36.704Z"
-  },
-  {
-    "id": "2611.04916",
-    "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
-    "url": "https://huggingface.co/papers/2611.04916",
-    "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
-    "publishedAt": "2026-11-03T00:00:00.000Z",
-    "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 65,
-    "org": "klingteam",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
@@ -235,7 +235,7 @@
     "summary": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 17,
+    "upvotes": 18,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-11-04T04:02:27.843Z"

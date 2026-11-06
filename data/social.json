@@ -1,5 +1,51 @@
 [
   {
+    "id": "x:2118489527362912566",
+    "platform": "x",
+    "handle": "thinkymachines",
+    "author": "Thinking Machines",
+    "text": "Introducing Inkling 2 Small. Scoring 31 on the AA Intelligence Index, it's a big jump over its predecessor. Inkling 2 Small is available for fine-tuning and inference on Tinker today, with full weight release planned soon.",
+    "url": "https://x.com/thinkymachines/status/2118489527362912566",
+    "at": "2026-11-05T00:00:00.000Z",
+    "exactTime": false,
+    "links": [
+      "https://thinkingmachines.ai/news/inkling-2-small/"
+    ],
+    "via": "tip",
+    "official": false,
+    "firstSeenAt": "2026-11-06T04:12:35.846Z"
+  },
+  {
+    "id": "x:2118389961426874879",
+    "platform": "x",
+    "handle": "GoogleAI",
+    "author": "Google AI",
+    "lab": "google-deepmind",
+    "text": "Meet Gemini Omni 1.2 Flash ⚡️ We’ve made the model more cost-effective, bumped the video generation and editing limit up to 15 seconds, and made updates to how scenes hold together over time. We've also given character speech an upgrade, reduced visual glitches like jump cuts,…",
+    "url": "https://x.com/GoogleAI/status/2118389961426874879",
+    "at": "2026-11-05T00:00:00.000Z",
+    "exactTime": false,
+    "links": [],
+    "via": "tip",
+    "official": true,
+    "firstSeenAt": "2026-11-06T04:16:43.953Z"
+  },
+  {
+    "id": "x:2118390190246879554",
+    "platform": "x",
+    "handle": "OpenAI",
+    "author": "OpenAI",
+    "lab": "openai",
+    "text": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment. The model powered the Linux kernel research we announced yesterday, and security teams at companies like Mozilla, Palo Alto Networks, Calif, and…",
+    "url": "https://x.com/OpenAI/status/2118390190246879554",
+    "at": "2026-11-05T00:00:00.000Z",
+    "exactTime": false,
+    "links": [],
+    "via": "tip",
+    "official": true,
+    "firstSeenAt": "2026-11-06T04:16:43.953Z"
+  },
+  {
     "id": "x:2118028834515874112",
     "platform": "x",
     "handle": "axiommathai",
@@ -105,6 +151,50 @@
     "via": "tip",
     "official": true,
     "firstSeenAt": "2026-11-05T04:17:58.932Z"
+  },
+  {
+    "id": "x:2118069614521241739",
+    "platform": "x",
+    "handle": "cognition",
+    "author": "Cognition",
+    "text": "Introducing SWE-2 Flash, our new fast & efficient coding model. On leading evals, it outperforms all American open-weight models, even ones 3x larger. To balance transparency and cyber risks, we are building a program to securely share the weights with partners & researchers.",
+    "url": "https://x.com/cognition/status/2118069614521241739",
+    "at": "2026-11-04T00:00:00.000Z",
+    "exactTime": false,
+    "links": [],
+    "via": "tip",
+    "official": false,
+    "firstSeenAt": "2026-11-06T04:12:35.846Z"
+  },
+  {
+    "id": "x:2118046768034468188",
+    "platform": "x",
+    "handle": "RicursiveAI",
+    "author": "Ricursive Intelligence",
+    "text": "Ripple-65B Preview was trained on 12 trillion tokens, supports up to 1M context length, and achieves: - 80.5% on TerminalBench 2.1 - 79.1% on SWE-Bench Pro v2.0-Hard - 44.3% on DeepSWE v1.1 All while fitting locally on a MacBook or DGX Spark.",
+    "url": "https://x.com/RicursiveAI/status/2118046768034468188",
+    "at": "2026-11-04T00:00:00.000Z",
+    "exactTime": false,
+    "links": [],
+    "via": "tip",
+    "official": false,
+    "firstSeenAt": "2026-11-06T04:12:35.846Z"
+  },
+  {
+    "id": "x:2118022402664005728",
+    "platform": "x",
+    "handle": "LinumInc",
+    "author": "Linum",
+    "text": "We’re a 2-person lab researching more efficient architectures for generative image and video. Last month, we published Pyramid-JiT, a pixel-space architecture that converged 11x faster than its latent-diffusion counterpart. Today, we're releasing a 2B…",
+    "url": "https://x.com/LinumInc/status/2118022402664005728",
+    "at": "2026-11-04T00:00:00.000Z",
+    "exactTime": false,
+    "links": [
+      "https://www.linum.ai/field-notes/pjit-21k"
+    ],
+    "via": "tip",
+    "official": false,
+    "firstSeenAt": "2026-11-06T04:12:35.846Z"
   },
   {
     "id": "x:2117444048227123277",

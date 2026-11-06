@@ -1,5 +1,81 @@
 [
   {
+    "id": "801705b2b37d91bf",
+    "modelId": "reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "at": "2026-11-06T04:02:57.281Z",
+    "field": "prompt",
+    "from": 0.25,
+    "to": 0.3,
+    "change": 20
+  },
+  {
+    "id": "d456e23d776b0ef3",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-06T04:02:57.281Z",
+    "field": "prompt",
+    "from": 0.0675,
+    "to": 0.0765,
+    "change": 13.3
+  },
+  {
+    "id": "572fb2eac1711547",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-06T04:02:57.281Z",
+    "field": "completion",
+    "from": 0.225,
+    "to": 0.255,
+    "change": 13.3
+  },
+  {
+    "id": "1cffac4310e47e90",
+    "modelId": "minimax/minimax-m2.7",
+    "name": "MiniMax: MiniMax M2.7",
+    "lab": "minimax",
+    "at": "2026-11-06T04:02:57.281Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.21,
+    "change": -30
+  },
+  {
+    "id": "dcaf443fdc62dc8b",
+    "modelId": "minimax/minimax-m2.7",
+    "name": "MiniMax: MiniMax M2.7",
+    "lab": "minimax",
+    "at": "2026-11-06T04:02:57.281Z",
+    "field": "completion",
+    "from": 1.2,
+    "to": 0.84,
+    "change": -30
+  },
+  {
+    "id": "38a7ac373115066a",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-06T04:02:57.281Z",
+    "field": "prompt",
+    "from": 0.2,
+    "to": 0.59,
+    "change": 195
+  },
+  {
+    "id": "19bb90ee5188a0f3",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-06T04:02:57.281Z",
+    "field": "completion",
+    "from": 0.52,
+    "to": 0.79,
+    "change": 51.9
+  },
+  {
     "id": "617fe481cc808302",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
