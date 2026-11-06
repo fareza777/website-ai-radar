@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T11:05:12.287Z",
+  "generatedAt": "2026-11-06T19:30:37.124Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -101,6 +101,7 @@
         "NeoTeo",
         "Times Of AI",
         "The Indian Express",
+        "ET CIO",
         "trendingtopics.eu",
         "Idaho Statesman",
         "Euronext Markets: Real-time Stock Market Data | live",
@@ -117,7 +118,7 @@
         "kind": "press",
         "id": "moonshot:ee53a78dd464d6"
       },
-      "importance": 68
+      "importance": 69
     },
     {
       "id": "baidu:c7eb7b8759594f",
@@ -127,11 +128,12 @@
         "baidu"
       ],
       "official": 0,
-      "press": 8,
+      "press": 11,
       "outlets": [
         "OrcaRouter",
         "Startup Fortune",
         "Unite.AI",
+        "www.tokenpost.com",
         "AIBase",
         "BigGo Finance",
         "XenoSpectrum",
@@ -140,16 +142,19 @@
         "news.lavx.hu",
         "The Decoder",
         "https://tech-insider.org/",
-        "shattered.io"
+        "shattered.io",
+        "GIGAZINE",
+        "FourWeekMBA",
+        "www.trendingtopics.eu"
       ],
       "firstAt": "2026-11-05T06:31:44.000Z",
-      "lastAt": "2026-11-06T04:58:28.000Z",
+      "lastAt": "2026-11-06T18:14:49.000Z",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
       "lead": {
         "kind": "press",
         "id": "baidu:c7eb7b8759594f"
       },
-      "importance": 63
+      "importance": 65
     },
     {
       "id": "mistral:6f7d89d8ad3ee2",
@@ -159,7 +164,7 @@
         "mistral"
       ],
       "official": 0,
-      "press": 11,
+      "press": 14,
       "outlets": [
         "ActuIA",
         "Martin Cid Magazine",
@@ -171,16 +176,17 @@
         "WinBuzzer",
         "mspbusiness.com",
         "Kingy AI",
+        "Crypto Briefing",
         "Technology Org"
       ],
       "firstAt": "2026-10-28T21:20:39.000Z",
-      "lastAt": "2026-11-03T07:36:00.000Z",
+      "lastAt": "2026-11-04T14:37:58.000Z",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
       "lead": {
         "kind": "press",
         "id": "mistral:6f7d89d8ad3ee2"
       },
-      "importance": 62
+      "importance": 63
     },
     {
       "id": "nvidia:83c76c5b444a23",
@@ -241,31 +247,6 @@
       "importance": 60
     },
     {
-      "id": "google-deepmind:64d4dfa914cfe1",
-      "title": "8 examples of Gemini 4 Argon in action",
-      "entity": "Gemini 4 Argon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 7,
-      "outlets": [
-        "Mezha.net",
-        "shattered.io",
-        "Small Business Trends",
-        "Pangram",
-        "HackerNoon"
-      ],
-      "firstAt": "2026-10-27T15:25:27.000Z",
-      "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1udW1XRVU4S3p1eUxJR3RhcDE3UkJla0VRSlZBQmdxeEtzekFWUzVDenFDQ1pRZ2dibzNBV2cyS09YS3ktcjFEM1hQR0M0dEpQUF9wNGN0N1R5c0dUeG1XYy1MYzhoY0ZNc3VFVVRzdTVUa3ZNRmxmaHpQVmU?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:64d4dfa914cfe1"
-      },
-      "importance": 57
-    },
-    {
       "id": "qwen:cf6f20342781bd",
       "title": "Qwen4 Nears Launch as Alibaba's Open Source Promise Faces Real Doubt",
       "entity": "Qwen 4",
@@ -273,19 +254,44 @@
         "qwen"
       ],
       "official": 0,
-      "press": 3,
+      "press": 4,
       "outlets": [
         "Pasquale Pillitteri",
         "Startup Fortune",
         "shattered.io",
-        "Fello AI"
+        "Fello AI",
+        "Kingy AI"
       ],
       "firstAt": "2026-10-29T16:00:37.000Z",
-      "lastAt": "2026-11-06T06:08:16.000Z",
+      "lastAt": "2026-11-06T14:12:24.000Z",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUY4dlZhejFkcml1SDgzR0UxQUo0WS1IdXRCRXJyeVdjZDlEenplR3JIQmc4THVtd0RZdmVsUUhZbDVKOURRM1l0UThUbWU2a05BbkQ1SFhmaFEwUWVTdDl0WXQ1RnFhNkl2M0U5QV9tNlFyMVVsMzJvQ2g2WWRtbEIwQlJyeC1qOG5pVFRGWE1CWndFblNMUVN3dw?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:cf6f20342781bd"
+      },
+      "importance": 57
+    },
+    {
+      "id": "google-deepmind:a444fbfc2f8d1a",
+      "title": "Gemini 4 Argon Arrives With Pricing, Not a Timeline Vow [2026]",
+      "entity": "Gemini 4 Argon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 6,
+      "outlets": [
+        "shattered.io",
+        "Small Business Trends",
+        "Pangram",
+        "HackerNoon"
+      ],
+      "firstAt": "2026-10-30T07:00:00.000Z",
+      "lastAt": "2026-11-03T08:32:23.000Z",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QcGp1bFBZZEpCTlBTMXRud3pJQk9HWGFUVUhpcWN0NDNVX1QwbUxLZ2ktblR0MWk3bEp2dzktTzduRnlySWxZVVNqbC1hc1JEZndpTDA3WW5Yb1JycWlUQzV0bWh6V2lZdGZj?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:a444fbfc2f8d1a"
       },
       "importance": 56
     },
@@ -314,7 +320,7 @@
     "entities": [
       {
         "name": "ERNIE 5.5 Flash",
-        "count": 16,
+        "count": 19,
         "prev": 0,
         "labs": []
       },
@@ -327,15 +333,21 @@
         ]
       },
       {
+        "name": "DeepSeek 4.1 Flash",
+        "count": 5,
+        "prev": 2,
+        "labs": []
+      },
+      {
         "name": "Gemini 4 Argon",
-        "count": 6,
+        "count": 5,
         "prev": 12,
         "labs": []
       },
       {
-        "name": "DeepSeek 4.1 Flash",
+        "name": "Mistral Large 4",
         "count": 4,
-        "prev": 2,
+        "prev": 10,
         "labs": []
       },
       {
@@ -347,13 +359,13 @@
         ]
       },
       {
-        "name": "GLM 5.3",
+        "name": "Claude Opus 5.5",
         "count": 3,
-        "prev": 3,
+        "prev": 1,
         "labs": []
       },
       {
-        "name": "Claude Opus 5.5",
+        "name": "GLM 5.3",
         "count": 3,
         "prev": 3,
         "labs": []
@@ -362,45 +374,45 @@
     "topics": [
       {
         "name": "agents",
-        "count": 50,
-        "prev": 31,
+        "count": 53,
+        "prev": 33,
         "labs": [
           "anthropic",
           "google-deepmind",
           "deepseek",
           "openai",
-          "qwen",
-          "minimax",
           "mistral",
+          "minimax",
+          "qwen",
           "microsoft",
           "amazon",
           "bytedance",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 36,
-        "prev": 36,
+        "count": 39,
+        "prev": 37,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "qwen",
-          "minimax",
           "mistral",
+          "minimax",
+          "qwen",
           "cohere",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "safety",
         "count": 10,
-        "prev": 8,
+        "prev": 10,
         "labs": [
           "anthropic",
           "xai",
@@ -410,7 +422,7 @@
       },
       {
         "name": "multimodal",
-        "count": 10,
+        "count": 9,
         "prev": 8,
         "labs": [
           "google-deepmind",
@@ -421,8 +433,8 @@
           "tencent",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -438,6 +450,19 @@
         ]
       },
       {
+        "name": "open-source",
+        "count": 3,
+        "prev": 4,
+        "labs": [
+          "openai",
+          "mistral",
+          "minimax",
+          "cohere",
+          "amazon",
+          "nvidia"
+        ]
+      },
+      {
         "name": "reasoning",
         "count": 2,
         "prev": 3,
@@ -445,19 +470,6 @@
           "openai",
           "mistral",
           "tencent",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 2,
-        "prev": 4,
-        "labs": [
-          "openai",
-          "minimax",
-          "mistral",
-          "cohere",
           "amazon",
           "nvidia"
         ]
@@ -489,6 +501,19 @@
       "at": "2026-11-05T12:10:14.000Z"
     },
     {
+      "id": "moonshot:82a46e5776f4cd",
+      "lab": "moonshot",
+      "title": "Moonshot AI Launches Hosted Agents for Enterprise AI Operations Hubs",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcUNsUFo3YWZCRnczVWZDejA2WkZxVjd4ckJCLTdtVEl0Sml1NTJkVkVPUXFmblhKclRjUm5VSHN3T1FTbWdDMjY1NDM5U3pIckgtLUxrS3dXRjZSUVZId243V1hHSUp0SVdkS25FZVBSYUs3WWx0N2dDSC0xVHM1UUozMG9PdWdqUlhPcExKQ0syZkJuUHZFWElvd1FnNmFNQmVGOFJsZjJmdU0yOVNGOEtzZERvRWlVTHpSZjJMT29Gbm8?oc=5",
+      "outlets": [
+        "Pandaily",
+        "Tech in Asia",
+        "Asia Business Outlook"
+      ],
+      "reports": 3,
+      "at": "2026-11-05T04:35:43.000Z"
+    },
+    {
       "id": "baidu:fb98b589e43e33",
       "lab": "baidu",
       "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
@@ -499,6 +524,18 @@
       ],
       "reports": 2,
       "at": "2026-11-05T12:10:14.000Z"
+    },
+    {
+      "id": "baidu:5204084b47b23d",
+      "lab": "baidu",
+      "title": "Baidu Releases ERNIE 5.5 Flash Base for Further Training",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcnIzTU5VV3Q3Y3g1dlZOU29iQmVDRDk3WHdTRExYcW9LVTVUZndGOFMtZzRWRWZnWGl6bDVtaGEyMTk0dm1YSE9mZHNTajk1d19kVmNBcFhWWWtqMVoxRUxmajc2NzNUMGM4b3paRlVCQzhLSXE5MF9RYjlMcEhUWk9HSFg?oc=5",
+      "outlets": [
+        "Unite.AI",
+        "www.tokenpost.com"
+      ],
+      "reports": 2,
+      "at": "2026-11-05T10:25:04.000Z"
     }
   ]
 }

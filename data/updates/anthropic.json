@@ -1,5 +1,63 @@
 [
   {
+    "id": "6876eccd108f30e8",
+    "lab": "anthropic",
+    "title": "Claude Agent SDK (Python) v0.2.179",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.179",
+    "sourceId": "anthropic-agent-sdk",
+    "sourceName": "GitHub · anthropics/claude-agent-sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T17:57:35.000Z",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z",
+    "updatedAt": "2026-11-06T17:57:35.000Z",
+    "excerpt": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.179/ pip install claude-agent-sdk==0.2.179",
+    "summary": "Anthropic shipped Claude Agent SDK (Python) v0.2.179 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 25,
+    "contentHash": "95354220e2fd",
+    "meta": {
+      "version": "v0.2.179",
+      "semver": "patch",
+      "repo": "anthropics/claude-agent-sdk-python"
+    }
+  },
+  {
+    "id": "df1346203ff05601",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.319",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T17:04:01.000Z",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z",
+    "updatedAt": "2026-11-06T17:04:01.000Z",
+    "excerpt": "What's changed Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built-in classifier; set CLAUDE_CODE_AUTO_MODE_SERVER=0 to keep using it (Bedrock, Vertex and Foundry are unchanged) Changed auto mode behind an LLM gateway: CLAUDE_CODE_AUTO_MODE_SERVER=1 turns on the server-side check even with…",
+    "summary": "Anthropic shipped Claude Code v2.1.319 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "030fad33ce3c",
+    "meta": {
+      "version": "v2.1.319",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "00183b004892f2d6",
     "lab": "anthropic",
     "title": "Introducing Personal Finance in Claude",
@@ -2028,7 +2086,7 @@
     "verified": true,
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-11-06T11:05:12.287Z",
+    "updatedAt": "2026-11-06T19:30:37.124Z",
     "excerpt": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "summary": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -2163,7 +2221,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-11-06T11:05:12.287Z",
+    "updatedAt": "2026-11-06T19:30:37.124Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
@@ -2556,7 +2614,7 @@
     "verified": true,
     "publishedAt": "2026-09-28T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-11-06T11:05:12.287Z",
+    "updatedAt": "2026-11-06T19:30:37.124Z",
     "excerpt": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
     "summary": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",

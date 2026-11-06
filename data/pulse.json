@@ -11,6 +11,17 @@
     "firstSeenAt": "2026-11-02T19:34:59.949Z"
   },
   {
+    "id": "50385272",
+    "title": "Claude Code sends your email address to websites",
+    "url": "https://github.com/anthropics/claude-code/issues/107757",
+    "hnUrl": "https://news.ycombinator.com/item?id=50385272",
+    "points": 1520,
+    "comments": 478,
+    "at": "2026-11-05T22:17:15Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-06T01:37:07.071Z"
+  },
+  {
     "id": "50354960",
     "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
     "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
@@ -19,17 +30,6 @@
     "comments": 492,
     "at": "2026-11-03T17:22:37Z",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
-  },
-  {
-    "id": "50385272",
-    "title": "Claude Code sends your email address to websites",
-    "url": "https://github.com/anthropics/claude-code/issues/107757",
-    "hnUrl": "https://news.ycombinator.com/item?id=50385272",
-    "points": 1188,
-    "comments": 377,
-    "at": "2026-11-05T22:17:15Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-06T01:37:07.071Z"
   },
   {
     "id": "50351111",
@@ -58,30 +58,19 @@
     "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
     "url": "https://news.ycombinator.com/item?id=50363461",
     "hnUrl": "https://news.ycombinator.com/item?id=50363461",
-    "points": 717,
-    "comments": 193,
+    "points": 722,
+    "comments": 197,
     "at": "2026-11-04T10:10:27Z",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
-  },
-  {
-    "id": "50302334",
-    "title": "Backdoors in official Claude Code extensions",
-    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-    "hnUrl": "https://news.ycombinator.com/item?id=50302334",
-    "points": 661,
-    "comments": 17,
-    "at": "2026-10-30T11:05:53Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
   {
     "id": "50366999",
     "title": "Kimi K3.1 Pro model weights are out",
     "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
     "hnUrl": "https://news.ycombinator.com/item?id=50366999",
-    "points": 631,
-    "comments": 187,
+    "points": 633,
+    "comments": 189,
     "at": "2026-11-04T15:30:30Z",
     "lab": "moonshot",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
@@ -92,10 +81,20 @@
     "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
     "hnUrl": "https://news.ycombinator.com/item?id=50362905",
     "points": 614,
-    "comments": 287,
+    "comments": 289,
     "at": "2026-11-04T08:46:29Z",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
+    "id": "50366117",
+    "title": "Ask HN: What's your current AI agentic setup?",
+    "url": "https://news.ycombinator.com/item?id=50366117",
+    "hnUrl": "https://news.ycombinator.com/item?id=50366117",
+    "points": 537,
+    "comments": 670,
+    "at": "2026-11-04T14:37:22Z",
+    "firstSeenAt": "2026-11-04T19:52:01.415Z"
   },
   {
     "id": "50352757",
@@ -107,16 +106,6 @@
     "at": "2026-11-03T14:53:41Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
-  },
-  {
-    "id": "50366117",
-    "title": "Ask HN: What's your current AI agentic setup?",
-    "url": "https://news.ycombinator.com/item?id=50366117",
-    "hnUrl": "https://news.ycombinator.com/item?id=50366117",
-    "points": 525,
-    "comments": 649,
-    "at": "2026-11-04T14:37:22Z",
-    "firstSeenAt": "2026-11-04T19:52:01.415Z"
   },
   {
     "id": "50319358",
@@ -134,8 +123,8 @@
     "title": "A thousand fewer paths to root",
     "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
     "hnUrl": "https://news.ycombinator.com/item?id=50372929",
-    "points": 481,
-    "comments": 359,
+    "points": 486,
+    "comments": 361,
     "at": "2026-11-04T23:33:14Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-05T01:30:16.249Z"
@@ -167,7 +156,7 @@
     "url": "https://openai.com/index/introducing-images-2-6/",
     "hnUrl": "https://news.ycombinator.com/item?id=50372945",
     "points": 381,
-    "comments": 233,
+    "comments": 236,
     "at": "2026-11-04T23:35:44Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-05T01:30:16.249Z"
@@ -199,33 +188,11 @@
     "title": "GPT-6 Astra covertly underperforms on safety research",
     "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
     "hnUrl": "https://news.ycombinator.com/item?id=50376313",
-    "points": 328,
-    "comments": 179,
+    "points": 339,
+    "comments": 189,
     "at": "2026-11-05T07:44:30Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
-  },
-  {
-    "id": "50307219",
-    "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
-    "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
-    "hnUrl": "https://news.ycombinator.com/item?id=50307219",
-    "points": 324,
-    "comments": 293,
-    "at": "2026-10-30T17:27:25Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-30T22:27:19.130Z"
-  },
-  {
-    "id": "50306442",
-    "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-    "url": "https://github.com/dbreunig/nesformer",
-    "hnUrl": "https://news.ycombinator.com/item?id=50306442",
-    "points": 292,
-    "comments": 150,
-    "at": "2026-10-30T16:40:22Z",
-    "lab": "qwen",
-    "firstSeenAt": "2026-10-30T18:04:10.825Z"
   },
   {
     "id": "50348962",
@@ -250,11 +217,21 @@
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
   },
   {
+    "id": "50368208",
+    "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "hnUrl": "https://news.ycombinator.com/item?id=50368208",
+    "points": 266,
+    "comments": 29,
+    "at": "2026-11-04T16:45:11Z",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z"
+  },
+  {
     "id": "50366863",
     "title": "OpenAI to acquire Pierre Computer Company",
     "url": "https://openai.com/index/openai-to-acquire-pierre/",
     "hnUrl": "https://news.ycombinator.com/item?id=50366863",
-    "points": 262,
+    "points": 263,
     "comments": 92,
     "at": "2026-11-04T15:21:21Z",
     "lab": "openai",
@@ -293,14 +270,15 @@
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
   },
   {
-    "id": "50368208",
-    "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
-    "url": "https://www.linum.ai/field-notes/pjit-21k",
-    "hnUrl": "https://news.ycombinator.com/item?id=50368208",
-    "points": 235,
-    "comments": 22,
-    "at": "2026-11-04T16:45:11Z",
-    "firstSeenAt": "2026-11-05T20:04:26.298Z"
+    "id": "50392118",
+    "title": "Gemini Omni 1.2 Flash",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50392118",
+    "points": 237,
+    "comments": 188,
+    "at": "2026-11-06T13:35:27Z",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
     "id": "50320588",
@@ -369,6 +347,17 @@
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
   {
+    "id": "50381033",
+    "title": "My psychophysics as a bilateral cochlear implant user",
+    "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+    "hnUrl": "https://news.ycombinator.com/item?id=50381033",
+    "points": 184,
+    "comments": 90,
+    "at": "2026-11-05T16:21:12Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z"
+  },
+  {
     "id": "50325662",
     "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
@@ -377,17 +366,6 @@
     "comments": 90,
     "at": "2026-11-01T13:47:24Z",
     "firstSeenAt": "2026-11-01T22:10:15.829Z"
-  },
-  {
-    "id": "50381033",
-    "title": "My psychophysics as a bilateral cochlear implant user",
-    "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
-    "hnUrl": "https://news.ycombinator.com/item?id=50381033",
-    "points": 180,
-    "comments": 83,
-    "at": "2026-11-05T16:21:12Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
   {
     "id": "50318871",
@@ -451,15 +429,45 @@
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
-    "id": "50304358",
-    "title": "Anthropic Cracking Down on Video Game Rewrites",
-    "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
-    "hnUrl": "https://news.ycombinator.com/item?id=50304358",
-    "points": 125,
-    "comments": 140,
-    "at": "2026-10-30T14:22:52Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-10-30T18:04:10.825Z"
+    "id": "50381687",
+    "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+    "url": "https://github.com/rivet-dev/rivet",
+    "hnUrl": "https://news.ycombinator.com/item?id=50381687",
+    "points": 117,
+    "comments": 58,
+    "at": "2026-11-05T17:17:42Z",
+    "firstSeenAt": "2026-11-06T01:37:07.071Z"
+  },
+  {
+    "id": "50387738",
+    "title": "Nvidia Kubernetes Engine (NVKE)",
+    "url": "https://github.com/dsx-ai-factory/nvke",
+    "hnUrl": "https://news.ycombinator.com/item?id=50387738",
+    "points": 117,
+    "comments": 26,
+    "at": "2026-11-06T03:16:26Z",
+    "lab": "nvidia",
+    "firstSeenAt": "2026-11-06T11:05:12.287Z"
+  },
+  {
+    "id": "50368804",
+    "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+    "url": "https://news.ycombinator.com/item?id=50368804",
+    "hnUrl": "https://news.ycombinator.com/item?id=50368804",
+    "points": 108,
+    "comments": 36,
+    "at": "2026-11-04T17:31:53Z",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z"
+  },
+  {
+    "id": "50366971",
+    "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+    "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50366971",
+    "points": 108,
+    "comments": 173,
+    "at": "2026-11-04T15:28:31Z",
+    "firstSeenAt": "2026-11-05T01:30:16.249Z"
   },
   {
     "id": "50351463",
@@ -493,26 +501,6 @@
     "firstSeenAt": "2026-11-03T00:04:55.286Z"
   },
   {
-    "id": "50368804",
-    "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
-    "url": "https://news.ycombinator.com/item?id=50368804",
-    "hnUrl": "https://news.ycombinator.com/item?id=50368804",
-    "points": 106,
-    "comments": 35,
-    "at": "2026-11-04T17:31:53Z",
-    "firstSeenAt": "2026-11-05T01:30:16.249Z"
-  },
-  {
-    "id": "50366971",
-    "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-    "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50366971",
-    "points": 106,
-    "comments": 172,
-    "at": "2026-11-04T15:28:31Z",
-    "firstSeenAt": "2026-11-05T01:30:16.249Z"
-  },
-  {
     "id": "50311311",
     "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
     "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
@@ -524,17 +512,6 @@
     "firstSeenAt": "2026-10-31T05:55:30.561Z"
   },
   {
-    "id": "50305797",
-    "title": "Sam Altman Thinks You're Wasting DRAM",
-    "url": "https://frvr.com/blog/news/openai-ceo-sam-altman-says-its-terrible-to-have-everybody-have-a-bunch-of-the-worlds-limited-supply-of-dram-instead-of-shoving-it-all-in-datacentres/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50305797",
-    "points": 103,
-    "comments": 115,
-    "at": "2026-10-30T15:58:39Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-10-31T00:01:49.750Z"
-  },
-  {
     "id": "50332086",
     "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
     "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
@@ -543,16 +520,6 @@
     "comments": 117,
     "at": "2026-11-02T01:47:07Z",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
-  },
-  {
-    "id": "50381687",
-    "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
-    "url": "https://github.com/rivet-dev/rivet",
-    "hnUrl": "https://news.ycombinator.com/item?id=50381687",
-    "points": 99,
-    "comments": 52,
-    "at": "2026-11-05T17:17:42Z",
-    "firstSeenAt": "2026-11-06T01:37:07.071Z"
   },
   {
     "id": "50383963",
@@ -588,12 +555,23 @@
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
   {
+    "id": "50395318",
+    "title": "Anthropic IPO valuation talks drop to $1.3T",
+    "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+    "hnUrl": "https://news.ycombinator.com/item?id=50395318",
+    "points": 92,
+    "comments": 1,
+    "at": "2026-11-06T17:21:15Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z"
+  },
+  {
     "id": "50386597",
     "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
     "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b%E2%80%99",
     "hnUrl": "https://news.ycombinator.com/item?id=50386597",
-    "points": 86,
-    "comments": 94,
+    "points": 89,
+    "comments": 103,
     "at": "2026-11-06T00:31:11Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-06T04:02:57.281Z"
@@ -630,17 +608,6 @@
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
   {
-    "id": "50387738",
-    "title": "Nvidia Kubernetes Engine (NVKE)",
-    "url": "https://github.com/dsx-ai-factory/nvke",
-    "hnUrl": "https://news.ycombinator.com/item?id=50387738",
-    "points": 83,
-    "comments": 22,
-    "at": "2026-11-06T03:16:26Z",
-    "lab": "nvidia",
-    "firstSeenAt": "2026-11-06T11:05:12.287Z"
-  },
-  {
     "id": "50330253",
     "title": "So I guess everyone uses LLMs to think now",
     "url": "https://eva.ac/blog/llms/",
@@ -649,6 +616,17 @@
     "comments": 136,
     "at": "2026-11-01T21:49:04Z",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
+  },
+  {
+    "id": "50389990",
+    "title": "AI for scientific discovery: How researchers use Claude",
+    "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+    "hnUrl": "https://news.ycombinator.com/item?id=50389990",
+    "points": 77,
+    "comments": 31,
+    "at": "2026-11-06T09:13:30Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
     "id": "50315990",
@@ -715,5 +693,16 @@
     "at": "2026-11-01T10:28:22Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-02T06:21:53.387Z"
+  },
+  {
+    "id": "50394906",
+    "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+    "hnUrl": "https://news.ycombinator.com/item?id=50394906",
+    "points": 64,
+    "comments": 160,
+    "at": "2026-11-06T16:54:36Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z"
   }
 ]

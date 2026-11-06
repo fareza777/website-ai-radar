@@ -1,5 +1,51 @@
 [
   {
+    "id": "abbce93eef91017a",
+    "lab": "nvidia",
+    "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+    "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T18:03:26.000Z",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z",
+    "updatedAt": "2026-11-06T18:03:26.000Z",
+    "excerpt": "During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For... During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For training efficiency, it is common to run inference and training in parallel on separate GPU resources in a…",
+    "summary": "During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "3c93480c469f"
+  },
+  {
+    "id": "2b3eb4eb79de73e7",
+    "lab": "nvidia",
+    "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+    "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T16:00:35.000Z",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z",
+    "updatedAt": "2026-11-06T16:00:35.000Z",
+    "excerpt": "A year ago, NVIDIA open sourced its Aerial wireless software , joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless systems. Today, researchers and…",
+    "summary": "A year ago, NVIDIA open sourced its Aerial wireless software , joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "open-source"
+    ],
+    "importance": 40,
+    "contentHash": "055bc14f7e02"
+  },
+  {
     "id": "7eab5dddcfa7727d",
     "lab": "nvidia",
     "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
@@ -1718,7 +1764,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3066,
+      "likes": 3071,
       "downloads": 61049,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -1992,7 +2038,7 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 379,
+      "likes": 383,
       "downloads": 118294,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2936,7 +2982,7 @@
     "importance": 67,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 148,
+      "likes": 149,
       "downloads": 17686,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
@@ -3050,10 +3096,10 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 68,
+    "importance": 69,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 204,
+      "likes": 205,
       "downloads": 144654,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"

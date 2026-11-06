@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-07",
+    "generatedAt": "2026-11-06T19:30:37.124Z",
+    "stats": {
+      "updates24h": 20,
+      "labsActive24h": 8,
+      "updates7d": 128,
+      "newModels7d": 23
+    },
+    "source": "template",
+    "headline": "20 updates from 8 AI labs in the last 24 hours · 23 model releases this week.",
+    "bullets": [
+      {
+        "text": "Amazon: Announcing Web Answer on Amazon Bedrock AgentCore",
+        "itemId": "11c19e26e3d8fe80",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
+        "itemId": "bc2d0068f56d93e1",
+        "lab": "amazon"
+      },
+      {
+        "text": "Google DeepMind: Google GenAI SDK (Python) v3.0.0",
+        "itemId": "f6d3226a90fa9d2c",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "OpenAI: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+        "itemId": "bc8f9eac19663ff6",
+        "lab": "openai"
+      },
+      {
+        "text": "OpenAI: Measuring how AI agents handle everyday wet-lab science",
+        "itemId": "cfd4354afa14004f",
+        "lab": "openai"
+      },
+      {
+        "text": "NVIDIA: Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+        "itemId": "7eab5dddcfa7727d",
+        "lab": "nvidia"
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "generatedAt": "2026-11-06T11:05:12.287Z",
     "stats": {

@@ -6,7 +6,7 @@
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 58,
+    "upvotes": 82,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -18,10 +18,33 @@
     "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 54,
     "org": "sjut1",
     "githubRepo": "https://github.com/DeepExperience/Harness-S",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
+  },
+  {
+    "id": "2611.00883",
+    "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+    "url": "https://huggingface.co/papers/2611.00883",
+    "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger…",
+    "publishedAt": "2026-10-31T00:00:00.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 50,
+    "org": "carnegiemellonu",
+    "githubRepo": "https://github.com/George-Ling3/BestRand",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z"
+  },
+  {
+    "id": "2611.08373",
+    "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+    "url": "https://huggingface.co/papers/2611.08373",
+    "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore…",
+    "publishedAt": "2026-11-05T00:00:00.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 48,
+    "org": "hkustgz",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
     "id": "2611.08089",
@@ -30,11 +53,23 @@
     "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled. Existing analyses count how often an expert is selected on domain-labeled corpora, an instrument that fixes the taxonomy in advance, stays coarse, and records selection rather than contribution. We instead study specialization in feature space by training a sparse autoencoder…",
     "publishedAt": "2026-11-05T14:35:08.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 3,
+    "upvotes": 5,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "githubRepo": "https://github.com/ByteDance-Seed/SAE-interprets-MoE",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
+  },
+  {
+    "id": "2611.08376",
+    "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+    "url": "https://huggingface.co/papers/2611.08376",
+    "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank erase and write gates. However, we show that state updates are far less sensitive to…",
+    "publishedAt": "2026-11-05T17:53:49.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 4,
+    "org": "google",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
     "id": "2611.06728",
@@ -43,7 +78,7 @@
     "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 86,
+    "upvotes": 87,
     "org": null,
     "githubRepo": "https://github.com/XD111ds/turn-wise-rl",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
@@ -55,7 +90,7 @@
     "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual…",
     "publishedAt": "2026-11-04T18:59:58.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 57,
+    "upvotes": 58,
     "org": "mmlab-ntu",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
   },
@@ -66,7 +101,7 @@
     "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 53,
     "org": "benchflow",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
@@ -90,7 +125,7 @@
     "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multiple teachers. Although prior work reports near-perfect in-distribution (IND) distillation performance, we find that this can mask incomplete capability consolidation beyond the supervised distribution. A preliminary study on synthetic reasoning shows that OPD does not fully transfer teachers'…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 19,
+    "upvotes": 20,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
@@ -102,7 +137,7 @@
     "summary": "Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token generation. Advanced SD methods reduce proposal cost with parallel drafters that predict entire blocks in one forward pass, but overall speedup still depends on acceptance length. On-policy distillation (OPD) can push well-trained drafters beyond acceptance-length plateaus, yet conventional…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 13,
+    "upvotes": 14,
     "org": "qwen",
     "lab": "qwen",
     "githubRepo": "https://github.com/QwenApp/SpecOPD",
@@ -128,7 +163,7 @@
     "summary": "A robot generalist must interpret a scene, act on it, and satisfy every condition of a task. How far do frontier vision-language models (VLMs) meet these demands? We introduce Embodied Agent Arena, evaluating ten VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. Its 1,000 cases combine 32 established sources with GeoProbe, our 168-case benchmark for camera, motion, depth…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 104,
+    "upvotes": 105,
     "org": null,
     "githubRepo": "https://github.com/embodied-agent-arena/embodied-agent-arena",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
@@ -176,7 +211,7 @@
     "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 68,
+    "upvotes": 71,
     "org": "klingteam",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
@@ -200,7 +235,7 @@
     "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 57,
     "org": "kaist-ai",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
@@ -211,7 +246,7 @@
     "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluates five…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 48,
+    "upvotes": 49,
     "org": "huggingface",
     "githubRepo": "https://github.com/RoboColosseum/robocolosseum-client",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
@@ -239,6 +274,18 @@
     "org": "kaist-ai",
     "githubRepo": "https://github.com/cvlab-kaist/FactEmbed",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
+  },
+  {
+    "id": "2611.05036",
+    "title": "ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+    "url": "https://huggingface.co/papers/2611.05036",
+    "summary": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "ruc",
+    "githubRepo": "https://github.com/dongguanting/ToolSpace",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
     "id": "2611.03634",
@@ -331,7 +378,7 @@
     "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF)…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 124,
+    "upvotes": 125,
     "org": "sjtu-deng-lab",
     "githubRepo": "https://github.com/SJTU-DENG-Lab/WaveForcing",
     "firstSeenAt": "2026-11-03T06:57:22.155Z"

@@ -1,5 +1,32 @@
 [
   {
+    "id": "9ce19b78e25144b9",
+    "lab": "tencent",
+    "title": "FlashTopK",
+    "url": "https://github.com/Tencent-Hunyuan/FlashTopK",
+    "sourceId": "hunyuan-gh",
+    "sourceName": "GitHub · Tencent-Hunyuan (new repos)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T10:38:09.000Z",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z",
+    "updatedAt": "2026-11-05T10:38:09.000Z",
+    "excerpt": "Fast, exact fused top-k selection for learned sparse attention training and inference, from HyScale (Tencent Hunyuan).",
+    "summary": "Tencent created a new public repository: FlashTopK.",
+    "benefit": "A new open-source project from this lab that you can study or use right away.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 30,
+    "contentHash": "ea7aa1d17403",
+    "meta": {
+      "stars": 7,
+      "repo": "Tencent-Hunyuan/FlashTopK",
+      "language": "Python"
+    }
+  },
+  {
     "id": "a68de83a8d887919",
     "lab": "tencent",
     "title": "EmoReward",
@@ -23,7 +50,7 @@
     "importance": 34,
     "contentHash": "dec8e1ddc0bc",
     "meta": {
-      "stars": 32,
+      "stars": 33,
       "repo": "Tencent-Hunyuan/EmoReward",
       "language": "Python"
     }
@@ -325,7 +352,7 @@
     "importance": 45,
     "contentHash": "f84bba9f37d6",
     "meta": {
-      "stars": 1984,
+      "stars": 1988,
       "repo": "Tencent-Hunyuan/Hy-Memory",
       "language": "Python"
     }
@@ -354,7 +381,7 @@
     "importance": 70,
     "contentHash": "d780f7f18b0b",
     "meta": {
-      "likes": 323,
+      "likes": 324,
       "downloads": 6754,
       "repo": "tencent/Hy-Memory-30B-A3B",
       "pipeline": "text-generation",
