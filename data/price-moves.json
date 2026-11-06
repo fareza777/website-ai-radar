@@ -1,5 +1,49 @@
 [
   {
+    "id": "bd24e3749b865650",
+    "modelId": "deepseek/deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "lab": "deepseek",
+    "at": "2026-11-06T11:05:12.287Z",
+    "field": "prompt",
+    "from": 0.2156,
+    "to": 0.44,
+    "change": 104.1
+  },
+  {
+    "id": "fe7100ccbf58b801",
+    "modelId": "deepseek/deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "lab": "deepseek",
+    "at": "2026-11-06T11:05:12.287Z",
+    "field": "completion",
+    "from": 0.6468,
+    "to": 1.32,
+    "change": 104.1
+  },
+  {
+    "id": "4744fbcdfc8102e1",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-11-06T11:05:12.287Z",
+    "field": "prompt",
+    "from": 1.6,
+    "to": 0.95526,
+    "change": -40.3
+  },
+  {
+    "id": "e9a9d681735d9b3b",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-11-06T11:05:12.287Z",
+    "field": "completion",
+    "from": 3.2,
+    "to": 1.91052,
+    "change": -40.3
+  },
+  {
     "id": "801705b2b37d91bf",
     "modelId": "reflection/beam-1.0-501b-a23b",
     "name": "Reflection: Beam 1.0 501B A23B",

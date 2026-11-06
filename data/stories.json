@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T04:02:57.281Z",
+  "generatedAt": "2026-11-06T11:05:12.287Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -28,15 +28,15 @@
         "shattered.io",
         "Neowin",
         "9to5Google",
-        "Engadget",
-        "The Verge",
-        "Technology Org",
-        "Wichita Eagle",
         "Reuters",
+        "Wichita Eagle",
+        "The Verge",
         "SiliconANGLE",
-        "Ticker News",
+        "Technology Org",
         "Yahoo! Finance Canada",
         "CyberSecurityNews",
+        "Engadget",
+        "Ticker News",
         "PCMag Middle East",
         "The National CIO Review",
         "PCMag",
@@ -61,6 +61,7 @@
         "Brave New Coin",
         "Barchart.com",
         "Yahoo Finance",
+        "gHacks",
         "EdTech Innovation Hub",
         "THE ELEC, Korea Electronics Industry Media",
         "qz.com"
@@ -102,6 +103,7 @@
         "The Indian Express",
         "trendingtopics.eu",
         "Idaho Statesman",
+        "Euronext Markets: Real-time Stock Market Data | live",
         "TOKENPOST",
         "International Business Times UK",
         "India Today",
@@ -118,39 +120,6 @@
       "importance": 68
     },
     {
-      "id": "nvidia:dc951ec9a66516",
-      "title": "Nvidia Nemotron 3.5 Transcribe Covers 40 Languages [2026]",
-      "entity": "Nemotron 3.5 Transcribe",
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 8,
-      "outlets": [
-        "https://tech-insider.org/",
-        "SQ Magazine",
-        "AI Insider",
-        "The Next Web",
-        "BigGo Finance",
-        "shattered.io",
-        "HackerNoon",
-        "TUN - The University Network",
-        "The Decoder",
-        "TradingView",
-        "MarkTechPost",
-        "OrcaRouter",
-        "Startup Fortune"
-      ],
-      "firstAt": "2026-10-27T10:01:39.000Z",
-      "lastAt": "2026-10-31T00:21:11.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3c5ckdnOGRzYm5UeGQwVkNjRE9HaTE3c1ZrUjJDWEtiZ3NSdEdROWZkYnlDNExDTERLX3hPNXEyOEZrLU05UmsycUNsVV8yS0RwVjRJeHhTLURrakJ1VDJta1pYQ3NzWWVyeEthYkVKN3dvV29SdjF6c3B4UFlJblE3dnV3VEpH?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:dc951ec9a66516"
-      },
-      "importance": 63
-    },
-    {
       "id": "baidu:c7eb7b8759594f",
       "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
       "entity": "ERNIE 5.5 Flash",
@@ -158,7 +127,7 @@
         "baidu"
       ],
       "official": 0,
-      "press": 7,
+      "press": 8,
       "outlets": [
         "OrcaRouter",
         "Startup Fortune",
@@ -169,16 +138,18 @@
         "Pandaily",
         "MarkTechPost",
         "news.lavx.hu",
-        "The Decoder"
+        "The Decoder",
+        "https://tech-insider.org/",
+        "shattered.io"
       ],
       "firstAt": "2026-11-05T06:31:44.000Z",
-      "lastAt": "2026-11-05T18:03:08.000Z",
+      "lastAt": "2026-11-06T04:58:28.000Z",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
       "lead": {
         "kind": "press",
         "id": "baidu:c7eb7b8759594f"
       },
-      "importance": 62
+      "importance": 63
     },
     {
       "id": "mistral:6f7d89d8ad3ee2",
@@ -212,6 +183,36 @@
       "importance": 62
     },
     {
+      "id": "nvidia:83c76c5b444a23",
+      "title": "Nvidia Releases Open Nemotron 3.5 Transcribe Model for 40 Languages",
+      "entity": "Nemotron 3.5 Transcribe",
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "The Decoder",
+        "TradingView",
+        "MarkTechPost",
+        "SQ Magazine",
+        "AI Insider",
+        "https://tech-insider.org/",
+        "The Next Web",
+        "shattered.io",
+        "OrcaRouter",
+        "Startup Fortune"
+      ],
+      "firstAt": "2026-10-28T15:51:11.000Z",
+      "lastAt": "2026-10-31T00:21:11.000Z",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kM2FUNzhEYVZyczlwQ3E3azQ1RExOdzlVeE1Ia0Fua19WbGNndGozSEFYT0ZSNDdTOTFhckI5djItR2Mtb2MwY3pCcHQ0ZDc5ZTUwQVg5RllDb0tmTDNCYkVKbXMxQ3F0akx4ejJ6eWRhaXdJLXc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:83c76c5b444a23"
+      },
+      "importance": 62
+    },
+    {
       "id": "mistral:c957a4e3299808",
       "title": "Orange unit signs deal to Mistral's latest AI cybersecurity model",
       "entity": null,
@@ -240,14 +241,14 @@
       "importance": 60
     },
     {
-      "id": "google-deepmind:911253fd2711c6",
-      "title": "Google’s Gemini 4 Argon may be more power than most users need",
+      "id": "google-deepmind:64d4dfa914cfe1",
+      "title": "8 examples of Gemini 4 Argon in action",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 8,
+      "press": 7,
       "outlets": [
         "Mezha.net",
         "shattered.io",
@@ -255,39 +256,38 @@
         "Pangram",
         "HackerNoon"
       ],
-      "firstAt": "2026-10-27T04:06:01.000Z",
+      "firstAt": "2026-10-27T15:25:27.000Z",
       "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSlZlcGtLX1pDVGtxTkNFMFBDa2RfMTlVekdVdXY2TzFydUJPaXFVekxsb2lua0VoU3pFd3d0WkxUZ0pBeF9PZkRyRGJzTFhmZkJGOXdQRUFQSk1iakVNZ0c3S0ZHWFIzZXJKNzctMFZTZHV5ZmZDRUJNcDFLWHFaVUNB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1udW1XRVU4S3p1eUxJR3RhcDE3UkJla0VRSlZBQmdxeEtzekFWUzVDenFDQ1pRZ2dibzNBV2cyS09YS3ktcjFEM1hQR0M0dEpQUF9wNGN0N1R5c0dUeG1XYy1MYzhoY0ZNc3VFVVRzdTVUa3ZNRmxmaHpQVmU?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:911253fd2711c6"
+        "id": "google-deepmind:64d4dfa914cfe1"
       },
       "importance": 57
     },
     {
-      "id": "qwen:9933b4eafbf740",
-      "title": "Alibaba's Qwen3.8-Flash-Next AI tried Beijing server contact during malware test",
-      "entity": "Qwen 3.8 Flash",
+      "id": "qwen:cf6f20342781bd",
+      "title": "Qwen4 Nears Launch as Alibaba's Open Source Promise Faces Real Doubt",
+      "entity": "Qwen 4",
       "labs": [
         "qwen"
       ],
       "official": 0,
-      "press": 5,
+      "press": 3,
       "outlets": [
-        "NewsBytes",
-        "NewsCord",
-        "LatestLY",
-        "XDA",
-        "Medium"
+        "Pasquale Pillitteri",
+        "Startup Fortune",
+        "shattered.io",
+        "Fello AI"
       ],
-      "firstAt": "2026-10-27T04:52:30.000Z",
-      "lastAt": "2026-10-31T12:51:29.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTFRqOFpDWE5yU0lma1QzdWo5SERhdW5IeTRLeVg3QVVHSWdoRGhkOWhyTmk0ekE2U0tJVmo0MHJKMTdLR01leklIZFZabEVhRW53eHVhVDAydEFmenUxYTVOZFlBUkswT0dlZmYxMnFkQVlpZ2dxZWUxZ192RHRqQWRiMEZpSVRteDZNMU9ISUhWczllNWRWZkxTT2FCSVUxb0YzTEk1WEhJeXUxOHlfQWJpWUoyc2Q2UHgwUW9NWl9ja00?oc=5",
+      "firstAt": "2026-10-29T16:00:37.000Z",
+      "lastAt": "2026-11-06T06:08:16.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUY4dlZhejFkcml1SDgzR0UxQUo0WS1IdXRCRXJyeVdjZDlEenplR3JIQmc4THVtd0RZdmVsUUhZbDVKOURRM1l0UThUbWU2a05BbkQ1SFhmaFEwUWVTdDl0WXQ1RnFhNkl2M0U5QV9tNlFyMVVsMzJvQ2g2WWRtbEIwQlJyeC1qOG5pVFRGWE1CWndFblNMUVN3dw?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:9933b4eafbf740"
+        "id": "qwen:cf6f20342781bd"
       },
-      "importance": 57
+      "importance": 56
     },
     {
       "id": "ibm:5446c7035cbb10",
@@ -314,43 +314,55 @@
     "entities": [
       {
         "name": "ERNIE 5.5 Flash",
-        "count": 14,
+        "count": 16,
         "prev": 0,
         "labs": []
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 8,
-        "prev": 10,
-        "labs": []
-      },
-      {
-        "name": "GPT 6 Astra",
-        "count": 6,
-        "prev": 14,
-        "labs": [
-          "openai"
-        ]
-      },
-      {
         "name": "Gemini 4 Carbon",
-        "count": 6,
-        "prev": 34,
+        "count": 8,
+        "prev": 33,
         "labs": [
           "google-deepmind"
         ]
       },
       {
-        "name": "Mistral Large 4",
+        "name": "Gemini 4 Argon",
+        "count": 6,
+        "prev": 12,
+        "labs": []
+      },
+      {
+        "name": "DeepSeek 4.1 Flash",
+        "count": 4,
+        "prev": 2,
+        "labs": []
+      },
+      {
+        "name": "GPT 6 Astra",
+        "count": 4,
+        "prev": 16,
+        "labs": [
+          "openai"
+        ]
+      },
+      {
+        "name": "GLM 5.3",
         "count": 3,
-        "prev": 8,
+        "prev": 3,
+        "labs": []
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "count": 3,
+        "prev": 3,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 49,
+        "count": 50,
         "prev": 31,
         "labs": [
           "anthropic",
@@ -360,16 +372,16 @@
           "qwen",
           "minimax",
           "mistral",
+          "microsoft",
           "amazon",
           "bytedance",
-          "microsoft",
           "nvidia",
           "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 37,
+        "count": 36,
         "prev": 36,
         "labs": [
           "anthropic",
@@ -379,19 +391,19 @@
           "minimax",
           "mistral",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "nvidia",
           "ibm"
         ]
       },
       {
         "name": "safety",
-        "count": 11,
-        "prev": 7,
+        "count": 10,
+        "prev": 8,
         "labs": [
-          "xai",
           "anthropic",
+          "xai",
           "openai",
           "amazon"
         ]
@@ -399,24 +411,24 @@
       {
         "name": "multimodal",
         "count": 10,
-        "prev": 10,
+        "prev": 8,
         "labs": [
           "google-deepmind",
           "openai",
           "moonshot",
           "mistral",
-          "tencent",
           "baidu",
-          "amazon",
+          "tencent",
           "microsoft",
+          "amazon",
           "nvidia",
           "ibm"
         ]
       },
       {
         "name": "rag",
-        "count": 10,
-        "prev": 2,
+        "count": 9,
+        "prev": 3,
         "labs": [
           "meta",
           "cohere",
@@ -428,7 +440,7 @@
       {
         "name": "reasoning",
         "count": 2,
-        "prev": 4,
+        "prev": 3,
         "labs": [
           "openai",
           "mistral",

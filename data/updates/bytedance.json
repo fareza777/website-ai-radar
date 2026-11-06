@@ -1,5 +1,39 @@
 [
   {
+    "id": "1fa20a1d5c82e207",
+    "lab": "bytedance",
+    "title": "Cola2",
+    "url": "https://github.com/ByteDance-Seed/Cola2",
+    "sourceId": "bytedance-seed-gh",
+    "sourceName": "GitHub · ByteDance-Seed (new repos)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T03:37:50.000Z",
+    "firstSeenAt": "2026-11-06T11:05:12.287Z",
+    "updatedAt": "2026-11-06T03:37:50.000Z",
+    "excerpt": "",
+    "summary": "ByteDance Seed created a new public repository: Cola2.",
+    "benefit": "A new open-source project from this lab that you can study or use right away.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 28,
+    "contentHash": "422a887e2ad3",
+    "meta": {
+      "stars": 2,
+      "repo": "ByteDance-Seed/Cola2",
+      "language": "Python"
+    },
+    "seenIn": [
+      {
+        "sourceId": "bytedance-seed-hf",
+        "sourceName": "Hugging Face · ByteDance-Seed",
+        "url": "https://huggingface.co/ByteDance-Seed/Cola2"
+      }
+    ]
+  },
+  {
     "id": "9c5ca6b71a827505",
     "lab": "bytedance",
     "title": "Qwen3-30B-A3B-MoE-SAE",
@@ -48,10 +82,10 @@
     "summarySource": "template",
     "category": "developer",
     "tags": [],
-    "importance": 27,
+    "importance": 28,
     "contentHash": "c91c63342d19",
     "meta": {
-      "stars": 1,
+      "stars": 2,
       "repo": "ByteDance-Seed/SAE-interprets-MoE",
       "language": "Python"
     }
@@ -79,7 +113,7 @@
     "contentHash": "e75fe167a390",
     "meta": {
       "likes": 5,
-      "downloads": 0,
+      "downloads": 290,
       "repo": "ByteDance-Seed/Cross-Layer-TopK-CLT",
       "license": "apache-2.0"
     }
@@ -133,10 +167,10 @@
     "summarySource": "template",
     "category": "developer",
     "tags": [],
-    "importance": 31,
+    "importance": 32,
     "contentHash": "d3699db29f23",
     "meta": {
-      "stars": 11,
+      "stars": 12,
       "repo": "ByteDance-Seed/GenFirst",
       "language": "Python"
     },

@@ -1,12 +1,49 @@
 [
   {
+    "id": "2611.08449",
+    "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+    "url": "https://huggingface.co/papers/2611.08449",
+    "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
+    "publishedAt": "2026-11-05T00:00:00.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 58,
+    "org": "nvidia",
+    "lab": "nvidia",
+    "firstSeenAt": "2026-11-06T11:05:12.287Z"
+  },
+  {
+    "id": "2611.04277",
+    "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+    "url": "https://huggingface.co/papers/2611.04277",
+    "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 45,
+    "org": "sjut1",
+    "githubRepo": "https://github.com/DeepExperience/Harness-S",
+    "firstSeenAt": "2026-11-06T11:05:12.287Z"
+  },
+  {
+    "id": "2611.08089",
+    "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+    "url": "https://huggingface.co/papers/2611.08089",
+    "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled. Existing analyses count how often an expert is selected on domain-labeled corpora, an instrument that fixes the taxonomy in advance, stays coarse, and records selection rather than contribution. We instead study specialization in feature space by training a sparse autoencoder…",
+    "publishedAt": "2026-11-05T14:35:08.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 3,
+    "org": "bytedance-seed",
+    "lab": "bytedance",
+    "githubRepo": "https://github.com/ByteDance-Seed/SAE-interprets-MoE",
+    "firstSeenAt": "2026-11-06T11:05:12.287Z"
+  },
+  {
     "id": "2611.06728",
     "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
     "url": "https://huggingface.co/papers/2611.06728",
     "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 83,
+    "upvotes": 86,
     "org": null,
     "githubRepo": "https://github.com/XD111ds/turn-wise-rl",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
@@ -18,7 +55,7 @@
     "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual…",
     "publishedAt": "2026-11-04T18:59:58.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 56,
+    "upvotes": 57,
     "org": "mmlab-ntu",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
   },
@@ -29,7 +66,7 @@
     "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 48,
+    "upvotes": 50,
     "org": "benchflow",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
@@ -53,7 +90,7 @@
     "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multiple teachers. Although prior work reports near-perfect in-distribution (IND) distillation performance, we find that this can mask incomplete capability consolidation beyond the supervised distribution. A preliminary study on synthetic reasoning shows that OPD does not fully transfer teachers'…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 19,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
@@ -78,7 +115,7 @@
     "summary": "Video dubbing aims to synthesize lip movements that match target speech while preserving the speaker identity, head pose, and background of a source video. Existing editors are predominantly trained via self-reconstruction under original paired audio, even though the source mouth becomes a conflicting target when driving speech is replaced. We introduce replacement-aware cross-audio supervision: paired-audio samples…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 8,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/LAW1223/VidDub",
@@ -91,7 +128,7 @@
     "summary": "A robot generalist must interpret a scene, act on it, and satisfy every condition of a task. How far do frontier vision-language models (VLMs) meet these demands? We introduce Embodied Agent Arena, evaluating ten VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. Its 1,000 cases combine 32 established sources with GeoProbe, our 168-case benchmark for camera, motion, depth…",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 89,
+    "upvotes": 104,
     "org": null,
     "githubRepo": "https://github.com/embodied-agent-arena/embodied-agent-arena",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
@@ -139,7 +176,7 @@
     "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 66,
+    "upvotes": 68,
     "org": "klingteam",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
@@ -163,7 +200,7 @@
     "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 54,
+    "upvotes": 55,
     "org": "kaist-ai",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
@@ -174,10 +211,22 @@
     "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluates five…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 48,
     "org": "huggingface",
     "githubRepo": "https://github.com/RoboColosseum/robocolosseum-client",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
+  },
+  {
+    "id": "2611.03233",
+    "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
+    "url": "https://huggingface.co/papers/2611.03233",
+    "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong…",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 48,
+    "org": null,
+    "githubRepo": "https://github.com/bytedance/axion1_0",
+    "firstSeenAt": "2026-11-05T04:03:40.474Z"
   },
   {
     "id": "2611.05193",
@@ -192,29 +241,29 @@
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
   },
   {
-    "id": "2611.03233",
-    "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
-    "url": "https://huggingface.co/papers/2611.03233",
-    "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong…",
-    "publishedAt": "2026-11-02T00:00:00.000Z",
-    "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 46,
-    "org": null,
-    "githubRepo": "https://github.com/bytedance/axion1_0",
-    "firstSeenAt": "2026-11-05T04:03:40.474Z"
-  },
-  {
     "id": "2611.03634",
     "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
     "url": "https://huggingface.co/papers/2611.03634",
     "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We propose WebHarbor, a suite of 153 executable and dockerized website…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 24,
+    "upvotes": 25,
     "org": "microsoft",
     "lab": "microsoft",
     "githubRepo": "https://github.com/aiming-lab/WebHarbor",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
+    "id": "2610.40747",
+    "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+    "url": "https://huggingface.co/papers/2610.40747",
+    "summary": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction…",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 19,
+    "org": "microsoft",
+    "lab": "microsoft",
+    "firstSeenAt": "2026-11-04T04:02:27.843Z"
   },
   {
     "id": "2611.02079",
@@ -229,25 +278,13 @@
     "firstSeenAt": "2026-11-04T04:02:27.843Z"
   },
   {
-    "id": "2610.40747",
-    "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
-    "url": "https://huggingface.co/papers/2610.40747",
-    "summary": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction…",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 18,
-    "org": "microsoft",
-    "lab": "microsoft",
-    "firstSeenAt": "2026-11-04T04:02:27.843Z"
-  },
-  {
     "id": "2611.05306",
     "title": "You don't need long context",
     "url": "https://huggingface.co/papers/2611.05306",
     "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 15,
+    "upvotes": 16,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
@@ -283,7 +320,7 @@
     "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 140,
+    "upvotes": 143,
     "org": "utexas",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
@@ -306,7 +343,7 @@
     "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for…",
     "publishedAt": "2026-11-02T14:15:11.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 100,
+    "upvotes": 101,
     "org": "ruc",
     "githubRepo": "https://github.com/RUC-NLPIR/CoworkOS",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
@@ -330,7 +367,7 @@
     "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context…",
     "publishedAt": "2026-10-29T14:47:39.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 77,
+    "upvotes": 78,
     "org": "videorebirthai",
     "githubRepo": "https://github.com/agentic-videogen/awesome-agentic-videogen",
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
