@@ -1,5 +1,38 @@
 [
   {
+    "id": "617fe481cc808302",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-06T01:37:07.071Z",
+    "field": "prompt",
+    "from": 0.115,
+    "to": 0.103,
+    "change": -10.4
+  },
+  {
+    "id": "94f7a3d181edf077",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-06T01:37:07.071Z",
+    "field": "completion",
+    "from": 4.6,
+    "to": 4.11,
+    "change": -10.7
+  },
+  {
+    "id": "84bccf78dd1a9ad6",
+    "modelId": "qwen/qwen3-next-80b-a3b-instruct",
+    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "lab": "qwen",
+    "at": "2026-11-06T01:37:07.071Z",
+    "field": "prompt",
+    "from": 0.1,
+    "to": 0.09,
+    "change": -10
+  },
+  {
     "id": "5fbe972fd83fc864",
     "modelId": "qwen/qwen3-235b-a22b-2507",
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",

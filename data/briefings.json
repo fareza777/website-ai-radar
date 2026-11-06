@@ -1,25 +1,25 @@
 [
   {
     "date": "2026-11-06",
-    "generatedAt": "2026-11-05T20:04:26.298Z",
+    "generatedAt": "2026-11-06T01:37:07.071Z",
     "stats": {
-      "updates24h": 22,
-      "labsActive24h": 10,
-      "updates7d": 122,
-      "newModels7d": 23
+      "updates24h": 24,
+      "labsActive24h": 9,
+      "updates7d": 126,
+      "newModels7d": 24
     },
     "source": "template",
-    "headline": "22 updates from 10 AI labs in the last 24 hours · 23 model releases this week.",
+    "headline": "24 updates from 9 AI labs in the last 24 hours · 24 model releases this week.",
     "bullets": [
-      {
-        "text": "Anthropic: Introducing Personal Finance in Claude",
-        "itemId": "00183b004892f2d6",
-        "lab": "anthropic"
-      },
       {
         "text": "ByteDance Seed: Qwen3-30B-A3B-MoE-SAE",
         "itemId": "9c5ca6b71a827505",
         "lab": "bytedance"
+      },
+      {
+        "text": "Amazon: Announcing Web Answer on Amazon Bedrock AgentCore",
+        "itemId": "11c19e26e3d8fe80",
+        "lab": "amazon"
       },
       {
         "text": "Google DeepMind: Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",

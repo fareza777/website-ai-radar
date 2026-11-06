@@ -6,7 +6,7 @@
     "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 65,
+    "upvotes": 83,
     "org": null,
     "githubRepo": "https://github.com/XD111ds/turn-wise-rl",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
@@ -18,7 +18,7 @@
     "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual…",
     "publishedAt": "2026-11-04T18:59:58.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 56,
     "org": "mmlab-ntu",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
   },
@@ -29,7 +29,7 @@
     "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 47,
     "org": "benchflow",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
@@ -47,29 +47,29 @@
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
   },
   {
-    "id": "2611.02846",
-    "title": "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
-    "url": "https://huggingface.co/papers/2611.02846",
-    "summary": "Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token generation. Advanced SD methods reduce proposal cost with parallel drafters that predict entire blocks in one forward pass, but overall speedup still depends on acceptance length. On-policy distillation (OPD) can push well-trained drafters beyond acceptance-length plateaus, yet conventional…",
-    "publishedAt": "2026-11-02T00:00:00.000Z",
-    "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 11,
-    "org": "qwen",
-    "lab": "qwen",
-    "githubRepo": "https://github.com/QwenApp/SpecOPD",
-    "firstSeenAt": "2026-11-05T04:03:40.474Z"
-  },
-  {
     "id": "2611.05609",
     "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
     "url": "https://huggingface.co/papers/2611.05609",
     "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multiple teachers. Although prior work reports near-perfect in-distribution (IND) distillation performance, we find that this can mask incomplete capability consolidation beyond the supervised distribution. A preliminary study on synthetic reasoning shows that OPD does not fully transfer teachers'…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 10,
+    "upvotes": 16,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
+  },
+  {
+    "id": "2611.02846",
+    "title": "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
+    "url": "https://huggingface.co/papers/2611.02846",
+    "summary": "Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token generation. Advanced SD methods reduce proposal cost with parallel drafters that predict entire blocks in one forward pass, but overall speedup still depends on acceptance length. On-policy distillation (OPD) can push well-trained drafters beyond acceptance-length plateaus, yet conventional…",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "submittedAt": "2026-11-05T00:00:00.000Z",
+    "upvotes": 13,
+    "org": "qwen",
+    "lab": "qwen",
+    "githubRepo": "https://github.com/QwenApp/SpecOPD",
+    "firstSeenAt": "2026-11-05T04:03:40.474Z"
   },
   {
     "id": "2611.03404",
@@ -78,7 +78,7 @@
     "summary": "Video dubbing aims to synthesize lip movements that match target speech while preserving the speaker identity, head pose, and background of a source video. Existing editors are predominantly trained via self-reconstruction under original paired audio, even though the source mouth becomes a conflicting target when driving speech is replaced. We introduce replacement-aware cross-audio supervision: paired-audio samples…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 7,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/LAW1223/VidDub",
@@ -103,10 +103,22 @@
     "summary": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, a psychotherapy…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 76,
+    "upvotes": 77,
     "org": "nextgenwhu",
     "githubRepo": "https://github.com/whunextgen/Pandora",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
+    "id": "2610.00854",
+    "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+    "url": "https://huggingface.co/papers/2610.00854",
+    "summary": "A robot generalist must interpret a scene, act on it, and satisfy every condition of a task. How far do frontier vision-language models (VLMs) meet these demands? We introduce Embodied Agent Arena, evaluating ten VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. Its 1,000 cases combine 32 established sources with GeoProbe, our 168-case benchmark for camera, motion, depth…",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 77,
+    "org": null,
+    "githubRepo": "https://github.com/embodied-agent-arena/embodied-agent-arena",
+    "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
   {
     "id": "2611.02737",
@@ -115,7 +127,7 @@
     "summary": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evaluation. To provide…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 73,
+    "upvotes": 74,
     "org": "adobe",
     "githubRepo": "https://github.com/adobe-research/MoviEdit-Bench",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
@@ -156,18 +168,6 @@
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
-    "id": "2610.00854",
-    "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
-    "url": "https://huggingface.co/papers/2610.00854",
-    "summary": "A robot generalist must interpret a scene, act on it, and satisfy every condition of a task. How far do frontier vision-language models (VLMs) meet these demands? We introduce Embodied Agent Arena, evaluating ten VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. Its 1,000 cases combine 32 established sources with GeoProbe, our 168-case benchmark for camera, motion, depth…",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 53,
-    "org": null,
-    "githubRepo": "https://github.com/embodied-agent-arena/embodied-agent-arena",
-    "firstSeenAt": "2026-11-05T20:04:26.298Z"
-  },
-  {
     "id": "2611.02497",
     "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
     "url": "https://huggingface.co/papers/2611.02497",
@@ -198,7 +198,7 @@
     "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 46,
     "org": null,
     "githubRepo": "https://github.com/bytedance/axion1_0",
     "firstSeenAt": "2026-11-05T04:03:40.474Z"
@@ -223,7 +223,7 @@
     "summary": "Harness optimization can substantially improve LLM agents without modifying model weights, but existing methods primarily optimize response quality. Extending them to joint quality--cost optimization introduces a challenge: applying the deployment preference during intermediate updates can prematurely reject candidates that are valuable for later improvements. We introduce ParetoSaddler, which addresses this…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 17,
+    "upvotes": 18,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-11-04T04:02:27.843Z"
@@ -235,7 +235,7 @@
     "summary": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 17,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-11-04T04:02:27.843Z"
@@ -247,7 +247,7 @@
     "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 10,
+    "upvotes": 15,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
@@ -259,7 +259,7 @@
     "summary": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets. Dory1.0-4B is built on a normalized Transformer (nGPT) backbone with interleaved sliding-window and full-attention layers, organized into an input block, a shared recurrent block, and an output block. At inference, the recurrent block can be…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 11,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
@@ -283,7 +283,7 @@
     "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 139,
+    "upvotes": 140,
     "org": "utexas",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },

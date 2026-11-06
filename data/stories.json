@@ -1,49 +1,6 @@
 {
-  "generatedAt": "2026-11-05T20:04:26.298Z",
+  "generatedAt": "2026-11-06T01:37:07.071Z",
   "stories": [
-    {
-      "id": "250e5d8f302445e7",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "openai",
-        "moonshot",
-        "deepseek",
-        "qwen"
-      ],
-      "official": 1,
-      "press": 9,
-      "outlets": [
-        "헤럴드경제",
-        "TechGig",
-        "ET Enterprise AI",
-        "联合早报",
-        "Reuters",
-        "shattered.io",
-        "Tekedia",
-        "Crypto Briefing",
-        "Techzine Global",
-        "WinBuzzer",
-        "NeoTeo",
-        "Times Of AI",
-        "The Indian Express",
-        "trendingtopics.eu",
-        "Idaho Statesman",
-        "TOKENPOST",
-        "International Business Times UK",
-        "India Today",
-        "YourStory.com",
-        "Dataconomy"
-      ],
-      "firstAt": "2026-10-26T22:00:00.000Z",
-      "lastAt": "2026-11-05T10:29:03.000Z",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "lead": {
-        "kind": "official",
-        "id": "250e5d8f302445e7"
-      },
-      "importance": 100
-    },
     {
       "id": "34b0bf3f94c3851e",
       "title": "Gemini 4 Carbon: Our next frontier model",
@@ -71,19 +28,19 @@
         "shattered.io",
         "Neowin",
         "9to5Google",
-        "Yahoo Tech",
+        "PCMag Middle East",
         "The National CIO Review",
-        "PCMag",
-        "The Verge",
         "Engadget",
+        "The Verge",
         "Technology Org",
-        "CyberSecurityNews",
+        "Ticker News",
+        "PCMag",
+        "Wichita Eagle",
         "Reuters",
         "SiliconANGLE",
+        "CyberSecurityNews",
         "Yahoo! Finance Canada",
-        "PCMag Middle East",
-        "Ticker News",
-        "Wichita Eagle",
+        "Yahoo Tech",
         "VentureBeat",
         "Anadolu Ajansı",
         "Türkiye Today",
@@ -116,6 +73,84 @@
         "id": "34b0bf3f94c3851e"
       },
       "importance": 100
+    },
+    {
+      "id": "moonshot:ee53a78dd464d6",
+      "title": "Moonshot AI and DeepSeek reportedly used OpenAI's GPT-6 Astra outputs to build new models",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "moonshot",
+        "deepseek",
+        "openai",
+        "qwen"
+      ],
+      "official": 0,
+      "press": 9,
+      "outlets": [
+        "헤럴드경제",
+        "TechGig",
+        "ET Enterprise AI",
+        "联合早报",
+        "Reuters",
+        "shattered.io",
+        "Tekedia",
+        "Crypto Briefing",
+        "Techzine Global",
+        "WinBuzzer",
+        "NeoTeo",
+        "Times Of AI",
+        "The Indian Express",
+        "trendingtopics.eu",
+        "Idaho Statesman",
+        "TOKENPOST",
+        "International Business Times UK",
+        "India Today",
+        "YourStory.com",
+        "Dataconomy"
+      ],
+      "firstAt": "2026-10-29T01:10:53.000Z",
+      "lastAt": "2026-11-05T10:29:03.000Z",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03ejdhUjVhcFFCc1dubkVqUjhCRmJiaWZMeE9zQnJsVHMwcGotYUhLYVZQbWVHRHcxeTN1R2d4Ymc5M19qc0Z5MktwYVpqSHl2SFh6M05xUWJsbkE3d3QtNi1uMVlRazNYOEJFc25LMWYxRDQ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "moonshot:ee53a78dd464d6"
+      },
+      "importance": 68
+    },
+    {
+      "id": "tencent:e7afc5f82bd621",
+      "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure",
+      "entity": null,
+      "labs": [
+        "tencent"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "NTD News",
+        "24/7 Wall St.",
+        "Vision Times",
+        "Reuters",
+        "Financial Times",
+        "TradingView",
+        "TIKR.com",
+        "The Economic Times",
+        "NewsBytes",
+        "Yahoo Finance",
+        "Moomoo",
+        "Investing.com",
+        "Euronext Markets: Real-time Stock Market Data | live",
+        "Global Banking & Finance Review",
+        "Pluang"
+      ],
+      "firstAt": "2026-11-04T05:00:45.000Z",
+      "lastAt": "2026-11-04T08:57:04.000Z",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAycHlsdGFnY196YkJJOUhqVjZ4OThWZ3c5SVJlbXpibGNUZHRaeHhORjQ0dlJ3TUZTS1hqbFZJQmp4ZVl4cXpXbnV3LXZ4UEJHQ3NSREd2ZEJpY2tOVWhia182UkZxbTBFSWk?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "tencent:e7afc5f82bd621"
+      },
+      "importance": 65
     },
     {
       "id": "nvidia:dc951ec9a66516",
@@ -182,6 +217,35 @@
       "importance": 62
     },
     {
+      "id": "baidu:fb98b589e43e33",
+      "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
+      "entity": "ERNIE 5.5 Flash",
+      "labs": [
+        "baidu"
+      ],
+      "official": 0,
+      "press": 8,
+      "outlets": [
+        "OrcaRouter",
+        "Startup Fortune",
+        "Unite.AI",
+        "AIBase",
+        "BigGo Finance",
+        "news.lavx.hu",
+        "MarkTechPost",
+        "The Decoder",
+        "XenoSpectrum"
+      ],
+      "firstAt": "2026-11-05T06:31:44.000Z",
+      "lastAt": "2026-11-06T00:45:10.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "baidu:fb98b589e43e33"
+      },
+      "importance": 61
+    },
+    {
       "id": "cohere:3da845eb6ca838",
       "title": "Alibaba Qwen AI model attempted to contact Beijing server, Cohere says",
       "entity": null,
@@ -211,6 +275,34 @@
       "importance": 61
     },
     {
+      "id": "cohere:11779f23f98d5f",
+      "title": "Qwen3.8-Flash-Next Tried a Beijing Upload, Cohere Says",
+      "entity": "Qwen 3.8 Flash",
+      "labs": [
+        "cohere",
+        "qwen"
+      ],
+      "official": 0,
+      "press": 6,
+      "outlets": [
+        "Pasquale Pillitteri",
+        "tech-insider.org",
+        "NewsBytes",
+        "NewsCord",
+        "LatestLY",
+        "XDA",
+        "Medium"
+      ],
+      "firstAt": "2026-10-27T02:01:21.000Z",
+      "lastAt": "2026-10-31T12:51:29.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkVobkxZWjdCNWQ0LThHTnVObmJkZkJMWVJoVDZvUF9nX2lQMXgtYUVwLWpVeDV1dEYwb28zYlpEdUM0Q3cxZFpoUWEwSm56VXNpVUZELXpuRGFUay1tNnN2dG9tUEJ6d3RCNkhfUkNhNXFIbzBTUTFaSkRBcE9WN25GMl9CcjEtTGc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "cohere:11779f23f98d5f"
+      },
+      "importance": 60
+    },
+    {
       "id": "mistral:c957a4e3299808",
       "title": "Orange unit signs deal to Mistral's latest AI cybersecurity model",
       "entity": null,
@@ -230,7 +322,7 @@
         "Mobile Europe"
       ],
       "firstAt": "2026-10-29T14:32:02.000Z",
-      "lastAt": "2026-10-29T14:37:28.000Z",
+      "lastAt": "2026-10-29T14:32:25.000Z",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWMwRU9NRlZaLTh5S2wtUEh0VVl1R3NlMk5TT1hXWEk0YUFENmZ3ME5HaGZSYUU2UEc0OHNpa0hXWXFlVEVPbjdKR3ExNjRrTWVfNHo2dXNMYTZfQ08yLWtTVkNDZUJ6RXJOM3VWSk5oOHRKZkg2aUxNV0VFak9CeW81SjJpU21OdUlwaVdiSWRNVGIyZjdoTFNvYS1IRWdUVHBVTlk0Q0pVZ0NQY3Ew?oc=5",
       "lead": {
         "kind": "press",
@@ -239,43 +331,15 @@
       "importance": 60
     },
     {
-      "id": "baidu:0a8db2a09ff83d",
-      "title": "ERNIE-5.5-Flash-Base: 280B open weights, tight licence",
-      "entity": "ERNIE 5.5 Flash",
-      "labs": [
-        "baidu"
-      ],
-      "official": 0,
-      "press": 7,
-      "outlets": [
-        "OrcaRouter",
-        "Startup Fortune",
-        "Unite.AI",
-        "AIBase",
-        "BigGo Finance",
-        "news.lavx.hu",
-        "The Decoder"
-      ],
-      "firstAt": "2026-11-05T06:31:44.000Z",
-      "lastAt": "2026-11-05T18:03:08.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Nd0dQMzB4dlpmcDlReWJVQXZHcUNPeXVmYmdnYlliZzdTdUpYWm1EOW5FblFZcTdrZld0dmhOcnRWZnYyVXJQQlNHOHE5cXE0LVNkTEZaUUdIdS0wUmdpVFhNOXZEVVU4QVlmUWcyTlBDMlU5Z0VCUV9mRGc?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "baidu:0a8db2a09ff83d"
-      },
-      "importance": 59
-    },
-    {
-      "id": "google-deepmind:62a9d2f2d63b99",
-      "title": "Google says Gemini 4 Argon ranks well behind Claude and GPT-6 for Android coding",
+      "id": "google-deepmind:af728b0cf267c9",
+      "title": "Google's Gemini 4 Argon is incredibly smart, but it might not affect you much",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 10,
+      "press": 9,
       "outlets": [
-        "9to5Google",
         "TechRadar",
         "Mezha.net",
         "shattered.io",
@@ -283,64 +347,14 @@
         "Pangram",
         "HackerNoon"
       ],
-      "firstAt": "2026-10-26T22:06:22.000Z",
+      "firstAt": "2026-10-27T04:00:00.000Z",
       "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16QW5PSFRuZllfaWVqVmRrWXM4Vk01LTc0VjZlalphQi1Ld2RodkN4cVpMZHB5dXRCME0wU2h1ckJmYnUxajVTcFk5MjlGWVVTSnBQNVZDbEdrTnY3Vmx2Y3RzeFcwa2VwazN1Y1NsbUUwM2FVT1pzcDR1Zno?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSXhERDNFS1ZEaVlrV0hId1BSTktrUEJzSWRxOGtSTEVwQzFLNjRqU25NUVU4aUhocUJDQ2pEQjBmYVpVd3RkdFBjSnNqMFBnTVBoZklTeHJpcjFCS0FvSDNkaWU4MG4yWEE4eTRsd0JNOHFyNDVwQ3Nva3dMd3Y1VnliMHRwaXlHS2ZXUEZFWEtTRzlFU1pNaUUxVEtyN2RlTHNHdTdBWk1QNkp6a2VWakR4UlBsd3FWdHpsZGx3LXJraFZmcjBYU1NwQlhvTnV6ajBDcjFpbE51UjgtT3Rrd1d3?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:62a9d2f2d63b99"
+        "id": "google-deepmind:af728b0cf267c9"
       },
-      "importance": 59
-    },
-    {
-      "id": "cohere:11779f23f98d5f",
-      "title": "Qwen3.8-Flash-Next Tried a Beijing Upload, Cohere Says",
-      "entity": "Qwen 3.8 Flash",
-      "labs": [
-        "cohere",
-        "qwen"
-      ],
-      "official": 0,
-      "press": 5,
-      "outlets": [
-        "Pasquale Pillitteri",
-        "tech-insider.org",
-        "NewsBytes",
-        "NewsCord",
-        "LatestLY",
-        "Medium"
-      ],
-      "firstAt": "2026-10-27T02:01:21.000Z",
-      "lastAt": "2026-10-31T12:51:29.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkVobkxZWjdCNWQ0LThHTnVObmJkZkJMWVJoVDZvUF9nX2lQMXgtYUVwLWpVeDV1dEYwb28zYlpEdUM0Q3cxZFpoUWEwSm56VXNpVUZELXpuRGFUay1tNnN2dG9tUEJ6d3RCNkhfUkNhNXFIbzBTUTFaSkRBcE9WN25GMl9CcjEtTGc?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:11779f23f98d5f"
-      },
-      "importance": 59
-    },
-    {
-      "id": "qwen:0b1a94538076a5",
-      "title": "“Concerning behaviour”: Cohere discovers Alibaba’s open-source Qwen3.8 model can send a diagnostic file to China unprompted",
-      "entity": "Qwen 3.8",
-      "labs": [
-        "qwen",
-        "cohere"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "BetaKit",
-        "XDA"
-      ],
-      "firstAt": "2026-10-26T20:04:49.000Z",
-      "lastAt": "2026-10-28T02:56:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLWVNdmJhWkozX3NUVXBCcUVGbFBjdldEaE83ckJ1b25MQmg2NEFvcWRiYXo1UVJEM1JhbkhTLXdDVUNFVVgyOW9zY0h0M0FKNlU2dklqUmxOUV8xVXVtOEJTa1JHNDBlOFd5NVpSNFYtVDFfU084bHk0YzlkekxxOENqVFlWdEgyazVVSHQwcENrQWpEU2R3NXJVRU9ZZHF1X2dCczN5STVHZkRfTm1SLVBHMXgtNkpWMmZuOEs1UVZROUtBVGE5YWlsYVY3S0x0ODY4akZ5RQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:0b1a94538076a5"
-      },
-      "importance": 54
+      "importance": 58
     },
     {
       "id": "ibm:5446c7035cbb10",
@@ -367,7 +381,7 @@
     "entities": [
       {
         "name": "ERNIE 5.5 Flash",
-        "count": 13,
+        "count": 14,
         "prev": 0,
         "labs": []
       },
@@ -375,12 +389,6 @@
         "name": "Gemini 4 Argon",
         "count": 8,
         "prev": 10,
-        "labs": []
-      },
-      {
-        "name": "Mistral Large 4",
-        "count": 6,
-        "prev": 5,
         "labs": []
       },
       {
@@ -398,20 +406,26 @@
         "labs": [
           "google-deepmind"
         ]
+      },
+      {
+        "name": "Mistral Large 4",
+        "count": 3,
+        "prev": 8,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 47,
-        "prev": 32,
+        "count": 49,
+        "prev": 30,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "qwen",
           "microsoft",
           "amazon",
@@ -422,14 +436,14 @@
       },
       {
         "name": "coding",
-        "count": 36,
-        "prev": 37,
+        "count": 38,
+        "prev": 35,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "qwen",
           "microsoft",
@@ -441,10 +455,10 @@
       {
         "name": "safety",
         "count": 11,
-        "prev": 9,
+        "prev": 7,
         "labs": [
-          "anthropic",
           "xai",
+          "anthropic",
           "openai",
           "amazon"
         ]
@@ -452,15 +466,15 @@
       {
         "name": "multimodal",
         "count": 9,
-        "prev": 11,
+        "prev": 10,
         "labs": [
           "google-deepmind",
           "openai",
           "moonshot",
           "mistral",
           "baidu",
-          "tencent",
           "microsoft",
+          "tencent",
           "amazon",
           "nvidia",
           "ibm"
@@ -468,23 +482,13 @@
       },
       {
         "name": "rag",
-        "count": 7,
+        "count": 9,
         "prev": 2,
         "labs": [
           "meta",
           "cohere",
           "amazon",
           "bytedance"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 2,
-        "prev": 2,
-        "labs": [
-          "anthropic",
-          "qwen",
-          "amazon"
         ]
       },
       {
@@ -505,14 +509,36 @@
         "prev": 4,
         "labs": [
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "amazon",
           "nvidia"
         ]
+      },
+      {
+        "name": "mcp",
+        "count": 2,
+        "prev": 1,
+        "labs": [
+          "qwen",
+          "amazon"
+        ]
       }
     ]
   },
-  "unconfirmed": []
+  "unconfirmed": [
+    {
+      "id": "baidu:fb98b589e43e33",
+      "lab": "baidu",
+      "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
+      "outlets": [
+        "news.lavx.hu",
+        "MarkTechPost"
+      ],
+      "reports": 2,
+      "at": "2026-11-05T12:10:14.000Z"
+    }
+  ]
 }

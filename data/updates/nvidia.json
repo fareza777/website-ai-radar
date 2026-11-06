@@ -1689,7 +1689,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3054,
+      "likes": 3058,
       "downloads": 57297,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -1963,7 +1963,7 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 376,
+      "likes": 378,
       "downloads": 107369,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2911,6 +2911,34 @@
       "downloads": 16933,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
+      "license": "openmdw-1.1"
+    }
+  },
+  {
+    "id": "3219f70826aa2382",
+    "lab": "nvidia",
+    "title": "EgoHand-v1",
+    "url": "https://huggingface.co/nvidia/EgoHand-v1",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-02T22:03:12.000Z",
+    "firstSeenAt": "2026-11-06T01:37:07.071Z",
+    "updatedAt": "2026-09-02T22:03:12.000Z",
+    "excerpt": "license: openmdw-1.1",
+    "summary": "NVIDIA published the EgoHand-v1 model on Hugging Face. License: openmdw-1.1.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 61,
+    "contentHash": "8748e3ba3f5a",
+    "meta": {
+      "likes": 25,
+      "downloads": 37443,
+      "repo": "nvidia/EgoHand-v1",
       "license": "openmdw-1.1"
     }
   },

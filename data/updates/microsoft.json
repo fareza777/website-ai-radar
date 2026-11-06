@@ -147,7 +147,7 @@
     "importance": 68,
     "contentHash": "55470560c200",
     "meta": {
-      "likes": 186,
+      "likes": 187,
       "downloads": 2555,
       "repo": "microsoft/Mage-VL-Cowork",
       "pipeline": "image-text-to-text",
@@ -866,6 +866,35 @@
       "semver": "minor",
       "repo": "microsoft/agent-framework",
       "package": "python"
+    }
+  },
+  {
+    "id": "22e977ad27f7bd11",
+    "lab": "microsoft",
+    "title": "UserLM-2.0",
+    "url": "https://huggingface.co/microsoft/UserLM-2.0",
+    "sourceId": "microsoft-hf",
+    "sourceName": "Hugging Face · microsoft",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-01T17:14:05.000Z",
+    "firstSeenAt": "2026-11-06T01:37:07.071Z",
+    "updatedAt": "2026-10-01T17:14:05.000Z",
+    "excerpt": "text-generation · license: mit",
+    "summary": "Microsoft published the UserLM-2.0 model on Hugging Face for text generation (LLM). License: mit.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "99680487b517",
+    "meta": {
+      "likes": 15,
+      "downloads": 496,
+      "repo": "microsoft/UserLM-2.0",
+      "pipeline": "text-generation",
+      "license": "mit"
     }
   },
   {
