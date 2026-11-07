@@ -1,70 +1,6 @@
 {
-  "generatedAt": "2026-11-07T17:46:47.864Z",
+  "generatedAt": "2026-11-07T21:57:57.700Z",
   "stories": [
-    {
-      "id": "google-deepmind:5a342024f39507",
-      "title": "Google launches Gemini 4 Carbon AI model with cybersecurity focus",
-      "entity": "Gemini 4 Carbon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 25,
-      "outlets": [
-        "Neowin",
-        "9to5Google",
-        "Reuters",
-        "Wichita Eagle",
-        "The Verge",
-        "SiliconANGLE",
-        "Investing.com",
-        "Technology Org",
-        "Yahoo! Finance Canada",
-        "CyberSecurityNews",
-        "Engadget",
-        "Ticker News",
-        "PCMag Middle East",
-        "The National CIO Review",
-        "PCMag",
-        "Yahoo Tech",
-        "Mashable",
-        "VentureBeat",
-        "Anadolu Ajansı",
-        "Türkiye Today",
-        "Unite.AI",
-        "TestingCatalog AI News",
-        "Forbes",
-        "Wccftech",
-        "Dealroom",
-        "The Decoder",
-        "R&D World",
-        "The Next Web",
-        "Interesting Engineering",
-        "Fello AI",
-        "CNET",
-        "TradingView",
-        "The Register",
-        "SC Media",
-        "The Hacker News",
-        "SecurityWeek",
-        "Brave New Coin",
-        "Barchart.com",
-        "Yahoo Finance",
-        "gHacks",
-        "EdTech Innovation Hub",
-        "THE ELEC, Korea Electronics Industry Media",
-        "Mezha.net",
-        "qz.com"
-      ],
-      "firstAt": "2026-10-28T17:54:00.000Z",
-      "lastAt": "2026-11-04T20:49:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORjF4WGpjdElyM0xtVktMbmhlY2k1SW9hSUlXSEVKX25yQlhOOHJpeGdKZWtaY01vNUExVzJjZkZhUnhHM2ZrcEw3bGIyRGFHbUZBTUxkZkphcGZDYWNLekZvX2VsRTJfV2J1VHNzWWFVMEtweXVGOEFScFY0dG84VDVtQ1NXOGM?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:5a342024f39507"
-      },
-      "importance": 73
-    },
     {
       "id": "moonshot:ee53a78dd464d6",
       "title": "Moonshot AI and DeepSeek reportedly used OpenAI's GPT-6 Astra outputs to build new models",
@@ -148,6 +84,43 @@
       "importance": 65
     },
     {
+      "id": "google-deepmind:f8cf634dc4d336",
+      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+      "entity": "Gemini 4 Carbon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 14,
+      "outlets": [
+        "TradingView",
+        "The Register",
+        "SC Media",
+        "The Hacker News",
+        "SecurityWeek",
+        "Brave New Coin",
+        "Chrome Unboxed",
+        "Barchart.com",
+        "Yahoo Finance",
+        "gHacks",
+        "TestingCatalog AI News",
+        "EdTech Innovation Hub",
+        "THE ELEC, Korea Electronics Industry Media",
+        "Mezha.net",
+        "9to5Google",
+        "Tom's Hardware",
+        "qz.com"
+      ],
+      "firstAt": "2026-10-28T22:14:18.000Z",
+      "lastAt": "2026-11-04T20:49:38.000Z",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50ck5wcllHV21sMDZLVEJiWkp2OGlqbTVxcmRMRlJSRkFydUxodGlHalJDYl81WE00aUJsbnVRZFdQSmRrOUg4Rnh3NWdMNWowWGotNmZ2MzB6dm5tZzRYQnpqaFc4VG1oblhmSUVIYXRPR0hXUklz?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:f8cf634dc4d336"
+      },
+      "importance": 65
+    },
+    {
       "id": "mistral:6f7d89d8ad3ee2",
       "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
       "entity": "Mistral Large 4",
@@ -155,9 +128,8 @@
         "mistral"
       ],
       "official": 0,
-      "press": 14,
+      "press": 13,
       "outlets": [
-        "ActuIA",
         "Martin Cid Magazine",
         "Techzine Global",
         "OrcaRouter",
@@ -170,14 +142,14 @@
         "Crypto Briefing",
         "Technology Org"
       ],
-      "firstAt": "2026-10-28T21:20:39.000Z",
+      "firstAt": "2026-10-29T15:10:44.000Z",
       "lastAt": "2026-11-04T14:37:58.000Z",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
       "lead": {
         "kind": "press",
         "id": "mistral:6f7d89d8ad3ee2"
       },
-      "importance": 63
+      "importance": 62
     },
     {
       "id": "mistral:54fd29ef061e48",
@@ -288,18 +260,24 @@
         "labs": []
       },
       {
+        "name": "Gemini 4 Carbon",
+        "count": 7,
+        "prev": 36,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
         "name": "Gemini 4 Argon",
         "count": 6,
         "prev": 9,
         "labs": []
       },
       {
-        "name": "Gemini 4 Carbon",
-        "count": 6,
-        "prev": 35,
-        "labs": [
-          "google-deepmind"
-        ]
+        "name": "Claude Opus 5.5",
+        "count": 4,
+        "prev": 1,
+        "labs": []
       },
       {
         "name": "DeepSeek 4.1 Flash",
@@ -334,26 +312,20 @@
         "count": 3,
         "prev": 1,
         "labs": []
-      },
-      {
-        "name": "Claude Opus 5.5",
-        "count": 3,
-        "prev": 1,
-        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 49,
+        "count": 50,
         "prev": 39,
         "labs": [
           "anthropic",
           "google-deepmind",
           "deepseek",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "qwen",
           "microsoft",
           "amazon",
@@ -364,14 +336,14 @@
       },
       {
         "name": "coding",
-        "count": 37,
+        "count": 38,
         "prev": 36,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "qwen",
           "microsoft",
@@ -434,8 +406,8 @@
         "prev": 4,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "amazon",
           "nvidia"
@@ -482,6 +454,18 @@
       ],
       "reports": 3,
       "at": "2026-11-05T04:35:43.000Z"
+    },
+    {
+      "id": "mistral:d6f733723f4c3b",
+      "lab": "mistral",
+      "title": "Mistral Studio Launches Managed Agents and On-Premises Apps",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcy1RZkdFT3lBQnJUeTVGT3hQSnRvM19EZ19ISjJYTElpR0VRRVRFV2ctRzBJM2k1LUdBbUg0bnFlWTZkMG1jTUptbGRXR0c4OG5zdnBlcXZnOS1mZzNwMGc3RzVrT3pLSWk3NXh0bFJwNmNFUTVMMXRpRXR1ZC1BSzB5LUFPNkJBd1lPUmphMjBhTXJz?oc=5",
+      "outlets": [
+        "Pasquale Pillitteri",
+        "FourWeekMBA"
+      ],
+      "reports": 2,
+      "at": "2026-11-06T17:21:15.000Z"
     },
     {
       "id": "baidu:026b8f7dadf07f",

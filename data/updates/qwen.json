@@ -1,5 +1,35 @@
 [
   {
+    "id": "5162469ebe994e51",
+    "lab": "qwen",
+    "title": "Qwen Code v0.27.0",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-07T20:45:25.000Z",
+    "firstSeenAt": "2026-11-07T21:57:57.700Z",
+    "updatedAt": "2026-11-07T20:45:25.000Z",
+    "excerpt": "What's Changed test(interactive): poll the foreground-shell frame instead of snapshotting it by @yiliang114 in #16455 test(managed-agent): retarget the lifecycle IT and retry snapshot claim deadlocks by @yiliang114 in #16446 fix(managed-agent): settle a title the dispatcher claimed first by @yiliang114 in #16447 feat(hooks): add FileChanged notifications for local sessions by @samuelhsin in #13969 fix(ci): move…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.27.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "e06676144677",
+    "meta": {
+      "version": "v0.27.0",
+      "semver": "minor",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
     "id": "010c4808d38b3b41",
     "lab": "qwen",
     "title": "Qwen Code v0.26.9",
@@ -1098,7 +1128,7 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1125,
+      "likes": 1126,
       "downloads": 47173,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
@@ -1363,7 +1393,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3578,
+      "likes": 3579,
       "downloads": 248964,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -1523,7 +1553,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6838,
+      "likes": 6844,
       "downloads": 3607555,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",

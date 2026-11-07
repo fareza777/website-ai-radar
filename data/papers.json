@@ -17,10 +17,21 @@
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 98,
+    "upvotes": 99,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
+  },
+  {
+    "id": "2611.05376",
+    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+    "url": "https://huggingface.co/papers/2611.05376",
+    "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that…",
+    "publishedAt": "2026-11-03T18:59:52.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 71,
+    "org": "oxford",
+    "firstSeenAt": "2026-11-07T17:46:47.864Z"
   },
   {
     "id": "2611.04277",
@@ -29,7 +40,7 @@
     "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 63,
     "org": "sjut1",
     "githubRepo": "https://github.com/DeepExperience/Harness-S",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -45,17 +56,6 @@
     "org": "carnegiemellonu",
     "githubRepo": "https://github.com/George-Ling3/BestRand",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
-  },
-  {
-    "id": "2611.05376",
-    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-    "url": "https://huggingface.co/papers/2611.05376",
-    "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that…",
-    "publishedAt": "2026-11-03T18:59:52.000Z",
-    "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 46,
-    "org": "oxford",
-    "firstSeenAt": "2026-11-07T17:46:47.864Z"
   },
   {
     "id": "2611.07392",
@@ -172,7 +172,7 @@
     "summary": "Video dubbing aims to synthesize lip movements that match target speech while preserving the speaker identity, head pose, and background of a source video. Existing editors are predominantly trained via self-reconstruction under original paired audio, even though the source mouth becomes a conflicting target when driving speech is replaced. We introduce replacement-aware cross-audio supervision: paired-audio samples…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 9,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/LAW1223/VidDub",

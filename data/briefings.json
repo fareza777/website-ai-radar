@@ -1,24 +1,19 @@
 [
   {
     "date": "2026-11-08",
-    "generatedAt": "2026-11-07T17:46:47.864Z",
+    "generatedAt": "2026-11-07T21:57:57.700Z",
     "stats": {
-      "updates24h": 7,
+      "updates24h": 4,
       "labsActive24h": 4,
-      "updates7d": 124,
+      "updates7d": 125,
       "newModels7d": 22
     },
     "source": "template",
-    "headline": "7 updates from 4 AI labs in the last 24 hours · 22 model releases this week.",
+    "headline": "4 updates from 4 AI labs in the last 24 hours · 22 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
         "itemId": "317a771eb37310f5",
-        "lab": "amazon"
-      },
-      {
-        "text": "Amazon: Agent Registry is now generally available in AWS GovCloud (US-West) Region",
-        "itemId": "e14a5e738593836d",
         "lab": "amazon"
       },
       {
@@ -27,8 +22,13 @@
         "lab": "nvidia"
       },
       {
-        "text": "Microsoft: Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
-        "itemId": "59154091f75ef85b",
+        "text": "Alibaba Qwen: Qwen Code v0.27.0",
+        "itemId": "5162469ebe994e51",
+        "lab": "qwen"
+      },
+      {
+        "text": "Microsoft: Microsoft Agent Framework dotnet v1.28.0",
+        "itemId": "3e2fc2c9b2ec2305",
         "lab": "microsoft"
       }
     ]
