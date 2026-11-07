@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-11-08",
+    "generatedAt": "2026-11-07T17:46:47.864Z",
+    "stats": {
+      "updates24h": 7,
+      "labsActive24h": 4,
+      "updates7d": 124,
+      "newModels7d": 22
+    },
+    "source": "template",
+    "headline": "7 updates from 4 AI labs in the last 24 hours · 22 model releases this week.",
+    "bullets": [
+      {
+        "text": "Amazon: Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
+        "itemId": "317a771eb37310f5",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Agent Registry is now generally available in AWS GovCloud (US-West) Region",
+        "itemId": "e14a5e738593836d",
+        "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+        "itemId": "6ce9fe52db65d87a",
+        "lab": "nvidia"
+      },
+      {
+        "text": "Microsoft: Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
+        "itemId": "59154091f75ef85b",
+        "lab": "microsoft"
+      }
+    ]
+  },
+  {
     "date": "2026-11-07",
     "generatedAt": "2026-11-07T10:24:40.073Z",
     "stats": {
@@ -1172,50 +1206,6 @@
         "text": "OpenAI: How Codex ran OpenAI DevDay 2025",
         "itemId": "cde39a728f5f3f14",
         "lab": "openai"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-09",
-    "generatedAt": "2026-10-09T16:18:37.683Z",
-    "stats": {
-      "updates24h": 18,
-      "labsActive24h": 9,
-      "updates7d": 105,
-      "newModels7d": 27
-    },
-    "source": "template",
-    "headline": "18 updates from 9 AI labs in the last 24 hours · 27 model releases this week.",
-    "bullets": [
-      {
-        "text": "Amazon: OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
-        "itemId": "a09da81804ce5b81",
-        "lab": "amazon"
-      },
-      {
-        "text": "Alibaba Qwen: Qwen-Image-2.1-Turbo",
-        "itemId": "7941af6584c4cea5",
-        "lab": "qwen"
-      },
-      {
-        "text": "Tencent: Youtu-Parsing-Omni",
-        "itemId": "238aeed3d7f2b1a2",
-        "lab": "tencent"
-      },
-      {
-        "text": "Amazon: ICYMI: What landed for AI builders in September 2026",
-        "itemId": "07862ce6a3faf1ca",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-        "itemId": "edd58468d564448f",
-        "lab": "openai"
-      },
-      {
-        "text": "NVIDIA: Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
-        "itemId": "42268168adb0195b",
-        "lab": "nvidia"
       }
     ]
   }

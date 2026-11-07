@@ -17,7 +17,7 @@
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 96,
+    "upvotes": 98,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -29,7 +29,7 @@
     "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 58,
+    "upvotes": 60,
     "org": "sjut1",
     "githubRepo": "https://github.com/DeepExperience/Harness-S",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -47,13 +47,24 @@
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
+    "id": "2611.05376",
+    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+    "url": "https://huggingface.co/papers/2611.05376",
+    "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that…",
+    "publishedAt": "2026-11-03T18:59:52.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 46,
+    "org": "oxford",
+    "firstSeenAt": "2026-11-07T17:46:47.864Z"
+  },
+  {
     "id": "2611.07392",
     "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
     "url": "https://huggingface.co/papers/2611.07392",
     "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 42,
     "org": null,
     "firstSeenAt": "2026-11-07T10:24:40.073Z"
   },
@@ -101,7 +112,7 @@
     "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual…",
     "publishedAt": "2026-11-04T18:59:58.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 59,
+    "upvotes": 60,
     "org": "mmlab-ntu",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
   },
@@ -281,7 +292,7 @@
     "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervision alone, without…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 48,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/cvlab-kaist/FactEmbed",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
@@ -342,7 +353,7 @@
     "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 17,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"

@@ -31,6 +31,30 @@
     }
   },
   {
+    "id": "59154091f75ef85b",
+    "lab": "microsoft",
+    "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
+    "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
+    "sourceId": "azure-blog",
+    "sourceName": "Azure Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T19:08:44.000Z",
+    "firstSeenAt": "2026-11-07T17:46:47.864Z",
+    "updatedAt": "2026-11-06T19:08:44.000Z",
+    "excerpt": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications. Video workloads do not all start with the same input or aim for the same result. A creative team might explore several interpretations of a written brief. A retailer might turn an approved product image into a short motion concept. An application developer might combine…",
+    "summary": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 50,
+    "contentHash": "1b20de4f463e"
+  },
+  {
     "id": "9d7ccb7a6a054e32",
     "lab": "microsoft",
     "title": "Microsoft Agent Framework python v1.25.0",
@@ -42,17 +66,18 @@
     "verified": true,
     "publishedAt": "2026-11-06T16:05:38.000Z",
     "firstSeenAt": "2026-11-06T19:30:37.124Z",
-    "updatedAt": "2026-11-06T16:05:38.000Z",
-    "excerpt": "Bump Python package versions for 1.25.0 release Release all 44 publishing workspace distributions with shipping changes since python-1.24.0, including the Python 3.10 removal. Use the approved minor bumps for Core/root, AG-UI, and Declarative, patch bumps for other changed stable integrations, and 261106 stamps for changed alpha/beta packages; no optional cohort-only bump. Update the Core standard-install cohort…",
+    "updatedAt": "2026-11-07T17:46:47.864Z",
+    "excerpt": "Added agent-framework-core , agent-framework-foundry-hosting : Support callable MCP discovery approval policies and honor Foundry Toolbox approval metadata, including tool-name and read-only filters, explicit caller overrides, and policy refresh for retained tools ( #10136 ) Changed agent-framework , agent-framework-a2a , agent-framework-ag-ui , agent-framework-anthropic , agent-framework-azure-ai-search…",
     "summary": "Microsoft shipped Microsoft Agent Framework python v1.25.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
     "tags": [
-      "agents"
+      "agents",
+      "mcp"
     ],
     "importance": 40,
-    "contentHash": "7c70d45423eb",
+    "contentHash": "e0fa494dfa5b",
     "meta": {
       "version": "1.25.0",
       "semver": "minor",
@@ -232,7 +257,7 @@
     "importance": 69,
     "contentHash": "55470560c200",
     "meta": {
-      "likes": 206,
+      "likes": 207,
       "downloads": 3080,
       "repo": "microsoft/Mage-VL-Cowork",
       "pipeline": "image-text-to-text",

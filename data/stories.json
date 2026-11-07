@@ -1,37 +1,23 @@
 {
-  "generatedAt": "2026-11-07T10:24:40.073Z",
+  "generatedAt": "2026-11-07T17:46:47.864Z",
   "stories": [
     {
-      "id": "34b0bf3f94c3851e",
-      "title": "Gemini 4 Carbon: Our next frontier model",
+      "id": "google-deepmind:5a342024f39507",
+      "title": "Google launches Gemini 4 Carbon AI model with cybersecurity focus",
       "entity": "Gemini 4 Carbon",
       "labs": [
         "google-deepmind"
       ],
-      "official": 1,
-      "press": 31,
+      "official": 0,
+      "press": 25,
       "outlets": [
-        "Mashable",
-        "Tech My Money",
-        "Forbes",
-        "TestingCatalog AI News",
-        "Investing.com",
-        "TechRepublic",
-        "Techzine Global",
-        "tech-insider.org",
-        "AI Magazine",
-        "Seeking Alpha",
-        "Android Authority",
-        "Ars Technica",
-        "Constellation Research",
-        "LinkedIn",
-        "shattered.io",
         "Neowin",
         "9to5Google",
         "Reuters",
         "Wichita Eagle",
         "The Verge",
         "SiliconANGLE",
+        "Investing.com",
         "Technology Org",
         "Yahoo! Finance Canada",
         "CyberSecurityNews",
@@ -41,10 +27,13 @@
         "The National CIO Review",
         "PCMag",
         "Yahoo Tech",
+        "Mashable",
         "VentureBeat",
         "Anadolu Ajansı",
         "Türkiye Today",
         "Unite.AI",
+        "TestingCatalog AI News",
+        "Forbes",
         "Wccftech",
         "Dealroom",
         "The Decoder",
@@ -67,14 +56,14 @@
         "Mezha.net",
         "qz.com"
       ],
-      "firstAt": "2026-10-28T17:00:58.000Z",
+      "firstAt": "2026-10-28T17:54:00.000Z",
       "lastAt": "2026-11-04T20:49:38.000Z",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORjF4WGpjdElyM0xtVktMbmhlY2k1SW9hSUlXSEVKX25yQlhOOHJpeGdKZWtaY01vNUExVzJjZkZhUnhHM2ZrcEw3bGIyRGFHbUZBTUxkZkphcGZDYWNLekZvX2VsRTJfV2J1VHNzWWFVMEtweXVGOEFScFY0dG84VDVtQ1NXOGM?oc=5",
       "lead": {
-        "kind": "official",
-        "id": "34b0bf3f94c3851e"
+        "kind": "press",
+        "id": "google-deepmind:5a342024f39507"
       },
-      "importance": 100
+      "importance": 73
     },
     {
       "id": "moonshot:ee53a78dd464d6",
@@ -191,36 +180,6 @@
       "importance": 63
     },
     {
-      "id": "nvidia:83c76c5b444a23",
-      "title": "Nvidia Releases Open Nemotron 3.5 Transcribe Model for 40 Languages",
-      "entity": "Nemotron 3.5 Transcribe",
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 7,
-      "outlets": [
-        "The Decoder",
-        "TradingView",
-        "MarkTechPost",
-        "SQ Magazine",
-        "AI Insider",
-        "https://tech-insider.org/",
-        "The Next Web",
-        "shattered.io",
-        "OrcaRouter",
-        "Startup Fortune"
-      ],
-      "firstAt": "2026-10-28T15:51:11.000Z",
-      "lastAt": "2026-10-31T00:21:11.000Z",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kM2FUNzhEYVZyczlwQ3E3azQ1RExOdzlVeE1Ia0Fua19WbGNndGozSEFYT0ZSNDdTOTFhckI5djItR2Mtb2MwY3pCcHQ0ZDc5ZTUwQVg5RllDb0tmTDNCYkVKbXMxQ3F0akx4ejJ6eWRhaXdJLXc?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:83c76c5b444a23"
-      },
-      "importance": 62
-    },
-    {
       "id": "mistral:54fd29ef061e48",
       "title": "Orange unit signs deal to Mistral's latest AI cybersecurity model",
       "entity": null,
@@ -329,18 +288,18 @@
         "labs": []
       },
       {
+        "name": "Gemini 4 Argon",
+        "count": 6,
+        "prev": 9,
+        "labs": []
+      },
+      {
         "name": "Gemini 4 Carbon",
-        "count": 8,
-        "prev": 33,
+        "count": 6,
+        "prev": 35,
         "labs": [
           "google-deepmind"
         ]
-      },
-      {
-        "name": "Gemini 4 Argon",
-        "count": 6,
-        "prev": 11,
-        "labs": []
       },
       {
         "name": "DeepSeek 4.1 Flash",
@@ -387,14 +346,14 @@
       {
         "name": "agents",
         "count": 49,
-        "prev": 40,
+        "prev": 39,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "openai",
           "deepseek",
-          "minimax",
+          "openai",
           "mistral",
+          "minimax",
           "qwen",
           "microsoft",
           "amazon",
@@ -406,13 +365,13 @@
       {
         "name": "coding",
         "count": 37,
-        "prev": 38,
+        "prev": 36,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "qwen",
           "microsoft",
@@ -433,7 +392,7 @@
       },
       {
         "name": "multimodal",
-        "count": 10,
+        "count": 11,
         "prev": 8,
         "labs": [
           "google-deepmind",
@@ -460,26 +419,26 @@
         ]
       },
       {
-        "name": "open-source",
-        "count": 4,
-        "prev": 4,
-        "labs": [
-          "openai",
-          "minimax",
-          "mistral",
-          "cohere",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "mcp",
-        "count": 4,
+        "count": 5,
         "prev": 1,
         "labs": [
           "qwen",
           "microsoft",
           "amazon"
+        ]
+      },
+      {
+        "name": "open-source",
+        "count": 4,
+        "prev": 4,
+        "labs": [
+          "openai",
+          "mistral",
+          "minimax",
+          "cohere",
+          "amazon",
+          "nvidia"
         ]
       },
       {
