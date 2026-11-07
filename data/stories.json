@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T04:01:19.366Z",
+  "generatedAt": "2026-11-07T10:24:40.073Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -257,22 +257,23 @@
         "qwen"
       ],
       "official": 0,
-      "press": 4,
+      "press": 5,
       "outlets": [
         "Pasquale Pillitteri",
         "Startup Fortune",
         "shattered.io",
         "Fello AI",
-        "Kingy AI"
+        "Kingy AI",
+        "Asia Times"
       ],
       "firstAt": "2026-10-29T16:00:37.000Z",
-      "lastAt": "2026-11-06T14:12:24.000Z",
+      "lastAt": "2026-11-07T05:09:54.000Z",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUY4dlZhejFkcml1SDgzR0UxQUo0WS1IdXRCRXJyeVdjZDlEenplR3JIQmc4THVtd0RZdmVsUUhZbDVKOURRM1l0UThUbWU2a05BbkQ1SFhmaFEwUWVTdDl0WXQ1RnFhNkl2M0U5QV9tNlFyMVVsMzJvQ2g2WWRtbEIwQlJyeC1qOG5pVFRGWE1CWndFblNMUVN3dw?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:cf6f20342781bd"
       },
-      "importance": 57
+      "importance": 58
     },
     {
       "id": "google-deepmind:a444fbfc2f8d1a",
@@ -336,15 +337,15 @@
         ]
       },
       {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 5,
-        "prev": 2,
+        "name": "Gemini 4 Argon",
+        "count": 6,
+        "prev": 11,
         "labs": []
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 5,
-        "prev": 11,
+        "name": "DeepSeek 4.1 Flash",
+        "count": 4,
+        "prev": 3,
         "labs": []
       },
       {
@@ -362,6 +363,20 @@
         ]
       },
       {
+        "name": "Gemini Omni 1.2 Flash",
+        "count": 3,
+        "prev": 0,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
+        "name": "Qwen 4",
+        "count": 3,
+        "prev": 1,
+        "labs": []
+      },
+      {
         "name": "Claude Opus 5.5",
         "count": 3,
         "prev": 1,
@@ -371,16 +386,16 @@
     "topics": [
       {
         "name": "agents",
-        "count": 50,
-        "prev": 39,
+        "count": 49,
+        "prev": 40,
         "labs": [
           "anthropic",
-          "deepseek",
           "google-deepmind",
           "openai",
-          "qwen",
+          "deepseek",
           "minimax",
           "mistral",
+          "qwen",
           "microsoft",
           "amazon",
           "bytedance",
@@ -396,10 +411,10 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "qwen",
           "minimax",
           "mistral",
           "cohere",
+          "qwen",
           "microsoft",
           "amazon",
           "ibm",
@@ -425,8 +440,8 @@
           "openai",
           "moonshot",
           "mistral",
-          "tencent",
           "baidu",
+          "tencent",
           "microsoft",
           "amazon",
           "ibm",
