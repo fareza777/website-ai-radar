@@ -645,5 +645,34 @@
         "text": "Amazon Bedrock added in-country inference in India for Kimi K3, the multi-modal open-weight model whose provider Moonshot AI reported frontier-level coding."
       }
     ]
+  },
+  "2026-11-07": {
+    "headline": "Open-weight and cybersecurity models land on managed platforms as agent tooling reaches GovCloud.",
+    "bullets": [
+      {
+        "itemId": "317a771eb37310f5",
+        "text": "Amazon Bedrock added Moonshot AI's Kimi K3.1 Pro (Highspeed) to its open weight portfolio, aimed at agentic coding and document processing."
+      },
+      {
+        "itemId": "75679f5aa60bfcf8",
+        "text": "Daybreak Red brings OpenAI's GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work."
+      },
+      {
+        "itemId": "e14a5e738593836d",
+        "text": "AWS Agent Registry, available through Bedrock AgentCore, reached general availability in the GovCloud (US-West) Region as a central catalog for MCP servers, tools and agents."
+      },
+      {
+        "itemId": "1184d3a025fd9d05",
+        "text": "Mistral paired its Le Chonk model with Studio, positioning the two as a way to build and deploy enterprise agents while keeping control of models, data and infrastructure."
+      },
+      {
+        "itemId": "6ce9fe52db65d87a",
+        "text": "NVIDIA described speeding up diffusion image generation with FLUX 3 Image Klein on Blackwell GPUs, targeting inference latency in design tools and visual production workflows."
+      },
+      {
+        "itemId": "f6d3226a90fa9d2c",
+        "text": "The Google GenAI SDK for Python reached a breaking release that points the Gemini Developer API at a different default version, leaving Gemini Enterprise defaults unaffected."
+      }
+    ]
   }
 }

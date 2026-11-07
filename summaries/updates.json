@@ -3772,9 +3772,9 @@
     "benefit": "Quantum groups get a co-design platform that links IBM quantum hardware to ORNL supercomputing and AMD hardware for quantum error correction work."
   },
   "f6d3226a90fa9d2c": {
-    "hash": "88a605a9a6df",
-    "summary": "The Google GenAI SDK for Python reached v3.0.0 with breaking changes: clients targeting the Gemini Developer API now default to API version v1 instead of v1beta.",
-    "benefit": "Python developers calling the Gemini Developer API get v1 by default, while clients using vertexai=True or enterprise=True keep defaulting to v1beta1."
+    "hash": "c016ebf82fb6",
+    "summary": "The Google GenAI SDK for Python reached version 3.0.0, a release with breaking changes: the default Gemini Developer API version is now v1 instead of v1beta. Clients with vertexai=True or enterprise=True are unaffected and keep defaulting to v1beta1, and some model aliases are not available on v1.",
+    "benefit": "Python developers calling the Gemini Developer API land on the stable v1 surface by default and need an explicit change to stay on v1beta."
   },
   "477cff6d6b4c7941": {
     "hash": "fe76518569d0",
@@ -3856,9 +3856,9 @@
     "benefit": "Investment teams get an example of using AI to compare research views and examine risks, rather than to draft reports."
   },
   "6f38341c3b89007c": {
-    "hash": "79b45608c5a5",
-    "summary": "NVIDIA tagged TensorRT-LLM v1.4.0, adding token tiling behind TRTLLM_ENABLE_QKV_ROPE_TILING to cut the overhead of one CTA per token and head in large Qwen attention batches, limited to validated shapes.",
-    "benefit": "Teams serving Qwen attention get a flag that reduces per-token kernel overhead while retaining fused normalization, rotary embedding and gate extraction."
+    "hash": "e3e7d0d6187e",
+    "summary": "TensorRT-LLM v1.4.0 release notes list highlights and known issues, including DSA models such as GLM-5.2 possibly producing incorrect output with an NVFP4 KV cache, and DeepSeek-V4-Pro possibly running out of GPU memory when MPI workers are reused after large MoE workloads.",
+    "benefit": "Teams deploying these models with TensorRT-LLM get the specific cache, graph and worker-reuse combinations known to misbehave in this release."
   },
   "c0a64a3368b74d55": {
     "hash": "5f91aa4a3f8b",
@@ -3894,5 +3894,123 @@
     "hash": "c2ee778c8b6c",
     "summary": "Qwen published Qwen Code sdk-typescript v0.1.28, an SDK release that bundles CLI version 0.26.8 built from the same branch or ref as the SDK.",
     "benefit": "TypeScript developers embedding Qwen Code get an SDK that ships the matching 0.26.8 CLI, so SDK and CLI do not drift apart."
+  },
+  "317a771eb37310f5": {
+    "hash": "bdc9dab37e6b",
+    "summary": "Kimi K3.1 Pro from Moonshot AI is now available on Amazon Bedrock, expanding its open weight model portfolio. Customers can run agentic use cases such as coding and document processing on the Highspeed variant, which delivers high output tokens per second.",
+    "benefit": "Teams already using Bedrock can route coding and document-processing agents to a high-throughput open weight model without changing providers."
+  },
+  "e14a5e738593836d": {
+    "hash": "22c8374579e0",
+    "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now generally available in the AWS GovCloud (US-West) Region. It is a fully managed discovery service that gives an organization a central catalog for organizing, curating and discovering resources, including MCP servers, tools, agents and agent skills.",
+    "benefit": "Public sector teams get one searchable catalog for agent building blocks, with control over what becomes discoverable inside GovCloud."
+  },
+  "bc2d0068f56d93e1": {
+    "hash": "c1a9f8eb9e9c",
+    "summary": "AWS shows how to move Claude Code from a laptop to a remote agent on Amazon Bedrock AgentCore, a platform to build, connect and optimize agents at scale with any framework or model. The sample uses AgentCore runtime, so every task runs in its own isolated session in your AWS account.",
+    "benefit": "Developers already backing Claude Code with Bedrock get a worked pattern for isolating each task in its own session inside their own account.",
+    "category": "feature"
+  },
+  "6ce9fe52db65d87a": {
+    "hash": "9ab8e532f1fd",
+    "summary": "NVIDIA looks at speeding up image generation with FLUX 3 Image Klein on Blackwell GPUs. Generating an image takes multiple sequential passes through a model with billions of parameters, so developers deploying diffusion models in design tools must account for inference latency.",
+    "benefit": "Teams shipping image generation into editing and production tools get a Blackwell-specific approach to a latency cost that recurs on every request."
+  },
+  "bc8f9eac19663ff6": {
+    "hash": "5c97eb791a4b",
+    "summary": "OpenAI is partnering with Hacktron to find vulnerabilities in OpenAI's systems, test connections with third-party services, and strengthen defenses with frontier AI.",
+    "benefit": "Vulnerability hunting and third-party connection testing on OpenAI's own systems now runs through a dedicated partner using frontier models."
+  },
+  "cfd4354afa14004f": {
+    "hash": "c56b68ce4eac",
+    "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+    "benefit": "Groups building agents for lab work get a task set aimed at reading experimental data rather than answering textbook biology questions.",
+    "category": "research"
+  },
+  "d8887a09bc5ec1d4": {
+    "hash": "2bc20adb6dbc",
+    "summary": "Anthropic breaks down the components of agent memory, noting that for Claude to learn from experience it has to decide what is worth remembering before it knows what comes next, and describing how a process called dreaming helps it organize memory and correct mistakes.",
+    "benefit": "Builders of long-running agents get Anthropic's account of which memory pieces matter and how revisiting past work removes errors.",
+    "category": "research"
+  },
+  "fa69cf987a95d048": {
+    "hash": "7cb353b0e701",
+    "summary": "Azure argues that agents should stop being treated as one-off projects and be run as a continuous discipline, with production capabilities built for sustained business performance, investments prioritized against financial thresholds, work tied to measurable outcomes, unit costs instrumented, and accountable owners.",
+    "benefit": "Leaders moving agents past pilots get a framework for owning cost, performance and governance rather than approving one-off experiments."
+  },
+  "903f3d6e677960b5": {
+    "hash": "9ee7e02fd000",
+    "summary": "Part 2 of the Okta Cross App Access and Amazon Bedrock AgentCore series follows the task agent built in Part 1, which runs on AgentCore runtime and acts for signed-in users. Okta decides which agent may act for which user, with Amazon Bedrock AgentCore Identity in the picture.",
+    "benefit": "Identity teams get the second half of a worked setup for governing which agent acts for which user instead of relying on shared service accounts."
+  },
+  "4a377ea256e27efd": {
+    "hash": "5c10001d5882",
+    "summary": "Part 1 tackles a question that per-app OAuth consent and shared service accounts leave open: which agent may act for which user in which application, and how to stop it. It registers the agent with Okta Cross App Access in the identity provider.",
+    "benefit": "Security and identity teams get a concrete way to decide and revoke agent access per user and per application at the identity provider."
+  },
+  "c75bfb16cb415abe": {
+    "hash": "f9b0841da100",
+    "summary": "Greenlight Financial's Luna agent resolves more than 90 percent of up to 4,000 security and risk cases each month without human intervention, built on Amazon Bedrock AgentCore. Greenlight uses AgentCore runtime to host the agent code and AgentCore memory as part of the solution.",
+    "benefit": "Security operations teams see a named deployment with stated case volumes and an automation rate, mapped to specific AgentCore capabilities."
+  },
+  "aa3a68bb9ff6c15d": {
+    "hash": "88caeab4356c",
+    "summary": "Taxbit, a digital-asset tax and accounting compliance platform founded in 2018 that serves exchanges, payment services and brokers, now has a cited, permission-aware AI assistant that helps compliance teams find answers inside the product dashboard, built as an agent on Amazon Bedrock AgentCore.",
+    "benefit": "Compliance staff get answers with citations inside the dashboard they already work in, instead of a separate search tool with different permissions."
+  },
+  "394265bd1bd8acbf": {
+    "hash": "91213aa35423",
+    "summary": "IBM describes Chicago's bid to lead the country in quantum computing, centered on a new IBM Quantum System Two that supports Illinois' place at the center of the American quantum computing industry.",
+    "benefit": "Researchers and regional partners get IBM's account of where a Quantum System Two is being placed and what it is meant to anchor locally."
+  },
+  "3e2fc2c9b2ec2305": {
+    "hash": "bb3e8e1c2664",
+    "summary": "Microsoft released dotnet v1.28.0 of Microsoft Agent Framework, a version bump that also carries a fix to parsing declarative workflow formulas, spelling corrections in comments, and preparation for the Python 1.25.0 release including concurrent MCP calls with request-owned headers.",
+    "benefit": ".NET teams on Agent Framework get the formula-parsing fix and stay aligned with the Python release line in the same repository."
+  },
+  "9d7ccb7a6a054e32": {
+    "hash": "7c70d45423eb",
+    "summary": "Microsoft Agent Framework python v1.25.0 releases all 44 publishing workspace distributions with changes since python-1.24.0, including the Python 3.10 removal, with minor bumps for Core, root, AG-UI and Declarative and patch bumps for other changed stable integrations.",
+    "benefit": "Python users get one release that carries the Python 3.10 removal plus updated Core, AG-UI and Declarative packages rather than separate bumps."
+  },
+  "abbce93eef91017a": {
+    "hash": "3c93480c469f",
+    "summary": "NVIDIA explains accelerating reinforcement learning weight refit with the Reshard Collective. During RL post-training, trajectories are generated on the fly by running inference with the current policy model, and for training efficiency inference and training commonly run in parallel on separate GPU resources.",
+    "benefit": "Teams running RL post-training on split inference and training pools get a collective that moves refitted weights between them."
+  },
+  "2b3eb4eb79de73e7": {
+    "hash": "055bc14f7e02",
+    "summary": "A year after NVIDIA open sourced its Aerial wireless software, Aerial, Sionna and a broader suite of open source tools give researchers a foundation for testing ideas and comparing results toward next-generation 6G networks, connecting simulation and AI training with over-the-air experiments.",
+    "benefit": "Wireless researchers get an open toolchain that links simulation and AI training to over-the-air experiments instead of closed per-vendor stacks."
+  },
+  "9ce19b78e25144b9": {
+    "hash": "d2764765d886",
+    "summary": "Tencent published FlashTopK on GitHub, described as fast, exact fused top-k selection for learned sparse attention training and inference, from HyScale (Tencent Hy).",
+    "benefit": "Researchers working on learned sparse attention get a fused, exact top-k selection kernel for both training and inference paths."
+  },
+  "1fa20a1d5c82e207": {
+    "hash": "422a887e2ad3",
+    "summary": "ByteDance Seed opened a new public GitHub repository called Cola2, written in Python, with no description published alongside it.",
+    "benefit": "Developers watching ByteDance Seed's open source work get a new Python repository to inspect, though its purpose is not yet described."
+  },
+  "6876eccd108f30e8": {
+    "hash": "95354220e2fd",
+    "summary": "Anthropic released Claude Agent SDK for Python version 0.2.179, a patch release published on GitHub and on PyPI, installable with pip install claude-agent-sdk at that version.",
+    "benefit": "Python developers building on the Claude Agent SDK get the newest patch build through the same pip install path they already use."
+  },
+  "df1346203ff05601": {
+    "hash": "030fad33ce3c",
+    "summary": "Claude Code v2.1.319 changes auto mode when telemetry or feature flags are off, including behind LLM gateways: calls the server cannot check are asked about or denied, with no fallback to the built-in classifier, and CLAUDE_CODE_AUTO_MODE_SERVER=0 keeps using it, while setting it to 1 turns on the server-side check.",
+    "benefit": "Teams running Claude Code behind an LLM gateway get predictable auto-mode behaviour instead of a silent fallback classifier."
+  },
+  "010c4808d38b3b41": {
+    "hash": "68a4cde470f5",
+    "summary": "Qwen Code v0.26.9 reports no known breaking changes and expands Skills handling: ZIP uploads, daemon APIs, TypeScript SDK support, bulk activation and recovery protections, plus a skills activation endpoint and setUserSkillsActivation that enable or disable 1-100 user Skills in one request with saved preferences.",
+    "benefit": "Developers managing many Skills in Qwen Code can enable or disable up to 100 of them in a single request rather than one at a time."
+  },
+  "40ac88d801384f5a": {
+    "hash": "3cb4fc85e8ea",
+    "summary": "Tencent Hunyuan opened a new public GitHub repository named AppCIF-Bench, with no description published alongside it.",
+    "benefit": "Evaluators tracking Tencent Hunyuan get a new repository whose name suggests a benchmark, with details still to be read from the code."
   }
 }

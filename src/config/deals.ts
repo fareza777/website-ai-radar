@@ -33,11 +33,11 @@ export const CURATED_DEALS: CuratedDeal[] = [
     provider: "Google AI Studio",
     kind: "free-tier",
     description: "Use the Gemini Developer API at no cost within rate limits — ideal for prototyping before moving to a paid tier.",
-    // Docs moved from ai.google.dev/gemini-api/docs/pricing, which now 301s to this page (2026-11-03).
-    url: "https://aistudio.google.com/docs/pricing?hl=en",
-    // The AI Studio docs app renders client-side: stripHtml leaves only the <title>, so this page can never
-    // match and the deal stays "unverified". The free tier itself is still on the page (checked in raw HTML).
-    mustContain: "free of charge",
+    // Google serves the rendered docs page as an Angular shell whose body text lives in a <noscript> block,
+    // which stripHtml drops. The same page is published as markdown on the official domain (linked from the
+    // page itself), so verification reads that. ai.google.dev/gemini-api/docs/pricing 301s here (2026-11-03).
+    url: "https://aistudio.google.com/docs/pricing.md",
+    mustContain: "Start building free of charge with generous limits",
     lab: "google-deepmind",
   },
   {
@@ -57,6 +57,15 @@ export const CURATED_DEALS: CuratedDeal[] = [
     description: "Free Trial tier for the Cerebras inference API with per-model RPM/TPM limits.",
     url: "https://inference-docs.cerebras.ai/support/rate-limits",
     mustContain: "Free Trial",
+  },
+  {
+    id: "sambanova-free-tier",
+    title: "SambaNova Cloud — Free Tier",
+    provider: "SambaNova Cloud",
+    kind: "free-tier",
+    description: "Rate-limited Free Tier for the SambaNova Cloud API; it applies to accounts with no payment method linked, with a tokens-per-day cap.",
+    url: "https://docs.sambanova.ai/docs/en/models/rate-limits",
+    mustContain: "Applied when there is no payment method linked with your account",
   },
   {
     id: "nvidia-nim-free-apis",

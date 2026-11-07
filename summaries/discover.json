@@ -618,9 +618,9 @@
   },
   "48bb6eb3c24be9c2": {
     "hash": "36e45d1c",
-    "summary": "Argus is an open-source agentic security operations platform.",
-    "unique": "Its topics put AI penetration testing, cyber threat intelligence and agentic security in one open-source platform.",
-    "benefit": "Security teams can run agent-assisted analysis over their estate as open source, with 132 stars of public code to inspect."
+    "summary": "Argus is an open-source agentic security operations platform, with topics covering AI penetration testing, AI hacking, cyber threat intelligence and cybersecurity more generally.",
+    "unique": "It frames agent-driven security work as an operations platform rather than a single scanning script, and publishes it open source.",
+    "benefit": "Security teams can run agentic pentesting and threat-intel work themselves instead of buying a closed tool."
   },
   "819312591f4abddd": {
     "hash": "25b34290",
@@ -663,12 +663,6 @@
     "summary": "PaperPilot is a local AI copilot for documents.",
     "unique": "It runs as a local copilot for documents rather than a cloud chat product.",
     "benefit": "People working with documents on their machine can use a local copilot instead of uploading files."
-  },
-  "3c73c358cb198c70": {
-    "hash": "b5ccda2f",
-    "summary": "glitchrupt is a local macOS jolt for agents that need your attention, with desktop glitch cues, five original crackles, a CLI, and MCP.",
-    "unique": "It uses desktop glitch cues and five original crackles, plus CLI and MCP.",
-    "benefit": "macOS users running agents can get a local visual and audio jolt when an agent needs attention."
   },
   "43882fe7cb46be23": {
     "hash": "9e5da9f4",
@@ -716,12 +710,6 @@
     "hash": "6207d63e",
     "summary": "Tiny world model generates games and stream ac plays them all on Pico 2W.",
     "unique": "Focus areas include rust, transformers.",
-    "benefit": "Developers can inspect the repo to try the project or adapt its approach locally."
-  },
-  "e863b804e69a32e3": {
-    "hash": "0a33c0e1",
-    "summary": "Self-hosted CLI for running untrusted AI agents locally inside hardened Docker sandboxes with controlled egress, credential-managed integrations, and transparent inference auditing.",
-    "unique": "Focus areas include agent-orchestration, agent-safety, agent-sandbox.",
     "benefit": "Developers can inspect the repo to try the project or adapt its approach locally."
   },
   "31ac00c384bb5247": {
@@ -801,5 +789,17 @@
     "summary": "Field notes on training a text-to-image model for $21K, released as the 2B-Parameter P-JiT model under Apache 2.0.",
     "unique": "The reported training cost is $21K for a 2B-Parameter P-JiT text-to-image model released under Apache 2.0.",
     "benefit": "Builders who cannot fund large training runs get a small Apache 2.0 image model as a starting point for their own experiments."
+  },
+  "06715abca828fad9": {
+    "hash": "dfacaaf4",
+    "summary": "Rivet is an orchestrator for agentic workloads, described as fast, high-density and scalable, covering every workload an agent needs, built on actors, Cloudflare Durable Objects and FoundationDB for realtime and multiplayer traffic.",
+    "unique": "It schedules every workload an agent needs at high density, with durable actors and realtime multiplayer as first-class topics.",
+    "benefit": "Developers running many concurrent agent sessions get one layer for actor state and realtime traffic instead of a bespoke queue per task."
+  },
+  "871adf787e5691f3": {
+    "hash": "88a1174b",
+    "summary": "agent-autoloop lets a command-line coding agent take on work in the background and follow it through to the end; it stays quiet normally and only sends a card when it faces something it is not sure about, so you make the call.",
+    "unique": "It is event-driven and interrupts only for uncertain decisions, with MCP support and hooks into Claude Code and Codex.",
+    "benefit": "Developers can leave routine tasks with Claude Code or Codex and only get pulled in when a genuine decision is needed."
   }
 }

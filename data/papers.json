@@ -1,12 +1,23 @@
 [
   {
+    "id": "2611.08373",
+    "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+    "url": "https://huggingface.co/papers/2611.08373",
+    "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore…",
+    "publishedAt": "2026-11-05T00:00:00.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 101,
+    "org": "hkustgz",
+    "firstSeenAt": "2026-11-06T19:30:37.124Z"
+  },
+  {
     "id": "2611.08449",
     "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
     "url": "https://huggingface.co/papers/2611.08449",
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 91,
+    "upvotes": 96,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -18,7 +29,7 @@
     "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 54,
+    "upvotes": 55,
     "org": "sjut1",
     "githubRepo": "https://github.com/DeepExperience/Harness-S",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -33,17 +44,6 @@
     "upvotes": 50,
     "org": "carnegiemellonu",
     "githubRepo": "https://github.com/George-Ling3/BestRand",
-    "firstSeenAt": "2026-11-06T19:30:37.124Z"
-  },
-  {
-    "id": "2611.08373",
-    "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
-    "url": "https://huggingface.co/papers/2611.08373",
-    "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore…",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 48,
-    "org": "hkustgz",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
@@ -125,7 +125,7 @@
     "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multiple teachers. Although prior work reports near-perfect in-distribution (IND) distillation performance, we find that this can mask incomplete capability consolidation beyond the supervised distribution. A preliminary study on synthetic reasoning shows that OPD does not fully transfer teachers'…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 22,
+    "upvotes": 23,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
@@ -343,7 +343,7 @@
     "summary": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets. Dory1.0-4B is built on a normalized Transformer (nGPT) backbone with interleaved sliding-window and full-attention layers, organized into an input block, a shared recurrent block, and an output block. At inference, the recurrent block can be…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 12,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"

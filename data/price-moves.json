@@ -1,5 +1,69 @@
 [
   {
+    "id": "a81d57a9399d75e9",
+    "modelId": "inclusionai/ling-3.1-flash",
+    "name": "inclusionAI: Ling 3.1 Flash",
+    "at": "2026-11-07T04:31:45.883Z",
+    "field": "prompt",
+    "from": 0.075,
+    "to": 0.045,
+    "change": -40
+  },
+  {
+    "id": "0cae8d769743ebcf",
+    "modelId": "inclusionai/ling-3.1-flash",
+    "name": "inclusionAI: Ling 3.1 Flash",
+    "at": "2026-11-07T04:31:45.883Z",
+    "field": "completion",
+    "from": 0.225,
+    "to": 0.135,
+    "change": -40
+  },
+  {
+    "id": "c9c7dd9a9f2ad0a6",
+    "modelId": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "lab": "minimax",
+    "at": "2026-11-07T04:30:07.713Z",
+    "field": "prompt",
+    "from": 0.27,
+    "to": 0.3,
+    "change": 11.1
+  },
+  {
+    "id": "fe880e151eebc9b8",
+    "modelId": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "lab": "minimax",
+    "at": "2026-11-07T04:30:07.713Z",
+    "field": "completion",
+    "from": 0.95,
+    "to": 1.2,
+    "change": 26.3
+  },
+  {
+    "id": "6e1285cbee889c55",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-07T04:01:19.366Z",
+    "field": "prompt",
+    "from": 0.0765,
+    "to": 0.0675,
+    "change": -11.8
+  },
+  {
+    "id": "5c1f413246a072cb",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-07T04:01:19.366Z",
+    "field": "completion",
+    "from": 0.255,
+    "to": 0.225,
+    "change": -11.8
+  },
+  {
     "id": "c562af26c9896847",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",

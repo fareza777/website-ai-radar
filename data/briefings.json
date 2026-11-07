@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-07",
-    "generatedAt": "2026-11-07T00:58:58.459Z",
+    "generatedAt": "2026-11-07T04:01:19.366Z",
     "stats": {
-      "updates24h": 19,
-      "labsActive24h": 9,
-      "updates7d": 125,
+      "updates24h": 17,
+      "labsActive24h": 7,
+      "updates7d": 124,
       "newModels7d": 22
     },
     "source": "template",
-    "headline": "19 updates from 9 AI labs in the last 24 hours · 22 model releases this week.",
+    "headline": "17 updates from 7 AI labs in the last 24 hours · 22 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
@@ -25,11 +25,6 @@
         "text": "NVIDIA: Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
         "itemId": "6ce9fe52db65d87a",
         "lab": "nvidia"
-      },
-      {
-        "text": "Google DeepMind: Google GenAI SDK (Python) v3.0.0",
-        "itemId": "f6d3226a90fa9d2c",
-        "lab": "google-deepmind"
       },
       {
         "text": "OpenAI: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
