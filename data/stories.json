@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T19:30:37.124Z",
+  "generatedAt": "2026-11-07T00:58:58.459Z",
   "stories": [
     {
       "id": "34b0bf3f94c3851e",
@@ -141,6 +141,7 @@
         "MarkTechPost",
         "news.lavx.hu",
         "The Decoder",
+        "Brief IA",
         "https://tech-insider.org/",
         "shattered.io",
         "GIGAZINE",
@@ -219,7 +220,7 @@
       "importance": 62
     },
     {
-      "id": "mistral:c957a4e3299808",
+      "id": "mistral:54fd29ef061e48",
       "title": "Orange unit signs deal to Mistral's latest AI cybersecurity model",
       "entity": null,
       "labs": [
@@ -228,23 +229,24 @@
       "official": 0,
       "press": 2,
       "outlets": [
+        "Traders Union",
+        "Mobile Europe",
+        "Global Banking & Finance Review",
         "Reuters",
         "Investing.com",
-        "Global Banking & Finance Review",
+        "AOL.com",
         "CNA",
         "The Lufkin Daily News",
-        "marketscreener.com",
-        "Traders Union",
-        "Mobile Europe"
+        "marketscreener.com"
       ],
       "firstAt": "2026-10-29T14:32:02.000Z",
-      "lastAt": "2026-10-29T14:32:25.000Z",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWMwRU9NRlZaLTh5S2wtUEh0VVl1R3NlMk5TT1hXWEk0YUFENmZ3ME5HaGZSYUU2UEc0OHNpa0hXWXFlVEVPbjdKR3ExNjRrTWVfNHo2dXNMYTZfQ08yLWtTVkNDZUJ6RXJOM3VWSk5oOHRKZkg2aUxNV0VFak9CeW81SjJpU21OdUlwaVdiSWRNVGIyZjdoTFNvYS1IRWdUVHBVTlk0Q0pVZ0NQY3Ew?oc=5",
+      "lastAt": "2026-10-29T14:32:02.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQmVuOVB4RzVhM19OQk9jaDBPRHNEWXM1NzdJQ1MtX3RGZlZkTk00clduZnpTMXhsci1oa3BkOWo5aGQ1V21UNTZyLU4zZ1dXVTIxR3JHMmpsdlNSMWxJdmxOT190N3g5LXprdXN4Sk1TQlNNS1A2Q2R2UDBoc2RtWQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "mistral:c957a4e3299808"
+        "id": "mistral:54fd29ef061e48"
       },
-      "importance": 60
+      "importance": 61
     },
     {
       "id": "qwen:cf6f20342781bd",
@@ -341,7 +343,7 @@
       {
         "name": "Gemini 4 Argon",
         "count": 5,
-        "prev": 12,
+        "prev": 11,
         "labs": []
       },
       {
@@ -374,19 +376,19 @@
     "topics": [
       {
         "name": "agents",
-        "count": 53,
-        "prev": 33,
+        "count": 51,
+        "prev": 38,
         "labs": [
           "anthropic",
           "google-deepmind",
           "deepseek",
           "openai",
-          "mistral",
-          "minimax",
           "qwen",
+          "minimax",
+          "mistral",
+          "bytedance",
           "microsoft",
           "amazon",
-          "bytedance",
           "ibm",
           "nvidia"
         ]
@@ -394,14 +396,14 @@
       {
         "name": "coding",
         "count": 39,
-        "prev": 37,
+        "prev": 36,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
-          "minimax",
           "qwen",
+          "minimax",
+          "mistral",
           "cohere",
           "microsoft",
           "amazon",
@@ -411,18 +413,17 @@
       },
       {
         "name": "safety",
-        "count": 10,
-        "prev": 10,
+        "count": 11,
+        "prev": 9,
         "labs": [
           "anthropic",
-          "xai",
           "openai",
           "amazon"
         ]
       },
       {
         "name": "multimodal",
-        "count": 9,
+        "count": 10,
         "prev": 8,
         "labs": [
           "google-deepmind",
@@ -439,27 +440,36 @@
       },
       {
         "name": "rag",
-        "count": 9,
+        "count": 8,
         "prev": 3,
         "labs": [
           "meta",
           "cohere",
-          "amazon",
           "bytedance",
-          "nvidia"
+          "amazon"
         ]
       },
       {
         "name": "open-source",
-        "count": 3,
+        "count": 4,
         "prev": 4,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "amazon",
           "nvidia"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 4,
+        "prev": 1,
+        "labs": [
+          "qwen",
+          "microsoft",
+          "amazon"
         ]
       },
       {
@@ -472,15 +482,6 @@
           "tencent",
           "amazon",
           "nvidia"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 2,
-        "prev": 1,
-        "labs": [
-          "qwen",
-          "amazon"
         ]
       }
     ]
@@ -512,6 +513,18 @@
       ],
       "reports": 3,
       "at": "2026-11-05T04:35:43.000Z"
+    },
+    {
+      "id": "baidu:026b8f7dadf07f",
+      "lab": "baidu",
+      "title": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaUNsZTZvdDJ0TjZyWjdJZ0FLUnpFMEt2Zm00RmxoX0w2bWFRWlZPdFBoUmdrTlJWWGtvaUgyd3Ztb0pPQWVWYVFuR2lnUjlaSEJvU1FOenpta1kxejJZR1lVYWUwQ0RaRGRnT0hRZEszTzFLN0ZPUkctM2dtby1lLXBocElOMjdxMDVMRjZ0Wi1EbzNhaVRhdVpCS0xIaVNyVjViNnNLOFVaZnBnYXZpbVJmdW9DZFdqUWR2UGZnQ3o?oc=5",
+      "outlets": [
+        "The Decoder",
+        "Brief IA"
+      ],
+      "reports": 2,
+      "at": "2026-11-05T18:03:08.000Z"
     },
     {
       "id": "baidu:fb98b589e43e33",

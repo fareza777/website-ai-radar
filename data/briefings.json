@@ -1,25 +1,30 @@
 [
   {
     "date": "2026-11-07",
-    "generatedAt": "2026-11-06T19:30:37.124Z",
+    "generatedAt": "2026-11-07T00:58:58.459Z",
     "stats": {
-      "updates24h": 20,
-      "labsActive24h": 8,
-      "updates7d": 128,
-      "newModels7d": 23
+      "updates24h": 19,
+      "labsActive24h": 9,
+      "updates7d": 125,
+      "newModels7d": 22
     },
     "source": "template",
-    "headline": "20 updates from 8 AI labs in the last 24 hours · 23 model releases this week.",
+    "headline": "19 updates from 9 AI labs in the last 24 hours · 22 model releases this week.",
     "bullets": [
       {
-        "text": "Amazon: Announcing Web Answer on Amazon Bedrock AgentCore",
-        "itemId": "11c19e26e3d8fe80",
+        "text": "Amazon: Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
+        "itemId": "317a771eb37310f5",
         "lab": "amazon"
       },
       {
-        "text": "Amazon: Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
-        "itemId": "bc2d0068f56d93e1",
+        "text": "Amazon: Agent Registry is now generally available in AWS GovCloud (US-West) Region",
+        "itemId": "e14a5e738593836d",
         "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+        "itemId": "6ce9fe52db65d87a",
+        "lab": "nvidia"
       },
       {
         "text": "Google DeepMind: Google GenAI SDK (Python) v3.0.0",
@@ -32,14 +37,9 @@
         "lab": "openai"
       },
       {
-        "text": "OpenAI: Measuring how AI agents handle everyday wet-lab science",
-        "itemId": "cfd4354afa14004f",
-        "lab": "openai"
-      },
-      {
-        "text": "NVIDIA: Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-        "itemId": "7eab5dddcfa7727d",
-        "lab": "nvidia"
+        "text": "IBM: Chicago’s bid to lead the country in quantum computing",
+        "itemId": "394265bd1bd8acbf",
+        "lab": "ibm"
       }
     ]
   },

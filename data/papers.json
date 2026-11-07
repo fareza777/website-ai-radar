@@ -6,7 +6,7 @@
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 82,
+    "upvotes": 91,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -66,7 +66,7 @@
     "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank erase and write gates. However, we show that state updates are far less sensitive to…",
     "publishedAt": "2026-11-05T17:53:49.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 4,
+    "upvotes": 5,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
@@ -101,7 +101,7 @@
     "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 53,
+    "upvotes": 55,
     "org": "benchflow",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
@@ -112,7 +112,7 @@
     "summary": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 23,
+    "upvotes": 25,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent-Hunyuan/EmoReward",
@@ -125,7 +125,7 @@
     "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multiple teachers. Although prior work reports near-perfect in-distribution (IND) distillation performance, we find that this can mask incomplete capability consolidation beyond the supervised distribution. A preliminary study on synthetic reasoning shows that OPD does not fully transfer teachers'…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 20,
+    "upvotes": 22,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
@@ -211,7 +211,7 @@
     "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 71,
+    "upvotes": 72,
     "org": "klingteam",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
@@ -378,7 +378,7 @@
     "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF)…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 125,
+    "upvotes": 126,
     "org": "sjtu-deng-lab",
     "githubRepo": "https://github.com/SJTU-DENG-Lab/WaveForcing",
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
@@ -420,6 +420,18 @@
     "firstSeenAt": "2026-11-03T11:00:37.354Z"
   },
   {
+    "id": "2611.01560",
+    "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+    "url": "https://huggingface.co/papers/2611.01560",
+    "summary": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39…",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "submittedAt": "2026-11-03T00:00:00.000Z",
+    "upvotes": 48,
+    "org": null,
+    "githubRepo": "https://github.com/Open-RUA/uni-robot-agent",
+    "firstSeenAt": "2026-11-03T19:34:58.857Z"
+  },
+  {
     "id": "2611.03424",
     "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
     "url": "https://huggingface.co/papers/2611.03424",
@@ -430,18 +442,6 @@
     "org": "cmu-scs",
     "githubRepo": "https://github.com/cxcscmu/IdeaTaste",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
-  },
-  {
-    "id": "2611.01560",
-    "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
-    "url": "https://huggingface.co/papers/2611.01560",
-    "summary": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39…",
-    "publishedAt": "2026-11-01T00:00:00.000Z",
-    "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 47,
-    "org": null,
-    "githubRepo": "https://github.com/Open-RUA/uni-robot-agent",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
   {
     "id": "2611.02074",

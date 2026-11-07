@@ -1,5 +1,57 @@
 [
   {
+    "id": "317a771eb37310f5",
+    "lab": "amazon",
+    "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T22:47:00.000Z",
+    "firstSeenAt": "2026-11-07T00:58:58.459Z",
+    "updatedAt": "2026-11-06T22:47:00.000Z",
+    "excerpt": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock can now run agentic use cases such as coding and document processing on Kimi K3.1 Pro (Highspeed), which delivers high output tokens per second (OTPS) for faster, more responsive results. According to Moonshot AI, Kimi…",
+    "summary": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source",
+      "agents",
+      "coding",
+      "safety"
+    ],
+    "importance": 75,
+    "contentHash": "bdc9dab37e6b"
+  },
+  {
+    "id": "e14a5e738593836d",
+    "lab": "amazon",
+    "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T19:48:00.000Z",
+    "firstSeenAt": "2026-11-07T00:58:58.459Z",
+    "updatedAt": "2026-11-06T19:48:00.000Z",
+    "excerpt": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in the AWS GovCloud (US-West) Region. AWS Agent Registry is a fully managed discovery service that gives your organization a central catalog for organizing, curating, and discovering resources. You can publish MCP servers, tools, agents, agent skills, and custom resources to a searchable registry, and control what becomes discoverable…",
+    "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in the AWS GovCloud (US-West) Region.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 65,
+    "contentHash": "22c8374579e0"
+  },
+  {
     "id": "903f3d6e677960b5",
     "lab": "amazon",
     "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",

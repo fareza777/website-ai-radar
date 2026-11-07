@@ -1,5 +1,93 @@
 [
   {
+    "id": "c562af26c9896847",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-07T00:58:58.459Z",
+    "field": "prompt",
+    "from": 0.045,
+    "to": 0.051,
+    "change": 13.3
+  },
+  {
+    "id": "a985661533e85761",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-07T00:58:58.459Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.567,
+    "change": 13.4
+  },
+  {
+    "id": "899a29ef4992fe12",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-07T00:58:58.459Z",
+    "field": "prompt",
+    "from": 0.103,
+    "to": 0.1165,
+    "change": 13.1
+  },
+  {
+    "id": "63f4874cfe4ee0b9",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-07T00:58:58.459Z",
+    "field": "completion",
+    "from": 4.11,
+    "to": 4.66,
+    "change": 13.4
+  },
+  {
+    "id": "00782c20c08e7971",
+    "modelId": "nvidia/nemotron-3-super-120b-a12b",
+    "name": "NVIDIA: Nemotron 3 Super",
+    "lab": "nvidia",
+    "at": "2026-11-07T00:58:58.459Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.075,
+    "change": -75
+  },
+  {
+    "id": "90fd10414770349b",
+    "modelId": "nvidia/nemotron-3-super-120b-a12b",
+    "name": "NVIDIA: Nemotron 3 Super",
+    "lab": "nvidia",
+    "at": "2026-11-07T00:58:58.459Z",
+    "field": "completion",
+    "from": 2.4,
+    "to": 0.4,
+    "change": -83.3
+  },
+  {
+    "id": "54b6d2389fcde6a4",
+    "modelId": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "lab": "deepseek",
+    "at": "2026-11-07T00:58:58.459Z",
+    "field": "prompt",
+    "from": 0.2574,
+    "to": 0.32,
+    "change": 24.3
+  },
+  {
+    "id": "c44d19defd548839",
+    "modelId": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "lab": "deepseek",
+    "at": "2026-11-07T00:58:58.459Z",
+    "field": "completion",
+    "from": 1.0287,
+    "to": 0.89,
+    "change": -13.5
+  },
+  {
     "id": "bd24e3749b865650",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",

@@ -1,5 +1,36 @@
 [
   {
+    "id": "3e2fc2c9b2ec2305",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework dotnet v1.28.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.28.0",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T22:00:01.000Z",
+    "firstSeenAt": "2026-11-07T00:58:58.459Z",
+    "updatedAt": "2026-11-06T22:00:01.000Z",
+    "excerpt": "Changes: 924a6e5 .NET: chore: bumps release version for dotnet ( #10157 ) c79d6ee Fix spelling in WorkflowBuilder XML comment ( #10154 ) 07d07c8 Fix initializer spelling in Cosmos test comment ( #10153 ) 7bca1df Python: Prepare 1.25.0 release ( #10151 ) [ #10147 , #9617 ] 25ecd67 Python: Allow concurrent MCP calls with request-owned headers ( #10147 ) 82f03c8 .NET: fix(dotnet): parse declarative workflow formulas…",
+    "summary": "Microsoft shipped Microsoft Agent Framework dotnet v1.28.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 40,
+    "contentHash": "bb3e8e1c2664",
+    "meta": {
+      "version": "1.28.0",
+      "semver": "minor",
+      "repo": "microsoft/agent-framework",
+      "package": "dotnet"
+    }
+  },
+  {
     "id": "9d7ccb7a6a054e32",
     "lab": "microsoft",
     "title": "Microsoft Agent Framework python v1.25.0",
@@ -201,7 +232,7 @@
     "importance": 68,
     "contentHash": "55470560c200",
     "meta": {
-      "likes": 197,
+      "likes": 202,
       "downloads": 2826,
       "repo": "microsoft/Mage-VL-Cowork",
       "pipeline": "image-text-to-text",
@@ -1442,7 +1473,7 @@
     "importance": 61,
     "contentHash": "407998099ca2",
     "meta": {
-      "likes": 24,
+      "likes": 25,
       "downloads": 0,
       "repo": "microsoft/bioemu2",
       "license": "mit"

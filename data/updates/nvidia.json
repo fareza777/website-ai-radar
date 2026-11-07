@@ -1,5 +1,29 @@
 [
   {
+    "id": "6ce9fe52db65d87a",
+    "lab": "nvidia",
+    "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+    "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-06T22:20:20.000Z",
+    "firstSeenAt": "2026-11-07T00:58:58.459Z",
+    "updatedAt": "2026-11-06T22:20:20.000Z",
+    "excerpt": "When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an... When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an image requires multiple sequential passes through a model with billions of parameters, and higher…",
+    "summary": "When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 60,
+    "contentHash": "9ab8e532f1fd"
+  },
+  {
     "id": "abbce93eef91017a",
     "lab": "nvidia",
     "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
@@ -226,17 +250,15 @@
     "verified": true,
     "publishedAt": "2026-11-03T11:21:00.000Z",
     "firstSeenAt": "2026-11-06T04:02:57.281Z",
-    "updatedAt": "2026-11-03T11:21:00.000Z",
-    "excerpt": "Why? One CTA per token and head adds overhead to large Qwen attention batches. Token tiling reduces this overhead while retaining the fused normalization, rotary embedding, and gate extraction. What? Add an eight-token path behind TRTLLM_ENABLE_QKV_ROPE_TILING=1. Limit selection to validated shapes with at least 256 tokens Signed-off-by: William Zhang 133824995+2ez4bz@users.noreply.github.com",
+    "updatedAt": "2026-11-07T00:58:58.459Z",
+    "excerpt": "Highlights Known Issues DSA models, including GLM-5.2, may produce incorrect output when using an NVFP4 KV cache. Kimi K3 DSpark with MegaMoE CuTe DSL TEP and CUDA graphs may hang during GB300 warmup. DeepSeek-V4-Pro initialization may run out of GPU memory when MPI workers are reused after large MoE workloads. Tensor-parallel serving with RPC orchestration may hang during model initialization when reusing an MPI…",
     "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
-    "tags": [
-      "rag"
-    ],
+    "tags": [],
     "importance": 40,
-    "contentHash": "79b45608c5a5",
+    "contentHash": "e3e7d0d6187e",
     "meta": {
       "version": "v1.4.0",
       "semver": "minor",
@@ -1764,7 +1786,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3071,
+      "likes": 3072,
       "downloads": 61049,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -1986,7 +2008,7 @@
     "importance": 63,
     "contentHash": "806c45ea6874",
     "meta": {
-      "likes": 42,
+      "likes": 43,
       "downloads": 11639,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
@@ -2038,7 +2060,7 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 383,
+      "likes": 385,
       "downloads": 118294,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -3011,7 +3033,7 @@
     "importance": 61,
     "contentHash": "8748e3ba3f5a",
     "meta": {
-      "likes": 25,
+      "likes": 26,
       "downloads": 40948,
       "repo": "nvidia/EgoHand-v1",
       "license": "openmdw-1.1"
