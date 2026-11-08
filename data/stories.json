@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T06:15:18.812Z",
+  "generatedAt": "2026-11-08T13:39:13.707Z",
   "stories": [
     {
       "id": "baidu:c7eb7b8759594f",
@@ -46,9 +46,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 12,
+      "press": 11,
       "outlets": [
-        "SC Media",
         "The Hacker News",
         "SecurityWeek",
         "Brave New Coin",
@@ -64,44 +63,14 @@
         "Tom's Hardware",
         "qz.com"
       ],
-      "firstAt": "2026-10-29T13:14:14.000Z",
+      "firstAt": "2026-10-29T13:42:00.000Z",
       "lastAt": "2026-11-04T20:49:38.000Z",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50ck5wcllHV21sMDZLVEJiWkp2OGlqbTVxcmRMRlJSRkFydUxodGlHalJDYl81WE00aUJsbnVRZFdQSmRrOUg4Rnh3NWdMNWowWGotNmZ2MzB6dm5tZzRYQnpqaFc4VG1oblhmSUVIYXRPR0hXUklz?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:f8cf634dc4d336"
       },
-      "importance": 65
-    },
-    {
-      "id": "deepseek:3c7db3d2e038bb",
-      "title": "DeepSeek and Moonshot AI are reportedly using GPT-6 Astra for training",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "deepseek",
-        "moonshot",
-        "qwen"
-      ],
-      "official": 0,
-      "press": 7,
-      "outlets": [
-        "Techzine Global",
-        "trendingtopics.eu",
-        "TOKENPOST",
-        "International Business Times UK",
-        "Crypto Briefing",
-        "India Today",
-        "YourStory.com",
-        "Dataconomy"
-      ],
-      "firstAt": "2026-10-29T07:59:33.000Z",
-      "lastAt": "2026-11-05T10:29:03.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVGdlcnFTYUlESWtFQ2VuTXpNUk5uZDNBTURiMFJVZlhWRUJ4VkdfX2lHZGRXMmY1a2dCdzBHQW00bFZsaFhraDNOTlpybWxTZkU2bkJzRmdERWlnWTh1ZE5icjNQTzNIVGV4SGlYUHA0NThma0tkOGFhSFVUd0lldjZzUUlxaUdQOWhGS0hLYjlpUXppSWhIdE1LUHlDTkRLX1VCajdscDdHWW4yb1lkWmRaSi1OYzU5?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "deepseek:3c7db3d2e038bb"
-      },
-      "importance": 62
+      "importance": 64
     },
     {
       "id": "mistral:6f7d89d8ad3ee2",
@@ -111,7 +80,7 @@
         "mistral"
       ],
       "official": 0,
-      "press": 13,
+      "press": 14,
       "outlets": [
         "Martin Cid Magazine",
         "Techzine Global",
@@ -123,16 +92,17 @@
         "mspbusiness.com",
         "Kingy AI",
         "Crypto Briefing",
-        "Technology Org"
+        "Technology Org",
+        "Fello AI"
       ],
       "firstAt": "2026-10-29T15:10:44.000Z",
-      "lastAt": "2026-11-04T14:37:58.000Z",
+      "lastAt": "2026-11-08T05:49:42.000Z",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
       "lead": {
         "kind": "press",
         "id": "mistral:6f7d89d8ad3ee2"
       },
-      "importance": 62
+      "importance": 63
     },
     {
       "id": "mistral:54fd29ef061e48",
@@ -162,6 +132,33 @@
         "id": "mistral:54fd29ef061e48"
       },
       "importance": 61
+    },
+    {
+      "id": "moonshot:f0b1a8c1102daa",
+      "title": "People Familiar With Matter Say DeepSeek, Moonshot AI Used GPT-6 Astra Data",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "moonshot",
+        "qwen"
+      ],
+      "official": 0,
+      "press": 6,
+      "outlets": [
+        "TOKENPOST",
+        "International Business Times UK",
+        "Crypto Briefing",
+        "India Today",
+        "YourStory.com",
+        "Dataconomy"
+      ],
+      "firstAt": "2026-10-29T15:28:47.000Z",
+      "lastAt": "2026-11-05T10:29:03.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85bXdzMmJXNUNKZU1yQklYdnlONHBmYTBjalBqUUtGR05aUVBKUXJFZTc5OGt2ZTlZUktWTGxVWGRBeVItZzlhRm1ualROcGtuVVV4TWpDdkRrUXc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "moonshot:f0b1a8c1102daa"
+      },
+      "importance": 59
     },
     {
       "id": "qwen:cf6f20342781bd",
@@ -243,17 +240,23 @@
         "labs": []
       },
       {
+        "name": "Gemini 4 Argon",
+        "count": 6,
+        "prev": 9,
+        "labs": []
+      },
+      {
         "name": "Gemini 4 Carbon",
-        "count": 7,
-        "prev": 36,
+        "count": 6,
+        "prev": 37,
         "labs": [
           "google-deepmind"
         ]
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 6,
-        "prev": 9,
+        "name": "Mistral Large 4",
+        "count": 5,
+        "prev": 10,
         "labs": []
       },
       {
@@ -266,12 +269,6 @@
         "name": "DeepSeek 4.1 Flash",
         "count": 4,
         "prev": 3,
-        "labs": []
-      },
-      {
-        "name": "Mistral Large 4",
-        "count": 4,
-        "prev": 10,
         "labs": []
       },
       {
@@ -305,11 +302,11 @@
         "labs": [
           "anthropic",
           "google-deepmind",
-          "openai",
           "deepseek",
+          "openai",
           "qwen",
-          "minimax",
           "mistral",
+          "minimax",
           "microsoft",
           "amazon",
           "bytedance",
@@ -319,16 +316,33 @@
       },
       {
         "name": "coding",
-        "count": 38,
+        "count": 39,
         "prev": 38,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "qwen",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
+          "microsoft",
+          "amazon",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "multimodal",
+        "count": 12,
+        "prev": 8,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "moonshot",
+          "mistral",
+          "baidu",
+          "tencent",
           "microsoft",
           "amazon",
           "ibm",
@@ -343,23 +357,6 @@
           "anthropic",
           "openai",
           "amazon"
-        ]
-      },
-      {
-        "name": "multimodal",
-        "count": 11,
-        "prev": 8,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "moonshot",
-          "mistral",
-          "baidu",
-          "tencent",
-          "microsoft",
-          "amazon",
-          "ibm",
-          "nvidia"
         ]
       },
       {
@@ -389,8 +386,8 @@
         "prev": 4,
         "labs": [
           "openai",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
           "amazon",
           "nvidia"
@@ -407,24 +404,20 @@
           "amazon",
           "nvidia"
         ]
+      },
+      {
+        "name": "audio",
+        "count": 2,
+        "prev": 4,
+        "labs": [
+          "openai",
+          "amazon",
+          "ibm"
+        ]
       }
     ]
   },
   "unconfirmed": [
-    {
-      "id": "baidu:c7eb7b8759594f",
-      "lab": "baidu",
-      "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
-      "outlets": [
-        "XenoSpectrum",
-        "Pandaily",
-        "MarkTechPost",
-        "news.lavx.hu"
-      ],
-      "reports": 4,
-      "at": "2026-11-05T12:10:14.000Z"
-    },
     {
       "id": "mistral:d6f733723f4c3b",
       "lab": "mistral",
@@ -448,30 +441,6 @@
       ],
       "reports": 2,
       "at": "2026-11-05T18:03:08.000Z"
-    },
-    {
-      "id": "baidu:fb98b589e43e33",
-      "lab": "baidu",
-      "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
-      "outlets": [
-        "news.lavx.hu",
-        "MarkTechPost"
-      ],
-      "reports": 2,
-      "at": "2026-11-05T12:10:14.000Z"
-    },
-    {
-      "id": "baidu:5204084b47b23d",
-      "lab": "baidu",
-      "title": "Baidu Releases ERNIE 5.5 Flash Base for Further Training",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcnIzTU5VV3Q3Y3g1dlZOU29iQmVDRDk3WHdTRExYcW9LVTVUZndGOFMtZzRWRWZnWGl6bDVtaGEyMTk0dm1YSE9mZHNTajk1d19kVmNBcFhWWWtqMVoxRUxmajc2NzNUMGM4b3paRlVCQzhLSXE5MF9RYjlMcEhUWk9HSFg?oc=5",
-      "outlets": [
-        "Unite.AI",
-        "www.tokenpost.com"
-      ],
-      "reports": 2,
-      "at": "2026-11-05T10:25:04.000Z"
     }
   ]
 }

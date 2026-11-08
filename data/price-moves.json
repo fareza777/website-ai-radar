@@ -1,5 +1,93 @@
 [
   {
+    "id": "1f190fb69c800071",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-08T13:39:13.707Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.006,
+    "change": -96
+  },
+  {
+    "id": "3f7ab433430ddd34",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-08T13:39:13.707Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.5,
+    "change": -16.7
+  },
+  {
+    "id": "67fcf572d191ae8f",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-08T13:39:13.707Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.0335,
+    "change": -77.7
+  },
+  {
+    "id": "57831a5b3f123a2c",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-08T13:39:13.707Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.083,
+    "change": -83.4
+  },
+  {
+    "id": "99c953583e305bc6",
+    "modelId": "qwen/qwen3.6-27b",
+    "name": "Qwen: Qwen3.6 27B",
+    "lab": "qwen",
+    "at": "2026-11-08T13:39:13.707Z",
+    "field": "prompt",
+    "from": 0.45,
+    "to": 0.32,
+    "change": -28.9
+  },
+  {
+    "id": "b057ff3a1d7723f4",
+    "modelId": "qwen/qwen3.6-27b",
+    "name": "Qwen: Qwen3.6 27B",
+    "lab": "qwen",
+    "at": "2026-11-08T13:39:13.707Z",
+    "field": "completion",
+    "from": 2.7,
+    "to": 3.2,
+    "change": 18.5
+  },
+  {
+    "id": "da9c06bbff684cd9",
+    "modelId": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "lab": "meta",
+    "at": "2026-11-08T13:39:13.707Z",
+    "field": "prompt",
+    "from": 0.0509,
+    "to": 0.05,
+    "change": -1.8
+  },
+  {
+    "id": "d8fb529ddb07fe27",
+    "modelId": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "lab": "meta",
+    "at": "2026-11-08T13:39:13.707Z",
+    "field": "completion",
+    "from": 0.335,
+    "to": 0.33,
+    "change": -1.5
+  },
+  {
     "id": "a1b65abbe81657b2",
     "modelId": "moonshotai/kimi-k2.5",
     "name": "MoonshotAI: Kimi K2.5",

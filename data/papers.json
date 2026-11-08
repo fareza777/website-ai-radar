@@ -17,7 +17,7 @@
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 100,
+    "upvotes": 104,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -29,7 +29,7 @@
     "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that…",
     "publishedAt": "2026-11-03T18:59:52.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 86,
+    "upvotes": 100,
     "org": "oxford",
     "firstSeenAt": "2026-11-07T17:46:47.864Z"
   },
@@ -40,7 +40,7 @@
     "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 64,
+    "upvotes": 66,
     "org": "sjut1",
     "githubRepo": "https://github.com/DeepExperience/Harness-S",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -64,7 +64,7 @@
     "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 44,
     "org": null,
     "firstSeenAt": "2026-11-07T10:24:40.073Z"
   },
@@ -87,7 +87,7 @@
     "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank erase and write gates. However, we show that state updates are far less sensitive to…",
     "publishedAt": "2026-11-05T17:53:49.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 9,
+    "upvotes": 12,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
@@ -99,7 +99,7 @@
     "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled. Existing analyses count how often an expert is selected on domain-labeled corpora, an instrument that fixes the taxonomy in advance, stays coarse, and records selection rather than contribution. We instead study specialization in feature space by training a sparse autoencoder…",
     "publishedAt": "2026-11-05T14:35:08.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 8,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "githubRepo": "https://github.com/ByteDance-Seed/SAE-interprets-MoE",
@@ -124,7 +124,7 @@
     "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual…",
     "publishedAt": "2026-11-04T18:59:58.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 61,
     "org": "mmlab-ntu",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
   },
@@ -135,7 +135,7 @@
     "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 56,
+    "upvotes": 58,
     "org": "benchflow",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
@@ -401,7 +401,7 @@
     "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 143,
+    "upvotes": 144,
     "org": "utexas",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },

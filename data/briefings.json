@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-08",
-    "generatedAt": "2026-11-08T06:15:18.812Z",
+    "generatedAt": "2026-11-08T13:39:13.707Z",
     "stats": {
-      "updates24h": 4,
-      "labsActive24h": 2,
-      "updates7d": 125,
+      "updates24h": 5,
+      "labsActive24h": 3,
+      "updates7d": 126,
       "newModels7d": 23
     },
     "source": "template",
-    "headline": "4 updates from 2 AI labs in the last 24 hours · 23 model releases this week.",
+    "headline": "5 updates from 3 AI labs in the last 24 hours · 23 model releases this week.",
     "bullets": [
       {
         "text": "Tencent: Qwen3.8-27B-DSpine-b16",
@@ -25,6 +25,11 @@
         "text": "Alibaba Qwen: Qwen Code v0.27.0",
         "itemId": "5162469ebe994e51",
         "lab": "qwen"
+      },
+      {
+        "text": "IBM: Docling v2.149.0",
+        "itemId": "25dca4e5c6ef7482",
+        "lab": "ibm"
       }
     ]
   },

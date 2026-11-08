@@ -1,5 +1,36 @@
 [
   {
+    "id": "25dca4e5c6ef7482",
+    "lab": "ibm",
+    "title": "Docling v2.149.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.149.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-08T08:25:48.000Z",
+    "firstSeenAt": "2026-11-08T13:39:13.707Z",
+    "updatedAt": "2026-11-08T08:25:48.000Z",
+    "excerpt": "Feature pdf: Add opt-in embedded PDF image extraction ( #5143 ) ( 3df6c93 ) Refactored the cli to be more intuitive ( #5214 ) ( 55f21d6 ) asr: Add support for mlx-audio ( #5181 ) ( 756059c ) vlm: Add MiniCPM-OCR preset ( #5134 ) ( 1282e3d ) Fix md: Decode only terminated character references in text ( #5231 ) ( 414d669 ) latex: Number the items of enumerate lists ( #4518 ) ( 1d9a79c ) md: Keep backslash escapes…",
+    "summary": "IBM shipped Docling v2.149.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "multimodal",
+      "audio"
+    ],
+    "importance": 40,
+    "contentHash": "9abc21b5e507",
+    "meta": {
+      "version": "v2.149.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "394265bd1bd8acbf",
     "lab": "ibm",
     "title": "Chicago’s bid to lead the country in quantum computing",
@@ -660,7 +691,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 55,
-      "downloads": 5320,
+      "downloads": 5514,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -691,7 +722,7 @@
     "contentHash": "6f6f69225449",
     "meta": {
       "likes": 46,
-      "downloads": 4402,
+      "downloads": 4510,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -904,8 +935,8 @@
     "importance": 65,
     "contentHash": "a598e14a409a",
     "meta": {
-      "likes": 80,
-      "downloads": 8999,
+      "likes": 81,
+      "downloads": 9214,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -1156,7 +1187,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 8,
-      "downloads": 373,
+      "downloads": 360,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
@@ -1462,7 +1493,7 @@
     "contentHash": "45adf5a46f06",
     "meta": {
       "likes": 47,
-      "downloads": 38862,
+      "downloads": 38856,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
       "license": "cc-by-nc-sa-4.0"
