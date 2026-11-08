@@ -1,5 +1,27 @@
 [
   {
+    "id": "a1b65abbe81657b2",
+    "modelId": "moonshotai/kimi-k2.5",
+    "name": "MoonshotAI: Kimi K2.5",
+    "lab": "moonshot",
+    "at": "2026-11-08T06:15:18.812Z",
+    "field": "prompt",
+    "from": 0.5,
+    "to": 0.532,
+    "change": 6.4
+  },
+  {
+    "id": "13439898afa271f7",
+    "modelId": "moonshotai/kimi-k2.5",
+    "name": "MoonshotAI: Kimi K2.5",
+    "lab": "moonshot",
+    "at": "2026-11-08T06:15:18.812Z",
+    "field": "completion",
+    "from": 2.5,
+    "to": 3.325,
+    "change": 33
+  },
+  {
     "id": "8778e42bee9eb25e",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",

@@ -40,7 +40,7 @@
     "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 63,
+    "upvotes": 64,
     "org": "sjut1",
     "githubRepo": "https://github.com/DeepExperience/Harness-S",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -69,13 +69,25 @@
     "firstSeenAt": "2026-11-07T10:24:40.073Z"
   },
   {
+    "id": "2611.06741",
+    "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+    "url": "https://huggingface.co/papers/2611.06741",
+    "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to…",
+    "publishedAt": "2026-11-04T00:00:00.000Z",
+    "submittedAt": "2026-11-06T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "mmlab-cuhk",
+    "githubRepo": "https://github.com/Lyricccco/tailsteer",
+    "firstSeenAt": "2026-11-08T06:15:18.812Z"
+  },
+  {
     "id": "2611.08376",
     "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
     "url": "https://huggingface.co/papers/2611.08376",
     "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank erase and write gates. However, we show that state updates are far less sensitive to…",
     "publishedAt": "2026-11-05T17:53:49.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 9,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
@@ -233,7 +245,7 @@
     "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 73,
+    "upvotes": 74,
     "org": "klingteam",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
@@ -341,7 +353,7 @@
     "summary": "Harness optimization can substantially improve LLM agents without modifying model weights, but existing methods primarily optimize response quality. Extending them to joint quality--cost optimization introduces a challenge: applying the deployment preference during intermediate updates can prematurely reject candidates that are valuable for later improvements. We introduce ParetoSaddler, which addresses this…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 18,
+    "upvotes": 19,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-11-04T04:02:27.843Z"

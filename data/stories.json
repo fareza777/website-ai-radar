@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T04:01:04.448Z",
+  "generatedAt": "2026-11-08T06:15:18.812Z",
   "stories": [
     {
       "id": "baidu:c7eb7b8759594f",
@@ -46,9 +46,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 13,
+      "press": 12,
       "outlets": [
-        "The Register",
         "SC Media",
         "The Hacker News",
         "SecurityWeek",
@@ -65,7 +64,7 @@
         "Tom's Hardware",
         "qz.com"
       ],
-      "firstAt": "2026-10-29T05:29:00.000Z",
+      "firstAt": "2026-10-29T13:14:14.000Z",
       "lastAt": "2026-11-04T20:49:38.000Z",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50ck5wcllHV21sMDZLVEJiWkp2OGlqbTVxcmRMRlJSRkFydUxodGlHalJDYl81WE00aUJsbnVRZFdQSmRrOUg4Rnh3NWdMNWowWGotNmZ2MzB6dm5tZzRYQnpqaFc4VG1oblhmSUVIYXRPR0hXUklz?oc=5",
       "lead": {
@@ -305,17 +304,17 @@
         "prev": 39,
         "labs": [
           "anthropic",
-          "deepseek",
           "google-deepmind",
           "openai",
+          "deepseek",
+          "qwen",
           "minimax",
           "mistral",
-          "qwen",
           "microsoft",
           "amazon",
           "bytedance",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -326,14 +325,14 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
-          "cohere",
-          "mistral",
           "qwen",
+          "minimax",
+          "mistral",
+          "cohere",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -359,8 +358,8 @@
           "tencent",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -391,8 +390,8 @@
         "labs": [
           "openai",
           "minimax",
-          "cohere",
           "mistral",
+          "cohere",
           "amazon",
           "nvidia"
         ]
@@ -425,19 +424,6 @@
       ],
       "reports": 4,
       "at": "2026-11-05T12:10:14.000Z"
-    },
-    {
-      "id": "moonshot:82a46e5776f4cd",
-      "lab": "moonshot",
-      "title": "Moonshot AI Launches Hosted Agents for Enterprise AI Operations Hubs",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcUNsUFo3YWZCRnczVWZDejA2WkZxVjd4ckJCLTdtVEl0Sml1NTJkVkVPUXFmblhKclRjUm5VSHN3T1FTbWdDMjY1NDM5U3pIckgtLUxrS3dXRjZSUVZId243V1hHSUp0SVdkS25FZVBSYUs3WWx0N2dDSC0xVHM1UUozMG9PdWdqUlhPcExKQ0syZkJuUHZFWElvd1FnNmFNQmVGOFJsZjJmdU0yOVNGOEtzZERvRWlVTHpSZjJMT29Gbm8?oc=5",
-      "outlets": [
-        "Pandaily",
-        "Tech in Asia",
-        "Asia Business Outlook"
-      ],
-      "reports": 3,
-      "at": "2026-11-05T04:35:43.000Z"
     },
     {
       "id": "mistral:d6f733723f4c3b",
