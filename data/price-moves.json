@@ -1,5 +1,38 @@
 [
   {
+    "id": "8778e42bee9eb25e",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-08T04:01:04.448Z",
+    "field": "prompt",
+    "from": 0.1165,
+    "to": 0.111,
+    "change": -4.7
+  },
+  {
+    "id": "432b4bcc8db120bb",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-08T04:01:04.448Z",
+    "field": "completion",
+    "from": 4.66,
+    "to": 4.44,
+    "change": -4.7
+  },
+  {
+    "id": "b31262df959e602b",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-11-08T04:01:04.448Z",
+    "field": "prompt",
+    "from": 0.059,
+    "to": 0.0434,
+    "change": -26.4
+  },
+  {
     "id": "a81d57a9399d75e9",
     "modelId": "inclusionai/ling-3.1-flash",
     "name": "inclusionAI: Ling 3.1 Flash",

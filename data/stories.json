@@ -1,51 +1,6 @@
 {
-  "generatedAt": "2026-11-07T21:57:57.700Z",
+  "generatedAt": "2026-11-08T04:01:04.448Z",
   "stories": [
-    {
-      "id": "moonshot:ee53a78dd464d6",
-      "title": "Moonshot AI and DeepSeek reportedly used OpenAI's GPT-6 Astra outputs to build new models",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "moonshot",
-        "deepseek",
-        "openai",
-        "qwen"
-      ],
-      "official": 0,
-      "press": 9,
-      "outlets": [
-        "헤럴드경제",
-        "TechGig",
-        "ET Enterprise AI",
-        "联合早报",
-        "Reuters",
-        "shattered.io",
-        "Tekedia",
-        "Crypto Briefing",
-        "Techzine Global",
-        "WinBuzzer",
-        "NeoTeo",
-        "Times Of AI",
-        "The Indian Express",
-        "ET CIO",
-        "trendingtopics.eu",
-        "Idaho Statesman",
-        "Euronext Markets: Real-time Stock Market Data | live",
-        "TOKENPOST",
-        "International Business Times UK",
-        "India Today",
-        "YourStory.com",
-        "Dataconomy"
-      ],
-      "firstAt": "2026-10-29T01:10:53.000Z",
-      "lastAt": "2026-11-05T10:29:03.000Z",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03ejdhUjVhcFFCc1dubkVqUjhCRmJiaWZMeE9zQnJsVHMwcGotYUhLYVZQbWVHRHcxeTN1R2d4Ymc5M19qc0Z5MktwYVpqSHl2SFh6M05xUWJsbkE3d3QtNi1uMVlRazNYOEJFc25LMWYxRDQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "moonshot:ee53a78dd464d6"
-      },
-      "importance": 69
-    },
     {
       "id": "baidu:c7eb7b8759594f",
       "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
@@ -91,9 +46,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 14,
+      "press": 13,
       "outlets": [
-        "TradingView",
         "The Register",
         "SC Media",
         "The Hacker News",
@@ -111,7 +65,7 @@
         "Tom's Hardware",
         "qz.com"
       ],
-      "firstAt": "2026-10-28T22:14:18.000Z",
+      "firstAt": "2026-10-29T05:29:00.000Z",
       "lastAt": "2026-11-04T20:49:38.000Z",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50ck5wcllHV21sMDZLVEJiWkp2OGlqbTVxcmRMRlJSRkFydUxodGlHalJDYl81WE00aUJsbnVRZFdQSmRrOUg4Rnh3NWdMNWowWGotNmZ2MzB6dm5tZzRYQnpqaFc4VG1oblhmSUVIYXRPR0hXUklz?oc=5",
       "lead": {
@@ -119,6 +73,36 @@
         "id": "google-deepmind:f8cf634dc4d336"
       },
       "importance": 65
+    },
+    {
+      "id": "deepseek:3c7db3d2e038bb",
+      "title": "DeepSeek and Moonshot AI are reportedly using GPT-6 Astra for training",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "deepseek",
+        "moonshot",
+        "qwen"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "Techzine Global",
+        "trendingtopics.eu",
+        "TOKENPOST",
+        "International Business Times UK",
+        "Crypto Briefing",
+        "India Today",
+        "YourStory.com",
+        "Dataconomy"
+      ],
+      "firstAt": "2026-10-29T07:59:33.000Z",
+      "lastAt": "2026-11-05T10:29:03.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVGdlcnFTYUlESWtFQ2VuTXpNUk5uZDNBTURiMFJVZlhWRUJ4VkdfX2lHZGRXMmY1a2dCdzBHQW00bFZsaFhraDNOTlpybWxTZkU2bkJzRmdERWlnWTh1ZE5icjNQTzNIVGV4SGlYUHA0NThma0tkOGFhSFVUd0lldjZzUUlxaUdQOWhGS0hLYjlpUXppSWhIdE1LUHlDTkRLX1VCajdscDdHWW4yb1lkWmRaSi1OYzU5?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "deepseek:3c7db3d2e038bb"
+      },
+      "importance": 62
     },
     {
       "id": "mistral:6f7d89d8ad3ee2",
@@ -317,12 +301,12 @@
     "topics": [
       {
         "name": "agents",
-        "count": 50,
+        "count": 51,
         "prev": 39,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
           "minimax",
           "mistral",
@@ -330,26 +314,26 @@
           "microsoft",
           "amazon",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
         "count": 38,
-        "prev": 36,
+        "prev": 38,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "minimax",
-          "mistral",
           "cohere",
+          "mistral",
           "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -375,8 +359,8 @@
           "tencent",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -407,8 +391,8 @@
         "labs": [
           "openai",
           "minimax",
-          "mistral",
           "cohere",
+          "mistral",
           "amazon",
           "nvidia"
         ]

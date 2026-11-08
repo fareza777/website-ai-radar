@@ -1,5 +1,66 @@
 [
   {
+    "id": "45fdd6a9888163e1",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.27.0",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.0",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-08T01:06:39.000Z",
+    "firstSeenAt": "2026-11-08T04:01:04.448Z",
+    "updatedAt": "2026-11-08T01:06:39.000Z",
+    "excerpt": "What's Changed fix(channels): keep GitHub inbound recovery armed after a failed read by @wenshao in #16402 test(core): harden renewal waits and writer seal coverage by @xxwtiancai in #14482 feat(verify-pr): give the sandboxed round the PR's review threads by @wenshao in #16300 perf(core): read each Managed message body once per process by @wenshao in #16337 perf(managed-agent): index the activation lease lookup by…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.27.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "990d90936a12",
+    "meta": {
+      "version": "v0.27.0",
+      "semver": "minor",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
+    "id": "22acc3633a9fc4d2",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.30",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.30",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-08T00:55:56.000Z",
+    "firstSeenAt": "2026-11-08T04:01:04.448Z",
+    "updatedAt": "2026-11-08T00:55:56.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.27.0 Source: CLI built from source (same branch/ref as SDK) See commit history for changes.",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.30 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "11020c867573",
+    "meta": {
+      "version": "v0.1.30",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
     "id": "5162469ebe994e51",
     "lab": "qwen",
     "title": "Qwen Code v0.27.0",
@@ -11,8 +72,8 @@
     "verified": true,
     "publishedAt": "2026-11-07T20:45:25.000Z",
     "firstSeenAt": "2026-11-07T21:57:57.700Z",
-    "updatedAt": "2026-11-07T20:45:25.000Z",
-    "excerpt": "What's Changed test(interactive): poll the foreground-shell frame instead of snapshotting it by @yiliang114 in #16455 test(managed-agent): retarget the lifecycle IT and retry snapshot claim deadlocks by @yiliang114 in #16446 fix(managed-agent): settle a title the dispatcher claimed first by @yiliang114 in #16447 feat(hooks): add FileChanged notifications for local sessions by @samuelhsin in #13969 fix(ci): move…",
+    "updatedAt": "2026-11-08T04:01:04.448Z",
+    "excerpt": "Highlights Managed-agent sessions can hold multiple child questions at once, answer them in any order, and keep drafts and errors separated per child. ( #16484 ) Web Shell adds a task Q&A heatmap and an Ask for details side task that explains pending Ask User Question options without answering. ( #16037 , #16458 ) GitHub channel editor adds Repository Filter allowlists and blocklists, while bound PR delivery and…",
     "summary": "Alibaba Qwen shipped Qwen Code v0.27.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
@@ -22,7 +83,7 @@
       "coding"
     ],
     "importance": 45,
-    "contentHash": "e06676144677",
+    "contentHash": "f02b717d1d38",
     "meta": {
       "version": "v0.27.0",
       "semver": "minor",
@@ -1010,7 +1071,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 317,
+      "stars": 318,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -1128,7 +1189,7 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1126,
+      "likes": 1127,
       "downloads": 47173,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
@@ -1393,7 +1454,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3579,
+      "likes": 3582,
       "downloads": 248964,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -1553,7 +1614,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6844,
+      "likes": 6847,
       "downloads": 3607555,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",

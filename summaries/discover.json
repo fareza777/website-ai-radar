@@ -611,10 +611,9 @@
     "benefit": "Teams that want a managed agent service can run it themselves instead of those hosted APIs."
   },
   "02dea8d24563c4d2": {
-    "hash": "c6a41cfe",
-    "summary": "huashu-motion lets a coding agent produce commercial-grade product films, including music, and change a shot by pointing at the frame.",
-    "unique": "You point at the frame to revise the film instead of rewriting the whole prompt.",
-    "benefit": "Marketing teams can have a coding agent draft a launch film and edit a specific frame."
+    "summary": "huashu-motion lets your agent create commercial-grade product videos with music composition and frame-by-frame editing capabilities.",
+    "unique": "Generates commercial launch films with music and interactive frame editing through a coding agent.",
+    "benefit": "Product teams can create professional promotional videos directly through their coding agent without video editing tools."
   },
   "48bb6eb3c24be9c2": {
     "hash": "36e45d1c",
@@ -639,12 +638,6 @@
     "summary": "MuscleMemory is open-source procedural memory for AI agents that learns from what worked and what failed.",
     "unique": "Topics list coding agents, Claude Code, Codex, MCP, and procedural memory.",
     "benefit": "People running coding agents can store procedures that worked or failed instead of relearning each run."
-  },
-  "d0500136076acb7e": {
-    "hash": "eec69e55",
-    "summary": "Crawlerpeek checks whether AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can access your site, as a CLI, library, MCP server, and GitHub Action.",
-    "unique": "It targets AI crawler access specifically, not a generic robots.txt linter.",
-    "benefit": "Site owners can see which AI crawlers they allow before changing robots.txt."
   },
   "78c563e635c116e2": {
     "hash": "ae773680",
@@ -801,5 +794,10 @@
     "summary": "agent-autoloop lets a command-line coding agent take on work in the background and follow it through to the end; it stays quiet normally and only sends a card when it faces something it is not sure about, so you make the call.",
     "unique": "It is event-driven and interrupts only for uncertain decisions, with MCP support and hooks into Claude Code and Codex.",
     "benefit": "Developers can leave routine tasks with Claude Code or Codex and only get pulled in when a genuine decision is needed."
+  },
+  "3c73c358cb198c70": {
+    "summary": "glitchrupt provides local macOS visual cues for agents that need attention, with five original glitch sounds and both CLI and MCP interfaces.",
+    "unique": "Desktop glitch notifications with original audio cues for agent attention requests.",
+    "benefit": "Developers running local agents get clear audio-visual notifications when agents need input."
   }
 }

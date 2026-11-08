@@ -1,33 +1,4 @@
 {
-  "2026-10-09": {
-    "headline": "GPT-6 rolls out in ChatGPT with Intelligent UI, Claude Haiku 5.5 launches, and GPT-6.1 Sol Ultrafast arrives on Amazon Bedrock.",
-    "bullets": [
-      {
-        "text": "GPT-6 is rolling out globally in ChatGPT with Intelligent UI, adding visuals and interactive experiences you can use directly.",
-        "itemId": "0ca1450969b5beb5"
-      },
-      {
-        "text": "Anthropic introduced Claude Haiku 5.5 as the cheapest, fastest, and most capable small model it has released.",
-        "itemId": "1d78f09c640d45a5"
-      },
-      {
-        "text": "Ultrafast mode for GPT-6.1 Sol is on Amazon Bedrock for workloads where faster inference matters most.",
-        "itemId": "a09da81804ce5b81"
-      },
-      {
-        "text": "Claude Haiku 5.5 is on Amazon Bedrock and Claude Platform on AWS for subagents and high-volume work.",
-        "itemId": "524a477f27093a95"
-      },
-      {
-        "text": "Sophos uses OpenAI Daybreak to cut threat investigation time by 96% and automate 52% of MDR cases.",
-        "itemId": "edd58468d564448f"
-      },
-      {
-        "text": "Google DeepMind opened Playground, an experimental platform to create, play, and share custom games.",
-        "itemId": "ea4f899dc8dfd436"
-      }
-    ]
-  },
   "2026-10-10": {
     "headline": "Asana's browser-agent tests got 76x cheaper with GPT-6.1 Sol, Claude 5.5 models reached Kiro in AWS GovCloud, and Bedrock added Pegasus 1.5.",
     "bullets": [
@@ -672,6 +643,31 @@
       {
         "itemId": "f6d3226a90fa9d2c",
         "text": "The Google GenAI SDK for Python reached a breaking release that points the Gemini Developer API at a different default version, leaving Gemini Enterprise defaults unaffected."
+      }
+    ]
+  },
+  "2026-11-08": {
+    "headline": "OpenAI introduced GPT-6 Cyber for cybersecurity vulnerability discovery, while Amazon made Kimi K3.1 Pro available on Bedrock and launched Web Answer and Agent Registry in GovCloud.",
+    "bullets": [
+      {
+        "text": "OpenAI released GPT-6 Cyber, a cybersecurity model trained to find exploitable vulnerabilities and develop fixes while staying within authorized scope.",
+        "itemId": "53c56afbaf05f856"
+      },
+      {
+        "text": "Amazon Bedrock added Kimi K3.1 Pro (Highspeed) from Moonshot AI for coding and document processing with high output tokens per second.",
+        "itemId": "317a771eb37310f5"
+      },
+      {
+        "text": "AWS launched Web Answer on Amazon Bedrock AgentCore, a managed tool that returns synthesized, grounded answers to natural-language questions from web sources.",
+        "itemId": "11c19e26e3d8fe80"
+      },
+      {
+        "text": "Amazon Agent Registry became generally available in AWS GovCloud (US-West) Region for organizing and discovering MCP servers, tools, and agents.",
+        "itemId": "e14a5e738593836d"
+      },
+      {
+        "text": "Google DeepMind released Gemini Omni 1.2 Flash with native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+        "itemId": "d7e9e3e89ee778d6"
       }
     ]
   }

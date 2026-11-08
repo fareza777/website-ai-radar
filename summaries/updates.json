@@ -3969,9 +3969,9 @@
     "benefit": ".NET teams on Agent Framework get the formula-parsing fix and stay aligned with the Python release line in the same repository."
   },
   "9d7ccb7a6a054e32": {
-    "hash": "7c70d45423eb",
-    "summary": "Microsoft Agent Framework python v1.25.0 releases all 44 publishing workspace distributions with changes since python-1.24.0, including the Python 3.10 removal, with minor bumps for Core, root, AG-UI and Declarative and patch bumps for other changed stable integrations.",
-    "benefit": "Python users get one release that carries the Python 3.10 removal plus updated Core, AG-UI and Declarative packages rather than separate bumps."
+    "hash": "e0fa494dfa5b",
+    "summary": "Microsoft Agent Framework python v1.25.0 adds support for callable MCP discovery approval policies and Foundry Toolbox approval metadata, including tool-name and read-only filters.",
+    "benefit": "Developers using Microsoft Agent Framework can configure MCP discovery approval policies and tool filters in v1.25.0."
   },
   "abbce93eef91017a": {
     "hash": "3c93480c469f",
@@ -4012,5 +4012,30 @@
     "hash": "3cb4fc85e8ea",
     "summary": "Tencent Hunyuan opened a new public GitHub repository named AppCIF-Bench, with no description published alongside it.",
     "benefit": "Evaluators tracking Tencent Hunyuan get a new repository whose name suggests a benchmark, with details still to be read from the code."
+  },
+  "233409616a1b4211": {
+    "hash": "4d0a858273b2",
+    "summary": "Tencent released Qwen3.8-27B-DSpine-b16 on Hugging Face, a text-generation model with Apache 2.0 license.",
+    "benefit": "Teams evaluating open-weight models can test Tencent's Qwen3.8-27B-DSpine-b16 for text generation."
+  },
+  "59154091f75ef85b": {
+    "hash": "1b20de4f463e",
+    "summary": "Microsoft and fal expanded video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications with different video workloads.",
+    "benefit": "Developers using Microsoft Foundry can access more video generation options for creative and enterprise applications."
+  },
+  "45fdd6a9888163e1": {
+    "hash": "990d90936a12",
+    "summary": "Qwen Code desktop v0.27.0 includes fixes for GitHub inbound recovery, test hardening for renewal waits, and performance improvements for managed message reading and activation lease lookup.",
+    "benefit": "Qwen Code desktop users get improved reliability and performance in v0.27.0."
+  },
+  "5162469ebe994e51": {
+    "hash": "f02b717d1d38",
+    "summary": "Qwen Code v0.27.0 lets managed-agent sessions hold multiple child questions at once, adds a task Q&A heatmap in Web Shell, and introduces Repository Filter allowlists and blocklists in the GitHub channel editor.",
+    "benefit": "Qwen Code users can manage multiple agent questions simultaneously and filter GitHub repositories more precisely."
+  },
+  "22acc3633a9fc4d2": {
+    "hash": "11020c867573",
+    "summary": "Qwen Code sdk-typescript v0.1.30 bundles CLI version 0.27.0, built from the same source as the CLI release.",
+    "benefit": "TypeScript SDK users get CLI v0.27.0 bundled with the SDK for consistent tooling."
   }
 }

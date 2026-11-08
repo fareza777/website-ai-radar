@@ -1,5 +1,36 @@
 [
   {
+    "id": "233409616a1b4211",
+    "lab": "tencent",
+    "title": "Qwen3.8-27B-DSpine-b16",
+    "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-07T14:20:29.000Z",
+    "firstSeenAt": "2026-11-08T04:01:04.448Z",
+    "updatedAt": "2026-11-07T14:20:29.000Z",
+    "excerpt": "text-generation · license: apache-2.0",
+    "summary": "Tencent published the Qwen3.8-27B-DSpine-b16 model on Hugging Face for text generation (LLM). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "27B"
+    ],
+    "importance": 75,
+    "contentHash": "4d0a858273b2",
+    "meta": {
+      "likes": 17,
+      "downloads": 0,
+      "repo": "tencent/Qwen3.8-27B-DSpine-b16",
+      "pipeline": "text-generation",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "9ce19b78e25144b9",
     "lab": "tencent",
     "title": "FlashTopK",
@@ -164,7 +195,7 @@
     "importance": 66,
     "contentHash": "8a1d2c0f7679",
     "meta": {
-      "likes": 108,
+      "likes": 109,
       "downloads": 14711,
       "repo": "tencent/WeVisOne-VL-4B",
       "pipeline": "image-text-to-text",
@@ -196,7 +227,7 @@
     "importance": 65,
     "contentHash": "ee6717133fbc",
     "meta": {
-      "likes": 80,
+      "likes": 81,
       "downloads": 13167,
       "repo": "tencent/WeVisOne-VL-2B",
       "pipeline": "image-text-to-text",
@@ -287,7 +318,7 @@
     "importance": 40,
     "contentHash": "e80aa80d5890",
     "meta": {
-      "stars": 262,
+      "stars": 263,
       "repo": "Tencent-Hunyuan/Hy-SimulMT",
       "language": "Python"
     }
@@ -849,7 +880,7 @@
     "importance": 72,
     "contentHash": "b47e25917303",
     "meta": {
-      "likes": 543,
+      "likes": 545,
       "downloads": 11689,
       "repo": "tencent/Hy4-preview",
       "pipeline": "text-generation",

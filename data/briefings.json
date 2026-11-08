@@ -1,35 +1,30 @@
 [
   {
     "date": "2026-11-08",
-    "generatedAt": "2026-11-07T21:57:57.700Z",
+    "generatedAt": "2026-11-08T04:01:04.448Z",
     "stats": {
       "updates24h": 4,
-      "labsActive24h": 4,
+      "labsActive24h": 2,
       "updates7d": 125,
-      "newModels7d": 22
+      "newModels7d": 23
     },
     "source": "template",
-    "headline": "4 updates from 4 AI labs in the last 24 hours · 22 model releases this week.",
+    "headline": "4 updates from 2 AI labs in the last 24 hours · 23 model releases this week.",
     "bullets": [
       {
-        "text": "Amazon: Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
-        "itemId": "317a771eb37310f5",
-        "lab": "amazon"
+        "text": "Tencent: Qwen3.8-27B-DSpine-b16",
+        "itemId": "233409616a1b4211",
+        "lab": "tencent"
       },
       {
-        "text": "NVIDIA: Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
-        "itemId": "6ce9fe52db65d87a",
-        "lab": "nvidia"
+        "text": "Alibaba Qwen: Qwen Code desktop v0.27.0",
+        "itemId": "45fdd6a9888163e1",
+        "lab": "qwen"
       },
       {
         "text": "Alibaba Qwen: Qwen Code v0.27.0",
         "itemId": "5162469ebe994e51",
         "lab": "qwen"
-      },
-      {
-        "text": "Microsoft: Microsoft Agent Framework dotnet v1.28.0",
-        "itemId": "3e2fc2c9b2ec2305",
-        "lab": "microsoft"
       }
     ]
   },
