@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T13:39:13.707Z",
+  "generatedAt": "2026-11-08T19:45:16.813Z",
   "stories": [
     {
       "id": "baidu:c7eb7b8759594f",
@@ -23,6 +23,7 @@
         "news.lavx.hu",
         "The Decoder",
         "Brief IA",
+        "Foro3D",
         "https://tech-insider.org/",
         "shattered.io",
         "GIGAZINE",
@@ -36,21 +37,48 @@
         "kind": "press",
         "id": "baidu:c7eb7b8759594f"
       },
-      "importance": 65
+      "importance": 66
     },
     {
-      "id": "google-deepmind:f8cf634dc4d336",
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+      "id": "mistral:6f7d89d8ad3ee2",
+      "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
+      "entity": "Mistral Large 4",
+      "labs": [
+        "mistral"
+      ],
+      "official": 0,
+      "press": 10,
+      "outlets": [
+        "www.trendingtopics.eu",
+        "FindArticles",
+        "WinBuzzer",
+        "shattered.io",
+        "mspbusiness.com",
+        "Kingy AI",
+        "Crypto Briefing",
+        "Technology Org",
+        "OrcaRouter",
+        "Fello AI"
+      ],
+      "firstAt": "2026-10-29T20:47:05.000Z",
+      "lastAt": "2026-11-08T05:49:42.000Z",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:6f7d89d8ad3ee2"
+      },
+      "importance": 62
+    },
+    {
+      "id": "google-deepmind:60ea68de0df993",
+      "title": "How Investors Should View the Launch of Alphabet's Gemini 4 Carbon",
       "entity": "Gemini 4 Carbon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 11,
+      "press": 9,
       "outlets": [
-        "The Hacker News",
-        "SecurityWeek",
-        "Brave New Coin",
         "Chrome Unboxed",
         "Barchart.com",
         "Yahoo Finance",
@@ -63,102 +91,40 @@
         "Tom's Hardware",
         "qz.com"
       ],
-      "firstAt": "2026-10-29T13:42:00.000Z",
+      "firstAt": "2026-10-30T07:00:00.000Z",
       "lastAt": "2026-11-04T20:49:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50ck5wcllHV21sMDZLVEJiWkp2OGlqbTVxcmRMRlJSRkFydUxodGlHalJDYl81WE00aUJsbnVRZFdQSmRrOUg4Rnh3NWdMNWowWGotNmZ2MzB6dm5tZzRYQnpqaFc4VG1oblhmSUVIYXRPR0hXUklz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXB0OU9KWGRzWVBBT0xTb0lhR0c3Sk0xZmQ4RnBRazlfTTFfamxHb1ZWblVQcDdic0FDa0VrUWdhdTNhTEk4Y3BRcjlqRDRnWWdMT2FSX24wcFZfYS14bWwwRFQtVFJyMWh0cmhva0hLVV9OZWNmZ0Mtb0FXR0pSZEl0MUtMdmxTb2FfTXBVaVgxeHdRQndUT0xEaDFhM2ZMOWs5dEluM05VWjlQQmJj?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:f8cf634dc4d336"
+        "id": "google-deepmind:60ea68de0df993"
       },
-      "importance": 64
+      "importance": 62
     },
     {
-      "id": "mistral:6f7d89d8ad3ee2",
-      "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
-      "entity": "Mistral Large 4",
-      "labs": [
-        "mistral"
-      ],
-      "official": 0,
-      "press": 14,
-      "outlets": [
-        "Martin Cid Magazine",
-        "Techzine Global",
-        "OrcaRouter",
-        "shattered.io",
-        "www.trendingtopics.eu",
-        "FindArticles",
-        "WinBuzzer",
-        "mspbusiness.com",
-        "Kingy AI",
-        "Crypto Briefing",
-        "Technology Org",
-        "Fello AI"
-      ],
-      "firstAt": "2026-10-29T15:10:44.000Z",
-      "lastAt": "2026-11-08T05:49:42.000Z",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "mistral:6f7d89d8ad3ee2"
-      },
-      "importance": 63
-    },
-    {
-      "id": "mistral:54fd29ef061e48",
-      "title": "Orange unit signs deal to Mistral's latest AI cybersecurity model",
-      "entity": null,
-      "labs": [
-        "mistral"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Traders Union",
-        "Mobile Europe",
-        "Global Banking & Finance Review",
-        "Reuters",
-        "Investing.com",
-        "AOL.com",
-        "CNA",
-        "The Lufkin Daily News",
-        "marketscreener.com"
-      ],
-      "firstAt": "2026-10-29T14:32:02.000Z",
-      "lastAt": "2026-10-29T14:32:02.000Z",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQmVuOVB4RzVhM19OQk9jaDBPRHNEWXM1NzdJQ1MtX3RGZlZkTk00clduZnpTMXhsci1oa3BkOWo5aGQ1V21UNTZyLU4zZ1dXVTIxR3JHMmpsdlNSMWxJdmxOT190N3g5LXprdXN4Sk1TQlNNS1A2Q2R2UDBoc2RtWQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "mistral:54fd29ef061e48"
-      },
-      "importance": 61
-    },
-    {
-      "id": "moonshot:f0b1a8c1102daa",
-      "title": "People Familiar With Matter Say DeepSeek, Moonshot AI Used GPT-6 Astra Data",
+      "id": "moonshot:7039227f7ebac6",
+      "title": "DeepSeek and Moonshot AI Accused of Copying GPT-6 Astra Capabilities Through Distillation Attacks",
       "entity": "GPT 6 Astra",
       "labs": [
         "moonshot",
         "qwen"
       ],
       "official": 0,
-      "press": 6,
+      "press": 5,
       "outlets": [
-        "TOKENPOST",
         "International Business Times UK",
         "Crypto Briefing",
         "India Today",
         "YourStory.com",
         "Dataconomy"
       ],
-      "firstAt": "2026-10-29T15:28:47.000Z",
+      "firstAt": "2026-10-30T06:45:00.000Z",
       "lastAt": "2026-11-05T10:29:03.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85bXdzMmJXNUNKZU1yQklYdnlONHBmYTBjalBqUUtGR05aUVBKUXJFZTc5OGt2ZTlZUktWTGxVWGRBeVItZzlhRm1ualROcGtuVVV4TWpDdkRrUXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLVJmX3IxVGt4Q2U0MHVsTnFlY2tDUXFsOW9aX0JXVGRtcjdGXzJkWnQ3T2wzc0VFV1E1b182a0tYMTg0UFVmTVNEckYtX3A0b0swdGZaczJFWW9DMmYtTmYxUUllQXVrVUoyczdELXpNd3dSdnlpU2JFQkUzMWRIMFh1ckNyM0R1VlZB?oc=5",
       "lead": {
         "kind": "press",
-        "id": "moonshot:f0b1a8c1102daa"
+        "id": "moonshot:7039227f7ebac6"
       },
-      "importance": 59
+      "importance": 58
     },
     {
       "id": "qwen:cf6f20342781bd",
@@ -168,23 +134,22 @@
         "qwen"
       ],
       "official": 0,
-      "press": 5,
+      "press": 4,
       "outlets": [
-        "Pasquale Pillitteri",
         "Startup Fortune",
         "shattered.io",
         "Fello AI",
         "Kingy AI",
         "Asia Times"
       ],
-      "firstAt": "2026-10-29T16:00:37.000Z",
+      "firstAt": "2026-11-02T18:54:13.000Z",
       "lastAt": "2026-11-07T05:09:54.000Z",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUY4dlZhejFkcml1SDgzR0UxQUo0WS1IdXRCRXJyeVdjZDlEenplR3JIQmc4THVtd0RZdmVsUUhZbDVKOURRM1l0UThUbWU2a05BbkQ1SFhmaFEwUWVTdDl0WXQ1RnFhNkl2M0U5QV9tNlFyMVVsMzJvQ2g2WWRtbEIwQlJyeC1qOG5pVFRGWE1CWndFblNMUVN3dw?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:cf6f20342781bd"
       },
-      "importance": 58
+      "importance": 57
     },
     {
       "id": "google-deepmind:a444fbfc2f8d1a",
@@ -240,12 +205,6 @@
         "labs": []
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 6,
-        "prev": 9,
-        "labs": []
-      },
-      {
         "name": "Gemini 4 Carbon",
         "count": 6,
         "prev": 37,
@@ -254,15 +213,15 @@
         ]
       },
       {
-        "name": "Mistral Large 4",
+        "name": "Gemini 4 Argon",
         "count": 5,
-        "prev": 10,
+        "prev": 9,
         "labs": []
       },
       {
-        "name": "Claude Opus 5.5",
-        "count": 4,
-        "prev": 1,
+        "name": "Mistral Large 4",
+        "count": 5,
+        "prev": 10,
         "labs": []
       },
       {
@@ -292,6 +251,12 @@
         "count": 3,
         "prev": 1,
         "labs": []
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "count": 3,
+        "prev": 2,
+        "labs": []
       }
     ],
     "topics": [
@@ -301,17 +266,17 @@
         "prev": 39,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
-          "qwen",
-          "mistral",
           "minimax",
+          "mistral",
+          "qwen",
           "microsoft",
           "amazon",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -322,14 +287,14 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "qwen",
-          "mistral",
           "minimax",
+          "mistral",
+          "qwen",
           "cohere",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -345,8 +310,8 @@
           "tencent",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -386,8 +351,8 @@
         "prev": 4,
         "labs": [
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "amazon",
           "nvidia"
@@ -429,18 +394,6 @@
       ],
       "reports": 2,
       "at": "2026-11-06T17:21:15.000Z"
-    },
-    {
-      "id": "baidu:026b8f7dadf07f",
-      "lab": "baidu",
-      "title": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaUNsZTZvdDJ0TjZyWjdJZ0FLUnpFMEt2Zm00RmxoX0w2bWFRWlZPdFBoUmdrTlJWWGtvaUgyd3Ztb0pPQWVWYVFuR2lnUjlaSEJvU1FOenpta1kxejJZR1lVYWUwQ0RaRGRnT0hRZEszTzFLN0ZPUkctM2dtby1lLXBocElOMjdxMDVMRjZ0Wi1EbzNhaVRhdVpCS0xIaVNyVjViNnNLOFVaZnBnYXZpbVJmdW9DZFdqUWR2UGZnQ3o?oc=5",
-      "outlets": [
-        "The Decoder",
-        "Brief IA"
-      ],
-      "reports": 2,
-      "at": "2026-11-05T18:03:08.000Z"
     }
   ]
 }

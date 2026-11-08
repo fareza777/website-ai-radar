@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-11-09",
+    "generatedAt": "2026-11-08T19:45:16.813Z",
+    "stats": {
+      "updates24h": 4,
+      "labsActive24h": 2,
+      "updates7d": 126,
+      "newModels7d": 23
+    },
+    "source": "template",
+    "headline": "4 updates from 2 AI labs in the last 24 hours · 23 model releases this week.",
+    "bullets": [
+      {
+        "text": "Alibaba Qwen: Qwen Code desktop v0.27.0",
+        "itemId": "45fdd6a9888163e1",
+        "lab": "qwen"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen Code v0.27.0",
+        "itemId": "5162469ebe994e51",
+        "lab": "qwen"
+      },
+      {
+        "text": "IBM: Docling v2.149.0",
+        "itemId": "25dca4e5c6ef7482",
+        "lab": "ibm"
+      }
+    ]
+  },
+  {
     "date": "2026-11-08",
     "generatedAt": "2026-11-08T13:39:13.707Z",
     "stats": {
@@ -1177,35 +1206,6 @@
         "text": "Alibaba Qwen: Qwen Code v0.25.1",
         "itemId": "5ecc6bc031dd7d6c",
         "lab": "qwen"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-10",
-    "generatedAt": "2026-10-10T12:41:29.737Z",
-    "stats": {
-      "updates24h": 9,
-      "labsActive24h": 5,
-      "updates7d": 112,
-      "newModels7d": 31
-    },
-    "source": "template",
-    "headline": "9 updates from 5 AI labs in the last 24 hours · 31 model releases this week.",
-    "bullets": [
-      {
-        "text": "Amazon: Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
-        "itemId": "9ecc31063427a804",
-        "lab": "amazon"
-      },
-      {
-        "text": "Amazon: Amazon Bedrock now supports reasoning summaries for OpenAI models",
-        "itemId": "c780c1f332034095",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: How Codex ran OpenAI DevDay 2025",
-        "itemId": "cde39a728f5f3f14",
-        "lab": "openai"
       }
     ]
   }
