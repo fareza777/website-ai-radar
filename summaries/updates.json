@@ -4037,5 +4037,15 @@
     "hash": "11020c867573",
     "summary": "Qwen Code sdk-typescript v0.1.30 bundles CLI version 0.27.0, built from the same source as the CLI release.",
     "benefit": "TypeScript SDK users get CLI v0.27.0 bundled with the SDK for consistent tooling."
+  },
+  "25dca4e5c6ef7482": {
+    "hash": "9abc21b5e507",
+    "summary": "Docling v2.149.0 adds opt-in embedded PDF image extraction, refactors the CLI for better usability, includes mlx-audio support for ASR, and adds a MiniCPM-OCR preset for vision language models.",
+    "benefit": "Document processing teams can extract images from PDFs and use new ASR and OCR capabilities with Docling v2.149.0."
+  },
+  "629fe623986a9f0a": {
+    "hash": "8e8c6416df0f",
+    "summary": "Qwen Code SDK TypeScript v0.1.29 is a backfilled release that bundles CLI version 0.26.9 after the original workflow failed at the release-branch push step.",
+    "benefit": "TypeScript SDK users get CLI v0.26.9 bundled with this corrected release."
   }
 }

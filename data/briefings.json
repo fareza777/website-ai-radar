@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-09",
-    "generatedAt": "2026-11-09T00:59:19.014Z",
+    "generatedAt": "2026-11-09T04:01:53.165Z",
     "stats": {
       "updates24h": 2,
       "labsActive24h": 2,
-      "updates7d": 123,
+      "updates7d": 124,
       "newModels7d": 23
     },
     "source": "template",
-    "headline": "A quiet day — here are the highlights from the last 72 hours across 10 labs.",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 8 labs.",
     "bullets": [
       {
         "text": "Tencent: Qwen3.8-27B-DSpine-b16",
@@ -32,14 +32,14 @@
         "lab": "nvidia"
       },
       {
-        "text": "Google DeepMind: Google GenAI SDK (Python) v3.0.0",
-        "itemId": "f6d3226a90fa9d2c",
-        "lab": "google-deepmind"
-      },
-      {
         "text": "OpenAI: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
         "itemId": "bc8f9eac19663ff6",
         "lab": "openai"
+      },
+      {
+        "text": "Microsoft: Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
+        "itemId": "59154091f75ef85b",
+        "lab": "microsoft"
       }
     ]
   },

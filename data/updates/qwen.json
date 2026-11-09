@@ -1,5 +1,35 @@
 [
   {
+    "id": "629fe623986a9f0a",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.29",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.29",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-09T02:08:10.000Z",
+    "firstSeenAt": "2026-11-09T04:01:53.165Z",
+    "updatedAt": "2026-11-09T02:08:10.000Z",
+    "excerpt": "Backfilled release for npm-published version 0.1.29 (original workflow run 42249484215 failed at the release-branch push step after npm publish succeeded; see #16490 ). Bundled CLI Version This SDK release bundles CLI version: 0.26.9 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.8 Source: CLI built from source (same branch/ref as SDK) Bundled…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.29 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "8e8c6416df0f",
+    "meta": {
+      "version": "v0.1.29",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
     "id": "45fdd6a9888163e1",
     "lab": "qwen",
     "title": "Qwen Code desktop v0.27.0",
@@ -1071,7 +1101,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 320,
+      "stars": 321,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -1614,7 +1644,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6862,
+      "likes": 6864,
       "downloads": 3533066,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",

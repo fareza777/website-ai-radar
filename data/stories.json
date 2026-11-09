@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T00:59:19.014Z",
+  "generatedAt": "2026-11-09T04:01:53.165Z",
   "stories": [
     {
       "id": "baidu:c7eb7b8759594f",
@@ -201,16 +201,8 @@
         "labs": []
       },
       {
-        "name": "Gemini 4 Carbon",
-        "count": 6,
-        "prev": 37,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "Gemini 4 Argon",
-        "count": 5,
+        "count": 6,
         "prev": 9,
         "labs": []
       },
@@ -235,6 +227,14 @@
         ]
       },
       {
+        "name": "Gemini 4 Carbon",
+        "count": 4,
+        "prev": 40,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
         "name": "Gemini Omni 1.2 Flash",
         "count": 3,
         "prev": 0,
@@ -247,6 +247,14 @@
         "count": 3,
         "prev": 1,
         "labs": []
+      },
+      {
+        "name": "Claude Haiku 5.5",
+        "count": 3,
+        "prev": 2,
+        "labs": [
+          "amazon"
+        ]
       },
       {
         "name": "Claude Opus 5.5",
@@ -262,9 +270,9 @@
         "prev": 40,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "deepseek",
           "openai",
+          "google-deepmind",
           "minimax",
           "mistral",
           "qwen",
@@ -277,12 +285,12 @@
       },
       {
         "name": "coding",
-        "count": 38,
+        "count": 39,
         "prev": 39,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "minimax",
           "mistral",
           "qwen",
@@ -296,14 +304,13 @@
       {
         "name": "multimodal",
         "count": 12,
-        "prev": 7,
+        "prev": 6,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "moonshot",
           "mistral",
           "tencent",
-          "baidu",
           "microsoft",
           "amazon",
           "ibm",

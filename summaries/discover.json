@@ -693,12 +693,6 @@
     "unique": "Each teammate runs with isolated compute and browser infrastructure on Cloudflare.",
     "benefit": "Builders wanting multi-agent setups can deploy separate browser-capable agents without managing VMs themselves."
   },
-  "3bf2dbbd24685307": {
-    "hash": "41bfa6d0",
-    "summary": "Dossier is a self-hosted job search app that writes tailored resumes and cover letters from your profile.",
-    "unique": "It runs self-hosted and generates application documents from one profile.",
-    "benefit": "Job seekers who want local control can host Dossier and auto-tailor resumes and cover letters."
-  },
   "bf35f75c9c8a134f": {
     "hash": "6207d63e",
     "summary": "Tiny world model generates games and stream ac plays them all on Pico 2W.",
@@ -789,15 +783,19 @@
     "unique": "It schedules every workload an agent needs at high density, with durable actors and realtime multiplayer as first-class topics.",
     "benefit": "Developers running many concurrent agent sessions get one layer for actor state and realtime traffic instead of a bespoke queue per task."
   },
-  "871adf787e5691f3": {
-    "hash": "88a1174b",
-    "summary": "agent-autoloop lets a command-line coding agent take on work in the background and follow it through to the end; it stays quiet normally and only sends a card when it faces something it is not sure about, so you make the call.",
-    "unique": "It is event-driven and interrupts only for uncertain decisions, with MCP support and hooks into Claude Code and Codex.",
-    "benefit": "Developers can leave routine tasks with Claude Code or Codex and only get pulled in when a genuine decision is needed."
+  "e47586656bf21c44": {
+    "summary": "llama-modchip runs 284B DeepSeek-V4-Flash and 30B MoE models on a pure 64GB CPU at 256K context with zero GPUs, achieving 44.4 tok/s prompt processing.",
+    "unique": "SwiGLU-H2 and Stockfish-PVS L3 techniques enable large model inference on CPU-only hardware.",
+    "benefit": "Developers without GPUs can run very large language models locally on commodity hardware."
   },
-  "3c73c358cb198c70": {
-    "summary": "glitchrupt provides local macOS visual cues for agents that need attention, with five original glitch sounds and both CLI and MCP interfaces.",
-    "unique": "Desktop glitch notifications with original audio cues for agent attention requests.",
-    "benefit": "Developers running local agents get clear audio-visual notifications when agents need input."
+  "2fe2bbf448e6e406": {
+    "summary": "Mantis is a lean browser interface for AI agents that shows pages as short numbered text instead of screenshots or full DOM trees.",
+    "unique": "Uses 30-47% fewer input tokens and about a third less time than Playwright MCP for long tasks.",
+    "benefit": "AI coding agents can browse the web more efficiently with lower token costs and faster execution."
+  },
+  "db33b35f264b413a": {
+    "summary": "rea-video reverse-engineers any video shot by shot, identifying whether each shot was filmed, AI-generated, or coded, then shows how to remake it.",
+    "unique": "Combines AIGC detection with shot-by-shot analysis and remake instructions for video reverse engineering.",
+    "benefit": "Video creators and analysts can understand how videos were made and recreate similar content."
   }
 }

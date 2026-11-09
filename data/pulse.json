@@ -69,11 +69,22 @@
     "title": "Goodbye Claude, hello Pi",
     "url": "https://caleb.software/posts/claude-to-pi.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50410107",
-    "points": 691,
-    "comments": 428,
+    "points": 713,
+    "comments": 443,
     "at": "2026-11-08T03:11:48Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-08T06:15:18.812Z"
+  },
+  {
+    "id": "50415628",
+    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+    "hnUrl": "https://news.ycombinator.com/item?id=50415628",
+    "points": 658,
+    "comments": 380,
+    "at": "2026-11-08T18:16:07Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-08T19:45:16.813Z"
   },
   {
     "id": "50366999",
@@ -102,22 +113,11 @@
     "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
     "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
     "hnUrl": "https://news.ycombinator.com/item?id=50407882",
-    "points": 582,
-    "comments": 394,
+    "points": 595,
+    "comments": 405,
     "at": "2026-11-07T20:45:32Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-08T04:01:04.448Z"
-  },
-  {
-    "id": "50415628",
-    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-    "hnUrl": "https://news.ycombinator.com/item?id=50415628",
-    "points": 574,
-    "comments": 348,
-    "at": "2026-11-08T18:16:07Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-08T19:45:16.813Z"
   },
   {
     "id": "50366117",
@@ -145,8 +145,8 @@
     "title": "The end of Microsoft Research's AI Frontiers group",
     "url": "https://hunch.net/?p=13764006",
     "hnUrl": "https://news.ycombinator.com/item?id=50406563",
-    "points": 494,
-    "comments": 304,
+    "points": 498,
+    "comments": 307,
     "at": "2026-11-07T18:02:17Z",
     "firstSeenAt": "2026-11-07T21:57:57.700Z"
   },
@@ -173,6 +173,17 @@
     "firstSeenAt": "2026-11-03T00:04:55.286Z"
   },
   {
+    "id": "50411961",
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "hnUrl": "https://news.ycombinator.com/item?id=50411961",
+    "points": 387,
+    "comments": 172,
+    "at": "2026-11-08T10:22:04Z",
+    "lab": "meta",
+    "firstSeenAt": "2026-11-08T19:45:16.813Z"
+  },
+  {
     "id": "50372945",
     "title": "Images 2.6",
     "url": "https://openai.com/index/introducing-images-2-6/",
@@ -193,17 +204,6 @@
     "at": "2026-11-06T13:35:27Z",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
-  },
-  {
-    "id": "50411961",
-    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-    "url": "https://github.com/synchopate/llama-modchip",
-    "hnUrl": "https://news.ycombinator.com/item?id=50411961",
-    "points": 355,
-    "comments": 148,
-    "at": "2026-11-08T10:22:04Z",
-    "lab": "meta",
-    "firstSeenAt": "2026-11-08T19:45:16.813Z"
   },
   {
     "id": "50339494",
@@ -233,7 +233,7 @@
     "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
     "hnUrl": "https://news.ycombinator.com/item?id=50394906",
     "points": 318,
-    "comments": 623,
+    "comments": 625,
     "at": "2026-11-06T16:54:36Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
@@ -352,8 +352,8 @@
     "title": "OpenAI raises $11B at a $1.25T valuation",
     "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
     "hnUrl": "https://news.ycombinator.com/item?id=50413822",
-    "points": 179,
-    "comments": 200,
+    "points": 183,
+    "comments": 203,
     "at": "2026-11-08T14:49:23Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-08T19:45:16.813Z"
@@ -363,7 +363,7 @@
     "title": "The Components of Agent Memory",
     "url": "https://www.anthropic.com/research/components-of-agent-memory",
     "hnUrl": "https://news.ycombinator.com/item?id=50402212",
-    "points": 174,
+    "points": 178,
     "comments": 99,
     "at": "2026-11-07T06:39:04Z",
     "lab": "anthropic",
@@ -471,6 +471,16 @@
     "firstSeenAt": "2026-11-05T01:30:16.249Z"
   },
   {
+    "id": "50412591",
+    "title": "Why I will not be using LLMs in my coding",
+    "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+    "hnUrl": "https://news.ycombinator.com/item?id=50412591",
+    "points": 108,
+    "comments": 225,
+    "at": "2026-11-08T12:14:10Z",
+    "firstSeenAt": "2026-11-08T13:39:13.707Z"
+  },
+  {
     "id": "50351463",
     "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
     "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
@@ -492,16 +502,6 @@
     "firstSeenAt": "2026-11-03T00:04:55.286Z"
   },
   {
-    "id": "50412591",
-    "title": "Why I will not be using LLMs in my coding",
-    "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
-    "hnUrl": "https://news.ycombinator.com/item?id=50412591",
-    "points": 105,
-    "comments": 217,
-    "at": "2026-11-08T12:14:10Z",
-    "firstSeenAt": "2026-11-08T13:39:13.707Z"
-  },
-  {
     "id": "50389990",
     "title": "AI for scientific discovery: How researchers use Claude",
     "url": "https://www.anthropic.com/research/how-researchers-use-claude",
@@ -511,16 +511,6 @@
     "at": "2026-11-06T09:13:30Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
-  },
-  {
-    "id": "50332086",
-    "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
-    "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
-    "hnUrl": "https://news.ycombinator.com/item?id=50332086",
-    "points": 101,
-    "comments": 117,
-    "at": "2026-11-02T01:47:07Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z"
   },
   {
     "id": "50383963",
@@ -592,8 +582,8 @@
     "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
     "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
     "hnUrl": "https://news.ycombinator.com/item?id=50415817",
-    "points": 89,
-    "comments": 108,
+    "points": 90,
+    "comments": 111,
     "at": "2026-11-08T18:43:07Z",
     "firstSeenAt": "2026-11-09T00:59:19.014Z"
   },
@@ -607,6 +597,16 @@
     "at": "2026-11-03T11:16:07Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
+  },
+  {
+    "id": "50405263",
+    "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+    "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+    "hnUrl": "https://news.ycombinator.com/item?id=50405263",
+    "points": 79,
+    "comments": 14,
+    "at": "2026-11-07T15:16:01Z",
+    "firstSeenAt": "2026-11-08T13:39:13.707Z"
   },
   {
     "id": "50363861",
@@ -625,20 +625,10 @@
     "url": "https://developers.openai.com/api/docs/guides/voice-sip",
     "hnUrl": "https://news.ycombinator.com/item?id=50399695",
     "points": 75,
-    "comments": 64,
+    "comments": 65,
     "at": "2026-11-06T23:03:55Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-07T10:24:40.073Z"
-  },
-  {
-    "id": "50405263",
-    "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-    "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
-    "hnUrl": "https://news.ycombinator.com/item?id=50405263",
-    "points": 75,
-    "comments": 14,
-    "at": "2026-11-07T15:16:01Z",
-    "firstSeenAt": "2026-11-08T13:39:13.707Z"
   },
   {
     "id": "50342424",
@@ -650,6 +640,16 @@
     "at": "2026-11-02T19:36:37Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-03T00:04:55.286Z"
+  },
+  {
+    "id": "50418975",
+    "title": "I'm Not Convinced the AI Bubble Exists",
+    "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+    "hnUrl": "https://news.ycombinator.com/item?id=50418975",
+    "points": 73,
+    "comments": 109,
+    "at": "2026-11-08T23:44:36Z",
+    "firstSeenAt": "2026-11-09T04:01:53.165Z"
   },
   {
     "id": "50337503",

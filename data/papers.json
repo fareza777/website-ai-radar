@@ -1,5 +1,17 @@
 [
   {
+    "id": "2610.35959",
+    "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
+    "url": "https://huggingface.co/papers/2610.35959",
+    "summary": "Solving long-horizon agentic tasks requires language agents to interact with their environments over multiple steps, and reliable performance often comes from the expensive capable models available through cloud providers. Meanwhile, alternative efficient models with inferior performance but a much lower cost are emerging, including lower-tier cloud models and smaller open-weights models deployable on local…",
+    "publishedAt": "2026-10-25T00:00:00.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 3,
+    "org": "nvidia",
+    "lab": "nvidia",
+    "firstSeenAt": "2026-11-09T04:01:53.165Z"
+  },
+  {
     "id": "2611.08373",
     "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
     "url": "https://huggingface.co/papers/2611.08373",
@@ -17,7 +29,7 @@
     "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that…",
     "publishedAt": "2026-11-03T18:59:52.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 118,
+    "upvotes": 119,
     "org": "oxford",
     "firstSeenAt": "2026-11-07T17:46:47.864Z"
   },
@@ -28,7 +40,7 @@
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 106,
+    "upvotes": 107,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -64,7 +76,7 @@
     "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 45,
     "org": null,
     "firstSeenAt": "2026-11-07T10:24:40.073Z"
   },
@@ -124,7 +136,7 @@
     "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual…",
     "publishedAt": "2026-11-04T18:59:58.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 61,
+    "upvotes": 62,
     "org": "mmlab-ntu",
     "firstSeenAt": "2026-11-05T11:08:03.842Z"
   },
@@ -244,7 +256,7 @@
     "summary": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evaluation. To provide…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 74,
+    "upvotes": 75,
     "org": "adobe",
     "githubRepo": "https://github.com/adobe-research/MoviEdit-Bench",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
@@ -316,7 +328,7 @@
     "summary": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 42,
     "org": "ruc",
     "githubRepo": "https://github.com/dongguanting/ToolSpace",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
@@ -332,6 +344,18 @@
     "org": "microsoft",
     "lab": "microsoft",
     "githubRepo": "https://github.com/aiming-lab/WebHarbor",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
+    "id": "2611.05306",
+    "title": "You don't need long context",
+    "url": "https://huggingface.co/papers/2611.05306",
+    "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 21,
+    "org": "nvidia",
+    "lab": "nvidia",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
@@ -353,22 +377,10 @@
     "summary": "Harness optimization can substantially improve LLM agents without modifying model weights, but existing methods primarily optimize response quality. Extending them to joint quality--cost optimization introduces a challenge: applying the deployment preference during intermediate updates can prematurely reject candidates that are valuable for later improvements. We introduce ParetoSaddler, which addresses this…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 19,
+    "upvotes": 20,
     "org": "microsoft",
     "lab": "microsoft",
     "firstSeenAt": "2026-11-04T04:02:27.843Z"
-  },
-  {
-    "id": "2611.05306",
-    "title": "You don't need long context",
-    "url": "https://huggingface.co/papers/2611.05306",
-    "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon…",
-    "publishedAt": "2026-11-03T00:00:00.000Z",
-    "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 19,
-    "org": "nvidia",
-    "lab": "nvidia",
-    "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
     "id": "2611.03998",
@@ -401,7 +413,7 @@
     "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 144,
+    "upvotes": 145,
     "org": "utexas",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
@@ -412,7 +424,7 @@
     "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF)…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 126,
+    "upvotes": 127,
     "org": "sjtu-deng-lab",
     "githubRepo": "https://github.com/SJTU-DENG-Lab/WaveForcing",
     "firstSeenAt": "2026-11-03T06:57:22.155Z"
