@@ -1,15 +1,63 @@
 [
   {
+    "id": "2611.08264",
+    "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+    "url": "https://huggingface.co/papers/2611.08264",
+    "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale…",
+    "publishedAt": "2026-11-05T16:37:29.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 57,
+    "org": "zju",
+    "githubRepo": "https://github.com/zju3dv/SplatAnything",
+    "firstSeenAt": "2026-11-09T11:46:12.486Z"
+  },
+  {
     "id": "2610.35959",
     "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
     "url": "https://huggingface.co/papers/2610.35959",
     "summary": "Solving long-horizon agentic tasks requires language agents to interact with their environments over multiple steps, and reliable performance often comes from the expensive capable models available through cloud providers. Meanwhile, alternative efficient models with inferior performance but a much lower cost are emerging, including lower-tier cloud models and smaller open-weights models deployable on local…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 3,
+    "upvotes": 8,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-09T04:01:53.165Z"
+  },
+  {
+    "id": "2611.08290",
+    "title": "AutoCompress: Automated Hardware-Guided Model Compression",
+    "url": "https://huggingface.co/papers/2611.08290",
+    "summary": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count alone does not predict these metrics, which depend on the model architecture, workload, hardware…",
+    "publishedAt": "2026-11-05T16:53:48.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 3,
+    "org": "nvidia",
+    "lab": "nvidia",
+    "firstSeenAt": "2026-11-09T11:46:12.486Z"
+  },
+  {
+    "id": "2610.41711",
+    "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
+    "url": "https://huggingface.co/papers/2610.41711",
+    "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer compute width fixed. HiRes groups layers into blocks: standard d-dimensional PreNorm layers operate…",
+    "publishedAt": "2026-10-30T13:18:22.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 1,
+    "org": "bytedance-seed",
+    "lab": "bytedance",
+    "firstSeenAt": "2026-11-09T11:46:12.486Z"
+  },
+  {
+    "id": "2611.04720",
+    "title": "OneTrans-GSR: A Generative Slate Ranking Paradigm Unifying Reranking and Mix-Ranking with One Autoregressive Transformer",
+    "url": "https://huggingface.co/papers/2611.04720",
+    "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules and models encode…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 0,
+    "org": "bytedance",
+    "lab": "bytedance",
+    "firstSeenAt": "2026-11-09T11:46:12.486Z"
   },
   {
     "id": "2611.08373",
@@ -40,7 +88,7 @@
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 107,
+    "upvotes": 109,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -87,7 +135,7 @@
     "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 41,
     "org": "mmlab-cuhk",
     "githubRepo": "https://github.com/Lyricccco/tailsteer",
     "firstSeenAt": "2026-11-08T06:15:18.812Z"
@@ -147,7 +195,7 @@
     "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 59,
+    "upvotes": 60,
     "org": "benchflow",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
@@ -245,7 +293,7 @@
     "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 75,
+    "upvotes": 77,
     "org": "klingteam",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
@@ -304,7 +352,7 @@
     "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 50,
     "org": null,
     "githubRepo": "https://github.com/bytedance/axion1_0",
     "firstSeenAt": "2026-11-05T04:03:40.474Z"
@@ -484,7 +532,7 @@
     "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by how closely the research proposals it writes from a literature snapshot frozen at 2025 match the work the same communities published in 2026…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 48,
     "org": "cmu-scs",
     "githubRepo": "https://github.com/cxcscmu/IdeaTaste",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"

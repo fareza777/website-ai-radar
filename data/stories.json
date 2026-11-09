@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T04:01:53.165Z",
+  "generatedAt": "2026-11-09T11:46:12.486Z",
   "stories": [
     {
       "id": "baidu:c7eb7b8759594f",
@@ -47,9 +47,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 9,
+      "press": 8,
       "outlets": [
-        "Chrome Unboxed",
         "Barchart.com",
         "Yahoo Finance",
         "gHacks",
@@ -61,7 +60,7 @@
         "Tom's Hardware",
         "qz.com"
       ],
-      "firstAt": "2026-10-30T07:00:00.000Z",
+      "firstAt": "2026-10-31T13:00:03.000Z",
       "lastAt": "2026-11-04T20:49:38.000Z",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXB0OU9KWGRzWVBBT0xTb0lhR0c3Sk0xZmQ4RnBRazlfTTFfamxHb1ZWblVQcDdic0FDa0VrUWdhdTNhTEk4Y3BRcjlqRDRnWWdMT2FSX24wcFZfYS14bWwwRFQtVFJyMWh0cmhva0hLVV9OZWNmZ0Mtb0FXR0pSZEl0MUtMdmxTb2FfTXBVaVgxeHdRQndUT0xEaDFhM2ZMOWs5dEluM05VWjlQQmJj?oc=5",
       "lead": {
@@ -71,56 +70,29 @@
       "importance": 62
     },
     {
-      "id": "mistral:28da80ff7ed959",
-      "title": "Mistral AI makes the trained model parameters of Mistral Large 4 available",
+      "id": "mistral:f5a6848e31d6db",
+      "title": "Daily AI Launch Radar: Mistral Large 4 weights, Copilot Fusion and Replit Cloud Agents",
       "entity": "Mistral Large 4",
       "labs": [
         "mistral"
       ],
       "official": 0,
-      "press": 7,
+      "press": 6,
       "outlets": [
-        "mspbusiness.com",
         "Kingy AI",
         "Crypto Briefing",
         "Technology Org",
         "OrcaRouter",
         "Fello AI"
       ],
-      "firstAt": "2026-10-30T07:00:00.000Z",
+      "firstAt": "2026-10-30T15:47:05.000Z",
       "lastAt": "2026-11-08T05:49:42.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdDNmQTdPM3dmYmI5S1NuemF4eU0wemNpY0g5eDJoTWsxZ0hKOFZRenlOOFVlSmotZTU5UEtieV80eUZBbW9EUGJFMFdiUEpZa0dZNUJRRWJsb2VuX200SkhmVmN6NnJJd1hUVk93VW1IaWRRb041cndieFRPb1RoaFVzRmJ2TWRTSXlZX2J5VDdUb0dYVlhvMmdadFNnWk1FaXFQOEkzQjRfb1RWYk5VOTZPX2R3bHkwekUzdVBOUmJ0QWRCVy1SaVRB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PT1hRNUlCZGppTFFuUDdaUHduNlBaQnJENzhCRWhyQ1pwWXAwUDBrMFZyQXJ3RUN5WnpLYWZWeVJwbTc4ZS14MFRlcjVtSGdra2x4aVdyXzZVT0lvTWc?oc=5",
       "lead": {
         "kind": "press",
-        "id": "mistral:28da80ff7ed959"
+        "id": "mistral:f5a6848e31d6db"
       },
-      "importance": 58
-    },
-    {
-      "id": "moonshot:7039227f7ebac6",
-      "title": "DeepSeek and Moonshot AI Accused of Copying GPT-6 Astra Capabilities Through Distillation Attacks",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "moonshot",
-        "qwen"
-      ],
-      "official": 0,
-      "press": 5,
-      "outlets": [
-        "International Business Times UK",
-        "Crypto Briefing",
-        "India Today",
-        "YourStory.com",
-        "Dataconomy"
-      ],
-      "firstAt": "2026-10-30T06:45:00.000Z",
-      "lastAt": "2026-11-05T10:29:03.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLVJmX3IxVGt4Q2U0MHVsTnFlY2tDUXFsOW9aX0JXVGRtcjdGXzJkWnQ3T2wzc0VFV1E1b182a0tYMTg0UFVmTVNEckYtX3A0b0swdGZaczJFWW9DMmYtTmYxUUllQXVrVUoyczdELXpNd3dSdnlpU2JFQkUzMWRIMFh1ckNyM0R1VlZB?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "moonshot:7039227f7ebac6"
-      },
-      "importance": 58
+      "importance": 57
     },
     {
       "id": "qwen:cf6f20342781bd",
@@ -148,26 +120,50 @@
       "importance": 57
     },
     {
-      "id": "google-deepmind:a444fbfc2f8d1a",
-      "title": "Gemini 4 Argon Arrives With Pricing, Not a Timeline Vow [2026]",
+      "id": "qwen:6d898079efe35e",
+      "title": "GPT-6 Astra reportedly boosts Qwen3.5-0.8B math up to sixfold by editing its weights directly",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "qwen"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "Crypto Briefing",
+        "India Today",
+        "YourStory.com",
+        "Dataconomy"
+      ],
+      "firstAt": "2026-11-02T18:41:25.000Z",
+      "lastAt": "2026-11-05T10:29:03.000Z",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGazRRVU4yZnFkdzFaZnU2TnRHUUFoV20wUkh2M0RWZ3lkVUExQTMxV25iQ2Rla1dHOHVwaGxKOURneGVyVS1KTnVITDk3RHVndTNIZmdXU1Y1VTZHM2Z2MW5NTS1qLS1VUlgyaXdyb1I?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:6d898079efe35e"
+      },
+      "importance": 56
+    },
+    {
+      "id": "google-deepmind:47322d0ced1122",
+      "title": "Developers Can Now Leverage Gemini 4 Argon for Complex Workflows",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 6,
+      "press": 5,
       "outlets": [
-        "shattered.io",
         "Small Business Trends",
         "Pangram",
-        "HackerNoon"
+        "HackerNoon",
+        "shattered.io"
       ],
-      "firstAt": "2026-10-30T07:00:00.000Z",
+      "firstAt": "2026-10-30T16:11:00.000Z",
       "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QcGp1bFBZZEpCTlBTMXRud3pJQk9HWGFUVUhpcWN0NDNVX1QwbUxLZ2ktblR0MWk3bEp2dzktTzduRnlySWxZVVNqbC1hc1JEZndpTDA3WW5Yb1JycWlUQzV0bWh6V2lZdGZj?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNb3lBSW00ZEowRHF4TUNDN0xpNXU3OHBtNzJmM19oeUNveVRjQUtVMlRoYXAwZXJOVnVXYUVUcFRac2pneDI2WTFWR184YlNkN19tWEtLRnZPVFpiOEZRX28wVy1md0VwR0xmNl9TMU9tT2JSaU9pZDlITEs2LXA2Qll4eDJ3R2NzTTRmYzRqeXBVMVo4MEYw?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:a444fbfc2f8d1a"
+        "id": "google-deepmind:47322d0ced1122"
       },
       "importance": 56
     },
@@ -201,21 +197,15 @@
         "labs": []
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 6,
-        "prev": 9,
-        "labs": []
-      },
-      {
         "name": "Mistral Large 4",
         "count": 5,
         "prev": 10,
         "labs": []
       },
       {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 4,
-        "prev": 3,
+        "name": "Gemini 4 Argon",
+        "count": 5,
+        "prev": 10,
         "labs": []
       },
       {
@@ -261,18 +251,24 @@
         "count": 3,
         "prev": 2,
         "labs": []
+      },
+      {
+        "name": "DeepSeek 4.1 Flash",
+        "count": 3,
+        "prev": 4,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 50,
+        "count": 52,
         "prev": 40,
         "labs": [
           "anthropic",
+          "google-deepmind",
           "deepseek",
           "openai",
-          "google-deepmind",
           "minimax",
           "mistral",
           "qwen",
@@ -286,11 +282,11 @@
       {
         "name": "coding",
         "count": 39,
-        "prev": 39,
+        "prev": 37,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "minimax",
           "mistral",
           "qwen",
@@ -302,12 +298,23 @@
         ]
       },
       {
-        "name": "multimodal",
+        "name": "safety",
         "count": 12,
-        "prev": 6,
+        "prev": 9,
         "labs": [
+          "anthropic",
           "openai",
+          "amazon",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "multimodal",
+        "count": 10,
+        "prev": 8,
+        "labs": [
           "google-deepmind",
+          "openai",
           "moonshot",
           "mistral",
           "tencent",
@@ -315,16 +322,6 @@
           "amazon",
           "ibm",
           "nvidia"
-        ]
-      },
-      {
-        "name": "safety",
-        "count": 10,
-        "prev": 10,
-        "labs": [
-          "anthropic",
-          "openai",
-          "amazon"
         ]
       },
       {

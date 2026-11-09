@@ -46,8 +46,8 @@
     "publishedAt": "2026-11-05T13:38:56.000Z",
     "firstSeenAt": "2026-11-05T20:04:26.298Z",
     "updatedAt": "2026-11-05T13:38:56.000Z",
-    "excerpt": "license: apache-2.0",
-    "summary": "ByteDance Seed published the Qwen3-30B-A3B-MoE-SAE model on Hugging Face. License: apache-2.0.",
+    "excerpt": "feature-extraction · license: apache-2.0",
+    "summary": "ByteDance Seed published the Qwen3-30B-A3B-MoE-SAE model on Hugging Face for embeddings. License: apache-2.0.",
     "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
     "summarySource": "template",
     "category": "model",
@@ -55,11 +55,12 @@
       "30B-A3B"
     ],
     "importance": 69,
-    "contentHash": "78e7b0ad4796",
+    "contentHash": "4a4cfacc5e4d",
     "meta": {
       "likes": 2,
       "downloads": 0,
       "repo": "ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE",
+      "pipeline": "feature-extraction",
       "license": "apache-2.0"
     }
   },
@@ -103,18 +104,19 @@
     "publishedAt": "2026-11-05T06:56:16.000Z",
     "firstSeenAt": "2026-11-05T11:08:03.842Z",
     "updatedAt": "2026-11-05T06:56:16.000Z",
-    "excerpt": "license: apache-2.0",
-    "summary": "ByteDance Seed published the Cross-Layer-TopK-CLT model on Hugging Face. License: apache-2.0.",
+    "excerpt": "feature-extraction · license: apache-2.0",
+    "summary": "ByteDance Seed published the Cross-Layer-TopK-CLT model on Hugging Face for embeddings. License: apache-2.0.",
     "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
     "summarySource": "template",
     "category": "model",
     "tags": [],
     "importance": 56,
-    "contentHash": "e75fe167a390",
+    "contentHash": "d786f4da4d0f",
     "meta": {
       "likes": 5,
-      "downloads": 325,
+      "downloads": 338,
       "repo": "ByteDance-Seed/Cross-Layer-TopK-CLT",
+      "pipeline": "feature-extraction",
       "license": "apache-2.0"
     }
   },
@@ -170,7 +172,7 @@
     "importance": 32,
     "contentHash": "d3699db29f23",
     "meta": {
-      "stars": 12,
+      "stars": 13,
       "repo": "ByteDance-Seed/GenFirst",
       "language": "Python"
     },
