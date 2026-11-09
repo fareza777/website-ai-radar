@@ -1,5 +1,29 @@
 [
   {
+    "id": "7cd5e10290710b74",
+    "lab": "nvidia",
+    "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+    "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-09T14:00:01.000Z",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z",
+    "updatedAt": "2026-11-09T14:00:01.000Z",
+    "excerpt": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in Austin, Texas, alongside the rise of agentic robotics — a new…",
+    "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "52273c2ad94a"
+  },
+  {
     "id": "6d49d73492813e52",
     "lab": "nvidia",
     "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
@@ -712,7 +736,7 @@
     "importance": 67,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 133,
+      "likes": 135,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -1902,7 +1926,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3117,
+      "likes": 3122,
       "downloads": 69992,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -1980,7 +2004,7 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 172,
+      "likes": 179,
       "downloads": 16676,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -3237,7 +3261,7 @@
     "importance": 69,
     "contentHash": "514b0926029b",
     "meta": {
-      "likes": 212,
+      "likes": 214,
       "downloads": 153579,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"

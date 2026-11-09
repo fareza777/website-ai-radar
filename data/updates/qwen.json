@@ -1,5 +1,95 @@
 [
   {
+    "id": "a6fe4efff0c7fa81",
+    "lab": "qwen",
+    "title": "Qwen Code v0.27.1",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.1",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-09T15:00:43.000Z",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z",
+    "updatedAt": "2026-11-09T15:00:43.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(core): name the active shell in the startup context ( #16491 ) by @2SinceJuly feat(qqbot): add opt-in forwardBotMessages for bot-authored messages ( #15904 ) by @Eric-GoodBoy-Tech feat(agents): make default background execution configurable ( #15178 ) by @ZedingZhang feat(cli): enable LSP…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.27.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "15ad4c7ce2f2",
+    "meta": {
+      "version": "v0.27.1",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "3f9e0f8f204cd18f",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.31",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.31",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-09T14:50:08.000Z",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z",
+    "updatedAt": "2026-11-09T14:50:08.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.27.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.0 Source: CLI built from source (same branch/ref as SDK) See commit history for changes.",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.31 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "1e0b0271a92c",
+    "meta": {
+      "version": "v0.1.31",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
+    "id": "d2213b1bf1b1aeba",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.27.1",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.1",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-09T14:24:08.000Z",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z",
+    "updatedAt": "2026-11-09T14:24:08.000Z",
+    "excerpt": "What's Changed docs(providers): document Wally under OpenAI-compatible providers by @sanchitmonga22 in #16529 fix(core): share one gh runner and name an unusable view directory by @wenshao in #16545 fix(telemetry): report OpenAI cache_write_tokens as cache creation by @2SinceJuly in #16454 feat(core): name the active shell in the startup context by @2SinceJuly in #16491 docs(daemon): document session-scoped…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.27.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "83e191dfa6b1",
+    "meta": {
+      "version": "v0.27.1",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
     "id": "629fe623986a9f0a",
     "lab": "qwen",
     "title": "Qwen Code sdk-typescript v0.1.29",
@@ -1101,7 +1191,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 321,
+      "stars": 322,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -1219,7 +1309,7 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1132,
+      "likes": 1135,
       "downloads": 45079,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
@@ -1484,7 +1574,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3591,
+      "likes": 3597,
       "downloads": 253188,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -1523,7 +1613,7 @@
     "importance": 45,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 276,
+      "stars": 277,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -1644,7 +1734,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6870,
+      "likes": 6881,
       "downloads": 3471211,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",

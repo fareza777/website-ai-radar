@@ -1,5 +1,30 @@
 [
   {
+    "id": "6831503398388721",
+    "lab": "ibm",
+    "title": "Building policy enforcement into the AI stack with Praxis",
+    "url": "https://research.ibm.com/blog/building-policy-enforcement-into-the-ai-stack-with-praxis",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-09T15:30:00.000Z",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z",
+    "updatedAt": "2026-11-09T15:30:00.000Z",
+    "excerpt": "From inference through gateways, agents, and policy controls, the Praxis Policy Engine is a programmable security guard for AI agents.",
+    "summary": "From inference through gateways, agents, and policy controls, the Praxis Policy Engine is a programmable security guard for AI agents.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "safety"
+    ],
+    "importance": 30,
+    "contentHash": "f89bdef6766a"
+  },
+  {
     "id": "25dca4e5c6ef7482",
     "lab": "ibm",
     "title": "Docling v2.149.0",
@@ -690,7 +715,7 @@
     "importance": 64,
     "contentHash": "b3f73903e073",
     "meta": {
-      "likes": 55,
+      "likes": 56,
       "downloads": 5721,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",

@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-10",
+    "generatedAt": "2026-11-09T22:30:13.875Z",
+    "stats": {
+      "updates24h": 29,
+      "labsActive24h": 9,
+      "updates7d": 135,
+      "newModels7d": 29
+    },
+    "source": "template",
+    "headline": "29 updates from 9 AI labs in the last 24 hours · 29 model releases this week.",
+    "bullets": [
+      {
+        "text": "Anthropic: Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+        "itemId": "ffe8a09e969fa29a",
+        "lab": "anthropic"
+      },
+      {
+        "text": "Amazon: Introducing Claude Fable 5.2 on AWS",
+        "itemId": "2e186972ef6cdfd3",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+        "itemId": "51fd6bae6a94af5c",
+        "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: ChatGPT Enterprise now available in AWS Marketplace",
+        "itemId": "9c331579e229757a",
+        "lab": "openai"
+      },
+      {
+        "text": "OpenAI: Control Room: A central system to track and stop model workloads across our research infrastructure",
+        "itemId": "f37b680abcf7adcb",
+        "lab": "openai"
+      },
+      {
+        "text": "NVIDIA: NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+        "itemId": "6d49d73492813e52",
+        "lab": "nvidia"
+      }
+    ]
+  },
+  {
     "date": "2026-11-09",
     "generatedAt": "2026-11-09T11:46:12.486Z",
     "stats": {
@@ -1168,30 +1212,6 @@
         "itemId": "87b3bcc2c1234bf9",
         "lab": "tencent"
       },
-      {
-        "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.19",
-        "itemId": "1abb9f509bc605fc",
-        "lab": "qwen"
-      },
-      {
-        "text": "Alibaba Qwen: Qwen Code v0.25.1",
-        "itemId": "5ecc6bc031dd7d6c",
-        "lab": "qwen"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-11",
-    "generatedAt": "2026-10-11T13:02:10.630Z",
-    "stats": {
-      "updates24h": 3,
-      "labsActive24h": 1,
-      "updates7d": 115,
-      "newModels7d": 31
-    },
-    "source": "template",
-    "headline": "3 updates from 1 AI labs in the last 24 hours · 31 model releases this week.",
-    "bullets": [
       {
         "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.19",
         "itemId": "1abb9f509bc605fc",

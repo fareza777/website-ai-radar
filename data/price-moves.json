@@ -1,5 +1,16 @@
 [
   {
+    "id": "1265650ae420fed3",
+    "modelId": "google/gemma-3-27b-it",
+    "name": "Google: Gemma 3 27B",
+    "lab": "google-deepmind",
+    "at": "2026-11-09T22:30:13.875Z",
+    "field": "completion",
+    "from": 0.35,
+    "to": 0.45,
+    "change": 28.6
+  },
+  {
     "id": "65f56bef6362e367",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "name": "Qwen: Qwen3.5 397B A17B",

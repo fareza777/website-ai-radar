@@ -6,10 +6,22 @@
     "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale…",
     "publishedAt": "2026-11-05T16:37:29.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 57,
+    "upvotes": 60,
     "org": "zju",
     "githubRepo": "https://github.com/zju3dv/SplatAnything",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
+  },
+  {
+    "id": "2611.03953",
+    "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+    "url": "https://huggingface.co/papers/2611.03953",
+    "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the…",
+    "publishedAt": "2026-11-02T20:53:15.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 44,
+    "org": "stepfun-ai",
+    "githubRepo": "https://github.com/SinuoWang/P2-MOPD",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z"
   },
   {
     "id": "2610.35959",
@@ -18,7 +30,7 @@
     "summary": "Solving long-horizon agentic tasks requires language agents to interact with their environments over multiple steps, and reliable performance often comes from the expensive capable models available through cloud providers. Meanwhile, alternative efficient models with inferior performance but a much lower cost are emerging, including lower-tier cloud models and smaller open-weights models deployable on local…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 12,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-09T04:01:53.165Z"
@@ -30,10 +42,22 @@
     "summary": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count alone does not predict these metrics, which depend on the model architecture, workload, hardware…",
     "publishedAt": "2026-11-05T16:53:48.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 3,
+    "upvotes": 8,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
+  },
+  {
+    "id": "2611.09891",
+    "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+    "url": "https://huggingface.co/papers/2611.09891",
+    "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning caching, a method for…",
+    "publishedAt": "2026-11-06T00:00:00.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 6,
+    "org": "nvidia",
+    "lab": "nvidia",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z"
   },
   {
     "id": "2610.41711",
@@ -42,7 +66,7 @@
     "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer compute width fixed. HiRes groups layers into blocks: standard d-dimensional PreNorm layers operate…",
     "publishedAt": "2026-10-30T13:18:22.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 1,
+    "upvotes": 5,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -54,7 +78,7 @@
     "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules and models encode…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 0,
+    "upvotes": 3,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -77,7 +101,7 @@
     "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that…",
     "publishedAt": "2026-11-03T18:59:52.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 119,
+    "upvotes": 121,
     "org": "oxford",
     "firstSeenAt": "2026-11-07T17:46:47.864Z"
   },
@@ -100,7 +124,7 @@
     "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 66,
+    "upvotes": 67,
     "org": "sjut1",
     "githubRepo": "https://github.com/DeepExperience/Harness-S",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -112,7 +136,7 @@
     "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 52,
     "org": "carnegiemellonu",
     "githubRepo": "https://github.com/George-Ling3/BestRand",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
@@ -124,7 +148,7 @@
     "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 48,
     "org": null,
     "firstSeenAt": "2026-11-07T10:24:40.073Z"
   },
@@ -147,7 +171,7 @@
     "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank erase and write gates. However, we show that state updates are far less sensitive to…",
     "publishedAt": "2026-11-05T17:53:49.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 12,
+    "upvotes": 13,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
@@ -195,7 +219,7 @@
     "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 61,
     "org": "benchflow",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
@@ -340,7 +364,7 @@
     "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluates five…",
     "publishedAt": "2026-11-02T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 51,
     "org": "huggingface",
     "githubRepo": "https://github.com/RoboColosseum/robocolosseum-client",
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
@@ -376,7 +400,7 @@
     "summary": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 43,
     "org": "ruc",
     "githubRepo": "https://github.com/dongguanting/ToolSpace",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
@@ -461,7 +485,7 @@
     "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 145,
+    "upvotes": 146,
     "org": "utexas",
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
@@ -544,7 +568,7 @@
     "summary": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectories are increasingly used as post-training data, so how they are collected shapes what the trained model learns. A common approach is to sample multiple trajectories independently for each issue and then select or curate them. However, as more trajectories are sampled independently, later trajectories…",
     "publishedAt": "2026-11-01T00:00:00.000Z",
     "submittedAt": "2026-11-03T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 41,
     "org": "antgroup",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },

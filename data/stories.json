@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-11-09T11:46:12.486Z",
+  "generatedAt": "2026-11-09T22:30:13.875Z",
   "stories": [
+    {
+      "id": "ffe8a09e969fa29a",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "entity": "Claude 5.2",
+      "labs": [
+        "anthropic",
+        "amazon"
+      ],
+      "official": 3,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-11-09T00:00:00.000Z",
+      "lastAt": "2026-11-09T20:04:37.000Z",
+      "url": "https://anthropic.com/claude-fable-and-mythos-5-2",
+      "lead": {
+        "kind": "official",
+        "id": "ffe8a09e969fa29a"
+      },
+      "importance": 90
+    },
+    {
+      "id": "51fd6bae6a94af5c",
+      "title": "NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+      "entity": "Nemotron 3.5 Super",
+      "labs": [
+        "amazon",
+        "nvidia"
+      ],
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-11-09T20:01:20.000Z",
+      "lastAt": "2026-11-09T20:01:20.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart",
+      "lead": {
+        "kind": "official",
+        "id": "51fd6bae6a94af5c"
+      },
+      "importance": 85
+    },
+    {
+      "id": "bc2d0068f56d93e1",
+      "title": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
+      "entity": null,
+      "labs": [
+        "amazon",
+        "anthropic"
+      ],
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-11-06T16:45:58.000Z",
+      "lastAt": "2026-11-06T16:45:58.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls",
+      "lead": {
+        "kind": "official",
+        "id": "bc2d0068f56d93e1"
+      },
+      "importance": 70
+    },
     {
       "id": "baidu:c7eb7b8759594f",
       "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
@@ -70,8 +130,8 @@
       "importance": 62
     },
     {
-      "id": "mistral:f5a6848e31d6db",
-      "title": "Daily AI Launch Radar: Mistral Large 4 weights, Copilot Fusion and Replit Cloud Agents",
+      "id": "mistral:328bbcf4eed892",
+      "title": "Mistral Large 4 builds a quantum chemistry solver and 3D molecule viewer from a short prompt",
       "entity": "Mistral Large 4",
       "labs": [
         "mistral"
@@ -79,18 +139,18 @@
       "official": 0,
       "press": 6,
       "outlets": [
-        "Kingy AI",
         "Crypto Briefing",
         "Technology Org",
+        "TUN - The University Network",
         "OrcaRouter",
         "Fello AI"
       ],
-      "firstAt": "2026-10-30T15:47:05.000Z",
+      "firstAt": "2026-11-02T12:20:45.000Z",
       "lastAt": "2026-11-08T05:49:42.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PT1hRNUlCZGppTFFuUDdaUHduNlBaQnJENzhCRWhyQ1pwWXAwUDBrMFZyQXJ3RUN5WnpLYWZWeVJwbTc4ZS14MFRlcjVtSGdra2x4aVdyXzZVT0lvTWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zb1JNSm40NTJzYlRibjh6Rm84VkdLNDZFZFU0Ukx5ZWRQMWgzdFNmTUdVM2pacS05Y2F3Z2EtWW0ySkNWaWt5WkJybFg0dXRtbVJYUkVleVJqNUEtM2dtX0pMUl82QS1heXFIcnY1dDRqeUNESjln?oc=5",
       "lead": {
         "kind": "press",
-        "id": "mistral:f5a6848e31d6db"
+        "id": "mistral:328bbcf4eed892"
       },
       "importance": 57
     },
@@ -144,26 +204,26 @@
       "importance": 56
     },
     {
-      "id": "google-deepmind:47322d0ced1122",
-      "title": "Developers Can Now Leverage Gemini 4 Argon for Complex Workflows",
+      "id": "google-deepmind:9c218824385749",
+      "title": "Can Pangram detect Gemini 4 Argon?",
       "entity": "Gemini 4 Argon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 5,
+      "press": 4,
       "outlets": [
-        "Small Business Trends",
         "Pangram",
+        "Small Business Trends",
         "HackerNoon",
         "shattered.io"
       ],
-      "firstAt": "2026-10-30T16:11:00.000Z",
+      "firstAt": "2026-11-02T08:00:00.000Z",
       "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNb3lBSW00ZEowRHF4TUNDN0xpNXU3OHBtNzJmM19oeUNveVRjQUtVMlRoYXAwZXJOVnVXYUVUcFRac2pneDI2WTFWR184YlNkN19tWEtLRnZPVFpiOEZRX28wVy1md0VwR0xmNl9TMU9tT2JSaU9pZDlITEs2LXA2Qll4eDJ3R2NzTTRmYzRqeXBVMVo4MEYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RNUpRazJtbFJZRUdYUExQX09QeUhITElyTlZ6OEZBZnBUcHVpT2cyNWtnaWtTMG9JTW5jdk12YUx5QjdEOWdzZmhKRVo3Ui1FcjNTc1IwVlVzLTNrenRfV3pKd0ctOVQ2M2lkQThicw?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:47322d0ced1122"
+        "id": "google-deepmind:9c218824385749"
       },
       "importance": 56
     },
@@ -197,31 +257,30 @@
         "labs": []
       },
       {
-        "name": "Mistral Large 4",
-        "count": 5,
-        "prev": 10,
-        "labs": []
-      },
-      {
         "name": "Gemini 4 Argon",
-        "count": 5,
+        "count": 6,
         "prev": 10,
         "labs": []
       },
       {
-        "name": "GPT 6 Astra",
-        "count": 4,
-        "prev": 16,
-        "labs": [
-          "openai"
-        ]
+        "name": "Mistral Large 4",
+        "count": 6,
+        "prev": 11,
+        "labs": []
       },
       {
-        "name": "Gemini 4 Carbon",
+        "name": "DeepSeek 4.1 Flash",
         "count": 4,
-        "prev": 40,
+        "prev": 2,
+        "labs": []
+      },
+      {
+        "name": "Claude 5.2",
+        "count": 3,
+        "prev": 0,
         "labs": [
-          "google-deepmind"
+          "anthropic",
+          "amazon"
         ]
       },
       {
@@ -233,36 +292,38 @@
         ]
       },
       {
+        "name": "Nemotron 3.5 Super",
+        "count": 3,
+        "prev": 0,
+        "labs": [
+          "amazon"
+        ]
+      },
+      {
         "name": "Qwen 4",
         "count": 3,
         "prev": 1,
         "labs": []
       },
       {
-        "name": "Claude Haiku 5.5",
+        "name": "GPT 6 Astra",
         "count": 3,
-        "prev": 2,
+        "prev": 15,
+        "labs": []
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "count": 3,
+        "prev": 41,
         "labs": [
-          "amazon"
+          "google-deepmind"
         ]
-      },
-      {
-        "name": "Claude Opus 5.5",
-        "count": 3,
-        "prev": 2,
-        "labs": []
-      },
-      {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 3,
-        "prev": 4,
-        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 52,
+        "count": 57,
         "prev": 40,
         "labs": [
           "anthropic",
@@ -281,8 +342,8 @@
       },
       {
         "name": "coding",
-        "count": 39,
-        "prev": 37,
+        "count": 44,
+        "prev": 40,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -299,19 +360,20 @@
       },
       {
         "name": "safety",
-        "count": 12,
+        "count": 15,
         "prev": 9,
         "labs": [
           "anthropic",
           "openai",
           "amazon",
+          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 10,
-        "prev": 8,
+        "count": 9,
+        "prev": 10,
         "labs": [
           "google-deepmind",
           "openai",
@@ -326,8 +388,8 @@
       },
       {
         "name": "rag",
-        "count": 8,
-        "prev": 3,
+        "count": 6,
+        "prev": 5,
         "labs": [
           "meta",
           "cohere",
@@ -337,9 +399,10 @@
       },
       {
         "name": "mcp",
-        "count": 5,
-        "prev": 1,
+        "count": 4,
+        "prev": 2,
         "labs": [
+          "anthropic",
           "qwen",
           "microsoft",
           "amazon"
@@ -359,11 +422,10 @@
       },
       {
         "name": "reasoning",
-        "count": 2,
-        "prev": 3,
+        "count": 3,
+        "prev": 1,
         "labs": [
           "openai",
-          "mistral",
           "tencent",
           "amazon",
           "nvidia"
@@ -383,16 +445,16 @@
   },
   "unconfirmed": [
     {
-      "id": "mistral:d6f733723f4c3b",
-      "lab": "mistral",
-      "title": "Mistral Studio Launches Managed Agents and On-Premises Apps",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcy1RZkdFT3lBQnJUeTVGT3hQSnRvM19EZ19ISjJYTElpR0VRRVRFV2ctRzBJM2k1LUdBbUg0bnFlWTZkMG1jTUptbGRXR0c4OG5zdnBlcXZnOS1mZzNwMGc3RzVrT3pLSWk3NXh0bFJwNmNFUTVMMXRpRXR1ZC1BSzB5LUFPNkJBd1lPUmphMjBhTXJz?oc=5",
+      "id": "meta:a8b00d1f7ba580",
+      "lab": "meta",
+      "title": "Cozy life simulation game Wish Upon a Llama launches December 9 for PS5, Xbox Series, PS4, Xbox One, Switch, and PC",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZnRqblJSSGMzaU5QSkRHR2hya0lDUERxaldNcWFjQTNjcGpOenRVUENHMmdmU2NWeHh1bl9IemIxd1hRWVBrYVF1STdjaXhTNHJzYWh0N0h1Wnd4cU1aRHlIWWd2c3pURXdHYjRFcFAwTE5SX3ROYkZEUVNEeWg2VXNpWU16cktrWFJvNUcyN205UXdGSXNyMlJheGE4eXBHYno5M25ZMERlUW95Z2FHNFBxYXJFRHNFYk5uN1FDcWJkXzFoeTRDWGVQbGV3YUsza0xCUmhtbHVPdw?oc=5",
       "outlets": [
-        "Pasquale Pillitteri",
-        "FourWeekMBA"
+        "Gematsu",
+        "VGChartz"
       ],
       "reports": 2,
-      "at": "2026-11-06T17:21:15.000Z"
+      "at": "2026-11-09T18:05:04.000Z"
     }
   ]
 }

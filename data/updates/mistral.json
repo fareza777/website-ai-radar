@@ -1,5 +1,34 @@
 [
   {
+    "id": "7c130f0b948a0336",
+    "lab": "mistral",
+    "title": "Mistral Vibe v3.1.1",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.1",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-09T18:56:59.000Z",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z",
+    "updatedAt": "2026-11-09T18:56:59.000Z",
+    "excerpt": "Added vibe-acp notifies the client when the administrator changes the organization's Vibe Code configuration. Vim Normal and Insert modes in the prompt input, enabled with the vim_keybindings config option The prompt of the conversation section at the top of the screen stays pinned while you scroll, and a click jumps back to it enable_sticky_prompt = false turns the pinned prompt off pre_agent hooks run before the…",
+    "summary": "Mistral AI shipped Mistral Vibe v3.1.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "221af983ce65",
+    "meta": {
+      "version": "v3.1.1",
+      "semver": "patch",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "1184d3a025fd9d05",
     "lab": "mistral",
     "title": "Le Chonk brings the brains. Studio puts it to work.",
@@ -346,7 +375,7 @@
     "importance": 69,
     "contentHash": "bb226bca6d6b",
     "meta": {
-      "likes": 52,
+      "likes": 53,
       "downloads": 16261,
       "repo": "mistralai/Timestral-28M",
       "pipeline": "time-series-forecasting",
@@ -408,7 +437,7 @@
     "importance": 77,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 487,
+      "likes": 488,
       "downloads": 25037,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
@@ -582,7 +611,7 @@
     "importance": 80,
     "contentHash": "c4578af56c8a",
     "meta": {
-      "likes": 1641,
+      "likes": 1644,
       "downloads": 12060,
       "repo": "mistralai/Mistral-Large-4-1T-A52B",
       "pipeline": "image-text-to-text",
