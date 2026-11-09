@@ -1,30 +1,45 @@
 [
   {
     "date": "2026-11-09",
-    "generatedAt": "2026-11-08T19:45:16.813Z",
+    "generatedAt": "2026-11-09T00:59:19.014Z",
     "stats": {
-      "updates24h": 4,
+      "updates24h": 2,
       "labsActive24h": 2,
-      "updates7d": 126,
+      "updates7d": 123,
       "newModels7d": 23
     },
     "source": "template",
-    "headline": "4 updates from 2 AI labs in the last 24 hours · 23 model releases this week.",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 10 labs.",
     "bullets": [
       {
-        "text": "Alibaba Qwen: Qwen Code desktop v0.27.0",
-        "itemId": "45fdd6a9888163e1",
-        "lab": "qwen"
+        "text": "Tencent: Qwen3.8-27B-DSpine-b16",
+        "itemId": "233409616a1b4211",
+        "lab": "tencent"
       },
       {
-        "text": "Alibaba Qwen: Qwen Code v0.27.0",
-        "itemId": "5162469ebe994e51",
-        "lab": "qwen"
+        "text": "Amazon: Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
+        "itemId": "317a771eb37310f5",
+        "lab": "amazon"
       },
       {
-        "text": "IBM: Docling v2.149.0",
-        "itemId": "25dca4e5c6ef7482",
-        "lab": "ibm"
+        "text": "Amazon: Agent Registry is now generally available in AWS GovCloud (US-West) Region",
+        "itemId": "e14a5e738593836d",
+        "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+        "itemId": "6ce9fe52db65d87a",
+        "lab": "nvidia"
+      },
+      {
+        "text": "Google DeepMind: Google GenAI SDK (Python) v3.0.0",
+        "itemId": "f6d3226a90fa9d2c",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "OpenAI: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+        "itemId": "bc8f9eac19663ff6",
+        "lab": "openai"
       }
     ]
   },

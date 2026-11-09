@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T19:45:16.813Z",
+  "generatedAt": "2026-11-09T00:59:19.014Z",
   "stories": [
     {
       "id": "baidu:c7eb7b8759594f",
@@ -40,36 +40,6 @@
       "importance": 66
     },
     {
-      "id": "mistral:6f7d89d8ad3ee2",
-      "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense",
-      "entity": "Mistral Large 4",
-      "labs": [
-        "mistral"
-      ],
-      "official": 0,
-      "press": 10,
-      "outlets": [
-        "www.trendingtopics.eu",
-        "FindArticles",
-        "WinBuzzer",
-        "shattered.io",
-        "mspbusiness.com",
-        "Kingy AI",
-        "Crypto Briefing",
-        "Technology Org",
-        "OrcaRouter",
-        "Fello AI"
-      ],
-      "firstAt": "2026-10-29T20:47:05.000Z",
-      "lastAt": "2026-11-08T05:49:42.000Z",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "mistral:6f7d89d8ad3ee2"
-      },
-      "importance": 62
-    },
-    {
       "id": "google-deepmind:60ea68de0df993",
       "title": "How Investors Should View the Launch of Alphabet's Gemini 4 Carbon",
       "entity": "Gemini 4 Carbon",
@@ -99,6 +69,32 @@
         "id": "google-deepmind:60ea68de0df993"
       },
       "importance": 62
+    },
+    {
+      "id": "mistral:28da80ff7ed959",
+      "title": "Mistral AI makes the trained model parameters of Mistral Large 4 available",
+      "entity": "Mistral Large 4",
+      "labs": [
+        "mistral"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "mspbusiness.com",
+        "Kingy AI",
+        "Crypto Briefing",
+        "Technology Org",
+        "OrcaRouter",
+        "Fello AI"
+      ],
+      "firstAt": "2026-10-30T07:00:00.000Z",
+      "lastAt": "2026-11-08T05:49:42.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdDNmQTdPM3dmYmI5S1NuemF4eU0wemNpY0g5eDJoTWsxZ0hKOFZRenlOOFVlSmotZTU5UEtieV80eUZBbW9EUGJFMFdiUEpZa0dZNUJRRWJsb2VuX200SkhmVmN6NnJJd1hUVk93VW1IaWRRb041cndieFRPb1RoaFVzRmJ2TWRTSXlZX2J5VDdUb0dYVlhvMmdadFNnWk1FaXFQOEkzQjRfb1RWYk5VOTZPX2R3bHkwekUzdVBOUmJ0QWRCVy1SaVRB?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:28da80ff7ed959"
+      },
+      "importance": 58
     },
     {
       "id": "moonshot:7039227f7ebac6",
@@ -262,12 +258,12 @@
     "topics": [
       {
         "name": "agents",
-        "count": 51,
-        "prev": 39,
+        "count": 50,
+        "prev": 40,
         "labs": [
           "anthropic",
-          "deepseek",
           "google-deepmind",
+          "deepseek",
           "openai",
           "minimax",
           "mistral",
@@ -275,14 +271,14 @@
           "microsoft",
           "amazon",
           "bytedance",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 39,
-        "prev": 38,
+        "count": 38,
+        "prev": 39,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -293,31 +289,31 @@
           "cohere",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
         "count": 12,
-        "prev": 8,
+        "prev": 7,
         "labs": [
           "google-deepmind",
           "openai",
           "moonshot",
           "mistral",
-          "baidu",
           "tencent",
+          "baidu",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 11,
-        "prev": 9,
+        "count": 10,
+        "prev": 10,
         "labs": [
           "anthropic",
           "openai",
@@ -348,12 +344,11 @@
       {
         "name": "open-source",
         "count": 4,
-        "prev": 4,
+        "prev": 3,
         "labs": [
           "openai",
           "minimax",
           "mistral",
-          "cohere",
           "amazon",
           "nvidia"
         ]
