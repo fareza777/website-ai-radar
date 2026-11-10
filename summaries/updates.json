@@ -3734,9 +3734,9 @@
     "benefit": "People who connect their accounts can ask Claude direct questions about their own money instead of checking each account separately."
   },
   "9c5ca6b71a827505": {
-    "hash": "78e7b0ad4796",
-    "summary": "ByteDance Seed published Qwen3-30B-A3B-MoE-SAE on Hugging Face with license: apache-2.0.",
-    "benefit": "Developers can pull this Qwen3 MoE SAE release from the ByteDance-Seed organization and build on it under the apache-2.0 license."
+    "hash": "4a4cfacc5e4d",
+    "summary": "ByteDance-Seed published Qwen3-30B-A3B-MoE-SAE on Hugging Face, a feature-extraction model released under the Apache 2.0 license.",
+    "benefit": "Developers can download the Apache 2.0 weights and use them in their own feature-extraction work."
   },
   "53c56afbaf05f856": {
     "hash": "770d59cae341",
@@ -3783,9 +3783,9 @@
     "benefit": "Developers looking for hands-on guidance on open LLMs get a named NVIDIA source for that material, published as video rather than release notes."
   },
   "6ea32a6f1bc8c725": {
-    "hash": "e75fe167a390",
-    "summary": "ByteDance Seed published Cross-Layer-TopK-CLT on Hugging Face with license: apache-2.0.",
-    "benefit": "Researchers can take this Cross-Layer-TopK release from the ByteDance-Seed organization and use it under the apache-2.0 license."
+    "hash": "d786f4da4d0f",
+    "summary": "ByteDance-Seed published Cross-Layer-TopK-CLT on Hugging Face, a feature-extraction model released under the Apache 2.0 license.",
+    "benefit": "Developers can download the Apache 2.0 weights and experiment with them in their own feature-extraction work."
   },
   "c88b52d0b21039c7": {
     "hash": "4f64b9b9cc35",
@@ -3928,9 +3928,9 @@
     "category": "research"
   },
   "d8887a09bc5ec1d4": {
-    "hash": "2bc20adb6dbc",
-    "summary": "Anthropic breaks down the components of agent memory, noting that for Claude to learn from experience it has to decide what is worth remembering before it knows what comes next, and describing how a process called dreaming helps it organize memory and correct mistakes.",
-    "benefit": "Builders of long-running agents get Anthropic's account of which memory pieces matter and how revisiting past work removes errors.",
+    "hash": "87395c2013f6",
+    "summary": "Anthropic breaks down the components of agent memory: how Claude decides what is worth remembering before it knows what comes next, and how \"dreaming\" helps it organize memory and correct mistakes.",
+    "benefit": "Agent builders get a design reference for memory systems that learn from experience and self-correct.",
     "category": "research"
   },
   "fa69cf987a95d048": {
@@ -3964,9 +3964,9 @@
     "benefit": "Researchers and regional partners get IBM's account of where a Quantum System Two is being placed and what it is meant to anchor locally."
   },
   "3e2fc2c9b2ec2305": {
-    "hash": "bb3e8e1c2664",
-    "summary": "Microsoft released dotnet v1.28.0 of Microsoft Agent Framework, a version bump that also carries a fix to parsing declarative workflow formulas, spelling corrections in comments, and preparation for the Python 1.25.0 release including concurrent MCP calls with request-owned headers.",
-    "benefit": ".NET teams on Agent Framework get the formula-parsing fix and stay aligned with the Python release line in the same repository."
+    "hash": "0fa33d2dcd6b",
+    "summary": "Microsoft Agent Framework for .NET v1.28.0 adds the GA computer tool through FoundryAITool.CreateComputerTool(), carries computer calls and results through Foundry hosting including batched actions, and adds an Azure OpenAI computer-use sample.",
+    "benefit": ".NET developers building computer-use agents get a GA tool path through Foundry hosting with batched action support."
   },
   "9d7ccb7a6a054e32": {
     "hash": "e0fa494dfa5b",
@@ -4047,5 +4047,191 @@
     "hash": "8e8c6416df0f",
     "summary": "Qwen Code SDK TypeScript v0.1.29 is a backfilled release that bundles CLI version 0.26.9 after the original workflow failed at the release-branch push step.",
     "benefit": "TypeScript SDK users get CLI v0.26.9 bundled with this corrected release."
+  },
+  "ffe8a09e969fa29a": {
+    "hash": "3041c048c642",
+    "summary": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2, its most capable models for daunting technical work, setting a new bar in coding, finance, and the sciences.",
+    "benefit": "Developers doing demanding technical work get a stronger model for coding, finance, and science tasks."
+  },
+  "62afb1e0ab944c9e": {
+    "hash": "d530312614ce",
+    "summary": "A team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.",
+    "benefit": "Teams scaling many agents get a worked example of running 1,000 agents on one hard task under layered safety controls."
+  },
+  "2e186972ef6cdfd3": {
+    "hash": "01754da386bc",
+    "summary": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS; Fable 5.2 targets technical work and Mythos 5.2 serves advanced cybersecurity and life sciences work through Anthropic's verification programs.",
+    "benefit": "AWS customers can build with Anthropic's newest models directly in Amazon Bedrock for coding, security, and science workloads."
+  },
+  "51fd6bae6a94af5c": {
+    "hash": "c3c681d3f83c",
+    "summary": "NVIDIA Nemotron 3.5 Super VL, the vision-language model in the Nemotron 3.5 family, is now available in Amazon SageMaker JumpStart; it accepts images, video, and text as input and pairs a 120B-parameter hybrid Mixture-of-Experts design.",
+    "benefit": "Developers can deploy a 120B vision-language model in SageMaker with a few steps in SageMaker Studio or a few lines of the Python SDK."
+  },
+  "c17142ddb1c0aa72": {
+    "hash": "b908364de4aa",
+    "summary": "Amazon Bedrock now offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US), Anthropic's most advanced model to date for cybersecurity, software coding, and complex reasoning tasks.",
+    "benefit": "GovCloud customers can use Claude Mythos 5.2 for security-sensitive work such as identifying sophisticated vulnerabilities in software."
+  },
+  "9c331579e229757a": {
+    "hash": "0ee97c97b481",
+    "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+    "benefit": "Companies can buy ChatGPT Enterprise through the AWS purchasing relationship they already have instead of a separate contract."
+  },
+  "f37b680abcf7adcb": {
+    "hash": "30179b055355",
+    "summary": "OpenAI's Control Room is a central system that tracks model workloads across its research infrastructure and can rapidly stop them when safety or security concerns arise.",
+    "benefit": "Safety teams get a concrete example of tracking running workloads and halting them fast during a security incident.",
+    "category": "research"
+  },
+  "23b94c697622500f": {
+    "hash": "675379fe06bb",
+    "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code, and Codex to ship 20 times more software with the same engineering team.",
+    "benefit": "Engineering teams can see how review tooling built on OpenAI models helped one company raise output 20x with an unchanged team size.",
+    "category": "developer"
+  },
+  "d5f14a6242b0886b": {
+    "hash": "72b2bf1fa80d",
+    "summary": "Anthropic published a guide to choosing between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.",
+    "benefit": "Builders get a direct comparison of the current Claude lineup so they can pick the right model for each task and budget."
+  },
+  "9015c3069685351f": {
+    "hash": "73f70bc1ffe0",
+    "summary": "AWS launched its first brand campaign for AWS Quick, the AI workspace that enterprise teams use to research, analyze, and act across the data and applications they already rely on.",
+    "benefit": "Knowledge workers get a plain-language introduction to what AWS Quick does before trying it on their own team's data."
+  },
+  "9c827a803fba9549": {
+    "hash": "d9dce06267b3",
+    "summary": "AWS Glue added 100 new native connectors for popular SaaS and REST API-based applications, created once in the AWS Glue Data Catalog and reused across ETL jobs with the same permissions model.",
+    "benefit": "Data teams can bring SaaS data into AWS without writing custom integration code for each application.",
+    "category": "feature"
+  },
+  "6d49d73492813e52": {
+    "hash": "d13ed917cd09",
+    "summary": "NVIDIA announced planned investments in Korean startups at the MSIT-NVIDIA AI Startup Partnership Forum, starting with Point2 and additional investments planned in Motif Technologies and RLWRLD, after meeting over 20 Korean startups.",
+    "benefit": "Korean AI startups get new funding and a direct partnership channel with NVIDIA through the Ministry of Science and ICT forum."
+  },
+  "51bc8200bfc724aa": {
+    "hash": "5d69aaab2b1d",
+    "summary": "Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with OpenShell to support secure AI agents for employee productivity and enterprise workflows.",
+    "benefit": "Enterprises deploying agents see how to pair NVIDIA's Open Agent Safety Platform components with partner security tooling."
+  },
+  "60900222ede9bec5": {
+    "hash": "7b8e2d557d8b",
+    "summary": "NVIDIA and Korea's Ministry of Science and ICT are expanding collaboration across the country's sovereign AI ecosystem, from AI semiconductors and data centers to talent, startups, models, agents and security, including groundwork for Korean NPU and XPU companies to explore the NVLink Fusion ecosystem.",
+    "benefit": "Korean chipmakers and startups get a path into NVIDIA's NVLink Fusion ecosystem plus NVIDIA training and certification."
+  },
+  "c5536f6e12371c5d": {
+    "hash": "37a55fb2c534",
+    "summary": "NVIDIA released Dynamo-optimized deployment recipes for Korea's leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies.",
+    "benefit": "Teams serving these open models across many GPUs get tuned recipes for request routing and multi-GPU coordination.",
+    "category": "developer"
+  },
+  "932fe34bad728f30": {
+    "hash": "667aff2af5cd",
+    "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings, finding the right drawing for a repair in 4.5 minutes, down from nearly an hour.",
+    "benefit": "Industrial firms with decades of engineering archives can cut drawing lookup from nearly an hour to about 4.5 minutes."
+  },
+  "c4ba76b538d80400": {
+    "hash": "3cbce5559b57",
+    "summary": "Anthropic asked Claude to design three electronic devices - a speakerphone, a voice-assistant hub, and a handheld virtual pet - and the prototypes worked without any fixes to their circuitry.",
+    "benefit": "Hardware prototyping gets a faster start: a model can take a device from prompt to working circuitry with no fixes to the boards.",
+    "category": "research"
+  },
+  "418fd0c9fee6ec46": {
+    "hash": "3376898301d5",
+    "summary": "JPMorganChase is expanding Claude Code to more employees across the firm.",
+    "benefit": "Enterprises weighing coding agents can see a global bank widening its Claude Code rollout to more staff."
+  },
+  "dfd41805582ca791": {
+    "hash": "4936bedde02c",
+    "summary": "Meta built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs, presenting CPU and GPU as separate debugger processes inside one debugging session.",
+    "benefit": "Developers debugging mixed CPU-GPU AI workloads get one session instead of juggling separate hardware-specific debuggers.",
+    "category": "developer"
+  },
+  "bf8640a4bc38a46f": {
+    "hash": "59a32e665fde",
+    "summary": "The Web Search API on Amazon Bedrock AgentCore is now generally available: a single InvokeWebSearch call returns ranked web results, with no resources to create.",
+    "benefit": "Developers can add web search to agents, custom agent loops, and data pipelines with one API call instead of wiring an MCP tool."
+  },
+  "0eb7f2999aa203f1": {
+    "hash": "5088498f8a5e",
+    "summary": "Amazon Bedrock Managed Knowledge Base now covers single-shot and agentic retrieval, so one assistant can answer questions that fit a single checklist and questions spread across several policy guides.",
+    "benefit": "Teams building internal assistants get a pattern for handling both simple lookups and multi-document answers from one knowledge base."
+  },
+  "cafe7e1bd3dbba6b": {
+    "hash": "798b18c0782a",
+    "summary": "AWS published a seven-layer composable enterprise agentic AI reference architecture on Amazon Bedrock AgentCore for running AI agents in production at scale.",
+    "benefit": "Teams moving agents to production get a reference for handling thousands of concurrent requests, reliability, and quality standards under real traffic."
+  },
+  "033426cd1fa4eb50": {
+    "hash": "a6fd4e3d5215",
+    "summary": "CrossnoKaye grounds physical AI with Amazon Bedrock AgentCore in facilities where plant data and control logic are spread across PLCs, DCS, historians, and SCADA systems from different vendors.",
+    "benefit": "Industrial AI teams see how to unify fragmented facility systems so agents can work from real plant data."
+  },
+  "38995d3fca35a803": {
+    "hash": "1b7d9dd0750f",
+    "summary": "NVIDIA is helping advance Korea's physical AI ecosystem, with industry leaders applying accelerated computing, AI, and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles.",
+    "benefit": "Manufacturers and robotics teams can see how physical AI moves from development into real-world production."
+  },
+  "7cd5e10290710b74": {
+    "hash": "52273c2ad94a",
+    "summary": "At CoRL in Austin, NVIDIA and partners showed robots rehearsing delicate work in simulation - aligning gears, connecting cables and assembling small components - as the focus shifts from locomotion to manipulation and agentic robotics.",
+    "benefit": "Robotics teams can use simulation to teach fine manipulation skills, not just walking and hopping."
+  },
+  "af23efeb52488cc4": {
+    "hash": "91613a9613dc",
+    "summary": "A ModRetro Chromatic plugin for Codex lets you build any game you can imagine and play it on a ModRetro Chromatic handheld.",
+    "benefit": "Hobbyist developers can generate their own games and run them on the ModRetro Chromatic handheld straight from Codex."
+  },
+  "9c986f66f8a00011": {
+    "hash": "6fcc24712727",
+    "summary": "Developers can now build with Google Maps Platform in AI Studio.",
+    "benefit": "Developers building in AI Studio can add Google Maps Platform capabilities to the apps they create there."
+  },
+  "70d855a69e2af6a1": {
+    "hash": "cb1cd6f08959",
+    "summary": "AWS Analytics services now support a bi-directional, zero-copy integration with Workday Data Cloud, so joint customers can query across AWS and Workday datasets in place without moving or copying data.",
+    "benefit": "Analytics teams can combine AWS and Workday data without building ETL pipelines, while keeping existing security controls in both environments."
+  },
+  "6831503398388721": {
+    "hash": "f89bdef6766a",
+    "summary": "IBM Research's Praxis Policy Engine is a programmable security guard for AI agents, building policy enforcement into the AI stack from inference through gateways, agents, and policy controls.",
+    "benefit": "Teams deploying agents get one programmable enforcement point across the AI stack instead of scattered policy checks."
+  },
+  "f7d3d2f1a8939849": {
+    "hash": "a83a08c99b96",
+    "summary": "Claude Code v2.1.322 adds fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it.",
+    "benefit": "Vertex users get faster Claude Code responses in three regions, with automatic fallback when fast mode is unavailable."
+  },
+  "52703aebeea06a8c": {
+    "hash": "c61cfbb659ae",
+    "summary": "Claude Agent SDK (Python) v0.2.180 is released and installable with pip install claude-agent-sdk==0.2.180.",
+    "benefit": "Python developers building agents on the SDK can pull the latest release directly from PyPI."
+  },
+  "13932435604d30aa": {
+    "hash": "7f0d2bec8c18",
+    "summary": "Claude Code v2.1.321 makes claude-fable-5-2 the default Fable model - 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads - adds --settings to claude remote-control, and fixes MCP OAuth requests sending secrets such as refresh tokens to another host.",
+    "benefit": "Claude Code users get the new Fable model by default and a fix that stops OAuth refresh tokens from reaching another host."
+  },
+  "a6fe4efff0c7fa81": {
+    "hash": "15ad4c7ce2f2",
+    "summary": "Qwen Code v0.27.1 names the active shell in the startup context, adds opt-in forwardBotMessages for bot-authored messages, makes default background execution configurable, and enables LSP support in the CLI.",
+    "benefit": "Qwen Code users get configurable background execution, LSP support, and clearer startup context in the CLI."
+  },
+  "3f9e0f8f204cd18f": {
+    "hash": "1e0b0271a92c",
+    "summary": "Qwen Code sdk-typescript v0.1.31 bundles CLI version 0.27.1, built from source on the same branch as the SDK.",
+    "benefit": "TypeScript developers using the Qwen Code SDK get the latest CLI behavior bundled without a separate install."
+  },
+  "d2213b1bf1b1aeba": {
+    "hash": "83e191dfa6b1",
+    "summary": "Qwen Code desktop v0.27.1 documents Wally under OpenAI-compatible providers, reports OpenAI cache_write_tokens as cache creation, and names the active shell in the startup context.",
+    "benefit": "Desktop users get clearer provider documentation and more accurate cache token reporting for OpenAI-compatible setups."
+  },
+  "7c130f0b948a0336": {
+    "hash": "221af983ce65",
+    "summary": "Mistral Vibe v3.1.1 adds Vim Normal and Insert modes in the prompt input via the vim_keybindings option, a pinned conversation prompt, pre_agent hooks, and notifications when an administrator changes Vibe Code configuration.",
+    "benefit": "Vibe users get Vim keybindings and hooks to customize agent runs, with clients notified of admin config changes."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:30:13.875Z",
+  "generatedAt": "2026-11-10T04:02:52.140Z",
   "stories": [
     {
       "id": "ffe8a09e969fa29a",
@@ -9,7 +9,7 @@
         "anthropic",
         "amazon"
       ],
-      "official": 3,
+      "official": 4,
       "press": 0,
       "outlets": [],
       "firstAt": "2026-11-09T00:00:00.000Z",
@@ -130,6 +130,32 @@
       "importance": 62
     },
     {
+      "id": "qwen:6d898079efe35e",
+      "title": "GPT-6 Astra reportedly boosts Qwen3.5-0.8B math up to sixfold by editing its weights directly",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "qwen",
+        "anthropic"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "Crypto Briefing",
+        "India Today",
+        "YourStory.com",
+        "Dataconomy",
+        "Fortune"
+      ],
+      "firstAt": "2026-11-02T18:41:25.000Z",
+      "lastAt": "2026-11-09T21:02:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGazRRVU4yZnFkdzFaZnU2TnRHUUFoV20wUkh2M0RWZ3lkVUExQTMxV25iQ2Rla1dHOHVwaGxKOURneGVyVS1KTnVITDk3RHVndTNIZmdXU1Y1VTZHM2Z2MW5NTS1qLS1VUlgyaXdyb1I?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:6d898079efe35e"
+      },
+      "importance": 58
+    },
+    {
       "id": "mistral:328bbcf4eed892",
       "title": "Mistral Large 4 builds a quantum chemistry solver and 3D molecule viewer from a short prompt",
       "entity": "Mistral Large 4",
@@ -178,30 +204,6 @@
         "id": "qwen:cf6f20342781bd"
       },
       "importance": 57
-    },
-    {
-      "id": "qwen:6d898079efe35e",
-      "title": "GPT-6 Astra reportedly boosts Qwen3.5-0.8B math up to sixfold by editing its weights directly",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "qwen"
-      ],
-      "official": 0,
-      "press": 4,
-      "outlets": [
-        "Crypto Briefing",
-        "India Today",
-        "YourStory.com",
-        "Dataconomy"
-      ],
-      "firstAt": "2026-11-02T18:41:25.000Z",
-      "lastAt": "2026-11-05T10:29:03.000Z",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGazRRVU4yZnFkdzFaZnU2TnRHUUFoV20wUkh2M0RWZ3lkVUExQTMxV25iQ2Rla1dHOHVwaGxKOURneGVyVS1KTnVITDk3RHVndTNIZmdXU1Y1VTZHM2Z2MW5NTS1qLS1VUlgyaXdyb1I?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:6d898079efe35e"
-      },
-      "importance": 56
     },
     {
       "id": "google-deepmind:9c218824385749",
@@ -259,7 +261,7 @@
       {
         "name": "Gemini 4 Argon",
         "count": 6,
-        "prev": 10,
+        "prev": 9,
         "labs": []
       },
       {
@@ -269,19 +271,25 @@
         "labs": []
       },
       {
+        "name": "Claude 5.2",
+        "count": 5,
+        "prev": 0,
+        "labs": [
+          "anthropic",
+          "amazon"
+        ]
+      },
+      {
         "name": "DeepSeek 4.1 Flash",
         "count": 4,
         "prev": 2,
         "labs": []
       },
       {
-        "name": "Claude 5.2",
-        "count": 3,
-        "prev": 0,
-        "labs": [
-          "anthropic",
-          "amazon"
-        ]
+        "name": "GPT 6 Astra",
+        "count": 4,
+        "prev": 15,
+        "labs": []
       },
       {
         "name": "Gemini Omni 1.2 Flash",
@@ -306,12 +314,6 @@
         "labs": []
       },
       {
-        "name": "GPT 6 Astra",
-        "count": 3,
-        "prev": 15,
-        "labs": []
-      },
-      {
         "name": "Gemini 4 Carbon",
         "count": 3,
         "prev": 41,
@@ -324,15 +326,15 @@
       {
         "name": "agents",
         "count": 57,
-        "prev": 40,
+        "prev": 42,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
+          "qwen",
           "minimax",
           "mistral",
-          "qwen",
           "microsoft",
           "amazon",
           "bytedance",
@@ -342,15 +344,15 @@
       },
       {
         "name": "coding",
-        "count": 44,
+        "count": 45,
         "prev": 40,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
+          "qwen",
           "minimax",
           "mistral",
-          "qwen",
           "cohere",
           "microsoft",
           "amazon",
@@ -360,8 +362,8 @@
       },
       {
         "name": "safety",
-        "count": 15,
-        "prev": 9,
+        "count": 17,
+        "prev": 8,
         "labs": [
           "anthropic",
           "openai",
@@ -399,7 +401,7 @@
       },
       {
         "name": "mcp",
-        "count": 4,
+        "count": 5,
         "prev": 2,
         "labs": [
           "anthropic",
@@ -411,13 +413,23 @@
       {
         "name": "open-source",
         "count": 4,
-        "prev": 3,
+        "prev": 2,
         "labs": [
-          "openai",
           "minimax",
           "mistral",
           "amazon",
           "nvidia"
+        ]
+      },
+      {
+        "name": "audio",
+        "count": 3,
+        "prev": 3,
+        "labs": [
+          "anthropic",
+          "openai",
+          "amazon",
+          "ibm"
         ]
       },
       {
@@ -429,16 +441,6 @@
           "tencent",
           "amazon",
           "nvidia"
-        ]
-      },
-      {
-        "name": "audio",
-        "count": 2,
-        "prev": 4,
-        "labs": [
-          "openai",
-          "amazon",
-          "ibm"
         ]
       }
     ]

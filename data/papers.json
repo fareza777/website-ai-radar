@@ -6,10 +6,22 @@
     "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale…",
     "publishedAt": "2026-11-05T16:37:29.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 64,
     "org": "zju",
     "githubRepo": "https://github.com/zju3dv/SplatAnything",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
+  },
+  {
+    "id": "2611.06043",
+    "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+    "url": "https://huggingface.co/papers/2611.06043",
+    "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency…",
+    "publishedAt": "2026-11-04T06:46:50.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 56,
+    "org": "netease-youdao",
+    "githubRepo": "https://github.com/netease-youdao/Confucius4-R2T2",
+    "firstSeenAt": "2026-11-10T04:02:52.140Z"
   },
   {
     "id": "2611.03953",
@@ -18,7 +30,7 @@
     "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the…",
     "publishedAt": "2026-11-02T20:53:15.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 45,
     "org": "stepfun-ai",
     "githubRepo": "https://github.com/SinuoWang/P2-MOPD",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
@@ -66,7 +78,7 @@
     "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer compute width fixed. HiRes groups layers into blocks: standard d-dimensional PreNorm layers operate…",
     "publishedAt": "2026-10-30T13:18:22.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 5,
+    "upvotes": 6,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -112,7 +124,7 @@
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 109,
+    "upvotes": 111,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -136,7 +148,7 @@
     "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger…",
     "publishedAt": "2026-10-31T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 53,
     "org": "carnegiemellonu",
     "githubRepo": "https://github.com/George-Ling3/BestRand",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
@@ -159,7 +171,7 @@
     "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 43,
     "org": "mmlab-cuhk",
     "githubRepo": "https://github.com/Lyricccco/tailsteer",
     "firstSeenAt": "2026-11-08T06:15:18.812Z"
@@ -219,7 +231,7 @@
     "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-05T00:00:00.000Z",
-    "upvotes": 61,
+    "upvotes": 62,
     "org": "benchflow",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
@@ -299,6 +311,17 @@
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {
+    "id": "2611.04916",
+    "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+    "url": "https://huggingface.co/papers/2611.04916",
+    "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "submittedAt": "2026-11-04T00:00:00.000Z",
+    "upvotes": 78,
+    "org": "klingteam",
+    "firstSeenAt": "2026-11-04T11:07:36.704Z"
+  },
+  {
     "id": "2611.00617",
     "title": "Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy",
     "url": "https://huggingface.co/papers/2611.00617",
@@ -308,17 +331,6 @@
     "upvotes": 77,
     "org": "nextgenwhu",
     "githubRepo": "https://github.com/whunextgen/Pandora",
-    "firstSeenAt": "2026-11-04T11:07:36.704Z"
-  },
-  {
-    "id": "2611.04916",
-    "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
-    "url": "https://huggingface.co/papers/2611.04916",
-    "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…",
-    "publishedAt": "2026-11-03T00:00:00.000Z",
-    "submittedAt": "2026-11-04T00:00:00.000Z",
-    "upvotes": 77,
-    "org": "klingteam",
     "firstSeenAt": "2026-11-04T11:07:36.704Z"
   },
   {

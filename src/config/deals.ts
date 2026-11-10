@@ -125,6 +125,16 @@ export const CURATED_DEALS: CuratedDeal[] = [
     mustContain: "10,000 Neurons per day at no charge",
   },
   {
+    id: "mistral-free-plan",
+    title: "Mistral — Free plan",
+    provider: "Mistral AI",
+    kind: "free-tier",
+    description: "Limited free access to Vibe and Mistral Studio, including the latest models, chat, search, and Vibe for code for agentic coding in your terminal.",
+    url: "https://docs.mistral.ai/getting-started/pricing",
+    mustContain: "Free plan provides limited access to Vibe",
+    lab: "mistral",
+  },
+  {
     id: "aws-free-tier-credits",
     title: "AWS Free Tier — credits for new customers",
     provider: "Amazon Web Services",

@@ -1,33 +1,4 @@
 {
-  "2026-10-11": {
-    "headline": "Asana's browser-agent tests, Claude 5.5 on Kiro in AWS GovCloud, and Bedrock video plus Ultrafast updates lead the latest lab posts.",
-    "bullets": [
-      {
-        "text": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests with GPT-6.1 Sol.",
-        "itemId": "90995f7dbc9c2674"
-      },
-      {
-        "text": "Claude Sonnet 5.5 and Claude Opus 5.5 are in the Kiro IDE and CLI for AWS GovCloud (US). Opus 5.5 uses roughly 40% fewer tool calls than Opus 5 in Kiro's internal tests.",
-        "itemId": "9ecc31063427a804"
-      },
-      {
-        "text": "Amazon Bedrock now supports TwelveLabs Pegasus 1.5, which labels what happens in a video and when.",
-        "itemId": "0deeee753f10c47e"
-      },
-      {
-        "text": "Ultrafast mode for GPT-6.1 Sol is available on Amazon Bedrock for latency-sensitive applications.",
-        "itemId": "a09da81804ce5b81"
-      },
-      {
-        "text": "Sophos uses OpenAI Daybreak to cut threat investigation time by 96% and automate 52% of MDR cases.",
-        "itemId": "edd58468d564448f"
-      },
-      {
-        "text": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed.",
-        "itemId": "f6d3626eb7c890d9"
-      }
-    ]
-  },
   "2026-10-12": {
     "headline": "Asana's browser-agent tests got 76x cheaper with GPT-6.1 Sol, Claude 5.5 reached Kiro in AWS GovCloud, and Bedrock added Pegasus 1.5.",
     "bullets": [
@@ -664,6 +635,35 @@
       {
         "text": "OpenAI is partnering with Hacktron to find vulnerabilities in OpenAI systems and strengthen defenses with frontier AI.",
         "itemId": "bc8f9eac19663ff6"
+      }
+    ]
+  },
+  "2026-11-10": {
+    "headline": "Anthropic's Claude Fable 5.2 and Claude Mythos 5.2 lead the day, spreading across Amazon Bedrock and GovCloud, while NVIDIA and OpenAI push platform, safety, and sovereign-AI news.",
+    "bullets": [
+      {
+        "text": "Anthropic launched Claude Fable 5.2 and Claude Mythos 5.2, its most capable models for coding, finance, and the sciences.",
+        "itemId": "ffe8a09e969fa29a"
+      },
+      {
+        "text": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS.",
+        "itemId": "2e186972ef6cdfd3"
+      },
+      {
+        "text": "Amazon Bedrock brings Claude Mythos 5.2 to eligible customers in AWS GovCloud (US) for cybersecurity and complex reasoning work.",
+        "itemId": "c17142ddb1c0aa72"
+      },
+      {
+        "text": "OpenAI detailed Control Room, a central system that tracks and can rapidly stop model workloads across its research infrastructure.",
+        "itemId": "f37b680abcf7adcb"
+      },
+      {
+        "text": "NVIDIA Nemotron 3.5 Super VL, a 120B-parameter vision-language model, is now available in Amazon SageMaker JumpStart.",
+        "itemId": "51fd6bae6a94af5c"
+      },
+      {
+        "text": "NVIDIA announced planned investments in Korean startups including Point2, with more planned in Motif Technologies and RLWRLD.",
+        "itemId": "6d49d73492813e52"
       }
     ]
   }

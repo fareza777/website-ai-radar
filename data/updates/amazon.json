@@ -1,5 +1,54 @@
 [
   {
+    "id": "bf8640a4bc38a46f",
+    "lab": "amazon",
+    "title": "Amazon Bedrock AgentCore now offers a Web Search API",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-web-search-api",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T00:00:00.000Z",
+    "firstSeenAt": "2026-11-10T04:02:52.140Z",
+    "updatedAt": "2026-11-10T00:00:00.000Z",
+    "excerpt": "Today, AWS announces the general availability of the Web Search API on Amazon Bedrock AgentCore, which lets you search the web with a single API call. Web Search on AgentCore has been available as an MCP tool through AgentCore Gateway. The new InvokeWebSearch API gives applications, custom agent loops, and data pipelines search results with no resources to create. The API returns ranked results from the…",
+    "summary": "Today, AWS announces the general availability of the Web Search API on Amazon Bedrock AgentCore, which lets you search the web with a single API call.",
+    "benefit": "API/SDK change — check whether your integration needs an update or can use the new capability.",
+    "summarySource": "template",
+    "category": "api",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 50,
+    "contentHash": "59a32e665fde"
+  },
+  {
+    "id": "9c827a803fba9549",
+    "lab": "amazon",
+    "title": "AWS Glue adds 100 new native connectors for popular SaaS applications",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-glue-adds-100-new-native-connectors",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-09T21:33:00.000Z",
+    "firstSeenAt": "2026-11-10T04:02:52.140Z",
+    "updatedAt": "2026-11-09T21:33:00.000Z",
+    "excerpt": "AWS Glue now supports 100 new native connectors that simplify access to data in popular SaaS and REST API-based applications. Previously, bringing data from SaaS applications into AWS required writing custom code. Now, teams can create a connection once in the AWS Glue Data Catalog and reuse it across ETL jobs with the same permissions model they already use for AWS Glue. The new connectors span generative AI…",
+    "summary": "AWS Glue now supports 100 new native connectors that simplify access to data in popular SaaS and REST API-based applications.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "coding"
+    ],
+    "importance": 60,
+    "contentHash": "d9dce06267b3"
+  },
+  {
     "id": "0eb7f2999aa203f1",
     "lab": "amazon",
     "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
@@ -168,6 +217,30 @@
     ],
     "importance": 75,
     "contentHash": "b908364de4aa"
+  },
+  {
+    "id": "70d855a69e2af6a1",
+    "lab": "amazon",
+    "title": "AWS Analytics services now support Workday Data Cloud integration",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-analytics-workday-data-cloud",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-09T08:00:00.000Z",
+    "firstSeenAt": "2026-11-10T04:02:52.140Z",
+    "updatedAt": "2026-11-09T08:00:00.000Z",
+    "excerpt": "Today, AWS announces a new bi-directional, zero-copy integration between AWS Analytics services and Workday Data Cloud. Instead of building and maintaining ETL pipelines to replicate data between systems, joint customers can now query across their AWS and Workday datasets in place, without moving or copying data, while retaining existing security controls in both environments. From AWS, you can use Amazon SageMaker…",
+    "summary": "Today, AWS announces a new bi-directional, zero-copy integration between AWS Analytics services and Workday Data Cloud.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "safety"
+    ],
+    "importance": 30,
+    "contentHash": "cb1cd6f08959"
   },
   {
     "id": "317a771eb37310f5",

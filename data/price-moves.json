@@ -1,5 +1,82 @@
 [
   {
+    "id": "f62445c53f3ee35e",
+    "modelId": "nvidia/nemotron-3.5-super-vl",
+    "name": "NVIDIA: Nemotron 3.5 Super VL",
+    "lab": "nvidia",
+    "at": "2026-11-10T04:22:06.205Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.47,
+    "change": -6
+  },
+  {
+    "id": "9c2971c94c35c927",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-10T04:22:06.205Z",
+    "field": "prompt",
+    "from": 0.0335,
+    "to": 0.15,
+    "change": 347.8
+  },
+  {
+    "id": "cceec42241993ce1",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-10T04:22:06.205Z",
+    "field": "completion",
+    "from": 0.083,
+    "to": 0.5,
+    "change": 502.4
+  },
+  {
+    "id": "66086c450edcb7fe",
+    "modelId": "z-ai/glm-4.5-air",
+    "name": "Z.ai: GLM 4.5 Air",
+    "lab": "zai",
+    "at": "2026-11-10T04:02:52.140Z",
+    "field": "prompt",
+    "from": 0.13,
+    "to": 0.2,
+    "change": 53.8
+  },
+  {
+    "id": "0d6fd17b321a9ac3",
+    "modelId": "z-ai/glm-4.5-air",
+    "name": "Z.ai: GLM 4.5 Air",
+    "lab": "zai",
+    "at": "2026-11-10T04:02:52.140Z",
+    "field": "completion",
+    "from": 0.85,
+    "to": 1.1,
+    "change": 29.4
+  },
+  {
+    "id": "b5111a9ede3e426c",
+    "modelId": "mistralai/mistral-small-3.2-24b-instruct",
+    "name": "Mistral: Mistral Small 3.2 24B",
+    "lab": "mistral",
+    "at": "2026-11-10T04:02:52.140Z",
+    "field": "prompt",
+    "from": 0.075,
+    "to": 0.1,
+    "change": 33.3
+  },
+  {
+    "id": "d0014ac8afd6ab0c",
+    "modelId": "mistralai/mistral-small-3.2-24b-instruct",
+    "name": "Mistral: Mistral Small 3.2 24B",
+    "lab": "mistral",
+    "at": "2026-11-10T04:02:52.140Z",
+    "field": "completion",
+    "from": 0.2,
+    "to": 0.3,
+    "change": 50
+  },
+  {
     "id": "1265650ae420fed3",
     "modelId": "google/gemma-3-27b-it",
     "name": "Google: Gemma 3 27B",

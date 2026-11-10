@@ -777,12 +777,6 @@
     "unique": "The reported training cost is $21K for a 2B-Parameter P-JiT text-to-image model released under Apache 2.0.",
     "benefit": "Builders who cannot fund large training runs get a small Apache 2.0 image model as a starting point for their own experiments."
   },
-  "06715abca828fad9": {
-    "hash": "dfacaaf4",
-    "summary": "Rivet is an orchestrator for agentic workloads, described as fast, high-density and scalable, covering every workload an agent needs, built on actors, Cloudflare Durable Objects and FoundationDB for realtime and multiplayer traffic.",
-    "unique": "It schedules every workload an agent needs at high density, with durable actors and realtime multiplayer as first-class topics.",
-    "benefit": "Developers running many concurrent agent sessions get one layer for actor state and realtime traffic instead of a bespoke queue per task."
-  },
   "e47586656bf21c44": {
     "summary": "llama-modchip runs 284B DeepSeek-V4-Flash and 30B MoE models on a pure 64GB CPU at 256K context with zero GPUs, achieving 44.4 tok/s prompt processing.",
     "unique": "SwiGLU-H2 and Stockfish-PVS L3 techniques enable large model inference on CPU-only hardware.",
@@ -797,5 +791,11 @@
     "summary": "rea-video reverse-engineers any video shot by shot, identifying whether each shot was filmed, AI-generated, or coded, then shows how to remake it.",
     "unique": "Combines AIGC detection with shot-by-shot analysis and remake instructions for video reverse engineering.",
     "benefit": "Video creators and analysts can understand how videos were made and recreate similar content."
+  },
+  "1344584aedd971d4": {
+    "hash": "0765a408",
+    "summary": "An open-source agent skill that removes common AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+    "unique": "It combines removing AI tells with rewriting toward the ASD-STE100 controlled-English standard, and ships as a skill for Claude Code, Codex, and Cursor.",
+    "benefit": "Writers and developers using AI drafts get plainer text from a skill that runs inside the coding agents they already use."
   }
 }

@@ -1,21 +1,16 @@
 [
   {
     "date": "2026-11-10",
-    "generatedAt": "2026-11-09T22:30:13.875Z",
+    "generatedAt": "2026-11-10T04:02:52.140Z",
     "stats": {
-      "updates24h": 29,
+      "updates24h": 30,
       "labsActive24h": 9,
-      "updates7d": 135,
-      "newModels7d": 29
+      "updates7d": 139,
+      "newModels7d": 31
     },
     "source": "template",
-    "headline": "29 updates from 9 AI labs in the last 24 hours · 29 model releases this week.",
+    "headline": "30 updates from 9 AI labs in the last 24 hours · 31 model releases this week.",
     "bullets": [
-      {
-        "text": "Anthropic: Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-        "itemId": "ffe8a09e969fa29a",
-        "lab": "anthropic"
-      },
       {
         "text": "Amazon: Introducing Claude Fable 5.2 on AWS",
         "itemId": "2e186972ef6cdfd3",
@@ -39,6 +34,11 @@
       {
         "text": "NVIDIA: NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
         "itemId": "6d49d73492813e52",
+        "lab": "nvidia"
+      },
+      {
+        "text": "NVIDIA: Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+        "itemId": "51bc8200bfc724aa",
         "lab": "nvidia"
       }
     ]
