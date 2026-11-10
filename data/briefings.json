@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-11",
+    "generatedAt": "2026-11-10T17:07:58.299Z",
+    "stats": {
+      "updates24h": 34,
+      "labsActive24h": 8,
+      "updates7d": 145,
+      "newModels7d": 34
+    },
+    "source": "template",
+    "headline": "34 updates from 8 AI labs in the last 24 hours · 34 model releases this week.",
+    "bullets": [
+      {
+        "text": "Google DeepMind: Gemini 4 Carbon is now available for developers.",
+        "itemId": "15706f35e993d4cb",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Amazon: Introducing Claude Fable 5.2 on AWS",
+        "itemId": "2e186972ef6cdfd3",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+        "itemId": "51fd6bae6a94af5c",
+        "lab": "amazon"
+      },
+      {
+        "text": "Google DeepMind: Introducing 3 new domains: .eat, .fly, and .here",
+        "itemId": "7ef3b2a69d793a00",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Anthropic: Anthropic launches roadshow for proposed initial public offering",
+        "itemId": "26b496ffaa34d818",
+        "lab": "anthropic"
+      },
+      {
+        "text": "OpenAI: ChatGPT Enterprise now available in AWS Marketplace",
+        "itemId": "9c331579e229757a",
+        "lab": "openai"
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "generatedAt": "2026-11-10T07:28:23.381Z",
     "stats": {
@@ -1187,40 +1231,6 @@
         "text": "IBM: Scaling AI-driven chip design with open agent factories",
         "itemId": "67f85c60691d51d6",
         "lab": "ibm"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-12",
-    "generatedAt": "2026-10-12T11:01:43.699Z",
-    "stats": {
-      "updates24h": 5,
-      "labsActive24h": 3,
-      "updates7d": 109,
-      "newModels7d": 30
-    },
-    "source": "template",
-    "headline": "5 updates from 3 AI labs in the last 24 hours · 30 model releases this week.",
-    "bullets": [
-      {
-        "text": "IBM: Docling v2.138.0",
-        "itemId": "a4e3621bd2f9b0a6",
-        "lab": "ibm"
-      },
-      {
-        "text": "Tencent: OmniCapBench",
-        "itemId": "87b3bcc2c1234bf9",
-        "lab": "tencent"
-      },
-      {
-        "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.19",
-        "itemId": "1abb9f509bc605fc",
-        "lab": "qwen"
-      },
-      {
-        "text": "Alibaba Qwen: Qwen Code v0.25.1",
-        "itemId": "5ecc6bc031dd7d6c",
-        "lab": "qwen"
       }
     ]
   }

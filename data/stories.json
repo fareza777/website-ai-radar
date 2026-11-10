@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-11-10T07:28:23.381Z",
+  "generatedAt": "2026-11-10T17:07:58.299Z",
   "stories": [
+    {
+      "id": "15706f35e993d4cb",
+      "title": "Gemini 4 Carbon is now available for developers.",
+      "entity": "Gemini 4 Carbon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 1,
+      "press": 6,
+      "outlets": [
+        "The Verge",
+        "Engadget",
+        "9to5Google",
+        "VentureBeat",
+        "Seeking Alpha",
+        "The Tech Buzz"
+      ],
+      "firstAt": "2026-11-10T16:00:00.000Z",
+      "lastAt": "2026-11-10T17:03:31.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
+      "lead": {
+        "kind": "official",
+        "id": "15706f35e993d4cb"
+      },
+      "importance": 98
+    },
     {
       "id": "ffe8a09e969fa29a",
       "title": "Claude Fable 5.2 and Mythos 5.2",
@@ -100,34 +126,33 @@
       "importance": 66
     },
     {
-      "id": "google-deepmind:60ea68de0df993",
-      "title": "How Investors Should View the Launch of Alphabet's Gemini 4 Carbon",
-      "entity": "Gemini 4 Carbon",
+      "id": "moonshot:bbfea785ebf068",
+      "title": "Moonshot AI rents Nvidia’s top chips in China, Bloomberg reports",
+      "entity": null,
       "labs": [
-        "google-deepmind"
+        "moonshot",
+        "nvidia"
       ],
       "official": 0,
-      "press": 8,
+      "press": 2,
       "outlets": [
-        "Barchart.com",
+        "Investing.com",
+        "The Economic Times",
+        "Seeking Alpha",
         "Yahoo Finance",
-        "gHacks",
-        "TestingCatalog AI News",
-        "EdTech Innovation Hub",
-        "THE ELEC, Korea Electronics Industry Media",
-        "Mezha.net",
-        "9to5Google",
-        "Tom's Hardware",
-        "qz.com"
+        "The Standard (HK)",
+        "TipRanks",
+        "NewsBytes",
+        "marketscreener.com"
       ],
-      "firstAt": "2026-10-31T13:00:03.000Z",
-      "lastAt": "2026-11-04T20:49:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXB0OU9KWGRzWVBBT0xTb0lhR0c3Sk0xZmQ4RnBRazlfTTFfamxHb1ZWblVQcDdic0FDa0VrUWdhdTNhTEk4Y3BRcjlqRDRnWWdMT2FSX24wcFZfYS14bWwwRFQtVFJyMWh0cmhva0hLVV9OZWNmZ0Mtb0FXR0pSZEl0MUtMdmxTb2FfTXBVaVgxeHdRQndUT0xEaDFhM2ZMOWs5dEluM05VWjlQQmJj?oc=5",
+      "firstAt": "2026-11-10T05:17:26.000Z",
+      "lastAt": "2026-11-10T08:26:24.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQjZKMUVaSUdLc1FoX2IyQzIzSzR2YW9ENlZNYm5RM2RkT2JkdXQ0RWpoUmc4OUVKOWtIVXNKbjNnSDFWMzdoTFZiWWJVN3J6Vk9iejFIQ296MkNZZDE0ZjZEUjJseWFqU21PTlNWdHFxZi15RGEtbjVWZ3ltUTV4dTFrdFJLcFdWUFFwTFJsWW9Ecm9xSjJ6NnlsVS1Cd2t6UlB3R2Z4YUhwWmx4WHc1aWNsRmVDR1lBTE5v?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:60ea68de0df993"
+        "id": "moonshot:bbfea785ebf068"
       },
-      "importance": 62
+      "importance": 61
     },
     {
       "id": "qwen:6d898079efe35e",
@@ -157,6 +182,59 @@
       "importance": 59
     },
     {
+      "id": "google-deepmind:6e5aca9a0420da",
+      "title": "Google’s Gemini 4 Carbon Tops Artificial Analysis Rankings",
+      "entity": "Gemini 4 Carbon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 6,
+      "outlets": [
+        "TestingCatalog AI News",
+        "EdTech Innovation Hub",
+        "THE ELEC, Korea Electronics Industry Media",
+        "Mezha.net",
+        "9to5Google",
+        "Tom's Hardware",
+        "qz.com"
+      ],
+      "firstAt": "2026-11-01T08:44:34.000Z",
+      "lastAt": "2026-11-04T20:49:38.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tU2x4blJGTkpRY1dSMlBrQlVmbm9ZN1ZYNmhSaklwN1EwRjVual9PZU1QRjJqQjI2SnR4cnV2Zy1KaE5qM2t6Zkg1NVZZcHE4Y1RBaTBKVm9RajI2eFNleFVYdTdKYlE?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:6e5aca9a0420da"
+      },
+      "importance": 59
+    },
+    {
+      "id": "qwen:cf6f20342781bd",
+      "title": "Qwen4 Nears Launch as Alibaba's Open Source Promise Faces Real Doubt",
+      "entity": "Qwen 4",
+      "labs": [
+        "qwen"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "Startup Fortune",
+        "shattered.io",
+        "Fello AI",
+        "Pasquale Pillitteri",
+        "Kingy AI",
+        "Asia Times"
+      ],
+      "firstAt": "2026-11-02T18:54:13.000Z",
+      "lastAt": "2026-11-07T05:09:54.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUY4dlZhejFkcml1SDgzR0UxQUo0WS1IdXRCRXJyeVdjZDlEenplR3JIQmc4THVtd0RZdmVsUUhZbDVKOURRM1l0UThUbWU2a05BbkQ1SFhmaFEwUWVTdDl0WXQ1RnFhNkl2M0U5QV9tNlFyMVVsMzJvQ2g2WWRtbEIwQlJyeC1qOG5pVFRGWE1CWndFblNMUVN3dw?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:cf6f20342781bd"
+      },
+      "importance": 58
+    },
+    {
       "id": "mistral:328bbcf4eed892",
       "title": "Mistral Large 4 builds a quantum chemistry solver and 3D molecule viewer from a short prompt",
       "entity": "Mistral Large 4",
@@ -182,29 +260,28 @@
       "importance": 57
     },
     {
-      "id": "qwen:cf6f20342781bd",
-      "title": "Qwen4 Nears Launch as Alibaba's Open Source Promise Faces Real Doubt",
-      "entity": "Qwen 4",
+      "id": "anthropic:4519e4e2be31a3",
+      "title": "Anthropic to seek $1.4 trillion valuation in blockbuster IPO",
+      "entity": null,
       "labs": [
-        "qwen"
+        "anthropic"
       ],
       "official": 0,
-      "press": 4,
+      "press": 2,
       "outlets": [
-        "Startup Fortune",
-        "shattered.io",
-        "Fello AI",
-        "Kingy AI",
-        "Asia Times"
+        "The New York Times",
+        "CNN",
+        "Bloomberg.com",
+        "WSJ"
       ],
-      "firstAt": "2026-11-02T18:54:13.000Z",
-      "lastAt": "2026-11-07T05:09:54.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUY4dlZhejFkcml1SDgzR0UxQUo0WS1IdXRCRXJyeVdjZDlEenplR3JIQmc4THVtd0RZdmVsUUhZbDVKOURRM1l0UThUbWU2a05BbkQ1SFhmaFEwUWVTdDl0WXQ1RnFhNkl2M0U5QV9tNlFyMVVsMzJvQ2g2WWRtbEIwQlJyeC1qOG5pVFRGWE1CWndFblNMUVN3dw?oc=5",
+      "firstAt": "2026-11-10T11:00:15.000Z",
+      "lastAt": "2026-11-10T15:40:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbUxWTnB5dWdxMWVSOS1yclBmU0pteklCakRmX0dKV0ZVZzByMUd4dUlwbFNBbUZkOHotWk9EOTMwTFU0LVFnZHJUWnJBOHpmclRnUngtejBZbklCQWdIQmhMTEkyY3ZLU0NxTEdNZVFIaGVIZHlFNmUzOGFaOFFXLVVNTWRid0F2YTk1Mg?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:cf6f20342781bd"
+        "id": "anthropic:4519e4e2be31a3"
       },
-      "importance": 57
+      "importance": 56
     },
     {
       "id": "google-deepmind:9c218824385749",
@@ -260,14 +337,16 @@
         "labs": []
       },
       {
-        "name": "Mistral Large 4",
-        "count": 6,
-        "prev": 11,
-        "labs": []
+        "name": "Gemini 4 Carbon",
+        "count": 10,
+        "prev": 42,
+        "labs": [
+          "google-deepmind"
+        ]
       },
       {
         "name": "Claude 5.2",
-        "count": 5,
+        "count": 6,
         "prev": 0,
         "labs": [
           "anthropic",
@@ -275,21 +354,27 @@
         ]
       },
       {
-        "name": "Gemini 4 Argon",
+        "name": "Qwen 4",
         "count": 5,
-        "prev": 8,
+        "prev": 1,
         "labs": []
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 4,
+        "count": 5,
         "prev": 2,
         "labs": []
       },
       {
-        "name": "GPT 6 Astra",
+        "name": "Gemini 4 Argon",
         "count": 4,
-        "prev": 16,
+        "prev": 8,
+        "labs": []
+      },
+      {
+        "name": "Mistral Large 4",
+        "count": 4,
+        "prev": 13,
         "labs": []
       },
       {
@@ -309,52 +394,44 @@
         ]
       },
       {
-        "name": "Qwen 4",
+        "name": "GPT 6 Astra",
         "count": 3,
-        "prev": 1,
+        "prev": 16,
         "labs": []
-      },
-      {
-        "name": "Gemini 4 Carbon",
-        "count": 3,
-        "prev": 41,
-        "labs": [
-          "google-deepmind"
-        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 56,
-        "prev": 42,
+        "count": 54,
+        "prev": 44,
         "labs": [
-          "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
+          "anthropic",
           "deepseek",
-          "mistral",
           "minimax",
           "qwen",
+          "mistral",
           "microsoft",
           "amazon",
-          "bytedance",
           "ibm",
+          "bytedance",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 44,
+        "count": 42,
         "prev": 40,
         "labs": [
-          "anthropic",
-          "google-deepmind",
           "openai",
-          "mistral",
+          "google-deepmind",
+          "anthropic",
           "minimax",
-          "qwen",
           "cohere",
+          "qwen",
+          "mistral",
           "microsoft",
           "amazon",
           "ibm",
@@ -363,11 +440,12 @@
       },
       {
         "name": "safety",
-        "count": 17,
-        "prev": 8,
+        "count": 18,
+        "prev": 9,
         "labs": [
-          "anthropic",
           "openai",
+          "google-deepmind",
+          "anthropic",
           "amazon",
           "ibm",
           "nvidia"
@@ -375,12 +453,13 @@
       },
       {
         "name": "multimodal",
-        "count": 8,
+        "count": 11,
         "prev": 11,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "moonshot",
+          "minimax",
           "mistral",
           "tencent",
           "microsoft",
@@ -413,35 +492,33 @@
       },
       {
         "name": "open-source",
-        "count": 4,
-        "prev": 2,
+        "count": 5,
+        "prev": 3,
         "labs": [
-          "mistral",
           "minimax",
+          "mistral",
+          "amazon",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 4,
+        "prev": 0,
+        "labs": [
+          "openai",
           "amazon",
           "nvidia"
         ]
       },
       {
         "name": "audio",
-        "count": 3,
+        "count": 2,
         "prev": 3,
         "labs": [
           "anthropic",
-          "openai",
           "amazon",
           "ibm"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 3,
-        "prev": 1,
-        "labs": [
-          "openai",
-          "tencent",
-          "amazon",
-          "nvidia"
         ]
       }
     ]

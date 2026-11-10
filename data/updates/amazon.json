@@ -1,5 +1,52 @@
 [
   {
+    "id": "82110824f2abb129",
+    "lab": "amazon",
+    "title": "How TCS built an agentic test orchestrator with Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T16:59:43.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-10T16:59:43.000Z",
+    "excerpt": "This post was co-written with Varun Valsan from Tata Consultancy Services (TCS). Tata Consultancy Services (TCS) runs large-scale testing for Banking, Financial Services, and Insurance (BFSI) clients, where the slowest part of a release is rarely writing application code. The larger constraint is the chain of work that follows: interpreting requirements, designing scenarios, writing and maintaining automation…",
+    "summary": "This post was co-written with Varun Valsan from Tata Consultancy Services (TCS).",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 50,
+    "contentHash": "193758617de3"
+  },
+  {
+    "id": "58426d8e2b3863d2",
+    "lab": "amazon",
+    "title": "Amazon Bedrock tokenomics data lake",
+    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-tokenomics-data-lake",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T16:56:36.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-10T16:56:36.000Z",
+    "excerpt": "If you need an observability data lake for your Amazon Bedrock workloads, you’re not alone. When you’re running thousands of model invocations a day across multiple accounts, after a request is sent you might be wondering, what happened? You can see the aggregate bill, but you can’t see what happened inside each call. You might start to ask questions: what prompt was sent, what the model returned, how many tokens it…",
+    "summary": "If you need an observability data lake for your Amazon Bedrock workloads, you’re not alone.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "ff68bbc186b9"
+  },
+  {
     "id": "bf8640a4bc38a46f",
     "lab": "amazon",
     "title": "Amazon Bedrock AgentCore now offers a Web Search API",
@@ -2942,7 +2989,7 @@
     "contentHash": "f6b52138e9a2",
     "meta": {
       "likes": 15,
-      "downloads": 277,
+      "downloads": 285,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"
     }
@@ -4002,7 +4049,7 @@
     "contentHash": "2462e1ba8e00",
     "meta": {
       "likes": 13,
-      "downloads": 881,
+      "downloads": 873,
       "repo": "amazon/ALoDLM-1.7B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -4033,7 +4080,7 @@
     "contentHash": "48b7b19078e5",
     "meta": {
       "likes": 63,
-      "downloads": 2021,
+      "downloads": 1913,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"

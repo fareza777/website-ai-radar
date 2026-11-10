@@ -1,5 +1,34 @@
 [
   {
+    "id": "65678db00c328c3b",
+    "lab": "ibm",
+    "title": "Docling v2.150.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.150.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T07:57:09.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-10T07:57:09.000Z",
+    "excerpt": "Feature xbrl: Support iXBRL input and remote taxonomy resolution with source_uri ( #4689 ) ( 43c016c ) Fix email: Preserve furniture from HTML message bodies ( #5228 ) ( 75a7dbc ) odf: Show the displayed text of typed table cells ( #5232 ) ( b92f77c ) example: Avoid exposing original PII by default ( #5182 ) ( e77fcc2 ) Apply the EXIF orientation when loading document images ( #5246 ) ( 550cba5 ) jats: Keep the…",
+    "summary": "IBM shipped Docling v2.150.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 40,
+    "contentHash": "a5996af598ac",
+    "meta": {
+      "version": "v2.150.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "6831503398388721",
     "lab": "ibm",
     "title": "Building policy enforcement into the AI stack with Praxis",
@@ -716,7 +745,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 56,
-      "downloads": 5721,
+      "downloads": 5878,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -747,7 +776,7 @@
     "contentHash": "6f6f69225449",
     "meta": {
       "likes": 46,
-      "downloads": 4605,
+      "downloads": 4720,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -961,7 +990,7 @@
     "contentHash": "a598e14a409a",
     "meta": {
       "likes": 81,
-      "downloads": 9394,
+      "downloads": 9632,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -1212,7 +1241,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 8,
-      "downloads": 360,
+      "downloads": 361,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
@@ -1518,7 +1547,7 @@
     "contentHash": "45adf5a46f06",
     "meta": {
       "likes": 47,
-      "downloads": 38869,
+      "downloads": 38872,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
       "license": "cc-by-nc-sa-4.0"

@@ -1,5 +1,32 @@
 [
   {
+    "id": "2fe4c17499b49b4c",
+    "lab": "mistral",
+    "title": "Mistral Vibe v3.1.2",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.2",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T16:56:57.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-10T16:56:57.000Z",
+    "excerpt": "Added Installed plugins can be turned off with the disabled_plugins setting: a disabled plugin stays installed but contributes nothing to sessions Plugins can be off by default ( defaultEnabled: false in their ai.mistral.vibe extension) and turned on with the enabled_plugins setting /skills lists your installed skills, one row per name, with search, a Space toggle to turn each one on or off, and the highlighted…",
+    "summary": "Mistral AI shipped Mistral Vibe v3.1.2 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 25,
+    "contentHash": "0d3b60074231",
+    "meta": {
+      "version": "v3.1.2",
+      "semver": "patch",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "7c130f0b948a0336",
     "lab": "mistral",
     "title": "Mistral Vibe v3.1.1",
@@ -345,7 +372,7 @@
     "contentHash": "417d409580a4",
     "meta": {
       "likes": 47,
-      "downloads": 9001,
+      "downloads": 9298,
       "repo": "mistralai/Timestral-123M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -376,7 +403,7 @@
     "contentHash": "bb226bca6d6b",
     "meta": {
       "likes": 53,
-      "downloads": 16261,
+      "downloads": 16910,
       "repo": "mistralai/Timestral-28M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -407,7 +434,7 @@
     "contentHash": "fd4a807fe29b",
     "meta": {
       "likes": 82,
-      "downloads": 12371,
+      "downloads": 12892,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -438,7 +465,7 @@
     "contentHash": "c08e0cb0414f",
     "meta": {
       "likes": 489,
-      "downloads": 25037,
+      "downloads": 26739,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -496,7 +523,7 @@
     "contentHash": "c984e1dce577",
     "meta": {
       "likes": 29,
-      "downloads": 179,
+      "downloads": 175,
       "repo": "mistralai/LIDstral-Arabic",
       "pipeline": "text-classification",
       "license": "apache-2.0"
@@ -528,7 +555,7 @@
     "contentHash": "11354caaa84e",
     "meta": {
       "likes": 54,
-      "downloads": 2860,
+      "downloads": 2741,
       "repo": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
       "pipeline": "automatic-speech-recognition"
     }
@@ -611,8 +638,8 @@
     "importance": 80,
     "contentHash": "c4578af56c8a",
     "meta": {
-      "likes": 1644,
-      "downloads": 12060,
+      "likes": 1645,
+      "downloads": 12541,
       "repo": "mistralai/Mistral-Large-4-1T-A52B",
       "pipeline": "image-text-to-text",
       "license": "other"

@@ -1,5 +1,101 @@
 [
   {
+    "id": "405fdcad1ce1a75c",
+    "lab": "nvidia",
+    "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+    "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T16:00:03.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-10T16:00:03.000Z",
+    "excerpt": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon , the flagship conference for the Kubernetes and cloud-native communities. NVIDIA is contributing NVIDIA OpenShell , an open source runtime for…",
+    "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "open-source"
+    ],
+    "importance": 30,
+    "contentHash": "ca61376b2262"
+  },
+  {
+    "id": "f84813837de693ea",
+    "lab": "nvidia",
+    "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits",
+    "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T16:00:00.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-10T16:00:00.000Z",
+    "excerpt": "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide... Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide a foundation for developing these capabilities, but moving them into a vehicle requires…",
+    "summary": "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "reasoning"
+    ],
+    "importance": 60,
+    "contentHash": "65444f1e74b5"
+  },
+  {
+    "id": "1dc08ada76bb0ad2",
+    "lab": "nvidia",
+    "title": "Agent Substrate: Advancing Kubernetes for Agents at Scale",
+    "url": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T15:00:00.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-10T15:00:00.000Z",
+    "excerpt": "AI agents spend most of their time idle, waiting on a human prompt, a tool result or a model response. Kubernetes wasn’t built for that. Running one Pod per... AI agents spend most of their time idle, waiting on a human prompt, a tool result or a model response. Kubernetes wasn’t built for that. Running one Pod per session holds memory for sessions that aren’t doing anything, and deleting Pods between turns pays a…",
+    "summary": "AI agents spend most of their time idle, waiting on a human prompt, a tool result or a model response.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 30,
+    "contentHash": "340199a645bb"
+  },
+  {
+    "id": "a93eb8df02babe00",
+    "lab": "nvidia",
+    "title": "Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
+    "url": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T15:00:00.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-10T15:00:00.000Z",
+    "excerpt": "NVIDIA Snapshot, a new open-source component of the NVIDIA DSX AI Factory Platform, makes initialized GPU workloads reusable across inference... NVIDIA Snapshot, a new open-source component of the NVIDIA DSX AI Factory Platform, makes initialized GPU workloads reusable across inference replicas—speeding startup and recovery. When inference demand spikes or a replica fails, available GPUs don’t translate immediately…",
+    "summary": "NVIDIA Snapshot, a new open-source component of the NVIDIA DSX AI Factory Platform, makes initialized GPU workloads reusable across inference...",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "open-source"
+    ],
+    "importance": 30,
+    "contentHash": "74f3051fe186"
+  },
+  {
     "id": "7cd5e10290710b74",
     "lab": "nvidia",
     "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
@@ -736,7 +832,7 @@
     "importance": 67,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 135,
+      "likes": 136,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -1926,8 +2022,8 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3130,
-      "downloads": 69992,
+      "likes": 3147,
+      "downloads": 72455,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
       "license": "other"
@@ -2004,8 +2100,8 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 184,
-      "downloads": 16676,
+      "likes": 192,
+      "downloads": 17056,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -2149,7 +2245,7 @@
     "contentHash": "806c45ea6874",
     "meta": {
       "likes": 44,
-      "downloads": 12578,
+      "downloads": 13460,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
     }
@@ -2200,8 +2296,8 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 394,
-      "downloads": 132176,
+      "likes": 397,
+      "downloads": 134686,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
       "license": "other"
@@ -2280,8 +2376,8 @@
     "importance": 63,
     "contentHash": "b0ac029a9c38",
     "meta": {
-      "likes": 40,
-      "downloads": 4124,
+      "likes": 41,
+      "downloads": 4250,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -3114,7 +3210,7 @@
     "contentHash": "e3362fa9da93",
     "meta": {
       "likes": 90,
-      "downloads": 6022,
+      "downloads": 5965,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -3145,7 +3241,7 @@
     "contentHash": "1a235bb4339f",
     "meta": {
       "likes": 157,
-      "downloads": 20288,
+      "downloads": 21217,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -3174,7 +3270,7 @@
     "contentHash": "8748e3ba3f5a",
     "meta": {
       "likes": 30,
-      "downloads": 49791,
+      "downloads": 51963,
       "repo": "nvidia/EgoHand-v1",
       "license": "openmdw-1.1"
     }
@@ -3202,7 +3298,7 @@
     "contentHash": "0afab6065026",
     "meta": {
       "likes": 28,
-      "downloads": 1737,
+      "downloads": 1743,
       "repo": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis",
       "pipeline": "any-to-any",
       "license": "other"
@@ -3232,8 +3328,8 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 829,
-      "downloads": 187347,
+      "likes": 831,
+      "downloads": 192740,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
       "license": "openmdw-1.1"
@@ -3262,7 +3358,7 @@
     "contentHash": "514b0926029b",
     "meta": {
       "likes": 214,
-      "downloads": 153579,
+      "downloads": 154790,
       "repo": "nvidia/Kumo-Tabular",
       "license": "openmdw-1.1"
     }

@@ -1,5 +1,43 @@
 [
   {
+    "id": "f96c882dace67c13",
+    "lab": "minimax",
+    "title": "MiniMax-H3-Image-PE",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE",
+    "sourceId": "minimax-hf",
+    "sourceName": "Hugging Face · MiniMaxAI",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-08T15:35:23.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-08T15:35:23.000Z",
+    "excerpt": "text-generation · license: other",
+    "summary": "MiniMax published the MiniMax-H3-Image-PE model on Hugging Face for text generation (LLM). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 59,
+    "contentHash": "2aa16c939e2c",
+    "meta": {
+      "likes": 13,
+      "downloads": 0,
+      "repo": "MiniMaxAI/MiniMax-H3-Image-PE",
+      "pipeline": "text-generation",
+      "license": "other"
+    },
+    "seenIn": [
+      {
+        "sourceId": "minimax-gh",
+        "sourceName": "GitHub · MiniMax-AI (new repos)",
+        "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image"
+      }
+    ]
+  },
+  {
     "id": "84dcd20c671573cf",
     "lab": "minimax",
     "title": "mcode-agent-table",
@@ -30,6 +68,37 @@
     }
   },
   {
+    "id": "1f1dbabb56c455a1",
+    "lab": "minimax",
+    "title": "MiniMax-H3-Image",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+    "sourceId": "minimax-hf",
+    "sourceName": "Hugging Face · MiniMaxAI",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T06:34:36.000Z",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z",
+    "updatedAt": "2026-11-03T06:34:36.000Z",
+    "excerpt": "text-to-image · license: other",
+    "summary": "MiniMax published the MiniMax-H3-Image model on Hugging Face for text to image. License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 69,
+    "contentHash": "ede0b95a1b9d",
+    "meta": {
+      "likes": 206,
+      "downloads": 667,
+      "repo": "MiniMaxAI/MiniMax-H3-Image",
+      "pipeline": "text-to-image",
+      "license": "other"
+    }
+  },
+  {
     "id": "76c843e9c8ad82e7",
     "lab": "minimax",
     "title": "mcode-stack",
@@ -54,9 +123,9 @@
     "importance": 42,
     "contentHash": "f1b584e2e1f2",
     "meta": {
-      "stars": 627,
+      "stars": 664,
       "repo": "MiniMax-AI/mcode-stack",
-      "language": "Python"
+      "language": "HTML"
     }
   },
   {
@@ -83,8 +152,8 @@
     "importance": 72,
     "contentHash": "8abcf2afde84",
     "meta": {
-      "likes": 567,
-      "downloads": 53060,
+      "likes": 570,
+      "downloads": 55087,
       "repo": "MiniMaxAI/MiniMax-M3.1-Flash",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -143,7 +212,7 @@
     "importance": 40,
     "contentHash": "00ba70c1404d",
     "meta": {
-      "stars": 322,
+      "stars": 323,
       "repo": "MiniMax-AI/OpenAgentCore",
       "language": "Go"
     }
@@ -173,7 +242,7 @@
     "importance": 36,
     "contentHash": "5701200884f9",
     "meta": {
-      "stars": 72,
+      "stars": 73,
       "repo": "MiniMax-AI/MiniMax-Code-MiniApps",
       "language": "JavaScript"
     }
@@ -229,7 +298,7 @@
     "importance": 71,
     "contentHash": "7de2be25aea7",
     "meta": {
-      "stars": 552,
+      "stars": 553,
       "repo": "MiniMax-AI/awesome-minimax-h3-integration"
     }
   },

@@ -21,22 +21,11 @@
     "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
   {
-    "id": "50351111",
-    "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
-    "url": "https://honnibal.dev/blog/astra-read-write-misleading",
-    "hnUrl": "https://news.ycombinator.com/item?id=50351111",
-    "points": 1038,
-    "comments": 209,
-    "at": "2026-11-03T12:21:17Z",
-    "lab": "qwen",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z"
-  },
-  {
     "id": "50429906",
     "title": "Claude Fable 5.2 and Mythos 5.2",
     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
     "hnUrl": "https://news.ycombinator.com/item?id=50429906",
-    "points": 974,
+    "points": 981,
     "comments": 460,
     "at": "2026-11-09T18:56:29Z",
     "lab": "anthropic",
@@ -47,19 +36,30 @@
     "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
     "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
     "hnUrl": "https://news.ycombinator.com/item?id=50415628",
-    "points": 888,
-    "comments": 479,
+    "points": 893,
+    "comments": 483,
     "at": "2026-11-08T18:16:07Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-08T19:45:16.813Z"
+  },
+  {
+    "id": "50429068",
+    "title": "Claude Fable 5.2 and Mythos 5.2",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "hnUrl": "https://news.ycombinator.com/item?id=50429068",
+    "points": 811,
+    "comments": 945,
+    "at": "2026-11-09T18:01:10Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-10T04:02:52.140Z"
   },
   {
     "id": "50410107",
     "title": "Goodbye Claude, hello Pi",
     "url": "https://caleb.software/posts/claude-to-pi.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50410107",
-    "points": 806,
-    "comments": 485,
+    "points": 809,
+    "comments": 489,
     "at": "2026-11-08T03:11:48Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-08T06:15:18.812Z"
@@ -87,6 +87,17 @@
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
   },
   {
+    "id": "50429426",
+    "title": "Google Gemini routes personal Drive files and emails to human annotators",
+    "url": "https://github.com/thisisme6598/gemini_files/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50429426",
+    "points": 690,
+    "comments": 144,
+    "at": "2026-11-09T18:24:38Z",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z"
+  },
+  {
     "id": "50366999",
     "title": "Kimi K3.1 Pro model weights are out",
     "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
@@ -102,8 +113,8 @@
     "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
     "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
     "hnUrl": "https://news.ycombinator.com/item?id=50407882",
-    "points": 623,
-    "comments": 422,
+    "points": 624,
+    "comments": 425,
     "at": "2026-11-07T20:45:32Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-08T04:01:04.448Z"
@@ -124,8 +135,8 @@
     "title": "I'm not convinced the AI bubble exists",
     "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
     "hnUrl": "https://news.ycombinator.com/item?id=50418975",
-    "points": 550,
-    "comments": 943,
+    "points": 559,
+    "comments": 953,
     "at": "2026-11-08T23:44:36Z",
     "firstSeenAt": "2026-11-09T04:01:53.165Z"
   },
@@ -140,34 +151,12 @@
     "firstSeenAt": "2026-11-04T19:52:01.415Z"
   },
   {
-    "id": "50429426",
-    "title": "Google Gemini routes personal Drive files and emails to human annotators",
-    "url": "https://github.com/thisisme6598/gemini_files/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50429426",
-    "points": 543,
-    "comments": 123,
-    "at": "2026-11-09T18:24:38Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-11-09T22:30:13.875Z"
-  },
-  {
-    "id": "50352757",
-    "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
-    "url": "https://news.ycombinator.com/item?id=50352757",
-    "hnUrl": "https://news.ycombinator.com/item?id=50352757",
-    "points": 526,
-    "comments": 163,
-    "at": "2026-11-03T14:53:41Z",
-    "lab": "openai",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z"
-  },
-  {
     "id": "50406563",
     "title": "The end of Microsoft Research's AI Frontiers group",
     "url": "https://hunch.net/?p=13764006",
     "hnUrl": "https://news.ycombinator.com/item?id=50406563",
-    "points": 509,
-    "comments": 309,
+    "points": 510,
+    "comments": 310,
     "at": "2026-11-07T18:02:17Z",
     "firstSeenAt": "2026-11-07T21:57:57.700Z"
   },
@@ -187,22 +176,22 @@
     "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
     "url": "https://github.com/synchopate/llama-modchip",
     "hnUrl": "https://news.ycombinator.com/item?id=50411961",
-    "points": 477,
+    "points": 481,
     "comments": 205,
     "at": "2026-11-08T10:22:04Z",
     "lab": "meta",
     "firstSeenAt": "2026-11-08T19:45:16.813Z"
   },
   {
-    "id": "50429068",
-    "title": "Claude Fable 5.2 and Mythos 5.2",
-    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-    "hnUrl": "https://news.ycombinator.com/item?id=50429068",
-    "points": 474,
-    "comments": 743,
-    "at": "2026-11-09T18:01:10Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-10T04:02:52.140Z"
+    "id": "50439193",
+    "title": "AlphaProof Code",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50439193",
+    "points": 422,
+    "comments": 140,
+    "at": "2026-11-10T12:11:12Z",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z"
   },
   {
     "id": "50372945",
@@ -227,6 +216,17 @@
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
+    "id": "50431144",
+    "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+    "hnUrl": "https://news.ycombinator.com/item?id=50431144",
+    "points": 361,
+    "comments": 261,
+    "at": "2026-11-09T20:04:55Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z"
+  },
+  {
     "id": "50376313",
     "title": "GPT-6 Astra covertly underperforms on safety research",
     "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
@@ -236,17 +236,6 @@
     "at": "2026-11-05T07:44:30Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
-  },
-  {
-    "id": "50431144",
-    "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
-    "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-    "hnUrl": "https://news.ycombinator.com/item?id=50431144",
-    "points": 337,
-    "comments": 244,
-    "at": "2026-11-09T20:04:55Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-09T22:30:13.875Z"
   },
   {
     "id": "50394906",
@@ -296,22 +285,11 @@
     "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
     "url": "https://news.ycombinator.com/item?id=50422628",
     "hnUrl": "https://news.ycombinator.com/item?id=50422628",
-    "points": 208,
-    "comments": 73,
+    "points": 213,
+    "comments": 75,
     "at": "2026-11-09T08:17:49Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
-  },
-  {
-    "id": "50350004",
-    "title": "Revolut moves to self-hosted GLM",
-    "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
-    "hnUrl": "https://news.ycombinator.com/item?id=50350004",
-    "points": 192,
-    "comments": 168,
-    "at": "2026-11-03T09:53:59Z",
-    "lab": "zai",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z"
   },
   {
     "id": "50413822",
@@ -319,7 +297,7 @@
     "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
     "hnUrl": "https://news.ycombinator.com/item?id=50413822",
     "points": 189,
-    "comments": 214,
+    "comments": 216,
     "at": "2026-11-08T14:49:23Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-08T19:45:16.813Z"
@@ -336,6 +314,16 @@
     "firstSeenAt": "2026-11-05T20:04:26.298Z"
   },
   {
+    "id": "50435660",
+    "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+    "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+    "hnUrl": "https://news.ycombinator.com/item?id=50435660",
+    "points": 188,
+    "comments": 174,
+    "at": "2026-11-10T03:20:06Z",
+    "firstSeenAt": "2026-11-10T07:28:23.381Z"
+  },
+  {
     "id": "50402212",
     "title": "The Components of Agent Memory",
     "url": "https://www.anthropic.com/research/components-of-agent-memory",
@@ -345,6 +333,27 @@
     "at": "2026-11-07T06:39:04Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-07T17:46:47.864Z"
+  },
+  {
+    "id": "50442303",
+    "title": "Gemini 4 Carbon is now available",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50442303",
+    "points": 148,
+    "comments": 63,
+    "at": "2026-11-10T16:07:15Z",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z"
+  },
+  {
+    "id": "50433079",
+    "title": "A year after the 100% AI mandate nobody understands our code",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50433079",
+    "points": 144,
+    "comments": 183,
+    "at": "2026-11-09T22:19:12Z",
+    "firstSeenAt": "2026-11-10T04:02:52.140Z"
   },
   {
     "id": "50358352",
@@ -382,20 +391,10 @@
     "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
     "url": "https://github.com/OmniJev/Flide",
     "hnUrl": "https://news.ycombinator.com/item?id=50421155",
-    "points": 123,
+    "points": 124,
     "comments": 29,
     "at": "2026-11-09T04:43:12Z",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
-  },
-  {
-    "id": "50433079",
-    "title": "A year after the 100% AI mandate nobody understands our code",
-    "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50433079",
-    "points": 121,
-    "comments": 157,
-    "at": "2026-11-09T22:19:12Z",
-    "firstSeenAt": "2026-11-10T04:02:52.140Z"
   },
   {
     "id": "50381687",
@@ -412,7 +411,7 @@
     "title": "Why I will not be using LLMs in my coding",
     "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
     "hnUrl": "https://news.ycombinator.com/item?id=50412591",
-    "points": 117,
+    "points": 119,
     "comments": 239,
     "at": "2026-11-08T12:14:10Z",
     "firstSeenAt": "2026-11-08T13:39:13.707Z"
@@ -423,7 +422,7 @@
     "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
     "hnUrl": "https://news.ycombinator.com/item?id=50421426",
     "points": 113,
-    "comments": 122,
+    "comments": 124,
     "at": "2026-11-09T05:30:11Z",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
   },
@@ -438,16 +437,6 @@
     "firstSeenAt": "2026-11-05T01:30:16.249Z"
   },
   {
-    "id": "50435660",
-    "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
-    "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-    "hnUrl": "https://news.ycombinator.com/item?id=50435660",
-    "points": 111,
-    "comments": 56,
-    "at": "2026-11-10T03:20:06Z",
-    "firstSeenAt": "2026-11-10T07:28:23.381Z"
-  },
-  {
     "id": "50366971",
     "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
     "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
@@ -456,16 +445,6 @@
     "comments": 176,
     "at": "2026-11-04T15:28:31Z",
     "firstSeenAt": "2026-11-05T01:30:16.249Z"
-  },
-  {
-    "id": "50351463",
-    "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
-    "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50351463",
-    "points": 107,
-    "comments": 251,
-    "at": "2026-11-03T12:58:43Z",
-    "firstSeenAt": "2026-11-06T11:05:12.287Z"
   },
   {
     "id": "50389990",
@@ -484,7 +463,7 @@
     "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
     "hnUrl": "https://news.ycombinator.com/item?id=50415817",
     "points": 98,
-    "comments": 127,
+    "comments": 128,
     "at": "2026-11-08T18:43:07Z",
     "firstSeenAt": "2026-11-09T00:59:19.014Z"
   },
@@ -564,17 +543,6 @@
     "firstSeenAt": "2026-11-06T04:02:57.281Z"
   },
   {
-    "id": "50350560",
-    "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
-    "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
-    "hnUrl": "https://news.ycombinator.com/item?id=50350560",
-    "points": 84,
-    "comments": 102,
-    "at": "2026-11-03T11:16:07Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z"
-  },
-  {
     "id": "50405263",
     "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
     "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
@@ -621,8 +589,8 @@
     "title": "Asahi Linux Drops MIT, Goes Full GPL After AI Used to Steal Unreleased Code",
     "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl/",
     "hnUrl": "https://news.ycombinator.com/item?id=50420532",
-    "points": 70,
-    "comments": 35,
+    "points": 72,
+    "comments": 38,
     "at": "2026-11-09T03:06:55Z",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
   },
