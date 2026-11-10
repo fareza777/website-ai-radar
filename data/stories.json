@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-10T04:02:52.140Z",
+  "generatedAt": "2026-11-10T07:28:23.381Z",
   "stories": [
     {
       "id": "ffe8a09e969fa29a",
-      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
       "entity": "Claude 5.2",
       "labs": [
         "anthropic",
@@ -135,7 +135,8 @@
       "entity": "GPT 6 Astra",
       "labs": [
         "qwen",
-        "anthropic"
+        "anthropic",
+        "openai"
       ],
       "official": 0,
       "press": 5,
@@ -153,7 +154,7 @@
         "kind": "press",
         "id": "qwen:6d898079efe35e"
       },
-      "importance": 58
+      "importance": 59
     },
     {
       "id": "mistral:328bbcf4eed892",
@@ -259,12 +260,6 @@
         "labs": []
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 6,
-        "prev": 9,
-        "labs": []
-      },
-      {
         "name": "Mistral Large 4",
         "count": 6,
         "prev": 11,
@@ -280,6 +275,12 @@
         ]
       },
       {
+        "name": "Gemini 4 Argon",
+        "count": 5,
+        "prev": 8,
+        "labs": []
+      },
+      {
         "name": "DeepSeek 4.1 Flash",
         "count": 4,
         "prev": 2,
@@ -288,7 +289,7 @@
       {
         "name": "GPT 6 Astra",
         "count": 4,
-        "prev": 15,
+        "prev": 16,
         "labs": []
       },
       {
@@ -325,16 +326,16 @@
     "topics": [
       {
         "name": "agents",
-        "count": 57,
+        "count": 56,
         "prev": 42,
         "labs": [
           "anthropic",
-          "deepseek",
           "google-deepmind",
           "openai",
-          "qwen",
-          "minimax",
+          "deepseek",
           "mistral",
+          "minimax",
+          "qwen",
           "microsoft",
           "amazon",
           "bytedance",
@@ -344,15 +345,15 @@
       },
       {
         "name": "coding",
-        "count": 45,
+        "count": 44,
         "prev": 40,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "qwen",
-          "minimax",
           "mistral",
+          "minimax",
+          "qwen",
           "cohere",
           "microsoft",
           "amazon",
@@ -374,8 +375,8 @@
       },
       {
         "name": "multimodal",
-        "count": 9,
-        "prev": 10,
+        "count": 8,
+        "prev": 11,
         "labs": [
           "google-deepmind",
           "openai",
@@ -415,8 +416,8 @@
         "count": 4,
         "prev": 2,
         "labs": [
-          "minimax",
           "mistral",
+          "minimax",
           "amazon",
           "nvidia"
         ]

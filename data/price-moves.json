@@ -1,5 +1,71 @@
 [
   {
+    "id": "eaa7504f8e2ddcce",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-10T07:28:23.381Z",
+    "field": "prompt",
+    "from": 0.0675,
+    "to": 0.08,
+    "change": 18.5
+  },
+  {
+    "id": "b6c1e8495b2a53b0",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-10T07:28:23.381Z",
+    "field": "completion",
+    "from": 0.225,
+    "to": 0.1,
+    "change": -55.6
+  },
+  {
+    "id": "f150e376fb19abe1",
+    "modelId": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "lab": "qwen",
+    "at": "2026-11-10T07:28:23.381Z",
+    "field": "prompt",
+    "from": 0.12,
+    "to": 0.1,
+    "change": -16.7
+  },
+  {
+    "id": "863d9dffa1d2c0a8",
+    "modelId": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "lab": "qwen",
+    "at": "2026-11-10T07:28:23.381Z",
+    "field": "completion",
+    "from": 0.24,
+    "to": 0.22,
+    "change": -8.3
+  },
+  {
+    "id": "d4ec75561b797fe7",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-10T07:28:23.381Z",
+    "field": "prompt",
+    "from": 0.59,
+    "to": 0.71,
+    "change": 20.3
+  },
+  {
+    "id": "a93b2b0e64b6b113",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-10T07:28:23.381Z",
+    "field": "completion",
+    "from": 0.79,
+    "to": 0.71,
+    "change": -10.1
+  },
+  {
     "id": "f62445c53f3ee35e",
     "modelId": "nvidia/nemotron-3.5-super-vl",
     "name": "NVIDIA: Nemotron 3.5 Super VL",
