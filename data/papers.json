@@ -6,7 +6,7 @@
     "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 91,
+    "upvotes": 92,
     "org": "robbyant",
     "githubRepo": "https://github.com/Robbyant/lingbot-touch",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -18,7 +18,7 @@
     "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent…",
     "publishedAt": "2026-11-07T14:59:22.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 53,
     "org": "openenvisionlab",
     "githubRepo": "https://github.com/OpenEnvision/WorldFoundry",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -30,7 +30,7 @@
     "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 46,
+    "upvotes": 51,
     "org": "shanghai-ai-laboratory",
     "githubRepo": "https://github.com/Alpha-Innovator/Sage-Taiyi",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -42,7 +42,7 @@
     "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction. We…",
     "publishedAt": "2026-11-05T18:45:36.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 25,
+    "upvotes": 30,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-10T07:28:23.381Z"
@@ -54,11 +54,24 @@
     "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a…",
     "publishedAt": "2026-11-05T16:19:52.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 5,
+    "upvotes": 7,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/EDAPINENUT/fewsteprl-sd35",
     "firstSeenAt": "2026-11-10T07:28:23.381Z"
+  },
+  {
+    "id": "2611.09501",
+    "title": "e-means: outperforming k-means (in one-tenth the epochs)",
+    "url": "https://huggingface.co/papers/2611.09501",
+    "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation. In this paper, we introduce an exponential moving average optimization procedure for k-means with mini-batch updates, powered by modern deep learning machinery and new insights. We also establish scaling laws on how decay rate and batch size impact final performance…",
+    "publishedAt": "2026-11-06T00:00:00.000Z",
+    "submittedAt": "2026-11-10T00:00:00.000Z",
+    "upvotes": 1,
+    "org": "meta",
+    "lab": "meta",
+    "githubRepo": "https://github.com/facebookresearch/faiss",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z"
   },
   {
     "id": "2611.06043",
@@ -67,7 +80,7 @@
     "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency…",
     "publishedAt": "2026-11-04T06:46:50.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 86,
+    "upvotes": 90,
     "org": "netease-youdao",
     "githubRepo": "https://github.com/netease-youdao/Confucius4-R2T2",
     "firstSeenAt": "2026-11-10T04:02:52.140Z"
@@ -79,7 +92,7 @@
     "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale…",
     "publishedAt": "2026-11-05T16:37:29.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 67,
+    "upvotes": 68,
     "org": "zju",
     "githubRepo": "https://github.com/zju3dv/SplatAnything",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -91,7 +104,7 @@
     "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the…",
     "publishedAt": "2026-11-02T20:53:15.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 51,
     "org": "stepfun-ai",
     "githubRepo": "https://github.com/SinuoWang/P2-MOPD",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
@@ -103,10 +116,22 @@
     "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 49,
     "org": "autolab-sjtu",
     "githubRepo": "https://github.com/AutoLab-SAI-SJTU/A2MEAS",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
+  },
+  {
+    "id": "2611.08175",
+    "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+    "url": "https://huggingface.co/papers/2611.08175",
+    "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution. A…",
+    "publishedAt": "2026-11-05T15:31:15.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 40,
+    "org": null,
+    "githubRepo": "https://github.com/chip-ai-agent/PCBRouteAgent",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z"
   },
   {
     "id": "2611.04720",
@@ -115,7 +140,7 @@
     "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules and models encode…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 35,
+    "upvotes": 36,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -127,7 +152,7 @@
     "summary": "Solving long-horizon agentic tasks requires language agents to interact with their environments over multiple steps, and reliable performance often comes from the expensive capable models available through cloud providers. Meanwhile, alternative efficient models with inferior performance but a much lower cost are emerging, including lower-tier cloud models and smaller open-weights models deployable on local…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 19,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-09T04:01:53.165Z"
@@ -139,21 +164,9 @@
     "summary": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count alone does not predict these metrics, which depend on the model architecture, workload, hardware…",
     "publishedAt": "2026-11-05T16:53:48.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 9,
+    "upvotes": 11,
     "org": "nvidia",
     "lab": "nvidia",
-    "firstSeenAt": "2026-11-09T11:46:12.486Z"
-  },
-  {
-    "id": "2610.41711",
-    "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
-    "url": "https://huggingface.co/papers/2610.41711",
-    "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer compute width fixed. HiRes groups layers into blocks: standard d-dimensional PreNorm layers operate…",
-    "publishedAt": "2026-10-30T13:18:22.000Z",
-    "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 7,
-    "org": "bytedance-seed",
-    "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
   },
   {
@@ -163,10 +176,22 @@
     "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning caching, a method for…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 10,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
+  },
+  {
+    "id": "2610.41711",
+    "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
+    "url": "https://huggingface.co/papers/2610.41711",
+    "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer compute width fixed. HiRes groups layers into blocks: standard d-dimensional PreNorm layers operate…",
+    "publishedAt": "2026-10-30T13:18:22.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 8,
+    "org": "bytedance-seed",
+    "lab": "bytedance",
+    "firstSeenAt": "2026-11-09T11:46:12.486Z"
   },
   {
     "id": "2611.08373",

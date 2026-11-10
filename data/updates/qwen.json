@@ -1,5 +1,65 @@
 [
   {
+    "id": "a9410af3be33afca",
+    "lab": "qwen",
+    "title": "Qwen Code v0.27.2",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T21:23:14.000Z",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z",
+    "updatedAt": "2026-11-10T21:23:14.000Z",
+    "excerpt": "Highlights Web Shell can configure WeChat, QQ, and Email channels, including QR login, scan progress, identity display, and logout where supported. ( #16736 , #16724 , #16746 ) Mods can run one-off $.model.complete calls, rewrite displayed AssistantMessage text via ui.render, and persist plugin values with $ .store. ( #16737 , #16794 , #16791 ) /btw side questions are replayed for context, and Managed Agent adds…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.27.2 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "c0bf3d5b1035",
+    "meta": {
+      "version": "v0.27.2",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "f591eaa9327b9052",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.32",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.32",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T20:18:32.000Z",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z",
+    "updatedAt": "2026-11-10T20:18:32.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.27.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.0 Source: CLI built from source (same branch/ref as SDK) See commit history for changes.",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.32 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "2e63353c0390",
+    "meta": {
+      "version": "v0.1.32",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
     "id": "a6fe4efff0c7fa81",
     "lab": "qwen",
     "title": "Qwen Code v0.27.1",
@@ -1309,7 +1369,7 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1137,
+      "likes": 1138,
       "downloads": 44275,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
@@ -1574,7 +1634,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3598,
+      "likes": 3599,
       "downloads": 255811,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
@@ -1734,7 +1794,7 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 6897,
+      "likes": 6900,
       "downloads": 3408896,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",

@@ -1,5 +1,35 @@
 [
   {
+    "id": "31de89519aff36a4",
+    "lab": "openai",
+    "title": "Codex CLI rust v0.167.1",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+    "sourceId": "openai-codex",
+    "sourceName": "GitHub · openai/codex",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T21:33:57.000Z",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z",
+    "updatedAt": "2026-11-10T21:33:57.000Z",
+    "excerpt": "Changelog Full Changelog: rust-v0.167.0...rust-v0.167.1",
+    "summary": "OpenAI shipped Codex CLI rust v0.167.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "4f0b38797c44",
+    "meta": {
+      "version": "v0.167.1",
+      "semver": "patch",
+      "repo": "openai/codex",
+      "package": "rust"
+    }
+  },
+  {
     "id": "46ecb159c1535b09",
     "lab": "openai",
     "title": "Helping caregivers use AI in everyday life",
@@ -20,6 +50,28 @@
     "tags": [],
     "importance": 55,
     "contentHash": "a54882a0eff5"
+  },
+  {
+    "id": "5ca4dc7b6d88cb31",
+    "lab": "openai",
+    "title": "Introducing Businesses in ChatGPT",
+    "url": "https://openai.com/index/introducing-businesses-chatgpt",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T10:00:00.000Z",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z",
+    "updatedAt": "2026-11-10T10:00:00.000Z",
+    "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+    "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 70,
+    "contentHash": "d863777715ee"
   },
   {
     "id": "01a8528fa117926a",
@@ -64,6 +116,31 @@
     "tags": [],
     "importance": 45,
     "contentHash": "baad73a3797d"
+  },
+  {
+    "id": "1419860e9ceaf93f",
+    "lab": "openai",
+    "title": "Pushing voice agents further: inside four GPT-Live builds",
+    "url": "https://developers.openai.com/blog/pushing-voice-agents-further",
+    "sourceId": "openai-dev",
+    "sourceName": "OpenAI Developer Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-11-10T00:00:00.000Z",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z",
+    "updatedAt": "2026-11-10T00:00:00.000Z",
+    "excerpt": "A startup showcase on how teams delegate work, prompt for voice, and evaluate what happens in real conversations.",
+    "summary": "A startup showcase on how teams delegate work, prompt for voice, and evaluate what happens in real conversations.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "audio"
+    ],
+    "importance": 55,
+    "contentHash": "c301da489722"
   },
   {
     "id": "9c331579e229757a",
@@ -161,7 +238,7 @@
   {
     "id": "af23efeb52488cc4",
     "lab": "openai",
-    "title": "Build a retro handheld game with Codex and ModRetro Chromatic",
+    "title": "Building a retro handheld game with Codex and ModRetro Chromatic",
     "url": "https://developers.openai.com/blog/build-a-game-with-modretro-chromatic",
     "sourceId": "openai-dev",
     "sourceName": "OpenAI Developer Blog",
@@ -170,7 +247,7 @@
     "verified": true,
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "firstSeenAt": "2026-11-09T22:30:13.875Z",
-    "updatedAt": "2026-11-09T00:00:00.000Z",
+    "updatedAt": "2026-11-10T23:29:30.795Z",
     "excerpt": "Using the ModRetro Chromatic plugin for Codex, you can build any game you can imagine and play it on a ModRetro Chromatic.",
     "summary": "Using the ModRetro Chromatic plugin for Codex, you can build any game you can imagine and play it on a ModRetro Chromatic.",
     "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
@@ -180,7 +257,7 @@
       "coding"
     ],
     "importance": 35,
-    "contentHash": "91613a9613dc"
+    "contentHash": "5c68e3869e35"
   },
   {
     "id": "bc8f9eac19663ff6",

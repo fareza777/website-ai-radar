@@ -1,5 +1,84 @@
 [
   {
+    "id": "14f6b8b420073dc3",
+    "lab": "amazon",
+    "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+    "url": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T22:35:03.000Z",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z",
+    "updatedAt": "2026-11-10T22:35:03.000Z",
+    "excerpt": "When you deploy an agent to production, one of the hardest questions is whether it’s actually working? The bar isn’t whether it runs. It’s whether it does what the business needs, at scale. Many teams will tell you they can’t really see this. They spot-check outputs, watch latency, and collect user feedback when they can get it. None of that tells you whether the agent finished the user’s task, stayed on topic…",
+    "summary": "When you deploy an agent to production, one of the hardest questions is whether it’s actually working?",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "984e9a2f214e"
+  },
+  {
+    "id": "ca656e4613b53cce",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-cli v0.3.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.3.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T21:52:13.000Z",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z",
+    "updatedAt": "2026-11-10T21:52:13.000Z",
+    "excerpt": "harness-cli/v0.3.0 Auto-drafted from commits in harness-cli/v0.2.4..harness-cli/v0.3.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(cli): merge feature/cli-0.3.0 into main ( #5194 ) ( b80085b ) feat(models): give Model.summarize() a client-side base implementation ( #5962 ) ( 75a0cdd )…",
+    "summary": "Amazon shipped Strands Agents SDK harness-cli v0.3.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 40,
+    "contentHash": "64233891fae9",
+    "meta": {
+      "version": "v0.3.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-cli"
+    }
+  },
+  {
+    "id": "cd0c3adea5a38d8b",
+    "lab": "amazon",
+    "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T18:11:08.000Z",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z",
+    "updatedAt": "2026-11-10T18:11:08.000Z",
+    "excerpt": "Corporate treasury teams face a persistent challenge: fragmented banking data scattered across dozens of bank portals, manual reporting trapped in spreadsheets, and legacy Treasury Management Systems (TMS) that can’t scale for modern enterprise needs. For treasury teams these manual processes create delays, errors, and an inability to make real-time cash decisions when they matter most. Trovata is an AI-native cash…",
+    "summary": "Corporate treasury teams face a persistent challenge: fragmented banking data scattered across dozens of bank portals, manual reporting trapped in spreadsheets, and legacy Treasury Management Systems (TMS) that can’t…",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents"
+    ],
+    "importance": 50,
+    "contentHash": "bddc70db915c"
+  },
+  {
     "id": "82110824f2abb129",
     "lab": "amazon",
     "title": "How TCS built an agentic test orchestrator with Amazon Bedrock AgentCore",
