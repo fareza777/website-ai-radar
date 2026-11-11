@@ -1,5 +1,78 @@
 [
   {
+    "id": "5ec2833734df3c46",
+    "modelId": "mancer/weaver",
+    "name": "Mancer: Weaver (alpha)",
+    "at": "2026-11-11T04:36:47.954Z",
+    "field": "prompt",
+    "from": 0.4,
+    "to": 0.3,
+    "change": -25
+  },
+  {
+    "id": "7c51dfd4e046ae84",
+    "modelId": "mancer/weaver",
+    "name": "Mancer: Weaver (alpha)",
+    "at": "2026-11-11T04:36:47.954Z",
+    "field": "completion",
+    "from": 0.75,
+    "to": 0.5,
+    "change": -33.3
+  },
+  {
+    "id": "1902e90f2e4f9734",
+    "modelId": "undi95/remm-slerp-l2-13b",
+    "name": "ReMM SLERP 13B",
+    "at": "2026-11-11T04:36:47.954Z",
+    "field": "prompt",
+    "from": 0.35,
+    "to": 0.3,
+    "change": -14.3
+  },
+  {
+    "id": "a47c573e0e37569b",
+    "modelId": "undi95/remm-slerp-l2-13b",
+    "name": "ReMM SLERP 13B",
+    "at": "2026-11-11T04:36:47.954Z",
+    "field": "completion",
+    "from": 0.65,
+    "to": 0.5,
+    "change": -23.1
+  },
+  {
+    "id": "38187b1d705b944a",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-11T04:02:59.703Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.0399,
+    "change": -73.4
+  },
+  {
+    "id": "3a6469aa7cfd3219",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-11T04:02:59.703Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.0784,
+    "change": -84.3
+  },
+  {
+    "id": "103082f4b91afe32",
+    "modelId": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "lab": "zai",
+    "at": "2026-11-11T04:02:59.703Z",
+    "field": "prompt",
+    "from": 0.006,
+    "to": 0.007,
+    "change": 16.7
+  },
+  {
     "id": "eaa7504f8e2ddcce",
     "modelId": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",

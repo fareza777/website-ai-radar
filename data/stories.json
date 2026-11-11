@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:29:30.795Z",
+  "generatedAt": "2026-11-11T04:02:59.703Z",
   "stories": [
     {
       "id": "15706f35e993d4cb",
@@ -9,13 +9,14 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 13,
+      "press": 12,
       "outlets": [
-        "The Verge",
-        "Engadget",
-        "9to5Google",
         "Seeking Alpha",
         "Breakingthenews.net",
+        "Engadget",
+        "The Verge",
+        "9to5Google",
+        "The GitHub Blog",
         "VentureBeat",
         "The New Stack",
         "CNET",
@@ -24,11 +25,10 @@
         "Search Engine Roundtable",
         "The Tech Buzz",
         "SQ Magazine",
-        "The Decoder",
-        "The GitHub Blog"
+        "The Decoder"
       ],
       "firstAt": "2026-11-10T16:00:00.000Z",
-      "lastAt": "2026-11-10T19:26:51.000Z",
+      "lastAt": "2026-11-10T18:22:16.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
       "lead": {
         "kind": "official",
@@ -77,6 +77,28 @@
         "id": "51fd6bae6a94af5c"
       },
       "importance": 85
+    },
+    {
+      "id": "7da1b2b4758f6148",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "entity": "Gemini 2.5",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 1,
+      "press": 2,
+      "outlets": [
+        "The Decoder",
+        "A3 Association for Advancing Automation"
+      ],
+      "firstAt": "2026-11-09T19:51:47.000Z",
+      "lastAt": "2026-11-10T20:39:29.000Z",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+      "lead": {
+        "kind": "official",
+        "id": "7da1b2b4758f6148"
+      },
+      "importance": 77
     },
     {
       "id": "bc2d0068f56d93e1",
@@ -137,8 +159,8 @@
       "importance": 66
     },
     {
-      "id": "moonshot:bbfea785ebf068",
-      "title": "Moonshot AI rents Nvidia’s top chips in China, Bloomberg reports",
+      "id": "moonshot:a62ce39156a529",
+      "title": "Moonshot AI rents Nvidia’s top AI chips in China, documents show",
       "entity": null,
       "labs": [
         "moonshot",
@@ -154,17 +176,19 @@
         "The Standard (HK)",
         "TipRanks",
         "NewsBytes",
+        "The Next Web",
+        "联合早报",
         "Quartz",
         "marketscreener.com"
       ],
       "firstAt": "2026-11-10T05:17:26.000Z",
       "lastAt": "2026-11-10T08:26:24.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQjZKMUVaSUdLc1FoX2IyQzIzSzR2YW9ENlZNYm5RM2RkT2JkdXQ0RWpoUmc4OUVKOWtIVXNKbjNnSDFWMzdoTFZiWWJVN3J6Vk9iejFIQ296MkNZZDE0ZjZEUjJseWFqU21PTlNWdHFxZi15RGEtbjVWZ3ltUTV4dTFrdFJLcFdWUFFwTFJsWW9Ecm9xSjJ6NnlsVS1Cd2t6UlB3R2Z4YUhwWmx4WHc1aWNsRmVDR1lBTE5v?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONzUyVHBnNjFMaGhWaW52OW90NTRXRXVKd0NvX0NINllydl9zTHJ2TEw4VzFlNzJwRV9NaWJCNWN0cldKRXFaOWFJbXB6YW5sZlZYX3kxOENFWm8tV1RIQ19BSEdjaVBtMzFmV0RZMVRlZ2lHQi01MWZEMDRudmVMaUtUUG1SazlrV0Y3ekdHajFhNFVMZ3BWYUkxcDBGMngyYVZkQVplaWdRR1hmbERIODBtMGxBMk8yREV4UElqWi1OWldIbEZXWHVwSdIB0AFBVV95cUxPbU55SUVtN0h3WFFfT2phWlBxVHhWbjE0UWZVOTlLd043RWFSYk1wVEM5M0JZVFFIVEhucFVFbUZ6MnMydGdQOXpmYXloY0N5X29RZHdHeUllX0EzaHhUTFRBMG5HbDFoT0l1V1czM1BFbjRzUndCODRLVnFnenBnUVpvT1V0MUVnTTN6TWZiWTRnY1VNdWhvS1VkaWdJNTNtcm1LQkpZamlUZE9RQjRiWmNvSUlnbEVwVjJGUHg1VlJBN2o4b3duaUhBYmQwTjNG?oc=5",
       "lead": {
         "kind": "press",
-        "id": "moonshot:bbfea785ebf068"
+        "id": "moonshot:a62ce39156a529"
       },
-      "importance": 62
+      "importance": 63
     },
     {
       "id": "qwen:6d898079efe35e",
@@ -372,6 +396,14 @@
         "labs": []
       },
       {
+        "name": "Gemini 2.5",
+        "count": 4,
+        "prev": 0,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
         "name": "DeepSeek 4.1 Flash",
         "count": 4,
         "prev": 3,
@@ -388,14 +420,6 @@
         "count": 4,
         "prev": 13,
         "labs": []
-      },
-      {
-        "name": "Gemini 2.5",
-        "count": 3,
-        "prev": 0,
-        "labs": [
-          "google-deepmind"
-        ]
       },
       {
         "name": "Gemini Omni 1.2 Flash",
@@ -424,79 +448,78 @@
       {
         "name": "agents",
         "count": 61,
-        "prev": 42,
+        "prev": 44,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "deepseek",
           "qwen",
           "minimax",
           "mistral",
-          "bytedance",
+          "microsoft",
           "amazon",
-          "ibm",
+          "bytedance",
           "nvidia",
-          "microsoft"
+          "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 47,
-        "prev": 37,
+        "count": 44,
+        "prev": 39,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "qwen",
           "minimax",
-          "cohere",
           "mistral",
+          "cohere",
+          "microsoft",
           "amazon",
-          "ibm",
           "nvidia",
-          "microsoft"
+          "ibm"
         ]
       },
       {
         "name": "safety",
-        "count": 18,
-        "prev": 9,
+        "count": 19,
+        "prev": 10,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "multimodal",
         "count": 12,
-        "prev": 11,
+        "prev": 12,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "moonshot",
           "minimax",
           "mistral",
           "tencent",
+          "microsoft",
           "amazon",
-          "ibm",
           "nvidia",
-          "microsoft"
+          "ibm"
         ]
       },
       {
-        "name": "rag",
+        "name": "open-source",
         "count": 6,
-        "prev": 5,
+        "prev": 2,
         "labs": [
-          "meta",
-          "cohere",
-          "bytedance",
-          "amazon"
+          "mistral",
+          "amazon",
+          "nvidia"
         ]
       },
       {
@@ -506,28 +529,28 @@
         "labs": [
           "anthropic",
           "qwen",
+          "microsoft",
+          "amazon"
+        ]
+      },
+      {
+        "name": "rag",
+        "count": 5,
+        "prev": 6,
+        "labs": [
+          "meta",
+          "cohere",
           "amazon",
-          "microsoft"
+          "bytedance"
         ]
       },
       {
         "name": "reasoning",
-        "count": 5,
-        "prev": 0,
+        "count": 4,
+        "prev": 1,
         "labs": [
-          "google-deepmind",
           "openai",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 5,
-        "prev": 3,
-        "labs": [
-          "minimax",
-          "mistral",
+          "google-deepmind",
           "amazon",
           "nvidia"
         ]

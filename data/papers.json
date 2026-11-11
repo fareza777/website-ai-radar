@@ -6,7 +6,7 @@
     "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 92,
+    "upvotes": 94,
     "org": "robbyant",
     "githubRepo": "https://github.com/Robbyant/lingbot-touch",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -18,7 +18,7 @@
     "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent…",
     "publishedAt": "2026-11-07T14:59:22.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 53,
+    "upvotes": 54,
     "org": "openenvisionlab",
     "githubRepo": "https://github.com/OpenEnvision/WorldFoundry",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -30,7 +30,7 @@
     "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 53,
     "org": "shanghai-ai-laboratory",
     "githubRepo": "https://github.com/Alpha-Innovator/Sage-Taiyi",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -54,7 +54,7 @@
     "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a…",
     "publishedAt": "2026-11-05T16:19:52.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 8,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/EDAPINENUT/fewsteprl-sd35",
@@ -92,7 +92,7 @@
     "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale…",
     "publishedAt": "2026-11-05T16:37:29.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 68,
+    "upvotes": 70,
     "org": "zju",
     "githubRepo": "https://github.com/zju3dv/SplatAnything",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -116,7 +116,7 @@
     "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 50,
     "org": "autolab-sjtu",
     "githubRepo": "https://github.com/AutoLab-SAI-SJTU/A2MEAS",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -128,7 +128,7 @@
     "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution. A…",
     "publishedAt": "2026-11-05T15:31:15.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 41,
     "org": null,
     "githubRepo": "https://github.com/chip-ai-agent/PCBRouteAgent",
     "firstSeenAt": "2026-11-10T23:29:30.795Z"
@@ -140,7 +140,7 @@
     "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules and models encode…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 36,
+    "upvotes": 37,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -152,7 +152,7 @@
     "summary": "Solving long-horizon agentic tasks requires language agents to interact with their environments over multiple steps, and reliable performance often comes from the expensive capable models available through cloud providers. Meanwhile, alternative efficient models with inferior performance but a much lower cost are emerging, including lower-tier cloud models and smaller open-weights models deployable on local…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 19,
+    "upvotes": 20,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-09T04:01:53.165Z"

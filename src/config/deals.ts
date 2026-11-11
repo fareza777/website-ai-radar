@@ -144,6 +144,26 @@ export const CURATED_DEALS: CuratedDeal[] = [
     mustContain: "up to \\$200 in credits",
     lab: "amazon",
   },
+  {
+    id: "gcp-free-trial-credits",
+    title: "Google Cloud — credits for new customers",
+    provider: "Google Cloud",
+    kind: "credits",
+    description: "New Google Cloud customers get $300 in free credits on signup, on top of free monthly usage.",
+    url: "https://cloud.google.com/free",
+    mustContain: "\\$300 in free credits on signup",
+    lab: "google-deepmind",
+  },
+  {
+    id: "azure-free-account-credits",
+    title: "Azure free account — $200 credit",
+    provider: "Microsoft Azure",
+    kind: "credits",
+    description: "New Azure customers get a $200 credit for 30 days, plus 12 months of select free services and free monthly amounts of always-free products.",
+    url: "https://azure.microsoft.com/en-us/free/",
+    mustContain: "\\$200 credit",
+    lab: "microsoft",
+  },
 ];
 
 export const DEAL_SIGNALS = {

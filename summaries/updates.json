@@ -3928,9 +3928,9 @@
     "category": "research"
   },
   "d8887a09bc5ec1d4": {
-    "hash": "87395c2013f6",
-    "summary": "Anthropic breaks down the components of agent memory: how Claude decides what is worth remembering before it knows what comes next, and how \"dreaming\" helps it organize memory and correct mistakes.",
-    "benefit": "Agent builders get a design reference for memory systems that learn from experience and self-correct.",
+    "hash": "2bc20adb6dbc",
+    "summary": "Anthropic Engineering explained that for Claude to learn from experience it must decide what is worth remembering before it knows what is next, and how dreaming helps organize memory and correct mistakes.",
+    "benefit": "Developers building agents with memory get Anthropic's approach to choosing what to store and using dreaming to correct mistakes.",
     "category": "research"
   },
   "fa69cf987a95d048": {
@@ -3984,9 +3984,9 @@
     "benefit": "Wireless researchers get an open toolchain that links simulation and AI training to over-the-air experiments instead of closed per-vendor stacks."
   },
   "9ce19b78e25144b9": {
-    "hash": "d2764765d886",
-    "summary": "Tencent published FlashTopK on GitHub, described as fast, exact fused top-k selection for learned sparse attention training and inference, from HyScale (Tencent Hy).",
-    "benefit": "Researchers working on learned sparse attention get a fused, exact top-k selection kernel for both training and inference paths."
+    "hash": "d8aab10e57c5",
+    "summary": "Tencent released FlashTopK, a fast, exact fused top-k selection implementation for learned sparse attention training and inference, from HyScale with the University of Edinburgh.",
+    "benefit": "Teams training or serving learned sparse attention models get exact top-k selection rather than an approximation."
   },
   "1fa20a1d5c82e207": {
     "hash": "422a887e2ad3",
@@ -4049,9 +4049,9 @@
     "benefit": "TypeScript SDK users get CLI v0.26.9 bundled with this corrected release."
   },
   "ffe8a09e969fa29a": {
-    "hash": "3041c048c642",
-    "summary": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2, its most capable models for daunting technical work, setting a new bar in coding, finance, and the sciences.",
-    "benefit": "Developers doing demanding technical work get a stronger model for coding, finance, and science tasks."
+    "hash": "1eee413b5534",
+    "summary": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2, its new models for the hardest technical challenges.",
+    "benefit": "When today's models still fall short on hard technical work, there are two new Claude models to benchmark against your own tasks."
   },
   "62afb1e0ab944c9e": {
     "hash": "d530312614ce",
@@ -4180,9 +4180,9 @@
     "benefit": "Robotics teams can use simulation to teach fine manipulation skills, not just walking and hopping."
   },
   "af23efeb52488cc4": {
-    "hash": "91613a9613dc",
-    "summary": "A ModRetro Chromatic plugin for Codex lets you build any game you can imagine and play it on a ModRetro Chromatic handheld.",
-    "benefit": "Hobbyist developers can generate their own games and run them on the ModRetro Chromatic handheld straight from Codex."
+    "hash": "5c68e3869e35",
+    "summary": "OpenAI's developer blog showed building a retro handheld game with Codex and the ModRetro Chromatic plugin, so you can build any game you can imagine and play it on a ModRetro Chromatic.",
+    "benefit": "Developers using Codex can carry a game from prompt to a ModRetro Chromatic handheld instead of stopping at a desktop prototype."
   },
   "9c986f66f8a00011": {
     "hash": "6fcc24712727",
@@ -4233,5 +4233,223 @@
     "hash": "221af983ce65",
     "summary": "Mistral Vibe v3.1.1 adds Vim Normal and Insert modes in the prompt input via the vim_keybindings option, a pinned conversation prompt, pre_agent hooks, and notifications when an administrator changes Vibe Code configuration.",
     "benefit": "Vibe users get Vim keybindings and hooks to customize agent runs, with clients notified of admin config changes."
+  },
+  "15706f35e993d4cb": {
+    "hash": "ce4f8f0ee873",
+    "summary": "Google made Gemini 4 Carbon available to developers, describing it as its strongest model with frontier performance in cybersecurity and long-horizon capabilities.",
+    "benefit": "Developers can build on the model Google positions for cybersecurity work and long-horizon tasks starting today."
+  },
+  "52c1a0c9377c6505": {
+    "hash": "dd67bbfa3081",
+    "summary": "Amazon Bedrock added Kimi K3.1 Pro Highspeed from Moonshot AI, a post-trained version of Kimi K3 in the new K3.1 series with the same 3T-class open-weight architecture and 1-million-token context window.",
+    "benefit": "Bedrock users can run Moonshot AI's extra post-training for long-horizon agentic work and fewer factual errors without switching providers."
+  },
+  "1f1dbabb56c455a1": {
+    "hash": "ede0b95a1b9d",
+    "summary": "MiniMax published MiniMax-H3-Image on Hugging Face, a text-to-image model whose license is listed as other.",
+    "benefit": "Teams self-hosting image generation get another MiniMax model to test, with license terms to check before production use."
+  },
+  "5ca4dc7b6d88cb31": {
+    "hash": "d863777715ee",
+    "summary": "OpenAI introduced Businesses in ChatGPT, where owners manage business information, get insights about how their business shows up, and turn interest into action.",
+    "benefit": "A business can correct its own information and see how it appears in ChatGPT rather than leaving that to third-party listings."
+  },
+  "26b496ffaa34d818": {
+    "hash": "f81ee9a902e6",
+    "summary": "Anthropic, PBC launched the roadshow for its proposed initial public offering of Class A common stock.",
+    "benefit": "The listing process is now under way, which is the stage where offering terms are settled with investors."
+  },
+  "7737e173e31a5988": {
+    "hash": "535032d46eea",
+    "summary": "Anthropic introduced Claude Whiteboards, Claude Sheets and Claude Data so people can brainstorm on whiteboards, build sheets and share data directly in Claude.",
+    "benefit": "Teams keep brainstorming, spreadsheets and shared data in Claude instead of moving files between separate tools."
+  },
+  "7ef3b2a69d793a00": {
+    "hash": "c667a0fa5798",
+    "summary": "Google Registry launched 3 new domains, .eat, .fly and .here, with Wingstop, Zillow and Rocket Lawyer among the companies already using them.",
+    "benefit": "Brands can register shorter, purpose-specific web addresses and see named companies already using them in production."
+  },
+  "02e4a20d191af380": {
+    "hash": "cc6830d74a9c",
+    "summary": "Google Cloud launched Gemini for healthcare to unify clinical data and automate workflows, aimed at reducing administrative burnout.",
+    "benefit": "Healthcare organizations get one Gemini offering to bring clinical data together and hand administrative workflows to automation."
+  },
+  "f8c1a7370c130fe5": {
+    "hash": "7dda6c3d52e1",
+    "summary": "Google DeepMind introduced AlphaProof Code, whose agents wrote three million lines of proofs in Lean to verify Signal's core encryption.",
+    "benefit": "Maintainers of security-critical software get an automated route to prove properties of deep code instead of relying on review alone.",
+    "category": "research"
+  },
+  "7da1b2b4758f6148": {
+    "hash": "1ada1539ea71",
+    "summary": "Google DeepMind released Gemini Robotics 2.5, described as its most capable vision-language-action model, enhancing robot dexterity, reliability and safety.",
+    "benefit": "Robot developers have a newer vision-language-action model to evaluate for real-world manipulation where dexterity, reliability and safety matter."
+  },
+  "e2117a1184bb4bd9": {
+    "hash": "b2086bc82209",
+    "summary": "Meta Engineering described Triton Low-Level Extensions (TLX), an extension to Triton that adds explicit warp-group and cluster-level orchestration so engineers can optimize GPU performance while preserving Triton's programming model.",
+    "benefit": "Engineers can adopt new GPU hardware capabilities inside Triton for RecSys training, RecSys inference and large-scale LLM workloads instead of rewriting at a lower level.",
+    "category": "developer"
+  },
+  "f96c882dace67c13": {
+    "hash": "2aa16c939e2c",
+    "summary": "MiniMax published MiniMax-H3-Image-PE on Hugging Face, a text-generation model whose license is listed as other.",
+    "benefit": "Developers assembling a MiniMax image pipeline get one more published component to evaluate, with license terms to verify first."
+  },
+  "974373c40fc72273": {
+    "hash": "bc551535ad7c",
+    "summary": "Microsoft researchers described Lazarus, a backdoor technique that reprograms dormant neurons in an AI model so an otherwise normal agent executes malicious commands when a hidden trigger appears.",
+    "benefit": "Teams running agents with tool or terminal access get a concrete attack pattern to test against, since a triggered model can run attacker code, steal secrets or execute destructive commands.",
+    "category": "research"
+  },
+  "58426d8e2b3863d2": {
+    "hash": "ff68bbc186b9",
+    "summary": "AWS presented an Amazon Bedrock tokenomics data lake for observability, for teams running thousands of model invocations a day across multiple accounts where only the aggregate bill is visible.",
+    "benefit": "Teams can inspect what prompt was sent, what the model returned and how many tokens it used, instead of only seeing the total bill.",
+    "category": "developer"
+  },
+  "7d2277ea978e773f": {
+    "hash": "8d54bb5b6d78",
+    "summary": "Amazon Bedrock added bedrock-runtime endpoint support for OpenAI's specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber and Daybreak Blue: GPT-5.6 Sol, for eligible customers.",
+    "benefit": "Security teams on AWS can run vulnerability discovery, detection engineering and incident response through the standard Bedrock runtime endpoint.",
+    "category": "api"
+  },
+  "f84813837de693ea": {
+    "hash": "65444f1e74b5",
+    "summary": "NVIDIA Technical Blog covered how autonomous vehicle developers can run reasoning models within the compute and latency constraints of an onboard system, where larger models provide a foundation but moving them into a vehicle requires work.",
+    "benefit": "AV teams get guidance on fitting reasoning models into onboard compute without exceeding the latency limits of the vehicle.",
+    "category": "developer"
+  },
+  "46ecb159c1535b09": {
+    "hash": "a54882a0eff5",
+    "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+    "benefit": "Caregivers in the covered cities get free in-person, hands-on training on using ChatGPT for everyday tasks."
+  },
+  "1419860e9ceaf93f": {
+    "hash": "c301da489722",
+    "summary": "OpenAI's developer blog showcased four GPT-Live builds from startups, on how teams delegate work, prompt for voice, and evaluate what happens in real conversations.",
+    "benefit": "Builders get four startup examples of GPT-Live voice agents, including how each team prompts for voice and evaluates real conversations.",
+    "category": "developer"
+  },
+  "45561964eabb7030": {
+    "hash": "3dae67b2bdef",
+    "summary": "Anthropic announced more ways to work with Claude: Sheets, Whiteboards and Interactive Connectors, pitched as working at the speed of thought.",
+    "benefit": "Claude users gain spreadsheet and whiteboard surfaces plus connectors that interact with the tools they already use."
+  },
+  "eb06b7a71ce1379c": {
+    "hash": "39fe93a947e1",
+    "summary": "Anthropic said partners can now embed their apps directly in Claude, so a person and Claude can work in the same tool, on the same screen, without switching tabs.",
+    "benefit": "Teams can keep the app they already use open inside Claude and work on the same content together instead of copying between tabs."
+  },
+  "b73105fe4ec5f060": {
+    "hash": "bbdd1e10fa6c",
+    "summary": "Google is rolling Gemini Intelligence out to more devices, with expanded capabilities across them.",
+    "benefit": "People using more Google devices get Gemini Intelligence capabilities as the rollout reaches those devices."
+  },
+  "66ed14c6418f09b7": {
+    "hash": "e4685752bf59",
+    "summary": "Google and Adobe are integrating creative and productivity tools so users can edit PDFs in Drive and use Adobe AI in Gemini.",
+    "benefit": "People working across Google apps and Adobe products get PDF editing in Drive and Adobe AI inside Gemini without switching stacks."
+  },
+  "a162d031eccee838": {
+    "hash": "356cdd59cbaf",
+    "summary": "Meta Engineering described Your algorithm, a suite of AI-powered tools that makes Facebook recommendations more transparent and steerable through a single editable view of the interests shaping Feed and Reels, and how LLMs are tailored to specific tasks inside the system.",
+    "benefit": "Facebook users can edit the interests behind Feed and Reels in one view in natural language and see recommendations respond."
+  },
+  "55fb77d5f91b9928": {
+    "hash": "9e17619b22f1",
+    "summary": "AWS showed how to build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search, for agent work that depends on what changed today such as security advisories, product releases, prices and regulations.",
+    "benefit": "Agent builders can answer what-changed-today questions with citable results, source control, and search queries that stay inside their own cloud environment."
+  },
+  "cd0c3adea5a38d8b": {
+    "hash": "bddc70db915c",
+    "summary": "AWS described how Trovata built an AI-native cash management solution on Amazon Bedrock and AgentCore, targeting banking data scattered across dozens of bank portals and manual reporting trapped in spreadsheets.",
+    "benefit": "Treasury teams get a reference implementation for replacing spreadsheet reporting and unscaleable legacy TMS workflows with agents."
+  },
+  "82110824f2abb129": {
+    "hash": "193758617de3",
+    "summary": "AWS, co-written with Tata Consultancy Services, described an agentic test orchestrator built with Amazon Bedrock AgentCore for large-scale banking, financial services and insurance testing, aimed at the work after code: interpreting requirements, designing scenarios and maintaining automation.",
+    "benefit": "QA leads at scale get a pattern for automating requirement interpretation, scenario design and test maintenance, not just test code writing."
+  },
+  "a3f9078912ac05de": {
+    "hash": "e1cb7fc675ab",
+    "summary": "NVIDIA Blog published how AI helps recyclers turn mixed waste into reusable material.",
+    "benefit": "Recyclers handling mixed waste get an AI-assisted route to recover reusable material from the stream."
+  },
+  "01a8528fa117926a": {
+    "hash": "7c845044dee9",
+    "summary": "OpenAI shared new ThinkYoung research and lessons from its EMEA education partnerships on supporting teachers, AI literacy and independent learning.",
+    "benefit": "Education programs get research and partnership lessons on where teacher guidance about AI is missing and how to support independent learning."
+  },
+  "3588ceed41552e46": {
+    "hash": "baad73a3797d",
+    "summary": "Research from OpenAI and Upwork on freelance work found shifting demand, new skill combinations, and larger budgets and more hours for AI-related projects.",
+    "benefit": "Freelancers and buyers can see which new skill combinations are in demand as AI-related projects take larger budgets and more hours."
+  },
+  "04da2ea8cdaac8a1": {
+    "hash": "85201a15f0e6",
+    "summary": "Gemini CLI v0.68.0 bundles fixes including bounding inline history re-render after terminal width changes and handling surrogate pairs when truncating in sanitizeForDisplay, plus a README clarification of scope, limitations and tool landscape.",
+    "benefit": "Terminal users get display fixes so history stops re-rendering after a width change and truncation handles surrogate pairs without corrupting text."
+  },
+  "d8db7da1d833b60e": {
+    "hash": "e020cf3228bd",
+    "summary": "Google GenAI SDK (Python) v3.1.0 adds gemini-omni-1.2-flash as the gemini-api video default, proactive_video to ProactivityConfig for the Live API, an xhigh thinking level for Interactions, and usage_metadata including traffic_type on EmbedContentResponse for the Gemini Enterprise API.",
+    "benefit": "Python developers can call the new video default and thinking level from the SDK and read traffic_type usage metadata from the Gemini Enterprise API."
+  },
+  "14f6b8b420073dc3": {
+    "hash": "984e9a2f214e",
+    "summary": "AWS published an agent evaluation playbook covering built-in, DeepEval and AutoEval on Amazon Bedrock AgentCore Evaluations, for teams that currently only spot-check outputs, watch latency and collect user feedback.",
+    "benefit": "Teams can check whether an agent finished the user's task and stayed on topic, instead of assuming it works because it runs.",
+    "category": "developer"
+  },
+  "ca656e4613b53cce": {
+    "hash": "521433ba3eb3",
+    "summary": "Strands Agents SDK harness-cli v0.3.0 adds chat and background work improvements, file attachment by dragging images, documents and text files into the TUI or using /file, and message queueing to edit, delete or reorder queued messages.",
+    "benefit": "Developers driving the Strands CLI can attach files to a session directly and fix queued messages before the agent runs them."
+  },
+  "65678db00c328c3b": {
+    "hash": "a5996af598ac",
+    "summary": "Docling v2.150.0 supports iXBRL input with remote taxonomy resolution via source_uri, preserves furniture from HTML email message bodies, shows displayed text of typed table cells for odf, and avoids exposing original PII by default in examples.",
+    "benefit": "Document pipelines can ingest iXBRL filings and keep email and table formatting, with examples no longer exposing original PII by default."
+  },
+  "3180dbea1b887d9f": {
+    "hash": "12309041f5ac",
+    "summary": "Anthropic profiled Curative, which is building a national provider network with agents on Claude, including a deal-making agent that negotiates 2,000+ provider contracts a week.",
+    "benefit": "Healthcare operators see agents carrying high-volume provider contract negotiation instead of manual back-and-forth."
+  },
+  "405fdcad1ce1a75c": {
+    "hash": "ca61376b2262",
+    "summary": "NVIDIA said at KubeCon + CloudNativeCon that it is deepening its open source commitment by contributing NVIDIA OpenShell, an open source runtime, along with new AI infrastructure for the demands Kubernetes faces across thousands of AI factories.",
+    "benefit": "Platform teams running AI factories get an NVIDIA-contributed open source runtime aimed at scaling Kubernetes for that workload."
+  },
+  "1dc08ada76bb0ad2": {
+    "hash": "340199a645bb",
+    "summary": "NVIDIA Technical Blog introduced Agent Substrate, addressing AI agents that spend most of their time idle waiting on a prompt, tool result or model response, where running one Pod per session holds memory for inactive sessions and deleting Pods between turns pays a startup cost.",
+    "benefit": "Platform teams running many agent sessions stop holding memory for idle Pods and stop paying Pod startup on every turn."
+  },
+  "a93eb8df02babe00": {
+    "hash": "74f3051fe186",
+    "summary": "NVIDIA Snapshot, a new open-source component of the NVIDIA DSX AI Factory Platform, makes initialized GPU workloads reusable across inference replicas to speed startup and recovery when demand spikes or a replica fails.",
+    "benefit": "Inference operators can put spare GPUs to work quickly during a demand spike or a failed replica by restoring a workload that is already initialized."
+  },
+  "31de89519aff36a4": {
+    "hash": "4f0b38797c44",
+    "summary": "Codex CLI shipped rust v0.167.1, a release whose changelog points to the full diff from rust-v0.167.0 to rust-v0.167.1.",
+    "benefit": "Users of the Rust Codex CLI pick up this patch's fixes without waiting for the next feature release."
+  },
+  "a9410af3be33afca": {
+    "hash": "c0bf3d5b1035",
+    "summary": "Qwen Code v0.27.2 lets Web Shell configure WeChat, QQ and Email channels including QR login and scan progress, lets Mods run one-off $.model.complete calls, rewrite displayed assistant text via ui.render and persist plugin values with $.store, and replays /btw side questions for context.",
+    "benefit": "Developers driving Qwen Code can wire messaging channels from the shell and extend it with Mods that call models, rewrite displayed text and store values."
+  },
+  "f591eaa9327b9052": {
+    "hash": "2e63353c0390",
+    "summary": "Qwen Code sdk-typescript v0.1.32 bundles CLI version 0.27.2, with notes also listing the bundled 0.27.1 and 0.27.0 CLI builds, each built from the same branch or ref as the SDK.",
+    "benefit": "TypeScript integrators get an SDK pinned to a named Qwen Code CLI build instead of tracking the CLI separately."
+  },
+  "2fe4c17499b49b4c": {
+    "hash": "0d3b60074231",
+    "summary": "Mistral Vibe v3.1.2 lets installed plugins be turned off with the disabled_plugins setting while staying installed, lets plugins ship off by default with defaultEnabled false and be turned on with enabled_plugins, and adds /skills listing installed skills one row per name with search and a toggle.",
+    "benefit": "Mistral Vibe users can mute unwanted plugins and switch individual skills on or off per session instead of uninstalling them."
   }
 }

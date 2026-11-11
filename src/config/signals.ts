@@ -141,7 +141,8 @@ export const LAB_SOCIAL: Record<string, { x: string[]; threads: string[] }> = {
   anthropic: { x: ["AnthropicAI", "claudeai", "ClaudeDevs"], threads: [] },
   "google-deepmind": { x: ["GoogleDeepMind", "GoogleAI", "GoogleAIStudio", "GeminiApp"], threads: [] },
   // renamed twice in 2026: xAI -> SpaceXAI (Jul) -> SpaceX Super Intelligence, handle @SpaceXSI (verified via X oEmbed)
-  xai: { x: ["spacexsi", "grok"], threads: [] },
+  // @bot added 2026-11-11: oEmbed author is "Grok Bot", which posts Grok Bot product notices in first person
+  xai: { x: ["spacexsi", "grok", "bot"], threads: [] },
   deepseek: { x: ["deepseek_ai"], threads: [] },
   qwen: { x: ["Alibaba_Qwen"], threads: [] },
   moonshot: { x: ["Kimi_Moonshot"], threads: [] },

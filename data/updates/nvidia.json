@@ -1,5 +1,27 @@
 [
   {
+    "id": "a3f9078912ac05de",
+    "lab": "nvidia",
+    "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+    "url": "https://blogs.nvidia.com/blog/ai-recycling-startups",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T03:00:20.000Z",
+    "firstSeenAt": "2026-11-11T04:02:59.703Z",
+    "updatedAt": "2026-11-11T03:00:20.000Z",
+    "excerpt": "",
+    "summary": "Official feature update from NVIDIA (NVIDIA Blog).",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "e1cb7fc675ab"
+  },
+  {
     "id": "405fdcad1ce1a75c",
     "lab": "nvidia",
     "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
@@ -2022,7 +2044,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3149,
+      "likes": 3153,
       "downloads": 72455,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -2296,7 +2318,7 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 399,
+      "likes": 398,
       "downloads": 134686,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2376,7 +2398,7 @@
     "importance": 63,
     "contentHash": "b0ac029a9c38",
     "meta": {
-      "likes": 42,
+      "likes": 43,
       "downloads": 4250,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
@@ -3328,7 +3350,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 832,
+      "likes": 833,
       "downloads": 192740,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",

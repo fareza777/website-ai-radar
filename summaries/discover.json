@@ -74,11 +74,6 @@
     "unique": "Approvals show up in the notch and on the Lock Screen instead of inside each agent app.",
     "benefit": "People running several coding agents can approve a step from the notch or lock screen."
   },
-  "c9c14e440e7bf01e": {
-    "summary": "ldraw-nova is agent tooling for generative LEGO model building, built with Astra and Opus 5.5 and powered by Jev.",
-    "unique": "It applies Astra, Opus 5.5, and Jev to generating LEGO models.",
-    "benefit": "Builders can use agents to generate LEGO models instead of placing every brick by hand."
-  },
   "af09a051eb96e591": {
     "summary": "ts-rust is an experimental Rust port of the TypeScript 7 compiler, tsc.",
     "unique": "It reimplements the TypeScript 7 compiler in Rust as an experiment.",
@@ -334,11 +329,6 @@
     "summary": "rea reverse engineers anything with agents, from app behavior down to native binaries.",
     "unique": "Agents can go from how an app behaves all the way down to native binaries.",
     "benefit": "Developers can ask an agent to explain an app's behavior and its native binaries."
-  },
-  "22baff0fefab0b61": {
-    "summary": "SolidCraft is an open-source parametric 3D CAD application built in pure Rust, for desktop, web, and automation through MCP.",
-    "unique": "Parametric CAD in pure Rust, with MCP automation as well as desktop and web.",
-    "benefit": "Designers and agents can build parametric 3D models in one Rust app, including through MCP."
   },
   "e6251d499b27562d": {
     "summary": "Agent37 gives every customer an agent in its own isolated sandbox, at up to 95% lower cost than most sandbox providers.",
@@ -787,15 +777,28 @@
     "unique": "Uses 30-47% fewer input tokens and about a third less time than Playwright MCP for long tasks.",
     "benefit": "AI coding agents can browse the web more efficiently with lower token costs and faster execution."
   },
-  "db33b35f264b413a": {
-    "summary": "rea-video reverse-engineers any video shot by shot, identifying whether each shot was filmed, AI-generated, or coded, then shows how to remake it.",
-    "unique": "Combines AIGC detection with shot-by-shot analysis and remake instructions for video reverse engineering.",
-    "benefit": "Video creators and analysts can understand how videos were made and recreate similar content."
-  },
   "1344584aedd971d4": {
     "hash": "0765a408",
     "summary": "An open-source agent skill that removes common AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
     "unique": "It combines removing AI tells with rewriting toward the ASD-STE100 controlled-English standard, and ships as a skill for Claude Code, Codex, and Cursor.",
     "benefit": "Writers and developers using AI drafts get plainer text from a skill that runs inside the coding agents they already use."
+  },
+  "04035316b0de6880": {
+    "hash": "fc781c23",
+    "summary": "A GitHub repository documenting the file leaking behavior of Gemini.",
+    "unique": "It is documentation rather than an app: its stated purpose is recording how Gemini leaks files.",
+    "benefit": "Developers reviewing Gemini file handling get a written record of the behavior before relying on it."
+  },
+  "ae52002a818ca003": {
+    "hash": "491b6c5f",
+    "summary": "Guidance whose stated purpose is keeping your coding agent up to date with the latest web best practices.",
+    "unique": "Its angle is the coding agent rather than the reader: it is meant to be given to an agent to follow.",
+    "benefit": "Teams that write code with agents get a source to point agents at for current web best practices."
+  },
+  "06715abca828fad9": {
+    "hash": "dfacaaf4",
+    "summary": "Rivet is an orchestrator for agentic workloads, described as fast, high-density and scalable for every workload an agent needs.",
+    "unique": "Its listed topics cover actors, Cloudflare Durable Objects, FoundationDB, multiplayer and realtime.",
+    "benefit": "Teams running many agent workloads get one orchestrator to pack them densely and scale them."
   }
 }

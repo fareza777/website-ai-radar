@@ -1,5 +1,55 @@
 [
   {
+    "id": "52c1a0c9377c6505",
+    "lab": "amazon",
+    "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T01:07:19.000Z",
+    "firstSeenAt": "2026-11-11T04:02:59.703Z",
+    "updatedAt": "2026-11-11T01:07:19.000Z",
+    "excerpt": "Kimi K3.1 Pro Highspeed from Moonshot AI is now available on Amazon Bedrock . Part of Moonshot AI’s new K3.1 series, it’s a post-trained version of Kimi K3 with the same 3T-class open-weight architecture and 1-million-token context window, trained with substantially more post-training compute. According to Moonshot AI, that extra training targets long-horizon agentic work and fewer factual errors. It also improves…",
+    "summary": "Kimi K3.1 Pro Highspeed from Moonshot AI is now available on Amazon Bedrock .",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source",
+      "agents"
+    ],
+    "importance": 75,
+    "contentHash": "dd67bbfa3081"
+  },
+  {
+    "id": "55fb77d5f91b9928",
+    "lab": "amazon",
+    "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T23:34:05.000Z",
+    "firstSeenAt": "2026-11-11T04:02:59.703Z",
+    "updatedAt": "2026-11-10T23:34:05.000Z",
+    "excerpt": "AI agents increasingly handle work that depends on what changed today, such as security advisories, product releases, prices, and regulations. A model’s training data can’t answer those questions, so agents need web search. For production use, teams also need results they can cite, and control over which sources count. They want search queries to stay inside their cloud environment because those queries often reveal…",
+    "summary": "AI agents increasingly handle work that depends on what changed today, such as security advisories, product releases, prices, and regulations.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "safety"
+    ],
+    "importance": 50,
+    "contentHash": "9e17619b22f1"
+  },
+  {
     "id": "14f6b8b420073dc3",
     "lab": "amazon",
     "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
@@ -35,18 +85,19 @@
     "verified": true,
     "publishedAt": "2026-11-10T21:52:13.000Z",
     "firstSeenAt": "2026-11-10T23:29:30.795Z",
-    "updatedAt": "2026-11-10T21:52:13.000Z",
-    "excerpt": "harness-cli/v0.3.0 Auto-drafted from commits in harness-cli/v0.2.4..harness-cli/v0.3.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(cli): merge feature/cli-0.3.0 into main ( #5194 ) ( b80085b ) feat(models): give Model.summarize() a client-side base implementation ( #5962 ) ( 75a0cdd )…",
+    "updatedAt": "2026-11-11T04:02:59.703Z",
+    "excerpt": "harness-cli/v0.3.0 🐸 Spread the word, the latest version of Strands CLI is here! 🐸 This release brings in a number of improvements and bug fixes, covering the following areas: Chat and background work File attachment: drag and drop images, supported documents, and text files into the TUI, run /file to open the native file explorer, or run /file <filepath> to upload directly. Message Queueing Edit, delete, reorder…",
     "summary": "Amazon shipped Strands Agents SDK harness-cli v0.3.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
     "tags": [
       "agents",
-      "coding"
+      "coding",
+      "multimodal"
     ],
     "importance": 40,
-    "contentHash": "64233891fae9",
+    "contentHash": "521433ba3eb3",
     "meta": {
       "version": "v0.3.0",
       "semver": "minor",
@@ -124,6 +175,30 @@
     "tags": [],
     "importance": 60,
     "contentHash": "ff68bbc186b9"
+  },
+  {
+    "id": "7d2277ea978e773f",
+    "lab": "amazon",
+    "title": "Amazon Bedrock adds bedrock-runtime endpoint support for Daybreak models",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-daybreak-on-amazon-bedrock-runtime",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-10T10:14:00.000Z",
+    "firstSeenAt": "2026-11-11T04:02:59.703Z",
+    "updatedAt": "2026-11-10T10:14:00.000Z",
+    "excerpt": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber and Daybreak Blue: GPT-5.6 Sol through the bedrock-runtime endpoint on Amazon Bedrock. Daybreak Blue is the starting point for most security teams across defensive workflows, including vulnerability discovery, detection engineering, and incident response. Daybreak Red is designed for advanced, authorized tasks…",
+    "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber and Daybreak Blue: GPT-5.6 Sol through the bedrock-runtime endpoint on Amazon Bedrock.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "safety"
+    ],
+    "importance": 60,
+    "contentHash": "8d54bb5b6d78"
   },
   {
     "id": "bf8640a4bc38a46f",
