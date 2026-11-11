@@ -1,5 +1,27 @@
 [
   {
+    "id": "6a701461aeac17a9",
+    "lab": "nvidia",
+    "title": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory",
+    "url": "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T17:00:00.000Z",
+    "firstSeenAt": "2026-11-11T17:15:19.267Z",
+    "updatedAt": "2026-11-11T17:00:00.000Z",
+    "excerpt": "As teams deploy and scale AI workloads using NVIDIA Dynamo, Kubeflow, or Slurm, tracking what actually runs requires visibility beyond the platform... As teams deploy and scale AI workloads using NVIDIA Dynamo, Kubeflow, or Slurm, tracking what actually runs requires visibility beyond the platform configuration captured in a recipe. Application teams define and update these workloads independently of the platform…",
+    "summary": "As teams deploy and scale AI workloads using NVIDIA Dynamo, Kubeflow, or Slurm, tracking what actually runs requires visibility beyond the platform...",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "8c8977789ccf"
+  },
+  {
     "id": "a3f9078912ac05de",
     "lab": "nvidia",
     "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
@@ -400,6 +422,34 @@
     ],
     "importance": 50,
     "contentHash": "3ba88dc315b0"
+  },
+  {
+    "id": "2640c950f45f4582",
+    "lab": "nvidia",
+    "title": "MetricTrail",
+    "url": "https://huggingface.co/nvidia/MetricTrail",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-05T07:22:55.000Z",
+    "firstSeenAt": "2026-11-11T17:15:19.267Z",
+    "updatedAt": "2026-11-05T07:22:55.000Z",
+    "excerpt": "license: other",
+    "summary": "NVIDIA published the MetricTrail model on Hugging Face. License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 61,
+    "contentHash": "440a22d35eed",
+    "meta": {
+      "likes": 25,
+      "downloads": 396,
+      "repo": "nvidia/MetricTrail",
+      "license": "other"
+    }
   },
   {
     "id": "3d39bad411aadc77",
@@ -2044,8 +2094,8 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3154,
-      "downloads": 72455,
+      "likes": 3161,
+      "downloads": 74300,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
       "license": "other"
@@ -2122,8 +2172,8 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 194,
-      "downloads": 17056,
+      "likes": 196,
+      "downloads": 17387,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -2267,7 +2317,7 @@
     "contentHash": "806c45ea6874",
     "meta": {
       "likes": 44,
-      "downloads": 13460,
+      "downloads": 13871,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
     }
@@ -2318,8 +2368,8 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 398,
-      "downloads": 134686,
+      "likes": 402,
+      "downloads": 137974,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
       "license": "other"
@@ -2399,7 +2449,7 @@
     "contentHash": "b0ac029a9c38",
     "meta": {
       "likes": 43,
-      "downloads": 4250,
+      "downloads": 4338,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -3231,8 +3281,8 @@
     "importance": 66,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 91,
-      "downloads": 5965,
+      "likes": 93,
+      "downloads": 6105,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -3262,8 +3312,8 @@
     "importance": 68,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 157,
-      "downloads": 21217,
+      "likes": 158,
+      "downloads": 22302,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",
       "license": "openmdw-1.1"
@@ -3292,7 +3342,7 @@
     "contentHash": "8748e3ba3f5a",
     "meta": {
       "likes": 30,
-      "downloads": 51963,
+      "downloads": 56708,
       "repo": "nvidia/EgoHand-v1",
       "license": "openmdw-1.1"
     }
@@ -3320,7 +3370,7 @@
     "contentHash": "0afab6065026",
     "meta": {
       "likes": 28,
-      "downloads": 1743,
+      "downloads": 1769,
       "repo": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis",
       "pipeline": "any-to-any",
       "license": "other"
@@ -3350,8 +3400,8 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 833,
-      "downloads": 192740,
+      "likes": 834,
+      "downloads": 198220,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",
       "license": "openmdw-1.1"

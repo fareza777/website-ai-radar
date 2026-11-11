@@ -1,5 +1,27 @@
 [
   {
+    "id": "2b28b84b904e42b5",
+    "lab": "meta",
+    "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+    "url": "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads",
+    "sourceId": "meta-eng",
+    "sourceName": "Engineering at Meta",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T17:00:38.000Z",
+    "firstSeenAt": "2026-11-11T17:15:19.267Z",
+    "updatedAt": "2026-11-11T17:00:38.000Z",
+    "excerpt": "Ads ranking models are growing toward LLM scale faster than the hardware to run them can keep up. An extra unit of compute has more impact on some ad requests, models, and chips than on others. The challenge is deciding where to allocate it to get the best outcome for the entire system. We built Intelligent Delivery, an ML-driven system that allocates resources across the serving stack toward the system-wide…",
+    "summary": "Ads ranking models are growing toward LLM scale faster than the hardware to run them can keep up.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 65,
+    "contentHash": "2941d1618344"
+  },
+  {
     "id": "a162d031eccee838",
     "lab": "meta",
     "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
@@ -363,7 +385,7 @@
     "contentHash": "3f7811be5be5",
     "meta": {
       "likes": 31,
-      "downloads": 127,
+      "downloads": 128,
       "repo": "facebook/meta-encoder",
       "pipeline": "feature-extraction",
       "license": "apache-2.0"

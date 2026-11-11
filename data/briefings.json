@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-12",
+    "generatedAt": "2026-11-11T17:15:19.267Z",
+    "stats": {
+      "updates24h": 25,
+      "labsActive24h": 8,
+      "updates7d": 162,
+      "newModels7d": 37
+    },
+    "source": "template",
+    "headline": "25 updates from 8 AI labs in the last 24 hours · 37 model releases this week.",
+    "bullets": [
+      {
+        "text": "Amazon: Introducing Kimi K3.1 Pro on Amazon Bedrock",
+        "itemId": "52c1a0c9377c6505",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming",
+        "itemId": "3bb3af59874accc9",
+        "lab": "amazon"
+      },
+      {
+        "text": "Meta AI: Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+        "itemId": "2b28b84b904e42b5",
+        "lab": "meta"
+      },
+      {
+        "text": "Microsoft: Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+        "itemId": "974373c40fc72273",
+        "lab": "microsoft"
+      },
+      {
+        "text": "Google DeepMind: Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+        "itemId": "bad6ee94c35695d3",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Google DeepMind: AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+        "itemId": "e879c6fc35d4933f",
+        "lab": "google-deepmind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "generatedAt": "2026-11-11T06:40:36.311Z",
     "stats": {
@@ -1187,50 +1231,6 @@
         "text": "Anthropic: Anthropic opens Singapore office and signs MOU with the Government of Singapore",
         "itemId": "f2bde108f64c5a7a",
         "lab": "anthropic"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-13",
-    "generatedAt": "2026-10-13T16:59:55.572Z",
-    "stats": {
-      "updates24h": 17,
-      "labsActive24h": 6,
-      "updates7d": 102,
-      "newModels7d": 32
-    },
-    "source": "template",
-    "headline": "17 updates from 6 AI labs in the last 24 hours · 32 model releases this week.",
-    "bullets": [
-      {
-        "text": "Google DeepMind: Gemini 4 Argon for Robotics",
-        "itemId": "8b0463614a7b86fd",
-        "lab": "google-deepmind"
-      },
-      {
-        "text": "Google DeepMind: Gemini 4 Argon: Built to solve your hardest problems",
-        "itemId": "66cb1e68848fee2d",
-        "lab": "google-deepmind"
-      },
-      {
-        "text": "Amazon: Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
-        "itemId": "c4d6082c07a1abcc",
-        "lab": "amazon"
-      },
-      {
-        "text": "Meta AI: Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
-        "itemId": "ead1f2c858219e65",
-        "lab": "meta"
-      },
-      {
-        "text": "Amazon: Natural language security queries at Orca Security using Amazon Bedrock",
-        "itemId": "958759977490d99c",
-        "lab": "amazon"
-      },
-      {
-        "text": "IBM: Scaling AI-driven chip design with open agent factories",
-        "itemId": "67f85c60691d51d6",
-        "lab": "ibm"
       }
     ]
   }

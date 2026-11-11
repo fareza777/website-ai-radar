@@ -1,5 +1,53 @@
 [
   {
+    "id": "7026ee2cddf14dd4",
+    "lab": "amazon",
+    "title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
+    "url": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T15:50:55.000Z",
+    "firstSeenAt": "2026-11-11T17:15:19.267Z",
+    "updatedAt": "2026-11-11T15:50:55.000Z",
+    "excerpt": "Teams building AI agents on AWS use a range of frameworks, including LangGraph, LangChain, Strands Agents, and Amazon Bedrock AgentCore. Each framework records agent execution in its own way, so the structure of messages, tool calls, and handoffs between agents differs from one to the next. Evaluation tooling tends to follow the same boundaries: teams build metrics, scoring logic, and result storage against a single…",
+    "summary": "Teams building AI agents on AWS use a range of frameworks, including LangGraph, LangChain, Strands Agents, and Amazon Bedrock AgentCore.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "5c569d8490da"
+  },
+  {
+    "id": "3bb3af59874accc9",
+    "lab": "amazon",
+    "title": "Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T15:10:23.000Z",
+    "firstSeenAt": "2026-11-11T17:15:19.267Z",
+    "updatedAt": "2026-11-11T15:10:23.000Z",
+    "excerpt": "Usage-based metering for bidirectional streaming solves a software billing problem for real-time speech AI. Customers deploying streaming models on Amazon SageMaker AI bidirectional streaming pay for the endpoint infrastructure that hosts the model. Separately, model providers listing on AWS Marketplace need a way to charge for what customers consume during a live stream. Today, we’re announcing usage-based metering…",
+    "summary": "Usage-based metering for bidirectional streaming solves a software billing problem for real-time speech AI.",
+    "benefit": "May change your costs — re-estimate your API or subscription spend.",
+    "summarySource": "template",
+    "category": "pricing",
+    "tags": [
+      "audio"
+    ],
+    "importance": 70,
+    "contentHash": "86f71c2029eb"
+  },
+  {
     "id": "52c1a0c9377c6505",
     "lab": "amazon",
     "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock",
@@ -3143,7 +3191,7 @@
     "contentHash": "f6b52138e9a2",
     "meta": {
       "likes": 15,
-      "downloads": 285,
+      "downloads": 293,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"
     }
@@ -4203,7 +4251,7 @@
     "contentHash": "2462e1ba8e00",
     "meta": {
       "likes": 13,
-      "downloads": 873,
+      "downloads": 838,
       "repo": "amazon/ALoDLM-1.7B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -4234,7 +4282,7 @@
     "contentHash": "48b7b19078e5",
     "meta": {
       "likes": 63,
-      "downloads": 1913,
+      "downloads": 1793,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
