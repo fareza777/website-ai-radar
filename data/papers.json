@@ -6,7 +6,7 @@
     "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 94,
+    "upvotes": 96,
     "org": "robbyant",
     "githubRepo": "https://github.com/Robbyant/lingbot-touch",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -18,7 +18,7 @@
     "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent…",
     "publishedAt": "2026-11-07T14:59:22.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 54,
+    "upvotes": 55,
     "org": "openenvisionlab",
     "githubRepo": "https://github.com/OpenEnvision/WorldFoundry",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -30,7 +30,7 @@
     "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 53,
+    "upvotes": 54,
     "org": "shanghai-ai-laboratory",
     "githubRepo": "https://github.com/Alpha-Innovator/Sage-Taiyi",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -42,7 +42,7 @@
     "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction. We…",
     "publishedAt": "2026-11-05T18:45:36.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 30,
+    "upvotes": 31,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-10T07:28:23.381Z"
@@ -67,7 +67,7 @@
     "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation. In this paper, we introduce an exponential moving average optimization procedure for k-means with mini-batch updates, powered by modern deep learning machinery and new insights. We also establish scaling laws on how decay rate and batch size impact final performance…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 1,
+    "upvotes": 2,
     "org": "meta",
     "lab": "meta",
     "githubRepo": "https://github.com/facebookresearch/faiss",
@@ -104,7 +104,7 @@
     "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the…",
     "publishedAt": "2026-11-02T20:53:15.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 53,
     "org": "stepfun-ai",
     "githubRepo": "https://github.com/SinuoWang/P2-MOPD",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
@@ -140,7 +140,7 @@
     "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules and models encode…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 37,
+    "upvotes": 39,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"

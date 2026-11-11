@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T04:02:59.703Z",
+  "generatedAt": "2026-11-11T06:40:36.311Z",
   "stories": [
     {
       "id": "15706f35e993d4cb",
@@ -11,24 +11,25 @@
       "official": 1,
       "press": 12,
       "outlets": [
+        "The GitHub Blog",
         "Seeking Alpha",
         "Breakingthenews.net",
         "Engadget",
         "The Verge",
         "9to5Google",
-        "The GitHub Blog",
+        "Search Engine Roundtable",
         "VentureBeat",
         "The New Stack",
         "CNET",
         "Unite.AI",
         "SecurityWeek",
-        "Search Engine Roundtable",
         "The Tech Buzz",
         "SQ Magazine",
-        "The Decoder"
+        "The Decoder",
+        "Inven Global"
       ],
       "firstAt": "2026-11-10T16:00:00.000Z",
-      "lastAt": "2026-11-10T18:22:16.000Z",
+      "lastAt": "2026-11-10T23:28:39.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
       "lead": {
         "kind": "official",
@@ -92,7 +93,7 @@
         "A3 Association for Advancing Automation"
       ],
       "firstAt": "2026-11-09T19:51:47.000Z",
-      "lastAt": "2026-11-10T20:39:29.000Z",
+      "lastAt": "2026-11-10T19:29:04.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
       "lead": {
         "kind": "official",
@@ -245,32 +246,6 @@
       "importance": 59
     },
     {
-      "id": "qwen:cf6f20342781bd",
-      "title": "Qwen4 Nears Launch as Alibaba's Open Source Promise Faces Real Doubt",
-      "entity": "Qwen 4",
-      "labs": [
-        "qwen"
-      ],
-      "official": 0,
-      "press": 5,
-      "outlets": [
-        "Startup Fortune",
-        "shattered.io",
-        "Fello AI",
-        "Pasquale Pillitteri",
-        "Kingy AI",
-        "Asia Times"
-      ],
-      "firstAt": "2026-11-02T18:54:13.000Z",
-      "lastAt": "2026-11-07T05:09:54.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUY4dlZhejFkcml1SDgzR0UxQUo0WS1IdXRCRXJyeVdjZDlEenplR3JIQmc4THVtd0RZdmVsUUhZbDVKOURRM1l0UThUbWU2a05BbkQ1SFhmaFEwUWVTdDl0WXQ1RnFhNkl2M0U5QV9tNlFyMVVsMzJvQ2g2WWRtbEIwQlJyeC1qOG5pVFRGWE1CWndFblNMUVN3dw?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:cf6f20342781bd"
-      },
-      "importance": 58
-    },
-    {
       "id": "mistral:328bbcf4eed892",
       "title": "Mistral Large 4 builds a quantum chemistry solver and 3D molecule viewer from a short prompt",
       "entity": "Mistral Large 4",
@@ -294,6 +269,30 @@
         "id": "mistral:328bbcf4eed892"
       },
       "importance": 57
+    },
+    {
+      "id": "qwen:df6aa767146f58",
+      "title": "Qwen 4 Release Date: What We Know So Far",
+      "entity": "Qwen 4",
+      "labs": [
+        "qwen"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "Fello AI",
+        "Pasquale Pillitteri",
+        "Kingy AI",
+        "Asia Times"
+      ],
+      "firstAt": "2026-11-06T06:08:16.000Z",
+      "lastAt": "2026-11-07T05:09:54.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBfTjduVmhuVzQ2N1p5Z0RvMHJOWVBMbkk4ZnBRQ3lLdnlmZnpXajZ0UV9RakZtdllEN1BsaC1OTXo?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:df6aa767146f58"
+      },
+      "importance": 56
     },
     {
       "id": "xai:3a30850ef10dd8",
@@ -374,7 +373,7 @@
       },
       {
         "name": "Gemini 4 Carbon",
-        "count": 16,
+        "count": 17,
         "prev": 43,
         "labs": [
           "google-deepmind"
@@ -422,19 +421,19 @@
         "labs": []
       },
       {
-        "name": "Gemini Omni 1.2 Flash",
-        "count": 3,
-        "prev": 0,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "Nemotron 3.5 Super",
         "count": 3,
         "prev": 0,
         "labs": [
           "amazon"
+        ]
+      },
+      {
+        "name": "Gemini Omni 1.2 Flash",
+        "count": 3,
+        "prev": 0,
+        "labs": [
+          "google-deepmind"
         ]
       },
       {
@@ -448,38 +447,38 @@
       {
         "name": "agents",
         "count": 61,
-        "prev": 44,
+        "prev": 45,
         "labs": [
           "anthropic",
-          "openai",
-          "google-deepmind",
           "deepseek",
+          "openai",
           "qwen",
           "minimax",
           "mistral",
           "microsoft",
           "amazon",
           "bytedance",
+          "ibm",
           "nvidia",
-          "ibm"
+          "google-deepmind"
         ]
       },
       {
         "name": "coding",
-        "count": 44,
-        "prev": 39,
+        "count": 43,
+        "prev": 40,
         "labs": [
           "anthropic",
           "openai",
-          "google-deepmind",
           "qwen",
           "minimax",
           "mistral",
           "cohere",
           "microsoft",
           "amazon",
+          "ibm",
           "nvidia",
-          "ibm"
+          "google-deepmind"
         ]
       },
       {
@@ -489,10 +488,10 @@
         "labs": [
           "anthropic",
           "openai",
-          "google-deepmind",
           "amazon",
+          "ibm",
           "nvidia",
-          "ibm"
+          "google-deepmind"
         ]
       },
       {
@@ -501,15 +500,15 @@
         "prev": 12,
         "labs": [
           "openai",
-          "google-deepmind",
           "moonshot",
           "minimax",
           "mistral",
           "tencent",
           "microsoft",
           "amazon",
+          "ibm",
           "nvidia",
-          "ibm"
+          "google-deepmind"
         ]
       },
       {
@@ -550,9 +549,9 @@
         "prev": 1,
         "labs": [
           "openai",
-          "google-deepmind",
           "amazon",
-          "nvidia"
+          "nvidia",
+          "google-deepmind"
         ]
       },
       {
@@ -580,18 +579,6 @@
       ],
       "reports": 2,
       "at": "2026-11-09T18:05:04.000Z"
-    },
-    {
-      "id": "qwen:4717b2d69605de",
-      "lab": "qwen",
-      "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbW0teFpVb0xyV2tvek0yZ2s4RmUtRnhTaUkxaWFUcjNVM19QMmFRZVNSbEVERjY3ZlUzVVQ3cmdQc09sanp6NWpjOS1xdXBmNW12bHNjcU93cWdRNndJTkg5clloUlhuOXZMWlNZclpiSy02U3lOY3UyLXJKNExRMHJ5YkszVmNtMnZIWTZ5cXllZ2g1NlN5aWdsLXREd9IBngFBVV95cUxQbW0teFpVb0xyV2tvek0yZ2s4RmUtRnhTaUkxaWFUcjNVM19QMmFRZVNSbEVERjY3ZlUzVVQ3cmdQc09sanp6NWpjOS1xdXBmNW12bHNjcU93cWdRNndJTkg5clloUlhuOXZMWlNZclpiSy02U3lOY3UyLXJKNExRMHJ5YkszVmNtMnZIWTZ5cXllZ2g1NlN5aWdsLXREdw?oc=5",
-      "outlets": [
-        "MarkTechPost",
-        "Pasquale Pillitteri"
-      ],
-      "reports": 2,
-      "at": "2026-11-08T04:45:59.000Z"
     }
   ]
 }

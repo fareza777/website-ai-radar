@@ -1,5 +1,49 @@
 [
   {
+    "id": "83e9c9c9c1badf20",
+    "modelId": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "lab": "deepseek",
+    "at": "2026-11-11T06:40:36.311Z",
+    "field": "prompt",
+    "from": 0.091,
+    "to": 0.09,
+    "change": -1.1
+  },
+  {
+    "id": "fd63217dba02a1d2",
+    "modelId": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "lab": "deepseek",
+    "at": "2026-11-11T06:40:36.311Z",
+    "field": "completion",
+    "from": 0.182,
+    "to": 0.18,
+    "change": -1.1
+  },
+  {
+    "id": "51462b64e53cc8e7",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-11-11T06:40:36.311Z",
+    "field": "prompt",
+    "from": 1.4,
+    "to": 1.33,
+    "change": -5
+  },
+  {
+    "id": "8513b94de40c9976",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-11-11T06:40:36.311Z",
+    "field": "completion",
+    "from": 4.4,
+    "to": 4.18,
+    "change": -5
+  },
+  {
     "id": "5ec2833734df3c46",
     "modelId": "mancer/weaver",
     "name": "Mancer: Weaver (alpha)",
