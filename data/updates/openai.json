@@ -71,6 +71,31 @@
     "contentHash": "ec09eff0b323"
   },
   {
+    "id": "f1ce83f7dbbe9dc6",
+    "lab": "openai",
+    "title": "Securing persistent agents like OpenClaw at OpenAI",
+    "url": "https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai",
+    "sourceId": "openai-dev",
+    "sourceName": "OpenAI Developer Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "firstSeenAt": "2026-11-12T20:04:25.319Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z",
+    "excerpt": "How OpenAI combines trusted control-plane services, Codex sandboxing, auto-review, agent identity, and observability to run persistent agents.",
+    "summary": "How OpenAI combines trusted control-plane services, Codex sandboxing, auto-review, agent identity, and observability to run persistent agents.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 55,
+    "contentHash": "a5e2ffaa5621"
+  },
+  {
     "id": "a88694d5064260ea",
     "lab": "openai",
     "title": "Codex CLI rust v0.167.2",

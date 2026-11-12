@@ -46,7 +46,7 @@
   {
     "id": "405fdcad1ce1a75c",
     "lab": "nvidia",
-    "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+    "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
     "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
     "sourceId": "nvidia-blog",
     "sourceName": "NVIDIA Blog",
@@ -55,7 +55,7 @@
     "verified": true,
     "publishedAt": "2026-11-10T16:00:03.000Z",
     "firstSeenAt": "2026-11-10T17:07:58.299Z",
-    "updatedAt": "2026-11-10T16:00:03.000Z",
+    "updatedAt": "2026-11-12T20:04:25.319Z",
     "excerpt": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon , the flagship conference for the Kubernetes and cloud-native communities. NVIDIA is contributing NVIDIA OpenShell , an open source runtime for…",
     "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing.",
     "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
@@ -65,7 +65,7 @@
       "open-source"
     ],
     "importance": 30,
-    "contentHash": "ca61376b2262"
+    "contentHash": "56b66f4d3769"
   },
   {
     "id": "f84813837de693ea",
@@ -2094,7 +2094,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3231,
+      "likes": 3240,
       "downloads": 76196,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -2172,7 +2172,7 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 196,
+      "likes": 197,
       "downloads": 17858,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -2368,7 +2368,7 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 404,
+      "likes": 407,
       "downloads": 139727,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -2477,7 +2477,7 @@
     "importance": 66,
     "contentHash": "b721cbc7be2c",
     "meta": {
-      "likes": 87,
+      "likes": 88,
       "downloads": 0,
       "repo": "nvidia/PixelUMM",
       "pipeline": "any-to-any",
@@ -2921,10 +2921,10 @@
     "summarySource": "template",
     "category": "model",
     "tags": [],
-    "importance": 61,
+    "importance": 62,
     "contentHash": "c430fa5ee123",
     "meta": {
-      "likes": 26,
+      "likes": 27,
       "downloads": 249,
       "repo": "nvidia/strata",
       "license": "openmdw-1.1"
@@ -3309,7 +3309,7 @@
     "importance": 66,
     "contentHash": "e3362fa9da93",
     "meta": {
-      "likes": 93,
+      "likes": 94,
       "downloads": 5524,
       "repo": "nvidia/NV-Reason-CT",
       "pipeline": "image-text-to-text",
@@ -3340,7 +3340,7 @@
     "importance": 68,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 160,
+      "likes": 161,
       "downloads": 23202,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",

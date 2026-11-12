@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-13",
+    "generatedAt": "2026-11-12T20:04:25.319Z",
+    "stats": {
+      "updates24h": 31,
+      "labsActive24h": 8,
+      "updates7d": 156,
+      "newModels7d": 41
+    },
+    "source": "template",
+    "headline": "31 updates from 8 AI labs in the last 24 hours · 41 model releases this week.",
+    "bullets": [
+      {
+        "text": "Google DeepMind: Introducing Gemini 4 Hydrogen",
+        "itemId": "a8d5fa7d24b3647f",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Google DeepMind: Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+        "itemId": "482148aaa5ddfc2a",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Amazon: Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+        "itemId": "f3cf1418c9269a8d",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+        "itemId": "2a6900735adaed7f",
+        "lab": "amazon"
+      },
+      {
+        "text": "Anthropic: Introducing Claude for Manufacturing",
+        "itemId": "6b5db77df3bfd94b",
+        "lab": "anthropic"
+      },
+      {
+        "text": "Meta AI: meta-encoder-v1",
+        "itemId": "b95791744e5c9319",
+        "lab": "meta"
+      }
+    ]
+  },
+  {
     "date": "2026-11-12",
     "generatedAt": "2026-11-12T11:27:52.026Z",
     "stats": {
@@ -1187,50 +1231,6 @@
         "text": "NVIDIA: Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
         "itemId": "9dd119a51b881273",
         "lab": "nvidia"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-14",
-    "generatedAt": "2026-10-14T12:03:25.951Z",
-    "stats": {
-      "updates24h": 22,
-      "labsActive24h": 7,
-      "updates7d": 105,
-      "newModels7d": 32
-    },
-    "source": "template",
-    "headline": "22 updates from 7 AI labs in the last 24 hours · 32 model releases this week.",
-    "bullets": [
-      {
-        "text": "Google DeepMind: Developing Gemini 4 Argon responsibly and safely",
-        "itemId": "25432b6b093a311b",
-        "lab": "google-deepmind"
-      },
-      {
-        "text": "Google DeepMind: Gemini 4 Argon for Robotics",
-        "itemId": "8b0463614a7b86fd",
-        "lab": "google-deepmind"
-      },
-      {
-        "text": "Amazon: Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
-        "itemId": "c4d6082c07a1abcc",
-        "lab": "amazon"
-      },
-      {
-        "text": "Meta AI: Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
-        "itemId": "ead1f2c858219e65",
-        "lab": "meta"
-      },
-      {
-        "text": "Amazon: Natural language security queries at Orca Security using Amazon Bedrock",
-        "itemId": "958759977490d99c",
-        "lab": "amazon"
-      },
-      {
-        "text": "Anthropic: Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-        "itemId": "f2bde108f64c5a7a",
-        "lab": "anthropic"
       }
     ]
   }

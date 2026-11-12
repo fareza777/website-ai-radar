@@ -1,5 +1,29 @@
 [
   {
+    "id": "2b041514b02654c6",
+    "lab": "ibm",
+    "title": "What is a spin qubit?",
+    "url": "https://research.ibm.com/blog/spin-qubits-explained",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-12T15:30:00.000Z",
+    "firstSeenAt": "2026-11-12T20:04:25.319Z",
+    "updatedAt": "2026-11-12T15:30:00.000Z",
+    "excerpt": "A possible path toward building larger quantum computers involves encoding quantum information in the spins of electrons.",
+    "summary": "A possible path toward building larger quantum computers involves encoding quantum information in the spins of electrons.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "coding"
+    ],
+    "importance": 50,
+    "contentHash": "2461197cf6e4"
+  },
+  {
     "id": "498235750ac835dc",
     "lab": "ibm",
     "title": "Tracking progress on the path to IBM Quantum Starling",
@@ -1077,7 +1101,7 @@
     "importance": 65,
     "contentHash": "a598e14a409a",
     "meta": {
-      "likes": 82,
+      "likes": 83,
       "downloads": 10081,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
@@ -1282,6 +1306,68 @@
       "likes": 1,
       "downloads": 0,
       "repo": "ibm-granite/ensemble-forecasting-with-ibm-granite-time-series"
+    }
+  },
+  {
+    "id": "567196f9639760ab",
+    "lab": "ibm",
+    "title": "granite-4.1-8b-llmon-preview",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview",
+    "sourceId": "ibm-granite-hf",
+    "sourceName": "Hugging Face · ibm-granite",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-01T14:00:06.000Z",
+    "firstSeenAt": "2026-11-12T20:04:25.319Z",
+    "updatedAt": "2026-10-01T14:00:06.000Z",
+    "excerpt": "text-generation · license: apache-2.0",
+    "summary": "IBM published the granite-4.1-8b-llmon-preview model on Hugging Face for text generation (LLM). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "8B"
+    ],
+    "importance": 58,
+    "contentHash": "e90d15ccd854",
+    "meta": {
+      "likes": 9,
+      "downloads": 4,
+      "repo": "ibm-granite/granite-4.1-8b-llmon-preview",
+      "pipeline": "text-generation",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "60ea90499a6a3e50",
+    "lab": "ibm",
+    "title": "granite-4.1-3b-llmon-preview",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview",
+    "sourceId": "ibm-granite-hf",
+    "sourceName": "Hugging Face · ibm-granite",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-01T13:59:05.000Z",
+    "firstSeenAt": "2026-11-12T20:04:25.319Z",
+    "updatedAt": "2026-10-01T13:59:05.000Z",
+    "excerpt": "text-generation · license: apache-2.0",
+    "summary": "IBM published the granite-4.1-3b-llmon-preview model on Hugging Face for text generation (LLM). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "3B"
+    ],
+    "importance": 57,
+    "contentHash": "4a790aae3abc",
+    "meta": {
+      "likes": 7,
+      "downloads": 1584,
+      "repo": "ibm-granite/granite-4.1-3b-llmon-preview",
+      "pipeline": "text-generation",
+      "license": "apache-2.0"
     }
   },
   {

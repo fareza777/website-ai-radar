@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T11:27:52.026Z",
+  "generatedAt": "2026-11-12T20:04:25.319Z",
   "stories": [
     {
       "id": "15706f35e993d4cb",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 18,
+      "press": 19,
       "outlets": [
         "Search Engine Roundtable",
         "The GitHub Blog",
@@ -33,16 +33,39 @@
         "Brave New Coin",
         "Small Business Trends",
         "shattered.io",
-        "Tom's Guide"
+        "Tom's Guide",
+        "PPC Land"
       ],
       "firstAt": "2026-11-10T16:00:00.000Z",
-      "lastAt": "2026-11-12T06:19:41.000Z",
+      "lastAt": "2026-11-12T08:46:20.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
       "lead": {
         "kind": "official",
         "id": "15706f35e993d4cb"
       },
       "importance": 100
+    },
+    {
+      "id": "482148aaa5ddfc2a",
+      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "entity": "Gemini 4 Hydrogen",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 3,
+      "press": 2,
+      "outlets": [
+        "9to5Google",
+        "Ars Technica"
+      ],
+      "firstAt": "2026-11-12T18:00:00.000Z",
+      "lastAt": "2026-11-12T19:23:03.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+      "lead": {
+        "kind": "official",
+        "id": "482148aaa5ddfc2a"
+      },
+      "importance": 92
     },
     {
       "id": "ffe8a09e969fa29a",
@@ -94,19 +117,20 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 2,
+      "press": 3,
       "outlets": [
         "The Decoder",
-        "A3 Association for Advancing Automation"
+        "A3 Association for Advancing Automation",
+        "AI Insider"
       ],
       "firstAt": "2026-11-09T19:51:47.000Z",
-      "lastAt": "2026-11-10T19:29:04.000Z",
+      "lastAt": "2026-11-11T13:54:09.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
       "lead": {
         "kind": "official",
         "id": "7da1b2b4758f6148"
       },
-      "importance": 77
+      "importance": 79
     },
     {
       "id": "0566809c65753b53",
@@ -156,7 +180,7 @@
         "baidu"
       ],
       "official": 0,
-      "press": 14,
+      "press": 16,
       "outlets": [
         "OrcaRouter",
         "Startup Fortune",
@@ -179,10 +203,11 @@
         "KuCoin",
         "TOKENPOST",
         "Crypto Briefing",
-        "TechNode"
+        "TechNode",
+        "TradingView"
       ],
       "firstAt": "2026-11-05T06:31:44.000Z",
-      "lastAt": "2026-11-12T07:10:52.000Z",
+      "lastAt": "2026-11-12T15:29:41.000Z",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
       "lead": {
         "kind": "press",
@@ -198,29 +223,58 @@
         "qwen"
       ],
       "official": 0,
-      "press": 7,
+      "press": 11,
       "outlets": [
+        "Fello AI",
+        "Pasquale Pillitteri",
+        "Kingy AI",
+        "Asia Times",
         "BigGo Finance",
         "AIBase",
         "TechNode",
         "Pandaily",
         "XenoSpectrum",
-        "Pasquale Pillitteri",
         "Tech Times",
         "mobidevices.com"
       ],
-      "firstAt": "2026-11-11T04:25:00.000Z",
+      "firstAt": "2026-11-06T06:08:16.000Z",
       "lastAt": "2026-11-12T10:58:37.000Z",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQUxtZGowNUItR2NJa2taNHJfbDVob1RxLTFfV1pEczFEcUl1TVZ4d0ExYWN0XzhJeXNqS2c4bUJtbjVUT1ZiNnFFdVRSbUlfR29UTVM3bTVBaDlSaGUwUDMxMEt4Z1A4ZXlUOEpQYkNVbWRDS0h1cmJweUxubkIxbHhrVWJrWGdIdDliWTE4dUJmbTN1a1R6cXRyTC1zYTVmTWc?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:6bf7502fd68b9f"
       },
-      "importance": 60
+      "importance": 62
     },
     {
-      "id": "qwen:6d898079efe35e",
-      "title": "GPT-6 Astra reportedly boosts Qwen3.5-0.8B math up to sixfold by editing its weights directly",
+      "id": "mistral:3ac984c3186f23",
+      "title": "Mistral Large 4 Goes Open Weight at 1T Parameters",
+      "entity": "Mistral Large 4",
+      "labs": [
+        "mistral"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "Technology Org",
+        "Crypto Briefing",
+        "TUN - The University Network",
+        "OrcaRouter",
+        "Fello AI",
+        "IO+"
+      ],
+      "firstAt": "2026-11-03T07:36:00.000Z",
+      "lastAt": "2026-11-11T15:05:10.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU2VhbzFSQTU1QlhoY28wc2N3Vy0xeXE1VG5QMEI1RUFLbkpaX0luLXVSNGJoaUx6Y2s0aHhGSlZXVUo5VFozRWFPMTR2bW1XRFFuRFd5NWVqdUpfX3dsWDNkbUNrT2lDb2lyM0NsWERfZUNFN0oyTjZTckYyTzNJZjZDVnFpcTZFYjV4NVU4djVHX0FDRHNJUQ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:3ac984c3186f23"
+      },
+      "importance": 58
+    },
+    {
+      "id": "qwen:d6f1b0ce4d7e70",
+      "title": "Can AI fix another AI's brain? MIT researchers use GPT-6 Astra to boost Qwen's maths skills",
       "entity": "GPT 6 Astra",
       "labs": [
         "qwen",
@@ -228,72 +282,21 @@
         "openai"
       ],
       "official": 0,
-      "press": 5,
+      "press": 4,
       "outlets": [
-        "Crypto Briefing",
         "India Today",
         "YourStory.com",
         "Dataconomy",
         "Fortune"
       ],
-      "firstAt": "2026-11-02T18:41:25.000Z",
+      "firstAt": "2026-11-03T04:18:19.000Z",
       "lastAt": "2026-11-09T21:02:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGazRRVU4yZnFkdzFaZnU2TnRHUUFoV20wUkh2M0RWZ3lkVUExQTMxV25iQ2Rla1dHOHVwaGxKOURneGVyVS1KTnVITDk3RHVndTNIZmdXU1Y1VTZHM2Z2MW5NTS1qLS1VUlgyaXdyb1I?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWTRkTjlpY2c3TnlFbXBlWFo4VVdTRWlWTWhtX1FYR0xiNzViUEUxcjNzZUREUGZnN0F4S1NROFJKRUFCNDF5UFVvV1Q2Z2t6d25pZ2NEeTJCRXREajNDVmNLNTc0amx2V1pkanBmZUNtSWxuMjVOU21hdHhKeENkNVR3ZlRTdUlLMTlZdzZkR1ZibGdhR3V1MVNod1FPMEJnNUlvbnc0TkU1MnU5NWtOdmhjOWMxNHpPY0hkYzIzWmlyWEhjXy1JZHRqOC1VNUZZbEJQMFBZejVBemZlbjJOdGw1TkdoMXNyTzhF0gHwAUFVX3lxTFBOd3BmVkZRUGhOdWVGdTZuMWRrSERUWjd4MVdmNEU0bXF4Tmc3M21tT2FCYzhuQkpFX3RPanZnU0xWRUlWeWlXbmNCWGZhVFN1R3ozeXEwcDBvYVFUYXV3ekFxUXgwSGJ5eWlHNzlaMFVtSXl4MWJxREJjemZuYkw1SFZ1OWM1LUF5SnZPTmFESkRWdk4wekI1RFdWQXV6WEdZSDFaSWNldmNUYTF6UFZYeTFfT1lBcEozeUlrSEU3aGtnM0hwejBqSUVvX2lScWREMjZ1VnM0dnZfS3RwRmUtMEtSOHl0aEFubEV6dFpueA?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:6d898079efe35e"
-      },
-      "importance": 59
-    },
-    {
-      "id": "mistral:328bbcf4eed892",
-      "title": "Mistral Large 4 builds a quantum chemistry solver and 3D molecule viewer from a short prompt",
-      "entity": "Mistral Large 4",
-      "labs": [
-        "mistral"
-      ],
-      "official": 0,
-      "press": 8,
-      "outlets": [
-        "Crypto Briefing",
-        "Technology Org",
-        "TUN - The University Network",
-        "OrcaRouter",
-        "Fello AI",
-        "IO+"
-      ],
-      "firstAt": "2026-11-02T12:20:45.000Z",
-      "lastAt": "2026-11-11T15:05:10.000Z",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zb1JNSm40NTJzYlRibjh6Rm84VkdLNDZFZFU0Ukx5ZWRQMWgzdFNmTUdVM2pacS05Y2F3Z2EtWW0ySkNWaWt5WkJybFg0dXRtbVJYUkVleVJqNUEtM2dtX0pMUl82QS1heXFIcnY1dDRqeUNESjln?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "mistral:328bbcf4eed892"
+        "id": "qwen:d6f1b0ce4d7e70"
       },
       "importance": 58
-    },
-    {
-      "id": "qwen:df6aa767146f58",
-      "title": "Qwen 4 Release Date: What We Know So Far",
-      "entity": "Qwen 4",
-      "labs": [
-        "qwen"
-      ],
-      "official": 0,
-      "press": 4,
-      "outlets": [
-        "Fello AI",
-        "Pasquale Pillitteri",
-        "Kingy AI",
-        "Asia Times"
-      ],
-      "firstAt": "2026-11-06T06:08:16.000Z",
-      "lastAt": "2026-11-07T05:09:54.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBfTjduVmhuVzQ2N1p5Z0RvMHJOWVBMbkk4ZnBRQ3lLdnlmZnpXajZ0UV9RakZtdllEN1BsaC1OTXo?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:df6aa767146f58"
-      },
-      "importance": 56
     },
     {
       "id": "xai:3a30850ef10dd8",
@@ -318,51 +321,39 @@
         "id": "xai:3a30850ef10dd8"
       },
       "importance": 56
-    },
-    {
-      "id": "ibm:5446c7035cbb10",
-      "title": "IBM named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
-      "entity": null,
-      "labs": [
-        "ibm",
-        "microsoft"
-      ],
-      "official": 0,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-11-02T18:55:43.000Z",
-      "lastAt": "2026-11-03T17:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWEhKbVBobVh1SnpPSTF4bnM5X1poZS1vZ1VISEtROFdiMGVZU3lxZWhFb0RESnBVQUtkTnlZN2xUVzdVWXlxcndQeXE1dkJ5d3M2N08tNENjWER0S3huelp1WnhEZ0tlOWRrWmhZdGVkeGp4bVI0bGhmc3hOVmNBbG5NZHotM21aeHVEdjhRSlR2VW5zelRvQlZLcW5ENGc1bU1ETzhxMm9xOUhqRU5IOXlucENRbVBIdTdwNXZQQWg2U2c?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "ibm:5446c7035cbb10"
-      },
-      "importance": 50
     }
   ],
   "trending": {
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 22,
-        "prev": 14,
+        "count": 23,
+        "prev": 10,
         "labs": [
           "google-deepmind"
         ]
       },
       {
         "name": "ERNIE 5.5 Flash",
-        "count": 13,
-        "prev": 11,
+        "count": 11,
+        "prev": 15,
         "labs": []
       },
       {
         "name": "Claude 5.2",
-        "count": 7,
+        "count": 8,
         "prev": 0,
         "labs": [
           "anthropic",
           "amazon"
+        ]
+      },
+      {
+        "name": "Gemini 4 Hydrogen",
+        "count": 7,
+        "prev": 0,
+        "labs": [
+          "google-deepmind"
         ]
       },
       {
@@ -372,18 +363,18 @@
         "labs": []
       },
       {
-        "name": "Qwen 4",
-        "count": 5,
-        "prev": 1,
-        "labs": []
-      },
-      {
         "name": "Gemini 2.5",
-        "count": 4,
+        "count": 5,
         "prev": 0,
         "labs": [
           "google-deepmind"
         ]
+      },
+      {
+        "name": "Qwen 4",
+        "count": 5,
+        "prev": 0,
+        "labs": []
       },
       {
         "name": "Gemini 4 Argon",
@@ -392,20 +383,10 @@
         "labs": []
       },
       {
-        "name": "Gemini Omni 1.2 Flash",
+        "name": "GPT 6 Cyber",
         "count": 3,
         "prev": 0,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
-        "name": "Nemotron 3.5 Super",
-        "count": 3,
-        "prev": 0,
-        "labs": [
-          "amazon"
-        ]
+        "labs": []
       },
       {
         "name": "DeepSeek 4.1 Flash",
@@ -418,25 +399,25 @@
       {
         "name": "Mistral Large 4",
         "count": 3,
-        "prev": 15,
+        "prev": 11,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 55,
-        "prev": 47,
+        "count": 58,
+        "prev": 48,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
-          "qwen",
           "mistral",
           "minimax",
-          "amazon",
+          "qwen",
           "microsoft",
+          "amazon",
           "bytedance",
           "ibm",
           "nvidia"
@@ -450,24 +431,25 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "qwen",
           "mistral",
           "minimax",
+          "qwen",
           "cohere",
-          "amazon",
           "microsoft",
+          "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 18,
-        "prev": 12,
+        "count": 21,
+        "prev": 11,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
+          "cohere",
           "amazon",
           "ibm",
           "nvidia"
@@ -476,45 +458,32 @@
       {
         "name": "multimodal",
         "count": 12,
-        "prev": 11,
+        "prev": 10,
         "labs": [
           "google-deepmind",
           "openai",
           "moonshot",
-          "mistral",
           "minimax",
+          "microsoft",
           "tencent",
           "amazon",
-          "microsoft",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "open-source",
-        "count": 8,
+        "count": 7,
         "prev": 2,
         "labs": [
-          "mistral",
           "amazon",
           "nvidia"
         ]
       },
       {
-        "name": "mcp",
-        "count": 6,
-        "prev": 1,
-        "labs": [
-          "anthropic",
-          "qwen",
-          "amazon",
-          "microsoft"
-        ]
-      },
-      {
         "name": "reasoning",
         "count": 6,
-        "prev": 1,
+        "prev": 2,
         "labs": [
           "google-deepmind",
           "openai",
@@ -523,9 +492,20 @@
         ]
       },
       {
+        "name": "mcp",
+        "count": 5,
+        "prev": 2,
+        "labs": [
+          "anthropic",
+          "qwen",
+          "microsoft",
+          "amazon"
+        ]
+      },
+      {
         "name": "audio",
         "count": 4,
-        "prev": 2,
+        "prev": 1,
         "labs": [
           "anthropic",
           "openai",
@@ -535,7 +515,7 @@
       },
       {
         "name": "rag",
-        "count": 3,
+        "count": 4,
         "prev": 7,
         "labs": [
           "cohere",
@@ -557,30 +537,6 @@
       ],
       "reports": 2,
       "at": "2026-11-11T20:13:40.000Z"
-    },
-    {
-      "id": "meta:a8b00d1f7ba580",
-      "lab": "meta",
-      "title": "Cozy life simulation game Wish Upon a Llama launches December 9 for PS5, Xbox Series, PS4, Xbox One, Switch, and PC",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZnRqblJSSGMzaU5QSkRHR2hya0lDUERxaldNcWFjQTNjcGpOenRVUENHMmdmU2NWeHh1bl9IemIxd1hRWVBrYVF1STdjaXhTNHJzYWh0N0h1Wnd4cU1aRHlIWWd2c3pURXdHYjRFcFAwTE5SX3ROYkZEUVNEeWg2VXNpWU16cktrWFJvNUcyN205UXdGSXNyMlJheGE4eXBHYno5M25ZMERlUW95Z2FHNFBxYXJFRHNFYk5uN1FDcWJkXzFoeTRDWGVQbGV3YUsza0xCUmhtbHVPdw?oc=5",
-      "outlets": [
-        "Gematsu",
-        "VGChartz"
-      ],
-      "reports": 2,
-      "at": "2026-11-09T18:05:04.000Z"
-    },
-    {
-      "id": "meta:c6bf38e1a8f2b7",
-      "lab": "meta",
-      "title": "Wish Upon a Llama - Official Release Date Trailer",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNalVRY1hwekFyc2hma25ZMEVBZGgyaU1XUnpnOFdWbHpIQm5OUTBVbVEyZ1RJOFllUFN4R1V5dkU3Y3lLbWdUamVoT08tNnJGRHhKV21Ca0F1WkFyRGllZlB6MmFETXNIeU1UaTBfbWJDSm9mRkFpWkUtWndCa3BIOXZKQXNhdnVJb3FHT0Q4WEZiMjUtQUE?oc=5",
-      "outlets": [
-        "IGN Africa",
-        "GameGrin"
-      ],
-      "reports": 2,
-      "at": "2026-11-09T18:00:00.000Z"
     }
   ]
 }

@@ -1,5 +1,35 @@
 [
   {
+    "id": "c4f30a114c593417",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework python v1.26.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.26.0",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-12T16:59:37.000Z",
+    "firstSeenAt": "2026-11-12T20:04:25.319Z",
+    "updatedAt": "2026-11-12T16:59:37.000Z",
+    "excerpt": "Python: Lower Hyperlight dependency floors for 1.26 release Python: Keep Hyperlight SDK documentation focused on requirements",
+    "summary": "Microsoft shipped Microsoft Agent Framework python v1.26.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "4c6bb9ca98f4",
+    "meta": {
+      "version": "1.26.0",
+      "semver": "minor",
+      "repo": "microsoft/agent-framework",
+      "package": "python"
+    }
+  },
+  {
     "id": "974373c40fc72273",
     "lab": "microsoft",
     "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
@@ -1397,8 +1427,8 @@
     "publishedAt": "2026-09-17T00:13:57.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
     "updatedAt": "2026-09-17T00:13:57.000Z",
-    "excerpt": "license: mit",
-    "summary": "Microsoft published the FrogNano-4B-2609 model on Hugging Face. License: mit.",
+    "excerpt": "license: apache-2.0",
+    "summary": "Microsoft published the FrogNano-4B-2609 model on Hugging Face. License: apache-2.0.",
     "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
     "summarySource": "template",
     "category": "model",
@@ -1406,12 +1436,12 @@
       "4B"
     ],
     "importance": 68,
-    "contentHash": "dedfbfa6454f",
+    "contentHash": "90524b3b0c7a",
     "meta": {
       "likes": 180,
       "downloads": 2189,
       "repo": "microsoft/FrogNano-4B-2609",
-      "license": "mit"
+      "license": "apache-2.0"
     }
   },
   {
