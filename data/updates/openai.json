@@ -1,5 +1,57 @@
 [
   {
+    "id": "f28f90d2895a812c",
+    "lab": "openai",
+    "title": "Gilbert + Tobin rethinks the business of law with AI",
+    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z",
+    "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+    "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 55,
+    "contentHash": "8a12062a32c8"
+  },
+  {
+    "id": "a88694d5064260ea",
+    "lab": "openai",
+    "title": "Codex CLI rust v0.167.2",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+    "sourceId": "openai-codex",
+    "sourceName": "GitHub · openai/codex",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T22:46:17.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T22:46:17.000Z",
+    "excerpt": "New Features Codex now sends tool updates incrementally by default on Google Cloud Vertex AI. To opt out, set incremental_tools_legacy_gcp = false under [features] in config.toml . ( #60617 , #60848 ) Changelog Full Changelog: rust-v0.167.1...rust-v0.167.2",
+    "summary": "OpenAI shipped Codex CLI rust v0.167.2 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "210ac488506c",
+    "meta": {
+      "version": "v0.167.2",
+      "semver": "patch",
+      "repo": "openai/codex",
+      "package": "rust"
+    }
+  },
+  {
     "id": "80b38ea7da372c49",
     "lab": "openai",
     "title": "ChatGPT Plus for veterans and servicemembers",
@@ -20,6 +72,30 @@
     "tags": [],
     "importance": 55,
     "contentHash": "3eb3da05f4b6"
+  },
+  {
+    "id": "8c999d6885d24711",
+    "lab": "openai",
+    "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+    "url": "https://openai.com/index/jiostar-vijay-seshadri",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T00:00:00.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T00:00:00.000Z",
+    "excerpt": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+    "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "500M"
+    ],
+    "importance": 55,
+    "contentHash": "96cb00541cd7"
   },
   {
     "id": "31de89519aff36a4",

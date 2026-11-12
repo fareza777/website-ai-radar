@@ -1,5 +1,156 @@
 [
   {
+    "id": "f3cf1418c9269a8d",
+    "lab": "amazon",
+    "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T23:36:00.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T23:36:00.000Z",
+    "excerpt": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models are part of the Ornith 1.0 family of open-source, self-scaffolding agentic coding models released under the MIT license, achieving state-of-the-art performance among open-source models of comparable size on coding…",
+    "summary": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "9B",
+      "open-source",
+      "agents",
+      "coding"
+    ],
+    "importance": 75,
+    "contentHash": "b03873032864"
+  },
+  {
+    "id": "0566809c65753b53",
+    "lab": "amazon",
+    "title": "OpenAI Codex on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T23:35:47.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T23:35:47.000Z",
+    "excerpt": "Developers increasingly use Codex with Amazon Bedrock to explore unfamiliar code, make changes, and handle repetitive engineering work. For platform teams, the challenge is to make those tools available without creating a second model-access, identity, and operations stack. Codex can use Amazon Bedrock for inference with supported OpenAI models. In this post, we show how to fit that path into the AWS identity, AWS…",
+    "summary": "Developers increasingly use Codex with Amazon Bedrock to explore unfamiliar code, make changes, and handle repetitive engineering work.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "coding"
+    ],
+    "importance": 60,
+    "contentHash": "bbef83f104ac"
+  },
+  {
+    "id": "2a6900735adaed7f",
+    "lab": "amazon",
+    "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T23:18:00.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T23:18:00.000Z",
+    "excerpt": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three open-weight Mixture-of-Experts (MoE) language models, released under the MIT license, deliver frontier-class performance across reasoning, coding, and agentic workloads while activating only a fraction of…",
+    "summary": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source",
+      "agents",
+      "coding",
+      "reasoning"
+    ],
+    "importance": 75,
+    "contentHash": "ba4c9290b5e3"
+  },
+  {
+    "id": "8b208eddf6e27264",
+    "lab": "amazon",
+    "title": "ICYMI: What landed for AI builders in October 2026",
+    "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T22:26:40.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T22:26:40.000Z",
+    "excerpt": "At AWS, we believe AI builders should be able to choose the right model for every task, trust their agents in production, and see clearly what their AI workloads cost. That belief guides how we invest across our portfolio. Amazon Bedrock gives you access to leading models and the tools to build and scale AI applications securely. We extend this foundation with Amazon Bedrock AgentCore , which provides the platform…",
+    "summary": "At AWS, we believe AI builders should be able to choose the right model for every task, trust their agents in production, and see clearly what their AI workloads cost.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 60,
+    "contentHash": "4a442913e3f4"
+  },
+  {
+    "id": "3beb9de1922ea0ed",
+    "lab": "amazon",
+    "title": "Automating AWS Agent Registry updates with push-based architecture",
+    "url": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T20:52:48.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T20:52:48.000Z",
+    "excerpt": "Every time a Model Context Protocol (MCP) server published in the AWS Agent Registry, a capability of Amazon Bedrock AgentCore, gains a new tool or updates its schema, the registry record must be updated too. Without automated push-based sync, consumers discover stale metadata. For organizations managing multiple MCP servers across accounts, such a sync keeps catalog records current within an existing governance…",
+    "summary": "Every time a Model Context Protocol (MCP) server published in the AWS Agent Registry, a capability of Amazon Bedrock AgentCore, gains a new tool or updates its schema, the registry record must be updated too.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 50,
+    "contentHash": "8c5ebcb4fd6b"
+  },
+  {
+    "id": "2f5ac4847b023025",
+    "lab": "amazon",
+    "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T20:45:45.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T20:45:45.000Z",
+    "excerpt": "This post is co-written with Nick Tamburro of DXC Technology. When an AI agent can act on a production server at a bank or a hospital, access to a capable foundation model is only the starting point. Recent public incidents, in which autonomous agents took destructive actions their operators never intended, show that the real risk is rarely the model alone. It’s an agent holding more authority than its task…",
+    "summary": "This post is co-written with Nick Tamburro of DXC Technology.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 60,
+    "contentHash": "eb0513f22cc9"
+  },
+  {
     "id": "7026ee2cddf14dd4",
     "lab": "amazon",
     "title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
@@ -271,7 +422,14 @@
       "mcp"
     ],
     "importance": 50,
-    "contentHash": "59a32e665fde"
+    "contentHash": "59a32e665fde",
+    "seenIn": [
+      {
+        "sourceId": "aws-ml-blog",
+        "sourceName": "AWS Machine Learning Blog",
+        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore"
+      }
+    ]
   },
   {
     "id": "9c827a803fba9549",

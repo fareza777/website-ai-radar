@@ -445,7 +445,7 @@
     "importance": 61,
     "contentHash": "440a22d35eed",
     "meta": {
-      "likes": 25,
+      "likes": 26,
       "downloads": 396,
       "repo": "nvidia/MetricTrail",
       "license": "other"
@@ -2094,7 +2094,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3161,
+      "likes": 3181,
       "downloads": 74300,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -2903,6 +2903,34 @@
     "contentHash": "7f05f9c8d76a"
   },
   {
+    "id": "c024226f2ebceb48",
+    "lab": "nvidia",
+    "title": "strata",
+    "url": "https://huggingface.co/nvidia/strata",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-22T20:05:34.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-09-22T20:05:34.000Z",
+    "excerpt": "license: openmdw-1.1",
+    "summary": "NVIDIA published the strata model on Hugging Face. License: openmdw-1.1.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 61,
+    "contentHash": "c430fa5ee123",
+    "meta": {
+      "likes": 25,
+      "downloads": 205,
+      "repo": "nvidia/strata",
+      "license": "openmdw-1.1"
+    }
+  },
+  {
     "id": "b0f8ec8fd14bfe88",
     "lab": "nvidia",
     "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
@@ -3400,7 +3428,7 @@
     "importance": 73,
     "contentHash": "5af7f2181f27",
     "meta": {
-      "likes": 834,
+      "likes": 836,
       "downloads": 198220,
       "repo": "nvidia/Nemotron-3-Diarization",
       "pipeline": "voice-activity-detection",

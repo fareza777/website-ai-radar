@@ -1,24 +1,24 @@
 [
   {
     "date": "2026-11-12",
-    "generatedAt": "2026-11-11T17:15:19.267Z",
+    "generatedAt": "2026-11-12T00:49:43.260Z",
     "stats": {
-      "updates24h": 25,
-      "labsActive24h": 8,
-      "updates7d": 162,
-      "newModels7d": 37
+      "updates24h": 24,
+      "labsActive24h": 6,
+      "updates7d": 159,
+      "newModels7d": 41
     },
     "source": "template",
-    "headline": "25 updates from 8 AI labs in the last 24 hours · 37 model releases this week.",
+    "headline": "24 updates from 6 AI labs in the last 24 hours · 41 model releases this week.",
     "bullets": [
       {
-        "text": "Amazon: Introducing Kimi K3.1 Pro on Amazon Bedrock",
-        "itemId": "52c1a0c9377c6505",
+        "text": "Amazon: Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+        "itemId": "f3cf1418c9269a8d",
         "lab": "amazon"
       },
       {
-        "text": "Amazon: Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming",
-        "itemId": "3bb3af59874accc9",
+        "text": "Amazon: DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+        "itemId": "2a6900735adaed7f",
         "lab": "amazon"
       },
       {
@@ -27,18 +27,18 @@
         "lab": "meta"
       },
       {
-        "text": "Microsoft: Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
-        "itemId": "974373c40fc72273",
-        "lab": "microsoft"
+        "text": "OpenAI: Gilbert + Tobin rethinks the business of law with AI",
+        "itemId": "f28f90d2895a812c",
+        "lab": "openai"
+      },
+      {
+        "text": "Google DeepMind: Gemini Decisions API: Fast, calibrated multimodal decisions",
+        "itemId": "cce714811b519a82",
+        "lab": "google-deepmind"
       },
       {
         "text": "Google DeepMind: Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
         "itemId": "bad6ee94c35695d3",
-        "lab": "google-deepmind"
-      },
-      {
-        "text": "Google DeepMind: AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-        "itemId": "e879c6fc35d4933f",
         "lab": "google-deepmind"
       }
     ]

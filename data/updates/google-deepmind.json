@@ -1,5 +1,58 @@
 [
   {
+    "id": "cce714811b519a82",
+    "lab": "google-deepmind",
+    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T18:00:00.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T18:00:00.000Z",
+    "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+    "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+    "benefit": "API/SDK change — check whether your integration needs an update or can use the new capability.",
+    "summarySource": "template",
+    "category": "api",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 55,
+    "contentHash": "569d5bafbf2f"
+  },
+  {
+    "id": "f4c8bad7b8512fae",
+    "lab": "google-deepmind",
+    "title": "Google GenAI SDK (Python) v3.2.0",
+    "url": "https://github.com/googleapis/python-genai/releases/tag/v3.2.0",
+    "sourceId": "google-genai-sdk",
+    "sourceName": "GitHub · googleapis/python-genai",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T17:27:29.000Z",
+    "firstSeenAt": "2026-11-12T00:49:43.260Z",
+    "updatedAt": "2026-11-11T17:27:29.000Z",
+    "excerpt": "3.2.0 (2026-11-11) Features Add the Decisions API ( client.decisions.create ) to the GenAI SDKs ( 9efe1e4 ) environments: Introduce self-hosted BYOS mode, system_instruction, custom_config, and environment_key in SDKs and CLI ( 96b79b3 )",
+    "summary": "Google DeepMind shipped Google GenAI SDK (Python) v3.2.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "329c35fdbe40",
+    "meta": {
+      "version": "v3.2.0",
+      "semver": "minor",
+      "repo": "googleapis/python-genai"
+    }
+  },
+  {
     "id": "bad6ee94c35695d3",
     "lab": "google-deepmind",
     "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
@@ -347,8 +400,8 @@
     "lab": "google-deepmind",
     "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -1600,7 +1653,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 3253,
+      "likes": 3299,
       "downloads": 492050,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",

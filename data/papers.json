@@ -6,7 +6,7 @@
     "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 75,
     "org": null,
     "githubRepo": "https://github.com/TheQuantumGOAT/Tree-Ising",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -18,7 +18,7 @@
     "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 64,
     "org": "archeone-ai",
     "githubRepo": "https://github.com/ArcheOne-AI/RoboScript",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -30,7 +30,7 @@
     "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 52,
     "org": "tsinghua",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
   },
@@ -41,7 +41,7 @@
     "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 43,
+    "upvotes": 48,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/yukyeongleee/wikitrace",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -65,7 +65,7 @@
     "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent…",
     "publishedAt": "2026-11-07T14:59:22.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 56,
     "org": "openenvisionlab",
     "githubRepo": "https://github.com/OpenEnvision/WorldFoundry",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -101,7 +101,7 @@
     "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a…",
     "publishedAt": "2026-11-05T16:19:52.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 9,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/EDAPINENUT/fewsteprl-sd35",
@@ -114,7 +114,7 @@
     "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation. In this paper, we introduce an exponential moving average optimization procedure for k-means with mini-batch updates, powered by modern deep learning machinery and new insights. We also establish scaling laws on how decay rate and batch size impact final performance…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 8,
     "org": "meta",
     "lab": "meta",
     "githubRepo": "https://github.com/facebookresearch/faiss",
@@ -163,7 +163,7 @@
     "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 52,
     "org": "autolab-sjtu",
     "githubRepo": "https://github.com/AutoLab-SAI-SJTU/A2MEAS",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -175,7 +175,7 @@
     "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution. A…",
     "publishedAt": "2026-11-05T15:31:15.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 42,
     "org": null,
     "githubRepo": "https://github.com/chip-ai-agent/PCBRouteAgent",
     "firstSeenAt": "2026-11-10T23:29:30.795Z"

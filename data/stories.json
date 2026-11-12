@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T17:15:19.267Z",
+  "generatedAt": "2026-11-12T00:49:43.260Z",
   "stories": [
     {
       "id": "15706f35e993d4cb",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 13,
+      "press": 17,
       "outlets": [
         "Search Engine Roundtable",
         "The GitHub Blog",
@@ -29,10 +29,13 @@
         "Inven Global",
         "Technology Org",
         "Android Authority",
-        "Brave New Coin"
+        "MIXED News",
+        "Brave New Coin",
+        "Small Business Trends",
+        "shattered.io"
       ],
       "firstAt": "2026-11-10T16:00:00.000Z",
-      "lastAt": "2026-11-11T07:06:47.000Z",
+      "lastAt": "2026-11-11T19:30:13.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
       "lead": {
         "kind": "official",
@@ -165,34 +168,35 @@
       "importance": 67
     },
     {
-      "id": "moonshot:a62ce39156a529",
+      "id": "moonshot:a6940c9012d29e",
       "title": "Moonshot Rents Nvidia’s Top AI Chips in China, Documents Show",
       "entity": null,
       "labs": [
         "moonshot"
       ],
       "official": 0,
-      "press": 3,
+      "press": 2,
       "outlets": [
-        "The Next Web",
+        "Quartz",
         "The Economic Times",
         "The Standard (HK)",
-        "联合早报",
         "TipRanks",
         "NewsBytes",
-        "Quartz",
         "Investing.com",
+        "The Next Web",
         "Yahoo Finance Singapore",
+        "Bloomberg",
+        "联合早报",
         "Bloomberg.com",
         "Seeking Alpha",
         "Yahoo Finance"
       ],
       "firstAt": "2026-11-10T04:54:00.000Z",
-      "lastAt": "2026-11-10T05:52:43.000Z",
+      "lastAt": "2026-11-10T05:17:26.000Z",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXFQdXM5NGdadXhNSnRhalRtOE9aSHdPYUNyeWtIam9xZ3JjMEI5cGxyUGpZbXBQamZlY2hxZFdTRC1NbllidG1MdDNpb193bGdmMEpwdGhLMmxLQjVQekZGNEpRY181RkVick94WHlDMTMtblVBaTNWT0tRSkVmNXhlSEZYcFFRTV96WVAzLURWcEo3MGx1RDZFdk1KQ1plTldWdHlxbkdHVlVsX1k0bw?oc=5",
       "lead": {
         "kind": "press",
-        "id": "moonshot:a62ce39156a529"
+        "id": "moonshot:a6940c9012d29e"
       },
       "importance": 63
     },
@@ -403,8 +407,8 @@
       },
       {
         "name": "Gemini 4 Carbon",
-        "count": 19,
-        "prev": 37,
+        "count": 21,
+        "prev": 15,
         "labs": [
           "google-deepmind"
         ]
@@ -431,18 +435,20 @@
         "labs": []
       },
       {
+        "name": "DeepSeek 4.1 Flash",
+        "count": 5,
+        "prev": 3,
+        "labs": [
+          "amazon"
+        ]
+      },
+      {
         "name": "Gemini 2.5",
         "count": 4,
         "prev": 0,
         "labs": [
           "google-deepmind"
         ]
-      },
-      {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 4,
-        "prev": 3,
-        "labs": []
       },
       {
         "name": "Gemini 4 Argon",
@@ -469,103 +475,114 @@
       {
         "name": "Mistral Large 4",
         "count": 3,
-        "prev": 15,
+        "prev": 14,
         "labs": []
       },
       {
         "name": "GPT 6 Astra",
         "count": 3,
-        "prev": 16,
+        "prev": 15,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 58,
-        "prev": 44,
+        "count": 55,
+        "prev": 48,
         "labs": [
           "anthropic",
           "google-deepmind",
           "deepseek",
           "openai",
+          "minimax",
           "mistral",
           "qwen",
-          "minimax",
           "microsoft",
-          "nvidia",
           "amazon",
           "bytedance",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 42,
-        "prev": 36,
+        "count": 44,
+        "prev": 38,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
+          "minimax",
           "mistral",
           "qwen",
-          "minimax",
           "cohere",
           "microsoft",
-          "nvidia",
           "amazon",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 18,
-        "prev": 11,
+        "count": 17,
+        "prev": 12,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "nvidia",
           "amazon",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 11,
+        "count": 12,
         "prev": 13,
         "labs": [
           "google-deepmind",
           "openai",
           "moonshot",
-          "mistral",
           "minimax",
+          "mistral",
           "tencent",
           "microsoft",
-          "nvidia",
           "amazon",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "open-source",
-        "count": 6,
+        "count": 8,
         "prev": 2,
         "labs": [
           "mistral",
-          "nvidia",
-          "amazon"
+          "amazon",
+          "nvidia"
         ]
       },
       {
         "name": "mcp",
-        "count": 5,
+        "count": 6,
         "prev": 1,
         "labs": [
           "anthropic",
           "qwen",
           "microsoft",
           "amazon"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 5,
+        "prev": 1,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "amazon",
+          "nvidia"
         ]
       },
       {
@@ -580,20 +597,9 @@
         ]
       },
       {
-        "name": "reasoning",
-        "count": 4,
-        "prev": 1,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "nvidia",
-          "amazon"
-        ]
-      },
-      {
         "name": "rag",
-        "count": 4,
-        "prev": 6,
+        "count": 3,
+        "prev": 7,
         "labs": [
           "cohere",
           "amazon",
