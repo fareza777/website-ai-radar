@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-12",
-    "generatedAt": "2026-11-12T04:02:07.026Z",
+    "generatedAt": "2026-11-12T11:27:52.026Z",
     "stats": {
-      "updates24h": 23,
+      "updates24h": 24,
       "labsActive24h": 6,
-      "updates7d": 159,
-      "newModels7d": 41
+      "updates7d": 153,
+      "newModels7d": 38
     },
     "source": "template",
-    "headline": "23 updates from 6 AI labs in the last 24 hours · 41 model releases this week.",
+    "headline": "24 updates from 6 AI labs in the last 24 hours · 38 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
@@ -27,6 +27,11 @@
         "lab": "meta"
       },
       {
+        "text": "Meta AI: meta-encoder-v1",
+        "itemId": "b95791744e5c9319",
+        "lab": "meta"
+      },
+      {
         "text": "OpenAI: Gilbert + Tobin rethinks the business of law with AI",
         "itemId": "f28f90d2895a812c",
         "lab": "openai"
@@ -34,11 +39,6 @@
       {
         "text": "Google DeepMind: Gemini Decisions API: Fast, calibrated multimodal decisions",
         "itemId": "cce714811b519a82",
-        "lab": "google-deepmind"
-      },
-      {
-        "text": "Google DeepMind: Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-        "itemId": "bad6ee94c35695d3",
         "lab": "google-deepmind"
       }
     ]

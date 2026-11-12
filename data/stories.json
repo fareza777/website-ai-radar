@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T04:02:07.026Z",
+  "generatedAt": "2026-11-12T11:27:52.026Z",
   "stories": [
     {
       "id": "15706f35e993d4cb",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 17,
+      "press": 18,
       "outlets": [
         "Search Engine Roundtable",
         "The GitHub Blog",
@@ -32,10 +32,11 @@
         "MIXED News",
         "Brave New Coin",
         "Small Business Trends",
-        "shattered.io"
+        "shattered.io",
+        "Tom's Guide"
       ],
       "firstAt": "2026-11-10T16:00:00.000Z",
-      "lastAt": "2026-11-11T19:30:13.000Z",
+      "lastAt": "2026-11-12T06:19:41.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
       "lead": {
         "kind": "official",
@@ -108,6 +109,26 @@
       "importance": 77
     },
     {
+      "id": "0566809c65753b53",
+      "title": "OpenAI Codex on Amazon Bedrock",
+      "entity": null,
+      "labs": [
+        "amazon",
+        "openai"
+      ],
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-11-11T23:35:47.000Z",
+      "lastAt": "2026-11-11T23:35:47.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
+      "lead": {
+        "kind": "official",
+        "id": "0566809c65753b53"
+      },
+      "importance": 70
+    },
+    {
       "id": "bc2d0068f56d93e1",
       "title": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
       "entity": null,
@@ -135,7 +156,7 @@
         "baidu"
       ],
       "official": 0,
-      "press": 13,
+      "press": 14,
       "outlets": [
         "OrcaRouter",
         "Startup Fortune",
@@ -156,16 +177,46 @@
         "FourWeekMBA",
         "www.trendingtopics.eu",
         "KuCoin",
-        "Crypto Briefing"
+        "TOKENPOST",
+        "Crypto Briefing",
+        "TechNode"
       ],
       "firstAt": "2026-11-05T06:31:44.000Z",
-      "lastAt": "2026-11-11T12:48:05.000Z",
+      "lastAt": "2026-11-12T07:10:52.000Z",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
       "lead": {
         "kind": "press",
         "id": "baidu:c7eb7b8759594f"
       },
-      "importance": 67
+      "importance": 68
+    },
+    {
+      "id": "qwen:6bf7502fd68b9f",
+      "title": "Alibaba opens Qwen4-Max preview with a million-token context window",
+      "entity": "Qwen 4 Max",
+      "labs": [
+        "qwen"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "BigGo Finance",
+        "AIBase",
+        "TechNode",
+        "Pandaily",
+        "XenoSpectrum",
+        "Pasquale Pillitteri",
+        "Tech Times",
+        "mobidevices.com"
+      ],
+      "firstAt": "2026-11-11T04:25:00.000Z",
+      "lastAt": "2026-11-12T10:58:37.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQUxtZGowNUItR2NJa2taNHJfbDVob1RxLTFfV1pEczFEcUl1TVZ4d0ExYWN0XzhJeXNqS2c4bUJtbjVUT1ZiNnFFdVRSbUlfR29UTVM3bTVBaDlSaGUwUDMxMEt4Z1A4ZXlUOEpQYkNVbWRDS0h1cmJweUxubkIxbHhrVWJrWGdIdDliWTE4dUJmbTN1a1R6cXRyTC1zYTVmTWc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:6bf7502fd68b9f"
+      },
+      "importance": 60
     },
     {
       "id": "qwen:6d898079efe35e",
@@ -202,7 +253,7 @@
         "mistral"
       ],
       "official": 0,
-      "press": 7,
+      "press": 8,
       "outlets": [
         "Crypto Briefing",
         "Technology Org",
@@ -219,31 +270,6 @@
         "id": "mistral:328bbcf4eed892"
       },
       "importance": 58
-    },
-    {
-      "id": "qwen:9da52f3ed9b5ea",
-      "title": "Alibaba's Qwen4-Max Preview Launches Abruptly, Targeting Complex Coding and Professional Software Operations",
-      "entity": "Qwen 4 Max",
-      "labs": [
-        "qwen"
-      ],
-      "official": 0,
-      "press": 5,
-      "outlets": [
-        "BigGo Finance",
-        "AIBase",
-        "TechNode",
-        "XenoSpectrum",
-        "Pasquale Pillitteri"
-      ],
-      "firstAt": "2026-11-11T04:25:00.000Z",
-      "lastAt": "2026-11-11T07:28:26.000Z",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sR3YtS0VVdzJPT3lmOExUaFJsUmJEcVRzTWZva2h1cUg5NjJ5TGN4VzdMTHJuWlNteWI1Q3NmSzNKSnpHZjByTFNCYUZ1OUR3N2pSaUJXVmlnYlFBZ2FjSFlyZm1rNjl6SEl5ZTkzeTJnOEJPUHc?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:9da52f3ed9b5ea"
-      },
-      "importance": 57
     },
     {
       "id": "qwen:df6aa767146f58",
@@ -294,30 +320,6 @@
       "importance": 56
     },
     {
-      "id": "google-deepmind:9c218824385749",
-      "title": "Can Pangram detect Gemini 4 Argon?",
-      "entity": "Gemini 4 Argon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 4,
-      "outlets": [
-        "Pangram",
-        "Small Business Trends",
-        "HackerNoon",
-        "shattered.io"
-      ],
-      "firstAt": "2026-11-02T08:00:00.000Z",
-      "lastAt": "2026-11-03T08:32:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RNUpRazJtbFJZRUdYUExQX09QeUhITElyTlZ6OEZBZnBUcHVpT2cyNWtnaWtTMG9JTW5jdk12YUx5QjdEOWdzZmhKRVo3Ui1FcjNTc1IwVlVzLTNrenRfV3pKd0ctOVQ2M2lkQThicw?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:9c218824385749"
-      },
-      "importance": 56
-    },
-    {
       "id": "ibm:5446c7035cbb10",
       "title": "IBM named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
       "entity": null,
@@ -341,18 +343,18 @@
   "trending": {
     "entities": [
       {
-        "name": "ERNIE 5.5 Flash",
-        "count": 23,
-        "prev": 0,
-        "labs": []
-      },
-      {
         "name": "Gemini 4 Carbon",
-        "count": 21,
-        "prev": 15,
+        "count": 22,
+        "prev": 14,
         "labs": [
           "google-deepmind"
         ]
+      },
+      {
+        "name": "ERNIE 5.5 Flash",
+        "count": 13,
+        "prev": 11,
+        "labs": []
       },
       {
         "name": "Claude 5.2",
@@ -365,7 +367,7 @@
       },
       {
         "name": "Qwen 4 Max",
-        "count": 5,
+        "count": 7,
         "prev": 0,
         "labs": []
       },
@@ -374,14 +376,6 @@
         "count": 5,
         "prev": 1,
         "labs": []
-      },
-      {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 5,
-        "prev": 3,
-        "labs": [
-          "amazon"
-        ]
       },
       {
         "name": "Gemini 2.5",
@@ -414,36 +408,38 @@
         ]
       },
       {
-        "name": "GPT 6 Astra",
+        "name": "DeepSeek 4.1 Flash",
         "count": 3,
-        "prev": 7,
-        "labs": []
+        "prev": 5,
+        "labs": [
+          "amazon"
+        ]
       },
       {
         "name": "Mistral Large 4",
         "count": 3,
-        "prev": 14,
+        "prev": 15,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 56,
-        "prev": 48,
+        "count": 55,
+        "prev": 47,
         "labs": [
           "anthropic",
-          "openai",
-          "deepseek",
           "google-deepmind",
+          "deepseek",
+          "openai",
           "qwen",
-          "minimax",
           "mistral",
-          "microsoft",
-          "nvidia",
-          "bytedance",
+          "minimax",
           "amazon",
-          "ibm"
+          "microsoft",
+          "bytedance",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -452,16 +448,16 @@
         "prev": 38,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "qwen",
-          "minimax",
           "mistral",
+          "minimax",
           "cohere",
-          "microsoft",
-          "nvidia",
           "amazon",
-          "ibm"
+          "microsoft",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -470,28 +466,28 @@
         "prev": 12,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
-          "nvidia",
+          "openai",
           "amazon",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
         "count": 12,
-        "prev": 13,
+        "prev": 11,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "moonshot",
-          "minimax",
           "mistral",
+          "minimax",
           "tencent",
-          "microsoft",
-          "nvidia",
           "amazon",
-          "ibm"
+          "microsoft",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -500,8 +496,8 @@
         "prev": 2,
         "labs": [
           "mistral",
-          "nvidia",
-          "amazon"
+          "amazon",
+          "nvidia"
         ]
       },
       {
@@ -511,19 +507,19 @@
         "labs": [
           "anthropic",
           "qwen",
-          "microsoft",
-          "amazon"
+          "amazon",
+          "microsoft"
         ]
       },
       {
         "name": "reasoning",
-        "count": 5,
+        "count": 6,
         "prev": 1,
         "labs": [
-          "openai",
           "google-deepmind",
-          "nvidia",
-          "amazon"
+          "openai",
+          "amazon",
+          "nvidia"
         ]
       },
       {
@@ -543,13 +539,25 @@
         "prev": 7,
         "labs": [
           "cohere",
-          "bytedance",
-          "amazon"
+          "amazon",
+          "bytedance"
         ]
       }
     ]
   },
   "unconfirmed": [
+    {
+      "id": "google-deepmind:baa6a4789f9065",
+      "lab": "google-deepmind",
+      "title": "Google rolls out Gemini AI voice assistant to Apple CarPlay dashboards",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOXBOYVBIb21sOUU2aFZtWHVxY0FxOXRRTTJqX0hMLS12QV9aTHgtaG1Rckh2d2Q5T2dmN2czRWVkRUZQVEdTaC0wTVozdFBMRnN4TUJoWmh4alNuLUNIdzhvdzNIYlBUa3dQeDJUckxHZEdpZDlOamZZbnZWTF9qeGxFSjlJelN0LU0xbG1TbjNyaERyVExF?oc=5",
+      "outlets": [
+        "Yahoo Finance",
+        "Yahoo Autos"
+      ],
+      "reports": 2,
+      "at": "2026-11-11T20:13:40.000Z"
+    },
     {
       "id": "meta:a8b00d1f7ba580",
       "lab": "meta",

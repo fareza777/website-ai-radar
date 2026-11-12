@@ -1,5 +1,27 @@
 [
   {
+    "id": "65d3a2b9a6c548f6",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-12T11:27:52.026Z",
+    "field": "prompt",
+    "from": 0.006,
+    "to": 0.15,
+    "change": 2400
+  },
+  {
+    "id": "9c24a7552a89d296",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-12T11:27:52.026Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.6,
+    "change": 20
+  },
+  {
     "id": "bc5c76ddf1eeb77b",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",

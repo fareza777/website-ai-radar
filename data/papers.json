@@ -6,7 +6,7 @@
     "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 77,
+    "upvotes": 85,
     "org": null,
     "githubRepo": "https://github.com/TheQuantumGOAT/Tree-Ising",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -18,7 +18,7 @@
     "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 68,
+    "upvotes": 84,
     "org": "tsinghua",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
   },
@@ -29,7 +29,7 @@
     "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 65,
+    "upvotes": 67,
     "org": "archeone-ai",
     "githubRepo": "https://github.com/ArcheOne-AI/RoboScript",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -41,7 +41,7 @@
     "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 53,
+    "upvotes": 58,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/yukyeongleee/wikitrace",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -53,7 +53,7 @@
     "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 99,
+    "upvotes": 102,
     "org": "robbyant",
     "githubRepo": "https://github.com/Robbyant/lingbot-touch",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -65,7 +65,7 @@
     "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent…",
     "publishedAt": "2026-11-07T14:59:22.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 56,
+    "upvotes": 57,
     "org": "openenvisionlab",
     "githubRepo": "https://github.com/OpenEnvision/WorldFoundry",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -89,10 +89,23 @@
     "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction. We…",
     "publishedAt": "2026-11-05T18:45:36.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 31,
+    "upvotes": 32,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-10T07:28:23.381Z"
+  },
+  {
+    "id": "2611.09501",
+    "title": "e-means: outperforming k-means (in one-tenth the epochs)",
+    "url": "https://huggingface.co/papers/2611.09501",
+    "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation. In this paper, we introduce an exponential moving average optimization procedure for k-means with mini-batch updates, powered by modern deep learning machinery and new insights. We also establish scaling laws on how decay rate and batch size impact final performance…",
+    "publishedAt": "2026-11-06T00:00:00.000Z",
+    "submittedAt": "2026-11-10T00:00:00.000Z",
+    "upvotes": 11,
+    "org": "meta",
+    "lab": "meta",
+    "githubRepo": "https://github.com/facebookresearch/faiss",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z"
   },
   {
     "id": "2611.08240",
@@ -108,26 +121,13 @@
     "firstSeenAt": "2026-11-10T07:28:23.381Z"
   },
   {
-    "id": "2611.09501",
-    "title": "e-means: outperforming k-means (in one-tenth the epochs)",
-    "url": "https://huggingface.co/papers/2611.09501",
-    "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation. In this paper, we introduce an exponential moving average optimization procedure for k-means with mini-batch updates, powered by modern deep learning machinery and new insights. We also establish scaling laws on how decay rate and batch size impact final performance…",
-    "publishedAt": "2026-11-06T00:00:00.000Z",
-    "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 8,
-    "org": "meta",
-    "lab": "meta",
-    "githubRepo": "https://github.com/facebookresearch/faiss",
-    "firstSeenAt": "2026-11-10T23:29:30.795Z"
-  },
-  {
     "id": "2611.06043",
     "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
     "url": "https://huggingface.co/papers/2611.06043",
     "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency…",
     "publishedAt": "2026-11-04T06:46:50.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 91,
+    "upvotes": 93,
     "org": "netease-youdao",
     "githubRepo": "https://github.com/netease-youdao/Confucius4-R2T2",
     "firstSeenAt": "2026-11-10T04:02:52.140Z"
@@ -151,7 +151,7 @@
     "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the…",
     "publishedAt": "2026-11-02T20:53:15.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 63,
+    "upvotes": 66,
     "org": "stepfun-ai",
     "githubRepo": "https://github.com/SinuoWang/P2-MOPD",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
@@ -187,7 +187,7 @@
     "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules and models encode…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 41,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -199,7 +199,7 @@
     "summary": "Solving long-horizon agentic tasks requires language agents to interact with their environments over multiple steps, and reliable performance often comes from the expensive capable models available through cloud providers. Meanwhile, alternative efficient models with inferior performance but a much lower cost are emerging, including lower-tier cloud models and smaller open-weights models deployable on local…",
     "publishedAt": "2026-10-25T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 21,
+    "upvotes": 22,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-09T04:01:53.165Z"
@@ -211,7 +211,7 @@
     "summary": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count alone does not predict these metrics, which depend on the model architecture, workload, hardware…",
     "publishedAt": "2026-11-05T16:53:48.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 12,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -223,7 +223,7 @@
     "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning caching, a method for…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 10,
+    "upvotes": 11,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
@@ -235,7 +235,7 @@
     "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer compute width fixed. HiRes groups layers into blocks: standard d-dimensional PreNorm layers operate…",
     "publishedAt": "2026-10-30T13:18:22.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 9,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
@@ -269,7 +269,7 @@
     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast…",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 113,
+    "upvotes": 114,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -281,7 +281,7 @@
     "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 67,
+    "upvotes": 69,
     "org": "sjut1",
     "githubRepo": "https://github.com/DeepExperience/Harness-S",
     "firstSeenAt": "2026-11-06T11:05:12.287Z"
@@ -328,7 +328,7 @@
     "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank erase and write gates. However, we show that state updates are far less sensitive to…",
     "publishedAt": "2026-11-05T17:53:49.000Z",
     "submittedAt": "2026-11-06T00:00:00.000Z",
-    "upvotes": 13,
+    "upvotes": 14,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
