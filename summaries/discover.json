@@ -768,9 +768,10 @@
     "benefit": "Builders who cannot fund large training runs get a small Apache 2.0 image model as a starting point for their own experiments."
   },
   "e47586656bf21c44": {
-    "summary": "llama-modchip runs 284B DeepSeek-V4-Flash and 30B MoE models on a pure 64GB CPU at 256K context with zero GPUs, achieving 44.4 tok/s prompt processing.",
-    "unique": "SwiGLU-H2 and Stockfish-PVS L3 techniques enable large model inference on CPU-only hardware.",
-    "benefit": "Developers without GPUs can run very large language models locally on commodity hardware."
+    "hash": "61f951cc",
+    "summary": "llama-modchip is a GitHub project for running large models on CPU only, citing 284B DeepSeek-V4-Flash in under 59GiB RAM with no GPUs, along with 30B MoE models, and quoting throughput for single-stream generation and speculative decoding.",
+    "unique": "Targets CPU inference on avx512 and Apple Silicon with GGUF models, and lists topics for Claude Code and AI agents alongside DeepSeek.",
+    "benefit": "A developer can size 284B DeepSeek-V4-Flash or 30B MoE workloads against machine RAM and CPU throughput instead of buying GPUs."
   },
   "2fe2bbf448e6e406": {
     "summary": "Mantis is a lean browser interface for AI agents that shows pages as short numbered text instead of screenshots or full DOM trees.",
@@ -795,10 +796,10 @@
     "unique": "Its angle is the coding agent rather than the reader: it is meant to be given to an agent to follow.",
     "benefit": "Teams that write code with agents get a source to point agents at for current web best practices."
   },
-  "06715abca828fad9": {
-    "hash": "dfacaaf4",
-    "summary": "Rivet is an orchestrator for agentic workloads, described as fast, high-density and scalable for every workload an agent needs.",
-    "unique": "Its listed topics cover actors, Cloudflare Durable Objects, FoundationDB, multiplayer and realtime.",
-    "benefit": "Teams running many agent workloads get one orchestrator to pack them densely and scale them."
+  "7cf8c63b2923c110": {
+    "hash": "ea0f61d0",
+    "summary": "ember-cloudflare is an open-source chat application on GitHub, inspired by Slack and Campfire, that the description says deploys to Cloudflare with one click.",
+    "unique": "Pairs a Slack and Campfire inspired chat UI with a one-click deploy path to Cloudflare.",
+    "benefit": "Teams wanting Slack-style channels running on their own Cloudflare account get a codebase to deploy instead of building the chat layer from scratch."
   }
 }

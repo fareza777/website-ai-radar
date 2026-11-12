@@ -1,5 +1,30 @@
 [
   {
+    "id": "a0a8bd68435e7a18",
+    "lab": "amazon",
+    "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-12T01:18:23.000Z",
+    "firstSeenAt": "2026-11-12T04:02:07.026Z",
+    "updatedAt": "2026-11-12T01:18:23.000Z",
+    "excerpt": "Java teams have established JVM tooling, continuous integration and continuous delivery (CI/CD) pipelines, and operational patterns, yet taking AI agents from prototype to production is hard: agent frameworks do not solve scalability, governance, security, and operational concerns by default. Amazon Bedrock and Spring AI close those gaps, so Java teams can build autonomous AI agents that plan, call tools and APIs…",
+    "summary": "Java teams have established JVM tooling, continuous integration and continuous delivery (CI/CD) pipelines, and operational patterns, yet taking AI agents from prototype to production is hard: agent frameworks do not…",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "safety"
+    ],
+    "importance": 30,
+    "contentHash": "4ae9c9352588"
+  },
+  {
     "id": "f3cf1418c9269a8d",
     "lab": "amazon",
     "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",

@@ -164,6 +164,17 @@ export const CURATED_DEALS: CuratedDeal[] = [
     mustContain: "\\$200 credit",
     lab: "microsoft",
   },
+  {
+    id: "claude-free-plan",
+    title: "Claude — Free plan",
+    provider: "Anthropic",
+    kind: "free-tier",
+    description:
+      "Anthropic lists a Claude Free plan at $0, open to everyone, with limited usage every 5 hours and every week across chat on web, desktop and mobile.",
+    url: "https://www.anthropic.com/pricing",
+    mustContain: "Free for everyone",
+    lab: "anthropic",
+  },
 ];
 
 export const DEAL_SIGNALS = {

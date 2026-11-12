@@ -6,21 +6,9 @@
     "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 75,
+    "upvotes": 77,
     "org": null,
     "githubRepo": "https://github.com/TheQuantumGOAT/Tree-Ising",
-    "firstSeenAt": "2026-11-11T17:15:19.267Z"
-  },
-  {
-    "id": "2611.12885",
-    "title": "World In-Context Learning for Agentic Robot Manipulation",
-    "url": "https://huggingface.co/papers/2611.12885",
-    "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and…",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 64,
-    "org": "archeone-ai",
-    "githubRepo": "https://github.com/ArcheOne-AI/RoboScript",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
   },
   {
@@ -30,8 +18,20 @@
     "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 68,
     "org": "tsinghua",
+    "firstSeenAt": "2026-11-11T17:15:19.267Z"
+  },
+  {
+    "id": "2611.12885",
+    "title": "World In-Context Learning for Agentic Robot Manipulation",
+    "url": "https://huggingface.co/papers/2611.12885",
+    "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and…",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "submittedAt": "2026-11-11T00:00:00.000Z",
+    "upvotes": 65,
+    "org": "archeone-ai",
+    "githubRepo": "https://github.com/ArcheOne-AI/RoboScript",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
   },
   {
@@ -41,7 +41,7 @@
     "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 48,
+    "upvotes": 53,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/yukyeongleee/wikitrace",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -53,7 +53,7 @@
     "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 98,
+    "upvotes": 99,
     "org": "robbyant",
     "githubRepo": "https://github.com/Robbyant/lingbot-touch",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -151,7 +151,7 @@
     "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the…",
     "publishedAt": "2026-11-02T20:53:15.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 62,
+    "upvotes": 63,
     "org": "stepfun-ai",
     "githubRepo": "https://github.com/SinuoWang/P2-MOPD",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
@@ -163,7 +163,7 @@
     "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 53,
     "org": "autolab-sjtu",
     "githubRepo": "https://github.com/AutoLab-SAI-SJTU/A2MEAS",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -187,7 +187,7 @@
     "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules and models encode…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 39,
+    "upvotes": 40,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"

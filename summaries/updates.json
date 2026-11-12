@@ -3928,10 +3928,10 @@
     "category": "research"
   },
   "d8887a09bc5ec1d4": {
-    "hash": "2bc20adb6dbc",
-    "summary": "Anthropic Engineering explained that for Claude to learn from experience it must decide what is worth remembering before it knows what is next, and how dreaming helps organize memory and correct mistakes.",
-    "benefit": "Developers building agents with memory get Anthropic's approach to choosing what to store and using dreaming to correct mistakes.",
-    "category": "research"
+    "hash": "87395c2013f6",
+    "category": "research",
+    "summary": "Anthropic sets out the components of agent memory, arguing that for Claude to learn from experience it has to decide what is worth remembering before it knows what is next. The post describes how \"dreaming\" helps it organize memory and correct mistakes.",
+    "benefit": "People building agents that improve with use get Anthropic's account of how memory is selected, organized and corrected, which is what decides whether experience actually helps."
   },
   "fa69cf987a95d048": {
     "hash": "7cb353b0e701",
@@ -4451,5 +4451,147 @@
     "hash": "0d3b60074231",
     "summary": "Mistral Vibe v3.1.2 lets installed plugins be turned off with the disabled_plugins setting while staying installed, lets plugins ship off by default with defaultEnabled false and be turned on with enabled_plugins, and adds /skills listing installed skills one row per name with search and a toggle.",
     "benefit": "Mistral Vibe users can mute unwanted plugins and switch individual skills on or off per session instead of uninstalling them."
+  },
+  "f3cf1418c9269a8d": {
+    "hash": "b03873032864",
+    "summary": "Amazon adds DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B to Amazon SageMaker JumpStart. Both are open-source, self-scaffolding agentic coding models under the MIT license, which the post says reach state-of-the-art performance among open-source models of comparable size on coding.",
+    "benefit": "Teams on AWS can reach two more open-source agentic coding models through the existing SageMaker JumpStart portfolio of foundation models."
+  },
+  "2a6900735adaed7f": {
+    "hash": "ba4c9290b5e3",
+    "summary": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash and DeepSeek-V4.1-Flash are now available on Amazon SageMaker JumpStart. The post describes them as open-weight Mixture-of-Experts language models released under the MIT license for reasoning, coding and agentic workloads.",
+    "benefit": "AWS customers can choose three MIT-licensed DeepSeek MoE models for reasoning, coding and agentic workloads directly from the SageMaker JumpStart portfolio."
+  },
+  "3bb3af59874accc9": {
+    "hash": "86f71c2029eb",
+    "summary": "Amazon announces usage-based metering for Amazon SageMaker AI bidirectional streaming, framed as a software billing problem for real-time speech AI. Customers still pay for the endpoint infrastructure hosting the model, while AWS Marketplace providers can charge for what customers consume during a live stream.",
+    "benefit": "Builders of real-time speech AI get a billing path where the model provider is paid for what is consumed during a live stream, alongside the hosting cost."
+  },
+  "4e3e5904c85ae763": {
+    "hash": "c5684c6ff651",
+    "summary": "OpenAI publishes a customer story about Singapore Airlines, which uses OpenAI models and the API to enhance customer support, travel discovery and employee productivity. The post says it doubled CSAT for its Kris chatbot.",
+    "benefit": "Travel and hospitality teams get a production reference for chatbot support, discovery and employee productivity, with Kris chatbot CSAT as the stated outcome."
+  },
+  "2b28b84b904e42b5": {
+    "hash": "2941d1618344",
+    "category": "feature",
+    "summary": "Meta describes Intelligent Delivery, an ML-driven system that allocates resources across its ads serving stack toward the system-wide outcome. The post says ads ranking models are growing toward LLM scale faster than the hardware that runs them, and that extra compute helps some requests, models and chips more.",
+    "benefit": "Engineers whose ranking models outgrow their hardware get a worked example of deciding where to spend each extra unit of compute instead of scaling everything evenly."
+  },
+  "2640c950f45f4582": {
+    "hash": "440a22d35eed",
+    "summary": "NVIDIA has published MetricTrail on Hugging Face under the nvidia organisation. The feed entry records only that its license is other, with no description of what the model does.",
+    "benefit": "Builders who come across MetricTrail know the model card carries no description and the license is listed as other, so reuse terms need checking there."
+  },
+  "0566809c65753b53": {
+    "hash": "bbef83f104ac",
+    "category": "developer",
+    "summary": "AWS shows how to use OpenAI Codex on Amazon Bedrock, with Codex using Amazon Bedrock for inference with supported OpenAI models. The post frames the problem as making those tools available without creating a second model-access, identity and operations stack, and fits the path into AWS identity and operations.",
+    "benefit": "Developers already pointing Codex at supported OpenAI models can do inference through Amazon Bedrock while platform teams keep a single identity and operations stack."
+  },
+  "8b208eddf6e27264": {
+    "hash": "4a442913e3f4",
+    "category": "developer",
+    "summary": "AWS rounds up what landed for AI builders in October 2026, stating that builders should choose the right model for every task, trust their agents in production and see clearly what their AI workloads cost. It points to Amazon Bedrock and Amazon Bedrock AgentCore as the foundation it extends.",
+    "benefit": "Builders on AWS get one recap of the month's Bedrock and AgentCore additions before deciding which models and agent tooling to adopt next."
+  },
+  "2f5ac4847b023025": {
+    "hash": "eb0513f22cc9",
+    "summary": "AWS and DXC Technology's Nick Tamburro describe how DXC built a multi-model AI substrate on Amazon Bedrock. When an agent can act on a production server at a bank or hospital, the post says access to a capable model is only the starting point and the real risk is an agent holding more authority than its task.",
+    "benefit": "Teams letting agents touch production systems get a customer example of treating authority and governance, not model capability, as the main risk to design around."
+  },
+  "f28f90d2895a812c": {
+    "hash": "8a12062a32c8",
+    "summary": "OpenAI publishes a conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin, on rethinking the business of law with AI.",
+    "benefit": "Readers get the view of a firm's chief executive on applying AI to the business of law, rather than a product announcement."
+  },
+  "80b38ea7da372c49": {
+    "hash": "3eb3da05f4b6",
+    "category": "promo",
+    "summary": "OpenAI says more than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus, and shows how they use it to prepare for civilian careers.",
+    "benefit": "Veterans and transitioning service members have a named route to a free year of ChatGPT Plus, with examples of using it to prepare for civilian careers."
+  },
+  "8c999d6885d24711": {
+    "hash": "96cb00541cd7",
+    "summary": "OpenAI shares lessons from JioStar's Vijay Seshadri on AI discovery at 500M-user scale, covering evals, guardrails and taking AI into production.",
+    "benefit": "Engineers scaling discovery and recommendation systems get a practitioner's account of evals and guardrails at a 500M-user scale the post attributes to JioStar."
+  },
+  "1ff74ee2cb106637": {
+    "hash": "64ae491fd7a1",
+    "summary": "OpenAI writes about Cogent, which combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents, framed as building cyber defense factories for enterprises.",
+    "benefit": "Security teams get an agentic approach that uses their own enterprise context to remediate vulnerabilities instead of only reporting them."
+  },
+  "cce714811b519a82": {
+    "hash": "569d5bafbf2f",
+    "summary": "Google introduces the Gemini Decisions API, powered by its Gemini Decision model, which the post describes as its state-of-the-art model for fast, calibrated multimodal decisions.",
+    "benefit": "Developers who need fast, calibrated decisions over multimodal input get a purpose-built API instead of deriving that behaviour from a general model."
+  },
+  "bad6ee94c35695d3": {
+    "hash": "36c43f65f9b8",
+    "summary": "Google Labs opens a waitlist for Tabletop, described as a new experiment for group collaboration where people build interactive itineraries, polls and brackets with their team.",
+    "benefit": "Groups planning trips, votes or bracket-style activities get a shared Google Labs space to build them together, accessible now through a waitlist."
+  },
+  "e879c6fc35d4933f": {
+    "hash": "16cc303c913d",
+    "category": "research",
+    "summary": "Google DeepMind presents AlphaGenome 2, which the post describes as deciphering how cells read DNA to better understand disease, by predicting how DNA sequences and their variations impact specific human cell types and disease.",
+    "benefit": "Researchers studying gene regulation get a model aimed at the cell-type and disease effects of DNA sequence variations."
+  },
+  "14eef01dc0f429cb": {
+    "hash": "e5aaf2941918",
+    "summary": "A new online archive of Dr. Esther Mahlangu's life and art is now available on Google Arts & Culture.",
+    "benefit": "People interested in Dr. Esther Mahlangu's work get a single online archive of her life and art on Google Arts & Culture."
+  },
+  "3beb9de1922ea0ed": {
+    "hash": "8c5ebcb4fd6b",
+    "summary": "AWS describes automating AWS Agent Registry updates with a push-based architecture. The registry, a capability of Amazon Bedrock AgentCore, must change every time a published Model Context Protocol server gains a tool or updates its schema; without sync, the post says consumers discover stale metadata.",
+    "benefit": "Organisations managing multiple MCP servers across accounts can keep catalog records current within existing governance instead of relying on manual registry updates."
+  },
+  "6a701461aeac17a9": {
+    "hash": "8c8977789ccf",
+    "summary": "NVIDIA covers validating GPU platforms with a runtime AI inventory via the NVIDIA DSX AI Factory. The post argues teams scaling AI workloads with NVIDIA Dynamo, Kubeflow or Slurm need visibility beyond the configuration captured in a recipe, since application teams define those workloads independently.",
+    "benefit": "Platform teams get a way to confirm what actually runs on a GPU fleet, rather than inferring it from the recipe the platform was configured with."
+  },
+  "498235750ac835dc": {
+    "hash": "b118adc60ed4",
+    "category": "research",
+    "summary": "IBM tracks progress on the path to IBM Quantum Starling, saying advances across parallel technology areas are laying the groundwork for fault-tolerant quantum computing by the end of the decade.",
+    "benefit": "People tracking quantum roadmaps get IBM's stated basis for fault-tolerant computing by the end of the decade and where the parallel advances sit."
+  },
+  "1ca40312dea72d3c": {
+    "hash": "b118adc60ed4",
+    "category": "research",
+    "summary": "IBM reports progress toward IBM Quantum Starling, describing advances across parallel technology areas that it says lay the groundwork for fault-tolerant quantum computing by the end of the decade.",
+    "benefit": "People tracking quantum roadmaps get IBM's stated basis for fault-tolerant computing by the end of the decade and where the parallel advances sit."
+  },
+  "f4c8bad7b8512fae": {
+    "hash": "329c35fdbe40",
+    "summary": "Google GenAI SDK (Python) v3.2.0 adds the Decisions API through client.decisions.create to the GenAI SDKs. For environments it introduces a self-hosted BYOS mode together with system_instruction, custom_config and environment_key in the SDKs and CLI.",
+    "benefit": "Python developers can call the Decisions API from the GenAI SDK and run self-hosted BYOS environments with their own system instruction, custom config and environment key."
+  },
+  "7026ee2cddf14dd4": {
+    "hash": "5c569d8490da",
+    "summary": "AWS presents UAEF, a framework-agnostic system for closed-loop evaluation of AI agents. The post notes teams build agents on LangGraph, LangChain, Strands Agents and Amazon Bedrock AgentCore, that each records execution in its own way, and that evaluation tooling follows those same boundaries.",
+    "benefit": "Agent teams can evaluate across LangGraph, LangChain, Strands Agents and Bedrock AgentCore instead of rebuilding metrics, scoring logic and result storage per framework."
+  },
+  "a0a8bd68435e7a18": {
+    "hash": "4ae9c9352588",
+    "summary": "AWS describes building autonomous AI agents with Amazon Bedrock and Spring AI. Java teams have established JVM tooling and CI/CD pipelines, the post notes, yet moving agents from prototype to production is hard because agent frameworks do not solve scalability, governance, security and operations by default.",
+    "benefit": "Java teams can build agents that plan and call tools and APIs on Amazon Bedrock through Spring AI, addressing the scalability, governance and security gaps the framework leaves open."
+  },
+  "539ff4996b110b45": {
+    "hash": "221133121c04",
+    "summary": "IBM looks at IBM Quantum Developer Conference 2026, which the post says brings advances in hardware, software and applications for turning quantum advantage into real-world impact, and outlines what comes next.",
+    "benefit": "Teams weighing quantum projects get the hardware, software and application advances IBM positions as moving quantum advantage toward real-world impact."
+  },
+  "62cce6c675498a04": {
+    "hash": "007dee361c4f",
+    "summary": "IBM publishes a developer's guide to the hardware, software and workflows unveiled at IBM Quantum Developer Conference 2026.",
+    "benefit": "Quantum developers get one guide to what QDC 2026 introduced, so they can see which new hardware, software and workflows apply to their own work."
+  },
+  "a88694d5064260ea": {
+    "hash": "210ac488506c",
+    "summary": "Codex CLI rust v0.167.2 makes Codex send tool updates incrementally by default on Google Cloud Vertex AI. To opt out, users set incremental_tools_legacy_gcp to false under [features] in config.toml.",
+    "benefit": "Developers running Codex against Google Cloud Vertex AI get incremental tool updates without configuring anything, with a documented switch back to the legacy path."
   }
 }
