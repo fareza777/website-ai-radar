@@ -175,6 +175,16 @@ export const CURATED_DEALS: CuratedDeal[] = [
     mustContain: "Free for everyone",
     lab: "anthropic",
   },
+  {
+    id: "openrouter-free-plan",
+    title: "OpenRouter — Free plan",
+    provider: "OpenRouter",
+    kind: "free-tier",
+    description:
+      "OpenRouter lists a Free plan with access to its free models and free providers, a 50 requests/day rate limit, community support, and platform fees shown as N/A.",
+    url: "https://openrouter.ai/pricing",
+    mustContain: "Get started for free",
+  },
 ];
 
 export const DEAL_SIGNALS = {

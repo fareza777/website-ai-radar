@@ -11,17 +11,18 @@
     "verified": true,
     "publishedAt": "2026-11-12T21:29:07.000Z",
     "firstSeenAt": "2026-11-13T01:55:24.398Z",
-    "updatedAt": "2026-11-12T21:29:07.000Z",
-    "excerpt": "Release 0.168.0",
+    "updatedAt": "2026-11-13T04:01:40.149Z",
+    "excerpt": "New Features Browse model providers under Sessions → Model providers and choose the default for new chats. ( #59541 , #59722 ) Enable features.tui_workspace to view a side conversation beside the main chat. Drag the divider to resize the panes or press leader z to zoom the focused pane. ( #58992 , #59527 , #59595 ) Attach recordings when using an audio-capable model. Codex skips confirmed rejected recordings on…",
     "summary": "OpenAI shipped Codex CLI rust v0.168.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
     "tags": [
-      "coding"
+      "coding",
+      "audio"
     ],
     "importance": 45,
-    "contentHash": "203ac7011de5",
+    "contentHash": "84fdf04e293b",
     "meta": {
       "version": "v0.168.0",
       "semver": "minor",

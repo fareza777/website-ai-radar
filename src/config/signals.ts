@@ -139,7 +139,7 @@ export const PULSE = {
 export const LAB_SOCIAL: Record<string, { x: string[]; threads: string[] }> = {
   openai: { x: ["OpenAI", "OpenAIDevs", "OpenAINewsroom", "ChatGPT", "ChatGPTapp"], threads: [] },
   anthropic: { x: ["AnthropicAI", "claudeai", "ClaudeDevs"], threads: [] },
-  "google-deepmind": { x: ["GoogleDeepMind", "GoogleAI", "GoogleAIStudio", "GeminiApp"], threads: [] },
+  "google-deepmind": { x: ["GoogleDeepMind", "GoogleAI", "GoogleAIStudio", "GeminiApp", "googleaidevs"], threads: [] },
   // renamed twice in 2026: xAI -> SpaceXAI (Jul) -> SpaceX Super Intelligence, handle @SpaceXSI (verified via X oEmbed)
   // @bot added 2026-11-11: oEmbed author is "Grok Bot", which posts Grok Bot product notices in first person
   xai: { x: ["spacexsi", "grok", "bot"], threads: [] },
@@ -156,7 +156,8 @@ export const LAB_SOCIAL: Record<string, { x: string[]; threads: string[] }> = {
   amazon: { x: ["awscloud", "AmazonScience"], threads: [] },
   baidu: { x: ["Baidu_Inc"], threads: [] },
   tencent: { x: ["TencentHunyuan"], threads: [] },
-  bytedance: { x: ["ByteDanceOSS"], threads: [] },
+  // verified 2026-11-13: model/research drops come from @ByteDanceSeed_ (Seed); @ByteDanceOSS only carries open-source project news
+  bytedance: { x: ["ByteDanceOSS", "ByteDanceSeed_"], threads: [] },
   // verified 2026-11-05: @NVIDIAAIDev is inactive and points to @NVIDIAAI, which posts the developer news
   nvidia: { x: ["nvidia", "NVIDIAAIDev", "NVIDIAAI"], threads: [] },
   ai21: { x: ["AI21Labs"], threads: [] },

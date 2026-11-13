@@ -44,11 +44,6 @@
     "unique": "It is Z.ai's own harness for coding agents, built to be extended.",
     "benefit": "Developers using Z.ai can run coding agents through an extensible harness."
   },
-  "dd9680e2ccb138fc": {
-    "summary": "SCM does deep AI search over every photo and every frame of video in any folder on macOS.",
-    "unique": "Search covers both still photos and individual video frames in local Mac folders.",
-    "benefit": "Mac users can find a moment in a local video or photo library by searching with AI."
-  },
   "70cce2d5dd72d1ca": {
     "summary": "magpie puts every agent's model in one menu-bar place, including Codex on DeepSeek and Claude Code on Kimi.",
     "unique": "You can point Codex at DeepSeek and Claude Code at Kimi from the menu bar.",
@@ -796,10 +791,16 @@
     "unique": "Its angle is the coding agent rather than the reader: it is meant to be given to an agent to follow.",
     "benefit": "Teams that write code with agents get a source to point agents at for current web best practices."
   },
-  "7cf8c63b2923c110": {
-    "hash": "ea0f61d0",
-    "summary": "ember-cloudflare is an open-source chat application on GitHub, inspired by Slack and Campfire, that the description says deploys to Cloudflare with one click.",
-    "unique": "Pairs a Slack and Campfire inspired chat UI with a one-click deploy path to Cloudflare.",
-    "benefit": "Teams wanting Slack-style channels running on their own Cloudflare account get a codebase to deploy instead of building the chat layer from scratch."
+  "4820e3d1881034c2": {
+    "hash": "bfc3b1ac",
+    "summary": "yogurt is a free, open-source app for private AI meeting notes, built with Electron for macOS and Linux, using local AI through llama.cpp and exposing MCP.",
+    "unique": "It keeps meeting notes local, running the AI on your own machine through llama.cpp rather than sending call audio to a hosted service.",
+    "benefit": "People who cannot let call audio leave their computer get a free, open-source notes app that runs on macOS or Linux."
+  },
+  "f49437252f89f8fc": {
+    "hash": "409af837",
+    "summary": "smolmaxxing is a GitHub project working on running different LLMs on the smallest devices possible.",
+    "unique": "It targets small hardware rather than model size, aiming at fitting different LLMs onto the smallest devices available.",
+    "benefit": "Developers with limited hardware get a project aimed at running different LLMs on small devices instead of a workstation."
   }
 }

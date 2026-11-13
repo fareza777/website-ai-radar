@@ -3203,10 +3203,9 @@
     "category": "developer"
   },
   "f9f11eb14dc07ba3": {
-    "hash": "22dababcc0d3",
-    "summary": "This will help strengthen Canada's sovereign AI capabilities through investments in talent, research, infrastructure, and commercialization.",
-    "benefit": "Teams using these tools can use this update to see what changed and whether it affects their workflows.",
-    "category": "research"
+    "hash": "46590684ef8c",
+    "summary": "Cohere says it is advancing a C$4 billion commitment to strengthen Canada's AI leadership and significantly expand its national workforce.",
+    "benefit": "A stated step in Cohere's national AI investment and workforce expansion in Canada, worth reading if you track sovereign AI capacity."
   },
   "483c01c10f1188d9": {
     "hash": "fa6769bb27cb",
@@ -4418,9 +4417,9 @@
     "benefit": "Healthcare operators see agents carrying high-volume provider contract negotiation instead of manual back-and-forth."
   },
   "405fdcad1ce1a75c": {
-    "hash": "ca61376b2262",
-    "summary": "NVIDIA said at KubeCon + CloudNativeCon that it is deepening its open source commitment by contributing NVIDIA OpenShell, an open source runtime, along with new AI infrastructure for the demands Kubernetes faces across thousands of AI factories.",
-    "benefit": "Platform teams running AI factories get an NVIDIA-contributed open source runtime aimed at scaling Kubernetes for that workload."
+    "hash": "56b66f4d3769",
+    "summary": "At KubeCon + CloudNativeCon, NVIDIA says it is deepening its open source commitment by contributing NVIDIA OpenShell, an open source runtime, alongside new AI infrastructure for the Kubernetes workloads running across AI factories.",
+    "benefit": "Teams running Kubernetes-based AI infrastructure get an NVIDIA open source runtime to evaluate rather than a closed alternative."
   },
   "1dc08ada76bb0ad2": {
     "hash": "340199a645bb",
@@ -4593,5 +4592,211 @@
     "hash": "210ac488506c",
     "summary": "Codex CLI rust v0.167.2 makes Codex send tool updates incrementally by default on Google Cloud Vertex AI. To opt out, users set incremental_tools_legacy_gcp to false under [features] in config.toml.",
     "benefit": "Developers running Codex against Google Cloud Vertex AI get incremental tool updates without configuring anything, with a documented switch back to the legacy path."
+  },
+  "05f1e3cef6173c85": {
+    "hash": "a0702ee50af0",
+    "summary": "Anthropic publishes a guide to using Claude Opus 5.5 as a daily driver for knowledge work. Opus 5.5 is the default model in Claude on Pro, Max, Ultra, and Team plans, and the post covers how it compares with Claude's other models and how to get the most from it.",
+    "benefit": "Pro, Max, Ultra and Team subscribers get one reference for how Opus 5.5 compares with the other Claude models and how to use it day to day for knowledge work."
+  },
+  "a8d5fa7d24b3647f": {
+    "hash": "fbd5e085a32c",
+    "summary": "Google DeepMind publishes an announcement titled Introducing Gemini 4 Hydrogen.",
+    "benefit": "Anyone tracking Google's Gemini releases gets the page where Gemini 4 Hydrogen is announced."
+  },
+  "482148aaa5ddfc2a": {
+    "hash": "cb5d1af734ff",
+    "summary": "Google introduces Gemini 4 Hydrogen, a new model for cost-efficient agentic coding and debugging, and says developers can start building with it in Google AI Studio today.",
+    "benefit": "Developers get a Google model aimed at agentic coding and debugging at low cost, available to build with now in Google AI Studio."
+  },
+  "ad614f81e42f72e5": {
+    "hash": "e0d238eea2ff",
+    "summary": "Google is bringing Gemini 4 Hydrogen to Google Search globally, saying this will provide more helpful, visual, and intuitive responses.",
+    "benefit": "Search users around the world get responses that Google says will be more helpful, visual, and intuitive with Gemini 4 Hydrogen behind them."
+  },
+  "6b5db77df3bfd94b": {
+    "hash": "5c526752bdef",
+    "summary": "Anthropic introduces Claude for Manufacturing, a new plugin with 17 skills and four connectors that helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.",
+    "benefit": "Manufacturing teams can draft quotes, quality reports and supplier requests out of the systems they already run instead of rebuilding those workflows."
+  },
+  "21ab7432dba474e0": {
+    "hash": "500ce5923982",
+    "summary": "Anthropic introduces Claude Meetings, which adds Claude to your video call and gets the work started while you talk.",
+    "benefit": "Meeting attendees get the follow-up work begun during the call itself rather than after it ends."
+  },
+  "b95791744e5c9319": {
+    "hash": "59f174c51551",
+    "summary": "Meta AI publishes meta-encoder-v1 on Hugging Face, listed for the feature-extraction task.",
+    "benefit": "Developers working on feature extraction have a new Meta AI model to evaluate for their own pipelines."
+  },
+  "5b0f73df89a6e310": {
+    "hash": "c7ef08a6947a",
+    "summary": "OpenAI describes how Amplitude ships product improvements in 1-2 days with OpenAI models. Amplitude's proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+    "benefit": "Product teams get a worked example of an agent that picks what to build, ships the change with coding agents and then measures the impact."
+  },
+  "6578ed46a2a1a44d": {
+    "hash": "1aee4a5f1ef1",
+    "summary": "Cohere welcomes Jaya Baloo as its first CISO, describing her as a cybersecurity leader and AISLE co-founder joining to help build what Cohere calls the world's most trusted platform for sovereign AI.",
+    "benefit": "Names the security lead behind Cohere's push to build what it calls the world's most trusted platform for sovereign AI."
+  },
+  "ec886a92fa12a05a": {
+    "hash": "6ea83a06c58d",
+    "summary": "Amazon announces that SGLang-Neuron is publicly available through an AWS Deep Learning Container released by RadixArk in collaboration with Annapurna Labs, so you can serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium using the same SGLang interface as today.",
+    "benefit": "Teams running Trainium can serve models and generate RL rollouts with the SGLang interface they already use, rather than adopting new tooling."
+  },
+  "4e46e49750fb65fe": {
+    "hash": "607d94905211",
+    "summary": "Amazon's next post on Amazon Bedrock spend moves from the Part 1 operating model of attribution with IAM principal tags and Cost and Usage Report 2.0, invocation logging, enforcement at three tiers and a review cadence, to optimizing cost per task and proving whether agent spend was well spent.",
+    "benefit": "Teams that already know who spends their Bedrock budget get the follow-up: judging whether that spend paid off per agent task."
+  },
+  "83054ecb029e1c53": {
+    "hash": "9d9f64ce4a12",
+    "summary": "Amazon shows how to build a self-service large language model gateway with Amazon Bedrock and LiteLLM, so developers reach foundation models with minimal setup while platform teams monitor latency and errors, finance teams attribute inference costs and security teams keep consistent access controls.",
+    "benefit": "Platform teams can hand developers self-service access to Bedrock foundation models without giving up latency monitoring, per-team cost attribution or consistent access control."
+  },
+  "6d29ea24a6e6fee7": {
+    "hash": "07619b1442a9",
+    "summary": "Amazon's Agent Toolkit for AWS includes a migration guide that moves teams from a customer-managed knowledge base on Amazon Bedrock, where they provision the vector store and tune embedding and index settings, to Amazon Bedrock Managed Knowledge Base, which takes over that work.",
+    "benefit": "Teams operating their own vector store on Bedrock get a guided path to the managed knowledge base, worked through with their coding agent."
+  },
+  "90d79223706ea3ab": {
+    "hash": "a7598c8813ee",
+    "summary": "OpenAI says Gondola doubled revenue while its team builds more with Codex, which it says raised its lead engineer's output by 50%, with ChatGPT simplifying daily work.",
+    "benefit": "Small product teams get a concrete example of where Codex changed engineering output and where ChatGPT changed everyday work."
+  },
+  "f1ce83f7dbbe9dc6": {
+    "hash": "a5e2ffaa5621",
+    "summary": "OpenAI describes how it runs persistent agents like OpenClaw by combining trusted control-plane services, Codex sandboxing, auto-review, agent identity and observability.",
+    "benefit": "Teams building long-running agents get a reference for the pieces OpenAI relies on: sandboxing, automatic review, agent identity and observability."
+  },
+  "5b59c75a11e5ce1d": {
+    "hash": "8dc435ca696f",
+    "summary": "Anthropic introduces self-hosted Claude Managed Agents, so agents can run in your own environment, in your own cloud or on-premise. You host the agents, credentials and session history, and choose where requests to Claude are sent.",
+    "benefit": "Security- and compliance-minded teams can keep agent code, credentials and session history inside their own perimeter instead of a vendor-hosted setup."
+  },
+  "103f6398ed67445d": {
+    "hash": "21bce5d1c76f",
+    "summary": "Anthropic describes J.Crew's new Style Advisor, which uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.",
+    "benefit": "Retailers get a live example of an assistant recommending complete looks rather than single products, and shoppers see styled outfits."
+  },
+  "cb86ca9a5a41005e": {
+    "hash": "790768eef7ab",
+    "summary": "Amazon walks through how Natera's lab engineering team worked with AWS to build SWARM (Systematic Workflow Analytics and Resolutions Manager), an agentic AI system for lab operations using Amazon Bedrock AgentCore, at a cell-free DNA testing company where equipment downtime disrupts sample processing.",
+    "benefit": "Teams running physical operations such as labs get a pattern for using agents to keep instruments running instead of losing throughput to downtime."
+  },
+  "c8c5dc29297d2e3d": {
+    "hash": "7aeea2ea0351",
+    "summary": "Amazon shows how to track and cap Amazon Bedrock spend per IAM principal with Cost and Usage Report 2.0 and AWS Budgets, answering what an organization spends per person or team, whether it can be capped, and how much work that takes.",
+    "benefit": "CFOs and CTOs get a repeatable way to attribute Bedrock spend to individual principals and cap it before widening AI access."
+  },
+  "85bacafff42444d7": {
+    "hash": "f615980b6e27",
+    "summary": "Amazon writes about running agents securely and efficiently with the next generation AgentCore runtime, citing that the length of task frontier agents complete on their own doubles about every four months and that large enterprises scaling AI agents rose from 27 percent to 40 percent in a year.",
+    "benefit": "Architects planning long-running agents get AWS's case for shifting attention from what agents can do to how securely and efficiently they run."
+  },
+  "9ed2099ae4857f6f": {
+    "hash": "c82ff9e55be6",
+    "summary": "Amazon covers fine-grained access control for Amazon Bedrock Managed Knowledge Base tools, asking whether an agent that searches internal documents on a user's behalf can be restricted to only the information that user is allowed to see.",
+    "benefit": "Enterprises heading toward many agents wired to many data sources get a way to keep each agent's retrieval inside the requesting user's permissions."
+  },
+  "7ce5d97edcb4aec4": {
+    "hash": "04a65e8bf6ab",
+    "summary": "New runtimes in Amazon Bedrock AgentCore now use the next generation AgentCore runtime by default. It restores each session from a snapshot of your initialized agent, scales compute and memory with the work, scales idle agents to zero, and keeps each session in its own hardware-isolated Firecracker microVM.",
+    "benefit": "Builders on AgentCore inherit snapshot restore, scaling with the work and scale-to-zero for idle agents without changing how they deploy."
+  },
+  "164bcb113753c627": {
+    "hash": "5c98433575b2",
+    "summary": "Amazon MWAA Serverless now supports DuckDB operators for in-memory analytics directly in workflows, including querying data in Amazon S3 or running analytics locally without manual credential configuration. The operators are also supported in SageMaker Unified Studio visual workflows.",
+    "benefit": "Data engineers get in-memory DuckDB analytics inside existing MWAA Serverless workflows, including S3 queries, without configuring credentials by hand."
+  },
+  "2b041514b02654c6": {
+    "hash": "2461197cf6e4",
+    "summary": "IBM Research explains what a spin qubit is, describing encoding quantum information in the spins of electrons as a possible path toward building larger quantum computers.",
+    "benefit": "Readers new to quantum hardware get the specific idea behind spin qubits and why it could lead to larger machines.",
+    "category": "research"
+  },
+  "507b21f3c52f6168": {
+    "hash": "84fdf04e293b",
+    "summary": "Codex CLI rust v0.168.0 adds a Sessions model providers browser for choosing the default for new chats, a features.tui_workspace option showing a side conversation beside the main chat with resizable and zoomable panes, and recording attachments when using an audio-capable model.",
+    "benefit": "Codex CLI users get provider switching, a side conversation beside the main chat and audio recording attachments without leaving the terminal."
+  },
+  "b06379671ede1f62": {
+    "hash": "ec09eff0b323",
+    "summary": "OpenAI commits $2 million to research on AI and children's safety, supporting shared tools to measure risks and opportunities for young people.",
+    "benefit": "Researchers working on child safety get funded, shared tooling for measuring risk rather than each team building its own."
+  },
+  "d8d2e1d576a29bb0": {
+    "hash": "4c7453644fee",
+    "summary": "Version 3.3.0 adds interactions-eap packaging with private exports scrubbed, XHIGH and xhigh ThinkingLevel values across the GenAI SDKs and CLI, missing FinishReason and ReinforcementTuningThinkingLevel enum values, and gemini-4-hydrogen in the Model enum.",
+    "benefit": "Python developers get SDK access to gemini-4-hydrogen and the added XHIGH thinking level instead of waiting on a separate integration."
+  },
+  "77dc6766a4b441fb": {
+    "hash": "b4b707e15e72",
+    "summary": "Microsoft Research Focus Edition #98 has host Anson Ho sharing news and research from across Microsoft, including bringing AI-powered universal translation closer to reality, solving a 31-year-old mathematical challenge, and making AI coding agents faster and more efficient.",
+    "benefit": "Researchers and developers get one episode covering translation, a solved math problem and coding-agent efficiency instead of chasing separate posts."
+  },
+  "c4f30a114c593417": {
+    "hash": "4c6bb9ca98f4",
+    "summary": "Microsoft Agent Framework python v1.26.0 lowers Hyperlight dependency floors for the 1.26 release and keeps Hyperlight SDK documentation focused on requirements.",
+    "benefit": "Python users of the framework get looser Hyperlight version requirements, so upgrading needs fewer matching pins."
+  },
+  "c49610fa053ca051": {
+    "hash": "0fc6c5a2b742",
+    "summary": "Strands Agents SDK harness-typescript v0.4.0 is an auto-drafted release of commits since v0.3.4, grouped by conventional-commit type, including a context change where offload conditions decide granularity.",
+    "benefit": "TypeScript developers on Strands Agents get the v0.4.0 changes in one grouped release note, including granularity now decided by offload conditions."
+  },
+  "b4e0335073267e15": {
+    "hash": "8e38e72ec7bc",
+    "summary": "Strands Agents SDK harness-python v0.4.0 collects commits since v0.3.4 by conventional-commit type, including the offload-granularity context change and new mcp work.",
+    "benefit": "Python developers on Strands Agents get the same v0.4.0 release grouping for the Python harness, including its MCP-side changes."
+  },
+  "31d051107dad69a4": {
+    "hash": "a6ca92611eb6",
+    "summary": "Strands Agents SDK mcp v0.4.0 covers commits since v0.3.0 grouped by conventional-commit type, adding a find_integrations tool backed by the catalog feed alongside the offload-granularity context change.",
+    "benefit": "Agents built on the Strands mcp package get a find_integrations tool backed by the catalog feed."
+  },
+  "0990939c7d6ea9f7": {
+    "hash": "da93422a2602",
+    "summary": "OpenAI says Holiday Extras is rethinking what it can build with Codex, turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+    "benefit": "Booking companies see how Codex can turn staff product knowledge into shipped apps and higher booking conversion."
+  },
+  "e89c62d75061c48c": {
+    "hash": "23ba06facdd3",
+    "summary": "Anthropic publishes the Claude Tag guide for startups, covering how leading startups use Claude Tag to ship faster and scale operations.",
+    "benefit": "Startup teams evaluating Claude Tag get worked examples of how other startups use it rather than a feature list."
+  },
+  "e9b2308e4ac312d9": {
+    "hash": "c27b822fafc0",
+    "summary": "Amazon lists four Amazon Bedrock request-level choices that affect cost even when the model and prompt stay the same: cache duration, service tier, reasoning effort and maxTokens, and shows how each was tested and depends on the model and workload.",
+    "benefit": "Developers whose Bedrock bill keeps climbing after prompt tuning get four request-level settings to adjust, with test results per model and workload."
+  },
+  "d24f5d16c26abd73": {
+    "hash": "bb62afa42ffa",
+    "summary": "Tencent's Tencent-Hunyuan GitHub organization publishes ORAV-Bench, listed among its new repositories.",
+    "benefit": "Developers comparing models get a new benchmark repository from Tencent's Hunyuan organization to inspect and run."
+  },
+  "ec65b35340c18391": {
+    "hash": "4f5bc84272f6",
+    "summary": "Anthropic releases Claude Agent SDK for Python v0.2.181, installed with pip install claude-agent-sdk==0.2.181.",
+    "benefit": "Python developers get a specific installable build of the Claude Agent SDK to pin in their own environment."
+  },
+  "1e1f91e95e92e49a": {
+    "hash": "bb16fe84ca19",
+    "summary": "Claude Code v2.1.323 adds Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools, and adds a claude-code engine field to plugin.json so plugins outside their stated Claude Code version range are not installed, updated or loaded.",
+    "benefit": "Teams can have Claude Code drive its tools through JavaScript and stop loading plugins that do not match their Claude Code version range."
+  },
+  "9771f4fc87598eed": {
+    "hash": "2a3ff77418ba",
+    "summary": "Qwen Code desktop v0.27.3 fixes reading prettier's whole ignore set at the base tip, lets an Agent Host retry an enrollment whose answer was lost, shape-checks authorExclude on the inbound task record, and imports Skills from the original Runtime for managed agents.",
+    "benefit": "Qwen Code desktop users get lost enrollment answers retried, inbound task records validated and Skills reused from the original Runtime."
+  },
+  "bf141506f5ceaa22": {
+    "hash": "530eea397e12",
+    "summary": "Qwen Code sdk-typescript v0.1.33 is a TypeScript SDK release built from source on the same branch or ref as the CLI, and its notes list the bundled CLI versions it has carried, including 0.27.3, 0.27.2 and 0.27.1.",
+    "benefit": "TypeScript integrators can see which bundled CLI version an SDK release carries before wiring it into a project."
+  },
+  "130f7e7004533f4e": {
+    "hash": "68553717c3a8",
+    "summary": "Qwen Code v0.27.3 reports no known breaking changes and adds chips above the Web Shell composer for unfinished background workflows, shells, monitors and local agents, replacing the status-bar task pill, plus Chinese localization of GitHub channel event prompts.",
+    "benefit": "Qwen Code users get unfinished background work surfaced above the composer and Chinese-language channel prompts in PR-bound sessions."
   }
 }

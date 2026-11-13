@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:55:24.398Z",
+  "generatedAt": "2026-11-13T04:01:40.149Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -9,12 +9,13 @@
         "google-deepmind"
       ],
       "official": 3,
-      "press": 9,
+      "press": 10,
       "outlets": [
         "9to5Google",
         "Search Engine Roundtable",
         "Ars Technica",
         "PPC Land",
+        "Seeking Alpha",
         "The Decoder",
         "Search Engine Journal",
         "The American Bazaar",
@@ -391,7 +392,7 @@
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 14,
+        "count": 15,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -468,17 +469,17 @@
         "prev": 52,
         "labs": [
           "anthropic",
-          "google-deepmind",
-          "deepseek",
           "openai",
-          "qwen",
+          "deepseek",
+          "google-deepmind",
           "minimax",
+          "qwen",
           "mistral",
-          "bytedance",
           "amazon",
-          "ibm",
           "microsoft",
-          "nvidia"
+          "bytedance",
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -487,16 +488,16 @@
         "prev": 37,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
-          "qwen",
+          "google-deepmind",
           "minimax",
+          "qwen",
           "mistral",
           "cohere",
           "amazon",
-          "ibm",
           "microsoft",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -505,12 +506,12 @@
         "prev": 11,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "cohere",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -519,15 +520,15 @@
         "prev": 11,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "moonshot",
           "minimax",
           "tencent",
           "amazon",
-          "ibm",
           "microsoft",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -546,8 +547,8 @@
         "count": 7,
         "prev": 2,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "amazon",
           "nvidia"
         ]
@@ -563,7 +564,7 @@
       },
       {
         "name": "audio",
-        "count": 4,
+        "count": 5,
         "prev": 1,
         "labs": [
           "anthropic",
@@ -578,8 +579,8 @@
         "prev": 9,
         "labs": [
           "cohere",
-          "bytedance",
-          "amazon"
+          "amazon",
+          "bytedance"
         ]
       }
     ]
