@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-13",
-    "generatedAt": "2026-11-12T20:04:25.319Z",
+    "generatedAt": "2026-11-13T01:55:24.398Z",
     "stats": {
-      "updates24h": 31,
+      "updates24h": 30,
       "labsActive24h": 8,
-      "updates7d": 156,
-      "newModels7d": 41
+      "updates7d": 169,
+      "newModels7d": 44
     },
     "source": "template",
-    "headline": "31 updates from 8 AI labs in the last 24 hours · 41 model releases this week.",
+    "headline": "30 updates from 8 AI labs in the last 24 hours · 44 model releases this week.",
     "bullets": [
       {
         "text": "Google DeepMind: Introducing Gemini 4 Hydrogen",
@@ -22,24 +22,24 @@
         "lab": "google-deepmind"
       },
       {
-        "text": "Amazon: Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
-        "itemId": "f3cf1418c9269a8d",
-        "lab": "amazon"
-      },
-      {
-        "text": "Amazon: DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
-        "itemId": "2a6900735adaed7f",
-        "lab": "amazon"
-      },
-      {
-        "text": "Anthropic: Introducing Claude for Manufacturing",
-        "itemId": "6b5db77df3bfd94b",
-        "lab": "anthropic"
-      },
-      {
         "text": "Meta AI: meta-encoder-v1",
         "itemId": "b95791744e5c9319",
         "lab": "meta"
+      },
+      {
+        "text": "OpenAI: How Amplitude ships product improvements in 1–2 days with OpenAI",
+        "itemId": "5b0f73df89a6e310",
+        "lab": "openai"
+      },
+      {
+        "text": "Amazon: Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+        "itemId": "ec886a92fa12a05a",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Optimizing cost per task and proving agent ROI on Amazon Bedrock",
+        "itemId": "4e46e49750fb65fe",
+        "lab": "amazon"
       }
     ]
   },

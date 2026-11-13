@@ -6,7 +6,7 @@
     "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 87,
+    "upvotes": 88,
     "org": "tsinghua",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
   },
@@ -83,6 +83,18 @@
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
   },
   {
+    "id": "2611.12886",
+    "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+    "url": "https://huggingface.co/papers/2611.12886",
+    "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that treats the…",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "submittedAt": "2026-11-10T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "nju",
+    "githubRepo": "https://github.com/EliYuan30/Reframe",
+    "firstSeenAt": "2026-11-13T01:55:24.398Z"
+  },
+  {
     "id": "2611.08452",
     "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
     "url": "https://huggingface.co/papers/2611.08452",
@@ -114,7 +126,7 @@
     "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a…",
     "publishedAt": "2026-11-05T16:19:52.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 9,
+    "upvotes": 10,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/EDAPINENUT/fewsteprl-sd35",

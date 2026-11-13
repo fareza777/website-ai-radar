@@ -1,5 +1,84 @@
 [
   {
+    "id": "507b21f3c52f6168",
+    "lab": "openai",
+    "title": "Codex CLI rust v0.168.0",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+    "sourceId": "openai-codex",
+    "sourceName": "GitHub · openai/codex",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-12T21:29:07.000Z",
+    "firstSeenAt": "2026-11-13T01:55:24.398Z",
+    "updatedAt": "2026-11-12T21:29:07.000Z",
+    "excerpt": "Release 0.168.0",
+    "summary": "OpenAI shipped Codex CLI rust v0.168.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "203ac7011de5",
+    "meta": {
+      "version": "v0.168.0",
+      "semver": "minor",
+      "repo": "openai/codex",
+      "package": "rust"
+    }
+  },
+  {
+    "id": "5b0f73df89a6e310",
+    "lab": "openai",
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+    "url": "https://openai.com/business/customer-stories/amplitude",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-12T20:00:00.000Z",
+    "firstSeenAt": "2026-11-13T01:55:24.398Z",
+    "updatedAt": "2026-11-12T20:00:00.000Z",
+    "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+    "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 65,
+    "contentHash": "c7ef08a6947a"
+  },
+  {
+    "id": "90d79223706ea3ab",
+    "lab": "openai",
+    "title": "Gondola doubles revenue as its team builds more with Codex",
+    "url": "https://openai.com/business/customer-stories/gondola",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News (RSS)",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "firstSeenAt": "2026-11-13T01:55:24.398Z",
+    "updatedAt": "2026-11-12T12:00:00.000Z",
+    "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+    "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "coding"
+    ],
+    "importance": 55,
+    "contentHash": "a7598c8813ee"
+  },
+  {
     "id": "0990939c7d6ea9f7",
     "lab": "openai",
     "title": "Holiday Extras is rethinking what it can build with Codex",

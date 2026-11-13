@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-11-12T20:04:25.319Z",
+  "generatedAt": "2026-11-13T01:55:24.398Z",
   "stories": [
+    {
+      "id": "482148aaa5ddfc2a",
+      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "entity": "Gemini 4 Hydrogen",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 3,
+      "press": 9,
+      "outlets": [
+        "9to5Google",
+        "Search Engine Roundtable",
+        "Ars Technica",
+        "PPC Land",
+        "The Decoder",
+        "Search Engine Journal",
+        "The American Bazaar",
+        "Interesting Engineering",
+        "VentureBeat",
+        "SiliconANGLE"
+      ],
+      "firstAt": "2026-11-12T18:00:00.000Z",
+      "lastAt": "2026-11-12T22:50:00.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+      "lead": {
+        "kind": "official",
+        "id": "482148aaa5ddfc2a"
+      },
+      "importance": 100
+    },
     {
       "id": "15706f35e993d4cb",
       "title": "Gemini 4 Carbon is now available for developers.",
@@ -46,24 +76,24 @@
       "importance": 100
     },
     {
-      "id": "482148aaa5ddfc2a",
-      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
-      "entity": "Gemini 4 Hydrogen",
+      "id": "05f1e3cef6173c85",
+      "title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
+      "entity": "Claude Opus 5.5",
       "labs": [
-        "google-deepmind"
+        "xai",
+        "anthropic"
       ],
-      "official": 3,
-      "press": 2,
+      "official": 1,
+      "press": 1,
       "outlets": [
-        "9to5Google",
-        "Ars Technica"
+        "Cointribune"
       ],
-      "firstAt": "2026-11-12T18:00:00.000Z",
-      "lastAt": "2026-11-12T19:23:03.000Z",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+      "firstAt": "2026-11-11T11:05:00.000Z",
+      "lastAt": "2026-11-12T00:00:00.000Z",
+      "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
       "lead": {
         "kind": "official",
-        "id": "482148aaa5ddfc2a"
+        "id": "05f1e3cef6173c85"
       },
       "importance": 92
     },
@@ -202,6 +232,7 @@
         "www.trendingtopics.eu",
         "KuCoin",
         "TOKENPOST",
+        "Tech in Asia",
         "Crypto Briefing",
         "TechNode",
         "TradingView"
@@ -235,7 +266,8 @@
         "Pandaily",
         "XenoSpectrum",
         "Tech Times",
-        "mobidevices.com"
+        "mobidevices.com",
+        "Technetbook"
       ],
       "firstAt": "2026-11-06T06:08:16.000Z",
       "lastAt": "2026-11-12T10:58:37.000Z",
@@ -244,7 +276,7 @@
         "kind": "press",
         "id": "qwen:6bf7502fd68b9f"
       },
-      "importance": 62
+      "importance": 63
     },
     {
       "id": "mistral:3ac984c3186f23",
@@ -299,6 +331,30 @@
       "importance": 58
     },
     {
+      "id": "cohere:234d2d221df3e4",
+      "title": "Cohere in a ‘fight’ to secure AI computing power",
+      "entity": null,
+      "labs": [
+        "cohere"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Bloomberg.com",
+        "The Logic",
+        "The Edge Singapore",
+        "The Edge Malaysia"
+      ],
+      "firstAt": "2026-11-11T01:52:29.000Z",
+      "lastAt": "2026-11-11T03:54:01.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT251MWJFbDFCaUVGMXY0c2NhYzVqQ2luYUl3YXlFa0FnUXlXTWVGU0l1MmQwd0txQTd1MF9mcFZVd0hjOFNVVGNvMTZobE53aU5EYjVZaW1FR05uOUFXc2lzajVPY1NOSFIxZVpaYkdGaXN5T1dkSFpsaHYwaWFWc3NZT1J3YUpYRDBVT0xn?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "cohere:234d2d221df3e4"
+      },
+      "importance": 56
+    },
+    {
       "id": "xai:3a30850ef10dd8",
       "title": "India's Coforge joins SpaceX partner network to deploy Grok AI tools for enterprises",
       "entity": null,
@@ -334,6 +390,14 @@
         ]
       },
       {
+        "name": "Gemini 4 Hydrogen",
+        "count": 14,
+        "prev": 0,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
         "name": "ERNIE 5.5 Flash",
         "count": 11,
         "prev": 15,
@@ -346,14 +410,6 @@
         "labs": [
           "anthropic",
           "amazon"
-        ]
-      },
-      {
-        "name": "Gemini 4 Hydrogen",
-        "count": 7,
-        "prev": 0,
-        "labs": [
-          "google-deepmind"
         ]
       },
       {
@@ -383,10 +439,12 @@
         "labs": []
       },
       {
-        "name": "GPT 6 Cyber",
+        "name": "Claude Opus 5.5",
         "count": 3,
-        "prev": 0,
-        "labs": []
+        "prev": 4,
+        "labs": [
+          "anthropic"
+        ]
       },
       {
         "name": "DeepSeek 4.1 Flash",
@@ -399,45 +457,45 @@
       {
         "name": "Mistral Large 4",
         "count": 3,
-        "prev": 11,
+        "prev": 8,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 58,
-        "prev": 48,
+        "count": 62,
+        "prev": 52,
         "labs": [
           "anthropic",
-          "deepseek",
           "google-deepmind",
+          "deepseek",
           "openai",
-          "mistral",
-          "minimax",
           "qwen",
-          "microsoft",
-          "amazon",
+          "minimax",
+          "mistral",
           "bytedance",
+          "amazon",
           "ibm",
+          "microsoft",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 43,
-        "prev": 38,
+        "count": 50,
+        "prev": 37,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
-          "minimax",
           "qwen",
+          "minimax",
+          "mistral",
           "cohere",
-          "microsoft",
           "amazon",
           "ibm",
+          "microsoft",
           "nvidia"
         ]
       },
@@ -458,16 +516,39 @@
       {
         "name": "multimodal",
         "count": 12,
-        "prev": 10,
+        "prev": 11,
         "labs": [
+          "anthropic",
           "google-deepmind",
           "openai",
           "moonshot",
           "minimax",
-          "microsoft",
           "tencent",
           "amazon",
           "ibm",
+          "microsoft",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 7,
+        "prev": 2,
+        "labs": [
+          "anthropic",
+          "qwen",
+          "amazon",
+          "microsoft"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 7,
+        "prev": 2,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "amazon",
           "nvidia"
         ]
       },
@@ -478,28 +559,6 @@
         "labs": [
           "amazon",
           "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 6,
-        "prev": 2,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 5,
-        "prev": 2,
-        "labs": [
-          "anthropic",
-          "qwen",
-          "microsoft",
-          "amazon"
         ]
       },
       {
@@ -515,17 +574,29 @@
       },
       {
         "name": "rag",
-        "count": 4,
-        "prev": 7,
+        "count": 2,
+        "prev": 9,
         "labs": [
           "cohere",
-          "amazon",
-          "bytedance"
+          "bytedance",
+          "amazon"
         ]
       }
     ]
   },
   "unconfirmed": [
+    {
+      "id": "qwen:acb3fb3de13795",
+      "lab": "qwen",
+      "title": "Alibaba launches flagship AI model Qwen 4 Max",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41bU1pNkJ6QW9OZXIxaWNYcVRfNFo4bWc4dDBoY0NkekxZQTdTRXhqSXZOdkdKeHdSaHQxT1NMVEdOVXZVRGxRUEdoTjBncW01Si1idk4wNFk?oc=5",
+      "outlets": [
+        "mobidevices.com",
+        "Technetbook"
+      ],
+      "reports": 2,
+      "at": "2026-11-12T10:58:37.000Z"
+    },
     {
       "id": "google-deepmind:baa6a4789f9065",
       "lab": "google-deepmind",

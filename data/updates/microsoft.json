@@ -1,5 +1,30 @@
 [
   {
+    "id": "77dc6766a4b441fb",
+    "lab": "microsoft",
+    "title": "Microsoft Research Focus – Edition #98",
+    "url": "https://microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98",
+    "sourceId": "msr-blog",
+    "sourceName": "Microsoft Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-12T21:31:57.000Z",
+    "firstSeenAt": "2026-11-13T01:55:24.398Z",
+    "updatedAt": "2026-11-12T21:31:57.000Z",
+    "excerpt": "What’s new in research? In this edition of Microsoft Research Focus , based on the Research Focus newsletter (opens in new tab) , host Anson Ho shares some of the latest news and cutting-edge research from across Microsoft—from bringing AI-powered universal translation closer to reality and solving a 31-year-old mathematical challenge to making AI coding agents faster and more efficient. Catch up on the ideas…",
+    "summary": "What’s new in research? In this edition of Microsoft Research Focus , based on the Research Focus newsletter (opens in new tab) , host Anson Ho shares some of the latest news and cutting-edge research from across…",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 40,
+    "contentHash": "b4b707e15e72"
+  },
+  {
     "id": "c4f30a114c593417",
     "lab": "microsoft",
     "title": "Microsoft Agent Framework python v1.26.0",
@@ -1438,7 +1463,7 @@
     "importance": 68,
     "contentHash": "90524b3b0c7a",
     "meta": {
-      "likes": 180,
+      "likes": 181,
       "downloads": 2189,
       "repo": "microsoft/FrogNano-4B-2609",
       "license": "apache-2.0"
