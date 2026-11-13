@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:11:46.197Z",
+  "generatedAt": "2026-11-13T19:50:14.566Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -9,29 +9,33 @@
         "google-deepmind"
       ],
       "official": 3,
-      "press": 15,
+      "press": 17,
       "outlets": [
+        "MakeUseOf",
+        "Thurrott.com",
         "9to5Google",
         "Search Engine Roundtable",
         "The American Bazaar",
         "Interesting Engineering",
         "The Tech Buzz",
+        "TestingCatalog AI News",
         "Wccftech",
         "Ars Technica",
+        "Technology Org",
         "PPC Land",
         "Seeking Alpha",
         "The Decoder",
         "Search Engine Journal",
         "Mashable",
         "VentureBeat",
-        "TestingCatalog AI News",
         "SiliconANGLE",
-        "MakeUseOf",
         "shattered.io",
-        "www.trendingtopics.eu"
+        "www.trendingtopics.eu",
+        "InfoWorld",
+        "The GitHub Blog"
       ],
-      "firstAt": "2026-11-12T18:00:00.000Z",
-      "lastAt": "2026-11-13T06:48:23.000Z",
+      "firstAt": "2026-11-12T16:14:43.000Z",
+      "lastAt": "2026-11-13T18:23:48.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
       "lead": {
         "kind": "official",
@@ -129,6 +133,28 @@
       "importance": 92
     },
     {
+      "id": "134ab56ca337ce36",
+      "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
+      "entity": "Grok 4.7",
+      "labs": [
+        "xai",
+        "amazon"
+      ],
+      "official": 1,
+      "press": 1,
+      "outlets": [
+        "Crypto Briefing"
+      ],
+      "firstAt": "2026-11-12T23:06:47.000Z",
+      "lastAt": "2026-11-13T13:13:00.000Z",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us",
+      "lead": {
+        "kind": "official",
+        "id": "134ab56ca337ce36"
+      },
+      "importance": 87
+    },
+    {
       "id": "51fd6bae6a94af5c",
       "title": "NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
       "entity": "Nemotron 3.5 Super",
@@ -219,7 +245,7 @@
         "baidu"
       ],
       "official": 0,
-      "press": 17,
+      "press": 19,
       "outlets": [
         "OrcaRouter",
         "Startup Fortune",
@@ -246,10 +272,12 @@
         "TechNode",
         "CASRAI",
         "TradingView",
-        "Yahoo Finance"
+        "Yahoo Finance",
+        "Simply Wall St",
+        "Pasquale Pillitteri"
       ],
       "firstAt": "2026-11-05T06:31:44.000Z",
-      "lastAt": "2026-11-13T06:15:00.000Z",
+      "lastAt": "2026-11-13T18:59:37.000Z",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
       "lead": {
         "kind": "press",
@@ -290,32 +318,6 @@
       "importance": 63
     },
     {
-      "id": "mistral:feb1d4ba1988da",
-      "title": "Mistral Large 4 Is Now Free to Download on Hugging Face",
-      "entity": "Mistral Large 4",
-      "labs": [
-        "mistral"
-      ],
-      "official": 0,
-      "press": 6,
-      "outlets": [
-        "TUN - The University Network",
-        "Crypto Briefing",
-        "OrcaRouter",
-        "www.tokenpost.com",
-        "Fello AI",
-        "IO+"
-      ],
-      "firstAt": "2026-11-03T12:34:00.000Z",
-      "lastAt": "2026-11-11T15:05:10.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzFCNGttaUJCeEdnSVRWTmVLQXdITXdUeC1hdGVkQl8tMkFCanRuWktLTlIwNk15dUducU9ncmdYQTdJWDBkTXViWTdEMUZSY2dPbVJTVWVSQ2NiZkRGTjlESTNoRDBlVW1MMlZ0enBrNjUyUGlMZlFqMm5FcG15aWRZWjdCYzNI?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "mistral:feb1d4ba1988da"
-      },
-      "importance": 58
-    },
-    {
       "id": "qwen:4717b2d69605de",
       "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
       "entity": "Qwen 3.8 27B",
@@ -323,20 +325,71 @@
         "qwen"
       ],
       "official": 0,
-      "press": 4,
+      "press": 5,
       "outlets": [
         "MarkTechPost",
         "Pasquale Pillitteri",
         "The Register",
         "Mezha.net",
-        "news.lavx.hu"
+        "news.lavx.hu",
+        "Cybernews"
       ],
       "firstAt": "2026-11-08T04:45:59.000Z",
-      "lastAt": "2026-11-13T04:14:50.000Z",
+      "lastAt": "2026-11-13T12:40:02.000Z",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbW0teFpVb0xyV2tvek0yZ2s4RmUtRnhTaUkxaWFUcjNVM19QMmFRZVNSbEVERjY3ZlUzVVQ3cmdQc09sanp6NWpjOS1xdXBmNW12bHNjcU93cWdRNndJTkg5clloUlhuOXZMWlNZclpiSy02U3lOY3UyLXJKNExRMHJ5YkszVmNtMnZIWTZ5cXllZ2g1NlN5aWdsLXREd9IBngFBVV95cUxQbW0teFpVb0xyV2tvek0yZ2s4RmUtRnhTaUkxaWFUcjNVM19QMmFRZVNSbEVERjY3ZlUzVVQ3cmdQc09sanp6NWpjOS1xdXBmNW12bHNjcU93cWdRNndJTkg5clloUlhuOXZMWlNZclpiSy02U3lOY3UyLXJKNExRMHJ5YkszVmNtMnZIWTZ5cXllZ2g1NlN5aWdsLXREdw?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:4717b2d69605de"
+      },
+      "importance": 58
+    },
+    {
+      "id": "mistral:d64097c0f1ed56",
+      "title": "Mistral Large 4 deploys 133 agents to find and patch a Django vulnerability",
+      "entity": "Mistral Large 4",
+      "labs": [
+        "mistral"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "Crypto Briefing",
+        "OrcaRouter",
+        "www.tokenpost.com",
+        "Fello AI",
+        "IO+"
+      ],
+      "firstAt": "2026-11-04T10:28:28.000Z",
+      "lastAt": "2026-11-11T15:05:10.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWkthS2otcm9FQWFBRGljVklFNktINGQyUXFLQmo1VHV2Z3MzU1lVbW9kWEJiYlJadUtTeDZzSXRvZVFLQkJqUmtkNF9BV2xBQ3pEcmlmUS1PTkNfRU9pUU5Fcy1GbDhMV0FUZndtUlRORGlWYi1VSG1ac0c3VXp6cw?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:d64097c0f1ed56"
+      },
+      "importance": 57
+    },
+    {
+      "id": "xai:3a30850ef10dd8",
+      "title": "India's Coforge joins SpaceX partner network to deploy Grok AI tools for enterprises",
+      "entity": null,
+      "labs": [
+        "xai"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Reuters",
+        "TradingView",
+        "Verdict",
+        "marketscreener.com",
+        "BusinessLine"
+      ],
+      "firstAt": "2026-11-06T07:42:00.000Z",
+      "lastAt": "2026-11-06T07:50:42.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb1cyOVh0TVhMcTFnU2JaWGYyUW94NVpUWEQ5RE5yLXhEM1lGY0VLZVZnNG1WN0NQMzJjV1M3MlVHak1NQkJ4WG5hVnh0ZHl4Y2xpZ3dMQTQyTWpuU2JqRnJMbW01U2p3bEhGSVFnMENId19DV0JwcU9EUko0WWtNSWJsT3J6RDB0Z21YNmRUZmVLYlRFa0IxS2pwdGhnWVJwTGxVcjBRb1Atd1RBT2Ffb1NfTGRRcThscGVNSWpfMndfSThwUmFJVHRFMi1Fa0doZEtB?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "xai:3a30850ef10dd8"
       },
       "importance": 57
     },
@@ -387,30 +440,6 @@
         "id": "qwen:b3c959bcf9cdc4"
       },
       "importance": 56
-    },
-    {
-      "id": "xai:3a30850ef10dd8",
-      "title": "India's Coforge joins SpaceX partner network to deploy Grok AI tools for enterprises",
-      "entity": null,
-      "labs": [
-        "xai"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Reuters",
-        "TradingView",
-        "Verdict",
-        "marketscreener.com"
-      ],
-      "firstAt": "2026-11-06T07:42:00.000Z",
-      "lastAt": "2026-11-06T07:50:42.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb1cyOVh0TVhMcTFnU2JaWGYyUW94NVpUWEQ5RE5yLXhEM1lGY0VLZVZnNG1WN0NQMzJjV1M3MlVHak1NQkJ4WG5hVnh0ZHl4Y2xpZ3dMQTQyTWpuU2JqRnJMbW01U2p3bEhGSVFnMENId19DV0JwcU9EUko0WWtNSWJsT3J6RDB0Z21YNmRUZmVLYlRFa0IxS2pwdGhnWVJwTGxVcjBRb1Atd1RBT2Ffb1NfTGRRcThscGVNSWpfMndfSThwUmFJVHRFMi1Fa0doZEtB?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "xai:3a30850ef10dd8"
-      },
-      "importance": 56
     }
   ],
   "trending": {
@@ -425,7 +454,7 @@
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 20,
+        "count": 22,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -434,7 +463,7 @@
       {
         "name": "ERNIE 5.5 Flash",
         "count": 9,
-        "prev": 17,
+        "prev": 19,
         "labs": []
       },
       {
@@ -461,6 +490,14 @@
         ]
       },
       {
+        "name": "Qwen 3.8 27B",
+        "count": 4,
+        "prev": 0,
+        "labs": [
+          "tencent"
+        ]
+      },
+      {
         "name": "Claude Opus 5.5",
         "count": 4,
         "prev": 4,
@@ -477,64 +514,50 @@
         ]
       },
       {
-        "name": "Gemini 4 Argon",
-        "count": 4,
+        "name": "Mistral Large 4",
+        "count": 3,
         "prev": 6,
         "labs": []
       },
       {
-        "name": "Qwen 3.8 27B",
+        "name": "Gemini 4 Argon",
         "count": 3,
-        "prev": 0,
-        "labs": [
-          "tencent"
-        ]
-      },
-      {
-        "name": "Qwen 4",
-        "count": 3,
-        "prev": 2,
-        "labs": []
-      },
-      {
-        "name": "Mistral Large 4",
-        "count": 3,
-        "prev": 7,
+        "prev": 6,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 63,
-        "prev": 52,
+        "count": 58,
+        "prev": 54,
         "labs": [
           "anthropic",
-          "deepseek",
           "google-deepmind",
+          "deepseek",
           "openai",
           "mistral",
-          "minimax",
           "qwen",
+          "minimax",
           "microsoft",
           "amazon",
-          "ibm",
           "bytedance",
+          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 51,
-        "prev": 36,
+        "count": 49,
+        "prev": 39,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
+          "qwen",
           "minimax",
           "cohere",
-          "qwen",
           "microsoft",
           "amazon",
           "ibm",
@@ -557,7 +580,7 @@
       },
       {
         "name": "multimodal",
-        "count": 12,
+        "count": 11,
         "prev": 11,
         "labs": [
           "anthropic",
@@ -573,17 +596,6 @@
         ]
       },
       {
-        "name": "mcp",
-        "count": 7,
-        "prev": 2,
-        "labs": [
-          "anthropic",
-          "qwen",
-          "microsoft",
-          "amazon"
-        ]
-      },
-      {
         "name": "reasoning",
         "count": 7,
         "prev": 2,
@@ -595,9 +607,20 @@
         ]
       },
       {
+        "name": "mcp",
+        "count": 6,
+        "prev": 4,
+        "labs": [
+          "anthropic",
+          "qwen",
+          "microsoft",
+          "amazon"
+        ]
+      },
+      {
         "name": "open-source",
-        "count": 7,
-        "prev": 2,
+        "count": 6,
+        "prev": 3,
         "labs": [
           "amazon",
           "nvidia"
@@ -627,6 +650,30 @@
     ]
   },
   "unconfirmed": [
+    {
+      "id": "openai:2dd0cbfffef8ae",
+      "lab": "openai",
+      "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wYUx6c1hJYlJuVVB3MUMxT3ViR21IZWdtXy1RbkQ3c1FGeDVzM2E0VHRNVllGN01FTGFSaURNeS1oUC1leTQ3N05fV0VQR3JvdWJYMjYyNXU2TTZLY00tZU5nbGZfQlBxYnVWaEFGcF9uMTBlR0UtY1d2Sm0?oc=5",
+      "outlets": [
+        "CNBC",
+        "Reuters"
+      ],
+      "reports": 2,
+      "at": "2026-11-13T15:00:01.000Z"
+    },
+    {
+      "id": "baidu:2941a6c5c15788",
+      "lab": "baidu",
+      "title": "Baidu (BIDU) Unveils ERNIE 5.5 As Apollo Go Reaches 28 Cities",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVlA4d2RueU9XdDlTNTdZeHBqNVUtM2NnT25LOTJDeXFHczBNalBhQkZoOFRsZW9NT0dYTHVTVmhXT2JuODQ4Mk90NDRTUUJrTTJJemdoemc4eVFnVDNqVEh6WXdPNTF5b1RWNXB0UmtEUVlXdGM2NWUwLXlld1FBS2RRLU41T3p0RE1Nay1fTFZqX2RV?oc=5",
+      "outlets": [
+        "Yahoo Finance",
+        "Simply Wall St"
+      ],
+      "reports": 2,
+      "at": "2026-11-13T06:15:00.000Z"
+    },
     {
       "id": "qwen:acb3fb3de13795",
       "lab": "qwen",

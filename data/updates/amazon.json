@@ -1,5 +1,114 @@
 [
   {
+    "id": "575b7c25861caba1",
+    "lab": "amazon",
+    "title": "Strands Agents SDK python v1.65.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.65.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-13T18:45:37.000Z",
+    "firstSeenAt": "2026-11-13T19:50:14.566Z",
+    "updatedAt": "2026-11-13T18:45:37.000Z",
+    "excerpt": "python/v1.65.0 Auto-drafted from commits in python/v1.64.0..python/v1.65.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(multiagent): async agent builders; report content-filtered and refused children as tool errors ( #6093 ) ( 3d741b4 ) feat(site): add /frogs page ( #6095 ) ( 9b38e2e )…",
+    "summary": "Amazon shipped Strands Agents SDK python v1.65.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "4bba15199e42",
+    "meta": {
+      "version": "v1.65.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "python"
+    }
+  },
+  {
+    "id": "773ec8d2db34b976",
+    "lab": "amazon",
+    "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-13T18:44:02.000Z",
+    "firstSeenAt": "2026-11-13T19:50:14.566Z",
+    "updatedAt": "2026-11-13T18:44:02.000Z",
+    "excerpt": "Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. The identity flows along with organizational tags, into AWS Cost and Usage Reports (CUR 2.0) and AWS Cost Explorer while keeping data inside the AWS security boundary. This post shows you how to use these capabilities to answer three questions that every FinOps and AI…",
+    "summary": "Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "safety"
+    ],
+    "importance": 30,
+    "contentHash": "e06126164376"
+  },
+  {
+    "id": "0ffc58c8c2c4e49e",
+    "lab": "amazon",
+    "title": "Strands Agents SDK typescript v1.25.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.25.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-13T16:54:31.000Z",
+    "firstSeenAt": "2026-11-13T19:50:14.566Z",
+    "updatedAt": "2026-11-13T16:54:31.000Z",
+    "excerpt": "typescript/v1.25.0 Auto-drafted from commits in typescript/v1.24.0..typescript/v1.25.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(context)!: offload conditions decide granularity (typescript) ( #5325 ) ( 50a391e ) feat(mcp): add find_integrations tool backed by the catalog feed ( #5878…",
+    "summary": "Amazon shipped Strands Agents SDK typescript v1.25.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 40,
+    "contentHash": "7c80e7c1335a",
+    "meta": {
+      "version": "v1.25.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "typescript"
+    }
+  },
+  {
+    "id": "134ab56ca337ce36",
+    "lab": "amazon",
+    "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-13T13:13:00.000Z",
+    "firstSeenAt": "2026-11-13T19:50:14.566Z",
+    "updatedAt": "2026-11-13T13:13:00.000Z",
+    "excerpt": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Grok 4.7 is SpaceXSI's most capable model for coding and knowledge work. It's built to stay focused through hard tasks that run for hours, and it checks its work before moving on. Compared with Grok 4.6, it plans and recovers from errors more reliably in repo-scale coding work. Grok 4.7 is available with experimental support and…",
+    "summary": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "coding"
+    ],
+    "importance": 75,
+    "contentHash": "31db84e79734"
+  },
+  {
     "id": "c49610fa053ca051",
     "lab": "amazon",
     "title": "Strands Agents SDK harness-typescript v0.4.0",

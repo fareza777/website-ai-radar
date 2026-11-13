@@ -1,5 +1,27 @@
 [
   {
+    "id": "6334b4f0dff90073",
+    "lab": "meta",
+    "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
+    "url": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac",
+    "sourceId": "meta-eng",
+    "sourceName": "Engineering at Meta",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-13T17:00:39.000Z",
+    "firstSeenAt": "2026-11-13T19:50:14.566Z",
+    "updatedAt": "2026-11-13T17:00:39.000Z",
+    "excerpt": "Meta’s Reality Labs builds products such as AI glasses . Emulators provide us with a way to scale development and testing without relying on scarce physical hardware. Testing software for non-phone Android devices depends on how closely a virtual device reproduces the software behavior of the physical product. While a lightweight emulator like Goldfish gets you part of the way, differences from the real device can…",
+    "summary": "Meta’s Reality Labs builds products such as AI glasses .",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 35,
+    "contentHash": "8cbf97e145f1"
+  },
+  {
     "id": "b95791744e5c9319",
     "lab": "meta",
     "title": "meta-encoder-v1",
@@ -21,7 +43,7 @@
     "importance": 67,
     "contentHash": "59f174c51551",
     "meta": {
-      "likes": 30,
+      "likes": 31,
       "downloads": 163,
       "repo": "facebook/meta-encoder-v1",
       "pipeline": "feature-extraction"

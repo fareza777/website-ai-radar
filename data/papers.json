@@ -6,7 +6,7 @@
     "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the…",
     "publishedAt": "2026-11-11T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 72,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/holdrain/SO-Arena",
     "firstSeenAt": "2026-11-13T11:11:46.197Z"
@@ -18,10 +18,34 @@
     "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 45,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
+  },
+  {
+    "id": "2611.16748",
+    "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+    "url": "https://huggingface.co/papers/2611.16748",
+    "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in…",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "submittedAt": "2026-11-13T00:00:00.000Z",
+    "upvotes": 41,
+    "org": "dagroup-pku",
+    "githubRepo": "https://github.com/DAGroup-PKU/PhysLoop",
+    "firstSeenAt": "2026-11-13T19:50:14.566Z"
+  },
+  {
+    "id": "2611.13004",
+    "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+    "url": "https://huggingface.co/papers/2611.13004",
+    "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial…",
+    "publishedAt": "2026-11-08T00:00:00.000Z",
+    "submittedAt": "2026-11-13T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "meituan-longcat",
+    "githubRepo": "https://github.com/DAGroup-PKU/G-STAR",
+    "firstSeenAt": "2026-11-13T19:50:14.566Z"
   },
   {
     "id": "2611.17331",
@@ -30,11 +54,23 @@
     "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP…",
     "publishedAt": "2026-11-12T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 18,
+    "upvotes": 19,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVlabs/DVSM",
     "firstSeenAt": "2026-11-13T11:11:46.197Z"
+  },
+  {
+    "id": "2611.17334",
+    "title": "Unbundling Multimodal Vision Encoding",
+    "url": "https://huggingface.co/papers/2611.17334",
+    "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the…",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "submittedAt": "2026-11-13T00:00:00.000Z",
+    "upvotes": 2,
+    "org": "meta",
+    "lab": "meta",
+    "firstSeenAt": "2026-11-13T19:50:14.566Z"
   },
   {
     "id": "2610.40394",
@@ -43,7 +79,7 @@
     "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-12T00:00:00.000Z",
-    "upvotes": 43,
+    "upvotes": 44,
     "org": "internlm",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
   },
@@ -89,7 +125,7 @@
     "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 65,
+    "upvotes": 66,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/yukyeongleee/wikitrace",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -129,6 +165,18 @@
     "org": "shanghai-ai-laboratory",
     "githubRepo": "https://github.com/Alpha-Innovator/Sage-Taiyi",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
+  },
+  {
+    "id": "2611.11995",
+    "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+    "url": "https://huggingface.co/papers/2611.11995",
+    "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation horizon, while 135 of…",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "submittedAt": "2026-11-10T00:00:00.000Z",
+    "upvotes": 43,
+    "org": "uw",
+    "githubRepo": "https://github.com/InfrathonX/Infrathon",
+    "firstSeenAt": "2026-11-13T19:50:14.566Z"
   },
   {
     "id": "2611.12886",
