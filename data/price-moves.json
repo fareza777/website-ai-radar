@@ -1,5 +1,27 @@
 [
   {
+    "id": "33e6e06a85b0bbdf",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-13T11:11:46.197Z",
+    "field": "prompt",
+    "from": 0.022,
+    "to": 0.3,
+    "change": 1263.6
+  },
+  {
+    "id": "53b7b8f4f07fc9b2",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-13T11:11:46.197Z",
+    "field": "completion",
+    "from": 0.4,
+    "to": 1.2,
+    "change": 200
+  },
+  {
     "id": "7d20bd92d7609091",
     "modelId": "moonshotai/kimi-k3.1-pro",
     "name": "MoonshotAI: Kimi K3.1 Pro",

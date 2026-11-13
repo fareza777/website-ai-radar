@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T04:01:40.149Z",
+  "generatedAt": "2026-11-13T11:11:46.197Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -9,22 +9,29 @@
         "google-deepmind"
       ],
       "official": 3,
-      "press": 10,
+      "press": 15,
       "outlets": [
         "9to5Google",
         "Search Engine Roundtable",
+        "The American Bazaar",
+        "Interesting Engineering",
+        "The Tech Buzz",
+        "Wccftech",
         "Ars Technica",
         "PPC Land",
         "Seeking Alpha",
         "The Decoder",
         "Search Engine Journal",
-        "The American Bazaar",
-        "Interesting Engineering",
+        "Mashable",
         "VentureBeat",
-        "SiliconANGLE"
+        "TestingCatalog AI News",
+        "SiliconANGLE",
+        "MakeUseOf",
+        "shattered.io",
+        "www.trendingtopics.eu"
       ],
       "firstAt": "2026-11-12T18:00:00.000Z",
-      "lastAt": "2026-11-12T22:50:00.000Z",
+      "lastAt": "2026-11-13T06:48:23.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
       "lead": {
         "kind": "official",
@@ -85,18 +92,19 @@
         "anthropic"
       ],
       "official": 1,
-      "press": 1,
+      "press": 2,
       "outlets": [
+        "ForkLog",
         "Cointribune"
       ],
-      "firstAt": "2026-11-11T11:05:00.000Z",
+      "firstAt": "2026-11-11T10:23:17.000Z",
       "lastAt": "2026-11-12T00:00:00.000Z",
       "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
       "lead": {
         "kind": "official",
         "id": "05f1e3cef6173c85"
       },
-      "importance": 92
+      "importance": 94
     },
     {
       "id": "ffe8a09e969fa29a",
@@ -211,7 +219,7 @@
         "baidu"
       ],
       "official": 0,
-      "press": 16,
+      "press": 17,
       "outlets": [
         "OrcaRouter",
         "Startup Fortune",
@@ -236,16 +244,18 @@
         "Tech in Asia",
         "Crypto Briefing",
         "TechNode",
-        "TradingView"
+        "CASRAI",
+        "TradingView",
+        "Yahoo Finance"
       ],
       "firstAt": "2026-11-05T06:31:44.000Z",
-      "lastAt": "2026-11-12T15:29:41.000Z",
+      "lastAt": "2026-11-13T06:15:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
       "lead": {
         "kind": "press",
         "id": "baidu:c7eb7b8759594f"
       },
-      "importance": 68
+      "importance": 69
     },
     {
       "id": "qwen:6bf7502fd68b9f",
@@ -280,56 +290,55 @@
       "importance": 63
     },
     {
-      "id": "mistral:3ac984c3186f23",
-      "title": "Mistral Large 4 Goes Open Weight at 1T Parameters",
+      "id": "mistral:feb1d4ba1988da",
+      "title": "Mistral Large 4 Is Now Free to Download on Hugging Face",
       "entity": "Mistral Large 4",
       "labs": [
         "mistral"
       ],
       "official": 0,
-      "press": 7,
+      "press": 6,
       "outlets": [
-        "Technology Org",
-        "Crypto Briefing",
         "TUN - The University Network",
+        "Crypto Briefing",
         "OrcaRouter",
+        "www.tokenpost.com",
         "Fello AI",
         "IO+"
       ],
-      "firstAt": "2026-11-03T07:36:00.000Z",
+      "firstAt": "2026-11-03T12:34:00.000Z",
       "lastAt": "2026-11-11T15:05:10.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU2VhbzFSQTU1QlhoY28wc2N3Vy0xeXE1VG5QMEI1RUFLbkpaX0luLXVSNGJoaUx6Y2s0aHhGSlZXVUo5VFozRWFPMTR2bW1XRFFuRFd5NWVqdUpfX3dsWDNkbUNrT2lDb2lyM0NsWERfZUNFN0oyTjZTckYyTzNJZjZDVnFpcTZFYjV4NVU4djVHX0FDRHNJUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzFCNGttaUJCeEdnSVRWTmVLQXdITXdUeC1hdGVkQl8tMkFCanRuWktLTlIwNk15dUducU9ncmdYQTdJWDBkTXViWTdEMUZSY2dPbVJTVWVSQ2NiZkRGTjlESTNoRDBlVW1MMlZ0enBrNjUyUGlMZlFqMm5FcG15aWRZWjdCYzNI?oc=5",
       "lead": {
         "kind": "press",
-        "id": "mistral:3ac984c3186f23"
+        "id": "mistral:feb1d4ba1988da"
       },
       "importance": 58
     },
     {
-      "id": "qwen:d6f1b0ce4d7e70",
-      "title": "Can AI fix another AI's brain? MIT researchers use GPT-6 Astra to boost Qwen's maths skills",
-      "entity": "GPT 6 Astra",
+      "id": "qwen:4717b2d69605de",
+      "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+      "entity": "Qwen 3.8 27B",
       "labs": [
-        "qwen",
-        "anthropic",
-        "openai"
+        "qwen"
       ],
       "official": 0,
       "press": 4,
       "outlets": [
-        "India Today",
-        "YourStory.com",
-        "Dataconomy",
-        "Fortune"
+        "MarkTechPost",
+        "Pasquale Pillitteri",
+        "The Register",
+        "Mezha.net",
+        "news.lavx.hu"
       ],
-      "firstAt": "2026-11-03T04:18:19.000Z",
-      "lastAt": "2026-11-09T21:02:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWTRkTjlpY2c3TnlFbXBlWFo4VVdTRWlWTWhtX1FYR0xiNzViUEUxcjNzZUREUGZnN0F4S1NROFJKRUFCNDF5UFVvV1Q2Z2t6d25pZ2NEeTJCRXREajNDVmNLNTc0amx2V1pkanBmZUNtSWxuMjVOU21hdHhKeENkNVR3ZlRTdUlLMTlZdzZkR1ZibGdhR3V1MVNod1FPMEJnNUlvbnc0TkU1MnU5NWtOdmhjOWMxNHpPY0hkYzIzWmlyWEhjXy1JZHRqOC1VNUZZbEJQMFBZejVBemZlbjJOdGw1TkdoMXNyTzhF0gHwAUFVX3lxTFBOd3BmVkZRUGhOdWVGdTZuMWRrSERUWjd4MVdmNEU0bXF4Tmc3M21tT2FCYzhuQkpFX3RPanZnU0xWRUlWeWlXbmNCWGZhVFN1R3ozeXEwcDBvYVFUYXV3ekFxUXgwSGJ5eWlHNzlaMFVtSXl4MWJxREJjemZuYkw1SFZ1OWM1LUF5SnZPTmFESkRWdk4wekI1RFdWQXV6WEdZSDFaSWNldmNUYTF6UFZYeTFfT1lBcEozeUlrSEU3aGtnM0hwejBqSUVvX2lScWREMjZ1VnM0dnZfS3RwRmUtMEtSOHl0aEFubEV6dFpueA?oc=5",
+      "firstAt": "2026-11-08T04:45:59.000Z",
+      "lastAt": "2026-11-13T04:14:50.000Z",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbW0teFpVb0xyV2tvek0yZ2s4RmUtRnhTaUkxaWFUcjNVM19QMmFRZVNSbEVERjY3ZlUzVVQ3cmdQc09sanp6NWpjOS1xdXBmNW12bHNjcU93cWdRNndJTkg5clloUlhuOXZMWlNZclpiSy02U3lOY3UyLXJKNExRMHJ5YkszVmNtMnZIWTZ5cXllZ2g1NlN5aWdsLXREd9IBngFBVV95cUxQbW0teFpVb0xyV2tvek0yZ2s4RmUtRnhTaUkxaWFUcjNVM19QMmFRZVNSbEVERjY3ZlUzVVQ3cmdQc09sanp6NWpjOS1xdXBmNW12bHNjcU93cWdRNndJTkg5clloUlhuOXZMWlNZclpiSy02U3lOY3UyLXJKNExRMHJ5YkszVmNtMnZIWTZ5cXllZ2g1NlN5aWdsLXREdw?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:d6f1b0ce4d7e70"
+        "id": "qwen:4717b2d69605de"
       },
-      "importance": 58
+      "importance": 57
     },
     {
       "id": "cohere:234d2d221df3e4",
@@ -352,6 +361,30 @@
       "lead": {
         "kind": "press",
         "id": "cohere:234d2d221df3e4"
+      },
+      "importance": 56
+    },
+    {
+      "id": "qwen:b3c959bcf9cdc4",
+      "title": "MIT Says GPT-6 Astra Boosted Qwen Math By Editing Its Weights",
+      "entity": "GPT 6 Astra",
+      "labs": [
+        "qwen",
+        "anthropic",
+        "openai"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Dataconomy",
+        "Fortune"
+      ],
+      "firstAt": "2026-11-05T10:29:03.000Z",
+      "lastAt": "2026-11-09T21:02:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZE5GOXY4aFhBTVIwSWVKa3JyQ19iYVN3ZVVacEpQSnBaRjZLcEZLcUZOdzJfcGt5YUxraExSeTBrQUVhc0xiRk5uWlVuRUJlQ0ZqXzQ2SnNGMHJaWk5EbWJyZlB1bDF3Y3JidHhpQzJsd0plam1lczNpZ2NFU3YtLXAyZEVUNkcwWGM3bmFtWjBtUQ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:b3c959bcf9cdc4"
       },
       "importance": 56
     },
@@ -385,14 +418,14 @@
       {
         "name": "Gemini 4 Carbon",
         "count": 23,
-        "prev": 10,
+        "prev": 9,
         "labs": [
           "google-deepmind"
         ]
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 15,
+        "count": 20,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -400,8 +433,8 @@
       },
       {
         "name": "ERNIE 5.5 Flash",
-        "count": 11,
-        "prev": 15,
+        "count": 9,
+        "prev": 17,
         "labs": []
       },
       {
@@ -428,20 +461,8 @@
         ]
       },
       {
-        "name": "Qwen 4",
-        "count": 5,
-        "prev": 0,
-        "labs": []
-      },
-      {
-        "name": "Gemini 4 Argon",
-        "count": 4,
-        "prev": 8,
-        "labs": []
-      },
-      {
         "name": "Claude Opus 5.5",
-        "count": 3,
+        "count": 4,
         "prev": 4,
         "labs": [
           "anthropic"
@@ -449,69 +470,89 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 3,
+        "count": 4,
         "prev": 5,
         "labs": [
           "amazon"
         ]
       },
       {
+        "name": "Gemini 4 Argon",
+        "count": 4,
+        "prev": 6,
+        "labs": []
+      },
+      {
+        "name": "Qwen 3.8 27B",
+        "count": 3,
+        "prev": 0,
+        "labs": [
+          "tencent"
+        ]
+      },
+      {
+        "name": "Qwen 4",
+        "count": 3,
+        "prev": 2,
+        "labs": []
+      },
+      {
         "name": "Mistral Large 4",
         "count": 3,
-        "prev": 8,
+        "prev": 7,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 62,
+        "count": 63,
         "prev": 52,
         "labs": [
           "anthropic",
-          "openai",
           "deepseek",
           "google-deepmind",
+          "openai",
+          "mistral",
           "minimax",
           "qwen",
-          "mistral",
-          "amazon",
           "microsoft",
+          "amazon",
+          "ibm",
           "bytedance",
-          "nvidia",
-          "ibm"
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 50,
-        "prev": 37,
+        "count": 51,
+        "prev": 36,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
-          "minimax",
-          "qwen",
+          "openai",
           "mistral",
+          "minimax",
           "cohere",
-          "amazon",
+          "qwen",
           "microsoft",
-          "nvidia",
-          "ibm"
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "safety",
         "count": 21,
-        "prev": 11,
+        "prev": 10,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "cohere",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -520,15 +561,15 @@
         "prev": 11,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "moonshot",
           "minimax",
           "tencent",
-          "amazon",
           "microsoft",
-          "nvidia",
-          "ibm"
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -538,8 +579,8 @@
         "labs": [
           "anthropic",
           "qwen",
-          "amazon",
-          "microsoft"
+          "microsoft",
+          "amazon"
         ]
       },
       {
@@ -547,8 +588,8 @@
         "count": 7,
         "prev": 2,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "amazon",
           "nvidia"
         ]
@@ -576,7 +617,7 @@
       {
         "name": "rag",
         "count": 2,
-        "prev": 9,
+        "prev": 8,
         "labs": [
           "cohere",
           "amazon",
@@ -597,6 +638,18 @@
       ],
       "reports": 2,
       "at": "2026-11-12T10:58:37.000Z"
+    },
+    {
+      "id": "meta:4b14f4af4a56ef",
+      "lab": "meta",
+      "title": "Tuya Launches Tuya Cloud Devices for Meta's AI Agent Muse",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTjZmdklXQlpXZkpEeks0VEh3ZHNvLWg4NkRuNGpnYUh1c0hxbUJ2ZXhRaVBqU0ZhOGF3VjBZT004QnlBYmtDRFhkcnZ3WVBCYk9vNTZGaTc5alNaeWtvVFpNcDhtNTFJWHJwV0V0RU9Mb2tvU3RwZGFwME5md0JTemo4RnNOLUZOdXhPZVJCUnh6TjF0T2FHNlU3XzNHMGtEZXlYZ1NXRWtmTVJzalZn?oc=5",
+      "outlets": [
+        "marketscreener.com",
+        "Moomoo"
+      ],
+      "reports": 2,
+      "at": "2026-11-12T10:44:10.000Z"
     },
     {
       "id": "google-deepmind:baa6a4789f9065",

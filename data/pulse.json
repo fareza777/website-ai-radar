@@ -4,8 +4,8 @@
     "title": "Jensen Huang resigns",
     "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
     "hnUrl": "https://news.ycombinator.com/item?id=50467087",
-    "points": 3127,
-    "comments": 2922,
+    "points": 3605,
+    "comments": 3172,
     "at": "2026-11-12T13:52:29Z",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-12T20:04:25.319Z"
@@ -15,7 +15,7 @@
     "title": "My AI agents found an unmapped Maya site?",
     "url": "https://pietromiotti.com/latest/maya-site",
     "hnUrl": "https://news.ycombinator.com/item?id=50452455",
-    "points": 1029,
+    "points": 1032,
     "comments": 391,
     "at": "2026-11-11T12:05:22Z",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -30,6 +30,17 @@
     "at": "2026-11-09T18:56:29Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
+  },
+  {
+    "id": "50465829",
+    "title": "Anthropic IPO",
+    "url": "https://ipo.anthropic.com/us/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50465829",
+    "points": 941,
+    "comments": 869,
+    "at": "2026-11-12T11:46:41Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-12T20:04:25.319Z"
   },
   {
     "id": "50429068",
@@ -52,17 +63,6 @@
     "at": "2026-11-08T18:16:07Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-08T19:45:16.813Z"
-  },
-  {
-    "id": "50465829",
-    "title": "Anthropic IPO",
-    "url": "https://ipo.anthropic.com/us/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50465829",
-    "points": 849,
-    "comments": 824,
-    "at": "2026-11-12T11:46:41Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-12T20:04:25.319Z"
   },
   {
     "id": "50410107",
@@ -102,8 +102,8 @@
     "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
     "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
     "hnUrl": "https://news.ycombinator.com/item?id=50458900",
-    "points": 665,
-    "comments": 688,
+    "points": 671,
+    "comments": 697,
     "at": "2026-11-11T21:24:35Z",
     "firstSeenAt": "2026-11-12T00:49:43.260Z"
   },
@@ -133,11 +133,22 @@
     "title": "Gemini Decisions API",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
     "hnUrl": "https://news.ycombinator.com/item?id=50456791",
-    "points": 555,
-    "comments": 157,
+    "points": 561,
+    "comments": 160,
     "at": "2026-11-11T18:32:42Z",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-12T00:49:43.260Z"
+  },
+  {
+    "id": "50471431",
+    "title": "Gemini 4 Hydrogen",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50471431",
+    "points": 533,
+    "comments": 334,
+    "at": "2026-11-12T18:01:48Z",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-12T20:04:25.319Z"
   },
   {
     "id": "50406563",
@@ -148,17 +159,6 @@
     "comments": 310,
     "at": "2026-11-07T18:02:17Z",
     "firstSeenAt": "2026-11-07T21:57:57.700Z"
-  },
-  {
-    "id": "50471431",
-    "title": "Gemini 4 Hydrogen",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50471431",
-    "points": 485,
-    "comments": 305,
-    "at": "2026-11-12T18:01:48Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-11-12T20:04:25.319Z"
   },
   {
     "id": "50411961",
@@ -176,7 +176,7 @@
     "title": "Tracking Anthropic-discovered vulnerabilities",
     "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
     "hnUrl": "https://news.ycombinator.com/item?id=50447074",
-    "points": 457,
+    "points": 458,
     "comments": 221,
     "at": "2026-11-10T22:17:56Z",
     "lab": "anthropic",
@@ -187,10 +187,31 @@
     "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
     "url": "https://github.com/GoogleChrome/modern-web-guidance",
     "hnUrl": "https://news.ycombinator.com/item?id=50443812",
-    "points": 435,
+    "points": 439,
     "comments": 145,
     "at": "2026-11-10T18:01:15Z",
     "firstSeenAt": "2026-11-10T23:29:30.795Z"
+  },
+  {
+    "id": "50472260",
+    "title": "Gemini 4 Hydrogen and Orchestrator",
+    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50472260",
+    "points": 423,
+    "comments": 121,
+    "at": "2026-11-12T18:52:01Z",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-13T01:55:24.398Z"
+  },
+  {
+    "id": "50468888",
+    "title": "I'm making LLMs work on small and old devices",
+    "url": "https://github.com/hyperionaidev/smolmaxxing/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50468888",
+    "points": 384,
+    "comments": 136,
+    "at": "2026-11-12T15:23:10Z",
+    "firstSeenAt": "2026-11-12T20:04:25.319Z"
   },
   {
     "id": "50431144",
@@ -215,17 +236,6 @@
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
-    "id": "50472260",
-    "title": "Gemini 4 Hydrogen and Orchestrator",
-    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50472260",
-    "points": 343,
-    "comments": 88,
-    "at": "2026-11-12T18:52:01Z",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-11-13T01:55:24.398Z"
-  },
-  {
     "id": "50394906",
     "title": "Anthropic IPO buyers see valuation as low as $1.1T",
     "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
@@ -237,14 +247,14 @@
     "firstSeenAt": "2026-11-06T19:30:37.124Z"
   },
   {
-    "id": "50468888",
-    "title": "I'm making LLMs work on small and old devices",
-    "url": "https://github.com/hyperionaidev/smolmaxxing/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50468888",
-    "points": 296,
-    "comments": 101,
-    "at": "2026-11-12T15:23:10Z",
-    "firstSeenAt": "2026-11-12T20:04:25.319Z"
+    "id": "50474883",
+    "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+    "url": "https://unemploymentlabs.com/checkpoint-forensics",
+    "hnUrl": "https://news.ycombinator.com/item?id=50474883",
+    "points": 304,
+    "comments": 110,
+    "at": "2026-11-12T21:56:11Z",
+    "firstSeenAt": "2026-11-13T01:55:24.398Z"
   },
   {
     "id": "50442303",
@@ -262,7 +272,7 @@
     "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
     "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
     "hnUrl": "https://news.ycombinator.com/item?id=50443716",
-    "points": 293,
+    "points": 294,
     "comments": 217,
     "at": "2026-11-10T17:55:07Z",
     "lab": "anthropic",
@@ -278,16 +288,6 @@
     "at": "2026-11-09T08:17:49Z",
     "lab": "openai",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
-  },
-  {
-    "id": "50474883",
-    "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-    "url": "https://unemploymentlabs.com/checkpoint-forensics",
-    "hnUrl": "https://news.ycombinator.com/item?id=50474883",
-    "points": 210,
-    "comments": 56,
-    "at": "2026-11-12T21:56:11Z",
-    "firstSeenAt": "2026-11-13T01:55:24.398Z"
   },
   {
     "id": "50435660",
@@ -330,6 +330,17 @@
     "comments": 200,
     "at": "2026-11-09T22:19:12Z",
     "firstSeenAt": "2026-11-10T04:02:52.140Z"
+  },
+  {
+    "id": "50481187",
+    "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+    "url": "https://status.claude.com/incidents/nn11wk485zfn",
+    "hnUrl": "https://news.ycombinator.com/item?id=50481187",
+    "points": 157,
+    "comments": 103,
+    "at": "2026-11-13T10:18:13Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-13T11:11:46.197Z"
   },
   {
     "id": "50443587",
@@ -383,15 +394,14 @@
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
   },
   {
-    "id": "50389990",
-    "title": "AI for scientific discovery: How researchers use Claude",
-    "url": "https://www.anthropic.com/research/how-researchers-use-claude",
-    "hnUrl": "https://news.ycombinator.com/item?id=50389990",
-    "points": 103,
-    "comments": 39,
-    "at": "2026-11-06T09:13:30Z",
-    "lab": "anthropic",
-    "firstSeenAt": "2026-11-06T19:30:37.124Z"
+    "id": "50471650",
+    "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+    "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+    "hnUrl": "https://news.ycombinator.com/item?id=50471650",
+    "points": 108,
+    "comments": 28,
+    "at": "2026-11-12T18:15:48Z",
+    "firstSeenAt": "2026-11-13T01:55:24.398Z"
   },
   {
     "id": "50415817",
@@ -446,22 +456,12 @@
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
   },
   {
-    "id": "50471650",
-    "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
-    "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-    "hnUrl": "https://news.ycombinator.com/item?id=50471650",
-    "points": 86,
-    "comments": 21,
-    "at": "2026-11-12T18:15:48Z",
-    "firstSeenAt": "2026-11-13T01:55:24.398Z"
-  },
-  {
     "id": "50454951",
     "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
     "url": "https://github.com/klad-app/klad",
     "hnUrl": "https://news.ycombinator.com/item?id=50454951",
     "points": 83,
-    "comments": 32,
+    "comments": 33,
     "at": "2026-11-11T16:00:50Z",
     "firstSeenAt": "2026-11-12T00:49:43.260Z"
   },
@@ -497,6 +497,17 @@
     "firstSeenAt": "2026-11-07T10:24:40.073Z"
   },
   {
+    "id": "50481220",
+    "title": "Claude Is Down",
+    "url": "https://status.claude.com/history",
+    "hnUrl": "https://news.ycombinator.com/item?id=50481220",
+    "points": 75,
+    "comments": 53,
+    "at": "2026-11-13T10:20:09Z",
+    "lab": "anthropic",
+    "firstSeenAt": "2026-11-13T11:11:46.197Z"
+  },
+  {
     "id": "50420532",
     "title": "Asahi Linux Drops MIT, Goes Full GPL After AI Used to Steal Unreleased Code",
     "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl/",
@@ -512,7 +523,7 @@
     "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
     "hnUrl": "https://news.ycombinator.com/item?id=50444850",
     "points": 71,
-    "comments": 89,
+    "comments": 90,
     "at": "2026-11-10T19:14:38Z",
     "lab": "anthropic",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -533,7 +544,7 @@
     "url": "https://news.ycombinator.com/item?id=50455811",
     "hnUrl": "https://news.ycombinator.com/item?id=50455811",
     "points": 61,
-    "comments": 47,
+    "comments": 48,
     "at": "2026-11-11T17:11:56Z",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
   }

@@ -1,5 +1,36 @@
 [
   {
+    "id": "720dff5fdce78ccd",
+    "lab": "openai",
+    "title": "Codex CLI rust v0.169.0",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+    "sourceId": "openai-codex",
+    "sourceName": "GitHub · openai/codex",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-13T08:39:10.000Z",
+    "firstSeenAt": "2026-11-13T11:11:46.197Z",
+    "updatedAt": "2026-11-13T08:39:10.000Z",
+    "excerpt": "New Features The opt-in terminal workspace supports multiple side-chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex. ( #59784 , #60152 , #60181 ) Search older tasks from the agent command center by name, prompt preview, or working directory. ( #60286 ) Turn on Collapse turn details in the full-screen transcript to fold completed activity beneath each…",
+    "summary": "OpenAI shipped Codex CLI rust v0.169.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "1289d8ba6be0",
+    "meta": {
+      "version": "v0.169.0",
+      "semver": "minor",
+      "repo": "openai/codex",
+      "package": "rust"
+    }
+  },
+  {
     "id": "507b21f3c52f6168",
     "lab": "openai",
     "title": "Codex CLI rust v0.168.0",

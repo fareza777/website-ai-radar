@@ -1,15 +1,40 @@
 [
   {
+    "id": "2611.15777",
+    "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+    "url": "https://huggingface.co/papers/2611.15777",
+    "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the…",
+    "publishedAt": "2026-11-11T00:00:00.000Z",
+    "submittedAt": "2026-11-13T00:00:00.000Z",
+    "upvotes": 45,
+    "org": "nationaluniversityofsingapore",
+    "githubRepo": "https://github.com/holdrain/SO-Arena",
+    "firstSeenAt": "2026-11-13T11:11:46.197Z"
+  },
+  {
     "id": "2611.14815",
     "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
     "url": "https://huggingface.co/papers/2611.14815",
     "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 12,
+    "upvotes": 40,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
+  },
+  {
+    "id": "2611.17331",
+    "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+    "url": "https://huggingface.co/papers/2611.17331",
+    "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP…",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "submittedAt": "2026-11-13T00:00:00.000Z",
+    "upvotes": 18,
+    "org": "nvidia",
+    "lab": "nvidia",
+    "githubRepo": "https://github.com/NVlabs/DVSM",
+    "firstSeenAt": "2026-11-13T11:11:46.197Z"
   },
   {
     "id": "2610.40394",
@@ -18,7 +43,7 @@
     "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-12T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 43,
     "org": "internlm",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
   },
@@ -64,7 +89,7 @@
     "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 63,
+    "upvotes": 65,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/yukyeongleee/wikitrace",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
