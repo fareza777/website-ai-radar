@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:50:14.566Z",
+  "generatedAt": "2026-11-14T01:29:39.520Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -15,10 +15,10 @@
         "Thurrott.com",
         "9to5Google",
         "Search Engine Roundtable",
+        "TestingCatalog AI News",
+        "The Tech Buzz",
         "The American Bazaar",
         "Interesting Engineering",
-        "The Tech Buzz",
-        "TestingCatalog AI News",
         "Wccftech",
         "Ars Technica",
         "Technology Org",
@@ -31,6 +31,7 @@
         "SiliconANGLE",
         "shattered.io",
         "www.trendingtopics.eu",
+        "Small Business Trends",
         "InfoWorld",
         "The GitHub Blog"
       ],
@@ -455,7 +456,7 @@
       {
         "name": "Gemini 4 Hydrogen",
         "count": 22,
-        "prev": 0,
+        "prev": 1,
         "labs": [
           "google-deepmind"
         ]
@@ -507,8 +508,8 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 4,
-        "prev": 5,
+        "count": 3,
+        "prev": 6,
         "labs": [
           "amazon"
         ]
@@ -518,70 +519,64 @@
         "count": 3,
         "prev": 6,
         "labs": []
-      },
-      {
-        "name": "Gemini 4 Argon",
-        "count": 3,
-        "prev": 6,
-        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 58,
-        "prev": 54,
+        "count": 61,
+        "prev": 51,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "deepseek",
+          "google-deepmind",
           "openai",
-          "mistral",
-          "qwen",
           "minimax",
+          "qwen",
+          "mistral",
           "microsoft",
           "amazon",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 49,
-        "prev": 39,
+        "count": 51,
+        "prev": 38,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
-          "qwen",
           "minimax",
+          "qwen",
+          "mistral",
           "cohere",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "safety",
         "count": 21,
-        "prev": 10,
+        "prev": 11,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "cohere",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "multimodal",
-        "count": 11,
-        "prev": 11,
+        "count": 10,
+        "prev": 12,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -591,8 +586,8 @@
           "tencent",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -618,15 +613,6 @@
         ]
       },
       {
-        "name": "open-source",
-        "count": 6,
-        "prev": 3,
-        "labs": [
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "audio",
         "count": 5,
         "prev": 1,
@@ -635,6 +621,15 @@
           "openai",
           "amazon",
           "ibm"
+        ]
+      },
+      {
+        "name": "open-source",
+        "count": 5,
+        "prev": 4,
+        "labs": [
+          "amazon",
+          "nvidia"
         ]
       },
       {

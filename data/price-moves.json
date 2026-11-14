@@ -1,5 +1,113 @@
 [
   {
+    "id": "c22ae39da13bed5d",
+    "modelId": "ricursiveai/ripple-65b-preview",
+    "name": "Ricursive: Ripple 65B Preview",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "prompt",
+    "from": 0.2,
+    "to": 0.1,
+    "change": -50
+  },
+  {
+    "id": "18553816b9016813",
+    "modelId": "ricursiveai/ripple-65b-preview",
+    "name": "Ricursive: Ripple 65B Preview",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.3,
+    "change": -50
+  },
+  {
+    "id": "ed2d7fbd100faa99",
+    "modelId": "moonshotai/kimi-k3.1-pro",
+    "name": "MoonshotAI: Kimi K3.1 Pro",
+    "lab": "moonshot",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "prompt",
+    "from": 0.2375,
+    "to": 2,
+    "change": 742.1
+  },
+  {
+    "id": "e7253c1b4ed95c9d",
+    "modelId": "moonshotai/kimi-k3.1-pro",
+    "name": "MoonshotAI: Kimi K3.1 Pro",
+    "lab": "moonshot",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "completion",
+    "from": 8.4114,
+    "to": 10,
+    "change": 18.9
+  },
+  {
+    "id": "cf51fb8176e50df2",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.038,
+    "change": -74.7
+  },
+  {
+    "id": "91c35c80e23f1864",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.5,
+    "change": -16.7
+  },
+  {
+    "id": "359a8e14bb51439e",
+    "modelId": "ibm-granite/granite-4.2-8b",
+    "name": "IBM: Granite 4.2 8B",
+    "lab": "ibm",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "completion",
+    "from": 0.15,
+    "to": 0.25,
+    "change": 66.7
+  },
+  {
+    "id": "0edca8ef9e51d4b6",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "prompt",
+    "from": 0.95526,
+    "to": 0.9,
+    "change": -5.8
+  },
+  {
+    "id": "5b614db476cf48e5",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "completion",
+    "from": 1.91052,
+    "to": 1.5,
+    "change": -21.5
+  },
+  {
+    "id": "a743a64f46214b8a",
+    "modelId": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "lab": "minimax",
+    "at": "2026-11-14T01:29:39.520Z",
+    "field": "completion",
+    "from": 1.08,
+    "to": 0.95,
+    "change": -12
+  },
+  {
     "id": "33e6e06a85b0bbdf",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",

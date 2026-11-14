@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-14",
-    "generatedAt": "2026-11-13T19:50:14.566Z",
+    "generatedAt": "2026-11-14T01:29:39.520Z",
     "stats": {
-      "updates24h": 26,
-      "labsActive24h": 8,
-      "updates7d": 166,
-      "newModels7d": 46
+      "updates24h": 18,
+      "labsActive24h": 6,
+      "updates7d": 172,
+      "newModels7d": 45
     },
     "source": "template",
-    "headline": "26 updates from 8 AI labs in the last 24 hours · 46 model releases this week.",
+    "headline": "18 updates from 6 AI labs in the last 24 hours · 45 model releases this week.",
     "bullets": [
       {
         "text": "NVIDIA: When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
@@ -27,19 +27,19 @@
         "lab": "openai"
       },
       {
-        "text": "OpenAI: How Amplitude ships product improvements in 1–2 days with OpenAI",
-        "itemId": "5b0f73df89a6e310",
-        "lab": "openai"
-      },
-      {
-        "text": "Amazon: Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
-        "itemId": "ec886a92fa12a05a",
+        "text": "Amazon: Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+        "itemId": "94d8e8d36570e022",
         "lab": "amazon"
       },
       {
-        "text": "Cohere: Cohere Expands Its Sovereign AI Platform with AISLE and cubic",
-        "itemId": "4df850b22c372d8c",
-        "lab": "cohere"
+        "text": "Google DeepMind: Claim your Google Cloud Credits in Google AI Studio",
+        "itemId": "17e30fb78274e3b8",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "OpenAI: Shield helps technicians hand off legacy portal work with OpenAI",
+        "itemId": "d1318183fe172893",
+        "lab": "openai"
       }
     ]
   },
