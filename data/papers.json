@@ -6,7 +6,7 @@
     "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the…",
     "publishedAt": "2026-11-11T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 83,
+    "upvotes": 127,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/holdrain/SO-Arena",
     "firstSeenAt": "2026-11-13T11:11:46.197Z"
@@ -18,7 +18,7 @@
     "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 50,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
@@ -30,7 +30,7 @@
     "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in…",
     "publishedAt": "2026-11-12T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 45,
     "org": "dagroup-pku",
     "githubRepo": "https://github.com/DAGroup-PKU/PhysLoop",
     "firstSeenAt": "2026-11-13T19:50:14.566Z"
@@ -42,7 +42,7 @@
     "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial…",
     "publishedAt": "2026-11-08T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 44,
     "org": "meituan-longcat",
     "githubRepo": "https://github.com/DAGroup-PKU/G-STAR",
     "firstSeenAt": "2026-11-13T19:50:14.566Z"
@@ -54,7 +54,7 @@
     "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP…",
     "publishedAt": "2026-11-12T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 21,
+    "upvotes": 22,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVlabs/DVSM",
@@ -67,7 +67,7 @@
     "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the…",
     "publishedAt": "2026-11-12T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 13,
+    "upvotes": 14,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-13T19:50:14.566Z"
@@ -79,7 +79,7 @@
     "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-12T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 47,
     "org": "internlm",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
   },
@@ -161,7 +161,7 @@
     "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 57,
+    "upvotes": 58,
     "org": "shanghai-ai-laboratory",
     "githubRepo": "https://github.com/Alpha-Innovator/Sage-Taiyi",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -203,6 +203,19 @@
     "firstSeenAt": "2026-11-10T07:28:23.381Z"
   },
   {
+    "id": "2611.08240",
+    "title": "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
+    "url": "https://huggingface.co/papers/2611.08240",
+    "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a…",
+    "publishedAt": "2026-11-05T16:19:52.000Z",
+    "submittedAt": "2026-11-10T00:00:00.000Z",
+    "upvotes": 15,
+    "org": "tencent-hunyuan",
+    "lab": "tencent",
+    "githubRepo": "https://github.com/EDAPINENUT/fewsteprl-sd35",
+    "firstSeenAt": "2026-11-10T07:28:23.381Z"
+  },
+  {
     "id": "2611.09501",
     "title": "e-means: outperforming k-means (in one-tenth the epochs)",
     "url": "https://huggingface.co/papers/2611.09501",
@@ -214,19 +227,6 @@
     "lab": "meta",
     "githubRepo": "https://github.com/facebookresearch/faiss",
     "firstSeenAt": "2026-11-10T23:29:30.795Z"
-  },
-  {
-    "id": "2611.08240",
-    "title": "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
-    "url": "https://huggingface.co/papers/2611.08240",
-    "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a…",
-    "publishedAt": "2026-11-05T16:19:52.000Z",
-    "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 11,
-    "org": "tencent-hunyuan",
-    "lab": "tencent",
-    "githubRepo": "https://github.com/EDAPINENUT/fewsteprl-sd35",
-    "firstSeenAt": "2026-11-10T07:28:23.381Z"
   },
   {
     "id": "2611.06043",

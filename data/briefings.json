@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-15",
+    "generatedAt": "2026-11-14T18:14:42.033Z",
+    "stats": {
+      "updates24h": 9,
+      "labsActive24h": 5,
+      "updates7d": 172,
+      "newModels7d": 44
+    },
+    "source": "template",
+    "headline": "9 updates from 5 AI labs in the last 24 hours · 44 model releases this week.",
+    "bullets": [
+      {
+        "text": "Amazon: Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+        "itemId": "94d8e8d36570e022",
+        "lab": "amazon"
+      },
+      {
+        "text": "Google DeepMind: Claim your Google Cloud Credits in Google AI Studio",
+        "itemId": "17e30fb78274e3b8",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Amazon: Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+        "itemId": "99d40623cf51112d",
+        "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+        "itemId": "408f1e399c8022f8",
+        "lab": "nvidia"
+      },
+      {
+        "text": "Anthropic: Claude Agent SDK (Python) v0.2.182",
+        "itemId": "57d405a0b24d8c14",
+        "lab": "anthropic"
+      },
+      {
+        "text": "Anthropic: Claude Code v2.1.325",
+        "itemId": "3578b3def025c271",
+        "lab": "anthropic"
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "generatedAt": "2026-11-14T10:38:13.666Z",
     "stats": {
@@ -1182,50 +1226,6 @@
         "text": "OpenAI: How Itaú is building generative AI for its entire customer base",
         "itemId": "65442e708214c10b",
         "lab": "openai"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-16",
-    "generatedAt": "2026-10-16T16:45:25.416Z",
-    "stats": {
-      "updates24h": 15,
-      "labsActive24h": 6,
-      "updates7d": 114,
-      "newModels7d": 35
-    },
-    "source": "template",
-    "headline": "15 updates from 6 AI labs in the last 24 hours · 35 model releases this week.",
-    "bullets": [
-      {
-        "text": "Amazon: Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
-        "itemId": "7bd3e3f63e0f7daa",
-        "lab": "amazon"
-      },
-      {
-        "text": "Amazon: Muse Spark Open model now available on Amazon SageMaker JumpStart",
-        "itemId": "cd984aadc77d696e",
-        "lab": "amazon"
-      },
-      {
-        "text": "NVIDIA: Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
-        "itemId": "d259b094fe0e0621",
-        "lab": "nvidia"
-      },
-      {
-        "text": "Anthropic: How the Claude Code team does code review",
-        "itemId": "7fd7e06ab2f4b840",
-        "lab": "anthropic"
-      },
-      {
-        "text": "Anthropic: How an Anthropic Japan BDR runs his day with a fleet of Claude agents",
-        "itemId": "ce8bd23968211e78",
-        "lab": "anthropic"
-      },
-      {
-        "text": "Meta AI: How Meta Built Forum With AI-Native Engineering",
-        "itemId": "6a8d51049e32b398",
-        "lab": "meta"
       }
     ]
   }
