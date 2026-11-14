@@ -1,45 +1,45 @@
 [
   {
     "date": "2026-11-15",
-    "generatedAt": "2026-11-14T18:14:42.033Z",
+    "generatedAt": "2026-11-14T22:34:31.646Z",
     "stats": {
-      "updates24h": 9,
-      "labsActive24h": 5,
-      "updates7d": 172,
+      "updates24h": 1,
+      "labsActive24h": 1,
+      "updates7d": 171,
       "newModels7d": 44
     },
     "source": "template",
-    "headline": "9 updates from 5 AI labs in the last 24 hours · 44 model releases this week.",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 11 labs.",
     "bullets": [
       {
-        "text": "Amazon: Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
-        "itemId": "94d8e8d36570e022",
-        "lab": "amazon"
-      },
-      {
-        "text": "Google DeepMind: Claim your Google Cloud Credits in Google AI Studio",
-        "itemId": "17e30fb78274e3b8",
+        "text": "Google DeepMind: Introducing Gemini 4 Hydrogen",
+        "itemId": "a8d5fa7d24b3647f",
         "lab": "google-deepmind"
       },
       {
-        "text": "Amazon: Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
-        "itemId": "99d40623cf51112d",
-        "lab": "amazon"
+        "text": "Google DeepMind: Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+        "itemId": "482148aaa5ddfc2a",
+        "lab": "google-deepmind"
       },
       {
-        "text": "NVIDIA: Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
-        "itemId": "408f1e399c8022f8",
+        "text": "Anthropic: Using Claude Opus 5.5 as your daily driver for knowledge work",
+        "itemId": "05f1e3cef6173c85",
+        "lab": "anthropic"
+      },
+      {
+        "text": "NVIDIA: When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+        "itemId": "8f2daa11c5051ada",
         "lab": "nvidia"
       },
       {
-        "text": "Anthropic: Claude Agent SDK (Python) v0.2.182",
-        "itemId": "57d405a0b24d8c14",
-        "lab": "anthropic"
+        "text": "Amazon: Grok 4.7 now available on Kiro in AWS GovCloud (US)",
+        "itemId": "134ab56ca337ce36",
+        "lab": "amazon"
       },
       {
-        "text": "Anthropic: Claude Code v2.1.325",
-        "itemId": "3578b3def025c271",
-        "lab": "anthropic"
+        "text": "Amazon: Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+        "itemId": "f3cf1418c9269a8d",
+        "lab": "amazon"
       }
     ]
   },

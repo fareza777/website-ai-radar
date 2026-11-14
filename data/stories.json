@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:14:42.033Z",
+  "generatedAt": "2026-11-14T22:34:31.646Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -538,38 +538,38 @@
     "topics": [
       {
         "name": "agents",
-        "count": 61,
-        "prev": 49,
+        "count": 60,
+        "prev": 50,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "qwen",
           "microsoft",
           "amazon",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 52,
-        "prev": 37,
+        "count": 51,
+        "prev": 38,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -582,8 +582,8 @@
           "openai",
           "cohere",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -599,8 +599,8 @@
           "tencent",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -717,18 +717,6 @@
       ],
       "reports": 2,
       "at": "2026-11-12T10:44:10.000Z"
-    },
-    {
-      "id": "google-deepmind:baa6a4789f9065",
-      "lab": "google-deepmind",
-      "title": "Google rolls out Gemini AI voice assistant to Apple CarPlay dashboards",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOXBOYVBIb21sOUU2aFZtWHVxY0FxOXRRTTJqX0hMLS12QV9aTHgtaG1Rckh2d2Q5T2dmN2czRWVkRUZQVEdTaC0wTVozdFBMRnN4TUJoWmh4alNuLUNIdzhvdzNIYlBUa3dQeDJUckxHZEdpZDlOamZZbnZWTF9qeGxFSjlJelN0LU0xbG1TbjNyaERyVExF?oc=5",
-      "outlets": [
-        "Yahoo Finance",
-        "Yahoo Autos"
-      ],
-      "reports": 2,
-      "at": "2026-11-11T20:13:40.000Z"
     }
   ]
 }
