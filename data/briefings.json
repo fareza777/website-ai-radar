@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-14",
-    "generatedAt": "2026-11-14T04:01:08.452Z",
+    "generatedAt": "2026-11-14T10:38:13.666Z",
     "stats": {
-      "updates24h": 18,
-      "labsActive24h": 6,
-      "updates7d": 172,
+      "updates24h": 15,
+      "labsActive24h": 7,
+      "updates7d": 173,
       "newModels7d": 45
     },
     "source": "template",
-    "headline": "18 updates from 6 AI labs in the last 24 hours · 45 model releases this week.",
+    "headline": "15 updates from 7 AI labs in the last 24 hours · 45 model releases this week.",
     "bullets": [
       {
         "text": "NVIDIA: When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
@@ -35,11 +35,6 @@
         "text": "Google DeepMind: Claim your Google Cloud Credits in Google AI Studio",
         "itemId": "17e30fb78274e3b8",
         "lab": "google-deepmind"
-      },
-      {
-        "text": "OpenAI: Shield helps technicians hand off legacy portal work with OpenAI",
-        "itemId": "d1318183fe172893",
-        "lab": "openai"
       }
     ]
   },

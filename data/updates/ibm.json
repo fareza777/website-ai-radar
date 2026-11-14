@@ -1,5 +1,35 @@
 [
   {
+    "id": "17933929ce5df9f3",
+    "lab": "ibm",
+    "title": "Docling v2.150.1",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.150.1",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-14T07:04:56.000Z",
+    "firstSeenAt": "2026-11-14T10:38:13.666Z",
+    "updatedAt": "2026-11-14T07:04:56.000Z",
+    "excerpt": "Fix cli: Omit from_formats in convert-remote unless --from is set ( #5346 ) ( ebc50e3 ) docx: Detect headings from paragraph-level w:outlineLvl ( #3312 ) ( #4129 ) ( 31d14a7 ) docx: Keep hyperlink targets in footnotes and endnotes ( #5322 ) ( 0c9a1cd ) docx: Keep a single-cell table nested in a table cell inside the cell ( #5258 ) ( b9bf356 ) docx: Close an open list before a table that follows it ( #5309 ) (…",
+    "summary": "IBM shipped Docling v2.150.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "multimodal"
+    ],
+    "importance": 20,
+    "contentHash": "8120462807ea",
+    "meta": {
+      "version": "v2.150.1",
+      "semver": "patch",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "2b041514b02654c6",
     "lab": "ibm",
     "title": "What is a spin qubit?",
@@ -857,7 +887,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 56,
-      "downloads": 6349,
+      "downloads": 6265,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -888,7 +918,7 @@
     "contentHash": "6f6f69225449",
     "meta": {
       "likes": 47,
-      "downloads": 5081,
+      "downloads": 5053,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1102,7 +1132,7 @@
     "contentHash": "a598e14a409a",
     "meta": {
       "likes": 85,
-      "downloads": 10370,
+      "downloads": 10564,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -1333,7 +1363,7 @@
     "contentHash": "e90d15ccd854",
     "meta": {
       "likes": 14,
-      "downloads": 126,
+      "downloads": 287,
       "repo": "ibm-granite/granite-4.1-8b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1364,7 +1394,7 @@
     "contentHash": "4a790aae3abc",
     "meta": {
       "likes": 12,
-      "downloads": 1771,
+      "downloads": 2031,
       "repo": "ibm-granite/granite-4.1-3b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1415,7 +1445,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 8,
-      "downloads": 348,
+      "downloads": 339,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
@@ -1721,7 +1751,7 @@
     "contentHash": "45adf5a46f06",
     "meta": {
       "likes": 47,
-      "downloads": 140973,
+      "downloads": 141055,
       "repo": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
       "pipeline": "automatic-speech-recognition",
       "license": "cc-by-nc-sa-4.0"

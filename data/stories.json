@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T04:01:08.452Z",
+  "generatedAt": "2026-11-14T10:38:13.666Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -52,7 +52,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 19,
+      "press": 20,
       "outlets": [
         "Search Engine Roundtable",
         "The GitHub Blog",
@@ -77,10 +77,11 @@
         "Small Business Trends",
         "shattered.io",
         "Tom's Guide",
-        "PPC Land"
+        "PPC Land",
+        "CASRAI"
       ],
       "firstAt": "2026-11-10T16:00:00.000Z",
-      "lastAt": "2026-11-12T08:46:20.000Z",
+      "lastAt": "2026-11-13T07:28:13.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
       "lead": {
         "kind": "official",
@@ -113,7 +114,7 @@
     },
     {
       "id": "ffe8a09e969fa29a",
-      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
       "entity": "Claude 5.2",
       "labs": [
         "anthropic",
@@ -154,6 +155,26 @@
         "id": "134ab56ca337ce36"
       },
       "importance": 87
+    },
+    {
+      "id": "8f2daa11c5051ada",
+      "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+      "entity": "GLM 5.3 Across",
+      "labs": [
+        "nvidia",
+        "zai"
+      ],
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-11-13T17:00:00.000Z",
+      "lastAt": "2026-11-13T17:12:14.000Z",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+      "lead": {
+        "kind": "official",
+        "id": "8f2daa11c5051ada"
+      },
+      "importance": 85
     },
     {
       "id": "51fd6bae6a94af5c",
@@ -246,7 +267,7 @@
         "baidu"
       ],
       "official": 0,
-      "press": 19,
+      "press": 18,
       "outlets": [
         "OrcaRouter",
         "Startup Fortune",
@@ -273,8 +294,6 @@
         "TechNode",
         "CASRAI",
         "TradingView",
-        "Yahoo Finance",
-        "Simply Wall St",
         "Pasquale Pillitteri"
       ],
       "firstAt": "2026-11-05T06:31:44.000Z",
@@ -371,29 +390,28 @@
       "importance": 58
     },
     {
-      "id": "mistral:d64097c0f1ed56",
-      "title": "Mistral Large 4 deploys 133 agents to find and patch a Django vulnerability",
+      "id": "mistral:02a63985d24683",
+      "title": "Demo Django 133-Agen Mistral Large 4: Apa yang Dibuktikannya",
       "entity": "Mistral Large 4",
       "labs": [
         "mistral"
       ],
       "official": 0,
-      "press": 5,
+      "press": 4,
       "outlets": [
-        "Crypto Briefing",
         "OrcaRouter",
         "www.tokenpost.com",
         "Fello AI",
         "IO+"
       ],
-      "firstAt": "2026-11-04T10:28:28.000Z",
+      "firstAt": "2026-11-04T14:37:58.000Z",
       "lastAt": "2026-11-11T15:05:10.000Z",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWkthS2otcm9FQWFBRGljVklFNktINGQyUXFLQmo1VHV2Z3MzU1lVbW9kWEJiYlJadUtTeDZzSXRvZVFLQkJqUmtkNF9BV2xBQ3pEcmlmUS1PTkNfRU9pUU5Fcy1GbDhMV0FUZndtUlRORGlWYi1VSG1ac0c3VXp6cw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBySnVUZnNiYjJxVkdWYzJYQVNwOEFhVDJFenFfZGl3a1NETFFsWTluUEFSN3QxQjlocHRUbGk5RzJwVGxZcENtSVo4ZTVURlp6VU9PNmN6cE1kcUZMRVJQd1hmSU1ZbEd6dWVsS0dkeGxRVWlaV3dCNFRwQQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "mistral:d64097c0f1ed56"
+        "id": "mistral:02a63985d24683"
       },
-      "importance": 57
+      "importance": 56
     },
     {
       "id": "cohere:234d2d221df3e4",
@@ -448,7 +466,7 @@
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 23,
+        "count": 24,
         "prev": 9,
         "labs": [
           "google-deepmind"
@@ -510,7 +528,7 @@
       {
         "name": "DeepSeek 4.1 Flash",
         "count": 3,
-        "prev": 6,
+        "prev": 5,
         "labs": [
           "amazon"
         ]
@@ -526,19 +544,18 @@
       {
         "name": "agents",
         "count": 61,
-        "prev": 50,
+        "prev": 49,
         "labs": [
           "anthropic",
           "openai",
-          "deepseek",
           "google-deepmind",
-          "qwen",
-          "minimax",
           "mistral",
-          "nvidia",
+          "minimax",
+          "qwen",
           "microsoft",
-          "bytedance",
+          "nvidia",
           "amazon",
+          "bytedance",
           "ibm"
         ]
       },
@@ -550,12 +567,12 @@
           "anthropic",
           "openai",
           "google-deepmind",
-          "qwen",
-          "minimax",
           "mistral",
+          "minimax",
+          "qwen",
           "cohere",
-          "nvidia",
           "microsoft",
+          "nvidia",
           "amazon",
           "ibm"
         ]
@@ -576,7 +593,7 @@
       },
       {
         "name": "multimodal",
-        "count": 10,
+        "count": 11,
         "prev": 12,
         "labs": [
           "anthropic",
@@ -585,8 +602,8 @@
           "moonshot",
           "minimax",
           "tencent",
-          "nvidia",
           "microsoft",
+          "nvidia",
           "amazon",
           "ibm"
         ]
@@ -639,8 +656,8 @@
         "prev": 8,
         "labs": [
           "cohere",
-          "bytedance",
-          "amazon"
+          "amazon",
+          "bytedance"
         ]
       }
     ]
