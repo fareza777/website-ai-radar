@@ -155,6 +155,17 @@ export const CURATED_DEALS: CuratedDeal[] = [
     lab: "google-deepmind",
   },
   {
+    id: "google-ai-plan-cloud-credits",
+    title: "Google AI Pro/Ultra — monthly Cloud credits",
+    provider: "Google Developer Program",
+    kind: "credits",
+    // Wording verified on the program page 2026-11-14; aistudio.google.com/credits itself serves only a sign-in wall.
+    description: "Linking a Google AI Pro or Ultra plan adds monthly Google Cloud credits, higher Antigravity quotas, and enhanced Gemini Pro access.",
+    url: "https://developers.google.com/program",
+    mustContain: "receive monthly Google Cloud credits",
+    lab: "google-deepmind",
+  },
+  {
     id: "azure-free-account-credits",
     title: "Azure free account — $200 credit",
     provider: "Microsoft Azure",

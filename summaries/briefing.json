@@ -1,33 +1,4 @@
 {
-  "2026-10-15": {
-    "headline": "Gemini 4 Argon is available as Google's latest frontier model, Grok 4.7 is on Amazon Bedrock, and Amp points OpenAI models at agents beyond code.",
-    "bullets": [
-      {
-        "text": "Developers, enterprises, scientists, and consumers get access to Gemini 4 Argon, described as the latest frontier model.",
-        "itemId": "66cb1e68848fee2d"
-      },
-      {
-        "text": "Gemini 4 Argon is now available for developers building complex software and cybersecurity workflows.",
-        "itemId": "08b67872d0b2e94f"
-      },
-      {
-        "text": "Grok 4.7 is on Amazon Bedrock for agents that work longer on more difficult tasks and know when to check their own work.",
-        "itemId": "c4d6082c07a1abcc"
-      },
-      {
-        "text": "Amp puts agents to work beyond code with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-        "itemId": "a0e0fec2c2b5f568"
-      },
-      {
-        "text": "Higgsfield takes AI video from 1 minute to over 10, with GPT-6 Astra, GPT-Image-2.5, and GPT-Live.",
-        "itemId": "ffc748cb8d88a919"
-      },
-      {
-        "text": "DeepMind and GovTech Singapore use on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-        "itemId": "5cb1618c1db568b5"
-      }
-    ]
-  },
   "2026-10-16": {
     "headline": "Gemini 4 Argon opens to developers and enterprises, Mistral ships Timestral, and Claude Code Review becomes generally available.",
     "bullets": [
@@ -664,6 +635,31 @@
       {
         "itemId": "ad614f81e42f72e5",
         "text": "Google is bringing Gemini 4 Hydrogen to Google Search globally for more helpful, visual and intuitive responses."
+      }
+    ]
+  },
+  "2026-11-14": {
+    "headline": "OpenAI launched ChatGPT Wallet so agents can buy with your approval, Google pushed Gemini 4 Hydrogen into Search, and AWS widened access to Grok 4.7 and DeepSeek models.",
+    "bullets": [
+      {
+        "itemId": "5bf4951adbe9698d",
+        "text": "OpenAI introduced ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+      },
+      {
+        "itemId": "ad614f81e42f72e5",
+        "text": "Google is bringing Gemini 4 Hydrogen to Google Search globally, saying it will provide more helpful, visual, and intuitive responses."
+      },
+      {
+        "itemId": "6b5db77df3bfd94b",
+        "text": "Anthropic introduced Claude for Manufacturing, a plugin with 17 skills and four connectors that helps manufacturers draft quotes, quality reports, and supplier requests."
+      },
+      {
+        "itemId": "2a6900735adaed7f",
+        "text": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash are now MIT-licensed open-weight models available on Amazon SageMaker JumpStart."
+      },
+      {
+        "itemId": "134ab56ca337ce36",
+        "text": "Grok 4.7 is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions with experimental support, described as more reliable than Grok 4.6 in repo-scale coding work."
       }
     ]
   }

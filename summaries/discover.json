@@ -310,11 +310,6 @@
     "unique": "The program walks through system design for those three pieces rather than a single model API.",
     "benefit": "Engineers learning to design LLM, RAG, and agent systems get a step-by-step path."
   },
-  "3aedabad940870b8": {
-    "summary": "awesome-jev-projects is a source-backed radar of the open-source Jev ecosystem, with plain-language project pages and automatic GitHub sync.",
-    "unique": "It pairs ecosystem tracking with language meant for discovery, and it syncs from GitHub.",
-    "benefit": "People exploring Jev projects can read short descriptions that stay tied to the source repos."
-  },
   "2c26ee007454d2a2": {
     "summary": "mesh-avatar-studio turns one illustration into an animated 2D mesh avatar using a coding agent and a local editor.",
     "unique": "The animation comes from mesh deformation of a single illustration, including a WebGL path.",
@@ -702,12 +697,6 @@
     "unique": "It targets NES execution through model weights instead of a standalone conventional CPU emulator alone.",
     "benefit": "Researchers interested in model-as-computer demos can study how the repo maps CPU state into Qwen3.5 weights."
   },
-  "088f2cf1ab7b0f8c": {
-    "hash": "60d41527",
-    "summary": "Hey Spark is a wake-word voice assistant that uses Claude, Hermes Agent, or any OpenAI-compatible model with MCP servers as connectors.",
-    "unique": "It is a local-first open assistant that routes tasks through MCP connectors.",
-    "benefit": "Laptop users can run a configurable voice assistant with their preferred compatible model and MCP tools."
-  },
   "de5ac1ce9dc93405": {
     "hash": "f2120122",
     "summary": "TokenEconomizer offers experience-driven black-box cost control for coding agents.",
@@ -792,15 +781,27 @@
     "benefit": "Teams that write code with agents get a source to point agents at for current web best practices."
   },
   "4820e3d1881034c2": {
-    "hash": "bfc3b1ac",
-    "summary": "yogurt is a free, open-source app for private AI meeting notes, built with Electron for macOS and Linux, using local AI through llama.cpp and exposing MCP.",
-    "unique": "It keeps meeting notes local, running the AI on your own machine through llama.cpp rather than sending call audio to a hosted service.",
-    "benefit": "People who cannot let call audio leave their computer get a free, open-source notes app that runs on macOS or Linux."
+    "hash": "971c1ae2",
+    "summary": "Private AI meeting notes that stay on your computer, offered as a free, open-source alternative to Granola for Mac, Windows and Linux.",
+    "unique": "Local-first and built with Electron and llama.cpp, so the notes stay on your own machine.",
+    "benefit": "For meetings that cannot leave the device, you get note-taking on Mac, Windows or Linux at no cost."
   },
   "f49437252f89f8fc": {
-    "hash": "409af837",
-    "summary": "smolmaxxing is a GitHub project working on running different LLMs on the smallest devices possible.",
-    "unique": "It targets small hardware rather than model size, aiming at fitting different LLMs onto the smallest devices available.",
-    "benefit": "Developers with limited hardware get a project aimed at running different LLMs on small devices instead of a workstation."
+    "hash": "5b110aa7",
+    "summary": "A project aimed at running different LLMs on the smallest devices possible, covering edge and on-device inference with quantization.",
+    "unique": "Positioned as a llama.cpp alternative for local LLM support on constrained hardware.",
+    "benefit": "Another option if you are trying to fit models onto small devices rather than a server."
+  },
+  "977879edadb2a5f2": {
+    "hash": "28cfd4a0",
+    "summary": "A drawing app built for agent and human collaboration, presented on Hacker News as a paint app your coding agent can drive.",
+    "unique": "Source-available, with the agent as a co-editor of the canvas rather than an outside tool.",
+    "benefit": "Lets you try driving a visual app with a coding agent instead of only with a mouse."
+  },
+  "7cf8c63b2923c110": {
+    "hash": "ea0f61d0",
+    "summary": "Open source chat inspired by Slack and Campfire, with one click deploy to Cloudflare.",
+    "unique": "Open source, Slack and Campfire as its stated references, and a one click Cloudflare deploy.",
+    "benefit": "You can run your own team chat on Cloudflare instead of assembling the deployment yourself."
   }
 }

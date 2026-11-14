@@ -1,5 +1,115 @@
 [
   {
+    "id": "aea9bbb55bca1f4e",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-14T04:30:28.726Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.0507,
+    "change": -83.1
+  },
+  {
+    "id": "0562818101d14d58",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-14T04:30:28.726Z",
+    "field": "completion",
+    "from": 1.2,
+    "to": 0.2028,
+    "change": -83.1
+  },
+  {
+    "id": "b3b6b24729e20d7b",
+    "modelId": "openai/gpt-5.6-sol",
+    "name": "OpenAI: GPT-5.6 Sol",
+    "lab": "openai",
+    "at": "2026-11-14T04:30:28.726Z",
+    "field": "prompt",
+    "from": 4.4,
+    "to": 4,
+    "change": -9.1
+  },
+  {
+    "id": "60efac2d2ba0c84f",
+    "modelId": "openai/gpt-5.6-sol",
+    "name": "OpenAI: GPT-5.6 Sol",
+    "lab": "openai",
+    "at": "2026-11-14T04:30:28.726Z",
+    "field": "completion",
+    "from": 22,
+    "to": 20,
+    "change": -9.1
+  },
+  {
+    "id": "e410b013f5e4e6f4",
+    "modelId": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "lab": "meta",
+    "at": "2026-11-14T04:30:28.726Z",
+    "field": "prompt",
+    "from": 0.05,
+    "to": 0.0509,
+    "change": 1.8
+  },
+  {
+    "id": "143926c5020a2448",
+    "modelId": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "lab": "meta",
+    "at": "2026-11-14T04:30:28.726Z",
+    "field": "completion",
+    "from": 0.33,
+    "to": 0.335,
+    "change": 1.5
+  },
+  {
+    "id": "6d195c2dfc43a5da",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-14T04:01:08.452Z",
+    "field": "prompt",
+    "from": 0.0765,
+    "to": 0.0675,
+    "change": -11.8
+  },
+  {
+    "id": "001f0edcb02c65bc",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-14T04:01:08.452Z",
+    "field": "completion",
+    "from": 0.255,
+    "to": 0.225,
+    "change": -11.8
+  },
+  {
+    "id": "c34c84258a6067b2",
+    "modelId": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "lab": "deepseek",
+    "at": "2026-11-14T04:01:08.452Z",
+    "field": "prompt",
+    "from": 0.32,
+    "to": 0.2574,
+    "change": -19.6
+  },
+  {
+    "id": "2ba0d93d758335bf",
+    "modelId": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "lab": "deepseek",
+    "at": "2026-11-14T04:01:08.452Z",
+    "field": "completion",
+    "from": 0.89,
+    "to": 1.0287,
+    "change": 15.6
+  },
+  {
     "id": "c22ae39da13bed5d",
     "modelId": "ricursiveai/ripple-65b-preview",
     "name": "Ricursive: Ripple 65B Preview",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T01:29:39.520Z",
+  "generatedAt": "2026-11-14T04:01:08.452Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -113,7 +113,7 @@
     },
     {
       "id": "ffe8a09e969fa29a",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
       "entity": "Claude 5.2",
       "labs": [
         "anthropic",
@@ -345,6 +345,32 @@
       "importance": 58
     },
     {
+      "id": "xai:3a30850ef10dd8",
+      "title": "India's Coforge joins SpaceX partner network to deploy Grok AI tools for enterprises",
+      "entity": null,
+      "labs": [
+        "xai"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Reuters",
+        "TradingView",
+        "Verdict",
+        "marketscreener.com",
+        "BusinessLine",
+        "Business Today"
+      ],
+      "firstAt": "2026-11-06T07:42:00.000Z",
+      "lastAt": "2026-11-06T07:50:42.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb1cyOVh0TVhMcTFnU2JaWGYyUW94NVpUWEQ5RE5yLXhEM1lGY0VLZVZnNG1WN0NQMzJjV1M3MlVHak1NQkJ4WG5hVnh0ZHl4Y2xpZ3dMQTQyTWpuU2JqRnJMbW01U2p3bEhGSVFnMENId19DV0JwcU9EUko0WWtNSWJsT3J6RDB0Z21YNmRUZmVLYlRFa0IxS2pwdGhnWVJwTGxVcjBRb1Atd1RBT2Ffb1NfTGRRcThscGVNSWpfMndfSThwUmFJVHRFMi1Fa0doZEtB?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "xai:3a30850ef10dd8"
+      },
+      "importance": 58
+    },
+    {
       "id": "mistral:d64097c0f1ed56",
       "title": "Mistral Large 4 deploys 133 agents to find and patch a Django vulnerability",
       "entity": "Mistral Large 4",
@@ -366,31 +392,6 @@
       "lead": {
         "kind": "press",
         "id": "mistral:d64097c0f1ed56"
-      },
-      "importance": 57
-    },
-    {
-      "id": "xai:3a30850ef10dd8",
-      "title": "India's Coforge joins SpaceX partner network to deploy Grok AI tools for enterprises",
-      "entity": null,
-      "labs": [
-        "xai"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Reuters",
-        "TradingView",
-        "Verdict",
-        "marketscreener.com",
-        "BusinessLine"
-      ],
-      "firstAt": "2026-11-06T07:42:00.000Z",
-      "lastAt": "2026-11-06T07:50:42.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb1cyOVh0TVhMcTFnU2JaWGYyUW94NVpUWEQ5RE5yLXhEM1lGY0VLZVZnNG1WN0NQMzJjV1M3MlVHak1NQkJ4WG5hVnh0ZHl4Y2xpZ3dMQTQyTWpuU2JqRnJMbW01U2p3bEhGSVFnMENId19DV0JwcU9EUko0WWtNSWJsT3J6RDB0Z21YNmRUZmVLYlRFa0IxS2pwdGhnWVJwTGxVcjBRb1Atd1RBT2Ffb1NfTGRRcThscGVNSWpfMndfSThwUmFJVHRFMi1Fa0doZEtB?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "xai:3a30850ef10dd8"
       },
       "importance": 57
     },
@@ -525,37 +526,37 @@
       {
         "name": "agents",
         "count": 61,
-        "prev": 51,
+        "prev": 50,
         "labs": [
           "anthropic",
+          "openai",
           "deepseek",
           "google-deepmind",
-          "openai",
-          "minimax",
           "qwen",
+          "minimax",
           "mistral",
-          "microsoft",
-          "amazon",
-          "bytedance",
           "nvidia",
+          "microsoft",
+          "bytedance",
+          "amazon",
           "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 51,
-        "prev": 38,
+        "count": 52,
+        "prev": 37,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
-          "minimax",
+          "google-deepmind",
           "qwen",
+          "minimax",
           "mistral",
           "cohere",
+          "nvidia",
           "microsoft",
           "amazon",
-          "nvidia",
           "ibm"
         ]
       },
@@ -565,11 +566,11 @@
         "prev": 11,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "cohere",
-          "amazon",
           "nvidia",
+          "amazon",
           "ibm"
         ]
       },
@@ -579,14 +580,14 @@
         "prev": 12,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "moonshot",
           "minimax",
           "tencent",
+          "nvidia",
           "microsoft",
           "amazon",
-          "nvidia",
           "ibm"
         ]
       },
@@ -595,10 +596,10 @@
         "count": 7,
         "prev": 2,
         "labs": [
-          "google-deepmind",
           "openai",
-          "amazon",
-          "nvidia"
+          "google-deepmind",
+          "nvidia",
+          "amazon"
         ]
       },
       {
@@ -628,8 +629,8 @@
         "count": 5,
         "prev": 4,
         "labs": [
-          "amazon",
-          "nvidia"
+          "nvidia",
+          "amazon"
         ]
       },
       {
@@ -638,8 +639,8 @@
         "prev": 8,
         "labs": [
           "cohere",
-          "amazon",
-          "bytedance"
+          "bytedance",
+          "amazon"
         ]
       }
     ]
@@ -668,6 +669,18 @@
       ],
       "reports": 2,
       "at": "2026-11-13T06:15:00.000Z"
+    },
+    {
+      "id": "microsoft:11a4c17e9477a8",
+      "lab": "microsoft",
+      "title": "Webflow launches new MCP Connector for Microsoft Copilot",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbzhxSUNnSTEwYTlDSEU0eDdlQXlkZ3U4MGVZWlZfWkJBZWFObGNmVlBsVGFiQjFyTlhmcHdfWjBFWDBuZmpqNWpON1BNdUIwT2xLZEtaUW4xTnc4dlVfNzhKbE4tRlZEUm5sZldLanRoRmVUeEVBX1VhYk40cExVOVVic08xMVE4UXBsemlSd1o1cHMtLTlaWFRBTmducWk4Umh5WXVRUlllcVNNTzR6VHVhb0pGaEhYSEFxQjl2enI1eGlrLUk4NHhydDVuNi1CY1VDTE4tRjlKRk9iZ1FxQ1pMYlJScWZqb3AxLUxBMA?oc=5",
+      "outlets": [
+        "WBOC TV",
+        "Destination CRM"
+      ],
+      "reports": 2,
+      "at": "2026-11-12T17:30:00.000Z"
     },
     {
       "id": "qwen:acb3fb3de13795",

@@ -21,13 +21,13 @@
     "benefit": "Tax teams using Basis can finish a large workbook faster and trust Astra more when the user's intent is clear."
   },
   "1d78f09c640d45a5": {
-    "hash": "851acebfe91c",
-    "summary": "Anthropic introduced Claude Haiku 5.5 and calls it the cheapest, fastest, and most capable small model it has released.",
-    "benefit": "Teams that need a small Claude model can switch to Haiku 5.5 for cheaper, faster work."
+    "hash": "ddda71681b83",
+    "summary": "Anthropic introduced Claude Haiku 5.5, calling it its fastest, most capable small model and building it for high-volume work like summarization, subagents, and browser use.",
+    "benefit": "High-volume jobs such as summarization, subagents and browser use can run on a small Claude model."
   },
   "aecfd421f6483557": {
-    "hash": "a9c100ce3c90",
-    "summary": "Claude Sonnet 5.5 is the second model in the Claude 5.5 family, a clear upgrade over Claude Sonnet 5 that runs 30%+ faster and costs up to 30% less for most work.",
+    "hash": "6c6d8a2368bd",
+    "summary": "Anthropic introduced Claude Sonnet 5.5, described as a clear upgrade over Claude Sonnet 5 that runs 30%+ faster and costs up to 30% less for most work.",
     "benefit": "Developers on Sonnet 5 can move most work to Sonnet 5.5 for higher speed and a lower cost."
   },
   "311e095023e6d9fd": {
@@ -374,8 +374,8 @@
     "benefit": "API developers can design evals and run hillclimb from the claude-api skill instead of tuning by feel."
   },
   "eb1569caa0b7d2c3": {
-    "hash": "44bc84120fd4",
-    "summary": "Anthropic is launching an expanded Cyber Verification Program that gives qualifying security professionals advanced cyber capabilities and reduced blocking classifiers.",
+    "hash": "a55d8742b256",
+    "summary": "Anthropic launched a new, expanded version of its Cyber Verification Program, making advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "Qualifying security professionals can access stronger cyber capabilities with fewer blocking classifiers."
   },
   "b5006264e8e0669d": {
@@ -4048,9 +4048,9 @@
     "benefit": "TypeScript SDK users get CLI v0.26.9 bundled with this corrected release."
   },
   "ffe8a09e969fa29a": {
-    "hash": "1eee413b5534",
-    "summary": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2, its new models for the hardest technical challenges.",
-    "benefit": "When today's models still fall short on hard technical work, there are two new Claude models to benchmark against your own tasks."
+    "hash": "3041c048c642",
+    "summary": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2, calling them its most capable models for daunting technical work and setting a new bar in coding, finance, and the sciences.",
+    "benefit": "If your work is coding, finance or scientific research, these are the models Anthropic now positions as its most capable for it."
   },
   "62afb1e0ab944c9e": {
     "hash": "d530312614ce",
@@ -4735,9 +4735,9 @@
     "benefit": "Researchers and developers get one episode covering translation, a solved math problem and coding-agent efficiency instead of chasing separate posts."
   },
   "c4f30a114c593417": {
-    "hash": "4c6bb9ca98f4",
-    "summary": "Microsoft Agent Framework python v1.26.0 lowers Hyperlight dependency floors for the 1.26 release and keeps Hyperlight SDK documentation focused on requirements.",
-    "benefit": "Python users of the framework get looser Hyperlight version requirements, so upgrading needs fewer matching pins."
+    "hash": "d0ba6ee21177",
+    "summary": "Microsoft Agent Framework python v1.26.0 exposes loop_return_final_only on create_harness_agent() for non-streaming callers and adds the optional experimental SecureAgentConfig.message_labeler callback for application-owned classification of context-provider messages.",
+    "benefit": "Non-streaming callers can ask for only the final loop response without changing the existing default or streaming behaviour."
   },
   "c49610fa053ca051": {
     "hash": "0fc6c5a2b742",
@@ -4798,5 +4798,123 @@
     "hash": "68553717c3a8",
     "summary": "Qwen Code v0.27.3 reports no known breaking changes and adds chips above the Web Shell composer for unfinished background workflows, shells, monitors and local agents, replacing the status-bar task pill, plus Chinese localization of GitHub channel event prompts.",
     "benefit": "Qwen Code users get unfinished background work surfaced above the composer and Chinese-language channel prompts in PR-bound sessions."
+  },
+  "134ab56ca337ce36": {
+    "hash": "31db84e79734",
+    "summary": "Grok 4.7 is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions with experimental support; AWS describes it as SpaceXSI's most capable model for coding and knowledge work.",
+    "benefit": "GovCloud users get a model built to stay focused on hard tasks that run for hours and to recover from errors more reliably than Grok 4.6 in repo-scale coding work."
+  },
+  "8f2daa11c5051ada": {
+    "hash": "309693443c4b",
+    "summary": "NVIDIA walks through serving GLM-5.3 across two NVIDIA DGX Stations connected over ConnectX-8 RDMA, with tensor parallelism presenting one model through a single endpoint.",
+    "benefit": "A way to run frontier-scale models locally once their weights no longer fit the GPU memory of a single machine.",
+    "category": "developer"
+  },
+  "5bf4951adbe9698d": {
+    "hash": "212509e7f016",
+    "summary": "OpenAI introduced ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+    "benefit": "You can let an agent finish a purchase while approval and your existing card protections stay with you."
+  },
+  "cd88f6cf71e07eac": {
+    "hash": "3a379636bd0b",
+    "summary": "Google DeepMind is opening the datasets behind its AI weather models: foundational precipitation and geostationary satellite datasets for observing the planet clearly.",
+    "benefit": "Weather-model builders get DeepMind's own precipitation and satellite data to observe the planet with.",
+    "category": "research"
+  },
+  "17e30fb78274e3b8": {
+    "hash": "1068e27ad6e7",
+    "summary": "Google published a guide to claiming Google Cloud Credits in Google AI Studio.",
+    "benefit": "Developers already working in Google AI Studio have a route to Google Cloud Credits from inside it."
+  },
+  "94d8e8d36570e022": {
+    "hash": "d6fc902f0f79",
+    "summary": "AWS describes routing coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard, arguing that a task rather than a single call is what the developer pays for.",
+    "benefit": "Useful when one agent task can take a few model calls or dozens, since price per token alone does not tell you what the task costs.",
+    "category": "developer"
+  },
+  "d1318183fe172893": {
+    "hash": "ca66ae16a706",
+    "summary": "OpenAI says Shield uses its tools to help IT technicians hand off work in legacy portals, with Forge agents navigating systems so technicians focus on issues needing their judgment.",
+    "benefit": "A concrete example of agents taking routine portal navigation so people spend time on judgment calls."
+  },
+  "4df850b22c372d8c": {
+    "hash": "d81d5ab8f093",
+    "summary": "Cohere expanded its sovereign AI platform with AISLE and cubic, adding capabilities for cyber defense, secure software development, and mission-critical enterprise workflows.",
+    "benefit": "Organizations keeping AI in-house get cyber defense and secure software development as platform capabilities."
+  },
+  "99d40623cf51112d": {
+    "hash": "6b19047b0ff8",
+    "summary": "AWS shares architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime, where each session runs in its own isolated microVM and the platform scales to zero when there is no work.",
+    "benefit": "Helps when people wait on the first response: startup patterns for agents that also run unattended for hours."
+  },
+  "11b027d3d65c3465": {
+    "hash": "0e6150d37304",
+    "summary": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 authorization server discovery URLs for inbound JWT authorization and outbound OAuth credential providers, where it previously accepted only OpenID Connect discovery URLs.",
+    "benefit": "You can point AgentCore at an authorization server that implements OAuth 2.0 without OpenID Connect."
+  },
+  "b0e7421b6f57e9e4": {
+    "hash": "546564b84859",
+    "summary": "Amazon SageMaker Unified Studio added layout customization, giving domain administrators control over which tools and left navigation items project members see based on their designation.",
+    "benefit": "Admins can shape what data engineering, analytics and machine learning members see instead of showing everyone the same tools."
+  },
+  "58ea50c2ec63bc31": {
+    "hash": "b1c2b6e9f288",
+    "summary": "DeepSeek opened a new GitHub repository named chat-demo, listed with the description Chat Demo.",
+    "benefit": "Nothing beyond the name and description is published yet, so read the repository before relying on it."
+  },
+  "720dff5fdce78ccd": {
+    "hash": "1289d8ba6be0",
+    "summary": "Codex CLI rust v0.169.0 adds an opt-in terminal workspace with multiple side-chat tabs, search of older tasks from the agent command center by name, prompt preview or working directory, and a collapse-turn-details option in the full-screen transcript.",
+    "benefit": "Side chats survive a Codex restart and can be switched with keyboard or mouse instead of losing context."
+  },
+  "914024328dfe2985": {
+    "hash": "a0a305fa2d1c",
+    "summary": "Anthropic published recommendations for designing, running, and reporting safety evaluations, based on its own experiences.",
+    "benefit": "A reference if you have to design or write up safety evaluations and want a worked approach."
+  },
+  "575b7c25861caba1": {
+    "hash": "4bba15199e42",
+    "summary": "Strands Agents SDK python v1.65.0 is an auto-drafted release whose features include async agent builders and reporting content-filtered and refused children as tool errors.",
+    "benefit": "Multi-agent code can build agents asynchronously and see filtered or refused children as tool errors."
+  },
+  "0ffc58c8c2c4e49e": {
+    "hash": "7c80e7c1335a",
+    "summary": "Strands Agents SDK typescript v1.25.0 is an auto-drafted release that lets offload conditions decide granularity and adds a find_integrations tool backed by the catalog feed.",
+    "benefit": "TypeScript users get control over context offload granularity and a tool for finding integrations."
+  },
+  "ece4b84db3e9cab7": {
+    "hash": "faf694fe7887",
+    "summary": "NVIDIA describes health systems and startups using AI to match patients to clinical trials and to support radiologists, hospital teams and patients at home, with clinicians reviewing AI outputs and guiding decisions.",
+    "benefit": "Shows where AI removes routine work for care teams so clinicians keep the decisions and more time with patients."
+  },
+  "984d08da3cf7995c": {
+    "hash": "4bab197e8118",
+    "summary": "Anthropic published a guide to building always-on agents, which run indefinitely and decide how and when to act across many sessions, covering their core primitives and how they fit together.",
+    "benefit": "A starting point if you are designing an agent that keeps running across sessions rather than answering one request."
+  },
+  "6334b4f0dff90073": {
+    "hash": "8cbf97e145f1",
+    "summary": "Meta explains running Android's Virtual Device Framework natively on Apple Silicon with Cuttlefish, noting that a lightweight emulator like Goldfish only gets part of the way when testing non-phone Android devices.",
+    "benefit": "Relevant if you test software for devices such as AI glasses, where virtual device fidelity matters more than convenience."
+  },
+  "773ec8d2db34b976": {
+    "hash": "e06126164376",
+    "summary": "AWS shows how to use Amazon Bedrock's built-in, zero-instrumentation cost attribution, which traces every inference call back to the IAM principal that made it and flows with organizational tags into Cost and Usage Reports (CUR 2.0) and AWS Cost Explorer.",
+    "benefit": "FinOps and AI teams can attribute inference spend to identities and org tags without instrumenting code themselves."
+  },
+  "408f1e399c8022f8": {
+    "hash": "cf7500b45d83",
+    "summary": "NVIDIA shows how to run native DLA inference in Python on NVIDIA Jetson AGX Orin using cuDLA, on Deep Learning Accelerator platforms that provide dedicated hardware for inference.",
+    "benefit": "Edge developers can put networks on dedicated hardware when compute and power budgets are limited."
+  },
+  "57d405a0b24d8c14": {
+    "hash": "6c3db3df2258",
+    "summary": "Anthropic released Claude Agent SDK (Python) v0.2.182, published on PyPI and installed with pip install claude-agent-sdk==0.2.182.",
+    "benefit": "A single pinned pip install updates the Python SDK if you build agents on it."
+  },
+  "3578b3def025c271": {
+    "hash": "8dce083fb7a4",
+    "summary": "Claude Code v2.1.325 fixes a security issue in how zstd-compressed responses are decoded, adds a VS Code spinner tip about re-running a notebook cell, and adds a line explaining how to continue when an organization policy blocks a request.",
+    "benefit": "When policy blocks a request you are told to run /rewind and change the message, or run /clear."
   }
 }
