@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-11-14T22:34:31.646Z",
+  "generatedAt": "2026-11-15T04:01:25.107Z",
   "stories": [
+    {
+      "id": "15706f35e993d4cb",
+      "title": "Gemini 4 Carbon is now available for developers.",
+      "entity": "Gemini 4 Carbon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 1,
+      "press": 21,
+      "outlets": [
+        "Search Engine Roundtable",
+        "The GitHub Blog",
+        "Seeking Alpha",
+        "Breakingthenews.net",
+        "Engadget",
+        "The Verge",
+        "9to5Google",
+        "VentureBeat",
+        "The New Stack",
+        "CNET",
+        "Unite.AI",
+        "SecurityWeek",
+        "The Tech Buzz",
+        "SQ Magazine",
+        "The Decoder",
+        "Inven Global",
+        "Technology Org",
+        "Android Authority",
+        "MIXED News",
+        "Brave New Coin",
+        "Small Business Trends",
+        "shattered.io",
+        "Tom's Guide",
+        "PPC Land",
+        "CASRAI"
+      ],
+      "firstAt": "2026-11-10T16:00:00.000Z",
+      "lastAt": "2026-11-14T16:50:59.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
+      "lead": {
+        "kind": "official",
+        "id": "15706f35e993d4cb"
+      },
+      "importance": 100
+    },
     {
       "id": "482148aaa5ddfc2a",
       "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
@@ -45,51 +90,6 @@
       "importance": 100
     },
     {
-      "id": "15706f35e993d4cb",
-      "title": "Gemini 4 Carbon is now available for developers.",
-      "entity": "Gemini 4 Carbon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 1,
-      "press": 20,
-      "outlets": [
-        "Search Engine Roundtable",
-        "The GitHub Blog",
-        "Seeking Alpha",
-        "Breakingthenews.net",
-        "Engadget",
-        "The Verge",
-        "9to5Google",
-        "VentureBeat",
-        "The New Stack",
-        "CNET",
-        "Unite.AI",
-        "SecurityWeek",
-        "The Tech Buzz",
-        "SQ Magazine",
-        "The Decoder",
-        "Inven Global",
-        "Technology Org",
-        "Android Authority",
-        "MIXED News",
-        "Brave New Coin",
-        "Small Business Trends",
-        "shattered.io",
-        "Tom's Guide",
-        "PPC Land",
-        "CASRAI"
-      ],
-      "firstAt": "2026-11-10T16:00:00.000Z",
-      "lastAt": "2026-11-13T07:28:13.000Z",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
-      "lead": {
-        "kind": "official",
-        "id": "15706f35e993d4cb"
-      },
-      "importance": 100
-    },
-    {
       "id": "05f1e3cef6173c85",
       "title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
       "entity": "Claude Opus 5.5",
@@ -98,19 +98,20 @@
         "anthropic"
       ],
       "official": 1,
-      "press": 2,
+      "press": 3,
       "outlets": [
         "ForkLog",
-        "Cointribune"
+        "Cointribune",
+        "The Decoder"
       ],
       "firstAt": "2026-11-11T10:23:17.000Z",
-      "lastAt": "2026-11-12T00:00:00.000Z",
+      "lastAt": "2026-11-14T16:50:52.000Z",
       "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
       "lead": {
         "kind": "official",
         "id": "05f1e3cef6173c85"
       },
-      "importance": 94
+      "importance": 96
     },
     {
       "id": "ffe8a09e969fa29a",
@@ -461,7 +462,7 @@
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 24,
+        "count": 25,
         "prev": 7,
         "labs": [
           "google-deepmind"
@@ -506,7 +507,7 @@
       },
       {
         "name": "Claude Opus 5.5",
-        "count": 4,
+        "count": 5,
         "prev": 4,
         "labs": [
           "anthropic"
@@ -538,8 +539,8 @@
     "topics": [
       {
         "name": "agents",
-        "count": 60,
-        "prev": 50,
+        "count": 59,
+        "prev": 51,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -548,15 +549,15 @@
           "mistral",
           "qwen",
           "microsoft",
-          "amazon",
           "bytedance",
+          "amazon",
           "nvidia",
           "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 51,
+        "count": 49,
         "prev": 38,
         "labs": [
           "anthropic",
@@ -651,8 +652,8 @@
         "prev": 8,
         "labs": [
           "cohere",
-          "amazon",
-          "bytedance"
+          "bytedance",
+          "amazon"
         ]
       }
     ]

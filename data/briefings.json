@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-11-15",
-    "generatedAt": "2026-11-14T22:34:31.646Z",
+    "generatedAt": "2026-11-15T04:01:25.107Z",
     "stats": {
       "updates24h": 1,
       "labsActive24h": 1,
-      "updates7d": 171,
+      "updates7d": 169,
       "newModels7d": 44
     },
     "source": "template",
@@ -22,11 +22,6 @@
         "lab": "google-deepmind"
       },
       {
-        "text": "Anthropic: Using Claude Opus 5.5 as your daily driver for knowledge work",
-        "itemId": "05f1e3cef6173c85",
-        "lab": "anthropic"
-      },
-      {
         "text": "NVIDIA: When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
         "itemId": "8f2daa11c5051ada",
         "lab": "nvidia"
@@ -37,9 +32,14 @@
         "lab": "amazon"
       },
       {
-        "text": "Amazon: Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
-        "itemId": "f3cf1418c9269a8d",
-        "lab": "amazon"
+        "text": "OpenAI: Introducing ChatGPT Wallet",
+        "itemId": "5bf4951adbe9698d",
+        "lab": "openai"
+      },
+      {
+        "text": "OpenAI: How Amplitude ships product improvements in 1–2 days with OpenAI",
+        "itemId": "5b0f73df89a6e310",
+        "lab": "openai"
       }
     ]
   },

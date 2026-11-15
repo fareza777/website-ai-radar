@@ -1,5 +1,37 @@
 [
   {
+    "id": "bc2041d11c983129",
+    "modelId": "particle-ai/particle-1",
+    "name": "Particle AI: Particle-1",
+    "at": "2026-11-15T04:01:25.107Z",
+    "field": "prompt",
+    "from": 0.05,
+    "to": 0.06,
+    "change": 20
+  },
+  {
+    "id": "4d382faec67f9d34",
+    "modelId": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "lab": "deepseek",
+    "at": "2026-11-15T04:01:25.107Z",
+    "field": "prompt",
+    "from": 0.5,
+    "to": 0.571,
+    "change": 14.2
+  },
+  {
+    "id": "f2c9e136bd67800e",
+    "modelId": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "lab": "deepseek",
+    "at": "2026-11-15T04:01:25.107Z",
+    "field": "completion",
+    "from": 2.15,
+    "to": 2.286,
+    "change": 6.3
+  },
+  {
     "id": "aea9bbb55bca1f4e",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",

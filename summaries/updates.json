@@ -3771,9 +3771,9 @@
     "benefit": "Quantum groups get a co-design platform that links IBM quantum hardware to ORNL supercomputing and AMD hardware for quantum error correction work."
   },
   "f6d3226a90fa9d2c": {
-    "hash": "c016ebf82fb6",
-    "summary": "The Google GenAI SDK for Python reached version 3.0.0, a release with breaking changes: the default Gemini Developer API version is now v1 instead of v1beta. Clients with vertexai=True or enterprise=True are unaffected and keep defaulting to v1beta1, and some model aliases are not available on v1.",
-    "benefit": "Python developers calling the Gemini Developer API land on the stable v1 surface by default and need an explicit change to stay on v1beta."
+    "hash": "5d0f7c051611",
+    "summary": "Google GenAI SDK (Python) v3.0.0 is a breaking-change release: the default Gemini Developer API version moves from v1beta to v1, while clients set with vertexai=True or enterprise=True keep defaulting to v1beta1, and some models are not available on v1.",
+    "benefit": "Anyone calling the Gemini Developer API should check model availability before upgrading, because some models are not on v1."
   },
   "477cff6d6b4c7941": {
     "hash": "fe76518569d0",
@@ -4048,9 +4048,9 @@
     "benefit": "TypeScript SDK users get CLI v0.26.9 bundled with this corrected release."
   },
   "ffe8a09e969fa29a": {
-    "hash": "3041c048c642",
-    "summary": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2, calling them its most capable models for daunting technical work and setting a new bar in coding, finance, and the sciences.",
-    "benefit": "If your work is coding, finance or scientific research, these are the models Anthropic now positions as its most capable for it."
+    "hash": "1eee413b5534",
+    "summary": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2, its new models for the hardest technical challenges.",
+    "benefit": "If your hardest technical work runs on Claude, there are two new models to evaluate against those tasks."
   },
   "62afb1e0ab944c9e": {
     "hash": "d530312614ce",
@@ -4916,5 +4916,10 @@
     "hash": "8dce083fb7a4",
     "summary": "Claude Code v2.1.325 fixes a security issue in how zstd-compressed responses are decoded, adds a VS Code spinner tip about re-running a notebook cell, and adds a line explaining how to continue when an organization policy blocks a request.",
     "benefit": "When policy blocks a request you are told to run /rewind and change the message, or run /clear."
+  },
+  "17933929ce5df9f3": {
+    "hash": "8120462807ea",
+    "summary": "Docling v2.150.1 fixes DOCX parsing: headings from paragraph-level w:outlineLvl, hyperlink targets kept in footnotes and endnotes, a single-cell table nested in a table cell stays inside the cell, and an open list closed before a following table. The CLI omits from_formats in convert-remote unless --from is set.",
+    "benefit": "Pipelines that convert Word documents keep heading levels, footnote and endnote links, and nested table structure intact."
   }
 }

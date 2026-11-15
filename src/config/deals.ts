@@ -196,6 +196,26 @@ export const CURATED_DEALS: CuratedDeal[] = [
     url: "https://openrouter.ai/pricing",
     mustContain: "Get started for free",
   },
+  {
+    id: "assemblyai-free-tier",
+    title: "AssemblyAI — Free tier",
+    provider: "AssemblyAI",
+    kind: "free-tier",
+    description:
+      "AssemblyAI says you can create an account and start transcribing with no credit card required, with its free tier stated as up to 185 hours of pre-recorded and up to 333 hours of streaming transcription.",
+    url: "https://www.assemblyai.com/pricing",
+    mustContain: "free tier includes up to 185 hours",
+  },
+  {
+    id: "elevenlabs-free-plan",
+    title: "ElevenLabs — Free plan",
+    provider: "ElevenLabs",
+    kind: "free-tier",
+    description:
+      "ElevenLabs lists a Free plan at $0 per month covering text to speech, speech to text, sound effects, voice design, music, productions and image, with 10k credits per month.",
+    url: "https://elevenlabs.io/pricing",
+    mustContain: "10k credits per month",
+  },
 ];
 
 export const DEAL_SIGNALS = {

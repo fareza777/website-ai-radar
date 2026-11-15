@@ -1,33 +1,4 @@
 {
-  "2026-10-16": {
-    "headline": "Gemini 4 Argon opens to developers and enterprises, Mistral ships Timestral, and Claude Code Review becomes generally available.",
-    "bullets": [
-      {
-        "text": "Google is giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon.",
-        "itemId": "66cb1e68848fee2d"
-      },
-      {
-        "text": "Developers can build complex software and cybersecurity workflows with Gemini 4 Argon.",
-        "itemId": "08b67872d0b2e94f"
-      },
-      {
-        "text": "Mistral introduced Timestral for probabilistic forecasting in four sizes, from 5M to 209M parameters, that is CPU-efficient and zero-shot ready.",
-        "itemId": "3a11e60ee8cf431d"
-      },
-      {
-        "text": "Claude Code Review is now generally available to catch more bugs before they reach production.",
-        "itemId": "b09ae946e685c3f0"
-      },
-      {
-        "text": "Meta's Muse Spark Open is now on Amazon SageMaker JumpStart for agentic coding workflows.",
-        "itemId": "cd984aadc77d696e"
-      },
-      {
-        "text": "Grok 4.7 is now on Amazon Bedrock for agents that work longer on more difficult tasks.",
-        "itemId": "c4d6082c07a1abcc"
-      }
-    ]
-  },
   "2026-10-17": {
     "headline": "Nemotron 3.5 Super VL and Reflection Beam reach Amazon SageMaker JumpStart, and Mistral introduces Timestral for forecasting.",
     "bullets": [
@@ -660,6 +631,35 @@
       {
         "itemId": "134ab56ca337ce36",
         "text": "Grok 4.7 is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions with experimental support, described as more reliable than Grok 4.6 in repo-scale coding work."
+      }
+    ]
+  },
+  "2026-11-15": {
+    "headline": "Google DeepMind introduced Gemini 4 Hydrogen for agentic coding and brought it to Google Search, while OpenAI launched ChatGPT Wallet for agent purchases.",
+    "bullets": [
+      {
+        "itemId": "a8d5fa7d24b3647f",
+        "text": "Google DeepMind introduced Gemini 4 Hydrogen."
+      },
+      {
+        "itemId": "482148aaa5ddfc2a",
+        "text": "Gemini 4 Hydrogen is Google's new model for cost-efficient agentic coding and debugging, with building available in Google AI Studio."
+      },
+      {
+        "itemId": "ad614f81e42f72e5",
+        "text": "Google is bringing Gemini 4 Hydrogen to Google Search globally to provide more helpful, visual, and intuitive responses."
+      },
+      {
+        "itemId": "5bf4951adbe9698d",
+        "text": "OpenAI introduced ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+      },
+      {
+        "itemId": "134ab56ca337ce36",
+        "text": "Grok 4.7 is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions, and compared with Grok 4.6 it plans and recovers from errors more reliably in repo-scale coding work."
+      },
+      {
+        "itemId": "8f2daa11c5051ada",
+        "text": "NVIDIA describes serving one frontier-scale model through a single endpoint across two NVIDIA DGX Stations connected over ConnectX-8 RDMA with tensor parallelism, because the largest models no longer fit on one machine."
       }
     ]
   }
