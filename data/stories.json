@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T06:45:42.583Z",
+  "generatedAt": "2026-11-15T16:26:32.379Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -284,24 +284,15 @@
       "importance": 70
     },
     {
-      "id": "baidu:c7eb7b8759594f",
-      "title": "Baidu releases ERNIE 5.5 Flash Base, a 280B sparse MoE model optimized for efficiency and long-context reasoning",
+      "id": "baidu:8f0dc7a5fd96a4",
+      "title": "Baidu Releases ERNIE 5.5 Flash Preview on Qianfan, With Open Weights Promised by November 25",
       "entity": "ERNIE 5.5 Flash",
       "labs": [
         "baidu"
       ],
       "official": 0,
-      "press": 17,
+      "press": 12,
       "outlets": [
-        "Startup Fortune",
-        "Unite.AI",
-        "www.tokenpost.com",
-        "AIBase",
-        "BigGo Finance",
-        "XenoSpectrum",
-        "Pandaily",
-        "MarkTechPost",
-        "news.lavx.hu",
         "The Decoder",
         "Brief IA",
         "Foro3D",
@@ -311,6 +302,7 @@
         "FourWeekMBA",
         "www.trendingtopics.eu",
         "KuCoin",
+        "Pandaily",
         "TOKENPOST",
         "Tech in Asia",
         "Crypto Briefing",
@@ -320,14 +312,14 @@
         "Pasquale Pillitteri",
         "OrcaRouter"
       ],
-      "firstAt": "2026-11-05T10:13:24.000Z",
+      "firstAt": "2026-11-05T18:03:08.000Z",
       "lastAt": "2026-11-13T18:59:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOczdpckVlSTBWUlZ3YWFkcWo1SC1CQV9xSE1vZ0xzR3ZMOU1Wc3hoR3F2VG94Z1lmOHV6M3RQc2RCblZ0N3cxYTdaTUE0cmRwVG4zLV9YR1NmNHNOMXFtdGpESGlERU1rS3MyNDZHSkhqWmxQNWo1NkRqX1hQc01RaG5yNmR3amV0ZEswUTJyc2pjOUl3ZzEwcGx4UXY1VXotSjdUc3JYdHlIQXdYOFFSeXJ2ak1OVFE1LVRiZ0xFRTBrOVFnXzR2bmNvaURKV20tMm1BeFdrdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWh3N2E3eE0wdThSTktJWmI4aDZrbU9yalRGOTU1UDhKZko0ZHpYaGl6dlRiNHV6Qkl2LTlwcmF1cVpuOEJCZW5SS1RUS2xkNHYwaXlfYmYwWExpZFRDeTluc1Z1OVEtVy1lSUlNaWpMRmI0aW9za2NDYTMxOVJLUE1FZjBWUQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "baidu:c7eb7b8759594f"
+        "id": "baidu:8f0dc7a5fd96a4"
       },
-      "importance": 69
+      "importance": 66
     },
     {
       "id": "qwen:6bf7502fd68b9f",
@@ -369,10 +361,11 @@
         "qwen"
       ],
       "official": 0,
-      "press": 5,
+      "press": 6,
       "outlets": [
         "MarkTechPost",
         "Pasquale Pillitteri",
+        "TechJuice",
         "The Register",
         "Mezha.net",
         "news.lavx.hu",
@@ -385,7 +378,7 @@
         "kind": "press",
         "id": "qwen:4717b2d69605de"
       },
-      "importance": 58
+      "importance": 59
     },
     {
       "id": "cohere:234d2d221df3e4",
@@ -408,30 +401,6 @@
       "lead": {
         "kind": "press",
         "id": "cohere:234d2d221df3e4"
-      },
-      "importance": 56
-    },
-    {
-      "id": "qwen:b3c959bcf9cdc4",
-      "title": "MIT Says GPT-6 Astra Boosted Qwen Math By Editing Its Weights",
-      "entity": "GPT 6 Astra",
-      "labs": [
-        "qwen",
-        "anthropic",
-        "openai"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Dataconomy",
-        "Fortune"
-      ],
-      "firstAt": "2026-11-05T10:29:03.000Z",
-      "lastAt": "2026-11-09T21:02:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZE5GOXY4aFhBTVIwSWVKa3JyQ19iYVN3ZVVacEpQSnBaRjZLcEZLcUZOdzJfcGt5YUxraExSeTBrQUVhc0xiRk5uWlVuRUJlQ0ZqXzQ2SnNGMHJaWk5EbWJyZlB1bDF3Y3JidHhpQzJsd0plam1lczNpZ2NFU3YtLXAyZEVUNkcwWGM3bmFtWjBtUQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:b3c959bcf9cdc4"
       },
       "importance": 56
     },
@@ -486,7 +455,7 @@
       {
         "name": "Gemini 4 Carbon",
         "count": 25,
-        "prev": 7,
+        "prev": 6,
         "labs": [
           "google-deepmind"
         ]
@@ -543,38 +512,44 @@
         "labs": [
           "amazon"
         ]
+      },
+      {
+        "name": "Qwen 3.8",
+        "count": 3,
+        "prev": 0,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 59,
+        "count": 61,
         "prev": 51,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "qwen",
-          "mistral",
           "minimax",
+          "mistral",
           "microsoft",
-          "bytedance",
           "amazon",
+          "bytedance",
           "nvidia",
           "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 49,
-        "prev": 38,
+        "count": 51,
+        "prev": 39,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "qwen",
-          "mistral",
           "minimax",
+          "mistral",
           "cohere",
           "microsoft",
           "amazon",
@@ -588,8 +563,8 @@
         "prev": 11,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "cohere",
           "amazon",
           "nvidia",
@@ -598,12 +573,12 @@
       },
       {
         "name": "multimodal",
-        "count": 11,
-        "prev": 12,
+        "count": 9,
+        "prev": 14,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "moonshot",
           "minimax",
           "tencent",
@@ -618,8 +593,8 @@
         "count": 7,
         "prev": 2,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "amazon",
           "nvidia"
         ]
@@ -636,17 +611,6 @@
         ]
       },
       {
-        "name": "audio",
-        "count": 5,
-        "prev": 1,
-        "labs": [
-          "anthropic",
-          "openai",
-          "amazon",
-          "ibm"
-        ]
-      },
-      {
         "name": "open-source",
         "count": 5,
         "prev": 4,
@@ -656,13 +620,24 @@
         ]
       },
       {
+        "name": "audio",
+        "count": 4,
+        "prev": 2,
+        "labs": [
+          "anthropic",
+          "openai",
+          "amazon",
+          "ibm"
+        ]
+      },
+      {
         "name": "rag",
         "count": 2,
         "prev": 8,
         "labs": [
           "cohere",
-          "bytedance",
-          "amazon"
+          "amazon",
+          "bytedance"
         ]
       }
     ]
@@ -703,30 +678,6 @@
       ],
       "reports": 2,
       "at": "2026-11-12T17:30:00.000Z"
-    },
-    {
-      "id": "qwen:acb3fb3de13795",
-      "lab": "qwen",
-      "title": "Alibaba launches flagship AI model Qwen 4 Max",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41bU1pNkJ6QW9OZXIxaWNYcVRfNFo4bWc4dDBoY0NkekxZQTdTRXhqSXZOdkdKeHdSaHQxT1NMVEdOVXZVRGxRUEdoTjBncW01Si1idk4wNFk?oc=5",
-      "outlets": [
-        "mobidevices.com",
-        "Technetbook"
-      ],
-      "reports": 2,
-      "at": "2026-11-12T10:58:37.000Z"
-    },
-    {
-      "id": "meta:4b14f4af4a56ef",
-      "lab": "meta",
-      "title": "Tuya Launches Tuya Cloud Devices for Meta's AI Agent Muse",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTjZmdklXQlpXZkpEeks0VEh3ZHNvLWg4NkRuNGpnYUh1c0hxbUJ2ZXhRaVBqU0ZhOGF3VjBZT004QnlBYmtDRFhkcnZ3WVBCYk9vNTZGaTc5alNaeWtvVFpNcDhtNTFJWHJwV0V0RU9Mb2tvU3RwZGFwME5md0JTemo4RnNOLUZOdXhPZVJCUnh6TjF0T2FHNlU3XzNHMGtEZXlYZ1NXRWtmTVJzalZn?oc=5",
-      "outlets": [
-        "marketscreener.com",
-        "Moomoo"
-      ],
-      "reports": 2,
-      "at": "2026-11-12T10:44:10.000Z"
     }
   ]
 }

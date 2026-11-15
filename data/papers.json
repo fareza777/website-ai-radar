@@ -79,7 +79,7 @@
     "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the…",
     "publishedAt": "2026-11-12T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 14,
+    "upvotes": 16,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-13T19:50:14.566Z"
@@ -197,7 +197,7 @@
     "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that treats the…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 41,
     "org": "nju",
     "githubRepo": "https://github.com/EliYuan30/Reframe",
     "firstSeenAt": "2026-11-13T01:55:24.398Z"
@@ -221,7 +221,7 @@
     "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a…",
     "publishedAt": "2026-11-05T16:19:52.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 15,
+    "upvotes": 25,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/EDAPINENUT/fewsteprl-sd35",
@@ -234,7 +234,7 @@
     "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation. In this paper, we introduce an exponential moving average optimization procedure for k-means with mini-batch updates, powered by modern deep learning machinery and new insights. We also establish scaling laws on how decay rate and batch size impact final performance…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 11,
+    "upvotes": 13,
     "org": "meta",
     "lab": "meta",
     "githubRepo": "https://github.com/facebookresearch/faiss",
@@ -295,7 +295,7 @@
     "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution. A…",
     "publishedAt": "2026-11-05T15:31:15.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 43,
     "org": null,
     "githubRepo": "https://github.com/chip-ai-agent/PCBRouteAgent",
     "firstSeenAt": "2026-11-10T23:29:30.795Z"
@@ -307,7 +307,7 @@
     "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules and models encode…",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 42,
     "org": "bytedance",
     "lab": "bytedance",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
