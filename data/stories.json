@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T16:26:32.379Z",
+  "generatedAt": "2026-11-15T22:56:21.102Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 3,
-      "press": 18,
+      "press": 19,
       "outlets": [
         "MakeUseOf",
         "Thurrott.com",
@@ -33,6 +33,7 @@
         "www.trendingtopics.eu",
         "Small Business Trends",
         "InfoWorld",
+        "Android Central",
         "The GitHub Blog",
         "Brave New Coin"
       ],
@@ -291,11 +292,8 @@
         "baidu"
       ],
       "official": 0,
-      "press": 12,
+      "press": 11,
       "outlets": [
-        "The Decoder",
-        "Brief IA",
-        "Foro3D",
         "https://tech-insider.org/",
         "shattered.io",
         "GIGAZINE",
@@ -312,14 +310,14 @@
         "Pasquale Pillitteri",
         "OrcaRouter"
       ],
-      "firstAt": "2026-11-05T18:03:08.000Z",
+      "firstAt": "2026-11-06T04:58:28.000Z",
       "lastAt": "2026-11-13T18:59:37.000Z",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWh3N2E3eE0wdThSTktJWmI4aDZrbU9yalRGOTU1UDhKZko0ZHpYaGl6dlRiNHV6Qkl2LTlwcmF1cVpuOEJCZW5SS1RUS2xkNHYwaXlfYmYwWExpZFRDeTluc1Z1OVEtVy1lSUlNaWpMRmI0aW9za2NDYTMxOVJLUE1FZjBWUQ?oc=5",
       "lead": {
         "kind": "press",
         "id": "baidu:8f0dc7a5fd96a4"
       },
-      "importance": 66
+      "importance": 65
     },
     {
       "id": "qwen:6bf7502fd68b9f",
@@ -462,7 +460,7 @@
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 23,
+        "count": 24,
         "prev": 1,
         "labs": [
           "google-deepmind"
@@ -500,7 +498,7 @@
       {
         "name": "Claude Opus 5.5",
         "count": 5,
-        "prev": 4,
+        "prev": 3,
         "labs": [
           "anthropic"
         ]
@@ -527,11 +525,11 @@
         "prev": 51,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
-          "qwen",
-          "minimax",
+          "openai",
           "mistral",
+          "minimax",
+          "qwen",
           "microsoft",
           "amazon",
           "bytedance",
@@ -545,11 +543,11 @@
         "prev": 39,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
-          "qwen",
-          "minimax",
+          "openai",
           "mistral",
+          "minimax",
+          "qwen",
           "cohere",
           "microsoft",
           "amazon",
@@ -563,8 +561,8 @@
         "prev": 11,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "cohere",
           "amazon",
           "nvidia",
@@ -577,8 +575,8 @@
         "prev": 14,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "moonshot",
           "minimax",
           "tencent",
@@ -593,8 +591,8 @@
         "count": 7,
         "prev": 2,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "amazon",
           "nvidia"
         ]
@@ -666,18 +664,6 @@
       ],
       "reports": 2,
       "at": "2026-11-13T06:15:00.000Z"
-    },
-    {
-      "id": "microsoft:11a4c17e9477a8",
-      "lab": "microsoft",
-      "title": "Webflow launches new MCP Connector for Microsoft Copilot",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbzhxSUNnSTEwYTlDSEU0eDdlQXlkZ3U4MGVZWlZfWkJBZWFObGNmVlBsVGFiQjFyTlhmcHdfWjBFWDBuZmpqNWpON1BNdUIwT2xLZEtaUW4xTnc4dlVfNzhKbE4tRlZEUm5sZldLanRoRmVUeEVBX1VhYk40cExVOVVic08xMVE4UXBsemlSd1o1cHMtLTlaWFRBTmducWk4Umh5WXVRUlllcVNNTzR6VHVhb0pGaEhYSEFxQjl2enI1eGlrLUk4NHhydDVuNi1CY1VDTE4tRjlKRk9iZ1FxQ1pMYlJScWZqb3AxLUxBMA?oc=5",
-      "outlets": [
-        "WBOC TV",
-        "Destination CRM"
-      ],
-      "reports": 2,
-      "at": "2026-11-12T17:30:00.000Z"
     }
   ]
 }

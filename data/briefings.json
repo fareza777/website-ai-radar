@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-11-16",
+    "generatedAt": "2026-11-15T22:56:21.102Z",
+    "stats": {
+      "updates24h": 5,
+      "labsActive24h": 2,
+      "updates7d": 172,
+      "newModels7d": 44
+    },
+    "source": "template",
+    "headline": "5 updates from 2 AI labs in the last 24 hours · 44 model releases this week.",
+    "bullets": [
+      {
+        "text": "OpenAI: A step toward defining the Standard Model on a lattice",
+        "itemId": "87d7014c15ee68a3",
+        "lab": "openai"
+      },
+      {
+        "text": "OpenAI: Our new blog for science",
+        "itemId": "4b0fc5b701ffd77d",
+        "lab": "openai"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen Code v0.27.4",
+        "itemId": "e369d6f27ed70536",
+        "lab": "qwen"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.34",
+        "itemId": "3490ad7ee1940631",
+        "lab": "qwen"
+      }
+    ]
+  },
+  {
     "date": "2026-11-15",
     "generatedAt": "2026-11-15T16:26:32.379Z",
     "stats": {
@@ -1172,40 +1206,6 @@
         "text": "NVIDIA: Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
         "itemId": "d259b094fe0e0621",
         "lab": "nvidia"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-17",
-    "generatedAt": "2026-10-17T15:42:26.434Z",
-    "stats": {
-      "updates24h": 7,
-      "labsActive24h": 5,
-      "updates7d": 119,
-      "newModels7d": 37
-    },
-    "source": "template",
-    "headline": "7 updates from 5 AI labs in the last 24 hours · 37 model releases this week.",
-    "bullets": [
-      {
-        "text": "DeepSeek: DeepSeek-V4.1-Flash-1017",
-        "itemId": "9b13d6a721a0c270",
-        "lab": "deepseek"
-      },
-      {
-        "text": "Amazon: Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
-        "itemId": "3b6b85c81106ab13",
-        "lab": "amazon"
-      },
-      {
-        "text": "Amazon: Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
-        "itemId": "42200690b98b1f60",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: How Itaú is building generative AI for its entire customer base",
-        "itemId": "65442e708214c10b",
-        "lab": "openai"
       }
     ]
   }

@@ -6,7 +6,7 @@
     "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the…",
     "publishedAt": "2026-11-11T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 136,
+    "upvotes": 137,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/holdrain/SO-Arena",
     "firstSeenAt": "2026-11-13T11:11:46.197Z"
@@ -18,7 +18,7 @@
     "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 51,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
@@ -54,7 +54,7 @@
     "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls…",
     "publishedAt": "2026-11-11T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 43,
     "org": "inclusionai",
     "githubRepo": "https://github.com/inclusionAI/Duo",
     "firstSeenAt": "2026-11-14T22:34:31.646Z"
@@ -66,7 +66,7 @@
     "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP…",
     "publishedAt": "2026-11-12T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 23,
+    "upvotes": 25,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVlabs/DVSM",
@@ -91,7 +91,7 @@
     "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured…",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "submittedAt": "2026-11-12T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 49,
     "org": "internlm",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
   },
@@ -102,7 +102,7 @@
     "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 88,
+    "upvotes": 89,
     "org": "tsinghua",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
   },
@@ -137,7 +137,7 @@
     "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 66,
+    "upvotes": 67,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/yukyeongleee/wikitrace",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
@@ -149,9 +149,21 @@
     "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 103,
+    "upvotes": 104,
     "org": "robbyant",
     "githubRepo": "https://github.com/Robbyant/lingbot-touch",
+    "firstSeenAt": "2026-11-10T17:07:58.299Z"
+  },
+  {
+    "id": "2611.12762",
+    "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+    "url": "https://huggingface.co/papers/2611.12762",
+    "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI…",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "submittedAt": "2026-11-10T00:00:00.000Z",
+    "upvotes": 59,
+    "org": "shanghai-ai-laboratory",
+    "githubRepo": "https://github.com/Alpha-Innovator/Sage-Taiyi",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
   },
   {
@@ -164,18 +176,6 @@
     "upvotes": 58,
     "org": "openenvisionlab",
     "githubRepo": "https://github.com/OpenEnvision/WorldFoundry",
-    "firstSeenAt": "2026-11-10T17:07:58.299Z"
-  },
-  {
-    "id": "2611.12762",
-    "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
-    "url": "https://huggingface.co/papers/2611.12762",
-    "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI…",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 58,
-    "org": "shanghai-ai-laboratory",
-    "githubRepo": "https://github.com/Alpha-Innovator/Sage-Taiyi",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
   },
   {
@@ -247,10 +247,22 @@
     "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency…",
     "publishedAt": "2026-11-04T06:46:50.000Z",
     "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 93,
+    "upvotes": 95,
     "org": "netease-youdao",
     "githubRepo": "https://github.com/netease-youdao/Confucius4-R2T2",
     "firstSeenAt": "2026-11-10T04:02:52.140Z"
+  },
+  {
+    "id": "2611.03953",
+    "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+    "url": "https://huggingface.co/papers/2611.03953",
+    "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the…",
+    "publishedAt": "2026-11-02T20:53:15.000Z",
+    "submittedAt": "2026-11-09T00:00:00.000Z",
+    "upvotes": 71,
+    "org": "stepfun-ai",
+    "githubRepo": "https://github.com/SinuoWang/P2-MOPD",
+    "firstSeenAt": "2026-11-09T22:30:13.875Z"
   },
   {
     "id": "2611.08264",
@@ -263,18 +275,6 @@
     "org": "zju",
     "githubRepo": "https://github.com/zju3dv/SplatAnything",
     "firstSeenAt": "2026-11-09T11:46:12.486Z"
-  },
-  {
-    "id": "2611.03953",
-    "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
-    "url": "https://huggingface.co/papers/2611.03953",
-    "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the…",
-    "publishedAt": "2026-11-02T20:53:15.000Z",
-    "submittedAt": "2026-11-09T00:00:00.000Z",
-    "upvotes": 70,
-    "org": "stepfun-ai",
-    "githubRepo": "https://github.com/SinuoWang/P2-MOPD",
-    "firstSeenAt": "2026-11-09T22:30:13.875Z"
   },
   {
     "id": "2611.09124",
