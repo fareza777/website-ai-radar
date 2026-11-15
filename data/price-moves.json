@@ -1,5 +1,93 @@
 [
   {
+    "id": "2321a9839e42a115",
+    "modelId": "moonshotai/kimi-k3.1-pro",
+    "name": "MoonshotAI: Kimi K3.1 Pro",
+    "lab": "moonshot",
+    "at": "2026-11-15T06:45:42.583Z",
+    "field": "prompt",
+    "from": 2,
+    "to": 0.2375,
+    "change": -88.1
+  },
+  {
+    "id": "c435f3b6a017794e",
+    "modelId": "moonshotai/kimi-k3.1-pro",
+    "name": "MoonshotAI: Kimi K3.1 Pro",
+    "lab": "moonshot",
+    "at": "2026-11-15T06:45:42.583Z",
+    "field": "completion",
+    "from": 10,
+    "to": 8.4114,
+    "change": -15.9
+  },
+  {
+    "id": "ddcd8f2eae519761",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-11-15T06:45:42.583Z",
+    "field": "prompt",
+    "from": 0.0434,
+    "to": 0.06,
+    "change": 38.2
+  },
+  {
+    "id": "7e315470320328a1",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "lab": "deepseek",
+    "at": "2026-11-15T06:45:42.583Z",
+    "field": "completion",
+    "from": 0.3,
+    "to": 0.18,
+    "change": -40
+  },
+  {
+    "id": "adcd5d76f25b4673",
+    "modelId": "openai/gpt-5.6-sol",
+    "name": "OpenAI: GPT-5.6 Sol",
+    "lab": "openai",
+    "at": "2026-11-15T06:45:42.583Z",
+    "field": "prompt",
+    "from": 4,
+    "to": 4.4,
+    "change": 10
+  },
+  {
+    "id": "7b091738f1b794b4",
+    "modelId": "openai/gpt-5.6-sol",
+    "name": "OpenAI: GPT-5.6 Sol",
+    "lab": "openai",
+    "at": "2026-11-15T06:45:42.583Z",
+    "field": "completion",
+    "from": 20,
+    "to": 22,
+    "change": 10
+  },
+  {
+    "id": "d7dd6e2e86dcd2c9",
+    "modelId": "z-ai/glm-4.7",
+    "name": "Z.ai: GLM 4.7",
+    "lab": "zai",
+    "at": "2026-11-15T06:45:42.583Z",
+    "field": "prompt",
+    "from": 0.6,
+    "to": 0.4,
+    "change": -33.3
+  },
+  {
+    "id": "5331f4bbf89d84d1",
+    "modelId": "z-ai/glm-4.7",
+    "name": "Z.ai: GLM 4.7",
+    "lab": "zai",
+    "at": "2026-11-15T06:45:42.583Z",
+    "field": "completion",
+    "from": 2.2,
+    "to": 1.75,
+    "change": -20.5
+  },
+  {
     "id": "bc2041d11c983129",
     "modelId": "particle-ai/particle-1",
     "name": "Particle AI: Particle-1",
