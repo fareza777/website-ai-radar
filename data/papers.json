@@ -1,12 +1,23 @@
 [
   {
+    "id": "2611.18359",
+    "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+    "url": "https://huggingface.co/papers/2611.18359",
+    "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the…",
+    "publishedAt": "2026-11-13T00:00:00.000Z",
+    "submittedAt": "2026-11-16T00:00:00.000Z",
+    "upvotes": 41,
+    "org": null,
+    "firstSeenAt": "2026-11-16T06:44:24.686Z"
+  },
+  {
     "id": "2611.15777",
     "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
     "url": "https://huggingface.co/papers/2611.15777",
     "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the…",
     "publishedAt": "2026-11-11T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 137,
+    "upvotes": 138,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/holdrain/SO-Arena",
     "firstSeenAt": "2026-11-13T11:11:46.197Z"
@@ -18,7 +29,7 @@
     "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 54,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
@@ -79,7 +90,7 @@
     "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the…",
     "publishedAt": "2026-11-12T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 18,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-13T19:50:14.566Z"
@@ -94,6 +105,18 @@
     "upvotes": 49,
     "org": "internlm",
     "firstSeenAt": "2026-11-13T04:01:40.149Z"
+  },
+  {
+    "id": "2611.13410",
+    "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+    "url": "https://huggingface.co/papers/2611.13410",
+    "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure contexts, while…",
+    "publishedAt": "2026-11-10T00:00:00.000Z",
+    "submittedAt": "2026-11-12T00:00:00.000Z",
+    "upvotes": 40,
+    "org": null,
+    "githubRepo": "https://github.com/air-embodied-brain/SteerDistill",
+    "firstSeenAt": "2026-11-16T06:44:24.686Z"
   },
   {
     "id": "2611.14033",
@@ -119,6 +142,18 @@
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
   },
   {
+    "id": "2611.14320",
+    "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+    "url": "https://huggingface.co/papers/2611.14320",
+    "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled…",
+    "publishedAt": "2026-11-10T00:00:00.000Z",
+    "submittedAt": "2026-11-11T00:00:00.000Z",
+    "upvotes": 69,
+    "org": "kaist-ai",
+    "githubRepo": "https://github.com/yukyeongleee/wikitrace",
+    "firstSeenAt": "2026-11-11T17:15:19.267Z"
+  },
+  {
     "id": "2611.12885",
     "title": "World In-Context Learning for Agentic Robot Manipulation",
     "url": "https://huggingface.co/papers/2611.12885",
@@ -131,16 +166,16 @@
     "firstSeenAt": "2026-11-11T17:15:19.267Z"
   },
   {
-    "id": "2611.14320",
-    "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
-    "url": "https://huggingface.co/papers/2611.14320",
-    "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled…",
-    "publishedAt": "2026-11-10T00:00:00.000Z",
+    "id": "2611.13001",
+    "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+    "url": "https://huggingface.co/papers/2611.13001",
+    "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and…",
+    "publishedAt": "2026-11-08T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 67,
-    "org": "kaist-ai",
-    "githubRepo": "https://github.com/yukyeongleee/wikitrace",
-    "firstSeenAt": "2026-11-11T17:15:19.267Z"
+    "upvotes": 40,
+    "org": "stable-ai",
+    "githubRepo": "https://github.com/limix-ldm-ai/OTBench",
+    "firstSeenAt": "2026-11-16T06:44:24.686Z"
   },
   {
     "id": "2611.12806",
@@ -161,7 +196,7 @@
     "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 59,
+    "upvotes": 60,
     "org": "shanghai-ai-laboratory",
     "githubRepo": "https://github.com/Alpha-Innovator/Sage-Taiyi",
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
@@ -185,7 +220,7 @@
     "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation horizon, while 135 of…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 55,
     "org": "uw",
     "githubRepo": "https://github.com/InfrathonX/Infrathon",
     "firstSeenAt": "2026-11-13T19:50:14.566Z"
@@ -234,7 +269,7 @@
     "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation. In this paper, we introduce an exponential moving average optimization procedure for k-means with mini-batch updates, powered by modern deep learning machinery and new insights. We also establish scaling laws on how decay rate and batch size impact final performance…",
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "submittedAt": "2026-11-10T00:00:00.000Z",
-    "upvotes": 13,
+    "upvotes": 14,
     "org": "meta",
     "lab": "meta",
     "githubRepo": "https://github.com/facebookresearch/faiss",

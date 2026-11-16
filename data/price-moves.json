@@ -1,5 +1,49 @@
 [
   {
+    "id": "7ee2c23e3b722d4c",
+    "modelId": "nvidia/nemotron-3.5-super-vl",
+    "name": "NVIDIA: Nemotron 3.5 Super VL",
+    "lab": "nvidia",
+    "at": "2026-11-16T06:44:24.686Z",
+    "field": "completion",
+    "from": 0.47,
+    "to": 0.5,
+    "change": 6.4
+  },
+  {
+    "id": "7e75250d17f9ee6e",
+    "modelId": "ibm-granite/granite-4.2-8b",
+    "name": "IBM: Granite 4.2 8B",
+    "lab": "ibm",
+    "at": "2026-11-16T06:44:24.686Z",
+    "field": "completion",
+    "from": 0.25,
+    "to": 0.15,
+    "change": -40
+  },
+  {
+    "id": "e56812df94d632aa",
+    "modelId": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "lab": "deepseek",
+    "at": "2026-11-16T06:44:24.686Z",
+    "field": "prompt",
+    "from": 0.571,
+    "to": 0.5,
+    "change": -12.4
+  },
+  {
+    "id": "75dd500bacdd6858",
+    "modelId": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "lab": "deepseek",
+    "at": "2026-11-16T06:44:24.686Z",
+    "field": "completion",
+    "from": 2.286,
+    "to": 2.15,
+    "change": -5.9
+  },
+  {
     "id": "2321a9839e42a115",
     "modelId": "moonshotai/kimi-k3.1-pro",
     "name": "MoonshotAI: Kimi K3.1 Pro",

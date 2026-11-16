@@ -1,5 +1,29 @@
 [
   {
+    "id": "46b48e728e810800",
+    "lab": "nvidia",
+    "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+    "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T00:00:28.000Z",
+    "firstSeenAt": "2026-11-16T06:44:24.686Z",
+    "updatedAt": "2026-11-16T00:00:28.000Z",
+    "excerpt": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai Motor Group, LG Electronics and SK Group — as well as startups…",
+    "summary": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 30,
+    "contentHash": "cd28e7759791"
+  },
+  {
     "id": "408f1e399c8022f8",
     "lab": "nvidia",
     "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
@@ -2188,7 +2212,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3321,
+      "likes": 3322,
       "downloads": 81509,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -2266,7 +2290,7 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 201,
+      "likes": 202,
       "downloads": 28257,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -2462,7 +2486,7 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 433,
+      "likes": 446,
       "downloads": 148159,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -3434,7 +3458,7 @@
     "importance": 68,
     "contentHash": "1a235bb4339f",
     "meta": {
-      "likes": 166,
+      "likes": 167,
       "downloads": 25080,
       "repo": "nvidia/Nemotron-3.5-Parse",
       "pipeline": "image-text-to-text",

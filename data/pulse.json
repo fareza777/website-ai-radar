@@ -15,8 +15,8 @@
     "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
     "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
     "hnUrl": "https://news.ycombinator.com/item?id=50493251",
-    "points": 1097,
-    "comments": 646,
+    "points": 1102,
+    "comments": 649,
     "at": "2026-11-14T02:52:59Z",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-14T10:38:13.666Z"
@@ -97,16 +97,6 @@
     "firstSeenAt": "2026-11-10T17:07:58.299Z"
   },
   {
-    "id": "50418975",
-    "title": "I'm not convinced the AI bubble exists",
-    "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-    "hnUrl": "https://news.ycombinator.com/item?id=50418975",
-    "points": 570,
-    "comments": 966,
-    "at": "2026-11-08T23:44:36Z",
-    "firstSeenAt": "2026-11-09T04:01:53.165Z"
-  },
-  {
     "id": "50471431",
     "title": "Gemini 4 Hydrogen",
     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
@@ -176,8 +166,8 @@
     "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
     "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50501631",
-    "points": 442,
-    "comments": 231,
+    "points": 445,
+    "comments": 236,
     "at": "2026-11-14T22:26:30Z",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-15T04:01:25.107Z"
@@ -214,6 +204,17 @@
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
   },
   {
+    "id": "50513215",
+    "title": "Qwen4-Max",
+    "url": "https://qwen.ai/blog?id=qwen4-max",
+    "hnUrl": "https://news.ycombinator.com/item?id=50513215",
+    "points": 349,
+    "comments": 118,
+    "at": "2026-11-16T02:14:44Z",
+    "lab": "qwen",
+    "firstSeenAt": "2026-11-16T06:44:24.686Z"
+  },
+  {
     "id": "50442303",
     "title": "Gemini 4 Carbon is now available",
     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
@@ -240,8 +241,8 @@
     "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
     "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
     "hnUrl": "https://news.ycombinator.com/item?id=50497589",
-    "points": 271,
-    "comments": 27,
+    "points": 272,
+    "comments": 28,
     "at": "2026-11-14T15:04:15Z",
     "lab": "deepseek",
     "firstSeenAt": "2026-11-14T22:34:31.646Z"
@@ -251,10 +252,20 @@
     "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
     "url": "https://unsloth.ai/docs/models/qwen3.8",
     "hnUrl": "https://news.ycombinator.com/item?id=50491980",
-    "points": 257,
-    "comments": 84,
+    "points": 259,
+    "comments": 85,
     "at": "2026-11-14T00:06:04Z",
     "firstSeenAt": "2026-11-14T10:38:13.666Z"
+  },
+  {
+    "id": "50506376",
+    "title": "Understanding Positional Embeddings in Modern LLMs",
+    "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+    "hnUrl": "https://news.ycombinator.com/item?id=50506376",
+    "points": 226,
+    "comments": 27,
+    "at": "2026-11-15T12:14:06Z",
+    "firstSeenAt": "2026-11-15T16:26:32.379Z"
   },
   {
     "id": "50422628",
@@ -289,16 +300,6 @@
     "firstSeenAt": "2026-11-10T07:28:23.381Z"
   },
   {
-    "id": "50506376",
-    "title": "Understanding Positional Embeddings in Modern LLMs",
-    "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-    "hnUrl": "https://news.ycombinator.com/item?id=50506376",
-    "points": 184,
-    "comments": 23,
-    "at": "2026-11-15T12:14:06Z",
-    "firstSeenAt": "2026-11-15T16:26:32.379Z"
-  },
-  {
     "id": "50487184",
     "title": "OpenAI disbands its robotics team as its general models start running robots",
     "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
@@ -324,7 +325,7 @@
     "title": "The Claude Delusion",
     "url": "https://www.netmeister.org/blog/claude-delusion.html",
     "hnUrl": "https://news.ycombinator.com/item?id=50496921",
-    "points": 151,
+    "points": 152,
     "comments": 199,
     "at": "2026-11-14T13:36:17Z",
     "lab": "anthropic",
@@ -345,8 +346,8 @@
     "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
     "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
     "hnUrl": "https://news.ycombinator.com/item?id=50497155",
-    "points": 144,
-    "comments": 69,
+    "points": 145,
+    "comments": 70,
     "at": "2026-11-14T14:09:25Z",
     "lab": "zai",
     "firstSeenAt": "2026-11-14T18:14:42.033Z"
@@ -383,31 +384,22 @@
     "firstSeenAt": "2026-11-13T19:50:14.566Z"
   },
   {
-    "id": "50421155",
-    "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
-    "url": "https://github.com/OmniJev/Flide",
-    "hnUrl": "https://news.ycombinator.com/item?id=50421155",
-    "points": 124,
+    "id": "50481321",
+    "title": "What thousands of conversations look like inside a language model",
+    "url": "https://operator0x.com/field-notes/qwen-conversation-state-space/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50481321",
+    "points": 120,
     "comments": 29,
-    "at": "2026-11-09T04:43:12Z",
-    "firstSeenAt": "2026-11-09T22:30:13.875Z"
-  },
-  {
-    "id": "50421426",
-    "title": "Apple capped engineers at a $200 daily AI budget",
-    "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
-    "hnUrl": "https://news.ycombinator.com/item?id=50421426",
-    "points": 113,
-    "comments": 126,
-    "at": "2026-11-09T05:30:11Z",
-    "firstSeenAt": "2026-11-09T11:46:12.486Z"
+    "at": "2026-11-13T10:26:01Z",
+    "lab": "qwen",
+    "firstSeenAt": "2026-11-15T22:56:21.102Z"
   },
   {
     "id": "50491097",
     "title": "Claude Meetings",
     "url": "https://claude.com/resources/articles/claude-meetings",
     "hnUrl": "https://news.ycombinator.com/item?id=50491097",
-    "points": 111,
+    "points": 112,
     "comments": 88,
     "at": "2026-11-13T22:39:15Z",
     "lab": "anthropic",
@@ -418,21 +410,10 @@
     "title": "Show HN: Agweb – a browser for agents that stays out of your way",
     "url": "https://github.com/paul-nameless/agweb",
     "hnUrl": "https://news.ycombinator.com/item?id=50497147",
-    "points": 107,
-    "comments": 36,
+    "points": 108,
+    "comments": 37,
     "at": "2026-11-14T14:08:12Z",
     "firstSeenAt": "2026-11-15T04:01:25.107Z"
-  },
-  {
-    "id": "50481321",
-    "title": "What thousands of conversations look like inside a language model",
-    "url": "https://operator0x.com/field-notes/qwen-conversation-state-space/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50481321",
-    "points": 106,
-    "comments": 29,
-    "at": "2026-11-13T10:26:01Z",
-    "lab": "qwen",
-    "firstSeenAt": "2026-11-15T22:56:21.102Z"
   },
   {
     "id": "50492141",
@@ -460,8 +441,8 @@
     "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
     "url": "https://news.ycombinator.com/item?id=50494696",
     "hnUrl": "https://news.ycombinator.com/item?id=50494696",
-    "points": 88,
-    "comments": 52,
+    "points": 89,
+    "comments": 53,
     "at": "2026-11-14T06:56:42Z",
     "firstSeenAt": "2026-11-14T18:14:42.033Z"
   },
@@ -483,16 +464,6 @@
     "points": 80,
     "comments": 12,
     "at": "2026-11-09T11:36:55Z",
-    "firstSeenAt": "2026-11-09T22:30:13.875Z"
-  },
-  {
-    "id": "50420532",
-    "title": "Asahi Linux Drops MIT, Goes Full GPL After AI Used to Steal Unreleased Code",
-    "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50420532",
-    "points": 74,
-    "comments": 39,
-    "at": "2026-11-09T03:06:55Z",
     "firstSeenAt": "2026-11-09T22:30:13.875Z"
   },
   {
@@ -533,7 +504,7 @@
     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
     "hnUrl": "https://news.ycombinator.com/item?id=50498051",
     "points": 61,
-    "comments": 42,
+    "comments": 43,
     "at": "2026-11-14T15:58:57Z",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-15T22:56:21.102Z"

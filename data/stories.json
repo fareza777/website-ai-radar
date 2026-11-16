@@ -1,6 +1,52 @@
 {
-  "generatedAt": "2026-11-15T22:56:21.102Z",
+  "generatedAt": "2026-11-16T06:44:24.686Z",
   "stories": [
+    {
+      "id": "15706f35e993d4cb",
+      "title": "Gemini 4 Carbon is now available for developers.",
+      "entity": "Gemini 4 Carbon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 1,
+      "press": 22,
+      "outlets": [
+        "Search Engine Roundtable",
+        "The GitHub Blog",
+        "Seeking Alpha",
+        "Breakingthenews.net",
+        "Engadget",
+        "The Verge",
+        "9to5Google",
+        "VentureBeat",
+        "The New Stack",
+        "CNET",
+        "Unite.AI",
+        "SecurityWeek",
+        "The Tech Buzz",
+        "SQ Magazine",
+        "The Decoder",
+        "Inven Global",
+        "Technology Org",
+        "Android Authority",
+        "MIXED News",
+        "Brave New Coin",
+        "Small Business Trends",
+        "shattered.io",
+        "Tom's Guide",
+        "PPC Land",
+        "CASRAI",
+        "EdTech Innovation Hub"
+      ],
+      "firstAt": "2026-11-10T16:00:00.000Z",
+      "lastAt": "2026-11-16T00:02:11.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
+      "lead": {
+        "kind": "official",
+        "id": "15706f35e993d4cb"
+      },
+      "importance": 100
+    },
     {
       "id": "482148aaa5ddfc2a",
       "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
@@ -43,51 +89,6 @@
       "lead": {
         "kind": "official",
         "id": "482148aaa5ddfc2a"
-      },
-      "importance": 100
-    },
-    {
-      "id": "15706f35e993d4cb",
-      "title": "Gemini 4 Carbon is now available for developers.",
-      "entity": "Gemini 4 Carbon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 1,
-      "press": 21,
-      "outlets": [
-        "Search Engine Roundtable",
-        "The GitHub Blog",
-        "Seeking Alpha",
-        "Breakingthenews.net",
-        "Engadget",
-        "The Verge",
-        "9to5Google",
-        "VentureBeat",
-        "The New Stack",
-        "CNET",
-        "Unite.AI",
-        "SecurityWeek",
-        "The Tech Buzz",
-        "SQ Magazine",
-        "The Decoder",
-        "Inven Global",
-        "Technology Org",
-        "Android Authority",
-        "MIXED News",
-        "Brave New Coin",
-        "Small Business Trends",
-        "shattered.io",
-        "Tom's Guide",
-        "PPC Land",
-        "CASRAI"
-      ],
-      "firstAt": "2026-11-10T16:00:00.000Z",
-      "lastAt": "2026-11-14T16:50:59.000Z",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
-      "lead": {
-        "kind": "official",
-        "id": "15706f35e993d4cb"
       },
       "importance": 100
     },
@@ -285,6 +286,43 @@
       "importance": 70
     },
     {
+      "id": "qwen:6bf7502fd68b9f",
+      "title": "Alibaba opens Qwen4-Max preview with a million-token context window",
+      "entity": "Qwen 4 Max",
+      "labs": [
+        "qwen"
+      ],
+      "official": 0,
+      "press": 14,
+      "outlets": [
+        "Pasquale Pillitteri",
+        "Kingy AI",
+        "Asia Times",
+        "BigGo Finance",
+        "AIBase",
+        "TechNode",
+        "Pandaily",
+        "XenoSpectrum",
+        "Tech Times",
+        "mobidevices.com",
+        "Technetbook",
+        "www.tokenpost.com",
+        "The Defiant",
+        "South China Morning Post",
+        "news.lavx.hu",
+        "MLQ.ai",
+        "Business Standard"
+      ],
+      "firstAt": "2026-11-06T08:00:00.000Z",
+      "lastAt": "2026-11-16T06:33:09.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQUxtZGowNUItR2NJa2taNHJfbDVob1RxLTFfV1pEczFEcUl1TVZ4d0ExYWN0XzhJeXNqS2c4bUJtbjVUT1ZiNnFFdVRSbUlfR29UTVM3bTVBaDlSaGUwUDMxMEt4Z1A4ZXlUOEpQYkNVbWRDS0h1cmJweUxubkIxbHhrVWJrWGdIdDliWTE4dUJmbTN1a1R6cXRyTC1zYTVmTWc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:6bf7502fd68b9f"
+      },
+      "importance": 65
+    },
+    {
       "id": "baidu:8f0dc7a5fd96a4",
       "title": "Baidu Releases ERNIE 5.5 Flash Preview on Qianfan, With Open Weights Promised by November 25",
       "entity": "ERNIE 5.5 Flash",
@@ -292,10 +330,8 @@
         "baidu"
       ],
       "official": 0,
-      "press": 11,
+      "press": 10,
       "outlets": [
-        "https://tech-insider.org/",
-        "shattered.io",
         "GIGAZINE",
         "FourWeekMBA",
         "www.trendingtopics.eu",
@@ -310,44 +346,12 @@
         "Pasquale Pillitteri",
         "OrcaRouter"
       ],
-      "firstAt": "2026-11-06T04:58:28.000Z",
+      "firstAt": "2026-11-06T08:12:00.000Z",
       "lastAt": "2026-11-13T18:59:37.000Z",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWh3N2E3eE0wdThSTktJWmI4aDZrbU9yalRGOTU1UDhKZko0ZHpYaGl6dlRiNHV6Qkl2LTlwcmF1cVpuOEJCZW5SS1RUS2xkNHYwaXlfYmYwWExpZFRDeTluc1Z1OVEtVy1lSUlNaWpMRmI0aW9za2NDYTMxOVJLUE1FZjBWUQ?oc=5",
       "lead": {
         "kind": "press",
         "id": "baidu:8f0dc7a5fd96a4"
-      },
-      "importance": 65
-    },
-    {
-      "id": "qwen:6bf7502fd68b9f",
-      "title": "Alibaba opens Qwen4-Max preview with a million-token context window",
-      "entity": "Qwen 4 Max",
-      "labs": [
-        "qwen"
-      ],
-      "official": 0,
-      "press": 11,
-      "outlets": [
-        "Fello AI",
-        "Pasquale Pillitteri",
-        "Kingy AI",
-        "Asia Times",
-        "BigGo Finance",
-        "AIBase",
-        "TechNode",
-        "Pandaily",
-        "XenoSpectrum",
-        "Tech Times",
-        "mobidevices.com",
-        "Technetbook"
-      ],
-      "firstAt": "2026-11-06T06:08:16.000Z",
-      "lastAt": "2026-11-12T10:58:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQUxtZGowNUItR2NJa2taNHJfbDVob1RxLTFfV1pEczFEcUl1TVZ4d0ExYWN0XzhJeXNqS2c4bUJtbjVUT1ZiNnFFdVRSbUlfR29UTVM3bTVBaDlSaGUwUDMxMEt4Z1A4ZXlUOEpQYkNVbWRDS0h1cmJweUxubkIxbHhrVWJrWGdIdDliWTE4dUJmbTN1a1R6cXRyTC1zYTVmTWc?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:6bf7502fd68b9f"
       },
       "importance": 63
     },
@@ -359,14 +363,11 @@
         "qwen"
       ],
       "official": 0,
-      "press": 6,
+      "press": 3,
       "outlets": [
         "MarkTechPost",
         "Pasquale Pillitteri",
-        "TechJuice",
-        "The Register",
         "Mezha.net",
-        "news.lavx.hu",
         "Cybernews"
       ],
       "firstAt": "2026-11-08T04:45:59.000Z",
@@ -376,7 +377,7 @@
         "kind": "press",
         "id": "qwen:4717b2d69605de"
       },
-      "importance": 59
+      "importance": 56
     },
     {
       "id": "cohere:234d2d221df3e4",
@@ -452,8 +453,8 @@
     "entities": [
       {
         "name": "Gemini 4 Carbon",
-        "count": 25,
-        "prev": 6,
+        "count": 26,
+        "prev": 4,
         "labs": [
           "google-deepmind"
         ]
@@ -467,6 +468,12 @@
         ]
       },
       {
+        "name": "Qwen 4 Max",
+        "count": 12,
+        "prev": 0,
+        "labs": []
+      },
+      {
         "name": "ERNIE 5.5 Flash",
         "count": 9,
         "prev": 19,
@@ -474,18 +481,12 @@
       },
       {
         "name": "Claude 5.2",
-        "count": 8,
-        "prev": 0,
+        "count": 6,
+        "prev": 2,
         "labs": [
           "anthropic",
           "amazon"
         ]
-      },
-      {
-        "name": "Qwen 4 Max",
-        "count": 7,
-        "prev": 0,
-        "labs": []
       },
       {
         "name": "Gemini 2.5",
@@ -502,6 +503,12 @@
         "labs": [
           "anthropic"
         ]
+      },
+      {
+        "name": "Qwen 3.8 Max",
+        "count": 4,
+        "prev": 1,
+        "labs": []
       },
       {
         "name": "DeepSeek 4.1 Flash",
@@ -521,32 +528,32 @@
     "topics": [
       {
         "name": "agents",
-        "count": 61,
-        "prev": 51,
+        "count": 59,
+        "prev": 53,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "qwen",
           "microsoft",
-          "amazon",
           "bytedance",
+          "amazon",
           "nvidia",
           "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 51,
-        "prev": 39,
+        "count": 48,
+        "prev": 41,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "minimax",
+          "mistral",
           "qwen",
           "cohere",
           "microsoft",
@@ -557,8 +564,8 @@
       },
       {
         "name": "safety",
-        "count": 21,
-        "prev": 11,
+        "count": 18,
+        "prev": 13,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -572,14 +579,12 @@
       {
         "name": "multimodal",
         "count": 9,
-        "prev": 14,
+        "prev": 12,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "moonshot",
           "minimax",
-          "tencent",
           "microsoft",
           "amazon",
           "nvidia",
@@ -619,8 +624,8 @@
       },
       {
         "name": "audio",
-        "count": 4,
-        "prev": 2,
+        "count": 3,
+        "prev": 3,
         "labs": [
           "anthropic",
           "openai",
@@ -634,13 +639,25 @@
         "prev": 8,
         "labs": [
           "cohere",
-          "amazon",
-          "bytedance"
+          "bytedance",
+          "amazon"
         ]
       }
     ]
   },
   "unconfirmed": [
+    {
+      "id": "qwen:0d8893271533fe",
+      "lab": "qwen",
+      "title": "Alibaba launches Qwen4-Max model with strict cybersecurity guardrails",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHl0ZVByMTFnMVVaU2h5UFBhMzFaVmFKQi1pcGhPb3lLeTdjdGh4TkpnU0FPUVAyMU9rYjV2UkhFdjhOUHRDVUFMRm9seUVzWDRzeno1YllqLVpmY3R6WmI5bnJSS1lkeFAzSm1lM1pkWnAtclpOQmxRWFVwMmZaVjE2cy1KYzRJcEw5RUVIbVExdlhveFJYLU1HRTFSVERTV2VzdHFtS1J2SE1PMjBFbVNYMFNRSmZmT3FtV2kxYUd0QmdBSkJMb3pGUWJTUGFzcC1wYg?oc=5",
+      "outlets": [
+        "South China Morning Post",
+        "news.lavx.hu"
+      ],
+      "reports": 2,
+      "at": "2026-11-16T03:56:53.000Z"
+    },
     {
       "id": "openai:2dd0cbfffef8ae",
       "lab": "openai",
@@ -652,18 +669,6 @@
       ],
       "reports": 2,
       "at": "2026-11-13T15:00:01.000Z"
-    },
-    {
-      "id": "baidu:2941a6c5c15788",
-      "lab": "baidu",
-      "title": "Baidu (BIDU) Unveils ERNIE 5.5 As Apollo Go Reaches 28 Cities",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVlA4d2RueU9XdDlTNTdZeHBqNVUtM2NnT25LOTJDeXFHczBNalBhQkZoOFRsZW9NT0dYTHVTVmhXT2JuODQ4Mk90NDRTUUJrTTJJemdoemc4eVFnVDNqVEh6WXdPNTF5b1RWNXB0UmtEUVlXdGM2NWUwLXlld1FBS2RRLU41T3p0RE1Nay1fTFZqX2RV?oc=5",
-      "outlets": [
-        "Yahoo Finance",
-        "Simply Wall St"
-      ],
-      "reports": 2,
-      "at": "2026-11-13T06:15:00.000Z"
     }
   ]
 }
