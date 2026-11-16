@@ -1,5 +1,194 @@
 [
   {
+    "id": "aafc20d9f2a085c9",
+    "lab": "nvidia",
+    "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+    "url": "https://blogs.nvidia.com/blog/lambda-photonics",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T16:00:51.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T16:00:51.000Z",
+    "excerpt": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering lower power, higher resiliency and longer mean time between interruptions…",
+    "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "c8173f238ff8"
+  },
+  {
+    "id": "0f2a855bc6a8fcf2",
+    "lab": "nvidia",
+    "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+    "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T16:00:25.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T16:00:25.000Z",
+    "excerpt": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic work a system delivers with each watt…",
+    "summary": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
+    "benefit": "API/SDK change — check whether your integration needs an update or can use the new capability.",
+    "summarySource": "template",
+    "category": "api",
+    "tags": [
+      "agents"
+    ],
+    "importance": 65,
+    "contentHash": "ff00d9b4af0c"
+  },
+  {
+    "id": "8192f1094925b873",
+    "lab": "nvidia",
+    "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+    "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T16:00:16.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T16:00:16.000Z",
+    "excerpt": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries faster than ever. Read All…",
+    "summary": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "542521d43047"
+  },
+  {
+    "id": "f96db6736bc3d96a",
+    "lab": "nvidia",
+    "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+    "url": "https://blogs.nvidia.com/blog/20-years-cuda",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T16:00:11.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T16:00:11.000Z",
+    "excerpt": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who wrote the very first CUDA programs to the AI developers building on their work today. At the platform’s core is this developer community…",
+    "summary": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "c39c4a111b90"
+  },
+  {
+    "id": "6cab091c059af43f",
+    "lab": "nvidia",
+    "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+    "url": "https://blogs.nvidia.com/blog/rubin-hpc",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T16:00:01.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T16:00:01.000Z",
+    "excerpt": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next steps. Rubin HPC will accelerate those simulations, shortening…",
+    "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 30,
+    "contentHash": "84ed40e97b0f"
+  },
+  {
+    "id": "00974c847642968e",
+    "lab": "nvidia",
+    "title": "Post-Training NVIDIA Nemotron to Increase Accuracy in Your Scientific Domain",
+    "url": "https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T16:00:00.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T16:00:00.000Z",
+    "excerpt": "Agentic AI is reshaping scientific research and innovation. Researchers communicate complex scientific hypotheses in natural language and let autonomous agents... Agentic AI is reshaping scientific research and innovation. Researchers communicate complex scientific hypotheses in natural language and let autonomous agents independently plan tasks, execute simulations, evaluate results, and self-correct across…",
+    "summary": "Agentic AI is reshaping scientific research and innovation.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "3ce28c74ec49"
+  },
+  {
+    "id": "ecf09aee9d40356d",
+    "lab": "nvidia",
+    "title": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0",
+    "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T16:00:00.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T16:00:00.000Z",
+    "excerpt": "Agentic workloads are demanding more from inference systems. AI agents carry growing conversation histories across turns and generate a mix of reasoning, tool... Agentic workloads are demanding more from inference systems. AI agents carry growing conversation histories across turns and generate a mix of reasoning, tool calls, and responses. Inference systems must support users at scale while remaining responsive…",
+    "summary": "Agentic workloads are demanding more from inference systems.",
+    "benefit": "API/SDK change — check whether your integration needs an update or can use the new capability.",
+    "summarySource": "template",
+    "category": "api",
+    "tags": [
+      "agents",
+      "reasoning"
+    ],
+    "importance": 50,
+    "contentHash": "593825f27cb0"
+  },
+  {
+    "id": "6f4d0d05c17db433",
+    "lab": "nvidia",
+    "title": "NVIDIA Vera Rubin NVL72 Achieves up to 2x Blackwell Ultra Performance in MLPerf Training v6.1",
+    "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T16:00:00.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T16:00:00.000Z",
+    "excerpt": "As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents they power. MLPerf... As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents they power. MLPerf Training v6.1 marks the debut of the NVIDIA Vera Rubin architecture, and these early results…",
+    "summary": "As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents they power.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 60,
+    "contentHash": "b009e75dea1f"
+  },
+  {
     "id": "46b48e728e810800",
     "lab": "nvidia",
     "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
@@ -536,7 +725,7 @@
     "contentHash": "440a22d35eed",
     "meta": {
       "likes": 26,
-      "downloads": 590,
+      "downloads": 623,
       "repo": "nvidia/MetricTrail",
       "license": "other"
     }
@@ -2011,8 +2200,8 @@
     "importance": 62,
     "contentHash": "6c39ac2571f4",
     "meta": {
-      "likes": 28,
-      "downloads": 11843,
+      "likes": 29,
+      "downloads": 12519,
       "repo": "nvidia/Kimodo-SOMA-RP-v1.2",
       "license": "other"
     }
@@ -2212,8 +2401,8 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3322,
-      "downloads": 81509,
+      "likes": 3347,
+      "downloads": 82914,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
       "license": "other"
@@ -2291,7 +2480,7 @@
     "contentHash": "08356dcbd0c7",
     "meta": {
       "likes": 202,
-      "downloads": 28257,
+      "downloads": 34011,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -2435,7 +2624,7 @@
     "contentHash": "806c45ea6874",
     "meta": {
       "likes": 46,
-      "downloads": 15458,
+      "downloads": 15644,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
     }
@@ -2486,8 +2675,8 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 446,
-      "downloads": 148159,
+      "likes": 455,
+      "downloads": 152708,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
       "license": "other"
@@ -2567,7 +2756,7 @@
     "contentHash": "b0ac029a9c38",
     "meta": {
       "likes": 44,
-      "downloads": 4763,
+      "downloads": 4837,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -3043,7 +3232,7 @@
     "contentHash": "c430fa5ee123",
     "meta": {
       "likes": 36,
-      "downloads": 383,
+      "downloads": 408,
       "repo": "nvidia/strata",
       "license": "openmdw-1.1"
     }

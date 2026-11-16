@@ -1,5 +1,52 @@
 [
   {
+    "id": "cd5b8a0fc178cd39",
+    "lab": "ibm",
+    "title": "SC26: IBM shows progress in bringing quantum & HPC together",
+    "url": "https://research.ibm.com/blog/sc26",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T16:00:00.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T16:00:00.000Z",
+    "excerpt": "At SC26 in Chicago, IBM and partners show how quantum computers are integrating into workflows and tools that the supercomputing workforce already runs.",
+    "summary": "At SC26 in Chicago, IBM and partners show how quantum computers are integrating into workflows and tools that the supercomputing workforce already runs.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "bc2ebe8dfcf0"
+  },
+  {
+    "id": "d4a70b5815ae4510",
+    "lab": "ibm",
+    "title": "IBM, AMD advance quantum error correction decoding at scale",
+    "url": "https://research.ibm.com/blog/pelagos",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T15:59:00.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T15:59:00.000Z",
+    "excerpt": "New open-source tool from IBM and AMD helps researchers evaluate quantum error-correction decoders at scale for future fault-tolerant quantum systems.",
+    "summary": "New open-source tool from IBM and AMD helps researchers evaluate quantum error-correction decoders at scale for future fault-tolerant quantum systems.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "open-source",
+      "coding"
+    ],
+    "importance": 40,
+    "contentHash": "290cb56f73fe"
+  },
+  {
     "id": "17933929ce5df9f3",
     "lab": "ibm",
     "title": "Docling v2.150.1",
@@ -887,7 +934,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 56,
-      "downloads": 6160,
+      "downloads": 6115,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -918,7 +965,7 @@
     "contentHash": "6f6f69225449",
     "meta": {
       "likes": 47,
-      "downloads": 4991,
+      "downloads": 4935,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1132,7 +1179,7 @@
     "contentHash": "a598e14a409a",
     "meta": {
       "likes": 85,
-      "downloads": 10692,
+      "downloads": 10869,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -1363,7 +1410,7 @@
     "contentHash": "e90d15ccd854",
     "meta": {
       "likes": 19,
-      "downloads": 428,
+      "downloads": 552,
       "repo": "ibm-granite/granite-4.1-8b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1394,7 +1441,7 @@
     "contentHash": "4a790aae3abc",
     "meta": {
       "likes": 18,
-      "downloads": 2243,
+      "downloads": 2413,
       "repo": "ibm-granite/granite-4.1-3b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1445,7 +1492,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 8,
-      "downloads": 336,
+      "downloads": 323,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"

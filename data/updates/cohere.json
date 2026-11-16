@@ -1,5 +1,31 @@
 [
   {
+    "id": "074991d4c7117efe",
+    "lab": "cohere",
+    "title": "Video intelligence: Make every moment in your video library searchable",
+    "url": "https://cohere.com/blog/video-intelligence-preview",
+    "sourceId": "cohere-blog",
+    "sourceName": "Cohere Blog",
+    "sourceType": "rss",
+    "trust": "mirror",
+    "verified": true,
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T00:00:00.000Z",
+    "excerpt": "Introducing precise, timestamped video retrieval for enterprise search and AI agents.",
+    "summary": "Introducing precise, timestamped video retrieval for enterprise search and AI agents.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "multimodal",
+      "rag"
+    ],
+    "importance": 30,
+    "contentHash": "f076510138c9"
+  },
+  {
     "id": "4df850b22c372d8c",
     "lab": "cohere",
     "title": "Cohere Expands Its Sovereign AI Platform with AISLE and cubic",
@@ -137,15 +163,15 @@
     "verified": true,
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "firstSeenAt": "2026-11-03T19:34:58.857Z",
-    "updatedAt": "2026-11-03T00:00:00.000Z",
-    "excerpt": "The right model for the right job, all under your jurisdiction.",
-    "summary": "The right model for the right job, all under your jurisdiction.",
+    "updatedAt": "2026-11-16T19:41:52.882Z",
+    "excerpt": "The world's leading open models, fully under your control",
+    "summary": "Official model update from Cohere (Cohere Blog).",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
     "summarySource": "template",
     "category": "model",
     "tags": [],
     "importance": 60,
-    "contentHash": "5a269d788511"
+    "contentHash": "1d8e249bb08b"
   },
   {
     "id": "f9f11eb14dc07ba3",
@@ -942,7 +968,7 @@
     "contentHash": "b089959862ad",
     "meta": {
       "likes": 12,
-      "downloads": 124,
+      "downloads": 287,
       "repo": "CohereLabs/tiny-aya-en-thinker",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -971,7 +997,7 @@
     "contentHash": "6d717b0074a7",
     "meta": {
       "likes": 16,
-      "downloads": 330,
+      "downloads": 329,
       "repo": "CohereLabs/tiny-aya-l2-thinker",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"

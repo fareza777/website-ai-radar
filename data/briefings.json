@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-17",
+    "generatedAt": "2026-11-16T19:41:52.882Z",
+    "stats": {
+      "updates24h": 32,
+      "labsActive24h": 7,
+      "updates7d": 174,
+      "newModels7d": 40
+    },
+    "source": "template",
+    "headline": "32 updates from 7 AI labs in the last 24 hours · 40 model releases this week.",
+    "bullets": [
+      {
+        "text": "OpenAI: The King’s Trust and OpenAI launch £1m partnership",
+        "itemId": "e3915f7e4cf071c4",
+        "lab": "openai"
+      },
+      {
+        "text": "OpenAI: Broadening access to AI for scientists",
+        "itemId": "f26f2a4dfd6b9b95",
+        "lab": "openai"
+      },
+      {
+        "text": "NVIDIA: NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+        "itemId": "0f2a855bc6a8fcf2",
+        "lab": "nvidia"
+      },
+      {
+        "text": "Amazon: AgentCore runtime instances are now available in six more AWS Regions",
+        "itemId": "59639c12a3bc824e",
+        "lab": "amazon"
+      },
+      {
+        "text": "Microsoft: TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+        "itemId": "f4a580580dcfc266",
+        "lab": "microsoft"
+      },
+      {
+        "text": "NVIDIA: Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+        "itemId": "aafc20d9f2a085c9",
+        "lab": "nvidia"
+      }
+    ]
+  },
+  {
     "date": "2026-11-16",
     "generatedAt": "2026-11-16T06:44:24.686Z",
     "stats": {
@@ -1167,50 +1211,6 @@
         "text": "Anthropic: Claude Code v2.1.303",
         "itemId": "13d5315f51758d6f",
         "lab": "anthropic"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-18",
-    "generatedAt": "2026-10-18T15:57:20.114Z",
-    "stats": {
-      "updates24h": 1,
-      "labsActive24h": 1,
-      "updates7d": 119,
-      "newModels7d": 39
-    },
-    "source": "template",
-    "headline": "A quiet day — here are the highlights from the last 72 hours across 11 labs.",
-    "bullets": [
-      {
-        "text": "DeepSeek: DeepSeek-V4.1-Flash-1017",
-        "itemId": "9b13d6a721a0c270",
-        "lab": "deepseek"
-      },
-      {
-        "text": "Tencent: Qwen3-8B-DSpine-b16",
-        "itemId": "e33d1da6e264a687",
-        "lab": "tencent"
-      },
-      {
-        "text": "Amazon: Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
-        "itemId": "3b6b85c81106ab13",
-        "lab": "amazon"
-      },
-      {
-        "text": "Amazon: Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
-        "itemId": "42200690b98b1f60",
-        "lab": "amazon"
-      },
-      {
-        "text": "Microsoft: Managing open-weight model risk in enterprise deployments",
-        "itemId": "1cf09e23a2a13be7",
-        "lab": "microsoft"
-      },
-      {
-        "text": "NVIDIA: Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
-        "itemId": "d259b094fe0e0621",
-        "lab": "nvidia"
       }
     ]
   }

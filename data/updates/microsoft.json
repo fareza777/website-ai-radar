@@ -1,5 +1,31 @@
 [
   {
+    "id": "f4a580580dcfc266",
+    "lab": "microsoft",
+    "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+    "url": "https://microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+    "sourceId": "msr-blog",
+    "sourceName": "Microsoft Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T17:01:35.000Z",
+    "firstSeenAt": "2026-11-16T19:41:52.882Z",
+    "updatedAt": "2026-11-16T17:01:35.000Z",
+    "excerpt": "At a glance Developers use AI coding agents in the same codebases day after day, yet agents often start each session from scratch: rediscovering familiar facts, loading unused tools, and repeating unsuccessful approaches. TokenEconomizer is an open-source plugin that learns from an agent’s past sessions in a repository to reduce waste in future sessions, without modifying the agent or its underlying model. Across…",
+    "summary": "At a glance Developers use AI coding agents in the same codebases day after day, yet agents often start each session from scratch: rediscovering familiar facts, loading unused tools, and repeating unsuccessful approaches.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "open-source",
+      "agents",
+      "coding"
+    ],
+    "importance": 60,
+    "contentHash": "01d122c5d4a3"
+  },
+  {
     "id": "77dc6766a4b441fb",
     "lab": "microsoft",
     "title": "Microsoft Research Focus – Edition #98",
@@ -337,7 +363,7 @@
     "contentHash": "55470560c200",
     "meta": {
       "likes": 225,
-      "downloads": 4891,
+      "downloads": 5022,
       "repo": "microsoft/Mage-VL-Cowork",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -639,7 +665,7 @@
     "contentHash": "c7ac7f097f76",
     "meta": {
       "likes": 33,
-      "downloads": 3048,
+      "downloads": 3106,
       "repo": "microsoft/Sentiment-Analysis-7B",
       "pipeline": "text-generation",
       "license": "mit"
@@ -794,7 +820,7 @@
     "contentHash": "f2a424fdb314",
     "meta": {
       "likes": 28,
-      "downloads": 2484,
+      "downloads": 2416,
       "repo": "microsoft/UserRepGen-4B",
       "pipeline": "text-generation",
       "license": "mit"
@@ -1079,8 +1105,8 @@
     "importance": 60,
     "contentHash": "99680487b517",
     "meta": {
-      "likes": 15,
-      "downloads": 1128,
+      "likes": 16,
+      "downloads": 1184,
       "repo": "microsoft/UserLM-2.0",
       "pipeline": "text-generation",
       "license": "mit"
@@ -1189,7 +1215,7 @@
     "contentHash": "508a2d739bfa",
     "meta": {
       "likes": 59,
-      "downloads": 1676,
+      "downloads": 1614,
       "repo": "microsoft/AesCode-32B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -1221,7 +1247,7 @@
     "contentHash": "4f0bc4169b75",
     "meta": {
       "likes": 81,
-      "downloads": 2218,
+      "downloads": 2165,
       "repo": "microsoft/AesCode-8B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -1464,7 +1490,7 @@
     "contentHash": "90524b3b0c7a",
     "meta": {
       "likes": 187,
-      "downloads": 2175,
+      "downloads": 2170,
       "repo": "microsoft/FrogNano-4B-2609",
       "license": "apache-2.0"
     }
@@ -1495,7 +1521,7 @@
     "contentHash": "a578814b8678",
     "meta": {
       "likes": 66,
-      "downloads": 2035,
+      "downloads": 2018,
       "repo": "microsoft/VibeVoice-ASR-Streaming-1.5B",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"
@@ -1527,7 +1553,7 @@
     "contentHash": "806cdab3e7ad",
     "meta": {
       "likes": 268,
-      "downloads": 10867,
+      "downloads": 11627,
       "repo": "microsoft/VibeVoice-ASR-Streaming-7B",
       "pipeline": "automatic-speech-recognition",
       "license": "mit"

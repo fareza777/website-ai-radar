@@ -1,5 +1,27 @@
 [
   {
+    "id": "3520f8a9235b5009",
+    "modelId": "openai/gpt-oss-20b",
+    "name": "OpenAI: gpt-oss-20b",
+    "lab": "openai",
+    "at": "2026-11-16T19:41:52.882Z",
+    "field": "prompt",
+    "from": 0.03,
+    "to": 0.075,
+    "change": 150
+  },
+  {
+    "id": "7d96194a168aee7b",
+    "modelId": "openai/gpt-oss-20b",
+    "name": "OpenAI: gpt-oss-20b",
+    "lab": "openai",
+    "at": "2026-11-16T19:41:52.882Z",
+    "field": "completion",
+    "from": 0.13,
+    "to": 0.3,
+    "change": 130.8
+  },
+  {
     "id": "7ee2c23e3b722d4c",
     "modelId": "nvidia/nemotron-3.5-super-vl",
     "name": "NVIDIA: Nemotron 3.5 Super VL",
