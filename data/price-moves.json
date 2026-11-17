@@ -1,5 +1,146 @@
 [
   {
+    "id": "52e9a45f19a0a23b",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-17T04:32:45.088Z",
+    "field": "prompt",
+    "from": 0.038,
+    "to": 0.036,
+    "change": -5.3
+  },
+  {
+    "id": "4ec390f701b8eea2",
+    "modelId": "z-ai/glm-5.3-prime",
+    "name": "Z.ai: GLM 5.3 Prime",
+    "lab": "zai",
+    "at": "2026-11-17T04:32:45.088Z",
+    "field": "prompt",
+    "from": 2.8,
+    "to": 1.68,
+    "change": -40
+  },
+  {
+    "id": "47d741369b8baa44",
+    "modelId": "z-ai/glm-5.3-prime",
+    "name": "Z.ai: GLM 5.3 Prime",
+    "lab": "zai",
+    "at": "2026-11-17T04:32:45.088Z",
+    "field": "completion",
+    "from": 8.8,
+    "to": 5.28,
+    "change": -40
+  },
+  {
+    "id": "ba1e081adf100bdb",
+    "modelId": "meta/muse-glimmer-30b",
+    "name": "Meta: Muse Glimmer 30B",
+    "at": "2026-11-17T04:32:45.088Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.35,
+    "change": 16.7
+  },
+  {
+    "id": "85d47964fed4b106",
+    "modelId": "meta/muse-glimmer-30b",
+    "name": "Meta: Muse Glimmer 30B",
+    "at": "2026-11-17T04:32:45.088Z",
+    "field": "completion",
+    "from": 1.2,
+    "to": 1.5,
+    "change": 25
+  },
+  {
+    "id": "c2ee034743fa8356",
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
+    "name": "NVIDIA: Nemotron 3 Ultra",
+    "lab": "nvidia",
+    "at": "2026-11-17T04:32:45.088Z",
+    "field": "prompt",
+    "from": 0.6,
+    "to": 0.5,
+    "change": -16.7
+  },
+  {
+    "id": "a82ad6dbf2631539",
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
+    "name": "NVIDIA: Nemotron 3 Ultra",
+    "lab": "nvidia",
+    "at": "2026-11-17T04:32:45.088Z",
+    "field": "completion",
+    "from": 2.4,
+    "to": 2.2,
+    "change": -8.3
+  },
+  {
+    "id": "d16b0323117b7e1c",
+    "modelId": "openai/gpt-oss-20b",
+    "name": "OpenAI: gpt-oss-20b",
+    "lab": "openai",
+    "at": "2026-11-17T04:32:45.088Z",
+    "field": "prompt",
+    "from": 0.075,
+    "to": 0.03,
+    "change": -60
+  },
+  {
+    "id": "7b2265aa996d53f6",
+    "modelId": "openai/gpt-oss-20b",
+    "name": "OpenAI: gpt-oss-20b",
+    "lab": "openai",
+    "at": "2026-11-17T04:32:45.088Z",
+    "field": "completion",
+    "from": 0.3,
+    "to": 0.13,
+    "change": -56.7
+  },
+  {
+    "id": "921a8310515614b9",
+    "modelId": "qwen/qwen4-max",
+    "name": "Qwen: Qwen4 Max",
+    "lab": "qwen",
+    "at": "2026-11-17T04:05:54.921Z",
+    "field": "prompt",
+    "from": 1.5,
+    "to": 1.425,
+    "change": -5
+  },
+  {
+    "id": "b64e3c81e564e5e0",
+    "modelId": "qwen/qwen4-max",
+    "name": "Qwen: Qwen4 Max",
+    "lab": "qwen",
+    "at": "2026-11-17T04:05:54.921Z",
+    "field": "completion",
+    "from": 4.5,
+    "to": 4.275,
+    "change": -5
+  },
+  {
+    "id": "9e0a8d99cd09e51a",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-17T04:05:54.921Z",
+    "field": "prompt",
+    "from": 0.0675,
+    "to": 0.0765,
+    "change": 13.3
+  },
+  {
+    "id": "38e5122b5ca45479",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "lab": "google-deepmind",
+    "at": "2026-11-17T04:05:54.921Z",
+    "field": "completion",
+    "from": 0.225,
+    "to": 0.255,
+    "change": 13.3
+  },
+  {
     "id": "0cba041b7dea7cd2",
     "modelId": "moonshotai/kimi-k3.1-pro",
     "name": "MoonshotAI: Kimi K3.1 Pro",

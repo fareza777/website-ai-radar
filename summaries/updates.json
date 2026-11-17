@@ -3507,9 +3507,9 @@
     "benefit": "App teams see which funnel metric to watch when testing ChatGPT Ads as a discovery channel for a subscription product."
   },
   "31c683b8a61dc4e7": {
-    "hash": "5a269d788511",
-    "summary": "Cohere posts about running the world's leading open models fully under your control, framed as the right model for the right job, all under your jurisdiction.",
-    "benefit": "Organizations that must keep workloads inside their own jurisdiction get Cohere's pitch for controlling which open model serves which job."
+    "hash": "1d8e249bb08b",
+    "summary": "Cohere published a post presenting its open models as the world's leading open models, fully under your control.",
+    "benefit": "Teams that need control over their models can run Cohere's open models under their own control."
   },
   "26c6032e1d267765": {
     "hash": "e3543059724f",
@@ -4371,9 +4371,9 @@
     "benefit": "QA leads at scale get a pattern for automating requirement interpretation, scenario design and test maintenance, not just test code writing."
   },
   "a3f9078912ac05de": {
-    "hash": "e1cb7fc675ab",
-    "summary": "NVIDIA Blog published how AI helps recyclers turn mixed waste into reusable material.",
-    "benefit": "Recyclers handling mixed waste get an AI-assisted route to recover reusable material from the stream."
+    "hash": "11acc615a5aa",
+    "summary": "NVIDIA looks at how AI helps recyclers turn mixed waste into reusable material.",
+    "benefit": "Recycling operations can see how AI is used to turn mixed waste into reusable material."
   },
   "01a8528fa117926a": {
     "hash": "7c845044dee9",
@@ -4883,9 +4883,9 @@
     "benefit": "TypeScript users get control over context offload granularity and a tool for finding integrations."
   },
   "ece4b84db3e9cab7": {
-    "hash": "faf694fe7887",
-    "summary": "NVIDIA describes health systems and startups using AI to match patients to clinical trials and to support radiologists, hospital teams and patients at home, with clinicians reviewing AI outputs and guiding decisions.",
-    "benefit": "Shows where AI removes routine work for care teams so clinicians keep the decisions and more time with patients."
+    "hash": "3beb34ae36e8",
+    "summary": "NVIDIA looks at how health systems and startups use AI across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home.",
+    "benefit": "Care teams can spend less time on routine tasks and more time with patients while clinicians stay centered, reviewing AI outputs."
   },
   "984d08da3cf7995c": {
     "hash": "4bab197e8118",
@@ -4921,5 +4921,240 @@
     "hash": "8120462807ea",
     "summary": "Docling v2.150.1 fixes DOCX parsing: headings from paragraph-level w:outlineLvl, hyperlink targets kept in footnotes and endnotes, a single-cell table nested in a table cell stays inside the cell, and an open list closed before a following table. The CLI omits from_formats in convert-remote unless --from is set.",
     "benefit": "Pipelines that convert Word documents keep heading levels, footnote and endnote links, and nested table structure intact."
+  },
+  "e3915f7e4cf071c4": {
+    "hash": "3f15d8735be1",
+    "summary": "The King's Trust and OpenAI launched a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+    "benefit": "Young people in the UK can build practical AI skills for work through the partnership between The King's Trust and OpenAI."
+  },
+  "f26f2a4dfd6b9b95": {
+    "hash": "3e837d83ede2",
+    "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to its frontier models.",
+    "benefit": "Academic researchers worldwide can apply frontier models to their work at no cost through the expanded program.",
+    "category": "feature"
+  },
+  "ebd9eb94963902d2": {
+    "hash": "ab0aba7ed446",
+    "summary": "OpenAI is beginning embedded assessments with Apollo Research, METR, Transluce and Goodfire to independently evaluate model alignment, safeguards and monitoring systems.",
+    "benefit": "Independent labs can evaluate alignment, safeguards and monitoring inside the systems they assess rather than only from the outside.",
+    "category": "research"
+  },
+  "87d7014c15ee68a3": {
+    "hash": "97851284c88b",
+    "summary": "OpenAI published work on a candidate nonperturbative lattice definition of the Standard Model, with GPT-6 Astra helping turn the idea into a detailed proof.",
+    "benefit": "Physicists get a candidate formal definition to examine, plus an example of a frontier model contributing to a detailed proof.",
+    "category": "research"
+  },
+  "59639c12a3bc824e": {
+    "hash": "cd3fafd8a655",
+    "summary": "Amazon Bedrock AgentCore runtime instances are now available in six additional AWS Regions: US West (N. California), Canada (Central), Europe (London), Paris, Stockholm and Asia Pacific (Seoul).",
+    "benefit": "Teams in these regions can run agents on Amazon EC2 with AgentCore handling provisioning, patching, scaling and lifecycle management closer to home."
+  },
+  "0f2a855bc6a8fcf2": {
+    "hash": "ff00d9b4af0c",
+    "summary": "In its MLPerf debut, the NVIDIA Vera Rubin platform swept every MLPerf Training v6.1 benchmark and delivered more than 10x generational gains in throughput per watt for agentic AI in its first MLPerf Endpoints submission.",
+    "benefit": "Teams planning agentic AI infrastructure get independent benchmark evidence on training, post-training and agentic inference performance per watt.",
+    "category": "research"
+  },
+  "f4a580580dcfc266": {
+    "hash": "01d122c5d4a3",
+    "summary": "TokenEconomizer is an open-source plugin that learns from an agent's past sessions in a repository to reduce waste in future sessions, without modifying the agent or its underlying model.",
+    "benefit": "Developers using AI coding agents in the same codebases day after day get fewer rediscovered facts, unused tools and repeated failed approaches.",
+    "category": "developer"
+  },
+  "7381db88317ca659": {
+    "hash": "04cc45e35a4c",
+    "summary": "Amazon Bedrock now supports prompt caching for open-weight models, reusing the computed state of a matching context across requests to reduce input costs and response latency.",
+    "benefit": "Teams sending the same long context, such as system prompts, reference documents or tool definitions, with every request can lower input costs and latency on Bedrock.",
+    "category": "feature"
+  },
+  "aafc20d9f2a085c9": {
+    "hash": "c8173f238ff8",
+    "summary": "Lambda is using NVIDIA Photonics co-packaged optics switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering lower power, higher resiliency and longer mean time between interruptions.",
+    "benefit": "Cloud providers running large GPU fleets can cut networking power and interruptions by adopting co-packaged optics switches.",
+    "category": "feature"
+  },
+  "6f4d0d05c17db433": {
+    "hash": "b009e75dea1f",
+    "summary": "In the MLPerf Training v6.1 debut of the NVIDIA Vera Rubin architecture, NVIDIA Vera Rubin NVL72 achieved up to 2x Blackwell Ultra performance.",
+    "benefit": "Teams reducing time-to-train for complex agent workflows get measured evidence of up to twice the performance of Blackwell Ultra.",
+    "category": "research"
+  },
+  "b1c71d07875ac772": {
+    "hash": "64ae8a01da92",
+    "summary": "OpenAI announced new tools, practical guidance and partnerships to help prevent, detect and respond to online child sexual exploitation and abuse.",
+    "benefit": "Organizations fighting online child sexual abuse get new tools and practical guidance to strengthen prevention, detection and response."
+  },
+  "f891bd93f3d21469": {
+    "hash": "ce22c62729da",
+    "summary": "OpenAI published findings on how more than 1,800 scientists use ChatGPT in research, covering daily workflows, reported productivity and expectations for discovery.",
+    "benefit": "Researchers and science teams can see how peers use ChatGPT in real research workflows before adopting it themselves."
+  },
+  "91e58e2ea930c2fa": {
+    "hash": "9f34e978a865",
+    "summary": "LVMH's Media Division and OpenAI announced a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+    "benefit": "Readers of LVMH's publications can access journalism through ChatGPT, while the media division explores AI support for its newsrooms."
+  },
+  "b0ded74e06b06613": {
+    "hash": "39d56fd4ee67",
+    "summary": "OpenAI announces new work advancing computer-use agents for healthcare teams.",
+    "benefit": "Healthcare teams can expect computer-use agents built for their work."
+  },
+  "cfcc7acb02e9ca79": {
+    "hash": "bb05b7b0296f",
+    "summary": "OpenAI expanded ChatGPT for Healthcare with computer-use agents, improved clinical answers and new healthcare plugins that work across healthcare software to get real work done.",
+    "benefit": "Clinical teams can let computer-use agents work across their healthcare software, get better clinical answers and add plugins without rebuilding workflows."
+  },
+  "3899b6e8ee3cc1f1": {
+    "hash": "4da5b82bdc9f",
+    "summary": "At Holiday Extras, dots deliver launch reports unprompted, flag issues people might miss and talk through upcoming meetings on the commute to work.",
+    "benefit": "Teams using dots get proactive launch reports and issue flags before anyone asks, plus meeting briefings during the commute."
+  },
+  "0bc322583e6f0775": {
+    "hash": "c5dac3c7c052",
+    "summary": "Google added new Ask Maps features for holiday travel: planning road trips, getting route tips, finding local appointments and searching saved lists.",
+    "benefit": "Travelers can plan holiday road trips, find local appointments and search their saved lists directly in Maps with Ask Maps."
+  },
+  "d218f9a95b85493a": {
+    "hash": "3180a147fce0",
+    "summary": "Amazon Bedrock Managed Knowledge Base adds Agentic Retrieve so applications can remember prior context, answer follow-up questions and keep every answer grounded in documents the user is allowed to read, with citations.",
+    "benefit": "Builders of knowledge-grounded applications can serve follow-up questions that reflect earlier context while keeping answers permissioned and cited."
+  },
+  "b4d0f21c2c604500": {
+    "hash": "095ef5e59133",
+    "summary": "AWS shows how to modernize mainframe Assembler programs to Java using Amazon Bedrock and AWS Transform, for code that still runs critical business operations as fewer people can read it each year.",
+    "benefit": "Banks, insurers and airlines with decades-old Assembler batch jobs get a Bedrock and AWS Transform path to Java that avoids years of manual rewriting."
+  },
+  "7157ce3b54a8a376": {
+    "hash": "7649f48717bb",
+    "summary": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore, addressing the formal documentation every quality-relevant process step requires.",
+    "benefit": "Pharmaceutical manufacturers can use Bedrock AgentCore to modernize the strict quality documentation behind their manufacturing processes."
+  },
+  "cc69239e629b14a0": {
+    "hash": "394f836779d0",
+    "summary": "Amazon Bedrock Managed Knowledge Base now supports tabular search, looking up values and running calculations across rows in CSV, XLSX or XLS files, then combining results with facts from related documents.",
+    "benefit": "Teams can answer analytical questions that span tables and documents through agentic retrieval instead of manual spreadsheet work."
+  },
+  "c636885b9662b9ce": {
+    "hash": "71e840f8338b",
+    "summary": "Amazon Bedrock Managed Knowledge Base adds retrieval instructions to customize answers per tenant, setting voice, format, retrieval guidance and answer policy for each audience.",
+    "benefit": "Teams serving several audiences from the same documents can give each one its own answer voice, format and policy."
+  },
+  "f156923d7fc9fb13": {
+    "hash": "7bfdff959f5b",
+    "summary": "Amazon SageMaker AI now supports KV cache-aware routing for real-time inference endpoints, reducing time to first token for LLM workloads with long or repeated prompts.",
+    "benefit": "Teams serving LLMs with shared system prompts or long conversation history get lower time to first token across several instances."
+  },
+  "2453547dcede7e6e": {
+    "hash": "d7bef93802ac",
+    "summary": "NVIDIA profiles Deb Shoquist, who leads the operations, supply chain and manufacturing behind its AI platforms and their global network of manufacturing partners.",
+    "benefit": "Readers get a look at how the supply chain behind NVIDIA's year-round AI platform launches is run."
+  },
+  "ecf09aee9d40356d": {
+    "hash": "593825f27cb0",
+    "summary": "NVIDIA Vera Rubin NVL72 leads agentic inference performance on MLPerf Endpoints v1.0, where agents carry growing conversation histories and generate reasoning, tool calls and responses.",
+    "benefit": "Teams scaling agentic workloads get benchmark data on serving users at scale while keeping inference systems responsive.",
+    "category": "research"
+  },
+  "cd5b8a0fc178cd39": {
+    "hash": "bc2ebe8dfcf0",
+    "summary": "At SC26 in Chicago, IBM and partners show how quantum computers are integrating into workflows and tools that the supercomputing workforce already runs.",
+    "benefit": "Supercomputing teams can see how quantum computers fit into the workflows and tools they already run."
+  },
+  "4b0fc5b701ffd77d": {
+    "hash": "4239c3296c7b",
+    "summary": "OpenAI introduced a new blog for science that shares findings, practical methods and firsthand accounts from researchers using AI to advance scientific discovery.",
+    "benefit": "Researchers get a dedicated source for OpenAI's scientific findings, methods and firsthand accounts of AI-assisted discovery."
+  },
+  "ac2e041b4bd2482f": {
+    "hash": "391bc67b3164",
+    "summary": "The Google GenAI SDK for Python v3.4.0 adds tool search types to the Interactions SDKs, batch inputs and usage metadata for Gemini embedding models on Gemini Enterprise API, static file processing options, and deprecates non-interactions names.",
+    "benefit": "Python developers using the Google GenAI SDK get tool search types, batch embedding inputs and static file processing options in one release."
+  },
+  "8289059ebd5928a0": {
+    "hash": "25cd6ea52155",
+    "summary": "The Qwen team published a new GitHub repository called Qwen-Live-Delivery-Plugin.",
+    "benefit": "Developers tracking Qwen's work can watch this new plugin repository from its first days on GitHub."
+  },
+  "8192f1094925b873": {
+    "hash": "542521d43047",
+    "summary": "NVIDIA expanded its CUDA-X libraries with cuPhoton, cuPotential and cuSpa, giving AI agents tools to accelerate research from astrophysics and materials science to single-cell biology.",
+    "benefit": "Researchers can sift through larger datasets and model more complex systems with new CUDA-X libraries for their domains."
+  },
+  "f96db6736bc3d96a": {
+    "hash": "c39c4a111b90",
+    "summary": "NVIDIA is marking 20 years of CUDA at SC26 by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI.",
+    "benefit": "Developers get a retrospective on the CUDA community and eras that shaped today's GPU computing and AI development.",
+    "category": "feature"
+  },
+  "00974c847642968e": {
+    "hash": "3ce28c74ec49",
+    "summary": "NVIDIA shares how to post-train Nemotron models to increase accuracy in a scientific domain, for agentic AI that plans tasks, runs simulations, evaluates results and self-corrects.",
+    "benefit": "Researchers can post-train NVIDIA Nemotron for their own scientific domain instead of relying on general-purpose accuracy."
+  },
+  "d4a70b5815ae4510": {
+    "hash": "290cb56f73fe",
+    "summary": "IBM and AMD released a new open-source tool that helps researchers evaluate quantum error-correction decoders at scale for future fault-tolerant quantum systems.",
+    "benefit": "Researchers building fault-tolerant quantum systems can evaluate error-correction decoders at scale with an open-source tool."
+  },
+  "f978b1cf70930b8f": {
+    "hash": "a7da29411cce",
+    "summary": "AWS shares best practices for writing Denied Topics in Amazon Bedrock Guardrails, which applies a plain-language topic description to every request by meaning rather than by keyword.",
+    "benefit": "Teams blocking content categories learn how to word topics so a guardrail does not also match inputs that only sit close in meaning."
+  },
+  "074991d4c7117efe": {
+    "hash": "f076510138c9",
+    "summary": "Cohere introduced precise, timestamped video retrieval that makes every moment in a video library searchable for enterprise search and AI agents.",
+    "benefit": "Enterprises can make their video libraries searchable with timestamped retrieval and connect it to AI agents."
+  },
+  "9567fc17c1fdcddf": {
+    "hash": "90049c0e30ff",
+    "summary": "MoEngage built agentic customer engagement on Amazon Bedrock AgentCore, replacing a flow where a team member opens analytics, content library and campaign builder tools before writing copy.",
+    "benefit": "Marketing and product teams get an example of consolidating analytics, content and campaign work into agentic customer engagement on AgentCore."
+  },
+  "6cab091c059af43f": {
+    "hash": "84ed40e97b0f",
+    "summary": "Announced at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows.",
+    "benefit": "Scientists and engineers exploring more candidate materials, molecules and designs get faster simulations to test ideas and guide next steps."
+  },
+  "46b48e728e810800": {
+    "hash": "cd28e7759791",
+    "summary": "More than 2,000 attendees converged at COEX for AI Day Seoul, bringing together Korea's industry leaders, startups and developer communities advancing physical AI and AI agents.",
+    "benefit": "Korea's developer community gets a roundup of how local industry leaders and startups are advancing physical AI and AI agents."
+  },
+  "6f09e030f8f7c75e": {
+    "hash": "dfa8335339e5",
+    "summary": "Tencent's Hunyuan team published a new GitHub repository called MovieRoll.",
+    "benefit": "Developers tracking Tencent's Hunyuan work can watch this new repository from its first days on GitHub."
+  },
+  "03e00bca4a5a8e7f": {
+    "hash": "bd070b41f9c0",
+    "summary": "The Claude Agent SDK for Python released v0.2.183, installable with pip install claude-agent-sdk==0.2.183 from PyPI.",
+    "benefit": "Python developers building on the Claude Agent SDK can pick up the latest release with a single pip install."
+  },
+  "328f5dc06ab4e34a": {
+    "hash": "910a05a3ce2f",
+    "summary": "Claude Code v2.1.326 adds Code Mode support while agent teams are enabled, a startup warning for incomplete allowed or disallowed tool entries, and a message explaining why MCP servers stop loading when managed-mcp.json is added during a session.",
+    "benefit": "Developers running Claude Code with agent teams get sessions that start in Code Mode and clearer warnings for misconfigured tool rules."
+  },
+  "e369d6f27ed70536": {
+    "hash": "67b4589b50ed",
+    "summary": "Qwen Code v0.27.4 lets managed agent sessions access granted local directories and open an interactive Managed Web Terminal without persisting credentials or paths, sends outputs to Feishu and WeCom webhooks, and requires explicit authorization for risky actions in Auto Mode.",
+    "benefit": "Qwen Code users get managed sessions with local directory access, webhook delivery to Feishu and WeCom, and explicit authorization before risky Auto Mode actions."
+  },
+  "3490ad7ee1940631": {
+    "hash": "cef67ca1f765",
+    "summary": "The Qwen Code TypeScript SDK released v0.1.34, bundling CLI version 0.27.4 built from source on the same branch as the SDK.",
+    "benefit": "TypeScript developers integrating Qwen Code can align the SDK and CLI versions they run in one bundled release."
+  },
+  "24b4185f40974879": {
+    "hash": "80c60899ee72",
+    "summary": "Qwen Code desktop v0.27.4 registers client filesystems into managed sessions, plans long channel replies as ordered multi-segment deliveries, and judges user authorization in the AUTO classifier.",
+    "benefit": "Desktop users of Qwen Code get managed sessions that see their local filesystems and deliver long replies as ordered segments."
+  },
+  "94ec9ff9d4729a9e": {
+    "hash": "1a77e567f06c",
+    "summary": "Duco, the agentic operations platform for financial services, transforms financial data automation on Amazon Bedrock AgentCore, processing 20 billion transactions monthly for 200+ clients including 7 of the top 20 banks.",
+    "benefit": "Financial institutions can see how an agentic operations platform meets speed, accuracy and compliance demands under strict regulatory frameworks."
   }
 }

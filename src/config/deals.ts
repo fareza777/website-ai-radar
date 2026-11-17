@@ -216,6 +216,16 @@ export const CURATED_DEALS: CuratedDeal[] = [
     url: "https://elevenlabs.io/pricing",
     mustContain: "10k credits per month",
   },
+  {
+    id: "deepgram-free-credit",
+    title: "Deepgram — $200 free credit",
+    provider: "Deepgram",
+    kind: "free-tier",
+    description:
+      "Deepgram's pricing page lists a $200 free credit, which it estimates covers roughly 43,000 minutes.",
+    url: "https://deepgram.com/pricing",
+    mustContain: "What does the \\$200 free credit cover",
+  },
 ];
 
 export const DEAL_SIGNALS = {

@@ -1,5 +1,42 @@
 [
   {
+    "x": "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+    "note": "Nov 16, 2026 post from Qwen introducing Qwen4-Max, built on a new MoE architecture with native vision and a 1M-token context window, saying open weights of smaller Qwen4 models will be released.",
+    "by": "qoder",
+    "addedAt": "2026-11-17T04:20:37.311Z"
+  },
+  {
+    "url": "https://github.com/meshapplied/goethe",
+    "note": "Goethe is an Apache 2.0 inference engine written in Rust for NVIDIA GPUs (CUDA 12.8 or newer, architectures sm_86 to sm_120) that turns a Linux computer into an inference engine.",
+    "by": "qoder",
+    "addedAt": "2026-11-17T04:13:46.654Z"
+  },
+  {
+    "url": "https://github.com/itsmeyaw/skillset",
+    "note": "Skillset is an MIT-licensed CLI that curates agent skills into a pinned, shareable list and installs that list into any project in one step, wrapping Vercel's Skills CLI so skills land in the same places.",
+    "by": "qoder",
+    "addedAt": "2026-11-17T04:13:45.056Z"
+  },
+  {
+    "url": "https://github.com/etodanik/deslop",
+    "note": "Deslop is a Claude skill that rewrites a draft to remove the fingerprints of LLM-generated prose, with rules drawn from corpus-linguistics and psycholinguistics research comparing human and model text.",
+    "by": "qoder",
+    "addedAt": "2026-11-17T04:13:43.314Z"
+  },
+  {
+    "url": "https://cheesedb.dev",
+    "note": "CheeseDB is an embedded, hash-chained memory database for AI agents written in Go, where every memory records its sources so removing a bad source also removes everything learned from it; it works from Claude Code, Cursor and other MCP apps and is currently a preview.",
+    "by": "qoder",
+    "addedAt": "2026-11-17T04:13:41.695Z"
+  },
+  {
+    "x": "https://x.com/betterhn50/status/2122405157287641556",
+    "url": "https://github.com/withcoral/coral",
+    "note": "Nov 16, 2026 Show HN post on Coral, an open-source self-hosted gateway where agents call tools by writing short TypeScript programs, save the ones that work as reusable tools, and every call is checked against policy before credentials are added.",
+    "by": "qoder",
+    "addedAt": "2026-11-17T04:13:33.109Z"
+  },
+  {
     "x": "https://x.com/deepseek_ai/status/2121247896918253875",
     "note": "Nov 13, 2026 post from DeepSeek: the capabilities behind the DeepSeek App (search, files, links, safety, voice) are now available through the DeepSeek API, plus standalone APIs such as OCR, ASR and TTS.",
     "by": "qoder",

@@ -613,12 +613,6 @@
     "unique": "It reverse-engineers sites into CLI and MCP tools rather than a generic browser agent.",
     "benefit": "Agent builders can give models verified CLI and MCP actions against a website, locally first."
   },
-  "e17cb310774abd83": {
-    "hash": "bff7268e",
-    "summary": "MuscleMemory is open-source procedural memory for AI agents that learns from what worked and what failed.",
-    "unique": "Topics list coding agents, Claude Code, Codex, MCP, and procedural memory.",
-    "benefit": "People running coding agents can store procedures that worked or failed instead of relearning each run."
-  },
   "78c563e635c116e2": {
     "hash": "ae773680",
     "summary": "Hob is a free, open-source desktop alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows, and Linux.",
@@ -798,10 +792,16 @@
     "unique": "Source-available, with the agent as a co-editor of the canvas rather than an outside tool.",
     "benefit": "Lets you try driving a visual app with a coding agent instead of only with a mouse."
   },
-  "7cf8c63b2923c110": {
-    "hash": "ea0f61d0",
-    "summary": "Open source chat inspired by Slack and Campfire, with one click deploy to Cloudflare.",
-    "unique": "Open source, Slack and Campfire as its stated references, and a one click Cloudflare deploy.",
-    "benefit": "You can run your own team chat on Cloudflare instead of assembling the deployment yourself."
+  "bb574273f831c881": {
+    "hash": "2d3eed6e",
+    "summary": "Coral is an open-source gateway where agents write their own tools, giving them precise permissions to work with sensitive enterprise systems.",
+    "unique": "It frames itself as execution rails for agents, combining custom tools agents write themselves with precise permissions and fewer tokens.",
+    "benefit": "Teams connecting agents to sensitive enterprise systems get precise permissions and custom tools that work faster with fewer tokens."
+  },
+  "2daf1250f2566ffa": {
+    "hash": "80360810",
+    "summary": "Goethe promises to serve your models fast on your own infra in 3 steps, a self-hosted LLM inference server for NVIDIA GPUs.",
+    "unique": "Repository topics list SGLang, NVFP4, NVIDIA GPUs and an OpenAI-style API alongside self-hosted LLM inference.",
+    "benefit": "Teams running LLMs get a self-hosted server to serve their models on their own NVIDIA GPU infrastructure."
   }
 }
