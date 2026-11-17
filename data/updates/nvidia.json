@@ -1,5 +1,27 @@
 [
   {
+    "id": "2453547dcede7e6e",
+    "lab": "nvidia",
+    "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+    "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T20:00:37.000Z",
+    "firstSeenAt": "2026-11-17T03:58:52.696Z",
+    "updatedAt": "2026-11-16T20:00:37.000Z",
+    "excerpt": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the team’s success comes down to her deep…",
+    "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "d7bef93802ac"
+  },
+  {
     "id": "aafc20d9f2a085c9",
     "lab": "nvidia",
     "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
@@ -259,7 +281,7 @@
   {
     "id": "ece4b84db3e9cab7",
     "lab": "nvidia",
-    "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+    "title": "AI Is Helping Care Teams Get Patients the Right Care, Sooner",
     "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams",
     "sourceId": "nvidia-blog",
     "sourceName": "NVIDIA Blog",
@@ -268,7 +290,7 @@
     "verified": true,
     "publishedAt": "2026-11-13T13:00:42.000Z",
     "firstSeenAt": "2026-11-13T19:50:14.566Z",
-    "updatedAt": "2026-11-13T13:00:42.000Z",
+    "updatedAt": "2026-11-17T03:58:52.696Z",
     "excerpt": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI outputs and guiding decisions, while NVIDIA technologies provide…",
     "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients.",
     "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
@@ -276,7 +298,7 @@
     "category": "research",
     "tags": [],
     "importance": 40,
-    "contentHash": "faf694fe7887"
+    "contentHash": "3beb34ae36e8"
   },
   {
     "id": "6a701461aeac17a9",
@@ -303,7 +325,7 @@
   {
     "id": "a3f9078912ac05de",
     "lab": "nvidia",
-    "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+    "title": "AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
     "url": "https://blogs.nvidia.com/blog/ai-recycling-startups",
     "sourceId": "nvidia-blog",
     "sourceName": "NVIDIA Blog",
@@ -312,7 +334,7 @@
     "verified": true,
     "publishedAt": "2026-11-11T03:00:20.000Z",
     "firstSeenAt": "2026-11-11T04:02:59.703Z",
-    "updatedAt": "2026-11-11T03:00:20.000Z",
+    "updatedAt": "2026-11-17T03:58:52.696Z",
     "excerpt": "",
     "summary": "Official feature update from NVIDIA (NVIDIA Blog).",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
@@ -320,7 +342,7 @@
     "category": "feature",
     "tags": [],
     "importance": 50,
-    "contentHash": "e1cb7fc675ab"
+    "contentHash": "11acc615a5aa"
   },
   {
     "id": "405fdcad1ce1a75c",
@@ -2401,7 +2423,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3347,
+      "likes": 3371,
       "downloads": 82914,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -2479,7 +2501,7 @@
     "importance": 68,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 202,
+      "likes": 204,
       "downloads": 34011,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -2623,7 +2645,7 @@
     "importance": 63,
     "contentHash": "806c45ea6874",
     "meta": {
-      "likes": 46,
+      "likes": 47,
       "downloads": 15644,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
@@ -2675,7 +2697,7 @@
     "importance": 71,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 455,
+      "likes": 456,
       "downloads": 152708,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",

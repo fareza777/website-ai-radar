@@ -1,21 +1,16 @@
 [
   {
     "date": "2026-11-17",
-    "generatedAt": "2026-11-16T19:41:52.882Z",
+    "generatedAt": "2026-11-17T03:58:52.696Z",
     "stats": {
-      "updates24h": 32,
+      "updates24h": 34,
       "labsActive24h": 7,
-      "updates7d": 174,
-      "newModels7d": 40
+      "updates7d": 167,
+      "newModels7d": 36
     },
     "source": "template",
-    "headline": "32 updates from 7 AI labs in the last 24 hours · 40 model releases this week.",
+    "headline": "34 updates from 7 AI labs in the last 24 hours · 36 model releases this week.",
     "bullets": [
-      {
-        "text": "OpenAI: The King’s Trust and OpenAI launch £1m partnership",
-        "itemId": "e3915f7e4cf071c4",
-        "lab": "openai"
-      },
       {
         "text": "OpenAI: Broadening access to AI for scientists",
         "itemId": "f26f2a4dfd6b9b95",
@@ -25,6 +20,11 @@
         "text": "NVIDIA: NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
         "itemId": "0f2a855bc6a8fcf2",
         "lab": "nvidia"
+      },
+      {
+        "text": "OpenAI: Our first phase of embedded assessments",
+        "itemId": "ebd9eb94963902d2",
+        "lab": "openai"
       },
       {
         "text": "Amazon: AgentCore runtime instances are now available in six more AWS Regions",

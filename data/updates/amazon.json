@@ -1,5 +1,54 @@
 [
   {
+    "id": "d218f9a95b85493a",
+    "lab": "amazon",
+    "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T22:43:30.000Z",
+    "firstSeenAt": "2026-11-17T03:58:52.696Z",
+    "updatedAt": "2026-11-16T22:43:30.000Z",
+    "excerpt": "Users of a knowledge-grounded application expect it to remember them, not only to search well. They ask follow-up questions that make sense only in the context of the previous turn. They expect an answer about a policy or a procedure to reflect what they told the application about themselves last month. And they still expect every answer to be grounded in the documents they are allowed to read, with citations…",
+    "summary": "Users of a knowledge-grounded application expect it to remember them, not only to search well.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "rag"
+    ],
+    "importance": 50,
+    "contentHash": "3180a147fce0"
+  },
+  {
+    "id": "94ec9ff9d4729a9e",
+    "lab": "amazon",
+    "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T22:06:08.000Z",
+    "firstSeenAt": "2026-11-17T03:58:52.696Z",
+    "updatedAt": "2026-11-16T22:06:08.000Z",
+    "excerpt": "Financial institutions face a critical challenge: processing massive volumes of data with speed, accuracy, and compliance while operating under some of the world’s strictest regulatory frameworks. Duco is the agentic Operations platform for financial services, serving tier-one banks and other financial institutions. It processes 20 billion transactions monthly for 200+ clients, including 7 of the top 20 banks and 10…",
+    "summary": "Financial institutions face a critical challenge: processing massive volumes of data with speed, accuracy, and compliance while operating under some of the world’s strictest regulatory frameworks.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 15,
+    "contentHash": "1a77e567f06c"
+  },
+  {
     "id": "9567fc17c1fdcddf",
     "lab": "amazon",
     "title": "How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore",
@@ -165,6 +214,28 @@
     ],
     "importance": 60,
     "contentHash": "04cc45e35a4c"
+  },
+  {
+    "id": "f156923d7fc9fb13",
+    "lab": "amazon",
+    "title": "Amazon SageMaker AI now supports KV cache-aware routing for real-time inference endpoints",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-kv-cache-routing",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-16T08:00:00.000Z",
+    "firstSeenAt": "2026-11-17T03:58:52.696Z",
+    "updatedAt": "2026-11-16T08:00:00.000Z",
+    "excerpt": "Amazon SageMaker AI now supports KV cache-aware routing for real-time inference endpoints, enabling you to reduce time to first token for LLM workloads with long or repeated prompts. Serving engines such as vLLM store the computed key-value (KV) cache for repeated prompt starts such as shared system prompts, documents, and conversation history, to skip repeated work. Across several instances, a request that lands…",
+    "summary": ", enabling you to reduce time to first token for LLM workloads with long or repeated prompts.",
+    "benefit": "API/SDK change — check whether your integration needs an update or can use the new capability.",
+    "summarySource": "template",
+    "category": "api",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "7bfdff959f5b"
   },
   {
     "id": "59639c12a3bc824e",
@@ -5213,7 +5284,7 @@
     "importance": 65,
     "contentHash": "48b7b19078e5",
     "meta": {
-      "likes": 64,
+      "likes": 65,
       "downloads": 1392,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",

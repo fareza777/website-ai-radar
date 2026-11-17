@@ -6,7 +6,7 @@
     "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 107,
+    "upvotes": 115,
     "org": null,
     "firstSeenAt": "2026-11-16T06:44:24.686Z"
   },
@@ -17,7 +17,7 @@
     "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 87,
+    "upvotes": 92,
     "org": null,
     "githubRepo": "https://github.com/RainBowLuoCS/Gamer",
     "firstSeenAt": "2026-11-16T19:41:52.882Z"
@@ -29,7 +29,7 @@
     "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D…",
     "publishedAt": "2026-11-11T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 83,
+    "upvotes": 85,
     "org": "kling-keye",
     "githubRepo": "https://github.com/vibeprevisbench/vibeprevisbench",
     "firstSeenAt": "2026-11-16T19:41:52.882Z"
@@ -41,7 +41,7 @@
     "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once. It is the most accurate of the compared systems on four of five QA benchmarks. It…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 46,
     "org": null,
     "githubRepo": "https://github.com/Mirix-AI/MIRIX",
     "firstSeenAt": "2026-11-16T19:41:52.882Z"
@@ -101,7 +101,7 @@
     "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls…",
     "publishedAt": "2026-11-11T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 46,
     "org": "inclusionai",
     "githubRepo": "https://github.com/inclusionAI/Duo",
     "firstSeenAt": "2026-11-14T22:34:31.646Z"
@@ -126,7 +126,7 @@
     "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the…",
     "publishedAt": "2026-11-12T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 19,
+    "upvotes": 20,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-13T19:50:14.566Z"
@@ -184,7 +184,7 @@
     "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-11T00:00:00.000Z",
-    "upvotes": 69,
+    "upvotes": 70,
     "org": "kaist-ai",
     "githubRepo": "https://github.com/yukyeongleee/wikitrace",
     "firstSeenAt": "2026-11-11T17:15:19.267Z"

@@ -1,6 +1,53 @@
 {
-  "generatedAt": "2026-11-16T19:41:52.882Z",
+  "generatedAt": "2026-11-17T03:58:52.696Z",
   "stories": [
+    {
+      "id": "482148aaa5ddfc2a",
+      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "entity": "Gemini 4 Hydrogen",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 3,
+      "press": 21,
+      "outlets": [
+        "MakeUseOf",
+        "Thurrott.com",
+        "9to5Google",
+        "Search Engine Roundtable",
+        "TestingCatalog AI News",
+        "The Tech Buzz",
+        "Unite.AI",
+        "The American Bazaar",
+        "Interesting Engineering",
+        "Wccftech",
+        "Ars Technica",
+        "Technology Org",
+        "PPC Land",
+        "Seeking Alpha",
+        "The Decoder",
+        "Search Engine Journal",
+        "Mashable",
+        "VentureBeat",
+        "SiliconANGLE",
+        "shattered.io",
+        "www.trendingtopics.eu",
+        "Small Business Trends",
+        "InfoWorld",
+        "Android Central",
+        "The GitHub Blog",
+        "Brave New Coin",
+        "AI Insider"
+      ],
+      "firstAt": "2026-11-12T16:14:43.000Z",
+      "lastAt": "2026-11-17T00:22:30.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+      "lead": {
+        "kind": "official",
+        "id": "482148aaa5ddfc2a"
+      },
+      "importance": 100
+    },
     {
       "id": "15706f35e993d4cb",
       "title": "Gemini 4 Carbon is now available for developers.",
@@ -44,51 +91,6 @@
       "lead": {
         "kind": "official",
         "id": "15706f35e993d4cb"
-      },
-      "importance": 100
-    },
-    {
-      "id": "482148aaa5ddfc2a",
-      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
-      "entity": "Gemini 4 Hydrogen",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 3,
-      "press": 19,
-      "outlets": [
-        "MakeUseOf",
-        "Thurrott.com",
-        "9to5Google",
-        "Search Engine Roundtable",
-        "TestingCatalog AI News",
-        "The Tech Buzz",
-        "The American Bazaar",
-        "Interesting Engineering",
-        "Wccftech",
-        "Ars Technica",
-        "Technology Org",
-        "PPC Land",
-        "Seeking Alpha",
-        "The Decoder",
-        "Search Engine Journal",
-        "Mashable",
-        "VentureBeat",
-        "SiliconANGLE",
-        "shattered.io",
-        "www.trendingtopics.eu",
-        "Small Business Trends",
-        "InfoWorld",
-        "Android Central",
-        "The GitHub Blog",
-        "Brave New Coin"
-      ],
-      "firstAt": "2026-11-12T16:14:43.000Z",
-      "lastAt": "2026-11-14T18:22:28.000Z",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
-      "lead": {
-        "kind": "official",
-        "id": "482148aaa5ddfc2a"
       },
       "importance": 100
     },
@@ -246,26 +248,6 @@
       "importance": 79
     },
     {
-      "id": "0566809c65753b53",
-      "title": "OpenAI Codex on Amazon Bedrock",
-      "entity": null,
-      "labs": [
-        "amazon",
-        "openai"
-      ],
-      "official": 1,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-11-11T23:35:47.000Z",
-      "lastAt": "2026-11-11T23:35:47.000Z",
-      "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
-      "lead": {
-        "kind": "official",
-        "id": "0566809c65753b53"
-      },
-      "importance": 70
-    },
-    {
       "id": "qwen:075ae9bbb51baf",
       "title": "Alibaba Launches Qwen4-Max AI Model with 2.4 Trillion Parameters",
       "entity": "Qwen 4 Max",
@@ -274,7 +256,7 @@
         "moonshot"
       ],
       "official": 0,
-      "press": 20,
+      "press": 24,
       "outlets": [
         "Asia Times",
         "BigGo Finance",
@@ -300,16 +282,41 @@
         "ForkLog",
         "Analytics India Magazine",
         "Technology Org",
-        "shattered.io"
+        "shattered.io",
+        "Medium",
+        "eWeek",
+        "Decrypt",
+        "Yahoo Tech",
+        "KuCoin"
       ],
       "firstAt": "2026-11-07T05:09:54.000Z",
-      "lastAt": "2026-11-16T16:29:25.000Z",
+      "lastAt": "2026-11-16T23:25:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0llVDN6V1dUODNxdTUtajZ6aElDeUp1cXc3UzdnS0JEbVpTZTJ2cVdFS0VtQV83TmdMRU55RGZSU3dfTF9rYVBGcGN6VzRCREJhMGdVeU9EMmVkUjR6TnVsSmdtcGpfdC00UUFoaC00VG9tZHBXZHZlUUF2Y0dTNVd2eDdIbkhKeFVuQVcyeU1MQQ?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:075ae9bbb51baf"
       },
-      "importance": 69
+      "importance": 70
+    },
+    {
+      "id": "0566809c65753b53",
+      "title": "OpenAI Codex on Amazon Bedrock",
+      "entity": null,
+      "labs": [
+        "amazon",
+        "openai"
+      ],
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-11-11T23:35:47.000Z",
+      "lastAt": "2026-11-11T23:35:47.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
+      "lead": {
+        "kind": "official",
+        "id": "0566809c65753b53"
+      },
+      "importance": 70
     },
     {
       "id": "baidu:8f0dc7a5fd96a4",
@@ -340,6 +347,30 @@
         "id": "baidu:8f0dc7a5fd96a4"
       },
       "importance": 62
+    },
+    {
+      "id": "nvidia:1d03a12adeb33b",
+      "title": "Analysis-Nvidia’s AI financing machine may survive Huang, but with less risk appetite By Reuters",
+      "entity": null,
+      "labs": [
+        "nvidia"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "MSN",
+        "Reuters",
+        "Kitco",
+        "Investing.com"
+      ],
+      "firstAt": "2026-11-12T08:00:00.000Z",
+      "lastAt": "2026-11-16T11:14:33.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZWk4TjlfYXhjUzdCWXlrc3YybmNlVHpCd0gzM2Y1dXBva29Va2FFdVRGN1VyY2hTQzFmMHRlNGpxTnEyTDNoN09CNTAxSWo3Y0FRRVBjZ1Z4N09FcEd4NjJPUUc3UEpKMVZLMjItbmFZMUpIRnBKVkxQbGVFbmdNdjNoRlN6dzdibm1yMjA4MFBTc0pUN0FlQ0N1MWVZZnZBZlZqb09vbHZaeFVFTFE0QmF3a2k1U1NqbUVkQ2VUWkVDSXRnWWcyeExRb0hrVi0xSE9tMGN3?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "nvidia:1d03a12adeb33b"
+      },
+      "importance": 56
     },
     {
       "id": "qwen:4717b2d69605de",
@@ -446,18 +477,18 @@
         ]
       },
       {
+        "name": "Qwen 4 Max",
+        "count": 27,
+        "prev": 0,
+        "labs": []
+      },
+      {
         "name": "Gemini 4 Hydrogen",
-        "count": 24,
+        "count": 26,
         "prev": 1,
         "labs": [
           "google-deepmind"
         ]
-      },
-      {
-        "name": "Qwen 4 Max",
-        "count": 23,
-        "prev": 0,
-        "labs": []
       },
       {
         "name": "ERNIE 5.5 Flash",
@@ -474,25 +505,8 @@
         ]
       },
       {
-        "name": "Gemini 2.5",
-        "count": 5,
-        "prev": 0,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
-        "name": "Claude 5.2",
-        "count": 5,
-        "prev": 3,
-        "labs": [
-          "anthropic",
-          "amazon"
-        ]
-      },
-      {
         "name": "DeepSeek 4.1 Flash",
-        "count": 5,
+        "count": 6,
         "prev": 5,
         "labs": [
           "amazon"
@@ -505,43 +519,60 @@
         "labs": []
       },
       {
+        "name": "Gemini 2.5",
+        "count": 4,
+        "prev": 1,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
         "name": "Qwen 3.8 Max",
         "count": 4,
         "prev": 1,
         "labs": []
+      },
+      {
+        "name": "Claude 5.2",
+        "count": 3,
+        "prev": 5,
+        "labs": [
+          "anthropic",
+          "amazon"
+        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 67,
-        "prev": 57,
+        "count": 65,
+        "prev": 60,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
-          "minimax",
           "qwen",
+          "minimax",
           "cohere",
           "microsoft",
-          "bytedance",
           "amazon",
+          "bytedance",
           "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 44,
-        "prev": 45,
+        "count": 42,
+        "prev": 44,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
-          "minimax",
           "qwen",
+          "minimax",
           "cohere",
           "microsoft",
           "amazon",
@@ -551,8 +582,8 @@
       },
       {
         "name": "safety",
-        "count": 14,
-        "prev": 16,
+        "count": 12,
+        "prev": 18,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -565,8 +596,8 @@
       },
       {
         "name": "multimodal",
-        "count": 12,
-        "prev": 10,
+        "count": 10,
+        "prev": 12,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -602,9 +633,20 @@
         ]
       },
       {
+        "name": "rag",
+        "count": 6,
+        "prev": 6,
+        "labs": [
+          "google-deepmind",
+          "cohere",
+          "amazon",
+          "bytedance"
+        ]
+      },
+      {
         "name": "mcp",
         "count": 5,
-        "prev": 4,
+        "prev": 5,
         "labs": [
           "anthropic",
           "qwen",
@@ -613,19 +655,9 @@
         ]
       },
       {
-        "name": "rag",
-        "count": 5,
-        "prev": 5,
-        "labs": [
-          "cohere",
-          "bytedance",
-          "amazon"
-        ]
-      },
-      {
         "name": "audio",
-        "count": 4,
-        "prev": 3,
+        "count": 3,
+        "prev": 4,
         "labs": [
           "anthropic",
           "openai",
@@ -661,6 +693,30 @@
       ],
       "reports": 3,
       "at": "2026-11-16T03:12:00.000Z"
+    },
+    {
+      "id": "nvidia:8adf1091e01ceb",
+      "lab": "nvidia",
+      "title": "Nvidia expands Vera CPU platform, unveils Nemotron for science, and more (NVDA:NASDAQ)",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLWp6cnRJSDcyRFN1SGx5Z0ttZjc4a1FMMURmY2NDcGtJRURTR3piVmN2OG9ROU5LU2Z3eVBvbmR3MEpkV0c1NDhVUlNBdDJWa2w0c0lRTzFPQV9uSk9pUTZpamZDWUczSEpUWHk1bVltZWRVMHJlUXVVUkJJbHBqT3R3WktQRktSVGNoaEptRnp4LUhQc1hIcC1FV3ZlZUZRRDRVcW9YZw?oc=5",
+      "outlets": [
+        "Seeking Alpha",
+        "TradingView"
+      ],
+      "reports": 2,
+      "at": "2026-11-16T16:29:34.000Z"
+    },
+    {
+      "id": "qwen:1ca2482f40fba9",
+      "lab": "qwen",
+      "title": "Alibaba Launches Qwen4-Max, a Flagship AI Model With Tighter Safety Controls",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcnBlS043cHdPdnJYVmJYRWNDRlB0Tnc3TkQ1WXlrUE9RdEU3c2VaaDFMS1RlOWNuZkpWRkFqLW5nN3E0bk12YWtYX0VYOURJd0UyQ0p0aW10RWpmbnZCSHRsMlNOTEJCbUpZSG1YUUI3bmZCRHBJemFOS0o4bWFiamF0U1dGNTFjZWI5S29XTQ?oc=5",
+      "outlets": [
+        "Technology Org",
+        "Analytics India Magazine"
+      ],
+      "reports": 2,
+      "at": "2026-11-16T11:58:00.000Z"
     },
     {
       "id": "qwen:0d8893271533fe",
