@@ -1,35 +1,25 @@
 [
   {
     "date": "2026-11-17",
-    "generatedAt": "2026-11-17T04:05:54.921Z",
+    "generatedAt": "2026-11-17T16:12:10.860Z",
     "stats": {
-      "updates24h": 34,
-      "labsActive24h": 7,
-      "updates7d": 167,
-      "newModels7d": 36
+      "updates24h": 21,
+      "labsActive24h": 9,
+      "updates7d": 159,
+      "newModels7d": 32
     },
     "source": "template",
-    "headline": "34 updates from 7 AI labs in the last 24 hours · 36 model releases this week.",
+    "headline": "21 updates from 9 AI labs in the last 24 hours · 32 model releases this week.",
     "bullets": [
+      {
+        "text": "OpenAI: Introducing OpenAI for Chile",
+        "itemId": "58da9c66b1456ac9",
+        "lab": "openai"
+      },
       {
         "text": "OpenAI: Broadening access to AI for scientists",
         "itemId": "f26f2a4dfd6b9b95",
         "lab": "openai"
-      },
-      {
-        "text": "NVIDIA: NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
-        "itemId": "0f2a855bc6a8fcf2",
-        "lab": "nvidia"
-      },
-      {
-        "text": "OpenAI: Our first phase of embedded assessments",
-        "itemId": "ebd9eb94963902d2",
-        "lab": "openai"
-      },
-      {
-        "text": "Amazon: AgentCore runtime instances are now available in six more AWS Regions",
-        "itemId": "59639c12a3bc824e",
-        "lab": "amazon"
       },
       {
         "text": "Microsoft: TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
@@ -37,9 +27,19 @@
         "lab": "microsoft"
       },
       {
-        "text": "NVIDIA: Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-        "itemId": "aafc20d9f2a085c9",
-        "lab": "nvidia"
+        "text": "IBM: How low-SWaP radar is making sophisticated sensing smarter",
+        "itemId": "0e7178620825949f",
+        "lab": "ibm"
+      },
+      {
+        "text": "Cohere: Crunchbase in North: Private market signals for growth-stage companies",
+        "itemId": "cd5eb780fba48239",
+        "lab": "cohere"
+      },
+      {
+        "text": "Amazon: Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
+        "itemId": "d218f9a95b85493a",
+        "lab": "amazon"
       }
     ]
   },

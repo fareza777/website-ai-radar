@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T04:05:54.921Z",
+  "generatedAt": "2026-11-17T16:12:10.860Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 3,
-      "press": 21,
+      "press": 24,
       "outlets": [
         "MakeUseOf",
         "Thurrott.com",
@@ -37,10 +37,12 @@
         "Android Central",
         "The GitHub Blog",
         "Brave New Coin",
-        "AI Insider"
+        "DevOps.com",
+        "AI Insider",
+        "AI Magazine"
       ],
       "firstAt": "2026-11-12T16:14:43.000Z",
-      "lastAt": "2026-11-17T00:22:30.000Z",
+      "lastAt": "2026-11-17T12:11:15.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
       "lead": {
         "kind": "official",
@@ -258,7 +260,6 @@
       "official": 0,
       "press": 24,
       "outlets": [
-        "Asia Times",
         "BigGo Finance",
         "AIBase",
         "TechNode",
@@ -284,12 +285,13 @@
         "Technology Org",
         "shattered.io",
         "Medium",
+        "Brief IA",
         "eWeek",
         "Decrypt",
         "Yahoo Tech",
         "KuCoin"
       ],
-      "firstAt": "2026-11-07T05:09:54.000Z",
+      "firstAt": "2026-11-11T04:25:00.000Z",
       "lastAt": "2026-11-16T23:25:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0llVDN6V1dUODNxdTUtajZ6aElDeUp1cXc3UzdnS0JEbVpTZTJ2cVdFS0VtQV83TmdMRU55RGZSU3dfTF9rYVBGcGN6VzRCREJhMGdVeU9EMmVkUjR6TnVsSmdtcGpfdC00UUFoaC00VG9tZHBXZHZlUUF2Y0dTNVd2eDdIbkhKeFVuQVcyeU1MQQ?oc=5",
       "lead": {
@@ -469,23 +471,23 @@
   "trending": {
     "entities": [
       {
-        "name": "Gemini 4 Carbon",
-        "count": 28,
-        "prev": 3,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "Qwen 4 Max",
-        "count": 27,
+        "count": 30,
         "prev": 0,
         "labs": []
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 26,
+        "count": 29,
         "prev": 1,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "count": 19,
+        "prev": 11,
         "labs": [
           "google-deepmind"
         ]
@@ -497,19 +499,19 @@
         "labs": []
       },
       {
-        "name": "Claude Opus 5.5",
-        "count": 6,
-        "prev": 2,
-        "labs": [
-          "anthropic"
-        ]
-      },
-      {
         "name": "DeepSeek 4.1 Flash",
         "count": 6,
         "prev": 5,
         "labs": [
           "amazon"
+        ]
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "count": 5,
+        "prev": 2,
+        "labs": [
+          "anthropic"
         ]
       },
       {
@@ -519,26 +521,23 @@
         "labs": []
       },
       {
-        "name": "Gemini 2.5",
-        "count": 4,
-        "prev": 1,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "Qwen 3.8 Max",
         "count": 4,
         "prev": 1,
         "labs": []
       },
       {
-        "name": "Claude 5.2",
+        "name": "DeepSeek 4.1 Pro",
         "count": 3,
-        "prev": 5,
+        "prev": 0,
+        "labs": []
+      },
+      {
+        "name": "Gemini 2.5",
+        "count": 3,
+        "prev": 2,
         "labs": [
-          "anthropic",
-          "amazon"
+          "google-deepmind"
         ]
       }
     ],
@@ -551,53 +550,51 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
           "qwen",
           "cohere",
           "microsoft",
           "amazon",
           "bytedance",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 42,
-        "prev": 44,
+        "count": 45,
+        "prev": 42,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "minimax",
           "mistral",
           "qwen",
           "cohere",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "safety",
-        "count": 12,
-        "prev": 18,
+        "count": 11,
+        "prev": 19,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "cohere",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "multimodal",
-        "count": 10,
-        "prev": 12,
+        "count": 9,
+        "prev": 11,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -606,30 +603,8 @@
           "cohere",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 8,
-        "prev": 4,
-        "labs": [
-          "microsoft",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 7,
-        "prev": 3,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "amazon",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -641,6 +616,28 @@
           "cohere",
           "amazon",
           "bytedance"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 6,
+        "prev": 4,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "amazon",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "open-source",
+        "count": 6,
+        "prev": 6,
+        "labs": [
+          "microsoft",
+          "amazon",
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -669,6 +666,20 @@
   },
   "unconfirmed": [
     {
+      "id": "qwen:d4e0c677e51602",
+      "lab": "qwen",
+      "title": "Alibaba unveils new flagship AI model in riposte to US rivals",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVJzSHdUYUl4Njh5UW9DOWRXYjMxdGlKSF81V0FtRW5DQWwweWNEMXhsRGlsd1htaG9kc2MxX0VYa1FxOEFtaFNtLTh4TTN0ZWFtcWRuRkk3QjRrMm83OVZ2R2JQc2RadEdLUEVGUjRDVHlBOVoxOHF4T1cyU2RLTGl6U1VxVkVpbVg1Sk82blNFRDgtYnAzWnM3WHdTSTVp?oc=5",
+      "outlets": [
+        "The Straits Times",
+        "The Standard (HK)",
+        "The Business Times",
+        "Yahoo Finance"
+      ],
+      "reports": 4,
+      "at": "2026-11-16T03:12:00.000Z"
+    },
+    {
       "id": "qwen:075ae9bbb51baf",
       "lab": "qwen",
       "title": "Alibaba Launches Qwen4-Max AI Model with 2.4 Trillion Parameters",
@@ -680,19 +691,6 @@
       ],
       "reports": 3,
       "at": "2026-11-16T10:54:51.000Z"
-    },
-    {
-      "id": "qwen:d4e0c677e51602",
-      "lab": "qwen",
-      "title": "Alibaba unveils new flagship AI model in riposte to US rivals",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVJzSHdUYUl4Njh5UW9DOWRXYjMxdGlKSF81V0FtRW5DQWwweWNEMXhsRGlsd1htaG9kc2MxX0VYa1FxOEFtaFNtLTh4TTN0ZWFtcWRuRkk3QjRrMm83OVZ2R2JQc2RadEdLUEVGUjRDVHlBOVoxOHF4T1cyU2RLTGl6U1VxVkVpbVg1Sk82blNFRDgtYnAzWnM3WHdTSTVp?oc=5",
-      "outlets": [
-        "The Straits Times",
-        "The Standard (HK)",
-        "The Business Times"
-      ],
-      "reports": 3,
-      "at": "2026-11-16T03:12:00.000Z"
     },
     {
       "id": "nvidia:8adf1091e01ceb",

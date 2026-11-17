@@ -1,5 +1,27 @@
 [
   {
+    "id": "0e7178620825949f",
+    "lab": "ibm",
+    "title": "How low-SWaP radar is making sophisticated sensing smarter",
+    "url": "https://research.ibm.com/blog/how-low-sWaP-radar-is-making-sensing-smarter",
+    "sourceId": "ibm-research",
+    "sourceName": "IBM Research Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "firstSeenAt": "2026-11-17T16:12:10.860Z",
+    "updatedAt": "2026-11-17T12:00:00.000Z",
+    "excerpt": "Low size, weight, and power are key to useful radar systems, and it takes more than one breakthrough component to make them work.",
+    "summary": "Low size, weight, and power are key to useful radar systems, and it takes more than one breakthrough component to make them work.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 50,
+    "contentHash": "d6b66697523e"
+  },
+  {
     "id": "cd5b8a0fc178cd39",
     "lab": "ibm",
     "title": "SC26: IBM shows progress in bringing quantum & HPC together",
@@ -934,7 +956,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 56,
-      "downloads": 6115,
+      "downloads": 6101,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -965,7 +987,7 @@
     "contentHash": "6f6f69225449",
     "meta": {
       "likes": 47,
-      "downloads": 4935,
+      "downloads": 4913,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1179,7 +1201,7 @@
     "contentHash": "a598e14a409a",
     "meta": {
       "likes": 85,
-      "downloads": 10869,
+      "downloads": 11069,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -1406,11 +1428,11 @@
     "tags": [
       "8B"
     ],
-    "importance": 60,
+    "importance": 61,
     "contentHash": "e90d15ccd854",
     "meta": {
-      "likes": 19,
-      "downloads": 552,
+      "likes": 20,
+      "downloads": 710,
       "repo": "ibm-granite/granite-4.1-8b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1441,7 +1463,7 @@
     "contentHash": "4a790aae3abc",
     "meta": {
       "likes": 18,
-      "downloads": 2413,
+      "downloads": 2633,
       "repo": "ibm-granite/granite-4.1-3b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1492,7 +1514,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 8,
-      "downloads": 323,
+      "downloads": 322,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"

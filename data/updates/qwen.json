@@ -1,5 +1,96 @@
 [
   {
+    "id": "788442c73cbb02e0",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.28.0",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.0",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T12:31:07.000Z",
+    "firstSeenAt": "2026-11-17T16:12:10.860Z",
+    "updatedAt": "2026-11-17T12:31:07.000Z",
+    "excerpt": "What's Changed feat(web-shell): add sidebar workspace filter by @callmeYe in #17244 feat(managed-agent): add the DingTalk adapter on the managed channel path by @wenshao in #17136 fix(managed-agent): settle stale public-child recovery as terminal instead of retrying forever by @yiliang114 in #17273 fix(sdk): route Skill mutations through native REST by @Afloat16 in #17111 feat(acp): route live and read-only Agent…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.28.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "c31032797efc",
+    "meta": {
+      "version": "v0.28.0",
+      "semver": "minor",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
+    "id": "55d604a6c28c1031",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.35",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.35",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T12:07:45.000Z",
+    "firstSeenAt": "2026-11-17T16:12:10.860Z",
+    "updatedAt": "2026-11-17T12:07:45.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.28.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.35 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "0bc8291b1550",
+    "meta": {
+      "version": "v0.1.35",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
+    "id": "4dbe53199800181e",
+    "lab": "qwen",
+    "title": "Qwen Code v0.28.0",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T11:20:07.000Z",
+    "firstSeenAt": "2026-11-17T16:12:10.860Z",
+    "updatedAt": "2026-11-17T11:20:07.000Z",
+    "excerpt": "Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(web-shell): add sidebar workspace filter ( #17244 ) by @callmeYe feat(managed-agent): add the DingTalk adapter on the managed channel path ( #17136 ) by @wenshao feat(acp): route live and read-only Agent Host sessions through the shared tool batch ( #17218 ) by @yiliang114 feat(core): let the…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.28.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "316961500813",
+    "meta": {
+      "version": "v0.28.0",
+      "semver": "minor",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
     "id": "e369d6f27ed70536",
     "lab": "qwen",
     "title": "Qwen Code v0.27.4",
@@ -112,7 +203,7 @@
     "importance": 40,
     "contentHash": "25cd6ea52155",
     "meta": {
-      "stars": 38,
+      "stars": 41,
       "repo": "QwenLM/Qwen-Live-Delivery-Plugin",
       "language": "TypeScript"
     }
@@ -1460,7 +1551,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 332,
+      "stars": 335,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -1579,7 +1670,7 @@
     "contentHash": "ba989c597179",
     "meta": {
       "likes": 1143,
-      "downloads": 33586,
+      "downloads": 32447,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1727,7 +1818,7 @@
     "contentHash": "d108635bb7df",
     "meta": {
       "likes": 74,
-      "downloads": 7198,
+      "downloads": 6867,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
     }
@@ -1757,7 +1848,7 @@
     "contentHash": "2deb903ef0b2",
     "meta": {
       "likes": 79,
-      "downloads": 4681,
+      "downloads": 4616,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1843,8 +1934,8 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3661,
-      "downloads": 281528,
+      "likes": 3668,
+      "downloads": 286817,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1882,7 +1973,7 @@
     "importance": 45,
     "contentHash": "4548238eeeb7",
     "meta": {
-      "stars": 293,
+      "stars": 294,
       "repo": "QwenLM/Qwen-Live-Harness",
       "language": "TypeScript"
     }
@@ -2003,8 +2094,8 @@
     "importance": 95,
     "contentHash": "90892b9551a6",
     "meta": {
-      "likes": 7229,
-      "downloads": 2975526,
+      "likes": 7256,
+      "downloads": 2983542,
       "repo": "Qwen/Qwen3.8-Flash-Next",
       "pipeline": "image-text-to-text",
       "license": "other"
