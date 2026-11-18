@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-18",
+    "generatedAt": "2026-11-18T01:00:57.903Z",
+    "stats": {
+      "updates24h": 27,
+      "labsActive24h": 8,
+      "updates7d": 166,
+      "newModels7d": 36
+    },
+    "source": "template",
+    "headline": "27 updates from 8 AI labs in the last 24 hours · 36 model releases this week.",
+    "bullets": [
+      {
+        "text": "OpenAI: Introducing GPT-6.2 Astra and Sol",
+        "itemId": "549a77347d5e1e5f",
+        "lab": "openai"
+      },
+      {
+        "text": "Amazon: OpenAI GPT-6.2 Astra, and GPT-6.2 Sol are now generally available on Amazon Bedrock",
+        "itemId": "e275daab6915c5ef",
+        "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: Introducing ChatGPT for Sales",
+        "itemId": "c6c361c53bc4ce2d",
+        "lab": "openai"
+      },
+      {
+        "text": "Google DeepMind: Read the EmbeddingGemma 2 technical report.",
+        "itemId": "35e69ca0e0aa2cdd",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Amazon: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+        "itemId": "2c0a64e08e41f662",
+        "lab": "amazon"
+      },
+      {
+        "text": "Google DeepMind: Put Gemini to work for you",
+        "itemId": "cb1d8f8bc84f7e6a",
+        "lab": "google-deepmind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "generatedAt": "2026-11-17T16:12:10.860Z",
     "stats": {
@@ -1172,45 +1216,6 @@
         "text": "NVIDIA: Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
         "itemId": "5d44067f2d19c9de",
         "lab": "nvidia"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-19",
-    "generatedAt": "2026-10-19T13:31:59.604Z",
-    "stats": {
-      "updates24h": 6,
-      "labsActive24h": 4,
-      "updates7d": 122,
-      "newModels7d": 39
-    },
-    "source": "template",
-    "headline": "6 updates from 4 AI labs in the last 24 hours · 39 model releases this week.",
-    "bullets": [
-      {
-        "text": "Meta AI: Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
-        "itemId": "eeca3caa47fa95f2",
-        "lab": "meta"
-      },
-      {
-        "text": "IBM: New course teaches how AI models run on modern accelerators",
-        "itemId": "de58e4ba20a4ed12",
-        "lab": "ibm"
-      },
-      {
-        "text": "Alibaba Qwen: Qwen Code desktop v0.25.3",
-        "itemId": "4ac761225dba94bd",
-        "lab": "qwen"
-      },
-      {
-        "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.21",
-        "itemId": "ed40b48547adbec7",
-        "lab": "qwen"
-      },
-      {
-        "text": "Anthropic: Claude Code v2.1.303",
-        "itemId": "13d5315f51758d6f",
-        "lab": "anthropic"
       }
     ]
   }

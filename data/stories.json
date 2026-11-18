@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T16:12:10.860Z",
+  "generatedAt": "2026-11-18T01:00:57.903Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 3,
-      "press": 24,
+      "press": 25,
       "outlets": [
         "MakeUseOf",
         "Thurrott.com",
@@ -39,10 +39,11 @@
         "Brave New Coin",
         "DevOps.com",
         "AI Insider",
-        "AI Magazine"
+        "AI Magazine",
+        "Google for Developers Blog"
       ],
       "firstAt": "2026-11-12T16:14:43.000Z",
-      "lastAt": "2026-11-17T12:11:15.000Z",
+      "lastAt": "2026-11-17T17:43:25.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
       "lead": {
         "kind": "official",
@@ -119,6 +120,28 @@
         "id": "05f1e3cef6173c85"
       },
       "importance": 96
+    },
+    {
+      "id": "549a77347d5e1e5f",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "entity": "GPT 6.2 Astra",
+      "labs": [
+        "amazon",
+        "openai"
+      ],
+      "official": 2,
+      "press": 1,
+      "outlets": [
+        "9to5Mac"
+      ],
+      "firstAt": "2026-11-17T17:17:00.000Z",
+      "lastAt": "2026-11-17T17:51:00.000Z",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "lead": {
+        "kind": "official",
+        "id": "549a77347d5e1e5f"
+      },
+      "importance": 92
     },
     {
       "id": "ffe8a09e969fa29a",
@@ -363,7 +386,8 @@
         "MSN",
         "Reuters",
         "Kitco",
-        "Investing.com"
+        "Investing.com",
+        "The Lufkin Daily News"
       ],
       "firstAt": "2026-11-12T08:00:00.000Z",
       "lastAt": "2026-11-16T11:14:33.000Z",
@@ -372,7 +396,7 @@
         "kind": "press",
         "id": "nvidia:1d03a12adeb33b"
       },
-      "importance": 56
+      "importance": 57
     },
     {
       "id": "qwen:4717b2d69605de",
@@ -472,13 +496,13 @@
     "entities": [
       {
         "name": "Qwen 4 Max",
-        "count": 30,
+        "count": 31,
         "prev": 0,
         "labs": []
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 29,
+        "count": 30,
         "prev": 1,
         "labs": [
           "google-deepmind"
@@ -486,33 +510,48 @@
       },
       {
         "name": "Gemini 4 Carbon",
-        "count": 19,
-        "prev": 11,
+        "count": 12,
+        "prev": 17,
         "labs": [
           "google-deepmind"
         ]
       },
       {
-        "name": "ERNIE 5.5 Flash",
-        "count": 9,
-        "prev": 19,
-        "labs": []
-      },
-      {
         "name": "DeepSeek 4.1 Flash",
-        "count": 6,
-        "prev": 5,
+        "count": 7,
+        "prev": 4,
         "labs": [
           "amazon"
         ]
       },
       {
+        "name": "ERNIE 5.5 Flash",
+        "count": 7,
+        "prev": 21,
+        "labs": []
+      },
+      {
         "name": "Claude Opus 5.5",
         "count": 5,
-        "prev": 2,
+        "prev": 1,
         "labs": [
           "anthropic"
         ]
+      },
+      {
+        "name": "GPT 6.2 Astra",
+        "count": 4,
+        "prev": 0,
+        "labs": [
+          "openai",
+          "amazon"
+        ]
+      },
+      {
+        "name": "DeepSeek 4.1 Pro",
+        "count": 4,
+        "prev": 0,
+        "labs": []
       },
       {
         "name": "Qwen 3.8",
@@ -525,61 +564,47 @@
         "count": 4,
         "prev": 1,
         "labs": []
-      },
-      {
-        "name": "DeepSeek 4.1 Pro",
-        "count": 3,
-        "prev": 0,
-        "labs": []
-      },
-      {
-        "name": "Gemini 2.5",
-        "count": 3,
-        "prev": 2,
-        "labs": [
-          "google-deepmind"
-        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 65,
-        "prev": 60,
+        "count": 71,
+        "prev": 61,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
-          "qwen",
           "cohere",
+          "qwen",
           "microsoft",
           "amazon",
           "bytedance",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 45,
-        "prev": 42,
+        "count": 43,
+        "prev": 44,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
-          "qwen",
           "cohere",
+          "qwen",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 11,
+        "count": 10,
         "prev": 19,
         "labs": [
           "anthropic",
@@ -587,14 +612,14 @@
           "openai",
           "cohere",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
         "count": 9,
-        "prev": 11,
+        "prev": 12,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -603,19 +628,31 @@
           "cohere",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "rag",
-        "count": 6,
-        "prev": 6,
+        "count": 8,
+        "prev": 5,
         "labs": [
           "google-deepmind",
           "cohere",
           "amazon",
           "bytedance"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 7,
+        "prev": 5,
+        "labs": [
+          "anthropic",
+          "openai",
+          "qwen",
+          "microsoft",
+          "amazon"
         ]
       },
       {
@@ -632,29 +669,18 @@
       {
         "name": "open-source",
         "count": 6,
-        "prev": 6,
+        "prev": 5,
         "labs": [
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 5,
-        "prev": 5,
-        "labs": [
-          "anthropic",
-          "qwen",
-          "microsoft",
-          "amazon"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "audio",
         "count": 3,
-        "prev": 4,
+        "prev": 3,
         "labs": [
           "anthropic",
           "openai",

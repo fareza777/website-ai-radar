@@ -1,5 +1,54 @@
 [
   {
+    "id": "41dc972095bf5b59",
+    "lab": "nvidia",
+    "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+    "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T17:30:00.000Z",
+    "firstSeenAt": "2026-11-18T01:00:57.903Z",
+    "updatedAt": "2026-11-17T17:30:00.000Z",
+    "excerpt": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,... Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths, attention becomes the most expensive part of a transformer layer. Dense attention scores every…",
+    "summary": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 30,
+    "contentHash": "52429d38aeaa"
+  },
+  {
+    "id": "dec08682255b4b65",
+    "lab": "nvidia",
+    "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+    "url": "https://blogs.nvidia.com/blog/ian-buck-sc26",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T14:00:10.000Z",
+    "firstSeenAt": "2026-11-18T01:00:57.903Z",
+    "updatedAt": "2026-11-17T14:00:10.000Z",
+    "excerpt": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science , the Rubin HPC GPU and an expanded Vera CPU platform for high-performance computing . He also detailed a new collaboration in quantum computing with IBM…",
+    "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 40,
+    "contentHash": "1eed34455133"
+  },
+  {
     "id": "2453547dcede7e6e",
     "lab": "nvidia",
     "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
@@ -2222,7 +2271,7 @@
     "importance": 62,
     "contentHash": "6c39ac2571f4",
     "meta": {
-      "likes": 29,
+      "likes": 30,
       "downloads": 12816,
       "repo": "nvidia/Kimodo-SOMA-RP-v1.2",
       "license": "other"
@@ -2423,7 +2472,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3392,
+      "likes": 3398,
       "downloads": 85203,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -2694,10 +2743,10 @@
     "tags": [
       "4B"
     ],
-    "importance": 71,
+    "importance": 72,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 471,
+      "likes": 491,
       "downloads": 157536,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -3253,7 +3302,7 @@
     "importance": 63,
     "contentHash": "c430fa5ee123",
     "meta": {
-      "likes": 37,
+      "likes": 38,
       "downloads": 432,
       "repo": "nvidia/strata",
       "license": "openmdw-1.1"

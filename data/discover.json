@@ -9,7 +9,7 @@
     "summary": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
     "unique": "Written in C++",
     "benefit": "Alternative inference/API infrastructure that may cut costs.",
-    "why": "53 days old · 24k ⭐ on GitHub · 932 points on Hacker News.",
+    "why": "54 days old · 24k ⭐ on GitHub · 932 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-24T16:40:20Z",
@@ -67,7 +67,7 @@
     "summary": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
     "unique": "Topics: ai-agents, deepseek, deepseek-harness, developer-tools, dsh",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "53 days old · 39k ⭐ on GitHub · +20k ⭐ this week.",
+    "why": "54 days old · 39k ⭐ on GitHub · +20k ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-24T16:17:19Z",
@@ -171,7 +171,7 @@
     "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
     "unique": "Topics: claude-code, codex, deepseek, gemini-cli, llm",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "54 days old · 19k ⭐ on GitHub · +6.1k ⭐ this week.",
+    "why": "55 days old · 19k ⭐ on GitHub · +6.1k ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-23T16:22:35Z",
@@ -343,18 +343,14 @@
     "summary": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
     "unique": "Topics: agent-skill, open-source, svg, vizualization",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · 40 days old · 28k ⭐ on GitHub · +1.6k ⭐ this week.",
+    "why": "Agent pick · 40 days old · 28k ⭐ on GitHub · +1.4k ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-08T10:12:49Z",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 27832,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 27873,
     "starHistory": [
-      {
-        "at": "2026-10-19T20:37:58.193Z",
-        "stars": 16782
-      },
       {
         "at": "2026-10-20T23:57:39.440Z",
         "stars": 17563
@@ -470,9 +466,13 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 27832
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 27873
       }
     ],
-    "starsDelta7d": 1591,
+    "starsDelta7d": 1380,
     "language": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -922,18 +922,14 @@
     "summary": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
     "unique": "Topics: agent-memory, ai-agents, claude-code, code-analysis, code-graph",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · 34 days old · 581 ⭐ on GitHub · +37 ⭐ this week · 40 points on Hacker News.",
+    "why": "Agent pick · 34 days old · 581 ⭐ on GitHub · +25 ⭐ this week · 40 points on Hacker News.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-14T12:25:36Z",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "stars": 581,
     "starHistory": [
-      {
-        "at": "2026-10-19T20:37:58.193Z",
-        "stars": 319
-      },
       {
         "at": "2026-10-20T23:57:39.440Z",
         "stars": 332
@@ -1049,9 +1045,13 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 581
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 581
       }
     ],
-    "starsDelta7d": 37,
+    "starsDelta7d": 25,
     "language": "Rust",
     "license": "Apache-2.0",
     "topics": [
@@ -1100,7 +1100,7 @@
     "summary": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
     "unique": "Topics: embeddinggemma, embeddings, file-search, linux, llama-cpp",
     "benefit": "Helps you build search/RAG on top of your own data.",
-    "why": "39 days old · Featured in Ben's Bites · 6.0k ⭐ on GitHub · +661 ⭐ this week.",
+    "why": "40 days old · Featured in Ben's Bites · 6.0k ⭐ on GitHub · +661 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-08T20:37:51Z",
@@ -1310,7 +1310,7 @@
     "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
     "unique": "Topics: 3d-modeling, brep, cad, egui, mcp",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "40 days old · 14k ⭐ on GitHub · +2.2k ⭐ this week.",
+    "why": "41 days old · 14k ⭐ on GitHub · +2.2k ⭐ this week.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-07T18:57:48Z",
@@ -1601,7 +1601,7 @@
     "summary": "harness2",
     "unique": "Written in Python",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "41 days old · 21k ⭐ on GitHub · +4.0k ⭐ this week · 68 points on Hacker News.",
+    "why": "42 days old · 21k ⭐ on GitHub · +4.0k ⭐ this week · 68 points on Hacker News.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-06T21:48:11Z",
@@ -1680,13 +1680,13 @@
     "summary": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline.",
     "unique": "Topics: ai-agent, ai-assistant, chatgpt-alternative, claude-alternative, desktop-app",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · 33 days old · 549 ⭐ on GitHub · +25 ⭐ this week · 97 points on Hacker News.",
+    "why": "Agent pick · 34 days old · 551 ⭐ on GitHub · +26 ⭐ this week · 97 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-14T22:11:20Z",
     "firstSeenAt": "2026-10-27T00:07:27.875Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 549,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 551,
     "starHistory": [
       {
         "at": "2026-10-27T22:22:25.706Z",
@@ -1775,9 +1775,13 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 549
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 551
       }
     ],
-    "starsDelta7d": 25,
+    "starsDelta7d": 26,
     "language": "TypeScript",
     "license": "MIT",
     "topics": [
@@ -1921,13 +1925,13 @@
     "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "unique": "Topics: ai-agent, android, android-app, coding-agent, deepseek",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "23 days old · 26k ⭐ on GitHub · +8.3k ⭐ this week.",
+    "why": "23 days old · 26k ⭐ on GitHub · +7.4k ⭐ this week.",
     "pricing": "Open source (AGPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-25T08:09:52Z",
     "firstSeenAt": "2026-10-30T18:04:10.825Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 25819,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 26028,
     "starHistory": [
       {
         "at": "2026-10-30T22:27:19.130Z",
@@ -2004,9 +2008,13 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 25819
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 26028
       }
     ],
-    "starsDelta7d": 8295,
+    "starsDelta7d": 7379,
     "language": "Dart",
     "license": "AGPL-3.0",
     "topics": [
@@ -2022,10 +2030,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "25,820 stars",
+        "label": "26,028 stars",
         "url": "https://github.com/ccch1mneyyy/dsh-Go",
-        "value": 25820,
-        "at": "2026-11-17T16:12:10.860Z"
+        "value": 26028,
+        "at": "2026-11-18T01:00:57.903Z"
       }
     ],
     "score": 100,
@@ -2041,13 +2049,13 @@
     "summary": "Skills for AI coding agents.",
     "unique": "Written in TypeScript",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "22 days old · Featured in Ben's Bites · 3.6k ⭐ on GitHub · +662 ⭐ this week.",
+    "why": "22 days old · Featured in Ben's Bites · 3.6k ⭐ on GitHub · +640 ⭐ this week.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-10-26T06:08:56Z",
     "firstSeenAt": "2026-11-03T19:34:58.857Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 3552,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 3645,
     "starHistory": [
       {
         "at": "2026-11-03T19:34:58.857Z",
@@ -2108,19 +2116,23 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 3552
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 3645
       }
     ],
-    "starsDelta7d": 662,
+    "starsDelta7d": 640,
     "language": "TypeScript",
     "license": null,
     "topics": [],
     "signals": [
       {
         "source": "github",
-        "label": "3,552 stars",
+        "label": "3,645 stars",
         "url": "https://github.com/benjitaylor/skills",
-        "value": 3552,
-        "at": "2026-11-17T16:12:10.860Z"
+        "value": 3645,
+        "at": "2026-11-18T01:00:57.903Z"
       },
       {
         "source": "newsletter",
@@ -2143,13 +2155,13 @@
     "summary": "Run 284B DeepSeek-V4-Flash (<59GiB RAM: 41.1 cold pp, 9.1 N=1 tg, up to 25.3 spec tok/s) & 30B MoEs (22.4 N=1 / 111.6 spec tok/s) on 64GB CPU (0 GPUs).",
     "unique": "Topics: ai-agents, apple-silicon, avx512, claude-code, cpu-inference",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "19 days old · 1.3k ⭐ on GitHub · +567 ⭐ this week · 280 points on Hacker News.",
+    "why": "19 days old · 1.3k ⭐ on GitHub · +458 ⭐ this week · 280 points on Hacker News.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-29T10:17:33Z",
     "firstSeenAt": "2026-11-08T19:45:16.813Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 1339,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 1346,
     "starHistory": [
       {
         "at": "2026-11-08T19:45:16.813Z",
@@ -2190,9 +2202,13 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 1339
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 1346
       }
     ],
-    "starsDelta7d": 567,
+    "starsDelta7d": 458,
     "language": "Python",
     "license": "Apache-2.0",
     "topics": [
@@ -2208,10 +2224,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,339 stars",
+        "label": "1,346 stars",
         "url": "https://github.com/synchopate/llama-modchip",
-        "value": 1339,
-        "at": "2026-11-17T16:12:10.860Z"
+        "value": 1346,
+        "at": "2026-11-18T01:00:57.903Z"
       },
       {
         "source": "hackernews",
@@ -2219,6 +2235,171 @@
         "url": "https://news.ycombinator.com/item?id=50411961",
         "value": 280,
         "at": "2026-11-08T10:22:04Z"
+      }
+    ],
+    "score": 100,
+    "summarySource": "template"
+  },
+  {
+    "id": "1344584aedd971d4",
+    "name": "ste80-humanizer",
+    "url": "https://skills.sh/Dodaios/ste80-humanizer",
+    "repo": "Dodaios/ste80-humanizer",
+    "kind": "github",
+    "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+    "summary": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+    "unique": "Topics: agent-skills, ai-writing, asd-ste100, claude-code, claude-skills",
+    "benefit": "Helps you build or run AI agents that automate tasks.",
+    "why": "Agent pick · 8 days old · 766 ⭐ on GitHub · +464 ⭐ this week · 69 points on Hacker News.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-11-09T17:18:59Z",
+    "firstSeenAt": "2026-11-10T04:08:30.735Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 766,
+    "starHistory": [
+      {
+        "at": "2026-11-10T23:29:30.795Z",
+        "stars": 302
+      },
+      {
+        "at": "2026-11-11T17:15:19.267Z",
+        "stars": 380
+      },
+      {
+        "at": "2026-11-12T20:04:25.319Z",
+        "stars": 451
+      },
+      {
+        "at": "2026-11-13T19:50:14.566Z",
+        "stars": 486
+      },
+      {
+        "at": "2026-11-14T22:34:31.646Z",
+        "stars": 590
+      },
+      {
+        "at": "2026-11-15T22:56:21.102Z",
+        "stars": 691
+      },
+      {
+        "at": "2026-11-16T19:41:52.882Z",
+        "stars": 736
+      },
+      {
+        "at": "2026-11-17T16:12:10.860Z",
+        "stars": 762
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 766
+      }
+    ],
+    "starsDelta7d": 464,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+      "agent-skills",
+      "ai-writing",
+      "asd-ste100",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "humanize-ai-text"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "766 stars",
+        "url": "https://github.com/Dodaios/ste80-humanizer",
+        "value": 766,
+        "at": "2026-11-18T01:00:57.903Z"
+      },
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://x.com/aiaicreate/status/2119952442741997582",
+        "value": 1,
+        "at": "2026-11-10T04:08:24.829Z"
+      },
+      {
+        "source": "hackernews",
+        "label": "69 HN points · 21 comments",
+        "url": "https://news.ycombinator.com/item?id=50429144",
+        "value": 69,
+        "at": "2026-11-09T18:05:44Z"
+      }
+    ],
+    "score": 100,
+    "summarySource": "template"
+  },
+  {
+    "id": "ae52002a818ca003",
+    "name": "modern-web-guidance",
+    "url": "https://goo.gle/modern-web-guidance",
+    "repo": "GoogleChrome/modern-web-guidance",
+    "kind": "github",
+    "description": "Keep your coding agent up to date with the latest web best practices",
+    "summary": "Keep your coding agent up to date with the latest web best practices",
+    "unique": "",
+    "benefit": "Could speed up coding workflows and developer automation.",
+    "why": "Older project (since 2026) gaining momentum · 22k ⭐ on GitHub · +19k ⭐ this week · 222 points on Hacker News.",
+    "pricing": "Open source (Apache-2.0) — free to self-host",
+    "novelty": "trending",
+    "createdAt": "2026-03-23T17:49:14Z",
+    "firstSeenAt": "2026-11-10T23:29:30.795Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 22056,
+    "starHistory": [
+      {
+        "at": "2026-11-10T23:29:30.795Z",
+        "stars": 3129
+      },
+      {
+        "at": "2026-11-11T17:15:19.267Z",
+        "stars": 4579
+      },
+      {
+        "at": "2026-11-12T20:04:25.319Z",
+        "stars": 6951
+      },
+      {
+        "at": "2026-11-13T19:50:14.566Z",
+        "stars": 10547
+      },
+      {
+        "at": "2026-11-14T22:34:31.646Z",
+        "stars": 14952
+      },
+      {
+        "at": "2026-11-15T22:56:21.102Z",
+        "stars": 17648
+      },
+      {
+        "at": "2026-11-16T19:41:52.882Z",
+        "stars": 19888
+      },
+      {
+        "at": "2026-11-17T16:12:10.860Z",
+        "stars": 21787
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 22056
+      }
+    ],
+    "starsDelta7d": 18927,
+    "language": null,
+    "license": "Apache-2.0",
+    "topics": [],
+    "signals": [
+      {
+        "source": "hackernews",
+        "label": "222 HN points · 61 comments",
+        "url": "https://news.ycombinator.com/item?id=50443812",
+        "value": 222,
+        "at": "2026-11-10T18:01:15Z"
       }
     ],
     "score": 100,
@@ -2234,13 +2415,13 @@
     "summary": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
     "unique": "Topics: accessibility, ai-agent, android, automation, jetpack-compose",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "19 days old · 8.9k ⭐ on GitHub · +1.0k ⭐ this week.",
+    "why": "19 days old · 9.0k ⭐ on GitHub · +899 ⭐ this week.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-29T14:34:07Z",
     "firstSeenAt": "2026-10-31T12:44:47.503Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 8948,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 8969,
     "starHistory": [
       {
         "at": "2026-10-31T19:22:48.985Z",
@@ -2313,9 +2494,13 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 8948
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 8969
       }
     ],
-    "starsDelta7d": 1046,
+    "starsDelta7d": 899,
     "language": "Kotlin",
     "license": "Apache-2.0",
     "topics": [
@@ -2331,13 +2516,13 @@
     "signals": [
       {
         "source": "github",
-        "label": "8,948 stars",
+        "label": "8,969 stars",
         "url": "https://github.com/wangzan101/Mika",
-        "value": 8948,
-        "at": "2026-11-17T16:12:10.860Z"
+        "value": 8969,
+        "at": "2026-11-18T01:00:57.903Z"
       }
     ],
-    "score": 100,
+    "score": 99,
     "summarySource": "template"
   },
   {
@@ -2457,7 +2642,7 @@
     "summary": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
     "unique": "Topics: ai-agents, anthropic, antigravity, claude, claude-code",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "50 days old · 6.6k ⭐ on GitHub · +1.0k ⭐ this week.",
+    "why": "51 days old · 6.6k ⭐ on GitHub · +1.0k ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-27T21:54:12Z",
@@ -2853,7 +3038,7 @@
     "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
     "unique": "Topics: ai, chinese, content-curation, daily-digest, docker-compose",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "49 days old · 8.7k ⭐ on GitHub · +647 ⭐ this week.",
+    "why": "50 days old · 8.7k ⭐ on GitHub · +647 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-28T23:40:05Z",
@@ -3101,7 +3286,7 @@
     "summary": "Open source SDK to build Muse gadgets",
     "unique": "Written in C",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "45 days old · Featured in Ben's Bites · 2.3k ⭐ on GitHub · +260 ⭐ this week.",
+    "why": "46 days old · Featured in Ben's Bites · 2.3k ⭐ on GitHub · +260 ⭐ this week.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-02T18:21:23Z",
@@ -3518,12 +3703,12 @@
     "summary": "Self-hosted dark web OSINT platform. Automated threat intelligence from query to graph in 13 steps. Free alternative to Recorded Future, DarkOwl, and Flare.",
     "unique": "Topics: ai, cybersecurity, dark-web, darknet, opensource",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · Older project (since 2026) gaining momentum · 1.1k ⭐ on GitHub · +45 ⭐ this week.",
+    "why": "Agent pick · Older project (since 2026) gaining momentum · 1.1k ⭐ on GitHub · +38 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "trending",
     "createdAt": "2026-04-29T16:07:38Z",
     "firstSeenAt": "2026-10-28T00:08:08.071Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "stars": 1084,
     "starHistory": [
       {
@@ -3609,9 +3794,13 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 1084
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 1084
       }
     ],
-    "starsDelta7d": 45,
+    "starsDelta7d": 38,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -3633,7 +3822,7 @@
         "at": "2026-10-28T00:08:05.202Z"
       }
     ],
-    "score": 95,
+    "score": 94,
     "summarySource": "template"
   },
   {
@@ -4189,7 +4378,7 @@
     "summary": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
     "unique": "Topics: cli, javascript, mcp, react, shaders",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "48 days old · 5.6k ⭐ on GitHub · +418 ⭐ this week.",
+    "why": "49 days old · 5.6k ⭐ on GitHub · +418 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-29T16:36:26Z",
@@ -4313,7 +4502,7 @@
     "summary": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
     "unique": "Topics: ai-agent, airplay, automation, computer-use, dsh-plugin",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "36 days old · 4.8k ⭐ on GitHub · +520 ⭐ this week.",
+    "why": "37 days old · 4.8k ⭐ on GitHub · +520 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-11T19:10:25Z",
@@ -4460,101 +4649,6 @@
     "summarySource": "template"
   },
   {
-    "id": "8dccf5b5e9894460",
-    "name": "kairos",
-    "url": "https://kairos.finic.ai",
-    "repo": "finic-ai/kairos",
-    "kind": "github",
-    "description": "Real time event intelligence, fraud and risk decisioning for financial behavior.",
-    "summary": "Real time event intelligence, fraud and risk decisioning for financial behavior.",
-    "unique": "Topics: customer-behavior, fraud-detection, fraud-intelligence",
-    "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · 17 days old · 284 ⭐ on GitHub · +13 ⭐ this week.",
-    "pricing": "Open source (Apache-2.0) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-10-30T22:37:21Z",
-    "firstSeenAt": "2026-11-04T04:15:48.184Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 284,
-    "starHistory": [
-      {
-        "at": "2026-11-04T19:52:01.415Z",
-        "stars": 201
-      },
-      {
-        "at": "2026-11-05T20:04:26.298Z",
-        "stars": 222
-      },
-      {
-        "at": "2026-11-06T19:30:37.124Z",
-        "stars": 239
-      },
-      {
-        "at": "2026-11-07T21:57:57.700Z",
-        "stars": 253
-      },
-      {
-        "at": "2026-11-08T19:45:16.813Z",
-        "stars": 264
-      },
-      {
-        "at": "2026-11-09T22:30:13.875Z",
-        "stars": 271
-      },
-      {
-        "at": "2026-11-10T23:29:30.795Z",
-        "stars": 273
-      },
-      {
-        "at": "2026-11-11T17:15:19.267Z",
-        "stars": 276
-      },
-      {
-        "at": "2026-11-12T20:04:25.319Z",
-        "stars": 277
-      },
-      {
-        "at": "2026-11-13T19:50:14.566Z",
-        "stars": 279
-      },
-      {
-        "at": "2026-11-14T22:34:31.646Z",
-        "stars": 281
-      },
-      {
-        "at": "2026-11-15T22:56:21.102Z",
-        "stars": 283
-      },
-      {
-        "at": "2026-11-16T19:41:52.882Z",
-        "stars": 283
-      },
-      {
-        "at": "2026-11-17T16:12:10.860Z",
-        "stars": 284
-      }
-    ],
-    "starsDelta7d": 13,
-    "language": "TypeScript",
-    "license": "Apache-2.0",
-    "topics": [
-      "customer-behavior",
-      "fraud-detection",
-      "fraud-intelligence"
-    ],
-    "signals": [
-      {
-        "source": "tip",
-        "label": "Agent pick (daily research)",
-        "url": "https://x.com/ayanicband/status/2117322721168437292",
-        "value": 1,
-        "at": "2026-11-04T04:12:28.299Z"
-      }
-    ],
-    "score": 91,
-    "summarySource": "template"
-  },
-  {
     "id": "ba716514710fd840",
     "name": "lcu",
     "url": "https://lcu.amontlabs.com",
@@ -4651,146 +4745,102 @@
     "summarySource": "template"
   },
   {
-    "id": "38b3593549cb6878",
-    "name": "Hycli",
-    "url": "https://github.com/Hybirdss/Hycli",
-    "repo": "Hybirdss/Hycli",
+    "id": "8dccf5b5e9894460",
+    "name": "kairos",
+    "url": "https://kairos.finic.ai",
+    "repo": "finic-ai/kairos",
     "kind": "github",
-    "description": "Websites, ready for AI. Turn website tasks into verified CLI and MCP actions, with a local dashboard and 20 languages.",
-    "summary": "Websites, ready for AI. Turn website tasks into verified CLI and MCP actions, with a local dashboard and 20 languages.",
-    "unique": "Topics: ai-agents, automation, cli, developer-tools, local-first",
-    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · 38 days old · 473 ⭐ on GitHub · +9 ⭐ this week.",
+    "description": "Real time event intelligence, fraud and risk decisioning for financial behavior.",
+    "summary": "Real time event intelligence, fraud and risk decisioning for financial behavior.",
+    "unique": "Topics: customer-behavior, fraud-detection, fraud-intelligence",
+    "benefit": "A new AI tool worth evaluating for your needs.",
+    "why": "Agent pick · 18 days old · 285 ⭐ on GitHub · +12 ⭐ this week.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
-    "createdAt": "2026-10-09T16:57:27Z",
-    "firstSeenAt": "2026-10-26T00:07:31.415Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 473,
+    "createdAt": "2026-10-30T22:37:21Z",
+    "firstSeenAt": "2026-11-04T04:15:48.184Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 285,
     "starHistory": [
       {
-        "at": "2026-10-26T20:35:11.061Z",
-        "stars": 428
-      },
-      {
-        "at": "2026-10-27T22:22:25.706Z",
-        "stars": 429
-      },
-      {
-        "at": "2026-10-28T20:21:14.926Z",
-        "stars": 433
-      },
-      {
-        "at": "2026-10-29T18:32:11.922Z",
-        "stars": 438
-      },
-      {
-        "at": "2026-10-30T22:27:19.130Z",
-        "stars": 443
-      },
-      {
-        "at": "2026-10-31T19:22:48.985Z",
-        "stars": 444
-      },
-      {
-        "at": "2026-11-01T22:10:15.829Z",
-        "stars": 444
-      },
-      {
-        "at": "2026-11-02T19:34:59.949Z",
-        "stars": 445
-      },
-      {
-        "at": "2026-11-03T19:34:58.857Z",
-        "stars": 447
-      },
-      {
         "at": "2026-11-04T19:52:01.415Z",
-        "stars": 449
+        "stars": 201
       },
       {
         "at": "2026-11-05T20:04:26.298Z",
-        "stars": 451
+        "stars": 222
       },
       {
         "at": "2026-11-06T19:30:37.124Z",
-        "stars": 453
+        "stars": 239
       },
       {
         "at": "2026-11-07T21:57:57.700Z",
-        "stars": 453
+        "stars": 253
       },
       {
         "at": "2026-11-08T19:45:16.813Z",
-        "stars": 456
+        "stars": 264
       },
       {
         "at": "2026-11-09T22:30:13.875Z",
-        "stars": 464
+        "stars": 271
       },
       {
         "at": "2026-11-10T23:29:30.795Z",
-        "stars": 468
+        "stars": 273
       },
       {
         "at": "2026-11-11T17:15:19.267Z",
-        "stars": 469
+        "stars": 276
       },
       {
         "at": "2026-11-12T20:04:25.319Z",
-        "stars": 470
+        "stars": 277
       },
       {
         "at": "2026-11-13T19:50:14.566Z",
-        "stars": 470
+        "stars": 279
       },
       {
         "at": "2026-11-14T22:34:31.646Z",
-        "stars": 471
+        "stars": 281
       },
       {
         "at": "2026-11-15T22:56:21.102Z",
-        "stars": 472
+        "stars": 283
       },
       {
         "at": "2026-11-16T19:41:52.882Z",
-        "stars": 472
+        "stars": 283
       },
       {
         "at": "2026-11-17T16:12:10.860Z",
-        "stars": 473
+        "stars": 284
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 285
       }
     ],
-    "starsDelta7d": 9,
-    "language": "Rust",
+    "starsDelta7d": 12,
+    "language": "TypeScript",
     "license": "Apache-2.0",
     "topics": [
-      "ai-agents",
-      "automation",
-      "cli",
-      "developer-tools",
-      "local-first",
-      "mcp",
-      "rust",
-      "websites"
+      "customer-behavior",
+      "fraud-detection",
+      "fraud-intelligence"
     ],
     "signals": [
       {
-        "source": "github",
-        "label": "429 stars",
-        "url": "https://github.com/Hybirdss/Hycli",
-        "value": 429,
-        "at": "2026-10-27T09:08:09.408Z"
-      },
-      {
         "source": "tip",
         "label": "Agent pick (daily research)",
-        "url": "https://github.com/Hybirdss/Hycli",
+        "url": "https://x.com/ayanicband/status/2117322721168437292",
         "value": 1,
-        "at": "2026-10-26T00:07:28.152Z"
+        "at": "2026-11-04T04:12:28.299Z"
       }
     ],
-    "score": 91,
+    "score": 90,
     "summarySource": "template"
   },
   {
@@ -4803,7 +4853,7 @@
     "summary": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
     "unique": "Topics: android-tv, claude-code, google-tv, home-screen, launcher",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "28 days old · 6.5k ⭐ on GitHub · +272 ⭐ this week.",
+    "why": "29 days old · 6.5k ⭐ on GitHub · +272 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-19T19:29:01Z",
@@ -5043,105 +5093,6 @@
       }
     ],
     "score": 90,
-    "summarySource": "template"
-  },
-  {
-    "id": "0a4fc8e5bcb929d4",
-    "name": "Stroq",
-    "url": "https://stroq.dev",
-    "repo": "AGGIB/Stroq",
-    "kind": "github",
-    "description": "Find known secrets in your AI coding agent sessions (Claude Code, Codex, Cursor), then guard the next one with local hooks that trace risky commands to the content that dictated them. Open source, no telemetry.",
-    "summary": "Find known secrets in your AI coding agent sessions (Claude Code, Codex, Cursor), then guard the next one with local hooks that trace risky commands to the content that dictated them. Open source, no telemetry.",
-    "unique": "Topics: agent-security, ai-agents, ai-security, claude-code, codex",
-    "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "Agent pick · Older project (since 2026) gaining momentum · 253 ⭐ on GitHub · +21 ⭐ this week · 76 points on Hacker News.",
-    "pricing": "Open source (Apache-2.0) — free to self-host",
-    "novelty": "trending",
-    "createdAt": "2026-09-04T06:35:26Z",
-    "firstSeenAt": "2026-11-06T04:12:35.846Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 253,
-    "starHistory": [
-      {
-        "at": "2026-11-06T19:30:37.124Z",
-        "stars": 172
-      },
-      {
-        "at": "2026-11-07T21:57:57.700Z",
-        "stars": 203
-      },
-      {
-        "at": "2026-11-08T19:45:16.813Z",
-        "stars": 215
-      },
-      {
-        "at": "2026-11-09T22:30:13.875Z",
-        "stars": 232
-      },
-      {
-        "at": "2026-11-10T23:29:30.795Z",
-        "stars": 242
-      },
-      {
-        "at": "2026-11-11T17:15:19.267Z",
-        "stars": 243
-      },
-      {
-        "at": "2026-11-12T20:04:25.319Z",
-        "stars": 247
-      },
-      {
-        "at": "2026-11-13T19:50:14.566Z",
-        "stars": 249
-      },
-      {
-        "at": "2026-11-14T22:34:31.646Z",
-        "stars": 251
-      },
-      {
-        "at": "2026-11-15T22:56:21.102Z",
-        "stars": 251
-      },
-      {
-        "at": "2026-11-16T19:41:52.882Z",
-        "stars": 252
-      },
-      {
-        "at": "2026-11-17T16:12:10.860Z",
-        "stars": 253
-      }
-    ],
-    "starsDelta7d": 21,
-    "language": "TypeScript",
-    "license": "Apache-2.0",
-    "topics": [
-      "agent-security",
-      "ai-agents",
-      "ai-security",
-      "claude-code",
-      "codex",
-      "coding-agents",
-      "cursor",
-      "developer-tools"
-    ],
-    "signals": [
-      {
-        "source": "tip",
-        "label": "Agent pick (daily research)",
-        "url": "https://github.com/AGGIB/Stroq",
-        "value": 1,
-        "at": "2026-11-06T04:12:27.844Z"
-      },
-      {
-        "source": "hackernews",
-        "label": "76 HN points · 23 comments",
-        "url": "https://news.ycombinator.com/item?id=50380704",
-        "value": 76,
-        "at": "2026-11-05T15:54:41Z"
-      }
-    ],
-    "score": 89,
     "summarySource": "template"
   },
   {
@@ -5416,6 +5367,153 @@
     "summarySource": "template"
   },
   {
+    "id": "38b3593549cb6878",
+    "name": "Hycli",
+    "url": "https://github.com/Hybirdss/Hycli",
+    "repo": "Hybirdss/Hycli",
+    "kind": "github",
+    "description": "Websites, ready for AI. Turn website tasks into verified CLI and MCP actions, with a local dashboard and 20 languages.",
+    "summary": "Websites, ready for AI. Turn website tasks into verified CLI and MCP actions, with a local dashboard and 20 languages.",
+    "unique": "Topics: ai-agents, automation, cli, developer-tools, local-first",
+    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
+    "why": "Agent pick · 39 days old · 473 ⭐ on GitHub · +5 ⭐ this week.",
+    "pricing": "Open source (Apache-2.0) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-09T16:57:27Z",
+    "firstSeenAt": "2026-10-26T00:07:31.415Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 473,
+    "starHistory": [
+      {
+        "at": "2026-10-26T20:35:11.061Z",
+        "stars": 428
+      },
+      {
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 429
+      },
+      {
+        "at": "2026-10-28T20:21:14.926Z",
+        "stars": 433
+      },
+      {
+        "at": "2026-10-29T18:32:11.922Z",
+        "stars": 438
+      },
+      {
+        "at": "2026-10-30T22:27:19.130Z",
+        "stars": 443
+      },
+      {
+        "at": "2026-10-31T19:22:48.985Z",
+        "stars": 444
+      },
+      {
+        "at": "2026-11-01T22:10:15.829Z",
+        "stars": 444
+      },
+      {
+        "at": "2026-11-02T19:34:59.949Z",
+        "stars": 445
+      },
+      {
+        "at": "2026-11-03T19:34:58.857Z",
+        "stars": 447
+      },
+      {
+        "at": "2026-11-04T19:52:01.415Z",
+        "stars": 449
+      },
+      {
+        "at": "2026-11-05T20:04:26.298Z",
+        "stars": 451
+      },
+      {
+        "at": "2026-11-06T19:30:37.124Z",
+        "stars": 453
+      },
+      {
+        "at": "2026-11-07T21:57:57.700Z",
+        "stars": 453
+      },
+      {
+        "at": "2026-11-08T19:45:16.813Z",
+        "stars": 456
+      },
+      {
+        "at": "2026-11-09T22:30:13.875Z",
+        "stars": 464
+      },
+      {
+        "at": "2026-11-10T23:29:30.795Z",
+        "stars": 468
+      },
+      {
+        "at": "2026-11-11T17:15:19.267Z",
+        "stars": 469
+      },
+      {
+        "at": "2026-11-12T20:04:25.319Z",
+        "stars": 470
+      },
+      {
+        "at": "2026-11-13T19:50:14.566Z",
+        "stars": 470
+      },
+      {
+        "at": "2026-11-14T22:34:31.646Z",
+        "stars": 471
+      },
+      {
+        "at": "2026-11-15T22:56:21.102Z",
+        "stars": 472
+      },
+      {
+        "at": "2026-11-16T19:41:52.882Z",
+        "stars": 472
+      },
+      {
+        "at": "2026-11-17T16:12:10.860Z",
+        "stars": 473
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 473
+      }
+    ],
+    "starsDelta7d": 5,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "cli",
+      "developer-tools",
+      "local-first",
+      "mcp",
+      "rust",
+      "websites"
+    ],
+    "signals": [
+      {
+        "source": "github",
+        "label": "429 stars",
+        "url": "https://github.com/Hybirdss/Hycli",
+        "value": 429,
+        "at": "2026-10-27T09:08:09.408Z"
+      },
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://github.com/Hybirdss/Hycli",
+        "value": 1,
+        "at": "2026-10-26T00:07:28.152Z"
+      }
+    ],
+    "score": 88,
+    "summarySource": "template"
+  },
+  {
     "id": "9c51865a4ed52697",
     "name": "omnirush-gui",
     "url": "https://omnirush.ai",
@@ -5508,7 +5606,7 @@
     "summary": "Project Maya - run GLM-5.3-Flash (321B MoE), DeepSeek-V4.1-Flash-1017 (748B MoE) and MiniMax-M3.1-Flash (428B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.",
     "unique": "Topics: cuda, deepseek, deepseek-v4, glm, glm-5",
     "benefit": "Alternative inference/API infrastructure that may cut costs.",
-    "why": "41 days old · 2.5k ⭐ on GitHub · +432 ⭐ this week.",
+    "why": "42 days old · 2.5k ⭐ on GitHub · +432 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-06T22:55:13Z",
@@ -5631,153 +5729,6 @@
     "summarySource": "template"
   },
   {
-    "id": "48bb6eb3c24be9c2",
-    "name": "argus",
-    "url": "https://thomasunise.com/argus",
-    "repo": "thomasunise/argus",
-    "kind": "github",
-    "description": "Open-source agentic security operations platform:",
-    "summary": "Open-source agentic security operations platform:",
-    "unique": "Topics: agentic-security, ai-hacking, ai-penetration-testing, ai-pentesting, ai-security",
-    "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · 23 days old · 152 ⭐ on GitHub · +10 ⭐ this week · 17 points on Hacker News.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-10-24T16:12:28Z",
-    "firstSeenAt": "2026-10-25T00:07:15.670Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 152,
-    "starHistory": [
-      {
-        "at": "2026-10-25T23:20:11.465Z",
-        "stars": 85
-      },
-      {
-        "at": "2026-10-26T20:35:11.061Z",
-        "stars": 95
-      },
-      {
-        "at": "2026-10-27T22:22:25.706Z",
-        "stars": 106
-      },
-      {
-        "at": "2026-10-28T20:21:14.926Z",
-        "stars": 111
-      },
-      {
-        "at": "2026-10-29T18:32:11.922Z",
-        "stars": 114
-      },
-      {
-        "at": "2026-10-30T22:27:19.130Z",
-        "stars": 116
-      },
-      {
-        "at": "2026-10-31T19:22:48.985Z",
-        "stars": 118
-      },
-      {
-        "at": "2026-11-01T22:10:15.829Z",
-        "stars": 118
-      },
-      {
-        "at": "2026-11-02T19:34:59.949Z",
-        "stars": 121
-      },
-      {
-        "at": "2026-11-03T19:34:58.857Z",
-        "stars": 121
-      },
-      {
-        "at": "2026-11-04T19:52:01.415Z",
-        "stars": 121
-      },
-      {
-        "at": "2026-11-05T20:04:26.298Z",
-        "stars": 127
-      },
-      {
-        "at": "2026-11-06T19:30:37.124Z",
-        "stars": 135
-      },
-      {
-        "at": "2026-11-07T21:57:57.700Z",
-        "stars": 135
-      },
-      {
-        "at": "2026-11-08T19:45:16.813Z",
-        "stars": 137
-      },
-      {
-        "at": "2026-11-09T22:30:13.875Z",
-        "stars": 142
-      },
-      {
-        "at": "2026-11-10T23:29:30.795Z",
-        "stars": 145
-      },
-      {
-        "at": "2026-11-11T17:15:19.267Z",
-        "stars": 145
-      },
-      {
-        "at": "2026-11-12T20:04:25.319Z",
-        "stars": 149
-      },
-      {
-        "at": "2026-11-13T19:50:14.566Z",
-        "stars": 150
-      },
-      {
-        "at": "2026-11-14T22:34:31.646Z",
-        "stars": 151
-      },
-      {
-        "at": "2026-11-15T22:56:21.102Z",
-        "stars": 151
-      },
-      {
-        "at": "2026-11-16T19:41:52.882Z",
-        "stars": 151
-      },
-      {
-        "at": "2026-11-17T16:12:10.860Z",
-        "stars": 152
-      }
-    ],
-    "starsDelta7d": 10,
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-      "agentic-security",
-      "ai-hacking",
-      "ai-penetration-testing",
-      "ai-pentesting",
-      "ai-security",
-      "cyber-security",
-      "cyber-threat-intelligence",
-      "cybersecurity"
-    ],
-    "signals": [
-      {
-        "source": "tip",
-        "label": "Agent pick (daily research)",
-        "url": "https://github.com/thomasunise/argus",
-        "value": 1,
-        "at": "2026-10-25T00:07:09.627Z"
-      },
-      {
-        "source": "hackernews",
-        "label": "17 HN points · 4 comments",
-        "url": "https://news.ycombinator.com/item?id=50223201",
-        "value": 17,
-        "at": "2026-10-24T17:13:57Z"
-      }
-    ],
-    "score": 87,
-    "summarySource": "template"
-  },
-  {
     "id": "bf8405e75df60fec",
     "name": "farol",
     "url": "https://winnin.github.io/farol/",
@@ -5787,12 +5738,12 @@
     "summary": "Know the risk of merging a pull request, and where it lives. Free, open-source CLI and GitHub Action: after your AI review, farol shows the riskiest files, what they reach, diff coverage and contract breaks. TypeScript/React, Go, Python.",
     "unique": "Topics: ai-code-review, cli, code-review, developer-tools, diff-coverage",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "Agent pick · 26 days old · 187 ⭐ on GitHub · +11 ⭐ this week.",
+    "why": "Agent pick · 27 days old · 187 ⭐ on GitHub · +10 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-21T21:52:58Z",
     "firstSeenAt": "2026-10-27T00:07:27.875Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "stars": 187,
     "starHistory": [
       {
@@ -5882,9 +5833,13 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 187
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 187
       }
     ],
-    "starsDelta7d": 11,
+    "starsDelta7d": 10,
     "language": "TypeScript",
     "license": "MIT",
     "topics": [
@@ -6612,6 +6567,260 @@
     "summarySource": "template"
   },
   {
+    "id": "0a4fc8e5bcb929d4",
+    "name": "Stroq",
+    "url": "https://stroq.dev",
+    "repo": "AGGIB/Stroq",
+    "kind": "github",
+    "description": "Find known secrets in your AI coding agent sessions (Claude Code, Codex, Cursor), then guard the next one with local hooks that trace risky commands to the content that dictated them. Open source, no telemetry.",
+    "summary": "Find known secrets in your AI coding agent sessions (Claude Code, Codex, Cursor), then guard the next one with local hooks that trace risky commands to the content that dictated them. Open source, no telemetry.",
+    "unique": "Topics: agent-security, ai-agents, ai-security, claude-code, codex",
+    "benefit": "Could speed up coding workflows and developer automation.",
+    "why": "Agent pick · Older project (since 2026) gaining momentum · 253 ⭐ on GitHub · +11 ⭐ this week · 76 points on Hacker News.",
+    "pricing": "Open source (Apache-2.0) — free to self-host",
+    "novelty": "trending",
+    "createdAt": "2026-09-04T06:35:26Z",
+    "firstSeenAt": "2026-11-06T04:12:35.846Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 253,
+    "starHistory": [
+      {
+        "at": "2026-11-06T19:30:37.124Z",
+        "stars": 172
+      },
+      {
+        "at": "2026-11-07T21:57:57.700Z",
+        "stars": 203
+      },
+      {
+        "at": "2026-11-08T19:45:16.813Z",
+        "stars": 215
+      },
+      {
+        "at": "2026-11-09T22:30:13.875Z",
+        "stars": 232
+      },
+      {
+        "at": "2026-11-10T23:29:30.795Z",
+        "stars": 242
+      },
+      {
+        "at": "2026-11-11T17:15:19.267Z",
+        "stars": 243
+      },
+      {
+        "at": "2026-11-12T20:04:25.319Z",
+        "stars": 247
+      },
+      {
+        "at": "2026-11-13T19:50:14.566Z",
+        "stars": 249
+      },
+      {
+        "at": "2026-11-14T22:34:31.646Z",
+        "stars": 251
+      },
+      {
+        "at": "2026-11-15T22:56:21.102Z",
+        "stars": 251
+      },
+      {
+        "at": "2026-11-16T19:41:52.882Z",
+        "stars": 252
+      },
+      {
+        "at": "2026-11-17T16:12:10.860Z",
+        "stars": 253
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 253
+      }
+    ],
+    "starsDelta7d": 11,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "topics": [
+      "agent-security",
+      "ai-agents",
+      "ai-security",
+      "claude-code",
+      "codex",
+      "coding-agents",
+      "cursor",
+      "developer-tools"
+    ],
+    "signals": [
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://github.com/AGGIB/Stroq",
+        "value": 1,
+        "at": "2026-11-06T04:12:27.844Z"
+      },
+      {
+        "source": "hackernews",
+        "label": "76 HN points · 23 comments",
+        "url": "https://news.ycombinator.com/item?id=50380704",
+        "value": 76,
+        "at": "2026-11-05T15:54:41Z"
+      }
+    ],
+    "score": 85,
+    "summarySource": "template"
+  },
+  {
+    "id": "48bb6eb3c24be9c2",
+    "name": "argus",
+    "url": "https://thomasunise.com/argus",
+    "repo": "thomasunise/argus",
+    "kind": "github",
+    "description": "Open-source agentic security operations platform:",
+    "summary": "Open-source agentic security operations platform:",
+    "unique": "Topics: agentic-security, ai-hacking, ai-penetration-testing, ai-pentesting, ai-security",
+    "benefit": "Helps you build or run AI agents that automate tasks.",
+    "why": "Agent pick · 24 days old · 152 ⭐ on GitHub · +7 ⭐ this week · 17 points on Hacker News.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-24T16:12:28Z",
+    "firstSeenAt": "2026-10-25T00:07:15.670Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 152,
+    "starHistory": [
+      {
+        "at": "2026-10-25T23:20:11.465Z",
+        "stars": 85
+      },
+      {
+        "at": "2026-10-26T20:35:11.061Z",
+        "stars": 95
+      },
+      {
+        "at": "2026-10-27T22:22:25.706Z",
+        "stars": 106
+      },
+      {
+        "at": "2026-10-28T20:21:14.926Z",
+        "stars": 111
+      },
+      {
+        "at": "2026-10-29T18:32:11.922Z",
+        "stars": 114
+      },
+      {
+        "at": "2026-10-30T22:27:19.130Z",
+        "stars": 116
+      },
+      {
+        "at": "2026-10-31T19:22:48.985Z",
+        "stars": 118
+      },
+      {
+        "at": "2026-11-01T22:10:15.829Z",
+        "stars": 118
+      },
+      {
+        "at": "2026-11-02T19:34:59.949Z",
+        "stars": 121
+      },
+      {
+        "at": "2026-11-03T19:34:58.857Z",
+        "stars": 121
+      },
+      {
+        "at": "2026-11-04T19:52:01.415Z",
+        "stars": 121
+      },
+      {
+        "at": "2026-11-05T20:04:26.298Z",
+        "stars": 127
+      },
+      {
+        "at": "2026-11-06T19:30:37.124Z",
+        "stars": 135
+      },
+      {
+        "at": "2026-11-07T21:57:57.700Z",
+        "stars": 135
+      },
+      {
+        "at": "2026-11-08T19:45:16.813Z",
+        "stars": 137
+      },
+      {
+        "at": "2026-11-09T22:30:13.875Z",
+        "stars": 142
+      },
+      {
+        "at": "2026-11-10T23:29:30.795Z",
+        "stars": 145
+      },
+      {
+        "at": "2026-11-11T17:15:19.267Z",
+        "stars": 145
+      },
+      {
+        "at": "2026-11-12T20:04:25.319Z",
+        "stars": 149
+      },
+      {
+        "at": "2026-11-13T19:50:14.566Z",
+        "stars": 150
+      },
+      {
+        "at": "2026-11-14T22:34:31.646Z",
+        "stars": 151
+      },
+      {
+        "at": "2026-11-15T22:56:21.102Z",
+        "stars": 151
+      },
+      {
+        "at": "2026-11-16T19:41:52.882Z",
+        "stars": 151
+      },
+      {
+        "at": "2026-11-17T16:12:10.860Z",
+        "stars": 152
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 152
+      }
+    ],
+    "starsDelta7d": 7,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+      "agentic-security",
+      "ai-hacking",
+      "ai-penetration-testing",
+      "ai-pentesting",
+      "ai-security",
+      "cyber-security",
+      "cyber-threat-intelligence",
+      "cybersecurity"
+    ],
+    "signals": [
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://github.com/thomasunise/argus",
+        "value": 1,
+        "at": "2026-10-25T00:07:09.627Z"
+      },
+      {
+        "source": "hackernews",
+        "label": "17 HN points · 4 comments",
+        "url": "https://news.ycombinator.com/item?id=50223201",
+        "value": 17,
+        "at": "2026-10-24T17:13:57Z"
+      }
+    ],
+    "score": 85,
+    "summarySource": "template"
+  },
+  {
     "id": "acbfc8b6782f5594",
     "name": "herdr-gpui",
     "url": "https://herdrui.dev",
@@ -6694,95 +6903,6 @@
         "url": "https://github.com/penso/herdr-gpui",
         "value": 1521,
         "at": "2026-10-19T20:37:58.193Z"
-      }
-    ],
-    "score": 85,
-    "summarySource": "template"
-  },
-  {
-    "id": "1344584aedd971d4",
-    "name": "ste80-humanizer",
-    "url": "https://skills.sh/Dodaios/ste80-humanizer",
-    "repo": "Dodaios/ste80-humanizer",
-    "kind": "github",
-    "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-    "summary": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-    "unique": "Topics: agent-skills, ai-writing, asd-ste100, claude-code, claude-skills",
-    "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · 7 days old · 762 ⭐ on GitHub · 69 points on Hacker News.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-11-09T17:18:59Z",
-    "firstSeenAt": "2026-11-10T04:08:30.735Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 762,
-    "starHistory": [
-      {
-        "at": "2026-11-10T23:29:30.795Z",
-        "stars": 302
-      },
-      {
-        "at": "2026-11-11T17:15:19.267Z",
-        "stars": 380
-      },
-      {
-        "at": "2026-11-12T20:04:25.319Z",
-        "stars": 451
-      },
-      {
-        "at": "2026-11-13T19:50:14.566Z",
-        "stars": 486
-      },
-      {
-        "at": "2026-11-14T22:34:31.646Z",
-        "stars": 590
-      },
-      {
-        "at": "2026-11-15T22:56:21.102Z",
-        "stars": 691
-      },
-      {
-        "at": "2026-11-16T19:41:52.882Z",
-        "stars": 736
-      },
-      {
-        "at": "2026-11-17T16:12:10.860Z",
-        "stars": 762
-      }
-    ],
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-      "agent-skills",
-      "ai-writing",
-      "asd-ste100",
-      "claude-code",
-      "claude-skills",
-      "codex",
-      "cursor",
-      "humanize-ai-text"
-    ],
-    "signals": [
-      {
-        "source": "github",
-        "label": "762 stars",
-        "url": "https://github.com/Dodaios/ste80-humanizer",
-        "value": 762,
-        "at": "2026-11-17T16:12:10.860Z"
-      },
-      {
-        "source": "tip",
-        "label": "Agent pick (daily research)",
-        "url": "https://x.com/aiaicreate/status/2119952442741997582",
-        "value": 1,
-        "at": "2026-11-10T04:08:24.829Z"
-      },
-      {
-        "source": "hackernews",
-        "label": "69 HN points · 21 comments",
-        "url": "https://news.ycombinator.com/item?id=50429144",
-        "value": 69,
-        "at": "2026-11-09T18:05:44Z"
       }
     ],
     "score": 85,
@@ -6954,13 +7074,13 @@
     "summary": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
     "unique": "Topics: ai-meeting-assistant, ai-notetaker, electron, granola-alternative, linux",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · 6 days old · 2.0k ⭐ on GitHub.",
+    "why": "Agent pick · 7 days old · 2.0k ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-11-10T20:01:01Z",
     "firstSeenAt": "2026-11-13T04:14:53.247Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 1968,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 2020,
     "starHistory": [
       {
         "at": "2026-11-13T19:50:14.566Z",
@@ -6981,6 +7101,10 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 1968
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 2020
       }
     ],
     "language": "TypeScript",
@@ -6998,10 +7122,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "1,968 stars",
+        "label": "2,019 stars",
         "url": "https://github.com/FrigadeHQ/yogurt",
-        "value": 1968,
-        "at": "2026-11-17T16:12:10.860Z"
+        "value": 2019,
+        "at": "2026-11-18T01:00:57.903Z"
       },
       {
         "source": "tip",
@@ -7009,6 +7133,77 @@
         "url": "https://x.com/RRweb3/status/2120779529564397826",
         "value": 1,
         "at": "2026-11-13T04:14:36.078Z"
+      }
+    ],
+    "score": 85,
+    "summarySource": "template"
+  },
+  {
+    "id": "04035316b0de6880",
+    "name": "gemini_files",
+    "url": "https://github.com/thisisme6598/gemini_files",
+    "repo": "thisisme6598/gemini_files",
+    "kind": "github",
+    "description": "Documentation of Gemini File Leaking Behavior",
+    "summary": "Documentation of Gemini File Leaking Behavior",
+    "unique": "",
+    "benefit": "A new AI tool worth evaluating for your needs.",
+    "why": "8 days old · 36 ⭐ on GitHub · +5 ⭐ this week · 544 points on Hacker News.",
+    "pricing": "Public code, unclear license — check the repo before use",
+    "novelty": "new",
+    "createdAt": "2026-11-09T18:01:19Z",
+    "firstSeenAt": "2026-11-10T07:28:23.381Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 36,
+    "starHistory": [
+      {
+        "at": "2026-11-10T23:29:30.795Z",
+        "stars": 31
+      },
+      {
+        "at": "2026-11-11T17:15:19.267Z",
+        "stars": 35
+      },
+      {
+        "at": "2026-11-12T20:04:25.319Z",
+        "stars": 36
+      },
+      {
+        "at": "2026-11-13T19:50:14.566Z",
+        "stars": 36
+      },
+      {
+        "at": "2026-11-14T22:34:31.646Z",
+        "stars": 37
+      },
+      {
+        "at": "2026-11-15T22:56:21.102Z",
+        "stars": 36
+      },
+      {
+        "at": "2026-11-16T19:41:52.882Z",
+        "stars": 36
+      },
+      {
+        "at": "2026-11-17T16:12:10.860Z",
+        "stars": 36
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 36
+      }
+    ],
+    "starsDelta7d": 5,
+    "language": null,
+    "license": null,
+    "topics": [],
+    "signals": [
+      {
+        "source": "hackernews",
+        "label": "544 HN points · 124 comments",
+        "url": "https://news.ycombinator.com/item?id=50429426",
+        "value": 544,
+        "at": "2026-11-09T18:24:38Z"
       }
     ],
     "score": 85,
@@ -7024,7 +7219,7 @@
     "summary": "Harness Engineering 101 — building AI agents from first principles. The LLM is the brain; the harness is the body.",
     "unique": "Written in Python",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "71 days old · 609 ⭐ on GitHub · +148 ⭐ this week · 127 points on Hacker News.",
+    "why": "72 days old · 609 ⭐ on GitHub · +148 ⭐ this week · 127 points on Hacker News.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-09-06T22:22:17Z",
@@ -7115,12 +7310,16 @@
       "date": "2026-11-16T00:00:00.000Z"
     },
     "firstSeenAt": "2026-11-17T04:13:52.277Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 5010,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 5015,
     "starHistory": [
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 5010
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 5015
       }
     ],
     "language": "Rust",
@@ -7326,7 +7525,7 @@
     "summary": "Browser and phone client for herdr: chat and live terminal for every agent pane, remote PCs over SSH, web push alerts",
     "unique": "Topics: bun, claude-code, codex, coding-agents, herdr",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "60 days old · 1.1k ⭐ on GitHub · +403 ⭐ this week.",
+    "why": "61 days old · 1.1k ⭐ on GitHub · +403 ⭐ this week.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-17T18:52:07Z",
@@ -7402,7 +7601,7 @@
     "summary": "Tiny world model generates games and stream ac plays them all on Pico 2W",
     "unique": "Topics: rust, transformers",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "25 days old · 365 ⭐ on GitHub · +44 ⭐ this week · 213 points on Hacker News.",
+    "why": "26 days old · 365 ⭐ on GitHub · +44 ⭐ this week · 213 points on Hacker News.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-10-22T21:22:53Z",
@@ -7480,7 +7679,7 @@
     "summary": "A drawing app built for agent/human collaboration",
     "unique": "Written in Rust",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · 13 days old · Buzzing on X (@betterhn50) · 301 ⭐ on GitHub · 83 points on Hacker News.",
+    "why": "Agent pick · 13 days old · Buzzing on X (@betterhn50) · 303 ⭐ on GitHub · 83 points on Hacker News.",
     "pricing": "Public code, unclear license — check the repo before use",
     "novelty": "new",
     "createdAt": "2026-11-04T15:19:25Z",
@@ -7492,8 +7691,8 @@
       "date": "2026-11-11T00:00:00.000Z"
     },
     "firstSeenAt": "2026-11-13T11:11:46.197Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 301,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 303,
     "starHistory": [
       {
         "at": "2026-11-13T19:50:14.566Z",
@@ -7514,6 +7713,10 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 301
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 303
       }
     ],
     "language": "Rust",
@@ -7826,7 +8029,7 @@
     "summary": "llama.cpp on a jailbroken PS5: run any GGUF model natively on the console, starting with Qwen 3.8",
     "unique": "Topics: homebrew, llama-cpp, llm, playstation-5, ps5",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "46 days old · 745 ⭐ on GitHub · +77 ⭐ this week · 108 points on Hacker News.",
+    "why": "47 days old · 745 ⭐ on GitHub · +77 ⭐ this week · 108 points on Hacker News.",
     "pricing": "Open source (GPL-3.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-01T21:09:59Z",
@@ -8864,72 +9067,6 @@
     "summarySource": "template"
   },
   {
-    "id": "04035316b0de6880",
-    "name": "gemini_files",
-    "url": "https://github.com/thisisme6598/gemini_files",
-    "repo": "thisisme6598/gemini_files",
-    "kind": "github",
-    "description": "Documentation of Gemini File Leaking Behavior",
-    "summary": "Documentation of Gemini File Leaking Behavior",
-    "unique": "",
-    "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "7 days old · 36 ⭐ on GitHub · 544 points on Hacker News.",
-    "pricing": "Public code, unclear license — check the repo before use",
-    "novelty": "new",
-    "createdAt": "2026-11-09T18:01:19Z",
-    "firstSeenAt": "2026-11-10T07:28:23.381Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 36,
-    "starHistory": [
-      {
-        "at": "2026-11-10T23:29:30.795Z",
-        "stars": 31
-      },
-      {
-        "at": "2026-11-11T17:15:19.267Z",
-        "stars": 35
-      },
-      {
-        "at": "2026-11-12T20:04:25.319Z",
-        "stars": 36
-      },
-      {
-        "at": "2026-11-13T19:50:14.566Z",
-        "stars": 36
-      },
-      {
-        "at": "2026-11-14T22:34:31.646Z",
-        "stars": 37
-      },
-      {
-        "at": "2026-11-15T22:56:21.102Z",
-        "stars": 36
-      },
-      {
-        "at": "2026-11-16T19:41:52.882Z",
-        "stars": 36
-      },
-      {
-        "at": "2026-11-17T16:12:10.860Z",
-        "stars": 36
-      }
-    ],
-    "language": null,
-    "license": null,
-    "topics": [],
-    "signals": [
-      {
-        "source": "hackernews",
-        "label": "544 HN points · 124 comments",
-        "url": "https://news.ycombinator.com/item?id=50429426",
-        "value": 544,
-        "at": "2026-11-09T18:24:38Z"
-      }
-    ],
-    "score": 74,
-    "summarySource": "template"
-  },
-  {
     "id": "ecd9624a5a29da8e",
     "name": "atticus-mac",
     "url": "https://saarthurr.github.io/atticus-mac/",
@@ -9073,92 +9210,6 @@
       }
     ],
     "score": 73,
-    "summarySource": "template"
-  },
-  {
-    "id": "2fe2bbf448e6e406",
-    "name": "mantis",
-    "url": "https://perzian.dev/mantis/",
-    "repo": "perzianhq/mantis",
-    "kind": "github",
-    "description": "A lean browser interface for AI agents.",
-    "summary": "A lean browser interface for AI agents.",
-    "unique": "Topics: ai-agents, browser-automation, llm-tools, mcp, mcp-server",
-    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · 33 days old · Buzzing on X (@shawnAIOperator) · 18 ⭐ on GitHub · +6 ⭐ this week.",
-    "pricing": "Open source (MIT) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-10-14T16:27:49Z",
-    "quote": {
-      "text": "Stop burning tokens on browser dumps Mantis shows coding agents a short numbered page instead of Playwright trees. Their long-task bench: ~30–47% fewer input tokens and about a third less time. One MCP install. Still watching your agent crawl the DOM?",
-      "author": "Shawn@AI",
-      "handle": "shawnAIOperator",
-      "url": "https://x.com/shawnAIOperator/status/2118862368671158637",
-      "date": "2026-11-07T00:00:00.000Z"
-    },
-    "firstSeenAt": "2026-11-09T04:07:15.290Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 18,
-    "starHistory": [
-      {
-        "at": "2026-11-09T22:30:13.875Z",
-        "stars": 12
-      },
-      {
-        "at": "2026-11-10T23:29:30.795Z",
-        "stars": 14
-      },
-      {
-        "at": "2026-11-11T17:15:19.267Z",
-        "stars": 16
-      },
-      {
-        "at": "2026-11-12T20:04:25.319Z",
-        "stars": 18
-      },
-      {
-        "at": "2026-11-13T19:50:14.566Z",
-        "stars": 18
-      },
-      {
-        "at": "2026-11-14T22:34:31.646Z",
-        "stars": 18
-      },
-      {
-        "at": "2026-11-15T22:56:21.102Z",
-        "stars": 18
-      },
-      {
-        "at": "2026-11-16T19:41:52.882Z",
-        "stars": 18
-      },
-      {
-        "at": "2026-11-17T16:12:10.860Z",
-        "stars": 18
-      }
-    ],
-    "starsDelta7d": 6,
-    "language": "TypeScript",
-    "license": "MIT",
-    "topics": [
-      "ai-agents",
-      "browser-automation",
-      "llm-tools",
-      "mcp",
-      "mcp-server",
-      "playwright",
-      "web-scraping"
-    ],
-    "signals": [
-      {
-        "source": "tip",
-        "label": "Agent pick (daily research)",
-        "url": "https://x.com/shawnAIOperator/status/2118862368671158637",
-        "value": 1,
-        "at": "2026-11-09T04:06:14.444Z"
-      }
-    ],
-    "score": 72,
     "summarySource": "template"
   },
   {
@@ -9370,69 +9421,93 @@
     "summarySource": "template"
   },
   {
-    "id": "ae52002a818ca003",
-    "name": "modern-web-guidance",
-    "url": "https://goo.gle/modern-web-guidance",
-    "repo": "GoogleChrome/modern-web-guidance",
+    "id": "2fe2bbf448e6e406",
+    "name": "mantis",
+    "url": "https://perzian.dev/mantis/",
+    "repo": "perzianhq/mantis",
     "kind": "github",
-    "description": "Keep your coding agent up to date with the latest web best practices",
-    "summary": "Keep your coding agent up to date with the latest web best practices",
-    "unique": "",
-    "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "Older project (since 2026) gaining momentum · 22k ⭐ on GitHub · 222 points on Hacker News.",
-    "pricing": "Open source (Apache-2.0) — free to self-host",
-    "novelty": "trending",
-    "createdAt": "2026-03-23T17:49:14Z",
-    "firstSeenAt": "2026-11-10T23:29:30.795Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 21787,
+    "description": "A lean browser interface for AI agents.",
+    "summary": "A lean browser interface for AI agents.",
+    "unique": "Topics: ai-agents, browser-automation, llm-tools, mcp, mcp-server",
+    "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
+    "why": "Agent pick · 34 days old · Buzzing on X (@shawnAIOperator) · 18 ⭐ on GitHub · +4 ⭐ this week.",
+    "pricing": "Open source (MIT) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-14T16:27:49Z",
+    "quote": {
+      "text": "Stop burning tokens on browser dumps Mantis shows coding agents a short numbered page instead of Playwright trees. Their long-task bench: ~30–47% fewer input tokens and about a third less time. One MCP install. Still watching your agent crawl the DOM?",
+      "author": "Shawn@AI",
+      "handle": "shawnAIOperator",
+      "url": "https://x.com/shawnAIOperator/status/2118862368671158637",
+      "date": "2026-11-07T00:00:00.000Z"
+    },
+    "firstSeenAt": "2026-11-09T04:07:15.290Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 18,
     "starHistory": [
       {
+        "at": "2026-11-09T22:30:13.875Z",
+        "stars": 12
+      },
+      {
         "at": "2026-11-10T23:29:30.795Z",
-        "stars": 3129
+        "stars": 14
       },
       {
         "at": "2026-11-11T17:15:19.267Z",
-        "stars": 4579
+        "stars": 16
       },
       {
         "at": "2026-11-12T20:04:25.319Z",
-        "stars": 6951
+        "stars": 18
       },
       {
         "at": "2026-11-13T19:50:14.566Z",
-        "stars": 10547
+        "stars": 18
       },
       {
         "at": "2026-11-14T22:34:31.646Z",
-        "stars": 14952
+        "stars": 18
       },
       {
         "at": "2026-11-15T22:56:21.102Z",
-        "stars": 17648
+        "stars": 18
       },
       {
         "at": "2026-11-16T19:41:52.882Z",
-        "stars": 19888
+        "stars": 18
       },
       {
         "at": "2026-11-17T16:12:10.860Z",
-        "stars": 21787
+        "stars": 18
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 18
       }
     ],
-    "language": null,
-    "license": "Apache-2.0",
-    "topics": [],
+    "starsDelta7d": 4,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "ai-agents",
+      "browser-automation",
+      "llm-tools",
+      "mcp",
+      "mcp-server",
+      "playwright",
+      "web-scraping"
+    ],
     "signals": [
       {
-        "source": "hackernews",
-        "label": "222 HN points · 61 comments",
-        "url": "https://news.ycombinator.com/item?id=50443812",
-        "value": 222,
-        "at": "2026-11-10T18:01:15Z"
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://x.com/shawnAIOperator/status/2118862368671158637",
+        "value": 1,
+        "at": "2026-11-09T04:06:14.444Z"
       }
     ],
-    "score": 71,
+    "score": 70,
     "summarySource": "template"
   },
   {
@@ -9545,13 +9620,13 @@
     "summary": "maxxing the ability to run different LLMs on the smallest devices possible",
     "unique": "Topics: edge-ai, llama-cpp, llama-cpp-alternative, llm, local-llm",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "13 days old · 939 ⭐ on GitHub · 279 points on Hacker News.",
+    "why": "13 days old · 969 ⭐ on GitHub · 279 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-11-04T07:09:41Z",
     "firstSeenAt": "2026-11-13T01:55:24.398Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 939,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 969,
     "starHistory": [
       {
         "at": "2026-11-13T19:50:14.566Z",
@@ -9572,6 +9647,10 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 939
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 969
       }
     ],
     "language": "C",
@@ -9589,10 +9668,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "939 stars",
+        "label": "969 stars",
         "url": "https://github.com/hyperionaidev/smolmaxxing",
-        "value": 939,
-        "at": "2026-11-17T16:12:10.860Z"
+        "value": 969,
+        "at": "2026-11-18T01:00:57.903Z"
       },
       {
         "source": "hackernews",
@@ -9603,6 +9682,57 @@
       }
     ],
     "score": 69,
+    "summarySource": "template"
+  },
+  {
+    "id": "2daf1250f2566ffa",
+    "name": "goethe",
+    "url": "https://goethe.sh",
+    "repo": "meshapplied/goethe",
+    "kind": "github",
+    "description": "Serve your models fast on your own infra in 3 steps.",
+    "summary": "Serve your models fast on your own infra in 3 steps.",
+    "unique": "Topics: gpu, inference, llm, nvfp4, nvidia",
+    "benefit": "Alternative inference/API infrastructure that may cut costs.",
+    "why": "Agent pick · 40 days old · 77 ⭐ on GitHub.",
+    "pricing": "Open source (Apache-2.0) — free to self-host",
+    "novelty": "new",
+    "createdAt": "2026-10-08T23:46:18Z",
+    "firstSeenAt": "2026-11-17T04:13:52.277Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 77,
+    "starHistory": [
+      {
+        "at": "2026-11-17T16:12:10.860Z",
+        "stars": 72
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 77
+      }
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "topics": [
+      "gpu",
+      "inference",
+      "llm",
+      "nvfp4",
+      "nvidia",
+      "openai-api",
+      "self-hosted",
+      "sglang"
+    ],
+    "signals": [
+      {
+        "source": "tip",
+        "label": "Agent pick (daily research)",
+        "url": "https://github.com/meshapplied/goethe",
+        "value": 1,
+        "at": "2026-11-17T04:13:46.654Z"
+      }
+    ],
+    "score": 68,
     "summarySource": "template"
   },
   {
@@ -9802,53 +9932,6 @@
     "summarySource": "template"
   },
   {
-    "id": "2daf1250f2566ffa",
-    "name": "goethe",
-    "url": "https://goethe.sh",
-    "repo": "meshapplied/goethe",
-    "kind": "github",
-    "description": "Serve your models fast on your own infra in 3 steps.",
-    "summary": "Serve your models fast on your own infra in 3 steps.",
-    "unique": "Topics: gpu, inference, llm, nvfp4, nvidia",
-    "benefit": "Alternative inference/API infrastructure that may cut costs.",
-    "why": "Agent pick · 39 days old · 72 ⭐ on GitHub.",
-    "pricing": "Open source (Apache-2.0) — free to self-host",
-    "novelty": "new",
-    "createdAt": "2026-10-08T23:46:18Z",
-    "firstSeenAt": "2026-11-17T04:13:52.277Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 72,
-    "starHistory": [
-      {
-        "at": "2026-11-17T16:12:10.860Z",
-        "stars": 72
-      }
-    ],
-    "language": "Rust",
-    "license": "Apache-2.0",
-    "topics": [
-      "gpu",
-      "inference",
-      "llm",
-      "nvfp4",
-      "nvidia",
-      "openai-api",
-      "self-hosted",
-      "sglang"
-    ],
-    "signals": [
-      {
-        "source": "tip",
-        "label": "Agent pick (daily research)",
-        "url": "https://github.com/meshapplied/goethe",
-        "value": 1,
-        "at": "2026-11-17T04:13:46.654Z"
-      }
-    ],
-    "score": 67,
-    "summarySource": "template"
-  },
-  {
     "id": "84a2d3c5e5542f62",
     "name": "ui",
     "url": "https://ui-sdk.dev",
@@ -9858,17 +9941,21 @@
     "summary": "A library of behaviors for agents to build the next generation of user interfaces.",
     "unique": "Topics: accessibility, agent, agents, ai, aria",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "21 days old · Featured in Ben's Bites · 5.5k ⭐ on GitHub.",
+    "why": "22 days old · Featured in Ben's Bites · 5.6k ⭐ on GitHub.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-26T17:39:27Z",
     "firstSeenAt": "2026-11-17T16:12:10.860Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 5476,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 5562,
     "starHistory": [
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 5476
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 5562
       }
     ],
     "language": "TypeScript",
@@ -9886,10 +9973,10 @@
     "signals": [
       {
         "source": "github",
-        "label": "5,476 stars",
+        "label": "5,562 stars",
         "url": "https://github.com/vercel-labs/ui",
-        "value": 5476,
-        "at": "2026-11-17T16:12:10.860Z"
+        "value": 5562,
+        "at": "2026-11-18T01:00:57.903Z"
       },
       {
         "source": "newsletter",
@@ -9912,12 +9999,12 @@
     "summary": "STROT (arXiv:2505.01636): compile-time LLM code synthesis with deterministic, self-routing NLU runtimes. PyPI: strot-ai",
     "unique": "Written in Python",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · 36 days old · 57 ⭐ on GitHub.",
+    "why": "Agent pick · 37 days old · 57 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-11T23:23:21Z",
     "firstSeenAt": "2026-10-28T00:08:08.071Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "stars": 57,
     "starHistory": [
       {
@@ -10003,6 +10090,10 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 57
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 57
       }
     ],
     "starsDelta7d": 0,
@@ -10036,7 +10127,7 @@
     "createdAt": "2026-10-18T04:33:49Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-28T00:08:08.071Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10069,7 +10160,7 @@
     "summary": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Use it free at whatsapp.finereli.com, or run your own copy on Cloudflare.",
     "unique": "Written in TypeScript",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "29 days old · 417 ⭐ on GitHub · +9 ⭐ this week · 127 points on Hacker News.",
+    "why": "30 days old · 417 ⭐ on GitHub · +9 ⭐ this week · 127 points on Hacker News.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-10-18T21:01:54Z",
@@ -10167,7 +10258,7 @@
     "summary": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
     "unique": "Written in Python",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "57 days old · 915 ⭐ on GitHub · +25 ⭐ this week.",
+    "why": "58 days old · 915 ⭐ on GitHub · +25 ⭐ this week.",
     "pricing": "Open source (Apache-2.0) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-09-21T00:00:02Z",
@@ -10255,13 +10346,9 @@
     "novelty": "trending",
     "createdAt": "2026-03-23T21:20:50Z",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "stars": 66,
     "starHistory": [
-      {
-        "at": "2026-10-19T20:37:58.193Z",
-        "stars": 61
-      },
       {
         "at": "2026-10-20T23:57:39.440Z",
         "stars": 61
@@ -10377,6 +10464,10 @@
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 66
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 66
       }
     ],
     "starsDelta7d": 2,
@@ -10414,17 +10505,21 @@
     "summary": "Use psycholinguistics to deslop your agent's sloppy prose",
     "unique": "Written in HTML",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · Just launched · 33 ⭐ on GitHub.",
+    "why": "Agent pick · Just launched · 40 ⭐ on GitHub.",
     "pricing": "Open source (MIT) — free to self-host",
     "novelty": "new",
     "createdAt": "2026-11-16T12:25:28Z",
     "firstSeenAt": "2026-11-17T16:12:10.860Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
-    "stars": 33,
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
+    "stars": 40,
     "starHistory": [
       {
         "at": "2026-11-17T16:12:10.860Z",
         "stars": 33
+      },
+      {
+        "at": "2026-11-18T01:00:57.903Z",
+        "stars": 40
       }
     ],
     "language": "HTML",
@@ -10439,7 +10534,7 @@
         "at": "2026-11-17T04:13:43.314Z"
       }
     ],
-    "score": 63,
+    "score": 64,
     "summarySource": "template"
   },
   {
@@ -10489,13 +10584,13 @@
     "summary": "2B-Parameter P-JiT (Apache 2.0)",
     "unique": "",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "Agent pick · First spotted 12 days ago · 176 points on Hacker News.",
+    "why": "Agent pick · First spotted 13 days ago · 176 points on Hacker News.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-11-04T16:45:11Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-11-06T04:12:35.846Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10533,7 +10628,7 @@
     "createdAt": "2026-10-22T13:01:21.000Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-11-03T07:03:11.386Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10565,13 +10660,13 @@
     "summary": "Friendly helper for your agents.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 24 days ago · 125 points on Hacker News.",
+    "why": "Agent pick · First spotted 25 days ago · 125 points on Hacker News.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-23T19:46:38Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-25T00:07:15.670Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10603,13 +10698,13 @@
     "summary": "Agents that catch bugs by using your app",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 14 days ago · 113 points on Hacker News.",
+    "why": "Agent pick · First spotted 15 days ago · 113 points on Hacker News.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-11-02T17:05:25Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-11-03T00:08:12.672Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10647,7 +10742,7 @@
     "createdAt": "2026-10-16T14:35:43Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-18T00:08:33.076Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10685,7 +10780,7 @@
     "createdAt": "2026-10-30T06:55:33Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-31T00:09:16.931Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10717,13 +10812,13 @@
     "summary": "An open-source benchmark of how much code AI models add.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 34 days ago · 33 points on Hacker News.",
+    "why": "Agent pick · First spotted 35 days ago · 33 points on Hacker News.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T19:50:31Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10761,7 +10856,7 @@
     "createdAt": "2026-10-09T09:31:18.502Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T09:38:27.208Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10799,7 +10894,7 @@
     "createdAt": "2026-10-09T14:35:33.981Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10830,7 +10925,7 @@
     "createdAt": "2026-10-09T14:35:33.716Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10861,7 +10956,7 @@
     "createdAt": "2026-10-09T14:35:33.470Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10892,7 +10987,7 @@
     "createdAt": "2026-10-09T14:35:33.219Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10923,7 +11018,7 @@
     "createdAt": "2026-10-09T14:35:32.976Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-09T14:35:39.162Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10948,13 +11043,13 @@
     "summary": "Track visitors, events, funnels, and goals without cookies. Ask Databunny, the built-in AI analyst, about your numbers and see the query. Free up to 10,000 events.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 38 days ago.",
+    "why": "Agent pick · First spotted 39 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:19.894Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -10979,13 +11074,13 @@
     "summary": "A new universe of machines. Explore the Matter Compiler and a radically faster way to create.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 38 days ago.",
+    "why": "Agent pick · First spotted 39 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:19.596Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11010,13 +11105,13 @@
     "summary": "Create images, videos, and voice content with Higgsfield AI from text prompts or references. Edit and upscale media, automate creative workflows with its AI agent, and generate content on web and mobile.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 38 days ago.",
+    "why": "Agent pick · First spotted 39 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:19.322Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11041,13 +11136,13 @@
     "summary": "Connected Context. Living Memory. Self-Improving Intelligence. Built on the Reinvented AI-Native Messenger for Human+AI Teams.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 38 days ago.",
+    "why": "Agent pick · First spotted 39 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:19.049Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11072,13 +11167,13 @@
     "summary": "A cloud computer with AI built in. Hand it a job, and get the finished work back.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 38 days ago.",
+    "why": "Agent pick · First spotted 39 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-10T00:08:18.795Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-10T00:08:24.158Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11103,13 +11198,13 @@
     "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 37 days ago.",
+    "why": "Agent pick · First spotted 38 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T00:13:00.501Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11134,13 +11229,13 @@
     "summary": "Each agent has its own identity and works in the same apps and on the same data as the rest of your team. You can send it an email, message it in chat, assign it a task, or @mention it in a comment. Teams of up to five can use all 18 apps for free.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 37 days ago.",
+    "why": "Agent pick · First spotted 38 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T00:13:00.256Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11165,13 +11260,13 @@
     "summary": "Generate AI videos from your ideas using HeyGen. Input text, image, or audio to create complete videos with narration, captions, visuals, and animations.",
     "unique": "",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "Agent pick · First spotted 37 days ago.",
+    "why": "Agent pick · First spotted 38 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T00:13:00.008Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11196,13 +11291,13 @@
     "summary": "Datology automatically curates model training data. Train faster, achieve better performance, and reduce costs with enterprise-grade data curation.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 37 days ago.",
+    "why": "Agent pick · First spotted 38 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T00:12:59.766Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-11T00:13:04.846Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11227,13 +11322,13 @@
     "summary": "A loyal AI for your mail, calendar, and everyday work. Runs locally on your computer.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 36 days ago.",
+    "why": "Agent pick · First spotted 37 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-12T00:11:43.908Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11258,13 +11353,13 @@
     "summary": "Hermes Agent — a standalone terminal app and a native application for macOS, Windows, and Linux. Install it and start a conversation with the agent that grows with you.",
     "unique": "",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "Agent pick · First spotted 36 days ago.",
+    "why": "Agent pick · First spotted 37 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-12T00:11:43.648Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11289,13 +11384,13 @@
     "summary": "A curated, continuously scanned directory of real things people are doing with AI agents. Browse for ideas on what to build or delegate.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 36 days ago.",
+    "why": "Agent pick · First spotted 37 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-12T00:11:43.399Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-12T00:11:54.202Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11320,13 +11415,13 @@
     "summary": "Give every customer an agent in its own isolated sandbox, at up to 95% lower cost than most sandbox providers.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 35 days ago.",
+    "why": "Agent pick · First spotted 36 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T00:09:43.211Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11351,7 +11446,7 @@
     "summary": "Use your AI agent to prepare directory submissions with platform instructions, a reusable product brief and a local tracker. Pay once for your own products.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 36 days ago · Buzzing on X (@AleksDoesCode).",
+    "why": "Agent pick · First spotted 37 days ago · Buzzing on X (@AleksDoesCode).",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T17:00:00.000Z",
@@ -11364,7 +11459,7 @@
       "date": "2026-10-12T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11389,13 +11484,13 @@
     "summary": "Meet Ambi, ambient intelligence that understands context in real time, remembers what matters, and helps move work forward across your devices.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 35 days ago.",
+    "why": "Agent pick · First spotted 36 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T00:09:42.711Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11420,13 +11515,13 @@
     "summary": "Subquadratic is a frontier AI research and infrastructure company building a new class of LLMs.",
     "unique": "",
     "benefit": "Helps you build search/RAG on top of your own data.",
-    "why": "Agent pick · First spotted 35 days ago.",
+    "why": "Agent pick · First spotted 36 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T00:09:42.456Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11451,13 +11546,13 @@
     "summary": "Agentrail (agentrail.co) reconstructs real agent journeys across your website, docs, APIs, SDKs and MCPs. See your agent task completion rate and where agents break.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 35 days ago.",
+    "why": "Agent pick · First spotted 36 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-13T00:09:42.215Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-13T00:09:43.493Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11482,7 +11577,7 @@
     "summary": "Join the Ambi waitlist. We’ll let you know when your access is ready.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 36 days ago · Buzzing on X (@hello_ambi).",
+    "why": "Agent pick · First spotted 37 days ago · Buzzing on X (@hello_ambi).",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-11T17:00:00.000Z",
@@ -11520,13 +11615,13 @@
     "summary": "See which Claude, Codex or Cursor session needs you, answer it from anywhere, and jump to it with ⌥Tab. Free and open source.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 34 days ago.",
+    "why": "Agent pick · First spotted 35 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-14T00:10:07.943Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11551,13 +11646,13 @@
     "summary": "Embed problems.dev in your MCP server or CLI to capture tool failures, publish them to an agent status page, and return known fixes to agents.",
     "unique": "",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · First spotted 34 days ago.",
+    "why": "Agent pick · First spotted 35 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-14T00:10:07.591Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11582,13 +11677,13 @@
     "summary": "GPU sessions your coding agent starts, uses and stops from the terminal. Files persist between runs; GPUs are billed by the second only while they run.",
     "unique": "",
     "benefit": "Could speed up coding workflows and developer automation.",
-    "why": "Agent pick · First spotted 34 days ago.",
+    "why": "Agent pick · First spotted 35 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-14T00:10:07.237Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11613,13 +11708,13 @@
     "summary": "An open-source harness where people and agents work together.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 34 days ago.",
+    "why": "Agent pick · First spotted 35 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-14T00:10:06.541Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-14T00:10:16.152Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11644,13 +11739,13 @@
     "summary": "Runs AI-generated logic in a sandbox as JSON with functions.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 33 days ago.",
+    "why": "Agent pick · First spotted 34 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-15T00:09:27.012Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11675,13 +11770,13 @@
     "summary": "Free AI image detector. Check a photo for AI generation, AI edits and face swaps. Checkobot says AI or No AI detected, which detector fired, and why.",
     "unique": "",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "Agent pick · First spotted 33 days ago.",
+    "why": "Agent pick · First spotted 34 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-15T00:09:26.659Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11706,13 +11801,13 @@
     "summary": "Busymail connects to your Gmail, Yahoo, or another mail server it can reach, reads it with AI, and surfaces what needs you: the reply, the bill, the flight. $15 a month plus tax, with a 14-day refund on your first payment.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 33 days ago.",
+    "why": "Agent pick · First spotted 34 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-15T00:09:26.243Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11737,7 +11832,7 @@
     "summary": "Bring Claude Code and Codex to where your team already works. Merlin runs them on your team's own machines and puts every run in the open where anyone can steer it.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 53 days ago · Buzzing on X (@DottChen).",
+    "why": "Agent pick · First spotted 54 days ago · Buzzing on X (@DottChen).",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-09-24T17:00:00.000Z",
@@ -11750,7 +11845,7 @@
       "date": "2026-09-25T00:00:00.000Z"
     },
     "firstSeenAt": "2026-10-15T00:09:32.370Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11775,13 +11870,13 @@
     "summary": "Cedric is the AI employee that connects to all your tools, remembers everything about your company and workflow context, and does real work for the whole team.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 32 days ago.",
+    "why": "Agent pick · First spotted 33 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-16T00:11:32.952Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T00:11:40.350Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11806,13 +11901,13 @@
     "summary": "Eney by MacPaw is a proactive AI assistant for Mac and iPhone. Find files, draft replies, and get tasks done across your connected apps.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 32 days ago.",
+    "why": "Agent pick · First spotted 33 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-16T00:11:32.679Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T00:11:40.350Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11837,13 +11932,13 @@
     "summary": "AI Assistant for Home Services Sales Reps",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 32 days ago.",
+    "why": "Agent pick · First spotted 33 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-16T00:11:32.416Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T00:11:40.350Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11868,13 +11963,13 @@
     "summary": "GodHands learns the know-how nobody wrote down from the apps your team uses, shares it with people and AI agents, and builds agents that act on it. SOC 2 and HIPAA compliant; deploys on-prem.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 32 days ago.",
+    "why": "Agent pick · First spotted 33 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-16T00:11:32.139Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T00:11:40.350Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11899,13 +11994,13 @@
     "summary": "Krea 3 is a new image editing model built for production. It keeps your product intact and is priced for volume.",
     "unique": "",
     "benefit": "Multimodal (voice/image/video) capabilities you can integrate into products.",
-    "why": "Agent pick · First spotted 32 days ago.",
+    "why": "Agent pick · First spotted 33 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-16T00:11:31.873Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-16T13:36:11.791Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11930,13 +12025,13 @@
     "summary": "You or your agent can create a hosted API or MCP in minutes—just describe what you need. Our platform handles the end-to-end design and deployment.",
     "unique": "",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · First spotted 31 days ago.",
+    "why": "Agent pick · First spotted 32 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-17T00:07:56.723Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11961,13 +12056,13 @@
     "summary": "Startup funding rounds from across the web, pre-seed to growth, each checked against the pages that reported it. An open-source feed built on Firecrawl: a dashboard, Slack, feeds, an API, and an MCP server.",
     "unique": "",
     "benefit": "Adds new tools/context to AI assistants (Claude, Cursor, etc.) via MCP.",
-    "why": "Agent pick · First spotted 31 days ago.",
+    "why": "Agent pick · First spotted 32 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-17T00:07:56.379Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -11992,13 +12087,13 @@
     "summary": "Your agent fills checkout and sign-in forms with mock tokens. Real card numbers and passwords are substituted inside an enclave it can never see.",
     "unique": "",
     "benefit": "Helps you build or run AI agents that automate tasks.",
-    "why": "Agent pick · First spotted 31 days ago.",
+    "why": "Agent pick · First spotted 32 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-17T00:07:56.006Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -12023,13 +12118,13 @@
     "summary": "Dynamic Creatures spun out of Boston Dynamics to create mobile, interactive character robots. We bring brands to life for theme parks, hotels, resorts & attractions. Boston, MA.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 31 days ago.",
+    "why": "Agent pick · First spotted 32 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-17T00:07:55.608Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
@@ -12054,13 +12149,13 @@
     "summary": "Ask it to check records, prepare a report, or build a workflow. Proto works with your files, ERP•AI, and the web, with every step available to review.",
     "unique": "",
     "benefit": "A new AI tool worth evaluating for your needs.",
-    "why": "Agent pick · First spotted 31 days ago.",
+    "why": "Agent pick · First spotted 32 days ago.",
     "pricing": "Unverified — check the official pricing page",
     "novelty": "new",
     "createdAt": "2026-10-17T00:07:55.254Z",
     "dateKind": "spotted",
     "firstSeenAt": "2026-10-17T00:08:01.868Z",
-    "lastSeenAt": "2026-11-17T16:12:10.860Z",
+    "lastSeenAt": "2026-11-18T01:00:57.903Z",
     "language": null,
     "license": null,
     "topics": [],
