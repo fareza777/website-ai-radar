@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-19",
+    "generatedAt": "2026-11-18T20:40:41.755Z",
+    "stats": {
+      "updates24h": 24,
+      "labsActive24h": 9,
+      "updates7d": 182,
+      "newModels7d": 44
+    },
+    "source": "template",
+    "headline": "24 updates from 9 AI labs in the last 24 hours · 44 model releases this week.",
+    "bullets": [
+      {
+        "text": "Google DeepMind: Genie 4 is now available",
+        "itemId": "50e3ea47cbae988d",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Google DeepMind: The Gemini app is now available on lower-memory Android devices.",
+        "itemId": "8e6075d168e06821",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "OpenAI: Advancing chip design with OpenAI models",
+        "itemId": "c7d3ecb006439a13",
+        "lab": "openai"
+      },
+      {
+        "text": "Amazon: Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection",
+        "itemId": "037978009f803b44",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: How Stretto built an AI voice agent with Amazon Nova 2 Sonic",
+        "itemId": "881783ef802b37af",
+        "lab": "amazon"
+      },
+      {
+        "text": "Microsoft: Aion-1.0-Instruct-2.3B",
+        "itemId": "9556d208d7730f5a",
+        "lab": "microsoft"
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "generatedAt": "2026-11-18T11:54:06.317Z",
     "stats": {
@@ -1172,50 +1216,6 @@
         "text": "Google DeepMind: Southeast Asia’s digital economy to hit $368 billion",
         "itemId": "6bc0a4e087e6311f",
         "lab": "google-deepmind"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-20",
-    "generatedAt": "2026-10-20T14:21:40.747Z",
-    "stats": {
-      "updates24h": 14,
-      "labsActive24h": 7,
-      "updates7d": 124,
-      "newModels7d": 42
-    },
-    "source": "template",
-    "headline": "14 updates from 7 AI labs in the last 24 hours · 42 model releases this week.",
-    "bullets": [
-      {
-        "text": "Amazon: Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
-        "itemId": "98948186cc0e34f7",
-        "lab": "amazon"
-      },
-      {
-        "text": "Meta AI: GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
-        "itemId": "d5f5b896866a7ed7",
-        "lab": "meta"
-      },
-      {
-        "text": "IBM: llm-d 1.0 hardens open-source AI inference for production",
-        "itemId": "8a14a92d09a13dfe",
-        "lab": "ibm"
-      },
-      {
-        "text": "Cohere: Rethinking Confidence in Reasoning Models",
-        "itemId": "4b3ccd0a9d656ec9",
-        "lab": "cohere"
-      },
-      {
-        "text": "Amazon: Structured outputs for Anthropic Claude models on Amazon Bedrock",
-        "itemId": "ea83f0dd69c5142c",
-        "lab": "amazon"
-      },
-      {
-        "text": "NVIDIA: Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
-        "itemId": "5d44067f2d19c9de",
-        "lab": "nvidia"
       }
     ]
   }

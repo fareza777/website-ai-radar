@@ -1,5 +1,52 @@
 [
   {
+    "id": "a18e97945e0f0f1e",
+    "lab": "nvidia",
+    "title": "Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos",
+    "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T17:00:00.000Z",
+    "firstSeenAt": "2026-11-18T20:40:41.755Z",
+    "updatedAt": "2026-11-18T17:00:00.000Z",
+    "excerpt": "World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is... World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is costly and time-consuming. Turning raw data into training-ready datasets adds complexity…",
+    "summary": "World model accuracy starts with high-quality, diverse training datasets.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "70c91e15c68f"
+  },
+  {
+    "id": "1c3eaf246b725d75",
+    "lab": "nvidia",
+    "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+    "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T14:00:31.000Z",
+    "firstSeenAt": "2026-11-18T20:40:41.755Z",
+    "updatedAt": "2026-11-18T14:00:31.000Z",
+    "excerpt": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development tools. A dedicated desktop can keep agents and scheduled tasks…",
+    "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "multimodal"
+    ],
+    "importance": 60,
+    "contentHash": "5413eb4527cc"
+  },
+  {
     "id": "41dc972095bf5b59",
     "lab": "nvidia",
     "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
@@ -295,15 +342,15 @@
     "verified": true,
     "publishedAt": "2026-11-15T23:44:58.000Z",
     "firstSeenAt": "2026-11-18T04:02:12.893Z",
-    "updatedAt": "2026-11-15T23:44:58.000Z",
-    "excerpt": "[https://nvbugs/5989912][test] Unwaive Relu2 NVFP4 MoE backend test (…",
+    "updatedAt": "2026-11-18T20:40:41.755Z",
+    "excerpt": "Highlights Known Issues DeepSeek-R1 FP4 disaggregated serving on B300 may produce incorrect output under CUDA graphs. GLM-5.2 NVFP4 SM103 TP8 may fail to initialize when Modeling V2 is required with FlashInfer 0.7.3. Kimi K3 NVFP4 KV may fail to initialize on B300 due to FP4 MLA quantization eligibility. Kimi K3 DSpark with MegaMoE CuTe DSL TEP and CUDA graphs may hang during GB300 warmup. Qwen3.8-Flash-Next FP8…",
     "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
     "tags": [],
     "importance": 40,
-    "contentHash": "93eddd60d39a",
+    "contentHash": "8e7486858c47",
     "meta": {
       "version": "v1.4.0",
       "semver": "minor",
@@ -397,10 +444,10 @@
     "tags": [
       "4B"
     ],
-    "importance": 78,
+    "importance": 79,
     "contentHash": "f07de344f3a8",
     "meta": {
-      "likes": 37,
+      "likes": 58,
       "downloads": 290,
       "repo": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
       "pipeline": "text-generation",
@@ -2329,7 +2376,7 @@
     "importance": 62,
     "contentHash": "6c39ac2571f4",
     "meta": {
-      "likes": 31,
+      "likes": 32,
       "downloads": 13090,
       "repo": "nvidia/Kimodo-SOMA-RP-v1.2",
       "license": "other"
@@ -2804,7 +2851,7 @@
     "importance": 72,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 515,
+      "likes": 552,
       "downloads": 163423,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",

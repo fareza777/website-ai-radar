@@ -6,7 +6,7 @@
     "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model…",
     "publishedAt": "2026-11-17T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 144,
+    "upvotes": 149,
     "org": "xingchen-agi",
     "firstSeenAt": "2026-11-18T11:54:06.317Z"
   },
@@ -17,10 +17,34 @@
     "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 90,
+    "upvotes": 91,
     "org": "slaiaitp",
     "githubRepo": "https://github.com/SLAI-AITP/AscendGYM",
     "firstSeenAt": "2026-11-18T11:54:06.317Z"
+  },
+  {
+    "id": "2611.22055",
+    "title": "Weight-Space Programming Doesn't Need Transformers",
+    "url": "https://huggingface.co/papers/2611.22055",
+    "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions…",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "submittedAt": "2026-11-18T00:00:00.000Z",
+    "upvotes": 47,
+    "org": "postech",
+    "githubRepo": "https://github.com/effl-lab/Weight-Space-Programming",
+    "firstSeenAt": "2026-11-18T20:40:41.755Z"
+  },
+  {
+    "id": "2611.19800",
+    "title": "Multi-Branch Transformer",
+    "url": "https://huggingface.co/papers/2611.19800",
+    "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, and fuses their…",
+    "publishedAt": "2026-11-15T00:00:00.000Z",
+    "submittedAt": "2026-11-18T00:00:00.000Z",
+    "upvotes": 42,
+    "org": null,
+    "githubRepo": "https://github.com/GaotangLi/Multi-Branch-Transformer",
+    "firstSeenAt": "2026-11-18T20:40:41.755Z"
   },
   {
     "id": "2611.18856",
@@ -29,7 +53,7 @@
     "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods across compatible…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 26,
+    "upvotes": 28,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-18T11:54:06.317Z"
@@ -65,7 +89,7 @@
     "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 79,
+    "upvotes": 82,
     "org": "ifm",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
   },
@@ -76,7 +100,7 @@
     "summary": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution…",
     "publishedAt": "2026-11-15T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 69,
+    "upvotes": 72,
     "org": "nanyangtechnologicaluniversity",
     "githubRepo": "https://github.com/allocflow/AllocFlow",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
@@ -136,7 +160,7 @@
     "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 128,
+    "upvotes": 129,
     "org": null,
     "githubRepo": "https://github.com/RainBowLuoCS/Gamer",
     "firstSeenAt": "2026-11-16T19:41:52.882Z"
@@ -255,7 +279,7 @@
     "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP…",
     "publishedAt": "2026-11-12T00:00:00.000Z",
     "submittedAt": "2026-11-13T00:00:00.000Z",
-    "upvotes": 26,
+    "upvotes": 27,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/NVlabs/DVSM",

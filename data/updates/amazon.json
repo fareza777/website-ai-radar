@@ -1,5 +1,55 @@
 [
   {
+    "id": "037978009f803b44",
+    "lab": "amazon",
+    "title": "Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection",
+    "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T19:05:45.000Z",
+    "firstSeenAt": "2026-11-18T20:40:41.755Z",
+    "updatedAt": "2026-11-18T19:05:45.000Z",
+    "excerpt": "In many enterprises, a central network team owns every virtual private cloud (VPC) and subnet, and every flow between VPCs must pass a central firewall in both directions. Agents that call internal REST APIs and Model Context Protocol (MCP) servers through Amazon Bedrock AgentCore Gateway , a capability of Amazon Bedrock AgentCore, must meet the same two requirements. Amazon Bedrock AgentCore is a platform to build…",
+    "summary": "In many enterprises, a central network team owns every virtual private cloud (VPC) and subnet, and every flow between VPCs must pass a central firewall in both directions.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 60,
+    "contentHash": "6a7338ae104e"
+  },
+  {
+    "id": "881783ef802b37af",
+    "lab": "amazon",
+    "title": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic",
+    "sourceId": "aws-ml-blog",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T18:58:42.000Z",
+    "firstSeenAt": "2026-11-18T20:40:41.755Z",
+    "updatedAt": "2026-11-18T18:58:42.000Z",
+    "excerpt": "This post is co-written with Danya Gordin from Stretto and Marcelo Wzorek from CI&T. Before Stretto built an AI voice agent, consumers considering bankruptcy on its Bankruptcy.com site filled out a web form with a few fields: debt amount, attorney status, and contact information. These form-generated leads carried thin margins. The gap between a web form lead and a fully qualified lead is significant. Bankruptcy…",
+    "summary": "This post is co-written with Danya Gordin from Stretto and Marcelo Wzorek from CI&T.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents",
+      "audio"
+    ],
+    "importance": 60,
+    "contentHash": "68646c5e569f"
+  },
+  {
     "id": "2c0a64e08e41f662",
     "lab": "amazon",
     "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
@@ -169,6 +219,30 @@
     ],
     "importance": 30,
     "contentHash": "5ca2a632d522"
+  },
+  {
+    "id": "2f6275b029a22b0e",
+    "lab": "amazon",
+    "title": "Amazon OpenSearch Serverless now supports ingest pipelines",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/opensearch-serverless-support-ingest-pipelines",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T18:43:00.000Z",
+    "firstSeenAt": "2026-11-18T20:40:41.755Z",
+    "updatedAt": "2026-11-17T18:43:00.000Z",
+    "excerpt": "Amazon OpenSearch Serverless now supports ingest pipelines, so you can clean, enrich, and vectorize documents inside your collection as they are indexed, without running separate preprocessing infrastructure. Teams building search, log analytics, and generative AI applications can replace data-prep code in Lambda functions or ETL jobs with transformations that apply consistently to every document, regardless of how…",
+    "summary": ", so you can clean, enrich, and vectorize documents inside your collection as they are indexed, without running separate preprocessing infrastructure.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "coding"
+    ],
+    "importance": 50,
+    "contentHash": "abbbfe6d71e3"
   },
   {
     "id": "bcdd9cd65c4128af",

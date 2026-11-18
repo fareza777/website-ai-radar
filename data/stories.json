@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T11:54:06.317Z",
+  "generatedAt": "2026-11-18T20:40:41.755Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -511,14 +511,6 @@
         "labs": []
       },
       {
-        "name": "Gemini 4 Carbon",
-        "count": 9,
-        "prev": 20,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "DeepSeek 4.1 Flash",
         "count": 8,
         "prev": 4,
@@ -527,10 +519,12 @@
         ]
       },
       {
-        "name": "ERNIE 5.5 Flash",
-        "count": 6,
+        "name": "Gemini 4 Carbon",
+        "count": 7,
         "prev": 22,
-        "labs": []
+        "labs": [
+          "google-deepmind"
+        ]
       },
       {
         "name": "GPT 6.2 Astra",
@@ -542,9 +536,9 @@
         ]
       },
       {
-        "name": "Qwen 3.8",
-        "count": 4,
-        "prev": 0,
+        "name": "ERNIE 5.5 Flash",
+        "count": 5,
+        "prev": 23,
         "labs": []
       },
       {
@@ -560,13 +554,10 @@
         "labs": []
       },
       {
-        "name": "Qwen 3.8 27B",
+        "name": "Qwen 3.8",
         "count": 3,
-        "prev": 2,
-        "labs": [
-          "tencent",
-          "nvidia"
-        ]
+        "prev": 1,
+        "labs": []
       },
       {
         "name": "Claude Opus 5.5",
@@ -580,58 +571,58 @@
     "topics": [
       {
         "name": "agents",
-        "count": 71,
-        "prev": 60,
+        "count": 81,
+        "prev": 51,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "qwen",
+          "meta",
           "mistral",
-          "cohere",
+          "qwen",
           "microsoft",
+          "cohere",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 45,
-        "prev": 43,
+        "count": 48,
+        "prev": 39,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "qwen",
           "mistral",
-          "cohere",
+          "qwen",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 12,
+        "count": 13,
         "prev": 12,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "minimax",
-          "cohere",
           "microsoft",
           "tencent",
+          "cohere",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "safety",
-        "count": 10,
+        "count": 11,
         "prev": 18,
         "labs": [
           "anthropic",
@@ -639,23 +630,13 @@
           "openai",
           "cohere",
           "amazon",
-          "nvidia",
-          "ibm"
-        ]
-      },
-      {
-        "name": "rag",
-        "count": 9,
-        "prev": 4,
-        "labs": [
-          "google-deepmind",
-          "cohere",
-          "amazon"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "mcp",
-        "count": 8,
+        "count": 9,
         "prev": 5,
         "labs": [
           "anthropic",
@@ -666,12 +647,23 @@
         ]
       },
       {
+        "name": "rag",
+        "count": 9,
+        "prev": 3,
+        "labs": [
+          "google-deepmind",
+          "cohere",
+          "amazon"
+        ]
+      },
+      {
         "name": "reasoning",
-        "count": 6,
+        "count": 7,
         "prev": 4,
         "labs": [
           "google-deepmind",
           "openai",
+          "microsoft",
           "amazon",
           "nvidia"
         ]
@@ -683,14 +675,14 @@
         "labs": [
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "audio",
         "count": 4,
-        "prev": 3,
+        "prev": 4,
         "labs": [
           "anthropic",
           "openai",
@@ -727,6 +719,18 @@
       ],
       "reports": 3,
       "at": "2026-11-16T10:54:51.000Z"
+    },
+    {
+      "id": "mistral:daee685c0d8910",
+      "lab": "mistral",
+      "title": "Mistral Vibe launches desktop app for macOS and Windows",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BdXhTdlkzZFF1SzktXy1ya1JuYVZTSTJZVVJSSkdIYlFrYkZPZmhISTBkYTl5Tm9hbnYzNk05d05TOUdXZFZwbkJRR3lZZzRldTB3eWZyMjVwQnIwNEhTc21xb1p3dUZJRkpoMkQ5VTVTWnJn?oc=5",
+      "outlets": [
+        "TestingCatalog AI News",
+        "Crypto Briefing"
+      ],
+      "reports": 2,
+      "at": "2026-11-18T15:46:19.000Z"
     },
     {
       "id": "nvidia:8adf1091e01ceb",

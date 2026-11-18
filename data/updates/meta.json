@@ -1,5 +1,51 @@
 [
   {
+    "id": "0f9be8abc3972160",
+    "lab": "meta",
+    "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
+    "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models",
+    "sourceId": "meta-eng",
+    "sourceName": "Engineering at Meta",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T17:00:00.000Z",
+    "firstSeenAt": "2026-11-18T20:40:41.755Z",
+    "updatedAt": "2026-11-18T17:00:00.000Z",
+    "excerpt": "Our previous post in this series introduced the Ranking Engineer Agent (REA) , an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models. Now, we’re sharing how we propagate ranking model improvements like architectural advancements and training optimizations efficiently across a large and diverse fleet of ads ranking models. This post…",
+    "summary": "Our previous post in this series introduced the Ranking Engineer Agent (REA) , an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "agents"
+    ],
+    "importance": 50,
+    "contentHash": "cc0607ce86d8"
+  },
+  {
+    "id": "53f341ad0b877791",
+    "lab": "meta",
+    "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
+    "url": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem",
+    "sourceId": "meta-eng",
+    "sourceName": "Engineering at Meta",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T16:59:38.000Z",
+    "firstSeenAt": "2026-11-18T20:40:41.755Z",
+    "updatedAt": "2026-11-18T16:59:38.000Z",
+    "excerpt": "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model space, creating a rising tide that lifts all the boats. At Meta, we built a template-driven approach that standardizes model design into a small set of reusable and composable building blocks, turning…",
+    "summary": "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model…",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 35,
+    "contentHash": "f971d39ae9ca"
+  },
+  {
     "id": "6334b4f0dff90073",
     "lab": "meta",
     "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
@@ -43,7 +89,7 @@
     "importance": 69,
     "contentHash": "59f174c51551",
     "meta": {
-      "likes": 53,
+      "likes": 54,
       "downloads": 599,
       "repo": "facebook/meta-encoder-v1",
       "pipeline": "feature-extraction"
