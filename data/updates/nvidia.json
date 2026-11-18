@@ -377,6 +377,37 @@
     "contentHash": "3beb34ae36e8"
   },
   {
+    "id": "2ca4066c8014e29d",
+    "lab": "nvidia",
+    "title": "Qwen3.5-4B-Qwen3.8-27B-Draft",
+    "url": "https://huggingface.co/nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-11T20:23:07.000Z",
+    "firstSeenAt": "2026-11-18T11:54:06.317Z",
+    "updatedAt": "2026-11-11T20:23:07.000Z",
+    "excerpt": "text-generation · license: other",
+    "summary": "NVIDIA published the Qwen3.5-4B-Qwen3.8-27B-Draft model on Hugging Face for text generation (LLM). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "4B"
+    ],
+    "importance": 78,
+    "contentHash": "f07de344f3a8",
+    "meta": {
+      "likes": 37,
+      "downloads": 290,
+      "repo": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
+      "pipeline": "text-generation",
+      "license": "other"
+    }
+  },
+  {
     "id": "6a701461aeac17a9",
     "lab": "nvidia",
     "title": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory",
@@ -823,7 +854,7 @@
     "contentHash": "440a22d35eed",
     "meta": {
       "likes": 26,
-      "downloads": 670,
+      "downloads": 694,
       "repo": "nvidia/MetricTrail",
       "license": "other"
     }
@@ -2298,8 +2329,8 @@
     "importance": 62,
     "contentHash": "6c39ac2571f4",
     "meta": {
-      "likes": 30,
-      "downloads": 12816,
+      "likes": 31,
+      "downloads": 13090,
       "repo": "nvidia/Kimodo-SOMA-RP-v1.2",
       "license": "other"
     }
@@ -2499,8 +2530,8 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3398,
-      "downloads": 85203,
+      "likes": 3399,
+      "downloads": 87673,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
       "license": "other"
@@ -2577,8 +2608,8 @@
     "importance": 69,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 205,
-      "downloads": 38473,
+      "likes": 206,
+      "downloads": 42164,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -2722,7 +2753,7 @@
     "contentHash": "806c45ea6874",
     "meta": {
       "likes": 47,
-      "downloads": 16381,
+      "downloads": 18577,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
     }
@@ -2773,8 +2804,8 @@
     "importance": 72,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 492,
-      "downloads": 157536,
+      "likes": 515,
+      "downloads": 163423,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
       "license": "other"
@@ -2854,7 +2885,7 @@
     "contentHash": "b0ac029a9c38",
     "meta": {
       "likes": 44,
-      "downloads": 4980,
+      "downloads": 5529,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -3329,8 +3360,8 @@
     "importance": 63,
     "contentHash": "c430fa5ee123",
     "meta": {
-      "likes": 38,
-      "downloads": 432,
+      "likes": 39,
+      "downloads": 457,
       "repo": "nvidia/strata",
       "license": "openmdw-1.1"
     }

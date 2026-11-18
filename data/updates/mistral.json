@@ -1,5 +1,32 @@
 [
   {
+    "id": "ff048dafbc0057a6",
+    "lab": "mistral",
+    "title": "Mistral Vibe v3.1.3",
+    "url": "https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.3",
+    "sourceId": "mistral-vibe",
+    "sourceName": "GitHub · mistralai/mistral-vibe",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T08:35:29.000Z",
+    "firstSeenAt": "2026-11-18T11:54:06.317Z",
+    "updatedAt": "2026-11-18T08:35:29.000Z",
+    "excerpt": "Added Ctrl+S stashes the input box draft, which comes back after you send another message /goal <objective> sets a goal Vibe keeps working on across turns until it is done. /goal edit , /goal pause , /goal resume and /goal clear manage it max_goal_token_budget in config.toml caps the token budget a goal may set, and is the budget of a goal set without one The /model picker has a / fuzzy search row that filters the…",
+    "summary": "Mistral AI shipped Mistral Vibe v3.1.3 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 25,
+    "contentHash": "691c3faf03ee",
+    "meta": {
+      "version": "v3.1.3",
+      "semver": "patch",
+      "repo": "mistralai/mistral-vibe"
+    }
+  },
+  {
     "id": "2fe4c17499b49b4c",
     "lab": "mistral",
     "title": "Mistral Vibe v3.1.2",
@@ -372,7 +399,7 @@
     "contentHash": "417d409580a4",
     "meta": {
       "likes": 47,
-      "downloads": 9756,
+      "downloads": 9595,
       "repo": "mistralai/Timestral-123M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -403,7 +430,7 @@
     "contentHash": "bb226bca6d6b",
     "meta": {
       "likes": 55,
-      "downloads": 19850,
+      "downloads": 19208,
       "repo": "mistralai/Timestral-28M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -434,7 +461,7 @@
     "contentHash": "fd4a807fe29b",
     "meta": {
       "likes": 88,
-      "downloads": 13624,
+      "downloads": 13224,
       "repo": "mistralai/Timestral-5M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -464,8 +491,8 @@
     "importance": 77,
     "contentHash": "c08e0cb0414f",
     "meta": {
-      "likes": 496,
-      "downloads": 31857,
+      "likes": 497,
+      "downloads": 31421,
       "repo": "mistralai/Timestral-209M",
       "pipeline": "time-series-forecasting",
       "license": "other"
@@ -522,8 +549,8 @@
     "importance": 67,
     "contentHash": "c984e1dce577",
     "meta": {
-      "likes": 29,
-      "downloads": 105,
+      "likes": 30,
+      "downloads": 101,
       "repo": "mistralai/LIDstral-Arabic",
       "pipeline": "text-classification",
       "license": "apache-2.0"
@@ -555,7 +582,7 @@
     "contentHash": "11354caaa84e",
     "meta": {
       "likes": 56,
-      "downloads": 2442,
+      "downloads": 2399,
       "repo": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
       "pipeline": "automatic-speech-recognition"
     }
@@ -638,8 +665,8 @@
     "importance": 80,
     "contentHash": "c4578af56c8a",
     "meta": {
-      "likes": 1668,
-      "downloads": 18004,
+      "likes": 1669,
+      "downloads": 18730,
       "repo": "mistralai/Mistral-Large-4-1T-A52B",
       "pipeline": "image-text-to-text",
       "license": "other"

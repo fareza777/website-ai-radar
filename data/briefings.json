@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-18",
-    "generatedAt": "2026-11-18T04:07:22.272Z",
+    "generatedAt": "2026-11-18T11:54:06.317Z",
     "stats": {
-      "updates24h": 31,
+      "updates24h": 30,
       "labsActive24h": 9,
-      "updates7d": 170,
-      "newModels7d": 36
+      "updates7d": 172,
+      "newModels7d": 39
     },
     "source": "template",
-    "headline": "31 updates from 9 AI labs in the last 24 hours · 36 model releases this week.",
+    "headline": "30 updates from 9 AI labs in the last 24 hours · 39 model releases this week.",
     "bullets": [
       {
         "text": "OpenAI: Introducing GPT-6.2 Astra and Sol",
@@ -22,11 +22,6 @@
         "lab": "amazon"
       },
       {
-        "text": "OpenAI: Introducing ChatGPT for Sales",
-        "itemId": "c6c361c53bc4ce2d",
-        "lab": "openai"
-      },
-      {
         "text": "Google DeepMind: Read the EmbeddingGemma 2 technical report.",
         "itemId": "35e69ca0e0aa2cdd",
         "lab": "google-deepmind"
@@ -35,6 +30,11 @@
         "text": "Amazon: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
         "itemId": "2c0a64e08e41f662",
         "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+        "itemId": "6cab9c8cd38347e3",
+        "lab": "openai"
       },
       {
         "text": "Google DeepMind: Put Gemini to work for you",
