@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T01:00:57.903Z",
+  "generatedAt": "2026-11-18T04:07:22.272Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -130,18 +130,19 @@
         "openai"
       ],
       "official": 2,
-      "press": 1,
+      "press": 2,
       "outlets": [
-        "9to5Mac"
+        "9to5Mac",
+        "VentureBeat"
       ],
       "firstAt": "2026-11-17T17:17:00.000Z",
-      "lastAt": "2026-11-17T17:51:00.000Z",
+      "lastAt": "2026-11-17T22:33:40.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "lead": {
         "kind": "official",
         "id": "549a77347d5e1e5f"
       },
-      "importance": 92
+      "importance": 94
     },
     {
       "id": "ffe8a09e969fa29a",
@@ -375,7 +376,7 @@
     },
     {
       "id": "nvidia:1d03a12adeb33b",
-      "title": "Analysis-Nvidia’s AI financing machine may survive Huang, but with less risk appetite By Reuters",
+      "title": "Nvidia's AI financing machine may survive Huang, but with less risk appetite",
       "entity": null,
       "labs": [
         "nvidia"
@@ -387,16 +388,17 @@
         "Reuters",
         "Kitco",
         "Investing.com",
-        "The Lufkin Daily News"
+        "The Lufkin Daily News",
+        "TradingView"
       ],
       "firstAt": "2026-11-12T08:00:00.000Z",
-      "lastAt": "2026-11-16T11:14:33.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZWk4TjlfYXhjUzdCWXlrc3YybmNlVHpCd0gzM2Y1dXBva29Va2FFdVRGN1VyY2hTQzFmMHRlNGpxTnEyTDNoN09CNTAxSWo3Y0FRRVBjZ1Z4N09FcEd4NjJPUUc3UEpKMVZLMjItbmFZMUpIRnBKVkxQbGVFbmdNdjNoRlN6dzdibm1yMjA4MFBTc0pUN0FlQ0N1MWVZZnZBZlZqb09vbHZaeFVFTFE0QmF3a2k1U1NqbUVkQ2VUWkVDSXRnWWcyeExRb0hrVi0xSE9tMGN3?oc=5",
+      "lastAt": "2026-11-16T11:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVU5oUGw0NEdidEtFOU5IZHlTZTN4eUhmVkZXa3RKREJuLUh1akowTWlfcjlUWS12WC1ZS05CTUdraE5ET2xRSlBZZHBEaXhaazFSdHB0MFl2cy13QUp1cVJmYXJOVDlNNFA3c1BiNjBzdEJiWTFqRjVKNjdpYk5BUjVUWWFleXRDZktyblVGcTF1Ulk2dDFTUHROWlFsRmtUQWNINURsd0wtbmUzVk50cEpscVZpQ2pVb2NrM3d0YTk1aXlBUWtfM0FuY25yNmVkRTVrNEFrZHFtUEg0Z1E?oc=5",
       "lead": {
         "kind": "press",
         "id": "nvidia:1d03a12adeb33b"
       },
-      "importance": 57
+      "importance": 58
     },
     {
       "id": "qwen:4717b2d69605de",
@@ -531,16 +533,8 @@
         "labs": []
       },
       {
-        "name": "Claude Opus 5.5",
-        "count": 5,
-        "prev": 1,
-        "labs": [
-          "anthropic"
-        ]
-      },
-      {
         "name": "GPT 6.2 Astra",
-        "count": 4,
+        "count": 5,
         "prev": 0,
         "labs": [
           "openai",
@@ -548,10 +542,12 @@
         ]
       },
       {
-        "name": "DeepSeek 4.1 Pro",
-        "count": 4,
-        "prev": 0,
-        "labs": []
+        "name": "Claude Opus 5.5",
+        "count": 5,
+        "prev": 1,
+        "labs": [
+          "anthropic"
+        ]
       },
       {
         "name": "Qwen 3.8",
@@ -564,42 +560,48 @@
         "count": 4,
         "prev": 1,
         "labs": []
+      },
+      {
+        "name": "DeepSeek 4.1 Pro",
+        "count": 3,
+        "prev": 1,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
         "count": 71,
-        "prev": 61,
+        "prev": 62,
         "labs": [
+          "openai",
           "anthropic",
           "google-deepmind",
-          "openai",
+          "qwen",
           "mistral",
           "cohere",
-          "qwen",
-          "microsoft",
           "amazon",
           "bytedance",
+          "nvidia",
           "ibm",
-          "nvidia"
+          "microsoft"
         ]
       },
       {
         "name": "coding",
-        "count": 43,
+        "count": 45,
         "prev": 44,
         "labs": [
+          "openai",
           "anthropic",
           "google-deepmind",
-          "openai",
+          "qwen",
           "mistral",
           "cohere",
-          "qwen",
-          "microsoft",
           "amazon",
+          "nvidia",
           "ibm",
-          "nvidia"
+          "microsoft"
         ]
       },
       {
@@ -607,29 +609,41 @@
         "count": 10,
         "prev": 19,
         "labs": [
+          "openai",
           "anthropic",
           "google-deepmind",
-          "openai",
           "cohere",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "multimodal",
-        "count": 9,
+        "count": 10,
         "prev": 12,
         "labs": [
+          "openai",
           "anthropic",
           "google-deepmind",
-          "openai",
           "minimax",
           "cohere",
-          "microsoft",
           "amazon",
+          "nvidia",
           "ibm",
-          "nvidia"
+          "microsoft"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 8,
+        "prev": 5,
+        "labs": [
+          "openai",
+          "anthropic",
+          "qwen",
+          "amazon",
+          "microsoft"
         ]
       },
       {
@@ -644,46 +658,34 @@
         ]
       },
       {
-        "name": "mcp",
-        "count": 7,
-        "prev": 5,
-        "labs": [
-          "anthropic",
-          "openai",
-          "qwen",
-          "microsoft",
-          "amazon"
-        ]
-      },
-      {
         "name": "reasoning",
         "count": 6,
         "prev": 4,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "amazon",
           "nvidia"
         ]
       },
       {
         "name": "open-source",
-        "count": 6,
-        "prev": 5,
+        "count": 5,
+        "prev": 6,
         "labs": [
-          "microsoft",
           "amazon",
+          "nvidia",
           "ibm",
-          "nvidia"
+          "microsoft"
         ]
       },
       {
         "name": "audio",
-        "count": 3,
+        "count": 4,
         "prev": 3,
         "labs": [
-          "anthropic",
           "openai",
+          "anthropic",
           "amazon",
           "ibm"
         ]

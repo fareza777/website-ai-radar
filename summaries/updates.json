@@ -5156,5 +5156,218 @@
     "hash": "1a77e567f06c",
     "summary": "Duco, the agentic operations platform for financial services, transforms financial data automation on Amazon Bedrock AgentCore, processing 20 billion transactions monthly for 200+ clients including 7 of the top 20 banks.",
     "benefit": "Financial institutions can see how an agentic operations platform meets speed, accuracy and compliance demands under strict regulatory frameworks."
+  },
+  "549a77347d5e1e5f": {
+    "hash": "6afbda7573cc",
+    "summary": "OpenAI introduced GPT-6.2 Astra and Sol, describing better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+    "benefit": "Developers and teams working in ChatGPT Work, Codex, or the API get two new models OpenAI positions as stronger at professional outputs and coding at lower cost."
+  },
+  "e275daab6915c5ef": {
+    "hash": "c89b5a45bb75",
+    "summary": "AWS announced the general availability of OpenAI GPT-6.2 Astra and GPT-6.2 Sol on Amazon Bedrock, saying Astra brings frontier-level reasoning to complex business problems, research, and agentic workflows, and includes an Ultrafast mode for latency-sensitive applications.",
+    "benefit": "Teams already running workloads on Amazon Bedrock can call both OpenAI models there, and pick Astra's Ultrafast mode when response time matters."
+  },
+  "c6c361c53bc4ce2d": {
+    "hash": "b9bcd51d001e",
+    "summary": "OpenAI introduced ChatGPT for Sales, built around a new Sales plugin and 30+ new and expanded partner plugins for researching prospects, preparing pitches, updating your CRM, and moving deals forward.",
+    "benefit": "Sales teams can do prospect research, pitch preparation, and CRM updates inside ChatGPT instead of moving between separate tools."
+  },
+  "58da9c66b1456ac9": {
+    "hash": "e577fbb34b07",
+    "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills, and help local startups develop AI applications.",
+    "benefit": "Chilean public-sector staff and local startups get an agreed route to AI skills and application development through their government's partnership with OpenAI."
+  },
+  "f054a54f8228cfac": {
+    "hash": "e51360d5f4f4",
+    "summary": "OpenAI published a customer story on how Revolut uses its models and Codex to cut coding time by 30-60%, scale financial crime investigations, and innovate without compromising security.",
+    "benefit": "Engineering leaders at regulated fintechs get a concrete account of the coding-time reduction Revolut reports from OpenAI models and Codex."
+  },
+  "35e69ca0e0aa2cdd": {
+    "hash": "6fdd250041af",
+    "summary": "Google points to the EmbeddingGemma 2 technical report, which details the new multimodal model, its unified vector space, and its compact design.",
+    "benefit": "Teams choosing an embedding model get a first-party report on how EmbeddingGemma 2 puts multimodal inputs into one vector space in a compact design."
+  },
+  "3574711074a43e57": {
+    "hash": "616abe2a38b4",
+    "summary": "Anthropic published an article on linked billing on the Claude Platform.",
+    "benefit": "Developers and finance owners on the Claude Platform have Anthropic's own write-up on linked billing to work from."
+  },
+  "2c0a64e08e41f662": {
+    "hash": "903a10d858d8",
+    "summary": "AWS writes about token cost and latency in production agents on Amazon Bedrock AgentCore, where every additional tool invocation on large JSON data injects the full payload into the model's context window and spikes usage and response time.",
+    "benefit": "Teams building agents with dozens of tools and large structured inputs get documented ways to keep multi-turn JSON conversations from blowing up token spend.",
+    "category": "developer"
+  },
+  "3a6ddd65cb94a929": {
+    "hash": "dea188da9cba",
+    "summary": "AWS published secure OAuth patterns for reaching Snowflake Cortex AI from agents running on Amazon Bedrock AgentCore, aimed at enterprises that would otherwise need broad service-account permissions or custom-built auth integrations.",
+    "benefit": "Platform teams can extend existing authentication and authorization controls into the agent layer instead of hand-building auth glue."
+  },
+  "320bd615b740c723": {
+    "hash": "d378fdf8df43",
+    "summary": "AWS Elemental Inference now supports two customizations: functions that ask custom questions of live video using multi-modal foundational models in Amazon Bedrock, and contextual metadata decisions from labels and questions you define.",
+    "benefit": "Video teams can add their own questions and labels to live analysis while keeping built-in features such as vertical video creation and smart subtitles on the same pipeline.",
+    "category": "feature"
+  },
+  "e0524243e2444897": {
+    "hash": "ad8e108ad9bb",
+    "summary": "Amazon SageMaker now offers AI data preparation capabilities for building high-quality training and evaluation datasets, letting teams generate synthetic examples grounded in their own documents and auto-label records.",
+    "benefit": "Data scientists and ML engineers can cut the weeks of manual labeling and cleaning that training datasets need before model customization or traditional ML.",
+    "category": "feature"
+  },
+  "692230a9d797ddbd": {
+    "hash": "4dc80d608c74",
+    "summary": "AWS sets out a phased roadmap for responsible AI in agentic AI, covering how platform teams govern the applications, tools, skills, models, and storage that agents use.",
+    "benefit": "Platform and application teams get a staged way to handle the unpredictability that generative models add to work previous software practices did not cover."
+  },
+  "590cb0b9c5dd23f2": {
+    "hash": "485bbbd30c2b",
+    "summary": "OpenAI describes working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes, and protect essential systems.",
+    "benefit": "Defensive security teams at institutions get a view of how OpenAI's models are being applied to finding vulnerabilities rather than exploiting them."
+  },
+  "0604bc2b50fc0c3b": {
+    "hash": "19f503094d67",
+    "summary": "OpenAI says Astra for Law ranked first in a launch evaluation spanning 24 areas of law, and that every ChatGPT Enterprise customer can now request access.",
+    "benefit": "Legal teams on ChatGPT Enterprise can request Astra for Law themselves rather than waiting for a staged rollout."
+  },
+  "a045ec708b22e25e": {
+    "hash": "26348edec46a",
+    "summary": "OpenAI reports that Aleph was selected as ChatGPT Ads' exclusive reseller in 44 countries, to offer local invoicing, in-person support, and local market expertise to brands and agencies.",
+    "benefit": "Brands and agencies buying ChatGPT Ads in those markets now have a named reseller for local invoicing and in-person support."
+  },
+  "041eb172e023ffb6": {
+    "hash": "4249857b5d4b",
+    "summary": "OpenAI describes how VistaPrint uses ChatGPT Ads to show small business owners that know what they want to accomplish before they know what to print how products such as signs and branded merchandise can help them get the word out.",
+    "benefit": "Small businesses preparing a launch or event get advertising guidance that maps their goal to printable products."
+  },
+  "cb1d8f8bc84f7e6a": {
+    "hash": "3ea9b056732a",
+    "summary": "Google says Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+    "benefit": "Gemini users in those six countries can hand recurring or multi-step tasks to Tasks without a charge, and Workspace users get tasks that act inside their own documents."
+  },
+  "cd5eb780fba48239": {
+    "hash": "63b10205b1c1",
+    "summary": "Cohere's North adds a Crunchbase connection, giving access to market data on over seven million company profiles, including funding and M&A history, competitors, and growth signals, across North workflows.",
+    "benefit": "Teams using North can bring company, funding, and competitor signals into the workflows they already run instead of opening Crunchbase separately."
+  },
+  "0361f9d612b55d02": {
+    "hash": "e8a06aa961b1",
+    "summary": "Amazon Bedrock AgentCore Memory now keeps short-term memory events for up to 10 years, up from one year, so agent conversations and interactions stay available as a long-lived record.",
+    "benefit": "Teams that need agent history for compliance and audit, users who return after months away, and agents revisiting past sessions keep that context instead of losing it after a year."
+  },
+  "396675a743ab8137": {
+    "hash": "c952b7f74c74",
+    "summary": "Amazon Bedrock AgentCore Memory now keeps a full session summary for every session, updated as new events arrive, alongside the more detailed summary chunks.",
+    "benefit": "Agents resuming a conversation get one record of where the session stands rather than reconstructing it event by event."
+  },
+  "bcdd9cd65c4128af": {
+    "hash": "9bd8af79d1b7",
+    "summary": "Amazon Bedrock AgentCore now offers 5,000 free web search queries per month through the Web Search Tool in AgentCore gateway and the Web Search API, with the allowance applied automatically.",
+    "benefit": "Developers can build and test agents that search the web through AgentCore for their first 5,000 queries each month at no cost."
+  },
+  "fa2d79e8a491ed5a": {
+    "hash": "a301afa93129",
+    "summary": "AWS and LoanPro describe building an agentic AI loan servicing assistant with Amazon Bedrock AgentCore for calls where the answering agent must pull account data from dozens of fields, transaction histories, and workflow queues before it can help a borrower.",
+    "benefit": "Lenders get a worked example of wiring an agent into servicing data instead of leaving support staff to assemble that context by hand."
+  },
+  "10266c9088840825": {
+    "hash": "c64ac2bc3c5b",
+    "summary": "Amazon SageMaker HyperPod introduced cluster operations, which track every scaling and on-demand deep health check request from submission to completion and link console alerts to the request's error events, while continuous provisioning brings capacity online as it becomes available and retries failed nodes.",
+    "benefit": "Teams running large training jobs can see why a scaling or health-check request failed instead of guessing, and get capacity back online automatically as it appears."
+  },
+  "0e7178620825949f": {
+    "hash": "d6b66697523e",
+    "summary": "IBM writes about low size, weight, and power radar, arguing that useful low-SWaP radar takes more than one breakthrough component to work.",
+    "benefit": "Engineers designing compact sensing systems get IBM's account of the component choices that make sophisticated radar practical at low size, weight, and power."
+  },
+  "2d11cd195d76fb0b": {
+    "hash": "16f8909e77e3",
+    "summary": "Codex CLI rust v0.170.0 adds WebRTC negotiation for realtime voice calls in the TUI, automatically refreshed authentication headers for OpenTelemetry HTTP exporters, and experimental support for identically named MCP servers across environments.",
+    "benefit": "Developers using Codex CLI get realtime voice in the terminal and cleaner behavior when a WebSocket request is too large."
+  },
+  "c4677f385445c775": {
+    "hash": "b07c9ef5507b",
+    "summary": "OpenAI Agents SDK v0.25.0, released 2026-11-17, exposes utilities for third-party session adapters, removes the Runloop sandbox provider, and fixes nested ToolContext approval decisions across resume and repeated fingerprinting of completed tool calls.",
+    "benefit": "Developers building on the SDK can write their own session adapters and keep approval decisions intact when resuming nested tool calls."
+  },
+  "95e3ce3f2dbab18a": {
+    "hash": "03326cd148e8",
+    "summary": "Google GenAI SDK for Python v3.5.0, released 2026-11-18, introduces a self-hosted BYOS environment mode with system_instruction, custom_config, and environment_key in the SDKs and CLI, adds experimental Live Interactions over WebSocket and WebRTC, and parses datetime, date, time, timedelta and UUID string arguments.",
+    "benefit": "Python developers can run environments on their own infrastructure and prototype realtime interactions from the public SDK."
+  },
+  "788442c73cbb02e0": {
+    "hash": "c31032797efc",
+    "summary": "Qwen Code desktop v0.28.0 adds a sidebar workspace filter and a DingTalk adapter on the managed channel path, routes Skill mutations through native REST, and settles stale public-child recovery as terminal instead of retrying forever.",
+    "benefit": "Desktop users of Qwen Code get easier navigation across workspaces and a DingTalk path for managed agents, without endless recovery retries."
+  },
+  "4dbe53199800181e": {
+    "hash": "316961500813",
+    "summary": "Qwen Code v0.28.0 lists no known breaking changes and adds a sidebar workspace filter, a DingTalk adapter on the managed channel path, and shared tool batching for live and read-only Agent Host sessions.",
+    "benefit": "Teams updating Qwen Code can move to this release without a migration, and get tool calls batched for Agent Host sessions."
+  },
+  "dec08682255b4b65": {
+    "hash": "1eed34455133",
+    "summary": "At SC26 in Chicago, NVIDIA's Ian Buck announced Nemotron for Science, the Rubin HPC GPU, and an expanded Vera CPU platform for high-performance computing, plus new tools for AI agents and a quantum computing collaboration with IBM.",
+    "benefit": "Research computing teams get agent tools that plan experiments, run code, and check results on researchers' own systems, alongside new NVIDIA hardware for high-performance computing."
+  },
+  "e08fa0eb6edea708": {
+    "hash": "93eddd60d39a",
+    "summary": "NVIDIA released TensorRT-LLM v1.4.0, whose changelog includes unwaiving the Relu2 NVFP4 MoE backend test.",
+    "benefit": "Teams serving models with TensorRT-LLM have a new versioned release whose test changes are recorded in the changelog."
+  },
+  "28890ab245a4cb5d": {
+    "hash": "04e3bc41292e",
+    "summary": "MoonshotAI opened a new GitHub repository named kha.",
+    "benefit": "Nothing beyond the repository name is published yet, so read the repo itself before relying on it."
+  },
+  "996b5745644e2367": {
+    "hash": "59c3f3630401",
+    "summary": "In The Shape of Things to Come, Microsoft Research leader Doug Burger and experts from across disciplines work through the thorniest AI issues facing technologists, policymakers, and business decision-makers, starting from whether AI can help build a healthier future.",
+    "benefit": "Readers who need the argument in one place get a cross-disciplinary discussion of AI's hardest questions rather than a single-field view."
+  },
+  "dfdee5b6b2fccda4": {
+    "hash": "5ca2a632d522",
+    "summary": "AWS explains how to build WhatsApp AI agents with Amazon Bedrock AgentCore, noting that the agent is rarely the hard part and the integration is.",
+    "benefit": "Teams whose customers live on WhatsApp in Latin America, India, and Southeast Asia get a documented path to connect an AgentCore agent to that surface."
+  },
+  "5b0b199a3f155cec": {
+    "hash": "4700fc257fe6",
+    "summary": "ArisGlobal built NavaX, an AI engine for life sciences on Amazon Bedrock that automates adverse-event case processing, choosing Bedrock for managed access to foundation models, EU geographic cross-Region inference, and managed prompt caching.",
+    "benefit": "Life sciences teams get a worked example of running pharmacovigilance workloads with EU cross-Region inference and prompt caching."
+  },
+  "41dc972095bf5b59": {
+    "hash": "52429d38aeaa",
+    "summary": "NVIDIA writes about co-designing sparse attention for efficient long-context inference, as agentic workloads, long documents, and large codebases push context lengths from tens of thousands of tokens to hundreds of thousands, where dense attention becomes the most expensive part of a transformer layer.",
+    "benefit": "Teams serving long-context models get an approach that avoids scoring every token pair, which is what makes dense attention costly at those lengths."
+  },
+  "c27881577845a8ee": {
+    "hash": "e495337fbe94",
+    "summary": "Codex CLI rust v0.169.1 is listed with no verified release highlights; the changelog spans rust-v0.169.0 to rust-v0.169.1.",
+    "benefit": "Developers pinned to Codex CLI rust can take this release without expecting more change than the short changelog describes."
+  },
+  "0cd095e97fb24519": {
+    "hash": "4bf3e1490e57",
+    "summary": "Anthropic published Claude Agent SDK for Python v0.2.184 on PyPI, installable by that exact version.",
+    "benefit": "Python developers on the Claude Agent SDK can pin this release from PyPI instead of tracking the repository."
+  },
+  "1560056f3e5df1cd": {
+    "hash": "97e40553d4d5",
+    "summary": "Claude Code v2.1.327 adds a confirmation before /install-github-app changes a repository, lets claude mcp add-json read the server's JSON from stdin so tokens can stay off the command line, and lists broken agent, skill, command and output style files in /status.",
+    "benefit": "Developers keep MCP tokens out of shell history and get a status view that names which configuration files are broken."
+  },
+  "55d604a6c28c1031": {
+    "hash": "0bc8291b1550",
+    "summary": "Qwen Code sdk-typescript v0.1.35 bundles CLI version 0.28.0, built from the same branch or ref as the SDK.",
+    "benefit": "TypeScript developers embedding Qwen Code know which CLI release the SDK carries, so bundled and local behavior line up."
+  },
+  "55a6d4a31911373a": {
+    "hash": "8a0e3d408855",
+    "summary": "Tencent-Hunyuan opened a new GitHub repository named Hy4-flash.",
+    "benefit": "Developers tracking Tencent's Hunyuan releases can watch Hy4-flash from its first days, before a description is published."
+  },
+  "bb45eacd9a41775f": {
+    "hash": "357c03cd94ec",
+    "summary": "Microsoft Agent Framework (Go SDK) v0.3.1 adds task-aware MCP tools with task response validation and transport lifecycle handling, MCP-backed skills with added sources and lazy lookups, and Builder.WithTaggedOutputFrom for outputs from arbitrary tags, plus new examples.",
+    "benefit": "Go developers can expose MCP tools that run as tasks, attach skills from MCP sources, and read workflow outputs from any tag without a custom builder path."
   }
 }

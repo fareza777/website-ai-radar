@@ -1,5 +1,37 @@
 [
   {
+    "id": "2d11cd195d76fb0b",
+    "lab": "openai",
+    "title": "Codex CLI rust v0.170.0",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+    "sourceId": "openai-codex",
+    "sourceName": "GitHub · openai/codex",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T03:45:39.000Z",
+    "firstSeenAt": "2026-11-18T04:02:12.893Z",
+    "updatedAt": "2026-11-18T03:45:39.000Z",
+    "excerpt": "New Features Added WebRTC negotiation for realtime voice calls in the TUI. ( #61172 ) Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters. ( #61028 ) Added experimental support for using identically named MCP servers across environments. ( #60905 ) Bug Fixes Oversized WebSocket requests now fall back to HTTP without unnecessary retries. ( #60840 , #60841 ) Fixed MCP OAuth credential…",
+    "summary": "OpenAI shipped Codex CLI rust v0.170.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "audio",
+      "mcp"
+    ],
+    "importance": 45,
+    "contentHash": "16f8909e77e3",
+    "meta": {
+      "version": "v0.170.0",
+      "semver": "minor",
+      "repo": "openai/codex",
+      "package": "rust"
+    }
+  },
+  {
     "id": "c4677f385445c775",
     "lab": "openai",
     "title": "OpenAI Agents SDK v0.25.0",
@@ -11,18 +43,17 @@
     "verified": true,
     "publishedAt": "2026-11-18T00:38:22.000Z",
     "firstSeenAt": "2026-11-18T01:00:57.903Z",
-    "updatedAt": "2026-11-18T00:38:22.000Z",
-    "excerpt": "0.25.0 (2026-11-17) Features expose utilities for third-party session adapters ( #5428 ) ( 16fdb20 ) sandbox: remove Runloop provider ( #5369 ) ( 12ce34d ) Bug Fixes add opt-in handoff error recovery ( #5418 ) ( a6ed84f ) align implicit settings with provider-selected models ( #5425 ) ( a88d291 ) align model defaults with TS SDK ( #6064 ) ( d5287b7 ) allow concurrent Streamable HTTP requests on MCP v2 ( #5641 ) (…",
+    "updatedAt": "2026-11-18T04:02:12.893Z",
+    "excerpt": "0.25.0 (2026-11-17) Features expose utilities for third-party session adapters ( #5428 ) ( 16fdb20 ) sandbox: remove Runloop provider ( #5369 ) ( 12ce34d ) Bug Fixes avoid loading workspace startup files during internal sandbox operations ( #5406 ) ( 841dfdd ) preserve nested ToolContext approval decisions across resume ( #5633 ) ( c200ae8 ) avoid repeatedly fingerprinting completed tool calls ( #5421 ) ( dda19f9 )…",
     "summary": "OpenAI shipped OpenAI Agents SDK v0.25.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
     "tags": [
-      "agents",
-      "mcp"
+      "agents"
     ],
     "importance": 45,
-    "contentHash": "bd0b407964cb",
+    "contentHash": "b07c9ef5507b",
     "meta": {
       "version": "v0.25.0",
       "semver": "minor",

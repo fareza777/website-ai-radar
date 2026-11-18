@@ -161,7 +161,7 @@ export const LABS: LabConfig[] = [
     sources: [
       rss("msr-blog", "Microsoft Research Blog", "https://www.microsoft.com/en-us/research/feed/"),
       rss("azure-blog", "Azure Blog", "https://azure.microsoft.com/en-us/blog/feed/", { include: "(\\bai\\b|foundry|copilot|openai|agent|model|llm)" }),
-      gh("ms-agent-framework", "microsoft/agent-framework", { limit: 4, label: "Microsoft Agent Framework" }),
+      gh("ms-agent-framework", "microsoft/agent-framework-go", { limit: 4, label: "Microsoft Agent Framework (Go SDK)" }),
       hf("microsoft-hf", "microsoft", 15),
     ],
   },

@@ -48,6 +48,36 @@
     "contentHash": "01d122c5d4a3"
   },
   {
+    "id": "bb45eacd9a41775f",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework (Go SDK) v0.3.1",
+    "url": "https://github.com/microsoft/agent-framework-go/releases/tag/v0.3.1",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework-go",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-13T11:31:23.000Z",
+    "firstSeenAt": "2026-11-18T04:07:22.272Z",
+    "updatedAt": "2026-11-13T11:31:23.000Z",
+    "excerpt": "v0.3.1 New and improved Task-aware MCP tools: support MCP tools that run as tasks, with task response validation and transport lifecycle handling. #1381 MCP-backed skills: add MCP sources and lazy lookups for skills. #1375 More flexible workflow outputs: Builder.WithTaggedOutputFrom supports outputs from arbitrary tags. #1361 New examples: add examples for OpenTelemetry tracing, a todo-harness agent, and a Foundry…",
+    "summary": "Microsoft shipped Microsoft Agent Framework (Go SDK) v0.3.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 20,
+    "contentHash": "357c03cd94ec",
+    "meta": {
+      "version": "v0.3.1",
+      "semver": "patch",
+      "repo": "microsoft/agent-framework-go"
+    }
+  },
+  {
     "id": "77dc6766a4b441fb",
     "lab": "microsoft",
     "title": "Microsoft Research Focus – Edition #98",
@@ -284,6 +314,36 @@
     "contentHash": "fd8d59efc31d"
   },
   {
+    "id": "ca3682b4eac1804d",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework (Go SDK) v0.3.0",
+    "url": "https://github.com/microsoft/agent-framework-go/releases/tag/v0.3.0",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework-go",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-03T10:50:28.000Z",
+    "firstSeenAt": "2026-11-18T04:07:22.272Z",
+    "updatedAt": "2026-11-03T10:50:28.000Z",
+    "excerpt": "v0.3.0 New and improved Azure Cosmos DB chat history: persistent conversation history with session/partition routing, TTL, paging, and transactional batching. #1335 Foundry API-key authentication: supported for agents, OpenAI clients, and embedding generators, alongside token credentials. #1329 Composable skills: aggregation, caching, filtering, and deduplication sources; session-aware discovery; structured JSON…",
+    "summary": "Microsoft shipped Microsoft Agent Framework (Go SDK) v0.3.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "rag"
+    ],
+    "importance": 40,
+    "contentHash": "275c713a27c4",
+    "meta": {
+      "version": "v0.3.0",
+      "semver": "minor",
+      "repo": "microsoft/agent-framework-go"
+    }
+  },
+  {
     "id": "9185316cf11be66f",
     "lab": "microsoft",
     "title": "The Platform Behind the Next AI Breakthrough",
@@ -384,7 +444,7 @@
     "importance": 69,
     "contentHash": "55470560c200",
     "meta": {
-      "likes": 226,
+      "likes": 227,
       "downloads": 5200,
       "repo": "microsoft/Mage-VL-Cowork",
       "pipeline": "image-text-to-text",
@@ -466,6 +526,35 @@
     ],
     "importance": 65,
     "contentHash": "30a7afa3ff32"
+  },
+  {
+    "id": "93e838e16608a20c",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework (Go SDK) v0.2.1",
+    "url": "https://github.com/microsoft/agent-framework-go/releases/tag/v0.2.1",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework-go",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-27T11:44:43.000Z",
+    "firstSeenAt": "2026-11-18T04:07:22.272Z",
+    "updatedAt": "2026-10-27T11:44:43.000Z",
+    "excerpt": "What's Changed Skip filtered candidates in .NET porting workflows by Quim Muntal (@qmuntal) in #1316 [dotnet-port-fixes] Preserve A2A task status messages in agent responses by @microsoft-agent-framework-for-go[bot] in #1318 [dotnet-port-api] Add message.Source.String formatter by @microsoft-agent-framework-for-go[bot] in #1320 agent: decode structured output after tool execution by Quim Muntal (@qmuntal) in #1326…",
+    "summary": "Microsoft shipped Microsoft Agent Framework (Go SDK) v0.2.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 20,
+    "contentHash": "75ec879a63b0",
+    "meta": {
+      "version": "v0.2.1",
+      "semver": "patch",
+      "repo": "microsoft/agent-framework-go"
+    }
   },
   {
     "id": "a1fd010ba46270e7",
@@ -639,6 +728,36 @@
     "tags": [],
     "importance": 40,
     "contentHash": "eb9dcf8a456e"
+  },
+  {
+    "id": "77a6fa8be565d8db",
+    "lab": "microsoft",
+    "title": "Microsoft Agent Framework (Go SDK) v0.2.0",
+    "url": "https://github.com/microsoft/agent-framework-go/releases/tag/v0.2.0",
+    "sourceId": "ms-agent-framework",
+    "sourceName": "GitHub · microsoft/agent-framework-go",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-20T15:58:17.000Z",
+    "firstSeenAt": "2026-11-18T04:07:22.272Z",
+    "updatedAt": "2026-10-20T15:58:17.000Z",
+    "excerpt": "Microsoft Agent Framework for Go v0.2.0 Embeddings, vector search, and memory for Go agents. v0.2.0 introduces provider-independent embedding generation and vector storage, making it easier to build retrieval-augmented generation (RAG) and agents that recall relevant conversations across sessions. Start with an in-memory store, or connect to Azure AI Search or Azure Cosmos DB using the same core vector-data…",
+    "summary": "Microsoft shipped Microsoft Agent Framework (Go SDK) v0.2.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "rag"
+    ],
+    "importance": 40,
+    "contentHash": "049440d71f6a",
+    "meta": {
+      "version": "v0.2.0",
+      "semver": "minor",
+      "repo": "microsoft/agent-framework-go"
+    }
   },
   {
     "id": "630e178266bc2a3e",

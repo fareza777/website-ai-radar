@@ -19,16 +19,6 @@
     "unique": "It focuses on a safe, private place for agents to run on their own.",
     "benefit": "Developers who want autonomous agents can run them in a runtime built for safety and privacy."
   },
-  "02e3bf1928869cd7": {
-    "summary": "Jeeves applies reasoning to improve Jev-like decision models.",
-    "unique": "It targets decision models in the Jev style rather than general chat.",
-    "benefit": "People building Jev-like decision models can use Jeeves to improve their reasoning."
-  },
-  "94596d73fc4d7609": {
-    "summary": "magnitude is an open-source inference engine for agents that compiles and tunes kernels on your own hardware.",
-    "unique": "It claims open models run up to 2x faster than llama.cpp on Apple Silicon, NVIDIA, AMD, or CPU.",
-    "benefit": "Agent developers can get hardware-tuned inference without hand-writing kernels for each machine."
-  },
   "fac582e8d95d6d8d": {
     "summary": "muse-gadget-sdk is an open-source SDK for building Muse gadgets.",
     "unique": "It is specifically an SDK for Muse gadgets, and it is open source.",
@@ -274,11 +264,6 @@
     "summary": "Anatomy is an agent skill that creates interactive isometric illustrations of machines and complex systems, as polished SVGs with optional WebGL shaders and 3D effects.",
     "unique": "It is an open-source agent skill aimed at isometric SVG illustrations rather than a general image generator.",
     "benefit": "People explaining a machine can ask an agent for a detailed isometric figure they can inspect."
-  },
-  "861dedbb82b1e270": {
-    "summary": "MCPSafari is a native Safari MCP server so AI agents can work in the browser on a Mac.",
-    "unique": "It targets Safari specifically, including accessibility and browser automation for agents.",
-    "benefit": "Agent builders on macOS can drive Safari through MCP instead of a separate browser."
   },
   "5fecc1e82f22ab7d": {
     "summary": "HeyGen turns text, an image, or audio into a complete video with narration, captions, visuals, and animations.",
@@ -727,12 +712,6 @@
     "unique": "Packages reusable agent skills in one repository rather than shipping a single-purpose tool.",
     "benefit": "Coding-agent users can install ready-made skills instead of writing each agent instruction from scratch."
   },
-  "3b9360578b735d9f": {
-    "hash": "15f04a28",
-    "summary": "Relayvora resumes unfinished AI coding work across Claude Code, Codex, and OpenCode with verified handoffs.",
-    "unique": "Built for handoffs between three named coding agents, with topics covering a CLI, Model Context Protocol and open-source developer tools.",
-    "benefit": "Developers can move a half-finished task from one coding agent to another without losing the thread of what was already done."
-  },
   "0a4fc8e5bcb929d4": {
     "hash": "c3184052",
     "summary": "Stroq finds known secrets in AI coding agent sessions for Claude Code, Codex and Cursor, then guards the next one with local hooks.",
@@ -803,5 +782,29 @@
     "summary": "Goethe promises to serve your models fast on your own infra in 3 steps, a self-hosted LLM inference server for NVIDIA GPUs.",
     "unique": "Repository topics list SGLang, NVFP4, NVIDIA GPUs and an OpenAI-style API alongside self-hosted LLM inference.",
     "benefit": "Teams running LLMs get a self-hosted server to serve their models on their own NVIDIA GPU infrastructure."
+  },
+  "7b245da90ffcaad9": {
+    "hash": "a73242e8",
+    "summary": "Rewrite your whole app in Rust, one piece at a time, with each step checked against the original's recorded behavior; it covers CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+    "unique": "Topics list it as an agent skill for coding agents such as Claude Code and Codex, with FFI and CLI migration work, rather than a one-shot rewrite.",
+    "benefit": "Teams with a working CLI, service, or library can move it to Rust gradually and keep evidence that each ported command still behaves as before."
+  },
+  "648f9ef8e881ab11": {
+    "hash": "4767f567",
+    "summary": "A lightweight git-worktrees tool aimed at agents, listed with the topics agents, git, and worktrees.",
+    "unique": "Its stated scope is only git worktrees for agents, described in a single line.",
+    "benefit": "Developers who need separate working trees for agent work have a tool that names that as its whole job."
+  },
+  "84a2d3c5e5542f62": {
+    "hash": "cb1763ae",
+    "summary": "A library of behaviors for agents to build the next generation of user interfaces, with topics covering accessibility, ARIA, components, and component libraries.",
+    "unique": "It is described as behaviors an agent can use, with an accessibility and ARIA focus, rather than a set of ready-made components.",
+    "benefit": "Frontend developers letting agents build interfaces get a layer that names accessibility and ARIA in scope, so generated UI is not just markup."
+  },
+  "3111c33ddeb8ee23": {
+    "hash": "19ca7cd3",
+    "summary": "A tool that uses psycholinguistics to deslop an agent's sloppy prose.",
+    "unique": "The stated method is psycholinguistics applied to text an agent has already produced.",
+    "benefit": "Teams shipping agent writing to real users get a tool aimed at the readability of that output."
   }
 }

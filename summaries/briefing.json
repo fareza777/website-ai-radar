@@ -633,5 +633,34 @@
         "itemId": "e3915f7e4cf071c4"
       }
     ]
+  },
+  "2026-11-18": {
+    "headline": "OpenAI shipped GPT-6.2 Astra and Sol, AWS put them on Bedrock, and NVIDIA's Vera Rubin platform led its MLPerf debut.",
+    "bullets": [
+      {
+        "text": "OpenAI introduced GPT-6.2 Astra and Sol, citing better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+        "itemId": "549a77347d5e1e5f"
+      },
+      {
+        "text": "NVIDIA's Vera Rubin platform swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, reported more than 10x generational gains in throughput per watt for agentic AI.",
+        "itemId": "0f2a855bc6a8fcf2"
+      },
+      {
+        "text": "OpenAI GPT-6.2 Astra and GPT-6.2 Sol are now generally available on Amazon Bedrock, with Astra including an Ultrafast mode for latency-sensitive applications.",
+        "itemId": "e275daab6915c5ef"
+      },
+      {
+        "text": "OpenAI is expanding the ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to its frontier models.",
+        "itemId": "f26f2a4dfd6b9b95"
+      },
+      {
+        "text": "Microsoft's TokenEconomizer is an open-source plugin that learns from an agent's past sessions in a repository to reduce waste in future sessions without modifying the agent or its underlying model.",
+        "itemId": "f4a580580dcfc266"
+      },
+      {
+        "text": "Anthropic published an article on linked billing on the Claude Platform.",
+        "itemId": "3574711074a43e57"
+      }
+    ]
   }
 }

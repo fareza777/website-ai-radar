@@ -1,5 +1,34 @@
 [
   {
+    "id": "95e3ce3f2dbab18a",
+    "lab": "google-deepmind",
+    "title": "Google GenAI SDK (Python) v3.5.0",
+    "url": "https://github.com/googleapis/python-genai/releases/tag/v3.5.0",
+    "sourceId": "google-genai-sdk",
+    "sourceName": "GitHub · googleapis/python-genai",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T02:20:03.000Z",
+    "firstSeenAt": "2026-11-18T04:02:12.893Z",
+    "updatedAt": "2026-11-18T02:20:03.000Z",
+    "excerpt": "3.5.0 (2026-11-18) Features environments: Introduce self-hosted BYOS mode, system_instruction, custom_config, and environment_key in SDKs and CLI ( d76a21d ) Generate Live Interactions types and auth-token client in the public SDKs. ( f209666 ) interactions: Add experimental Live Interactions (WebSocket and WebRTC) SDK support ( 8acd4f0 ) Bug Fixes Parse datetime, date, time, timedelta and UUID string arguments in…",
+    "summary": "Google DeepMind shipped Google GenAI SDK (Python) v3.5.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "03326cd148e8",
+    "meta": {
+      "version": "v3.5.0",
+      "semver": "minor",
+      "repo": "googleapis/python-genai"
+    }
+  },
+  {
     "id": "35e69ca0e0aa2cdd",
     "lab": "google-deepmind",
     "title": "Read the EmbeddingGemma 2 technical report.",
@@ -223,8 +252,8 @@
     "lab": "google-deepmind",
     "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -641,8 +670,8 @@
     "lab": "google-deepmind",
     "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -1894,7 +1923,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 3532,
+      "likes": 3533,
       "downloads": 591350,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",

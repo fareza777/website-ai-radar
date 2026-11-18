@@ -48,6 +48,30 @@
     "contentHash": "dea188da9cba"
   },
   {
+    "id": "320bd615b740c723",
+    "lab": "amazon",
+    "title": "Customize AWS Elemental Inference with custom models, prompts, and decisions",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/elemental-inference-functions-decisions",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T20:00:00.000Z",
+    "firstSeenAt": "2026-11-18T04:02:12.893Z",
+    "updatedAt": "2026-11-17T20:00:00.000Z",
+    "excerpt": "AWS Elemental Inference now lets you customize how it analyzes your live video in two ways. You can create functions that ask custom questions of the video using multi-modal foundational models in Amazon Bedrock, or add contextual metadata decisions using labels and questions you define. Both run on the same pipeline as built-in features such as vertical video creation and smart subtitles, and return results through…",
+    "summary": "AWS Elemental Inference now lets you customize how it analyzes your live video in two ways.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 60,
+    "contentHash": "d378fdf8df43"
+  },
+  {
     "id": "0361f9d612b55d02",
     "lab": "amazon",
     "title": "Amazon Bedrock AgentCore Memory now supports short-term memory retention of up to 10 years",
@@ -4492,7 +4516,7 @@
     "importance": 60,
     "contentHash": "f6b52138e9a2",
     "meta": {
-      "likes": 15,
+      "likes": 16,
       "downloads": 336,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"

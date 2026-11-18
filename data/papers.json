@@ -6,9 +6,21 @@
     "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 85,
+    "upvotes": 89,
     "org": "internlm",
     "githubRepo": "https://github.com/InternLM/Sage-S2.1-Flash",
+    "firstSeenAt": "2026-11-17T16:12:10.860Z"
+  },
+  {
+    "id": "2611.21218",
+    "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+    "url": "https://huggingface.co/papers/2611.21218",
+    "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four public benchmarks…",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "submittedAt": "2026-11-17T00:00:00.000Z",
+    "upvotes": 74,
+    "org": null,
+    "githubRepo": "https://github.com/panuvi/inclusionmed",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
   },
   {
@@ -18,7 +30,7 @@
     "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 72,
+    "upvotes": 73,
     "org": "ifm",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
   },
@@ -29,21 +41,9 @@
     "summary": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution…",
     "publishedAt": "2026-11-15T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 67,
+    "upvotes": 69,
     "org": "nanyangtechnologicaluniversity",
     "githubRepo": "https://github.com/allocflow/AllocFlow",
-    "firstSeenAt": "2026-11-17T16:12:10.860Z"
-  },
-  {
-    "id": "2611.21218",
-    "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-    "url": "https://huggingface.co/papers/2611.21218",
-    "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four public benchmarks…",
-    "publishedAt": "2026-11-16T00:00:00.000Z",
-    "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 62,
-    "org": null,
-    "githubRepo": "https://github.com/panuvi/inclusionmed",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
   },
   {
@@ -53,7 +53,7 @@
     "summary": "Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends on a model that may read the attacker's text and adds model calls to every step. Provenance defenses keep the model off the final check but…",
     "publishedAt": "2026-11-04T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 56,
     "org": "saintmachines",
     "githubRepo": "https://github.com/saintmachines/spillway",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
@@ -65,7 +65,7 @@
     "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct…",
     "publishedAt": "2026-11-15T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 44,
+    "upvotes": 46,
     "org": "tokenwave-ai",
     "githubRepo": "https://github.com/TokenWave-AI/swe-cowork-bench",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
@@ -88,7 +88,7 @@
     "summary": "Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions. Each task provides a working program and specifies the workload, correctness requirements, timing boundaries, and…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 16,
+    "upvotes": 17,
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/AdAstraAbyssoque/accelerate-bench",
@@ -101,7 +101,7 @@
     "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 124,
+    "upvotes": 126,
     "org": null,
     "firstSeenAt": "2026-11-16T06:44:24.686Z"
   },
@@ -112,7 +112,7 @@
     "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 119,
+    "upvotes": 122,
     "org": null,
     "githubRepo": "https://github.com/RainBowLuoCS/Gamer",
     "firstSeenAt": "2026-11-16T19:41:52.882Z"
@@ -124,7 +124,7 @@
     "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D…",
     "publishedAt": "2026-11-11T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 88,
+    "upvotes": 89,
     "org": "kling-keye",
     "githubRepo": "https://github.com/vibeprevisbench/vibeprevisbench",
     "firstSeenAt": "2026-11-16T19:41:52.882Z"

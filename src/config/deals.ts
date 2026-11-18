@@ -226,6 +226,26 @@ export const CURATED_DEALS: CuratedDeal[] = [
     url: "https://deepgram.com/pricing",
     mustContain: "What does the \\$200 free credit cover",
   },
+  {
+    id: "oracle-cloud-free-tier",
+    title: "Oracle Cloud — Free Tier",
+    provider: "Oracle Cloud",
+    kind: "free-tier",
+    description:
+      "Oracle's Free Tier account includes Always Free Services plus a US$300 cloud credit that can be spent during the first 30 days.",
+    url: "https://www.oracle.com/cloud/free/",
+    mustContain: "Always Free Services in your Free Tier account",
+  },
+  {
+    id: "v0-free-plan",
+    title: "v0 — Free Plan",
+    provider: "Vercel v0",
+    kind: "free-tier",
+    description:
+      "v0's pricing page lists a Free plan at $0 per month with free access to v0, deployment to Vercel, Design Mode, GitHub sync and a 7 message/day limit.",
+    url: "https://v0.app/pricing",
+    mustContain: "7 message/day limit",
+  },
 ];
 
 export const DEAL_SIGNALS = {

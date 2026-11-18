@@ -284,6 +284,33 @@
     "contentHash": "cd28e7759791"
   },
   {
+    "id": "e08fa0eb6edea708",
+    "lab": "nvidia",
+    "title": "TensorRT-LLM v1.4.0",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.4.0rc4",
+    "sourceId": "tensorrt-llm",
+    "sourceName": "GitHub · NVIDIA/TensorRT-LLM",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-15T23:44:58.000Z",
+    "firstSeenAt": "2026-11-18T04:02:12.893Z",
+    "updatedAt": "2026-11-15T23:44:58.000Z",
+    "excerpt": "[https://nvbugs/5989912][test] Unwaive Relu2 NVFP4 MoE backend test (…",
+    "summary": "NVIDIA shipped TensorRT-LLM v1.4.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "93eddd60d39a",
+    "meta": {
+      "version": "v1.4.0",
+      "semver": "minor",
+      "repo": "NVIDIA/TensorRT-LLM"
+    }
+  },
+  {
     "id": "408f1e399c8022f8",
     "lab": "nvidia",
     "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
@@ -2547,10 +2574,10 @@
       "74B-A9B",
       "multimodal"
     ],
-    "importance": 68,
+    "importance": 69,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 204,
+      "likes": 205,
       "downloads": 38473,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -2746,7 +2773,7 @@
     "importance": 72,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 491,
+      "likes": 492,
       "downloads": 157536,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
