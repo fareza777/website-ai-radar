@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T11:51:28.824Z",
+  "generatedAt": "2026-11-19T20:45:55.873Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 11,
+      "press": 15,
       "outlets": [
         "TestingCatalog AI News",
         "The Decoder",
@@ -20,12 +20,16 @@
         "The GitHub Blog",
         "Unite.AI",
         "Android Authority",
+        "Interesting Engineering",
         "The New Stack",
         "SiliconANGLE",
-        "shattered.io"
+        "shattered.io",
+        "InfoWorld",
+        "AI Magazine",
+        "The Rundown AI"
       ],
       "firstAt": "2026-11-18T10:12:31.000Z",
-      "lastAt": "2026-11-19T08:56:23.000Z",
+      "lastAt": "2026-11-19T13:51:49.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
       "lead": {
         "kind": "official",
@@ -93,6 +97,7 @@
       "official": 1,
       "press": 24,
       "outlets": [
+        "Small Business Trends",
         "Search Engine Roundtable",
         "The GitHub Blog",
         "Seeking Alpha",
@@ -113,14 +118,13 @@
         "Android Authority",
         "MIXED News",
         "Brave New Coin",
-        "Small Business Trends",
         "shattered.io",
         "Tom's Guide",
         "PPC Land",
         "CASRAI",
         "EdTech Innovation Hub"
       ],
-      "firstAt": "2026-11-10T16:00:00.000Z",
+      "firstAt": "2026-11-10T08:00:00.000Z",
       "lastAt": "2026-11-16T19:34:27.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
       "lead": {
@@ -221,28 +225,6 @@
       "importance": 87
     },
     {
-      "id": "c17142ddb1c0aa72",
-      "title": "Amazon Bedrock now offers Claude Mythos 5.2 to Eligible Customers in AWS GovCloud (US)",
-      "entity": "Claude 5.2",
-      "labs": [
-        "amazon",
-        "anthropic"
-      ],
-      "official": 2,
-      "press": 1,
-      "outlets": [
-        "Mashable"
-      ],
-      "firstAt": "2026-11-09T18:30:00.000Z",
-      "lastAt": "2026-11-10T18:22:58.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud",
-      "lead": {
-        "kind": "official",
-        "id": "c17142ddb1c0aa72"
-      },
-      "importance": 87
-    },
-    {
       "id": "8f2daa11c5051ada",
       "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
       "entity": "GLM 5.3 Across",
@@ -263,49 +245,6 @@
       "importance": 85
     },
     {
-      "id": "51fd6bae6a94af5c",
-      "title": "NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
-      "entity": "Nemotron 3.5 Super",
-      "labs": [
-        "amazon",
-        "nvidia"
-      ],
-      "official": 1,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-11-09T20:01:20.000Z",
-      "lastAt": "2026-11-09T20:01:20.000Z",
-      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart",
-      "lead": {
-        "kind": "official",
-        "id": "51fd6bae6a94af5c"
-      },
-      "importance": 85
-    },
-    {
-      "id": "7da1b2b4758f6148",
-      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "entity": "Gemini 2.5",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 1,
-      "press": 3,
-      "outlets": [
-        "The Decoder",
-        "A3 Association for Advancing Automation",
-        "AI Insider"
-      ],
-      "firstAt": "2026-11-09T19:51:47.000Z",
-      "lastAt": "2026-11-11T13:54:09.000Z",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
-      "lead": {
-        "kind": "official",
-        "id": "7da1b2b4758f6148"
-      },
-      "importance": 79
-    },
-    {
       "id": "qwen:075ae9bbb51baf",
       "title": "Alibaba Launches Qwen4-Max AI Model with 2.4 Trillion Parameters",
       "entity": "Qwen 4 Max",
@@ -314,7 +253,7 @@
         "moonshot"
       ],
       "official": 0,
-      "press": 24,
+      "press": 26,
       "outlets": [
         "BigGo Finance",
         "AIBase",
@@ -345,16 +284,18 @@
         "eWeek",
         "Decrypt",
         "Yahoo Tech",
-        "KuCoin"
+        "KuCoin",
+        "The Edge Malaysia",
+        "TNGlobal"
       ],
       "firstAt": "2026-11-11T04:25:00.000Z",
-      "lastAt": "2026-11-16T23:25:00.000Z",
+      "lastAt": "2026-11-19T10:09:37.000Z",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0llVDN6V1dUODNxdTUtajZ6aElDeUp1cXc3UzdnS0JEbVpTZTJ2cVdFS0VtQV83TmdMRU55RGZSU3dfTF9rYVBGcGN6VzRCREJhMGdVeU9EMmVkUjR6TnVsSmdtcGpfdC00UUFoaC00VG9tZHBXZHZlUUF2Y0dTNVd2eDdIbkhKeFVuQVcyeU1MQQ?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:075ae9bbb51baf"
       },
-      "importance": 70
+      "importance": 71
     },
     {
       "id": "0566809c65753b53",
@@ -431,6 +372,30 @@
         "id": "nvidia:1d03a12adeb33b"
       },
       "importance": 58
+    },
+    {
+      "id": "bytedance:e0a30a3b2af64c",
+      "title": "U.S. House panel seeks Microsoft briefing on reported ByteDance AI cloud talks",
+      "entity": null,
+      "labs": [
+        "bytedance"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Traders Union",
+        "Business Upturn",
+        "Dataconomy",
+        "Telegraph India"
+      ],
+      "firstAt": "2026-11-18T20:41:29.000Z",
+      "lastAt": "2026-11-18T23:32:57.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVRWaVNzU0t1RVJaTjhCUkV6Q2g3Q2ZiblQ4UGQ1cXJKck1LNnJvN1VKdmdIVVZNd3E5Mm1fT0VjSFlOWmRTUzhLYW9XbC03WV9ZX2VWam5BOEd5ZVZrYnJYNXVlWk1DUE1lYVdJd2N3SnZVZVhtamRrRTBSd1l6S2pLRVR0c2gyZlBEa2dWczM4Nnd4Z2l5b3R3?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "bytedance:e0a30a3b2af64c"
+      },
+      "importance": 56
     },
     {
       "id": "tencent:01e9e109b63045",
@@ -529,23 +494,23 @@
   "trending": {
     "entities": [
       {
-        "name": "Gemini 4 Hydrogen",
-        "count": 30,
-        "prev": 1,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "Qwen 4 Max",
-        "count": 25,
+        "count": 27,
         "prev": 7,
         "labs": []
       },
       {
         "name": "Gemini 4 Neon",
-        "count": 14,
+        "count": 18,
         "prev": 0,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
+        "name": "Gemini 4 Hydrogen",
+        "count": 15,
+        "prev": 16,
         "labs": [
           "google-deepmind"
         ]
@@ -582,12 +547,6 @@
         "labs": []
       },
       {
-        "name": "ERNIE 5.5 Flash",
-        "count": 4,
-        "prev": 14,
-        "labs": []
-      },
-      {
         "name": "DeepSeek 4.1 Pro",
         "count": 3,
         "prev": 1,
@@ -606,19 +565,24 @@
         "labs": [
           "anthropic"
         ]
+      },
+      {
+        "name": "ERNIE 5.5 Flash",
+        "count": 3,
+        "prev": 12,
+        "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
         "count": 78,
-        "prev": 58,
+        "prev": 59,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "meta",
-          "mistral",
           "qwen",
           "cohere",
           "microsoft",
@@ -629,14 +593,15 @@
       },
       {
         "name": "coding",
-        "count": 47,
-        "prev": 44,
+        "count": 44,
+        "prev": 45,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "qwen",
+          "mistral",
+          "cohere",
           "microsoft",
           "amazon",
           "ibm",
@@ -661,9 +626,30 @@
         ]
       },
       {
-        "name": "safety",
+        "name": "rag",
         "count": 9,
-        "prev": 20,
+        "prev": 4,
+        "labs": [
+          "google-deepmind",
+          "cohere",
+          "amazon"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 8,
+        "prev": 5,
+        "labs": [
+          "anthropic",
+          "openai",
+          "microsoft",
+          "amazon"
+        ]
+      },
+      {
+        "name": "safety",
+        "count": 8,
+        "prev": 21,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -675,25 +661,15 @@
         ]
       },
       {
-        "name": "rag",
-        "count": 9,
-        "prev": 3,
-        "labs": [
-          "google-deepmind",
-          "cohere",
-          "amazon"
-        ]
-      },
-      {
-        "name": "mcp",
+        "name": "audio",
         "count": 8,
-        "prev": 6,
+        "prev": 4,
         "labs": [
           "anthropic",
+          "google-deepmind",
           "openai",
-          "qwen",
-          "microsoft",
-          "amazon"
+          "amazon",
+          "ibm"
         ]
       },
       {
@@ -709,20 +685,9 @@
         ]
       },
       {
-        "name": "audio",
-        "count": 4,
-        "prev": 4,
-        "labs": [
-          "anthropic",
-          "openai",
-          "amazon",
-          "ibm"
-        ]
-      },
-      {
         "name": "open-source",
-        "count": 4,
-        "prev": 8,
+        "count": 5,
+        "prev": 7,
         "labs": [
           "microsoft",
           "amazon",
@@ -744,30 +709,6 @@
       ],
       "reports": 2,
       "at": "2026-11-18T15:46:19.000Z"
-    },
-    {
-      "id": "nvidia:8adf1091e01ceb",
-      "lab": "nvidia",
-      "title": "Nvidia expands Vera CPU platform, unveils Nemotron for science, and more (NVDA:NASDAQ)",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLWp6cnRJSDcyRFN1SGx5Z0ttZjc4a1FMMURmY2NDcGtJRURTR3piVmN2OG9ROU5LU2Z3eVBvbmR3MEpkV0c1NDhVUlNBdDJWa2w0c0lRTzFPQV9uSk9pUTZpamZDWUczSEpUWHk1bVltZWRVMHJlUXVVUkJJbHBqT3R3WktQRktSVGNoaEptRnp4LUhQc1hIcC1FV3ZlZUZRRDRVcW9YZw?oc=5",
-      "outlets": [
-        "Seeking Alpha",
-        "TradingView"
-      ],
-      "reports": 2,
-      "at": "2026-11-16T16:29:34.000Z"
-    },
-    {
-      "id": "qwen:1ca2482f40fba9",
-      "lab": "qwen",
-      "title": "Alibaba Launches Qwen4-Max, a Flagship AI Model With Tighter Safety Controls",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcnBlS043cHdPdnJYVmJYRWNDRlB0Tnc3TkQ1WXlrUE9RdEU3c2VaaDFMS1RlOWNuZkpWRkFqLW5nN3E0bk12YWtYX0VYOURJd0UyQ0p0aW10RWpmbnZCSHRsMlNOTEJCbUpZSG1YUUI3bmZCRHBJemFOS0o4bWFiamF0U1dGNTFjZWI5S29XTQ?oc=5",
-      "outlets": [
-        "Technology Org",
-        "Analytics India Magazine"
-      ],
-      "reports": 2,
-      "at": "2026-11-16T11:58:00.000Z"
     }
   ]
 }

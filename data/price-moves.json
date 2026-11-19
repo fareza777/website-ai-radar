@@ -1,5 +1,49 @@
 [
   {
+    "id": "899eabf4b8fa6aa7",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-19T20:45:55.873Z",
+    "field": "prompt",
+    "from": 0.036,
+    "to": 0.15,
+    "change": 316.7
+  },
+  {
+    "id": "065b3228ef0b996d",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-19T20:45:55.873Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.6,
+    "change": 20
+  },
+  {
+    "id": "1d1dc8d18d3fc677",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-11-19T20:45:55.873Z",
+    "field": "prompt",
+    "from": 1.4,
+    "to": 1.19,
+    "change": -15
+  },
+  {
+    "id": "1ee6a910943b4dbd",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-11-19T20:45:55.873Z",
+    "field": "completion",
+    "from": 4.4,
+    "to": 3.74,
+    "change": -15
+  },
+  {
     "id": "61ae46ee451f521d",
     "modelId": "moonshotai/kimi-k3.1-pro",
     "name": "MoonshotAI: Kimi K3.1 Pro",

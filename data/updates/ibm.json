@@ -1,5 +1,32 @@
 [
   {
+    "id": "ae5ce253dfc475e9",
+    "lab": "ibm",
+    "title": "Docling v2.151.1",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.151.1",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-19T15:27:09.000Z",
+    "firstSeenAt": "2026-11-19T20:45:55.873Z",
+    "updatedAt": "2026-11-19T15:27:09.000Z",
+    "excerpt": "Fix service-client: Keep the WebSocket poll fallback within the original timeout ( #5121 ) ( f9249e5 ) service-client: Propagate input iterator errors ( #5013 ) ( 1150323 ) Preserve VLM page-range provenance and verify complete assembly ( #4498 ) ( 5068b03 ) Avoid OpenCV FIPS aborts with Databricks opt-out setting ( #5430 ) ( de09f2a ) docx: Keep XML comments in NOTES, drop processing instructions ( #4584 ) (…",
+    "summary": "IBM shipped Docling v2.151.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 20,
+    "contentHash": "22ab091451f4",
+    "meta": {
+      "version": "v2.151.1",
+      "semver": "patch",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "7b7718e404888565",
     "lab": "ibm",
     "title": "Docling v2.151.0",

@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-20",
+    "generatedAt": "2026-11-19T20:45:55.873Z",
+    "stats": {
+      "updates24h": 28,
+      "labsActive24h": 7,
+      "updates7d": 181,
+      "newModels7d": 40
+    },
+    "source": "template",
+    "headline": "28 updates from 7 AI labs in the last 24 hours · 40 model releases this week.",
+    "bullets": [
+      {
+        "text": "Google DeepMind: Introducing Gemini 4 Neon",
+        "itemId": "b898a1b2127c5756",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Amazon: AWS AppConfig launches support for managing native AI model and AI prompt configuration",
+        "itemId": "a0545391e3564313",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Introducing the Amazon SageMaker JumpStart Model Leaderboard",
+        "itemId": "663fa60cff593cd5",
+        "lab": "amazon"
+      },
+      {
+        "text": "Google DeepMind: Introducing Tool Retrieval in the Gemini API",
+        "itemId": "b00f82b6db94c2e5",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "NVIDIA: NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+        "itemId": "1a7867b3a729efa2",
+        "lab": "nvidia"
+      },
+      {
+        "text": "NVIDIA: Build Tool-Calling Parsers in Rust with AI Agents",
+        "itemId": "2204c015d7a73e8b",
+        "lab": "nvidia"
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "generatedAt": "2026-11-19T11:51:28.824Z",
     "stats": {
@@ -1172,50 +1216,6 @@
         "text": "Cohere: Can AI understand culture?",
         "itemId": "7207c59bed78ddb3",
         "lab": "cohere"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-21",
-    "generatedAt": "2026-10-21T11:59:56.158Z",
-    "stats": {
-      "updates24h": 34,
-      "labsActive24h": 8,
-      "updates7d": 135,
-      "newModels7d": 41
-    },
-    "source": "template",
-    "headline": "34 updates from 8 AI labs in the last 24 hours · 41 model releases this week.",
-    "bullets": [
-      {
-        "text": "Mistral AI: Voxtral 3",
-        "itemId": "afe5d96a9d4684fb",
-        "lab": "mistral"
-      },
-      {
-        "text": "NVIDIA: NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-        "itemId": "3df8ce2aed7d825d",
-        "lab": "nvidia"
-      },
-      {
-        "text": "NVIDIA: Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-        "itemId": "d290a28d44092657",
-        "lab": "nvidia"
-      },
-      {
-        "text": "Amazon: Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
-        "itemId": "753fc98bb47cb9f3",
-        "lab": "amazon"
-      },
-      {
-        "text": "IBM: llm-d 1.0 hardens open-source AI inference for production",
-        "itemId": "8a14a92d09a13dfe",
-        "lab": "ibm"
-      },
-      {
-        "text": "Google DeepMind: Southeast Asia’s digital economy to hit $368 billion",
-        "itemId": "6bc0a4e087e6311f",
-        "lab": "google-deepmind"
       }
     ]
   }
