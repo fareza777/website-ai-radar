@@ -6,7 +6,7 @@
     "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model…",
     "publishedAt": "2026-11-17T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 149,
+    "upvotes": 150,
     "org": "xingchen-agi",
     "firstSeenAt": "2026-11-18T11:54:06.317Z"
   },
@@ -29,7 +29,7 @@
     "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions…",
     "publishedAt": "2026-11-17T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 47,
+    "upvotes": 50,
     "org": "postech",
     "githubRepo": "https://github.com/effl-lab/Weight-Space-Programming",
     "firstSeenAt": "2026-11-18T20:40:41.755Z"
@@ -41,7 +41,7 @@
     "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, and fuses their…",
     "publishedAt": "2026-11-15T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 45,
     "org": null,
     "githubRepo": "https://github.com/GaotangLi/Multi-Branch-Transformer",
     "firstSeenAt": "2026-11-18T20:40:41.755Z"
@@ -53,10 +53,22 @@
     "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods across compatible…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 28,
+    "upvotes": 31,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-18T11:54:06.317Z"
+  },
+  {
+    "id": "2611.21218",
+    "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+    "url": "https://huggingface.co/papers/2611.21218",
+    "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four public benchmarks…",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "submittedAt": "2026-11-17T00:00:00.000Z",
+    "upvotes": 97,
+    "org": null,
+    "githubRepo": "https://github.com/panuvi/inclusionmed",
+    "firstSeenAt": "2026-11-17T16:12:10.860Z"
   },
   {
     "id": "2611.21072",
@@ -71,25 +83,13 @@
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
   },
   {
-    "id": "2611.21218",
-    "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-    "url": "https://huggingface.co/papers/2611.21218",
-    "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four public benchmarks…",
-    "publishedAt": "2026-11-16T00:00:00.000Z",
-    "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 95,
-    "org": null,
-    "githubRepo": "https://github.com/panuvi/inclusionmed",
-    "firstSeenAt": "2026-11-17T16:12:10.860Z"
-  },
-  {
     "id": "2611.21003",
     "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
     "url": "https://huggingface.co/papers/2611.21003",
     "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 82,
+    "upvotes": 84,
     "org": "ifm",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
   },
@@ -160,7 +160,7 @@
     "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 129,
+    "upvotes": 131,
     "org": null,
     "githubRepo": "https://github.com/RainBowLuoCS/Gamer",
     "firstSeenAt": "2026-11-16T19:41:52.882Z"
@@ -172,7 +172,7 @@
     "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 126,
+    "upvotes": 127,
     "org": "grid-robotics",
     "firstSeenAt": "2026-11-16T06:44:24.686Z"
   },

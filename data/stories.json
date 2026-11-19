@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T20:40:41.755Z",
+  "generatedAt": "2026-11-19T02:38:58.783Z",
   "stories": [
     {
       "id": "482148aaa5ddfc2a",
@@ -98,6 +98,33 @@
       "importance": 100
     },
     {
+      "id": "b898a1b2127c5756",
+      "title": "Introducing Gemini 4 Neon",
+      "entity": "Gemini 4 Neon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 1,
+      "press": 5,
+      "outlets": [
+        "TestingCatalog AI News",
+        "The Decoder",
+        "The GitHub Blog",
+        "Breakingthenews.net",
+        "Unite.AI",
+        "The Defiant",
+        "The New Stack"
+      ],
+      "firstAt": "2026-11-18T10:12:31.000Z",
+      "lastAt": "2026-11-19T00:46:34.000Z",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
+      "lead": {
+        "kind": "official",
+        "id": "b898a1b2127c5756"
+      },
+      "importance": 99
+    },
+    {
       "id": "05f1e3cef6173c85",
       "title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
       "entity": "Claude Opus 5.5",
@@ -145,28 +172,6 @@
       "importance": 94
     },
     {
-      "id": "ffe8a09e969fa29a",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "entity": "Claude 5.2",
-      "labs": [
-        "anthropic",
-        "amazon"
-      ],
-      "official": 4,
-      "press": 1,
-      "outlets": [
-        "Mashable"
-      ],
-      "firstAt": "2026-11-09T00:00:00.000Z",
-      "lastAt": "2026-11-10T18:22:58.000Z",
-      "url": "https://anthropic.com/claude-fable-and-mythos-5-2",
-      "lead": {
-        "kind": "official",
-        "id": "ffe8a09e969fa29a"
-      },
-      "importance": 92
-    },
-    {
       "id": "2a6900735adaed7f",
       "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
       "entity": "DeepSeek 4 Pro",
@@ -207,6 +212,28 @@
       "lead": {
         "kind": "official",
         "id": "134ab56ca337ce36"
+      },
+      "importance": 87
+    },
+    {
+      "id": "c17142ddb1c0aa72",
+      "title": "Amazon Bedrock now offers Claude Mythos 5.2 to Eligible Customers in AWS GovCloud (US)",
+      "entity": "Claude 5.2",
+      "labs": [
+        "amazon",
+        "anthropic"
+      ],
+      "official": 2,
+      "press": 1,
+      "outlets": [
+        "Mashable"
+      ],
+      "firstAt": "2026-11-09T18:30:00.000Z",
+      "lastAt": "2026-11-10T18:22:58.000Z",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud",
+      "lead": {
+        "kind": "official",
+        "id": "c17142ddb1c0aa72"
       },
       "importance": 87
     },
@@ -352,7 +379,7 @@
         "baidu"
       ],
       "official": 0,
-      "press": 7,
+      "press": 8,
       "outlets": [
         "KuCoin",
         "Pandaily",
@@ -512,8 +539,8 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 8,
-        "prev": 4,
+        "count": 7,
+        "prev": 5,
         "labs": [
           "amazon"
         ]
@@ -521,7 +548,15 @@
       {
         "name": "Gemini 4 Carbon",
         "count": 7,
-        "prev": 22,
+        "prev": 21,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
+        "name": "Gemini 4 Neon",
+        "count": 6,
+        "prev": 0,
         "labs": [
           "google-deepmind"
         ]
@@ -538,7 +573,7 @@
       {
         "name": "ERNIE 5.5 Flash",
         "count": 5,
-        "prev": 23,
+        "prev": 24,
         "labs": []
       },
       {
@@ -558,30 +593,22 @@
         "count": 3,
         "prev": 1,
         "labs": []
-      },
-      {
-        "name": "Claude Opus 5.5",
-        "count": 3,
-        "prev": 3,
-        "labs": [
-          "anthropic"
-        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 81,
-        "prev": 51,
+        "count": 79,
+        "prev": 58,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "meta",
           "mistral",
+          "cohere",
           "qwen",
           "microsoft",
-          "cohere",
           "amazon",
           "ibm",
           "nvidia"
@@ -590,7 +617,7 @@
       {
         "name": "coding",
         "count": 48,
-        "prev": 39,
+        "prev": 44,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -605,16 +632,16 @@
       },
       {
         "name": "multimodal",
-        "count": 13,
-        "prev": 12,
+        "count": 12,
+        "prev": 13,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "minimax",
+          "cohere",
           "microsoft",
           "tencent",
-          "cohere",
           "amazon",
           "ibm",
           "nvidia"
@@ -622,8 +649,8 @@
       },
       {
         "name": "safety",
-        "count": 11,
-        "prev": 18,
+        "count": 9,
+        "prev": 21,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -632,18 +659,6 @@
           "amazon",
           "ibm",
           "nvidia"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 9,
-        "prev": 5,
-        "labs": [
-          "anthropic",
-          "openai",
-          "qwen",
-          "microsoft",
-          "amazon"
         ]
       },
       {
@@ -657,25 +672,26 @@
         ]
       },
       {
+        "name": "mcp",
+        "count": 8,
+        "prev": 6,
+        "labs": [
+          "anthropic",
+          "openai",
+          "qwen",
+          "microsoft",
+          "amazon"
+        ]
+      },
+      {
         "name": "reasoning",
-        "count": 7,
-        "prev": 4,
+        "count": 6,
+        "prev": 5,
         "labs": [
           "google-deepmind",
           "openai",
           "microsoft",
           "amazon",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 5,
-        "prev": 6,
-        "labs": [
-          "microsoft",
-          "amazon",
-          "ibm",
           "nvidia"
         ]
       },
@@ -688,6 +704,17 @@
           "openai",
           "amazon",
           "ibm"
+        ]
+      },
+      {
+        "name": "open-source",
+        "count": 4,
+        "prev": 8,
+        "labs": [
+          "microsoft",
+          "amazon",
+          "ibm",
+          "nvidia"
         ]
       }
     ]

@@ -1,5 +1,47 @@
 [
   {
+    "id": "39113a3d302aec62",
+    "modelId": "xiaomi/mimo-v2.5-pro",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "at": "2026-11-19T02:38:58.783Z",
+    "field": "prompt",
+    "from": 0.435,
+    "to": 0.48,
+    "change": 10.3
+  },
+  {
+    "id": "baf3e61c55e0e8ef",
+    "modelId": "xiaomi/mimo-v2.5-pro",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "at": "2026-11-19T02:38:58.783Z",
+    "field": "completion",
+    "from": 0.87,
+    "to": 1.8,
+    "change": 106.9
+  },
+  {
+    "id": "8aedfb61fb1e12a6",
+    "modelId": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "lab": "deepseek",
+    "at": "2026-11-19T02:38:58.783Z",
+    "field": "prompt",
+    "from": 0.5,
+    "to": 0.571,
+    "change": 14.2
+  },
+  {
+    "id": "da9fb8c58c2639a4",
+    "modelId": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "lab": "deepseek",
+    "at": "2026-11-19T02:38:58.783Z",
+    "field": "completion",
+    "from": 2.15,
+    "to": 2.286,
+    "change": 6.3
+  },
+  {
     "id": "b3916cde0a62ceb4",
     "modelId": "z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",
