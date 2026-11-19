@@ -5286,9 +5286,9 @@
     "benefit": "Developers using Codex CLI get realtime voice in the terminal and cleaner behavior when a WebSocket request is too large."
   },
   "c4677f385445c775": {
-    "hash": "b07c9ef5507b",
-    "summary": "OpenAI Agents SDK v0.25.0, released 2026-11-17, exposes utilities for third-party session adapters, removes the Runloop sandbox provider, and fixes nested ToolContext approval decisions across resume and repeated fingerprinting of completed tool calls.",
-    "benefit": "Developers building on the SDK can write their own session adapters and keep approval decisions intact when resuming nested tool calls."
+    "hash": "7731493fe696",
+    "summary": "OpenAI Agents SDK v0.25.0 removes the beta Runloop sandbox provider and changes how Pydantic run contexts are checkpointed; Runloop users should preserve workspace data before switching providers, and applications sharing checkpoints across workers should upgrade readers first.",
+    "benefit": "A clear upgrade order before checkpoint formats change, so agent apps do not break mid-deploy."
   },
   "95e3ce3f2dbab18a": {
     "hash": "03326cd148e8",
@@ -5311,9 +5311,9 @@
     "benefit": "Research computing teams get agent tools that plan experiments, run code, and check results on researchers' own systems, alongside new NVIDIA hardware for high-performance computing."
   },
   "e08fa0eb6edea708": {
-    "hash": "93eddd60d39a",
-    "summary": "NVIDIA released TensorRT-LLM v1.4.0, whose changelog includes unwaiving the Relu2 NVFP4 MoE backend test.",
-    "benefit": "Teams serving models with TensorRT-LLM have a new versioned release whose test changes are recorded in the changelog."
+    "hash": "8e7486858c47",
+    "summary": "TensorRT-LLM v1.4.0 lists known issues including DeepSeek-R1 FP4 disaggregated serving on B300 possibly producing incorrect output under CUDA graphs, GLM-5.2 NVFP4 SM103 TP8 failing to initialize with FlashInfer 0.7.3, and Kimi K3 NVFP4 KV failing to initialize on B300.",
+    "benefit": "Deployers can check their exact model, precision and GPU combination against the known-issue list before upgrading."
   },
   "28890ab245a4cb5d": {
     "hash": "04e3bc41292e",
@@ -5360,14 +5360,251 @@
     "summary": "Qwen Code sdk-typescript v0.1.35 bundles CLI version 0.28.0, built from the same branch or ref as the SDK.",
     "benefit": "TypeScript developers embedding Qwen Code know which CLI release the SDK carries, so bundled and local behavior line up."
   },
-  "55a6d4a31911373a": {
-    "hash": "8a0e3d408855",
-    "summary": "Tencent-Hunyuan opened a new GitHub repository named Hy4-flash.",
-    "benefit": "Developers tracking Tencent's Hunyuan releases can watch Hy4-flash from its first days, before a description is published."
-  },
   "bb45eacd9a41775f": {
     "hash": "357c03cd94ec",
     "summary": "Microsoft Agent Framework (Go SDK) v0.3.1 adds task-aware MCP tools with task response validation and transport lifecycle handling, MCP-backed skills with added sources and lazy lookups, and Builder.WithTaggedOutputFrom for outputs from arbitrary tags, plus new examples.",
     "benefit": "Go developers can expose MCP tools that run as tasks, attach skills from MCP sources, and read workflow outputs from any tag without a custom builder path."
+  },
+  "b898a1b2127c5756": {
+    "hash": "c886a0040e69",
+    "summary": "Google DeepMind introduces Gemini 4 Neon, a new model announced on the DeepMind blog.",
+    "benefit": "A new Gemini model for teams to evaluate against the releases they already run in production."
+  },
+  "2ca4066c8014e29d": {
+    "hash": "f07de344f3a8",
+    "summary": "NVIDIA publishes Qwen3.5-4B-Qwen3.8-27B-Draft, a text-generation model listed with license: other.",
+    "benefit": "Another NVIDIA text-generation checkpoint to test, though its non-standard license limits commercial use."
+  },
+  "663fa60cff593cd5": {
+    "hash": "ff9f015240f4",
+    "summary": "Amazon introduces the Amazon SageMaker JumpStart Model Leaderboard, a comparison layer for the hundreds of open-weight foundation models that JumpStart can deploy quickly.",
+    "benefit": "Teams pick a starting model from one leaderboard instead of reading model cards one at a time and reconciling benchmark scores published under different conditions.",
+    "category": "feature"
+  },
+  "760c502508bd2917": {
+    "hash": "b6ae3442c706",
+    "summary": "Anthropic describes a chaos loop used to harden the Claude Docs launch: two weeks of load testing a staging cluster, breaking the service on purpose and fixing what fell over, producing 60 server errors across billions of requests.",
+    "benefit": "A worked example of an agent closing the loop on reliability testing, useful as a pattern before launching your own service."
+  },
+  "50e3ea47cbae988d": {
+    "hash": "a314b1ed853d",
+    "summary": "Google DeepMind announces that Genie 4 is now available.",
+    "benefit": "Genie 4 is live now, so users of the product can start using it rather than waiting for access."
+  },
+  "8e6075d168e06821": {
+    "hash": "70b6db567fcd",
+    "summary": "The Google Gemini app now supports lower-memory Android devices, including Gemini Live and custom image creation.",
+    "benefit": "Owners of budget Android phones can use Gemini Live and custom image creation without a high-memory device."
+  },
+  "b4f1a99333cf7b25": {
+    "hash": "0c5e110eebf3",
+    "summary": "Tencent releases Hy4-flash, an image-text-to-text model listed with license: other.",
+    "benefit": "A fast Tencent checkpoint for vision-language pipelines, subject to a non-standard license."
+  },
+  "c7d3ecb006439a13": {
+    "hash": "bc8c359f2d3c",
+    "summary": "OpenAI reports that its models optimized circuits used in Jalapeño silicon and improved RISC-V core designs, presented as progress in AI-assisted chip design with GPT-6 Astra.",
+    "benefit": "Evidence that frontier models are already useful in hardware design loops, not only in software tasks."
+  },
+  "2f84abf2faced5de": {
+    "hash": "6f7c01b67f3f",
+    "summary": "Microsoft introduces Azure Catalyst for agentic modernization plus new AI infrastructure innovations, aimed at agents that reason across multi-agent systems, use rich context and run continuously.",
+    "benefit": "An Azure path for modernizing applications with agents, sized for workloads that ask more of every infrastructure layer."
+  },
+  "30de8039d8352415": {
+    "hash": "310063ef2811",
+    "summary": "At Microsoft Ignite 2026 Microsoft announced general availability of Azure Cobalt 200-based VMs, which deliver up to 50% better performance than Cobalt 100 and are available in 14 regions, expanding to 23 regions by the end of 2026.",
+    "benefit": "Cloud-native, data-intensive and agentic AI workloads get more performance per VM, with a stated path to wider regional availability.",
+    "category": "feature"
+  },
+  "812f978215b26b7d": {
+    "hash": "e7b1be5e21a4",
+    "summary": "Microsoft introduces the new Microsoft IQ, which puts an organization's intelligence to work in every agent; AEMO is highlighted as a customer using it to keep Australia's grid secure.",
+    "benefit": "Agents start from your own systems and signals instead of only from frontier models that everyone else also has access to."
+  },
+  "eacbd26a911f6855": {
+    "hash": "4d19723d9044",
+    "summary": "Amazon introduces workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod, addressing GPUs that pass stress tests yet return wrong values, jobs stalled on an NCCL timeout and crashed device plugins on a single node.",
+    "benefit": "Long training runs get checked at the infrastructure level, so faulty hardware is found before a job wastes GPUs or loses progress.",
+    "category": "feature"
+  },
+  "9556d208d7730f5a": {
+    "hash": "cb8c6a90fd37",
+    "summary": "Microsoft releases Aion-1.0-Instruct-2.3B, a text-generation model published under the MIT license.",
+    "benefit": "A small MIT-licensed instruct model that developers can self-host, modify and ship without license constraints."
+  },
+  "2fd3174e967ee25b": {
+    "hash": "431d7a816878",
+    "summary": "Tencent releases Hy4-flash-base, an image-text-to-text model listed with license: other.",
+    "benefit": "A base image-text-to-text checkpoint for teams that want to adapt Tencent's multimodal model themselves."
+  },
+  "c44a0ea9cb71cfe7": {
+    "hash": "68bc4c5441c3",
+    "summary": "At Microsoft Ignite, Microsoft brings continuous improvement to Microsoft Foundry as part of the new Microsoft IQ: an end-to-end system where you build agents, give them context, run them, govern them and improve them over time.",
+    "benefit": "Foundry agents can keep improving from real user questions instead of staying static between model releases."
+  },
+  "037978009f803b44": {
+    "hash": "6a7338ae104e",
+    "summary": "Amazon shows how to connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection, so agent calls to internal REST APIs and MCP servers pass a central firewall in both directions.",
+    "benefit": "Enterprises that own every VPC and subnet can let agents reach internal REST and MCP endpoints without bypassing their firewall.",
+    "category": "feature"
+  },
+  "881783ef802b37af": {
+    "hash": "68646c5e569f",
+    "summary": "Amazon and Stretto describe how Stretto built an AI voice agent with Amazon Nova 2 Sonic for Bankruptcy.com, replacing a short web form whose leads carried thin margins.",
+    "benefit": "A concrete example of a voice agent qualifying customers that previously arrived as thin form leads on Nova 2 Sonic.",
+    "category": "feature"
+  },
+  "9adb1a3d151f885a": {
+    "hash": "76ededa933f7",
+    "summary": "Amazon ElastiCache for Valkey now offers fully managed distributed KV caching, which reduces self-hosted LLM inference costs by up to 40% and time to first token by up to 80%.",
+    "benefit": "Self-hosted LLM teams stop repeating GPU work on resent agent and chat context, cutting inference cost and first-token latency.",
+    "category": "feature"
+  },
+  "1c3eaf246b725d75": {
+    "hash": "5413eb4527cc",
+    "summary": "NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available, bringing local AI agents, image and video generation and model fine-tuning to a Windows PC with up to 128GB of unified memory.",
+    "benefit": "A dedicated desktop that keeps agents and scheduled tasks running locally, with room for larger local models.",
+    "category": "feature"
+  },
+  "53f2a14376dda94d": {
+    "hash": "0ab6f9ba4723",
+    "summary": "OpenAI explains how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux and Windows.",
+    "benefit": "Users can see exactly what Codex may touch locally before enabling it, and set the limits themselves."
+  },
+  "b527b6f0ddceafec": {
+    "hash": "0ff8fdcea724",
+    "summary": "OpenAI describes how Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals and draft code for investment analysis, with early use by executives driving adoption.",
+    "benefit": "An adoption pattern for rolling out ChatGPT Enterprise: leaders use it first, then teams follow.",
+    "category": "developer"
+  },
+  "6cab9c8cd38347e3": {
+    "hash": "5705f6faaf3a",
+    "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+    "benefit": "ChatGPT answers on French news can point to Le Figaro originals rather than only paraphrasing."
+  },
+  "e683d40fba103b5f": {
+    "hash": "9f78d1632abc",
+    "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+    "benefit": "An insider view of the societal side of capability growth, useful for thinking about institutional control."
+  },
+  "25c96fa5a216b598": {
+    "hash": "93af0ecc6e00",
+    "summary": "Anthropic announces that it has priced its initial public offering.",
+    "benefit": "A public-marketing step for a frontier lab, relevant for anyone tracking AI company financing."
+  },
+  "069078b2b4e3b49a": {
+    "hash": "729437fbfb20",
+    "summary": "Anthropic explains how end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.",
+    "benefit": "A verification setup you can copy so coding agents prove their changes instead of asserting they work."
+  },
+  "0f9be8abc3972160": {
+    "hash": "cc0607ce86d8",
+    "summary": "Meta explains how it uses AI agents to propagate ranking model improvements, including architectural advancements and training optimizations, across a large and diverse set of ads ranking models, building on the Ranking Engineer Agent (REA) that generates hypotheses and designs experiments.",
+    "benefit": "A pattern for scaling ML gains across many production models with agents, instead of one engineer per model.",
+    "category": "research"
+  },
+  "f71a79de0ac7158f": {
+    "hash": "fb42a71d4040",
+    "summary": "At Microsoft Ignite, Microsoft and Oracle announced integrations that let AI agents reason across Oracle's business-critical data, from finance and supply chain to HR and customer operations.",
+    "benefit": "Agents can work over enterprise Oracle data in the flow of work instead of needing bespoke plumbing per system."
+  },
+  "7c4d82be4673730d": {
+    "hash": "37dd5fd09e7b",
+    "summary": "Microsoft Ignite 2026 Azure announcements cover Azure AI core, Azure Cobalt 200 VMs, Azure Catalyst agent-led modernization from plan to code, agentic cloud operations, and Azure HorizonDB and Fabric HorizonDB PostgreSQL for AI apps and analytics.",
+    "benefit": "One summary of what Azure now offers for AI and agent workloads, including database options for AI applications."
+  },
+  "a8eb0ed9ef435798": {
+    "hash": "1e388d01a3a8",
+    "summary": "Amazon maps eight responsible-AI controls for a customer support chatbot that queries historical tickets and knowledge base articles stored in Amazon Aurora PostgreSQL-Compatible Edition, where the data can contain sensitive customer information.",
+    "benefit": "A checklist for privacy, accuracy, safety and governance before letting a chatbot query Aurora data."
+  },
+  "0bde53b83f494b1d": {
+    "hash": "06b46cbf861e",
+    "summary": "Amazon SageMaker HyperPod now supports higher pod density per node on EKS-orchestrated clusters, leaving more room for applications alongside system DaemonSets for monitoring, logging and security and raising GPU, CPU and memory utilization.",
+    "benefit": "The same work runs on fewer instances, so clusters get more application capacity per node."
+  },
+  "2f6275b029a22b0e": {
+    "hash": "abbbfe6d71e3",
+    "summary": "Amazon OpenSearch Serverless now supports ingest pipelines, so documents can be cleaned, enriched and vectorized inside the collection as they are indexed, without separate preprocessing infrastructure.",
+    "benefit": "Search, log analytics and generative AI teams can replace Lambda or ETL data-prep code with consistent transformations at index time."
+  },
+  "9fa731b0ef6c1da9": {
+    "hash": "25e0066dd57a",
+    "summary": "OpenAI research measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+    "benefit": "Grounded data for teams automating research work with coding agents: gains exist but are inconsistent.",
+    "category": "model"
+  },
+  "2812f94502590e59": {
+    "hash": "80b8e634d3e9",
+    "summary": "Gemini CLI v0.69.0 adds a /stats heatmap subcommand for daily token usage, preserves literal $ characters during template placeholder replacement and prevents a GCLI_EXPAND_TARGET environment variable collision in expandEnvVars.",
+    "benefit": "Users get a daily token-usage view in the terminal and fewer surprises in environment variable expansion."
+  },
+  "1660bd5638cd0144": {
+    "hash": "19b88c4106fd",
+    "summary": "Google GenAI SDK for Python v3.6.0 adds tool retrieval and function result schemas to the public SDK, retries google.auth TransportError when retries are enabled and fixes cases where parsed JSON contains an oversized integer.",
+    "benefit": "Python developers get schema-backed tool retrieval plus fewer auth and response-parsing failures."
+  },
+  "44013fe75393f221": {
+    "hash": "112222605c29",
+    "summary": "Amazon describes how Airbnb uses cost per task to operate coding agents on Amazon Bedrock, where changes in models and usage can affect latency, capacity and cost.",
+    "benefit": "A cost metric teams can adopt once coding agents move into production on Bedrock.",
+    "category": "feature"
+  },
+  "a18e97945e0f0f1e": {
+    "hash": "70c91e15c68f",
+    "summary": "NVIDIA shows how to build training-ready Physical AI datasets with two prompts in NVIDIA Cosmos, addressing how costly and time-consuming it is to capture rare defects, nighttime incidents and other challenging scenarios.",
+    "benefit": "World model builders can generate the hard-to-capture edge cases their training data is missing.",
+    "category": "developer"
+  },
+  "8b6ac2940fdc0d0e": {
+    "hash": "60744cd485ba",
+    "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards and monitoring.",
+    "benefit": "A view of the layered controls between training and deployment for teams evaluating OpenAI's safeguards."
+  },
+  "53f341ad0b877791": {
+    "hash": "f971d39ae9ca",
+    "summary": "Meta describes a template-driven ML ecosystem that standardizes model design into a small set of reusable templates, because once production models number in the large, the bottleneck is shipping them reliably across a fragmented model space.",
+    "benefit": "ML platform teams get a way to ship many models reliably instead of inventing each design from scratch."
+  },
+  "59cfeb6a6aabd8c2": {
+    "hash": "b28168111eff",
+    "summary": "Amazon Bedrock AgentCore Identity adds private certificate authority support, so agents can connect to self-hosted identity providers such as Keycloak or PingFederate on a private network while trusting TLS certificates issued by a private CA.",
+    "benefit": "Teams running a private IdP can authenticate agents without exposing those providers or reworking their certificates."
+  },
+  "3419790e29929343": {
+    "hash": "4f7bd1bb38c9",
+    "summary": "Amazon SageMaker AI announces cross-Region inference routing, which keeps inference applications available when a region runs short of capacity by sending requests to endpoints deployed in other AWS Regions and AWS accounts.",
+    "benefit": "Capacity shortfalls or an unhealthy endpoint in one Region no longer translate directly into throttling and errors."
+  },
+  "c37b8f83e0ee12ee": {
+    "hash": "e5c04036861a",
+    "summary": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for disaggregated and multi-node inference, managed through the Inference Operator add-on, so models too large for a single instance can be served while token generation stays fast on long prompts.",
+    "benefit": "Teams can serve oversized models without building and operating distributed serving infrastructure themselves."
+  },
+  "d8bd981952184013": {
+    "hash": "4191911aad83",
+    "summary": "Anthropic releases Claude Agent SDK for Python v0.2.185, installable from PyPI.",
+    "benefit": "Agent builders can pin the newest Python release of Claude Agent SDK in their projects."
+  },
+  "249cf944c137757c": {
+    "hash": "c9261e22392d",
+    "summary": "Claude Code v2.1.328 adds auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway, starts interactive sessions with no permission mode in it, and adds onFailure: block for mcp_tool hooks so a failing hook blocks the action.",
+    "benefit": "Safer defaults: auto mode across four providers and MCP tool hooks that can stop an action when the hook call fails."
+  },
+  "fb1afbe2e3845f1c": {
+    "hash": "61b3b52712ae",
+    "summary": "Google GenAI SDK for Python v3.6.1 is a bug-fix release that updates the SDK enum.",
+    "benefit": "A small bug-fix patch for Python users of the Google GenAI SDK."
+  },
+  "ff048dafbc0057a6": {
+    "hash": "691c3faf03ee",
+    "summary": "Mistral Vibe v3.1.3 adds Ctrl+S to stash the input box draft until the next message is sent, a /goal command that keeps working on an objective across turns with edit, pause, resume and clear subcommands, and max_goal_token_budget in config.toml to cap a goal's token budget.",
+    "benefit": "Terminal users get durable drafts and long-running goals with an explicit token budget ceiling."
+  },
+  "e3e877650341579a": {
+    "hash": "ecb491898503",
+    "summary": "Cohere SDK for Python v7.3.3 gives ClientV2 its own embed_stream with v2 parameters.",
+    "benefit": "ClientV2 users can stream embeddings with v2 parameters instead of falling back to the older client."
   }
 }

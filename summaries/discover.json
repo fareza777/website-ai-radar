@@ -801,10 +801,10 @@
     "unique": "It is described as behaviors an agent can use, with an accessibility and ARIA focus, rather than a set of ready-made components.",
     "benefit": "Frontend developers letting agents build interfaces get a layer that names accessibility and ARIA in scope, so generated UI is not just markup."
   },
-  "3111c33ddeb8ee23": {
-    "hash": "19ca7cd3",
-    "summary": "A tool that uses psycholinguistics to deslop an agent's sloppy prose.",
-    "unique": "The stated method is psycholinguistics applied to text an agent has already produced.",
-    "benefit": "Teams shipping agent writing to real users get a tool aimed at the readability of that output."
+  "17815dda4273206c": {
+    "hash": "418d3376",
+    "summary": "An open LLM inference engine for AWS Trainium, built on NKI megakernels, with 1M-token context and an OpenAI-compatible API.",
+    "unique": "It targets AWS Trainium accelerators specifically with NKI megakernels rather than treating them as an afterthought.",
+    "benefit": "Teams running on Trainium get an OpenAI-compatible endpoint for long-context serving they can self-host."
   }
 }

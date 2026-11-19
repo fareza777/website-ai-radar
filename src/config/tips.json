@@ -1,5 +1,64 @@
 [
   {
+    "x": "https://x.com/AnthropicAI/status/2123196808675405860",
+    "note": "Anthropic prices its IPO at $83 per share, with trading expected to begin on Nasdaq the next day.",
+    "by": "qoder",
+    "addedAt": "2026-11-19T04:24:14.227Z"
+  },
+  {
+    "x": "https://x.com/ChatGPT/status/2123159134963196357",
+    "note": "OpenAI makes ChatGPT for Accounting available: an Accounting plugin plus partner plugins for month-end reports, bank reconciliation, data entry and audit prep.",
+    "by": "qoder",
+    "addedAt": "2026-11-19T04:24:01.527Z"
+  },
+  {
+    "x": "https://x.com/GoogleDeepMind/status/2123117733709586849",
+    "note": "DeepMind: Genie 4 is now available in Project Genie, with native audio, real-time editing and a new agent for building interactive worlds.",
+    "by": "qoder",
+    "addedAt": "2026-11-19T04:23:54.687Z"
+  },
+  {
+    "x": "https://x.com/GoogleAI/status/2123168242797809944",
+    "note": "Google AI announces Gemini 4 Neon, its newest model for software engineering, knowledge work and science workflows.",
+    "by": "qoder",
+    "addedAt": "2026-11-19T04:23:47.499Z"
+  },
+  {
+    "x": "https://x.com/mariagorskikh/status/2122403578874609672",
+    "url": "https://maritime.sh",
+    "note": "Nov 16, 2026 thread from Maritime co-founder Maria Gorskikh arguing a sandbox is only 10% of the infrastructure needed to run AI agents; Maritime (YC F26) posted its Launch HN on Nov 18, 2026 and lists agent boxes at $1 a month per 2 GB, with sandboxes, Linux and Windows desktops and Android phones billed per second.",
+    "by": "qoder",
+    "addedAt": "2026-11-19T04:20:37.538Z"
+  },
+  {
+    "x": "https://x.com/RunAnywhereAI/status/2118051683880349787",
+    "url": "https://github.com/RunanywhereAI/trnrt",
+    "note": "Post from RunAnywhere saying it wrote megakernels and open-sourced TrnRT, an Apache 2.0 LLM inference engine for AWS Trainium with 1M-token context and an OpenAI-compatible API; TrnRT was on Show HN Nov 17, 2026.",
+    "by": "qoder",
+    "addedAt": "2026-11-19T04:15:47.176Z"
+  },
+  {
+    "x": "https://x.com/betterhn50/status/2123163467179856280",
+    "url": "https://mastra.ai/factory",
+    "note": "Nov 18, 2026 Show HN post from Mastra open-sourcing Mastra Factory, an agentic kanban board that is @-taggable in Slack and runs coding agents in a customizable cloud sandbox; the post says Factory opened and merged 238 PRs last week alongside 630 merged PRs from humans.",
+    "by": "qoder",
+    "addedAt": "2026-11-19T04:15:44.999Z"
+  },
+  {
+    "x": "https://x.com/betterhn50/status/2122917804135342572",
+    "url": "https://starsling.dev",
+    "note": "Nov 17, 2026 Launch HN post on StarSling (YC P25), GitHub Actions runners where AI agents ship PRs to continuously improve tests and workflows, with every CI job getting its own ephemeral sandbox.",
+    "by": "qoder",
+    "addedAt": "2026-11-19T04:15:42.481Z"
+  },
+  {
+    "x": "https://x.com/radixark/status/2123115052127633536",
+    "url": "https://www.radixark.com/blog/daisyrose-27b",
+    "note": "Nov 18, 2026 post from RadixArk releasing DaisyRose-27B, its first open-weight model, built on Qwen3.8-27B and RL-trained on 1,200 curated long-horizon agent tasks in 18 days on 144 H200 GPUs; the blog says Terminal-Bench 4.1 pass@1 improves from 5.6% to 12.0%, with BF16, FP8 and NVFP4 checkpoints.",
+    "by": "qoder",
+    "addedAt": "2026-11-19T04:15:38.266Z"
+  },
+  {
     "x": "https://x.com/OpenAI/status/2122123437141553630",
     "note": "Nov 16, 2026 post from OpenAI opening a new science blog with physicist Nathaniel Craig on using GPT-6 Astra to develop a candidate lattice definition of the Standard Model.",
     "by": "qoder",

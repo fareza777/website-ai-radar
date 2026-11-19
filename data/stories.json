@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-11-19T02:38:58.783Z",
+  "generatedAt": "2026-11-19T04:06:29.736Z",
   "stories": [
+    {
+      "id": "b898a1b2127c5756",
+      "title": "Introducing Gemini 4 Neon",
+      "entity": "Gemini 4 Neon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 1,
+      "press": 8,
+      "outlets": [
+        "TestingCatalog AI News",
+        "The Decoder",
+        "Crypto Briefing",
+        "The GitHub Blog",
+        "Breakingthenews.net",
+        "Unite.AI",
+        "The Defiant",
+        "Android Authority",
+        "The New Stack",
+        "SiliconANGLE"
+      ],
+      "firstAt": "2026-11-18T10:12:31.000Z",
+      "lastAt": "2026-11-19T02:55:00.000Z",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
+      "lead": {
+        "kind": "official",
+        "id": "b898a1b2127c5756"
+      },
+      "importance": 100
+    },
     {
       "id": "482148aaa5ddfc2a",
       "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
@@ -96,33 +126,6 @@
         "id": "15706f35e993d4cb"
       },
       "importance": 100
-    },
-    {
-      "id": "b898a1b2127c5756",
-      "title": "Introducing Gemini 4 Neon",
-      "entity": "Gemini 4 Neon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 1,
-      "press": 5,
-      "outlets": [
-        "TestingCatalog AI News",
-        "The Decoder",
-        "The GitHub Blog",
-        "Breakingthenews.net",
-        "Unite.AI",
-        "The Defiant",
-        "The New Stack"
-      ],
-      "firstAt": "2026-11-18T10:12:31.000Z",
-      "lastAt": "2026-11-19T00:46:34.000Z",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
-      "lead": {
-        "kind": "official",
-        "id": "b898a1b2127c5756"
-      },
-      "importance": 99
     },
     {
       "id": "05f1e3cef6173c85",
@@ -538,6 +541,14 @@
         "labs": []
       },
       {
+        "name": "Gemini 4 Neon",
+        "count": 9,
+        "prev": 0,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
         "name": "DeepSeek 4.1 Flash",
         "count": 7,
         "prev": 5,
@@ -549,14 +560,6 @@
         "name": "Gemini 4 Carbon",
         "count": 7,
         "prev": 21,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
-        "name": "Gemini 4 Neon",
-        "count": 6,
-        "prev": 0,
         "labs": [
           "google-deepmind"
         ]
@@ -605,13 +608,13 @@
           "google-deepmind",
           "openai",
           "meta",
+          "qwen",
           "mistral",
           "cohere",
-          "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -622,12 +625,12 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "mistral",
           "qwen",
+          "mistral",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -640,11 +643,11 @@
           "openai",
           "minimax",
           "cohere",
-          "microsoft",
           "tencent",
+          "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -657,8 +660,8 @@
           "openai",
           "cohere",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -713,27 +716,13 @@
         "labs": [
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       }
     ]
   },
   "unconfirmed": [
-    {
-      "id": "qwen:d4e0c677e51602",
-      "lab": "qwen",
-      "title": "Alibaba unveils new flagship AI model in riposte to US rivals",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVJzSHdUYUl4Njh5UW9DOWRXYjMxdGlKSF81V0FtRW5DQWwweWNEMXhsRGlsd1htaG9kc2MxX0VYa1FxOEFtaFNtLTh4TTN0ZWFtcWRuRkk3QjRrMm83OVZ2R2JQc2RadEdLUEVGUjRDVHlBOVoxOHF4T1cyU2RLTGl6U1VxVkVpbVg1Sk82blNFRDgtYnAzWnM3WHdTSTVp?oc=5",
-      "outlets": [
-        "The Straits Times",
-        "The Standard (HK)",
-        "The Business Times",
-        "Yahoo Finance"
-      ],
-      "reports": 4,
-      "at": "2026-11-16T03:12:00.000Z"
-    },
     {
       "id": "qwen:075ae9bbb51baf",
       "lab": "qwen",
@@ -782,18 +771,6 @@
       ],
       "reports": 2,
       "at": "2026-11-16T11:58:00.000Z"
-    },
-    {
-      "id": "qwen:0d8893271533fe",
-      "lab": "qwen",
-      "title": "Alibaba launches Qwen4-Max model with strict cybersecurity guardrails",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHl0ZVByMTFnMVVaU2h5UFBhMzFaVmFKQi1pcGhPb3lLeTdjdGh4TkpnU0FPUVAyMU9rYjV2UkhFdjhOUHRDVUFMRm9seUVzWDRzeno1YllqLVpmY3R6WmI5bnJSS1lkeFAzSm1lM1pkWnAtclpOQmxRWFVwMmZaVjE2cy1KYzRJcEw5RUVIbVExdlhveFJYLU1HRTFSVERTV2VzdHFtS1J2SE1PMjBFbVNYMFNRSmZmT3FtV2kxYUd0QmdBSkJMb3pGUWJTUGFzcC1wYg?oc=5",
-      "outlets": [
-        "South China Morning Post",
-        "news.lavx.hu"
-      ],
-      "reports": 2,
-      "at": "2026-11-16T03:56:53.000Z"
     }
   ]
 }
