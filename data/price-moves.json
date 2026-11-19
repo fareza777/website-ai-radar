@@ -1,5 +1,92 @@
 [
   {
+    "id": "61ae46ee451f521d",
+    "modelId": "moonshotai/kimi-k3.1-pro",
+    "name": "MoonshotAI: Kimi K3.1 Pro",
+    "lab": "moonshot",
+    "at": "2026-11-19T11:51:28.824Z",
+    "field": "prompt",
+    "from": 0.2403,
+    "to": 0.253,
+    "change": 5.3
+  },
+  {
+    "id": "846b4e80d57cebb4",
+    "modelId": "moonshotai/kimi-k3.1-pro",
+    "name": "MoonshotAI: Kimi K3.1 Pro",
+    "lab": "moonshot",
+    "at": "2026-11-19T11:51:28.824Z",
+    "field": "completion",
+    "from": 8.4023,
+    "to": 8.8,
+    "change": 4.7
+  },
+  {
+    "id": "9ad0a950a1d4c039",
+    "modelId": "reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "at": "2026-11-19T11:51:28.824Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.25,
+    "change": -16.7
+  },
+  {
+    "id": "c55065dc91026275",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-19T11:51:28.824Z",
+    "field": "prompt",
+    "from": 0.051,
+    "to": 0.3,
+    "change": 488.2
+  },
+  {
+    "id": "839af3f67fed11fa",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-19T11:51:28.824Z",
+    "field": "completion",
+    "from": 0.567,
+    "to": 1.2,
+    "change": 111.6
+  },
+  {
+    "id": "33f942d047c8a7cb",
+    "modelId": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "lab": "qwen",
+    "at": "2026-11-19T11:51:28.824Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.195,
+    "change": -35
+  },
+  {
+    "id": "7bdc0d00ea04894f",
+    "modelId": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "lab": "qwen",
+    "at": "2026-11-19T11:51:28.824Z",
+    "field": "completion",
+    "from": 2.4,
+    "to": 1.56,
+    "change": -35
+  },
+  {
+    "id": "c1e495abf48af836",
+    "modelId": "google/gemma-3-27b-it",
+    "name": "Google: Gemma 3 27B",
+    "lab": "google-deepmind",
+    "at": "2026-11-19T11:51:28.824Z",
+    "field": "completion",
+    "from": 0.45,
+    "to": 0.16,
+    "change": -64.4
+  },
+  {
     "id": "a007769d61be62c6",
     "modelId": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",

@@ -1,5 +1,34 @@
 [
   {
+    "id": "7b7718e404888565",
+    "lab": "ibm",
+    "title": "Docling v2.151.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.151.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-19T09:58:07.000Z",
+    "firstSeenAt": "2026-11-19T11:51:28.824Z",
+    "updatedAt": "2026-11-19T09:58:07.000Z",
+    "excerpt": "Feature pptx: Read waterfall, treemap and the other Office 2016 charts ( #5371 ) ( 440492a ) email: Add the events of calendar invitations ( #5357 ) ( 6d3bb9e ) Fix pptx: Limit the decompressed size of PPTX archive members ( #5113 ) ( 587d121 ) granite_vision: Render table and chart crops at a configurable scale ( #5460 ) ( d1a7b7b ) Tolerate malformed PPTX and Pages hyperlink URLs ( #5384 ) ( 6497a33 ) latex: Keep…",
+    "summary": "IBM shipped Docling v2.151.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 40,
+    "contentHash": "c0a34833ee25",
+    "meta": {
+      "version": "v2.151.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "0e7178620825949f",
     "lab": "ibm",
     "title": "How low-SWaP radar is making sophisticated sensing smarter",
@@ -956,7 +985,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 56,
-      "downloads": 5973,
+      "downloads": 5931,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -987,7 +1016,7 @@
     "contentHash": "6f6f69225449",
     "meta": {
       "likes": 47,
-      "downloads": 4793,
+      "downloads": 4754,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1201,7 +1230,7 @@
     "contentHash": "a598e14a409a",
     "meta": {
       "likes": 86,
-      "downloads": 11289,
+      "downloads": 11520,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -1432,7 +1461,7 @@
     "contentHash": "e90d15ccd854",
     "meta": {
       "likes": 20,
-      "downloads": 842,
+      "downloads": 982,
       "repo": "ibm-granite/granite-4.1-8b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1463,7 +1492,7 @@
     "contentHash": "4a790aae3abc",
     "meta": {
       "likes": 18,
-      "downloads": 2433,
+      "downloads": 2605,
       "repo": "ibm-granite/granite-4.1-3b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1514,7 +1543,7 @@
     "contentHash": "30e0f1167733",
     "meta": {
       "likes": 8,
-      "downloads": 316,
+      "downloads": 310,
       "repo": "ibm-granite/granite-timeseries-ensemble-r1",
       "pipeline": "time-series-forecasting",
       "license": "apache-2.0"
