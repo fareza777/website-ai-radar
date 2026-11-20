@@ -1,21 +1,16 @@
 [
   {
     "date": "2026-11-20",
-    "generatedAt": "2026-11-20T02:23:48.801Z",
+    "generatedAt": "2026-11-20T11:52:27.345Z",
     "stats": {
-      "updates24h": 31,
-      "labsActive24h": 7,
-      "updates7d": 184,
-      "newModels7d": 40
+      "updates24h": 26,
+      "labsActive24h": 8,
+      "updates7d": 183,
+      "newModels7d": 42
     },
     "source": "template",
-    "headline": "31 updates from 7 AI labs in the last 24 hours · 40 model releases this week.",
+    "headline": "26 updates from 8 AI labs in the last 24 hours · 42 model releases this week.",
     "bullets": [
-      {
-        "text": "Amazon: AWS AppConfig launches support for managing native AI model and AI prompt configuration",
-        "itemId": "a0545391e3564313",
-        "lab": "amazon"
-      },
       {
         "text": "Google DeepMind: Introducing Tool Retrieval in the Gemini API",
         "itemId": "b00f82b6db94c2e5",
@@ -29,6 +24,11 @@
       {
         "text": "Amazon: Amazon Polly launches voice cloning: A unique voice for your brand",
         "itemId": "5590d4d47ed2184b",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Use Kimi Code CLI with models on Amazon Bedrock",
+        "itemId": "c7569a295cb76304",
         "lab": "amazon"
       },
       {

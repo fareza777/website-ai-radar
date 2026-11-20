@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T02:23:48.801Z",
+  "generatedAt": "2026-11-20T11:52:27.345Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 16,
+      "press": 17,
       "outlets": [
         "TestingCatalog AI News",
         "The Decoder",
@@ -27,6 +27,7 @@
         "shattered.io",
         "InfoWorld",
         "AI Magazine",
+        "Yahoo Finance",
         "The Rundown AI",
         "OODA Loop"
       ],
@@ -97,9 +98,8 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 24,
+      "press": 23,
       "outlets": [
-        "Small Business Trends",
         "Search Engine Roundtable",
         "The GitHub Blog",
         "Seeking Alpha",
@@ -126,7 +126,7 @@
         "CASRAI",
         "EdTech Innovation Hub"
       ],
-      "firstAt": "2026-11-10T08:00:00.000Z",
+      "firstAt": "2026-11-10T16:00:00.000Z",
       "lastAt": "2026-11-16T19:34:27.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
       "lead": {
@@ -134,6 +134,30 @@
         "id": "15706f35e993d4cb"
       },
       "importance": 100
+    },
+    {
+      "id": "549a77347d5e1e5f",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "entity": "GPT 6.2 Astra",
+      "labs": [
+        "amazon",
+        "openai"
+      ],
+      "official": 2,
+      "press": 2,
+      "outlets": [
+        "9to5Mac",
+        "The GitHub Blog",
+        "VentureBeat"
+      ],
+      "firstAt": "2026-11-17T17:17:00.000Z",
+      "lastAt": "2026-11-17T22:33:40.000Z",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "lead": {
+        "kind": "official",
+        "id": "549a77347d5e1e5f"
+      },
+      "importance": 96
     },
     {
       "id": "05f1e3cef6173c85",
@@ -158,29 +182,6 @@
         "id": "05f1e3cef6173c85"
       },
       "importance": 96
-    },
-    {
-      "id": "549a77347d5e1e5f",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "entity": "GPT 6.2 Astra",
-      "labs": [
-        "amazon",
-        "openai"
-      ],
-      "official": 2,
-      "press": 2,
-      "outlets": [
-        "9to5Mac",
-        "VentureBeat"
-      ],
-      "firstAt": "2026-11-17T17:17:00.000Z",
-      "lastAt": "2026-11-17T22:33:40.000Z",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "lead": {
-        "kind": "official",
-        "id": "549a77347d5e1e5f"
-      },
-      "importance": 94
     },
     {
       "id": "2a6900735adaed7f",
@@ -255,7 +256,7 @@
         "moonshot"
       ],
       "official": 0,
-      "press": 26,
+      "press": 27,
       "outlets": [
         "BigGo Finance",
         "AIBase",
@@ -266,6 +267,7 @@
         "Tech Times",
         "mobidevices.com",
         "Technetbook",
+        "Vals AI",
         "www.tokenpost.com",
         "The Defiant",
         "South China Morning Post",
@@ -364,7 +366,8 @@
         "Kitco",
         "Investing.com",
         "The Lufkin Daily News",
-        "TradingView"
+        "TradingView",
+        "WTVB"
       ],
       "firstAt": "2026-11-12T08:00:00.000Z",
       "lastAt": "2026-11-16T11:00:00.000Z",
@@ -373,7 +376,7 @@
         "kind": "press",
         "id": "nvidia:1d03a12adeb33b"
       },
-      "importance": 58
+      "importance": 59
     },
     {
       "id": "tencent:01e9e109b63045",
@@ -384,20 +387,21 @@
         "deepseek"
       ],
       "official": 0,
-      "press": 3,
+      "press": 4,
       "outlets": [
         "KuCoin",
         "Tom's Hardware",
-        "Carroll County Mirror-Democrat"
+        "Carroll County Mirror-Democrat",
+        "LMSYS Org"
       ],
       "firstAt": "2026-11-13T08:24:30.000Z",
-      "lastAt": "2026-11-18T04:25:52.000Z",
+      "lastAt": "2026-11-19T22:14:30.000Z",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR1pvMzVTSG1nSk1FR2NxcFp6cGZ0WEl5TExpNEFOT09RZUFHVTYweEJXRmZ3NVFCOWtwZGR6OWstM1FhWmJnWFdDX2FTRTVaUU9xbHVHY08xdWV2VWZ6MEV0bE5oQW13eHh3enpjMnU5b0JWM0ZZaVVRN2pzaXpuVlpqUmtLMTZkVmNCQU12WERlTDFHRFpIQUl6cW9aZGFFdGpILU1fVU5ya3NaUVVBTy04NTZ3UG1aMjVEb0ZpWXFWLUpRTGJERA?oc=5",
       "lead": {
         "kind": "press",
         "id": "tencent:01e9e109b63045"
       },
-      "importance": 56
+      "importance": 57
     },
     {
       "id": "cohere:234d2d221df3e4",
@@ -422,29 +426,6 @@
         "id": "cohere:234d2d221df3e4"
       },
       "importance": 56
-    },
-    {
-      "id": "microsoft:9a1d1682f2806f",
-      "title": "Microsoft Foundry adds Baseten, DeepSeek AI inference",
-      "entity": null,
-      "labs": [
-        "microsoft",
-        "deepseek"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Seeking Alpha",
-        "TradingView"
-      ],
-      "firstAt": "2026-11-18T05:39:00.000Z",
-      "lastAt": "2026-11-18T05:39:09.000Z",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUXRiUW5nNy1OTkFvd3lQclc3akZKMWMtazFWSU5WVEN6c1N0WmNPd2tzanFMYUlTZHdOVFdRN2Z4NzREVlpINGFpU0xIc2JKS0p0TWM5SV9UalZ0eFktTXBfaDFfb2d2TF8tNzVyMmhxNGlmTkMwUFBCVF9sRDN4UVN1WHB0THBQbjhFX3Z2dmI1dmJpMUdueC1oZjhpZVVydW85YWhkc3l0LTNHYzhRYTZJQlJ3U2xBYmFsenppMHpHVmlHdjJ4TjJxR3JUMVk?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "microsoft:9a1d1682f2806f"
-      },
-      "importance": 54
     },
     {
       "id": "cohere:605197a12a80b5",
@@ -473,13 +454,13 @@
     "entities": [
       {
         "name": "Qwen 4 Max",
-        "count": 27,
+        "count": 28,
         "prev": 7,
         "labs": []
       },
       {
         "name": "Gemini 4 Neon",
-        "count": 19,
+        "count": 20,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -487,8 +468,8 @@
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 13,
-        "prev": 18,
+        "count": 10,
+        "prev": 21,
         "labs": [
           "google-deepmind"
         ]
@@ -496,7 +477,7 @@
       {
         "name": "DeepSeek 4.1 Flash",
         "count": 7,
-        "prev": 3,
+        "prev": 4,
         "labs": [
           "amazon"
         ]
@@ -511,24 +492,18 @@
         ]
       },
       {
-        "name": "Gemini 4 Carbon",
-        "count": 5,
-        "prev": 23,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "Qwen 3.8 Max",
         "count": 4,
         "prev": 0,
         "labs": []
       },
       {
-        "name": "DeepSeek 4.1 Pro",
-        "count": 3,
-        "prev": 1,
-        "labs": []
+        "name": "Gemini 4 Carbon",
+        "count": 4,
+        "prev": 24,
+        "labs": [
+          "google-deepmind"
+        ]
       },
       {
         "name": "Claude Opus 5.5",
@@ -541,32 +516,32 @@
       {
         "name": "ERNIE 5.5 Flash",
         "count": 3,
-        "prev": 12,
+        "prev": 10,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 77,
-        "prev": 63,
+        "count": 75,
+        "prev": 66,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "openai",
           "meta",
+          "openai",
           "qwen",
           "cohere",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 44,
-        "prev": 50,
+        "count": 43,
+        "prev": 51,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -576,13 +551,13 @@
           "cohere",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 14,
+        "count": 18,
         "prev": 12,
         "labs": [
           "anthropic",
@@ -590,11 +565,11 @@
           "openai",
           "minimax",
           "cohere",
-          "tencent",
           "microsoft",
+          "tencent",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -607,8 +582,8 @@
           "openai",
           "cohere",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -623,8 +598,8 @@
       },
       {
         "name": "mcp",
-        "count": 8,
-        "prev": 7,
+        "count": 7,
+        "prev": 8,
         "labs": [
           "anthropic",
           "openai",
@@ -651,8 +626,8 @@
         "labs": [
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {

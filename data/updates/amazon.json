@@ -330,6 +330,31 @@
     "contentHash": "63f8d9caa257"
   },
   {
+    "id": "5da30e04b8d9bc6e",
+    "lab": "amazon",
+    "title": "AgentCore runtime instances now support Nested Virtualization",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-nested-virtualization",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-19T10:00:00.000Z",
+    "firstSeenAt": "2026-11-20T11:52:27.345Z",
+    "updatedAt": "2026-11-19T10:00:00.000Z",
+    "excerpt": "Amazon Bedrock AgentCore runtime instances now support nested virtualization, so your agents can run their own virtual machines and emulators inside a session with Kernel-based Virtual Machine (KVM). Runtime instances run your agents on Amazon EC2 instances while AgentCore handles provisioning, patching, scaling, and lifecycle management. Nested virtualization serves agents that rely on tools that run in a virtual…",
+    "summary": "Amazon Bedrock AgentCore runtime instances now support nested virtualization, so your agents can run their own virtual machines and emulators inside a session with Kernel-based Virtual Machine (KVM).",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "multimodal"
+    ],
+    "importance": 50,
+    "contentHash": "80ba39aa4429"
+  },
+  {
     "id": "0b5c2b349a4888ac",
     "lab": "amazon",
     "title": "AWS Revenue Measurement now supports closed-source models in Amazon Bedrock",
@@ -5257,7 +5282,7 @@
     "contentHash": "f6b52138e9a2",
     "meta": {
       "likes": 16,
-      "downloads": 344,
+      "downloads": 345,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"
     }
@@ -6317,7 +6342,7 @@
     "contentHash": "2462e1ba8e00",
     "meta": {
       "likes": 13,
-      "downloads": 799,
+      "downloads": 785,
       "repo": "amazon/ALoDLM-1.7B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -6348,7 +6373,7 @@
     "contentHash": "48b7b19078e5",
     "meta": {
       "likes": 66,
-      "downloads": 1194,
+      "downloads": 1127,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"

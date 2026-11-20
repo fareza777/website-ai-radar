@@ -176,15 +176,17 @@
     "verified": true,
     "publishedAt": "2026-11-16T20:54:50.000Z",
     "firstSeenAt": "2026-11-20T02:23:48.801Z",
-    "updatedAt": "2026-11-16T20:54:50.000Z",
-    "excerpt": "Signed-off-by: Tyler Burt 195370667+tburt-nv@users.noreply.github.com",
+    "updatedAt": "2026-11-20T11:52:27.345Z",
+    "excerpt": "Key Features and Enhancements Rubin Support (Preview) Added preview support for NVIDIA Rubin (SM107), validated on Vera Rubin. Added DeepSeek-V4 and Kimi K3 support on Vera Rubin. Model Support Added DeepSeek-V4 support on Blackwell and Rubin (preview). Added Kimi K3 support on Blackwell and Rubin (preview), including multimodal and multi-node serving. Attention data parallelism (DEP16) requires GB300-class GPU…",
     "summary": "NVIDIA shipped TensorRT-LLM v1.3.0 (minor release) on GitHub.",
     "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
     "summarySource": "template",
     "category": "developer",
-    "tags": [],
+    "tags": [
+      "multimodal"
+    ],
     "importance": 40,
-    "contentHash": "f66b7d1ede5a",
+    "contentHash": "dd1bd4352b0b",
     "meta": {
       "version": "v1.3.0",
       "semver": "minor",
@@ -543,8 +545,8 @@
     "importance": 82,
     "contentHash": "f07de344f3a8",
     "meta": {
-      "likes": 146,
-      "downloads": 757,
+      "likes": 147,
+      "downloads": 1116,
       "repo": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
       "pipeline": "text-generation",
       "license": "other"
@@ -997,7 +999,7 @@
     "contentHash": "440a22d35eed",
     "meta": {
       "likes": 26,
-      "downloads": 713,
+      "downloads": 725,
       "repo": "nvidia/MetricTrail",
       "license": "other"
     }
@@ -1455,7 +1457,7 @@
     "importance": 67,
     "contentHash": "acf22cf02be3",
     "meta": {
-      "likes": 141,
+      "likes": 142,
       "downloads": 0,
       "repo": "nvidia/MotionBricks",
       "pipeline": "robotics"
@@ -2473,7 +2475,7 @@
     "contentHash": "6c39ac2571f4",
     "meta": {
       "likes": 33,
-      "downloads": 13415,
+      "downloads": 13621,
       "repo": "nvidia/Kimodo-SOMA-RP-v1.2",
       "license": "other"
     }
@@ -2673,8 +2675,8 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 3405,
-      "downloads": 89319,
+      "likes": 3410,
+      "downloads": 92179,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
       "license": "other"
@@ -2752,7 +2754,7 @@
     "contentHash": "08356dcbd0c7",
     "meta": {
       "likes": 209,
-      "downloads": 45474,
+      "downloads": 50820,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -2896,7 +2898,7 @@
     "contentHash": "806c45ea6874",
     "meta": {
       "likes": 47,
-      "downloads": 27310,
+      "downloads": 38100,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
     }
@@ -2947,8 +2949,8 @@
     "importance": 72,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 621,
-      "downloads": 172088,
+      "likes": 633,
+      "downloads": 183617,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
       "license": "other"
@@ -3028,7 +3030,7 @@
     "contentHash": "b0ac029a9c38",
     "meta": {
       "likes": 44,
-      "downloads": 5610,
+      "downloads": 5119,
       "repo": "nvidia/Flora-Captioner",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -3504,7 +3506,7 @@
     "contentHash": "c430fa5ee123",
     "meta": {
       "likes": 39,
-      "downloads": 486,
+      "downloads": 514,
       "repo": "nvidia/strata",
       "license": "openmdw-1.1"
     }
