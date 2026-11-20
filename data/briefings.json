@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-11-21",
+    "generatedAt": "2026-11-20T20:29:58.968Z",
+    "stats": {
+      "updates24h": 22,
+      "labsActive24h": 6,
+      "updates7d": 183,
+      "newModels7d": 43
+    },
+    "source": "template",
+    "headline": "22 updates from 6 AI labs in the last 24 hours · 43 model releases this week.",
+    "bullets": [
+      {
+        "text": "Amazon: Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+        "itemId": "1993e3871a4476a3",
+        "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: Combatting adversarial distillation",
+        "itemId": "3ea993db7e3c60d1",
+        "lab": "openai"
+      },
+      {
+        "text": "Amazon: Amazon SageMaker Inference: 2026 launches in review, part 2",
+        "itemId": "d47187ac7d511370",
+        "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: Can AI help scientists identify promising drug candidates?",
+        "itemId": "f4784c30400364a2",
+        "lab": "openai"
+      },
+      {
+        "text": "Anthropic: Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+        "itemId": "e7354365dbd85246",
+        "lab": "anthropic"
+      }
+    ]
+  },
+  {
     "date": "2026-11-20",
     "generatedAt": "2026-11-20T11:52:27.345Z",
     "stats": {
@@ -1177,45 +1216,6 @@
         "text": "Google DeepMind: Beyond tree cover: mapping the world’s forest types",
         "itemId": "655df0fb22ace891",
         "lab": "google-deepmind"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-22",
-    "generatedAt": "2026-10-22T12:02:42.943Z",
-    "stats": {
-      "updates24h": 25,
-      "labsActive24h": 7,
-      "updates7d": 141,
-      "newModels7d": 39
-    },
-    "source": "template",
-    "headline": "25 updates from 7 AI labs in the last 24 hours · 39 model releases this week.",
-    "bullets": [
-      {
-        "text": "NVIDIA: Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
-        "itemId": "e12302cd4e2cd85c",
-        "lab": "nvidia"
-      },
-      {
-        "text": "NVIDIA: NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-        "itemId": "c3ecf70aef549971",
-        "lab": "nvidia"
-      },
-      {
-        "text": "OpenAI: Broad access through consistent standards",
-        "itemId": "2ed22a61b2f19a0c",
-        "lab": "openai"
-      },
-      {
-        "text": "OpenAI: How AT&T is rethinking in-house legal work with OpenAI",
-        "itemId": "4ab93569e260b2b0",
-        "lab": "openai"
-      },
-      {
-        "text": "Cohere: Can AI understand culture?",
-        "itemId": "7207c59bed78ddb3",
-        "lab": "cohere"
       }
     ]
   }

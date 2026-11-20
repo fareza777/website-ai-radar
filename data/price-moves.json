@@ -1,5 +1,38 @@
 [
   {
+    "id": "e107b3551d27ccf3",
+    "modelId": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "lab": "moonshot",
+    "at": "2026-11-20T20:29:58.968Z",
+    "field": "completion",
+    "from": 3.5,
+    "to": 3,
+    "change": -14.3
+  },
+  {
+    "id": "01d95df6fc46409f",
+    "modelId": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "lab": "openai",
+    "at": "2026-11-20T20:29:58.968Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.09,
+    "change": -40
+  },
+  {
+    "id": "2e95acf5f0fcbfda",
+    "modelId": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "lab": "openai",
+    "at": "2026-11-20T20:29:58.968Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.36,
+    "change": -40
+  },
+  {
     "id": "c250013b67faf165",
     "modelId": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",

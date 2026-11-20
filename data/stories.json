@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T11:52:27.345Z",
+  "generatedAt": "2026-11-20T20:29:58.968Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 17,
+      "press": 18,
       "outlets": [
         "TestingCatalog AI News",
         "The Decoder",
@@ -29,10 +29,11 @@
         "AI Magazine",
         "Yahoo Finance",
         "The Rundown AI",
-        "OODA Loop"
+        "OODA Loop",
+        "Technology Org"
       ],
       "firstAt": "2026-11-18T10:12:31.000Z",
-      "lastAt": "2026-11-19T16:14:58.000Z",
+      "lastAt": "2026-11-20T13:03:00.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
       "lead": {
         "kind": "official",
@@ -87,51 +88,6 @@
       "lead": {
         "kind": "official",
         "id": "482148aaa5ddfc2a"
-      },
-      "importance": 100
-    },
-    {
-      "id": "15706f35e993d4cb",
-      "title": "Gemini 4 Carbon is now available for developers.",
-      "entity": "Gemini 4 Carbon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 1,
-      "press": 23,
-      "outlets": [
-        "Search Engine Roundtable",
-        "The GitHub Blog",
-        "Seeking Alpha",
-        "Breakingthenews.net",
-        "Engadget",
-        "The Verge",
-        "9to5Google",
-        "VentureBeat",
-        "The New Stack",
-        "CNET",
-        "Unite.AI",
-        "SecurityWeek",
-        "The Tech Buzz",
-        "SQ Magazine",
-        "The Decoder",
-        "Inven Global",
-        "Technology Org",
-        "Android Authority",
-        "MIXED News",
-        "Brave New Coin",
-        "shattered.io",
-        "Tom's Guide",
-        "PPC Land",
-        "CASRAI",
-        "EdTech Innovation Hub"
-      ],
-      "firstAt": "2026-11-10T16:00:00.000Z",
-      "lastAt": "2026-11-16T19:34:27.000Z",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
-      "lead": {
-        "kind": "official",
-        "id": "15706f35e993d4cb"
       },
       "importance": 100
     },
@@ -206,6 +162,28 @@
       "importance": 87
     },
     {
+      "id": "8f2daa11c5051ada",
+      "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+      "entity": "GLM 5.3 Across",
+      "labs": [
+        "zai",
+        "nvidia"
+      ],
+      "official": 1,
+      "press": 1,
+      "outlets": [
+        "Unite.AI"
+      ],
+      "firstAt": "2026-11-11T18:44:03.000Z",
+      "lastAt": "2026-11-13T17:12:14.000Z",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+      "lead": {
+        "kind": "official",
+        "id": "8f2daa11c5051ada"
+      },
+      "importance": 87
+    },
+    {
       "id": "134ab56ca337ce36",
       "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
       "entity": "Grok 4.7",
@@ -228,26 +206,6 @@
       "importance": 87
     },
     {
-      "id": "8f2daa11c5051ada",
-      "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
-      "entity": "GLM 5.3 Across",
-      "labs": [
-        "nvidia",
-        "zai"
-      ],
-      "official": 1,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-11-13T17:00:00.000Z",
-      "lastAt": "2026-11-13T17:12:14.000Z",
-      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
-      "lead": {
-        "kind": "official",
-        "id": "8f2daa11c5051ada"
-      },
-      "importance": 85
-    },
-    {
       "id": "qwen:075ae9bbb51baf",
       "title": "Alibaba Launches Qwen4-Max AI Model with 2.4 Trillion Parameters",
       "entity": "Qwen 4 Max",
@@ -264,6 +222,7 @@
         "Pandaily",
         "XenoSpectrum",
         "Pasquale Pillitteri",
+        "explainx.ai",
         "Tech Times",
         "mobidevices.com",
         "Technetbook",
@@ -320,6 +279,38 @@
         "id": "0566809c65753b53"
       },
       "importance": 70
+    },
+    {
+      "id": "google-deepmind:47124b85f3d9da",
+      "title": "Google rolls out Gemini 4 Carbon to AI Ultra subscribers",
+      "entity": "Gemini 4 Carbon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 12,
+      "outlets": [
+        "Inven Global",
+        "Technology Org",
+        "Android Authority",
+        "MIXED News",
+        "Brave New Coin",
+        "shattered.io",
+        "Tom's Guide",
+        "PPC Land",
+        "CASRAI",
+        "The Decoder",
+        "EdTech Innovation Hub",
+        "Search Engine Roundtable"
+      ],
+      "firstAt": "2026-11-10T23:28:39.000Z",
+      "lastAt": "2026-11-16T19:34:27.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHX0tlbER3VjBGQ0F2eHYyY2RhcXVmUV9RRzN0VTR3d1U3MTduRnBSMENDeE9KTFpXeG11blo4NlN3UEFVbUFFc2E2SWNFUFdKYXo5S2VOTjg2YWlKdzdoVEhhR3FxdlJuLTd2T3JsNFB1UC1ubzFpcV93bzE?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:47124b85f3d9da"
+      },
+      "importance": 63
     },
     {
       "id": "baidu:8f0dc7a5fd96a4",
@@ -387,19 +378,45 @@
         "deepseek"
       ],
       "official": 0,
-      "press": 4,
+      "press": 6,
       "outlets": [
         "KuCoin",
         "Tom's Hardware",
         "Carroll County Mirror-Democrat",
-        "LMSYS Org"
+        "LMSYS Org",
+        "Mezha.net"
       ],
       "firstAt": "2026-11-13T08:24:30.000Z",
-      "lastAt": "2026-11-19T22:14:30.000Z",
+      "lastAt": "2026-11-20T12:40:22.000Z",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR1pvMzVTSG1nSk1FR2NxcFp6cGZ0WEl5TExpNEFOT09RZUFHVTYweEJXRmZ3NVFCOWtwZGR6OWstM1FhWmJnWFdDX2FTRTVaUU9xbHVHY08xdWV2VWZ6MEV0bE5oQW13eHh3enpjMnU5b0JWM0ZZaVVRN2pzaXpuVlpqUmtLMTZkVmNCQU12WERlTDFHRFpIQUl6cW9aZGFFdGpILU1fVU5ya3NaUVVBTy04NTZ3UG1aMjVEb0ZpWXFWLUpRTGJERA?oc=5",
       "lead": {
         "kind": "press",
         "id": "tencent:01e9e109b63045"
+      },
+      "importance": 58
+    },
+    {
+      "id": "bytedance:21acbc3247009f",
+      "title": "U.S. House panel seeks Microsoft briefing on reported ByteDance AI cloud talks",
+      "entity": null,
+      "labs": [
+        "bytedance"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Telegraph India",
+        "Dataconomy",
+        "Business Upturn",
+        "Traders Union",
+        "NeoTeo"
+      ],
+      "firstAt": "2026-11-18T20:41:29.000Z",
+      "lastAt": "2026-11-18T23:32:57.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVRWaVNzU0t1RVJaTjhCUkV6Q2g3Q2ZiblQ4UGQ1cXJKck1LNnJvN1VKdmdIVVZNd3E5Mm1fT0VjSFlOWmRTUzhLYW9XbC03WV9ZX2VWam5BOEd5ZVZrYnJYNXVlWk1DUE1lYVdJd2N3SnZVZVhtamRrRTBSd1l6S2pLRVR0c2gyZlBEa2dWczM4Nnd4Z2l5b3R3?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "bytedance:21acbc3247009f"
       },
       "importance": 57
     },
@@ -454,32 +471,32 @@
     "entities": [
       {
         "name": "Qwen 4 Max",
-        "count": 28,
+        "count": 29,
         "prev": 7,
         "labs": []
       },
       {
         "name": "Gemini 4 Neon",
-        "count": 20,
+        "count": 21,
         "prev": 0,
         "labs": [
           "google-deepmind"
         ]
       },
       {
-        "name": "Gemini 4 Hydrogen",
-        "count": 10,
-        "prev": 21,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "DeepSeek 4.1 Flash",
-        "count": 7,
+        "count": 9,
         "prev": 4,
         "labs": [
           "amazon"
+        ]
+      },
+      {
+        "name": "Gemini 4 Hydrogen",
+        "count": 7,
+        "prev": 24,
+        "labs": [
+          "google-deepmind"
         ]
       },
       {
@@ -498,92 +515,77 @@
         "labs": []
       },
       {
-        "name": "Gemini 4 Carbon",
-        "count": 4,
-        "prev": 24,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "Claude Opus 5.5",
-        "count": 3,
+        "count": 4,
         "prev": 4,
         "labs": [
           "anthropic"
         ]
       },
       {
-        "name": "ERNIE 5.5 Flash",
+        "name": "Gemini 4 Carbon",
+        "count": 4,
+        "prev": 25,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
+        "name": "Qwen 4",
         "count": 3,
-        "prev": 10,
+        "prev": 2,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 75,
-        "prev": 66,
+        "count": 73,
+        "prev": 61,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "meta",
           "openai",
-          "qwen",
+          "meta",
           "cohere",
+          "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
-        "count": 43,
-        "prev": 51,
+        "count": 41,
+        "prev": 49,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
-          "qwen",
           "cohere",
+          "qwen",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "multimodal",
         "count": 18,
-        "prev": 12,
+        "prev": 11,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "minimax",
           "cohere",
-          "microsoft",
           "tencent",
           "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "safety",
-        "count": 9,
-        "prev": 22,
-        "labs": [
-          "anthropic",
-          "google-deepmind",
-          "openai",
-          "cohere",
-          "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
@@ -597,12 +599,27 @@
         ]
       },
       {
+        "name": "safety",
+        "count": 8,
+        "prev": 21,
+        "labs": [
+          "anthropic",
+          "google-deepmind",
+          "openai",
+          "cohere",
+          "amazon",
+          "nvidia",
+          "ibm"
+        ]
+      },
+      {
         "name": "mcp",
         "count": 7,
-        "prev": 8,
+        "prev": 7,
         "labs": [
           "anthropic",
           "openai",
+          "mistral",
           "microsoft",
           "amazon"
         ]
@@ -622,21 +639,22 @@
       {
         "name": "open-source",
         "count": 6,
-        "prev": 7,
+        "prev": 6,
         "labs": [
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "reasoning",
-        "count": 4,
+        "count": 5,
         "prev": 7,
         "labs": [
           "google-deepmind",
           "openai",
+          "mistral",
           "microsoft",
           "amazon",
           "nvidia"
