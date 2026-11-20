@@ -1,5 +1,34 @@
 [
   {
+    "id": "81e62872c8dfc608",
+    "lab": "google-deepmind",
+    "title": "Gemini CLI v0.70.0",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0",
+    "sourceId": "gemini-cli",
+    "sourceName": "GitHub · google-gemini/gemini-cli",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-19T21:08:05.000Z",
+    "firstSeenAt": "2026-11-20T02:23:48.801Z",
+    "updatedAt": "2026-11-19T21:08:05.000Z",
+    "excerpt": "What's Changed Changelog for v0.69.0-preview.0 by @gemini-cli-robot in #30222 Changelog for v0.68.0 by @gemini-cli-robot in #30224 chore(release): bump version to 0.70.0-nightly.20261110.g1603e9bab by @gemini-cli-robot in #30223 test(cli): remove redundant lowercase restart test in AdminSettingsChangedDialog by @luisfelipe-alt in #30221 fix(cli): preserve Unicode prompts and strip ANSI fragments in session previews…",
+    "summary": "Google DeepMind shipped Gemini CLI v0.70.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 45,
+    "contentHash": "8cd7e42dbcb0",
+    "meta": {
+      "version": "v0.70.0",
+      "semver": "minor",
+      "repo": "google-gemini/gemini-cli"
+    }
+  },
+  {
     "id": "b00f82b6db94c2e5",
     "lab": "google-deepmind",
     "title": "Introducing Tool Retrieval in the Gemini API",
@@ -2147,7 +2176,7 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 3547,
+      "likes": 3549,
       "downloads": 613159,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",

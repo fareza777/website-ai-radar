@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:45:55.873Z",
+  "generatedAt": "2026-11-20T02:23:48.801Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 15,
+      "press": 16,
       "outlets": [
         "TestingCatalog AI News",
         "The Decoder",
@@ -18,6 +18,7 @@
         "The Defiant",
         "Breakingthenews.net",
         "The GitHub Blog",
+        "Vals AI",
         "Unite.AI",
         "Android Authority",
         "Interesting Engineering",
@@ -26,10 +27,11 @@
         "shattered.io",
         "InfoWorld",
         "AI Magazine",
-        "The Rundown AI"
+        "The Rundown AI",
+        "OODA Loop"
       ],
       "firstAt": "2026-11-18T10:12:31.000Z",
-      "lastAt": "2026-11-19T13:51:49.000Z",
+      "lastAt": "2026-11-19T16:14:58.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
       "lead": {
         "kind": "official",
@@ -374,30 +376,6 @@
       "importance": 58
     },
     {
-      "id": "bytedance:e0a30a3b2af64c",
-      "title": "U.S. House panel seeks Microsoft briefing on reported ByteDance AI cloud talks",
-      "entity": null,
-      "labs": [
-        "bytedance"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Traders Union",
-        "Business Upturn",
-        "Dataconomy",
-        "Telegraph India"
-      ],
-      "firstAt": "2026-11-18T20:41:29.000Z",
-      "lastAt": "2026-11-18T23:32:57.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVRWaVNzU0t1RVJaTjhCUkV6Q2g3Q2ZiblQ4UGQ1cXJKck1LNnJvN1VKdmdIVVZNd3E5Mm1fT0VjSFlOWmRTUzhLYW9XbC03WV9ZX2VWam5BOEd5ZVZrYnJYNXVlWk1DUE1lYVdJd2N3SnZVZVhtamRrRTBSd1l6S2pLRVR0c2gyZlBEa2dWczM4Nnd4Z2l5b3R3?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "bytedance:e0a30a3b2af64c"
-      },
-      "importance": 56
-    },
-    {
       "id": "tencent:01e9e109b63045",
       "title": "Artificial Analysis v5 Index: Tencent Hunyuan Hy4 Scores 35, Outperforming DeepSeek V4.1 Flash 1017",
       "entity": "DeepSeek 4.1 Flash",
@@ -501,7 +479,7 @@
       },
       {
         "name": "Gemini 4 Neon",
-        "count": 18,
+        "count": 19,
         "prev": 0,
         "labs": [
           "google-deepmind"
@@ -509,8 +487,8 @@
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 15,
-        "prev": 16,
+        "count": 13,
+        "prev": 18,
         "labs": [
           "google-deepmind"
         ]
@@ -553,12 +531,6 @@
         "labs": []
       },
       {
-        "name": "Qwen 3.8",
-        "count": 3,
-        "prev": 1,
-        "labs": []
-      },
-      {
         "name": "Claude Opus 5.5",
         "count": 3,
         "prev": 4,
@@ -576,8 +548,8 @@
     "topics": [
       {
         "name": "agents",
-        "count": 78,
-        "prev": 59,
+        "count": 77,
+        "prev": 63,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -587,31 +559,31 @@
           "cohere",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "coding",
         "count": 44,
-        "prev": 45,
+        "prev": 50,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "qwen",
           "mistral",
+          "qwen",
           "cohere",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "multimodal",
-        "count": 13,
-        "prev": 13,
+        "count": 14,
+        "prev": 12,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -621,14 +593,28 @@
           "tencent",
           "microsoft",
           "amazon",
-          "ibm",
-          "nvidia"
+          "nvidia",
+          "ibm"
+        ]
+      },
+      {
+        "name": "safety",
+        "count": 9,
+        "prev": 22,
+        "labs": [
+          "anthropic",
+          "google-deepmind",
+          "openai",
+          "cohere",
+          "amazon",
+          "nvidia",
+          "ibm"
         ]
       },
       {
         "name": "rag",
         "count": 9,
-        "prev": 4,
+        "prev": 2,
         "labs": [
           "google-deepmind",
           "cohere",
@@ -638,7 +624,7 @@
       {
         "name": "mcp",
         "count": 8,
-        "prev": 5,
+        "prev": 7,
         "labs": [
           "anthropic",
           "openai",
@@ -647,23 +633,9 @@
         ]
       },
       {
-        "name": "safety",
-        "count": 8,
-        "prev": 21,
-        "labs": [
-          "anthropic",
-          "google-deepmind",
-          "openai",
-          "cohere",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
         "name": "audio",
-        "count": 8,
-        "prev": 4,
+        "count": 7,
+        "prev": 5,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -673,25 +645,25 @@
         ]
       },
       {
+        "name": "open-source",
+        "count": 6,
+        "prev": 7,
+        "labs": [
+          "microsoft",
+          "amazon",
+          "nvidia",
+          "ibm"
+        ]
+      },
+      {
         "name": "reasoning",
-        "count": 5,
-        "prev": 6,
+        "count": 4,
+        "prev": 7,
         "labs": [
           "google-deepmind",
           "openai",
           "microsoft",
           "amazon",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 5,
-        "prev": 7,
-        "labs": [
-          "microsoft",
-          "amazon",
-          "ibm",
           "nvidia"
         ]
       }
