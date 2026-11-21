@@ -1,5 +1,60 @@
 [
   {
+    "id": "8039d658e8902c08",
+    "modelId": "nvidia/nemotron-3.5-super-vl",
+    "name": "NVIDIA: Nemotron 3.5 Super VL",
+    "lab": "nvidia",
+    "at": "2026-11-21T19:25:57.629Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.47,
+    "change": -6
+  },
+  {
+    "id": "e5b3a1123cca590c",
+    "modelId": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "lab": "minimax",
+    "at": "2026-11-21T19:25:57.629Z",
+    "field": "prompt",
+    "from": 0.295,
+    "to": 0.27,
+    "change": -8.5
+  },
+  {
+    "id": "6a4cf1ed950aaf5b",
+    "modelId": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "lab": "minimax",
+    "at": "2026-11-21T19:25:57.629Z",
+    "field": "completion",
+    "from": 1.2,
+    "to": 0.95,
+    "change": -20.8
+  },
+  {
+    "id": "0e752781d11382f5",
+    "modelId": "qwen/qwen3-coder-30b-a3b-instruct",
+    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "lab": "qwen",
+    "at": "2026-11-21T19:25:57.629Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.07,
+    "change": -53.3
+  },
+  {
+    "id": "176a9e4d66cc396e",
+    "modelId": "qwen/qwen3-coder-30b-a3b-instruct",
+    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "lab": "qwen",
+    "at": "2026-11-21T19:25:57.629Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.28,
+    "change": -53.3
+  },
+  {
     "id": "da44bd972ec1fd7e",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",

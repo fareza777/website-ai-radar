@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-22",
+    "generatedAt": "2026-11-21T19:25:57.629Z",
+    "stats": {
+      "updates24h": 9,
+      "labsActive24h": 3,
+      "updates7d": 189,
+      "newModels7d": 46
+    },
+    "source": "template",
+    "headline": "9 updates from 3 AI labs in the last 24 hours · 46 model releases this week.",
+    "bullets": [
+      {
+        "text": "Amazon: Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+        "itemId": "668baa710142dd51",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+        "itemId": "5259c7996b79c471",
+        "lab": "amazon"
+      }
+    ]
+  },
+  {
     "date": "2026-11-21",
     "generatedAt": "2026-11-21T11:20:24.203Z",
     "stats": {
@@ -1157,50 +1181,6 @@
         "text": "Amazon: Web Search on AWS Bedrock now supports domain filtering and user location controls",
         "itemId": "116e84c7c9fa0dbd",
         "lab": "amazon"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "generatedAt": "2026-10-23T11:48:11.444Z",
-    "stats": {
-      "updates24h": 23,
-      "labsActive24h": 8,
-      "updates7d": 151,
-      "newModels7d": 44
-    },
-    "source": "template",
-    "headline": "23 updates from 8 AI labs in the last 24 hours · 44 model releases this week.",
-    "bullets": [
-      {
-        "text": "Amazon: Announcing new ways to customize models with SageMaker AI, without managing GPUs",
-        "itemId": "418ae447f600fa7e",
-        "lab": "amazon"
-      },
-      {
-        "text": "NVIDIA: NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-        "itemId": "99c8819be3a73948",
-        "lab": "nvidia"
-      },
-      {
-        "text": "NVIDIA: Kazakhstan Expands Compute for Its AI Future",
-        "itemId": "822412740c4fdfe1",
-        "lab": "nvidia"
-      },
-      {
-        "text": "Amazon: Amazon SageMaker AI announces training session APIs for serverless model customization",
-        "itemId": "16e66a666855e420",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: Build more responsive apps with the Decisions API",
-        "itemId": "27825e3003584012",
-        "lab": "openai"
-      },
-      {
-        "text": "Google DeepMind: Beyond tree cover: mapping the world’s forest types",
-        "itemId": "655df0fb22ace891",
-        "lab": "google-deepmind"
       }
     ]
   }

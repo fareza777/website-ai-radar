@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:20:24.203Z",
+  "generatedAt": "2026-11-21T19:25:57.629Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -140,28 +140,6 @@
       "importance": 87
     },
     {
-      "id": "8f2daa11c5051ada",
-      "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
-      "entity": "GLM 5.3 Across",
-      "labs": [
-        "zai",
-        "nvidia"
-      ],
-      "official": 1,
-      "press": 1,
-      "outlets": [
-        "Unite.AI"
-      ],
-      "firstAt": "2026-11-11T18:44:03.000Z",
-      "lastAt": "2026-11-13T17:12:14.000Z",
-      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
-      "lead": {
-        "kind": "official",
-        "id": "8f2daa11c5051ada"
-      },
-      "importance": 87
-    },
-    {
       "id": "134ab56ca337ce36",
       "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
       "entity": "Grok 4.7",
@@ -182,6 +160,26 @@
         "id": "134ab56ca337ce36"
       },
       "importance": 87
+    },
+    {
+      "id": "8f2daa11c5051ada",
+      "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+      "entity": "GLM 5.3 Across",
+      "labs": [
+        "nvidia",
+        "zai"
+      ],
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-11-13T17:00:00.000Z",
+      "lastAt": "2026-11-13T17:12:14.000Z",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+      "lead": {
+        "kind": "official",
+        "id": "8f2daa11c5051ada"
+      },
+      "importance": 85
     },
     {
       "id": "qwen:075ae9bbb51baf",
@@ -254,6 +252,40 @@
       "importance": 70
     },
     {
+      "id": "mistral:ad3a636921be3f",
+      "title": "Deutsche Telekom invests €100 million in France's Mistral AI",
+      "entity": null,
+      "labs": [
+        "mistral"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Data Center Dynamics",
+        "Mobile Europe",
+        "MLQ.ai",
+        "TradingView",
+        "www.trendingtopics.eu",
+        "W.Media",
+        "marketscreener.com",
+        "Telecompaper",
+        "WSJ",
+        "Yahoo Finance",
+        "Techzine Global",
+        "jawlah.co",
+        "UA.NEWS",
+        "ad-hoc-news.de"
+      ],
+      "firstAt": "2026-11-19T08:18:22.000Z",
+      "lastAt": "2026-11-19T09:31:25.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeDlaMkg4aHFHS056Z2hfSXRCLXdTdTBoRXlqN1U4ZWNNRnpGaVBsNTJxQW5ZQmFBcEtod1BMQmt4UWZLbF92aG1tcFJtaExrd0NLX1NyYkRYejNFMzFOd0djc1BITWRBR2VRYW1vWGNDZWlHMFMtYmVmcWk1Ynd2b1E5UWdaTzRCSXVlTXZIRjhWSzRHRlJLOWwzZmdyOTdILWYzWXB0djdGMDlieWladmItZEdrbGNTRHF3ek13SDJTZnpyTHZyaQ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:ad3a636921be3f"
+      },
+      "importance": 64
+    },
+    {
       "id": "google-deepmind:14f355c6130eef",
       "title": "Gemini 4 Carbon: 6.5M Lean Proof Lines Verify Signal [2026]",
       "entity": "Gemini 4 Carbon",
@@ -308,33 +340,6 @@
       "importance": 59
     },
     {
-      "id": "baidu:78abbd72b8a56f",
-      "title": "Baidu opens API access to ERNIE 5.5 Flash Preview",
-      "entity": "ERNIE 5.5 Flash",
-      "labs": [
-        "baidu"
-      ],
-      "official": 0,
-      "press": 6,
-      "outlets": [
-        "Crypto Briefing",
-        "TechNode",
-        "CASRAI",
-        "TradingView",
-        "KuCoin",
-        "Pasquale Pillitteri",
-        "OrcaRouter"
-      ],
-      "firstAt": "2026-11-11T12:48:05.000Z",
-      "lastAt": "2026-11-13T18:59:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdm5BNWRhMVAtZkpzcVRqU3czV014ZnlWbkUybEdXa0t6SFVNQXVVUjZyOFQ0TWExT3lnR0tWNnhBN1Nyb28wQnVpOUdXaVJLMFAtTkQ2YWg3bHc2MGdRSUNhVkFjcnhiXzhFcWszUy04d2llNTN3R0VrRVJiR1JiOTFNSVFUNnhqcnc?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "baidu:78abbd72b8a56f"
-      },
-      "importance": 59
-    },
-    {
       "id": "tencent:01e9e109b63045",
       "title": "Artificial Analysis v5 Index: Tencent Hunyuan Hy4 Scores 35, Outperforming DeepSeek V4.1 Flash 1017",
       "entity": "DeepSeek 4.1 Flash",
@@ -357,6 +362,32 @@
       "lead": {
         "kind": "press",
         "id": "tencent:01e9e109b63045"
+      },
+      "importance": 58
+    },
+    {
+      "id": "baidu:78abbd72b8a56f",
+      "title": "Baidu opens API access to ERNIE 5.5 Flash Preview",
+      "entity": "ERNIE 5.5 Flash",
+      "labs": [
+        "baidu"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "TechNode",
+        "CASRAI",
+        "TradingView",
+        "KuCoin",
+        "Pasquale Pillitteri",
+        "OrcaRouter"
+      ],
+      "firstAt": "2026-11-12T07:10:52.000Z",
+      "lastAt": "2026-11-13T18:59:37.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdm5BNWRhMVAtZkpzcVRqU3czV014ZnlWbkUybEdXa0t6SFVNQXVVUjZyOFQ0TWExT3lnR0tWNnhBN1Nyb28wQnVpOUdXaVJLMFAtTkQ2YWg3bHc2MGdRSUNhVkFjcnhiXzhFcWszUy04d2llNTN3R0VrRVJiR1JiOTFNSVFUNnhqcnc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "baidu:78abbd72b8a56f"
       },
       "importance": 58
     },
@@ -401,16 +432,16 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 9,
-        "prev": 3,
+        "count": 8,
+        "prev": 4,
         "labs": [
           "amazon"
         ]
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 7,
-        "prev": 23,
+        "count": 6,
+        "prev": 24,
         "labs": [
           "google-deepmind"
         ]
@@ -431,22 +462,6 @@
         "labs": []
       },
       {
-        "name": "Claude Opus 5.5",
-        "count": 4,
-        "prev": 4,
-        "labs": [
-          "anthropic"
-        ]
-      },
-      {
-        "name": "Gemini 4 Carbon",
-        "count": 4,
-        "prev": 25,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "Qwen 4",
         "count": 3,
         "prev": 1,
@@ -457,6 +472,28 @@
         "count": 3,
         "prev": 2,
         "labs": []
+      },
+      {
+        "name": "GLM 5.5",
+        "count": 3,
+        "prev": 3,
+        "labs": []
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "count": 3,
+        "prev": 5,
+        "labs": [
+          "anthropic"
+        ]
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "count": 3,
+        "prev": 26,
+        "labs": [
+          "google-deepmind"
+        ]
       }
     ],
     "topics": [
@@ -470,11 +507,11 @@
           "openai",
           "meta",
           "cohere",
-          "qwen",
           "microsoft",
-          "amazon",
+          "qwen",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "amazon"
         ]
       },
       {
@@ -487,27 +524,27 @@
           "openai",
           "mistral",
           "cohere",
-          "qwen",
           "microsoft",
-          "amazon",
+          "qwen",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "amazon"
         ]
       },
       {
         "name": "multimodal",
-        "count": 17,
+        "count": 18,
         "prev": 12,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "cohere",
           "minimax",
+          "cohere",
           "tencent",
-          "amazon",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "amazon"
         ]
       },
       {
@@ -541,9 +578,9 @@
           "google-deepmind",
           "openai",
           "cohere",
-          "amazon",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "amazon"
         ]
       },
       {
@@ -554,8 +591,8 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "amazon",
-          "ibm"
+          "ibm",
+          "amazon"
         ]
       },
       {
@@ -564,9 +601,9 @@
         "prev": 5,
         "labs": [
           "microsoft",
-          "amazon",
           "ibm",
-          "nvidia"
+          "nvidia",
+          "amazon"
         ]
       },
       {
@@ -578,8 +615,8 @@
           "openai",
           "mistral",
           "microsoft",
-          "amazon",
-          "nvidia"
+          "nvidia",
+          "amazon"
         ]
       }
     ]

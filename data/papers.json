@@ -6,7 +6,7 @@
     "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 50,
+    "upvotes": 51,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisForensics",
@@ -19,9 +19,22 @@
     "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 46,
+    "upvotes": 49,
     "org": "mind2act-world",
     "githubRepo": "https://github.com/Mind2Act/Mind2Act_World",
+    "firstSeenAt": "2026-11-20T11:52:27.345Z"
+  },
+  {
+    "id": "2611.26409",
+    "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+    "url": "https://huggingface.co/papers/2611.26409",
+    "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm…",
+    "publishedAt": "2026-11-19T00:00:00.000Z",
+    "submittedAt": "2026-11-20T00:00:00.000Z",
+    "upvotes": 43,
+    "org": "tencent",
+    "lab": "tencent",
+    "githubRepo": "https://github.com/Tencent/WeMM-Video",
     "firstSeenAt": "2026-11-20T11:52:27.345Z"
   },
   {
@@ -31,22 +44,9 @@
     "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 42,
     "org": "universitycollegelondon",
     "firstSeenAt": "2026-11-21T11:20:24.203Z"
-  },
-  {
-    "id": "2611.26409",
-    "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-    "url": "https://huggingface.co/papers/2611.26409",
-    "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm…",
-    "publishedAt": "2026-11-19T00:00:00.000Z",
-    "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 40,
-    "org": "tencent",
-    "lab": "tencent",
-    "githubRepo": "https://github.com/Tencent/WeMM-Video",
-    "firstSeenAt": "2026-11-20T11:52:27.345Z"
   },
   {
     "id": "2611.26629",
@@ -55,7 +55,7 @@
     "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 35,
+    "upvotes": 36,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/yesiltepe-hidir/PMD",
@@ -81,7 +81,7 @@
     "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fixed Top-k applies one budget across different score distributions and couples routing to task granularity; query-range ownership fragments K/V reuse when several ranges select the same column. We…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 13,
+    "upvotes": 14,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/LightningMoBA",
@@ -106,7 +106,7 @@
     "summary": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show that the draft's whole residual stream can run at half or a quarter of that width while largely…",
     "publishedAt": "2026-11-18T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 4,
+    "upvotes": 5,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-20T11:52:27.345Z"
@@ -130,7 +130,7 @@
     "summary": "Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications. Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency. However, unlike datacenter servers with abundant DRAM, consumer devices are tightly constrained in both GPU VRAM and host RAM, forcing massive MoE…",
     "publishedAt": "2026-11-10T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 66,
+    "upvotes": 67,
     "org": "dukeuniversity",
     "githubRepo": "https://github.com/Afterglow231/Tideway",
     "firstSeenAt": "2026-11-20T20:29:58.968Z"
@@ -214,7 +214,7 @@
     "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 93,
+    "upvotes": 94,
     "org": "slaiaitp",
     "githubRepo": "https://github.com/SLAI-AITP/AscendGYM",
     "firstSeenAt": "2026-11-18T11:54:06.317Z"
@@ -262,7 +262,7 @@
     "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods across compatible…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 36,
+    "upvotes": 38,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-18T11:54:06.317Z"
@@ -333,7 +333,7 @@
     "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct…",
     "publishedAt": "2026-11-15T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 53,
     "org": "tokenwave-ai",
     "githubRepo": "https://github.com/TokenWave-AI/swe-cowork-bench",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
@@ -369,7 +369,7 @@
     "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-16T00:00:00.000Z",
-    "upvotes": 145,
+    "upvotes": 146,
     "org": null,
     "githubRepo": "https://github.com/RainBowLuoCS/Gamer",
     "firstSeenAt": "2026-11-16T19:41:52.882Z"
