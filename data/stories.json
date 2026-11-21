@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T02:26:38.179Z",
+  "generatedAt": "2026-11-21T11:20:24.203Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -20,6 +20,7 @@
         "The GitHub Blog",
         "Vals AI",
         "Unite.AI",
+        "Dataconomy",
         "Android Authority",
         "Interesting Engineering",
         "The New Stack",
@@ -117,30 +118,6 @@
       "importance": 97
     },
     {
-      "id": "05f1e3cef6173c85",
-      "title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
-      "entity": "Claude Opus 5.5",
-      "labs": [
-        "xai",
-        "anthropic"
-      ],
-      "official": 1,
-      "press": 3,
-      "outlets": [
-        "ForkLog",
-        "Cointribune",
-        "The Decoder"
-      ],
-      "firstAt": "2026-11-11T10:23:17.000Z",
-      "lastAt": "2026-11-14T16:50:52.000Z",
-      "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
-      "lead": {
-        "kind": "official",
-        "id": "05f1e3cef6173c85"
-      },
-      "importance": 96
-    },
-    {
       "id": "2a6900735adaed7f",
       "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
       "entity": "DeepSeek 4 Pro",
@@ -215,21 +192,15 @@
         "moonshot"
       ],
       "official": 0,
-      "press": 27,
+      "press": 22,
       "outlets": [
-        "BigGo Finance",
-        "AIBase",
-        "TechNode",
-        "Pandaily",
-        "XenoSpectrum",
-        "Pasquale Pillitteri",
-        "explainx.ai",
         "Tech Times",
         "mobidevices.com",
         "Technetbook",
         "Vals AI",
         "www.tokenpost.com",
         "The Defiant",
+        "TechNode",
         "South China Morning Post",
         "news.lavx.hu",
         "MLQ.ai",
@@ -248,18 +219,19 @@
         "eWeek",
         "Decrypt",
         "Yahoo Tech",
+        "BigGo Finance",
         "KuCoin",
         "The Edge Malaysia",
         "TNGlobal"
       ],
-      "firstAt": "2026-11-11T04:25:00.000Z",
+      "firstAt": "2026-11-12T07:00:21.000Z",
       "lastAt": "2026-11-19T10:09:37.000Z",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0llVDN6V1dUODNxdTUtajZ6aElDeUp1cXc3UzdnS0JEbVpTZTJ2cVdFS0VtQV83TmdMRU55RGZSU3dfTF9rYVBGcGN6VzRCREJhMGdVeU9EMmVkUjR6TnVsSmdtcGpfdC00UUFoaC00VG9tZHBXZHZlUUF2Y0dTNVd2eDdIbkhKeFVuQVcyeU1MQQ?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:075ae9bbb51baf"
       },
-      "importance": 71
+      "importance": 70
     },
     {
       "id": "0566809c65753b53",
@@ -282,19 +254,15 @@
       "importance": 70
     },
     {
-      "id": "google-deepmind:47124b85f3d9da",
-      "title": "Google rolls out Gemini 4 Carbon to AI Ultra subscribers",
+      "id": "google-deepmind:14f355c6130eef",
+      "title": "Gemini 4 Carbon: 6.5M Lean Proof Lines Verify Signal [2026]",
       "entity": "Gemini 4 Carbon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 11,
+      "press": 8,
       "outlets": [
-        "Technology Org",
-        "Android Authority",
-        "MIXED News",
-        "Brave New Coin",
         "shattered.io",
         "Tom's Guide",
         "PPC Land",
@@ -303,45 +271,14 @@
         "EdTech Innovation Hub",
         "Search Engine Roundtable"
       ],
-      "firstAt": "2026-11-11T06:11:00.000Z",
+      "firstAt": "2026-11-11T19:30:13.000Z",
       "lastAt": "2026-11-16T19:34:27.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHX0tlbER3VjBGQ0F2eHYyY2RhcXVmUV9RRzN0VTR3d1U3MTduRnBSMENDeE9KTFpXeG11blo4NlN3UEFVbUFFc2E2SWNFUFdKYXo5S2VOTjg2YWlKdzdoVEhhR3FxdlJuLTd2T3JsNFB1UC1ubzFpcV93bzE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMWlleThMNkxsdHJYd3dPY3JaU2FsQVVDaTNSNzhIVFotLTM1ZVpHaXBfcnJkMTA4N3gxdVFwSUM3d2lRTjgtdU9MMWc4NnJQUTZNWHYzbTExdjFOSGw0Ujc1aUNrcXE0eG9SeHNEbXNhUmVjWXpBZXYzQndsYnJCOHd1cmwwb3ZNbHZ1eW52aWw0am1yOHRrS2t2bFFmWnFl?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:47124b85f3d9da"
+        "id": "google-deepmind:14f355c6130eef"
       },
-      "importance": 62
-    },
-    {
-      "id": "baidu:8f0dc7a5fd96a4",
-      "title": "Baidu Releases ERNIE 5.5 Flash Preview on Qianfan, With Open Weights Promised by November 25",
-      "entity": "ERNIE 5.5 Flash",
-      "labs": [
-        "baidu"
-      ],
-      "official": 0,
-      "press": 9,
-      "outlets": [
-        "KuCoin",
-        "Pandaily",
-        "TOKENPOST",
-        "Tech in Asia",
-        "Digg",
-        "Crypto Briefing",
-        "TechNode",
-        "CASRAI",
-        "TradingView",
-        "Pasquale Pillitteri",
-        "OrcaRouter"
-      ],
-      "firstAt": "2026-11-11T07:43:48.000Z",
-      "lastAt": "2026-11-13T18:59:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWh3N2E3eE0wdThSTktJWmI4aDZrbU9yalRGOTU1UDhKZko0ZHpYaGl6dlRiNHV6Qkl2LTlwcmF1cVpuOEJCZW5SS1RUS2xkNHYwaXlfYmYwWExpZFRDeTluc1Z1OVEtVy1lSUlNaWpMRmI0aW9za2NDYTMxOVJLUE1FZjBWUQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "baidu:8f0dc7a5fd96a4"
-      },
-      "importance": 62
+      "importance": 59
     },
     {
       "id": "nvidia:1d03a12adeb33b",
@@ -367,6 +304,33 @@
       "lead": {
         "kind": "press",
         "id": "nvidia:1d03a12adeb33b"
+      },
+      "importance": 59
+    },
+    {
+      "id": "baidu:78abbd72b8a56f",
+      "title": "Baidu opens API access to ERNIE 5.5 Flash Preview",
+      "entity": "ERNIE 5.5 Flash",
+      "labs": [
+        "baidu"
+      ],
+      "official": 0,
+      "press": 6,
+      "outlets": [
+        "Crypto Briefing",
+        "TechNode",
+        "CASRAI",
+        "TradingView",
+        "KuCoin",
+        "Pasquale Pillitteri",
+        "OrcaRouter"
+      ],
+      "firstAt": "2026-11-11T12:48:05.000Z",
+      "lastAt": "2026-11-13T18:59:37.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdm5BNWRhMVAtZkpzcVRqU3czV014ZnlWbkUybEdXa0t6SFVNQXVVUjZyOFQ0TWExT3lnR0tWNnhBN1Nyb28wQnVpOUdXaVJLMFAtTkQ2YWg3bHc2MGdRSUNhVkFjcnhiXzhFcWszUy04d2llNTN3R0VrRVJiR1JiOTFNSVFUNnhqcnc?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "baidu:78abbd72b8a56f"
       },
       "importance": 59
     },
@@ -483,13 +447,13 @@
         ]
       },
       {
-        "name": "DeepSeek 4.1 Pro",
+        "name": "Qwen 4",
         "count": 3,
-        "prev": 2,
+        "prev": 1,
         "labs": []
       },
       {
-        "name": "Qwen 4",
+        "name": "DeepSeek 4.1 Pro",
         "count": 3,
         "prev": 2,
         "labs": []
@@ -502,8 +466,8 @@
         "prev": 62,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "meta",
           "cohere",
           "qwen",
@@ -515,12 +479,12 @@
       },
       {
         "name": "coding",
-        "count": 42,
-        "prev": 51,
+        "count": 41,
+        "prev": 52,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
           "cohere",
           "qwen",
@@ -532,12 +496,12 @@
       },
       {
         "name": "multimodal",
-        "count": 19,
-        "prev": 10,
+        "count": 17,
+        "prev": 12,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "cohere",
           "minimax",
           "tencent",
@@ -574,8 +538,8 @@
         "prev": 21,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "cohere",
           "amazon",
           "ibm",
@@ -588,8 +552,8 @@
         "prev": 5,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "amazon",
           "ibm"
         ]
@@ -610,8 +574,8 @@
         "count": 5,
         "prev": 7,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
           "microsoft",
           "amazon",

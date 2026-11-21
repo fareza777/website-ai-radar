@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-21",
-    "generatedAt": "2026-11-21T02:26:38.179Z",
+    "generatedAt": "2026-11-21T11:20:24.203Z",
     "stats": {
-      "updates24h": 18,
-      "labsActive24h": 6,
-      "updates7d": 191,
-      "newModels7d": 46
+      "updates24h": 11,
+      "labsActive24h": 4,
+      "updates7d": 188,
+      "newModels7d": 45
     },
     "source": "template",
-    "headline": "18 updates from 6 AI labs in the last 24 hours · 46 model releases this week.",
+    "headline": "11 updates from 4 AI labs in the last 24 hours · 45 model releases this week.",
     "bullets": [
       {
         "text": "Amazon: Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
@@ -20,11 +20,6 @@
         "text": "Amazon: Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
         "itemId": "5259c7996b79c471",
         "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: Combatting adversarial distillation",
-        "itemId": "3ea993db7e3c60d1",
-        "lab": "openai"
       }
     ]
   },
