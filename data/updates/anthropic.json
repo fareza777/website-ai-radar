@@ -1,5 +1,64 @@
 [
   {
+    "id": "5aa08f312fb3b000",
+    "lab": "anthropic",
+    "title": "Claude Agent SDK (Python) v0.2.187",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.187",
+    "sourceId": "anthropic-agent-sdk",
+    "sourceName": "GitHub · anthropics/claude-agent-sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-20T23:28:33.000Z",
+    "firstSeenAt": "2026-11-21T02:26:38.179Z",
+    "updatedAt": "2026-11-20T23:28:33.000Z",
+    "excerpt": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.187/ pip install claude-agent-sdk==0.2.187",
+    "summary": "Anthropic shipped Claude Agent SDK (Python) v0.2.187 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 25,
+    "contentHash": "0fcf427b44df",
+    "meta": {
+      "version": "v0.2.187",
+      "semver": "patch",
+      "repo": "anthropics/claude-agent-sdk-python"
+    }
+  },
+  {
+    "id": "7ce40af71312dcfa",
+    "lab": "anthropic",
+    "title": "Claude Code v2.1.330",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+    "sourceId": "anthropic-claude-code",
+    "sourceName": "GitHub · anthropics/claude-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-20T22:32:56.000Z",
+    "firstSeenAt": "2026-11-21T02:26:38.179Z",
+    "updatedAt": "2026-11-20T22:32:56.000Z",
+    "excerpt": "What's changed Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses its cloud provider or gateway Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pro, Max and, where available, Team and Enterprise on macOS and Linux; turn automatic charts off in /config Added…",
+    "summary": "Anthropic shipped Claude Code v2.1.330 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "mcp"
+    ],
+    "importance": 25,
+    "contentHash": "2898d92ac3ca",
+    "meta": {
+      "version": "v2.1.330",
+      "semver": "patch",
+      "repo": "anthropics/claude-code"
+    }
+  },
+  {
     "id": "e7354365dbd85246",
     "lab": "anthropic",
     "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
@@ -864,7 +923,7 @@
     "verified": true,
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "firstSeenAt": "2026-11-09T22:30:13.875Z",
-    "updatedAt": "2026-11-20T20:29:58.968Z",
+    "updatedAt": "2026-11-21T02:26:38.179Z",
     "excerpt": "Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.",
     "summary": "Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -1032,16 +1091,16 @@
     "lab": "anthropic",
     "title": "The components of agent memory",
     "url": "https://anthropic.com/research/components-of-agent-memory",
-    "sourceId": "anthropic-claude-blog",
-    "sourceName": "Claude Blog",
+    "sourceId": "anthropic-eng",
+    "sourceName": "Anthropic Engineering",
     "sourceType": "rss",
     "trust": "mirror",
     "verified": true,
     "publishedAt": "2026-11-06T00:00:00.000Z",
     "firstSeenAt": "2026-11-07T00:58:58.459Z",
-    "updatedAt": "2026-11-20T20:29:58.968Z",
-    "excerpt": "For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how \"dreaming\" helps it organize memory and correct mistakes.",
-    "summary": "For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next.",
+    "updatedAt": "2026-11-21T02:26:38.179Z",
+    "excerpt": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+    "summary": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
@@ -1049,7 +1108,7 @@
       "agents"
     ],
     "importance": 55,
-    "contentHash": "87395c2013f6"
+    "contentHash": "2bc20adb6dbc"
   },
   {
     "id": "00183b004892f2d6",
@@ -3080,7 +3139,7 @@
     "verified": true,
     "publishedAt": "2026-10-07T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-11-20T20:29:58.968Z",
+    "updatedAt": "2026-11-21T02:26:38.179Z",
     "excerpt": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "summary": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.",
     "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
@@ -3215,7 +3274,7 @@
     "verified": true,
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "firstSeenAt": "2026-10-09T07:59:04.833Z",
-    "updatedAt": "2026-11-20T20:29:58.968Z",
+    "updatedAt": "2026-11-21T02:26:38.179Z",
     "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
     "benefit": "A new product capability you may be able to use right away, without code changes.",

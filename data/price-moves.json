@@ -1,5 +1,101 @@
 [
   {
+    "id": "43cf6e021f3775e9",
+    "modelId": "particle-ai/particle-1",
+    "name": "Particle AI: Particle-1",
+    "at": "2026-11-21T02:26:38.179Z",
+    "field": "prompt",
+    "from": 0.06,
+    "to": 0.07,
+    "change": 16.7
+  },
+  {
+    "id": "e33531de70b13be8",
+    "modelId": "inclusionai/ling-3.1-flash",
+    "name": "inclusionAI: Ling 3.1 Flash",
+    "at": "2026-11-21T02:26:38.179Z",
+    "field": "prompt",
+    "from": 0.045,
+    "to": 0.06,
+    "change": 33.3
+  },
+  {
+    "id": "890e9f29f5be11ba",
+    "modelId": "inclusionai/ling-3.1-flash",
+    "name": "inclusionAI: Ling 3.1 Flash",
+    "at": "2026-11-21T02:26:38.179Z",
+    "field": "completion",
+    "from": 0.135,
+    "to": 0.18,
+    "change": 33.3
+  },
+  {
+    "id": "cbf9ddc7ea7362a3",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-21T02:26:38.179Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.0399,
+    "change": -73.4
+  },
+  {
+    "id": "eafb07d632e66afb",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-21T02:26:38.179Z",
+    "field": "completion",
+    "from": 0.5,
+    "to": 0.0784,
+    "change": -84.3
+  },
+  {
+    "id": "b67c84fc83655d04",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-21T02:26:38.179Z",
+    "field": "prompt",
+    "from": 0.111,
+    "to": 1.32,
+    "change": 1089.2
+  },
+  {
+    "id": "adce934c791dc724",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-21T02:26:38.179Z",
+    "field": "completion",
+    "from": 4.44,
+    "to": 3.96,
+    "change": -10.8
+  },
+  {
+    "id": "accc0a0d6fe09048",
+    "modelId": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "lab": "meta",
+    "at": "2026-11-21T02:26:38.179Z",
+    "field": "prompt",
+    "from": 0.0509,
+    "to": 0.05,
+    "change": -1.8
+  },
+  {
+    "id": "8746fab2311be1b9",
+    "modelId": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "lab": "meta",
+    "at": "2026-11-21T02:26:38.179Z",
+    "field": "completion",
+    "from": 0.335,
+    "to": 0.33,
+    "change": -1.5
+  },
+  {
     "id": "e107b3551d27ccf3",
     "modelId": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",

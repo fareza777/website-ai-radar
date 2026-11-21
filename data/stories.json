@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:29:58.968Z",
+  "generatedAt": "2026-11-21T02:26:38.179Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -100,20 +100,21 @@
         "openai"
       ],
       "official": 2,
-      "press": 2,
+      "press": 3,
       "outlets": [
         "9to5Mac",
         "The GitHub Blog",
-        "VentureBeat"
+        "VentureBeat",
+        "CNET"
       ],
       "firstAt": "2026-11-17T17:17:00.000Z",
-      "lastAt": "2026-11-17T22:33:40.000Z",
+      "lastAt": "2026-11-19T21:20:10.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "lead": {
         "kind": "official",
         "id": "549a77347d5e1e5f"
       },
-      "importance": 96
+      "importance": 97
     },
     {
       "id": "05f1e3cef6173c85",
@@ -288,9 +289,8 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 12,
+      "press": 11,
       "outlets": [
-        "Inven Global",
         "Technology Org",
         "Android Authority",
         "MIXED News",
@@ -303,14 +303,14 @@
         "EdTech Innovation Hub",
         "Search Engine Roundtable"
       ],
-      "firstAt": "2026-11-10T23:28:39.000Z",
+      "firstAt": "2026-11-11T06:11:00.000Z",
       "lastAt": "2026-11-16T19:34:27.000Z",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHX0tlbER3VjBGQ0F2eHYyY2RhcXVmUV9RRzN0VTR3d1U3MTduRnBSMENDeE9KTFpXeG11blo4NlN3UEFVbUFFc2E2SWNFUFdKYXo5S2VOTjg2YWlKdzdoVEhhR3FxdlJuLTd2T3JsNFB1UC1ubzFpcV93bzE?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:47124b85f3d9da"
       },
-      "importance": 63
+      "importance": 62
     },
     {
       "id": "baidu:8f0dc7a5fd96a4",
@@ -320,12 +320,13 @@
         "baidu"
       ],
       "official": 0,
-      "press": 8,
+      "press": 9,
       "outlets": [
         "KuCoin",
         "Pandaily",
         "TOKENPOST",
         "Tech in Asia",
+        "Digg",
         "Crypto Briefing",
         "TechNode",
         "CASRAI",
@@ -396,55 +397,6 @@
       "importance": 58
     },
     {
-      "id": "bytedance:21acbc3247009f",
-      "title": "U.S. House panel seeks Microsoft briefing on reported ByteDance AI cloud talks",
-      "entity": null,
-      "labs": [
-        "bytedance"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Telegraph India",
-        "Dataconomy",
-        "Business Upturn",
-        "Traders Union",
-        "NeoTeo"
-      ],
-      "firstAt": "2026-11-18T20:41:29.000Z",
-      "lastAt": "2026-11-18T23:32:57.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVRWaVNzU0t1RVJaTjhCUkV6Q2g3Q2ZiblQ4UGQ1cXJKck1LNnJvN1VKdmdIVVZNd3E5Mm1fT0VjSFlOWmRTUzhLYW9XbC03WV9ZX2VWam5BOEd5ZVZrYnJYNXVlWk1DUE1lYVdJd2N3SnZVZVhtamRrRTBSd1l6S2pLRVR0c2gyZlBEa2dWczM4Nnd4Z2l5b3R3?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "bytedance:21acbc3247009f"
-      },
-      "importance": 57
-    },
-    {
-      "id": "cohere:234d2d221df3e4",
-      "title": "Cohere in a ‘fight’ to secure AI computing power",
-      "entity": null,
-      "labs": [
-        "cohere"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Bloomberg.com",
-        "The Logic",
-        "The Edge Singapore",
-        "The Edge Malaysia"
-      ],
-      "firstAt": "2026-11-11T01:52:29.000Z",
-      "lastAt": "2026-11-11T03:54:01.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT251MWJFbDFCaUVGMXY0c2NhYzVqQ2luYUl3YXlFa0FnUXlXTWVGU0l1MmQwd0txQTd1MF9mcFZVd0hjOFNVVGNvMTZobE53aU5EYjVZaW1FR05uOUFXc2lzajVPY1NOSFIxZVpaYkdGaXN5T1dkSFpsaHYwaWFWc3NZT1J3YUpYRDBVT0xn?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:234d2d221df3e4"
-      },
-      "importance": 56
-    },
-    {
       "id": "cohere:605197a12a80b5",
       "title": "Cohere IPO: Status, Valuation and What to Know",
       "entity": null,
@@ -486,7 +438,7 @@
       {
         "name": "DeepSeek 4.1 Flash",
         "count": 9,
-        "prev": 4,
+        "prev": 3,
         "labs": [
           "amazon"
         ]
@@ -494,7 +446,7 @@
       {
         "name": "Gemini 4 Hydrogen",
         "count": 7,
-        "prev": 24,
+        "prev": 23,
         "labs": [
           "google-deepmind"
         ]
@@ -531,6 +483,12 @@
         ]
       },
       {
+        "name": "DeepSeek 4.1 Pro",
+        "count": 3,
+        "prev": 2,
+        "labs": []
+      },
+      {
         "name": "Qwen 4",
         "count": 3,
         "prev": 2,
@@ -540,52 +498,64 @@
     "topics": [
       {
         "name": "agents",
-        "count": 73,
-        "prev": 61,
+        "count": 74,
+        "prev": 62,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "meta",
           "cohere",
           "qwen",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 41,
-        "prev": 49,
+        "count": 42,
+        "prev": 51,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "mistral",
           "cohere",
           "qwen",
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 18,
-        "prev": 11,
+        "count": 19,
+        "prev": 10,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
-          "minimax",
+          "google-deepmind",
           "cohere",
+          "minimax",
           "tencent",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
+        "name": "mcp",
+        "count": 9,
+        "prev": 7,
+        "labs": [
+          "anthropic",
+          "openai",
+          "mistral",
+          "microsoft",
+          "amazon"
         ]
       },
       {
@@ -600,28 +570,16 @@
       },
       {
         "name": "safety",
-        "count": 8,
+        "count": 7,
         "prev": 21,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "cohere",
           "amazon",
-          "nvidia",
-          "ibm"
-        ]
-      },
-      {
-        "name": "mcp",
-        "count": 7,
-        "prev": 7,
-        "labs": [
-          "anthropic",
-          "openai",
-          "mistral",
-          "microsoft",
-          "amazon"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -630,8 +588,8 @@
         "prev": 5,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "amazon",
           "ibm"
         ]
@@ -639,12 +597,12 @@
       {
         "name": "open-source",
         "count": 6,
-        "prev": 6,
+        "prev": 5,
         "labs": [
           "microsoft",
           "amazon",
-          "nvidia",
-          "ibm"
+          "ibm",
+          "nvidia"
         ]
       },
       {
@@ -652,8 +610,8 @@
         "count": 5,
         "prev": 7,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "mistral",
           "microsoft",
           "amazon",
@@ -662,18 +620,5 @@
       }
     ]
   },
-  "unconfirmed": [
-    {
-      "id": "mistral:daee685c0d8910",
-      "lab": "mistral",
-      "title": "Mistral Vibe launches desktop app for macOS and Windows",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BdXhTdlkzZFF1SzktXy1ya1JuYVZTSTJZVVJSSkdIYlFrYkZPZmhISTBkYTl5Tm9hbnYzNk05d05TOUdXZFZwbkJRR3lZZzRldTB3eWZyMjVwQnIwNEhTc21xb1p3dUZJRkpoMkQ5VTVTWnJn?oc=5",
-      "outlets": [
-        "TestingCatalog AI News",
-        "Crypto Briefing"
-      ],
-      "reports": 2,
-      "at": "2026-11-18T15:46:19.000Z"
-    }
-  ]
+  "unconfirmed": []
 }

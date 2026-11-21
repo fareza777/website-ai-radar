@@ -1,40 +1,30 @@
 [
   {
     "date": "2026-11-21",
-    "generatedAt": "2026-11-20T20:29:58.968Z",
+    "generatedAt": "2026-11-21T02:26:38.179Z",
     "stats": {
-      "updates24h": 22,
+      "updates24h": 18,
       "labsActive24h": 6,
-      "updates7d": 183,
-      "newModels7d": 43
+      "updates7d": 191,
+      "newModels7d": 46
     },
     "source": "template",
-    "headline": "22 updates from 6 AI labs in the last 24 hours · 43 model releases this week.",
+    "headline": "18 updates from 6 AI labs in the last 24 hours · 46 model releases this week.",
     "bullets": [
       {
-        "text": "Amazon: Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
-        "itemId": "1993e3871a4476a3",
+        "text": "Amazon: Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+        "itemId": "668baa710142dd51",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+        "itemId": "5259c7996b79c471",
         "lab": "amazon"
       },
       {
         "text": "OpenAI: Combatting adversarial distillation",
         "itemId": "3ea993db7e3c60d1",
         "lab": "openai"
-      },
-      {
-        "text": "Amazon: Amazon SageMaker Inference: 2026 launches in review, part 2",
-        "itemId": "d47187ac7d511370",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: Can AI help scientists identify promising drug candidates?",
-        "itemId": "f4784c30400364a2",
-        "lab": "openai"
-      },
-      {
-        "text": "Anthropic: Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
-        "itemId": "e7354365dbd85246",
-        "lab": "anthropic"
       }
     ]
   },
