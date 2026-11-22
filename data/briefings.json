@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-11-22",
-    "generatedAt": "2026-11-22T01:25:01.679Z",
+    "generatedAt": "2026-11-22T11:38:24.410Z",
     "stats": {
-      "updates24h": 1,
-      "labsActive24h": 1,
-      "updates7d": 190,
+      "updates24h": 0,
+      "labsActive24h": 0,
+      "updates7d": 187,
       "newModels7d": 47
     },
     "source": "template",
@@ -15,11 +15,6 @@
         "text": "OpenAI: Hebbia sees improvements in financial research with GPT-6 Astra",
         "itemId": "d15c45643214b444",
         "lab": "openai"
-      },
-      {
-        "text": "Amazon: AWS AppConfig launches support for managing native AI model and AI prompt configuration",
-        "itemId": "a0545391e3564313",
-        "lab": "amazon"
       },
       {
         "text": "Google DeepMind: Introducing Tool Retrieval in the Gemini API",
@@ -34,6 +29,11 @@
       {
         "text": "Amazon: Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
         "itemId": "668baa710142dd51",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+        "itemId": "5259c7996b79c471",
         "lab": "amazon"
       },
       {

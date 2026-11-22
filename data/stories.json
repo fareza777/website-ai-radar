@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T01:25:01.679Z",
+  "generatedAt": "2026-11-22T11:38:24.410Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -165,14 +165,12 @@
       "entity": "Qwen 4 Max",
       "labs": [
         "qwen",
-        "moonshot"
+        "moonshot",
+        "tencent"
       ],
       "official": 0,
-      "press": 22,
+      "press": 21,
       "outlets": [
-        "Tech Times",
-        "mobidevices.com",
-        "Technetbook",
         "Vals AI",
         "www.tokenpost.com",
         "The Defiant",
@@ -197,10 +195,11 @@
         "Yahoo Tech",
         "BigGo Finance",
         "KuCoin",
+        "36Kr",
         "The Edge Malaysia",
         "TNGlobal"
       ],
-      "firstAt": "2026-11-12T07:00:21.000Z",
+      "firstAt": "2026-11-16T02:30:37.000Z",
       "lastAt": "2026-11-19T10:09:37.000Z",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0llVDN6V1dUODNxdTUtajZ6aElDeUp1cXc3UzdnS0JEbVpTZTJ2cVdFS0VtQV83TmdMRU55RGZSU3dfTF9rYVBGcGN6VzRCREJhMGdVeU9EMmVkUjR6TnVsSmdtcGpfdC00UUFoaC00VG9tZHBXZHZlUUF2Y0dTNVd2eDdIbkhKeFVuQVcyeU1MQQ?oc=5",
       "lead": {
@@ -208,60 +207,6 @@
         "id": "qwen:075ae9bbb51baf"
       },
       "importance": 70
-    },
-    {
-      "id": "google-deepmind:643c21bba64d27",
-      "title": "Google’s Gemini 4 Carbon can do 5 things your current AI chatbot can’t — here’s how to try them",
-      "entity": "Gemini 4 Carbon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 7,
-      "outlets": [
-        "Tom's Guide",
-        "PPC Land",
-        "CASRAI",
-        "The Decoder",
-        "EdTech Innovation Hub",
-        "Search Engine Roundtable",
-        "shattered.io"
-      ],
-      "firstAt": "2026-11-12T06:19:41.000Z",
-      "lastAt": "2026-11-16T19:34:27.000Z",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSmNiYmhKSmhnNWhsYlU3cUhKMnJSTE9HN3B3d0NnUkNIRXNKOWx5ekIybm52dXdHT1lwY0xULVoydEVSSTN6MW9UVDFBN1k4dW1fVG5ScHZvQUM5dUtydTZ0dHl0eEtkOC1IM2ZON0plemRMWU5wTGlnQ08xMUhjWV8xdW00dTFEbjVsVzJIbVFmMGc4NzVROTI4bGkwUEpubks2WHdQLWJiX0FrSW9kcndDQldKa3JOZk5QM3c1Ty01RnpiVjU1b05ReVdGUQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:643c21bba64d27"
-      },
-      "importance": 59
-    },
-    {
-      "id": "nvidia:1d03a12adeb33b",
-      "title": "Nvidia's AI financing machine may survive Huang, but with less risk appetite",
-      "entity": null,
-      "labs": [
-        "nvidia"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "MSN",
-        "Reuters",
-        "Kitco",
-        "Investing.com",
-        "The Lufkin Daily News",
-        "TradingView",
-        "WTVB"
-      ],
-      "firstAt": "2026-11-12T08:00:00.000Z",
-      "lastAt": "2026-11-16T11:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVU5oUGw0NEdidEtFOU5IZHlTZTN4eUhmVkZXa3RKREJuLUh1akowTWlfcjlUWS12WC1ZS05CTUdraE5ET2xRSlBZZHBEaXhaazFSdHB0MFl2cy13QUp1cVJmYXJOVDlNNFA3c1BiNjBzdEJiWTFqRjVKNjdpYk5BUjVUWWFleXRDZktyblVGcTF1Ulk2dDFTUHROWlFsRmtUQWNINURsd0wtbmUzVk50cEpscVZpQ2pVb2NrM3d0YTk1aXlBUWtfM0FuY25yNmVkRTVrNEFrZHFtUEg0Z1E?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "nvidia:1d03a12adeb33b"
-      },
-      "importance": 59
     },
     {
       "id": "tencent:01e9e109b63045",
@@ -290,52 +235,75 @@
       "importance": 58
     },
     {
-      "id": "baidu:78abbd72b8a56f",
-      "title": "Baidu opens API access to ERNIE 5.5 Flash Preview",
+      "id": "google-deepmind:695503e690d44d",
+      "title": "Google Makes Gemini 4 Carbon Generally Available: Access Tiers, Pricing and What Research Offices Should Check",
+      "entity": "Gemini 4 Carbon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 5,
+      "outlets": [
+        "CASRAI",
+        "The Decoder",
+        "EdTech Innovation Hub",
+        "Search Engine Roundtable",
+        "shattered.io"
+      ],
+      "firstAt": "2026-11-13T07:28:13.000Z",
+      "lastAt": "2026-11-16T19:34:27.000Z",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLbHgtN2VPZW45bFVLRG1scGdkZV9BVGd5bk5vcXFXX2ZLWFFDT2FJcWhidWp0ZXhVVFY5a3F2anZCSV9PM1BVUVJYclhEdlBaVnN0cGpyY0tVSkNSODhqNkluTUYyb05KMVZz?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:695503e690d44d"
+      },
+      "importance": 57
+    },
+    {
+      "id": "anthropic:692659fa7d6510",
+      "title": "Anthropic’s IPO price is due today. What should investors know?",
+      "entity": null,
+      "labs": [
+        "anthropic"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Yahoo Finance",
+        "AP News",
+        "WSJ",
+        "ABC News - Breaking News, Latest News and Videos"
+      ],
+      "firstAt": "2026-11-18T06:14:00.000Z",
+      "lastAt": "2026-11-18T18:31:27.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWFGMWNPbzgycnNheGttVTJDS2l6M2trTl9HaDBCaUNRaWQxaWJHSzY5WnpvekloWlBLaWZGbzZtUWY5R2xQNGJqRkJnR2JvSl9NRHJibGIwbGd1Yms2S2RFcXVvS0MwOWtSSmQzN3VfZFpPZGhORnVwYVFjejdEcTd6V1MtYkV2UVVjOUkwdTFRUEZSQ3JVdg?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "anthropic:692659fa7d6510"
+      },
+      "importance": 56
+    },
+    {
+      "id": "baidu:a68abacef82ebc",
+      "title": "Baidu, Inc. (BIDU) Launches Token Exchange; ERNIE 5.5 Flash Preview Released",
       "entity": "ERNIE 5.5 Flash",
       "labs": [
         "baidu"
       ],
       "official": 0,
-      "press": 5,
+      "press": 4,
       "outlets": [
-        "TechNode",
-        "CASRAI",
         "TradingView",
         "KuCoin",
         "Pasquale Pillitteri",
         "OrcaRouter"
       ],
-      "firstAt": "2026-11-12T07:10:52.000Z",
+      "firstAt": "2026-11-12T14:08:00.000Z",
       "lastAt": "2026-11-13T18:59:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdm5BNWRhMVAtZkpzcVRqU3czV014ZnlWbkUybEdXa0t6SFVNQXVVUjZyOFQ0TWExT3lnR0tWNnhBN1Nyb28wQnVpOUdXaVJLMFAtTkQ2YWg3bHc2MGdRSUNhVkFjcnhiXzhFcWszUy04d2llNTN3R0VrRVJiR1JiOTFNSVFUNnhqcnc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVmVHR2M0QjJKb25KQ1VqNTFpa0xSUG95dGpqXzRNZmlBc1hpQ0pmVFZ1N2kyNm5YRWE1aHJ3MlZmdk51ZFZjdjBiRExJVkFMR2tkTjZ5cmNEZmhrdkw3S1ByNEQxOHhsSjVCdVZtbC05WFJQSVdDenA0dVM0c25oMkozMlp1VldFSzFMLUQ0X0g0Ym1oUlk5Zk1DNXl6T1lMN21xbjhGYjBiOF8zalQ5eEJqakJHSWhkdlRpVHB4bTdGZXVQc1dpNnYyLUNBQQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "baidu:78abbd72b8a56f"
-      },
-      "importance": 58
-    },
-    {
-      "id": "moonshot:a4e0be466407f9",
-      "title": "China’s Moonshot AI Scraps $150 Million Deal to Access Nvidia Chips in Indonesia",
-      "entity": null,
-      "labs": [
-        "moonshot"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "The Information",
-        "Crypto Briefing",
-        "TradingView",
-        "Digg"
-      ],
-      "firstAt": "2026-11-19T10:00:00.000Z",
-      "lastAt": "2026-11-19T10:01:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdE5MUDNQNXlvMGk2ZmF5ellRVVpSekxPd0NmZnI2cWJkbGJVdTFUZkl6Z1o3d1NjeDVoQUtUUHhDQjhfNjQ3RUM3R3lmXzZYRkVydTBjeE1MVzFjQXpVX3FNTG1Qb3p3UV9veTlCMEVISnpxcXFERUlERnNrNWJWcTRZNXRoZmVQbjM4YkItQlZxQzNDMDJtWGYxaHRjeFZEWnZvOHJmSFgxQ19XWC0zNjhR?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "moonshot:a4e0be466407f9"
+        "id": "baidu:a68abacef82ebc"
       },
       "importance": 56
     },
@@ -366,7 +334,7 @@
     "entities": [
       {
         "name": "Qwen 4 Max",
-        "count": 29,
+        "count": 30,
         "prev": 7,
         "labs": []
       },
@@ -416,15 +384,15 @@
         "labs": []
       },
       {
-        "name": "DeepSeek 4.1 Pro",
+        "name": "GLM 5.5",
         "count": 3,
         "prev": 2,
         "labs": []
       },
       {
-        "name": "GLM 5.5",
+        "name": "DeepSeek 4.1 Pro",
         "count": 3,
-        "prev": 3,
+        "prev": 2,
         "labs": []
       },
       {
@@ -447,8 +415,8 @@
     "topics": [
       {
         "name": "agents",
-        "count": 74,
-        "prev": 60,
+        "count": 72,
+        "prev": 62,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -457,15 +425,15 @@
           "cohere",
           "qwen",
           "microsoft",
-          "amazon",
           "ibm",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 41,
-        "prev": 49,
+        "count": 38,
+        "prev": 51,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -474,15 +442,15 @@
           "cohere",
           "qwen",
           "microsoft",
-          "amazon",
           "ibm",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
         "count": 19,
-        "prev": 12,
+        "prev": 11,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -490,8 +458,8 @@
           "minimax",
           "cohere",
           "tencent",
-          "amazon",
           "ibm",
+          "amazon",
           "nvidia"
         ]
       },
@@ -526,21 +494,20 @@
           "google-deepmind",
           "openai",
           "cohere",
-          "amazon",
           "ibm",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "audio",
         "count": 7,
-        "prev": 5,
+        "prev": 4,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "amazon",
-          "ibm"
+          "amazon"
         ]
       },
       {
@@ -549,8 +516,8 @@
         "prev": 5,
         "labs": [
           "microsoft",
-          "amazon",
           "ibm",
+          "amazon",
           "nvidia"
         ]
       },
