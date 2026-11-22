@@ -1,25 +1,45 @@
 [
   {
     "date": "2026-11-22",
-    "generatedAt": "2026-11-21T19:25:57.629Z",
+    "generatedAt": "2026-11-22T01:25:01.679Z",
     "stats": {
-      "updates24h": 9,
-      "labsActive24h": 3,
-      "updates7d": 189,
-      "newModels7d": 46
+      "updates24h": 1,
+      "labsActive24h": 1,
+      "updates7d": 190,
+      "newModels7d": 47
     },
     "source": "template",
-    "headline": "9 updates from 3 AI labs in the last 24 hours · 46 model releases this week.",
+    "headline": "A quiet day — here are the highlights from the last 72 hours across 10 labs.",
     "bullets": [
+      {
+        "text": "OpenAI: Hebbia sees improvements in financial research with GPT-6 Astra",
+        "itemId": "d15c45643214b444",
+        "lab": "openai"
+      },
+      {
+        "text": "Amazon: AWS AppConfig launches support for managing native AI model and AI prompt configuration",
+        "itemId": "a0545391e3564313",
+        "lab": "amazon"
+      },
+      {
+        "text": "Google DeepMind: Introducing Tool Retrieval in the Gemini API",
+        "itemId": "b00f82b6db94c2e5",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Google DeepMind: Genie 4 is now available on the Gemini API.",
+        "itemId": "2f744659d90551a0",
+        "lab": "google-deepmind"
+      },
       {
         "text": "Amazon: Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
         "itemId": "668baa710142dd51",
         "lab": "amazon"
       },
       {
-        "text": "Amazon: Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
-        "itemId": "5259c7996b79c471",
-        "lab": "amazon"
+        "text": "OpenAI: Combatting adversarial distillation",
+        "itemId": "3ea993db7e3c60d1",
+        "lab": "openai"
       }
     ]
   },

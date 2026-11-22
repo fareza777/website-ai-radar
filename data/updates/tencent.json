@@ -32,6 +32,38 @@
     }
   },
   {
+    "id": "29b7e1e2eee56aff",
+    "lab": "tencent",
+    "title": "WeMM-Video-9B",
+    "url": "https://huggingface.co/tencent/WeMM-Video-9B",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T08:55:54.000Z",
+    "firstSeenAt": "2026-11-22T01:25:01.679Z",
+    "updatedAt": "2026-11-17T08:55:54.000Z",
+    "excerpt": "video-text-to-text · license: apache-2.0",
+    "summary": "Tencent published the WeMM-Video-9B model on Hugging Face for video understanding. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "9B",
+      "multimodal"
+    ],
+    "importance": 58,
+    "contentHash": "93eea8e2dba5",
+    "meta": {
+      "likes": 10,
+      "downloads": 230,
+      "repo": "tencent/WeMM-Video-9B",
+      "pipeline": "video-text-to-text",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "16e501830e3233c0",
     "lab": "tencent",
     "title": "WeMM-Video-35BA3B",
@@ -53,10 +85,10 @@
       "3B",
       "multimodal"
     ],
-    "importance": 61,
+    "importance": 62,
     "contentHash": "62f4debc2f30",
     "meta": {
-      "likes": 26,
+      "likes": 27,
       "downloads": 239,
       "repo": "tencent/WeMM-Video-35BA3B",
       "pipeline": "video-text-to-text",
@@ -118,7 +150,7 @@
     "importance": 72,
     "contentHash": "0c5e110eebf3",
     "meta": {
-      "likes": 518,
+      "likes": 546,
       "downloads": 5588,
       "repo": "tencent/Hy4-flash",
       "pipeline": "image-text-to-text",
@@ -185,7 +217,7 @@
     "importance": 39,
     "contentHash": "dfa8335339e5",
     "meta": {
-      "stars": 195,
+      "stars": 204,
       "repo": "Tencent-Hunyuan/MovieRoll",
       "language": "Python"
     }
@@ -353,7 +385,7 @@
     "importance": 36,
     "contentHash": "5b9ea319ff73",
     "meta": {
-      "stars": 71,
+      "stars": 72,
       "repo": "Tencent-Hunyuan/Hy4",
       "language": "Python"
     },

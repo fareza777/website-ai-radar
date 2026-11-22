@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T19:25:57.629Z",
+  "generatedAt": "2026-11-22T01:25:01.679Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -118,28 +118,6 @@
       "importance": 97
     },
     {
-      "id": "2a6900735adaed7f",
-      "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
-      "entity": "DeepSeek 4 Pro",
-      "labs": [
-        "amazon",
-        "deepseek"
-      ],
-      "official": 1,
-      "press": 1,
-      "outlets": [
-        "shattered.io"
-      ],
-      "firstAt": "2026-11-11T23:18:00.000Z",
-      "lastAt": "2026-11-14T14:48:45.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart",
-      "lead": {
-        "kind": "official",
-        "id": "2a6900735adaed7f"
-      },
-      "importance": 87
-    },
-    {
       "id": "134ab56ca337ce36",
       "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
       "entity": "Grok 4.7",
@@ -232,83 +210,29 @@
       "importance": 70
     },
     {
-      "id": "0566809c65753b53",
-      "title": "OpenAI Codex on Amazon Bedrock",
-      "entity": null,
-      "labs": [
-        "amazon",
-        "openai"
-      ],
-      "official": 1,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-11-11T23:35:47.000Z",
-      "lastAt": "2026-11-11T23:35:47.000Z",
-      "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
-      "lead": {
-        "kind": "official",
-        "id": "0566809c65753b53"
-      },
-      "importance": 70
-    },
-    {
-      "id": "mistral:ad3a636921be3f",
-      "title": "Deutsche Telekom invests €100 million in France's Mistral AI",
-      "entity": null,
-      "labs": [
-        "mistral"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "Data Center Dynamics",
-        "Mobile Europe",
-        "MLQ.ai",
-        "TradingView",
-        "www.trendingtopics.eu",
-        "W.Media",
-        "marketscreener.com",
-        "Telecompaper",
-        "WSJ",
-        "Yahoo Finance",
-        "Techzine Global",
-        "jawlah.co",
-        "UA.NEWS",
-        "ad-hoc-news.de"
-      ],
-      "firstAt": "2026-11-19T08:18:22.000Z",
-      "lastAt": "2026-11-19T09:31:25.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeDlaMkg4aHFHS056Z2hfSXRCLXdTdTBoRXlqN1U4ZWNNRnpGaVBsNTJxQW5ZQmFBcEtod1BMQmt4UWZLbF92aG1tcFJtaExrd0NLX1NyYkRYejNFMzFOd0djc1BITWRBR2VRYW1vWGNDZWlHMFMtYmVmcWk1Ynd2b1E5UWdaTzRCSXVlTXZIRjhWSzRHRlJLOWwzZmdyOTdILWYzWXB0djdGMDlieWladmItZEdrbGNTRHF3ek13SDJTZnpyTHZyaQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "mistral:ad3a636921be3f"
-      },
-      "importance": 64
-    },
-    {
-      "id": "google-deepmind:14f355c6130eef",
-      "title": "Gemini 4 Carbon: 6.5M Lean Proof Lines Verify Signal [2026]",
+      "id": "google-deepmind:643c21bba64d27",
+      "title": "Google’s Gemini 4 Carbon can do 5 things your current AI chatbot can’t — here’s how to try them",
       "entity": "Gemini 4 Carbon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 8,
+      "press": 7,
       "outlets": [
-        "shattered.io",
         "Tom's Guide",
         "PPC Land",
         "CASRAI",
         "The Decoder",
         "EdTech Innovation Hub",
-        "Search Engine Roundtable"
+        "Search Engine Roundtable",
+        "shattered.io"
       ],
-      "firstAt": "2026-11-11T19:30:13.000Z",
+      "firstAt": "2026-11-12T06:19:41.000Z",
       "lastAt": "2026-11-16T19:34:27.000Z",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMWlleThMNkxsdHJYd3dPY3JaU2FsQVVDaTNSNzhIVFotLTM1ZVpHaXBfcnJkMTA4N3gxdVFwSUM3d2lRTjgtdU9MMWc4NnJQUTZNWHYzbTExdjFOSGw0Ujc1aUNrcXE0eG9SeHNEbXNhUmVjWXpBZXYzQndsYnJCOHd1cmwwb3ZNbHZ1eW52aWw0am1yOHRrS2t2bFFmWnFl?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSmNiYmhKSmhnNWhsYlU3cUhKMnJSTE9HN3B3d0NnUkNIRXNKOWx5ekIybm52dXdHT1lwY0xULVoydEVSSTN6MW9UVDFBN1k4dW1fVG5ScHZvQUM5dUtydTZ0dHl0eEtkOC1IM2ZON0plemRMWU5wTGlnQ08xMUhjWV8xdW00dTFEbjVsVzJIbVFmMGc4NzVROTI4bGkwUEpubks2WHdQLWJiX0FrSW9kcndDQldKa3JOZk5QM3c1Ty01RnpiVjU1b05ReVdGUQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:14f355c6130eef"
+        "id": "google-deepmind:643c21bba64d27"
       },
       "importance": 59
     },
@@ -390,6 +314,30 @@
         "id": "baidu:78abbd72b8a56f"
       },
       "importance": 58
+    },
+    {
+      "id": "moonshot:a4e0be466407f9",
+      "title": "China’s Moonshot AI Scraps $150 Million Deal to Access Nvidia Chips in Indonesia",
+      "entity": null,
+      "labs": [
+        "moonshot"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "The Information",
+        "Crypto Briefing",
+        "TradingView",
+        "Digg"
+      ],
+      "firstAt": "2026-11-19T10:00:00.000Z",
+      "lastAt": "2026-11-19T10:01:37.000Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdE5MUDNQNXlvMGk2ZmF5ellRVVpSekxPd0NmZnI2cWJkbGJVdTFUZkl6Z1o3d1NjeDVoQUtUUHhDQjhfNjQ3RUM3R3lmXzZYRkVydTBjeE1MVzFjQXpVX3FNTG1Qb3p3UV9veTlCMEVISnpxcXFERUlERnNrNWJWcTRZNXRoZmVQbjM4YkItQlZxQzNDMDJtWGYxaHRjeFZEWnZvOHJmSFgxQ19XWC0zNjhR?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "moonshot:a4e0be466407f9"
+      },
+      "importance": 56
     },
     {
       "id": "cohere:605197a12a80b5",
@@ -500,40 +448,40 @@
       {
         "name": "agents",
         "count": 74,
-        "prev": 62,
+        "prev": 60,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "meta",
           "cohere",
-          "microsoft",
           "qwen",
+          "microsoft",
+          "amazon",
           "ibm",
-          "nvidia",
-          "amazon"
+          "nvidia"
         ]
       },
       {
         "name": "coding",
         "count": 41,
-        "prev": 52,
+        "prev": 49,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "mistral",
           "cohere",
-          "microsoft",
           "qwen",
+          "microsoft",
+          "amazon",
           "ibm",
-          "nvidia",
-          "amazon"
+          "nvidia"
         ]
       },
       {
         "name": "multimodal",
-        "count": 18,
+        "count": 19,
         "prev": 12,
         "labs": [
           "anthropic",
@@ -542,9 +490,9 @@
           "minimax",
           "cohere",
           "tencent",
+          "amazon",
           "ibm",
-          "nvidia",
-          "amazon"
+          "nvidia"
         ]
       },
       {
@@ -578,9 +526,9 @@
           "google-deepmind",
           "openai",
           "cohere",
+          "amazon",
           "ibm",
-          "nvidia",
-          "amazon"
+          "nvidia"
         ]
       },
       {
@@ -591,8 +539,8 @@
           "anthropic",
           "google-deepmind",
           "openai",
-          "ibm",
-          "amazon"
+          "amazon",
+          "ibm"
         ]
       },
       {
@@ -601,9 +549,9 @@
         "prev": 5,
         "labs": [
           "microsoft",
+          "amazon",
           "ibm",
-          "nvidia",
-          "amazon"
+          "nvidia"
         ]
       },
       {
@@ -615,8 +563,8 @@
           "openai",
           "mistral",
           "microsoft",
-          "nvidia",
-          "amazon"
+          "amazon",
+          "nvidia"
         ]
       }
     ]

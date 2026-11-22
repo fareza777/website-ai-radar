@@ -1,5 +1,27 @@
 [
   {
+    "id": "2a9a245ef2e18c47",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-22T01:25:01.679Z",
+    "field": "prompt",
+    "from": 0.3,
+    "to": 0.0498,
+    "change": -83.4
+  },
+  {
+    "id": "09ff4a98e00da8b2",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "lab": "deepseek",
+    "at": "2026-11-22T01:25:01.679Z",
+    "field": "completion",
+    "from": 1.2,
+    "to": 0.1992,
+    "change": -83.4
+  },
+  {
     "id": "8039d658e8902c08",
     "modelId": "nvidia/nemotron-3.5-super-vl",
     "name": "NVIDIA: Nemotron 3.5 Super VL",
