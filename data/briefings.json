@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-11-23",
+    "generatedAt": "2026-11-22T19:49:07.211Z",
+    "stats": {
+      "updates24h": 3,
+      "labsActive24h": 2,
+      "updates7d": 190,
+      "newModels7d": 48
+    },
+    "source": "template",
+    "headline": "3 updates from 2 AI labs in the last 24 hours · 48 model releases this week.",
+    "bullets": [
+      {
+        "text": "OpenAI: Perplexity and Intelligence",
+        "itemId": "de5cd1a6d51dc917",
+        "lab": "openai"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen Code v0.28.4",
+        "itemId": "97caf31a500809a1",
+        "lab": "qwen"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen Code desktop v0.28.4",
+        "itemId": "e5438857477a31b2",
+        "lab": "qwen"
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "generatedAt": "2026-11-22T11:38:24.410Z",
     "stats": {
@@ -1167,40 +1196,6 @@
         "text": "OpenAI: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
         "itemId": "298c8de07d18f423",
         "lab": "openai"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-24",
-    "generatedAt": "2026-10-24T16:02:51.649Z",
-    "stats": {
-      "updates24h": 10,
-      "labsActive24h": 6,
-      "updates7d": 157,
-      "newModels7d": 42
-    },
-    "source": "template",
-    "headline": "10 updates from 6 AI labs in the last 24 hours · 42 model releases this week.",
-    "bullets": [
-      {
-        "text": "NVIDIA: Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
-        "itemId": "5c25f1831f0e4d47",
-        "lab": "nvidia"
-      },
-      {
-        "text": "Amazon: How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
-        "itemId": "7f0dec178da37fe0",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-        "itemId": "298c8de07d18f423",
-        "lab": "openai"
-      },
-      {
-        "text": "Amazon: Web Search on AWS Bedrock now supports domain filtering and user location controls",
-        "itemId": "116e84c7c9fa0dbd",
-        "lab": "amazon"
       }
     ]
   }

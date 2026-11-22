@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T11:38:24.410Z",
+  "generatedAt": "2026-11-22T19:49:07.211Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -39,56 +39,6 @@
       "lead": {
         "kind": "official",
         "id": "b898a1b2127c5756"
-      },
-      "importance": 100
-    },
-    {
-      "id": "482148aaa5ddfc2a",
-      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
-      "entity": "Gemini 4 Hydrogen",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 3,
-      "press": 25,
-      "outlets": [
-        "MakeUseOf",
-        "Thurrott.com",
-        "9to5Google",
-        "Search Engine Roundtable",
-        "TestingCatalog AI News",
-        "The Tech Buzz",
-        "Unite.AI",
-        "The American Bazaar",
-        "Interesting Engineering",
-        "Wccftech",
-        "Ars Technica",
-        "Technology Org",
-        "PPC Land",
-        "Seeking Alpha",
-        "The Decoder",
-        "Search Engine Journal",
-        "Mashable",
-        "VentureBeat",
-        "SiliconANGLE",
-        "shattered.io",
-        "www.trendingtopics.eu",
-        "Small Business Trends",
-        "InfoWorld",
-        "Android Central",
-        "The GitHub Blog",
-        "Brave New Coin",
-        "DevOps.com",
-        "AI Insider",
-        "AI Magazine",
-        "Google for Developers Blog"
-      ],
-      "firstAt": "2026-11-12T16:14:43.000Z",
-      "lastAt": "2026-11-17T17:43:25.000Z",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
-      "lead": {
-        "kind": "official",
-        "id": "482148aaa5ddfc2a"
       },
       "importance": 100
     },
@@ -169,7 +119,7 @@
         "tencent"
       ],
       "official": 0,
-      "press": 21,
+      "press": 22,
       "outlets": [
         "Vals AI",
         "www.tokenpost.com",
@@ -180,12 +130,14 @@
         "MLQ.ai",
         "Business Standard",
         "www.trendingtopics.eu",
+        "Alibaba Group",
         "MarkTechPost",
         "Nacionale",
         "Wccftech",
         "HPCwire",
         "ForkLog",
         "Analytics India Magazine",
+        "Tekedia",
         "Technology Org",
         "shattered.io",
         "Medium",
@@ -207,6 +159,102 @@
         "id": "qwen:075ae9bbb51baf"
       },
       "importance": 70
+    },
+    {
+      "id": "google-deepmind:98f0f44c9e0ded",
+      "title": "Google Makes Gemini 4 Hydrogen The Default Model In AI Mode",
+      "entity": "Gemini 4 Hydrogen",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 18,
+      "outlets": [
+        "The Decoder",
+        "Search Engine Journal",
+        "Mashable",
+        "VentureBeat",
+        "SiliconANGLE",
+        "shattered.io",
+        "www.trendingtopics.eu",
+        "Small Business Trends",
+        "InfoWorld",
+        "Android Central",
+        "The GitHub Blog",
+        "Brave New Coin",
+        "DevOps.com",
+        "AI Insider",
+        "AI Magazine",
+        "UC Today",
+        "Google for Developers Blog"
+      ],
+      "firstAt": "2026-11-12T20:03:46.000Z",
+      "lastAt": "2026-11-17T17:43:25.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUZhYVRaYmRkWlY1UkJWV1pZV3phamYtSHpTY0pkT1JmNDRUc3RhanpPbEt6ZTJlZ29Zc3YzQXJRckhJWVNBX0xOYl9BeW9IYW1PTzR6Z0ozaHFiRUNYWTVnVVdXRzRXQmR1RU13Q0NwWC1YeDZGdXM1SjlJZkk3dEViZlhZeUVKenBmWA?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:98f0f44c9e0ded"
+      },
+      "importance": 65
+    },
+    {
+      "id": "cohere:07f58f572cc9a4",
+      "title": "HCLTech And Cohere Partner To Build And Deliver Sovereign AI",
+      "entity": null,
+      "labs": [
+        "cohere"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "TradingView",
+        "CXOToday.com",
+        "ANI News",
+        "scanx.trade",
+        "Asianet Newsable",
+        "https://www.indiagazette.com/",
+        "boerse.de",
+        "Passionate In Marketing",
+        "varindia",
+        "Telugu Times",
+        "PR Newswire",
+        "ET CIO",
+        "Elets CIO"
+      ],
+      "firstAt": "2026-11-17T11:26:17.000Z",
+      "lastAt": "2026-11-22T07:04:27.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ0o3WVBVdUZpWW1pMHN1WmxpcEVkM1Z5RTRnYU1xclRTNk02cElLeFJVYlFaRmNIRjZKQVNZYXVPWWJ3OWR2YVJOMkcxYXJaODFBQThiWFVzZTI1UHBoZjZ4UTgyMFBPdjlNeWhRWFpVU2tXVmM3V3RfMDI5MUxDZE1pbWJEVWw3eEMtNU9yZmNva09nYVZzdzFOdnhnelExSjlITmRva1MzYzdOWm9yMEdwM2R0UE5lZG9kWElFUmlyd3RpZVlCWU5B?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "cohere:07f58f572cc9a4"
+      },
+      "importance": 63
+    },
+    {
+      "id": "google-deepmind:695503e690d44d",
+      "title": "Google Makes Gemini 4 Carbon Generally Available: Access Tiers, Pricing and What Research Offices Should Check",
+      "entity": "Gemini 4 Carbon",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 6,
+      "outlets": [
+        "CASRAI",
+        "The Decoder",
+        "EdTech Innovation Hub",
+        "Search Engine Roundtable",
+        "shattered.io",
+        "Small Business Trends"
+      ],
+      "firstAt": "2026-11-13T07:28:13.000Z",
+      "lastAt": "2026-11-21T14:02:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLbHgtN2VPZW45bFVLRG1scGdkZV9BVGd5bk5vcXFXX2ZLWFFDT2FJcWhidWp0ZXhVVFY5a3F2anZCSV9PM1BVUVJYclhEdlBaVnN0cGpyY0tVSkNSODhqNkluTUYyb05KMVZz?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:695503e690d44d"
+      },
+      "importance": 58
     },
     {
       "id": "tencent:01e9e109b63045",
@@ -235,31 +283,6 @@
       "importance": 58
     },
     {
-      "id": "google-deepmind:695503e690d44d",
-      "title": "Google Makes Gemini 4 Carbon Generally Available: Access Tiers, Pricing and What Research Offices Should Check",
-      "entity": "Gemini 4 Carbon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 5,
-      "outlets": [
-        "CASRAI",
-        "The Decoder",
-        "EdTech Innovation Hub",
-        "Search Engine Roundtable",
-        "shattered.io"
-      ],
-      "firstAt": "2026-11-13T07:28:13.000Z",
-      "lastAt": "2026-11-16T19:34:27.000Z",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLbHgtN2VPZW45bFVLRG1scGdkZV9BVGd5bk5vcXFXX2ZLWFFDT2FJcWhidWp0ZXhVVFY5a3F2anZCSV9PM1BVUVJYclhEdlBaVnN0cGpyY0tVSkNSODhqNkluTUYyb05KMVZz?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:695503e690d44d"
-      },
-      "importance": 57
-    },
-    {
       "id": "anthropic:692659fa7d6510",
       "title": "Anthropic’s IPO price is due today. What should investors know?",
       "entity": null,
@@ -280,30 +303,6 @@
       "lead": {
         "kind": "press",
         "id": "anthropic:692659fa7d6510"
-      },
-      "importance": 56
-    },
-    {
-      "id": "baidu:a68abacef82ebc",
-      "title": "Baidu, Inc. (BIDU) Launches Token Exchange; ERNIE 5.5 Flash Preview Released",
-      "entity": "ERNIE 5.5 Flash",
-      "labs": [
-        "baidu"
-      ],
-      "official": 0,
-      "press": 4,
-      "outlets": [
-        "TradingView",
-        "KuCoin",
-        "Pasquale Pillitteri",
-        "OrcaRouter"
-      ],
-      "firstAt": "2026-11-12T14:08:00.000Z",
-      "lastAt": "2026-11-13T18:59:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVmVHR2M0QjJKb25KQ1VqNTFpa0xSUG95dGpqXzRNZmlBc1hpQ0pmVFZ1N2kyNm5YRWE1aHJ3MlZmdk51ZFZjdjBiRExJVkFMR2tkTjZ5cmNEZmhrdkw3S1ByNEQxOHhsSjVCdVZtbC05WFJQSVdDenA0dVM0c25oMkozMlp1VldFSzFMLUQ0X0g0Ym1oUlk5Zk1DNXl6T1lMN21xbjhGYjBiOF8zalQ5eEJqakJHSWhkdlRpVHB4bTdGZXVQc1dpNnYyLUNBQQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "baidu:a68abacef82ebc"
       },
       "importance": 56
     },
@@ -334,7 +333,7 @@
     "entities": [
       {
         "name": "Qwen 4 Max",
-        "count": 30,
+        "count": 31,
         "prev": 7,
         "labs": []
       },
@@ -348,7 +347,7 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 8,
+        "count": 9,
         "prev": 4,
         "labs": [
           "amazon"
@@ -356,7 +355,7 @@
       },
       {
         "name": "Gemini 4 Hydrogen",
-        "count": 6,
+        "count": 7,
         "prev": 24,
         "labs": [
           "google-deepmind"
@@ -376,6 +375,14 @@
         "count": 4,
         "prev": 0,
         "labs": []
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "count": 4,
+        "prev": 27,
+        "labs": [
+          "google-deepmind"
+        ]
       },
       {
         "name": "Qwen 4",
@@ -402,64 +409,55 @@
         "labs": [
           "anthropic"
         ]
-      },
-      {
-        "name": "Gemini 4 Carbon",
-        "count": 3,
-        "prev": 26,
-        "labs": [
-          "google-deepmind"
-        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 72,
+        "count": 73,
         "prev": 62,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "meta",
           "cohere",
           "qwen",
           "microsoft",
-          "ibm",
           "amazon",
+          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 38,
+        "count": 40,
         "prev": 51,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "mistral",
           "cohere",
           "qwen",
           "microsoft",
-          "ibm",
           "amazon",
+          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "multimodal",
         "count": 19,
-        "prev": 11,
+        "prev": 10,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
-          "minimax",
+          "google-deepmind",
           "cohere",
           "tencent",
-          "ibm",
           "amazon",
+          "ibm",
           "nvidia"
         ]
       },
@@ -491,11 +489,11 @@
         "prev": 21,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "cohere",
-          "ibm",
           "amazon",
+          "ibm",
           "nvidia"
         ]
       },
@@ -505,9 +503,23 @@
         "prev": 4,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "amazon"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 6,
+        "prev": 7,
+        "labs": [
+          "openai",
+          "google-deepmind",
+          "mistral",
+          "qwen",
+          "microsoft",
+          "amazon",
+          "nvidia"
         ]
       },
       {
@@ -516,21 +528,8 @@
         "prev": 5,
         "labs": [
           "microsoft",
+          "amazon",
           "ibm",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 5,
-        "prev": 7,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "mistral",
-          "microsoft",
-          "amazon",
           "nvidia"
         ]
       }

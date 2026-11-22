@@ -1,5 +1,113 @@
 [
   {
+    "id": "9fe205164474a5b8",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "prompt",
+    "from": 0.06,
+    "to": 0.035,
+    "change": -41.7
+  },
+  {
+    "id": "26f22c4508c4f633",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "completion",
+    "from": 1.96,
+    "to": 1.5,
+    "change": -23.5
+  },
+  {
+    "id": "479ddbd14d49394c",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "prompt",
+    "from": 0.132,
+    "to": 0.14,
+    "change": 6.1
+  },
+  {
+    "id": "c4308bc751f01847",
+    "modelId": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "lab": "tencent",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "completion",
+    "from": 0.528,
+    "to": 0.58,
+    "change": 9.8
+  },
+  {
+    "id": "edc7beebece6d5cd",
+    "modelId": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "lab": "qwen",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "prompt",
+    "from": 0.195,
+    "to": 0.26,
+    "change": 33.3
+  },
+  {
+    "id": "90435db2814d7ea4",
+    "modelId": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "lab": "qwen",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "completion",
+    "from": 1.56,
+    "to": 2.6,
+    "change": 66.7
+  },
+  {
+    "id": "c029da1096811bbe",
+    "modelId": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "lab": "google-deepmind",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "prompt",
+    "from": 0.05,
+    "to": 0.04,
+    "change": -20
+  },
+  {
+    "id": "8ce8cd16ca6d856c",
+    "modelId": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "lab": "google-deepmind",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "completion",
+    "from": 0.1,
+    "to": 0.05,
+    "change": -50
+  },
+  {
+    "id": "2dc236a2b8e24984",
+    "modelId": "gryphe/mythomax-l2-13b",
+    "name": "MythoMax 13B",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "prompt",
+    "from": 0.08,
+    "to": 0.3,
+    "change": 275
+  },
+  {
+    "id": "28a39658147773fa",
+    "modelId": "gryphe/mythomax-l2-13b",
+    "name": "MythoMax 13B",
+    "at": "2026-11-22T19:49:07.211Z",
+    "field": "completion",
+    "from": 0.11,
+    "to": 0.5,
+    "change": 354.5
+  },
+  {
     "id": "c735945032ebbe20",
     "modelId": "thinkingmachines/inkling-2-mini",
     "name": "Thinking Machines: Inkling 2 Mini",

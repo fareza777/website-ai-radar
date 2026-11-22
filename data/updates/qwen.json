@@ -1,5 +1,66 @@
 [
   {
+    "id": "97caf31a500809a1",
+    "lab": "qwen",
+    "title": "Qwen Code v0.28.4",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.4",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-22T13:24:12.000Z",
+    "firstSeenAt": "2026-11-22T19:49:07.211Z",
+    "updatedAt": "2026-11-22T13:24:12.000Z",
+    "excerpt": "Highlights Web Shell local daemon mode adds a workspace artifact library page with progressive scanning and streaming updates. ( #18071 ) Web Shell chat adds a shared ChatSurface, Continue badges, suggestion chips, and mobile layout fixes for sessions. ( #17952 , #18044 , #17918 , #17883 , #18011 ) Core adds built-in Gemini 4 reasoning defaults. ( #18039 ) Local Runtime now creates its state directory at process…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.28.4 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "reasoning"
+    ],
+    "importance": 25,
+    "contentHash": "baf7836fea50",
+    "meta": {
+      "version": "v0.28.4",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
+    "id": "e5438857477a31b2",
+    "lab": "qwen",
+    "title": "Qwen Code desktop v0.28.4",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-22T12:52:42.000Z",
+    "firstSeenAt": "2026-11-22T19:49:07.211Z",
+    "updatedAt": "2026-11-22T12:52:42.000Z",
+    "excerpt": "What's Changed test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in #17506 fix(verify-pr): harden the watch-state shape guard, container nonce, and VM prose by @wenshao in #17440 fix(external-context): deflake cumulative-deadline deletion timing by @qwen-code-dev-bot in #17342 docs(design): propose idle Session suspension toward a stateless Hosted Harness by @doudouOUC in…",
+    "summary": "Alibaba Qwen shipped Qwen Code desktop v0.28.4 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "1a8015716ed0",
+    "meta": {
+      "version": "v0.28.4",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "desktop"
+    }
+  },
+  {
     "id": "5e23be33fe3e86e9",
     "lab": "qwen",
     "title": "Qwen Code v0.28.3",
@@ -232,7 +293,7 @@
     "importance": 40,
     "contentHash": "25cd6ea52155",
     "meta": {
-      "stars": 49,
+      "stars": 50,
       "repo": "QwenLM/Qwen-Live-Delivery-Plugin",
       "language": "TypeScript"
     }
@@ -1580,7 +1641,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 342,
+      "stars": 343,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -1698,7 +1759,7 @@
     "importance": 79,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1152,
+      "likes": 1153,
       "downloads": 28075,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
@@ -1963,7 +2024,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3707,
+      "likes": 3710,
       "downloads": 290954,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
