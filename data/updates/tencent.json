@@ -20,11 +20,11 @@
     "tags": [
       "multimodal"
     ],
-    "importance": 58,
+    "importance": 59,
     "contentHash": "536afc8181af",
     "meta": {
-      "likes": 10,
-      "downloads": 609,
+      "likes": 11,
+      "downloads": 726,
       "repo": "tencent/Hy4-base",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -55,8 +55,8 @@
     "importance": 60,
     "contentHash": "0fc23db76794",
     "meta": {
-      "likes": 16,
-      "downloads": 497,
+      "likes": 18,
+      "downloads": 754,
       "repo": "tencent/WeMM-Video-2B",
       "pipeline": "video-text-to-text",
       "license": "apache-2.0"
@@ -84,11 +84,11 @@
       "9B",
       "multimodal"
     ],
-    "importance": 59,
+    "importance": 60,
     "contentHash": "93eea8e2dba5",
     "meta": {
-      "likes": 14,
-      "downloads": 398,
+      "likes": 15,
+      "downloads": 620,
       "repo": "tencent/WeMM-Video-9B",
       "pipeline": "video-text-to-text",
       "license": "apache-2.0"
@@ -119,8 +119,8 @@
     "importance": 62,
     "contentHash": "62f4debc2f30",
     "meta": {
-      "likes": 29,
-      "downloads": 359,
+      "likes": 35,
+      "downloads": 490,
       "repo": "tencent/WeMM-Video-35BA3B",
       "pipeline": "video-text-to-text",
       "license": "apache-2.0"
@@ -151,7 +151,7 @@
     "contentHash": "431d7a816878",
     "meta": {
       "likes": 26,
-      "downloads": 922,
+      "downloads": 1011,
       "repo": "tencent/Hy4-flash-base",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -181,8 +181,8 @@
     "importance": 72,
     "contentHash": "0c5e110eebf3",
     "meta": {
-      "likes": 621,
-      "downloads": 6617,
+      "likes": 633,
+      "downloads": 7696,
       "repo": "tencent/Hy4-flash",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -219,11 +219,38 @@
     "importance": 61,
     "contentHash": "3b8d5db3c6c3",
     "meta": {
-      "likes": 21,
-      "downloads": 60,
+      "likes": 22,
+      "downloads": 70,
       "repo": "tencent/WeVisForensics",
       "pipeline": "video-text-to-text",
       "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "dbe93fd508726007",
+    "lab": "tencent",
+    "title": "Refrain",
+    "url": "https://github.com/Tencent-Hunyuan/Refrain",
+    "sourceId": "hunyuan-gh",
+    "sourceName": "GitHub · Tencent-Hunyuan (new repos)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-13T03:55:17.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "updatedAt": "2026-11-13T03:55:17.000Z",
+    "excerpt": "",
+    "summary": "Tencent created a new public repository: Refrain.",
+    "benefit": "A new open-source project from this lab that you can study or use right away.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 28,
+    "contentHash": "27de0edf3c5e",
+    "meta": {
+      "stars": 2,
+      "repo": "Tencent-Hunyuan/Refrain",
+      "language": "Python"
     }
   },
   {
@@ -248,7 +275,7 @@
     "importance": 40,
     "contentHash": "dfa8335339e5",
     "meta": {
-      "stars": 281,
+      "stars": 304,
       "repo": "Tencent-Hunyuan/MovieRoll",
       "language": "Python"
     }
@@ -278,7 +305,7 @@
     "contentHash": "4d0a858273b2",
     "meta": {
       "likes": 280,
-      "downloads": 7575,
+      "downloads": 7783,
       "repo": "tencent/Qwen3.8-27B-DSpine-b16",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -306,7 +333,7 @@
     "importance": 36,
     "contentHash": "d8aab10e57c5",
     "meta": {
-      "stars": 58,
+      "stars": 60,
       "repo": "Tencent-Hunyuan/FlashTopK",
       "language": "Python"
     }
@@ -389,7 +416,7 @@
     "importance": 35,
     "contentHash": "dec8e1ddc0bc",
     "meta": {
-      "stars": 41,
+      "stars": 42,
       "repo": "Tencent-Hunyuan/EmoReward",
       "language": "Python"
     }
@@ -416,7 +443,7 @@
     "importance": 36,
     "contentHash": "5b9ea319ff73",
     "meta": {
-      "stars": 73,
+      "stars": 76,
       "repo": "Tencent-Hunyuan/Hy4",
       "language": "Python"
     },
@@ -480,7 +507,7 @@
     "contentHash": "da2d675df551",
     "meta": {
       "likes": 13,
-      "downloads": 199,
+      "downloads": 153,
       "repo": "tencent/Hy-Nomas-Diffusers",
       "license": "apache-2.0"
     }
@@ -510,8 +537,8 @@
     "importance": 67,
     "contentHash": "8a1d2c0f7679",
     "meta": {
-      "likes": 132,
-      "downloads": 36254,
+      "likes": 133,
+      "downloads": 35960,
       "repo": "tencent/WeVisOne-VL-4B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -542,8 +569,8 @@
     "importance": 66,
     "contentHash": "ee6717133fbc",
     "meta": {
-      "likes": 90,
-      "downloads": 18484,
+      "likes": 91,
+      "downloads": 18453,
       "repo": "tencent/WeVisOne-VL-2B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -574,7 +601,7 @@
     "contentHash": "1383bbe2659d",
     "meta": {
       "likes": 16,
-      "downloads": 788,
+      "downloads": 801,
       "repo": "tencent/Hy-SimulMT-30B-A3B-Interleave",
       "pipeline": "translation",
       "license": "apache-2.0"
@@ -605,7 +632,7 @@
     "contentHash": "1f93e6955462",
     "meta": {
       "likes": 51,
-      "downloads": 1281,
+      "downloads": 1300,
       "repo": "tencent/Hy-SimulMT-30B-A3B",
       "pipeline": "translation",
       "license": "apache-2.0"
@@ -661,7 +688,7 @@
     "contentHash": "6e6b860ed408",
     "meta": {
       "likes": 157,
-      "downloads": 98844,
+      "downloads": 88589,
       "repo": "tencent/Hy-Nomas",
       "license": "apache-2.0"
     },
@@ -698,7 +725,7 @@
     "contentHash": "b80a8b33297c",
     "meta": {
       "likes": 34,
-      "downloads": 1127,
+      "downloads": 1124,
       "repo": "tencent/Qwen3-8B-DSpine-b16",
       "license": "apache-2.0"
     }
@@ -755,7 +782,7 @@
     "contentHash": "d780f7f18b0b",
     "meta": {
       "likes": 328,
-      "downloads": 4992,
+      "downloads": 4829,
       "repo": "tencent/Hy-Memory-30B-A3B",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -873,7 +900,7 @@
     "contentHash": "17ed023e66bd",
     "meta": {
       "likes": 135,
-      "downloads": 2328,
+      "downloads": 2364,
       "repo": "tencent/Youtu-Parsing-Omni",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -961,7 +988,7 @@
     "contentHash": "c86c9e33d02c",
     "meta": {
       "likes": 52,
-      "downloads": 11011,
+      "downloads": 10811,
       "repo": "tencent/WeVisDoc-4B",
       "license": "apache-2.0"
     }
@@ -991,7 +1018,7 @@
     "contentHash": "2dd0738488f5",
     "meta": {
       "likes": 31,
-      "downloads": 8185,
+      "downloads": 8019,
       "repo": "tencent/WeVisDoc-2B",
       "license": "apache-2.0"
     }
@@ -1075,8 +1102,8 @@
     "importance": 62,
     "contentHash": "4221f3f97b3d",
     "meta": {
-      "likes": 31,
-      "downloads": 16772,
+      "likes": 32,
+      "downloads": 16792,
       "repo": "tencent/WeVisCut",
       "pipeline": "any-to-any",
       "license": "other"
@@ -1135,7 +1162,7 @@
     "contentHash": "e57ae848d21c",
     "meta": {
       "likes": 34,
-      "downloads": 270,
+      "downloads": 267,
       "repo": "tencent/EVIE-8B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -1167,7 +1194,7 @@
     "contentHash": "83b19eefd490",
     "meta": {
       "likes": 40,
-      "downloads": 1499,
+      "downloads": 1476,
       "repo": "tencent/EVIE-4.5B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -1196,7 +1223,7 @@
     "contentHash": "b47e25917303",
     "meta": {
       "likes": 571,
-      "downloads": 10731,
+      "downloads": 10649,
       "repo": "tencent/Hy4-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1234,7 +1261,7 @@
     "contentHash": "811b13d55f01",
     "meta": {
       "likes": 23,
-      "downloads": 2764,
+      "downloads": 2686,
       "repo": "tencent/ContextPilot-14B",
       "pipeline": "text-generation",
       "license": "other"
@@ -1265,7 +1292,7 @@
     "contentHash": "bda3c45fcfa8",
     "meta": {
       "likes": 12,
-      "downloads": 836,
+      "downloads": 820,
       "repo": "tencent/ContextPilot-8B",
       "pipeline": "text-generation",
       "license": "other"

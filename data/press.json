@@ -1,5 +1,535 @@
 [
   {
+    "id": "deepseek:3126f55cba3adf",
+    "lab": "deepseek",
+    "title": "DeepSeek and Chinese AI rivals face tougher conditions for prospective share sales",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUjlDQWxvUTZlQ1hVT0JtY1ozamFkQXVnR05kZ1RCMjVkbFRLOF9FSE9jbE0tTUpISjE0YmxoSV9NYUp6RG9qbnl0U0tpZ0tCcFdRdTMzd05YWVpDWXJpcFNSakUyYkVpQ0FrVWxXNERsdGlFeXZHZlRydjVPY3ltSnVoN1J4bEhXNXYwSzVzYXFCamRLVjBqMU5uT2JyMWdKTWRaenRkcU5Yc0k4ZUtGcG5qV0tQZTA?oc=5",
+    "outlet": "Superpower Daily",
+    "publishedAt": "2026-11-23T12:19:18.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Superpower Daily"
+    ],
+    "members": [
+      "3126f55cba3adf"
+    ]
+  },
+  {
+    "id": "xai:2df581d3f4db49",
+    "lab": "xai",
+    "title": "Virginia, Oregon sue Musk's SpaceX over Grok AI's creation of child sexual abuse images and videos",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYmRPdi1uSkoyOFBOM2ZtWU5fTkxldUlHX3VzeXROU1lwS01FRnZGLUczYkZvc1V6OFByOFI5Z2lLYkx0eG5wOFY1c0luTndLQ1dycjBqdnVBRnkyQU00bk1BeFQ3RGhWZVg5LXgyS1VuNzFsSTVHbVdIT2x1M1RrYUdDdmFwN0xJWXVZaVRFbmROWFc3dWJDUFpXSjNZTDJzZ3lzbnZsSU15SV8tTG9xVUsxWnRCMk41VXVuR1hSbW4yYmlBazRfZWFFUllWNEhhRXRkdnJxME4?oc=5",
+    "outlet": "CNA",
+    "publishedAt": "2026-11-23T12:08:41.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 3,
+    "outlets": [
+      "Reuters",
+      "The Lufkin Daily News",
+      "CNA"
+    ],
+    "members": [
+      "2df581d3f4db49",
+      "d996d8f21637d9",
+      "bc599be1cb601d"
+    ]
+  },
+  {
+    "id": "meta:2faa56d96aff9b",
+    "lab": "meta",
+    "title": "Superintelligence arriving soon, Meta AI chief Alexandr Wang warns amid AI safety debate",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd05YWFRZcXBndWFCTkRjVENucXJaU2pURkNlY0ZLM0hBS25OaG83VmR2TENWVWRwMzIxUG1vSDRDdjNselhiQjZBcl83WUV0UHBlRjJuWUlCNEVoWDF2QXdLcW4tc242WTFDZVVScE5oenI1M2RUZl9sLXBsc1Qxd0VPby1TVVp5V0dvSENpd2dGNFRHb2dTT2xodWNDU0xNd2lpNUhrWXVRNElVbUZPTUdXclJkbXlITzA3b0hlWkp0c3M?oc=5",
+    "outlet": "Seeking Alpha",
+    "publishedAt": "2026-11-23T11:47:54.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Seeking Alpha"
+    ],
+    "members": [
+      "2faa56d96aff9b"
+    ]
+  },
+  {
+    "id": "zai:3096e7dcfde6d1",
+    "lab": "zai",
+    "title": "Z.ai launches GLM-5.4, a 750 billion-parameter model built on a looped Transformer",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUQwZnJsWG5GVFdTQVVOMXI4anN5Tm5wNVpWa2t6V2JMYTVxdzR2TDJMbURwQldoQlZpNGpqQ1NQMXNXM1ZrMmFudzVoZ2VMbkwtUGt3aS03WDcwTDB1QkJVQXhodFpDQ25lX3kwbFhmNHMyS2doakVpOFhxNFVHMTRCWjU0RXFRM0Vidlp5UFdwUkZvaDZ1NUxmYnFSdXZMZHc?oc=5",
+    "outlet": "MLQ.ai",
+    "publishedAt": "2026-11-23T11:35:18.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "MLQ.ai"
+    ],
+    "members": [
+      "3096e7dcfde6d1"
+    ]
+  },
+  {
+    "id": "zai:e408bf9e47c2e7",
+    "lab": "zai",
+    "title": "China’s Z.ai launches GLM-5.4, a looped 750B model for coding",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1VHJPWW52d2NsRm4xOV9MNHpHUDFiTDVEeExxY204S255aTFKZE5jUUtyc1lhcDlyUzB2NWJ6V0VFTklhWG12S0pBSkxJSDU4c294TWRmT1RJU1VNWjVTVzhDOUhxS01zOVUyZnp3X3d1MU1hRUNUaA?oc=5",
+    "outlet": "The Next Web",
+    "publishedAt": "2026-11-23T11:31:03.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 2,
+    "outlets": [
+      "The Next Web",
+      "Business Upturn"
+    ],
+    "members": [
+      "e408bf9e47c2e7",
+      "e311b09d5679d3"
+    ]
+  },
+  {
+    "id": "meta:8d27d1cc96854d",
+    "lab": "meta",
+    "title": "Meta AI chief Wang warns against an AI 'handover' of society",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOXBBRzc0NnBBM2lJRnpHNFFpaGJ1N3dCVFJIQTVrV1VJRFRISjhDYTZPMzlRbUN1QVp4Z0Y5amNrLXNPSFlBVldxMk1rZ2dyQjdMc0xOREVHQUR2bHRJVWJILU1aNzdLT2YyNWQtbjlBOGtlS2Vtbm5EbkpQTk9kX0M5SHJ5eFZmOGRDVGJvOU1NZDdYWURv?oc=5",
+    "outlet": "Dealroom",
+    "publishedAt": "2026-11-23T11:29:57.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Dealroom"
+    ],
+    "members": [
+      "8d27d1cc96854d"
+    ]
+  },
+  {
+    "id": "meta:08fc4275d05d33",
+    "lab": "meta",
+    "title": "Meta AI chief says superintelligence is coming, warns next year will be critical",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOEdCTS1UeHZ1SUtxRml3dmhMZk9OQzZjRWl1M1lSX1YxUG9BaDRrYUhxbzhnVm50Y0pQTVJCWDd2LWdwSGJmS3c3YzlBRHVaejdSbVNBeUUtQUhFZF9OZzVCX1BCcmRsY2pNX3hsZmxxSGRNNU1XdXYwa1pZbzV6d2xVZjhVSmNMc1BIMVEzaTcyOXBpVGpKei1vRTdXOTJZRGluVENTZXBiS0pyU1BSZ20xclgzLTNSUHMtX9IBwgFBVV95cUxPeHViT3BOTGRIUmZhSFE3WUNaX0N3YVFFRTVBb2Vhb21BRjBYS2NKU0pKZjQ2RmFXcnZvRVFOT0JBYk81RDVWMDMzcU5aWUxqU0VuWEVvSEpjc1BLMGV5dVZEV0s2SEhpcTkwUGNmWmZkZnlsR1JsbkFkaFVEQ1NiNmtubHcyVEl0WDctVEc1aGZsekMtSnlJdTdWR0h3Qmthdy10TmRhTHRnazB6S3ZJckFjQ2EwUVhLNzJQa041bkdJdw?oc=5",
+    "outlet": "A News",
+    "publishedAt": "2026-11-23T11:13:37.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "A News"
+    ],
+    "members": [
+      "08fc4275d05d33"
+    ]
+  },
+  {
+    "id": "anthropic:cbd52dc75408e0",
+    "lab": "anthropic",
+    "title": "Anthropic’s IPO was great for the tech elite – and not so great for the rest of us | Steven Greenhouse",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb1BWeTVRdFVORDl1U1BBTTRHYXhPOFdsTW5fV29fa2s0Z0ViTzJhMng3QUJuWVdTeFN4aUhQSU1ZcTI3UFJLLVYxM185d0hxT3FrTXJkN1FtdkZkNlhUWHp1cl9aWnBvSUJPeElpaDk1eko4VEJjQWp6MTc4VzVNdlN4MzZQZGFtcEgwTmlrRzM2WHVIV0E?oc=5",
+    "outlet": "The Guardian",
+    "publishedAt": "2026-11-23T11:11:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "The Guardian"
+    ],
+    "members": [
+      "cbd52dc75408e0"
+    ]
+  },
+  {
+    "id": "zai:f9d7d614ec917f",
+    "lab": "zai",
+    "title": "Z.ai’s GLM-5.4 Uses Iterative Depth Without Adding Parameters",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUVhVTWFNeUhqMDI1Q2xJakIybVpkeW0zT2JEa09nOEc5MF8xTWxKblRydW15RWVUNE9ISWVUSGZ1TVZ2cWZURC00WHE0cUp4UTdfbHVpYThKMGVZOEkxLTIyc0hlRktDdHBnbjV6V3p1MnVlVGxUN1llMXkxc1MxdVdqaGpWdm9aaHc?oc=5",
+    "outlet": "Unite.AI",
+    "publishedAt": "2026-11-23T11:10:02.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Unite.AI"
+    ],
+    "members": [
+      "f9d7d614ec917f"
+    ]
+  },
+  {
+    "id": "qwen:a436e472517d3b",
+    "lab": "qwen",
+    "title": "Weekly Recap: Bernstein lifts target and Qwen use faces proposed U.S. rule",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTmxRcWViRGx0eVNYc2xKT0RRZzJlc0NhWkRpczduQkxVc3JSZEFfZm1RVHJuWkY0X1poWWFjUHVBLWotcjJ1NlFsZ2swT3NxcFIzb3JTenJzQVJmWVR6YkFZWXdOeTRMZmNDWTZ0VXhiaEU5Sk5KNDhxRWxKNThHTEVlTGJkWEJ1Ym0tQ1R5bDN0ZEF5LTM0U3ZhV2xFMzlUbUVzTU0wVnFFMUtfRHAxRUctY1dmUF82T05KOTVvcnlXcmVGZzNyVk1wZzV3c2M?oc=5",
+    "outlet": "TradingView",
+    "publishedAt": "2026-11-23T11:00:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "TradingView"
+    ],
+    "members": [
+      "a436e472517d3b"
+    ]
+  },
+  {
+    "id": "moonshot:b69145412ae123",
+    "lab": "moonshot",
+    "title": "Moonshot AI (MOONSHOT) Price Prediction: Oversold bounce attempt faces a weakening trend",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb1V4SmJwY2dqM2FZTUE3bmxTWFRZSmcyM2lqOGpqVlQzWE83dkNWSVdqSkNkLTFacUpmbTlsTjFoSG0tczdGRTdnZWJxQlVFUVp0TDYwdnJicjdjaEdFVC0xdHZDWGJlTlZubTJwamE4T2tTWkd2NXFySGRWTDdwcnZrazI0alN5SHp5RFdzZm8tUGFzZmcwZHozclpldVhQR25NaXpwczM?oc=5",
+    "outlet": "Blockchain News",
+    "publishedAt": "2026-11-23T10:38:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Blockchain News"
+    ],
+    "members": [
+      "b69145412ae123"
+    ]
+  },
+  {
+    "id": "zai:22ee7c816dc712",
+    "lab": "zai",
+    "title": "Z.ai launches GLM-5.4, its first Loop Transformer model",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5",
+    "outlet": "TestingCatalog AI News",
+    "publishedAt": "2026-11-23T10:34:45.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 3,
+    "outlets": [
+      "TestingCatalog AI News",
+      "Pasquale Pillitteri",
+      "news.lavx.hu"
+    ],
+    "members": [
+      "22ee7c816dc712",
+      "b4805e3cc68a1f",
+      "f15d228c84d2b1"
+    ]
+  },
+  {
+    "id": "zai:dcbb624dbdb861",
+    "lab": "zai",
+    "title": "Report: Zhipu’s 3T-Parameter GLM-5.5 Would Be 4x GLM-5.3",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRm56aXhraEJyekM3dUdQOUt4cUpHOEFsaElFWFhaUnpLZEZPZlZCdF80OGUyMG02cmozd1Y1bUVwcVNGVzVNX1lkYTNIbXRXbHlvMno0eWhabkUxRWxjSndsSXJXb2dLanFJY0hod1F6VFhxbk9rV0d0WjVlNGVoczlCVVJJZi01UFE?oc=5",
+    "outlet": "FourWeekMBA",
+    "publishedAt": "2026-11-23T09:55:09.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "FourWeekMBA"
+    ],
+    "members": [
+      "dcbb624dbdb861"
+    ]
+  },
+  {
+    "id": "meta:6db2e142b8077b",
+    "lab": "meta",
+    "title": "Meta AI chief warns humanity may lose control of superintelligent machines",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zWVpjb0dDOFA5TVhLak5NR0Y2VnNqeENtdjdfR0NGN0pTUE5hQXdmMmVrUkdUOG0yS29rNy02Q2lYcFhSOE1uZjVwdmFEd2M4VmFQa0V1Y3htbDFwdzZQTk0wSmF5blEw?oc=5",
+    "outlet": "www.calcalistech.com",
+    "publishedAt": "2026-11-23T09:54:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "www.calcalistech.com"
+    ],
+    "members": [
+      "6db2e142b8077b"
+    ]
+  },
+  {
+    "id": "zai:f3005daa58f620",
+    "lab": "zai",
+    "title": "China’s Zhipu said to have added GLM-5.4 to coding plan",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qX1p6UjV1Y051Qkh1Wkl4RFQzUWRaUDZKZko1SkNPQUxaTDN2QTdZa3p3VlEzMVdWaVd5NkZ1amI0WUtFODRURUNpdVUzZlhQc29JbUZ0X1phRnJRSHE2WElobUt1UjhET2pNb0ZLcldHWTBkd0d3?oc=5",
+    "outlet": "Tech in Asia",
+    "publishedAt": "2026-11-23T08:04:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Tech in Asia"
+    ],
+    "members": [
+      "f3005daa58f620"
+    ]
+  },
+  {
+    "id": "zai:e8b33ba3fbf74f",
+    "lab": "zai",
+    "title": "Zhipu Adds GLM-5.4 to Coding Plan With Vision Support",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WTllsekd0RlZTbkQ2bk1PckRkX0wyLVV3RzNPekJZYjREMWZVd2dJRlhvMmlFTVJSYlJlUC1yaU1IUVFkSVRaeElMOFAyU1VoMEFFZXZ1eDZKcnR1OGlKMW1SQ2I3WHVZTmU4UDJR?oc=5",
+    "outlet": "Pandaily",
+    "publishedAt": "2026-11-23T07:11:44.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Pandaily"
+    ],
+    "members": [
+      "e8b33ba3fbf74f"
+    ]
+  },
+  {
+    "id": "zai:9f8a0469e1b970",
+    "lab": "zai",
+    "title": "Z.ai Launches GLM-5.4 With Vision for Coding Plan Users",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pMWtpZDlSLXY3QUQ4ZUVSalZLYl92UFFMWktndHFNb1JWMkxVT3JwS2xJSjFmRkFxbHdzSVJjWWd0VzdNeDV0cHlxZVhuUGo5S3dFMTM4VjdDcGRH?oc=5",
+    "outlet": "Peradaban.id",
+    "publishedAt": "2026-11-23T07:07:46.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 5,
+    "outlets": [
+      "cwibc.co.id",
+      "Demokratis.co.id",
+      "Peradaban.id",
+      "Limapagi",
+      "SuaraGarut.ID"
+    ],
+    "members": [
+      "9f8a0469e1b970",
+      "0761264c9e4a6d",
+      "d7e6dbc0be1fbd",
+      "9e1c45a9fbc8ad",
+      "53769b76fb7d8b"
+    ]
+  },
+  {
+    "id": "deepseek:184604c989b0b9",
+    "lab": "deepseek",
+    "title": "GLM-5.4 vs DeepSeek V4.1 Pro: Neither Has a Price Row Yet",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8ya1lETldKVG9XcGRfY0ZfN3pSX0FPN3lQQ0lGZlNJejJUZlNBemNwZHNfdWotMEs5cjd0RjFCV2N2NDlmMlpYdEpGcWF6OXgzVUpVc2xia2FEUFJMR0U4bVdLdFZiamxCd0VJ?oc=5",
+    "outlet": "OrcaRouter",
+    "publishedAt": "2026-11-23T06:54:41.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "OrcaRouter"
+    ],
+    "members": [
+      "184604c989b0b9"
+    ]
+  },
+  {
+    "id": "minimax:76532fb1613389",
+    "lab": "minimax",
+    "title": "MiniMax publishes AI-discovered cryptographic attacks with papers and code",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRXJpeGxEVkRpeWJiTnBlc2pYYm1hX0JvcjBKZjFPWTZMZE5JWi1HVXRoLVI0NDlZVS11WVdrcGZNN3BPV1NBdFBpLXM0Q3NnRDl6U1pQbDJmaklWaUExcmxHNmhDY2laSGFPS1ZWYTZkSWRKVjR6SDFmWjVKSXFURHI0dzlHTk5NMDZPZkRzWDdIcExRN1JwbWRaZzdmQjlXeHZwNUI2b2p6Nm8?oc=5",
+    "outlet": "TechNode",
+    "publishedAt": "2026-11-23T06:52:14.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "TechNode"
+    ],
+    "members": [
+      "76532fb1613389"
+    ]
+  },
+  {
+    "id": "zai:493204e74b7735",
+    "lab": "zai",
+    "title": "GLM-5.4 Arrives on Z.ai's Coding Plan: No Benchmarks Yet",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iNktnU3JGMUdTamh3RlhTN2RacGR2dGVSYnV5Sm9hblVZUFZ5OUxsQmxOMUZHbVRXNXVNUC1rTHhOOEdrVnZkQmFZMkhKcWxrQkp0VjdnNUdtWm91MWoyUUVQNGNMYkFNaVNR?oc=5",
+    "outlet": "OrcaRouter",
+    "publishedAt": "2026-11-23T06:52:04.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "OrcaRouter"
+    ],
+    "members": [
+      "493204e74b7735"
+    ]
+  },
+  {
+    "id": "zai:963105833ab5e8",
+    "lab": "zai",
+    "title": "Zhipu rolls out GLM-5.4 with vision and million-token context",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN2lyNmstZWFnalV0ZHYwYlZ1NWZXTXMxaTA2UnFRVS1MTS0tdkhQUTJtR2Rjc2VQZHdZUG1Gc1BpNWtpZkkxWXg1UXRVRnRXZkt5TUFwb1FUcGxqSGR6SmdCZ1hLZk5iR2JnV3dpekpmQWxSSGVtTWk3NWlHYmxMSUctUXQxRmQzeUlyNzZJUmRHeDBNdkZCQ0Nn?oc=5",
+    "outlet": "TechNode",
+    "publishedAt": "2026-11-23T06:51:56.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "TechNode"
+    ],
+    "members": [
+      "963105833ab5e8"
+    ]
+  },
+  {
+    "id": "zai:6b94188424e82b",
+    "lab": "zai",
+    "title": "GLM‑5.4 launch: How to use it, pricing and API status",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxT0xxQU12M0N5enM5N2sxYk9SZDc4TjNYaGRuampuZTBIUm9qaUhqU3lVNjE2RW4wVFVxSWxhNjhfdXhVY09paG05MGhSUQ?oc=5",
+    "outlet": "Kingy AI",
+    "publishedAt": "2026-11-23T05:49:41.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Kingy AI"
+    ],
+    "members": [
+      "6b94188424e82b"
+    ]
+  },
+  {
+    "id": "deepseek:a6b5a6bdec4e22",
+    "lab": "deepseek",
+    "title": "DeepSeek, Why Are You Panicking? Uncovering the Concerns Behind the Viral AI Model",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHUDNuWVFTSnA5bTZmNk90YkMzZW5uYzhEcGlJY21aRnhwdUVnQVNhWXRhVk1HOTNkMkhtTmM3OTBJazA5SVJnazhxZHJ2eG9TbGhr?oc=5",
+    "outlet": "36Kr",
+    "publishedAt": "2026-11-23T05:13:04.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "36Kr"
+    ],
+    "members": [
+      "a6b5a6bdec4e22"
+    ]
+  },
+  {
+    "id": "mistral:825298266b2556",
+    "lab": "mistral",
+    "title": "Weekly Recap: Mistral AI investment and share buyback",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbGtKVEF3TGY0ckdWTVZDbzEwdEdhWUQ5MkhTcFJ1dHBhNFNZRS1aZDIwcjFiQ2xBQmFzdHQ0V25UazBWbzBGR1pRNWRkb2luWWRSWEJDQ1dWUUZ1MmF0M014UVRZd0lQOXdqUHBYT05TdGIxNmxzM0FKSjRUdkplTnVvWExveHNhYl9YNzJCSHNzQjJOUmpOaXhUWGtfV0QwOENSYW56WlRUc2M5dlpqWFpJVmI?oc=5",
+    "outlet": "TradingView",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "TradingView"
+    ],
+    "members": [
+      "825298266b2556"
+    ]
+  },
+  {
+    "id": "deepseek:7ddaa90c41244a",
+    "lab": "deepseek",
+    "title": "Is DeepSeek's Free AI Boyfriend a Computing Power Drain That Triggered a Collective \"Breakup\" Among Female Fans With Romantic Parasocial Fantasies?",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xQ01KMzlVVDNzY1QxQXFheDBoOEF2ZF9WaHhMVF9Nd0NwUGFJRTk1MXIweWdJRnc4a0xfX0JzMTBUdkViMGxNUTgwd2lmSm1HdXVN?oc=5",
+    "outlet": "eu.36kr.com",
+    "publishedAt": "2026-11-23T04:33:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "eu.36kr.com"
+    ],
+    "members": [
+      "7ddaa90c41244a"
+    ]
+  },
+  {
+    "id": "meta:36edb5fe756820",
+    "lab": "meta",
+    "title": "Meta AI Chief Alexandr Wang Says ‘Superintelligence Is Arriving’ — Prediction Market Bets on the Date",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWVl6cU5YTVdvaW5pd1RzTGZIOXp6U2hiWndFMVRHdHRYWVJlZjdrT2lEZzFMSlp2bnpFNlNzanlLbDE0QnFLN1RqQ2pLRlZPbnlIY2tsMGVRQVVEcDVqLWJLRVhvWnc3QzNBd2ZDWFpYeGhlQ29CQUJiMTJGX3lCdVdncWpTTkNKUW1ybFRwdW9QYmF3S1Jva3JHWnRaZXRZdjRPX0pLNWxDVHAxdW96aUJ6Q1JpaXBERUJrTzZRQjlDZXhfU1ZkeDFlT25VOVNJSDZibi1uTko4MXZkSnJPVjdWeW1VZlllR2ljZEJCdmxkMkdiNmlr?oc=5",
+    "outlet": "Benzinga",
+    "publishedAt": "2026-11-23T04:30:34.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Benzinga"
+    ],
+    "members": [
+      "36edb5fe756820"
+    ]
+  },
+  {
+    "id": "openai:2620ad4c7f9ac6",
+    "lab": "openai",
+    "title": "California AG Bonta filed lawsuit against OpenAI over model security, public safety",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmhmeEgxSkU1V2V3QmEtdlJ5RUR2U1FZVm5lajNFT1h3cUJnUW1XQUZRSUNLYnV6QkFFNWhMR0ZtbEtRSDRvQXJ3dThFRWFYMUlfbTNFUkFMN3JwTWVHbC11MjB5LUNia3JVMUxjWUtGV0dSa3V4V1JIMHNMdGpzd2JkOGotTnpRbmh5cHBSQ213NFhwOWs4MVZ4YzBKZ3FsUlRpVzFsMHNQS3VKTXVmRDRvS3dWWGhO?oc=5",
+    "outlet": "Reuters",
+    "publishedAt": "2026-11-23T04:26:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Reuters"
+    ],
+    "members": [
+      "2620ad4c7f9ac6"
+    ]
+  },
+  {
+    "id": "qwen:b80472f6970764",
+    "lab": "qwen",
+    "title": "Alibaba’s new Qwen4-Max AI promises better coding and reasoning at lower cost",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOVRoOXFKUExNeVY4a3BtT2tYVlNfblViMnZzYTBiLTJpd3BlZTNqTFlnWTZpeUNVV2R0UFZDRVRxcEJ3aDRlaVRsV09wT3RlQng2NFFqenhudkxKcFpQMzhKY3c1bVNQbFhNSklHblc0MEJkS3dnU0o1RFlLaWgzLTNxV1dUTmtPS3hxZWhn?oc=5",
+    "outlet": "SoyaCincau",
+    "publishedAt": "2026-11-23T03:02:34.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "SoyaCincau"
+    ],
+    "members": [
+      "b80472f6970764"
+    ]
+  },
+  {
+    "id": "anthropic:bffbf573572879",
+    "lab": "anthropic",
+    "title": "Anthropic Committed to Spend $900 Billion. Wall Street Expects Its Debt to Be Junk.",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNHFQOEdMZm5FNmNuNWo3WHNuNHhBVkprTmplTktaZ1J5Ni0wN0NBdHF5YWg5X2pfc09rZldBYU80NWVCNTRRZDVsb1RfVkRHdFBseWh5VmZieU45WnhMb0JpNEFkZHlCRXp1Y1FMb1M0WjNEWGk0MjBJb3V5eGRtQmVaVzBWaWtPeUhOX1hleHkteHRNN2JUekRTMGpTYmtuMTNKNUdZZG8xWF9iSzYzT3kzaUEzbkYzZ0NsT281aHl6U1FDWUE?oc=5",
+    "outlet": "WSJ",
+    "publishedAt": "2026-11-23T03:00:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "WSJ"
+    ],
+    "members": [
+      "bffbf573572879"
+    ]
+  },
+  {
+    "id": "mistral:4f2b07b43ef661",
+    "lab": "mistral",
+    "title": "Deutsche Telekom Puts EUR 100 Million Behind Mistral AI While Its Munich Compute Hub Signs First Ind",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU2ZZLWFsS2ZrdEk1SGNtSzZIb0JfbV84Ym1QOUpseGZMUUVpdlNXdklvV1NZLVI4SFkxekJqMzFUOWhnOTZDZWd3RlV5M0I1Nm91MV9kVzF5RmZQZVJ3Uko2TGJNZU1kUUdBYzN6VWcyNWZQUVhEbEVDb05QZ19HemZzN1lYX0NZdDlTMmVzcjNhbG80LUdIcEwySklTTGtoa1JJblJMaVhzWHVMLTJJWDdWWGNoWVcyNW50eHV1eEdyeDFTSUE0V3JmNFgxbnZUTVRJRkdtdWMwWnZINVFSQ1dLX1hXNW9CSGRiTS1ORmhBZE1jbUpuUU5UNzU?oc=5",
+    "outlet": "ad-hoc-news.de",
+    "publishedAt": "2026-11-23T02:30:31.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "ad-hoc-news.de"
+    ],
+    "members": [
+      "4f2b07b43ef661"
+    ]
+  },
+  {
+    "id": "qwen:be93c63f5dd113",
+    "lab": "qwen",
+    "title": "Alibaba widely releases its Qwen4-Max AI model with 2.4 trillion parameters.",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcVU4N0thWDNka18wR0xvRlk5enNBNDFUTVF6SDVmTWJrWlZXb3Q5VVA2UGNTX0poRm1yS1VTQWdIOHRpb3Q3NmtyUkY3enpjclpvTzFkUllWYlhUeWNrODVHZS1PNUtXYlcxZnV2cVZNaWpYMHVYMGFyYUpZOWpybi1xLXZZY0pKV2pNUDFJVWNMRldj?oc=5",
+    "outlet": "Vietnam.vn",
+    "publishedAt": "2026-11-23T02:15:09.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Vietnam.vn"
+    ],
+    "members": [
+      "be93c63f5dd113"
+    ]
+  },
+  {
+    "id": "deepseek:560690b5e6f5f2",
+    "lab": "deepseek",
+    "title": "World's First: Multiple Production-Grade AI Operators from DeepSeek and FlashAttention Achieve Full Formal Verification",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hQlhSX1hXR3piNGRfMlpzWjI3cUZhR0xITGhlaFFqU0VTNThhbnZCbVBXbkJUSGoyYWttak1wVUNsVG1weW8wNm1YaGVGdU5lWE1Z?oc=5",
+    "outlet": "eu.36kr.com",
+    "publishedAt": "2026-11-23T02:12:53.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "eu.36kr.com"
+    ],
+    "members": [
+      "560690b5e6f5f2"
+    ]
+  },
+  {
     "id": "cohere:81607ddb71ac87",
     "lab": "cohere",
     "title": "AI Needed to Produce More Gas to Power More AI, Tech Firm Cohere Says",
@@ -32,6 +562,58 @@
     ]
   },
   {
+    "id": "zai:98de7f3339b7a1",
+    "lab": "zai",
+    "title": "GLM-5.4 Coding Plan: +50% Quota, Vision (Nov 2026)",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFduanNSbXJKbXd0VGhEaFlDLW1TMTZuNHNfNHBuS2hYUGVxcWV2MU9vbGlCQ3NDR3lFOVlPVHlOVURqSHR1LThsU1Y4WUtnYTd6NElyV1B0M1pUbHB0Nm5ud1BHSVJqaEZZU08xV3BIZVEyYnVtZXI3LV90RVdLVVhUeEZfcHplNURodF9ERHc1Zw?oc=5",
+    "outlet": "explainx.ai",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 3,
+    "outlets": [
+      "Superpower Daily",
+      "RuntimeWire",
+      "explainx.ai"
+    ],
+    "members": [
+      "98de7f3339b7a1",
+      "421da57f94f915",
+      "c389056b217585"
+    ]
+  },
+  {
+    "id": "xai:95a3c842278065",
+    "lab": "xai",
+    "title": "WATCH: xAI wasterwater plant update",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcHZjanNqV01nb0N3NGE2Ti0zYnpiWGpHZ0lEdVVQaFhkc3NOdDNQamU0VEViX0wwRGRTcmJaR2JnekNnaVk4TDhSeTJlcmJHTkJ6YTN6bWpoUXlUMzJKQzJUUWx4SVQ2ZHFTX25TcDhwTlRPVDhIVzBjN21ZM3dibEpWQjN6OHhQNkNnS2ExVTU5MWU2RWpRRGVSaHpvbUpPcWF3ejNFYlFiem1sLW5nMVlYemI5X2M?oc=5",
+    "outlet": "FOX13 Memphis",
+    "publishedAt": "2026-11-22T23:13:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "FOX13 Memphis"
+    ],
+    "members": [
+      "95a3c842278065"
+    ]
+  },
+  {
+    "id": "openai:950e9cf7a02928",
+    "lab": "openai",
+    "title": "OpenAI scientist proposes industry AI limits tied to model intelligence metric",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa0ZQb0xtalJ5djRmZmkwQnhmdDBlMEtncDUtUEJsUFBtWmptbkdVQ3c5QjY2TzhKN0NFT2ZzYnZmenQxY1lrUWFFYjJsdS1KazdRUkJINEJRemQ1alh6TGtnNW1nRE92bTF3RW9FMTIyODB3UmpBaW5oSzFDWDFVT3FXdjZDVzQ0TVNVd29nQzZvY3ByWVpBLUlhRVg0bFZiRHUxVjhqclptLUMycDJlYVBsQXQ4a28tRnFnbQ?oc=5",
+    "outlet": "Reuters",
+    "publishedAt": "2026-11-22T23:09:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Reuters"
+    ],
+    "members": [
+      "950e9cf7a02928"
+    ]
+  },
+  {
     "id": "xai:7a25bfa18fdcc0",
     "lab": "xai",
     "title": "xAI wastewater recycling plant in South Memphis expected to resume construction in January",
@@ -45,6 +627,86 @@
     ],
     "members": [
       "7a25bfa18fdcc0"
+    ]
+  },
+  {
+    "id": "xai:8350ad5e9d8611",
+    "lab": "xai",
+    "title": "xAI's water promise still on hold as Boxtown residents demand answers",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNM2lJdV9meTBFUUI5bFg5cmRvOTZjSmRuZThZbkhJMHJkUE1nd0IxeVVYdWZfSnRhdlBUU1lOLTVPZ0NsRHl5QVhmV2FndjRFbTVoSGh0bzNwa3k1VjBVZmJmRkZTdU5qN1FSSEtxTC03V3o4SlNudXlrSGVOMEJTeExxYXBzUnp3UGJTWDRlUzRLMXJJSDlKSUJfcmdwNmJJWVRHUUMyb1VlaVBGdzlnX2hCWndXMU42c0NNQjBpb3FFb1djc0tyb0FpNjFpVlliRGZYakJiUlV5OXlzZ3lma0ZnRWJvbFU?oc=5",
+    "outlet": "FOX13 Memphis",
+    "publishedAt": "2026-11-22T23:06:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "FOX13 Memphis"
+    ],
+    "members": [
+      "8350ad5e9d8611"
+    ]
+  },
+  {
+    "id": "microsoft:03090c626b5384",
+    "lab": "microsoft",
+    "title": "15% of parents already cut college savings after Microsoft AI CEO told a mom 'probably not' to bother saving",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOUpoQW1jS3RDMm9vVjZxUHQyVU94Z2xFUUE2VjlsX0xhM0xFYXRaV0dlY2ttM1JfRGRJRU5TYmxIZjUyUk1SUlBEbGwwSVl0b2hjY3RXaEtQcWNjQkQtdnc3YVN3R1dYVDYzanl4ZnNHS0cwWmUtdFo5TlFtR2w0N21USWdIWGFqS1dKTW94V0NpdTFpVHUwTG5B?oc=5",
+    "outlet": "Yahoo Finance",
+    "publishedAt": "2026-11-22T21:15:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Yahoo Finance"
+    ],
+    "members": [
+      "03090c626b5384"
+    ]
+  },
+  {
+    "id": "openai:eb37a320cf0a63",
+    "lab": "openai",
+    "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTGxIY24yOU1LOUlMeVhETGlMMUZaVjN6SHZzSkduYTluS1RkZzVxUktHR2dFRndlZEUxdjBmQXlpdzRkMjhIVDRaTXlsTUUzbzFud0Y3R1ZaUzhxS3dlYUVaNlgzSDB6cVNNMTNzNGRSNHYwaGp0MkdTNmptYzZxRG1GeVRmVzdaRjNkWkU1b21UTWROUGJrUWJ5UksyeGtPZG1PSQ?oc=5",
+    "outlet": "TechCrunch",
+    "publishedAt": "2026-11-22T21:14:07.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "TechCrunch"
+    ],
+    "members": [
+      "eb37a320cf0a63"
+    ]
+  },
+  {
+    "id": "anthropic:76ee9836ba4087",
+    "lab": "anthropic",
+    "title": "When Can Anthropic Insiders Sell? What the Post-IPO Lockup Period Means for Shareholders.",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY09GSEV4TkItSW1jZW9HV0JId1JtV2dKblJYUlZkR0QyNDhtRm9jZDZqamtsYzZzRXQwSGhzN3dqRHozSFZIOXo1YnRVdW82eEtVYjJPT2lsRHJsdEphbmNsaEVLLVdNR0tVYl9JN1pOeVpvb3htQkczZE1DcnN6RzI2cWR3TVN3VDhZeXh1RkhHUjJLcnhGbWpDQjhfZw?oc=5",
+    "outlet": "Yahoo Finance",
+    "publishedAt": "2026-11-22T20:29:02.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Yahoo Finance"
+    ],
+    "members": [
+      "76ee9836ba4087"
+    ]
+  },
+  {
+    "id": "openai:f89eb185bfa1e8",
+    "lab": "openai",
+    "title": "OpenAI Chief Scientist Urges Industry Limits on AI Development",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMjVTYVIwT3huVU8teHdXRHdnWGxOUTI5d1J6elZhWktVMVpSZDhhRmk5eV82c0JuRDBSUWNHdl84Z253WDJDbmd6SXhiNlFsdkxhM2gxWTVoTnY2ZkdrZ0dVam1OVXNSZWIwUnBQaTU4bEhJNTZValFSQ1Naam1xb1FkTklSZXI2Ums4d19sUjVheGtLNGhUWjFPcEVyd0ZIRmJlX0FqNXF5cHpCR2pjczF5WQ?oc=5",
+    "outlet": "Bloomberg.com",
+    "publishedAt": "2026-11-22T19:40:54.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Bloomberg.com"
+    ],
+    "members": [
+      "f89eb185bfa1e8"
     ]
   },
   {
@@ -77,7 +739,8 @@
       "OrcaRouter"
     ],
     "members": [
-      "26d232fc30a5b3"
+      "26d232fc30a5b3",
+      "6cca5f781b3390"
     ]
   },
   {
@@ -177,22 +840,6 @@
     ]
   },
   {
-    "id": "deepseek:0aa30c97f4db4d",
-    "lab": "deepseek",
-    "title": "Compare ChatGPT, Gemini, DeepSeek, and other AI models — stop juggling AI tabs for $54.97",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYnlVbThDM2xLeU5XUWtuXzJyNy1EUm9nVGx2N2ZTZnM3SEJKUlE0aU1UcE0xVVhnVFBCSnlhOTN4ZDBvUkJOaUJaQ1QxUWstUEc5SmF5ay1DLU5BSm9rQVFYZGYwaG9iQ0lPd19wVnFHZ1lxN3hDbjNtTzlvVk9teGRQQ0JzNXJwQ3JGeTh3bE5Hdw?oc=5",
-    "outlet": "Mashable",
-    "publishedAt": "2026-11-22T15:03:15.000Z",
-    "firstSeenAt": "2026-11-22T19:49:07.211Z",
-    "reports": 1,
-    "outlets": [
-      "Mashable"
-    ],
-    "members": [
-      "0aa30c97f4db4d"
-    ]
-  },
-  {
     "id": "minimax:17356310ba3b81",
     "lab": "minimax",
     "title": "MiniMax says its internal AI turned theoretical cryptographic attacks into practical breaks",
@@ -241,6 +888,22 @@
     ]
   },
   {
+    "id": "anthropic:7714e9db8c6338",
+    "lab": "anthropic",
+    "title": "Prediction: Anthropic Will Be the World’s Most Valuable Company by 2030",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTEZkb3N6SE5kN0hidG5zRjQ0OUlPWWZyQWFWdWJ4MWpJVGRuUVJ4M0tmZFBkZWg2ZzYyZHh1M1o4R195WVRNTmlXbXFyYkpMOUN2aUg2aHZ2eEhhVEpqLU1CMHpsOWl0ZzNqR1luTWFyQ1lYM2dUSUJ1dEFHNXVjVXNYaHk1WjZfaGpLNEwtdUNFOFRYOW9rUDFHQ1VENF9nVmdUTTlSMUdFY19DemdoZlhVdw?oc=5",
+    "outlet": "The Motley Fool",
+    "publishedAt": "2026-11-22T13:18:02.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "The Motley Fool"
+    ],
+    "members": [
+      "7714e9db8c6338"
+    ]
+  },
+  {
     "id": "minimax:07c1ab7ed75bfa",
     "lab": "minimax",
     "title": "OpenRouter Removes Privacy Label from Certain MiniMax AI Models",
@@ -254,6 +917,24 @@
     ],
     "members": [
       "07c1ab7ed75bfa"
+    ]
+  },
+  {
+    "id": "deepseek:0aa30c97f4db4d",
+    "lab": "deepseek",
+    "title": "Compare ChatGPT, Gemini, DeepSeek, and other AI models — stop juggling AI tabs for $54.97",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWhJcDZPNmgyVjlyX1JRVW0yb25iYlBqdWtBU2VoWHFIam15Wl9HNm5DYW1jQUJHR1I0b1pKWW14bF9SbE16UThnVlE0MzFLVWNiRDZHWWsxTkZtaVlaWkdzS1BDakJad0ltdW5qWi15LWthemhCcE5YdXBMTC1fTDUyVjZDeHloalVUUFVMaDJiVzhBdnlwMg?oc=5",
+    "outlet": "Yahoo Tech",
+    "publishedAt": "2026-11-22T09:00:00.000Z",
+    "firstSeenAt": "2026-11-22T19:49:07.211Z",
+    "reports": 2,
+    "outlets": [
+      "Mashable",
+      "Yahoo Tech"
+    ],
+    "members": [
+      "0aa30c97f4db4d",
+      "0a190d11a37f73"
     ]
   },
   {
@@ -321,33 +1002,6 @@
     ]
   },
   {
-    "id": "meta:9ea5e432e8de99",
-    "lab": "meta",
-    "title": "Fly Llama Brewery gives away free burgers to benefit Back Bay Mission",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQb0thcXBxRkZmVFdzTnhhY1V0cTZWUGhFdmI2SzdleE5OVjdFLUZmaE03UWxyLXdyTGNHY2FnTHBrd290ZWRsUGpucVE5aXEyM2lRRHRfV3plUHFkN2RHUURNNWFjOUxIdWI0NFRYZVlSbEp5djlPUmlJOWdJNW13NXZydFlveWZJcE5MQ0tuNFd3TGZBNGROOHV5bEZRWUVhX3J5U3Y5NzRWeXpvMzNTZ3FaQVA?oc=5",
-    "outlet": "Hawaii News Now",
-    "publishedAt": "2026-11-22T04:02:25.000Z",
-    "firstSeenAt": "2026-11-22T11:38:24.410Z",
-    "reports": 6,
-    "outlets": [
-      "WLOX",
-      "WOWT",
-      "AZ Family",
-      "Hawaii News Now",
-      "WTVG",
-      "KTTC | Rochester, MN"
-    ],
-    "members": [
-      "9ea5e432e8de99",
-      "2c315068a0a0a4",
-      "7f1280a2d89ecb",
-      "0b4511b83d336e",
-      "4cdf5507db8e3a",
-      "17ee20804dfb91",
-      "0344c91c6a2542"
-    ]
-  },
-  {
     "id": "zai:776de06b29b97e",
     "lab": "zai",
     "title": "HK Short Interest Weekly: Baba, Zijin Gold Intl, Z.Ai, Smic, Shenzhou Intl, Li Ning",
@@ -361,6 +1015,83 @@
     ],
     "members": [
       "776de06b29b97e"
+    ]
+  },
+  {
+    "id": "deepseek:c68785cfc01899",
+    "lab": "deepseek",
+    "title": "DeepSeek's $100 billion financing deal is finalized; a visual guide to understanding the massive funding round.",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EYVBkT2s1OWR2cEowMW1iUFlCYmJGNmhzaGlWYWlPMXRpUTh6bXVZRnlhUmxYazYwbGk1Y0tXVnVaX3c1d3F3UDVJalBTZUFTME1j?oc=5",
+    "outlet": "Longbridge",
+    "publishedAt": "2026-11-22T01:45:12.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Longbridge"
+    ],
+    "members": [
+      "c68785cfc01899"
+    ]
+  },
+  {
+    "id": "anthropic:352933d8cea1ae",
+    "lab": "anthropic",
+    "title": "Prediction: Some Anthropic Investors Are About to Learn an Expensive Lesson",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLVlNQjYzc20yWmlZWTNzdTJoV3JST2lrUWFpdGtDc2Z1TlFGc2RucXJ3U1ZzdG02R2thQk5nNUhuRlU5Vk4xUzlVYU5nNUhTdG5xbVhfUmlBcWk2dzFRbmNPdmdfLUVEMjRaMTJrbk16bzBnLWRxdjJIUkJnMHpZS3U3WFR0MXRwZzNCWlNhdGk4QVFUYVdsdVozSG5Qampsa2Z0ZEFtUExuWVRiTUtlUA?oc=5",
+    "outlet": "Yahoo Finance",
+    "publishedAt": "2026-11-22T01:01:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Yahoo Finance"
+    ],
+    "members": [
+      "352933d8cea1ae"
+    ]
+  },
+  {
+    "id": "meta:9ea5e432e8de99",
+    "lab": "meta",
+    "title": "Fly Llama Brewery gives away free burgers to benefit Back Bay Mission",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT29sZUF5UzZ0LVZOMDk3OHc1aGYwV0steTBYLVZPTjRVVnpxYks3emRqbFVrWk5ZMVNMSk9lQ3ZzOG5fT2k1SVhFbDRlM3gwSkExTjl1X0MwWE5KR0FFUHUyell3Ym1lUElBZmVEVGxFSUIwd3ZlTzBzcVg5MEgyNU9hVFp3VE5PSUw2Y3JqTElVQ045Tk45M21qdlFyZ1E0WnlGUE9KLTZNUQ?oc=5",
+    "outlet": "FOX19 | Cincinnati",
+    "publishedAt": "2026-11-22T00:26:18.000Z",
+    "firstSeenAt": "2026-11-22T11:38:24.410Z",
+    "reports": 15,
+    "outlets": [
+      "WLOX",
+      "WOWT",
+      "AZ Family",
+      "Hawaii News Now",
+      "WTVG",
+      "KTTC | Rochester, MN",
+      "KBTX News 3",
+      "FOX Carolina News",
+      "FOX5 Vegas",
+      "WBAY",
+      "WDBJ7",
+      "WBTV",
+      "WAFB",
+      "KCRG",
+      "FOX19 | Cincinnati"
+    ],
+    "members": [
+      "9ea5e432e8de99",
+      "2c315068a0a0a4",
+      "7f1280a2d89ecb",
+      "0b4511b83d336e",
+      "4cdf5507db8e3a",
+      "17ee20804dfb91",
+      "0344c91c6a2542",
+      "28a7f91dd423e1",
+      "6522f3352c22cd",
+      "a0b299d18da4e2",
+      "3d2bfead7edcf8",
+      "f5509a4f456ba5",
+      "5b2dba772ca9ad",
+      "be48019dc16070",
+      "6c1d8828c6203d",
+      "9edce7fb7bf392"
     ]
   },
   {
@@ -476,6 +1207,38 @@
     ]
   },
   {
+    "id": "anthropic:3e2897447724c0",
+    "lab": "anthropic",
+    "title": "Anthropic IPO signals ‘beginning of a gold rush’ for small businesses, biz tech CEO says",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMjVQWHNJMWw0Y21HYTVDN0lhX0ZYQS1FdzFCLV9nbVRzS09jNFN5UXRaanhHM2tXbGJkVGtlZVdMMnlTa2RTR29MUU1KbXVkekg1X19VeU5ISGJCbG9FRU5nSkNrZG1MWFJBaVZWY3pGUm5vUmZUWl96aWl6TVNDcUFCOXFxRmlYTFhRLTlqdTQ2S2FWTjJ4RWNBbnlVS2dtemlUSF9nOVlpZFpONElOdUhB0gG3AUFVX3lxTFBNVVBhQ1VSV2VIc0Z5OTJfSU1FUmc2UVFZNDJPX19TSjgteXV4QWxmbDZQWGQwa0M3S0tLUTY1V3ZTRXhUTmVNLTNBSk15QTRuQ1ZzSDY5VkFVT3laUl9XemZJVWZBVG9TU21UaW1US3JvWGZ3dGpiakppUDJobkQ2NW5lVGxEZUdCTlBnaGhEVWNvRE43ZTEySTBZaDJ6VzFuY08xN2FJRkFWUzI1Rkg0eEljUHl0OA?oc=5",
+    "outlet": "Fox Business",
+    "publishedAt": "2026-11-21T17:54:21.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Fox Business"
+    ],
+    "members": [
+      "3e2897447724c0"
+    ]
+  },
+  {
+    "id": "anthropic:a0c48383894428",
+    "lab": "anthropic",
+    "title": "After Blockbuster Anthropic IPO, Dario Amodei Heads To Puglia",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMDhCN093ZTBxUmJKdExUcWo3TldsOGN6T0tKa0s2UmVNN2pUNTNrTzEtSkhHUW1aRGwxMjYyUGRDYVdRcmV3VVlWV3Z5dnZaWkhqNFZIWVlDa3kwZW1LOF9nVElPQW9wY3pnVDNnMlJ3Mks2dEQ3ang1dzZlUDNLSVBOdzJsREtiSnJQTGVHdkd0MExRMktscnFpN3lkd0pLZFg2RlhuaF9zZG56SUtwMGRYZVVoTmhs?oc=5",
+    "outlet": "Forbes",
+    "publishedAt": "2026-11-21T17:41:21.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Forbes"
+    ],
+    "members": [
+      "a0c48383894428"
+    ]
+  },
+  {
     "id": "minimax:2f0838e37a68bb",
     "lab": "minimax",
     "title": "OpenRouter: Test Links Sent to MiniMax Opened 40-130h Later",
@@ -489,6 +1252,22 @@
     ],
     "members": [
       "2f0838e37a68bb"
+    ]
+  },
+  {
+    "id": "anthropic:3534d2195ee431",
+    "lab": "anthropic",
+    "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZjl5ODZTYXRNU2pfRmhEdnR0ckVzdE9iVVhrX3ZmZzZTMl9acTJENHAyUUFJazdRNGw1a2pES2pjWEpuTG1qTmtfNjBCd1NTQkxXb0c0X2pwSzZtNDJpWS1HbUR6aU5PUC1Gc1N0cXNEZEV5cTd2ZnYtWk9oWU95d3lERkRUOHdSQXRFSTY2OUllVktJenpTODQzU2g?oc=5",
+    "outlet": "The Guardian",
+    "publishedAt": "2026-11-21T16:39:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "The Guardian"
+    ],
+    "members": [
+      "3534d2195ee431"
     ]
   },
   {
@@ -553,6 +1332,22 @@
     ],
     "members": [
       "859bea40f2fbc1"
+    ]
+  },
+  {
+    "id": "openai:dbcad29c103f10",
+    "lab": "openai",
+    "title": "ChatGPT shrunk down to run on a Super Nintendo",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQmM3VFU0dkdmWGNjN25aOVNtbGRCcFl4V2dGQjR6OERaNTJmcl9YNVBQMFBtLVFpZHNqajZPV2dfcXN4WUkwSzg0U2FKRElKcVdUcUFGaTFyRkFPdTRnZVFYcHAzZ0QwOS1TZG9GSkkzbGlSUV96UGtERlRjTVN2dXRkcGJpbi1uTHlTbkZoN1VPZTZ0YUxobXpEdTJSMGYtNlFV?oc=5",
+    "outlet": "The Register",
+    "publishedAt": "2026-11-21T11:46:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "The Register"
+    ],
+    "members": [
+      "dbcad29c103f10"
     ]
   },
   {
@@ -668,6 +1463,38 @@
     ]
   },
   {
+    "id": "openai:fde1108235b8e5",
+    "lab": "openai",
+    "title": "Being mean to ChatGPT can boost its accuracy, but scientists warn you may regret it",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdFV6Z3pqTEpwWm5xODNsVlQtOV9PQWRxMmRzenJ3ekRYMmVZd01XVnFlWXEtaFluay1kb3AxRjVXT2h0dlQxLW9HLWNCVmNSOWRWRE1ZVGQxbFVXcllIX2Z2UlZMYWF6QTBXSEhlMHg3a1ZJZ2UweFV5ZUpSUVp2U0VXS2ZuVXo4RmFXTEZtRVBpcjZRd3NPbmRiNDh2S0JsZWRZcHJrSXBKYnhrbTdGY2dJUWI3MHphZUE2X09IVG5MQ3QtaVRJSEFfOVBTaU02WXBnZTZB?oc=5",
+    "outlet": "Fortune",
+    "publishedAt": "2026-11-21T08:00:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Fortune"
+    ],
+    "members": [
+      "fde1108235b8e5"
+    ]
+  },
+  {
+    "id": "anthropic:8d16adbbaa98db",
+    "lab": "anthropic",
+    "title": "Anthropic Shares Are a Rational Bet on the Next Phase of AI",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa0NnR1VsbEdzLV9fN3JKVkRtQjdpc2JzNGk4OVA2M3F4UmZkZGxkbGR0dWdMVENDT1p1Sjd6ZjBtc3VtTks1UFNFTXBGcGJCTjlTMFAzMmlPZUhWY2RkM21KS0JVNHl1ZU13X0tRUFIzNGlXbFRidGdDbUVha05MWW9pcHpQWm10a24ySmlTNDMtUFg0anlNOFlZck8?oc=5",
+    "outlet": "WSJ",
+    "publishedAt": "2026-11-21T08:00:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "WSJ"
+    ],
+    "members": [
+      "8d16adbbaa98db"
+    ]
+  },
+  {
     "id": "minimax:35f6ae093614cb",
     "lab": "minimax",
     "title": "OpenRouter warns MiniMax prompts may have been read by a third party",
@@ -683,6 +1510,22 @@
     "members": [
       "35f6ae093614cb",
       "b3cc3f07c3d57e"
+    ]
+  },
+  {
+    "id": "anthropic:24b859694b0c98",
+    "lab": "anthropic",
+    "title": "Anthropic mathematician claims AI-assisted proof of the Riemann hypothesis",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYnhwd1IyUERONU1RclBYRDZQQi1fSXg5Z1BwWENSVG9jZzZPWjRJZFlQQVlpZkFIYUlDbkljRU9VYkpWOWo1dTdqQ0lIMzBSY0laZ3hhUVFPRDIwcTRiclNjUDgxZmxZTHpjV0J0Q3IwSnpES0Q4cHR1QlBLS0pkLUVyM0luSTFYM1JDRVRRZmxpdXJiRFdELVN0R3VmUE9qTWtyenpaVjcySmJEMmttdEJUMkstMEhRQTBILQ?oc=5",
+    "outlet": "New Scientist",
+    "publishedAt": "2026-11-21T06:40:05.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "New Scientist"
+    ],
+    "members": [
+      "24b859694b0c98"
     ]
   },
   {
@@ -731,6 +1574,22 @@
     ],
     "members": [
       "98196dc6c4ad67"
+    ]
+  },
+  {
+    "id": "cohere:fa62a87f6ffab2",
+    "lab": "cohere",
+    "title": "An ‘urgent’ power crisis emerged after Cohere joined this Ontario data centre. Now electricity bills are rising",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOb25pOGdvTEE0NjdFNUtWMEZmUG50RlpheHlKNTRPYjlYSUJCV3ZnSlJmc3ZfZ1lUb2xNQ0RKNjBPNE5oTVhWWVZGRGw3Nm82WFBrRTdHU1U4ZnlnMk1iV3RONzlpd1R2Y0VIVTdHZ2ZSTmhKLXc4OFQwSGFTS243N2pvYU9ocTAxLWh0WFVyMHdVcWNWbmE4MXZYTnEwYi1YMlIyN2xFTW9aRXkySVUyZnVTWjVzLWVZX1R3VE95bFZpLU5Sd0s1UFVST3lqbW5MV1hRa1Jkb08yU04xTTRmbGpycllaQmRDYlJUWW5OMFMxdUJX?oc=5",
+    "outlet": "Toronto Star",
+    "publishedAt": "2026-11-21T06:07:28.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Toronto Star"
+    ],
+    "members": [
+      "fa62a87f6ffab2"
     ]
   },
   {
@@ -1379,6 +2238,22 @@
     ]
   },
   {
+    "id": "openai:13427809fbcd94",
+    "lab": "openai",
+    "title": "OpenAI Brings Its Collaborative Space Hubs To Plus Users",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdzBQN0dfd2VqUktZZ1RxeEIxZXF3b0M4Z2swX3NiWTFfZV9BaVFJRlY0b2lXc1N5cHJocGtra01UbXJsLUVFTi1fdjNyMTZyUlY0aW10SjBPZzRhV0pPM3NOeHpQT3VqWFlvUWN2NmtWUFVrcDYxbWhVYnlSQUdjNlBpWjZJbXFsSGRicWJBRGJfWDZT?oc=5",
+    "outlet": "Engadget",
+    "publishedAt": "2026-11-20T18:00:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Engadget"
+    ],
+    "members": [
+      "13427809fbcd94"
+    ]
+  },
+  {
     "id": "anthropic:6538a86862d39c",
     "lab": "anthropic",
     "title": "Anthropic researcher says he and Claude proved the Riemann hypothesis, first posed in 1859",
@@ -1783,6 +2658,22 @@
     ]
   },
   {
+    "id": "openai:ec681aa917e7e1",
+    "lab": "openai",
+    "title": "I let Gemini, ChatGPT, and Claude send me daily morning briefings; only one was worth waking up to",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUEhqMTNfdzFxOVZCamNISGoxcTU0VzVfUnZDeHRUcUpqWkxfOWNWVTUwM0swMjdhYzBEUDZzU0Y0eHFidzY1R096SnNtSS1JN29XNXE5M0pESExWX1BJWU1STDF0QWh5MlNiemEySTBDNHN1M1JxT3VpWkxQNThORE9MbVlrc2pKVGxmQWFPSGZmcExEN2QxUzRoVGhHNmh0ZmRVTXJOOHp6YXZxSFNKQThB?oc=5",
+    "outlet": "Android Police",
+    "publishedAt": "2026-11-20T13:45:10.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Android Police"
+    ],
+    "members": [
+      "ec681aa917e7e1"
+    ]
+  },
+  {
     "id": "amazon:a651d22aa965c5",
     "lab": "amazon",
     "title": "AWS AI Security: Securing AI workloads on AWS",
@@ -1968,14 +2859,16 @@
     "outlet": "Startup Fortune",
     "publishedAt": "2026-11-20T11:45:20.000Z",
     "firstSeenAt": "2026-11-20T11:52:27.345Z",
-    "reports": 2,
+    "reports": 3,
     "outlets": [
       "Startup Fortune",
-      "The Next Web"
+      "The Next Web",
+      "CRN Asia"
     ],
     "members": [
       "0578a9d9040a19",
-      "a05d8731cc382b"
+      "a05d8731cc382b",
+      "70d0657102346e"
     ]
   },
   {
@@ -2104,6 +2997,22 @@
     ],
     "members": [
       "614de16c559c39"
+    ]
+  },
+  {
+    "id": "anthropic:7f945f288edf2a",
+    "lab": "anthropic",
+    "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOam9yUlhjeXdQYldnSlpuMlRsWjJsLXFYUGxaM3ZVc21qbTEyUG9Ja2x1aVpZRDU4amVMaTFsZVh0dWlYLXRWV1BJbGtoTkdfUjFkVlhvTnduWGFIY1VKcGNTRWRjTTNlQ1c5Z0FrazRudjFKOFVMYXVhMGNjYmVrMEpFSnpJa09jTHNDX0xrdG95NHl3ckRDc0RLZW9SQXNnSWdF?oc=5",
+    "outlet": "The Guardian",
+    "publishedAt": "2026-11-20T10:02:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "The Guardian"
+    ],
+    "members": [
+      "7f945f288edf2a"
     ]
   },
   {
@@ -2301,6 +3210,22 @@
     ]
   },
   {
+    "id": "zai:26341a39eb84ba",
+    "lab": "zai",
+    "title": "GLM 5.3: Benchmarks, Pricing and Open Weights",
+    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0tS3pGWHhwZ1pBS1p2LW10WjZfNjFkcDFuakVDbkViQU5tdF8yMnVpYXdlX2dYX1cwdWNfV0I5cDVsZw?oc=5",
+    "outlet": "Fello AI",
+    "publishedAt": "2026-11-20T08:00:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Fello AI"
+    ],
+    "members": [
+      "26341a39eb84ba"
+    ]
+  },
+  {
     "id": "minimax:d45638b21b879b",
     "lab": "minimax",
     "title": "MiniMax Founder Falls From Billionaire Ranks After Losing $11.6 Billion In AI Rout",
@@ -2394,6 +3319,22 @@
     ],
     "members": [
       "9348350ffb3355"
+    ]
+  },
+  {
+    "id": "anthropic:e618d797993b18",
+    "lab": "anthropic",
+    "title": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1lbzAxN3Zrd0FxN0R5N0ZrQ29JQXF4cHFoMzNVX1pwUVRTZGtxVlY1T2VxUDZKZVN5b3R6ekYwZDg0aDFZUWp2S3F0dzBUWW9NbjBQazlvWEFHUnU5WGhjd1NlbEs1d0dBMmdUeTN2UVVmMGpIa1lGLU9B0gF_QVVfeXFMTXhCdFBaVUNmZDVsR09zZ2tmZzQ2cmR5TnJPbDFudHV5VXBJU01sSjBIVU9GczJmUnloeVR5TjdhbmhhN09saXc1MC1nYWY4c2I1cHdnUjNGbEc3R2oyekM5RmdRTXluVzFuR1RwNngtcW9TOGRuNVFWcnVzWkVaSQ?oc=5",
+    "outlet": "CNBC",
+    "publishedAt": "2026-11-20T06:00:01.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "CNBC"
+    ],
+    "members": [
+      "e618d797993b18"
     ]
   },
   {
@@ -3646,6 +4587,22 @@
     ]
   },
   {
+    "id": "microsoft:240fbfc8a80959",
+    "lab": "microsoft",
+    "title": "Microsoft Copilot SDK 2.0 Enables Shared Use of AI Agents in the Same Environment",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdlRGWDNFVnEtbU9MZjBleHlxaG5Ra2xYNGJfckJGNjhhUFJZVGdCVHE0dERFQzRHS180cHFfR0s0d0ZkaXZNYkttVVI1VkZ4cnBzdTNsMmNPS21lajVRYmMtUFRLNXdCa0VlSGxHYmtSODVrZ2ZRcm9fUV9oczRFMktBY3ZGZHNLcEp5dWJfeGV0UTlFN2xFV1BFakhSU2U4OUwwRXQwZjU?oc=5",
+    "outlet": "WinBuzzer",
+    "publishedAt": "2026-11-19T17:31:08.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "WinBuzzer"
+    ],
+    "members": [
+      "240fbfc8a80959"
+    ]
+  },
+  {
     "id": "xai:fbd1a31e4f3f52",
     "lab": "xai",
     "title": "Musk’s SpaceXSI denies liability in UK lawmaker’s lawsuit over Grok images",
@@ -3997,6 +4954,22 @@
     ],
     "members": [
       "f276a11b8aced1"
+    ]
+  },
+  {
+    "id": "openai:8f124990488769",
+    "lab": "openai",
+    "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOUQtVG5tdWhKOFZoTmRaQzNEVjBNYVA0ZzdKSjhJU2xoaERaa25DeTJhaUVXaWRrWTdRT1JaTHhvMnlscEJnWXo3YWxoV3lRVDdzTGF5UV94dmdqRW5pSlI2TWpreEJJcU5hTG85ZkNha3FvdDFJQkcyQXVpaXFMcnA3SWFLRWNpUFQzMHNseUdLdG8?oc=5",
+    "outlet": "The Verge",
+    "publishedAt": "2026-11-19T15:16:45.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "The Verge"
+    ],
+    "members": [
+      "8f124990488769"
     ]
   },
   {
@@ -4620,6 +5593,22 @@
     ]
   },
   {
+    "id": "mistral:d65475f690194c",
+    "lab": "mistral",
+    "title": "MISTRAL Upcoming IPO — All Pre-IPO Details",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIWElYblh6YnViMmJ1VUNra1hOZm1uV2VORWdHeFJFXzQ0UG9qOFIxNmF0cVZfXzQzMHB5SlA0S0paM2RtTTdYRjBIZG5EbFhGOXlCSTFhWUdFX29KejBiRjhB?oc=5",
+    "outlet": "TradingView",
+    "publishedAt": "2026-11-19T09:14:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "TradingView"
+    ],
+    "members": [
+      "d65475f690194c"
+    ]
+  },
+  {
     "id": "meta:0f49a88dc123bf",
     "lab": "meta",
     "title": "Meta AI agent Muse faces privacy concerns after accessing encrypted messages and sending users wrong inform...",
@@ -5104,6 +6093,22 @@
     ]
   },
   {
+    "id": "microsoft:eec6f3db5159a6",
+    "lab": "microsoft",
+    "title": "Satya Nadella Says Microsoft’s AI-First Shift Will Change How Employees Manage AI Agents: how 8 outlets framed it",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbkJqV1ljM3pRZ05QMW1HZUxWTkRPc213YU1UOVNMWmFwTmVHM09Ec0cyTHJ6Z3FuRWtXSkpwdmozeHVDT2lDUXRvNkVTQjdpQnZxRUMxdHBUX2o0d0dyNjhKLWlYRElDZjU4SGdUXzJxTTNGN3JpTTd4cWt1bU5sdFNEa2VwQlhzRGhHdDFLRWZiS1JxNXZBdk55ak5hTVo3Q3JnT0lWektkYjlCY3BpRnpFa2YzSTFmUlNwQWU3RWE3MmNRYzZKSk91OTR2dU1lUmJCOHczYVJtQ3QwOGI2V0xfQW01VVdmMFE?oc=5",
+    "outlet": "NewsCord",
+    "publishedAt": "2026-11-19T05:23:03.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "NewsCord"
+    ],
+    "members": [
+      "eec6f3db5159a6"
+    ]
+  },
+  {
     "id": "google-deepmind:bd35fd39b7fd89",
     "lab": "google-deepmind",
     "title": "Google releases Gemini 4 Neon AI model, rivals Claude Opus 5.5 and GPT-6.2 Sol",
@@ -5428,6 +6433,22 @@
     ],
     "members": [
       "233e0513734133"
+    ]
+  },
+  {
+    "id": "qwen:c481f42563434a",
+    "lab": "qwen",
+    "title": "Qwen4-Max Is Here: Alibaba’s 2.4T Agent Powerhouse Tested",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jcndCb3VrN3ZEdzBkZkJENGRORTlOR2VDNWNYb2pQeWs3eDhZYm5tRDl5eFVveUxGUDMwTTI4ODBvdVc5S21LQ05QYjNwcmtFdnRuZ1R2N1c1dGpWaF82a01oUW5PMlZQdUFvLWFYUTNqZw?oc=5",
+    "outlet": "Intelligent Living",
+    "publishedAt": "2026-11-19T01:57:37.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Intelligent Living"
+    ],
+    "members": [
+      "c481f42563434a"
     ]
   },
   {
@@ -5932,6 +6953,22 @@
     ]
   },
   {
+    "id": "google-deepmind:f3e1b4400fc1a9",
+    "lab": "google-deepmind",
+    "title": "Gemini 4 Neon: Price, Benchmarks and Who Gets It",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9GSkpyblUyMEFCb2NXS0JyeDNSSkNydHBjU29yTnh0a2hYUk9ZejN6NWtGR3d4czlsbE1aRUpERDNzeHhGalhXWnh3?oc=5",
+    "outlet": "Fello AI",
+    "publishedAt": "2026-11-18T23:08:42.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Fello AI"
+    ],
+    "members": [
+      "f3e1b4400fc1a9"
+    ]
+  },
+  {
     "id": "google-deepmind:bd9ef0debe5f7e",
     "lab": "google-deepmind",
     "title": "Gemini 4 Neon is ready to get some work done for AI Pro power users",
@@ -6428,6 +7465,22 @@
     ]
   },
   {
+    "id": "qwen:83b643beb38a3c",
+    "lab": "qwen",
+    "title": "Trump weighs making US companies disclose Chinese AI use, with Airbnb and Qwen in the crosshairs",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSktnSXIxQ3g0NDJBS19WcUs5RTNwanZNRUhwQVdQRGRtblBpS2NTZDMwUEoxZENyZGJieHgxZFlRV1RZQlZ6RUhGZTE4M09uemZ6ZWRtb1lPZjh4UXhPREh1VmQ0T0dza0EtOEJIeHhKUHRqdnlLcGp4dnNoekJFcGplWkxBclNtM1A3Vldn?oc=5",
+    "outlet": "Il Politico Web",
+    "publishedAt": "2026-11-18T19:30:05.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Il Politico Web"
+    ],
+    "members": [
+      "83b643beb38a3c"
+    ]
+  },
+  {
     "id": "amazon:95626cf7bbbfb3",
     "lab": "amazon",
     "title": "How Social Department built culture-aware video discovery | Amazon Web Services",
@@ -6539,6 +7592,22 @@
     ],
     "members": [
       "5654a5d4aaa40c"
+    ]
+  },
+  {
+    "id": "zai:1e5b7f97f32365",
+    "lab": "zai",
+    "title": "Z.ai announces GLM-5.4 with vision and 50% more weekly quota",
+    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5jamw3UGZJQkpDOWt6R3BhVmpCeTlNbW5aRHVZeDZ2dHV3TUFIZXVTVzZmc3J4TlRKa3FFUDV2My1XUQ?oc=5",
+    "outlet": "Digg",
+    "publishedAt": "2026-11-18T18:20:30.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Digg"
+    ],
+    "members": [
+      "1e5b7f97f32365"
     ]
   },
   {
@@ -10402,6 +11471,22 @@
     ]
   },
   {
+    "id": "qwen:7caa0d97830e60",
+    "lab": "qwen",
+    "title": "Alibaba Launches Qwen 4 Max with 1 Million Token Context Window",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ianQyejBxMW1SVHdFaEtzelhMZFF4UzNDSnl3d29Ja0paNlhwTURkUHFuM01ZM3VrX0pldDNOTXRFZkNGVjktOWp1dUdiNkI0?oc=5",
+    "outlet": "Geeky Gadgets",
+    "publishedAt": "2026-11-17T09:47:31.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Geeky Gadgets"
+    ],
+    "members": [
+      "7caa0d97830e60"
+    ]
+  },
+  {
     "id": "moonshot:8fe8e4eb696564",
     "lab": "moonshot",
     "title": "Moonshot AI’s reported Nvidia B300 deal in China",
@@ -10594,7 +11679,8 @@
       "Fello AI"
     ],
     "members": [
-      "327c480fb55d3d"
+      "327c480fb55d3d",
+      "5fb5b6bfeca161"
     ]
   },
   {
@@ -13554,6 +14640,22 @@
     ],
     "members": [
       "5432fb2267e6be"
+    ]
+  },
+  {
+    "id": "cohere:d47555d954760b",
+    "lab": "cohere",
+    "title": "Cohere’s Chief AI Officer: Why Companies Are Settling For ‘Good Enough’ AI Models",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QN052SWI4TzZPcHVEMnM4amVzcnJaYUFCSlR3VUhfa3I0OGVJdVZvRm9lcGhpcmx5RHJNNnJZcWJqMkt0Y3p3aklGZk9ncHVNbldxU1A1YTJSSkhOeFdPUTRLdUpiTjJSd2FPU3ZXMWs?oc=5",
+    "outlet": "Fortune",
+    "publishedAt": "2026-11-16T08:00:00.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "Fortune"
+    ],
+    "members": [
+      "d47555d954760b"
     ]
   },
   {
@@ -18897,6 +19999,22 @@
     ],
     "members": [
       "e0ceccc4de9532"
+    ]
+  },
+  {
+    "id": "nvidia:b4e0a1aae0c0ca",
+    "lab": "nvidia",
+    "title": "Sluicebox Scales Dynamic LCA Agents With NVIDIA Nemotron",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zMTZZZHhoVkgxQ1FJRlVxSUVVbXU1SDRrNmtSR2FQNUtvN21qTlF2cXJPQ3ZRWDlkOUJvUWtLVnpYZUxfSnNORlRSNEZjeVI1X0F3SDZaQlNaQ3loMGFlU3RR?oc=5",
+    "outlet": "NVIDIA",
+    "publishedAt": "2026-11-12T18:59:17.000Z",
+    "firstSeenAt": "2026-11-23T13:06:33.508Z",
+    "reports": 1,
+    "outlets": [
+      "NVIDIA"
+    ],
+    "members": [
+      "b4e0a1aae0c0ca"
     ]
   },
   {
@@ -27441,7 +28559,8 @@
       "c6bf38e1a8f2b7",
       "eab1704b6a896f",
       "442d88a929821b",
-      "cbe69509dfdabb"
+      "cbe69509dfdabb",
+      "749c709106f024"
     ]
   },
   {
@@ -27693,16 +28812,18 @@
     "id": "xai:7ce04186517db9",
     "lab": "xai",
     "title": "Want Cheaper Starlink? Try Asking Its Grok AI-Based Customer Support",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXhKMWRNU2lJUlN2TlZmU3VwQ1pFcGUwcnBOUFpWcGFsZnk5d0FIN0l3ZGg3alZCbUZ1eTd4TUJneTNuOG9jd2VNV3F1am1OQW8wTWt5VDNyVUVqTjJtbXNVUlJ4UzlUdUhuQ3NiSndXUmpKOG9tbGVTTERNWFVTZy1NdWNDbFJ4MFZtdTdMcHJFS1FzVjZZZHRB?oc=5",
-    "outlet": "PCMag",
-    "publishedAt": "2026-11-09T16:21:24.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTU1fV1JYSTZjTUtfZEVac2gwV0E1bnFDNUxpSVpYRUlPRlN6QUJuRDdRUUwzLXA1N21XTTg5LVBPQjdQYUhvcVNxZzItWmY5VDZDbXBIc3lQNjh3UWxzOHBTTG5UcjQyLVZRVjNDbFViQVpCOGNNYXlDdVdxOHVWUXFLby1rNzN1NmdmMDRHREFfWnpOYmtCZzNpYVZtd25ySThGSld5UmV0dw?oc=5",
+    "outlet": "PCMag Australia",
+    "publishedAt": "2026-11-09T16:18:37.000Z",
     "firstSeenAt": "2026-11-09T22:30:13.875Z",
-    "reports": 1,
+    "reports": 2,
     "outlets": [
-      "PCMag"
+      "PCMag",
+      "PCMag Australia"
     ],
     "members": [
-      "7ce04186517db9"
+      "7ce04186517db9",
+      "4e1b1ef07c4dd5"
     ]
   },
   {
@@ -29307,20 +30428,22 @@
     "outlet": "Bloomberg.com",
     "publishedAt": "2026-11-08T08:00:00.000Z",
     "firstSeenAt": "2026-11-20T11:52:27.345Z",
-    "reports": 5,
+    "reports": 6,
     "outlets": [
       "Crypto Briefing",
       "Bloomberg.com",
       "Briefs Finance",
       "The Business Times",
-      "Free Malaysia Today"
+      "Free Malaysia Today",
+      "The Star"
     ],
     "members": [
       "2711d64b5f540b",
       "a229ecb87d9876",
       "5e744272c6ba29",
       "652ef52f3b4ad9",
-      "18180843b9613a"
+      "18180843b9613a",
+      "3106afb97336b7"
     ]
   },
   {
@@ -40134,1121 +41257,6 @@
     ],
     "members": [
       "e7552825884072"
-    ]
-  },
-  {
-    "id": "xai:c0ab93b120f5c3",
-    "lab": "xai",
-    "title": "SpaceX loses bid to dismiss lawsuit over xAI data center pollution — facility allegedly emits over 5,000 tons of nitrogen oxides and 47 tons of cancer-causing formaldehyde annually",
-    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPN056XzB3dnBhMEVmd1l5cWRwUkZvTmx2Si1QVEpuUGZ2UXYyejlKOXNzQUlOYV9FSGgtMnMyZm8wNGRYX3hob1FxZkt4X0ZKd2ZORks3N0I1OHFCV0Z5SHU4NzhFb1pSbHVBTXdiczlwdGd5U3c5bWliVGxuMFhHeDhQVHNQTDNQQ2hIZ21pUEt1R3l5em8zZ1N3TmdoaWxYTk5Nb1BYNWt1X2M1MHJ3aG11TUFPbkVXNDNVME1HcldudkJTeVFCVVVlUTZRUUZJOWRlV3FQamV3czlRWXRNeWF0OENCVlZ4YVd3aE1JcWFObVI0cE9oc3hzVjVZUlhnczN5ZG9SNzVqZW0zcUNYSURhYzRoUU11VUpuRHpmM0RsTG8?oc=5",
-    "outlet": "Tom's Hardware",
-    "publishedAt": "2026-11-02T12:00:00.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 1,
-    "outlets": [
-      "Tom's Hardware"
-    ],
-    "members": [
-      "c0ab93b120f5c3"
-    ]
-  },
-  {
-    "id": "openai:c278f6fa25486d",
-    "lab": "openai",
-    "title": "OpenAI Cuts Round To $20 Billion As UAE Investors Pair Capital With Compute Capacity",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTGlhakQzenVjemZjMTRqTC11MlItWkFLZ3VMREZBV05TMTdMQ0dtb1lpeHRSMmdaZXNRNnlCZlhna3dJMV9JelZSdVlwNTkzTWNRODh5Z1F6TXo2YVFsZjFKQ0JLcjRkMmRISHVwOUZTZmJxU253SXB3Zm1rNmVsUVFkRVNJREdTWE9NVkJ6OVh2QnprMmJLTFJPZmhVTnU5ekktMEhsc28ybENQSjY4VTFJNG5udmFXWHJjLW8wR19uNnFXQlhldEhyYkQ0VC10d3c?oc=5",
-    "outlet": "Forbes",
-    "publishedAt": "2026-11-02T11:46:44.000Z",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z",
-    "reports": 1,
-    "outlets": [
-      "Forbes"
-    ],
-    "members": [
-      "c278f6fa25486d"
-    ]
-  },
-  {
-    "id": "tencent:852753c77cce07",
-    "lab": "tencent",
-    "title": "Tencent's Hyra 2.0 AI Agent Trains Protein Models and Designs Robot Hand",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdHN1WEdEUEc0V01WS3NMdC1sX1FIWWpQeVItMVFubU9CcnNvM2N6LUoxeWxVX0JEdDV2ZEplM0JNR3VzUU14UG1FT1NaWWZZV2JrRnNPQVAzc1ZpWE9HMjFRdmxGbzRIdVZJUzNPcGhfZFNMNkFpOVJfUVJMaHd0ZldhVnM3cktNZ083b1otbHg3LVpwVHFxa2xrQnVtRUFqdTFMTUo5cEtCdw?oc=5",
-    "outlet": "KuCoin",
-    "publishedAt": "2026-11-02T11:36:25.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 1,
-    "outlets": [
-      "KuCoin"
-    ],
-    "members": [
-      "852753c77cce07"
-    ]
-  },
-  {
-    "id": "anthropic:08087b7dedc031",
-    "lab": "anthropic",
-    "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRFljcVg4RHczSUtOMjZUdGxVUXVXUXAtSGVHeGYtMEVJSjdBOVBUc0pWa1FKUTdLY0FOOTJ6R2t0Z3VXdFo2aGppZkhPUldNZlVfMFotbzVPaUNsbk9sVmNvMFNaNzhrXzVuWmhBSHM0cUczbHBNUlNYYnJwMHhkYXN5bHdyMi1JYldpMlR2dWtLVUhnR0dBMEVuLTJkaHfSAaQBQVVfeXFMTWoybXRqVTdPamw5UkRuYmNjNmJHa1drVmtFQ3R0S1IwYm5MUFNQVXhrbEdiTDJOSGRfbHhMbVNpZlA1VnkyQXVnczZRVTBYRFE5MG45SVo3R3ZOMmpVcF9VTlNpOFZVUjhReDhzYm5uM3NWSmw5eVlzTGtIbjhwb21NNkY5U2dvNFNXQjhTTHM1NjZZTkJfNXJiVnZOaExKR1ZmbDg?oc=5",
-    "outlet": "SecurityWeek",
-    "publishedAt": "2026-11-02T11:29:39.000Z",
-    "firstSeenAt": "2026-11-04T11:07:36.704Z",
-    "reports": 1,
-    "outlets": [
-      "SecurityWeek"
-    ],
-    "members": [
-      "08087b7dedc031"
-    ]
-  },
-  {
-    "id": "cohere:f5a7df1d3be4cd",
-    "lab": "cohere",
-    "title": "Canada’s AI Firm Cohere Tops CAD 35bn Valuation in Latest Fundraising",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFcVVvbXYwOHQ1dWRZeDVwYk4wSURqUFBQaDJTNV9ad0ZVUXRXekd2VU5CWmE2R0d0djBRMUh4T0laNXNBZ3ozdjVhU2FadWEzdVVr?oc=5",
-    "outlet": "Slator",
-    "publishedAt": "2026-11-02T11:19:07.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 1,
-    "outlets": [
-      "Slator"
-    ],
-    "members": [
-      "f5a7df1d3be4cd"
-    ]
-  },
-  {
-    "id": "deepseek:9eee6cf52cb803",
-    "lab": "deepseek",
-    "title": "DeepSeek Wants Coding Agents to Stop Waiting for Instructions",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRW5RNmtQMFJQcHo2cVZSbkd2clhEajlEUXd2MkhMWHVwNmg1R01zUEFhQlF1aHdqMDBKWG01dVB4Unhtcm0xeF94Szl2QUVwaU43LTlubjlhZXdCWXBTVHV3ZHNoUU8tMFYzdG8yY2NfX1ZBUzIyblA4ZU5MekNZWVhFSV9Scnc?oc=5",
-    "outlet": "DevOps.com",
-    "publishedAt": "2026-11-02T11:18:31.000Z",
-    "firstSeenAt": "2026-11-06T01:37:07.071Z",
-    "reports": 1,
-    "outlets": [
-      "DevOps.com"
-    ],
-    "members": [
-      "9eee6cf52cb803"
-    ]
-  },
-  {
-    "id": "anthropic:81aaf4893d5a60",
-    "lab": "anthropic",
-    "title": "Anthropic’s moat is Claude",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81T1duN2Z3bHR6OWZVdG1Eb3R5bE5zd2xCazlsaTkxZmg3bkpBbTI2bUJOLXZaVHBaWWF4Qndqb3Vra2FjY1R4REJrdHYyaFRuZTI5VXpCNGlnenRUQ0RFMmZqTEVfUQ?oc=5",
-    "outlet": "Noahpinion",
-    "publishedAt": "2026-11-02T11:03:51.000Z",
-    "firstSeenAt": "2026-11-04T11:07:36.704Z",
-    "reports": 1,
-    "outlets": [
-      "Noahpinion"
-    ],
-    "members": [
-      "81aaf4893d5a60"
-    ]
-  },
-  {
-    "id": "openai:63f80202538dc5",
-    "lab": "openai",
-    "title": "OpenAI is already pitching 2028 hopefuls on how to talk about AI",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdWtiVFpFNG5rcXZMc2VKVkVha2NKeE14cl90d1FucmozS21IelotNWpnVTRoM0FCNG1yNnZjV04xcWh5a2laN1NfaGFmbjh6aTE4azlVV2VLbVpXcUJza0xWcU1CWE93X2U1UU50cU8tNkVWSUtVWjVsLXdQQjZEUkNhV0dhUVFHa3FzenI0WVFodjh5WDBUV1dXZjA2Wk5DNnRoMUstX0JlLU00ZzdFT21BRHY?oc=5",
-    "outlet": "Politico",
-    "publishedAt": "2026-11-02T10:00:00.000Z",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z",
-    "reports": 1,
-    "outlets": [
-      "Politico"
-    ],
-    "members": [
-      "63f80202538dc5"
-    ]
-  },
-  {
-    "id": "qwen:8af41d21a945ca",
-    "lab": "qwen",
-    "title": "Apple Intelligence in China Starts Testing November 4, Powered by Alibaba’s Qwen",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2ROQlRSS3hpeURJRzJwY0FUNWlHNzlqUnVaRGlHS05yNWprNUEyV0NMVmYyVzZORUNUbnU1U0ZfMlY4c0t0NmFpbVUydWhxRXkzNGhpN2hVaEhHRGRxekhfUmdpSnpsY2VXQ2JvUlhUYVNxNTlZSy1JbkZmbHcwbzhOTUU4WUIzbzZGUGE0S2RBQQ?oc=5",
-    "outlet": "Technology Org",
-    "publishedAt": "2026-11-02T09:20:00.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 1,
-    "outlets": [
-      "Technology Org"
-    ],
-    "members": [
-      "8af41d21a945ca"
-    ]
-  },
-  {
-    "id": "nvidia:094894837d915f",
-    "lab": "nvidia",
-    "title": "Nvidia to Showcase Latest AI Infrastructure at AI Day Seoul 2026 Starting Nov. 9",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uWTU5akxNMkZMZVROU3BkN3Q0enFUYnlPN2g1VXNGa1dUZmNHV3hybTJCcHNOY2JlQ19nd0JISWdDSXhnOGFZMVIyOS1BMVNXOGVsbVlmdEExdWE2cmRvMi1UOTlRRFE?oc=5",
-    "outlet": "THE ELEC, Korea Electronics Industry Media",
-    "publishedAt": "2026-11-02T09:15:44.000Z",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z",
-    "reports": 1,
-    "outlets": [
-      "THE ELEC, Korea Electronics Industry Media"
-    ],
-    "members": [
-      "094894837d915f"
-    ]
-  },
-  {
-    "id": "meta:208fe3074d4210",
-    "lab": "meta",
-    "title": "Amazon’s Nearly $70 Billion Advertising Business Faces a Potential Threat as Meta’s AI Shopping Assistant Muse Explores E-Commerce!",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1Y4VVFKRDlXaS1XeTRON2VwUXNDX2JjdzM3bE9OaXlabGtQUExKcnFEbWdCUUZ3R2VnMUNPZl9WUmc3Y1R5NXdHYzdpbHRFM1pVN0diTVNTVk9sMHFOMEpWQllyS2tTVXN1UTdMX2dmYjRSSl9JOEItRTRxWndHSmx5czQ?oc=5",
-    "outlet": "www.tmgm.com",
-    "publishedAt": "2026-11-02T09:11:04.000Z",
-    "firstSeenAt": "2026-11-05T01:30:16.249Z",
-    "reports": 1,
-    "outlets": [
-      "www.tmgm.com"
-    ],
-    "members": [
-      "208fe3074d4210"
-    ]
-  },
-  {
-    "id": "xai:98c04415d133fb",
-    "lab": "xai",
-    "title": "Elon Musk’s Grok AI Predicts a Huge Move for Ethereum: Can it Really Go This High by 2027?",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONVczMlZWdmM1YkZ6R1p3N3BwZFpGZmQ1VDI0X0ktSWVqbHFpX2ZWUU5jcDJBS1J3Qm1RZ21IclVraU1WZHg5bXpKbDc1Tk9IUG5rT2ZiNjlac2I2N1NkX0JCbnZWWW9hWjNRODQ4V09yNVJGZUhTLWhNY0pCdTQyZldQY19ibXMxS3dRUTM3Vy0wSUZrU3c?oc=5",
-    "outlet": "Yahoo Finance",
-    "publishedAt": "2026-11-02T09:05:36.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 3,
-    "outlets": [
-      "99Bitcoins",
-      "Yahoo Finance",
-      "TradingView"
-    ],
-    "members": [
-      "98c04415d133fb",
-      "749381ded73cee",
-      "674e6132e1b630"
-    ]
-  },
-  {
-    "id": "deepseek:1c5a972291abc3",
-    "lab": "deepseek",
-    "title": "‘Coming for the King’ in AI. OpenAI, DeepSeek & Samsung. ARD #197",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FVVh5Y19HZDBvLXVPVHhVcURFeEJnbE5QZVlveE9KdnJvTHhUZ3FSRS1uT0tlZm1RME5aVURucHVRVUxYcHgyS1B2RVAzX2g0TC05TmRVR2VKREhqLWtZakFMc0dHYVkzQVF6ZVIzSnRDZ3pPanNNUw?oc=5",
-    "outlet": "AI: Reset to Zero",
-    "publishedAt": "2026-11-02T08:17:06.000Z",
-    "firstSeenAt": "2026-11-06T11:05:12.287Z",
-    "reports": 1,
-    "outlets": [
-      "AI: Reset to Zero"
-    ],
-    "members": [
-      "1c5a972291abc3"
-    ]
-  },
-  {
-    "id": "qwen:7c38ebb8db6a84",
-    "lab": "qwen",
-    "title": "Apple Intelligence in China Arrives With Qwen",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2ROQlRSS3hpeURJRzJwY0FUNWlHNzlqUnVaRGlHS05yNWprNUEyV0NMVmYyVzZORUNUbnU1U0ZfMlY4c0t0NmFpbVUydWhxRXkzNGhpN2hVaEhHRGRxekhfUmdpSnpsY2VXQ2JvUlhUYVNxNTlZSy1JbkZmbHcwbzhOTUU4WUIzbzZGUGE0S2RBQQ?oc=5",
-    "outlet": "Technology Org",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-04T01:28:06.470Z",
-    "reports": 2,
-    "outlets": [
-      "Pasquale Pillitteri",
-      "Technology Org"
-    ],
-    "members": [
-      "7c38ebb8db6a84",
-      "8af41d21a945ca"
-    ]
-  },
-  {
-    "id": "qwen:29383f0247d9e4",
-    "lab": "qwen",
-    "title": "Apple Intelligence in China Arrives With Qwen",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2ROQlRSS3hpeURJRzJwY0FUNWlHNzlqUnVaRGlHS05yNWprNUEyV0NMVmYyVzZORUNUbnU1U0ZfMlY4c0t0NmFpbVUydWhxRXkzNGhpN2hVaEhHRGRxekhfUmdpSnpsY2VXQ2JvUlhUYVNxNTlZSy1JbkZmbHcwbzhOTUU4WUIzbzZGUGE0S2RBQQ?oc=5",
-    "outlet": "Technology Org",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-10T17:07:58.299Z",
-    "reports": 2,
-    "outlets": [
-      "NeoTeo",
-      "Technology Org"
-    ],
-    "members": [
-      "29383f0247d9e4",
-      "8af41d21a945ca"
-    ]
-  },
-  {
-    "id": "microsoft:3471096a7b577e",
-    "lab": "microsoft",
-    "title": "Microsoft Copilot AI Predicts a Pudgy Penguins (PENGU) Explosion",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMVNCRXVXVWktQWNHSnd2TWx6X2RnLU11ZFdKdkZXSW53TGQyQnVCVHJrNGpUamZLdFg2MFg2V1NwXzhqWEhKQnlZWHo0Nno1bWVJZ3YyZDBxb3B1bjlHTWRGbFQyaXh1MUJGZE5lRnp5T01zcmZEVUxjUjlWbkswY3pUWVBSLWUxbkdFOGhFVjdUdzRyTk5BNUp1OGRaQnh4RThScklIcWZoZUNWcnRxSFRhRkVjd24zOWZYZlU4eHE?oc=5",
-    "outlet": "TradingView",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-03T00:04:55.286Z",
-    "reports": 3,
-    "outlets": [
-      "99Bitcoins",
-      "Yahoo Finance",
-      "TradingView"
-    ],
-    "members": [
-      "3471096a7b577e",
-      "edfec7eb20f928",
-      "923d82771cbb36"
-    ]
-  },
-  {
-    "id": "qwen:9aba62fc15c3a3",
-    "lab": "qwen",
-    "title": "Apple Intelligence in China Arrives With Qwen",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2ROQlRSS3hpeURJRzJwY0FUNWlHNzlqUnVaRGlHS05yNWprNUEyV0NMVmYyVzZORUNUbnU1U0ZfMlY4c0t0NmFpbVUydWhxRXkzNGhpN2hVaEhHRGRxekhfUmdpSnpsY2VXQ2JvUlhUYVNxNTlZSy1JbkZmbHcwbzhOTUU4WUIzbzZGUGE0S2RBQQ?oc=5",
-    "outlet": "Technology Org",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-05T20:04:26.298Z",
-    "reports": 2,
-    "outlets": [
-      "NeoTeo",
-      "Technology Org"
-    ],
-    "members": [
-      "9aba62fc15c3a3",
-      "8af41d21a945ca"
-    ]
-  },
-  {
-    "id": "microsoft:49ff3f8406a862",
-    "lab": "microsoft",
-    "title": "Clarivate to Bring Trusted Trademark Data into Microsoft Copilot Through IPOne",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdF8zYzV4ektYSzJFMnJ1TVdxU21DZER6QVhIQThheVVqbXpVTEZyRlJObWtNbHFUWExQWFExUWVkM0x3SVZ3NjNVRHB5R1p0WDAyaWZNMFJpVGVpeV9iWGZCYUpCdDdlWDNWYjlRSzJ0QVNzR1lHNUJrbWEwUlI0OTR2eTNOTFM5QldTREIweTRmSDBuZXRURmV3SE9ZT3YwamFjX203SDVVN1dfS2FTTGdKMkdWY3RDT0dZbFJpaGxOTHNqRXRWLW9DbmhpSkk?oc=5",
-    "outlet": "PR Newswire",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-05T01:30:16.249Z",
-    "reports": 2,
-    "outlets": [
-      "Yahoo Finance",
-      "PR Newswire"
-    ],
-    "members": [
-      "49ff3f8406a862",
-      "80e5ab66e12483"
-    ]
-  },
-  {
-    "id": "anthropic:7e41ca1c644c1a",
-    "lab": "anthropic",
-    "title": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4ydDVnYVkzYzk0NlJUZXdoaWtFMkEtRDRmQk5qTTI2N0JhQzA1M0k0S0FRS2hmdEVqMkd5Qm5RVmcxclN5ZUxNOU0tcVJmUVlBN2hvVDFoZDVBWjZKN1ZrdlJ2WEJ5RDJaNUJhcTV6LTZjWnM4WjZzS2Z0bTRpdw?oc=5",
-    "outlet": "CNBC",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-03T02:57:26.551Z",
-    "reports": 1,
-    "outlets": [
-      "CNBC"
-    ],
-    "members": [
-      "7e41ca1c644c1a",
-      "e52f2857204656"
-    ]
-  },
-  {
-    "id": "google-deepmind:9c218824385749",
-    "lab": "google-deepmind",
-    "title": "Can Pangram detect Gemini 4 Argon?",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RNUpRazJtbFJZRUdYUExQX09QeUhITElyTlZ6OEZBZnBUcHVpT2cyNWtnaWtTMG9JTW5jdk12YUx5QjdEOWdzZmhKRVo3Ui1FcjNTc1IwVlVzLTNrenRfV3pKd0ctOVQ2M2lkQThicw?oc=5",
-    "outlet": "Pangram",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-04T01:28:06.470Z",
-    "reports": 1,
-    "outlets": [
-      "Pangram"
-    ],
-    "members": [
-      "9c218824385749",
-      "ea765dc74ae895",
-      "2e0f8fd0ad1f82"
-    ]
-  },
-  {
-    "id": "microsoft:46bd64a8c9773f",
-    "lab": "microsoft",
-    "title": "How Azure AI helped Air India reinvent customer service by answering 40,000 daily queries instantly",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT2p6aDNPUDlVUzU1TlhZdk1WWUpydjVXRERCTl9tNTVpWU1mdEdHaDJSa2t3ZE5LaERJOTBUYTJaLUhkM0dBNFBzY2RhWWEwT21iNnBkNzdETFZia0ZHRzR2Z2VzNjJTSGl4NFdPSzBzQVVSWmFscllhZVBNQ0s5UkZxUE52elNMaFFTYlRnQl81R3gzWGc?oc=5",
-    "outlet": "Microsoft",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-04T19:52:01.415Z",
-    "reports": 1,
-    "outlets": [
-      "Microsoft"
-    ],
-    "members": [
-      "46bd64a8c9773f"
-    ]
-  },
-  {
-    "id": "xai:ed2f4767e5e14b",
-    "lab": "xai",
-    "title": "Trade XAI/USDT xAI on MEXC Exchange",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZSTRGMzJGWk5iLV9TQ3RnQ3ZjQzhFaVBwQ08tSVJIX0Z0bHdSaW56dHcwSDM1Ml84Tml3NGtjdFdNeUxNMGF2SWE4ZVhOUzg?oc=5",
-    "outlet": "MEXC",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-05T01:30:16.249Z",
-    "reports": 1,
-    "outlets": [
-      "MEXC"
-    ],
-    "members": [
-      "ed2f4767e5e14b"
-    ]
-  },
-  {
-    "id": "deepseek:481bfdc50ac18d",
-    "lab": "deepseek",
-    "title": "DeepSeek V4.1-Flash-1017: HLE Score Hits 42.6 [2026]",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OMk5tMXZ1NV9xcXBCdm9pVUJ6YjNnZnM5bVBRT0F1VTlReXpubk5DUi1zYUFKYWVpaDBNWW54TW1KSC02Z3hrbk9xM1M3Ykk5OFNhQndPVGxpVGRKWlpZM29xal90c05PaENmTDhvUE1sOTFS?oc=5",
-    "outlet": "shattered.io",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-06T19:30:37.124Z",
-    "reports": 1,
-    "outlets": [
-      "shattered.io"
-    ],
-    "members": [
-      "481bfdc50ac18d"
-    ]
-  },
-  {
-    "id": "qwen:47dd5324632aae",
-    "lab": "qwen",
-    "title": "Alibaba jumps 5% as Apple integrates its Qwen A...",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMHZydTJ2VEZ0VmhNZmlpRnBFeURqY1ZQbHh3X2NmMU91YjQyS01Xc0dBbUo3d0NOMjl6SHhVRzl3RDJRTHdtR1JJWFpJSnZ5SGYwUVN3ZW5JbGJCZWVyUTJ6RkRqYVV6MVM1MUNseHBHTk9FeEVZSzU2MHlIeTVWNHJKMjM4S1ZIQTVaenhrVHFFbnQxdE5UUEgxQXZDMWNwVjdaVEFBX25CM0xBQlU4Zg?oc=5",
-    "outlet": "Pluang",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-10T23:29:30.795Z",
-    "reports": 1,
-    "outlets": [
-      "Pluang"
-    ],
-    "members": [
-      "47dd5324632aae"
-    ]
-  },
-  {
-    "id": "xai:1972235eaf965c",
-    "lab": "xai",
-    "title": "Introducing Grok Bot 1.0",
-    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1iSW1VMWc4cEMzM2NnaEFic3lqNE1tajl4VEVGWHdaRkNLeEN6TTU5RFBqMlJ5SlJKNlhTZVVERkZJYk1h?oc=5",
-    "outlet": "xAI",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-12T20:04:25.319Z",
-    "reports": 1,
-    "outlets": [
-      "xAI"
-    ],
-    "members": [
-      "1972235eaf965c"
-    ]
-  },
-  {
-    "id": "cohere:8b2e94b47c6172",
-    "lab": "cohere",
-    "title": "Evan Solomon: Cohere makes new investment in Canadian AI sector",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRzdsckhINWRGZFNIbDJaRzl3SmZLQ3JWcHd3YkRMd3Bfb2p2R2dEbXM2WV8xOEh6d1BZWFRWT0s4dFpGbXRPc2loSWlWQ25uaW9pZU92eEl1dU41UlF0YzJRczlKVm5ESVR0d0piN3htZ1kwZ1lxOUpzRmMxTzRGbFZicmlnd3ZmLVR1MU9mckU?oc=5",
-    "outlet": "Traders Union",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-12T20:04:25.319Z",
-    "reports": 1,
-    "outlets": [
-      "Traders Union"
-    ],
-    "members": [
-      "8b2e94b47c6172"
-    ]
-  },
-  {
-    "id": "openai:f11f66badc0432",
-    "lab": "openai",
-    "title": "OpenAI’s new shared usage limit pits ChatGPT against Codex",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93ekQwdEVxUGdQd2xiYlZ4aHZTWFJXMVZLYnhSaE56bnlJZlpJcFpObnFsaHVhOWhNb3VfVUpXOG5RNEg4bnc2MVlqX3FiMlhHZ2RxWkJmOUNTdkhSYVZuSmptS0hycDBKSmc?oc=5",
-    "outlet": "The New Stack",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-15T06:45:42.583Z",
-    "reports": 1,
-    "outlets": [
-      "The New Stack"
-    ],
-    "members": [
-      "f11f66badc0432"
-    ]
-  },
-  {
-    "id": "mistral:d6ddf8c05da7e4",
-    "lab": "mistral",
-    "title": "Mistral’s revenues soar over $400mn as Europe seeks AI independence",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMFBMWHM5dG0taHhnRXdzVjJGZkJQcXIzX3lWTWdZRnAyb1BYWWNYbG9mR0MxNFJaaXppODVVTkRMZXk2cmZCTHBwalNEVEJBZFZCNGpsLXdwSmNsMXJRZUZqaEg4VjY4MzBKTXd4Qjk4cW5QN0hkT2xYSDJpa2luSlFPTTVxWS1BZ20zNTBvUGV0dzRzTThxRlNMbVczM1BET25KbjQ2bXl3UjZxR0FDSHlzYzdVRjlJd2thSTIwSXo?oc=5",
-    "outlet": "Luxembourg Times",
-    "publishedAt": "2026-11-02T08:00:00.000Z",
-    "firstSeenAt": "2026-11-15T16:26:32.379Z",
-    "reports": 1,
-    "outlets": [
-      "Luxembourg Times"
-    ],
-    "members": [
-      "d6ddf8c05da7e4"
-    ]
-  },
-  {
-    "id": "openai:f0dcaba50050d3",
-    "lab": "openai",
-    "title": "OpenAI’s Altman Signs Energy, Investment Deals in the UAE",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSU5MS1pBdVgwVlV3Ul9zdWFEZUtWM0V2TW9wQWlRSEFHNkwzSGlybF9CS3FRRFB6X2NKRE11TjY0SGYyazhnclNnenc3bTBveklJam1XMWhvRG9yQUJfRWViVUU5R0ZNT0hweEFFNGc0dHVhcTZjWnYxenZncW5MNWNKM0JWVnFmeURNTkM3R3VSMlMwdGNFXzJhWnlQNjVqYW93UXJDa08yRGV1d0pZaHRLaw?oc=5",
-    "outlet": "Bloomberg.com",
-    "publishedAt": "2026-11-02T07:52:00.000Z",
-    "firstSeenAt": "2026-11-03T11:00:37.354Z",
-    "reports": 1,
-    "outlets": [
-      "Bloomberg.com"
-    ],
-    "members": [
-      "f0dcaba50050d3"
-    ]
-  },
-  {
-    "id": "nvidia:e955918f2862c4",
-    "lab": "nvidia",
-    "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOGtEeFpiMXg3bG5icGxHN3BjOGtUYVVTbWxSVzFxdWZON0ZTWks4MU1BVTBYYkxsZ2xyOWd1ZUthUWRfaldhOS1TcWdSZGxnOUJrck5TUTNINmJRbkFNUmdMellPdzdYbjMtVDJRT0VULVBhVHozODhuUjRGR0hhcEk1dzloNTJSUVhuMkRkd25mWnlINlktTnBJVEptek3SAZ8BQVVfeXFMUDhrRHhaYjF4N2xuYnBsRzdwYzhrVGFVU21sUlcxcXVmTjdGU1pLODFNQVUwWGJMbGdscjlndWVLYVFkX2pXYTktU3FnUmRsZzlCa3JOU1EzSDZiUW5BTVJnTHpZT3c3WG4zLVQyUU9FVC1QYVR6Mzg4blI0RkdIYXBJNXc5aDUyUlFYbjJEZHduZlp5SDZZLU5wSVRKbXpN?oc=5",
-    "outlet": "MarkTechPost",
-    "publishedAt": "2026-11-02T07:47:12.000Z",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z",
-    "reports": 1,
-    "outlets": [
-      "MarkTechPost"
-    ],
-    "members": [
-      "e955918f2862c4"
-    ]
-  },
-  {
-    "id": "deepseek:fc6d6b345d8474",
-    "lab": "deepseek",
-    "title": "DeepSeek open-sources Super-Agent, a coding agent that watches team chats for work",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nREY5eGxfa2tXV0ZxeHZpekdIaS05UWdfYUxVTHNIR01TdnU0MEhxaHA2NE1iSHE2MnpHRUgtM3VvR2x2ZEpKQ1ljYVFEME9lQTEtOHNXSHdkT0Jjb0VPTUgtYnNVdEQ2RXBlMERLOTRTcF9ic2c?oc=5",
-    "outlet": "Help Net Security",
-    "publishedAt": "2026-11-02T07:09:55.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 2,
-    "outlets": [
-      "Help Net Security",
-      "Technology Org"
-    ],
-    "members": [
-      "fc6d6b345d8474",
-      "d22fe4e67548e3"
-    ]
-  },
-  {
-    "id": "ai21:ad52d8bb32747f",
-    "lab": "ai21",
-    "title": "Jamba Juice Is Offering $1 Smoothies on June 21 for National Smoothie Day!",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUbGstblAxSUtwOENGa28tRUI2YWtXSmpZb2xzOWsyNElsWGkxbFJlTjBUSnZwYU53emZ3Wi1vaWNMZlpETlU0QzgyV2lveV9tbTdiV3Rsa0tndw?oc=5",
-    "outlet": "docksiderestaurant.com.au",
-    "publishedAt": "2026-11-02T07:01:38.000Z",
-    "firstSeenAt": "2026-11-04T19:52:01.415Z",
-    "reports": 1,
-    "outlets": [
-      "docksiderestaurant.com.au"
-    ],
-    "members": [
-      "ad52d8bb32747f"
-    ]
-  },
-  {
-    "id": "openai:5d7e2da58374fb",
-    "lab": "openai",
-    "title": "Abu Dhabi's ADNOC, G42 sign deal with OpenAI as Sam Altman travels to UAE",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTWMxZGNac0g1UDJOemxSbHJnU1g4cllCaWZxdzJEWVBIU2R6aG83R2RlMk9HV19ZTmYxSUMzRjBJU19pbXN6QWV6bHJCQXlJYlFRVEdEVFVQRFl3cTREcWlGUU5aOHc1VDRWQTIxZk0wWHo2a1F0MVZhTWp6VXRPUHQ4TjlONXE2LTc1UEVBY1VYYW56V3IyeFJnNWQwUnppaTNYc1ROTTgzZXN3WTg5SXJscm5BOHZD?oc=5",
-    "outlet": "Reuters",
-    "publishedAt": "2026-11-02T06:40:00.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 1,
-    "outlets": [
-      "Reuters"
-    ],
-    "members": [
-      "5d7e2da58374fb"
-    ]
-  },
-  {
-    "id": "anthropic:6c28a8fd965e7e",
-    "lab": "anthropic",
-    "title": "Anthropic plans to sell $3.5 billion of shares to Japan investors in IPO, filing shows",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazUtcTBWVFNLd21jTk9YOFRDRHoyc2ZuV1haZ21JaUdIei1leFkxVVF5V0JpLXJGdV9raXhrV0k0bU1xM0g5TnR6cTA5dWNFZ3VVVUo1UHVyU3pUUWw0YjFreXNTZ3Q4TXdoazBwT1dxRU52bTkxMXlEbG95LVY1eUlLMGZHUk9hQUd4aVZxWkxMUzBMVmhELWNpaUhSaGR3V19UYy00R3UzMUVkWU80ZHl0aW9URGdlQ19RX2dmZHFreHNS?oc=5",
-    "outlet": "Reuters",
-    "publishedAt": "2026-11-02T06:25:00.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 1,
-    "outlets": [
-      "Reuters"
-    ],
-    "members": [
-      "6c28a8fd965e7e"
-    ]
-  },
-  {
-    "id": "anthropic:19e8892edda4b1",
-    "lab": "anthropic",
-    "title": "Anthropic Seeks Up to $3.5 Billion in Japan for Its Mega US IPO",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeE1JSHY4MlhmcGJZTDJ2aXoxaEdWaEZabl9hSTJic2FYODdCdk03cUtpRjNyVHNWOFp0MmNBeU1pa1ZBMExNT3cyNWlBVTBFWnhySlFjSUdUSU9DVjJ4cE5TdDFXbEJmVTJLMlpLT3BYUjZ6LXpoS2xQTnU4NVhvQ1V1TVlFWGdtZmp0dUstalZraDZOQURZNFlUYjJuTXRDWmFOT3QtNkNqazRUbW1NR3FXNA?oc=5",
-    "outlet": "Bloomberg",
-    "publishedAt": "2026-11-02T06:23:00.000Z",
-    "firstSeenAt": "2026-11-03T11:00:37.354Z",
-    "reports": 1,
-    "outlets": [
-      "Bloomberg"
-    ],
-    "members": [
-      "19e8892edda4b1"
-    ]
-  },
-  {
-    "id": "deepseek:829d86ac1d237b",
-    "lab": "deepseek",
-    "title": "DeepSeek Unveils Autonomous Coding Agent Prototype",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNXhyOWhiLW00bk9LNG5JOHRySVNHMF83WEhoblJ5ck1qSlUzZFcwYkRCTTJ3WXVoYUlUellRZ0hHbGEteldoaVJSWmJwclgzWEstRm52bGN2RkQ2b05XZkp1R29uMERxMGl0amY0aThhMlh2M0VlYm9mRFhvak9NMWNIQm5lR2tuUXktWTZad1lnUTBjemc?oc=5",
-    "outlet": "The Information",
-    "publishedAt": "2026-11-02T05:55:00.000Z",
-    "firstSeenAt": "2026-11-03T06:57:22.155Z",
-    "reports": 1,
-    "outlets": [
-      "The Information"
-    ],
-    "members": [
-      "829d86ac1d237b"
-    ]
-  },
-  {
-    "id": "cohere:683e20ef7b81ee",
-    "lab": "cohere",
-    "title": "Cohere's C$1.6B Stake: Sovereign AI Contract Terms [2026]",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYmo4RnprLWNLbk42dlZ0QlJKb3N5eG15X3Y2REJLNDZOekhHVjFuSmtQQWhpbXU1U0JnRGpob29iUl9EeWtFcjVVdVZFeXV4QjRxVGJtTUdrOVRWbVlRRFQ3Qm9QbnJMMUM5REUtamZrQnY5UHdreURwbnZROFdQelZTWi1VNmlI?oc=5",
-    "outlet": "tech-insider.org",
-    "publishedAt": "2026-11-02T04:42:26.000Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z",
-    "reports": 1,
-    "outlets": [
-      "tech-insider.org"
-    ],
-    "members": [
-      "683e20ef7b81ee"
-    ]
-  },
-  {
-    "id": "meta:ae31b0879990ac",
-    "lab": "meta",
-    "title": "Meta AI Sees XRP in Double Digits, but Only If Big Banks Adopt XRP Ledger; Binance Reopens Withdrawals After Record Hack",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DOVJTcEl5V3ZIV3J5dHhSb3ROakwwbWNBenUzSnNoZDNEcjhGT3lHUEZhVjJfMEdkbUUxejBZVnAtZmNuME9CTTBaLTZrNmt1VnNVdEVPRXdXUEVuOUJYdHk2OUxJU0tJZ1VwbkUzeVV2MHl1YkE?oc=5",
-    "outlet": "BigGo Finance",
-    "publishedAt": "2026-11-02T04:35:00.000Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z",
-    "reports": 1,
-    "outlets": [
-      "BigGo Finance"
-    ],
-    "members": [
-      "ae31b0879990ac"
-    ]
-  },
-  {
-    "id": "tencent:4d5b87133abc90",
-    "lab": "tencent",
-    "title": "Tencent’s WeChat Pay puts AI sales robot to work in 7-Eleven store",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ082XzJMYW0wU2N2MHlIZnltMWdBM3ZsTmlQQ05hVklLUXVLRTBVX2JxRGc5XzBFRXlYSVBCWTRMWERpVW1xTXBwSDdDbF9TMTVPSWVma0tYLTNrUVNiajBrRURSdkFvbTJXRU9jbnhPTk9WeHlnMTJabXlROWdMdVp6Q3lTWlNHOVdoU0lFdE5GWnlSaENicVNQVGVqNVE?oc=5",
-    "outlet": "TechNode",
-    "publishedAt": "2026-11-02T04:32:41.000Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z",
-    "reports": 1,
-    "outlets": [
-      "TechNode"
-    ],
-    "members": [
-      "4d5b87133abc90"
-    ]
-  },
-  {
-    "id": "qwen:2b83c7023b7aaa",
-    "lab": "qwen",
-    "title": "Apple confirms Qwen integration for China AI rollout, with beta testing starting November 4",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLXc4WFdKZ2Q4b1NxTXlGbnI4RGlzdXo4V3FCemhUa2JkbmtfZkRsNzdiX29KVVVnd2JYeklMZDJRbTVvd1Z3b1hNUzVlUjMzMXIyVktRQ0ticlZqTEFDdGtnNEhXbkR2ME1BUE5DQWUxZ2RtWGRtQlFmUkVieldVWnNKd0s0c2thc0tTTTNIX3ZVczlkcWdIY3ZUdGRudlJtdFQ2cVI3YlJYU2Z6ckF3cVp1aEY4Zkg2cUpLbE9NdEc?oc=5",
-    "outlet": "TechNode",
-    "publishedAt": "2026-11-02T04:32:40.000Z",
-    "firstSeenAt": "2026-11-04T01:28:06.470Z",
-    "reports": 1,
-    "outlets": [
-      "TechNode"
-    ],
-    "members": [
-      "2b83c7023b7aaa"
-    ]
-  },
-  {
-    "id": "nvidia:fdcdbc6f42ffa4",
-    "lab": "nvidia",
-    "title": "i-City brings \"stay home AI\" to your future household through i-Ris powered by NVIDIA",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTHk4LU1kTlM3ZVNZa2dFandxREtWUmRRN2lDdHJmLUhqbVl6MWkwUUFKUGNaRlZ6WmNqbjdEVWotOEhaNDVFMzJHZEdZeFNtODlHVXFMbUQ2RVd1OFltRXZBYWt5Z2l5TUJNWkpmTTFtejFNVUpTNGMyRGdnelNQM2hjcmVmS0ZnRThJ?oc=5",
-    "outlet": "Tech Critter",
-    "publishedAt": "2026-11-02T04:30:12.000Z",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z",
-    "reports": 1,
-    "outlets": [
-      "Tech Critter"
-    ],
-    "members": [
-      "fdcdbc6f42ffa4"
-    ]
-  },
-  {
-    "id": "bytedance:2a12ca5bf28840",
-    "lab": "bytedance",
-    "title": "Reported ByteDance AI team departures: three leaders",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUE91aWFkd2lFMWFnOTE1c1prelpILWtGeHVtQXdkeWxxbS13VUFGNnhiUEhJZHA2ZVBpSTBMLTQ3MjVLdFdvbnR2Uy1hSjR1NkxsSlBpMGgwaDh5RVJWcXhMRW5oUlV3Wm9OdWo1LWZVNVNYVXFEb010YUVyMEpxaDY5YWZGdWtabTF1bElrTnFBMUNCa3VvQVF3aEVCWm5w?oc=5",
-    "outlet": "NeoTeo",
-    "publishedAt": "2026-11-02T04:29:49.000Z",
-    "firstSeenAt": "2026-11-03T19:34:58.857Z",
-    "reports": 1,
-    "outlets": [
-      "NeoTeo"
-    ],
-    "members": [
-      "2a12ca5bf28840"
-    ]
-  },
-  {
-    "id": "mistral:8ca6d24fdaa98a",
-    "lab": "mistral",
-    "title": "Orange Cyberdefense and Mistral AI plan cybersecurity integration",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUkFfeXd4d2F0YmdpckdMdlc3QW4wdEV1Y0laUnhkUzRwWXI2Ni1hZ3FaTE9XcFF3Skh5T01hcWZxYTRCbFRGenFUY3d2WU1lWS16S3JiUTMzRWxjQmdmZmpFMjl4Z1NnQ3NtbUloemE2RWlmNllJUG5oSlByYUFhSHpRdGVYVzFOODNkbHFSQUY3LVdhbXc?oc=5",
-    "outlet": "NeoTeo",
-    "publishedAt": "2026-11-02T04:29:48.000Z",
-    "firstSeenAt": "2026-11-03T00:04:55.286Z",
-    "reports": 3,
-    "outlets": [
-      "WebWire",
-      "mspbusiness.com",
-      "NeoTeo"
-    ],
-    "members": [
-      "8ca6d24fdaa98a",
-      "1fa05d5d542ac7",
-      "e26b70cdd31741",
-      "3b3fbfe607bc5e"
-    ]
-  },
-  {
-    "id": "tencent:27ff37cdf1825d",
-    "lab": "tencent",
-    "title": "Tencent Hunyuan’s Painful Transition Period: New Leadership Takes Over as Former Core Team Steps Down",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sLXNDbEE5WEJEOGE4VUJkamh1N3BjMUxyendCSmVySG5uOElsMUdTbDFjUVlLaU1wdnJNVTQxQXNYSVVCSDlua1BkeTlmVWJwSm5v?oc=5",
-    "outlet": "36Kr",
-    "publishedAt": "2026-11-02T03:40:26.000Z",
-    "firstSeenAt": "2026-11-15T04:01:25.107Z",
-    "reports": 1,
-    "outlets": [
-      "36Kr"
-    ],
-    "members": [
-      "27ff37cdf1825d"
-    ]
-  },
-  {
-    "id": "deepseek:771723696d4335",
-    "lab": "deepseek",
-    "title": "DeepSeek’s Super-agent Design Explained: Architecture, Experiments and Open Problems",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EX21yVlZaMlI0M0dnbVlvaDQwUkdTVmRLYWZUODJSTXZrUGlIMDhYVU9haXdPMkE3X1pnREhFUFlqTzBEa3BmZy1kMXluX1gwVG5HSjZpN2hHMm5WcmUtN3ZCT1RYMVY3MTVQVw?oc=5",
-    "outlet": "Kingy AI",
-    "publishedAt": "2026-11-02T03:12:47.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 1,
-    "outlets": [
-      "Kingy AI"
-    ],
-    "members": [
-      "771723696d4335"
-    ]
-  },
-  {
-    "id": "openai:1493cbc1f96045",
-    "lab": "openai",
-    "title": "Sam Altman makes surprise South Korea visit as OpenAI builds on chip partnerships",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWXlvV0hJZUZkSjc0QnBBTk0wT2tnN3lLNC1WLVp3ck45eTMxV3dJcFdqMlFqVEJLMXBaWGVfa05FS0dyaUtRTHY0V3E3SlRiNlNUSDdaU0Rqalh2Yzh6M0ZHZ21BcFQ1czZ1YXc4Y1F3cHZXMDlsZ2IxRXBOdkEyYmRWUdIBiAFBVV95cUxNMWl2MmNCRWhLRzBKd19jc0RzTGhZUURCOTVDYjZKUGZmRmw5TTRuRGo4NXo4bDg5M1A5U3lQUnVDWHF1WnlWZ0o3WTFjRFM1enNQYy1GMThiY3NyWXFSOFdWV0ZzbzV5VUxvRlhtMndEZTZqaFRZZnVOUlVCRW5ycmtLQUU0Y3Az?oc=5",
-    "outlet": "CNBC",
-    "publishedAt": "2026-11-02T02:58:00.000Z",
-    "firstSeenAt": "2026-11-03T02:57:26.551Z",
-    "reports": 1,
-    "outlets": [
-      "CNBC"
-    ],
-    "members": [
-      "1493cbc1f96045"
-    ]
-  },
-  {
-    "id": "nvidia:bd1c15265411f5",
-    "lab": "nvidia",
-    "title": "Siemens Extends NVIDIA AI Collaboration for Automated 3D IC Electrothermal Design Workflows",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnY1cUJ5aG9QSDNfcWVmZG9NN1JYVzZRc2ZfTzc4VWVaUnNicU0tNVlkcEFWWHJLbmhQWW9nT3ZkNFRrN2tkMTlZUTRpN2ZVZGFISC1RQnlSR095UExXRHQ5bERFbjNOdWtHVGRfSS1KcFM4bDdGb1RSUzRKRmF1eU15OXpyQW1fdEFmVmFKVUYyR3FGRFpVVUphb0JRUlllQmhMY3l6RDVlVFpILVlTX2RtWVRrQmc?oc=5",
-    "outlet": "EE Times Asia",
-    "publishedAt": "2026-11-02T02:54:17.000Z",
-    "firstSeenAt": "2026-11-03T11:00:37.354Z",
-    "reports": 1,
-    "outlets": [
-      "EE Times Asia"
-    ],
-    "members": [
-      "bd1c15265411f5"
-    ]
-  },
-  {
-    "id": "deepseek:72225bc5c322c2",
-    "lab": "deepseek",
-    "title": "DeepSeek open-sources dsh-superagent research prototype",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcFMxa1Q5RUs4eUlwcWV2bWdMNU1NR1gwbXpGUnFwZThweTRTU1VGQUZKTkh5Ukp1NnJPMG5FdkZCbXZSeDQwWXJvNmVON09JMzVvaUlDVTc4RjJpakxSdDF5aUJVSkdIbzBpajdyM0steEp6NUpDWmk3c0t3Zk5yXzd1V3o?oc=5",
-    "outlet": "TNGlobal",
-    "publishedAt": "2026-11-02T02:27:13.000Z",
-    "firstSeenAt": "2026-11-07T10:24:40.073Z",
-    "reports": 1,
-    "outlets": [
-      "TNGlobal"
-    ],
-    "members": [
-      "72225bc5c322c2"
-    ]
-  },
-  {
-    "id": "qwen:bed127533c85d7",
-    "lab": "qwen",
-    "title": "Qwen AI Glasses Add Call Translation and Media Translation in New OTA Update",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUlNWYmpjQkpsZWgtZVQ1OWozZ3RlalNWM21MYVoySnRiQ2dRaGRtRjFFSEZHbW0zaEs5V3R1Y29MdWFSU2lPMFlMYXVseVhkRFJkSUdJa2VfWXRtTnFQMzlWYm1WWWMwYkNyOExBTzRyNFp1VGo4R19WcXBaakx6RmU0NFYyVVBvdXVnc2ZFRVlPbXVVVHc?oc=5",
-    "outlet": "Pandaily",
-    "publishedAt": "2026-11-02T02:14:23.000Z",
-    "firstSeenAt": "2026-11-03T06:57:22.155Z",
-    "reports": 1,
-    "outlets": [
-      "Pandaily"
-    ],
-    "members": [
-      "bed127533c85d7"
-    ]
-  },
-  {
-    "id": "nvidia:20f8285f93f97b",
-    "lab": "nvidia",
-    "title": "NVIDIA to Hold ‘AI Day’ in Seoul, Share Agentic and Physical AI Use Cases",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DRjBNZ0d5X3JZSGJYNmRxUm9HSFg5YkY2QjhxQlJQRHBMQy1XVlJwSWJucjlCVGI5UU5kTTNrcjFFTHhHRWVIS2tzaWd3Z2M2VEFHWXV6clo?oc=5",
-    "outlet": "파이낸셜뉴스",
-    "publishedAt": "2026-11-02T02:05:00.000Z",
-    "firstSeenAt": "2026-11-05T01:30:16.249Z",
-    "reports": 1,
-    "outlets": [
-      "파이낸셜뉴스"
-    ],
-    "members": [
-      "20f8285f93f97b"
-    ]
-  },
-  {
-    "id": "cohere:34e33bb7c4bbe0",
-    "lab": "cohere",
-    "title": "Canada invests CAD1.6 billion in Cohere to build AI independence",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSGNjaGNiWE0teFZsQnc4U3Zjbm1jT2xfeUJzak5pekFnckxEUndNWXFvRmNWcU1lU3gzVFZwYUVMQkxzNWo4WG5MSW5QMVRDRC1tN3VxUE1FVmFFbVg0ck1NNGJLMkNiZmZYbFRoZWZleXlzWUI3b0x5aUt6MVJvRTN5TkFWUzU1c1RsT0FWVFJTU1VzbkZadzhB?oc=5",
-    "outlet": "digitimes",
-    "publishedAt": "2026-11-02T01:38:25.000Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z",
-    "reports": 1,
-    "outlets": [
-      "digitimes"
-    ],
-    "members": [
-      "34e33bb7c4bbe0"
-    ]
-  },
-  {
-    "id": "google-deepmind:6e5aca9a0420da",
-    "lab": "google-deepmind",
-    "title": "Google’s Gemini 4 Carbon Tops Artificial Analysis Rankings",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tU2x4blJGTkpRY1dSMlBrQlVmbm9ZN1ZYNmhSaklwN1EwRjVual9PZU1QRjJqQjI2SnR4cnV2Zy1KaE5qM2t6Zkg1NVZZcHE4Y1RBaTBKVm9RajI2eFNleFVYdTdKYlE?oc=5",
-    "outlet": "THE ELEC, Korea Electronics Industry Media",
-    "publishedAt": "2026-11-02T01:23:27.000Z",
-    "firstSeenAt": "2026-11-05T20:04:26.298Z",
-    "reports": 2,
-    "outlets": [
-      "THE ELEC, Korea Electronics Industry Media",
-      "Mezha.net"
-    ],
-    "members": [
-      "6e5aca9a0420da",
-      "37bffb095c25c7"
-    ]
-  },
-  {
-    "id": "google-deepmind:aedbbda9f8c62d",
-    "lab": "google-deepmind",
-    "title": "Google introduces Gemini 4 Carbon with early access for cybersecurity defenders",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR3ZvTFhOSFZhWVgtd0gzYmF2WG9LU3ZSUkthd1VxZlhGbnh0VTRac1RCcmc5dTRhcjRXTHdsbVRhamdDdWwybXA3bURwQk9TNVBIQTVtVjFmUWhRY1ZnZVpBRE51cEdsS2s3THlpeS1fNHJGLWp1TWlMQlJIY1RSVFBUVXVLVHdlMVRhVE84RVFWanJfYkxGdlRaa0Z5LWdFaEpOWWpvTlQyc1VCWndNUXNPN2dtU3E0RDhHTA?oc=5",
-    "outlet": "EdTech Innovation Hub",
-    "publishedAt": "2026-11-02T01:18:40.000Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z",
-    "reports": 1,
-    "outlets": [
-      "EdTech Innovation Hub"
-    ],
-    "members": [
-      "aedbbda9f8c62d"
-    ]
-  },
-  {
-    "id": "microsoft:2ab62ba1988a73",
-    "lab": "microsoft",
-    "title": "Microsoft AI CEO warns industry against trying to build conscious machines",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMkFOblJZVklZaGQ0NlRzWHdIS2lMaVpyel9CcUtId2NWeHZBaF9NSUdLU2J5MDgxRktYbmV2WXZvNWJjQnZVNndLbFQyNWxzdUlMQWxsaXFxdjhiazRHZGkyWHhSTy1RRGF6YjN3bVI5M09mdzdYU0hzWHdIRlRkZU1rOVZUaV9kOWh1eVJ0UGVkUQ?oc=5",
-    "outlet": "Yahoo Tech",
-    "publishedAt": "2026-11-02T00:57:00.000Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z",
-    "reports": 6,
-    "outlets": [
-      "Los Angeles Times",
-      "Yahoo Tech",
-      "KFBK",
-      "Jefferson City News Tribune",
-      "Channel 3000",
-      "The Spokesman-Review"
-    ],
-    "members": [
-      "2ab62ba1988a73",
-      "a4d03ffafc8b9e",
-      "7ff7f75fdd950f",
-      "449cb996a25d69",
-      "425d2463caf3f2",
-      "907f4b52913326"
-    ]
-  },
-  {
-    "id": "mistral:16890ceff2bf6b",
-    "lab": "mistral",
-    "title": "The week in telecom: Samsung rethinks phone range after Q3 loss; Mistral and Cohere mount AI challenge with telco backing",
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWHJuTS12TDJGem9nOEpmV251cE1GWTFoa1hJczFqdEh6TFVsSzNsYVp4RXNwNTU1bFJtYko1bWxPYks4ZGZ2LWZWNU9ta2w2dnBSZFRsTEtnd1djZW8wSjdJYnpkXzFCQVc3ejdYVFk0MWpUVVJYaml6M1pTUVY5c3B3a0xwZmRzWlFYSmdiQTVsTmY3VmtDNlVSMXV2OXZOcy1RNFFRRG40RUtKNzU4SmZfbUJrNDBlb3R1Q19CZHNPb2Q5QU11cmZQZ2VtbGw4dUhKV0M2VGtrZ3VUaHlNeERoN190QkVaeHFUeUQ4amU0OXBsZ0NKbktwU3Y?oc=5",
-    "outlet": "Telecompaper",
-    "publishedAt": "2026-11-02T00:41:34.000Z",
-    "firstSeenAt": "2026-11-05T20:04:26.298Z",
-    "reports": 1,
-    "outlets": [
-      "Telecompaper"
-    ],
-    "members": [
-      "16890ceff2bf6b"
-    ]
-  },
-  {
-    "id": "cohere:16890ceff2bf6b",
-    "lab": "cohere",
-    "title": "The week in telecom: Samsung rethinks phone range after Q3 loss; Mistral and Cohere mount AI challenge with telco backing",
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWHJuTS12TDJGem9nOEpmV251cE1GWTFoa1hJczFqdEh6TFVsSzNsYVp4RXNwNTU1bFJtYko1bWxPYks4ZGZ2LWZWNU9ta2w2dnBSZFRsTEtnd1djZW8wSjdJYnpkXzFCQVc3ejdYVFk0MWpUVVJYaml6M1pTUVY5c3B3a0xwZmRzWlFYSmdiQTVsTmY3VmtDNlVSMXV2OXZOcy1RNFFRRG40RUtKNzU4SmZfbUJrNDBlb3R1Q19CZHNPb2Q5QU11cmZQZ2VtbGw4dUhKV0M2VGtrZ3VUaHlNeERoN190QkVaeHFUeUQ4amU0OXBsZ0NKbktwU3Y?oc=5",
-    "outlet": "Telecompaper",
-    "publishedAt": "2026-11-02T00:41:34.000Z",
-    "firstSeenAt": "2026-11-06T11:05:12.287Z",
-    "reports": 1,
-    "outlets": [
-      "Telecompaper"
-    ],
-    "members": [
-      "16890ceff2bf6b"
-    ]
-  },
-  {
-    "id": "microsoft:497308623cf8ad",
-    "lab": "microsoft",
-    "title": "McGraw Hill to bring licensed education content into Microsoft Copilot through new AI plugin",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbk9oajdaSC1IdW82MWNQdWJSVkY1dkxkMFlaemZiR2ttWDFkSmtzSUo0RjA5NlhHUFdQXzJTUERLWk05MHVoVG9nYjR4NGI4Y3RWWGNyalBOc2ZZU2tuQ1diOS0tVnBoeTI3ekZPSXlPdHRPVUNac215dXFlX2Zwc2RVdU5IN3cxMlp6QzhnRHNnNS1CYnZVVXc3RkRKWDZCUHVNTlpiSXRxNk5VWFJOZWJzdEZpQ21QcTQzcE5rTmY3Wm03VEI5Nkx6T09jUQ?oc=5",
-    "outlet": "EdTech Innovation Hub",
-    "publishedAt": "2026-11-02T00:33:40.000Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z",
-    "reports": 1,
-    "outlets": [
-      "EdTech Innovation Hub"
-    ],
-    "members": [
-      "497308623cf8ad"
-    ]
-  },
-  {
-    "id": "tencent:53df1fbf995d0c",
-    "lab": "tencent",
-    "title": "Weekly Recap: Tencent (700) WeChat MAUs 1.439B and Hunyuan AI Hy4 models",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWng0ZnZjOC1INDlYR18zbVZLbm9PVmF3ZXFrVWpXanpaYTgzc3M5LUN5N0N5OUdUcDdlcVRDOHg0N3dfa1RPdndjNUNJTl91X25SN1EybjZrbXR2c0NTNW5kXzhHdG1RdDhpdVR3cjRDZmJxUFdTclpnMFFtUzhYcXlRS1FiZzY4Wmh4dVJkQkg1cDRlSVhiTFhuZVRZRXo5WXNaLUhDYjN4ZE1KbkRVbnpYNm40Tkc0TGRMZXUxVFNIREVxTTN5T2RhRQ?oc=5",
-    "outlet": "TradingView",
-    "publishedAt": "2026-11-01T23:00:00.000Z",
-    "firstSeenAt": "2026-11-02T00:02:39.418Z",
-    "reports": 1,
-    "outlets": [
-      "TradingView"
-    ],
-    "members": [
-      "53df1fbf995d0c"
-    ]
-  },
-  {
-    "id": "openai:173ed906cc0348",
-    "lab": "openai",
-    "title": "Parents of woman who died of seizure after ChatGPT misguidance sue OpenAI",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ1BpVmV2di1BOHI2NHZrV3RFTWY3LUw1NG5VVklTNVd5WTdPUmp5djEyNHNqNTkyVHpqMHhiR3FsT1BwbjdzZ3hxMXM4VmpCTDNYY2x2cGhrcmlac2lyZXZ1WG1hYi13Y3R3NkpwV0l1RmNEQU1PcEtvZ0dXa3NzM0xHd3Q0cVdZNXpINg?oc=5",
-    "outlet": "The Guardian",
-    "publishedAt": "2026-11-01T22:02:00.000Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z",
-    "reports": 1,
-    "outlets": [
-      "The Guardian"
-    ],
-    "members": [
-      "173ed906cc0348"
-    ]
-  },
-  {
-    "id": "openai:a993902dfb87f9",
-    "lab": "openai",
-    "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV0d0SlJKOGprSFF2OXRFN0lTM19NN1NQSjFnUFdERTdPWDU5V2NOeVdSV0tMbVJOWEI4djVYMm9XWmV6UlIyYU5ZcktjMDBxMF95RVIwRVkxV0dvMmtiblJFMU5sd1FiSVgtdXBaS0ZaeEpDYW45OV8ta29ycHRhWUxIQjkxREU0bEN4a1FtNjdNUHBSQ0tNbmYtbw?oc=5",
-    "outlet": "TechCrunch",
-    "publishedAt": "2026-11-01T21:55:23.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 2,
-    "outlets": [
-      "TechCrunch",
-      "Business Insider"
-    ],
-    "members": [
-      "a993902dfb87f9",
-      "fa6d7f723581a0"
-    ]
-  },
-  {
-    "id": "deepseek:2c6c3cabcf2392",
-    "lab": "deepseek",
-    "title": "DeepSeek developing AI agent requiring less human input: Report",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoazBUMDBOcjBDV3IxcEZ0TjdaenpMamU0aURwdEFCODBnOUNkc3VMUU5IdTh5QVVQWVlHWTlWS19YMzI3eEV6STlvTWY1Ykx4ZTVPODB3?oc=5",
-    "outlet": "Cryptonews.net",
-    "publishedAt": "2026-11-01T21:27:44.000Z",
-    "firstSeenAt": "2026-11-09T00:59:19.014Z",
-    "reports": 1,
-    "outlets": [
-      "Cryptonews.net"
-    ],
-    "members": [
-      "2c6c3cabcf2392"
-    ]
-  },
-  {
-    "id": "anthropic:06d7b2dc98b6f0",
-    "lab": "anthropic",
-    "title": "Anthropic Updates Claude To Stop It From Recreating Existing Video Games",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRWdaMk1uTzMzRnFaWXdrRVVBTWZHNGp0WDAxR010U0pxM0owYjNzeWd2dHRlLWdEOWZRRjh6YWhkWEtpYjg5cWt6SXBqSGtrU0VhUi1uZzY2eXZqVkpmT04wZXhjWHRBS1NDZDJhbTBrVTJLREoyREhfZXIycjhyUVNmOURIMmMxaXhSSXIyOWlwR0ctOW5oRzZjZEdTV3J0UW9CTUlhdW5UUQ?oc=5",
-    "outlet": "Engadget",
-    "publishedAt": "2026-11-01T21:08:32.000Z",
-    "firstSeenAt": "2026-11-05T20:04:26.298Z",
-    "reports": 2,
-    "outlets": [
-      "Engadget",
-      "GamesIndustry.biz"
-    ],
-    "members": [
-      "06d7b2dc98b6f0",
-      "23fae68295a19e"
-    ]
-  },
-  {
-    "id": "meta:f5a47dd373652a",
-    "lab": "meta",
-    "title": "Meta's AI Assistant Muse Challenges Amazon's Advertising Model (AMZN)",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeWRYTFcxR3poUXFueVNoVXpkZWVwWEVnWnJ0UE9LaUpJX0dYR2RmSmcxRjY1X0FOc3FyRzNoYjF1eUVOQm9GeDNwMFhuYUQtXzVwYTdIUzdnUU9LUnd6ejh4SjQ1QWI4c0hmZENRZ0I0eEFsWGdzc3RUNDhyc1hQMEdNZXVHUVIydUlBUE10a0VmSTFHS1ZlOHNKS3lmTWw4VVZ0SEhKYw?oc=5",
-    "outlet": "GuruFocus",
-    "publishedAt": "2026-11-01T20:21:43.000Z",
-    "firstSeenAt": "2026-11-02T19:34:59.949Z",
-    "reports": 1,
-    "outlets": [
-      "GuruFocus"
-    ],
-    "members": [
-      "f5a47dd373652a"
-    ]
-  },
-  {
-    "id": "cohere:9ad67e16fb2158",
-    "lab": "cohere",
-    "title": "Canadian taxpayers now own a part of Cohere AI, what that means for digital sovereignty",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTGViUlZZMDhkcl9kbjRUV0J2MUlUQkxwYmlKZ21JNWZnVkZYcXpIU3NSWTdheE1xcVhFZ2VNU2V0cS1RSmpsTDdtSUwyYUlBTmVUc1EyaVpnRDZsMTNQMHJqLXJOaEZiUGJxcjhQVng0ZHNLYkxsVlAzWG9Ed3djR2lSdnY1Wk9sVXlxUVZmZEs3MXE2T0VFZ3R0ckdVeXhZWC1NdnFMV2ZjSC11TGx0enhsajMwaFRRNFpRSEFQbVo4V0V3ZUE?oc=5",
-    "outlet": "CTV News",
-    "publishedAt": "2026-11-01T19:53:14.000Z",
-    "firstSeenAt": "2026-11-01T22:10:15.829Z",
-    "reports": 1,
-    "outlets": [
-      "CTV News"
-    ],
-    "members": [
-      "9ad67e16fb2158"
-    ]
-  },
-  {
-    "id": "microsoft:221e19315b10ce",
-    "lab": "microsoft",
-    "title": "Microsoft AI chief says AI is not conscious and we should keep it that way",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV1ZmRWdLNVRnWVZxX0w4dXVwU2ZfajVlN0hFOTBiNjNJQ0ZjbUlMSjlvWkw0MVBzeHhmV21mRTV1SExTcUdzOS1NSTB6UzFkSmo4eUNCMzFiWUUxVU5DekZXbDFlaEM5eXNFTHY1LWZ2SXRTYW1CQ1NqWkxMUnctSTFCbHg0d0xTbFFv?oc=5",
-    "outlet": "Business Insider",
-    "publishedAt": "2026-11-01T19:45:00.000Z",
-    "firstSeenAt": "2026-11-01T22:10:15.829Z",
-    "reports": 1,
-    "outlets": [
-      "Business Insider"
-    ],
-    "members": [
-      "221e19315b10ce"
-    ]
-  },
-  {
-    "id": "google-deepmind:217ff488b9e854",
-    "lab": "google-deepmind",
-    "title": "Gemini 4 Argon vs Claude Opus 5.5: Coding Scores [2026]",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbW53Mm9RRGhXZE96M1BneERtVXRPaHpHdEhBSTdVVGJ4V1F4cS1RQ0xFODkyd2V1U3ZKYnA4V3J0Z2JvRnQxdEQ4N1ZfaXVwMHE3MUU3bTFqMkxQamYwQnhJSExjQlk5a0Q5WHYtRktVSWJtY1RjQWpPUXVhN09jQU5IRFJrbzAyRHVXQ0Z6MVRkdw?oc=5",
-    "outlet": "shattered.io",
-    "publishedAt": "2026-11-01T19:36:59.000Z",
-    "firstSeenAt": "2026-11-02T06:21:53.387Z",
-    "reports": 1,
-    "outlets": [
-      "shattered.io"
-    ],
-    "members": [
-      "217ff488b9e854",
-      "6c2f65834adaa3"
-    ]
-  },
-  {
-    "id": "deepseek:cff93c9b623c27",
-    "lab": "deepseek",
-    "title": "China’s DeepSeek's new architecture can operate with less human supervision",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ2hBcDMwSnF1RzlhRDhLUFBpcDktOXY2cnFLbFdrWFFvVDBSdUdHQlAtRU00czB2SUwxdUoycUFqWlVXSnVsVlVKY2lIMmxTYXd3OXdORjFhckh1VkMzWlN3WEVYQkJveDZ3NlNOTVVtcFh5NUVMUjFCbG5Hc2FOdmVrNldCNExFT2dpOGZSRlU0TFU?oc=5",
-    "outlet": "Interesting Engineering",
-    "publishedAt": "2026-11-01T18:40:00.000Z",
-    "firstSeenAt": "2026-11-03T06:57:22.155Z",
-    "reports": 1,
-    "outlets": [
-      "Interesting Engineering"
-    ],
-    "members": [
-      "cff93c9b623c27"
     ]
   }
 ]
