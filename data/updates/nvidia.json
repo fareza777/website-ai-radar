@@ -545,7 +545,7 @@
     "importance": 84,
     "contentHash": "f07de344f3a8",
     "meta": {
-      "likes": 246,
+      "likes": 262,
       "downloads": 1584,
       "repo": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
       "pipeline": "text-generation",
@@ -2474,7 +2474,7 @@
     "importance": 63,
     "contentHash": "6c39ac2571f4",
     "meta": {
-      "likes": 40,
+      "likes": 42,
       "downloads": 13958,
       "repo": "nvidia/Kimodo-SOMA-RP-v1.2",
       "license": "other"
@@ -2675,7 +2675,7 @@
     "importance": 75,
     "contentHash": "1bc2fd3b97e9",
     "meta": {
-      "likes": 2422,
+      "likes": 2424,
       "downloads": 94454,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "pipeline": "automatic-speech-recognition",
@@ -2753,7 +2753,7 @@
     "importance": 69,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 214,
+      "likes": 215,
       "downloads": 53092,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -2897,7 +2897,7 @@
     "importance": 64,
     "contentHash": "806c45ea6874",
     "meta": {
-      "likes": 50,
+      "likes": 51,
       "downloads": 38732,
       "repo": "nvidia/RFD4-Proteina",
       "license": "bsd-3-clause"
@@ -2926,6 +2926,37 @@
     "contentHash": "a1097c1da511"
   },
   {
+    "id": "3400be01f76f442b",
+    "lab": "nvidia",
+    "title": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-10-05T04:42:02.000Z",
+    "firstSeenAt": "2026-11-23T01:49:31.439Z",
+    "updatedAt": "2026-10-05T04:42:02.000Z",
+    "excerpt": "text-generation · license: other",
+    "summary": "NVIDIA published the NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash model on Hugging Face for text generation (LLM). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "4B"
+    ],
+    "importance": 61,
+    "contentHash": "08d671b3f14a",
+    "meta": {
+      "likes": 25,
+      "downloads": 10525,
+      "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash",
+      "pipeline": "text-generation",
+      "license": "other"
+    }
+  },
+  {
     "id": "13c0f423c09dd3f2",
     "lab": "nvidia",
     "title": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
@@ -2949,7 +2980,7 @@
     "importance": 73,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 711,
+      "likes": 729,
       "downloads": 203420,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -3505,7 +3536,7 @@
     "importance": 63,
     "contentHash": "c430fa5ee123",
     "meta": {
-      "likes": 39,
+      "likes": 40,
       "downloads": 548,
       "repo": "nvidia/strata",
       "license": "openmdw-1.1"

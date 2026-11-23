@@ -1,5 +1,36 @@
 [
   {
+    "id": "d598f119a1121956",
+    "lab": "tencent",
+    "title": "Hy4-base",
+    "url": "https://huggingface.co/tencent/Hy4-base",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T07:01:12.000Z",
+    "firstSeenAt": "2026-11-23T01:49:31.439Z",
+    "updatedAt": "2026-11-18T07:01:12.000Z",
+    "excerpt": "image-text-to-text · license: other",
+    "summary": "Tencent published the Hy4-base model on Hugging Face for multimodal (image + text). License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 58,
+    "contentHash": "536afc8181af",
+    "meta": {
+      "likes": 10,
+      "downloads": 609,
+      "repo": "tencent/Hy4-base",
+      "pipeline": "image-text-to-text",
+      "license": "other"
+    }
+  },
+  {
     "id": "046aab610c1ef041",
     "lab": "tencent",
     "title": "WeMM-Video-2B",
@@ -24,7 +55,7 @@
     "importance": 60,
     "contentHash": "0fc23db76794",
     "meta": {
-      "likes": 15,
+      "likes": 16,
       "downloads": 497,
       "repo": "tencent/WeMM-Video-2B",
       "pipeline": "video-text-to-text",
@@ -56,7 +87,7 @@
     "importance": 59,
     "contentHash": "93eea8e2dba5",
     "meta": {
-      "likes": 12,
+      "likes": 14,
       "downloads": 398,
       "repo": "tencent/WeMM-Video-9B",
       "pipeline": "video-text-to-text",
@@ -88,7 +119,7 @@
     "importance": 62,
     "contentHash": "62f4debc2f30",
     "meta": {
-      "likes": 28,
+      "likes": 29,
       "downloads": 359,
       "repo": "tencent/WeMM-Video-35BA3B",
       "pipeline": "video-text-to-text",
@@ -119,7 +150,7 @@
     "importance": 61,
     "contentHash": "431d7a816878",
     "meta": {
-      "likes": 25,
+      "likes": 26,
       "downloads": 922,
       "repo": "tencent/Hy4-flash-base",
       "pipeline": "image-text-to-text",
@@ -150,7 +181,7 @@
     "importance": 72,
     "contentHash": "0c5e110eebf3",
     "meta": {
-      "likes": 598,
+      "likes": 621,
       "downloads": 6617,
       "repo": "tencent/Hy4-flash",
       "pipeline": "image-text-to-text",
@@ -217,7 +248,7 @@
     "importance": 40,
     "contentHash": "dfa8335339e5",
     "meta": {
-      "stars": 268,
+      "stars": 281,
       "repo": "Tencent-Hunyuan/MovieRoll",
       "language": "Python"
     }
@@ -246,7 +277,7 @@
     "importance": 85,
     "contentHash": "4d0a858273b2",
     "meta": {
-      "likes": 279,
+      "likes": 280,
       "downloads": 7575,
       "repo": "tencent/Qwen3.8-27B-DSpine-b16",
       "pipeline": "text-generation",
@@ -479,7 +510,7 @@
     "importance": 67,
     "contentHash": "8a1d2c0f7679",
     "meta": {
-      "likes": 131,
+      "likes": 132,
       "downloads": 36254,
       "repo": "tencent/WeVisOne-VL-4B",
       "pipeline": "image-text-to-text",
@@ -511,7 +542,7 @@
     "importance": 66,
     "contentHash": "ee6717133fbc",
     "meta": {
-      "likes": 89,
+      "likes": 90,
       "downloads": 18484,
       "repo": "tencent/WeVisOne-VL-2B",
       "pipeline": "image-text-to-text",
@@ -723,7 +754,7 @@
     "importance": 70,
     "contentHash": "d780f7f18b0b",
     "meta": {
-      "likes": 327,
+      "likes": 328,
       "downloads": 4992,
       "repo": "tencent/Hy-Memory-30B-A3B",
       "pipeline": "text-generation",
@@ -1164,7 +1195,7 @@
     "importance": 72,
     "contentHash": "b47e25917303",
     "meta": {
-      "likes": 566,
+      "likes": 571,
       "downloads": 10731,
       "repo": "tencent/Hy4-preview",
       "pipeline": "text-generation",

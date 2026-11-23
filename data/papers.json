@@ -142,7 +142,7 @@
     "summary": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while reinforcement learning…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 42,
     "org": "tsinghua",
     "githubRepo": "https://github.com/lijinzhao30/ALIVE",
     "firstSeenAt": "2026-11-20T20:29:58.968Z"
@@ -179,7 +179,7 @@
     "summary": "Reinforcement learning from terminal answer rewards enables search-augmented language models to interleave reasoning and retrieval without step-level annotations, yet outcome supervision assigns identical credit to every search in a trajectory regardless of whether it retrieved useful information. This limitation is especially severe when all sampled rollouts for a question fail, collapsing group-centered outcome…",
     "publishedAt": "2026-11-18T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 7,
+    "upvotes": 8,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-11-19T11:51:28.824Z"
@@ -286,7 +286,7 @@
     "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 98,
+    "upvotes": 99,
     "org": "internlm",
     "githubRepo": "https://github.com/InternLM/Sage-S2.1-Flash",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
@@ -298,7 +298,7 @@
     "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-17T00:00:00.000Z",
-    "upvotes": 89,
+    "upvotes": 90,
     "org": "ifm",
     "firstSeenAt": "2026-11-17T16:12:10.860Z"
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T19:49:07.211Z",
+  "generatedAt": "2026-11-23T01:49:31.439Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -21,6 +21,7 @@
         "Vals AI",
         "Unite.AI",
         "Dataconomy",
+        "CASRAI",
         "Android Authority",
         "Interesting Engineering",
         "The New Stack",
@@ -66,28 +67,6 @@
         "id": "549a77347d5e1e5f"
       },
       "importance": 97
-    },
-    {
-      "id": "134ab56ca337ce36",
-      "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
-      "entity": "Grok 4.7",
-      "labs": [
-        "xai",
-        "amazon"
-      ],
-      "official": 1,
-      "press": 1,
-      "outlets": [
-        "Crypto Briefing"
-      ],
-      "firstAt": "2026-11-12T23:06:47.000Z",
-      "lastAt": "2026-11-13T13:13:00.000Z",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us",
-      "lead": {
-        "kind": "official",
-        "id": "134ab56ca337ce36"
-      },
-      "importance": 87
     },
     {
       "id": "8f2daa11c5051ada",
@@ -161,20 +140,49 @@
       "importance": 70
     },
     {
-      "id": "google-deepmind:98f0f44c9e0ded",
-      "title": "Google Makes Gemini 4 Hydrogen The Default Model In AI Mode",
+      "id": "cohere:f0a80121c5529f",
+      "title": "HCLTech And Cohere Partner To Build And Deliver Sovereign AI",
+      "entity": null,
+      "labs": [
+        "cohere"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "ET Enterprise AI",
+        "https://www.indiagazette.com/",
+        "PR Newswire",
+        "TradingView",
+        "Telugu Times",
+        "ET CIO",
+        "CXOToday.com",
+        "ANI News",
+        "scanx.trade",
+        "Asianet Newsable",
+        "boerse.de",
+        "Passionate In Marketing",
+        "varindia",
+        "Elets CIO"
+      ],
+      "firstAt": "2026-11-17T11:26:17.000Z",
+      "lastAt": "2026-11-22T07:04:27.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ0o3WVBVdUZpWW1pMHN1WmxpcEVkM1Z5RTRnYU1xclRTNk02cElLeFJVYlFaRmNIRjZKQVNZYXVPWWJ3OWR2YVJOMkcxYXJaODFBQThiWFVzZTI1UHBoZjZ4UTgyMFBPdjlNeWhRWFpVU2tXVmM3V3RfMDI5MUxDZE1pbWJEVWw3eEMtNU9yZmNva09nYVZzdzFOdnhnelExSjlITmRva1MzYzdOWm9yMEdwM2R0UE5lZG9kWElFUmlyd3RpZVlCWU5B?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "cohere:f0a80121c5529f"
+      },
+      "importance": 64
+    },
+    {
+      "id": "google-deepmind:5fc7df8a4d7720",
+      "title": "Gemini 4 Hydrogen: $1.50 Input, 2.5x Faster [2026]",
       "entity": "Gemini 4 Hydrogen",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 18,
+      "press": 14,
       "outlets": [
-        "The Decoder",
-        "Search Engine Journal",
-        "Mashable",
-        "VentureBeat",
-        "SiliconANGLE",
         "shattered.io",
         "www.trendingtopics.eu",
         "Small Business Trends",
@@ -188,47 +196,41 @@
         "UC Today",
         "Google for Developers Blog"
       ],
-      "firstAt": "2026-11-12T20:03:46.000Z",
+      "firstAt": "2026-11-13T05:14:34.000Z",
       "lastAt": "2026-11-17T17:43:25.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUZhYVRaYmRkWlY1UkJWV1pZV3phamYtSHpTY0pkT1JmNDRUc3RhanpPbEt6ZTJlZ29Zc3YzQXJRckhJWVNBX0xOYl9BeW9IYW1PTzR6Z0ozaHFiRUNYWTVnVVdXRzRXQmR1RU13Q0NwWC1YeDZGdXM1SjlJZkk3dEViZlhZeUVKenBmWA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWXpxaGNSZllaTnJmMHdXMlhLcEpsWE5KdnJnMlBveDdYQlhhSGZ5ZVA1bERWQnlCRndUbzNyRV9VaU9oMEhYSFN3M3E3SXlpSUgtNWwxd05tejMxOFMyM2tzQmdIbXNiNzNwSUNqc01YUUkxTEcwckRnS1R0TkZzcmZTM0gtRno1a0I4cQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:98f0f44c9e0ded"
-      },
-      "importance": 65
-    },
-    {
-      "id": "cohere:07f58f572cc9a4",
-      "title": "HCLTech And Cohere Partner To Build And Deliver Sovereign AI",
-      "entity": null,
-      "labs": [
-        "cohere"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "TradingView",
-        "CXOToday.com",
-        "ANI News",
-        "scanx.trade",
-        "Asianet Newsable",
-        "https://www.indiagazette.com/",
-        "boerse.de",
-        "Passionate In Marketing",
-        "varindia",
-        "Telugu Times",
-        "PR Newswire",
-        "ET CIO",
-        "Elets CIO"
-      ],
-      "firstAt": "2026-11-17T11:26:17.000Z",
-      "lastAt": "2026-11-22T07:04:27.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ0o3WVBVdUZpWW1pMHN1WmxpcEVkM1Z5RTRnYU1xclRTNk02cElLeFJVYlFaRmNIRjZKQVNZYXVPWWJ3OWR2YVJOMkcxYXJaODFBQThiWFVzZTI1UHBoZjZ4UTgyMFBPdjlNeWhRWFpVU2tXVmM3V3RfMDI5MUxDZE1pbWJEVWw3eEMtNU9yZmNva09nYVZzdzFOdnhnelExSjlITmRva1MzYzdOWm9yMEdwM2R0UE5lZG9kWElFUmlyd3RpZVlCWU5B?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:07f58f572cc9a4"
+        "id": "google-deepmind:5fc7df8a4d7720"
       },
       "importance": 63
+    },
+    {
+      "id": "tencent:01e9e109b63045",
+      "title": "Artificial Analysis v5 Index: Tencent Hunyuan Hy4 Scores 35, Outperforming DeepSeek V4.1 Flash 1017",
+      "entity": "DeepSeek 4.1 Flash",
+      "labs": [
+        "tencent",
+        "deepseek"
+      ],
+      "official": 0,
+      "press": 7,
+      "outlets": [
+        "KuCoin",
+        "Tom's Hardware",
+        "GlobeNewswire",
+        "Carroll County Mirror-Democrat",
+        "LMSYS Org",
+        "Mezha.net"
+      ],
+      "firstAt": "2026-11-13T08:24:30.000Z",
+      "lastAt": "2026-11-20T12:40:22.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR1pvMzVTSG1nSk1FR2NxcFp6cGZ0WEl5TExpNEFOT09RZUFHVTYweEJXRmZ3NVFCOWtwZGR6OWstM1FhWmJnWFdDX2FTRTVaUU9xbHVHY08xdWV2VWZ6MEV0bE5oQW13eHh3enpjMnU5b0JWM0ZZaVVRN2pzaXpuVlpqUmtLMTZkVmNCQU12WERlTDFHRFpIQUl6cW9aZGFFdGpILU1fVU5ya3NaUVVBTy04NTZ3UG1aMjVEb0ZpWXFWLUpRTGJERA?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "tencent:01e9e109b63045"
+      },
+      "importance": 59
     },
     {
       "id": "google-deepmind:695503e690d44d",
@@ -253,32 +255,6 @@
       "lead": {
         "kind": "press",
         "id": "google-deepmind:695503e690d44d"
-      },
-      "importance": 58
-    },
-    {
-      "id": "tencent:01e9e109b63045",
-      "title": "Artificial Analysis v5 Index: Tencent Hunyuan Hy4 Scores 35, Outperforming DeepSeek V4.1 Flash 1017",
-      "entity": "DeepSeek 4.1 Flash",
-      "labs": [
-        "tencent",
-        "deepseek"
-      ],
-      "official": 0,
-      "press": 6,
-      "outlets": [
-        "KuCoin",
-        "Tom's Hardware",
-        "Carroll County Mirror-Democrat",
-        "LMSYS Org",
-        "Mezha.net"
-      ],
-      "firstAt": "2026-11-13T08:24:30.000Z",
-      "lastAt": "2026-11-20T12:40:22.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR1pvMzVTSG1nSk1FR2NxcFp6cGZ0WEl5TExpNEFOT09RZUFHVTYweEJXRmZ3NVFCOWtwZGR6OWstM1FhWmJnWFdDX2FTRTVaUU9xbHVHY08xdWV2VWZ6MEV0bE5oQW13eHh3enpjMnU5b0JWM0ZZaVVRN2pzaXpuVlpqUmtLMTZkVmNCQU12WERlTDFHRFpIQUl6cW9aZGFFdGpILU1fVU5ya3NaUVVBTy04NTZ3UG1aMjVEb0ZpWXFWLUpRTGJERA?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "tencent:01e9e109b63045"
       },
       "importance": 58
     },
@@ -347,7 +323,7 @@
       },
       {
         "name": "DeepSeek 4.1 Flash",
-        "count": 9,
+        "count": 10,
         "prev": 4,
         "labs": [
           "amazon"
@@ -377,14 +353,6 @@
         "labs": []
       },
       {
-        "name": "Gemini 4 Carbon",
-        "count": 4,
-        "prev": 27,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "Qwen 4",
         "count": 3,
         "prev": 1,
@@ -409,17 +377,25 @@
         "labs": [
           "anthropic"
         ]
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "count": 3,
+        "prev": 28,
+        "labs": [
+          "google-deepmind"
+        ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 73,
-        "prev": 62,
+        "count": 70,
+        "prev": 64,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "meta",
           "cohere",
           "qwen",
@@ -431,12 +407,12 @@
       },
       {
         "name": "coding",
-        "count": 40,
-        "prev": 51,
+        "count": 39,
+        "prev": 50,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
           "cohere",
           "qwen",
@@ -449,11 +425,11 @@
       {
         "name": "multimodal",
         "count": 19,
-        "prev": 10,
+        "prev": 11,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "cohere",
           "tencent",
           "amazon",
@@ -475,8 +451,8 @@
       },
       {
         "name": "rag",
-        "count": 9,
-        "prev": 2,
+        "count": 8,
+        "prev": 3,
         "labs": [
           "google-deepmind",
           "cohere",
@@ -486,11 +462,11 @@
       {
         "name": "safety",
         "count": 7,
-        "prev": 21,
+        "prev": 20,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "cohere",
           "amazon",
           "ibm",
@@ -500,11 +476,10 @@
       {
         "name": "audio",
         "count": 7,
-        "prev": 4,
+        "prev": 3,
         "labs": [
-          "anthropic",
-          "openai",
           "google-deepmind",
+          "openai",
           "amazon"
         ]
       },
@@ -513,8 +488,8 @@
         "count": 6,
         "prev": 7,
         "labs": [
-          "openai",
           "google-deepmind",
+          "openai",
           "mistral",
           "qwen",
           "microsoft",
