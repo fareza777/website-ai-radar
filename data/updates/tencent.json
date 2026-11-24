@@ -1,5 +1,37 @@
 [
   {
+    "id": "7fcff7a964fbfee2",
+    "lab": "tencent",
+    "title": "WeMM-Ecom-35B-A3B",
+    "url": "https://huggingface.co/tencent/WeMM-Ecom-35B-A3B",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-18T09:54:14.000Z",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z",
+    "updatedAt": "2026-11-18T09:54:14.000Z",
+    "excerpt": "image-text-to-text · license: apache-2.0",
+    "summary": "Tencent published the WeMM-Ecom-35B-A3B model on Hugging Face for multimodal (image + text). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "35B-A3B",
+      "multimodal"
+    ],
+    "importance": 60,
+    "contentHash": "f1eaa703fece",
+    "meta": {
+      "likes": 17,
+      "downloads": 490,
+      "repo": "tencent/WeMM-Ecom-35B-A3B",
+      "pipeline": "image-text-to-text",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "d598f119a1121956",
     "lab": "tencent",
     "title": "Hy4-base",
@@ -24,7 +56,7 @@
     "contentHash": "536afc8181af",
     "meta": {
       "likes": 12,
-      "downloads": 726,
+      "downloads": 873,
       "repo": "tencent/Hy4-base",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -52,11 +84,11 @@
       "2B",
       "multimodal"
     ],
-    "importance": 60,
+    "importance": 61,
     "contentHash": "0fc23db76794",
     "meta": {
-      "likes": 19,
-      "downloads": 754,
+      "likes": 21,
+      "downloads": 952,
       "repo": "tencent/WeMM-Video-2B",
       "pipeline": "video-text-to-text",
       "license": "apache-2.0"
@@ -88,7 +120,7 @@
     "contentHash": "93eea8e2dba5",
     "meta": {
       "likes": 16,
-      "downloads": 620,
+      "downloads": 740,
       "repo": "tencent/WeMM-Video-9B",
       "pipeline": "video-text-to-text",
       "license": "apache-2.0"
@@ -120,9 +152,41 @@
     "contentHash": "62f4debc2f30",
     "meta": {
       "likes": 50,
-      "downloads": 490,
+      "downloads": 663,
       "repo": "tencent/WeMM-Video-35BA3B",
       "pipeline": "video-text-to-text",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "509b5e30148d529d",
+    "lab": "tencent",
+    "title": "WePocketModel1.0-4B",
+    "url": "https://huggingface.co/tencent/WePocketModel1.0-4B",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T06:22:47.000Z",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z",
+    "updatedAt": "2026-11-17T06:22:47.000Z",
+    "excerpt": "image-text-to-text · license: apache-2.0",
+    "summary": "Tencent published the WePocketModel1.0-4B model on Hugging Face for multimodal (image + text). License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "4B",
+      "multimodal"
+    ],
+    "importance": 58,
+    "contentHash": "718249a08493",
+    "meta": {
+      "likes": 10,
+      "downloads": 280,
+      "repo": "tencent/WePocketModel1.0-4B",
+      "pipeline": "image-text-to-text",
       "license": "apache-2.0"
     }
   },
@@ -151,7 +215,7 @@
     "contentHash": "431d7a816878",
     "meta": {
       "likes": 25,
-      "downloads": 1011,
+      "downloads": 1168,
       "repo": "tencent/Hy4-flash-base",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -181,8 +245,8 @@
     "importance": 73,
     "contentHash": "0c5e110eebf3",
     "meta": {
-      "likes": 649,
-      "downloads": 7696,
+      "likes": 666,
+      "downloads": 9167,
       "repo": "tencent/Hy4-flash",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -194,6 +258,99 @@
         "url": "https://github.com/Tencent-Hunyuan/Hy4-flash"
       }
     ]
+  },
+  {
+    "id": "d0d3dc8657e3684e",
+    "lab": "tencent",
+    "title": "Hy-MT3-1.8B",
+    "url": "https://huggingface.co/tencent/Hy-MT3-1.8B",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T02:09:21.000Z",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z",
+    "updatedAt": "2026-11-17T02:09:21.000Z",
+    "excerpt": "translation · license: apache-2.0",
+    "summary": "Tencent published the Hy-MT3-1.8B model on Hugging Face for translation. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "1.8B"
+    ],
+    "importance": 59,
+    "contentHash": "ecc4032f6b6f",
+    "meta": {
+      "likes": 11,
+      "downloads": 4,
+      "repo": "tencent/Hy-MT3-1.8B",
+      "pipeline": "translation",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "714a0138d3848897",
+    "lab": "tencent",
+    "title": "Hy-MT3-7B",
+    "url": "https://huggingface.co/tencent/Hy-MT3-7B",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T02:08:31.000Z",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z",
+    "updatedAt": "2026-11-17T02:08:31.000Z",
+    "excerpt": "translation · license: apache-2.0",
+    "summary": "Tencent published the Hy-MT3-7B model on Hugging Face for translation. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "7B"
+    ],
+    "importance": 58,
+    "contentHash": "549578f9e47d",
+    "meta": {
+      "likes": 10,
+      "downloads": 4,
+      "repo": "tencent/Hy-MT3-7B",
+      "pipeline": "translation",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "0d2b7e5680b70ddb",
+    "lab": "tencent",
+    "title": "Hy-MT3-30B-A3B",
+    "url": "https://huggingface.co/tencent/Hy-MT3-30B-A3B",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T02:07:23.000Z",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z",
+    "updatedAt": "2026-11-17T02:07:23.000Z",
+    "excerpt": "translation · license: apache-2.0",
+    "summary": "Tencent published the Hy-MT3-30B-A3B model on Hugging Face for translation. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "30B-A3B"
+    ],
+    "importance": 59,
+    "contentHash": "ea0c79d82629",
+    "meta": {
+      "likes": 11,
+      "downloads": 8,
+      "repo": "tencent/Hy-MT3-30B-A3B",
+      "pipeline": "translation",
+      "license": "apache-2.0"
+    }
   },
   {
     "id": "4bd51b63d53800e2",
@@ -220,10 +377,37 @@
     "contentHash": "3b8d5db3c6c3",
     "meta": {
       "likes": 22,
-      "downloads": 70,
+      "downloads": 90,
       "repo": "tencent/WeVisForensics",
       "pipeline": "video-text-to-text",
       "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "f084a4072cbc0893",
+    "lab": "tencent",
+    "title": "Hy-MT3",
+    "url": "https://github.com/Tencent-Hunyuan/Hy-MT3",
+    "sourceId": "hunyuan-gh",
+    "sourceName": "GitHub · Tencent-Hunyuan (new repos)",
+    "sourceType": "github-new-repos",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-13T08:17:25.000Z",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z",
+    "updatedAt": "2026-11-13T08:17:25.000Z",
+    "excerpt": "",
+    "summary": "Tencent created a new public repository: Hy-MT3.",
+    "benefit": "A new open-source project from this lab that you can study or use right away.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 33,
+    "contentHash": "8894e7b099da",
+    "meta": {
+      "stars": 25,
+      "repo": "Tencent-Hunyuan/Hy-MT3",
+      "language": "Python"
     }
   },
   {
@@ -245,10 +429,10 @@
     "summarySource": "template",
     "category": "developer",
     "tags": [],
-    "importance": 28,
+    "importance": 29,
     "contentHash": "27de0edf3c5e",
     "meta": {
-      "stars": 2,
+      "stars": 3,
       "repo": "Tencent-Hunyuan/Refrain",
       "language": "Python"
     }
@@ -275,7 +459,7 @@
     "importance": 40,
     "contentHash": "dfa8335339e5",
     "meta": {
-      "stars": 325,
+      "stars": 344,
       "repo": "Tencent-Hunyuan/MovieRoll",
       "language": "Python"
     }
@@ -305,7 +489,7 @@
     "contentHash": "4d0a858273b2",
     "meta": {
       "likes": 280,
-      "downloads": 7783,
+      "downloads": 7938,
       "repo": "tencent/Qwen3.8-27B-DSpine-b16",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -357,10 +541,10 @@
     "summarySource": "template",
     "category": "developer",
     "tags": [],
-    "importance": 27,
+    "importance": 28,
     "contentHash": "bb62afa42ffa",
     "meta": {
-      "stars": 1,
+      "stars": 2,
       "repo": "Tencent-Hunyuan/ORAV-Bench",
       "language": "Python"
     }
@@ -507,7 +691,7 @@
     "contentHash": "da2d675df551",
     "meta": {
       "likes": 13,
-      "downloads": 153,
+      "downloads": 138,
       "repo": "tencent/Hy-Nomas-Diffusers",
       "license": "apache-2.0"
     }
@@ -538,7 +722,7 @@
     "contentHash": "8a1d2c0f7679",
     "meta": {
       "likes": 133,
-      "downloads": 35960,
+      "downloads": 34973,
       "repo": "tencent/WeVisOne-VL-4B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -569,8 +753,8 @@
     "importance": 66,
     "contentHash": "ee6717133fbc",
     "meta": {
-      "likes": 91,
-      "downloads": 18453,
+      "likes": 92,
+      "downloads": 17627,
       "repo": "tencent/WeVisOne-VL-2B",
       "pipeline": "image-text-to-text",
       "license": "apache-2.0"
@@ -601,7 +785,7 @@
     "contentHash": "1383bbe2659d",
     "meta": {
       "likes": 16,
-      "downloads": 801,
+      "downloads": 813,
       "repo": "tencent/Hy-SimulMT-30B-A3B-Interleave",
       "pipeline": "translation",
       "license": "apache-2.0"
@@ -632,7 +816,7 @@
     "contentHash": "1f93e6955462",
     "meta": {
       "likes": 51,
-      "downloads": 1300,
+      "downloads": 1336,
       "repo": "tencent/Hy-SimulMT-30B-A3B",
       "pipeline": "translation",
       "license": "apache-2.0"
@@ -688,7 +872,7 @@
     "contentHash": "6e6b860ed408",
     "meta": {
       "likes": 156,
-      "downloads": 88589,
+      "downloads": 86170,
       "repo": "tencent/Hy-Nomas",
       "license": "apache-2.0"
     },
@@ -725,7 +909,7 @@
     "contentHash": "b80a8b33297c",
     "meta": {
       "likes": 33,
-      "downloads": 1124,
+      "downloads": 1150,
       "repo": "tencent/Qwen3-8B-DSpine-b16",
       "license": "apache-2.0"
     }
@@ -782,7 +966,7 @@
     "contentHash": "d780f7f18b0b",
     "meta": {
       "likes": 328,
-      "downloads": 4829,
+      "downloads": 4783,
       "repo": "tencent/Hy-Memory-30B-A3B",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -900,7 +1084,7 @@
     "contentHash": "17ed023e66bd",
     "meta": {
       "likes": 135,
-      "downloads": 2364,
+      "downloads": 2444,
       "repo": "tencent/Youtu-Parsing-Omni",
       "pipeline": "image-text-to-text",
       "license": "other"
@@ -988,7 +1172,7 @@
     "contentHash": "c86c9e33d02c",
     "meta": {
       "likes": 52,
-      "downloads": 10811,
+      "downloads": 10424,
       "repo": "tencent/WeVisDoc-4B",
       "license": "apache-2.0"
     }
@@ -1018,7 +1202,7 @@
     "contentHash": "2dd0738488f5",
     "meta": {
       "likes": 31,
-      "downloads": 8019,
+      "downloads": 7737,
       "repo": "tencent/WeVisDoc-2B",
       "license": "apache-2.0"
     }
@@ -1103,7 +1287,7 @@
     "contentHash": "4221f3f97b3d",
     "meta": {
       "likes": 32,
-      "downloads": 16792,
+      "downloads": 16813,
       "repo": "tencent/WeVisCut",
       "pipeline": "any-to-any",
       "license": "other"
@@ -1162,7 +1346,7 @@
     "contentHash": "e57ae848d21c",
     "meta": {
       "likes": 34,
-      "downloads": 267,
+      "downloads": 269,
       "repo": "tencent/EVIE-8B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -1194,7 +1378,7 @@
     "contentHash": "83b19eefd490",
     "meta": {
       "likes": 40,
-      "downloads": 1476,
+      "downloads": 1452,
       "repo": "tencent/EVIE-4.5B",
       "pipeline": "visual-document-retrieval",
       "license": "apache-2.0"
@@ -1223,7 +1407,7 @@
     "contentHash": "b47e25917303",
     "meta": {
       "likes": 571,
-      "downloads": 10649,
+      "downloads": 10705,
       "repo": "tencent/Hy4-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1261,7 +1445,7 @@
     "contentHash": "811b13d55f01",
     "meta": {
       "likes": 23,
-      "downloads": 2686,
+      "downloads": 2655,
       "repo": "tencent/ContextPilot-14B",
       "pipeline": "text-generation",
       "license": "other"
@@ -1292,7 +1476,7 @@
     "contentHash": "bda3c45fcfa8",
     "meta": {
       "likes": 12,
-      "downloads": 820,
+      "downloads": 818,
       "repo": "tencent/ContextPilot-8B",
       "pipeline": "text-generation",
       "license": "other"

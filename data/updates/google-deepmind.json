@@ -1,5 +1,34 @@
 [
   {
+    "id": "56d5c7c32a87562e",
+    "lab": "google-deepmind",
+    "title": "Gemini CLI v0.71.1",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
+    "sourceId": "gemini-cli",
+    "sourceName": "GitHub · google-gemini/gemini-cli",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-24T03:50:24.000Z",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z",
+    "updatedAt": "2026-11-24T03:50:24.000Z",
+    "excerpt": "What's Changed fix(patch): cherry-pick aafdfdf to release/v0.71.0-pr-30420 to patch version v0.71.0 and create version 0.71.1 by @gemini-cli-robot in #30429 Full Changelog : v0.71.0...v0.71.1",
+    "summary": "Google DeepMind shipped Gemini CLI v0.71.1 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "531f4e949dc7",
+    "meta": {
+      "version": "v0.71.1",
+      "semver": "patch",
+      "repo": "google-gemini/gemini-cli"
+    }
+  },
+  {
     "id": "4b94c861605c9159",
     "lab": "google-deepmind",
     "title": "Gemini CLI v0.71.0",
@@ -132,8 +161,8 @@
     "lab": "google-deepmind",
     "title": "Introducing Tool Retrieval in the Gemini API",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -604,8 +633,8 @@
     "lab": "google-deepmind",
     "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -1022,8 +1051,8 @@
     "lab": "google-deepmind",
     "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-    "sourceId": "google-ai-blog",
-    "sourceName": "Google Blog · AI",
+    "sourceId": "google-dev-blog",
+    "sourceName": "Google Blog · Developers",
     "sourceType": "rss",
     "trust": "official",
     "verified": true,
@@ -2275,8 +2304,8 @@
     "importance": 80,
     "contentHash": "66048f001a44",
     "meta": {
-      "likes": 3454,
-      "downloads": 611079,
+      "likes": 3459,
+      "downloads": 602895,
       "repo": "google/embeddinggemma-2",
       "pipeline": "feature-extraction",
       "license": "apache-2.0"

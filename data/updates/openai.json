@@ -1,5 +1,35 @@
 [
   {
+    "id": "0d1de3d8faa04456",
+    "lab": "openai",
+    "title": "OpenAI Agents SDK v0.26.0",
+    "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.26.0",
+    "sourceId": "openai-agents",
+    "sourceName": "GitHub · openai/openai-agents-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-24T03:22:54.000Z",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z",
+    "updatedAt": "2026-11-24T03:22:54.000Z",
+    "excerpt": "0.26.0 (2026-11-24) Features Upgrade the GPT-Live demo to 1.1 ( 6c4e4a2 ) Bug Fixes allow SDK 0.25 in the external provider example ( #6068 ) ( 9b17858 ) apply the Docker removal CPU limit to path inspection ( 14d13f4 ) bound TAR path validation work per component ( abc55bd ) check Realtime output guardrails at turn completion ( dc84a13 ) give per-call MCP metadata priority over discovery defaults ( 7f6f5ea ) honor…",
+    "summary": "OpenAI shipped OpenAI Agents SDK v0.26.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "importance": 45,
+    "contentHash": "703729480c56",
+    "meta": {
+      "version": "v0.26.0",
+      "semver": "minor",
+      "repo": "openai/openai-agents-python"
+    }
+  },
+  {
     "id": "aef34d6c59bb57e8",
     "lab": "openai",
     "title": "Codex CLI rust v0.172.0",

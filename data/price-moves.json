@@ -1,5 +1,27 @@
 [
   {
+    "id": "7a235535a0050137",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-11-24T13:55:03.267Z",
+    "field": "prompt",
+    "from": 1.19,
+    "to": 1.4,
+    "change": 17.6
+  },
+  {
+    "id": "e59595de8414444c",
+    "modelId": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "lab": "zai",
+    "at": "2026-11-24T13:55:03.267Z",
+    "field": "completion",
+    "from": 3.74,
+    "to": 4.4,
+    "change": 17.6
+  },
+  {
     "id": "9f5857d1aa595bac",
     "modelId": "qwen/qwen3.6-35b-a3b",
     "name": "Qwen: Qwen3.6 35B A3B",

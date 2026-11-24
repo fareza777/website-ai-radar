@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-24",
-    "generatedAt": "2026-11-24T02:18:21.824Z",
+    "generatedAt": "2026-11-24T13:55:03.267Z",
     "stats": {
-      "updates24h": 19,
-      "labsActive24h": 5,
-      "updates7d": 166,
-      "newModels7d": 44
+      "updates24h": 18,
+      "labsActive24h": 4,
+      "updates7d": 160,
+      "newModels7d": 42
     },
     "source": "template",
-    "headline": "19 updates from 5 AI labs in the last 24 hours · 44 model releases this week.",
+    "headline": "18 updates from 4 AI labs in the last 24 hours · 42 model releases this week.",
     "bullets": [
       {
         "text": "Google DeepMind: Introducing file slicing controls in the Gemini API",
@@ -17,23 +17,23 @@
         "lab": "google-deepmind"
       },
       {
+        "text": "Amazon: Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls",
+        "itemId": "f3f6304a8cca8254",
+        "lab": "amazon"
+      },
+      {
         "text": "Amazon: AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
         "itemId": "e034cbcda52a1cc9",
         "lab": "amazon"
       },
       {
-        "text": "OpenAI: Richpanel helps companies automate 50% of support in 30 days",
-        "itemId": "680b35173b971311",
+        "text": "OpenAI: What makes a great ChatGPT app",
+        "itemId": "49fc03a1ae70fd9c",
         "lab": "openai"
       },
       {
-        "text": "Amazon: Amazon SageMaker HyperPod launches a redesigned console experience for creating Amazon EKS-orchestrated clusters",
-        "itemId": "335fc8396514704c",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: What makes a great ChatGPT app",
-        "itemId": "49fc03a1ae70fd9c",
+        "text": "OpenAI: OpenAI and Cisco introduce Shirudo",
+        "itemId": "1d0c151fefed0dea",
         "lab": "openai"
       },
       {
