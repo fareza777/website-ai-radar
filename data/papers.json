@@ -6,7 +6,7 @@
     "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope. We reveal a mixing trade-off: when under-mixed residual matrices stay close…",
     "publishedAt": "2026-11-20T00:00:00.000Z",
     "submittedAt": "2026-11-23T00:00:00.000Z",
-    "upvotes": 79,
+    "upvotes": 94,
     "org": "xingchen-agi",
     "githubRepo": "https://github.com/Newiz430/cmHC",
     "firstSeenAt": "2026-11-23T13:06:33.508Z"
@@ -18,7 +18,7 @@
     "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict…",
     "publishedAt": "2026-11-20T00:00:00.000Z",
     "submittedAt": "2026-11-23T00:00:00.000Z",
-    "upvotes": 48,
+    "upvotes": 54,
     "org": "polyuhk",
     "githubRepo": "https://github.com/yuhangdai427/NoPeWorld",
     "firstSeenAt": "2026-11-23T13:06:33.508Z"
@@ -30,11 +30,23 @@
     "summary": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gameplay. Generative video models (VMs) now bear on all three. Neural networks already draw most of the pixels in shipped games, and recent world models let a lightweight game engine keep the world state while a VM turns the engine's coarse proxy video into final frames. These systems, however, treat…",
     "publishedAt": "2026-11-14T00:00:00.000Z",
     "submittedAt": "2026-11-23T00:00:00.000Z",
-    "upvotes": 1,
+    "upvotes": 3,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/hebing-sjtu/GameWM",
     "firstSeenAt": "2026-11-23T13:06:33.508Z"
+  },
+  {
+    "id": "2611.23417",
+    "title": "Autoregressive View Model",
+    "url": "https://huggingface.co/papers/2611.23417",
+    "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation. Through a unified in-context interface, AVM conditions on images or videos to generate short clips along a requested camera path. Visual context grounds reconstruction and interpolation, while a learned prior enables extrapolation into unseen regions. AVM retrieves relevant…",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "submittedAt": "2026-11-23T00:00:00.000Z",
+    "upvotes": 1,
+    "org": "meta",
+    "lab": "meta",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z"
   },
   {
     "id": "2611.26444",
@@ -68,10 +80,23 @@
     "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 50,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeMM-Video",
+    "firstSeenAt": "2026-11-20T11:52:27.345Z"
+  },
+  {
+    "id": "2611.26629",
+    "title": "Posterior Matching Distillation",
+    "url": "https://huggingface.co/papers/2611.26629",
+    "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We…",
+    "publishedAt": "2026-11-19T00:00:00.000Z",
+    "submittedAt": "2026-11-20T00:00:00.000Z",
+    "upvotes": 44,
+    "org": "nvidia",
+    "lab": "nvidia",
+    "githubRepo": "https://github.com/yesiltepe-hidir/PMD",
     "firstSeenAt": "2026-11-20T11:52:27.345Z"
   },
   {
@@ -86,17 +111,16 @@
     "firstSeenAt": "2026-11-21T11:20:24.203Z"
   },
   {
-    "id": "2611.26629",
-    "title": "Posterior Matching Distillation",
-    "url": "https://huggingface.co/papers/2611.26629",
-    "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We…",
+    "id": "2611.26595",
+    "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+    "url": "https://huggingface.co/papers/2611.26595",
+    "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 42,
-    "org": "nvidia",
-    "lab": "nvidia",
-    "githubRepo": "https://github.com/yesiltepe-hidir/PMD",
-    "firstSeenAt": "2026-11-20T11:52:27.345Z"
+    "upvotes": 40,
+    "org": "klingteam",
+    "githubRepo": "https://github.com/FrankYang-17/Coda",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z"
   },
   {
     "id": "2611.25387",
@@ -118,7 +142,7 @@
     "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fixed Top-k applies one budget across different score distributions and couples routing to task granularity; query-range ownership fragments K/V reuse when several ranges select the same column. We…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 14,
+    "upvotes": 15,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/LightningMoBA",
@@ -143,7 +167,7 @@
     "summary": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show that the draft's whole residual stream can run at half or a quarter of that width while largely…",
     "publishedAt": "2026-11-18T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 5,
+    "upvotes": 6,
     "org": "nvidia",
     "lab": "nvidia",
     "firstSeenAt": "2026-11-20T11:52:27.345Z"
@@ -155,7 +179,7 @@
     "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single…",
     "publishedAt": "2026-11-18T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 150,
+    "upvotes": 151,
     "org": "nus-dsa3101",
     "githubRepo": "https://github.com/Carol-lyh/Jeveration",
     "firstSeenAt": "2026-11-19T11:51:28.824Z"
@@ -191,7 +215,7 @@
     "summary": "Thinking with images empowers vision-language models (VLMs) to use an external Zoom-in tool for fine-grained visual search. Recent works employ supervised fine-tuning (SFT) and reinforcement learning (RL) with tool-specific designs to enable such capabilities. However, achieving logical reasoning alongside accurate and efficient tool use remains a significant challenge. To address this, we shift the focus away from…",
     "publishedAt": "2026-11-14T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 14,
+    "upvotes": 15,
     "org": "facebook",
     "lab": "meta",
     "firstSeenAt": "2026-11-19T04:06:29.736Z"
@@ -216,7 +240,7 @@
     "summary": "Reinforcement learning from terminal answer rewards enables search-augmented language models to interleave reasoning and retrieval without step-level annotations, yet outcome supervision assigns identical credit to every search in a trajectory regardless of whether it retrieved useful information. This limitation is especially severe when all sampled rollouts for a question fail, collapsing group-centered outcome…",
     "publishedAt": "2026-11-18T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 9,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-11-19T11:51:28.824Z"
@@ -228,7 +252,7 @@
     "summary": "We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation evaluation. Existing evaluators rely on holistic MLLM judgments or vision-language metrics, yet aligning their scores with human judgments and tracing them to specific temporal violations remain open challenges. FVSCORE addresses these limitations by compiling each video into explicit propositions…",
     "publishedAt": "2026-11-17T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 4,
+    "upvotes": 5,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-19T11:51:28.824Z"
@@ -275,7 +299,7 @@
     "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, and fuses their…",
     "publishedAt": "2026-11-15T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 50,
     "org": null,
     "githubRepo": "https://github.com/GaotangLi/Multi-Branch-Transformer",
     "firstSeenAt": "2026-11-18T20:40:41.755Z"
@@ -299,7 +323,7 @@
     "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods across compatible…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 39,
+    "upvotes": 40,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-18T11:54:06.317Z"

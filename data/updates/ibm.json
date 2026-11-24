@@ -1,5 +1,35 @@
 [
   {
+    "id": "e8ad642777ffb0b3",
+    "lab": "ibm",
+    "title": "Docling v2.152.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.152.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-23T13:29:58.000Z",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z",
+    "updatedAt": "2026-11-23T13:29:58.000Z",
+    "excerpt": "Feature pdf: Cancel queued PDF parsing when conversions stop ( #5456 ) ( 4c0a96d ) service: Let the server choose the default pipeline ( #4875 ) ( adfdff3 ) Turn audio/video transcripts and slide media into tracks ( #4752 ) ( 5182e55 ) heading-hierarchy: Read keyword markers of other languages ( #5474 ) ( 557df04 ) vlm: Add native MLX support for Nemotron 3.5 Parse ( #4934 ) ( 825c774 ) Fix pdfium: Keep words beside…",
+    "summary": "IBM shipped Docling v2.152.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal",
+      "audio"
+    ],
+    "importance": 40,
+    "contentHash": "8810542f6f4e",
+    "meta": {
+      "version": "v2.152.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "ae5ce253dfc475e9",
     "lab": "ibm",
     "title": "Docling v2.151.1",
@@ -1011,7 +1041,7 @@
     "importance": 64,
     "contentHash": "b3f73903e073",
     "meta": {
-      "likes": 56,
+      "likes": 55,
       "downloads": 5367,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",

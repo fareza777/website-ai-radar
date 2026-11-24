@@ -1,5 +1,182 @@
 [
   {
+    "id": "405552859e8aaf54",
+    "lab": "amazon",
+    "title": "AWS WAF announces automated discovery and protection for LLM, MCP, and A2A endpoints using Amazon Bedrock Guardrails",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-ai-endpoint-discovery-protection",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-23T18:47:00.000Z",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z",
+    "updatedAt": "2026-11-23T18:47:00.000Z",
+    "excerpt": "Automated AI endpoint discovery and protection are now generally available, enabling you to discover language model (LLM), Model Context Protocol (MCP), and Agent2Agent (A2A) endpoints behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS Organization and protect them using AWS WAF. Discovery is available through the new API Gateway API Portal, which recognizes the AI endpoints…",
+    "summary": "Automated AI endpoint discovery and protection are now generally available, enabling you to discover language model (LLM), Model Context Protocol (MCP), and Agent2Agent (A2A) endpoints behind Amazon API Gateway…",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "mcp"
+    ],
+    "importance": 60,
+    "contentHash": "6aed98d9d183"
+  },
+  {
+    "id": "d0de866e1fe56a1f",
+    "lab": "amazon",
+    "title": "Amazon Connect Customer expands automated performance evaluations to 45 new languages",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-expands-automated-performance-evaluations-new-languages",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-23T18:00:00.000Z",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z",
+    "updatedAt": "2026-11-23T18:00:00.000Z",
+    "excerpt": "Amazon Connect Customer now uses generative AI to automate evaluations of human and AI agent performance in 45 additional languages, such as Arabic, Dutch, Indonesian, and Polish. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language. Performance evaluations also support cross-language evaluation and can complete…",
+    "summary": "Amazon Connect Customer now uses generative AI to automate evaluations of human and AI agent performance in 45 additional languages, such as Arabic, Dutch, Indonesian, and Polish.",
+    "benefit": "Fresh research that signals where the technology is heading and which techniques to adopt.",
+    "summarySource": "template",
+    "category": "research",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "4042d373bfab"
+  },
+  {
+    "id": "16d0d12a4a9040c7",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-python v0.5.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.5.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-23T17:42:32.000Z",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z",
+    "updatedAt": "2026-11-23T17:42:32.000Z",
+    "excerpt": "harness-python/v0.5.0 Auto-drafted from commits in harness-python/v0.4.0..harness-python/v0.5.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(context-manager)!: graduate out of experimental and rename stash to archive (TS) ( #6386 ) ( d1b2b6b ) feat(sandbox): stop running shell and…",
+    "summary": "Amazon shipped Strands Agents SDK harness-python v0.5.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "c4c8cc67cc68",
+    "meta": {
+      "version": "v0.5.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-python"
+    }
+  },
+  {
+    "id": "4caeb368c5902694",
+    "lab": "amazon",
+    "title": "Strands Agents SDK python v1.66.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.66.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-23T17:42:10.000Z",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z",
+    "updatedAt": "2026-11-23T17:42:10.000Z",
+    "excerpt": "python/v1.66.0 Auto-drafted from commits in python/v1.65.0..python/v1.66.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(sandbox): stop running shell and python_repl commands on agent.cancel() ( #6413 ) ( 4ef16b2 ) feat(site): widen the docs content column to 55rem ( #6428 ) ( 7754b4f )…",
+    "summary": "Amazon shipped Strands Agents SDK python v1.66.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "7999ada078be",
+    "meta": {
+      "version": "v1.66.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "python"
+    }
+  },
+  {
+    "id": "e034cbcda52a1cc9",
+    "lab": "amazon",
+    "title": "AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-23T17:21:00.000Z",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z",
+    "updatedAt": "2026-11-23T17:21:00.000Z",
+    "excerpt": "Amazon Bedrock AgentCore runtime instances are now available in the AWS GovCloud (US-West) Region. Runtime instances run your agents on Amazon EC2 instances in your own account, while AgentCore handles provisioning, patching, scaling, and lifecycle management. With runtime instances, teams in AWS GovCloud (US) can choose GPU-accelerated, memory-optimized, or compute-optimized instance types for their agents and run…",
+    "summary": "Amazon Bedrock AgentCore runtime instances are now available in the AWS GovCloud (US-West) Region.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [
+      "agents",
+      "multimodal"
+    ],
+    "importance": 65,
+    "contentHash": "e2aa6804ada0"
+  },
+  {
+    "id": "95ebf0db6bc9885f",
+    "lab": "amazon",
+    "title": "Amazon SageMaker Studio now supports training job submission and model deployment for SageMaker HyperPod clusters",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-hyperpod",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-23T08:00:00.000Z",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z",
+    "updatedAt": "2026-11-23T08:00:00.000Z",
+    "excerpt": "Amazon SageMaker Studio now provides a native developer experience for Amazon SageMaker HyperPod, enabling data scientists to submit distributed training jobs, deploy models, and monitor workloads through a visual interface on HyperPod clusters orchestrated with Amazon Elastic Kubernetes Service (Amazon EKS). SageMaker HyperPod is a purpose-built infrastructure for distributed training and fine-tuning of foundation…",
+    "summary": "Amazon SageMaker Studio now provides a native developer experience for Amazon SageMaker HyperPod, enabling data scientists to submit distributed training jobs, deploy models, and monitor workloads through a visual…",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "9e26b4f161d1"
+  },
+  {
+    "id": "335fc8396514704c",
+    "lab": "amazon",
+    "title": "Amazon SageMaker HyperPod launches a redesigned console experience for creating Amazon EKS-orchestrated clusters",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-console-eks",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-23T08:00:00.000Z",
+    "firstSeenAt": "2026-11-24T02:18:21.824Z",
+    "updatedAt": "2026-11-23T08:00:00.000Z",
+    "excerpt": "Amazon SageMaker HyperPod now offers a redesigned AWS Management Console experience for creating clusters orchestrated by Amazon EKS. A guided workflow helps ML infrastructure administrators and platform teams set up networking, instance groups, storage, permissions, resiliency, observability, lifecycle scripts, and tags. Required settings are kept apart from optional ones. You enter only what is needed to create…",
+    "summary": "Amazon SageMaker HyperPod now offers a redesigned AWS Management Console experience for creating clusters orchestrated by Amazon EKS.",
+    "benefit": "A new product capability you may be able to use right away, without code changes.",
+    "summarySource": "template",
+    "category": "feature",
+    "tags": [],
+    "importance": 65,
+    "contentHash": "29b6e0600c44"
+  },
+  {
     "id": "ff7662c8d0d626c3",
     "lab": "amazon",
     "title": "Web Search on Amazon Bedrock expands language support and country-aware search",
@@ -43,7 +220,14 @@
     "category": "feature",
     "tags": [],
     "importance": 65,
-    "contentHash": "564579f88da0"
+    "contentHash": "564579f88da0",
+    "seenIn": [
+      {
+        "sourceId": "aws-whats-new",
+        "sourceName": "AWS What's New",
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions"
+      }
+    ]
   },
   {
     "id": "5259c7996b79c471",
@@ -262,15 +446,15 @@
     "verified": true,
     "publishedAt": "2026-11-20T00:34:07.000Z",
     "firstSeenAt": "2026-11-20T02:23:48.801Z",
-    "updatedAt": "2026-11-21T02:26:38.179Z",
-    "excerpt": "From first endpoint to global fleet: 14 more launches for managed endpoints and HyperPod Inference In September, Amazon SageMaker Inference: 2026 year-to-date launches in review covered 13 launches that shortened the path from a model to a production endpoint. Most of them answered one question: how do I get this model serving quickly and reliably? This post covers the 13 launches that came next, bringing the total…",
+    "updatedAt": "2026-11-24T02:18:21.824Z",
+    "excerpt": "From first endpoint to global fleet: 14 more launches for managed endpoints and HyperPod Inference In September, Amazon SageMaker Inference: 2026 year-to-date launches in review covered 13 launches that shortened the path from a model to a production endpoint. Most of them answered one question: how do I get this model serving quickly and reliably? This post covers the 14 launches that came next, bringing the total…",
     "summary": "From first endpoint to global fleet: 14 more launches for managed endpoints and HyperPod Inference In September, Amazon SageMaker Inference: 2026 year-to-date launches in review covered 13 launches that shortened the…",
     "benefit": "A new product capability you may be able to use right away, without code changes.",
     "summarySource": "template",
     "category": "feature",
     "tags": [],
     "importance": 65,
-    "contentHash": "56f48ba74c4e"
+    "contentHash": "1813c2ff60aa"
   },
   {
     "id": "c7569a295cb76304",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T13:06:33.508Z",
+  "generatedAt": "2026-11-24T02:18:21.824Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 19,
+      "press": 21,
       "outlets": [
         "TestingCatalog AI News",
         "The Decoder",
@@ -27,16 +27,18 @@
         "Interesting Engineering",
         "The New Stack",
         "SiliconANGLE",
+        "AI Magazine",
+        "MarkTechPost",
         "shattered.io",
         "InfoWorld",
-        "AI Magazine",
         "Yahoo Finance",
         "The Rundown AI",
         "OODA Loop",
-        "Technology Org"
+        "Technology Org",
+        "TechTarget"
       ],
       "firstAt": "2026-11-18T10:12:31.000Z",
-      "lastAt": "2026-11-20T13:03:00.000Z",
+      "lastAt": "2026-11-23T22:33:24.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
       "lead": {
         "kind": "official",
@@ -68,26 +70,6 @@
         "id": "549a77347d5e1e5f"
       },
       "importance": 97
-    },
-    {
-      "id": "8f2daa11c5051ada",
-      "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
-      "entity": "GLM 5.3 Across",
-      "labs": [
-        "nvidia",
-        "zai"
-      ],
-      "official": 1,
-      "press": 0,
-      "outlets": [],
-      "firstAt": "2026-11-13T17:00:00.000Z",
-      "lastAt": "2026-11-13T17:12:14.000Z",
-      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
-      "lead": {
-        "kind": "official",
-        "id": "8f2daa11c5051ada"
-      },
-      "importance": 85
     },
     {
       "id": "qwen:075ae9bbb51baf",
@@ -145,40 +127,44 @@
       "importance": 71
     },
     {
-      "id": "zai:9f8a0469e1b970",
-      "title": "Z.ai Launches GLM-5.4 With Vision for Coding Plan Users",
+      "id": "zai:22ee7c816dc712",
+      "title": "Z.ai launches GLM-5.4, its first Loop Transformer model",
       "entity": "GLM 5.4",
       "labs": [
         "zai"
       ],
       "official": 0,
-      "press": 9,
+      "press": 13,
       "outlets": [
         "Digg",
         "TechNode",
         "OrcaRouter",
-        "cwibc.co.id",
-        "Demokratis.co.id",
-        "Peradaban.id",
-        "Limapagi",
-        "SuaraGarut.ID",
         "Pandaily",
         "Tech in Asia",
         "TestingCatalog AI News",
         "Pasquale Pillitteri",
         "news.lavx.hu",
+        "VentureBeat",
+        "Investing.com",
+        "Online Tech Tips",
+        "Techiexpert.com",
         "The Next Web",
         "Business Upturn",
-        "MLQ.ai"
+        "MLQ.ai",
+        "BigGo Finance",
+        "Fello AI",
+        "Wccftech",
+        "alphaXiv",
+        "MarkTechPost"
       ],
       "firstAt": "2026-11-18T18:20:30.000Z",
-      "lastAt": "2026-11-23T11:35:18.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pMWtpZDlSLXY3QUQ4ZUVSalZLYl92UFFMWktndHFNb1JWMkxVT3JwS2xJSjFmRkFxbHdzSVJjWWd0VzdNeDV0cHlxZVhuUGo5S3dFMTM4VjdDcGRH?oc=5",
+      "lastAt": "2026-11-23T19:11:40.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "zai:9f8a0469e1b970"
+        "id": "zai:22ee7c816dc712"
       },
-      "importance": 65
+      "importance": 67
     },
     {
       "id": "cohere:f0a80121c5529f",
@@ -196,6 +182,7 @@
         "TradingView",
         "Telugu Times",
         "ET CIO",
+        "The Tribune",
         "CXOToday.com",
         "ANI News",
         "scanx.trade",
@@ -212,20 +199,18 @@
         "kind": "press",
         "id": "cohere:f0a80121c5529f"
       },
-      "importance": 64
+      "importance": 65
     },
     {
-      "id": "google-deepmind:d64e37951a3ca4",
-      "title": "Visual flair—Google's Gemini 4 Hydrogen AI made Search a lot more casual",
+      "id": "google-deepmind:0d2f88f5f54759",
+      "title": "Google Launches Gemini 4 Hydrogen With 2.5x Faster Performance, Challenging GPT-6.1 and Claude",
       "entity": "Gemini 4 Hydrogen",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 10,
+      "press": 8,
       "outlets": [
-        "Android Central",
-        "The GitHub Blog",
         "Brave New Coin",
         "DevOps.com",
         "AI Insider",
@@ -234,14 +219,14 @@
         "UC Today",
         "Google for Developers Blog"
       ],
-      "firstAt": "2026-11-13T17:56:59.000Z",
+      "firstAt": "2026-11-14T18:22:28.000Z",
       "lastAt": "2026-11-17T17:43:25.000Z",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVWI4c2pCRktGWWhKaWhnb1dWVHpHZUhRQk14VUJqQ0JmT2p5YlJqVmRwTmVZMmVQRlVNXzlodUVCMmxxOTVxQ2Ywbm4xMkxtTzBleFUyT2FBZzljejVGbjhmbnAxSVpxWEdlajR5VkZPTTFlUGtvU0RJdXItSl9BTFQyVVlEYkgwUTZUeDItcnFlWTJsQWJpTks1SmVzZ0pkZHo1MWNwclN4dTAxNkJYbnVsYWI?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQajhXcnM0QWtWZU9NUTVMLTlhaUtXQjkzQ3BYdjZsZU9uUUQ5VmtNZ3laZUpkUU1MMVVLelJ2dWZIMXB5d0ViWHZGVmxZbkJnY1hQOGlCRmZiZEZaOVNuX0puZXAxc2tCekhWbjdLREdHT1ExUEFwdkVyN1pMa3UzSFFicHRyY1ZZajRPaUhZSVIxam0yNVhLcjcxYkhzbFNOTWQxR2VqeUdURDJIU0QxVUJ1dzlnUTNYSHBpUFlja0djNTJKWkE?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:d64e37951a3ca4"
+        "id": "google-deepmind:0d2f88f5f54759"
       },
-      "importance": 61
+      "importance": 59
     },
     {
       "id": "google-deepmind:ee6a5e3a84ce68",
@@ -251,22 +236,23 @@
         "google-deepmind"
       ],
       "official": 0,
-      "press": 5,
+      "press": 6,
       "outlets": [
         "The Decoder",
         "EdTech Innovation Hub",
         "Search Engine Roundtable",
         "shattered.io",
-        "Small Business Trends"
+        "Small Business Trends",
+        "9to5Google"
       ],
       "firstAt": "2026-11-14T16:50:59.000Z",
-      "lastAt": "2026-11-21T14:02:00.000Z",
+      "lastAt": "2026-11-23T21:16:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY0NuYzZvQnRuaWZOTGtNYWpDQlN3VFljSExRa3k3ZDEzTm5BdEQ1Y1gwbmdMZXU2bjIwU2xmN3htejZpR3I3Zmcxd2RJVnZHZWY1aWFNTm9BTHhRN2dlanB3MldDOUJnQ2VnZmtMNkktOVJOLUgwLWhKcnpkQU5WRnR5VDRrNUFxak1ZNHdOWFlSR3BUYjBsOXZzUFRzcUdhUDZCMDRpVmtjblk?oc=5",
       "lead": {
         "kind": "press",
         "id": "google-deepmind:ee6a5e3a84ce68"
       },
-      "importance": 57
+      "importance": 58
     },
     {
       "id": "deepseek:64da862a885662",
@@ -344,35 +330,27 @@
     "entities": [
       {
         "name": "Gemini 4 Neon",
-        "count": 22,
+        "count": 24,
         "prev": 0,
         "labs": [
           "google-deepmind"
         ]
       },
       {
-        "name": "Qwen 4 Max",
-        "count": 17,
-        "prev": 25,
-        "labs": []
-      },
-      {
         "name": "GLM 5.4",
-        "count": 12,
+        "count": 16,
         "prev": 0,
         "labs": []
       },
       {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 6,
-        "prev": 8,
-        "labs": [
-          "amazon"
-        ]
+        "name": "Qwen 4 Max",
+        "count": 10,
+        "prev": 32,
+        "labs": []
       },
       {
         "name": "GPT 6.2 Astra",
-        "count": 5,
+        "count": 6,
         "prev": 0,
         "labs": [
           "openai",
@@ -380,18 +358,12 @@
         ]
       },
       {
-        "name": "Gemini 4 Hydrogen",
-        "count": 5,
-        "prev": 26,
+        "name": "DeepSeek 4.1 Flash",
+        "count": 6,
+        "prev": 7,
         "labs": [
-          "google-deepmind"
+          "amazon"
         ]
-      },
-      {
-        "name": "GLM 5.5",
-        "count": 3,
-        "prev": 2,
-        "labs": []
       },
       {
         "name": "GLM 5.3",
@@ -400,50 +372,42 @@
         "labs": []
       },
       {
-        "name": "DeepSeek 4.1 Pro",
+        "name": "Gemini 4 Hydrogen",
         "count": 3,
-        "prev": 3,
-        "labs": []
-      },
-      {
-        "name": "Claude Opus 5.5",
-        "count": 3,
-        "prev": 5,
+        "prev": 28,
         "labs": [
-          "anthropic"
+          "google-deepmind"
         ]
       }
     ],
     "topics": [
       {
         "name": "agents",
-        "count": 67,
-        "prev": 64,
+        "count": 64,
+        "prev": 67,
         "labs": [
           "anthropic",
           "openai",
           "google-deepmind",
           "meta",
-          "qwen",
           "cohere",
           "microsoft",
+          "qwen",
           "amazon",
-          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "coding",
-        "count": 38,
-        "prev": 49,
+        "count": 39,
+        "prev": 45,
         "labs": [
           "anthropic",
           "openai",
           "google-deepmind",
-          "mistral",
-          "qwen",
           "cohere",
           "microsoft",
+          "qwen",
           "amazon",
           "ibm",
           "nvidia"
@@ -451,8 +415,8 @@
       },
       {
         "name": "multimodal",
-        "count": 17,
-        "prev": 13,
+        "count": 18,
+        "prev": 12,
         "labs": [
           "anthropic",
           "openai",
@@ -466,8 +430,8 @@
       },
       {
         "name": "mcp",
-        "count": 9,
-        "prev": 7,
+        "count": 10,
+        "prev": 6,
         "labs": [
           "anthropic",
           "openai",
@@ -477,12 +441,13 @@
         ]
       },
       {
-        "name": "rag",
-        "count": 8,
-        "prev": 3,
+        "name": "safety",
+        "count": 7,
+        "prev": 12,
         "labs": [
+          "anthropic",
+          "openai",
           "google-deepmind",
-          "cohere",
           "amazon"
         ]
       },
@@ -493,28 +458,30 @@
         "labs": [
           "openai",
           "google-deepmind",
-          "amazon"
+          "amazon",
+          "ibm"
         ]
       },
       {
         "name": "reasoning",
-        "count": 6,
+        "count": 5,
         "prev": 7,
         "labs": [
           "openai",
           "google-deepmind",
           "mistral",
-          "qwen",
           "microsoft",
+          "qwen",
           "amazon",
           "nvidia"
         ]
       },
       {
         "name": "open-source",
-        "count": 6,
-        "prev": 5,
+        "count": 4,
+        "prev": 8,
         "labs": [
+          "openai",
           "microsoft",
           "amazon",
           "ibm",
@@ -522,36 +489,18 @@
         ]
       },
       {
-        "name": "safety",
-        "count": 5,
-        "prev": 18,
+        "name": "rag",
+        "count": 4,
+        "prev": 6,
         "labs": [
-          "anthropic",
-          "openai",
           "google-deepmind",
           "cohere",
-          "amazon",
-          "ibm"
+          "amazon"
         ]
       }
     ]
   },
   "unconfirmed": [
-    {
-      "id": "zai:9f8a0469e1b970",
-      "lab": "zai",
-      "title": "Z.ai Launches GLM-5.4 With Vision for Coding Plan Users",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pMWtpZDlSLXY3QUQ4ZUVSalZLYl92UFFMWktndHFNb1JWMkxVT3JwS2xJSjFmRkFxbHdzSVJjWWd0VzdNeDV0cHlxZVhuUGo5S3dFMTM4VjdDcGRH?oc=5",
-      "outlets": [
-        "cwibc.co.id",
-        "Demokratis.co.id",
-        "Peradaban.id",
-        "Limapagi",
-        "SuaraGarut.ID"
-      ],
-      "reports": 5,
-      "at": "2026-11-23T07:07:46.000Z"
-    },
     {
       "id": "zai:22ee7c816dc712",
       "lab": "zai",
@@ -560,10 +509,26 @@
       "outlets": [
         "TestingCatalog AI News",
         "Pasquale Pillitteri",
-        "news.lavx.hu"
+        "news.lavx.hu",
+        "VentureBeat",
+        "Investing.com",
+        "Online Tech Tips",
+        "Techiexpert.com"
       ],
-      "reports": 3,
+      "reports": 7,
       "at": "2026-11-23T10:34:45.000Z"
+    },
+    {
+      "id": "zai:3096e7dcfde6d1",
+      "lab": "zai",
+      "title": "Z.ai launches GLM-5.4, a 750 billion-parameter model built on a looped Transformer",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUQwZnJsWG5GVFdTQVVOMXI4anN5Tm5wNVpWa2t6V2JMYTVxdzR2TDJMbURwQldoQlZpNGpqQ1NQMXNXM1ZrMmFudzVoZ2VMbkwtUGt3aS03WDcwTDB1QkJVQXhodFpDQ25lX3kwbFhmNHMyS2doakVpOFhxNFVHMTRCWjU0RXFRM0Vidlp5UFdwUkZvaDZ1NUxmYnFSdXZMZHc?oc=5",
+      "outlets": [
+        "MLQ.ai",
+        "Pasquale Pillitteri"
+      ],
+      "reports": 2,
+      "at": "2026-11-23T11:35:18.000Z"
     },
     {
       "id": "zai:e408bf9e47c2e7",

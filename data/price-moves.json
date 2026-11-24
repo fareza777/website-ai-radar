@@ -1,5 +1,60 @@
 [
   {
+    "id": "9f5857d1aa595bac",
+    "modelId": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "lab": "qwen",
+    "at": "2026-11-24T02:18:21.824Z",
+    "field": "prompt",
+    "from": 0.1,
+    "to": 0.05,
+    "change": -50
+  },
+  {
+    "id": "36e83f6e87f3f844",
+    "modelId": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "lab": "qwen",
+    "at": "2026-11-24T02:18:21.824Z",
+    "field": "completion",
+    "from": 0.9,
+    "to": 0.7,
+    "change": -22.2
+  },
+  {
+    "id": "29d686be4a9b957c",
+    "modelId": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "lab": "openai",
+    "at": "2026-11-24T02:18:21.824Z",
+    "field": "prompt",
+    "from": 0.09,
+    "to": 0.05,
+    "change": -44.4
+  },
+  {
+    "id": "ee5ce7e38cef2d18",
+    "modelId": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "lab": "openai",
+    "at": "2026-11-24T02:18:21.824Z",
+    "field": "completion",
+    "from": 0.36,
+    "to": 0.25,
+    "change": -30.6
+  },
+  {
+    "id": "c28151fb3874840d",
+    "modelId": "google/gemma-3-27b-it",
+    "name": "Google: Gemma 3 27B",
+    "lab": "google-deepmind",
+    "at": "2026-11-24T02:18:21.824Z",
+    "field": "completion",
+    "from": 0.45,
+    "to": 0.16,
+    "change": -64.4
+  },
+  {
     "id": "b9909dadb77a1762",
     "modelId": "moonshotai/kimi-k3.1-pro",
     "name": "MoonshotAI: Kimi K3.1 Pro",

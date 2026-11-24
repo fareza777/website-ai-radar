@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-24",
+    "generatedAt": "2026-11-24T02:18:21.824Z",
+    "stats": {
+      "updates24h": 19,
+      "labsActive24h": 5,
+      "updates7d": 166,
+      "newModels7d": 44
+    },
+    "source": "template",
+    "headline": "19 updates from 5 AI labs in the last 24 hours · 44 model releases this week.",
+    "bullets": [
+      {
+        "text": "Google DeepMind: Introducing file slicing controls in the Gemini API",
+        "itemId": "1fa47c423ba12b2e",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "Amazon: AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
+        "itemId": "e034cbcda52a1cc9",
+        "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: Richpanel helps companies automate 50% of support in 30 days",
+        "itemId": "680b35173b971311",
+        "lab": "openai"
+      },
+      {
+        "text": "Amazon: Amazon SageMaker HyperPod launches a redesigned console experience for creating Amazon EKS-orchestrated clusters",
+        "itemId": "335fc8396514704c",
+        "lab": "amazon"
+      },
+      {
+        "text": "OpenAI: What makes a great ChatGPT app",
+        "itemId": "49fc03a1ae70fd9c",
+        "lab": "openai"
+      },
+      {
+        "text": "Google DeepMind: A more tailored Google Search that’s uniquely yours",
+        "itemId": "39c2da17cef629dc",
+        "lab": "google-deepmind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
     "generatedAt": "2026-11-23T13:06:33.508Z",
     "stats": {
@@ -1152,50 +1196,6 @@
         "text": "NVIDIA: Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
         "itemId": "3b0fc092303087ba",
         "lab": "nvidia"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-25",
-    "generatedAt": "2026-10-25T16:31:46.241Z",
-    "stats": {
-      "updates24h": 1,
-      "labsActive24h": 1,
-      "updates7d": 156,
-      "newModels7d": 42
-    },
-    "source": "template",
-    "headline": "A quiet day — here are the highlights from the last 72 hours across 9 labs.",
-    "bullets": [
-      {
-        "text": "Amazon: Announcing new ways to customize models with SageMaker AI, without managing GPUs",
-        "itemId": "418ae447f600fa7e",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: Securing our frontier model training environment",
-        "itemId": "48e2274fdf2ba9fe",
-        "lab": "openai"
-      },
-      {
-        "text": "NVIDIA: Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
-        "itemId": "5c25f1831f0e4d47",
-        "lab": "nvidia"
-      },
-      {
-        "text": "Amazon: How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
-        "itemId": "7f0dec178da37fe0",
-        "lab": "amazon"
-      },
-      {
-        "text": "NVIDIA: Kazakhstan Expands Compute for Its AI Future",
-        "itemId": "822412740c4fdfe1",
-        "lab": "nvidia"
-      },
-      {
-        "text": "OpenAI: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-        "itemId": "298c8de07d18f423",
-        "lab": "openai"
       }
     ]
   }
