@@ -6,7 +6,7 @@
     "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 145,
+    "upvotes": 171,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
@@ -18,9 +18,21 @@
     "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 87,
+    "upvotes": 90,
     "org": "mmlab-ntu",
     "githubRepo": "https://github.com/DravenALG/Embo-Harness",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z"
+  },
+  {
+    "id": "2611.30989",
+    "title": "WorldLeague: Benchmarking Physical Agency",
+    "url": "https://huggingface.co/papers/2611.30989",
+    "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a common set of 60…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-24T00:00:00.000Z",
+    "upvotes": 86,
+    "org": "nationaluniversityofsingapore",
+    "githubRepo": "https://github.com/xyangzhou/WorldLeague",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
   },
   {
@@ -30,10 +42,21 @@
     "summary": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 56,
+    "upvotes": 57,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/OpenDCAI/GameFactory-3A",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
+  },
+  {
+    "id": "2611.29338",
+    "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+    "url": "https://huggingface.co/papers/2611.29338",
+    "summary": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as…",
+    "publishedAt": "2026-11-22T00:00:00.000Z",
+    "submittedAt": "2026-11-24T00:00:00.000Z",
+    "upvotes": 53,
+    "org": "thu1911",
+    "firstSeenAt": "2026-11-24T23:56:55.486Z"
   },
   {
     "id": "2611.30662",
@@ -49,25 +72,13 @@
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
   },
   {
-    "id": "2611.30989",
-    "title": "WorldLeague: Benchmarking Physical Agency",
-    "url": "https://huggingface.co/papers/2611.30989",
-    "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a common set of 60…",
-    "publishedAt": "2026-11-23T00:00:00.000Z",
-    "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 43,
-    "org": "nationaluniversityofsingapore",
-    "githubRepo": "https://github.com/xyangzhou/WorldLeague",
-    "firstSeenAt": "2026-11-24T13:55:03.267Z"
-  },
-  {
     "id": "2611.12164",
     "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
     "url": "https://huggingface.co/papers/2611.12164",
     "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 51,
     "org": "misraj",
     "githubRepo": "https://github.com/misraj-ai/locfix",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
@@ -79,10 +90,22 @@
     "summary": "Depth-recurrent (Looped) models raise effective depth by applying a shared stack of blocks several times. Scaling them usually requires pipeline parallelism, but commonly used interleaved 1F1B is drawn for an acyclic stage graph in which each micro-batch enters each stage once. Once that stack is split across stages, the same stage is visited several times on one micro-batch and later stages feed earlier ones…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 5,
+    "upvotes": 8,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
+  },
+  {
+    "id": "2611.31209",
+    "title": "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
+    "url": "https://huggingface.co/papers/2611.31209",
+    "summary": "Generative Pre-Training (GPT) represents a profound milestone in natural language processing, serving as the foundation for most of today's state-of-the-art large language models. By casting diverse understanding and generation problems into a shared token representation, GPT enables a single architecture and unified optimization loop to master heterogeneous tasks across massive corpora, giving rise to powerful…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-24T00:00:00.000Z",
+    "upvotes": 6,
+    "org": "google",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-24T23:56:55.486Z"
   },
   {
     "id": "2611.27193",
@@ -103,7 +126,7 @@
     "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict…",
     "publishedAt": "2026-11-20T00:00:00.000Z",
     "submittedAt": "2026-11-23T00:00:00.000Z",
-    "upvotes": 59,
+    "upvotes": 60,
     "org": "polyuhk",
     "githubRepo": "https://github.com/yuhangdai427/NoPeWorld",
     "firstSeenAt": "2026-11-23T13:06:33.508Z"
@@ -202,7 +225,7 @@
     "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 45,
+    "upvotes": 46,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/yesiltepe-hidir/PMD",
@@ -288,7 +311,7 @@
     "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single…",
     "publishedAt": "2026-11-18T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 153,
+    "upvotes": 155,
     "org": "nus-dsa3101",
     "githubRepo": "https://github.com/Carol-lyh/Jeveration",
     "firstSeenAt": "2026-11-19T11:51:28.824Z"
@@ -432,7 +455,7 @@
     "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods across compatible…",
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "submittedAt": "2026-11-18T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 42,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-18T11:54:06.317Z"

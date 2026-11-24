@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-25",
+    "generatedAt": "2026-11-24T23:56:55.486Z",
+    "stats": {
+      "updates24h": 21,
+      "labsActive24h": 7,
+      "updates7d": 149,
+      "newModels7d": 36
+    },
+    "source": "template",
+    "headline": "21 updates from 7 AI labs in the last 24 hours · 36 model releases this week.",
+    "bullets": [
+      {
+        "text": "OpenAI: GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "itemId": "3c6728c1bfd19879",
+        "lab": "openai"
+      },
+      {
+        "text": "Amazon: Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+        "itemId": "f3f6304a8cca8254",
+        "lab": "amazon"
+      },
+      {
+        "text": "NVIDIA: Prepare Market Data for Forecasting with NVIDIA Megatron Core",
+        "itemId": "f444edec838cebc3",
+        "lab": "nvidia"
+      },
+      {
+        "text": "Google DeepMind: How Gemini is changing the game for Golden State's organization and fans.",
+        "itemId": "e2544bc1aeb2953e",
+        "lab": "google-deepmind"
+      },
+      {
+        "text": "OpenAI: Searching for distant planets with Astra",
+        "itemId": "f3aa9260f1094b37",
+        "lab": "openai"
+      },
+      {
+        "text": "Anthropic: MCP servers can now ship skills, run tasks, and more with Claude",
+        "itemId": "44f76c8bfa0f2ce8",
+        "lab": "anthropic"
+      }
+    ]
+  },
+  {
     "date": "2026-11-24",
     "generatedAt": "2026-11-24T13:55:03.267Z",
     "stats": {
@@ -1157,45 +1201,6 @@
         "text": "Microsoft: Scale reservoir uncertainty analysis with agile reservoir modeling",
         "itemId": "a1fd010ba46270e7",
         "lab": "microsoft"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-26",
-    "generatedAt": "2026-10-26T13:15:11.052Z",
-    "stats": {
-      "updates24h": 2,
-      "labsActive24h": 2,
-      "updates7d": 152,
-      "newModels7d": 40
-    },
-    "source": "template",
-    "headline": "A quiet day — here are the highlights from the last 72 hours across 8 labs.",
-    "bullets": [
-      {
-        "text": "NVIDIA: Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
-        "itemId": "5c25f1831f0e4d47",
-        "lab": "nvidia"
-      },
-      {
-        "text": "Amazon: How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
-        "itemId": "7f0dec178da37fe0",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-        "itemId": "298c8de07d18f423",
-        "lab": "openai"
-      },
-      {
-        "text": "Amazon: Web Search on Amazon Bedrock now supports domain filtering and user location controls",
-        "itemId": "116e84c7c9fa0dbd",
-        "lab": "amazon"
-      },
-      {
-        "text": "NVIDIA: Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
-        "itemId": "3b0fc092303087ba",
-        "lab": "nvidia"
       }
     ]
   }

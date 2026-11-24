@@ -1,5 +1,104 @@
 [
   {
+    "id": "98bf9bcc2b586338",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-24T23:56:55.486Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.03,
+    "change": -80
+  },
+  {
+    "id": "51657b49c2aedadf",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-24T23:56:55.486Z",
+    "field": "completion",
+    "from": 0.6,
+    "to": 0.2,
+    "change": -66.7
+  },
+  {
+    "id": "6989fe862622e8da",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-24T23:56:55.486Z",
+    "field": "prompt",
+    "from": 1.32,
+    "to": 0.111,
+    "change": -91.6
+  },
+  {
+    "id": "e75485d05f81366e",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-24T23:56:55.486Z",
+    "field": "completion",
+    "from": 3.96,
+    "to": 4.44,
+    "change": 12.1
+  },
+  {
+    "id": "cab26645d733d004",
+    "modelId": "nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning",
+    "lab": "nvidia",
+    "at": "2026-11-24T23:56:55.486Z",
+    "field": "prompt",
+    "from": 0.07,
+    "to": 0.05,
+    "change": -28.6
+  },
+  {
+    "id": "62082020620a1b76",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-11-24T23:56:55.486Z",
+    "field": "prompt",
+    "from": 0.9,
+    "to": 1.28,
+    "change": 42.2
+  },
+  {
+    "id": "2b42bdc4917de40e",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "lab": "deepseek",
+    "at": "2026-11-24T23:56:55.486Z",
+    "field": "completion",
+    "from": 1.5,
+    "to": 2.56,
+    "change": 70.7
+  },
+  {
+    "id": "4fe87bfa08b34675",
+    "modelId": "meta-llama/llama-3.1-8b-instruct",
+    "name": "Meta: Llama 3.1 8B Instruct",
+    "lab": "meta",
+    "at": "2026-11-24T23:56:55.486Z",
+    "field": "prompt",
+    "from": 0.02,
+    "to": 0.05,
+    "change": 150
+  },
+  {
+    "id": "023e91b276dbadd7",
+    "modelId": "meta-llama/llama-3.1-8b-instruct",
+    "name": "Meta: Llama 3.1 8B Instruct",
+    "lab": "meta",
+    "at": "2026-11-24T23:56:55.486Z",
+    "field": "completion",
+    "from": 0.04,
+    "to": 0.08,
+    "change": 100
+  },
+  {
     "id": "7a235535a0050137",
     "modelId": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",

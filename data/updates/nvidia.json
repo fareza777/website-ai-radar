@@ -1,5 +1,75 @@
 [
   {
+    "id": "def54c97ba9e3192",
+    "lab": "nvidia",
+    "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
+    "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-24T18:44:05.000Z",
+    "firstSeenAt": "2026-11-24T23:56:55.486Z",
+    "updatedAt": "2026-11-24T18:44:05.000Z",
+    "excerpt": "Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world... Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world foundation model that generates videos from text, images, and other inputs to support physical…",
+    "summary": "Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory.",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 15,
+    "contentHash": "111dcebe428c"
+  },
+  {
+    "id": "f444edec838cebc3",
+    "lab": "nvidia",
+    "title": "Prepare Market Data for Forecasting with NVIDIA Megatron Core",
+    "url": "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-24T17:00:00.000Z",
+    "firstSeenAt": "2026-11-24T23:56:55.486Z",
+    "updatedAt": "2026-11-24T17:00:00.000Z",
+    "excerpt": "Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond. Preparing this data for AI-based market... Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond. Preparing this data for AI-based market forecasting requires turning price and volume histories into consistent inputs for model training and…",
+    "summary": "Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "eed2a7adb409"
+  },
+  {
+    "id": "2578d40f6bb872f6",
+    "lab": "nvidia",
+    "title": "What’s New for Game Developers: AI Animation and RTX Tools",
+    "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools",
+    "sourceId": "nvidia-dev-blog",
+    "sourceName": "NVIDIA Technical Blog",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-24T17:00:00.000Z",
+    "firstSeenAt": "2026-11-24T23:56:55.486Z",
+    "updatedAt": "2026-11-24T17:00:00.000Z",
+    "excerpt": "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image... This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image quality, performance, and creative intent. This post covers: In an interview, Gaijin Entertainment shares…",
+    "summary": "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image...",
+    "benefit": "Developer tooling release — update for the latest fixes, features, and compatibility.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "multimodal"
+    ],
+    "importance": 30,
+    "contentHash": "ec6fae3d8af8"
+  },
+  {
     "id": "31618e0c886ff009",
     "lab": "nvidia",
     "title": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo",
@@ -542,10 +612,10 @@
     "tags": [
       "4B"
     ],
-    "importance": 84,
+    "importance": 85,
     "contentHash": "f07de344f3a8",
     "meta": {
-      "likes": 270,
+      "likes": 283,
       "downloads": 2157,
       "repo": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
       "pipeline": "text-generation",
@@ -2753,7 +2823,7 @@
     "importance": 69,
     "contentHash": "08356dcbd0c7",
     "meta": {
-      "likes": 215,
+      "likes": 216,
       "downloads": 52767,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "pipeline": "image-text-to-text",
@@ -2980,7 +3050,7 @@
     "importance": 75,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 1495,
+      "likes": 1509,
       "downloads": 196409,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
