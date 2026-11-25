@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T08:47:27.753Z",
+  "generatedAt": "2026-11-25T19:24:45.184Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -95,7 +95,6 @@
         "MLQ.ai",
         "Business Standard",
         "www.trendingtopics.eu",
-        "Geeky Gadgets",
         "Alibaba Group",
         "shattered.io",
         "MarkTechPost",
@@ -118,6 +117,7 @@
         "Intelligent Living",
         "The Edge Malaysia",
         "TNGlobal",
+        "KLGadgetGuy",
         "Vietnam.vn",
         "SoyaCincau"
       ],
@@ -131,28 +131,31 @@
       "importance": 72
     },
     {
-      "id": "zai:a375013efa7b6c",
+      "id": "zai:bdf692c9271d94",
       "title": "Z.ai launches GLM-5.4, its first Loop Transformer model",
       "entity": "GLM 5.4",
       "labs": [
         "zai"
       ],
       "official": 0,
-      "press": 15,
+      "press": 14,
       "outlets": [
         "Digg",
         "TechNode",
         "OrcaRouter",
         "Pandaily",
         "Tech in Asia",
-        "XenoSpectrum",
+        "digitimes",
+        "Online Tech Tips",
+        "TestingCatalog AI News",
+        "VentureBeat",
+        "Technology Org",
         "Investing.com",
         "Incrypted",
-        "VentureBeat",
-        "TestingCatalog AI News",
+        "Brief IA",
         "Pasquale Pillitteri",
+        "XenoSpectrum",
         "news.lavx.hu",
-        "Online Tech Tips",
         "Techiexpert.com",
         "The Next Web",
         "Business Upturn",
@@ -161,17 +164,16 @@
         "Fello AI",
         "Wccftech",
         "alphaXiv",
-        "MarkTechPost",
-        "digitimes"
+        "MarkTechPost"
       ],
       "firstAt": "2026-11-18T18:20:30.000Z",
       "lastAt": "2026-11-24T02:35:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "zai:a375013efa7b6c"
+        "id": "zai:bdf692c9271d94"
       },
-      "importance": 68
+      "importance": 69
     },
     {
       "id": "xai:2df581d3f4db49",
@@ -231,9 +233,9 @@
         "TradingView",
         "Unite.AI",
         "PR Newswire UK",
+        "Telugu Times",
         "https://www.indiagazette.com/",
         "PR Newswire",
-        "Telugu Times",
         "The Tribune",
         "CXOToday.com",
         "ANI News",
@@ -251,6 +253,40 @@
         "id": "cohere:2a48f783b658e3"
       },
       "importance": 65
+    },
+    {
+      "id": "mistral:54e082bc1797ed",
+      "title": "Deutsche Telekom invests €100 million in France's Mistral AI",
+      "entity": null,
+      "labs": [
+        "mistral"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "ad-hoc-news.de",
+        "Telecompaper",
+        "Mobile Europe",
+        "WSJ",
+        "TradingView",
+        "www.trendingtopics.eu",
+        "W.Media",
+        "marketscreener.com",
+        "MLQ.ai",
+        "Yahoo Finance",
+        "Techzine Global",
+        "jawlah.co",
+        "Data Center Dynamics",
+        "UA.NEWS"
+      ],
+      "firstAt": "2026-11-19T08:18:22.000Z",
+      "lastAt": "2026-11-19T09:32:24.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeDlaMkg4aHFHS056Z2hfSXRCLXdTdTBoRXlqN1U4ZWNNRnpGaVBsNTJxQW5ZQmFBcEtod1BMQmt4UWZLbF92aG1tcFJtaExrd0NLX1NyYkRYejNFMzFOd0djc1BITWRBR2VRYW1vWGNDZWlHMFMtYmVmcWk1Ynd2b1E5UWdaTzRCSXVlTXZIRjhWSzRHRlJLOWwzZmdyOTdILWYzWXB0djdGMDlieWladmItZEdrbGNTRHF3ek13SDJTZnpyTHZyaQ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "mistral:54e082bc1797ed"
+      },
+      "importance": 64
     },
     {
       "id": "baidu:df7e6af558ae11",
@@ -356,6 +392,30 @@
       "importance": 57
     },
     {
+      "id": "deepseek:c9f67f07f8f519",
+      "title": "DeepSeek Founder’s Fortune Jumps to $55 Billion After Fundraising",
+      "entity": null,
+      "labs": [
+        "deepseek"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "The Malaysian Reserve",
+        "Bloomberg.com",
+        "Howl.Link",
+        "PRESS Insider"
+      ],
+      "firstAt": "2026-11-23T22:00:00.000Z",
+      "lastAt": "2026-11-24T11:15:40.000Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS2g3RTUyekt0X3psZHZVVlpWLW9sSVI4V24tdUg0RlBqYV82QnpSWFp6Y2JtZlEyRTlCWUI4djBEeERtM3hCN19GaDVrQnQzdDk4T1lQcXU4MnJFSVhULVYxbFdWT3FUV25DVXY2TkZVVUNZYzlJSk9ndm5qYUpQU1NNNGQ2TzVlSVJGYXNyckhFWFUtSUNpbzIyUDJaalJUUTFoaldvenRSNGJ2aXE4Q0N3?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "deepseek:c9f67f07f8f519"
+      },
+      "importance": 56
+    },
+    {
       "id": "openai:ba4322098de37e",
       "title": "Scoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release",
       "entity": null,
@@ -384,7 +444,7 @@
       {
         "name": "Gemini 4 Neon",
         "count": 27,
-        "prev": 0,
+        "prev": 1,
         "labs": [
           "google-deepmind"
         ]
@@ -392,20 +452,20 @@
       {
         "name": "GLM 5.4",
         "count": 19,
-        "prev": 1,
+        "prev": 2,
         "labs": []
       },
       {
         "name": "ERNIE 5.5 Flash",
-        "count": 8,
-        "prev": 8,
+        "count": 7,
+        "prev": 7,
         "labs": [
           "baidu"
         ]
       },
       {
         "name": "Qwen 4 Max",
-        "count": 5,
+        "count": 6,
         "prev": 35,
         "labs": []
       },
@@ -413,6 +473,12 @@
         "name": "Granite 4.2 3B",
         "count": 4,
         "prev": 0,
+        "labs": []
+      },
+      {
+        "name": "GLM 5.3",
+        "count": 4,
+        "prev": 1,
         "labs": []
       },
       {
@@ -424,12 +490,6 @@
         ]
       },
       {
-        "name": "GLM 5.3",
-        "count": 3,
-        "prev": 2,
-        "labs": []
-      },
-      {
         "name": "DeepSeek 4.1 Pro",
         "count": 3,
         "prev": 3,
@@ -439,15 +499,15 @@
     "topics": [
       {
         "name": "agents",
-        "count": 44,
-        "prev": 81,
+        "count": 41,
+        "prev": 84,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
           "meta",
-          "cohere",
+          "openai",
           "qwen",
+          "cohere",
           "microsoft",
           "amazon",
           "nvidia"
@@ -456,44 +516,44 @@
       {
         "name": "coding",
         "count": 31,
-        "prev": 52,
+        "prev": 51,
         "labs": [
           "anthropic",
-          "openai",
           "google-deepmind",
-          "cohere",
+          "openai",
           "qwen",
-          "microsoft",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
-        "name": "multimodal",
-        "count": 12,
-        "prev": 20,
-        "labs": [
-          "anthropic",
-          "openai",
-          "google-deepmind",
           "cohere",
-          "tencent",
-          "amazon",
+          "microsoft",
           "ibm",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "mcp",
-        "count": 11,
-        "prev": 8,
+        "count": 10,
+        "prev": 9,
         "labs": [
           "anthropic",
-          "openai",
           "mistral",
+          "openai",
           "microsoft",
           "amazon"
+        ]
+      },
+      {
+        "name": "multimodal",
+        "count": 10,
+        "prev": 22,
+        "labs": [
+          "anthropic",
+          "google-deepmind",
+          "openai",
+          "cohere",
+          "tencent",
+          "ibm",
+          "amazon",
+          "nvidia"
         ]
       },
       {
@@ -508,13 +568,13 @@
       },
       {
         "name": "audio",
-        "count": 6,
+        "count": 5,
         "prev": 4,
         "labs": [
-          "openai",
           "google-deepmind",
-          "amazon",
-          "ibm"
+          "openai",
+          "ibm",
+          "amazon"
         ]
       },
       {
@@ -522,9 +582,9 @@
         "count": 5,
         "prev": 7,
         "labs": [
-          "openai",
           "google-deepmind",
           "mistral",
+          "openai",
           "qwen",
           "microsoft",
           "amazon",
@@ -538,13 +598,32 @@
         "labs": [
           "openai",
           "microsoft",
-          "amazon",
-          "ibm"
+          "ibm",
+          "amazon"
         ]
       }
     ]
   },
   "unconfirmed": [
+    {
+      "id": "zai:bdf692c9271d94",
+      "lab": "zai",
+      "title": "Z.ai launches GLM-5.4, its first Loop Transformer model",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5",
+      "outlets": [
+        "digitimes",
+        "Online Tech Tips",
+        "TestingCatalog AI News",
+        "VentureBeat",
+        "Technology Org",
+        "Investing.com",
+        "Incrypted",
+        "Brief IA",
+        "Pasquale Pillitteri"
+      ],
+      "reports": 9,
+      "at": "2026-11-23T10:34:45.000Z"
+    },
     {
       "id": "zai:22ee7c816dc712",
       "lab": "zai",
@@ -579,6 +658,18 @@
       "at": "2026-11-23T10:34:45.000Z"
     },
     {
+      "id": "xai:b2921375949a2e",
+      "lab": "xai",
+      "title": "Three xAI co-founders launch Epochal to teach AI to predict the future",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51WmVFakRuTTlobWV4OUQzTTdHd3NYbDRpRmRuZU04bVRkVkp1RlZ6RldzUFJrZFNRVjlram9xVC1VbEFkYXdFX3dyQzlkcGNKZlh0MjQwMFhMOWE2U3BRWEhfZV8yU1lGc3dReHBaTG1INmhhaEN1ZVVsNGx1eVU?oc=5",
+      "outlets": [
+        "The Next Web",
+        "The Rundown AI"
+      ],
+      "reports": 2,
+      "at": "2026-11-24T20:11:36.000Z"
+    },
+    {
       "id": "xai:b44f48a28347d4",
       "lab": "xai",
       "title": "XAI Founders Unveil New AI Startup to Predict Future Events",
@@ -589,18 +680,6 @@
       ],
       "reports": 2,
       "at": "2026-11-24T16:50:00.000Z"
-    },
-    {
-      "id": "zai:bdf692c9271d94",
-      "lab": "zai",
-      "title": "Z.ai releases GLM-5.4 with a Loop Transformer architecture",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54OXVWc29pakJ0TVc5UHQxSXUzZU1ReHlmc3I4ZlE5NXRvbUVpLW5TV2xBWFE1eV84d0FUTWtKdGVraDhQckRRQXNMVjg0Nk1oWXYwMGhmR2h1S284eFl6U0VNN19VYzNiQldFMHp2aw?oc=5",
-      "outlets": [
-        "digitimes",
-        "Online Tech Tips"
-      ],
-      "reports": 2,
-      "at": "2026-11-23T22:26:27.000Z"
     },
     {
       "id": "zai:3096e7dcfde6d1",

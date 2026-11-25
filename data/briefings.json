@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-11-26",
+    "generatedAt": "2026-11-25T19:24:45.184Z",
+    "stats": {
+      "updates24h": 7,
+      "labsActive24h": 3,
+      "updates7d": 133,
+      "newModels7d": 30
+    },
+    "source": "template",
+    "headline": "7 updates from 3 AI labs in the last 24 hours · 30 model releases this week.",
+    "bullets": [
+      {
+        "text": "Anthropic: Migrating our Messages API to Rust",
+        "itemId": "07e4d185180e82a5",
+        "lab": "anthropic"
+      },
+      {
+        "text": "Amazon: Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
+        "itemId": "276bda52e5b901ce",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: AWS CloudFormation makes resource coverage comprehensive with 206 new types",
+        "itemId": "66544a659dde9a8e",
+        "lab": "amazon"
+      },
+      {
+        "text": "IBM: Docling v2.153.0",
+        "itemId": "6c41a1e90cfe6448",
+        "lab": "ibm"
+      },
+      {
+        "text": "Anthropic: Claude Agent SDK (Python) v0.2.189",
+        "itemId": "e2df9691d44eeffa",
+        "lab": "anthropic"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "generatedAt": "2026-11-25T08:47:27.753Z",
     "stats": {
@@ -1157,50 +1196,6 @@
         "text": "IBM: LLMON-Benchmarks",
         "itemId": "86db3b0a08ce88a7",
         "lab": "ibm"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-27",
-    "generatedAt": "2026-10-27T15:25:14.259Z",
-    "stats": {
-      "updates24h": 16,
-      "labsActive24h": 9,
-      "updates7d": 162,
-      "newModels7d": 42
-    },
-    "source": "template",
-    "headline": "16 updates from 9 AI labs in the last 24 hours · 42 model releases this week.",
-    "bullets": [
-      {
-        "text": "OpenAI: Greptile takes bug detection beyond code review with GPT-6 Astra",
-        "itemId": "250e5d8f302445e7",
-        "lab": "openai"
-      },
-      {
-        "text": "Amazon: OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
-        "itemId": "c7498dd5644029b2",
-        "lab": "amazon"
-      },
-      {
-        "text": "IBM: IBM and Kaggle launch Java framework migration leaderboard",
-        "itemId": "e4fae318cc13558f",
-        "lab": "ibm"
-      },
-      {
-        "text": "Meta AI: Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
-        "itemId": "9401fe00400266b3",
-        "lab": "meta"
-      },
-      {
-        "text": "Amazon: Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
-        "itemId": "0f715e1693d7c6b7",
-        "lab": "amazon"
-      },
-      {
-        "text": "Microsoft: Scale reservoir uncertainty analysis with agile reservoir modeling",
-        "itemId": "a1fd010ba46270e7",
-        "lab": "microsoft"
       }
     ]
   }

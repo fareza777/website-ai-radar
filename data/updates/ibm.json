@@ -1,5 +1,32 @@
 [
   {
+    "id": "6c41a1e90cfe6448",
+    "lab": "ibm",
+    "title": "Docling v2.153.0",
+    "url": "https://github.com/docling-project/docling/releases/tag/v2.153.0",
+    "sourceId": "docling",
+    "sourceName": "GitHub · docling-project/docling",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-25T15:32:37.000Z",
+    "firstSeenAt": "2026-11-25T19:24:45.184Z",
+    "updatedAt": "2026-11-25T15:32:37.000Z",
+    "excerpt": "Feature pdf: Expose docling-parse do_char_normalization in PdfBackendOptions ( #5541 ) ( 3f95a7c ) Fix email: Follow-up fixes for the 'format=flowed' support ( #5557 ) ( 0521b43 ) uspto: Put table cells with sub- or superscripts in rich cells ( #5236 ) ( ec4ac75 ) msword: Keep the sign of a negative drawing position ( #4292 ) ( 8dec7e1 ) email: Join the soft line breaks of format=flowed text ( #5500 ) ( 240f460 )…",
+    "summary": "IBM shipped Docling v2.153.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [],
+    "importance": 40,
+    "contentHash": "74f2b2e85a23",
+    "meta": {
+      "version": "v2.153.0",
+      "semver": "minor",
+      "repo": "docling-project/docling"
+    }
+  },
+  {
     "id": "d813b0f4c75929f1",
     "lab": "ibm",
     "title": "Celebrating the Genesis Mission's First Anniversary",
@@ -1064,7 +1091,7 @@
     "contentHash": "b3f73903e073",
     "meta": {
       "likes": 55,
-      "downloads": 5394,
+      "downloads": 5356,
       "repo": "ibm-granite/granite-switch-4.1-8b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1095,7 +1122,7 @@
     "contentHash": "6f6f69225449",
     "meta": {
       "likes": 47,
-      "downloads": 4423,
+      "downloads": 4355,
       "repo": "ibm-granite/granite-switch-4.1-30b",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1309,7 +1336,7 @@
     "contentHash": "a598e14a409a",
     "meta": {
       "likes": 86,
-      "downloads": 11373,
+      "downloads": 11826,
       "repo": "ibm-granite/granite-speech-5.0-2b",
       "pipeline": "automatic-speech-recognition",
       "license": "apache-2.0"
@@ -1540,7 +1567,7 @@
     "contentHash": "e90d15ccd854",
     "meta": {
       "likes": 20,
-      "downloads": 1490,
+      "downloads": 1543,
       "repo": "ibm-granite/granite-4.1-8b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"
@@ -1571,7 +1598,7 @@
     "contentHash": "4a790aae3abc",
     "meta": {
       "likes": 18,
-      "downloads": 2358,
+      "downloads": 2454,
       "repo": "ibm-granite/granite-4.1-3b-llmon-preview",
       "pipeline": "text-generation",
       "license": "apache-2.0"

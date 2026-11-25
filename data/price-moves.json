@@ -1,5 +1,71 @@
 [
   {
+    "id": "2bb7503314ec85db",
+    "modelId": "deepseek/deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "lab": "deepseek",
+    "at": "2026-11-25T19:24:45.184Z",
+    "field": "prompt",
+    "from": 0.2156,
+    "to": 0.44,
+    "change": 104.1
+  },
+  {
+    "id": "e63404576fc7c704",
+    "modelId": "deepseek/deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "lab": "deepseek",
+    "at": "2026-11-25T19:24:45.184Z",
+    "field": "completion",
+    "from": 0.6468,
+    "to": 1.32,
+    "change": 104.1
+  },
+  {
+    "id": "20c71af44cd8744c",
+    "modelId": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "lab": "qwen",
+    "at": "2026-11-25T19:24:45.184Z",
+    "field": "prompt",
+    "from": 0.05,
+    "to": 0.1,
+    "change": 100
+  },
+  {
+    "id": "a6ae36cf9b84e00a",
+    "modelId": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "lab": "qwen",
+    "at": "2026-11-25T19:24:45.184Z",
+    "field": "completion",
+    "from": 0.7,
+    "to": 0.89,
+    "change": 27.1
+  },
+  {
+    "id": "239d185f9eabe02b",
+    "modelId": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "lab": "minimax",
+    "at": "2026-11-25T19:24:45.184Z",
+    "field": "prompt",
+    "from": 0.27,
+    "to": 0.3,
+    "change": 11.1
+  },
+  {
+    "id": "a7a15f07034b7e43",
+    "modelId": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "lab": "minimax",
+    "at": "2026-11-25T19:24:45.184Z",
+    "field": "completion",
+    "from": 0.95,
+    "to": 1.2,
+    "change": 26.3
+  },
+  {
     "id": "4f4c88369eacd590",
     "modelId": "inclusionai/ling-3.1-flash",
     "name": "inclusionAI: Ling 3.1 Flash",

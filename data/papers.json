@@ -1,13 +1,72 @@
 [
   {
+    "id": "2611.25403",
+    "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
+    "url": "https://huggingface.co/papers/2611.25403",
+    "summary": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route. Antom 3-in-1 Transformer is pretrained to learn reusable behavioral and relational representations, primarily on Ant International's internal payment…",
+    "publishedAt": "2026-11-19T00:00:00.000Z",
+    "submittedAt": "2026-11-25T00:00:00.000Z",
+    "upvotes": 98,
+    "org": "ant-intl",
+    "firstSeenAt": "2026-11-25T19:24:45.184Z"
+  },
+  {
+    "id": "2611.32884",
+    "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+    "url": "https://huggingface.co/papers/2611.32884",
+    "summary": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several possible answers. An outcome reward at the end of the episode scores only the final answer, so it cannot teach the agent when to commit, because a lucky guess receives the same reward as an answer backed…",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "submittedAt": "2026-11-25T00:00:00.000Z",
+    "upvotes": 87,
+    "org": "nanyangtechnologicaluniversity",
+    "githubRepo": "https://github.com/declare-lab/RLVB",
+    "firstSeenAt": "2026-11-25T19:24:45.184Z"
+  },
+  {
+    "id": "2611.28947",
+    "title": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+    "url": "https://huggingface.co/papers/2611.28947",
+    "summary": "Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own. However, current CUAs lack real-time situational awareness: they perceive the environment through discrete snapshots, and the substantial inference latency of VLMs, compounded by highly dynamic interfaces, opens a…",
+    "publishedAt": "2026-11-21T00:00:00.000Z",
+    "submittedAt": "2026-11-25T00:00:00.000Z",
+    "upvotes": 84,
+    "org": null,
+    "githubRepo": "https://github.com/SuJQ0722/NightWatch",
+    "firstSeenAt": "2026-11-25T19:24:45.184Z"
+  },
+  {
+    "id": "2611.30634",
+    "title": "Rewirable Circuits in Transformers with Loom Attention",
+    "url": "https://huggingface.co/papers/2611.30634",
+    "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-25T00:00:00.000Z",
+    "upvotes": 84,
+    "org": null,
+    "githubRepo": "https://github.com/Caiyun-AI/LoomFormer",
+    "firstSeenAt": "2026-11-25T19:24:45.184Z"
+  },
+  {
     "id": "2611.31205",
     "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
     "url": "https://huggingface.co/papers/2611.31205",
     "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each member reasons and acts for a configurable control group, such as an arm with its gripper or the torso and chassis…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-25T00:00:00.000Z",
-    "upvotes": 49,
+    "upvotes": 61,
     "org": "mmlab-ntu",
+    "firstSeenAt": "2026-11-25T08:47:27.753Z"
+  },
+  {
+    "id": "2611.31358",
+    "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+    "url": "https://huggingface.co/papers/2611.31358",
+    "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects these representations to…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-25T00:00:00.000Z",
+    "upvotes": 51,
+    "org": "nvidia",
+    "lab": "nvidia",
     "firstSeenAt": "2026-11-25T08:47:27.753Z"
   },
   {
@@ -17,10 +76,22 @@
     "summary": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a closed-loop evaluation environment that co-evolves tasks and executable verifiers from rollout…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-25T00:00:00.000Z",
-    "upvotes": 27,
+    "upvotes": 45,
     "org": "tongyi-mai",
     "lab": "qwen",
     "firstSeenAt": "2026-11-25T08:47:27.753Z"
+  },
+  {
+    "id": "2611.28649",
+    "title": "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
+    "url": "https://huggingface.co/papers/2611.28649",
+    "summary": "Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views into one coherent 3D scene and mentally transforming that scene to new viewpoints as reasoning unfolds. Yet our spatial probes reveal that…",
+    "publishedAt": "2026-11-21T00:00:00.000Z",
+    "submittedAt": "2026-11-25T00:00:00.000Z",
+    "upvotes": 41,
+    "org": "nanyangtechnologicaluniversity",
+    "githubRepo": "https://github.com/KANABOON1/S-Mind",
+    "firstSeenAt": "2026-11-25T19:24:45.184Z"
   },
   {
     "id": "2611.32617",
@@ -29,7 +100,7 @@
     "summary": "We present VenusOCR2.0, a compact 1B-parameter vision-language recognizer designed for both high-accuracy and high-throughput document parsing across text, tables, and formulas. To continuously improve recognition quality without self-training collapse, we build a bounded recursive self-improvement (RSI) data engine where the model acts strictly as a weakness probe, while external multi-expert medoid consensus, VLM…",
     "publishedAt": "2026-11-24T00:00:00.000Z",
     "submittedAt": "2026-11-25T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 9,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/flow3rdown/VenusOCR",
@@ -42,7 +113,7 @@
     "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 187,
+    "upvotes": 194,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
@@ -66,7 +137,7 @@
     "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 98,
+    "upvotes": 103,
     "org": "mmlab-ntu",
     "githubRepo": "https://github.com/DravenALG/Embo-Harness",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
@@ -78,9 +149,21 @@
     "summary": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 58,
+    "upvotes": 59,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/OpenDCAI/GameFactory-3A",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z"
+  },
+  {
+    "id": "2611.12164",
+    "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
+    "url": "https://huggingface.co/papers/2611.12164",
+    "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests…",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "submittedAt": "2026-11-24T00:00:00.000Z",
+    "upvotes": 59,
+    "org": "misraj",
+    "githubRepo": "https://github.com/misraj-ai/locfix",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
   },
   {
@@ -90,7 +173,7 @@
     "summary": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as…",
     "publishedAt": "2026-11-22T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 56,
     "org": "thu1911",
     "githubRepo": "https://github.com/Hugo-AGI/nanoAstra",
     "firstSeenAt": "2026-11-24T23:56:55.486Z"
@@ -109,27 +192,15 @@
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
   },
   {
-    "id": "2611.12164",
-    "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
-    "url": "https://huggingface.co/papers/2611.12164",
-    "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests…",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 52,
-    "org": "misraj",
-    "githubRepo": "https://github.com/misraj-ai/locfix",
-    "firstSeenAt": "2026-11-24T13:55:03.267Z"
-  },
-  {
-    "id": "2611.31358",
-    "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
-    "url": "https://huggingface.co/papers/2611.31358",
-    "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects these representations to…",
+    "id": "2611.30254",
+    "title": "Innata-0: A Native Embodied World System with Model-Agent Co-Design",
+    "url": "https://huggingface.co/papers/2611.30254",
+    "summary": "The physical world is open-ended, dynamic, and partially observable. While foundation models have advanced embodied intelligence, standalone models struggle with long-horizon execution, and simply integrating models with agents may lead to inconsistencies between planning and physical control. To support reliable and adaptive behaviors in the physical world, we introduce Innata-0, a native embodied world system…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 51,
-    "org": "nvidia-nemotron",
-    "firstSeenAt": "2026-11-25T08:47:27.753Z"
+    "upvotes": 42,
+    "org": "baai",
+    "firstSeenAt": "2026-11-25T19:24:45.184Z"
   },
   {
     "id": "2611.26389",
@@ -150,7 +221,7 @@
     "summary": "Generative Pre-Training (GPT) represents a profound milestone in natural language processing, serving as the foundation for most of today's state-of-the-art large language models. By casting diverse understanding and generation problems into a shared token representation, GPT enables a single architecture and unified optimization loop to master heterogeneous tasks across massive corpora, giving rise to powerful…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 9,
+    "upvotes": 11,
     "org": "google",
     "lab": "google-deepmind",
     "firstSeenAt": "2026-11-24T23:56:55.486Z"
@@ -162,7 +233,7 @@
     "summary": "Depth-recurrent (Looped) models raise effective depth by applying a shared stack of blocks several times. Scaling them usually requires pipeline parallelism, but commonly used interleaved 1F1B is drawn for an acyclic stage graph in which each micro-batch enters each stage once. Once that stack is split across stages, the same stage is visited several times on one micro-batch and later stages feed earlier ones…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 8,
+    "upvotes": 9,
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
@@ -192,6 +263,18 @@
     "firstSeenAt": "2026-11-23T13:06:33.508Z"
   },
   {
+    "id": "2611.24636",
+    "title": "Clover-35B-A3B-Preview Technical Report",
+    "url": "https://huggingface.co/papers/2611.24636",
+    "summary": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block. Historical memory readout competes with…",
+    "publishedAt": "2026-11-18T00:00:00.000Z",
+    "submittedAt": "2026-11-23T00:00:00.000Z",
+    "upvotes": 45,
+    "org": "diffuspace",
+    "githubRepo": "https://github.com/DiffuSpace/Clover-35B-A3B-Preview",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z"
+  },
+  {
     "id": "2611.26954",
     "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
     "url": "https://huggingface.co/papers/2611.26954",
@@ -204,25 +287,13 @@
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
   },
   {
-    "id": "2611.24636",
-    "title": "Clover-35B-A3B-Preview Technical Report",
-    "url": "https://huggingface.co/papers/2611.24636",
-    "summary": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block. Historical memory readout competes with…",
-    "publishedAt": "2026-11-18T00:00:00.000Z",
-    "submittedAt": "2026-11-23T00:00:00.000Z",
-    "upvotes": 42,
-    "org": "diffuspace",
-    "githubRepo": "https://github.com/DiffuSpace/Clover-35B-A3B-Preview",
-    "firstSeenAt": "2026-11-24T13:55:03.267Z"
-  },
-  {
     "id": "2611.19247",
     "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
     "url": "https://huggingface.co/papers/2611.19247",
     "summary": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gameplay. Generative video models (VMs) now bear on all three. Neural networks already draw most of the pixels in shipped games, and recent world models let a lightweight game engine keep the world state while a VM turns the engine's coarse proxy video into final frames. These systems, however, treat…",
     "publishedAt": "2026-11-14T00:00:00.000Z",
     "submittedAt": "2026-11-23T00:00:00.000Z",
-    "upvotes": 4,
+    "upvotes": 6,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/hebing-sjtu/GameWM",
@@ -235,7 +306,7 @@
     "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation. Through a unified in-context interface, AVM conditions on images or videos to generate short clips along a requested camera path. Visual context grounds reconstruction and interpolation, while a learned prior enables extrapolation into unseen regions. AVM retrieves relevant…",
     "publishedAt": "2026-11-17T00:00:00.000Z",
     "submittedAt": "2026-11-23T00:00:00.000Z",
-    "upvotes": 1,
+    "upvotes": 3,
     "org": "meta",
     "lab": "meta",
     "firstSeenAt": "2026-11-24T02:18:21.824Z"
@@ -259,7 +330,7 @@
     "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 55,
+    "upvotes": 56,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeVisForensics",
@@ -285,7 +356,7 @@
     "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 46,
+    "upvotes": 47,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/yesiltepe-hidir/PMD",
@@ -309,10 +380,22 @@
     "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 41,
+    "upvotes": 42,
     "org": "klingteam",
     "githubRepo": "https://github.com/FrankYang-17/Coda",
     "firstSeenAt": "2026-11-24T02:18:21.824Z"
+  },
+  {
+    "id": "2611.26603",
+    "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+    "url": "https://huggingface.co/papers/2611.26603",
+    "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images…",
+    "publishedAt": "2026-11-19T00:00:00.000Z",
+    "submittedAt": "2026-11-20T00:00:00.000Z",
+    "upvotes": 40,
+    "org": "apple",
+    "githubRepo": "https://github.com/apple-aiml-research/ml-depth-pro-2",
+    "firstSeenAt": "2026-11-25T19:24:45.184Z"
   },
   {
     "id": "2611.25387",
@@ -321,7 +404,7 @@
     "summary": "Humans act in the visual world by inferring the 3D layout behind a 2D view, predicting how an action changes it, and correcting themselves after seeing the result. Can multimodal large language models (MLLMs) do the same? CAPTCHAs offer a natural test, since humans solve them through this very loop, clicking and dragging on the screen and adjusting after each result. Yet existing CAPTCHA benchmarks are largely…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 23,
+    "upvotes": 24,
     "org": "meta",
     "lab": "meta",
     "githubRepo": "https://github.com/os-cua-framework/TuringSpace",
@@ -334,7 +417,7 @@
     "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fixed Top-k applies one budget across different score distributions and couples routing to task granularity; query-range ownership fragments K/V reuse when several ranges select the same column. We…",
     "publishedAt": "2026-11-19T00:00:00.000Z",
     "submittedAt": "2026-11-20T00:00:00.000Z",
-    "upvotes": 15,
+    "upvotes": 17,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/LightningMoBA",
@@ -395,7 +478,7 @@
     "summary": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while reinforcement learning…",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 42,
+    "upvotes": 43,
     "org": "tsinghua",
     "githubRepo": "https://github.com/lijinzhao30/ALIVE",
     "firstSeenAt": "2026-11-20T20:29:58.968Z"
@@ -419,7 +502,7 @@
     "summary": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks. Despite its effectiveness, this paradigm faces two fundamental limitations. First, relying on textual reasoning alone can limit perceptual ability in vision-centric questions, where accurate answers depend on interpreting task-relevant visual evidence. Second, applying textual reasoning uniformly across inputs overlooks…",
     "publishedAt": "2026-11-18T10:05:18.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 9,
+    "upvotes": 10,
     "org": "meta",
     "lab": "meta",
     "githubRepo": "https://github.com/xiaoqian-shen/AVTR",

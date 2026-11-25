@@ -1,5 +1,36 @@
 [
   {
+    "id": "059900695e819cd8",
+    "lab": "amazon",
+    "title": "Strands Agents SDK python v1.67.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.67.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-25T16:26:40.000Z",
+    "firstSeenAt": "2026-11-25T19:24:45.184Z",
+    "updatedAt": "2026-11-25T16:26:40.000Z",
+    "excerpt": "python/v1.67.0 Auto-drafted from commits in python/v1.66.0..python/v1.67.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(decisions): add HttpDecisionModel for any System One HTTP server ( #6395 ) ( d76bf8d ) feat(site): centred docs layout with automatically wider tables and images (…",
+    "summary": "Amazon shipped Strands Agents SDK python v1.67.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "multimodal"
+    ],
+    "importance": 40,
+    "contentHash": "0429d59c6d10",
+    "meta": {
+      "version": "v1.67.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "python"
+    }
+  },
+  {
     "id": "276bda52e5b901ce",
     "lab": "amazon",
     "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
@@ -5923,7 +5954,7 @@
     "contentHash": "f6b52138e9a2",
     "meta": {
       "likes": 16,
-      "downloads": 297,
+      "downloads": 276,
       "repo": "amazon/LAR-27B",
       "license": "apache-2.0"
     }
@@ -6983,7 +7014,7 @@
     "contentHash": "2462e1ba8e00",
     "meta": {
       "likes": 13,
-      "downloads": 734,
+      "downloads": 723,
       "repo": "amazon/ALoDLM-1.7B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
@@ -7014,7 +7045,7 @@
     "contentHash": "48b7b19078e5",
     "meta": {
       "likes": 67,
-      "downloads": 995,
+      "downloads": 972,
       "repo": "amazon/ALoDLM-8B",
       "pipeline": "text-generation",
       "license": "cc-by-nc-4.0"
