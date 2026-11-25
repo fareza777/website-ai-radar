@@ -1,26 +1,50 @@
 [
   {
+    "id": "2611.31205",
+    "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+    "url": "https://huggingface.co/papers/2611.31205",
+    "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each member reasons and acts for a configurable control group, such as an arm with its gripper or the torso and chassis…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-25T00:00:00.000Z",
+    "upvotes": 49,
+    "org": "mmlab-ntu",
+    "firstSeenAt": "2026-11-25T08:47:27.753Z"
+  },
+  {
+    "id": "2611.30962",
+    "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+    "url": "https://huggingface.co/papers/2611.30962",
+    "summary": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a closed-loop evaluation environment that co-evolves tasks and executable verifiers from rollout…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-25T00:00:00.000Z",
+    "upvotes": 27,
+    "org": "tongyi-mai",
+    "lab": "qwen",
+    "firstSeenAt": "2026-11-25T08:47:27.753Z"
+  },
+  {
+    "id": "2611.32617",
+    "title": "VenusOCR2.0: Towards Efficient and Effective Document Parsing",
+    "url": "https://huggingface.co/papers/2611.32617",
+    "summary": "We present VenusOCR2.0, a compact 1B-parameter vision-language recognizer designed for both high-accuracy and high-throughput document parsing across text, tables, and formulas. To continuously improve recognition quality without self-training collapse, we build a bounded recursive self-improvement (RSI) data engine where the model acts strictly as a weakness probe, while external multi-expert medoid consensus, VLM…",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "submittedAt": "2026-11-25T00:00:00.000Z",
+    "upvotes": 6,
+    "org": "tencent",
+    "lab": "tencent",
+    "githubRepo": "https://github.com/flow3rdown/VenusOCR",
+    "firstSeenAt": "2026-11-25T08:47:27.753Z"
+  },
+  {
     "id": "2611.29897",
     "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
     "url": "https://huggingface.co/papers/2611.29897",
     "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 171,
+    "upvotes": 187,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
-    "firstSeenAt": "2026-11-24T13:55:03.267Z"
-  },
-  {
-    "id": "2611.31201",
-    "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
-    "url": "https://huggingface.co/papers/2611.31201",
-    "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying…",
-    "publishedAt": "2026-11-23T00:00:00.000Z",
-    "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 90,
-    "org": "mmlab-ntu",
-    "githubRepo": "https://github.com/DravenALG/Embo-Harness",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
   },
   {
@@ -30,9 +54,21 @@
     "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a common set of 60…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 86,
+    "upvotes": 139,
     "org": "nationaluniversityofsingapore",
     "githubRepo": "https://github.com/xyangzhou/WorldLeague",
+    "firstSeenAt": "2026-11-24T13:55:03.267Z"
+  },
+  {
+    "id": "2611.31201",
+    "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+    "url": "https://huggingface.co/papers/2611.31201",
+    "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-24T00:00:00.000Z",
+    "upvotes": 98,
+    "org": "mmlab-ntu",
+    "githubRepo": "https://github.com/DravenALG/Embo-Harness",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
   },
   {
@@ -42,7 +78,7 @@
     "summary": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 57,
+    "upvotes": 58,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/OpenDCAI/GameFactory-3A",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
@@ -54,8 +90,9 @@
     "summary": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as…",
     "publishedAt": "2026-11-22T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 53,
+    "upvotes": 55,
     "org": "thu1911",
+    "githubRepo": "https://github.com/Hugo-AGI/nanoAstra",
     "firstSeenAt": "2026-11-24T23:56:55.486Z"
   },
   {
@@ -65,7 +102,7 @@
     "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressively raises the…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 52,
+    "upvotes": 54,
     "org": "tencent",
     "lab": "tencent",
     "githubRepo": "https://github.com/Tencent/WeMM-Ecom",
@@ -78,10 +115,45 @@
     "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 51,
+    "upvotes": 52,
     "org": "misraj",
     "githubRepo": "https://github.com/misraj-ai/locfix",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
+  },
+  {
+    "id": "2611.31358",
+    "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+    "url": "https://huggingface.co/papers/2611.31358",
+    "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects these representations to…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-24T00:00:00.000Z",
+    "upvotes": 51,
+    "org": "nvidia-nemotron",
+    "firstSeenAt": "2026-11-25T08:47:27.753Z"
+  },
+  {
+    "id": "2611.26389",
+    "title": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
+    "url": "https://huggingface.co/papers/2611.26389",
+    "summary": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods. We attribute these failures to the conventional video training paradigm, which treats a solution as a fixed-length clip rather than a chain of…",
+    "publishedAt": "2026-11-19T00:00:00.000Z",
+    "submittedAt": "2026-11-24T00:00:00.000Z",
+    "upvotes": 41,
+    "org": "mmlab-ntu",
+    "githubRepo": "https://github.com/Kevin-thu/ViDecide",
+    "firstSeenAt": "2026-11-25T08:47:27.753Z"
+  },
+  {
+    "id": "2611.31209",
+    "title": "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
+    "url": "https://huggingface.co/papers/2611.31209",
+    "summary": "Generative Pre-Training (GPT) represents a profound milestone in natural language processing, serving as the foundation for most of today's state-of-the-art large language models. By casting diverse understanding and generation problems into a shared token representation, GPT enables a single architecture and unified optimization loop to master heterogeneous tasks across massive corpora, giving rise to powerful…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-24T00:00:00.000Z",
+    "upvotes": 9,
+    "org": "google",
+    "lab": "google-deepmind",
+    "firstSeenAt": "2026-11-24T23:56:55.486Z"
   },
   {
     "id": "2611.30581",
@@ -94,18 +166,6 @@
     "org": "tencent",
     "lab": "tencent",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
-  },
-  {
-    "id": "2611.31209",
-    "title": "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
-    "url": "https://huggingface.co/papers/2611.31209",
-    "summary": "Generative Pre-Training (GPT) represents a profound milestone in natural language processing, serving as the foundation for most of today's state-of-the-art large language models. By casting diverse understanding and generation problems into a shared token representation, GPT enables a single architecture and unified optimization loop to master heterogeneous tasks across massive corpora, giving rise to powerful…",
-    "publishedAt": "2026-11-23T00:00:00.000Z",
-    "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 6,
-    "org": "google",
-    "lab": "google-deepmind",
-    "firstSeenAt": "2026-11-24T23:56:55.486Z"
   },
   {
     "id": "2611.27193",
@@ -138,7 +198,7 @@
     "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scalability. We address this with an on-policy self-distillation framework that turns past-future video…",
     "publishedAt": "2026-11-20T00:00:00.000Z",
     "submittedAt": "2026-11-23T00:00:00.000Z",
-    "upvotes": 43,
+    "upvotes": 44,
     "org": "universityatbuffalo",
     "githubRepo": "https://github.com/Jingchensun/future-opsd",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
@@ -311,7 +371,7 @@
     "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single…",
     "publishedAt": "2026-11-18T00:00:00.000Z",
     "submittedAt": "2026-11-19T00:00:00.000Z",
-    "upvotes": 155,
+    "upvotes": 157,
     "org": "nus-dsa3101",
     "githubRepo": "https://github.com/Carol-lyh/Jeveration",
     "firstSeenAt": "2026-11-19T11:51:28.824Z"

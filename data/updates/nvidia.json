@@ -3050,7 +3050,7 @@
     "importance": 75,
     "contentHash": "e0c973a81b2f",
     "meta": {
-      "likes": 1509,
+      "likes": 1514,
       "downloads": 196409,
       "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "pipeline": "text-generation",
@@ -3462,6 +3462,38 @@
     ],
     "importance": 40,
     "contentHash": "f9f70c711826"
+  },
+  {
+    "id": "06c468d10ca7c97e",
+    "lab": "nvidia",
+    "title": "Nemotron-Labs-Image-30B-A3B",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+    "sourceId": "nvidia-hf",
+    "sourceName": "Hugging Face · nvidia",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-09-24T21:13:25.000Z",
+    "firstSeenAt": "2026-11-25T08:47:27.753Z",
+    "updatedAt": "2026-09-24T21:13:25.000Z",
+    "excerpt": "text-to-image · license: other",
+    "summary": "NVIDIA published the Nemotron-Labs-Image-30B-A3B model on Hugging Face for text to image. License: other.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "30B-A3B",
+      "multimodal"
+    ],
+    "importance": 63,
+    "contentHash": "f7e2f549bd6d",
+    "meta": {
+      "likes": 37,
+      "downloads": 7,
+      "repo": "nvidia/Nemotron-Labs-Image-30B-A3B",
+      "pipeline": "text-to-image",
+      "license": "other"
+    }
   },
   {
     "id": "7812c6f721af3a01",

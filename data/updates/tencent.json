@@ -1,5 +1,36 @@
 [
   {
+    "id": "a514e36656a8903c",
+    "lab": "tencent",
+    "title": "OmniEVIE-4B",
+    "url": "https://huggingface.co/tencent/OmniEVIE-4B",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-24T03:16:57.000Z",
+    "firstSeenAt": "2026-11-25T08:47:27.753Z",
+    "updatedAt": "2026-11-24T03:16:57.000Z",
+    "excerpt": "feature-extraction · license: apache-2.0",
+    "summary": "Tencent published the OmniEVIE-4B model on Hugging Face for embeddings. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "4B"
+    ],
+    "importance": 59,
+    "contentHash": "b66cc474955a",
+    "meta": {
+      "likes": 14,
+      "downloads": 7,
+      "repo": "tencent/OmniEVIE-4B",
+      "pipeline": "feature-extraction",
+      "license": "apache-2.0"
+    }
+  },
+  {
     "id": "7fcff7a964fbfee2",
     "lab": "tencent",
     "title": "WeMM-Ecom-35B-A3B",
@@ -24,7 +55,7 @@
     "importance": 60,
     "contentHash": "f1eaa703fece",
     "meta": {
-      "likes": 18,
+      "likes": 19,
       "downloads": 490,
       "repo": "tencent/WeMM-Ecom-35B-A3B",
       "pipeline": "image-text-to-text",
@@ -151,7 +182,7 @@
     "importance": 64,
     "contentHash": "62f4debc2f30",
     "meta": {
-      "likes": 62,
+      "likes": 63,
       "downloads": 663,
       "repo": "tencent/WeMM-Video-35BA3B",
       "pipeline": "video-text-to-text",
@@ -180,10 +211,10 @@
       "4B",
       "multimodal"
     ],
-    "importance": 58,
+    "importance": 59,
     "contentHash": "718249a08493",
     "meta": {
-      "likes": 10,
+      "likes": 11,
       "downloads": 280,
       "repo": "tencent/WePocketModel1.0-4B",
       "pipeline": "image-text-to-text",
@@ -245,7 +276,7 @@
     "importance": 73,
     "contentHash": "0c5e110eebf3",
     "meta": {
-      "likes": 679,
+      "likes": 684,
       "downloads": 9167,
       "repo": "tencent/Hy4-flash",
       "pipeline": "image-text-to-text",
@@ -280,10 +311,10 @@
     "tags": [
       "1.8B"
     ],
-    "importance": 61,
+    "importance": 62,
     "contentHash": "ecc4032f6b6f",
     "meta": {
-      "likes": 22,
+      "likes": 32,
       "downloads": 4,
       "repo": "tencent/Hy-MT3-1.8B",
       "pipeline": "translation",
@@ -311,10 +342,10 @@
     "tags": [
       "7B"
     ],
-    "importance": 60,
+    "importance": 61,
     "contentHash": "549578f9e47d",
     "meta": {
-      "likes": 17,
+      "likes": 20,
       "downloads": 4,
       "repo": "tencent/Hy-MT3-7B",
       "pipeline": "translation",
@@ -342,10 +373,10 @@
     "tags": [
       "30B-A3B"
     ],
-    "importance": 62,
+    "importance": 63,
     "contentHash": "ea0c79d82629",
     "meta": {
-      "likes": 30,
+      "likes": 42,
       "downloads": 8,
       "repo": "tencent/Hy-MT3-30B-A3B",
       "pipeline": "translation",
@@ -402,10 +433,10 @@
     "summarySource": "template",
     "category": "developer",
     "tags": [],
-    "importance": 35,
+    "importance": 36,
     "contentHash": "8894e7b099da",
     "meta": {
-      "stars": 46,
+      "stars": 70,
       "repo": "Tencent-Hunyuan/Hy-MT3",
       "language": "Python"
     }
@@ -459,7 +490,7 @@
     "importance": 40,
     "contentHash": "dfa8335339e5",
     "meta": {
-      "stars": 352,
+      "stars": 359,
       "repo": "Tencent-Hunyuan/MovieRoll",
       "language": "Python"
     }
@@ -541,10 +572,10 @@
     "summarySource": "template",
     "category": "developer",
     "tags": [],
-    "importance": 28,
+    "importance": 29,
     "contentHash": "bb62afa42ffa",
     "meta": {
-      "stars": 2,
+      "stars": 3,
       "repo": "Tencent-Hunyuan/ORAV-Bench",
       "language": "Python"
     }

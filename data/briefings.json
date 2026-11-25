@@ -1,25 +1,20 @@
 [
   {
     "date": "2026-11-25",
-    "generatedAt": "2026-11-24T23:56:55.486Z",
+    "generatedAt": "2026-11-25T08:47:27.753Z",
     "stats": {
-      "updates24h": 21,
-      "labsActive24h": 7,
-      "updates7d": 149,
+      "updates24h": 11,
+      "labsActive24h": 6,
+      "updates7d": 139,
       "newModels7d": 36
     },
     "source": "template",
-    "headline": "21 updates from 7 AI labs in the last 24 hours · 36 model releases this week.",
+    "headline": "11 updates from 6 AI labs in the last 24 hours · 36 model releases this week.",
     "bullets": [
       {
         "text": "OpenAI: GPT-6 models demonstrate intrinsic protein-design capabilities",
         "itemId": "3c6728c1bfd19879",
         "lab": "openai"
-      },
-      {
-        "text": "Amazon: Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
-        "itemId": "f3f6304a8cca8254",
-        "lab": "amazon"
       },
       {
         "text": "NVIDIA: Prepare Market Data for Forecasting with NVIDIA Megatron Core",
@@ -37,9 +32,14 @@
         "lab": "openai"
       },
       {
-        "text": "Anthropic: MCP servers can now ship skills, run tasks, and more with Claude",
-        "itemId": "44f76c8bfa0f2ce8",
-        "lab": "anthropic"
+        "text": "Amazon: Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
+        "itemId": "276bda52e5b901ce",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: AWS CloudFormation makes resource coverage comprehensive with 206 new types",
+        "itemId": "66544a659dde9a8e",
+        "lab": "amazon"
       }
     ]
   },
