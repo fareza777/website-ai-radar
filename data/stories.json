@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T19:24:45.184Z",
+  "generatedAt": "2026-11-26T03:38:56.250Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 23,
+      "press": 24,
       "outlets": [
         "TestingCatalog AI News",
         "The Decoder",
@@ -35,10 +35,11 @@
         "The Rundown AI",
         "OODA Loop",
         "Technology Org",
-        "TechTarget"
+        "TechTarget",
+        "Dealroom"
       ],
       "firstAt": "2026-11-18T10:12:31.000Z",
-      "lastAt": "2026-11-23T22:33:24.000Z",
+      "lastAt": "2026-11-25T11:17:37.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
       "lead": {
         "kind": "official",
@@ -83,13 +84,8 @@
         "tencent"
       ],
       "official": 0,
-      "press": 29,
+      "press": 24,
       "outlets": [
-        "RuntimeWire",
-        "Vals AI",
-        "www.tokenpost.com",
-        "The Defiant",
-        "TechNode",
         "South China Morning Post",
         "news.lavx.hu",
         "MLQ.ai",
@@ -121,14 +117,14 @@
         "Vietnam.vn",
         "SoyaCincau"
       ],
-      "firstAt": "2026-11-16T02:25:00.000Z",
+      "firstAt": "2026-11-16T03:56:53.000Z",
       "lastAt": "2026-11-23T03:02:34.000Z",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0llVDN6V1dUODNxdTUtajZ6aElDeUp1cXc3UzdnS0JEbVpTZTJ2cVdFS0VtQV83TmdMRU55RGZSU3dfTF9rYVBGcGN6VzRCREJhMGdVeU9EMmVkUjR6TnVsSmdtcGpfdC00UUFoaC00VG9tZHBXZHZlUUF2Y0dTNVd2eDdIbkhKeFVuQVcyeU1MQQ?oc=5",
       "lead": {
         "kind": "press",
         "id": "qwen:075ae9bbb51baf"
       },
-      "importance": 72
+      "importance": 71
     },
     {
       "id": "zai:bdf692c9271d94",
@@ -176,7 +172,7 @@
       "importance": 69
     },
     {
-      "id": "xai:2df581d3f4db49",
+      "id": "xai:999bc2d66b53f2",
       "title": "Virginia, Oregon sue Musk's SpaceX over Grok AI's creation of child sexual abuse images and videos",
       "entity": null,
       "labs": [
@@ -199,21 +195,22 @@
         "Bradenton Herald",
         "Miami Herald",
         "Sacramento Bee",
-        "Anadolu Ajansı",
-        "Wichita Eagle",
-        "Red Lake Nation News",
-        "Kansas City Star",
         "shattered.io",
         "Cleveland.com",
         "KTLA",
-        "Patch"
+        "Patch",
+        "Red Lake Nation News",
+        "Anadolu Ajansı",
+        "Wichita Eagle",
+        "Kansas City Star",
+        "Mahoning Matters"
       ],
       "firstAt": "2026-11-23T12:08:41.000Z",
-      "lastAt": "2026-11-23T12:18:21.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYmRPdi1uSkoyOFBOM2ZtWU5fTkxldUlHX3VzeXROU1lwS01FRnZGLUczYkZvc1V6OFByOFI5Z2lLYkx0eG5wOFY1c0luTndLQ1dycjBqdnVBRnkyQU00bk1BeFQ3RGhWZVg5LXgyS1VuNzFsSTVHbVdIT2x1M1RrYUdDdmFwN0xJWXVZaVRFbmROWFc3dWJDUFpXSjNZTDJzZ3lzbnZsSU15SV8tTG9xVUsxWnRCMk41VXVuR1hSbW4yYmlBazRfZWFFUllWNEhhRXRkdnJxME4?oc=5",
+      "lastAt": "2026-11-23T12:14:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRFpfYWp1aUk4MUdKYnhtcWd5Qm1URWZFRHRObGVyODg4aUhqeVo2SW5vVkpHTzdqaFJOcTR4Z25kN0RqS3VIVXlUZzVMcFYyVlQwYzFQbElKcjZ0UmlOcUQ5clVaSFl3OHFONXQ1UkdJSmwwWGJSbVJCUWw5TXF1ZA?oc=5",
       "lead": {
         "kind": "press",
-        "id": "xai:2df581d3f4db49"
+        "id": "xai:999bc2d66b53f2"
       },
       "importance": 68
     },
@@ -253,40 +250,6 @@
         "id": "cohere:2a48f783b658e3"
       },
       "importance": 65
-    },
-    {
-      "id": "mistral:54e082bc1797ed",
-      "title": "Deutsche Telekom invests €100 million in France's Mistral AI",
-      "entity": null,
-      "labs": [
-        "mistral"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "ad-hoc-news.de",
-        "Telecompaper",
-        "Mobile Europe",
-        "WSJ",
-        "TradingView",
-        "www.trendingtopics.eu",
-        "W.Media",
-        "marketscreener.com",
-        "MLQ.ai",
-        "Yahoo Finance",
-        "Techzine Global",
-        "jawlah.co",
-        "Data Center Dynamics",
-        "UA.NEWS"
-      ],
-      "firstAt": "2026-11-19T08:18:22.000Z",
-      "lastAt": "2026-11-19T09:32:24.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeDlaMkg4aHFHS056Z2hfSXRCLXdTdTBoRXlqN1U4ZWNNRnpGaVBsNTJxQW5ZQmFBcEtod1BMQmt4UWZLbF92aG1tcFJtaExrd0NLX1NyYkRYejNFMzFOd0djc1BITWRBR2VRYW1vWGNDZWlHMFMtYmVmcWk1Ynd2b1E5UWdaTzRCSXVlTXZIRjhWSzRHRlJLOWwzZmdyOTdILWYzWXB0djdGMDlieWladmItZEdrbGNTRHF3ek13SDJTZnpyTHZyaQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "mistral:54e082bc1797ed"
-      },
-      "importance": 64
     },
     {
       "id": "baidu:df7e6af558ae11",
@@ -342,31 +305,6 @@
       "importance": 58
     },
     {
-      "id": "google-deepmind:b1fedbc3e0e274",
-      "title": "Google adds Gemini 4 Carbon to free AI access program for 10,000 scientists",
-      "entity": "Gemini 4 Carbon",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 5,
-      "outlets": [
-        "EdTech Innovation Hub",
-        "Search Engine Roundtable",
-        "shattered.io",
-        "Small Business Trends",
-        "9to5Google"
-      ],
-      "firstAt": "2026-11-16T00:02:11.000Z",
-      "lastAt": "2026-11-23T21:16:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVTl0ZVliY3J3SWtTWkdPYk9WYnRjcy0wYWxUNFFXeWhtaVJPZDB1LTh4dTI2RTlEZjhwLV9QWXc0cUZJajVsOGQ5RFdMZHYtRDVlMTJOLUx4ekdCTWtoNjhhVUxyZzBEVV9wazlCdi1XdUU5YU14RFdUd1VhX2ZUbS1OTFdtRTBnV3pUZFNYclFmajdHX0lfQXgwQjJjTENKZUZQekNLVUVrUW1hRXc1b3ZsSWxtdw?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:b1fedbc3e0e274"
-      },
-      "importance": 57
-    },
-    {
       "id": "deepseek:b174677ed95a31",
       "title": "Lebrel Brings Uncensored DeepSeek V4.1 Flash From $0.13 per",
       "entity": "DeepSeek 4.1 Flash",
@@ -392,26 +330,26 @@
       "importance": 57
     },
     {
-      "id": "deepseek:c9f67f07f8f519",
-      "title": "DeepSeek Founder’s Fortune Jumps to $55 Billion After Fundraising",
-      "entity": null,
+      "id": "google-deepmind:f801a0d731f0b3",
+      "title": "Google AI Mode Drops Gemini Label & Rolls Out Gemini 4 Carbon To Pro Subs",
+      "entity": "Gemini 4 Carbon",
       "labs": [
-        "deepseek"
+        "google-deepmind"
       ],
       "official": 0,
-      "press": 2,
+      "press": 4,
       "outlets": [
-        "The Malaysian Reserve",
-        "Bloomberg.com",
-        "Howl.Link",
-        "PRESS Insider"
+        "Search Engine Roundtable",
+        "shattered.io",
+        "Small Business Trends",
+        "9to5Google"
       ],
-      "firstAt": "2026-11-23T22:00:00.000Z",
-      "lastAt": "2026-11-24T11:15:40.000Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS2g3RTUyekt0X3psZHZVVlpWLW9sSVI4V24tdUg0RlBqYV82QnpSWFp6Y2JtZlEyRTlCWUI4djBEeERtM3hCN19GaDVrQnQzdDk4T1lQcXU4MnJFSVhULVYxbFdWT3FUV25DVXY2TkZVVUNZYzlJSk9ndm5qYUpQU1NNNGQ2TzVlSVJGYXNyckhFWFUtSUNpbzIyUDJaalJUUTFoaldvenRSNGJ2aXE4Q0N3?oc=5",
+      "firstAt": "2026-11-16T12:51:00.000Z",
+      "lastAt": "2026-11-23T21:16:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YUk13Q2VPd2ZQZlNlVlUwY2htSDhWZUNWYWJjMHZmNUxibk84TzRrQmxodmh0dXBxUFZfMm5VQUh1SjhGRDR6Rk96T0k5Rkxybl9jdkh1RE9EeUg1Sm9udEVXS1FkSGJCZ2ZMSWhVSUVIVmNJaXZQcTB4QUdIZw?oc=5",
       "lead": {
         "kind": "press",
-        "id": "deepseek:c9f67f07f8f519"
+        "id": "google-deepmind:f801a0d731f0b3"
       },
       "importance": 56
     },
@@ -442,18 +380,18 @@
   "trending": {
     "entities": [
       {
+        "name": "GLM 5.4",
+        "count": 18,
+        "prev": 3,
+        "labs": []
+      },
+      {
         "name": "Gemini 4 Neon",
-        "count": 27,
-        "prev": 1,
+        "count": 14,
+        "prev": 15,
         "labs": [
           "google-deepmind"
         ]
-      },
-      {
-        "name": "GLM 5.4",
-        "count": 19,
-        "prev": 2,
-        "labs": []
       },
       {
         "name": "ERNIE 5.5 Flash",
@@ -465,14 +403,8 @@
       },
       {
         "name": "Qwen 4 Max",
-        "count": 6,
-        "prev": 35,
-        "labs": []
-      },
-      {
-        "name": "Granite 4.2 3B",
-        "count": 4,
-        "prev": 0,
+        "count": 5,
+        "prev": 36,
         "labs": []
       },
       {
@@ -484,10 +416,14 @@
       {
         "name": "DeepSeek 4.1 Flash",
         "count": 4,
-        "prev": 9,
-        "labs": [
-          "amazon"
-        ]
+        "prev": 8,
+        "labs": []
+      },
+      {
+        "name": "Granite 4.2 3B",
+        "count": 3,
+        "prev": 1,
+        "labs": []
       },
       {
         "name": "DeepSeek 4.1 Pro",
@@ -499,44 +435,44 @@
     "topics": [
       {
         "name": "agents",
-        "count": 41,
-        "prev": 84,
+        "count": 37,
+        "prev": 81,
         "labs": [
           "anthropic",
           "google-deepmind",
-          "meta",
           "openai",
-          "qwen",
-          "cohere",
+          "meta",
           "microsoft",
-          "amazon",
-          "nvidia"
+          "cohere",
+          "qwen",
+          "nvidia",
+          "amazon"
         ]
       },
       {
         "name": "coding",
-        "count": 31,
-        "prev": 51,
+        "count": 28,
+        "prev": 50,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "qwen",
-          "cohere",
           "microsoft",
+          "cohere",
+          "qwen",
           "ibm",
-          "amazon",
-          "nvidia"
+          "nvidia",
+          "amazon"
         ]
       },
       {
         "name": "mcp",
         "count": 10,
-        "prev": 9,
+        "prev": 8,
         "labs": [
           "anthropic",
-          "mistral",
           "openai",
+          "mistral",
           "microsoft",
           "amazon"
         ]
@@ -544,21 +480,45 @@
       {
         "name": "multimodal",
         "count": 10,
-        "prev": 22,
+        "prev": 21,
         "labs": [
-          "anthropic",
           "google-deepmind",
           "openai",
           "cohere",
           "tencent",
           "ibm",
-          "amazon",
-          "nvidia"
+          "nvidia",
+          "amazon"
+        ]
+      },
+      {
+        "name": "reasoning",
+        "count": 5,
+        "prev": 6,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "mistral",
+          "microsoft",
+          "qwen",
+          "nvidia",
+          "amazon"
+        ]
+      },
+      {
+        "name": "audio",
+        "count": 4,
+        "prev": 5,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "ibm",
+          "amazon"
         ]
       },
       {
         "name": "safety",
-        "count": 6,
+        "count": 3,
         "prev": 11,
         "labs": [
           "anthropic",
@@ -567,34 +527,9 @@
         ]
       },
       {
-        "name": "audio",
-        "count": 5,
-        "prev": 4,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "ibm",
-          "amazon"
-        ]
-      },
-      {
-        "name": "reasoning",
-        "count": 5,
-        "prev": 7,
-        "labs": [
-          "google-deepmind",
-          "mistral",
-          "openai",
-          "qwen",
-          "microsoft",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "open-source",
-        "count": 4,
-        "prev": 5,
+        "count": 3,
+        "prev": 4,
         "labs": [
           "openai",
           "microsoft",
@@ -658,6 +593,19 @@
       "at": "2026-11-23T10:34:45.000Z"
     },
     {
+      "id": "xai:b44f48a28347d4",
+      "lab": "xai",
+      "title": "XAI Founders Unveil New AI Startup to Predict Future Events",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTGtZa3k3Qzc3dzRHeFJVbFRMU2xUTVUxS3BST3kyaWp1ZFVHSGttMGZWcW5HTVFzdktESm1MeTBacTg2MVJnVWlNdjBENTBhSllva0pVdmhscjlOUDEtT1RFalZIREMzMXB1WHc3V1JPejFFOE1YNE8yX1NZOS1UbEp4S1ZtOFZvOFpBcHFwWmhoZTQwWl82QV9CYVhtV09pTk9rd1d4amNQVlgzdGJj?oc=5",
+      "outlets": [
+        "Bloomberg.com",
+        "Yahoo Finance",
+        "Yahoo Finance UK"
+      ],
+      "reports": 3,
+      "at": "2026-11-24T16:50:00.000Z"
+    },
+    {
       "id": "xai:b2921375949a2e",
       "lab": "xai",
       "title": "Three xAI co-founders launch Epochal to teach AI to predict the future",
@@ -668,18 +616,6 @@
       ],
       "reports": 2,
       "at": "2026-11-24T20:11:36.000Z"
-    },
-    {
-      "id": "xai:b44f48a28347d4",
-      "lab": "xai",
-      "title": "XAI Founders Unveil New AI Startup to Predict Future Events",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTGtZa3k3Qzc3dzRHeFJVbFRMU2xUTVUxS3BST3kyaWp1ZFVHSGttMGZWcW5HTVFzdktESm1MeTBacTg2MVJnVWlNdjBENTBhSllva0pVdmhscjlOUDEtT1RFalZIREMzMXB1WHc3V1JPejFFOE1YNE8yX1NZOS1UbEp4S1ZtOFZvOFpBcHFwWmhoZTQwWl82QV9CYVhtV09pTk9rd1d4amNQVlgzdGJj?oc=5",
-      "outlets": [
-        "Bloomberg.com",
-        "Yahoo Finance"
-      ],
-      "reports": 2,
-      "at": "2026-11-24T16:50:00.000Z"
     },
     {
       "id": "zai:3096e7dcfde6d1",

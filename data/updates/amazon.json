@@ -1,5 +1,36 @@
 [
   {
+    "id": "351ce2751f2a5a6d",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-cli v0.5.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.5.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-25T22:23:42.000Z",
+    "firstSeenAt": "2026-11-26T03:38:56.250Z",
+    "updatedAt": "2026-11-25T22:23:42.000Z",
+    "excerpt": "harness-cli/v0.5.0 Auto-drafted from commits in harness-cli/v0.4.0..harness-cli/v0.5.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(cli): accept --max-rollouts and the other optimize run flags in strands dev ( #6579 ) ( 198a1be ) feat(cli): number the two stages of auto-optimize and say…",
+    "summary": "Amazon shipped Strands Agents SDK harness-cli v0.5.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "importance": 40,
+    "contentHash": "d9680931c7eb",
+    "meta": {
+      "version": "v0.5.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-cli"
+    }
+  },
+  {
     "id": "059900695e819cd8",
     "lab": "amazon",
     "title": "Strands Agents SDK python v1.67.0",
@@ -344,6 +375,28 @@
     "tags": [],
     "importance": 60,
     "contentHash": "c5832a20f007"
+  },
+  {
+    "id": "d0192eac1471292c",
+    "lab": "amazon",
+    "title": "Amazon SageMaker HyperPod now supports NCCL profiling for training jobs",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-nccl-profiler",
+    "sourceId": "aws-whats-new",
+    "sourceName": "AWS What's New",
+    "sourceType": "rss",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-23T17:00:00.000Z",
+    "firstSeenAt": "2026-11-26T03:38:56.250Z",
+    "updatedAt": "2026-11-23T17:00:00.000Z",
+    "excerpt": "Amazon SageMaker HyperPod now supports NVIDIA Collective Communications Library (NCCL) profiling with the HyperPod NCCL Profiler, giving you visibility into communication performance across the nodes and GPUs in a distributed training job. SageMaker HyperPod helps you scale generative AI model development across hundreds or thousands of AI accelerators. Previously, one throttled GPU or degraded link could slow the…",
+    "summary": "Amazon SageMaker HyperPod now supports NVIDIA Collective Communications Library (NCCL) profiling with the HyperPod NCCL Profiler, giving you visibility into communication performance across the nodes and GPUs in a distributed training job.",
+    "benefit": "A new model option to evaluate — compare quality, price, and context length against what you use today.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [],
+    "importance": 60,
+    "contentHash": "94ad8f9ff3e8"
   },
   {
     "id": "95ebf0db6bc9885f",

@@ -1,5 +1,47 @@
 [
   {
+    "id": "0545dac6f96bd779",
+    "modelId": "xiaomi/mimo-v2.6-flash-mopd",
+    "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+    "at": "2026-11-26T03:38:56.250Z",
+    "field": "prompt",
+    "from": 0.15,
+    "to": 0.5,
+    "change": 233.3
+  },
+  {
+    "id": "b2ee9d9825d8f966",
+    "modelId": "xiaomi/mimo-v2.6-flash-mopd",
+    "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+    "at": "2026-11-26T03:38:56.250Z",
+    "field": "completion",
+    "from": 0.42,
+    "to": 1,
+    "change": 138.1
+  },
+  {
+    "id": "336f14581d243030",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-26T03:38:56.250Z",
+    "field": "prompt",
+    "from": 0.0399,
+    "to": 0.12,
+    "change": 200.8
+  },
+  {
+    "id": "2dfd080393a5179c",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-26T03:38:56.250Z",
+    "field": "completion",
+    "from": 0.0784,
+    "to": 0.38,
+    "change": 384.7
+  },
+  {
     "id": "2bb7503314ec85db",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",

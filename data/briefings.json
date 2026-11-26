@@ -1,29 +1,24 @@
 [
   {
     "date": "2026-11-26",
-    "generatedAt": "2026-11-25T19:24:45.184Z",
+    "generatedAt": "2026-11-26T03:38:56.250Z",
     "stats": {
-      "updates24h": 7,
+      "updates24h": 4,
       "labsActive24h": 3,
-      "updates7d": 133,
-      "newModels7d": 30
+      "updates7d": 119,
+      "newModels7d": 28
     },
     "source": "template",
-    "headline": "7 updates from 3 AI labs in the last 24 hours · 30 model releases this week.",
+    "headline": "4 updates from 3 AI labs in the last 24 hours · 28 model releases this week.",
     "bullets": [
       {
-        "text": "Anthropic: Migrating our Messages API to Rust",
-        "itemId": "07e4d185180e82a5",
-        "lab": "anthropic"
-      },
-      {
-        "text": "Amazon: Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
-        "itemId": "276bda52e5b901ce",
+        "text": "Amazon: Strands Agents SDK harness-cli v0.5.0",
+        "itemId": "351ce2751f2a5a6d",
         "lab": "amazon"
       },
       {
-        "text": "Amazon: AWS CloudFormation makes resource coverage comprehensive with 206 new types",
-        "itemId": "66544a659dde9a8e",
+        "text": "Amazon: Strands Agents SDK python v1.67.0",
+        "itemId": "059900695e819cd8",
         "lab": "amazon"
       },
       {
@@ -32,9 +27,9 @@
         "lab": "ibm"
       },
       {
-        "text": "Anthropic: Claude Agent SDK (Python) v0.2.189",
-        "itemId": "e2df9691d44eeffa",
-        "lab": "anthropic"
+        "text": "NVIDIA: How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
+        "itemId": "59b73359242c586e",
+        "lab": "nvidia"
       }
     ]
   },
