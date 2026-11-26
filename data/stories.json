@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T03:38:56.250Z",
+  "generatedAt": "2026-11-26T17:02:34.281Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -13,6 +13,7 @@
       "outlets": [
         "TestingCatalog AI News",
         "The Decoder",
+        "LinkedIn",
         "Crypto Briefing",
         "9to5Google",
         "The Defiant",
@@ -25,15 +26,17 @@
         "Android Authority",
         "Fello AI",
         "Interesting Engineering",
+        "OODA Loop",
+        "VentureBeat",
+        "shattered.io",
+        "explainx.ai",
         "The New Stack",
         "SiliconANGLE",
         "AI Magazine",
         "MarkTechPost",
-        "shattered.io",
         "InfoWorld",
         "Yahoo Finance",
         "The Rundown AI",
-        "OODA Loop",
         "Technology Org",
         "TechTarget",
         "Dealroom"
@@ -75,56 +78,24 @@
       "importance": 99
     },
     {
-      "id": "qwen:075ae9bbb51baf",
-      "title": "Alibaba Launches Qwen4-Max AI Model with 2.4 Trillion Parameters",
-      "entity": "Qwen 4 Max",
+      "id": "f3f6304a8cca8254",
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+      "entity": null,
       "labs": [
-        "qwen",
-        "moonshot",
-        "tencent"
+        "amazon",
+        "anthropic"
       ],
-      "official": 0,
-      "press": 24,
-      "outlets": [
-        "South China Morning Post",
-        "news.lavx.hu",
-        "MLQ.ai",
-        "Business Standard",
-        "www.trendingtopics.eu",
-        "Alibaba Group",
-        "shattered.io",
-        "MarkTechPost",
-        "Nacionale",
-        "Wccftech",
-        "HPCwire",
-        "ForkLog",
-        "Analytics India Magazine",
-        "Tekedia",
-        "Technology Org",
-        "Medium",
-        "Brief IA",
-        "eWeek",
-        "Decrypt",
-        "Yahoo Tech",
-        "BigGo Finance",
-        "KuCoin",
-        "36Kr",
-        "jawlah.co",
-        "Intelligent Living",
-        "The Edge Malaysia",
-        "TNGlobal",
-        "KLGadgetGuy",
-        "Vietnam.vn",
-        "SoyaCincau"
-      ],
-      "firstAt": "2026-11-16T03:56:53.000Z",
-      "lastAt": "2026-11-23T03:02:34.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0llVDN6V1dUODNxdTUtajZ6aElDeUp1cXc3UzdnS0JEbVpTZTJ2cVdFS0VtQV83TmdMRU55RGZSU3dfTF9rYVBGcGN6VzRCREJhMGdVeU9EMmVkUjR6TnVsSmdtcGpfdC00UUFoaC00VG9tZHBXZHZlUUF2Y0dTNVd2eDdIbkhKeFVuQVcyeU1MQQ?oc=5",
+      "official": 1,
+      "press": 0,
+      "outlets": [],
+      "firstAt": "2026-11-24T05:01:14.000Z",
+      "lastAt": "2026-11-24T05:01:14.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls",
       "lead": {
-        "kind": "press",
-        "id": "qwen:075ae9bbb51baf"
+        "kind": "official",
+        "id": "f3f6304a8cca8254"
       },
-      "importance": 71
+      "importance": 85
     },
     {
       "id": "zai:bdf692c9271d94",
@@ -215,6 +186,42 @@
       "importance": 68
     },
     {
+      "id": "qwen:16a2255280c86b",
+      "title": "Alibaba's Qwen 4 Max Leads China's AI Agent Race—But You Can't Download It",
+      "entity": "Qwen 4 Max",
+      "labs": [
+        "qwen",
+        "tencent"
+      ],
+      "official": 0,
+      "press": 13,
+      "outlets": [
+        "Medium",
+        "Brief IA",
+        "eWeek",
+        "Decrypt",
+        "Yahoo Tech",
+        "BigGo Finance",
+        "KuCoin",
+        "36Kr",
+        "jawlah.co",
+        "Intelligent Living",
+        "The Edge Malaysia",
+        "TNGlobal",
+        "KLGadgetGuy",
+        "Vietnam.vn",
+        "SoyaCincau"
+      ],
+      "firstAt": "2026-11-16T17:22:45.000Z",
+      "lastAt": "2026-11-23T03:02:34.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT2JDOFJGb0pPMUY5X2wyMlp0UlNUSHRsaHppd2NSRE5yZ3RObXJWMzNYcE5wS25lS0NLeGJCUzVaVTM0bnVnV0NLYXZHbUhobGtsTjNkcFFkUHhlbHRoblpfZy1MM2dYNy1VOXVCRkpoNlRiUWZUc2F0Nkd0YnRscVJrcEtxcXNHVVNhZXNsWHU?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "qwen:16a2255280c86b"
+      },
+      "importance": 65
+    },
+    {
       "id": "cohere:2a48f783b658e3",
       "title": "HCLTech And Cohere Partner To Build And Deliver Sovereign AI",
       "entity": null,
@@ -259,50 +266,26 @@
         "baidu"
       ],
       "official": 0,
-      "press": 5,
+      "press": 6,
       "outlets": [
         "LMSYS Org",
         "OrcaRouter",
         "The Defiant",
         "Superpower Daily",
         "MLQ.ai",
+        "Wisevoter",
         "AIBase",
-        "TechNode"
+        "TechNode",
+        "BigGo Finance"
       ],
       "firstAt": "2026-11-24T03:26:22.000Z",
-      "lastAt": "2026-11-25T05:09:08.000Z",
+      "lastAt": "2026-11-26T06:07:56.000Z",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQl9qdEdhVzBaUFNVWWNMVmd4ZXhIenF0U1NKYjVNQ3BwdUlMYTcwSjNJeGpEZHo3Zm4tREN2b1RRSTZNaVdyMFJGREJyeUFKR3IzamR0SV9vZmdud0pDNm1hczhLdGx2MTdNaXhCMGp5ZU9vbE1nazF1YWtKMXpCNzV2VUdWVVVvdE1vWXcyMA?oc=5",
       "lead": {
         "kind": "press",
         "id": "baidu:df7e6af558ae11"
       },
-      "importance": 59
-    },
-    {
-      "id": "google-deepmind:73e7297979f6f9",
-      "title": "Google’s Gemini 4 Hydrogen Turns Model Choice Into a Routing Decision",
-      "entity": "Gemini 4 Hydrogen",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 7,
-      "outlets": [
-        "DevOps.com",
-        "AI Insider",
-        "shattered.io",
-        "AI Magazine",
-        "UC Today",
-        "Google for Developers Blog"
-      ],
-      "firstAt": "2026-11-16T07:54:49.000Z",
-      "lastAt": "2026-11-17T17:43:25.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdHc4Q1VPM3RCTDY0YzRsS1IwSlBhWkpDeE5PTFpwSjNOaEdVRVdPc0o1YjlZZnFBc1dsNmc4dkpwSWw5WEViYUl0akduZl9mV3NPdVFPNUFnNl80WmFiZU5uRGtSb29WY2R5WTh3R1VDV21DbnkzckhJZFlSakJ1WkYtVmlUbjVacENPYU5ScEI?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:73e7297979f6f9"
-      },
-      "importance": 58
+      "importance": 61
     },
     {
       "id": "deepseek:b174677ed95a31",
@@ -330,26 +313,26 @@
       "importance": 57
     },
     {
-      "id": "google-deepmind:f801a0d731f0b3",
-      "title": "Google AI Mode Drops Gemini Label & Rolls Out Gemini 4 Carbon To Pro Subs",
-      "entity": "Gemini 4 Carbon",
+      "id": "google-deepmind:9077c973af922f",
+      "title": "Gemini 4 Hydrogen Repeat Fix? 1M Tokens, 95% Cache Cut",
+      "entity": "Gemini 4 Hydrogen",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 4,
+      "press": 5,
       "outlets": [
-        "Search Engine Roundtable",
         "shattered.io",
-        "Small Business Trends",
-        "9to5Google"
+        "AI Magazine",
+        "UC Today",
+        "Google for Developers Blog"
       ],
-      "firstAt": "2026-11-16T12:51:00.000Z",
-      "lastAt": "2026-11-23T21:16:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YUk13Q2VPd2ZQZlNlVlUwY2htSDhWZUNWYWJjMHZmNUxibk84TzRrQmxodmh0dXBxUFZfMm5VQUh1SjhGRDR6Rk96T0k5Rkxybl9jdkh1RE9EeUg1Sm9udEVXS1FkSGJCZ2ZMSWhVSUVIVmNJaXZQcTB4QUdIZw?oc=5",
+      "firstAt": "2026-11-16T22:47:39.000Z",
+      "lastAt": "2026-11-17T17:43:25.000Z",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQakRUZ2twV3Z5VXdjTTdtQnhCYUlqQ3hhZDU3YTRtVXlWWDV3bk1CRWRZcFhGQlBTQm9vQlRndXpGcTZlMzRzbGlsMXhmSTFTRWVwaldSUjNWT1c0c1VoUzduTVk5ZWp6d2gyZFVkbl9hcDNLUWRSeDNpTldhTVlucllCSktaQjhKdVViVnBqNkE1MkQyT3AtNGJaU2I?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:f801a0d731f0b3"
+        "id": "google-deepmind:9077c973af922f"
       },
       "importance": 56
     },
@@ -381,30 +364,30 @@
     "entities": [
       {
         "name": "GLM 5.4",
-        "count": 18,
+        "count": 19,
         "prev": 3,
         "labs": []
       },
       {
-        "name": "Gemini 4 Neon",
-        "count": 14,
-        "prev": 15,
-        "labs": [
-          "google-deepmind"
-        ]
-      },
-      {
         "name": "ERNIE 5.5 Flash",
-        "count": 7,
-        "prev": 7,
+        "count": 9,
+        "prev": 4,
         "labs": [
           "baidu"
         ]
       },
       {
-        "name": "Qwen 4 Max",
+        "name": "Gemini 4 Neon",
+        "count": 6,
+        "prev": 25,
+        "labs": [
+          "google-deepmind"
+        ]
+      },
+      {
+        "name": "DeepSeek 4.1 Flash",
         "count": 5,
-        "prev": 36,
+        "prev": 8,
         "labs": []
       },
       {
@@ -414,15 +397,15 @@
         "labs": []
       },
       {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 4,
-        "prev": 8,
-        "labs": []
-      },
-      {
         "name": "Granite 4.2 3B",
         "count": 3,
         "prev": 1,
+        "labs": []
+      },
+      {
+        "name": "GLM 5.5",
+        "count": 3,
+        "prev": 2,
         "labs": []
       },
       {
@@ -435,34 +418,34 @@
     "topics": [
       {
         "name": "agents",
-        "count": 37,
-        "prev": 81,
+        "count": 34,
+        "prev": 80,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "meta",
-          "microsoft",
           "cohere",
+          "microsoft",
           "qwen",
-          "nvidia",
-          "amazon"
+          "amazon",
+          "nvidia"
         ]
       },
       {
         "name": "coding",
         "count": 28,
-        "prev": 50,
+        "prev": 49,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "microsoft",
           "cohere",
+          "microsoft",
           "qwen",
+          "amazon",
           "ibm",
-          "nvidia",
-          "amazon"
+          "nvidia"
         ]
       },
       {
@@ -479,21 +462,21 @@
       },
       {
         "name": "multimodal",
-        "count": 10,
-        "prev": 21,
+        "count": 8,
+        "prev": 22,
         "labs": [
           "google-deepmind",
           "openai",
           "cohere",
           "tencent",
+          "amazon",
           "ibm",
-          "nvidia",
-          "amazon"
+          "nvidia"
         ]
       },
       {
         "name": "reasoning",
-        "count": 5,
+        "count": 4,
         "prev": 6,
         "labs": [
           "google-deepmind",
@@ -501,19 +484,8 @@
           "mistral",
           "microsoft",
           "qwen",
-          "nvidia",
-          "amazon"
-        ]
-      },
-      {
-        "name": "audio",
-        "count": 4,
-        "prev": 5,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "ibm",
-          "amazon"
+          "amazon",
+          "nvidia"
         ]
       },
       {
@@ -527,71 +499,30 @@
         ]
       },
       {
+        "name": "audio",
+        "count": 3,
+        "prev": 6,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "amazon",
+          "ibm"
+        ]
+      },
+      {
         "name": "open-source",
         "count": 3,
         "prev": 4,
         "labs": [
           "openai",
           "microsoft",
-          "ibm",
-          "amazon"
+          "amazon",
+          "ibm"
         ]
       }
     ]
   },
   "unconfirmed": [
-    {
-      "id": "zai:bdf692c9271d94",
-      "lab": "zai",
-      "title": "Z.ai launches GLM-5.4, its first Loop Transformer model",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5",
-      "outlets": [
-        "digitimes",
-        "Online Tech Tips",
-        "TestingCatalog AI News",
-        "VentureBeat",
-        "Technology Org",
-        "Investing.com",
-        "Incrypted",
-        "Brief IA",
-        "Pasquale Pillitteri"
-      ],
-      "reports": 9,
-      "at": "2026-11-23T10:34:45.000Z"
-    },
-    {
-      "id": "zai:22ee7c816dc712",
-      "lab": "zai",
-      "title": "Z.ai launches GLM-5.4, its first Loop Transformer model",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5",
-      "outlets": [
-        "TestingCatalog AI News",
-        "Pasquale Pillitteri",
-        "news.lavx.hu",
-        "VentureBeat",
-        "Investing.com",
-        "Online Tech Tips",
-        "Techiexpert.com"
-      ],
-      "reports": 7,
-      "at": "2026-11-23T10:34:45.000Z"
-    },
-    {
-      "id": "zai:a375013efa7b6c",
-      "lab": "zai",
-      "title": "Z.ai launches GLM-5.4, its first Loop Transformer model",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5",
-      "outlets": [
-        "XenoSpectrum",
-        "Investing.com",
-        "Incrypted",
-        "VentureBeat",
-        "TestingCatalog AI News",
-        "Pasquale Pillitteri"
-      ],
-      "reports": 6,
-      "at": "2026-11-23T10:34:45.000Z"
-    },
     {
       "id": "xai:b44f48a28347d4",
       "lab": "xai",
@@ -616,30 +547,6 @@
       ],
       "reports": 2,
       "at": "2026-11-24T20:11:36.000Z"
-    },
-    {
-      "id": "zai:3096e7dcfde6d1",
-      "lab": "zai",
-      "title": "Z.ai launches GLM-5.4, a 750 billion-parameter model built on a looped Transformer",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUQwZnJsWG5GVFdTQVVOMXI4anN5Tm5wNVpWa2t6V2JMYTVxdzR2TDJMbURwQldoQlZpNGpqQ1NQMXNXM1ZrMmFudzVoZ2VMbkwtUGt3aS03WDcwTDB1QkJVQXhodFpDQ25lX3kwbFhmNHMyS2doakVpOFhxNFVHMTRCWjU0RXFRM0Vidlp5UFdwUkZvaDZ1NUxmYnFSdXZMZHc?oc=5",
-      "outlets": [
-        "MLQ.ai",
-        "Pasquale Pillitteri"
-      ],
-      "reports": 2,
-      "at": "2026-11-23T11:35:18.000Z"
-    },
-    {
-      "id": "zai:e408bf9e47c2e7",
-      "lab": "zai",
-      "title": "China’s Z.ai launches GLM-5.4, a looped 750B model for coding",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1VHJPWW52d2NsRm4xOV9MNHpHUDFiTDVEeExxY204S255aTFKZE5jUUtyc1lhcDlyUzB2NWJ6V0VFTklhWG12S0pBSkxJSDU4c294TWRmT1RJU1VNWjVTVzhDOUhxS01zOVUyZnp3X3d1MU1hRUNUaA?oc=5",
-      "outlets": [
-        "The Next Web",
-        "Business Upturn"
-      ],
-      "reports": 2,
-      "at": "2026-11-23T11:31:03.000Z"
     }
   ]
 }

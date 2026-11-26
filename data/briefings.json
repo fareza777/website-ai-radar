@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-11-27",
+    "generatedAt": "2026-11-26T17:02:34.281Z",
+    "stats": {
+      "updates24h": 5,
+      "labsActive24h": 4,
+      "updates7d": 110,
+      "newModels7d": 25
+    },
+    "source": "template",
+    "headline": "5 updates from 4 AI labs in the last 24 hours · 25 model releases this week.",
+    "bullets": [
+      {
+        "text": "IBM: Docling v2.154.0",
+        "itemId": "3e55e8342411e477",
+        "lab": "ibm"
+      },
+      {
+        "text": "Amazon: Strands Agents SDK harness-cli v0.5.0",
+        "itemId": "351ce2751f2a5a6d",
+        "lab": "amazon"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen Code v0.28.6",
+        "itemId": "b3a5ecb86fe23247",
+        "lab": "qwen"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.36",
+        "itemId": "b918abbae4eccac4",
+        "lab": "qwen"
+      },
+      {
+        "text": "NVIDIA: How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
+        "itemId": "59b73359242c586e",
+        "lab": "nvidia"
+      }
+    ]
+  },
+  {
     "date": "2026-11-26",
     "generatedAt": "2026-11-26T03:38:56.250Z",
     "stats": {
@@ -1147,50 +1186,6 @@
         "text": "Amazon: Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
         "itemId": "21f4761ac0bc4960",
         "lab": "amazon"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-28",
-    "generatedAt": "2026-10-28T13:09:00.611Z",
-    "stats": {
-      "updates24h": 21,
-      "labsActive24h": 9,
-      "updates7d": 140,
-      "newModels7d": 40
-    },
-    "source": "template",
-    "headline": "21 updates from 9 AI labs in the last 24 hours · 40 model releases this week.",
-    "bullets": [
-      {
-        "text": "Amazon: Announcing SOCI-indexed images for faster SageMaker AI jobs",
-        "itemId": "2f7df4450dee9eaf",
-        "lab": "amazon"
-      },
-      {
-        "text": "OpenAI: Legora is building the agentic operating system for legal work",
-        "itemId": "2fc8e689e413caad",
-        "lab": "openai"
-      },
-      {
-        "text": "Google DeepMind: Genie 4: A new generation of world simulation",
-        "itemId": "5ef94984dce414f6",
-        "lab": "google-deepmind"
-      },
-      {
-        "text": "OpenAI: Retell uses OpenAI models to help power 100M monthly calls",
-        "itemId": "d42fb1eb3362412f",
-        "lab": "openai"
-      },
-      {
-        "text": "Amazon: Fix evaluation bias to unlock better models on Amazon Bedrock",
-        "itemId": "10659eb70d41a8da",
-        "lab": "amazon"
-      },
-      {
-        "text": "IBM: LLMON-Benchmarks",
-        "itemId": "86db3b0a08ce88a7",
-        "lab": "ibm"
       }
     ]
   }
