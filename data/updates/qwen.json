@@ -1,5 +1,35 @@
 [
   {
+    "id": "a1411dc283e3ca5a",
+    "lab": "qwen",
+    "title": "Qwen Code v0.28.7",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.7",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-26T18:08:44.000Z",
+    "firstSeenAt": "2026-11-27T01:48:11.495Z",
+    "updatedAt": "2026-11-26T18:08:44.000Z",
+    "excerpt": "Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell applies the selected thinking level at session startup, so the first prompt uses it without a…",
+    "summary": "Alibaba Qwen shipped Qwen Code v0.28.7 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding",
+      "reasoning"
+    ],
+    "importance": 25,
+    "contentHash": "534f354e5b0d",
+    "meta": {
+      "version": "v0.28.7",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code"
+    }
+  },
+  {
     "id": "b3a5ecb86fe23247",
     "lab": "qwen",
     "title": "Qwen Code v0.28.6",
@@ -2083,7 +2113,7 @@
     "importance": 80,
     "contentHash": "8adc2e24a56d",
     "meta": {
-      "likes": 3735,
+      "likes": 3764,
       "downloads": 283561,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",

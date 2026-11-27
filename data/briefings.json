@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-27",
-    "generatedAt": "2026-11-26T17:02:34.281Z",
+    "generatedAt": "2026-11-27T01:48:11.495Z",
     "stats": {
-      "updates24h": 5,
-      "labsActive24h": 4,
-      "updates7d": 110,
-      "newModels7d": 25
+      "updates24h": 4,
+      "labsActive24h": 2,
+      "updates7d": 86,
+      "newModels7d": 18
     },
     "source": "template",
-    "headline": "5 updates from 4 AI labs in the last 24 hours · 25 model releases this week.",
+    "headline": "4 updates from 2 AI labs in the last 24 hours · 18 model releases this week.",
     "bullets": [
       {
         "text": "IBM: Docling v2.154.0",
@@ -17,24 +17,14 @@
         "lab": "ibm"
       },
       {
-        "text": "Amazon: Strands Agents SDK harness-cli v0.5.0",
-        "itemId": "351ce2751f2a5a6d",
-        "lab": "amazon"
+        "text": "Alibaba Qwen: Qwen Code v0.28.7",
+        "itemId": "a1411dc283e3ca5a",
+        "lab": "qwen"
       },
       {
         "text": "Alibaba Qwen: Qwen Code v0.28.6",
         "itemId": "b3a5ecb86fe23247",
         "lab": "qwen"
-      },
-      {
-        "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.36",
-        "itemId": "b918abbae4eccac4",
-        "lab": "qwen"
-      },
-      {
-        "text": "NVIDIA: How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
-        "itemId": "59b73359242c586e",
-        "lab": "nvidia"
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T17:02:34.281Z",
+  "generatedAt": "2026-11-27T01:48:11.495Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -105,7 +105,7 @@
         "zai"
       ],
       "official": 0,
-      "press": 14,
+      "press": 15,
       "outlets": [
         "Digg",
         "TechNode",
@@ -134,7 +134,7 @@
         "MarkTechPost"
       ],
       "firstAt": "2026-11-18T18:20:30.000Z",
-      "lastAt": "2026-11-24T02:35:00.000Z",
+      "lastAt": "2026-11-25T13:09:18.000Z",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5",
       "lead": {
         "kind": "press",
@@ -184,42 +184,6 @@
         "id": "xai:999bc2d66b53f2"
       },
       "importance": 68
-    },
-    {
-      "id": "qwen:16a2255280c86b",
-      "title": "Alibaba's Qwen 4 Max Leads China's AI Agent Race—But You Can't Download It",
-      "entity": "Qwen 4 Max",
-      "labs": [
-        "qwen",
-        "tencent"
-      ],
-      "official": 0,
-      "press": 13,
-      "outlets": [
-        "Medium",
-        "Brief IA",
-        "eWeek",
-        "Decrypt",
-        "Yahoo Tech",
-        "BigGo Finance",
-        "KuCoin",
-        "36Kr",
-        "jawlah.co",
-        "Intelligent Living",
-        "The Edge Malaysia",
-        "TNGlobal",
-        "KLGadgetGuy",
-        "Vietnam.vn",
-        "SoyaCincau"
-      ],
-      "firstAt": "2026-11-16T17:22:45.000Z",
-      "lastAt": "2026-11-23T03:02:34.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT2JDOFJGb0pPMUY5X2wyMlp0UlNUSHRsaHppd2NSRE5yZ3RObXJWMzNYcE5wS25lS0NLeGJCUzVaVTM0bnVnV0NLYXZHbUhobGtsTjNkcFFkUHhlbHRoblpfZy1MM2dYNy1VOXVCRkpoNlRiUWZUc2F0Nkd0YnRscVJrcEtxcXNHVVNhZXNsWHU?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "qwen:16a2255280c86b"
-      },
-      "importance": 65
     },
     {
       "id": "cohere:2a48f783b658e3",
@@ -274,16 +238,45 @@
         "Superpower Daily",
         "MLQ.ai",
         "Wisevoter",
+        "BigGo Finance",
         "AIBase",
-        "TechNode",
-        "BigGo Finance"
+        "TechNode"
       ],
       "firstAt": "2026-11-24T03:26:22.000Z",
-      "lastAt": "2026-11-26T06:07:56.000Z",
+      "lastAt": "2026-11-25T05:09:08.000Z",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQl9qdEdhVzBaUFNVWWNMVmd4ZXhIenF0U1NKYjVNQ3BwdUlMYTcwSjNJeGpEZHo3Zm4tREN2b1RRSTZNaVdyMFJGREJyeUFKR3IzamR0SV9vZmdud0pDNm1hczhLdGx2MTdNaXhCMGp5ZU9vbE1nazF1YWtKMXpCNzV2VUdWVVVvdE1vWXcyMA?oc=5",
       "lead": {
         "kind": "press",
         "id": "baidu:df7e6af558ae11"
+      },
+      "importance": 61
+    },
+    {
+      "id": "tencent:4a93b756c7c428",
+      "title": "Alibaba Qwen4-Max & Tencent Hy4 Flash Debut Together: 58% Single-Task Cost Cut & 1/8 Competitor Pricing",
+      "entity": "Qwen 4 Max",
+      "labs": [
+        "tencent",
+        "qwen"
+      ],
+      "official": 0,
+      "press": 8,
+      "outlets": [
+        "36Kr",
+        "jawlah.co",
+        "Intelligent Living",
+        "The Edge Malaysia",
+        "TNGlobal",
+        "KLGadgetGuy",
+        "Vietnam.vn",
+        "SoyaCincau"
+      ],
+      "firstAt": "2026-11-17T02:41:07.000Z",
+      "lastAt": "2026-11-23T03:02:34.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBETF9yRDU0bWU0NkRDSmtRV3QzTnl3eUpCaXRnbjF5SVVpcERyVVR5OXFETWl6LXJCM2x3dUNBQkNrSjlnRzNLaDA5Mm5uYklUazFZ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "tencent:4a93b756c7c428"
       },
       "importance": 61
     },
@@ -313,26 +306,26 @@
       "importance": 57
     },
     {
-      "id": "google-deepmind:9077c973af922f",
-      "title": "Gemini 4 Hydrogen Repeat Fix? 1M Tokens, 95% Cache Cut",
-      "entity": "Gemini 4 Hydrogen",
+      "id": "google-deepmind:f7c033fac72451",
+      "title": "Gemini 4 Carbon is now available in Google Antigravity for AI Pro",
+      "entity": "Gemini 4 Carbon",
       "labs": [
         "google-deepmind"
       ],
       "official": 0,
-      "press": 5,
+      "press": 3,
       "outlets": [
+        "Small Business Trends",
         "shattered.io",
-        "AI Magazine",
-        "UC Today",
-        "Google for Developers Blog"
+        "9to5Google",
+        "Mezha.net"
       ],
-      "firstAt": "2026-11-16T22:47:39.000Z",
-      "lastAt": "2026-11-17T17:43:25.000Z",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQakRUZ2twV3Z5VXdjTTdtQnhCYUlqQ3hhZDU3YTRtVXlWWDV3bk1CRWRZcFhGQlBTQm9vQlRndXpGcTZlMzRzbGlsMXhmSTFTRWVwaldSUjNWT1c0c1VoUzduTVk5ZWp6d2gyZFVkbl9hcDNLUWRSeDNpTldhTVlucllCSktaQjhKdVViVnBqNkE1MkQyT3AtNGJaU2I?oc=5",
+      "firstAt": "2026-11-21T14:02:00.000Z",
+      "lastAt": "2026-11-23T21:16:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82OGFkWXdyZHZITy1wbXdJTTJvdTFxX2xkMUdlTWtFeWZBSjNwUW54ZXAwcUhsYWJPYlZfbUZzOWdlWGEtZnpyRTROOGdPR2tJcVZ1b083c3FMVW9zRFk0T3Q4ekt3VnpRRU50bHdqNA?oc=5",
       "lead": {
         "kind": "press",
-        "id": "google-deepmind:9077c973af922f"
+        "id": "google-deepmind:f7c033fac72451"
       },
       "importance": 56
     },
@@ -364,7 +357,7 @@
     "entities": [
       {
         "name": "GLM 5.4",
-        "count": 19,
+        "count": 22,
         "prev": 3,
         "labs": []
       },
@@ -385,15 +378,21 @@
         ]
       },
       {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 5,
-        "prev": 8,
-        "labs": []
-      },
-      {
         "name": "GLM 5.3",
         "count": 4,
         "prev": 1,
+        "labs": []
+      },
+      {
+        "name": "GLM 5.5",
+        "count": 4,
+        "prev": 2,
+        "labs": []
+      },
+      {
+        "name": "DeepSeek 4.1 Flash",
+        "count": 4,
+        "prev": 9,
         "labs": []
       },
       {
@@ -403,23 +402,39 @@
         "labs": []
       },
       {
-        "name": "GLM 5.5",
-        "count": 3,
-        "prev": 2,
-        "labs": []
-      },
-      {
         "name": "DeepSeek 4.1 Pro",
         "count": 3,
         "prev": 3,
+        "labs": []
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "count": 3,
+        "prev": 5,
         "labs": []
       }
     ],
     "topics": [
       {
+        "name": "coding",
+        "count": 23,
+        "prev": 45,
+        "labs": [
+          "anthropic",
+          "google-deepmind",
+          "openai",
+          "cohere",
+          "microsoft",
+          "qwen",
+          "amazon",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
         "name": "agents",
-        "count": 34,
-        "prev": 80,
+        "count": 22,
+        "prev": 79,
         "labs": [
           "anthropic",
           "google-deepmind",
@@ -433,24 +448,8 @@
         ]
       },
       {
-        "name": "coding",
-        "count": 28,
-        "prev": 49,
-        "labs": [
-          "anthropic",
-          "google-deepmind",
-          "openai",
-          "cohere",
-          "microsoft",
-          "qwen",
-          "amazon",
-          "ibm",
-          "nvidia"
-        ]
-      },
-      {
         "name": "mcp",
-        "count": 10,
+        "count": 8,
         "prev": 8,
         "labs": [
           "anthropic",
@@ -462,8 +461,8 @@
       },
       {
         "name": "multimodal",
-        "count": 8,
-        "prev": 22,
+        "count": 7,
+        "prev": 23,
         "labs": [
           "google-deepmind",
           "openai",
@@ -476,10 +475,9 @@
       },
       {
         "name": "reasoning",
-        "count": 4,
-        "prev": 6,
+        "count": 5,
+        "prev": 4,
         "labs": [
-          "google-deepmind",
           "openai",
           "mistral",
           "microsoft",
@@ -491,33 +489,11 @@
       {
         "name": "safety",
         "count": 3,
-        "prev": 11,
+        "prev": 9,
         "labs": [
           "anthropic",
           "openai",
           "amazon"
-        ]
-      },
-      {
-        "name": "audio",
-        "count": 3,
-        "prev": 6,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "amazon",
-          "ibm"
-        ]
-      },
-      {
-        "name": "open-source",
-        "count": 3,
-        "prev": 4,
-        "labs": [
-          "openai",
-          "microsoft",
-          "amazon",
-          "ibm"
         ]
       }
     ]

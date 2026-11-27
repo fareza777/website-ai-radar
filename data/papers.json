@@ -6,7 +6,7 @@
     "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M…",
     "publishedAt": "2026-11-25T00:00:00.000Z",
     "submittedAt": "2026-11-26T00:00:00.000Z",
-    "upvotes": 101,
+    "upvotes": 104,
     "org": "pku-value-lab",
     "githubRepo": "https://github.com/Real2SimHub/Real2SimLab",
     "firstSeenAt": "2026-11-26T17:02:34.281Z"
@@ -18,7 +18,7 @@
     "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to…",
     "publishedAt": "2026-11-25T00:00:00.000Z",
     "submittedAt": "2026-11-26T00:00:00.000Z",
-    "upvotes": 82,
+    "upvotes": 88,
     "org": "shanghai-ai-laboratory",
     "githubRepo": "https://github.com/Sage-Med/Sage-Med-Preview",
     "firstSeenAt": "2026-11-26T17:02:34.281Z"
@@ -30,10 +30,22 @@
     "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse…",
     "publishedAt": "2026-11-25T00:00:00.000Z",
     "submittedAt": "2026-11-26T00:00:00.000Z",
-    "upvotes": 57,
+    "upvotes": 61,
     "org": "bytedance-seed",
     "lab": "bytedance",
     "githubRepo": "https://github.com/hustvl/MoLT",
+    "firstSeenAt": "2026-11-26T17:02:34.281Z"
+  },
+  {
+    "id": "2611.30844",
+    "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+    "url": "https://huggingface.co/papers/2611.30844",
+    "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Looped MoE DiT (DyLoMo-DiT), which reuses parameters rather than adding them: a weight-shared loop repeatedly applies the…",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "submittedAt": "2026-11-26T00:00:00.000Z",
+    "upvotes": 55,
+    "org": null,
+    "githubRepo": "https://github.com/OneBoxCream/DyLoMo-DiT",
     "firstSeenAt": "2026-11-26T17:02:34.281Z"
   },
   {
@@ -49,25 +61,13 @@
     "firstSeenAt": "2026-11-26T17:02:34.281Z"
   },
   {
-    "id": "2611.30844",
-    "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
-    "url": "https://huggingface.co/papers/2611.30844",
-    "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Looped MoE DiT (DyLoMo-DiT), which reuses parameters rather than adding them: a weight-shared loop repeatedly applies the…",
-    "publishedAt": "2026-11-23T00:00:00.000Z",
-    "submittedAt": "2026-11-26T00:00:00.000Z",
-    "upvotes": 50,
-    "org": null,
-    "githubRepo": "https://github.com/OneBoxCream/DyLoMo-DiT",
-    "firstSeenAt": "2026-11-26T17:02:34.281Z"
-  },
-  {
     "id": "2611.33144",
     "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
     "url": "https://huggingface.co/papers/2611.33144",
     "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations. The…",
     "publishedAt": "2026-11-24T00:00:00.000Z",
     "submittedAt": "2026-11-26T00:00:00.000Z",
-    "upvotes": 43,
+    "upvotes": 44,
     "org": "dagroup-pku",
     "firstSeenAt": "2026-11-26T17:02:34.281Z"
   },
@@ -78,7 +78,7 @@
     "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks…",
     "publishedAt": "2026-11-25T00:00:00.000Z",
     "submittedAt": "2026-11-26T00:00:00.000Z",
-    "upvotes": 40,
+    "upvotes": 44,
     "org": "cmu-scs",
     "githubRepo": "https://github.com/HorizonWind2004/i2v-transfer",
     "firstSeenAt": "2026-11-26T17:02:34.281Z"
@@ -116,7 +116,7 @@
     "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API. We gave models control over their own context in \\nooa, NVIDIA's open source agent harness, and compared the two strategies on…",
     "publishedAt": "2026-11-25T00:00:00.000Z",
     "submittedAt": "2026-11-26T00:00:00.000Z",
-    "upvotes": 6,
+    "upvotes": 7,
     "org": "nvidia",
     "lab": "nvidia",
     "githubRepo": "https://github.com/nvidia-nemo/labs-OO-Agents",
@@ -165,7 +165,7 @@
     "summary": "Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own. However, current CUAs lack real-time situational awareness: they perceive the environment through discrete snapshots, and the substantial inference latency of VLMs, compounded by highly dynamic interfaces, opens a…",
     "publishedAt": "2026-11-21T00:00:00.000Z",
     "submittedAt": "2026-11-25T00:00:00.000Z",
-    "upvotes": 100,
+    "upvotes": 102,
     "org": null,
     "githubRepo": "https://github.com/SuJQ0722/NightWatch",
     "firstSeenAt": "2026-11-25T19:24:45.184Z"
@@ -201,7 +201,7 @@
     "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each member reasons and acts for a configurable control group, such as an arm with its gripper or the torso and chassis…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-25T00:00:00.000Z",
-    "upvotes": 64,
+    "upvotes": 65,
     "org": "mmlab-ntu",
     "firstSeenAt": "2026-11-25T08:47:27.753Z"
   },
@@ -261,7 +261,7 @@
     "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present…",
     "publishedAt": "2026-11-23T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 221,
+    "upvotes": 222,
     "org": "pekinguniversity",
     "githubRepo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
@@ -309,7 +309,7 @@
     "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests…",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "submittedAt": "2026-11-24T00:00:00.000Z",
-    "upvotes": 60,
+    "upvotes": 61,
     "org": "misraj",
     "githubRepo": "https://github.com/misraj-ai/locfix",
     "firstSeenAt": "2026-11-24T13:55:03.267Z"
@@ -4872,113 +4872,6 @@
     "org": "tencent-hunyuan",
     "lab": "tencent",
     "githubRepo": "https://github.com/wyy-1112/dissecting-opd",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2609.39601",
-    "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
-    "url": "https://huggingface.co/papers/2609.39601",
-    "summary": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-language and video-generation backbones, which still fail in these settings. We introduce GroundingPI, a 4B grounding…",
-    "publishedAt": "2026-09-30T00:00:00.000Z",
-    "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 321,
-    "org": "xpeng-ai",
-    "githubRepo": "https://github.com/groundingpi/GroundingPI",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.11765",
-    "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
-    "url": "https://huggingface.co/papers/2610.11765",
-    "summary": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior work typically defines no-thinking through proxies such as a disabled thinking mode or the absence of long traces. These proxies are unreliable: disabled thinking modes may still…",
-    "publishedAt": "2026-10-08T00:00:00.000Z",
-    "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 250,
-    "org": "stanforduniversity",
-    "githubRepo": "https://github.com/thinking-inertia/code",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.13361",
-    "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
-    "url": "https://huggingface.co/papers/2610.13361",
-    "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a benchmark for agent…",
-    "publishedAt": "2026-10-09T00:00:00.000Z",
-    "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 234,
-    "org": null,
-    "githubRepo": "https://github.com/VectorSpaceLab/AgentSWE",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.13166",
-    "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
-    "url": "https://huggingface.co/papers/2610.13166",
-    "summary": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence through exploration, use it to inform judgments, continually adjust strategies based on feedback, and turn intermediate results into final deliverables. High-quality long-horizon trajectories capture…",
-    "publishedAt": "2026-10-09T00:00:00.000Z",
-    "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 163,
-    "org": "alibabagroup",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.09326",
-    "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
-    "url": "https://huggingface.co/papers/2610.09326",
-    "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependencies on both the grounding source and the current rendered video state. These dependencies may not be explicitly stated in any individual input, but emerge only when the source, rendered history, and…",
-    "publishedAt": "2026-10-07T00:00:00.000Z",
-    "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 102,
-    "org": "googie",
-    "githubRepo": "https://github.com/vis-ground/code",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2609.39600",
-    "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
-    "url": "https://huggingface.co/papers/2609.39600",
-    "summary": "Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causal order on output tokens. We view grounding as visual evidence extraction: objects, locations, and spatial relations are jointly constrained by the image and query, yet their dependencies do not imply an intrinsic left-to-right generation order. This distinction makes bidirectional diffusion a…",
-    "publishedAt": "2026-09-30T00:00:00.000Z",
-    "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 98,
-    "org": "xpeng-ai",
-    "githubRepo": "https://github.com/groundingpi/GroundAnything",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2610.13630",
-    "title": "Multi-Stream Attention Residuals",
-    "url": "https://huggingface.co/papers/2610.13630",
-    "summary": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the sequence axis, we introduce Multi-Stream Attention Residuals (MSAR), an extension of AttnRes that generalizes this mechanism to multi-head depth attention, yielding substantial performance gains…",
-    "publishedAt": "2026-10-09T00:00:00.000Z",
-    "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 48,
-    "org": "sjtu",
-    "githubRepo": "https://github.com/jianke0604/MSAR",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2609.33304",
-    "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
-    "url": "https://huggingface.co/papers/2609.33304",
-    "summary": "Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous instructions and to anticipate recurring routines. Existing approaches retrieve task-relevant history and append it to the policy's context, implicitly assuming that experience relevant to a task remains useful for each decision within it. We find that this help is largely spent at the first decision…",
-    "publishedAt": "2026-09-27T00:00:00.000Z",
-    "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 46,
-    "org": "nanyangtechnologicaluniversity",
-    "githubRepo": "https://github.com/fyzhang1/ExpActivator",
-    "firstSeenAt": "2026-10-16T13:15:09.451Z"
-  },
-  {
-    "id": "2609.36642",
-    "title": "PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning",
-    "url": "https://huggingface.co/papers/2609.36642",
-    "summary": "Language-model agents are usually trained by reinforcement learning from one reward per episode, and privileged self-distillation enriches it by letting the same policy, given a skill, teach its skill-free self through token probabilities. However, we identify two phenomena that question this channel. Invisible Advantage: a skill in context lifts WebShop success from 42.2% to 56.2%, yet changes the probabilities of…",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "submittedAt": "2026-10-13T00:00:00.000Z",
-    "upvotes": 45,
-    "org": null,
-    "githubRepo": "https://github.com/balibata/PR-OPD",
     "firstSeenAt": "2026-10-16T13:15:09.451Z"
   }
 ]
