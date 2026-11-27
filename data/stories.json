@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T01:48:11.495Z",
+  "generatedAt": "2026-11-27T12:42:03.098Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -186,43 +186,6 @@
       "importance": 68
     },
     {
-      "id": "cohere:2a48f783b658e3",
-      "title": "HCLTech And Cohere Partner To Build And Deliver Sovereign AI",
-      "entity": null,
-      "labs": [
-        "cohere"
-      ],
-      "official": 0,
-      "press": 2,
-      "outlets": [
-        "ET Enterprise AI",
-        "ET CIO",
-        "scanx.trade",
-        "TradingView",
-        "Unite.AI",
-        "PR Newswire UK",
-        "Telugu Times",
-        "https://www.indiagazette.com/",
-        "PR Newswire",
-        "The Tribune",
-        "CXOToday.com",
-        "ANI News",
-        "Asianet Newsable",
-        "boerse.de",
-        "Passionate In Marketing",
-        "varindia",
-        "Elets CIO"
-      ],
-      "firstAt": "2026-11-17T11:26:17.000Z",
-      "lastAt": "2026-11-22T07:04:27.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ0o3WVBVdUZpWW1pMHN1WmxpcEVkM1Z5RTRnYU1xclRTNk02cElLeFJVYlFaRmNIRjZKQVNZYXVPWWJ3OWR2YVJOMkcxYXJaODFBQThiWFVzZTI1UHBoZjZ4UTgyMFBPdjlNeWhRWFpVU2tXVmM3V3RfMDI5MUxDZE1pbWJEVWw3eEMtNU9yZmNva09nYVZzdzFOdnhnelExSjlITmRva1MzYzdOWm9yMEdwM2R0UE5lZG9kWElFUmlyd3RpZVlCWU5B?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "cohere:2a48f783b658e3"
-      },
-      "importance": 65
-    },
-    {
       "id": "baidu:df7e6af558ae11",
       "title": "Baidu Opens ERNIE 5.5 Flash Preview Under Apache 2.0",
       "entity": "ERNIE 5.5 Flash",
@@ -252,17 +215,15 @@
       "importance": 61
     },
     {
-      "id": "tencent:4a93b756c7c428",
-      "title": "Alibaba Qwen4-Max & Tencent Hy4 Flash Debut Together: 58% Single-Task Cost Cut & 1/8 Competitor Pricing",
+      "id": "qwen:71b90b28d4ef63",
+      "title": "Alibaba launches Qwen4-Max AI model that handles more information at 60% lower cost",
       "entity": "Qwen 4 Max",
       "labs": [
-        "tencent",
         "qwen"
       ],
       "official": 0,
-      "press": 8,
+      "press": 7,
       "outlets": [
-        "36Kr",
         "jawlah.co",
         "Intelligent Living",
         "The Edge Malaysia",
@@ -271,14 +232,14 @@
         "Vietnam.vn",
         "SoyaCincau"
       ],
-      "firstAt": "2026-11-17T02:41:07.000Z",
+      "firstAt": "2026-11-17T15:57:02.000Z",
       "lastAt": "2026-11-23T03:02:34.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBETF9yRDU0bWU0NkRDSmtRV3QzTnl3eUpCaXRnbjF5SVVpcERyVVR5OXFETWl6LXJCM2x3dUNBQkNrSjlnRzNLaDA5Mm5uYklUazFZ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9XeUhxbmhxS1I3MTRIRzduZ0V0X2xYNF9OanNsaDdhWUdYOTBrMDNfOGhoNjlXQmoxTnVwTEJ3WQ?oc=5",
       "lead": {
         "kind": "press",
-        "id": "tencent:4a93b756c7c428"
+        "id": "qwen:71b90b28d4ef63"
       },
-      "importance": 61
+      "importance": 59
     },
     {
       "id": "deepseek:b174677ed95a31",
@@ -364,35 +325,23 @@
       {
         "name": "ERNIE 5.5 Flash",
         "count": 9,
-        "prev": 4,
+        "prev": 3,
         "labs": [
           "baidu"
         ]
       },
       {
         "name": "Gemini 4 Neon",
-        "count": 6,
-        "prev": 25,
+        "count": 5,
+        "prev": 26,
         "labs": [
           "google-deepmind"
         ]
       },
       {
-        "name": "GLM 5.3",
-        "count": 4,
-        "prev": 1,
-        "labs": []
-      },
-      {
         "name": "GLM 5.5",
         "count": 4,
         "prev": 2,
-        "labs": []
-      },
-      {
-        "name": "DeepSeek 4.1 Flash",
-        "count": 4,
-        "prev": 9,
         "labs": []
       },
       {
@@ -402,15 +351,21 @@
         "labs": []
       },
       {
+        "name": "GLM 5.3",
+        "count": 3,
+        "prev": 2,
+        "labs": []
+      },
+      {
         "name": "DeepSeek 4.1 Pro",
         "count": 3,
-        "prev": 3,
+        "prev": 2,
         "labs": []
       },
       {
         "name": "Gemini 4 Carbon",
         "count": 3,
-        "prev": 5,
+        "prev": 4,
         "labs": []
       }
     ],
@@ -424,52 +379,51 @@
           "google-deepmind",
           "openai",
           "cohere",
-          "microsoft",
           "qwen",
-          "amazon",
+          "microsoft",
           "ibm",
+          "amazon",
           "nvidia"
         ]
       },
       {
         "name": "agents",
-        "count": 22,
-        "prev": 79,
+        "count": 20,
+        "prev": 78,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "meta",
           "cohere",
-          "microsoft",
           "qwen",
+          "microsoft",
           "amazon",
           "nvidia"
         ]
       },
       {
         "name": "mcp",
-        "count": 8,
+        "count": 7,
         "prev": 8,
         "labs": [
           "anthropic",
           "openai",
           "mistral",
-          "microsoft",
           "amazon"
         ]
       },
       {
         "name": "multimodal",
-        "count": 7,
-        "prev": 23,
+        "count": 6,
+        "prev": 24,
         "labs": [
           "google-deepmind",
           "openai",
           "cohere",
           "tencent",
-          "amazon",
           "ibm",
+          "amazon",
           "nvidia"
         ]
       },
@@ -480,8 +434,8 @@
         "labs": [
           "openai",
           "mistral",
-          "microsoft",
           "qwen",
+          "microsoft",
           "amazon",
           "nvidia"
         ]

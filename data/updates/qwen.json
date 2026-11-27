@@ -1,5 +1,35 @@
 [
   {
+    "id": "4525f9a7e8d835d3",
+    "lab": "qwen",
+    "title": "Qwen Code sdk-typescript v0.1.39",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.39",
+    "sourceId": "qwen-code",
+    "sourceName": "GitHub · QwenLM/qwen-code",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-27T08:06:02.000Z",
+    "firstSeenAt": "2026-11-27T12:42:03.098Z",
+    "updatedAt": "2026-11-27T08:06:02.000Z",
+    "excerpt": "Bundled CLI Version This SDK release bundles CLI version: 0.28.7 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.28.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.28.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version…",
+    "summary": "Alibaba Qwen shipped Qwen Code sdk-typescript v0.1.39 (patch release) on GitHub.",
+    "benefit": "Small update (fixes/improvements) — generally safe to upgrade; skim the changelog for behavior changes.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "coding"
+    ],
+    "importance": 25,
+    "contentHash": "aace792d20c4",
+    "meta": {
+      "version": "v0.1.39",
+      "semver": "patch",
+      "repo": "QwenLM/qwen-code",
+      "package": "sdk-typescript"
+    }
+  },
+  {
     "id": "a1411dc283e3ca5a",
     "lab": "qwen",
     "title": "Qwen Code v0.28.7",
@@ -1730,7 +1760,7 @@
     "importance": 45,
     "contentHash": "561f1736274c",
     "meta": {
-      "stars": 344,
+      "stars": 345,
       "repo": "QwenLM/BlenderWorld",
       "language": "Python"
     }
@@ -1848,8 +1878,8 @@
     "importance": 80,
     "contentHash": "ba989c597179",
     "meta": {
-      "likes": 1164,
-      "downloads": 29229,
+      "likes": 1165,
+      "downloads": 29110,
       "repo": "Qwen/Qwen-Image-2.1-Turbo",
       "pipeline": "text-to-image",
       "license": "other"
@@ -1997,7 +2027,7 @@
     "contentHash": "d108635bb7df",
     "meta": {
       "likes": 76,
-      "downloads": 6339,
+      "downloads": 6266,
       "repo": "Qwen/Qwen-Image-2.1-PE-I2I",
       "license": "other"
     }
@@ -2027,7 +2057,7 @@
     "contentHash": "2deb903ef0b2",
     "meta": {
       "likes": 79,
-      "downloads": 4652,
+      "downloads": 4603,
       "repo": "Qwen/Qwen-Image-2.1-PE-T2I",
       "pipeline": "text-to-image",
       "license": "other"
@@ -2114,7 +2144,7 @@
     "contentHash": "8adc2e24a56d",
     "meta": {
       "likes": 3764,
-      "downloads": 283561,
+      "downloads": 288064,
       "repo": "Qwen/Qwen-Image-2.1",
       "pipeline": "text-to-image",
       "license": "other"

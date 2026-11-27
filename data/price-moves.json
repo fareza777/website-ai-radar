@@ -1,5 +1,49 @@
 [
   {
+    "id": "d783b9a8c2ae9373",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-27T12:42:03.098Z",
+    "field": "prompt",
+    "from": 0.12,
+    "to": 0.15,
+    "change": 25
+  },
+  {
+    "id": "5e484e8b81c6e756",
+    "modelId": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "lab": "zai",
+    "at": "2026-11-27T12:42:03.098Z",
+    "field": "completion",
+    "from": 0.38,
+    "to": 0.5,
+    "change": 31.6
+  },
+  {
+    "id": "44bb9bd9ba5893b5",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-11-27T12:42:03.098Z",
+    "field": "prompt",
+    "from": 0.035,
+    "to": 0.06,
+    "change": 71.4
+  },
+  {
+    "id": "b0a4824a84f979e5",
+    "modelId": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "lab": "qwen",
+    "at": "2026-11-27T12:42:03.098Z",
+    "field": "completion",
+    "from": 1.5,
+    "to": 1.96,
+    "change": 30.7
+  },
+  {
     "id": "952212b90f8c4269",
     "modelId": "reflection/beam-1.0-501b-a23b",
     "name": "Reflection: Beam 1.0 501B A23B",
