@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T12:42:03.098Z",
+  "generatedAt": "2026-11-27T23:32:09.192Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -9,7 +9,7 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 24,
+      "press": 26,
       "outlets": [
         "TestingCatalog AI News",
         "The Decoder",
@@ -38,7 +38,9 @@
         "Yahoo Finance",
         "The Rundown AI",
         "Technology Org",
+        "Kingy AI",
         "TechTarget",
+        "BigGo Finance",
         "Dealroom"
       ],
       "firstAt": "2026-11-18T10:12:31.000Z",
@@ -49,33 +51,6 @@
         "id": "b898a1b2127c5756"
       },
       "importance": 100
-    },
-    {
-      "id": "549a77347d5e1e5f",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "entity": "GPT 6.2 Astra",
-      "labs": [
-        "amazon",
-        "openai",
-        "tencent"
-      ],
-      "official": 2,
-      "press": 4,
-      "outlets": [
-        "9to5Mac",
-        "The GitHub Blog",
-        "VentureBeat",
-        "AIBase",
-        "CNET"
-      ],
-      "firstAt": "2026-11-17T17:17:00.000Z",
-      "lastAt": "2026-11-19T21:20:10.000Z",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "lead": {
-        "kind": "official",
-        "id": "549a77347d5e1e5f"
-      },
-      "importance": 99
     },
     {
       "id": "f3f6304a8cca8254",
@@ -215,16 +190,15 @@
       "importance": 61
     },
     {
-      "id": "qwen:71b90b28d4ef63",
-      "title": "Alibaba launches Qwen4-Max AI model that handles more information at 60% lower cost",
+      "id": "qwen:c481f42563434a",
+      "title": "Qwen4-Max Is Here: Alibaba’s 2.4T Agent Powerhouse Tested",
       "entity": "Qwen 4 Max",
       "labs": [
         "qwen"
       ],
       "official": 0,
-      "press": 7,
+      "press": 6,
       "outlets": [
-        "jawlah.co",
         "Intelligent Living",
         "The Edge Malaysia",
         "TNGlobal",
@@ -232,14 +206,14 @@
         "Vietnam.vn",
         "SoyaCincau"
       ],
-      "firstAt": "2026-11-17T15:57:02.000Z",
+      "firstAt": "2026-11-19T01:57:37.000Z",
       "lastAt": "2026-11-23T03:02:34.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9XeUhxbmhxS1I3MTRIRzduZ0V0X2xYNF9OanNsaDdhWUdYOTBrMDNfOGhoNjlXQmoxTnVwTEJ3WQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jcndCb3VrN3ZEdzBkZkJENGRORTlOR2VDNWNYb2pQeWs3eDhZYm5tRDl5eFVveUxGUDMwTTI4ODBvdVc5S21LQ05QYjNwcmtFdnRuZ1R2N1c1dGpWaF82a01oUW5PMlZQdUFvLWFYUTNqZw?oc=5",
       "lead": {
         "kind": "press",
-        "id": "qwen:71b90b28d4ef63"
+        "id": "qwen:c481f42563434a"
       },
-      "importance": 59
+      "importance": 58
     },
     {
       "id": "deepseek:b174677ed95a31",
@@ -265,6 +239,54 @@
         "id": "deepseek:b174677ed95a31"
       },
       "importance": 57
+    },
+    {
+      "id": "zai:35e63ce7d8fcfd",
+      "title": "GLM-5.5 reportedly runs late as US chip curbs reach the rental counter",
+      "entity": "GLM 5.5",
+      "labs": [
+        "zai"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "Digg",
+        "explainx.ai",
+        "Seeking Alpha",
+        "Dealroom"
+      ],
+      "firstAt": "2026-11-25T15:31:49.000Z",
+      "lastAt": "2026-11-27T06:59:22.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9JZEt3NEZXQzVjTk84cVdzQWhhcnhkSDI0VEI2NzNoODFKbEhCbm0wZkVEMlBWcEtBSnVLRTM1anpfRE0z?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "zai:35e63ce7d8fcfd"
+      },
+      "importance": 56
+    },
+    {
+      "id": "google-deepmind:57dfc08c341b91",
+      "title": "Google’s Gemini 4 lineup splits power, speed and price across four models",
+      "entity": "Gemini 4",
+      "labs": [
+        "google-deepmind"
+      ],
+      "official": 0,
+      "press": 4,
+      "outlets": [
+        "Crypto Briefing",
+        "Fello AI",
+        "Digg",
+        "R&D World"
+      ],
+      "firstAt": "2026-11-19T20:41:21.000Z",
+      "lastAt": "2026-11-25T08:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTY2ZydXZCWHhEbHd5UmdSMXNlM2Y4dFI5bnlpUUdXdllzcUZxdjc2X2V2anNSaGFHT3kxc0F1OG04eGFYQUFFcm5JWkhod2lnakhtbndNeDZ2eFQ2VklBX01xTWRLZ3BNdERvOGpXeXVoQQ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "google-deepmind:57dfc08c341b91"
+      },
+      "importance": 56
     },
     {
       "id": "google-deepmind:f7c033fac72451",
@@ -312,6 +334,51 @@
         "id": "openai:ba4322098de37e"
       },
       "importance": 54
+    },
+    {
+      "id": "tencent:2a9f78e3203445",
+      "title": "AI Daily: Tencent open-sources Hy4 flash; Microsoft releases image model MAI Image 2.7; OpenAI officially announces GPT-6.2 Astra and Sol",
+      "entity": "GPT 6.2 Astra",
+      "labs": [
+        "tencent",
+        "openai"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "AIBase",
+        "CNET"
+      ],
+      "firstAt": "2026-11-18T15:17:10.000Z",
+      "lastAt": "2026-11-19T21:20:10.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE04dWdfVS04Umh3azR2OC02Mjl5OURVVWd0X2l3YUZ2cGludlpWejJ5QnBudmxvNTE3aDZOYW1jLXU4Z3haQjdxcTRiTQ?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "tencent:2a9f78e3203445"
+      },
+      "importance": 54
+    },
+    {
+      "id": "ai21:b85ebde374e793",
+      "title": "AI21 Labs - 2026 Funding Rounds & List of Investors",
+      "entity": null,
+      "labs": [
+        "ai21",
+        "bytedance"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Tracxn"
+      ],
+      "firstAt": "2026-11-22T08:14:35.000Z",
+      "lastAt": "2026-11-24T15:59:51.000Z",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYTIwYmxaa1dRclZXRzFsZUc5dTVUVW5nSUlaazF0ZVdvNkZ4UklkS2pzUk5ySFFwSnJvU1FIM1BWNDdvV0ZJa3gtRERqYlhvWVB6SWswTElCVG9KN2l0eUI5N3p3eGwzVFRNMzdDN2lRdHE2Wmc5TVRvMkdudlpSV3JwT3FEYjVUSVp6bEstQ1ZvdjF5TmRsWWYzTnZSS2lTdFJCaDRLVERHaVRI?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "ai21:b85ebde374e793"
+      },
+      "importance": 52
     }
   ],
   "trending": {
@@ -325,15 +392,15 @@
       {
         "name": "ERNIE 5.5 Flash",
         "count": 9,
-        "prev": 3,
+        "prev": 1,
         "labs": [
           "baidu"
         ]
       },
       {
         "name": "Gemini 4 Neon",
-        "count": 5,
-        "prev": 26,
+        "count": 6,
+        "prev": 27,
         "labs": [
           "google-deepmind"
         ]
@@ -341,7 +408,19 @@
       {
         "name": "GLM 5.5",
         "count": 4,
-        "prev": 2,
+        "prev": 3,
+        "labs": []
+      },
+      {
+        "name": "Mistral Large 4",
+        "count": 3,
+        "prev": 0,
+        "labs": []
+      },
+      {
+        "name": "Gemini 4",
+        "count": 3,
+        "prev": 1,
         "labs": []
       },
       {
@@ -357,55 +436,69 @@
         "labs": []
       },
       {
-        "name": "DeepSeek 4.1 Pro",
-        "count": 3,
-        "prev": 2,
-        "labs": []
-      },
-      {
         "name": "Gemini 4 Carbon",
         "count": 3,
         "prev": 4,
+        "labs": []
+      },
+      {
+        "name": "DeepSeek 4.1 Flash",
+        "count": 3,
+        "prev": 10,
         "labs": []
       }
     ],
     "topics": [
       {
         "name": "coding",
-        "count": 23,
-        "prev": 45,
+        "count": 22,
+        "prev": 41,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
-          "cohere",
           "qwen",
+          "cohere",
           "microsoft",
-          "ibm",
           "amazon",
+          "ibm",
           "nvidia"
         ]
       },
       {
         "name": "agents",
-        "count": 20,
-        "prev": 78,
+        "count": 21,
+        "prev": 73,
         "labs": [
           "anthropic",
           "google-deepmind",
           "openai",
           "meta",
-          "cohere",
           "qwen",
+          "cohere",
           "microsoft",
           "amazon",
           "nvidia"
         ]
       },
       {
+        "name": "multimodal",
+        "count": 6,
+        "prev": 25,
+        "labs": [
+          "google-deepmind",
+          "openai",
+          "cohere",
+          "tencent",
+          "amazon",
+          "ibm",
+          "nvidia"
+        ]
+      },
+      {
         "name": "mcp",
-        "count": 7,
-        "prev": 8,
+        "count": 5,
+        "prev": 9,
         "labs": [
           "anthropic",
           "openai",
@@ -414,23 +507,9 @@
         ]
       },
       {
-        "name": "multimodal",
-        "count": 6,
-        "prev": 24,
-        "labs": [
-          "google-deepmind",
-          "openai",
-          "cohere",
-          "tencent",
-          "ibm",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "reasoning",
-        "count": 5,
-        "prev": 4,
+        "count": 4,
+        "prev": 5,
         "labs": [
           "openai",
           "mistral",
@@ -443,7 +522,7 @@
       {
         "name": "safety",
         "count": 3,
-        "prev": 9,
+        "prev": 7,
         "labs": [
           "anthropic",
           "openai",
@@ -454,29 +533,16 @@
   },
   "unconfirmed": [
     {
-      "id": "xai:b44f48a28347d4",
-      "lab": "xai",
-      "title": "XAI Founders Unveil New AI Startup to Predict Future Events",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTGtZa3k3Qzc3dzRHeFJVbFRMU2xUTVUxS3BST3kyaWp1ZFVHSGttMGZWcW5HTVFzdktESm1MeTBacTg2MVJnVWlNdjBENTBhSllva0pVdmhscjlOUDEtT1RFalZIREMzMXB1WHc3V1JPejFFOE1YNE8yX1NZOS1UbEp4S1ZtOFZvOFpBcHFwWmhoZTQwWl82QV9CYVhtV09pTk9rd1d4amNQVlgzdGJj?oc=5",
+      "id": "tencent:0e74a161487be6",
+      "lab": "tencent",
+      "title": "Tencent Hunyuan Open-Sources DFly2, a Speculative-Decoding Draft Model",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOODlHbGJlWmJmeGJyaGFhOFY5MTZPVnROSkwtOFVnRzdrYjM4OUo2b0dMRHRteG5BMkpFeFN5ZmdDMENqRTQtd3hnQU1hZjFtdUpDQllsbkw5ZWhsWWJCWTVKbFVRU3NmQ3FmOXk3eVlkcnAzVUYwTlVfazRqeUVQYg?oc=5",
       "outlets": [
-        "Bloomberg.com",
-        "Yahoo Finance",
-        "Yahoo Finance UK"
-      ],
-      "reports": 3,
-      "at": "2026-11-24T16:50:00.000Z"
-    },
-    {
-      "id": "xai:b2921375949a2e",
-      "lab": "xai",
-      "title": "Three xAI co-founders launch Epochal to teach AI to predict the future",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51WmVFakRuTTlobWV4OUQzTTdHd3NYbDRpRmRuZU04bVRkVkp1RlZ6RldzUFJrZFNRVjlram9xVC1VbEFkYXdFX3dyQzlkcGNKZlh0MjQwMFhMOWE2U3BRWEhfZV8yU1lGc3dReHBaTG1INmhhaEN1ZVVsNGx1eVU?oc=5",
-      "outlets": [
-        "The Next Web",
-        "The Rundown AI"
+        "Pandaily",
+        "Wisevoter"
       ],
       "reports": 2,
-      "at": "2026-11-24T20:11:36.000Z"
+      "at": "2026-11-27T07:20:05.000Z"
     }
   ]
 }

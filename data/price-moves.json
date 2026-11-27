@@ -1,5 +1,91 @@
 [
   {
+    "id": "8299457b48674b3d",
+    "modelId": "meta/muse-glimmer-30b",
+    "name": "Meta: Muse Glimmer 30B",
+    "at": "2026-11-27T23:32:09.192Z",
+    "field": "prompt",
+    "from": 0.35,
+    "to": 0.3,
+    "change": -14.3
+  },
+  {
+    "id": "6a89746807fcbeda",
+    "modelId": "meta/muse-glimmer-30b",
+    "name": "Meta: Muse Glimmer 30B",
+    "at": "2026-11-27T23:32:09.192Z",
+    "field": "completion",
+    "from": 1.5,
+    "to": 1.2,
+    "change": -20
+  },
+  {
+    "id": "c6ed52cc38839b8a",
+    "modelId": "moonshotai/kimi-k2.5",
+    "name": "MoonshotAI: Kimi K2.5",
+    "lab": "moonshot",
+    "at": "2026-11-27T23:32:09.192Z",
+    "field": "prompt",
+    "from": 0.5,
+    "to": 0.6,
+    "change": 20
+  },
+  {
+    "id": "341af3fe492f0a61",
+    "modelId": "moonshotai/kimi-k2.5",
+    "name": "MoonshotAI: Kimi K2.5",
+    "lab": "moonshot",
+    "at": "2026-11-27T23:32:09.192Z",
+    "field": "completion",
+    "from": 2.5,
+    "to": 3,
+    "change": 20
+  },
+  {
+    "id": "fc2ed315304a30a0",
+    "modelId": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "lab": "google-deepmind",
+    "at": "2026-11-27T23:32:09.192Z",
+    "field": "prompt",
+    "from": 0.04,
+    "to": 0.05,
+    "change": 25
+  },
+  {
+    "id": "6f589b6021deae18",
+    "modelId": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "lab": "google-deepmind",
+    "at": "2026-11-27T23:32:09.192Z",
+    "field": "completion",
+    "from": 0.05,
+    "to": 0.1,
+    "change": 100
+  },
+  {
+    "id": "3c51c16de3201b70",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-27T23:32:09.192Z",
+    "field": "prompt",
+    "from": 0.71,
+    "to": 0.59,
+    "change": -16.9
+  },
+  {
+    "id": "dfb2f597856891c0",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "lab": "meta",
+    "at": "2026-11-27T23:32:09.192Z",
+    "field": "completion",
+    "from": 0.71,
+    "to": 0.79,
+    "change": 11.3
+  },
+  {
     "id": "d783b9a8c2ae9373",
     "modelId": "z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",

@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-11-28",
+    "generatedAt": "2026-11-27T23:32:09.192Z",
+    "stats": {
+      "updates24h": 3,
+      "labsActive24h": 2,
+      "updates7d": 73,
+      "newModels7d": 13
+    },
+    "source": "template",
+    "headline": "3 updates from 2 AI labs in the last 24 hours · 13 model releases this week.",
+    "bullets": [
+      {
+        "text": "Amazon: Strands Agents SDK harness-typescript v0.6.0",
+        "itemId": "9050718ef5345240",
+        "lab": "amazon"
+      },
+      {
+        "text": "Amazon: Strands Agents SDK harness-python v0.6.0",
+        "itemId": "c5eb7cbed28ae439",
+        "lab": "amazon"
+      },
+      {
+        "text": "Alibaba Qwen: Qwen Code sdk-typescript v0.1.39",
+        "itemId": "4525f9a7e8d835d3",
+        "lab": "qwen"
+      }
+    ]
+  },
+  {
     "date": "2026-11-27",
     "generatedAt": "2026-11-27T12:42:03.098Z",
     "stats": {
@@ -1132,50 +1161,6 @@
         "text": "IBM: How Zurich is shaping the future of algorithms, 70 years in",
         "itemId": "5d55e9b7e8175025",
         "lab": "ibm"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-29",
-    "generatedAt": "2026-10-29T10:08:49.449Z",
-    "stats": {
-      "updates24h": 13,
-      "labsActive24h": 8,
-      "updates7d": 117,
-      "newModels7d": 29
-    },
-    "source": "template",
-    "headline": "13 updates from 8 AI labs in the last 24 hours · 29 model releases this week.",
-    "bullets": [
-      {
-        "text": "Google DeepMind: Gemini 4 Carbon: Our next frontier model",
-        "itemId": "34b0bf3f94c3851e",
-        "lab": "google-deepmind"
-      },
-      {
-        "text": "Microsoft: Introducing the Microsoft Copilot harness in Foundry Agent Service",
-        "itemId": "6f03a38cbdd849f8",
-        "lab": "microsoft"
-      },
-      {
-        "text": "Meta AI: Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
-        "itemId": "7a5fec0b961daf67",
-        "lab": "meta"
-      },
-      {
-        "text": "OpenAI: OpenAI and ServiceNow expand partnership across enterprise workflows",
-        "itemId": "75e2017ed4c5a2ec",
-        "lab": "openai"
-      },
-      {
-        "text": "Cohere: Build a Financial Research Assistant with Cohere AI on AWS",
-        "itemId": "cc85fff07433e62d",
-        "lab": "cohere"
-      },
-      {
-        "text": "Amazon: Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
-        "itemId": "21f4761ac0bc4960",
-        "lab": "amazon"
       }
     ]
   }

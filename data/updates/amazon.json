@@ -1,5 +1,65 @@
 [
   {
+    "id": "9050718ef5345240",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-typescript v0.6.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.6.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-27T22:18:38.000Z",
+    "firstSeenAt": "2026-11-27T23:32:09.192Z",
+    "updatedAt": "2026-11-27T22:18:38.000Z",
+    "excerpt": "harness-typescript/v0.6.0 Auto-drafted from commits in harness-typescript/v0.5.0..harness-typescript/v0.6.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(bedrock): place cache points for GPT-5.6+ on Converse, falling back to implicit caching (Python) ( #6607 ) ( c10861c )…",
+    "summary": "Amazon shipped Strands Agents SDK harness-typescript v0.6.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "4e398a35b6d9",
+    "meta": {
+      "version": "v0.6.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-typescript"
+    }
+  },
+  {
+    "id": "c5eb7cbed28ae439",
+    "lab": "amazon",
+    "title": "Strands Agents SDK harness-python v0.6.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.6.0",
+    "sourceId": "strands-agents",
+    "sourceName": "GitHub · strands-agents/sdk-python",
+    "sourceType": "github-releases",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-27T22:18:26.000Z",
+    "firstSeenAt": "2026-11-27T23:32:09.192Z",
+    "updatedAt": "2026-11-27T22:18:26.000Z",
+    "excerpt": "harness-python/v0.6.0 Auto-drafted from commits in harness-python/v0.5.0..harness-python/v0.6.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(bedrock): place cache points for GPT-5.6+ on Converse, falling back to implicit caching (Python) ( #6607 ) ( c10861c ) feat(interventions): add a…",
+    "summary": "Amazon shipped Strands Agents SDK harness-python v0.6.0 (minor release) on GitHub.",
+    "benefit": "New version with notable changes — read the release notes for breaking changes before upgrading.",
+    "summarySource": "template",
+    "category": "developer",
+    "tags": [
+      "agents"
+    ],
+    "importance": 40,
+    "contentHash": "f1df3f3eeb40",
+    "meta": {
+      "version": "v0.6.0",
+      "semver": "minor",
+      "repo": "strands-agents/sdk-python",
+      "package": "harness-python"
+    }
+  },
+  {
     "id": "351ce2751f2a5a6d",
     "lab": "amazon",
     "title": "Strands Agents SDK harness-cli v0.5.0",

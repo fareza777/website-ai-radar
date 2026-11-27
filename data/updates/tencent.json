@@ -118,9 +118,41 @@
     "importance": 61,
     "contentHash": "0fc23db76794",
     "meta": {
-      "likes": 24,
+      "likes": 25,
       "downloads": 1611,
       "repo": "tencent/WeMM-Video-2B",
+      "pipeline": "video-text-to-text",
+      "license": "apache-2.0"
+    }
+  },
+  {
+    "id": "27ab257420c4e0df",
+    "lab": "tencent",
+    "title": "WeMM-Video-4B",
+    "url": "https://huggingface.co/tencent/WeMM-Video-4B",
+    "sourceId": "tencent-hf",
+    "sourceName": "Hugging Face · tencent",
+    "sourceType": "huggingface",
+    "trust": "official",
+    "verified": true,
+    "publishedAt": "2026-11-17T08:57:07.000Z",
+    "firstSeenAt": "2026-11-27T23:32:09.192Z",
+    "updatedAt": "2026-11-17T08:57:07.000Z",
+    "excerpt": "video-text-to-text · license: apache-2.0",
+    "summary": "Tencent published the WeMM-Video-4B model on Hugging Face for video understanding. License: apache-2.0.",
+    "benefit": "Weights are downloadable for self-hosting or fine-tuning — read the model card and license before production use.",
+    "summarySource": "template",
+    "category": "model",
+    "tags": [
+      "4B",
+      "multimodal"
+    ],
+    "importance": 58,
+    "contentHash": "c13985d011c3",
+    "meta": {
+      "likes": 10,
+      "downloads": 894,
+      "repo": "tencent/WeMM-Video-4B",
       "pipeline": "video-text-to-text",
       "license": "apache-2.0"
     }
@@ -276,7 +308,7 @@
     "importance": 73,
     "contentHash": "0c5e110eebf3",
     "meta": {
-      "likes": 750,
+      "likes": 776,
       "downloads": 12933,
       "repo": "tencent/Hy4-flash",
       "pipeline": "image-text-to-text",
@@ -345,7 +377,7 @@
     "importance": 62,
     "contentHash": "549578f9e47d",
     "meta": {
-      "likes": 27,
+      "likes": 28,
       "downloads": 850,
       "repo": "tencent/Hy-MT3-7B",
       "pipeline": "translation",
@@ -376,7 +408,7 @@
     "importance": 68,
     "contentHash": "ea0c79d82629",
     "meta": {
-      "likes": 180,
+      "likes": 183,
       "downloads": 798,
       "repo": "tencent/Hy-MT3-30B-A3B",
       "pipeline": "translation",
@@ -436,7 +468,7 @@
     "importance": 37,
     "contentHash": "8894e7b099da",
     "meta": {
-      "stars": 99,
+      "stars": 100,
       "repo": "Tencent-Hunyuan/Hy-MT3",
       "language": "Python"
     }
@@ -490,7 +522,7 @@
     "importance": 41,
     "contentHash": "dfa8335339e5",
     "meta": {
-      "stars": 403,
+      "stars": 409,
       "repo": "Tencent-Hunyuan/MovieRoll",
       "language": "Python"
     }
@@ -575,7 +607,7 @@
     "importance": 30,
     "contentHash": "bb62afa42ffa",
     "meta": {
-      "stars": 6,
+      "stars": 7,
       "repo": "Tencent-Hunyuan/ORAV-Bench",
       "language": "Python"
     }
@@ -721,7 +753,7 @@
     "importance": 59,
     "contentHash": "da2d675df551",
     "meta": {
-      "likes": 13,
+      "likes": 14,
       "downloads": 112,
       "repo": "tencent/Hy-Nomas-Diffusers",
       "license": "apache-2.0"
