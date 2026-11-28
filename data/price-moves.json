@@ -1,5 +1,91 @@
 [
   {
+    "id": "f42256259617d86f",
+    "modelId": "thinkingmachines/inkling-2-mini",
+    "name": "Thinking Machines: Inkling 2 Mini",
+    "at": "2026-11-28T07:59:40.758Z",
+    "field": "prompt",
+    "from": 0.075,
+    "to": 0.06,
+    "change": -20
+  },
+  {
+    "id": "80e482e755aa8067",
+    "modelId": "thinkingmachines/inkling-2-mini",
+    "name": "Thinking Machines: Inkling 2 Mini",
+    "at": "2026-11-28T07:59:40.758Z",
+    "field": "completion",
+    "from": 0.3,
+    "to": 0.24,
+    "change": -20
+  },
+  {
+    "id": "c9b5d4f745516bc9",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-28T07:59:40.758Z",
+    "field": "prompt",
+    "from": 0.03,
+    "to": 0.15,
+    "change": 400
+  },
+  {
+    "id": "0091d50cd7b9c7ef",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "lab": "deepseek",
+    "at": "2026-11-28T07:59:40.758Z",
+    "field": "completion",
+    "from": 0.2,
+    "to": 0.6,
+    "change": 200
+  },
+  {
+    "id": "b4d08e07837724b5",
+    "modelId": "deepseek/deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "lab": "deepseek",
+    "at": "2026-11-28T07:59:40.758Z",
+    "field": "prompt",
+    "from": 0.44,
+    "to": 0.2156,
+    "change": -51
+  },
+  {
+    "id": "63c5d46cde0ddbcf",
+    "modelId": "deepseek/deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "lab": "deepseek",
+    "at": "2026-11-28T07:59:40.758Z",
+    "field": "completion",
+    "from": 1.32,
+    "to": 0.6468,
+    "change": -51
+  },
+  {
+    "id": "b4ea694dbd5c381f",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-28T07:59:40.758Z",
+    "field": "prompt",
+    "from": 0.111,
+    "to": 0.0999,
+    "change": -10
+  },
+  {
+    "id": "3101a668977f5e2b",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "lab": "deepseek",
+    "at": "2026-11-28T07:59:40.758Z",
+    "field": "completion",
+    "from": 4.44,
+    "to": 5,
+    "change": 12.6
+  },
+  {
     "id": "8299457b48674b3d",
     "modelId": "meta/muse-glimmer-30b",
     "name": "Meta: Muse Glimmer 30B",

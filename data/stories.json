@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T23:32:09.192Z",
+  "generatedAt": "2026-11-28T07:59:40.758Z",
   "stories": [
     {
       "id": "b898a1b2127c5756",
@@ -9,12 +9,12 @@
         "google-deepmind"
       ],
       "official": 1,
-      "press": 26,
+      "press": 27,
       "outlets": [
+        "Crypto Briefing",
         "TestingCatalog AI News",
         "The Decoder",
         "LinkedIn",
-        "Crypto Briefing",
         "9to5Google",
         "The Defiant",
         "Breakingthenews.net",
@@ -43,7 +43,7 @@
         "BigGo Finance",
         "Dealroom"
       ],
-      "firstAt": "2026-11-18T10:12:31.000Z",
+      "firstAt": "2026-11-18T08:00:00.000Z",
       "lastAt": "2026-11-25T11:17:37.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
       "lead": {
@@ -168,10 +168,11 @@
         "baidu"
       ],
       "official": 0,
-      "press": 6,
+      "press": 9,
       "outlets": [
-        "LMSYS Org",
         "OrcaRouter",
+        "shattered.io",
+        "LMSYS Org",
         "The Defiant",
         "Superpower Daily",
         "MLQ.ai",
@@ -180,14 +181,45 @@
         "AIBase",
         "TechNode"
       ],
-      "firstAt": "2026-11-24T03:26:22.000Z",
-      "lastAt": "2026-11-25T05:09:08.000Z",
+      "firstAt": "2026-11-18T22:43:31.000Z",
+      "lastAt": "2026-11-26T06:36:58.000Z",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQl9qdEdhVzBaUFNVWWNMVmd4ZXhIenF0U1NKYjVNQ3BwdUlMYTcwSjNJeGpEZHo3Zm4tREN2b1RRSTZNaVdyMFJGREJyeUFKR3IzamR0SV9vZmdud0pDNm1hczhLdGx2MTdNaXhCMGp5ZU9vbE1nazF1YWtKMXpCNzV2VUdWVVVvdE1vWXcyMA?oc=5",
       "lead": {
         "kind": "press",
         "id": "baidu:df7e6af558ae11"
       },
-      "importance": 61
+      "importance": 62
+    },
+    {
+      "id": "minimax:b6a76496982bde",
+      "title": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
+      "entity": null,
+      "labs": [
+        "minimax"
+      ],
+      "official": 0,
+      "press": 2,
+      "outlets": [
+        "Reuters",
+        "The Next Web",
+        "Yahoo",
+        "The Indian Express",
+        "Crypto Briefing",
+        "Arise News",
+        "BusinessLine",
+        "The Straits Times",
+        "Caixin Global",
+        "Deccan Chronicle",
+        "The Information"
+      ],
+      "firstAt": "2026-11-26T05:13:00.000Z",
+      "lastAt": "2026-11-26T06:04:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNU9tZmh6STA3Ui1FY1FQaE9LMDgzQjJjV2xoZ3Q1Znlvbk5wdll2OXoyOUdxUHp2WEYteFpvTFBhVDZYbFozTXp5T0RpaE4zUUhBaDhiVDAxUkY2RURGQWFFaE1BRTVmdmdXTDh3UEdReDM5N0pjSjBzUXB3UEpPa05ma2ZoWDZhTzhJbTNFeDBfQllEWS02eHhST1FPRWI0VlRMOEhHanpvUjZpWkNPWEJLS1BlSllaZ25XeTRGUXF3bUZEcE5n?oc=5",
+      "lead": {
+        "kind": "press",
+        "id": "minimax:b6a76496982bde"
+      },
+      "importance": 62
     },
     {
       "id": "qwen:c481f42563434a",
@@ -216,27 +248,27 @@
       "importance": 58
     },
     {
-      "id": "deepseek:b174677ed95a31",
-      "title": "Lebrel Brings Uncensored DeepSeek V4.1 Flash From $0.13 per",
-      "entity": "DeepSeek 4.1 Flash",
+      "id": "google-deepmind:d6cc0e75a5e72e",
+      "title": "Gemini 4 Models Compared: Argon, Carbon, Neon and Hydrogen",
+      "entity": "Gemini 4",
       "labs": [
-        "deepseek"
+        "google-deepmind"
       ],
       "official": 0,
       "press": 5,
       "outlets": [
-        "GlobeNewswire",
-        "Carroll County Mirror-Democrat",
-        "LMSYS Org",
-        "Tom's Hardware",
-        "Mezha.net"
+        "GitHub",
+        "Crypto Briefing",
+        "Fello AI",
+        "Digg",
+        "R&D World"
       ],
-      "firstAt": "2026-11-18T04:25:00.000Z",
-      "lastAt": "2026-11-20T12:40:22.000Z",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOQWZkbEZzQVpsOGNuanRCZm8xZEM3Z2pmVThLZ0ZncEl4M196WjJJWGNNR3VOOVhiUWxOWVIzeV9WM3dDQndxSUUtM0FjY3ZEbXhWR3Y2N0ZxWk5kWEU1WDNmdzJ4XzVTRUtnNm5HczgzTEgzQXZhQlRQSDlrbDFiVGhTRl9lOXkyd195VDBHeW5kR1N0ZW1SaEstNFo0ai1neERNdUh5ZWlHUHNYV3ktenp4UDJHOWFmYTNGVzhUVmJ4d2l4eHRkYkNjSjdSNUU1dnNJTFU0Z2VRVlNfdWJOZ3BqN3hpY1cxVHBBU3FteFY2ZV80RzNVSDh0TS1IVmViSnNjVWpIc3pmaGxRTk9WMzgwc1UzZw?oc=5",
+      "firstAt": "2026-11-19T16:00:00.000Z",
+      "lastAt": "2026-11-25T08:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UQ05GbWNIOXZZekwzZmJPMTdmREZyR0c2NmpzZV9UZDNkRHFDZGVFRUI0TmRxYnFtcTlGMGZ1SHF3b3NkV1hvMG5QR0ZMRjJCUmtYam1POVlvdmlPRjZhcXA3N0RZWkk?oc=5",
       "lead": {
         "kind": "press",
-        "id": "deepseek:b174677ed95a31"
+        "id": "google-deepmind:d6cc0e75a5e72e"
       },
       "importance": 57
     },
@@ -261,30 +293,6 @@
       "lead": {
         "kind": "press",
         "id": "zai:35e63ce7d8fcfd"
-      },
-      "importance": 56
-    },
-    {
-      "id": "google-deepmind:57dfc08c341b91",
-      "title": "Google’s Gemini 4 lineup splits power, speed and price across four models",
-      "entity": "Gemini 4",
-      "labs": [
-        "google-deepmind"
-      ],
-      "official": 0,
-      "press": 4,
-      "outlets": [
-        "Crypto Briefing",
-        "Fello AI",
-        "Digg",
-        "R&D World"
-      ],
-      "firstAt": "2026-11-19T20:41:21.000Z",
-      "lastAt": "2026-11-25T08:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTY2ZydXZCWHhEbHd5UmdSMXNlM2Y4dFI5bnlpUUdXdllzcUZxdjc2X2V2anNSaGFHT3kxc0F1OG04eGFYQUFFcm5JWkhod2lnakhtbndNeDZ2eFQ2VklBX01xTWRLZ3BNdERvOGpXeXVoQQ?oc=5",
-      "lead": {
-        "kind": "press",
-        "id": "google-deepmind:57dfc08c341b91"
       },
       "importance": 56
     },
@@ -391,8 +399,8 @@
       },
       {
         "name": "ERNIE 5.5 Flash",
-        "count": 9,
-        "prev": 1,
+        "count": 11,
+        "prev": 3,
         "labs": [
           "baidu"
         ]
@@ -400,7 +408,7 @@
       {
         "name": "Gemini 4 Neon",
         "count": 6,
-        "prev": 27,
+        "prev": 28,
         "labs": [
           "google-deepmind"
         ]
@@ -418,12 +426,6 @@
         "labs": []
       },
       {
-        "name": "Gemini 4",
-        "count": 3,
-        "prev": 1,
-        "labs": []
-      },
-      {
         "name": "Granite 4.2 3B",
         "count": 3,
         "prev": 1,
@@ -431,6 +433,12 @@
       },
       {
         "name": "GLM 5.3",
+        "count": 3,
+        "prev": 2,
+        "labs": []
+      },
+      {
+        "name": "Gemini 4",
         "count": 3,
         "prev": 2,
         "labs": []
@@ -450,44 +458,44 @@
     ],
     "topics": [
       {
+        "name": "agents",
+        "count": 23,
+        "prev": 74,
+        "labs": [
+          "anthropic",
+          "openai",
+          "google-deepmind",
+          "meta",
+          "cohere",
+          "microsoft",
+          "qwen",
+          "amazon",
+          "nvidia"
+        ]
+      },
+      {
         "name": "coding",
         "count": 22,
         "prev": 41,
         "labs": [
           "anthropic",
-          "google-deepmind",
           "openai",
-          "qwen",
+          "google-deepmind",
           "cohere",
           "microsoft",
+          "qwen",
           "amazon",
           "ibm",
           "nvidia"
         ]
       },
       {
-        "name": "agents",
-        "count": 21,
-        "prev": 73,
-        "labs": [
-          "anthropic",
-          "google-deepmind",
-          "openai",
-          "meta",
-          "qwen",
-          "cohere",
-          "microsoft",
-          "amazon",
-          "nvidia"
-        ]
-      },
-      {
         "name": "multimodal",
         "count": 6,
-        "prev": 25,
+        "prev": 23,
         "labs": [
-          "google-deepmind",
           "openai",
+          "google-deepmind",
           "cohere",
           "tencent",
           "amazon",
@@ -513,8 +521,8 @@
         "labs": [
           "openai",
           "mistral",
-          "qwen",
           "microsoft",
+          "qwen",
           "amazon",
           "nvidia"
         ]
